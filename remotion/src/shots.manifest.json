@@ -552,6 +552,22 @@
   "transparent": false
  },
  {
+  "id": "BroChannelBanner",
+  "durationInSeconds": 1,
+  "fps": 30,
+  "width": 2560,
+  "height": 1440,
+  "transparent": false
+ },
+ {
+  "id": "BroChannelLogo",
+  "durationInSeconds": 1,
+  "fps": 30,
+  "width": 800,
+  "height": 800,
+  "transparent": false
+ },
+ {
   "id": "BroModelSheet",
   "durationInSeconds": 2,
   "fps": 30,

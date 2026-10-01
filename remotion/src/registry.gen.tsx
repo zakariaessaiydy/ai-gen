@@ -69,8 +69,10 @@ import Shot65, { compositionConfig as cfg65 } from './shots/short-6/Short6Sheet'
 import Shot66, { compositionConfig as cfg66 } from './shots/short-7/Short7Kids';
 import Shot67, { compositionConfig as cfg67 } from './shots/short-8/Short8Phish';
 import Shot68, { compositionConfig as cfg68 } from './shots/short-9/Short9Chords';
-import Shot69, { compositionConfig as cfg69 } from './shots/toon-bro/BroModelSheet';
-import Shot70, { compositionConfig as cfg70 } from './shots/vox-1/Vox1Coffee';
+import Shot69, { compositionConfig as cfg69 } from './shots/toon-bro/BroChannelBanner';
+import Shot70, { compositionConfig as cfg70 } from './shots/toon-bro/BroChannelLogo';
+import Shot71, { compositionConfig as cfg71 } from './shots/toon-bro/BroModelSheet';
+import Shot72, { compositionConfig as cfg72 } from './shots/vox-1/Vox1Coffee';
 
 export const shots: { Comp: React.FC; config: any }[] = [
   { Comp: Shot0 as React.FC, config: cfg0 },
@@ -144,4 +146,6 @@ export const shots: { Comp: React.FC; config: any }[] = [
   { Comp: Shot68 as React.FC, config: cfg68 },
   { Comp: Shot69 as React.FC, config: cfg69 },
   { Comp: Shot70 as React.FC, config: cfg70 },
+  { Comp: Shot71 as React.FC, config: cfg71 },
+  { Comp: Shot72 as React.FC, config: cfg72 },
 ];
