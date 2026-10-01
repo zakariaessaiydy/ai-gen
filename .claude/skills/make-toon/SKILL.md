@@ -33,7 +33,8 @@ remotion/src/lib/toon/
                      LightSwitch, KetchupFace (smears on a face),
                      RoadBackdrop (moving road), CarInterior + CarFront (front-view car: driver on
                      the viewer's right, GPS phone on the dash), CityMap (looping route + LAP
-                     counter), House (the destination facade)
+                     counter), House (the destination facade), PartyRoom (disco ball, beams,
+                     party on/off + light switch), DJBooth (turntables, laptop back, big button)
   series/<series>.ts LOCKED cast specs + speaker colours + series name/catchphrase/accent
 remotion/src/shots/
   toon-<series>/<Series>ModelSheet.tsx   the model sheet -> toon-shorts/<series>/character.png
@@ -181,6 +182,10 @@ overlay (EP7's 3AM fridge).
 Any full-screen overlay with a time window (lights out, a tint, a haze) needs BOTH ends in its
 condition. EP6 v1 left the lights-out overlay on after the power came back and blacked out
 the rest of the episode; QA caught it.
+
+Crowds (extras): keep them SMALLER (scale ~0.8) and pushed to the frame edge / foreground so
+they never cover the hero or the joke prop in the opening close-up (EP9 v1 buried Bro under
+three guests). A talking character's gesture arm is the one pointing AWAY from the hero.
 
 Insert shots (a close-up on a prop: the dial, the laptop) must not show stray limbs: force the
 nearby character's arms to 'down' for the insert's duration (EP5).

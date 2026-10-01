@@ -1034,3 +1034,93 @@ export const CityMap: React.FC<{ p: number; loops?: number }> = ({ p, loops = 6 
     </g>
   );
 };
+
+// ---------------------------------------------------------------------------------------------
+// PARTY KIT — party room (disco ball + sweeping beams + glowing floor while `party`; plain room
+// lights when the party is over), wall LIGHT switch slot, and the DJ booth (turntables, laptop
+// seen from the back, the big red button — BUTTON = where a hand slams it).
+// ---------------------------------------------------------------------------------------------
+export const PARTY_SWITCH: [number, number] = [1010, 1000];
+export const PartyRoom: React.FC<{ t: number; party: boolean }> = ({ t, party }) => {
+  const cols = ['#ff006e', '#3a86ff', '#ffbe0b', '#8338ec', '#06d6a0'];
+  return (
+    <g>
+      <rect x={0} y={0} width={1080} height={1460} fill={party ? '#240046' : '#b8b8d1'} />
+      {/* string lights */}
+      <path d="M 0,600 Q 270,680 540,600 Q 810,680 1080,600" fill="none" stroke={INK} strokeWidth={4} />
+      {Array.from({ length: 12 }).map((_, i) => {
+        const x = 45 + i * 90;
+        const y = 600 + Math.sin(((x % 540) / 540) * Math.PI) * 40;
+        return <circle key={i} cx={x} cy={y + 14} r={12} fill={party && Math.sin(t * 6 + i) > -0.3 ? cols[i % 5] : '#6c757d'} stroke={INK} strokeWidth={3} />;
+      })}
+      {/* beams */}
+      {party &&
+        cols.map((c, i) => (
+          <path key={i} d="M 0,0 L -90,1500 L 90,1500 Z" fill={c} opacity={0.18} transform={`translate(540,520) rotate(${Math.sin(t * 1.3 + i * 1.2) * 40 + (i - 2) * 22})`} />
+        ))}
+      {/* disco ball */}
+      <line x1={540} y1={0} x2={540} y2={460} stroke={INK} strokeWidth={5} />
+      <g transform="translate(540,520)">
+        <circle r={62} fill={party ? '#dee2e6' : '#adb5bd'} {...st} />
+        {[-40, -14, 14, 40].map((y) => (
+          <line key={y} x1={-Math.sqrt(62 * 62 - y * y)} y1={y} x2={Math.sqrt(62 * 62 - y * y)} y2={y} stroke="#6c757d" strokeWidth={3} />
+        ))}
+        {[-36, -12, 12, 36].map((x, i) => {
+          const sx = x + (party ? ((t * 40) % 24) : 0);
+          return <line key={i} x1={sx} y1={-58} x2={sx} y2={58} stroke="#6c757d" strokeWidth={3} />;
+        })}
+        {party && <circle cx={-20 + Math.sin(t * 5) * 20} cy={-20} r={9} fill="#ffffff" />}
+      </g>
+      {/* light switch */}
+      <g transform={`translate(${PARTY_SWITCH[0]},${PARTY_SWITCH[1]})`}>
+        <rect x={-30} y={-46} width={60} height={92} rx={8} fill="#f8f9fa" {...st} />
+        <rect x={-10} y={party ? -30 : 0} width={20} height={30} rx={5} fill="#adb5bd" stroke={INK} strokeWidth={4} />
+      </g>
+      {/* dance floor */}
+      <rect x={0} y={1460} width={1080} height={460} fill={party ? '#10002b' : '#8d99ae'} />
+      {Array.from({ length: 5 }).map((_, r) =>
+        Array.from({ length: 6 }).map((__, c) => (
+          <rect
+            key={`${r}-${c}`}
+            x={c * 180 + 6}
+            y={1460 + r * 92 + 6}
+            width={168}
+            height={80}
+            rx={6}
+            fill={party ? cols[(r + c + Math.floor(t * 3)) % 5] : '#adb5bd'}
+            opacity={party ? 0.55 : 0.5}
+          />
+        )),
+      )}
+      <line x1={0} y1={1460} x2={1080} y2={1460} stroke={INK} strokeWidth={7} />
+    </g>
+  );
+};
+
+export const DJ_BUTTON: [number, number] = [705, 1160];
+export const DJBooth: React.FC<{ x: number; y: number; t: number; laptopOn: boolean; pressed?: boolean }> = ({ x, y, t, laptopOn, pressed }) => (
+  <g>
+    {/* laptop (seen from the back) */}
+    <rect x={x - 110} y={y - 150} width={220} height={140} rx={12} fill="#adb5bd" {...st} />
+    <circle cx={x} cy={y - 80} r={18} fill={laptopOn ? '#ffffff' : '#6c757d'} stroke={INK} strokeWidth={4} />
+    {laptopOn && <circle cx={x} cy={y - 80} r={30} fill="#ffffff" opacity={0.25} />}
+    {/* turntables */}
+    {[-1, 1].map((s) => (
+      <g key={s} transform={`translate(${x + s * 175},${y - 12})`}>
+        <ellipse rx={78} ry={22} fill="#1b1b1b" {...st} />
+        <line x1={0} y1={0} x2={Math.cos(t * (laptopOn ? 8 : 0)) * 60} y2={Math.sin(t * (laptopOn ? 8 : 0)) * 16} stroke="#ff006e" strokeWidth={5} />
+      </g>
+    ))}
+    {/* the button */}
+    <g transform={`translate(${DJ_BUTTON[0]},${DJ_BUTTON[1] + (pressed ? 8 : 0)})`}>
+      <rect x={-34} y={-6} width={68} height={22} rx={6} fill="#495057" stroke={INK} strokeWidth={5} />
+      <path d={`M -28,-6 Q 0,${pressed ? -18 : -38} 28,-6 Z`} fill="#e63946" stroke={INK} strokeWidth={5} />
+    </g>
+    {/* booth */}
+    <rect x={x - 260} y={y} width={520} height={34} fill="#3c096c" {...st} />
+    <rect x={x - 240} y={y + 34} width={480} height={1460 - y - 34} fill="#5a189a" {...st} />
+    <text x={x} y={y + 170} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={96} fill={laptopOn ? '#ff70a6' : '#9d4edd'} stroke={INK} strokeWidth={4}>
+      DJ BRO
+    </text>
+  </g>
+);

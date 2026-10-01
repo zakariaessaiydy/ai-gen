@@ -82,7 +82,8 @@
     "toon bro ep-05-crypto",
     "toon bro ep-06-wifi",
     "toon bro ep-07-diet",
-    "toon bro ep-08-gps"
+    "toon bro ep-08-gps",
+    "toon bro ep-09-dj"
    ]
   },
   {
@@ -192,7 +193,8 @@
     "short-55-memory",
     "toon bro ep-03-gym",
     "toon bro ep-04-cook",
-    "toon bro ep-05-crypto"
+    "toon bro ep-05-crypto",
+    "toon bro ep-09-dj"
    ]
   },
   {
@@ -270,7 +272,8 @@
     "toon bro ep-05-crypto",
     "toon bro ep-06-wifi",
     "toon bro ep-07-diet",
-    "toon bro ep-08-gps"
+    "toon bro ep-08-gps",
+    "toon bro ep-09-dj"
    ]
   },
   {
@@ -333,7 +336,8 @@
     "toon bro ep-05-crypto",
     "toon bro ep-06-wifi",
     "toon bro ep-07-diet",
-    "toon bro ep-08-gps"
+    "toon bro ep-08-gps",
+    "toon bro ep-09-dj"
    ]
   },
   {
@@ -415,7 +419,8 @@
     "toon bro ep-05-crypto",
     "toon bro ep-06-wifi",
     "toon bro ep-07-diet",
-    "toon bro ep-08-gps"
+    "toon bro ep-08-gps",
+    "toon bro ep-09-dj"
    ]
   },
   {
@@ -548,7 +553,8 @@
     "short-54-fall",
     "short-56-freeze",
     "toon bro ep-06-wifi",
-    "toon bro ep-07-diet"
+    "toon bro ep-07-diet",
+    "toon bro ep-09-dj"
    ]
   },
   {
@@ -795,7 +801,8 @@
     "short-56-freeze",
     "toon bro ep-03-gym",
     "toon bro ep-05-crypto",
-    "toon bro ep-06-wifi"
+    "toon bro ep-06-wifi",
+    "toon bro ep-09-dj"
    ]
   },
   {
@@ -877,7 +884,8 @@
     "toon bro ep-05-crypto",
     "toon bro ep-06-wifi",
     "toon bro ep-07-diet",
-    "toon bro ep-08-gps"
+    "toon bro ep-08-gps",
+    "toon bro ep-09-dj"
    ]
   },
   {
@@ -912,7 +920,8 @@
     "toon bro ep-05-crypto",
     "toon bro ep-06-wifi",
     "toon bro ep-07-diet",
-    "toon bro ep-08-gps"
+    "toon bro ep-08-gps",
+    "toon bro ep-09-dj"
    ]
   },
   {
@@ -1018,7 +1027,8 @@
     "toon bro ep-05-crypto",
     "toon bro ep-06-wifi",
     "toon bro ep-07-diet",
-    "toon bro ep-08-gps"
+    "toon bro ep-08-gps",
+    "toon bro ep-09-dj"
    ]
   },
   {
@@ -1092,7 +1102,8 @@
     "toon bro ep-05-crypto",
     "toon bro ep-06-wifi",
     "toon bro ep-07-diet",
-    "toon bro ep-08-gps"
+    "toon bro ep-08-gps",
+    "toon bro ep-09-dj"
    ]
   },
   {
@@ -1392,6 +1403,39 @@
    "duration_s": 2.0,
    "used_in": [
     "toon bro ep-04-cook"
+   ]
+  },
+  {
+   "id": "crickets",
+   "file": "clips/crickets.mp3",
+   "desc": "awkward-silence crickets: two chirping voices, 3.0s (the 'nobody laughed' cue)",
+   "function": "content",
+   "source": "ffmpeg aevalsrc (deterministic synth)",
+   "duration_s": 3.0,
+   "used_in": [
+    "toon bro ep-09-dj"
+   ]
+  },
+  {
+   "id": "pc-startup-chime",
+   "file": "clips/pc-startup-chime.mp3",
+   "desc": "generic computer boot chime: soft C-major swell + decay, 2.4s",
+   "function": "content",
+   "source": "ffmpeg aevalsrc (deterministic synth)",
+   "duration_s": 2.4,
+   "used_in": [
+    "toon bro ep-09-dj"
+   ]
+  },
+  {
+   "id": "low-battery",
+   "file": "clips/low-battery.mp3",
+   "desc": "device low-battery tone: high blip then low blip, 0.9s",
+   "function": "content",
+   "source": "ffmpeg aevalsrc (deterministic synth)",
+   "duration_s": 0.9,
+   "used_in": [
+    "toon bro ep-09-dj"
    ]
   }
  ]
