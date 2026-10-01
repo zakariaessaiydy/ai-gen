@@ -55,6 +55,30 @@ an empty file.
    y1330 in every camera framing. Check this in QA, it's the #1 bug (EP1 hit it 3 times).
 7. **No CTA outros**, no "follow for part 2". The signature ending IS the outro.
 
+## Comedy writing rules (the script is the product; a pretty unfunny episode is a failure)
+
+The user rejected EP1 v1 ("no one will laugh"): one predictable joke stretched over 30s.
+v2 (`ep-01-business/script.md`) is the bar every episode is held to:
+
+1. **A punchline every 3–4 seconds.** Write the jokes FIRST and the connecting lines after.
+   If 5 seconds pass without a laugh, cut or add a joke.
+2. **Second 1 is a joke, not just setup.** Claim → instant deflation → he doubles down
+   ("I quit my job" / "You don't have a job" / "That's how fast I quit").
+3. **The engine is doubling down.** He never admits a failure; every humiliation turns
+   into a dumber justification. That is the character.
+4. **Setup → beat of silence → short punchline.** Punchlines are 1–4 words and start with
+   "..." ("...The price." "...Hater."); leave a 0.5–0.7s gap before them in beats.json.
+5. **Rule of three + escalation:** each round of pushback is worse than the last, and the
+   third breaks the pattern.
+6. **Let the straight man say the audience's thought** ("Ten dollars? For water?").
+7. **Plant before payoff:** the thing that destroys him is visible in frame before anyone
+   mentions it.
+8. **End on "bro math":** a conclusion that's dumb but *almost* logical ("saved $10… so I'm
+   up nine"). People argue about it in the comments, and that's how a video spreads.
+9. **2–3 quotable lines per episode**, short enough to be a comment.
+10. **Self-check before animating:** read the script out loud and mark each laugh. Fewer than
+    6 laughs in 35s means rewrite it. Never animate a script you wouldn't laugh at.
+
 ## Stage 1 — the episode script
 
 Pick from `toon-shorts/<series>/IDEAS.md` (🟡 = next up), or invent one that fits the
@@ -72,6 +96,11 @@ premise. Then write `script.md` (beat table: time | on screen | line) and `beats
   `visual` notes.
 - Bro series: the catchphrase is said exactly twice (full in setup, short as the last line),
   plus one cope line at camera mid-episode.
+- **Timing workflow:** write the lines with rough times, run gen_voice once to get the real
+  clip lengths, then PACK the timeline (0.2–0.3s between replies, 0.5–0.7s before a
+  punchline, room for walks, cuts and cards) and run it again (cached, so it's free). Derive
+  every animation cue from the VO times in the TSX (`S(i)`/`E(i)`, see Bro01Business.tsx),
+  never hard-coded seconds, so a retime never breaks the animation.
 
 ## Stage 2 — the composition
 

@@ -8,7 +8,7 @@ Status: ✅ made · 🟡 next up · (blank) idea
 
 | # | Title (title bar) | Plan → escalation → cope line | Sets / extras |
 |---|---|---|---|
-| ✅ 1 | Bro thought he could get rich in ONE day | Sells ONE water bottle for $10 → store sells it for $1 → he drinks his own stock. *"I invested in myself."* | Room, Street, customer |
+| ✅ 1 | Bro thought he could get rich in ONE day | "I quit my job" / "you don't have one" / "that's how fast I quit" → ONE bottle at $10, "premium… the price" → "do they have ME?" "that's why it's $1" → drinks his stock: "saved $10… so I'm up nine." | Room, Street, customer |
 | 🟡 2 | Bro said he'd wake up at 5AM | Alarm set, motivational speech to Dee → 5:00 snooze → 5:01 snooze → wakes up at 2PM. *"5AM… in Tokyo."* | Room (+ bed, clock) |
 | 🟡 3 | Bro tried to impress her at the gym | Flexes, loads the bar → can't lift it → gets stuck under it, she helps him. *"I was spotting HER."* | Gym (new set), girl extra |
 | 4 | Bro thinks he can cook | Pro-chef talk → sets off the smoke alarm → orders delivery. *"Deconstructed dinner."* | Kitchen (new set) |

@@ -1,6 +1,7 @@
 // BRO THINKS HE'S HIM · EP 1 — "Bro thought he could get rich in ONE day"
-// toon-shorts/bro/ep-01-business. All cues are GLOBAL seconds (toon convention: no nested
-// Sequences). Scenes: ROOM 0–8.4 · STREET 8.4–20.5 · card 20.5–22 · SUNSET 22–26.5 · SIGNATURE.
+// toon-shorts/bro/ep-01-business. Every cue is derived from the VO line times (S(i)/E(i) = start/end
+// of line i in vo.gen.ts), so re-voicing or re-timing a line moves its animation with it.
+// Scenes: ROOM (hook + plan) · STREET (the stand) · 3 HOURS LATER · SUNSET (bro math) · SIGNATURE.
 import React from 'react';
 import { AbsoluteFill } from 'remotion';
 import { Toon, faceAt } from '../../lib/toon/rig';
@@ -29,7 +30,7 @@ import { VO } from './vo.gen';
 
 export const compositionConfig = {
   id: 'Bro01Business',
-  durationInSeconds: 30,
+  durationInSeconds: 39.4,
   fps: 30,
   width: 1080,
   height: 1920,
@@ -48,11 +49,21 @@ const CUSTOMER = extra('customer', {
 
 const COLORS = { ...SPEAKER_COLORS, customer: '#ffb4a2' };
 
-// scene boundaries
-const ROOM_END = 8.4;
-const CARD = [20.5, 22.0] as const;
-const SUNSET = 22.0;
-const SIG = 26.5;
+// line i of the script (see beats.json vo[]): 0 quit · 1 no job · 2 how fast · 3 trust me ·
+// 4 millionaire · 5 phase one · 6 ten dollars? · 7 premium · 8 what makes it · 9 the price ·
+// 10 one dollar there · 11 do they have ME · 12 that's why · 13 hater · 14 how much ·
+// 15 saved ten · 16 bought it for a dollar · 17 up nine · 18 I got this
+const S = (i: number) => VO[i].start;
+const E = (i: number) => VO[i].end;
+
+const ROOM_END = E(4) + 0.35;
+const CUST_IN: [number, number] = [E(5) + 0.15, S(6) - 0.1];
+const CUST_OUT: [number, number] = [E(12) + 0.15, E(12) + 1.3];
+const STARE = S(13) - 0.45;
+const CARD: [number, number] = [E(13) + 0.5, E(13) + 1.9];
+const SUNSET = CARD[1];
+const SIG = E(17) + 0.6;
+const TOTAL = compositionConfig.durationInSeconds;
 
 // placements (feet, stage px)
 const ROOM_BRO = { x: 650, y: 1490 };
@@ -65,119 +76,121 @@ const [bfx, bfy] = faceAt(ROOM_BRO.x, ROOM_BRO.y);
 const [sfx, sfy] = faceAt(ST_BRO.x, ST_BRO.y);
 const [cfx, cfy] = faceAt(SIT_BRO.x, SIT_BRO.y, 1, 'sit');
 
+// one camera shot: hard cut in at t1, slow drift until t2
+type F = { z: number; x: number; y: number; rot?: number };
+const shot = (t1: number, t2: number, a: F, b: F = a): CamKey[] => [
+  { t: t1, ...a, cut: true },
+  { t: t2 - 0.01, ...b },
+];
+const WIDE: F = { z: 1, x: 540, y: 960 };
+
 const CAM: CamKey[] = [
   // ROOM
-  { t: 0, z: 1.75, x: bfx, y: bfy + 70 },
-  { t: 2.3, z: 1.84, x: bfx, y: bfy + 70 },
-  { t: 2.45, z: 1.0, x: 540, y: 960, cut: true },
-  { t: 3.95, z: 1.0, x: 540, y: 960 },
-  { t: 3.96, z: 1.62, x: bfx, y: bfy + 170, cut: true },
-  { t: 6.3, z: 1.7, x: bfx, y: bfy + 170 },
-  { t: 6.31, z: 1.22, x: 620, y: 930, rot: -5, cut: true },
-  { t: 8.39, z: 1.34, x: 640, y: 900, rot: -6 },
+  ...shot(0, S(1) - 0.05, { z: 1.75, x: bfx, y: bfy + 70 }, { z: 1.84, x: bfx, y: bfy + 70 }),
+  ...shot(S(1) - 0.05, S(2) - 0.05, WIDE),
+  ...shot(S(2) - 0.05, S(3) - 0.1, { z: 1.45, x: bfx - 20, y: bfy + 200 }, { z: 1.5, x: bfx - 20, y: bfy + 200 }),
+  ...shot(S(3) - 0.1, S(4) - 0.05, { z: 1.62, x: bfx, y: bfy + 170 }, { z: 1.7, x: bfx, y: bfy + 170 }),
+  ...shot(S(4) - 0.05, ROOM_END, { z: 1.22, x: 620, y: 930, rot: -5 }, { z: 1.34, x: 640, y: 900, rot: -6 }),
   // STREET
-  { t: 8.4, z: 1.0, x: 540, y: 960, cut: true },
-  { t: 11.6, z: 1.06, x: 520, y: 960 },
-  { t: 11.61, z: 1.15, x: 560, y: 1000, cut: true },
-  { t: 12.75, z: 1.15, x: 560, y: 1000 },
-  { t: 12.76, z: 1.72, x: sfx, y: sfy + 115, cut: true },
-  { t: 14.3, z: 1.78, x: sfx, y: sfy + 115 },
-  { t: 14.31, z: 1.25, x: 640, y: 1000, cut: true },
-  { t: 15.0, z: 1.25, x: 640, y: 1000 },
-  { t: 15.6, z: 1.85, x: 935, y: 990 },
-  { t: 16.3, z: 1.9, x: 935, y: 990 },
-  { t: 16.31, z: 1.0, x: 540, y: 960, cut: true },
-  { t: 18.0, z: 1.0, x: 540, y: 960 },
-  { t: 18.01, z: 2.05, x: sfx, y: sfy + 70, cut: true },
-  { t: 20.5, z: 2.2, x: sfx, y: sfy + 70 },
+  ...shot(ROOM_END, S(6) - 0.05, WIDE, { z: 1.06, x: 520, y: 960 }),
+  ...shot(S(6) - 0.05, S(9) - 0.35, { z: 1.15, x: 560, y: 1000 }, { z: 1.18, x: 560, y: 1000 }),
+  ...shot(S(9) - 0.35, S(10) - 0.05, { z: 1.72, x: sfx, y: sfy + 115 }, { z: 1.82, x: sfx, y: sfy + 115 }),
+  { t: S(10) - 0.05, z: 1.25, x: 640, y: 1000, cut: true },
+  { t: S(10) + 0.5, z: 1.25, x: 640, y: 1000 },
+  { t: S(10) + 1.1, z: 1.85, x: 935, y: 990 },
+  { t: S(11) - 0.21, z: 1.88, x: 935, y: 990 },
+  ...shot(S(11) - 0.2, S(12) - 0.1, { z: 1.45, x: sfx + 40, y: sfy + 190 }, { z: 1.55, x: sfx + 40, y: sfy + 190 }),
+  ...shot(S(12) - 0.1, STARE, WIDE),
+  ...shot(STARE, CARD[0], { z: 2.05, x: sfx, y: sfy + 70 }, { z: 2.2, x: sfx, y: sfy + 70 }),
   // SUNSET
-  { t: 22.0, z: 1.08, x: 450, y: 1000, cut: true },
-  { t: 24.2, z: 1.1, x: 450, y: 1000 },
-  { t: 24.21, z: 1.55, x: cfx, y: cfy + 170, cut: true },
-  { t: SIG, z: 1.6, x: cfx, y: cfy + 160 },
+  ...shot(SUNSET, S(15) - 0.15, { z: 1.08, x: 450, y: 1000 }, { z: 1.1, x: 450, y: 1000 }),
+  ...shot(S(15) - 0.15, S(16) - 0.1, { z: 1.55, x: cfx, y: cfy + 170 }, { z: 1.6, x: cfx, y: cfy + 170 }),
+  ...shot(S(16) - 0.1, S(17) - 0.35, { z: 1.08, x: 450, y: 1000 }, { z: 1.1, x: 450, y: 1000 }),
+  ...shot(S(17) - 0.35, SIG, { z: 1.6, x: cfx, y: cfy + 150 }, { z: 1.68, x: cfx, y: cfy + 150 }),
   // SIGNATURE — the push into THE STARE
+  { t: SIG, z: 1.6, x: cfx, y: cfy + 160, cut: true },
   { t: SIG + 0.9, z: 1.85, x: cfx, y: cfy + 120 },
-  { t: 30, z: 1.95, x: cfx, y: cfy + 120 },
+  { t: TOTAL, z: 1.95, x: cfx, y: cfy + 120 },
 ];
 
-// customer path: walks in 10.3–11.6, walks out 16.3–17.7
-const customerX = (t: number) => {
-  if (t < 16.3) return 1300 - 540 * prog(t, 10.3, 11.6);
-  return 760 + 560 * prog(t, 16.3, 17.7);
-};
-const customerWalking = (t: number) => (t >= 10.3 && t < 11.6) || (t >= 16.3 && t < 17.7);
+const customerX = (t: number) =>
+  t < CUST_OUT[0] ? 1300 - 540 * prog(t, CUST_IN[0], CUST_IN[1]) : 760 + 560 * prog(t, CUST_OUT[0], CUST_OUT[1]);
+const customerWalking = (t: number) => (t >= CUST_IN[0] && t < CUST_IN[1]) || (t >= CUST_OUT[0] && t < CUST_OUT[1]);
+
+// hand to the temple — the "big brain" tap (IK target relative to the shoulder)
+const TEMPLE = { to: [-30, -245] as [number, number] };
 
 const RoomScene: React.FC<{ t: number }> = ({ t }) => {
-  const m = lipSync(VO, 'bro', t);
-  const deeTalks = talking(VO, 'dee', t);
-  const phase = t < 2.45 ? 'hook' : t < 3.96 ? 'ask' : t < 6.31 ? 'catch' : 'plan';
+  const phase = t < S(1) - 0.05 ? 'quit' : t < S(2) - 0.05 ? 'nojob' : t < S(3) - 0.1 ? 'fast' : t < S(4) - 0.05 ? 'catch' : 'plan';
   return (
     <>
       <Room />
-      <Rays x={bfx} y={bfy} t={t} from={6.31} to={ROOM_END} />
+      <Rays x={bfx} y={bfy} t={t} from={S(4) - 0.05} to={ROOM_END} />
       <Toon
         spec={DEE}
         x={ROOM_DEE.x}
         y={ROOM_DEE.y}
         scale={ROOM_DEE.s}
-        expr={phase === 'plan' ? 'side-eye' : 'annoyed'}
-        look={phase === 'plan' ? [0.6, -0.3] : [0.7, 0]}
+        expr={phase === 'plan' || phase === 'fast' ? 'side-eye' : 'annoyed'}
+        look={[0.7, 0]}
         mouth={lipSync(VO, 'dee', t)}
         armL="cross"
-        armR={deeTalks ? 'shrug' : 'cross'}
+        armR={talking(VO, 'dee', t) ? 'shrug' : 'cross'}
       />
       <Toon
         spec={BRO}
         x={ROOM_BRO.x}
         y={ROOM_BRO.y}
-        expr={phase === 'hook' ? 'smug' : phase === 'ask' ? 'smug' : 'confident'}
-        look={phase === 'ask' ? [-0.9, 0] : [0, 0]}
-        mouth={m}
-        armL={phase === 'catch' ? 'hip' : phase === 'plan' ? 'hip' : 'hip'}
-        armR={phase === 'catch' ? 'gun' : phase === 'plan' ? 'point-up' : 'hip'}
-        tilt={phase === 'plan' ? -4 : 0}
+        expr={phase === 'quit' || phase === 'nojob' ? 'smug' : 'confident'}
+        look={phase === 'nojob' ? [-0.9, 0] : [0, 0]}
+        mouth={lipSync(VO, 'bro', t)}
+        armL="hip"
+        armR={phase === 'fast' || phase === 'catch' ? 'gun' : phase === 'plan' ? 'point-up' : 'hip'}
+        handL={phase === 'fast' ? 'gun' : undefined}
+        tilt={phase === 'plan' ? -4 : phase === 'fast' ? 5 : 0}
       />
-      <Sparkles x={bfx + 40} y={bfy - 20} t={t} at={4.5} spread={190} />
+      <Sparkles x={bfx + 40} y={bfy - 20} t={t} at={S(3) + 0.5} spread={190} />
     </>
   );
 };
 
 const StreetScene: React.FC<{ t: number }> = ({ t }) => {
-  const m = lipSync(VO, 'bro', t);
-  const cx = customerX(t);
-  const shock = t >= 16.3 && t < 18.0;
-  const stare = t >= 18.0;
-  const presenting = t >= 8.9 && t < 10.6;
-  const proud = t >= 12.76 && t < 14.31;
+  const stare = t >= STARE;
+  const shock = t >= S(12) - 0.1 && !stare;
+  const flex = t >= S(11) - 0.2 && t < S(12) - 0.1;
+  const proud = t >= S(9) - 0.35 && t < S(10) - 0.05;
+  const pitching = (t >= ROOM_END + 0.2 && t < CUST_IN[0] + 0.4) || (t >= S(7) && t < E(7) + 0.2);
   return (
     <>
       <Street deal="WATER $1" />
+      <Rays x={sfx} y={sfy + 60} t={t} from={S(11) - 0.2} to={S(12) - 0.1} />
       <Toon
         spec={BRO}
         x={ST_BRO.x}
         y={ST_BRO.y}
-        expr={stare ? 'deadpan' : shock ? 'shock' : proud ? 'smug' : 'confident'}
-        look={stare ? [0, 0] : shock ? [1, 0] : t >= 11.0 ? [0.9, 0] : [0, 0]}
-        mouth={m}
-        armL={presenting ? 'present' : stare ? 'cross' : 'hip'}
-        armR={presenting ? 'present' : proud ? 'thumb' : stare ? 'cross' : shock ? 'shrug' : 'hip'}
+        expr={stare ? 'deadpan' : shock ? 'shock' : proud ? 'smug' : flex ? 'confident' : 'confident'}
+        look={stare || proud || flex ? [0, 0] : shock ? [1, 0] : t >= CUST_IN[0] ? [0.9, 0] : [0, 0]}
+        mouth={lipSync(VO, 'bro', t)}
+        armL={flex ? 'flex' : pitching ? 'present' : stare ? 'cross' : 'hip'}
+        armR={flex ? 'flex' : pitching ? 'present' : proud ? 'thumb' : stare ? 'cross' : shock ? 'shrug' : 'hip'}
         sweat={shock}
       />
       {/* a tall stand: its sign must sit ABOVE the caption band in the wide shot */}
       <Table x={ST_BRO.x} y={1140} w={340} sign="WATER $10" />
       <Bottle x={ST_BRO.x + 90} y={1142} level={1} />
-      <Sparkles x={ST_BRO.x + 90} y={1040} t={t} at={9.2} spread={90} />
+      <Sparkles x={ST_BRO.x + 90} y={1040} t={t} at={S(5) + 0.1} spread={90} />
+      <Sparkles x={sfx} y={sfy + 300} t={t} at={S(11) + 0.75} spread={120} />
       <Toon
         spec={CUSTOMER}
-        x={cx}
+        x={customerX(t)}
         y={1490}
         scale={0.97}
-        expr={t >= 14.31 ? 'annoyed' : 'side-eye'}
+        expr={t >= S(12) - 0.1 ? 'annoyed' : t >= S(10) - 0.05 ? 'side-eye' : t >= S(8) ? 'side-eye' : 'shock'}
         look={[-0.9, 0]}
         mouth={lipSync(VO, 'customer', t)}
         legs={customerWalking(t) ? 'walk' : 'stand'}
         walk={t * 1.8}
-        armR={t >= 14.9 && t < 16.3 ? 'point' : 'down'}
+        armR={t >= S(10) + 0.35 && t < S(11) - 0.2 ? 'point' : t >= S(6) && t < E(6) + 0.2 ? 'shrug' : 'down'}
         armL="down"
       />
     </>
@@ -185,9 +198,11 @@ const StreetScene: React.FC<{ t: number }> = ({ t }) => {
 };
 
 const SunsetScene: React.FC<{ t: number }> = ({ t }) => {
-  const drinking = t < 24.2;
-  const level = drinking ? 0.6 - 0.6 * prog(t, SUNSET + 0.2, 24.0) : 0;
+  const drinking = t < S(15) - 0.15;
+  const level = drinking ? 0.6 - 0.6 * prog(t, SUNSET + 0.2, E(14)) : 0;
   const sig = t >= SIG;
+  const brain = t >= S(17) - 0.35 && !sig;
+  const deeTalks = talking(VO, 'dee', t);
   return (
     <>
       <Street deal="WATER $1" sunset={1} />
@@ -198,26 +213,28 @@ const SunsetScene: React.FC<{ t: number }> = ({ t }) => {
         x={SUN_DEE.x}
         y={SUN_DEE.y}
         scale={SUN_DEE.s}
-        expr="annoyed"
+        expr={t >= S(17) ? 'side-eye' : 'annoyed'}
         look={[0.8, 0.1]}
         mouth={lipSync(VO, 'dee', t)}
         armL="cross"
-        armR={talking(VO, 'dee', t) ? 'shrug' : 'cross'}
+        armR={t >= S(16) && t < E(16) + 0.2 ? 'point' : deeTalks ? 'shrug' : 'cross'}
       />
       <Toon
         spec={BRO}
         x={SIT_BRO.x}
         y={SIT_BRO.y}
         legs="sit"
-        expr={sig ? 'deadpan' : drinking ? 'happy' : 'smug'}
-        look={sig ? [0, 0] : [-0.6, 0]}
+        expr={sig ? 'deadpan' : drinking ? 'happy' : brain ? 'smug' : 'confident'}
+        look={sig || brain ? [0, 0] : [-0.6, 0]}
         mouth={lipSync(VO, 'bro', t)}
-        armL={sig ? 'down' : 'hip'}
+        armL={brain ? TEMPLE : sig ? 'down' : 'hip'}
+        handL={brain ? 'point' : undefined}
         armR={drinking ? 'drink' : 'hold'}
         holdR={<Bottle anchor="center" level={level} />}
         holdRotR={drinking ? -55 : 0}
-        tilt={drinking ? -7 : 0}
+        tilt={drinking ? -7 : brain ? 4 : 0}
       />
+      <Sparkles x={cfx - 170} y={cfy - 60} t={t} at={E(17) - 0.1} spread={110} color="#ffe066" />
     </>
   );
 };
@@ -225,10 +242,12 @@ const SunsetScene: React.FC<{ t: number }> = ({ t }) => {
 export default function Bro01Business() {
   const t = useT();
   const cam = camAt(t, CAM);
-  const shake = [shakeAt(t, 4.0, 16), shakeAt(t, ROOM_END, 22), shakeAt(t, 18.01, 10)].reduce(
-    (a, b) => [a[0] + b[0], a[1] + b[1]] as [number, number],
-    [0, 0] as [number, number],
-  );
+  const shake = [
+    shakeAt(t, S(3) - 0.1, 16),
+    shakeAt(t, ROOM_END, 22),
+    shakeAt(t, S(9) - 0.35, 8),
+    shakeAt(t, STARE, 10),
+  ].reduce((a, b) => [a[0] + b[0], a[1] + b[1]] as [number, number], [0, 0] as [number, number]);
   const inCard = t >= CARD[0] && t < CARD[1];
   return (
     <AbsoluteFill style={{ background: '#000' }}>
@@ -245,7 +264,7 @@ export default function Bro01Business() {
       <Cut from={0} to={SIG}>
         <TitleBar title="Bro thought he could get rich in ONE day" series={SERIES.name} ep={1} accent={SERIES.accent} />
       </Cut>
-      <SignatureStamp at={SIG} stampAt={27.35} text="I GOT THIS." accent={SERIES.accent} />
+      <SignatureStamp at={SIG} stampAt={S(18) + 0.25} text="I GOT THIS." accent={SERIES.accent} />
       {/* the signature line is carried by the stamp — no caption over it */}
       {!inCard && t < SIG && <DialogueCaptions lines={VO} colors={COLORS} y={1385} />}
     </AbsoluteFill>
