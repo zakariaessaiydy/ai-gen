@@ -22,7 +22,9 @@ remotion/src/lib/toon/
                      equations, the series' recurring payoff visual), signatureFilter + SignatureStamp
   sets.tsx           Room (night 0..1), Street (Mini Mart + joke poster slot), Table, Bottle, Crate,
                      Bed, Blanket, Nightstand, AlarmClock (time + ring),
-                     Gym (wall clock joke slot), SquatRack, Barbell (readable plate label)
+                     Gym (wall clock joke slot), SquatRack, Barbell (readable plate label),
+                     Kitchen (door, SMOKE ALARM, char), Counter + StoveDial, Pan, Flames, Smoke,
+                     Phone (screen text), PizzaBox
   series/<series>.ts LOCKED cast specs + speaker colours + series name/catchphrase/accent
 remotion/src/shots/
   toon-<series>/<Series>ModelSheet.tsx   the model sheet -> toon-shorts/<series>/character.png
@@ -158,7 +160,9 @@ Rig vocabulary (see rig.tsx for all of it):
   the bed (the head ends up at x − 790·scale), then `<Blanket>` drawn after it (see Bro025am.tsx)
 - `arm`: down · hip · point · point-up · wave · gun · hold · shrug · cross · flex · drink ·
   facepalm · thumb · present · `{a,b}` angles · `{to:[dx,dy]}` IK reach
-- `legs`: stand · wide · walk (pass `walk={t*1.8}`) · sit
+- `legs`: stand · wide · walk (pass `walk={t*1.8}`; `t*0.8` reads as slow-mo) · sit
+- `shadesDown`: the shades on Bro's cap come down over his eyes (the action-hero moment)
+- walking TOWARD camera = grow `scale` and push `y` down together (EP4's action walk)
 - props: `<Bottle anchor="center" level>` in a hand via `holdR` + `holdRotR`
 
 Prop gags must be STAGED for the camera: a prop held in a raised hand goes behind the head

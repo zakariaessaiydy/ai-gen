@@ -337,3 +337,196 @@ export const SquatRack: React.FC<{ x: number; y: number; hookY: number; w?: numb
     <rect x={x - w / 2 - 18} y={hookY - 350} width={w + 36} height={30} fill="#5c677d" {...st} />
   </g>
 );
+
+// ---------------------------------------------------------------------------------------------
+// KITCHEN — door (left, `doorOpen` for a delivery), upper cabinets, SMOKE ALARM (joke slot,
+// `beeping` + t blinks it), fridge (right), backsplash, `char` 0..1 scorch above the stove.
+// Draw <Kitchen>, then whoever stands BEHIND the counter, then <Counter> (it hides their legs).
+// ---------------------------------------------------------------------------------------------
+export const SMOKE_ALARM: [number, number] = [930, 540];
+export const Kitchen: React.FC<{ doorOpen?: number; beeping?: boolean; t?: number; char?: number }> = ({
+  doorOpen = 0,
+  beeping = false,
+  t = 0,
+  char = 0,
+}) => {
+  const led = beeping && Math.sin(t * 18) > 0;
+  return (
+    <g>
+      <rect x={0} y={0} width={1080} height={1460} fill="#ffe8a3" />
+      {/* door */}
+      <rect x={30} y={620} width={230} height={840} fill="#3d2a1e" {...st} />
+      <g transform={`translate(30,620) scale(${1 - 0.75 * doorOpen},1)`}>
+        <rect x={0} y={0} width={230} height={840} fill="#bc8a5f" {...st} />
+        <rect x={30} y={40} width={170} height={300} rx={8} fill="none" stroke={INK} strokeWidth={5} opacity={0.5} />
+        <rect x={30} y={400} width={170} height={380} rx={8} fill="none" stroke={INK} strokeWidth={5} opacity={0.5} />
+        <circle cx={200} cy={440} r={12} fill="#f2c14e" stroke={INK} strokeWidth={5} />
+      </g>
+      {/* upper cabinets */}
+      {[290, 530].map((x) => (
+        <g key={x}>
+          <rect x={x} y={440} width={240} height={260} fill="#81b29a" {...st} />
+          <circle cx={x + 120 + (x === 290 ? 90 : -90)} cy={660} r={9} fill={INK} />
+        </g>
+      ))}
+      {/* backsplash */}
+      <rect x={270} y={960} width={520} height={220} fill="#ffffff" {...st} />
+      {[1015, 1070, 1125].map((y) => (
+        <line key={y} x1={270} y1={y} x2={790} y2={y} stroke="#cfd8dc" strokeWidth={4} />
+      ))}
+      {[340, 410, 480, 550, 620, 690, 760].map((x) => (
+        <line key={x} x1={x} y1={960} x2={x} y2={1180} stroke="#cfd8dc" strokeWidth={4} />
+      ))}
+      {char > 0 && <ellipse cx={445} cy={980} rx={190} ry={260} fill="#1a1a1a" opacity={0.55 * char} />}
+      {/* smoke alarm */}
+      <g transform={`translate(${SMOKE_ALARM[0]},${SMOKE_ALARM[1]})`}>
+        <circle r={44} fill="#ffffff" {...st} />
+        <circle r={24} fill="none" stroke="#cfd8dc" strokeWidth={5} />
+        <circle cx={22} cy={-20} r={8} fill={led ? '#ff3b30' : '#7a1f1f'} />
+        {beeping &&
+          [1, 2].map((k) => (
+            <path key={k} d={`M ${-60 - k * 22},${-30} Q ${-75 - k * 22},0 ${-60 - k * 22},30`} fill="none" stroke={INK} strokeWidth={6} strokeLinecap="round" opacity={led ? 1 : 0.3} />
+          ))}
+      </g>
+      {/* fridge */}
+      <rect x={800} y={640} width={260} height={820} rx={18} fill="#e9ecef" {...st} />
+      <line x1={800} y1={960} x2={1060} y2={960} {...st} />
+      <rect x={820} y={700} width={14} height={180} rx={6} fill="#adb5bd" />
+      <rect x={820} y={1000} width={14} height={220} rx={6} fill="#adb5bd" />
+      <rect x={0} y={1460} width={1080} height={460} fill="#b08968" />
+      {[1540, 1640, 1760].map((y) => (
+        <line key={y} x1={0} y1={y} x2={1080} y2={y} stroke="#9c6644" strokeWidth={6} />
+      ))}
+      <line x1={0} y1={1460} x2={1080} y2={1460} stroke={INK} strokeWidth={7} />
+    </g>
+  );
+};
+
+// counter + stove front (draw AFTER the character behind it). STOVE_DIAL = the joke knob.
+export const STOVE_DIAL: [number, number] = [445, 1262];
+export const Counter: React.FC<{ dial?: number; dialGone?: boolean }> = ({ dial = 0, dialGone = false }) => (
+  <g>
+    <rect x={260} y={1180} width={540} height={36} fill="#8d99ae" {...st} />
+    <rect x={270} y={1216} width={520} height={244} fill="#f1faee" {...st} />
+    {/* stove front */}
+    <rect x={330} y={1216} width={230} height={244} fill="#2b2d42" {...st} />
+    <rect x={355} y={1300} width={180} height={120} rx={12} fill="#11131f" stroke="#8d99ae" strokeWidth={5} />
+    {[370, 520].map((x) => (
+      <circle key={x} cx={x} cy={1262} r={16} fill="#adb5bd" stroke={INK} strokeWidth={5} />
+    ))}
+    <StoveDial x={STOVE_DIAL[0]} y={STOVE_DIAL[1]} turn={dial} gone={dialGone} />
+    <line x1={665} y1={1216} x2={665} y2={1460} {...st} />
+    <circle cx={640} cy={1330} r={9} fill={INK} />
+    <circle cx={690} cy={1330} r={9} fill={INK} />
+  </g>
+);
+
+// the knob: turn 0..1 sweeps OFF→MAX (0..270°); past 1 it keeps going (he forces it); gone = snapped off
+export const StoveDial: React.FC<{ x: number; y: number; turn?: number; gone?: boolean }> = ({ x, y, turn = 0, gone }) => (
+  <g transform={`translate(${x},${y})`}>
+    {[
+      ['OFF', -135],
+      ['LOW', -45],
+      ['HIGH', 45],
+      ['MAX', 135],
+    ].map(([l, a]) => (
+      <text
+        key={l as string}
+        x={Math.sin(((a as number) * Math.PI) / 180) * 44}
+        y={-Math.cos(((a as number) * Math.PI) / 180) * 44 + 5}
+        textAnchor="middle"
+        fontFamily={FONT_TOON}
+        fontWeight={700}
+        fontSize={14}
+        fill={l === 'MAX' ? '#ff6b6b' : '#ffffff'}
+      >
+        {l}
+      </text>
+    ))}
+    {gone ? (
+      <circle r={8} fill="#11131f" stroke="#8d99ae" strokeWidth={4} />
+    ) : (
+      <g transform={`rotate(${-135 + 270 * turn})`}>
+        <circle r={24} fill="#e9ecef" stroke={INK} strokeWidth={5} />
+        <rect x={-4} y={-24} width={8} height={20} rx={3} fill="#e63946" />
+      </g>
+    )}
+  </g>
+);
+
+// frying pan on a burner; origin = pan centre
+export const Pan: React.FC<{ x: number; y: number }> = ({ x, y }) => (
+  <g transform={`translate(${x},${y})`}>
+    <rect x={70} y={-12} width={140} height={22} rx={10} fill="#2b2b2b" {...st} />
+    <path d="M -95,-14 L 95,-14 L 80,22 L -80,22 Z" fill="#3a3a3a" {...st} />
+    <ellipse cx={0} cy={-14} rx={95} ry={16} fill="#1f1f1f" {...st} />
+  </g>
+);
+
+// flickering cartoon flames; origin = base centre, size 0..n
+export const Flames: React.FC<{ x: number; y: number; size: number; t: number }> = ({ x, y, size, t }) => {
+  if (size <= 0) return null;
+  const tongues = [-0.55, -0.2, 0.15, 0.5, 0];
+  return (
+    <g transform={`translate(${x},${y}) scale(${size})`}>
+      {tongues.map((dx, i) => {
+        const h = 150 + 60 * Math.sin(t * 13 + i * 1.7) + (i === 4 ? 70 : 0);
+        const w = 70 + (i === 4 ? 30 : 0);
+        const px = dx * 160;
+        return (
+          <g key={i}>
+            <path d={`M ${px - w},0 Q ${px - w},${-h * 0.55} ${px + Math.sin(t * 9 + i) * 20},${-h} Q ${px + w},${-h * 0.55} ${px + w},0 Z`} fill="#ff7b00" stroke={INK} strokeWidth={6} />
+            <path d={`M ${px - w * 0.5},0 Q ${px - w * 0.5},${-h * 0.35} ${px + Math.sin(t * 11 + i) * 12},${-h * 0.62} Q ${px + w * 0.5},${-h * 0.35} ${px + w * 0.5},0 Z`} fill="#ffd60a" />
+          </g>
+        );
+      })}
+    </g>
+  );
+};
+
+// rising smoke puffs from a source; amount 0..1 thickens it. Pair with a grey haze overlay.
+export const Smoke: React.FC<{ x: number; y: number; t: number; amount: number }> = ({ x, y, t, amount }) => {
+  if (amount <= 0) return null;
+  return (
+    <g opacity={Math.min(1, amount * 1.2)}>
+      {Array.from({ length: 9 }).map((_, i) => {
+        const p = (t * 0.35 + i / 9) % 1;
+        const r = 50 + p * 140 * (0.6 + amount);
+        return (
+          <circle
+            key={i}
+            cx={x + Math.sin(i * 2.3 + p * 4) * 80 * p}
+            cy={y - p * 700}
+            r={r}
+            fill={i % 2 ? '#8d8d8d' : '#a8a8a8'}
+            opacity={0.55 * (1 - p)}
+          />
+        );
+      })}
+    </g>
+  );
+};
+
+// phone with a screen; origin = centre
+export const Phone: React.FC<{ lines?: string[]; scale?: number }> = ({ lines = ['RECIPE', '3 HRS'], scale = 1 }) => (
+  <g transform={`scale(${scale})`}>
+    <rect x={-42} y={-78} width={84} height={156} rx={14} fill="#22223b" {...st} />
+    <rect x={-32} y={-62} width={64} height={120} rx={6} fill="#e0fbfc" />
+    {lines.map((l, i) => (
+      <text key={i} x={0} y={-30 + i * 34} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={18} fill={INK}>
+        {l}
+      </text>
+    ))}
+  </g>
+);
+
+// pizza box (held flat); origin = centre
+export const PizzaBox: React.FC<{ scale?: number }> = ({ scale = 1 }) => (
+  <g transform={`scale(${scale})`}>
+    <rect x={-130} y={-24} width={260} height={48} rx={6} fill="#e9c46a" {...st} />
+    <rect x={-130} y={-24} width={260} height={14} fill="#d4a373" stroke={INK} strokeWidth={5} />
+    <text x={0} y={18} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={24} fill="#e63946">
+      PIZZA
+    </text>
+  </g>
+);

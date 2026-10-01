@@ -65,6 +65,7 @@ export type ToonProps = {
   lean?: number; // whole-body lean, degrees
   squash?: number; // 0..1 vertical squash (landings, gasps)
   sweat?: boolean;
+  shadesDown?: boolean; // the shades parked on the cap come down over the eyes (action-hero moment)
   shadow?: boolean;
   blink?: boolean;
 };
@@ -369,7 +370,7 @@ const Brows: React.FC<{ spec: ToonSpec; e: ExprDef }> = ({ spec, e }) => (
   </g>
 );
 
-const Hair: React.FC<{ spec: ToonSpec; layer: 'back' | 'front' }> = ({ spec, layer }) => {
+const Hair: React.FC<{ spec: ToonSpec; layer: 'back' | 'front'; shadesDown?: boolean }> = ({ spec, layer, shadesDown }) => {
   const st = { stroke: spec.ink, strokeWidth: 7, strokeLinejoin: 'round' as const };
   if (spec.hair === 'cap-back') {
     const cap = spec.cap ?? '#e63946';
@@ -388,7 +389,7 @@ const Hair: React.FC<{ spec: ToonSpec; layer: 'back' | 'front' }> = ({ spec, lay
         <path d="M -100,-166 Q -88,-120 -86,-80" fill="none" stroke="rgba(0,0,0,0.18)" strokeWidth={6} />
         <path d="M 100,-166 Q 88,-120 86,-80" fill="none" stroke="rgba(0,0,0,0.18)" strokeWidth={6} />
         <circle cx={0} cy={-186} r={10} fill={cap} {...st} />
-        {spec.shadesOnHead && (
+        {spec.shadesOnHead && !shadesDown && (
           <g transform="translate(0,-150) scale(0.9)">
             <rect x={-92} y={-22} width={78} height={46} rx={20} fill="#16181d" {...st} />
             <rect x={14} y={-22} width={78} height={46} rx={20} fill="#16181d" {...st} />
@@ -452,6 +453,7 @@ export const Toon: React.FC<ToonProps> = ({
   lean = 0,
   squash = 0,
   sweat = false,
+  shadesDown = false,
   shadow = true,
   blink = true,
 }) => {
@@ -498,8 +500,19 @@ export const Toon: React.FC<ToonProps> = ({
       <circle cx={150} cy={6} r={30} fill={spec.skin} {...st} />
       <ellipse cx={0} cy={0} rx={150} ry={160} fill={spec.skin} {...st} />
       <Face spec={spec} e={e} look={look} mouth={mouth} blinkLid={blinkLid} clipId={clipId} />
-      <Hair spec={spec} layer="front" />
+      <Hair spec={spec} layer="front" shadesDown={shadesDown} />
       <Brows spec={spec} e={e} />
+      {shadesDown && spec.shadesOnHead && (
+        <g>
+          <rect x={-104} y={-40} width={92} height={60} rx={24} fill="#16181d" stroke={ink} strokeWidth={7} />
+          <rect x={12} y={-40} width={92} height={60} rx={24} fill="#16181d" stroke={ink} strokeWidth={7} />
+          <path d="M -12,-18 Q 0,-26 12,-18" fill="none" stroke={ink} strokeWidth={7} />
+          <line x1={-104} y1={-22} x2={-146} y2={-30} stroke={ink} strokeWidth={7} strokeLinecap="round" />
+          <line x1={104} y1={-22} x2={146} y2={-30} stroke={ink} strokeWidth={7} strokeLinecap="round" />
+          <path d="M -86,-26 L -62,-26" stroke="#ffffff" strokeWidth={7} strokeLinecap="round" opacity={0.6} />
+          <path d="M 30,-26 L 54,-26" stroke="#ffffff" strokeWidth={7} strokeLinecap="round" opacity={0.6} />
+        </g>
+      )}
       {sweat && (
         <path d="M 150,-90 Q 172,-50 162,-36 Q 146,-26 140,-44 Q 138,-60 150,-90 Z" fill="#8fd3ff" stroke={ink} strokeWidth={5} />
       )}

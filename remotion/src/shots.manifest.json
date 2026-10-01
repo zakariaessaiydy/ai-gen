@@ -32,6 +32,14 @@
   "transparent": false
  },
  {
+  "id": "Bro04Cook",
+  "durationInSeconds": 38,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "Short1Chess",
   "durationInSeconds": 42,
   "fps": 30,

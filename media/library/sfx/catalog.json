@@ -77,7 +77,8 @@
     "short-54-fall",
     "short-55-memory",
     "short-56-freeze",
-    "toon bro ep-03-gym"
+    "toon bro ep-03-gym",
+    "toon bro ep-04-cook"
    ]
   },
   {
@@ -122,7 +123,8 @@
     "short-53-borders",
     "short-54-fall",
     "short-56-freeze",
-    "toon bro ep-02-5am"
+    "toon bro ep-02-5am",
+    "toon bro ep-04-cook"
    ]
   },
   {
@@ -182,7 +184,8 @@
     "short-51-talk",
     "short-54-fall",
     "short-55-memory",
-    "toon bro ep-03-gym"
+    "toon bro ep-03-gym",
+    "toon bro ep-04-cook"
    ]
   },
   {
@@ -255,7 +258,8 @@
     "short-54-fall",
     "short-56-freeze",
     "toon bro ep-02-5am",
-    "toon bro ep-03-gym"
+    "toon bro ep-03-gym",
+    "toon bro ep-04-cook"
    ]
   },
   {
@@ -313,7 +317,8 @@
     "short-55-memory",
     "short-56-freeze",
     "toon bro ep-02-5am",
-    "toon bro ep-03-gym"
+    "toon bro ep-03-gym",
+    "toon bro ep-04-cook"
    ]
   },
   {
@@ -462,7 +467,8 @@
     "short-53-borders",
     "short-54-fall",
     "short-55-memory",
-    "short-56-freeze"
+    "short-56-freeze",
+    "toon bro ep-04-cook"
    ]
   },
   {
@@ -631,7 +637,8 @@
     "short-54-fall",
     "short-55-memory",
     "toon bro ep-02-5am",
-    "toon bro ep-03-gym"
+    "toon bro ep-03-gym",
+    "toon bro ep-04-cook"
    ]
   },
   {
@@ -835,7 +842,8 @@
     "short-47-autopilot",
     "short-53-borders",
     "short-54-fall",
-    "toon bro ep-03-gym"
+    "toon bro ep-03-gym",
+    "toon bro ep-04-cook"
    ]
   },
   {
@@ -865,7 +873,8 @@
     "short-47-autopilot",
     "short-54-fall",
     "toon bro ep-02-5am",
-    "toon bro ep-03-gym"
+    "toon bro ep-03-gym",
+    "toon bro ep-04-cook"
    ]
   },
   {
@@ -966,7 +975,8 @@
     "short-55-memory",
     "short-56-freeze",
     "toon bro ep-02-5am",
-    "toon bro ep-03-gym"
+    "toon bro ep-03-gym",
+    "toon bro ep-04-cook"
    ]
   },
   {
@@ -1034,7 +1044,8 @@
     "short-54-fall",
     "short-56-freeze",
     "toon bro ep-02-5am",
-    "toon bro ep-03-gym"
+    "toon bro ep-03-gym",
+    "toon bro ep-04-cook"
    ]
   },
   {
@@ -1174,7 +1185,8 @@
     "short-55-memory",
     "short-56-freeze",
     "toon bro ep-02-5am",
-    "toon bro ep-03-gym"
+    "toon bro ep-03-gym",
+    "toon bro ep-04-cook"
    ]
   },
   {
@@ -1204,7 +1216,8 @@
     "short-47-autopilot",
     "short-50-thunder",
     "short-55-memory",
-    "toon bro ep-03-gym"
+    "toon bro ep-03-gym",
+    "toon bro ep-04-cook"
    ]
   },
   {
@@ -1229,7 +1242,8 @@
    "prompt": "A deep muffled launch thump, like a distant mortar or a rocket igniting far away: a soft round low-frequency push with a short body and a gentle tail. Warm and restrained, no sharp crack, no explosion debris, no reverb tail of a war film. Dry, clean, close to a felt mallet on a large drum.",
    "used_in": [
     "short-12-orbit",
-    "short-50-thunder"
+    "short-50-thunder",
+    "toon bro ep-04-cook"
    ]
   },
   {
@@ -1311,7 +1325,19 @@
    "source": "ffmpeg aevalsrc (deterministic synth)",
    "duration_s": 2.0,
    "used_in": [
-    "toon bro ep-02-5am"
+    "toon bro ep-02-5am",
+    "toon bro ep-04-cook"
+   ]
+  },
+  {
+   "id": "doorbell-dingdong",
+   "file": "clips/doorbell-dingdong.mp3",
+   "desc": "classic two-tone doorbell ding-dong (E5 → C5), 2.0s",
+   "function": "content",
+   "source": "ffmpeg aevalsrc (deterministic synth)",
+   "duration_s": 2.0,
+   "used_in": [
+    "toon bro ep-04-cook"
    ]
   }
  ]
