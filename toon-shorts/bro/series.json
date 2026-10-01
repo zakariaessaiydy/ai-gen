@@ -1,0 +1,34 @@
+{
+  "series": "bro",
+  "name": "BRO THINKS HE'S HIM",
+  "role": "THE SERIES BIBLE — every episode is checked against this. The visual source of truth is remotion/src/lib/toon/series/bro.ts (the locked ToonSpecs); character.png is its rendered model sheet (BroModelSheet).",
+  "locked": "2026-10-01",
+  "rule": "NEVER change a locked spec (BRO, DEE) inside an episode. New one-off characters are extra(...) specs in the episode file. A change to a locked character is a SERIES decision: edit series/bro.ts, re-render BroModelSheet -> character.png, and note it here.",
+  "premise": "A guy with total main-character confidence and zero results. Every episode he declares a plan, says the catchphrase, and reality humiliates him in escalating steps — and he never admits it.",
+  "hero": {
+    "id": "bro",
+    "name": "Bro",
+    "look": "red BACKWARDS cap with the brim peeking out (the silhouette tell), black shades parked on the cap, white tank top, gold chain with medallion, grey joggers, white kicks with red swoosh, goatee",
+    "personality": "100% confidence, 0% competence. Never panics for long; reframes every failure as a win ('market research', 'investing in myself').",
+    "catchphrase": "Trust me. I got this.",
+    "rule_catchphrase": "Said ONCE in the setup (full: 'Trust me. I got this.') and ONCE as the final line (short: 'I got this.'). Never more — scarcity keeps it funny.",
+    "signature_ending": "THE STARE: the world drains to grey, letterbox bars slam in, the camera pushes into his face (expr 'deadpan': half-lidded eyes at camera, one brow up), he says 'I got this.' and the I GOT THIS. stamp slams down (SignatureStamp). ~3s, every episode, same timing shape.",
+    "voice": {"elevenlabs": "TX3LPaxmHKxFdv7VOQHJ (Liam — audition)", "edge": "en-US-ChristopherNeural +6%", "delivery": "fast, cocky, a smile in the voice; slows down on the brag word"}
+  },
+  "cast": {
+    "dee": {
+      "name": "Dee",
+      "role": "best friend, voice of reason, the audience's face. Asks the question that sets Bro off and the question that exposes him.",
+      "look": "curly black hair, round glasses, teal hoodie, blue jeans",
+      "voice": {"elevenlabs": "ErXwobaYiN019PkySvjV (Antoni — audition)", "edge": "en-US-EricNeural +4%", "delivery": "flat, tired, deadpan"}
+    }
+  },
+  "format": {
+    "length_s": "25-35",
+    "title_bar": "meme-style white box, stays on screen until the signature: 'Bro thought he could ...' / 'Bro tried to ...' (always starts with 'Bro')",
+    "series_tag": "red pill above the title: BRO THINKS HE'S HIM · EP N",
+    "beat_grammar": ["HOOK 0-2.5s: Bro close-up, a big confident claim, title already up (frame 0 composed)", "SETUP: Dee asks / Bro answers with 'Trust me. I got this.' + punch-in + shake", "SMASH CUT to the 'plan' in action (the reveal of how small/dumb it is)", "ESCALATE x2-3: reality pushes back, each step worse; plant the punchline visually BEFORE it's said", "THE STARE mid-episode at camera with a cope line ('...market research.')", "optional TIME CARD (3 HOURS LATER) for the twist", "TWIST: the final, worst outcome — he still frames it as a win", "SIGNATURE ENDING ~3s"],
+    "captions": "speaker-coloured: Bro yellow #ffd23f, Dee teal #7fe7dc, extras get their own colour",
+    "sets": "Room, Street (Mini Mart with a joke poster slot) — add new sets to lib/toon/sets.tsx as the series needs them"
+  }
+}

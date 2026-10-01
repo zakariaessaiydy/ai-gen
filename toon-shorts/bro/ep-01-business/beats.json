@@ -1,0 +1,168 @@
+{
+  "id": "ep-01-business",
+  "series": "bro",
+  "episode": 1,
+  "title": "Bro thought he could get rich in ONE day",
+  "composition": "Bro01Business",
+  "audience": "anyone who has had a friend with a 'business plan'",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 30.0
+  },
+  "voicePlan": "elevenlabs",
+  "cast": {
+    "bro": {
+      "elevenlabs": "TX3LPaxmHKxFdv7VOQHJ",
+      "edge": "en-US-ChristopherNeural",
+      "rate": "+6%"
+    },
+    "dee": {
+      "elevenlabs": "ErXwobaYiN019PkySvjV",
+      "edge": "en-US-EricNeural",
+      "rate": "+4%"
+    },
+    "customer": {
+      "elevenlabs": "VR6AewLTigWG4xSOukaa",
+      "edge": "en-US-GuyNeural",
+      "rate": "+0%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "bro",
+      "start": 0.2,
+      "end": 2.3,
+      "text": "I'm done working for other people."
+    },
+    {
+      "beat": "ask",
+      "speaker": "dee",
+      "start": 2.55,
+      "end": 3.85,
+      "text": "Bro. What's the plan?"
+    },
+    {
+      "beat": "catch",
+      "speaker": "bro",
+      "start": 4.0,
+      "end": 5.6,
+      "text": "Trust me. I got this."
+    },
+    {
+      "beat": "plan",
+      "speaker": "bro",
+      "start": 6.35,
+      "end": 8.2,
+      "text": "I'm starting a business."
+    },
+    {
+      "beat": "reveal",
+      "speaker": "bro",
+      "start": 9.0,
+      "end": 10.3,
+      "text": "Entrepreneurship."
+    },
+    {
+      "beat": "customer",
+      "speaker": "customer",
+      "start": 11.7,
+      "end": 12.6,
+      "text": "How much?"
+    },
+    {
+      "beat": "price",
+      "speaker": "bro",
+      "start": 12.8,
+      "end": 14.1,
+      "text": "Ten dollars."
+    },
+    {
+      "beat": "burn",
+      "speaker": "customer",
+      "start": 14.35,
+      "end": 16.2,
+      "text": "It's one dollar at the store."
+    },
+    {
+      "beat": "stare",
+      "speaker": "bro",
+      "start": 18.3,
+      "end": 20.2,
+      "text": "...Market research."
+    },
+    {
+      "beat": "later",
+      "speaker": "dee",
+      "start": 22.4,
+      "end": 23.9,
+      "text": "Did you sell anything?"
+    },
+    {
+      "beat": "twist",
+      "speaker": "bro",
+      "start": 24.3,
+      "end": 26.3,
+      "text": "I invested in myself."
+    },
+    {
+      "beat": "signature",
+      "speaker": "bro",
+      "start": 27.2,
+      "end": 28.4,
+      "text": "I got this."
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0.0,
+      "end": 2.45,
+      "visual": "Frame 0 composed: Bro close-up in his room, smug, hands on hips, title bar up. 'I'm done working for other people.'"
+    },
+    {
+      "id": "setup",
+      "start": 2.45,
+      "end": 8.4,
+      "visual": "Cut wide: Dee asks the plan. Punch-in + shake on 'Trust me. I got this.' (catchphrase #1, finger guns, sparkles). Dutch angle + god rays on 'I'm starting a business.'"
+    },
+    {
+      "id": "reveal",
+      "start": 8.4,
+      "end": 11.6,
+      "visual": "SMASH CUT to the street: a folding table, ONE water bottle, sign WATER $10. Behind him the MINI MART poster says WATER $1 (planted, unexplained). Customer walks in."
+    },
+    {
+      "id": "escalate",
+      "start": 11.6,
+      "end": 18.0,
+      "visual": "'How much?' / close-up 'Ten dollars.' (proud) / customer points at the store; camera pans to the WATER $1 poster; customer walks off."
+    },
+    {
+      "id": "stare",
+      "start": 18.0,
+      "end": 20.5,
+      "visual": "THE STARE at camera: '...Market research.'"
+    },
+    {
+      "id": "later",
+      "start": 20.5,
+      "end": 22.0,
+      "visual": "Time card: 3 HOURS LATER."
+    },
+    {
+      "id": "twist",
+      "start": 22.0,
+      "end": 26.5,
+      "visual": "Sunset. Bro on a crate DRINKING his only inventory. Dee: 'Did you sell anything?' Bro, empty bottle: 'I invested in myself.'"
+    },
+    {
+      "id": "signature",
+      "start": 26.5,
+      "end": 30.0,
+      "visual": "Series signature: grey-out, letterbox, push into THE STARE, 'I got this.' + I GOT THIS. stamp."
+    }
+  ]
+}

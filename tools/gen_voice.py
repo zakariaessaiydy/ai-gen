@@ -26,6 +26,12 @@ Usage:
 
 ffmpeg/ffprobe on PATH.
 Default voice: ElevenLabs premade "Liam" / Edge "en-US-AndrewMultilingualNeural".
+
+DIALOGUE (multi-voice): a vo line may carry "speaker": "<id>", and beats.json a "cast" map
+  "cast": {"bro": {"elevenlabs": "<voice id>", "edge": "en-US-...", "rate": "+10%"}, ...}
+Each line is then voiced by its speaker's voice for the active engine (falling back to
+--voice), and the speaker is emitted into vo.gen.ts so the composition can lip-sync the
+right character. Lines without a speaker are narration and use --voice as before.
 """
 import argparse
 import hashlib
@@ -267,7 +273,8 @@ def emit_ts(vo, path):
         ws = ", ".join(
             "{ w: '%s', start: %s, end: %s }" % (w["w"].replace("\\", "\\\\").replace("'", "\\'"), w["start"], w["end"])
             for w in line.get("words", []))
-        lines.append(f"  {{ text: '{esc}', start: {line['start']}, end: {line['end']}, words: [{ws}] }},")
+        spk = f"speaker: '{line['speaker']}', " if line.get("speaker") else ""
+        lines.append(f"  {{ {spk}text: '{esc}', start: {line['start']}, end: {line['end']}, words: [{ws}] }},")
     lines += ["];", ""]
     body = "\n".join(lines)
     # only touch the file when it actually changed: an unchanged mtime is what lets
@@ -318,14 +325,22 @@ def main():
     # ── plan every line first, then generate the MISSING ones in parallel ────────────
     # TTS is ~3-12s of network per line; serially that is over a minute for a 13-line short.
     # Cache hits (unchanged text) cost nothing, so only genuine misses are dispatched.
+    cast = beats.get("cast", {})
+
+    def voice_of(line):
+        """(voice, rate) for a line: its speaker's cast entry for this engine, else the defaults."""
+        c = cast.get(line.get("speaker") or "", {})
+        return c.get(args.engine) or args.voice, c.get("rate", args.rate)
+
     plan = []  # (i, line, start, window, tts_text, raw, fit)
     for i, line in enumerate(vo):
         start = float(line["start"])
         next_start = float(vo[i + 1]["start"]) if i + 1 < len(vo) else total - 0.3
         window = next_start - start - 0.05
         tts_text = line.get("tts", line["text"])  # optional tagged/phonetic variant for TTS
+        voice, rate = voice_of(line)
         h = hashlib.sha1(
-            f"{args.engine}|{args.voice}|{args.model}|{args.rate}|{tts_text}".encode()).hexdigest()[:8]
+            f"{args.engine}|{voice}|{args.model}|{rate}|{tts_text}".encode()).hexdigest()[:8]
         plan.append((i, line, start, window, tts_text,
                      os.path.join(vdir, f"line-{i:02d}-{h}.mp3"),
                      os.path.join(vdir, f"line-{i:02d}-{h}-fit.wav")))
@@ -340,13 +355,17 @@ def main():
             if args.force or not os.path.exists(p[5]) or not os.path.exists(p[5] + ".words.json")]
     if todo:
         def generate(p):
-            i, _line, _start, _window, tts_text, raw, _fit = p
+            i, line, _start, _window, tts_text, raw, _fit = p
+            voice, rate = voice_of(line)
             if args.engine == "edge":
-                tts_line_edge(args.voice, tts_text, raw, args.rate)
+                tts_line_edge(voice, tts_text, raw, rate)
             else:
-                prev_text = vo[i - 1].get("tts", vo[i - 1]["text"]) if i > 0 else None
-                next_text = vo[i + 1].get("tts", vo[i + 1]["text"]) if i + 1 < len(vo) else None
-                tts_line(key, args.voice, args.model, tts_text, prev_text, next_text, raw)
+                # neighbour context steers prosody — only stitch lines from the SAME speaker,
+                # another character's line would bleed their delivery into this one
+                def ctx(j):
+                    ok = 0 <= j < len(vo) and vo[j].get("speaker") == line.get("speaker")
+                    return vo[j].get("tts", vo[j]["text"]) if ok else None
+                tts_line(key, voice, args.model, tts_text, ctx(i - 1), ctx(i + 1), raw)
             print(f"  generated line {i:02d}")
 
         t0 = time.time()
@@ -391,7 +410,7 @@ def main():
          "-map", "[out]", "-ar", "44100", "-ac", "2", voice_wav])
     print(f"voice track -> {os.path.relpath(voice_wav, ROOT)}")
 
-    beats["voiceStatus"] = f"{args.engine}:{args.voice}"
+    beats["voiceStatus"] = f"{args.engine}:{'cast' if cast else args.voice}"
     json.dump(beats, open(beats_path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
     print(f"actual line timings + word maps written back -> {os.path.relpath(beats_path, ROOT)}")
 

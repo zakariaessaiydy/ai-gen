@@ -1,0 +1,112 @@
+{
+  "master": "remotion/out/Bro01Business-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "notes": "Library-only first pass. Comedy staples are MISSING from the library (record scratch, vine boom, cash register, crickets) \u2014 impact-deep-soft stands in for the boom. Generate them with gen_sfx.py when an ElevenLabs key is available. Until voice exists, preview = the silent render.",
+  "render": {
+    "preview": "remotion/out/Bro01Business.mp4",
+    "out": "toon-shorts/bro/ep-01-business/output/bro-01-sfx.mp4",
+    "end_s": 30.0,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 2.45,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -16,
+      "shot": "Bro01Business",
+      "cue": "cut wide \u2014 Dee asks the plan"
+    },
+    {
+      "at_s": 4.0,
+      "sfx_id": "impact-soft",
+      "gain_db": -14,
+      "shot": "Bro01Business",
+      "cue": "'Trust me' punch-in + shake"
+    },
+    {
+      "at_s": 4.5,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -17,
+      "shot": "Bro01Business",
+      "cue": "sparkles round his face"
+    },
+    {
+      "at_s": 6.31,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -15,
+      "shot": "Bro01Business",
+      "cue": "god rays on 'business'"
+    },
+    {
+      "at_s": 8.4,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -12,
+      "shot": "Bro01Business",
+      "cue": "SMASH CUT to the street stand (boom)"
+    },
+    {
+      "at_s": 9.2,
+      "sfx_id": "chime-magic",
+      "gain_db": -16,
+      "shot": "Bro01Business",
+      "cue": "'Entrepreneurship' sparkle on the bottle"
+    },
+    {
+      "at_s": 12.76,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "Bro01Business",
+      "cue": "close-up 'Ten dollars.'"
+    },
+    {
+      "at_s": 15.6,
+      "sfx_id": "stamp-hit",
+      "gain_db": -14,
+      "shot": "Bro01Business",
+      "cue": "camera lands on the WATER $1 poster"
+    },
+    {
+      "at_s": 16.31,
+      "sfx_id": "whoosh-reverse",
+      "gain_db": -16,
+      "shot": "Bro01Business",
+      "cue": "customer leaves"
+    },
+    {
+      "at_s": 18.01,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -11,
+      "shot": "Bro01Business",
+      "cue": "THE STARE (boom)"
+    },
+    {
+      "at_s": 20.5,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -15,
+      "shot": "Bro01Business",
+      "cue": "3 HOURS LATER card"
+    },
+    {
+      "at_s": 22.2,
+      "sfx_id": "water-pour-glass",
+      "gain_db": -14,
+      "shot": "Bro01Business",
+      "cue": "he drinks his only inventory"
+    },
+    {
+      "at_s": 26.5,
+      "sfx_id": "glitch-zap",
+      "gain_db": -15,
+      "shot": "Bro01Business",
+      "cue": "signature: world drains to grey"
+    },
+    {
+      "at_s": 27.35,
+      "sfx_id": "stamp-hit",
+      "gain_db": -11,
+      "shot": "Bro01Business",
+      "cue": "I GOT THIS. stamp"
+    }
+  ]
+}

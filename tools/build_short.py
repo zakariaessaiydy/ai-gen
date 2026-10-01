@@ -77,7 +77,9 @@ def parse_voice_plan(beats, args):
     engine, voice, rate = args.engine, args.voice, args.rate
     plan = beats.get("voicePlan") or beats.get("voiceStatus") or ""
     if not engine or not voice:
-        m = re.match(r"\s*(elevenlabs|edge)\s*:\s*([^\s]+)", plan)
+        # "edge:<voice> --rate +12%", or a bare "edge" / "elevenlabs" for a cast episode
+        # whose voices come from beats.json's per-speaker "cast" map
+        m = re.match(r"\s*(elevenlabs|edge)\b(?:\s*:\s*([^\s]+))?", plan)
         if m:
             engine = engine or m.group(1)
             voice = voice or m.group(2)
