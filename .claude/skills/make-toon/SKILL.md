@@ -28,7 +28,9 @@ remotion/src/lib/toon/
                      Kitchen (door, SMOKE ALARM, char), Counter + StoveDial, Pan, Flames, Smoke,
                      Phone (screen text), PizzaBox, Desk, Laptop (price chart: rise / crash /
                      SPILL out of the screen onto the floor), Lamp, PowerStrip, CordBundle,
-                     Skyline (night city that blacks out in a wave), WifiPhone (big phone insert)
+                     Skyline (night city that blacks out in a wave), WifiPhone (big phone insert),
+                     Kitchen fridgeOpen + FridgeGlow, Celery, KetchupPacket, KetchupPile,
+                     LightSwitch, KetchupFace (smears on a face)
   series/<series>.ts LOCKED cast specs + speaker colours + series name/catchphrase/accent
 remotion/src/shots/
   toon-<series>/<Series>ModelSheet.tsx   the model sheet -> toon-shorts/<series>/character.png
@@ -168,6 +170,10 @@ Rig vocabulary (see rig.tsx for all of it):
 - `shadesDown`: the shades on Bro's cap come down over his eyes (the action-hero moment)
 - walking TOWARD camera = grow `scale` and push `y` down together (EP4's action walk)
 - props: `<Bottle anchor="center" level>` in a hand via `holdR` + `holdRotR`
+
+A "lit by one source in the dark" shot (fridge, phone, flashlight): a dark overlay with an SVG
+<mask> that cuts out the light source and its cone, then the lit character drawn AFTER the
+overlay (EP7's 3AM fridge).
 
 Any full-screen overlay with a time window (lights out, a tint, a haze) needs BOTH ends in its
 condition. EP6 v1 left the lights-out overlay on after the power came back and blacked out

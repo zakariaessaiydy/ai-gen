@@ -345,11 +345,12 @@ export const SquatRack: React.FC<{ x: number; y: number; hookY: number; w?: numb
 // Draw <Kitchen>, then whoever stands BEHIND the counter, then <Counter> (it hides their legs).
 // ---------------------------------------------------------------------------------------------
 export const SMOKE_ALARM: [number, number] = [930, 540];
-export const Kitchen: React.FC<{ doorOpen?: number; beeping?: boolean; t?: number; char?: number }> = ({
+export const Kitchen: React.FC<{ doorOpen?: number; beeping?: boolean; t?: number; char?: number; fridgeOpen?: boolean }> = ({
   doorOpen = 0,
   beeping = false,
   t = 0,
   char = 0,
+  fridgeOpen = false,
 }) => {
   const led = beeping && Math.sin(t * 18) > 0;
   return (
@@ -394,6 +395,18 @@ export const Kitchen: React.FC<{ doorOpen?: number; beeping?: boolean; t?: numbe
       <line x1={800} y1={960} x2={1060} y2={960} {...st} />
       <rect x={820} y={700} width={14} height={180} rx={6} fill="#adb5bd" />
       <rect x={820} y={1000} width={14} height={220} rx={6} fill="#adb5bd" />
+      {fridgeOpen && (
+        <g>
+          {/* the open fridge: lit interior, sad shelves, door swung out to the right */}
+          <rect x={815} y={655} width={230} height={790} rx={10} fill="#fff9db" {...st} />
+          {[860, 1060, 1260].map((y) => (
+            <line key={y} x1={815} y1={y} x2={1045} y2={y} stroke="#cfd8dc" strokeWidth={8} />
+          ))}
+          <rect x={850} y={790} width={40} height={70} rx={8} fill="#2dc653" stroke={INK} strokeWidth={4} />
+          <rect x={930} y={1180} width={70} height={80} rx={10} fill="#e63946" stroke={INK} strokeWidth={4} />
+          <path d="M 1045,650 L 1080,610 L 1080,1500 L 1045,1460 Z" fill="#dee2e6" {...st} />
+        </g>
+      )}
       <rect x={0} y={1460} width={1080} height={460} fill="#b08968" />
       {[1540, 1640, 1760].map((y) => (
         <line key={y} x1={0} y1={y} x2={1080} y2={y} stroke="#9c6644" strokeWidth={6} />
@@ -778,5 +791,64 @@ export const Lamp: React.FC<{ x: number; y: number; on: boolean }> = ({ x, y, on
     <line x1={-40} y1={-150} x2={10} y2={-230} stroke={INK} strokeWidth={14} strokeLinecap="round" />
     <path d="M -30,-250 L 60,-250 L 90,-190 L -60,-190 Z" fill="#e63946" {...st} transform="rotate(14 15 -220)" />
     {on && <circle cx={22} cy={-186} r={18} fill="#fff9db" />}
+  </g>
+);
+
+// ---------------------------------------------------------------------------------------------
+// DIET KIT — celery (the sad diet), ketchup packet (held: origin = centre), a pile of empty
+// packets on the floor, a wall light switch, the fridge-light glow cone, ketchup on a face.
+// ---------------------------------------------------------------------------------------------
+export const Celery: React.FC<{ bite?: number }> = ({ bite = 0 }) => (
+  <g>
+    <rect x={-12} y={-150 + bite * 40} width={24} height={170 - bite * 40} rx={10} fill="#95d5b2" {...st} />
+    <line x1={-3} y1={-140 + bite * 40} x2={-3} y2={10} stroke="#52b788" strokeWidth={4} />
+    {bite === 0 &&
+      [-20, 0, 20].map((dx) => <ellipse key={dx} cx={dx} cy={-160} rx={16} ry={22} fill="#52b788" stroke={INK} strokeWidth={4} />)}
+  </g>
+);
+
+export const KetchupPacket: React.FC<{ squeezed?: number; rot?: number }> = ({ squeezed = 0, rot = 0 }) => (
+  <g transform={`rotate(${rot})`}>
+    <rect x={-34} y={-24 + squeezed * 8} width={68} height={48 - squeezed * 16} rx={6} fill="#e63946" {...st} />
+    <text x={0} y={8} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={16} fill="#ffffff">
+      KETCHUP
+    </text>
+  </g>
+);
+
+// a heap of squeezed-empty packets around (x, y); n grows over time to show the damage
+export const KetchupPile: React.FC<{ x: number; y: number; n: number }> = ({ x, y, n }) => (
+  <g>
+    {Array.from({ length: Math.max(0, Math.floor(n)) }).map((_, i) => {
+      const a = (i * 137.5 * Math.PI) / 180;
+      const r = 30 + (i % 7) * 22;
+      return (
+        <g key={i} transform={`translate(${x + Math.cos(a) * r * 1.8},${y + Math.sin(a) * r * 0.35}) rotate(${(i * 47) % 360}) scale(0.8)`}>
+          <rect x={-34} y={-10} width={68} height={20} rx={5} fill="#c1121f" stroke={INK} strokeWidth={5} />
+        </g>
+      );
+    })}
+  </g>
+);
+
+export const LightSwitch: React.FC<{ x: number; y: number; on: boolean }> = ({ x, y, on }) => (
+  <g transform={`translate(${x},${y})`}>
+    <rect x={-30} y={-46} width={60} height={92} rx={8} fill="#f8f9fa" {...st} />
+    <rect x={-10} y={on ? -30 : 0} width={20} height={30} rx={5} fill="#adb5bd" stroke={INK} strokeWidth={4} />
+  </g>
+);
+
+// cone of fridge light spilling left onto whoever stands in front of it
+export const FridgeGlow: React.FC = () => (
+  <path d="M 815,660 L 220,1460 L 220,1920 L 1080,1920 L 1045,1450 Z" fill="#fff3b0" opacity={0.28} />
+);
+
+// ketchup smeared round a mouth; (x, y) = face centre, s = the character's scale × head scale
+export const KetchupFace: React.FC<{ x: number; y: number; s?: number }> = ({ x, y, s = 1.12 }) => (
+  <g transform={`translate(${x},${y}) scale(${s})`} fill="#d00000" opacity={0.9}>
+    <ellipse cx={-52} cy={92} rx={22} ry={12} transform="rotate(-20 -52 92)" />
+    <ellipse cx={46} cy={70} rx={16} ry={10} transform="rotate(25 46 70)" />
+    <ellipse cx={10} cy={128} rx={12} ry={18} />
+    <circle cx={64} cy={104} r={7} />
   </g>
 );

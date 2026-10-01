@@ -1,0 +1,523 @@
+{
+  "id": "ep-07-diet",
+  "series": "bro",
+  "episode": 7,
+  "title": "Bro went on a diet",
+  "composition": "Bro07Diet",
+  "audience": "everyone whose diet starts 'tomorrow'",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 35.8
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "bro": {
+      "elevenlabs": "TX3LPaxmHKxFdv7VOQHJ",
+      "edge": "en-US-ChristopherNeural",
+      "rate": "+6%",
+      "kokoro": "am_puck"
+    },
+    "dee": {
+      "elevenlabs": "ErXwobaYiN019PkySvjV",
+      "edge": "en-US-EricNeural",
+      "rate": "+4%",
+      "kokoro": "am_michael"
+    }
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "bro",
+      "start": 0.15,
+      "end": 1.75,
+      "text": "Starting today, I'm on a diet.",
+      "words": [
+        {
+          "w": "Starting",
+          "start": 0.17,
+          "end": 0.593
+        },
+        {
+          "w": "today,",
+          "start": 0.593,
+          "end": 0.875
+        },
+        {
+          "w": "I'm",
+          "start": 0.875,
+          "end": 1.016
+        },
+        {
+          "w": "on",
+          "start": 1.016,
+          "end": 1.157
+        },
+        {
+          "w": "a",
+          "start": 1.157,
+          "end": 1.298
+        },
+        {
+          "w": "diet.",
+          "start": 1.298,
+          "end": 1.58
+        }
+      ]
+    },
+    {
+      "beat": "hook",
+      "speaker": "dee",
+      "start": 1.95,
+      "end": 3.4,
+      "text": "You said that yesterday.",
+      "words": [
+        {
+          "w": "You",
+          "start": 1.99,
+          "end": 2.167
+        },
+        {
+          "w": "said",
+          "start": 2.167,
+          "end": 2.403
+        },
+        {
+          "w": "that",
+          "start": 2.403,
+          "end": 2.64
+        },
+        {
+          "w": "yesterday.",
+          "start": 2.64,
+          "end": 3.23
+        }
+      ]
+    },
+    {
+      "beat": "hook",
+      "speaker": "bro",
+      "start": 3.7,
+      "end": 5.55,
+      "text": "Exactly. Yesterday was practice.",
+      "words": [
+        {
+          "w": "Exactly.",
+          "start": 3.73,
+          "end": 4.24
+        },
+        {
+          "w": "Yesterday",
+          "start": 4.24,
+          "end": 4.807
+        },
+        {
+          "w": "was",
+          "start": 4.807,
+          "end": 4.977
+        },
+        {
+          "w": "practice.",
+          "start": 4.977,
+          "end": 5.43
+        }
+      ]
+    },
+    {
+      "beat": "catch",
+      "speaker": "bro",
+      "start": 5.95,
+      "end": 7.2,
+      "text": "Trust me. I got this.",
+      "words": [
+        {
+          "w": "Trust",
+          "start": 6.0,
+          "end": 6.289
+        },
+        {
+          "w": "me.",
+          "start": 6.289,
+          "end": 6.482
+        },
+        {
+          "w": "I",
+          "start": 6.482,
+          "end": 6.626
+        },
+        {
+          "w": "got",
+          "start": 6.626,
+          "end": 6.867
+        },
+        {
+          "w": "this.",
+          "start": 6.867,
+          "end": 7.06
+        }
+      ]
+    },
+    {
+      "beat": "celery",
+      "speaker": "bro",
+      "start": 7.4,
+      "end": 9.42,
+      "text": "No sugar. No carbs. Just... this.",
+      "words": [
+        {
+          "w": "No",
+          "start": 7.43,
+          "end": 7.673
+        },
+        {
+          "w": "sugar.",
+          "start": 7.673,
+          "end": 7.976
+        },
+        {
+          "w": "No",
+          "start": 7.976,
+          "end": 8.219
+        },
+        {
+          "w": "carbs.",
+          "start": 8.219,
+          "end": 8.643
+        },
+        {
+          "w": "Just...",
+          "start": 8.643,
+          "end": 9.007
+        },
+        {
+          "w": "this.",
+          "start": 9.007,
+          "end": 9.25
+        }
+      ]
+    },
+    {
+      "beat": "collapse",
+      "speaker": "bro",
+      "start": 11.72,
+      "end": 13.25,
+      "text": "Tell my mom... I loved her.",
+      "words": [
+        {
+          "w": "Tell",
+          "start": 11.76,
+          "end": 11.988
+        },
+        {
+          "w": "my",
+          "start": 11.988,
+          "end": 12.217
+        },
+        {
+          "w": "mom...",
+          "start": 12.217,
+          "end": 12.502
+        },
+        {
+          "w": "I",
+          "start": 12.502,
+          "end": 12.673
+        },
+        {
+          "w": "loved",
+          "start": 12.673,
+          "end": 12.959
+        },
+        {
+          "w": "her.",
+          "start": 12.959,
+          "end": 13.13
+        }
+      ]
+    },
+    {
+      "beat": "collapse",
+      "speaker": "dee",
+      "start": 13.65,
+      "end": 15.2,
+      "text": "It's been four minutes.",
+      "words": [
+        {
+          "w": "It's",
+          "start": 13.75,
+          "end": 13.943
+        },
+        {
+          "w": "been",
+          "start": 13.943,
+          "end": 14.199
+        },
+        {
+          "w": "four",
+          "start": 14.199,
+          "end": 14.521
+        },
+        {
+          "w": "minutes.",
+          "start": 14.521,
+          "end": 14.97
+        }
+      ]
+    },
+    {
+      "beat": "collapse",
+      "speaker": "bro",
+      "start": 15.7,
+      "end": 16.86,
+      "text": "...Felt like four years.",
+      "words": [
+        {
+          "w": "...Felt",
+          "start": 15.75,
+          "end": 16.01
+        },
+        {
+          "w": "like",
+          "start": 16.01,
+          "end": 16.27
+        },
+        {
+          "w": "four",
+          "start": 16.27,
+          "end": 16.53
+        },
+        {
+          "w": "years.",
+          "start": 16.53,
+          "end": 16.79
+        }
+      ]
+    },
+    {
+      "beat": "caught",
+      "speaker": "dee",
+      "start": 21.46,
+      "end": 22.18,
+      "text": "Bro.",
+      "words": [
+        {
+          "w": "Bro.",
+          "start": 21.49,
+          "end": 21.99
+        }
+      ]
+    },
+    {
+      "beat": "caught",
+      "speaker": "bro",
+      "start": 22.73,
+      "end": 24.31,
+      "text": "...It's vegetables. Technically.",
+      "words": [
+        {
+          "w": "...It's",
+          "start": 22.76,
+          "end": 22.929
+        },
+        {
+          "w": "vegetables.",
+          "start": 22.929,
+          "end": 23.604
+        },
+        {
+          "w": "Technically.",
+          "start": 23.604,
+          "end": 24.11
+        }
+      ]
+    },
+    {
+      "beat": "math",
+      "speaker": "dee",
+      "start": 24.71,
+      "end": 26.2,
+      "text": "That's forty packets.",
+      "words": [
+        {
+          "w": "That's",
+          "start": 24.76,
+          "end": 25.081
+        },
+        {
+          "w": "forty",
+          "start": 25.081,
+          "end": 25.531
+        },
+        {
+          "w": "packets.",
+          "start": 25.531,
+          "end": 25.98
+        }
+      ]
+    },
+    {
+      "beat": "math",
+      "speaker": "bro",
+      "start": 26.5,
+      "end": 28.84,
+      "text": "Forty tomatoes. That's basically a salad.",
+      "words": [
+        {
+          "w": "Forty",
+          "start": 26.53,
+          "end": 26.906
+        },
+        {
+          "w": "tomatoes.",
+          "start": 26.906,
+          "end": 27.444
+        },
+        {
+          "w": "That's",
+          "start": 27.444,
+          "end": 27.713
+        },
+        {
+          "w": "basically",
+          "start": 27.713,
+          "end": 28.196
+        },
+        {
+          "w": "a",
+          "start": 28.196,
+          "end": 28.358
+        },
+        {
+          "w": "salad.",
+          "start": 28.358,
+          "end": 28.68
+        }
+      ]
+    },
+    {
+      "beat": "tag",
+      "speaker": "bro",
+      "start": 29.54,
+      "end": 32.24,
+      "text": "...Tomorrow, I start my diet. Today was practice.",
+      "words": [
+        {
+          "w": "...Tomorrow,",
+          "start": 29.57,
+          "end": 30.049
+        },
+        {
+          "w": "I",
+          "start": 30.049,
+          "end": 30.209
+        },
+        {
+          "w": "start",
+          "start": 30.209,
+          "end": 30.582
+        },
+        {
+          "w": "my",
+          "start": 30.582,
+          "end": 30.795
+        },
+        {
+          "w": "diet.",
+          "start": 30.795,
+          "end": 31.115
+        },
+        {
+          "w": "Today",
+          "start": 31.115,
+          "end": 31.434
+        },
+        {
+          "w": "was",
+          "start": 31.434,
+          "end": 31.594
+        },
+        {
+          "w": "practice.",
+          "start": 31.594,
+          "end": 32.02
+        }
+      ]
+    },
+    {
+      "beat": "signature",
+      "speaker": "bro",
+      "start": 33.34,
+      "end": 34.16,
+      "text": "I got this.",
+      "words": [
+        {
+          "w": "I",
+          "start": 33.37,
+          "end": 33.54
+        },
+        {
+          "w": "got",
+          "start": 33.54,
+          "end": 33.823
+        },
+        {
+          "w": "this.",
+          "start": 33.823,
+          "end": 34.05
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 5.85,
+      "visual": "Kitchen, day. Bro close-up, holding ONE celery stick: 'Starting today, I'm on a diet.' Dee: 'You said that yesterday.' Bro: 'Exactly. Yesterday was practice.'"
+    },
+    {
+      "id": "celery",
+      "start": 5.85,
+      "end": 9.92,
+      "visual": "Punch-in 'Trust me. I got this.' 'No sugar. No carbs. Just... this.' holds the celery up, god rays — CRUNCH."
+    },
+    {
+      "id": "collapse",
+      "start": 9.92,
+      "end": 17.36,
+      "visual": "Card: 4 MINUTES LATER. Bro collapsed on the floor, one arm reaching for the ceiling: 'Tell my mom... I loved her.' Dee: 'It's been four minutes.' '...Felt like four years.'"
+    },
+    {
+      "id": "3am",
+      "start": 17.36,
+      "end": 21.16,
+      "visual": "Card: 3:00 AM. SILENT: dark kitchen, only the open fridge's light; Bro squeezing ketchup packets into his mouth, the pile of empties growing at his feet."
+    },
+    {
+      "id": "caught",
+      "start": 21.16,
+      "end": 24.61,
+      "visual": "Lights flick on (Dee at the switch): 'Bro.' Bro frozen, ketchup all over his face: '...It's vegetables. Technically.'"
+    },
+    {
+      "id": "math",
+      "start": 24.61,
+      "end": 29.09,
+      "visual": "Dee: 'That's forty packets.' BRO MATH: 1 PACKET = 1 TOMATO · 40 TOMATOES = SALAD: 'Forty tomatoes. That's basically a salad.'"
+    },
+    {
+      "id": "tag",
+      "start": 29.09,
+      "end": 32.84,
+      "visual": "THE STARE, ketchup face: '...Tomorrow, I start my diet. Today was practice.' (callback)"
+    },
+    {
+      "id": "signature",
+      "start": 32.84,
+      "end": 35.8,
+      "visual": "Series signature: grey-out, letterbox, THE STARE, 'I got this.' + stamp"
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}
