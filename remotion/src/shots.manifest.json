@@ -24,6 +24,14 @@
   "transparent": false
  },
  {
+  "id": "Bro03Gym",
+  "durationInSeconds": 34.4,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "Short1Chess",
   "durationInSeconds": 42,
   "fps": 30,

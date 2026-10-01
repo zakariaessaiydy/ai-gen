@@ -257,3 +257,83 @@ export const Crate: React.FC<{ x: number; y: number; w?: number; h?: number }> =
     <line x1={-w / 2} y1={-h} x2={w / 2} y2={0} stroke={INK} strokeWidth={6} opacity={0.5} />
   </g>
 );
+
+// ---------------------------------------------------------------------------------------------
+// GYM — mirror wall, motivational poster, dumbbell rack, and a big WALL CLOCK (a joke slot:
+// `clockAt` = its position, so a character can be "looking at the clock behind you").
+// Floor line y 1460, rubber floor.
+// ---------------------------------------------------------------------------------------------
+export const Gym: React.FC<{ clockAt?: [number, number]; poster?: string }> = ({ clockAt = [800, 600], poster = 'NO PAIN NO GAIN' }) => (
+  <g>
+    <rect x={0} y={0} width={1080} height={1460} fill="#d9e2ec" />
+    <rect x={0} y={880} width={1080} height={110} fill="#f77f00" />
+    <rect x={0} y={990} width={1080} height={24} fill="#22160f" opacity={0.15} />
+    {/* mirror */}
+    <rect x={330} y={420} width={420} height={430} fill="#bde0fe" {...st} />
+    <path d="M 380,460 L 460,460 L 380,560 Z M 480,460 L 520,460 L 400,620 L 380,620 Z" fill="#ffffff" opacity={0.55} />
+    {/* poster */}
+    <g transform="rotate(-3 160 600)">
+      <rect x={50} y={430} width={230} height={330} fill="#22223b" {...st} />
+      {poster.split(' ').reduce<string[][]>((rows, w, i) => (i % 2 ? (rows[rows.length - 1].push(w), rows) : [...rows, [w]]), []).map((r, i) => (
+        <text key={i} x={165} y={520 + i * 80} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={44} fill={i === 1 ? '#f77f00' : '#ffffff'}>
+          {r.join(' ')}
+        </text>
+      ))}
+    </g>
+    {/* wall clock */}
+    <g transform={`translate(${clockAt[0]},${clockAt[1]})`}>
+      <circle r={78} fill="#ffffff" {...st} />
+      {Array.from({ length: 12 }).map((_, i) => (
+        <line key={i} x1={0} y1={-62} x2={0} y2={-50} stroke={INK} strokeWidth={6} transform={`rotate(${i * 30})`} />
+      ))}
+      <line x1={0} y1={0} x2={0} y2={-46} stroke={INK} strokeWidth={9} strokeLinecap="round" transform="rotate(95)" />
+      <line x1={0} y1={0} x2={0} y2={-60} stroke="#e63946" strokeWidth={6} strokeLinecap="round" transform="rotate(10)" />
+      <circle r={8} fill={INK} />
+    </g>
+    {/* dumbbell rack */}
+    <rect x={820} y={1150} width={240} height={30} fill="#5c677d" {...st} />
+    <rect x={840} y={1180} width={20} height={280} fill="#5c677d" {...st} />
+    <rect x={1020} y={1180} width={20} height={280} fill="#5c677d" {...st} />
+    {[860, 940, 1020].map((x) => (
+      <g key={x}>
+        <rect x={x - 30} y={1110} width={16} height={40} rx={4} fill="#2b2d42" {...st} />
+        <rect x={x - 14} y={1124} width={34} height={12} fill="#8d99ae" />
+        <rect x={x + 20} y={1110} width={16} height={40} rx={4} fill="#2b2d42" {...st} />
+      </g>
+    ))}
+    {/* rubber floor */}
+    <rect x={0} y={1460} width={1080} height={460} fill="#3d405b" />
+    {[0, 270, 540, 810].map((x) => (
+      <rect key={x} x={x} y={1460} width={270} height={460} fill="none" stroke="#2f3248" strokeWidth={6} />
+    ))}
+    <line x1={0} y1={1460} x2={1080} y2={1460} stroke={INK} strokeWidth={7} />
+  </g>
+);
+
+// barbell; origin = bar centre. Plates carry a readable weight `label` (the joke slot).
+export const Barbell: React.FC<{ x?: number; y?: number; w?: number; label?: string; rot?: number }> = ({ x = 0, y = 0, w = 560, label = '10', rot = 0 }) => (
+  <g transform={`translate(${x},${y}) rotate(${rot})`}>
+    <rect x={-w / 2} y={-9} width={w} height={18} rx={9} fill="#adb5bd" {...st} />
+    {[-1, 1].map((s) => (
+      <g key={s} transform={`translate(${s * (w / 2 - 70)},0)`}>
+        <rect x={-26} y={-74} width={52} height={148} rx={12} fill="#2b2d42" {...st} />
+        <text x={0} y={14} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={40} fill="#ffd23f">
+          {label}
+        </text>
+      </g>
+    ))}
+  </g>
+);
+
+// squat rack uprights + J-hooks; origin = floor centre, hooks at `hookY` (absolute stage y)
+export const SquatRack: React.FC<{ x: number; y: number; hookY: number; w?: number }> = ({ x, y, hookY, w = 600 }) => (
+  <g>
+    {[-1, 1].map((s) => (
+      <g key={s}>
+        <rect x={x + s * (w / 2) - 18} y={hookY - 330} width={36} height={y - hookY + 330} fill="#5c677d" {...st} />
+        <path d={`M ${x + s * (w / 2) - s * 18},${hookY + 4} L ${x + s * (w / 2) - s * 58},${hookY + 4} L ${x + s * (w / 2) - s * 58},${hookY - 24}`} fill="none" stroke="#22160f" strokeWidth={12} strokeLinejoin="round" />
+      </g>
+    ))}
+    <rect x={x - w / 2 - 18} y={hookY - 350} width={w + 36} height={30} fill="#5c677d" {...st} />
+  </g>
+);

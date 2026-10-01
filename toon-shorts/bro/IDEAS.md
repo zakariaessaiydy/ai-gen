@@ -10,8 +10,8 @@ Status: ✅ made · 🟡 next up · (blank) idea
 |---|---|---|---|
 | ✅ 1 | Bro thought he could get rich in ONE day | "I quit my job" / "you don't have one" / "that's how fast I quit" → ONE bottle at $10, "premium… the price" → "do they have ME?" "that's why it's $1" → drinks his stock: "saved $10… so I'm up nine." | Room, Street, customer |
 | ✅ 2 | Bro said he'd wake up at 5AM | "I'm getting earlier" (woke at 3PM) → slaps the 5:00 alarm: "Millionaires sleep in." → 5:01 "visualizing success" → 2:47 PM "Rise and grind!" → bro math: 13 min earlier a day = 5AM in 45 days. Dee: "...That's actually right." | Room night/day, Bed, AlarmClock |
-| 🟡 3 | Bro tried to impress her at the gym | Flexes, loads the bar → can't lift it → gets stuck under it, she helps him. *"I was spotting HER."* | Gym (new set), girl extra |
-| 4 | Bro thinks he can cook | Pro-chef talk → sets off the smoke alarm → orders delivery. *"Deconstructed dinner."* | Kitchen (new set) |
+| ✅ 3 | Bro tried to impress her at the gym | "She keeps looking at me" (at the clock) → "watch me lift 200", can't move it: "I'm warming it up" → Jess holds it out one-handed: "It's twenty." → "I let her win" → bro math: "we lifted it together… basically our first date." | Gym, SquatRack, Barbell, Jess |
+| 🟡 4 | Bro thinks he can cook | Pro-chef talk → sets off the smoke alarm → orders delivery. *"Deconstructed dinner."* | Kitchen (new set) |
 | 5 | Bro started a crypto coin | "BROCOIN to the moon" → worth $0.0001 → he's the only holder. *"Exclusive community."* | Room, phone screen |
 | 6 | Bro tried to fix the WiFi | "I'm basically an engineer" → unplugs everything → the whole street loses power. *"Reset complete."* | Room, Street |
 | 7 | Bro went on a diet | Dramatic speech → lasts 4 minutes → eats ketchup packets at 3AM. *"Vegetables. Technically."* | Kitchen, time cards |

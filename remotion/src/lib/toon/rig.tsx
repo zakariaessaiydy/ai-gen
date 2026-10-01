@@ -38,6 +38,7 @@ export type ToonSpec = {
   chain?: boolean;
   shadesOnHead?: boolean;
   glasses?: boolean;
+  lashes?: boolean; // two lash flicks at each outer eye corner
   beard?: 'goatee' | 'stubble' | 'mustache' | 'none';
   bodyW?: number; // shoulder/hip width multiplier (1 = default build)
 };
@@ -278,6 +279,12 @@ const Face: React.FC<{
           {cover > 0 && <rect x={cx - 34} y={-48} width={68} height={cover + 3} fill={spec.skin} />}
         </g>
         <ellipse cx={cx} cy={-8} rx={30} ry={37} fill="none" stroke={ink} strokeWidth={6} />
+        {spec.lashes && (
+          <g stroke={ink} strokeWidth={6} strokeLinecap="round">
+            <line x1={cx + (cx < 0 ? -24 : 24)} y1={-34} x2={cx + (cx < 0 ? -42 : 42)} y2={-48} />
+            <line x1={cx + (cx < 0 ? -30 : 30)} y1={-20} x2={cx + (cx < 0 ? -48 : 48)} y2={-28} />
+          </g>
+        )}
         {cover > 2 && <line x1={cx - 31} x2={cx + 31} y1={-45 + cover} y2={-45 + cover} stroke={ink} strokeWidth={7} strokeLinecap="round" />}
       </g>
     );

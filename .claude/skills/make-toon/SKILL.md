@@ -21,7 +21,8 @@ remotion/src/lib/toon/
                      TitleBar, TimeCard, Rays, Sparkles, Zzz, BroMath (floating "bro math"
                      equations, the series' recurring payoff visual), signatureFilter + SignatureStamp
   sets.tsx           Room (night 0..1), Street (Mini Mart + joke poster slot), Table, Bottle, Crate,
-                     Bed, Blanket, Nightstand, AlarmClock (time + ring)
+                     Bed, Blanket, Nightstand, AlarmClock (time + ring),
+                     Gym (wall clock joke slot), SquatRack, Barbell (readable plate label)
   series/<series>.ts LOCKED cast specs + speaker colours + series name/catchphrase/accent
 remotion/src/shots/
   toon-<series>/<Series>ModelSheet.tsx   the model sheet -> toon-shorts/<series>/character.png
@@ -35,7 +36,8 @@ toon-shorts/<series>/
 ```
 
 The reference episodes are **`toon-shorts/bro/ep-01-business`** (street, customer) and
-**`ep-02-5am`** (bedroom, lying pose, time cards, BroMath), with their compositions in
+**`ep-02-5am`** (bedroom, lying pose, time cards, BroMath) and **`ep-03-gym`** (one set,
+a female extra with `lashes`, a prop passing from the set into a hand), with their compositions in
 `remotion/src/shots/bro-0N/`. Copy its structure for every new episode, not
 an empty file.
 
@@ -129,6 +131,11 @@ Rig vocabulary (see rig.tsx for all of it):
   facepalm · thumb · present · `{a,b}` angles · `{to:[dx,dy]}` IK reach
 - `legs`: stand · wide · walk (pass `walk={t*1.8}`) · sit
 - props: `<Bottle anchor="center" level>` in a hand via `holdR` + `holdRotR`
+
+Prop gags must be STAGED for the camera: a prop held in a raised hand goes behind the head
+(arms draw behind the torso), so hold the joke prop out to the SIDE, toward the other
+character, and draw that character after the one it's shown to (EP3's one-handed bar). If a
+QA frame doesn't show the gag clearly, restage it; don't just reframe the camera.
 
 New sets/props go in `sets.tsx` (same ink #22160f, 7px stroke, flat fills), reusable, never
 inline in an episode. After adding a shot: `cd remotion && npm run gen`.
