@@ -852,3 +852,185 @@ export const KetchupFace: React.FC<{ x: number; y: number; s?: number }> = ({ x,
     <circle cx={64} cy={104} r={7} />
   </g>
 );
+
+// ---------------------------------------------------------------------------------------------
+// CAR KIT — front-view car with both seats visible through the windshield. Draw order:
+//   <RoadBackdrop|House> → <CarInterior> → passengers (legs:'sit') → <CarFront> (wheel, dash +
+//   GPS phone, glass, body). Driver sits on the viewer's RIGHT (x≈700), passenger left (x≈380).
+// GPS_PHONE = the dashboard phone (zoom here for an insert; its `gps` text is the joke slot).
+// ---------------------------------------------------------------------------------------------
+export const GPS_PHONE: [number, number] = [540, 1206];
+const CAR = '#ffbe0b';
+const CAR_DARK = '#e09f00';
+
+export const RoadBackdrop: React.FC<{ t: number; drift?: number; speed?: number }> = ({ t, drift = 0, speed = 1 }) => {
+  const hx = 540 + drift * 0.4;
+  return (
+    <g>
+      <defs>
+        <linearGradient id="roadsky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#7cc6f2" />
+          <stop offset="1" stopColor="#d7f0fc" />
+        </linearGradient>
+      </defs>
+      <rect x={0} y={0} width={1080} height={1000} fill="url(#roadsky)" />
+      <g transform={`translate(${drift},0)`}>
+        {[-400, -150, 60, 300, 560, 820, 1060, 1300].map((x, i) => (
+          <rect key={x} x={x} y={1000 - [220, 300, 180, 340, 240, 280, 200, 320][i]} width={190} height={[220, 300, 180, 340, 240, 280, 200, 320][i]} fill={['#adb5bd', '#ced4da', '#a3b1c2'][i % 3]} {...st} />
+        ))}
+      </g>
+      <rect x={0} y={1000} width={1080} height={920} fill="#74c69d" />
+      <path d={`M ${hx - 60},1000 L ${hx + 60},1000 L ${540 + 760},1920 L ${540 - 760},1920 Z`} fill="#495057" />
+      {Array.from({ length: 6 }).map((_, k) => {
+        const z = 1 - ((t * 0.9 * speed + k / 6) % 1); // 1 near the car → 0 at the horizon
+        const y = 1000 + 920 * z * z;
+        const x = hx + (540 - hx) * z;
+        const w = 6 + 26 * z;
+        const h = 10 + 90 * z * z;
+        return <rect key={k} x={x - w / 2} y={y - h} width={w} height={h} fill="#fefae0" />;
+      })}
+    </g>
+  );
+};
+
+// house facade (the punchline destination); mailbox reads `name`
+export const House: React.FC<{ name?: string }> = ({ name = 'BRO' }) => (
+  <g>
+    <rect x={0} y={0} width={1080} height={1000} fill="#a9def9" />
+    <rect x={0} y={1000} width={1080} height={920} fill="#74c69d" />
+    <rect x={0} y={1280} width={1080} height={640} fill="#6c757d" />
+    <path d="M 120,640 L 540,330 L 960,640 Z" fill="#9d0208" {...st} />
+    <rect x={170} y={640} width={740} height={640} fill="#ffe8d6" {...st} />
+    <rect x={460} y={900} width={160} height={380} rx={10} fill="#6f4518" {...st} />
+    <circle cx={590} cy={1100} r={10} fill="#f2c14e" />
+    {[250, 700].map((x) => (
+      <g key={x}>
+        <rect x={x} y={720} width={130} height={130} fill="#bde0fe" {...st} />
+        <line x1={x + 65} y1={720} x2={x + 65} y2={850} {...st} />
+      </g>
+    ))}
+    <rect x={930} y={1050} width={20} height={230} fill="#6f4518" {...st} />
+    <rect x={880} y={990} width={120} height={70} rx={20} fill="#3a86ff" {...st} />
+    <text x={940} y={1038} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={34} fill="#ffffff">
+      {name}
+    </text>
+  </g>
+);
+
+export const CarInterior: React.FC = () => (
+  <g>
+    <path d="M 260,840 L 820,840 L 920,1260 L 160,1260 Z" fill="#22223b" />
+    <rect x={260} y={930} width={240} height={330} rx={60} fill="#3d405b" {...st} />
+    <rect x={580} y={930} width={240} height={330} rx={60} fill="#3d405b" {...st} />
+  </g>
+);
+
+export const CarFront: React.FC<{ gps: string; gpsColor?: string }> = ({ gps, gpsColor = '#2dc653' }) => (
+  <g>
+    {/* steering wheel (driver = viewer's right) */}
+    <ellipse cx={712} cy={1212} rx={118} ry={40} fill="none" stroke="#1b1b1b" strokeWidth={22} />
+    <rect x={700} y={1218} width={24} height={50} fill="#1b1b1b" />
+    {/* dashboard + GPS phone */}
+    <rect x={165} y={1236} width={750} height={40} fill="#2b2d42" />
+    <g transform={`translate(${GPS_PHONE[0]},${GPS_PHONE[1]})`}>
+      <rect x={-12} y={20} width={24} height={20} fill="#1b1b1b" />
+      <rect x={-72} y={-42} width={144} height={66} rx={10} fill="#111" stroke={INK} strokeWidth={5} />
+      <rect x={-64} y={-35} width={128} height={52} rx={6} fill="#0b132b" />
+      <text x={0} y={-2} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={gps.length > 12 ? 13 : 17} fill={gpsColor}>
+        {gps}
+      </text>
+    </g>
+    {/* glass + glare */}
+    <path d="M 260,840 L 820,840 L 920,1260 L 160,1260 Z" fill="#cfe8ff" opacity={0.14} />
+    <path d="M 300,860 L 380,860 L 250,1240 L 190,1240 Z" fill="#ffffff" opacity={0.18} />
+    {/* roof + pillars + frame */}
+    <path d="M 230,850 Q 260,740 360,730 L 720,730 Q 820,740 850,850 Z" fill={CAR} {...st} />
+    <path d="M 260,840 L 820,840 L 920,1260 L 160,1260 Z" fill="none" stroke={CAR} strokeWidth={30} strokeLinejoin="round" />
+    <path d="M 245,825 L 835,825 L 940,1272 L 140,1272 Z" fill="none" stroke={INK} strokeWidth={7} strokeLinejoin="round" />
+    <path d="M 275,855 L 805,855 L 900,1248 L 180,1248 Z" fill="none" stroke={INK} strokeWidth={5} strokeLinejoin="round" />
+    {/* mirrors */}
+    <ellipse cx={110} cy={1110} rx={50} ry={36} fill={CAR} {...st} />
+    <ellipse cx={970} cy={1110} rx={50} ry={36} fill={CAR} {...st} />
+    {/* hood, grille, lights, bumper, wheels */}
+    <path d="M 140,1272 L 940,1272 L 1000,1480 L 80,1480 Z" fill={CAR} {...st} />
+    <path d="M 540,1290 L 540,1470" stroke={CAR_DARK} strokeWidth={8} />
+    <rect x={70} y={1480} width={940} height={130} rx={24} fill={CAR_DARK} {...st} />
+    <rect x={380} y={1500} width={320} height={70} rx={14} fill="#2b2d42" {...st} />
+    {[400, 440, 480, 520, 560, 600, 640, 680].map((x) => (
+      <line key={x} x1={x} y1={1505} x2={x} y2={1565} stroke="#5c677d" strokeWidth={5} />
+    ))}
+    <circle cx={200} cy={1540} r={46} fill="#fff3b0" {...st} />
+    <circle cx={880} cy={1540} r={46} fill="#fff3b0" {...st} />
+    <rect x={60} y={1600} width={960} height={50} rx={20} fill="#adb5bd" {...st} />
+    <rect x={460} y={1606} width={160} height={40} rx={6} fill="#ffffff" stroke={INK} strokeWidth={4} />
+    <text x={540} y={1636} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={28} fill={INK}>
+      BRO 1
+    </text>
+    <rect x={110} y={1650} width={140} height={80} rx={20} fill="#1b1b1b" {...st} />
+    <rect x={830} y={1650} width={140} height={80} rx={20} fill="#1b1b1b" {...st} />
+  </g>
+);
+
+// top-down city map; the route leaves HOME, circles the GAS block `loops` times, comes home.
+// p 0..1 = how much of the route is drawn (the car dot rides its head)
+export const CityMap: React.FC<{ p: number; loops?: number }> = ({ p, loops = 6 }) => {
+  const pts: [number, number][] = [[540, 1480], [540, 1210]];
+  // each lap a little wider than the last, so the rings visibly pile up
+  for (let i = 0; i < loops; i++) {
+    const d = i * 26;
+    pts.push([540 - d, 940 - d], [810 + d, 940 - d], [810 + d, 1210 + d], [540 - d, 1210 + d]);
+  }
+  pts.push([540, 1480]);
+  const seg = pts.slice(1).map((q, i) => Math.hypot(q[0] - pts[i][0], q[1] - pts[i][1]));
+  const total = seg.reduce((a, b) => a + b, 0);
+  let left = Math.max(0, Math.min(1, p)) * total;
+  const drawn: [number, number][] = [pts[0]];
+  for (let i = 0; i < seg.length && left > 0; i++) {
+    const k = Math.min(1, left / seg[i]);
+    const a = pts[i];
+    const b = pts[i + 1];
+    drawn.push([a[0] + (b[0] - a[0]) * k, a[1] + (b[1] - a[1]) * k]);
+    left -= seg[i];
+  }
+  const head = drawn[drawn.length - 1];
+  return (
+    <g>
+      <rect x={0} y={0} width={1080} height={1920} fill="#f1f3f5" />
+      {[0, 270, 540, 810].map((x) =>
+        [400, 670, 940, 1210, 1480].map((y) => (
+          <rect key={`${x}-${y}`} x={x + 28} y={y + 28} width={214} height={214} rx={18} fill={(x + y) % 540 === 0 ? '#b7e4c7' : '#dee2e6'} />
+        )),
+      )}
+      <polyline points={drawn.map((q) => q.join(',')).join(' ')} fill="none" stroke="#e63946" strokeWidth={9} strokeLinejoin="round" strokeLinecap="round" opacity={0.85} />
+      {/* GAS — on the loop's right edge, passed every lap */}
+      <g transform="translate(860,1075)">
+        <rect x={-34} y={-40} width={68} height={80} rx={10} fill="#ffbe0b" {...st} />
+        <text x={0} y={10} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={24} fill={INK}>
+          GAS
+        </text>
+      </g>
+      {/* MALL — never reached */}
+      <g transform="translate(810,400)">
+        <path d="M 0,0 C -40,-50 -40,-100 0,-100 C 40,-100 40,-50 0,0 Z" fill="#e63946" {...st} />
+        <circle cx={0} cy={-64} r={14} fill="#ffffff" />
+        <text x={0} y={46} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={40} fill={INK}>
+          MALL
+        </text>
+      </g>
+      {/* HOME */}
+      <g transform="translate(540,1480)">
+        <path d="M -44,10 L 0,-34 L 44,10 L 44,48 L -44,48 Z" fill="#2dc653" {...st} />
+        <text x={0} y={100} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={40} fill={INK}>
+          HOME
+        </text>
+      </g>
+      <circle cx={head[0]} cy={head[1]} r={24} fill="#ffbe0b" stroke={INK} strokeWidth={6} />
+      {/* lap counter: segments drawn after the first two, four per lap */}
+      {drawn.length > 3 && (
+        <text x={540} y={1760} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={96} fill="#e63946" stroke={INK} strokeWidth={6} paintOrder="stroke">
+          LAP {Math.min(loops, Math.ceil((drawn.length - 2) / 4))}
+        </text>
+      )}
+    </g>
+  );
+};

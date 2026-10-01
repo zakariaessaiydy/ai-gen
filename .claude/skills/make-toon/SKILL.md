@@ -30,7 +30,10 @@ remotion/src/lib/toon/
                      SPILL out of the screen onto the floor), Lamp, PowerStrip, CordBundle,
                      Skyline (night city that blacks out in a wave), WifiPhone (big phone insert),
                      Kitchen fridgeOpen + FridgeGlow, Celery, KetchupPacket, KetchupPile,
-                     LightSwitch, KetchupFace (smears on a face)
+                     LightSwitch, KetchupFace (smears on a face),
+                     RoadBackdrop (moving road), CarInterior + CarFront (front-view car: driver on
+                     the viewer's right, GPS phone on the dash), CityMap (looping route + LAP
+                     counter), House (the destination facade)
   series/<series>.ts LOCKED cast specs + speaker colours + series name/catchphrase/accent
 remotion/src/shots/
   toon-<series>/<Series>ModelSheet.tsx   the model sheet -> toon-shorts/<series>/character.png

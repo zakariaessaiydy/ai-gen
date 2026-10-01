@@ -1,0 +1,554 @@
+{
+  "id": "ep-08-gps",
+  "series": "bro",
+  "episode": 8,
+  "title": "Bro said he doesn't need GPS",
+  "composition": "Bro08Gps",
+  "audience": "everyone who has been in the car with someone who 'knows the way'",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 38.2
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "bro": {
+      "elevenlabs": "TX3LPaxmHKxFdv7VOQHJ",
+      "edge": "en-US-ChristopherNeural",
+      "rate": "+6%",
+      "kokoro": "am_puck"
+    },
+    "dee": {
+      "elevenlabs": "ErXwobaYiN019PkySvjV",
+      "edge": "en-US-EricNeural",
+      "rate": "+4%",
+      "kokoro": "am_michael"
+    },
+    "gps": {
+      "kokoro": "bf_emma",
+      "edge": "en-GB-SoniaNeural",
+      "rate": "-4%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "bro",
+      "start": 0.15,
+      "end": 1.21,
+      "text": "We're going to the mall.",
+      "words": [
+        {
+          "w": "We're",
+          "start": 0.17,
+          "end": 0.317
+        },
+        {
+          "w": "going",
+          "start": 0.317,
+          "end": 0.611
+        },
+        {
+          "w": "to",
+          "start": 0.611,
+          "end": 0.757
+        },
+        {
+          "w": "the",
+          "start": 0.757,
+          "end": 0.855
+        },
+        {
+          "w": "mall.",
+          "start": 0.855,
+          "end": 1.1
+        }
+      ]
+    },
+    {
+      "beat": "hook",
+      "speaker": "dee",
+      "start": 1.41,
+      "end": 2.84,
+      "text": "Put on the GPS.",
+      "words": [
+        {
+          "w": "Put",
+          "start": 1.45,
+          "end": 1.698
+        },
+        {
+          "w": "on",
+          "start": 1.698,
+          "end": 1.883
+        },
+        {
+          "w": "the",
+          "start": 1.883,
+          "end": 2.007
+        },
+        {
+          "w": "GPS.",
+          "start": 2.007,
+          "end": 2.75
+        }
+      ]
+    },
+    {
+      "beat": "hook",
+      "speaker": "bro",
+      "start": 3.14,
+      "end": 5.72,
+      "text": "GPS is for tourists. I know these streets.",
+      "words": [
+        {
+          "w": "GPS",
+          "start": 3.17,
+          "end": 3.765
+        },
+        {
+          "w": "is",
+          "start": 3.765,
+          "end": 3.864
+        },
+        {
+          "w": "for",
+          "start": 3.864,
+          "end": 4.062
+        },
+        {
+          "w": "tourists.",
+          "start": 4.062,
+          "end": 4.509
+        },
+        {
+          "w": "I",
+          "start": 4.509,
+          "end": 4.657
+        },
+        {
+          "w": "know",
+          "start": 4.657,
+          "end": 4.856
+        },
+        {
+          "w": "these",
+          "start": 4.856,
+          "end": 5.103
+        },
+        {
+          "w": "streets.",
+          "start": 5.103,
+          "end": 5.5
+        }
+      ]
+    },
+    {
+      "beat": "catch",
+      "speaker": "bro",
+      "start": 6.12,
+      "end": 7.37,
+      "text": "Trust me. I got this.",
+      "words": [
+        {
+          "w": "Trust",
+          "start": 6.17,
+          "end": 6.459
+        },
+        {
+          "w": "me.",
+          "start": 6.459,
+          "end": 6.652
+        },
+        {
+          "w": "I",
+          "start": 6.652,
+          "end": 6.796
+        },
+        {
+          "w": "got",
+          "start": 6.796,
+          "end": 7.037
+        },
+        {
+          "w": "this.",
+          "start": 7.037,
+          "end": 7.23
+        }
+      ]
+    },
+    {
+      "beat": "gps",
+      "speaker": "gps",
+      "start": 7.67,
+      "end": 8.69,
+      "text": "Turn left.",
+      "words": [
+        {
+          "w": "Turn",
+          "start": 7.71,
+          "end": 8.145
+        },
+        {
+          "w": "left.",
+          "start": 8.145,
+          "end": 8.58
+        }
+      ]
+    },
+    {
+      "beat": "gps",
+      "speaker": "gps",
+      "start": 9.39,
+      "end": 10.71,
+      "text": "Recalculating.",
+      "words": [
+        {
+          "w": "Recalculating.",
+          "start": 9.43,
+          "end": 10.6
+        }
+      ]
+    },
+    {
+      "beat": "gps",
+      "speaker": "gps",
+      "start": 11.01,
+      "end": 12.03,
+      "text": "Turn left.",
+      "words": [
+        {
+          "w": "Turn",
+          "start": 11.05,
+          "end": 11.485
+        },
+        {
+          "w": "left.",
+          "start": 11.485,
+          "end": 11.92
+        }
+      ]
+    },
+    {
+      "beat": "gps",
+      "speaker": "gps",
+      "start": 12.73,
+      "end": 13.98,
+      "text": "Recalculating...",
+      "words": [
+        {
+          "w": "Recalculating...",
+          "start": 12.76,
+          "end": 13.87
+        }
+      ]
+    },
+    {
+      "beat": "gps",
+      "speaker": "gps",
+      "start": 14.58,
+      "end": 15.66,
+      "text": "...I give up.",
+      "words": [
+        {
+          "w": "...I",
+          "start": 14.61,
+          "end": 14.889
+        },
+        {
+          "w": "give",
+          "start": 14.889,
+          "end": 15.261
+        },
+        {
+          "w": "up.",
+          "start": 15.261,
+          "end": 15.54
+        }
+      ]
+    },
+    {
+      "beat": "later",
+      "speaker": "dee",
+      "start": 20.06,
+      "end": 22.73,
+      "text": "We passed that gas station six times.",
+      "words": [
+        {
+          "w": "We",
+          "start": 20.17,
+          "end": 20.366
+        },
+        {
+          "w": "passed",
+          "start": 20.366,
+          "end": 20.693
+        },
+        {
+          "w": "that",
+          "start": 20.693,
+          "end": 20.955
+        },
+        {
+          "w": "gas",
+          "start": 20.955,
+          "end": 21.217
+        },
+        {
+          "w": "station",
+          "start": 21.217,
+          "end": 21.74
+        },
+        {
+          "w": "six",
+          "start": 21.74,
+          "end": 22.067
+        },
+        {
+          "w": "times.",
+          "start": 22.067,
+          "end": 22.46
+        }
+      ]
+    },
+    {
+      "beat": "later",
+      "speaker": "bro",
+      "start": 23.28,
+      "end": 24.87,
+      "text": "...They have six gas stations.",
+      "words": [
+        {
+          "w": "...They",
+          "start": 23.31,
+          "end": 23.478
+        },
+        {
+          "w": "have",
+          "start": 23.478,
+          "end": 23.702
+        },
+        {
+          "w": "six",
+          "start": 23.702,
+          "end": 23.982
+        },
+        {
+          "w": "gas",
+          "start": 23.982,
+          "end": 24.206
+        },
+        {
+          "w": "stations.",
+          "start": 24.206,
+          "end": 24.71
+        }
+      ]
+    },
+    {
+      "beat": "home",
+      "speaker": "dee",
+      "start": 25.87,
+      "end": 27.36,
+      "text": "Bro. This is your house.",
+      "words": [
+        {
+          "w": "Bro.",
+          "start": 25.91,
+          "end": 26.265
+        },
+        {
+          "w": "This",
+          "start": 26.265,
+          "end": 26.549
+        },
+        {
+          "w": "is",
+          "start": 26.549,
+          "end": 26.692
+        },
+        {
+          "w": "your",
+          "start": 26.692,
+          "end": 26.905
+        },
+        {
+          "w": "house.",
+          "start": 26.905,
+          "end": 27.26
+        }
+      ]
+    },
+    {
+      "beat": "stare",
+      "speaker": "bro",
+      "start": 27.96,
+      "end": 28.87,
+      "text": "...Scenic route.",
+      "words": [
+        {
+          "w": "...Scenic",
+          "start": 28.0,
+          "end": 28.484
+        },
+        {
+          "w": "route.",
+          "start": 28.484,
+          "end": 28.83
+        }
+      ]
+    },
+    {
+      "beat": "math",
+      "speaker": "dee",
+      "start": 29.17,
+      "end": 30.68,
+      "text": "We didn't go anywhere.",
+      "words": [
+        {
+          "w": "We",
+          "start": 29.27,
+          "end": 29.436
+        },
+        {
+          "w": "didn't",
+          "start": 29.436,
+          "end": 29.767
+        },
+        {
+          "w": "go",
+          "start": 29.767,
+          "end": 29.988
+        },
+        {
+          "w": "anywhere.",
+          "start": 29.988,
+          "end": 30.43
+        }
+      ]
+    },
+    {
+      "beat": "math",
+      "speaker": "bro",
+      "start": 30.98,
+      "end": 32.45,
+      "text": "Exactly. Zero traffic.",
+      "words": [
+        {
+          "w": "Exactly.",
+          "start": 31.01,
+          "end": 31.523
+        },
+        {
+          "w": "Zero",
+          "start": 31.523,
+          "end": 31.921
+        },
+        {
+          "w": "traffic.",
+          "start": 31.921,
+          "end": 32.32
+        }
+      ]
+    },
+    {
+      "beat": "tag",
+      "speaker": "gps",
+      "start": 32.95,
+      "end": 34.67,
+      "text": "You have arrived... tourist.",
+      "words": [
+        {
+          "w": "You",
+          "start": 32.99,
+          "end": 33.21
+        },
+        {
+          "w": "have",
+          "start": 33.21,
+          "end": 33.502
+        },
+        {
+          "w": "arrived...",
+          "start": 33.502,
+          "end": 34.015
+        },
+        {
+          "w": "tourist.",
+          "start": 34.015,
+          "end": 34.6
+        }
+      ]
+    },
+    {
+      "beat": "signature",
+      "speaker": "bro",
+      "start": 35.77,
+      "end": 36.59,
+      "text": "I got this.",
+      "words": [
+        {
+          "w": "I",
+          "start": 35.8,
+          "end": 35.97
+        },
+        {
+          "w": "got",
+          "start": 35.97,
+          "end": 36.253
+        },
+        {
+          "w": "this.",
+          "start": 36.253,
+          "end": 36.48
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 6.02,
+      "visual": "Front view of the car, both seen through the windshield, road behind. Bro (driving, right): 'We're going to the mall.' Dee: 'Put on the GPS.' Bro: 'GPS is for tourists. I know these streets.'"
+    },
+    {
+      "id": "gps",
+      "start": 6.02,
+      "end": 15.96,
+      "visual": "Punch-in 'Trust me. I got this.' GPS (phone on the dash): 'Turn left.' Bro yanks the wheel RIGHT (swerve). 'Recalculating.' 'Turn left.' RIGHT again. 'Recalculating...' INSERT GPS screen: '...I give up.'"
+    },
+    {
+      "id": "map",
+      "start": 15.96,
+      "end": 18.36,
+      "visual": "SILENT map insert: the route leaves HOME, then spins round and round the same block past the GAS station."
+    },
+    {
+      "id": "later",
+      "start": 18.36,
+      "end": 25.17,
+      "visual": "Card: 2 HOURS LATER. Dee: 'We passed that gas station six times.' Bro: '...They have six gas stations.'"
+    },
+    {
+      "id": "home",
+      "start": 25.17,
+      "end": 29.27,
+      "visual": "The car stops — they're in front of Bro's own house (mailbox: BRO). Dee: 'Bro. This is your house.' THE STARE: '...Scenic route.'"
+    },
+    {
+      "id": "math",
+      "start": 29.27,
+      "end": 35.27,
+      "visual": "Dee: 'We didn't go anywhere.' Bro: 'Exactly. Zero traffic.' Tag, GPS: 'You have arrived... tourist.' (callback)"
+    },
+    {
+      "id": "signature",
+      "start": 35.27,
+      "end": 38.2,
+      "visual": "Series signature: grey-out, letterbox, THE STARE, 'I got this.' + stamp"
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}
