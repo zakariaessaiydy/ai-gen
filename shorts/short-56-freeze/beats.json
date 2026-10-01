@@ -1,0 +1,664 @@
+{
+  "id": "short-56-freeze",
+  "title": "What If Earth's Oceans Suddenly Froze?",
+  "composition": "Short56Freeze",
+  "audience": "anyone who has wondered what an ice-covered Earth would actually do — and learns it already happened",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 47.0
+  },
+  "voicePlan": "edge:en-US-AndrewMultilingualNeural --rate +12%",
+  "vo": [
+    {
+      "beat": "hook",
+      "text": "What if Earth's oceans suddenly froze?",
+      "start": 0.3,
+      "end": 2.89,
+      "words": [
+        {
+          "w": "What",
+          "start": 0.389,
+          "end": 0.467
+        },
+        {
+          "w": "if",
+          "start": 0.467,
+          "end": 0.557
+        },
+        {
+          "w": "Earth's",
+          "start": 0.557,
+          "end": 0.858
+        },
+        {
+          "w": "oceans",
+          "start": 0.97,
+          "end": 1.416
+        },
+        {
+          "w": "suddenly",
+          "start": 1.539,
+          "end": 1.907
+        },
+        {
+          "w": "froze?",
+          "start": 1.918,
+          "end": 2.599
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "Oceans cover seventy-one percent of our planet.",
+      "start": 3.36,
+      "end": 6.43,
+      "words": [
+        {
+          "w": "Oceans",
+          "start": 3.449,
+          "end": 3.806
+        },
+        {
+          "w": "cover",
+          "start": 3.818,
+          "end": 4.141
+        },
+        {
+          "w": "seventy-one",
+          "start": 4.342,
+          "end": 4.833
+        },
+        {
+          "w": "percent",
+          "start": 4.844,
+          "end": 5.369
+        },
+        {
+          "w": "of",
+          "start": 5.548,
+          "end": 5.626
+        },
+        {
+          "w": "our",
+          "start": 5.626,
+          "end": 5.715
+        },
+        {
+          "w": "planet.",
+          "start": 5.715,
+          "end": 6.139
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "That dark water soaks up over ninety percent of sunlight.",
+      "start": 6.85,
+      "end": 10.5,
+      "words": [
+        {
+          "w": "That",
+          "start": 6.939,
+          "end": 7.129
+        },
+        {
+          "w": "dark",
+          "start": 7.14,
+          "end": 7.397
+        },
+        {
+          "w": "water",
+          "start": 7.408,
+          "end": 7.687
+        },
+        {
+          "w": "soaks",
+          "start": 7.687,
+          "end": 8.044
+        },
+        {
+          "w": "up",
+          "start": 8.178,
+          "end": 8.424
+        },
+        {
+          "w": "over",
+          "start": 8.591,
+          "end": 8.747
+        },
+        {
+          "w": "ninety",
+          "start": 8.747,
+          "end": 9.171
+        },
+        {
+          "w": "percent",
+          "start": 9.183,
+          "end": 9.596
+        },
+        {
+          "w": "of",
+          "start": 9.596,
+          "end": 9.651
+        },
+        {
+          "w": "sunlight.",
+          "start": 9.651,
+          "end": 10.187
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "Now freeze it.",
+      "start": 11.07,
+      "end": 12.13,
+      "words": [
+        {
+          "w": "Now",
+          "start": 11.159,
+          "end": 11.338
+        },
+        {
+          "w": "freeze",
+          "start": 11.338,
+          "end": 11.673
+        },
+        {
+          "w": "it.",
+          "start": 11.673,
+          "end": 11.818
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "Ice bounces most of that light back to space.",
+      "start": 12.6,
+      "end": 15.63,
+      "words": [
+        {
+          "w": "Ice",
+          "start": 12.689,
+          "end": 12.879
+        },
+        {
+          "w": "bounces",
+          "start": 12.89,
+          "end": 13.359
+        },
+        {
+          "w": "most",
+          "start": 13.359,
+          "end": 13.75
+        },
+        {
+          "w": "of",
+          "start": 13.761,
+          "end": 13.805
+        },
+        {
+          "w": "that",
+          "start": 13.805,
+          "end": 13.984
+        },
+        {
+          "w": "light",
+          "start": 13.984,
+          "end": 14.274
+        },
+        {
+          "w": "back",
+          "start": 14.352,
+          "end": 14.564
+        },
+        {
+          "w": "to",
+          "start": 14.564,
+          "end": 14.642
+        },
+        {
+          "w": "space.",
+          "start": 14.654,
+          "end": 15.312
+        }
+      ]
+    },
+    {
+      "beat": "setup",
+      "text": "So would the sun just melt it?",
+      "start": 16.1,
+      "end": 17.97,
+      "words": [
+        {
+          "w": "So",
+          "start": 16.178,
+          "end": 16.256
+        },
+        {
+          "w": "would",
+          "start": 16.256,
+          "end": 16.346
+        },
+        {
+          "w": "the",
+          "start": 16.346,
+          "end": 16.401
+        },
+        {
+          "w": "sun",
+          "start": 16.412,
+          "end": 16.825
+        },
+        {
+          "w": "just",
+          "start": 16.904,
+          "end": 17.071
+        },
+        {
+          "w": "melt",
+          "start": 17.071,
+          "end": 17.339
+        },
+        {
+          "w": "it?",
+          "start": 17.339,
+          "end": 17.495
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "No. Less sunlight absorbed means colder air.",
+      "start": 20.94,
+      "end": 24.11,
+      "words": [
+        {
+          "w": "No.",
+          "start": 21.029,
+          "end": 21.297
+        },
+        {
+          "w": "Less",
+          "start": 21.654,
+          "end": 21.822
+        },
+        {
+          "w": "sunlight",
+          "start": 21.822,
+          "end": 22.223
+        },
+        {
+          "w": "absorbed",
+          "start": 22.224,
+          "end": 22.726
+        },
+        {
+          "w": "means",
+          "start": 22.938,
+          "end": 23.194
+        },
+        {
+          "w": "colder",
+          "start": 23.206,
+          "end": 23.563
+        },
+        {
+          "w": "air.",
+          "start": 23.563,
+          "end": 23.886
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Colder air means even more ice.",
+      "start": 24.53,
+      "end": 27.1,
+      "words": [
+        {
+          "w": "Colder",
+          "start": 24.619,
+          "end": 24.887
+        },
+        {
+          "w": "air",
+          "start": 24.887,
+          "end": 25.2
+        },
+        {
+          "w": "means",
+          "start": 25.401,
+          "end": 25.735
+        },
+        {
+          "w": "even",
+          "start": 25.88,
+          "end": 26.07
+        },
+        {
+          "w": "more",
+          "start": 26.07,
+          "end": 26.316
+        },
+        {
+          "w": "ice.",
+          "start": 26.316,
+          "end": 26.773
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "text": "Earth's average drops from fifteen to around minus fifty.",
+      "start": 27.52,
+      "end": 30.64,
+      "words": [
+        {
+          "w": "Earth's",
+          "start": 27.598,
+          "end": 27.821
+        },
+        {
+          "w": "average",
+          "start": 27.832,
+          "end": 28.167
+        },
+        {
+          "w": "drops",
+          "start": 28.167,
+          "end": 28.513
+        },
+        {
+          "w": "from",
+          "start": 28.513,
+          "end": 28.658
+        },
+        {
+          "w": "fifteen",
+          "start": 28.67,
+          "end": 29.194
+        },
+        {
+          "w": "to",
+          "start": 29.194,
+          "end": 29.317
+        },
+        {
+          "w": "around",
+          "start": 29.317,
+          "end": 29.629
+        },
+        {
+          "w": "minus",
+          "start": 29.629,
+          "end": 29.908
+        },
+        {
+          "w": "fifty.",
+          "start": 29.908,
+          "end": 30.332
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "And this really happened.",
+      "start": 31.31,
+      "end": 33.18,
+      "words": [
+        {
+          "w": "And",
+          "start": 31.399,
+          "end": 31.444
+        },
+        {
+          "w": "this",
+          "start": 31.444,
+          "end": 31.578
+        },
+        {
+          "w": "really",
+          "start": 31.578,
+          "end": 31.768
+        },
+        {
+          "w": "happened.",
+          "start": 31.768,
+          "end": 32.158
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "Seven hundred million years ago, Snowball Earth froze nearly pole to pole.",
+      "start": 33.6,
+      "end": 37.99,
+      "words": [
+        {
+          "w": "Seven",
+          "start": 33.689,
+          "end": 33.912
+        },
+        {
+          "w": "hundred",
+          "start": 33.912,
+          "end": 34.169
+        },
+        {
+          "w": "million",
+          "start": 34.169,
+          "end": 34.537
+        },
+        {
+          "w": "years",
+          "start": 34.549,
+          "end": 34.783
+        },
+        {
+          "w": "ago,",
+          "start": 34.794,
+          "end": 35.129
+        },
+        {
+          "w": "Snowball",
+          "start": 35.386,
+          "end": 35.866
+        },
+        {
+          "w": "Earth",
+          "start": 35.866,
+          "end": 36.089
+        },
+        {
+          "w": "froze",
+          "start": 36.1,
+          "end": 36.558
+        },
+        {
+          "w": "nearly",
+          "start": 36.569,
+          "end": 36.982
+        },
+        {
+          "w": "pole",
+          "start": 36.982,
+          "end": 37.25
+        },
+        {
+          "w": "to",
+          "start": 37.261,
+          "end": 37.328
+        },
+        {
+          "w": "pole.",
+          "start": 37.328,
+          "end": 37.696
+        }
+      ]
+    },
+    {
+      "beat": "twist",
+      "text": "It took millions of years of volcanic carbon dioxide to thaw.",
+      "start": 38.46,
+      "end": 41.8,
+      "words": [
+        {
+          "w": "It",
+          "start": 38.549,
+          "end": 38.605
+        },
+        {
+          "w": "took",
+          "start": 38.605,
+          "end": 38.75
+        },
+        {
+          "w": "millions",
+          "start": 38.75,
+          "end": 39.308
+        },
+        {
+          "w": "of",
+          "start": 39.308,
+          "end": 39.375
+        },
+        {
+          "w": "years",
+          "start": 39.375,
+          "end": 39.777
+        },
+        {
+          "w": "of",
+          "start": 39.777,
+          "end": 39.81
+        },
+        {
+          "w": "volcanic",
+          "start": 39.81,
+          "end": 40.279
+        },
+        {
+          "w": "carbon",
+          "start": 40.279,
+          "end": 40.514
+        },
+        {
+          "w": "dioxide",
+          "start": 40.525,
+          "end": 41.049
+        },
+        {
+          "w": "to",
+          "start": 41.049,
+          "end": 41.094
+        },
+        {
+          "w": "thaw.",
+          "start": 41.094,
+          "end": 41.496
+        }
+      ]
+    },
+    {
+      "beat": "loop",
+      "text": "So if the oceans froze... they'd stay frozen.",
+      "start": 42.52,
+      "end": 45.52,
+      "words": [
+        {
+          "w": "So",
+          "start": 42.609,
+          "end": 42.788
+        },
+        {
+          "w": "if",
+          "start": 42.788,
+          "end": 42.855
+        },
+        {
+          "w": "the",
+          "start": 42.855,
+          "end": 42.944
+        },
+        {
+          "w": "oceans",
+          "start": 42.944,
+          "end": 43.301
+        },
+        {
+          "w": "froze...",
+          "start": 43.301,
+          "end": 43.937
+        },
+        {
+          "w": "they'd",
+          "start": 44.161,
+          "end": 44.361
+        },
+        {
+          "w": "stay",
+          "start": 44.373,
+          "end": 44.663
+        },
+        {
+          "w": "frozen.",
+          "start": 44.663,
+          "end": 45.21
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0.0,
+      "end": 3.4,
+      "visual": "Frame 0 = payoff: a real-outline globe (Natural Earth 110m, orthographic) completely white, SEA ICE 100%, OCEAN ABSORBS 20%, AVG TEMP -50 C. Title 'What if Earth's / oceans froze?'. Punch-in settles 1.06 -> 1. At ~2.9s the ice rewinds to today's polar caps."
+    },
+    {
+      "id": "setup",
+      "start": 3.4,
+      "end": 18.2,
+      "visual": "Earth today: blue oceans, 71% chip on 'seventy-one'. Sun rays rain on the globe and are swallowed by the ocean (ABSORBS 94%) on 'ninety'. On 'freeze' the ice edge sweeps from both poles to the equator. On 'bounces' the rays bounce off back to space, ABSORBS falls to 20%."
+    },
+    {
+      "id": "quiz",
+      "start": 18.2,
+      "end": 20.8,
+      "visual": "PauseCard: WOULD IT MELT? / the Sun is still shining."
+    },
+    {
+      "id": "reveal",
+      "start": 20.8,
+      "end": 31.2,
+      "visual": "Ice-albedo feedback loop arrow circles the globe (LESS SUN -> COLDER -> MORE ICE). On 'colder' AVG TEMP starts falling, land snows over on 'more ice', temp lands on -50 C on 'fifty'."
+    },
+    {
+      "id": "twist",
+      "start": 31.2,
+      "end": 42.3,
+      "visual": "SNOWBALL EARTH stamp + '~700 MILLION YEARS AGO' chip on 'Snowball'. Volcano dots erupt CO2 puffs on 'volcanic', the ice retreats back to the tropics and temp climbs."
+    },
+    {
+      "id": "loop",
+      "start": 42.3,
+      "end": 47.0,
+      "visual": "On 'stay frozen' the ice sweeps back over everything, temp -50, title returns and punch-in grows back to 1.06 -> last frame == frame 0."
+    }
+  ],
+  "facts": [
+    "Ocean covers ~71% of Earth's surface (NOAA / USGS: 'about 71 percent').",
+    "Open-ocean albedo ~0.06, i.e. it absorbs ~94% of incoming sunlight (NSIDC 'Thermodynamics: Albedo'; Payne 1972).",
+    "Snow-covered sea ice albedo ~0.8-0.9; bare sea ice ~0.5-0.7 (NSIDC). Shown as 'absorbs 20%' for snow-covered ice (albedo 0.8).",
+    "Ice-albedo feedback: more ice -> more reflection -> colder -> more ice (Budyko 1969; Sellers 1969 found a runaway to global glaciation).",
+    "Earth's global mean surface temperature ~15 C (NASA/NOAA baseline ~14-15 C).",
+    "Snowball Earth global mean estimated ~ -50 C (Hoffman & Schrag 2002, Terra Nova 14:129; Hoffman et al. 1998, Science 281:1342).",
+    "Sturtian glaciation began ~717 million years ago (Macdonald et al. 2010, Science 327:1241); Marinoan ended ~635 Ma. VO: 'seven hundred million years ago'. 'Nearly pole to pole' hedges the slushball debate.",
+    "Deglaciation by volcanic CO2 accumulating over millions of years with weathering shut down (Kirschvink 1992; Hoffman et al. 1998).",
+    "Area poleward of latitude e on a sphere = 1 - sin(e); today's sea ice edge drawn at ~70 deg -> ~6% of ocean area (NSIDC: sea ice covers ~7% of the ocean on average)."
+  ],
+  "voiceStatus": "edge:en-US-AndrewMultilingualNeural"
+}

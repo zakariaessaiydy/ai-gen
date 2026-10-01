@@ -1,0 +1,154 @@
+{
+  "master": "remotion/out/Short55Memory-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "notes": "Library-only. The grid is the instrument: a whoosh with the sweep, a click on the Tuesday, a reverse whoosh as it forgets, a riser as HSAM relights it, click-hops to the named date and pops as the card answers, a stamp on AVERAGE, one deep soft impact as the bad days turn pink (no glitch under the voice), a reverse whoosh as it filters again and a chime on the payoff. Cue times = the spoken words the composition keys on.",
+  "render": {
+    "preview": "remotion/out/Short55Memory-voiced.mp4",
+    "out": "shorts/short-55-memory/output/short-55-sfx.mp4",
+    "end_s": 40.3,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 4.5,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -18,
+      "shot": "Short55Memory",
+      "cue": "'eleven' - the sweep runs through 30 years in order"
+    },
+    {
+      "at_s": 7.04,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -14,
+      "shot": "Short55Memory",
+      "cue": "'Tuesday' - ring lands on the Tuesday three years back"
+    },
+    {
+      "at_s": 9.12,
+      "sfx_id": "whoosh-reverse",
+      "gain_db": -16,
+      "shot": "Short55Memory",
+      "cue": "'Gone' - the grid forgets, meter drops to 285"
+    },
+    {
+      "at_s": 12.36,
+      "sfx_id": "riser-soft",
+      "gain_db": -19,
+      "shot": "Short55Memory",
+      "cue": "'HSAM' - the grid relights in a chronological sweep"
+    },
+    {
+      "at_s": 13.96,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -19,
+      "shot": "Short55Memory",
+      "cue": "'every one' - the sweep completes",
+      "optional": true
+    },
+    {
+      "at_s": 15.19,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -15,
+      "shot": "Short55Memory",
+      "cue": "'Name' - ring hop 1"
+    },
+    {
+      "at_s": 15.49,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -17,
+      "shot": "Short55Memory",
+      "cue": "ring hop 2",
+      "optional": true
+    },
+    {
+      "at_s": 15.79,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -15,
+      "shot": "Short55Memory",
+      "cue": "ring hop 3 - lands on MAR 14, 2011"
+    },
+    {
+      "at_s": 16.44,
+      "sfx_id": "pop-reveal",
+      "gain_db": -16,
+      "shot": "Short55Memory",
+      "cue": "'weekday' - MONDAY, computed"
+    },
+    {
+      "at_s": 17.28,
+      "sfx_id": "pop-reveal",
+      "gain_db": -18,
+      "shot": "Short55Memory",
+      "cue": "'weather' - LIGHT RAIN",
+      "optional": true
+    },
+    {
+      "at_s": 18.1,
+      "sfx_id": "pop-reveal",
+      "gain_db": -17,
+      "shot": "Short55Memory",
+      "cue": "'did' - FIRST DAY, NEW JOB",
+      "optional": true
+    },
+    {
+      "at_s": 20.8,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -14,
+      "shot": "Short55Memory",
+      "cue": "PauseCard - ACE EVERY EXAM?"
+    },
+    {
+      "at_s": 24.67,
+      "sfx_id": "pencil-scribble",
+      "gain_db": -19,
+      "shot": "Short55Memory",
+      "cue": "'pairs' - the word pairs write in",
+      "optional": true
+    },
+    {
+      "at_s": 26.49,
+      "sfx_id": "stamp-hit",
+      "gain_db": -14,
+      "shot": "Short55Memory",
+      "cue": "'everyone' - AVERAGE stamp"
+    },
+    {
+      "at_s": 29.32,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -17,
+      "shot": "Short55Memory",
+      "cue": "'bad' - the bad days turn pink"
+    },
+    {
+      "at_s": 31.74,
+      "sfx_id": "page-flip",
+      "gain_db": -18,
+      "shot": "Short55Memory",
+      "cue": "'first' - the quote card",
+      "optional": true
+    },
+    {
+      "at_s": 36.42,
+      "sfx_id": "whoosh-reverse",
+      "gain_db": -17,
+      "shot": "Short55Memory",
+      "cue": "'Forgetting' - the grid filters to its landmarks"
+    },
+    {
+      "at_s": 37.9,
+      "sfx_id": "chime-reward",
+      "gain_db": -18,
+      "shot": "Short55Memory",
+      "cue": "'filter' - the payoff"
+    },
+    {
+      "at_s": 38.8,
+      "sfx_id": "riser-soft",
+      "gain_db": -20,
+      "shot": "Short55Memory",
+      "cue": "RELIGHT - the grid relights back to frame 0",
+      "optional": true
+    }
+  ]
+}
