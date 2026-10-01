@@ -84,6 +84,35 @@ v2 (`ep-01-business/script.md`) is the bar every episode is held to:
 10. **Self-check before animating:** read the script out loud and mark each laugh. Fewer than
     6 laughs in 35s means rewrite it. Never animate a script you wouldn't laugh at.
 
+## The joke toolkit (how to write the jokes, not just where they go)
+
+The user asked for "the funniest jokes" after EP1–3 v2. The v3 rewrites
+(`toon-shorts/bro/SCRIPTS-v3.md`) are the new bar: 8–9 laughs in ~35s. Use these tools:
+
+- **Visual contradiction:** he claims something, then a hard cut proves the opposite (EP1 v3:
+  "selling water" → smash cut to him soaked in pouring rain). Funnier than any line.
+- **The silent visual punchline:** at least ONE per episode with no dialogue (the umbrella man
+  drinking the rain; the phone going out the window). These work in every language.
+- **Callback:** a line or prop from the first 5 seconds destroys him at the end ("And I was
+  looking at the clock."). At least ONE per episode.
+- **Absurd specificity:** an exact, weird number or detail beats a vague one ("forty-seven
+  alarms… in case I'm stronger than forty-six").
+- **Rejection reframed as success:** every loss becomes a win in his head ("She rejected you
+  three times." / "Three times. She keeps coming back.").
+- **Bro math:** a dumb but almost-logical conclusion; the more checkable, the better.
+- **The tag:** one extra joke right before the signature, after you think it's over ("Great.
+  Wake me up in forty-five days.").
+- **Straight-man economy:** Dee's lines are short, flat and true. Dee never jokes; the truth is
+  the setup.
+
+**Process (do it, don't skip it):**
+1. For every punchline slot, write at least 5 alternatives, then keep the most SURPRISING one
+   (not the most obvious).
+2. Cut every line that isn't a setup or a punchline.
+3. Score the draft: count the ✔ laughs. Ship at 8 or more per ~35s, with at least 1 silent
+   visual gag and 1 callback. Below that, rewrite before animating.
+4. Never explain a joke, and never punch down. The joke is always on Bro's ego.
+
 ## Stage 1 — the episode script
 
 Pick from `toon-shorts/<series>/IDEAS.md` (🟡 = next up), or invent one that fits the
