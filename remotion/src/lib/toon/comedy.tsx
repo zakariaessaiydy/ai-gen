@@ -548,3 +548,72 @@ export const EyesInDark: React.FC<{ from: number; to: number; pairs: DarkEyes[] 
     </AbsoluteFill>
   );
 };
+
+// ---------------------------------------------------------------------------------------------
+// DUST CLOUD — the cartoon "fight/flurry" cloud: puffs churn, limbs and stars flick out
+// (stage coords). Hide the character it replaces while it's up.
+// ---------------------------------------------------------------------------------------------
+export const DustCloud: React.FC<{ x: number; y: number; t: number; from: number; to: number; size?: number; skin?: string; sleeve?: string }> = ({
+  x,
+  y,
+  t,
+  from,
+  to,
+  size = 1,
+  skin = '#8d5a3b',
+  sleeve = '#2a9d8f',
+}) => {
+  if (t < from || t >= to) return null;
+  const k = t - from;
+  return (
+    <g transform={`translate(${x},${y}) scale(${size})`}>
+      {Array.from({ length: 9 }).map((_, i) => {
+        const a = (i / 9) * Math.PI * 2 + k * 3;
+        return <circle key={i} cx={Math.cos(a) * 120} cy={Math.sin(a) * 70} r={90 + Math.sin(k * 9 + i) * 14} fill={i % 2 ? '#e9ecef' : '#ced4da'} stroke="#22160f" strokeWidth={6} />;
+      })}
+      {[0, 1, 2, 3].map((i) => {
+        const a = k * 11 + i * 1.7;
+        const ex = Math.cos(a) * 190;
+        const ey = Math.sin(a) * 110;
+        return (
+          <g key={i}>
+            <line x1={ex * 0.5} y1={ey * 0.5} x2={ex} y2={ey} stroke={sleeve} strokeWidth={30} strokeLinecap="round" />
+            <circle cx={ex} cy={ey} r={24} fill={skin} stroke="#22160f" strokeWidth={5} />
+          </g>
+        );
+      })}
+      {[0, 1].map((i) => {
+        const a = -k * 7 + i * 3;
+        return (
+          <path
+            key={i}
+            d="M 0,-26 L 7,-7 L 26,0 L 7,7 L 0,26 L -7,7 L -26,0 L -7,-7 Z"
+            fill="#ffd23f"
+            stroke="#22160f"
+            strokeWidth={4}
+            transform={`translate(${Math.cos(a) * 160},${Math.sin(a) * 120 - 40})`}
+          />
+        );
+      })}
+    </g>
+  );
+};
+
+// REP COUNTER — big gym-style counter under the title bar (screen space); bumps on change
+export const RepCounter: React.FC<{ from: number; to: number; value: number; label?: string; color?: string }> = ({
+  from,
+  to,
+  value,
+  label = 'REPS',
+  color = '#2dc653',
+}) => {
+  const t = useT();
+  if (t < from || t >= to) return null;
+  const bump = 1 + 0.12 * Math.abs(Math.sin((t - from) * 30)) * (value > 0 && value < 20 ? 1 : 0);
+  return (
+    <div style={{ position: 'absolute', top: 450, right: 70, display: 'flex', flexDirection: 'column', alignItems: 'center', background: '#111', border: '5px solid #160e09', borderRadius: 26, padding: '10px 34px 4px', boxShadow: '0 10px 0 rgba(0,0,0,0.3)' }}>
+      <div style={{ fontFamily: FONT_TOON, fontWeight: 700, fontSize: 34, color: '#adb5bd', letterSpacing: 3 }}>{label}</div>
+      <div style={{ fontFamily: FONT_PUNCH, fontSize: 170, lineHeight: 1, color, transform: `scale(${bump})` }}>{value}</div>
+    </div>
+  );
+};

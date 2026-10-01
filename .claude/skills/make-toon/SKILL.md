@@ -21,7 +21,9 @@ remotion/src/lib/toon/
                      TitleBar, TimeCard, Rays, Sparkles, Zzz, EyesInDark (blackout gag),
                      Notification (phone push banner:
                      bad news without dialogue), BroMath (floating "bro math""
-                     equations, the series' recurring payoff visual), signatureFilter + SignatureStamp
+                     equations, the series' recurring payoff visual), DustCloud (cartoon blur
+                     ball of fast reps/fights with limbs poking out), RepCounter (screen-space
+                     REPS box; goes red for negative reps), signatureFilter + SignatureStamp
   sets.tsx           Room (night 0..1), Street (Mini Mart + joke poster slot), Table, Bottle, Crate,
                      Bed, Blanket, Nightstand, AlarmClock (time + ring),
                      Gym (wall clock joke slot), SquatRack, Barbell (readable plate label),
@@ -36,7 +38,11 @@ remotion/src/lib/toon/
                      counter), House (the destination facade), PartyRoom (disco ball, beams,
                      party on/off + light switch), DJBooth (turntables, laptop back, big button),
                      Park, Bench (back/seat parts around a sitter), ChipsBag, Splat,
-                     Pigeon (animal actor: hop, flap, carry in the beak, never blinks)
+                     Pigeon (animal actor: hop, flap, carry in the beak, never blinks),
+                     Clipboard (held prop with editable lines — change them for a visual punchline)
+  push-up / plank pose: lean={90} (head right), y animated, the floor arm as an IK target
+                     {to:[-floorDist/scale,0]} so the hand stays planted while the body sinks;
+                     captions move up (y≈720) when a lying close-up fills the lower frame
   series/<series>.ts LOCKED cast specs + speaker colours + series name/catchphrase/accent
 remotion/src/shots/
   toon-<series>/<Series>ModelSheet.tsx   the model sheet -> toon-shorts/<series>/character.png

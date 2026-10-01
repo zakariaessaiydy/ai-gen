@@ -1231,3 +1231,17 @@ export const Pigeon: React.FC<{
     </g>
   );
 };
+
+// clipboard (coach prop); origin = centre
+export const Clipboard: React.FC<{ lines?: string[] }> = ({ lines = ['PLAN:', 'PUSH-UPS', '$50'] }) => (
+  <g>
+    <rect x={-62} y={-82} width={124} height={164} rx={10} fill="#bc8a5f" {...st} />
+    <rect x={-50} y={-62} width={100} height={132} fill="#ffffff" stroke={INK} strokeWidth={4} />
+    <rect x={-24} y={-92} width={48} height={22} rx={6} fill="#adb5bd" stroke={INK} strokeWidth={4} />
+    {lines.map((l, i) => (
+      <text key={i} x={0} y={-30 + i * 34} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={20} fill={INK}>
+        {l}
+      </text>
+    ))}
+  </g>
+);
