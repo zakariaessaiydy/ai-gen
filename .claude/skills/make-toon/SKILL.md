@@ -18,7 +18,8 @@ Run everything from the **repo root**.
 remotion/src/lib/toon/
   rig.tsx            <Toon> — THE body every character is drawn with (expr, arms, legs, mouth, look…)
   comedy.tsx         camera (camAt/Stage/shakeAt), Cut, Flash, lipSync/talking, DialogueCaptions,
-                     TitleBar, TimeCard, Rays, Sparkles, Zzz, Notification (phone push banner:
+                     TitleBar, TimeCard, Rays, Sparkles, Zzz, EyesInDark (blackout gag),
+                     Notification (phone push banner:
                      bad news without dialogue), BroMath (floating "bro math""
                      equations, the series' recurring payoff visual), signatureFilter + SignatureStamp
   sets.tsx           Room (night 0..1), Street (Mini Mart + joke poster slot), Table, Bottle, Crate,
@@ -26,7 +27,8 @@ remotion/src/lib/toon/
                      Gym (wall clock joke slot), SquatRack, Barbell (readable plate label),
                      Kitchen (door, SMOKE ALARM, char), Counter + StoveDial, Pan, Flames, Smoke,
                      Phone (screen text), PizzaBox, Desk, Laptop (price chart: rise / crash /
-                     SPILL out of the screen onto the floor)
+                     SPILL out of the screen onto the floor), Lamp, PowerStrip, CordBundle,
+                     Skyline (night city that blacks out in a wave), WifiPhone (big phone insert)
   series/<series>.ts LOCKED cast specs + speaker colours + series name/catchphrase/accent
 remotion/src/shots/
   toon-<series>/<Series>ModelSheet.tsx   the model sheet -> toon-shorts/<series>/character.png
@@ -166,6 +168,10 @@ Rig vocabulary (see rig.tsx for all of it):
 - `shadesDown`: the shades on Bro's cap come down over his eyes (the action-hero moment)
 - walking TOWARD camera = grow `scale` and push `y` down together (EP4's action walk)
 - props: `<Bottle anchor="center" level>` in a hand via `holdR` + `holdRotR`
+
+Any full-screen overlay with a time window (lights out, a tint, a haze) needs BOTH ends in its
+condition. EP6 v1 left the lights-out overlay on after the power came back and blacked out
+the rest of the episode; QA caught it.
 
 Insert shots (a close-up on a prop: the dial, the laptop) must not show stray limbs: force the
 nearby character's arms to 'down' for the insert's duration (EP5).

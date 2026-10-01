@@ -1,0 +1,133 @@
+{
+  "master": "remotion/out/Bro06Wifi-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "notes": "Library-only. Blackout = deep impact + reverse whoosh; the dark eyes beat is deliberately near-silent.",
+  "render": {
+    "preview": "remotion/out/Bro06Wifi-voiced.mp4",
+    "out": "toon-shorts/bro/ep-06-wifi/output/bro-06-sfx.mp4",
+    "end_s": 36.7,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 1.82,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -16,
+      "shot": "Bro06Wifi",
+      "cue": "cut wide \u2014 'Should we call someone?'"
+    },
+    {
+      "at_s": 8.2,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "Bro06Wifi",
+      "cue": "'The important half.'"
+    },
+    {
+      "at_s": 9.62,
+      "sfx_id": "impact-soft",
+      "gain_db": -14,
+      "shot": "Bro06Wifi",
+      "cue": "'Trust me' punch-in"
+    },
+    {
+      "at_s": 10.22,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -17,
+      "shot": "Bro06Wifi",
+      "cue": "sparkles"
+    },
+    {
+      "at_s": 13.06,
+      "sfx_id": "knock-solid",
+      "gain_db": -11,
+      "shot": "Bro06Wifi",
+      "cue": "YANK \u2014 every plug out"
+    },
+    {
+      "at_s": 13.11,
+      "sfx_id": "glitch-zap",
+      "gain_db": -13,
+      "shot": "Bro06Wifi",
+      "cue": "sparks"
+    },
+    {
+      "at_s": 13.31,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -11,
+      "shot": "Bro06Wifi",
+      "cue": "the lights die"
+    },
+    {
+      "at_s": 14.06,
+      "sfx_id": "whoosh-reverse",
+      "gain_db": -14,
+      "shot": "Bro06Wifi",
+      "cue": "the city blacks out in a wave"
+    },
+    {
+      "at_s": 15.11,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -13,
+      "shot": "Bro06Wifi",
+      "cue": "\u2026last window goes dark"
+    },
+    {
+      "at_s": 19.15,
+      "sfx_id": "ui-toggle-on",
+      "gain_db": -11,
+      "shot": "Bro06Wifi",
+      "cue": "power back"
+    },
+    {
+      "at_s": 21.47,
+      "sfx_id": "pop-reveal",
+      "gain_db": -16,
+      "shot": "Bro06Wifi",
+      "cue": "'That's the neighbor's WiFi.'"
+    },
+    {
+      "at_s": 27.64,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -16,
+      "shot": "Bro06Wifi",
+      "cue": "phone insert"
+    },
+    {
+      "at_s": 27.94,
+      "sfx_id": "keys-typing-soft",
+      "gain_db": -12,
+      "shot": "Bro06Wifi",
+      "cue": "password types out"
+    },
+    {
+      "at_s": 30.57,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -11,
+      "shot": "Bro06Wifi",
+      "cue": "THE STARE '...He knows my name.'"
+    },
+    {
+      "at_s": 32.02,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -14,
+      "shot": "Bro06Wifi",
+      "cue": "'basically fame' god rays"
+    },
+    {
+      "at_s": 33.81,
+      "sfx_id": "glitch-zap",
+      "gain_db": -15,
+      "shot": "Bro06Wifi",
+      "cue": "signature grey-out"
+    },
+    {
+      "at_s": 34.56,
+      "sfx_id": "stamp-hit",
+      "gain_db": -11,
+      "shot": "Bro06Wifi",
+      "cue": "I GOT THIS. stamp"
+    }
+  ]
+}

@@ -515,3 +515,36 @@ export const Notification: React.FC<{ at: number; until: number; app: string; ti
     </div>
   );
 };
+
+// ---------------------------------------------------------------------------------------------
+// EYES IN THE DARK — the classic blackout gag: a black screen with only the characters' eyes,
+// blinking (screen coords). `glasses` draws Dee's round frames so you know whose eyes are whose.
+// ---------------------------------------------------------------------------------------------
+export type DarkEyes = { x: number; y: number; lid?: number; look?: number; glasses?: boolean; blinkPhase?: number; size?: number };
+export const EyesInDark: React.FC<{ from: number; to: number; pairs: DarkEyes[] }> = ({ from, to, pairs }) => {
+  const t = useT();
+  if (t < from || t >= to) return null;
+  return (
+    <AbsoluteFill style={{ background: '#000000' }}>
+      <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
+        {pairs.map((p, i) => {
+          const s = p.size ?? 1;
+          const cyc = ((t - from) * 30 + (p.blinkPhase ?? 0) * 30) % 80;
+          const lid = cyc < 4 ? 1 : p.lid ?? 0.1;
+          return (
+            <g key={i} transform={`translate(${p.x},${p.y}) scale(${s})`}>
+              {[-60, 60].map((ex) => (
+                <g key={ex}>
+                  <ellipse cx={ex} cy={0} rx={36} ry={44} fill="#ffffff" />
+                  <circle cx={ex + (p.look ?? 0) * 12} cy={6} r={17} fill="#000000" />
+                  <rect x={ex - 40} y={-48} width={80} height={lid * 92} fill="#000000" />
+                  {p.glasses && <circle cx={ex} cy={0} r={54} fill="none" stroke="#5c5c5c" strokeWidth={8} />}
+                </g>
+              ))}
+            </g>
+          );
+        })}
+      </svg>
+    </AbsoluteFill>
+  );
+};

@@ -621,3 +621,162 @@ export const Laptop: React.FC<{
     </g>
   );
 };
+
+// ---------------------------------------------------------------------------------------------
+// WIFI KIT — router (red = down / green = up / off = no power), power strip with its cords
+// running up to the router, the cord bundle he yanks out (held), the night skyline that
+// blacks out in a wave, and a big phone insert with the Wi-Fi screen (password reveal).
+// ---------------------------------------------------------------------------------------------
+// router; origin = bottom centre (sits on a desk top)
+export const Router: React.FC<{ x: number; y: number; state: 'red' | 'green' | 'off'; t: number }> = ({ x, y, state, t }) => {
+  const blink = Math.sin(t * 14) > 0;
+  const led = state === 'off' ? '#2b2b2b' : state === 'red' ? (blink ? '#ff3b30' : '#5a1414') : '#2dc653';
+  return (
+    <g transform={`translate(${x},${y})`}>
+      <line x1={-70} y1={-56} x2={-95} y2={-170} stroke={INK} strokeWidth={12} strokeLinecap="round" />
+      <line x1={70} y1={-56} x2={95} y2={-170} stroke={INK} strokeWidth={12} strokeLinecap="round" />
+      <rect x={-110} y={-62} width={220} height={62} rx={16} fill="#3d405b" {...st} />
+      {[-60, -20, 20, 60].map((lx) => (
+        <circle key={lx} cx={lx} cy={-31} r={9} fill={led} stroke={INK} strokeWidth={3} />
+      ))}
+    </g>
+  );
+};
+
+// power strip on the floor; plugged → cords curve up to (toX, toY)
+export const PowerStrip: React.FC<{ x: number; y: number; plugged: boolean; toX: number; toY: number }> = ({ x, y, plugged, toX, toY }) => (
+  <g>
+    {plugged &&
+      [-60, -20, 20, 60].map((dx, i) => (
+        <path
+          key={dx}
+          d={`M ${x + dx},${y - 20} C ${x + dx},${y - 160 - i * 20} ${toX - 60 + i * 30},${toY + 120} ${toX - 60 + i * 40},${toY}`}
+          fill="none"
+          stroke={['#22160f', '#3a3a3a', '#555', '#22160f'][i]}
+          strokeWidth={8}
+          strokeLinecap="round"
+        />
+      ))}
+    <rect x={x - 130} y={y - 22} width={260} height={44} rx={12} fill="#f1faee" {...st} />
+    {[-60, -20, 20, 60].map((dx) => (
+      <g key={dx}>
+        <circle cx={x + dx} cy={y} r={13} fill="#adb5bd" stroke={INK} strokeWidth={4} />
+        {plugged && <rect x={x + dx - 12} y={y - 30} width={24} height={26} rx={5} fill="#2b2d42" stroke={INK} strokeWidth={4} />}
+      </g>
+    ))}
+    <circle cx={x + 110} cy={y} r={7} fill={plugged ? '#ff3b30' : '#5a1414'} />
+  </g>
+);
+
+// a fistful of yanked plugs with cords dangling; origin = the fist
+export const CordBundle: React.FC<{ t: number; swing?: number }> = ({ t, swing = 0 }) => (
+  <g>
+    {[-1, 0, 1].map((i) => {
+      const sway = Math.sin(t * 6 + i) * 18 * (0.3 + swing);
+      return (
+        <g key={i}>
+          <path d={`M ${i * 14},0 Q ${i * 40 + sway},90 ${i * 30 + sway * 1.6},170`} fill="none" stroke={INK} strokeWidth={8} strokeLinecap="round" />
+          <rect x={i * 30 + sway * 1.6 - 14} y={168} width={28} height={30} rx={6} fill="#2b2d42" stroke={INK} strokeWidth={4} />
+          <line x1={i * 30 + sway * 1.6 - 6} y1={198} x2={i * 30 + sway * 1.6 - 6} y2={212} stroke="#adb5bd" strokeWidth={5} />
+          <line x1={i * 30 + sway * 1.6 + 6} y1={198} x2={i * 30 + sway * 1.6 + 6} y2={212} stroke="#adb5bd" strokeWidth={5} />
+        </g>
+      );
+    })}
+  </g>
+);
+
+// night skyline; every window goes dark in a wave from `outAt` (left → right over `wave` s)
+export const Skyline: React.FC<{ t: number; outAt: number; wave?: number }> = ({ t, outAt, wave = 1.1 }) => {
+  const blds = [
+    { x: 0, w: 200, h: 760 },
+    { x: 190, w: 170, h: 1020 },
+    { x: 350, w: 230, h: 640 },
+    { x: 570, w: 180, h: 1180 },
+    { x: 740, w: 200, h: 820 },
+    { x: 930, w: 170, h: 980 },
+  ];
+  const ground = 1560;
+  return (
+    <g>
+      <rect x={0} y={0} width={1080} height={1920} fill="#0b1640" />
+      <circle cx={830} cy={520} r={70} fill="#fff3c4" />
+      <circle cx={805} cy={505} r={62} fill="#0b1640" />
+      {[[120, 470], [320, 560], [520, 450], [960, 640], [700, 600]].map(([sx, sy]) => (
+        <circle key={`${sx}`} cx={sx} cy={sy} r={4} fill="#ffffff" />
+      ))}
+      {blds.map((b, bi) => (
+        <g key={bi}>
+          <rect x={b.x} y={ground - b.h} width={b.w} height={b.h} fill={['#1d2a52', '#243461', '#1a2549'][bi % 3]} {...st} />
+          {Array.from({ length: Math.floor((b.h - 80) / 90) }).map((_, r) =>
+            Array.from({ length: Math.floor((b.w - 30) / 60) }).map((__, c) => {
+              const wx = b.x + 24 + c * 60;
+              const wy = ground - b.h + 40 + r * 90;
+              const jitter = ((bi * 7 + r * 3 + c * 5) % 10) / 10;
+              const off = t >= outAt + (wx / 1080) * wave + jitter * 0.15;
+              return <rect key={`${r}-${c}`} x={wx} y={wy} width={34} height={46} rx={4} fill={off ? '#111a3a' : '#ffd166'} />;
+            }),
+          )}
+        </g>
+      ))}
+      <rect x={0} y={ground} width={1080} height={1920 - ground} fill="#0a0f26" />
+    </g>
+  );
+};
+
+// big phone insert with the Wi-Fi screen; origin = phone centre (≈ 520 × 900)
+export const WifiPhone: React.FC<{ x: number; y: number; network: string; status?: string; password?: string; typed?: number }> = ({
+  x,
+  y,
+  network,
+  status,
+  password,
+  typed = 1,
+}) => (
+  <g transform={`translate(${x},${y})`}>
+    <rect x={-260} y={-450} width={520} height={900} rx={60} fill="#22223b" {...st} />
+    <rect x={-228} y={-400} width={456} height={800} rx={30} fill="#f8f9fa" />
+    <text x={-196} y={-320} fontFamily={FONT_TOON} fontWeight={700} fontSize={56} fill={INK}>
+      Wi-Fi
+    </text>
+    <rect x={110} y={-358} width={88} height={48} rx={24} fill="#2dc653" />
+    <circle cx={174} cy={-334} r={20} fill="#ffffff" />
+    <line x1={-200} y1={-270} x2={200} y2={-270} stroke="#dee2e6" strokeWidth={4} />
+    <text x={-196} y={-200} fontFamily={FONT_TOON} fontWeight={700} fontSize={40} fill={INK}>
+      {network}
+    </text>
+    {/* lock + signal */}
+    <rect x={120} y={-228} width={30} height={26} rx={5} fill={INK} />
+    <path d="M 125,-228 L 125,-240 Q 135,-254 145,-240 L 145,-228" fill="none" stroke={INK} strokeWidth={5} />
+    {[0, 1, 2].map((i) => (
+      <rect key={i} x={164 + i * 12} y={-212 - i * 10} width={8} height={12 + i * 10} rx={2} fill={INK} />
+    ))}
+    {status && (
+      <text x={-196} y={-140} fontFamily={FONT_TOON} fontWeight={700} fontSize={34} fill="#e63946">
+        {status}
+      </text>
+    )}
+    {password !== undefined && (
+      <g>
+        <text x={-196} y={-60} fontFamily={FONT_TOON} fontWeight={600} fontSize={32} fill="#6c757d">
+          Password:
+        </text>
+        <rect x={-200} y={-30} width={400} height={84} rx={16} fill="#ffffff" stroke="#adb5bd" strokeWidth={4} />
+        <text x={-186} y={26} fontFamily={FONT_TOON} fontWeight={700} fontSize={34} fill={INK}>
+          {password.slice(0, Math.round(password.length * Math.max(0, Math.min(1, typed))))}
+        </text>
+      </g>
+    )}
+  </g>
+);
+
+// desk lamp; origin = base centre (on a desk top). on → warm glow cone.
+export const Lamp: React.FC<{ x: number; y: number; on: boolean }> = ({ x, y, on }) => (
+  <g transform={`translate(${x},${y})`}>
+    {on && <path d="M -40,-200 L -170,0 L 110,0 L 40,-200 Z" fill="#fff3b0" opacity={0.45} />}
+    <ellipse cx={0} cy={-8} rx={70} ry={14} fill="#3d405b" {...st} />
+    <line x1={0} y1={-12} x2={-40} y2={-150} stroke={INK} strokeWidth={14} strokeLinecap="round" />
+    <line x1={-40} y1={-150} x2={10} y2={-230} stroke={INK} strokeWidth={14} strokeLinecap="round" />
+    <path d="M -30,-250 L 60,-250 L 90,-190 L -60,-190 Z" fill="#e63946" {...st} transform="rotate(14 15 -220)" />
+    {on && <circle cx={22} cy={-186} r={18} fill="#fff9db" />}
+  </g>
+);
