@@ -251,6 +251,143 @@ def tts_line_edge(voice, text, out_path, rate="+0%"):
         json.dump(merge_word_times(spoken, bounds), f, ensure_ascii=False)
 
 
+# ── FREE LOCAL engine: Kokoro-82M ───────────────────────────────────────────────────────
+# Apache-2.0, runs on CPU, no key/quota/network (install once: python tools/setup_kokoro.py).
+# Kokoro has no word-boundary events, so word times are DERIVED from the audio: the clip is cut
+# into voiced runs at its pauses, the line's words are grouped at their punctuation, and when the
+# groups line up with the runs each word gets a share of its run weighted by its phoneme count
+# (else the whole voiced span is shared). Accurate to a syllable or so — plenty for word-pop
+# captions and lip-flap; the timings stay REAL in that every boundary is measured audio.
+KOKORO_DIR = os.path.join(ROOT, "tools", "kokoro")
+KOKORO_VOICE = "am_michael"
+_kokoro = None
+_kokoro_lock = None
+
+
+def _kokoro_engine():
+    global _kokoro, _kokoro_lock
+    import threading
+    if _kokoro_lock is None:
+        _kokoro_lock = threading.Lock()
+    if _kokoro is None:
+        model = os.path.join(KOKORO_DIR, "kokoro-v1.0.q8.onnx")
+        voices = os.path.join(KOKORO_DIR, "voices-v1.0.npz")
+        if not (os.path.exists(model) and os.path.exists(voices)):
+            sys.exit("kokoro is not installed — run:  pip install kokoro-onnx && python tools/setup_kokoro.py")
+        try:
+            from kokoro_onnx import Kokoro
+        except ImportError:
+            sys.exit("--engine kokoro needs:  pip install kokoro-onnx  (then python tools/setup_kokoro.py)")
+        _kokoro = Kokoro(model, voices)
+    return _kokoro
+
+
+def kokoro_voice(k, spec):
+    """'am_puck' or a BLEND 'am_puck:0.7+am_fenrir:0.3' (style vectors mixed — a voice of your own)."""
+    if "+" not in spec and ":" not in spec:
+        return spec
+    import numpy as np
+    mix = None
+    for part in spec.split("+"):
+        name, _, w = part.partition(":")
+        vec = k.voices[name.strip()] * float(w or 1)
+        mix = vec if mix is None else mix + vec
+    return mix.astype(np.float32)
+
+
+def rate_to_speed(rate):
+    """'+6%' -> 1.06 (the Edge-style rate string, reused so cast entries stay engine-neutral)."""
+    try:
+        return 1.0 + float(str(rate).strip().rstrip("%")) / 100.0
+    except ValueError:
+        return 1.0
+
+
+def voiced_runs(samples, sr, gap=0.11, floor_db=-38.0):
+    """[(start, end)] seconds of speech, split at silences >= `gap`s (10ms RMS frames)."""
+    import numpy as np
+    hop = int(sr * 0.01)
+    n = len(samples) // hop
+    if n == 0:
+        return []
+    frames = samples[: n * hop].reshape(n, hop)
+    rms = np.sqrt((frames.astype(np.float64) ** 2).mean(axis=1)) + 1e-9
+    db = 20 * np.log10(rms / rms.max())
+    on = db > floor_db
+    runs, i = [], 0
+    while i < n:
+        if not on[i]:
+            i += 1
+            continue
+        j = i
+        while j < n and on[j]:
+            j += 1
+        runs.append([i, j])
+        i = j
+    merged = []
+    for r in runs:  # close gaps shorter than `gap` (stops/plosives inside words)
+        if merged and (r[0] - merged[-1][1]) * 0.01 < gap:
+            merged[-1][1] = r[1]
+        else:
+            merged.append(r)
+    return [(a * 0.01, b * 0.01) for a, b in merged if (b - a) >= 3]
+
+
+def derive_word_times(text, runs, weight):
+    words = [w for w in text.split() if any(c.isalnum() for c in w)]
+    if not words or not runs:
+        return []
+    groups, cur = [], []
+    for w in words:
+        cur.append(w)
+        if w.rstrip("\"')")[-1:] in ".,!?;:—…":
+            groups.append(cur)
+            cur = []
+    if cur:
+        groups.append(cur)
+    if len(groups) != len(runs):  # pauses don't match punctuation: share the whole span
+        groups, runs = [words], [(runs[0][0], runs[-1][1])]
+    out = []
+    for g, (a, b) in zip(groups, runs):
+        ws = [max(1, weight(w)) for w in g]
+        t, tot = a, sum(ws)
+        for w, k in zip(g, ws):
+            d = (b - a) * k / tot
+            out.append({"w": w, "start": round(t, 3), "end": round(t + d, 3)})
+            t += d
+    return out
+
+
+def tts_line_kokoro(voice, text, out_path, rate="+0%"):
+    """FREE LOCAL engine. Same contract as tts_line(): writes the audio AND
+    <out_path>.words.json (word times derived from the audio's own pauses — see above)."""
+    import tempfile
+    import wave
+    import numpy as np
+    k = _kokoro_engine()
+    spoken = strip_tags(text)
+    with _kokoro_lock:  # one ONNX session; lines queue rather than fight over the CPU
+        audio, sr = k.create(spoken, voice=kokoro_voice(k, voice), speed=rate_to_speed(rate), lang="en-us")
+
+        def weight(w):
+            ph = k.tokenizer.phonemize("".join(c for c in w if c.isalnum() or c == "'"), "en-us")
+            return len([c for c in ph if c.isalpha() or c in "ɑɐɒæɔəɘɚɛɜɝɞɤɨɪʉʊʌʏŋðθʃʒ"])
+
+        words = derive_word_times(spoken, voiced_runs(audio, sr), weight)
+    pcm = (np.clip(audio, -1, 1) * 32767).astype(np.int16)
+    with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
+        wav = tmp.name
+    with wave.open(wav, "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(sr)
+        w.writeframes(pcm.tobytes())
+    run(["ffmpeg", "-y", "-v", "error", "-i", wav, "-b:a", "192k", out_path])
+    os.remove(wav)
+    with open(out_path + ".words.json", "w", encoding="utf-8") as f:
+        json.dump(words, f, ensure_ascii=False)
+
+
 def list_edge_voices(prefix="en-"):
     import asyncio
     try:
@@ -262,10 +399,12 @@ def list_edge_voices(prefix="en-"):
             print(f"  {v['ShortName']:<40s} {v['Gender']:<7s} {v.get('FriendlyName', '')}")
 
 
-def emit_ts(vo, path):
+def emit_ts(vo, path, engine="elevenlabs"):
     """Write the generated VO (with exact word times) as a TS module the shot imports."""
+    how = {"elevenlabs": "the REAL ElevenLabs alignment", "edge": "Edge's real word boundaries",
+           "kokoro": "derived from the Kokoro audio's own pauses"}.get(engine, engine)
     lines = ["// AUTO-GENERATED by tools/gen_voice.py — do not edit.",
-             "// Word times are the REAL ElevenLabs alignment; captions sync exactly.",
+             f"// Word times are {how}; captions + lip-sync follow them.",
              "import type { VoLine } from '../../lib/shorts';", "",
              "export const VO: VoLine[] = ["]
     for line in vo:
@@ -289,12 +428,13 @@ def emit_ts(vo, path):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--beats", help="path to the short's beats.json")
-    ap.add_argument("--engine", choices=("elevenlabs", "edge"), default="elevenlabs",
-                    help="elevenlabs (paid key) or edge = free Microsoft Neural TTS, no key")
+    ap.add_argument("--engine", choices=("elevenlabs", "edge", "kokoro"), default="elevenlabs",
+                    help="elevenlabs (paid key) · edge = free Microsoft Neural TTS (online) · "
+                         "kokoro = free LOCAL Kokoro-82M (setup: tools/setup_kokoro.py)")
     ap.add_argument("--voice", help=f"default: {DEFAULT_VOICE} (elevenlabs) / {EDGE_VOICE} (edge)")
     ap.add_argument("--model", default=DEFAULT_MODEL, help="elevenlabs only")
     ap.add_argument("--list-voices", action="store_true", help="list free Edge voices and exit")
-    ap.add_argument("--rate", default="+0%", help="edge only: narration speed, e.g. +10%%")
+    ap.add_argument("--rate", default="+0%", help="edge/kokoro: narration speed, e.g. +10%%")
     ap.add_argument("--mux", help="optional rendered mp4 to mux the voice onto (-voiced.mp4)")
     ap.add_argument("--emit-ts", help="write the VO (with exact word times) as a TS module, e.g. remotion/src/shots/short-2/vo.gen.ts")
     ap.add_argument("--jobs", type=int, default=4,
@@ -309,7 +449,7 @@ def main():
     if not args.beats:
         ap.error("--beats is required")
     if not args.voice:
-        args.voice = EDGE_VOICE if args.engine == "edge" else DEFAULT_VOICE
+        args.voice = {"edge": EDGE_VOICE, "kokoro": KOKORO_VOICE}.get(args.engine, DEFAULT_VOICE)
 
     beats_path = os.path.abspath(args.beats)
     beats = json.load(open(beats_path, encoding="utf-8"))
@@ -359,6 +499,8 @@ def main():
             voice, rate = voice_of(line)
             if args.engine == "edge":
                 tts_line_edge(voice, tts_text, raw, rate)
+            elif args.engine == "kokoro":
+                tts_line_kokoro(voice, tts_text, raw, rate)
             else:
                 # neighbour context steers prosody — only stitch lines from the SAME speaker,
                 # another character's line would bleed their delivery into this one
@@ -415,7 +557,7 @@ def main():
     print(f"actual line timings + word maps written back -> {os.path.relpath(beats_path, ROOT)}")
 
     if args.emit_ts:
-        changed = emit_ts(vo, rp := os.path.abspath(args.emit_ts))
+        changed = emit_ts(vo, rp := os.path.abspath(args.emit_ts), args.engine)
         print(f"VO TS module -> {os.path.relpath(rp, ROOT)}" + ("" if changed else "  (unchanged)"))
 
     if args.mux:

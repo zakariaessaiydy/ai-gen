@@ -20,7 +20,7 @@ optional music bed, seamless frame-0==last-frame loops, no CTA outros. TSX crash
 ```
 tools/            Python tools. Pipeline drivers: new_short (scaffold), check_short (preflight),
                   build_short (voice→render→mux→sfx→music in one command).
-                  Media: gen_voice, gen_sfx, gen_music, mix_sfx, mix_music, gen_chords,
+                  Media: gen_voice (+ setup_kokoro), gen_sfx, gen_music, mix_sfx, mix_music, gen_chords,
                   gen_image, gen_clip, bakeoff_clip, cutout, capture_web, ffmpeg_path
 remotion/         the Remotion project — src/lib/ (shared + niche kits incl. collage.tsx),
                   src/shots/{short-N, ai-N, vox-N}/
@@ -44,8 +44,11 @@ IDEAS.md          the TSX-shorts idea bank + niche ranking
   playwright install chromium` (capture_web.py). `ffmpeg`/`ffprobe` and `node`/`npx` on PATH.
 - **API keys** live in `.env` at the repo root (copy `.env.example`). Never commit `.env`.
   ELEVENLABS_API_KEY = voice/SFX/music · FAL_KEY = AI clips + images · GEMINI_API_KEY = images.
-  Voice has a keyless fallback: `gen_voice.py --engine edge` (free Edge Neural TTS, still
-  word-exact) — needs `pip install edge-tts`.
+  Voice has two keyless engines: **`--engine kokoro`** (FREE + LOCAL Kokoro-82M, the best
+  open TTS of its size, 54 voices incl. blends, no network at synthesis — one-time setup
+  `pip install kokoro-onnx && python tools/setup_kokoro.py`, which pulls the weights from npm,
+  not Hugging Face) and `--engine edge` (free Edge Neural TTS, online, word-exact — needs
+  `pip install edge-tts` and a network that allows WebSockets).
 - **Registry is generated:** after adding/renaming a shot, `cd remotion && npm run gen`
   (frames.mjs/render-all.mjs do NOT run it themselves).
 - **Media rules:** `media/library/` is for CROSS-VIDEO reusable assets only (each with a

@@ -2,9 +2,9 @@
   "master": "remotion/out/Bro01Business-voiced.mp4",
   "master_fps": 30,
   "catalog": "media/library/sfx/catalog.json",
-  "notes": "Library-only first pass. Comedy staples are MISSING from the library (record scratch, vine boom, cash register, crickets) \u2014 impact-deep-soft stands in for the boom. Generate them with gen_sfx.py when an ElevenLabs key is available. Until voice exists, preview = the silent render.",
+  "notes": "Library-only first pass. Comedy staples are MISSING from the library (record scratch, vine boom, cash register, crickets) \u2014 impact-deep-soft stands in for the boom. Generate them with gen_sfx.py when an ElevenLabs key is available. Voiced with the free local Kokoro engine.",
   "render": {
-    "preview": "remotion/out/Bro01Business.mp4",
+    "preview": "remotion/out/Bro01Business-voiced.mp4",
     "out": "toon-shorts/bro/ep-01-business/output/bro-01-sfx.mp4",
     "end_s": 30.0,
     "duck": true

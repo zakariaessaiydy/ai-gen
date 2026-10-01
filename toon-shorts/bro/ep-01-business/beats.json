@@ -11,22 +11,25 @@
     "fps": 30,
     "durationSec": 30.0
   },
-  "voicePlan": "elevenlabs",
+  "voicePlan": "kokoro",
   "cast": {
     "bro": {
       "elevenlabs": "TX3LPaxmHKxFdv7VOQHJ",
       "edge": "en-US-ChristopherNeural",
-      "rate": "+6%"
+      "rate": "+6%",
+      "kokoro": "am_puck"
     },
     "dee": {
       "elevenlabs": "ErXwobaYiN019PkySvjV",
       "edge": "en-US-EricNeural",
-      "rate": "+4%"
+      "rate": "+4%",
+      "kokoro": "am_michael"
     },
     "customer": {
       "elevenlabs": "VR6AewLTigWG4xSOukaa",
       "edge": "en-US-GuyNeural",
-      "rate": "+0%"
+      "rate": "+0%",
+      "kokoro": "bm_george"
     }
   },
   "vo": [
@@ -34,85 +37,324 @@
       "beat": "hook",
       "speaker": "bro",
       "start": 0.2,
-      "end": 2.3,
-      "text": "I'm done working for other people."
+      "end": 1.88,
+      "text": "I'm done working for other people.",
+      "words": [
+        {
+          "w": "I'm",
+          "start": 0.23,
+          "end": 0.376
+        },
+        {
+          "w": "done",
+          "start": 0.376,
+          "end": 0.57
+        },
+        {
+          "w": "working",
+          "start": 0.57,
+          "end": 0.911
+        },
+        {
+          "w": "for",
+          "start": 0.911,
+          "end": 1.105
+        },
+        {
+          "w": "other",
+          "start": 1.105,
+          "end": 1.3
+        },
+        {
+          "w": "people.",
+          "start": 1.3,
+          "end": 1.64
+        }
+      ]
     },
     {
       "beat": "ask",
       "speaker": "dee",
       "start": 2.55,
-      "end": 3.85,
-      "text": "Bro. What's the plan?"
+      "end": 3.91,
+      "text": "Bro. What's the plan?",
+      "words": [
+        {
+          "w": "Bro.",
+          "start": 2.599,
+          "end": 2.933
+        },
+        {
+          "w": "What's",
+          "start": 2.933,
+          "end": 3.268
+        },
+        {
+          "w": "the",
+          "start": 3.268,
+          "end": 3.402
+        },
+        {
+          "w": "plan?",
+          "start": 3.402,
+          "end": 3.736
+        }
+      ]
     },
     {
       "beat": "catch",
       "speaker": "bro",
       "start": 4.0,
-      "end": 5.6,
-      "text": "Trust me. I got this."
+      "end": 5.25,
+      "text": "Trust me. I got this.",
+      "words": [
+        {
+          "w": "Trust",
+          "start": 4.05,
+          "end": 4.339
+        },
+        {
+          "w": "me.",
+          "start": 4.339,
+          "end": 4.532
+        },
+        {
+          "w": "I",
+          "start": 4.532,
+          "end": 4.676
+        },
+        {
+          "w": "got",
+          "start": 4.676,
+          "end": 4.917
+        },
+        {
+          "w": "this.",
+          "start": 4.917,
+          "end": 5.11
+        }
+      ]
     },
     {
       "beat": "plan",
       "speaker": "bro",
       "start": 6.35,
-      "end": 8.2,
-      "text": "I'm starting a business."
+      "end": 7.58,
+      "text": "I'm starting a business.",
+      "words": [
+        {
+          "w": "I'm",
+          "start": 6.38,
+          "end": 6.523
+        },
+        {
+          "w": "starting",
+          "start": 6.523,
+          "end": 6.953
+        },
+        {
+          "w": "a",
+          "start": 6.953,
+          "end": 7.096
+        },
+        {
+          "w": "business.",
+          "start": 7.096,
+          "end": 7.43
+        }
+      ]
     },
     {
       "beat": "reveal",
       "speaker": "bro",
       "start": 9.0,
-      "end": 10.3,
-      "text": "Entrepreneurship."
+      "end": 10.02,
+      "text": "Entrepreneurship.",
+      "words": [
+        {
+          "w": "Entrepreneurship.",
+          "start": 9.03,
+          "end": 9.91
+        }
+      ]
     },
     {
       "beat": "customer",
       "speaker": "customer",
       "start": 11.7,
-      "end": 12.6,
-      "text": "How much?"
+      "end": 12.68,
+      "text": "How much?",
+      "words": [
+        {
+          "w": "How",
+          "start": 11.74,
+          "end": 12.118
+        },
+        {
+          "w": "much?",
+          "start": 12.118,
+          "end": 12.59
+        }
+      ]
     },
     {
       "beat": "price",
       "speaker": "bro",
       "start": 12.8,
-      "end": 14.1,
-      "text": "Ten dollars."
+      "end": 13.67,
+      "text": "Ten dollars.",
+      "words": [
+        {
+          "w": "Ten",
+          "start": 12.83,
+          "end": 13.081
+        },
+        {
+          "w": "dollars.",
+          "start": 13.081,
+          "end": 13.52
+        }
+      ]
     },
     {
       "beat": "burn",
       "speaker": "customer",
       "start": 14.35,
-      "end": 16.2,
-      "text": "It's one dollar at the store."
+      "end": 16.54,
+      "text": "It's one dollar at the store.",
+      "words": [
+        {
+          "w": "It's",
+          "start": 14.39,
+          "end": 14.66
+        },
+        {
+          "w": "one",
+          "start": 14.66,
+          "end": 15.02
+        },
+        {
+          "w": "dollar",
+          "start": 15.02,
+          "end": 15.56
+        },
+        {
+          "w": "at",
+          "start": 15.56,
+          "end": 15.74
+        },
+        {
+          "w": "the",
+          "start": 15.74,
+          "end": 15.92
+        },
+        {
+          "w": "store.",
+          "start": 15.92,
+          "end": 16.46
+        }
+      ]
     },
     {
       "beat": "stare",
       "speaker": "bro",
       "start": 18.3,
-      "end": 20.2,
-      "text": "...Market research."
+      "end": 19.38,
+      "text": "...Market research.",
+      "words": [
+        {
+          "w": "...Market",
+          "start": 18.33,
+          "end": 18.79
+        },
+        {
+          "w": "research.",
+          "start": 18.79,
+          "end": 19.25
+        }
+      ]
     },
     {
       "beat": "later",
       "speaker": "dee",
       "start": 22.4,
-      "end": 23.9,
-      "text": "Did you sell anything?"
+      "end": 23.93,
+      "text": "Did you sell anything?",
+      "words": [
+        {
+          "w": "Did",
+          "start": 22.45,
+          "end": 22.703
+        },
+        {
+          "w": "you",
+          "start": 22.703,
+          "end": 22.892
+        },
+        {
+          "w": "sell",
+          "start": 22.892,
+          "end": 23.145
+        },
+        {
+          "w": "anything?",
+          "start": 23.145,
+          "end": 23.65
+        }
+      ]
     },
     {
       "beat": "twist",
       "speaker": "bro",
       "start": 24.3,
-      "end": 26.3,
-      "text": "I invested in myself."
+      "end": 25.62,
+      "text": "I invested in myself.",
+      "words": [
+        {
+          "w": "I",
+          "start": 24.33,
+          "end": 24.485
+        },
+        {
+          "w": "invested",
+          "start": 24.485,
+          "end": 24.951
+        },
+        {
+          "w": "in",
+          "start": 24.951,
+          "end": 25.106
+        },
+        {
+          "w": "myself.",
+          "start": 25.106,
+          "end": 25.52
+        }
+      ]
     },
     {
       "beat": "signature",
       "speaker": "bro",
       "start": 27.2,
-      "end": 28.4,
-      "text": "I got this."
+      "end": 28.02,
+      "text": "I got this.",
+      "words": [
+        {
+          "w": "I",
+          "start": 27.23,
+          "end": 27.4
+        },
+        {
+          "w": "got",
+          "start": 27.4,
+          "end": 27.683
+        },
+        {
+          "w": "this.",
+          "start": 27.683,
+          "end": 27.91
+        }
+      ]
     }
   ],
   "beats": [
@@ -164,5 +406,6 @@
       "end": 30.0,
       "visual": "Series signature: grey-out, letterbox, push into THE STARE, 'I got this.' + I GOT THIS. stamp."
     }
-  ]
+  ],
+  "voiceStatus": "kokoro:cast"
 }

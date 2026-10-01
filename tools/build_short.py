@@ -79,7 +79,7 @@ def parse_voice_plan(beats, args):
     if not engine or not voice:
         # "edge:<voice> --rate +12%", or a bare "edge" / "elevenlabs" for a cast episode
         # whose voices come from beats.json's per-speaker "cast" map
-        m = re.match(r"\s*(elevenlabs|edge)\b(?:\s*:\s*([^\s]+))?", plan)
+        m = re.match(r"\s*(elevenlabs|edge|kokoro)\b(?:\s*:\s*([^\s]+))?", plan)
         if m:
             engine = engine or m.group(1)
             voice = voice or m.group(2)
@@ -114,9 +114,9 @@ def main():
     ap.add_argument("--draft", action="store_true",
                     help="render at half scale / crf 30 into <Id>-draft.mp4 — a motion check, not a master")
     ap.add_argument("--scale", type=float, help="render scale (default 1 for shorts, 0.5 with --draft)")
-    ap.add_argument("--engine", choices=("elevenlabs", "edge"))
+    ap.add_argument("--engine", choices=("elevenlabs", "edge", "kokoro"))
     ap.add_argument("--voice")
-    ap.add_argument("--rate", help="edge only, e.g. +12%%")
+    ap.add_argument("--rate", help="edge/kokoro, e.g. +12%%")
     ap.add_argument("--jobs", type=int, default=4, help="parallel TTS lines (default 4)")
     ap.add_argument("--music", help="bed id, or 'all' to audition every bed")
     ap.add_argument("--force", action="store_true", help="re-render even when nothing changed")
@@ -184,7 +184,7 @@ def main():
                "--emit-ts", os.path.join(shot_dir, "vo.gen.ts")]
         if voice:
             cmd += ["--voice", voice]
-        if rate and engine == "edge":
+        if rate and engine in ("edge", "kokoro"):
             cmd += ["--rate", rate]
         if args.force_voice:
             cmd += ["--force"]

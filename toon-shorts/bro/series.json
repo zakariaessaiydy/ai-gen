@@ -13,22 +13,50 @@
     "catchphrase": "Trust me. I got this.",
     "rule_catchphrase": "Said ONCE in the setup (full: 'Trust me. I got this.') and ONCE as the final line (short: 'I got this.'). Never more — scarcity keeps it funny.",
     "signature_ending": "THE STARE: the world drains to grey, letterbox bars slam in, the camera pushes into his face (expr 'deadpan': half-lidded eyes at camera, one brow up), he says 'I got this.' and the I GOT THIS. stamp slams down (SignatureStamp). ~3s, every episode, same timing shape.",
-    "voice": {"elevenlabs": "TX3LPaxmHKxFdv7VOQHJ (Liam — audition)", "edge": "en-US-ChristopherNeural +6%", "delivery": "fast, cocky, a smile in the voice; slows down on the brag word"}
+    "voice": {
+      "kokoro": "am_puck (default — free, local)",
+      "elevenlabs": "TX3LPaxmHKxFdv7VOQHJ (Liam — upgrade option)",
+      "edge": "en-US-ChristopherNeural +6%",
+      "delivery": "fast, cocky, a smile in the voice; slows down on the brag word",
+      "audition": "toon-shorts/bro/voice-audition.mp3 (9 Kokoro candidates incl. a blend)"
+    }
   },
   "cast": {
     "dee": {
       "name": "Dee",
       "role": "best friend, voice of reason, the audience's face. Asks the question that sets Bro off and the question that exposes him.",
       "look": "curly black hair, round glasses, teal hoodie, blue jeans",
-      "voice": {"elevenlabs": "ErXwobaYiN019PkySvjV (Antoni — audition)", "edge": "en-US-EricNeural +4%", "delivery": "flat, tired, deadpan"}
+      "voice": {
+        "kokoro": "am_michael",
+        "elevenlabs": "ErXwobaYiN019PkySvjV (Antoni)",
+        "edge": "en-US-EricNeural +4%",
+        "delivery": "flat, tired, deadpan"
+      }
     }
   },
   "format": {
     "length_s": "25-35",
     "title_bar": "meme-style white box, stays on screen until the signature: 'Bro thought he could ...' / 'Bro tried to ...' (always starts with 'Bro')",
     "series_tag": "red pill above the title: BRO THINKS HE'S HIM · EP N",
-    "beat_grammar": ["HOOK 0-2.5s: Bro close-up, a big confident claim, title already up (frame 0 composed)", "SETUP: Dee asks / Bro answers with 'Trust me. I got this.' + punch-in + shake", "SMASH CUT to the 'plan' in action (the reveal of how small/dumb it is)", "ESCALATE x2-3: reality pushes back, each step worse; plant the punchline visually BEFORE it's said", "THE STARE mid-episode at camera with a cope line ('...market research.')", "optional TIME CARD (3 HOURS LATER) for the twist", "TWIST: the final, worst outcome — he still frames it as a win", "SIGNATURE ENDING ~3s"],
+    "beat_grammar": [
+      "HOOK 0-2.5s: Bro close-up, a big confident claim, title already up (frame 0 composed)",
+      "SETUP: Dee asks / Bro answers with 'Trust me. I got this.' + punch-in + shake",
+      "SMASH CUT to the 'plan' in action (the reveal of how small/dumb it is)",
+      "ESCALATE x2-3: reality pushes back, each step worse; plant the punchline visually BEFORE it's said",
+      "THE STARE mid-episode at camera with a cope line ('...market research.')",
+      "optional TIME CARD (3 HOURS LATER) for the twist",
+      "TWIST: the final, worst outcome — he still frames it as a win",
+      "SIGNATURE ENDING ~3s"
+    ],
     "captions": "speaker-coloured: Bro yellow #ffd23f, Dee teal #7fe7dc, extras get their own colour",
     "sets": "Room, Street (Mini Mart with a joke poster slot) — add new sets to lib/toon/sets.tsx as the series needs them"
-  }
+  },
+  "extras_voices": {
+    "older man": "bm_george",
+    "younger guy": "am_fenrir / am_echo",
+    "woman": "af_heart / af_bella (the two best Kokoro voices)",
+    "british woman": "bf_emma",
+    "kid": "af_sky at +8%"
+  },
+  "voice_engine": "kokoro (free, local Kokoro-82M) — voicePlan \"kokoro\"; voices are part of the locked cast, copy them verbatim into every episode's beats.json cast{}"
 }

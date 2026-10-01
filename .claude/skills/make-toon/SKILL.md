@@ -63,10 +63,11 @@ premise. Then write `script.md` (beat table: time | on screen | line) and `beats
 - `vo[]`: one entry per spoken line with `"speaker"` (cast id or extra id), `start`/`end` in
   global seconds (~2.7–3 words/sec, comedic pauses are free), `text`.
 - `cast{}`: voice per speaker per engine, e.g.
-  `"bro": {"elevenlabs": "<id>", "edge": "en-US-ChristopherNeural", "rate": "+6%"}`.
+  `"bro": {"kokoro": "am_puck", "elevenlabs": "<id>", "edge": "en-US-ChristopherNeural", "rate": "+6%"}`.
   Copy the recurring cast's voices from the previous episode **verbatim** (a voice is part of
   the locked character), and add each extra's voice.
-- `voicePlan`: `"elevenlabs"` or `"edge"` (bare engine, so voices come from `cast`).
+- `voicePlan`: `"kokoro"` (free, default), `"elevenlabs"` or `"edge"`: a bare engine name, so
+  voices come from `cast`.
 - `beats[]`: hook · setup · reveal · escalate · stare · (later) · twist · signature, with
   `visual` notes.
 - Bro series: the catchphrase is said exactly twice (full in setup, short as the last line),
@@ -116,14 +117,23 @@ over the head) · signature stamp below the face. Model sheet for a new pose:
 ```
 python tools/build_short.py toon-shorts/<series>/ep-NN-<slug>
 ```
-gen_voice reads `cast` and voices each line with its speaker's voice, writing real word
-times **and speakers** into `vo.gen.ts`, so lip-sync and captions retime themselves. Then render,
+gen_voice reads `cast` and voices each line with its speaker's voice, writing word times
+**and speakers** into `vo.gen.ts`, so lip-sync and captions retime themselves. Then render,
 mux and the SFX mix. `--stages render` renders without voice (silent preview).
 
-- ElevenLabs needs `ELEVENLABS_API_KEY` in `.env`. Audition the cast voices once per series
-  and lock the ids in series.json.
-- `--engine edge` is free but uses a WebSocket, which fails behind proxies that block them
-  (e.g. this cloud sandbox). It works on a normal machine.
+Voice engine = beats.json `voicePlan`:
+- **`kokoro` (default, free, local).** Kokoro-82M on the CPU (~2× real time), no key, no quota,
+  no network. One-time setup: `pip install kokoro-onnx && python tools/setup_kokoro.py`
+  (weights come from npm). Cast entries: `"kokoro": "am_puck"`, or a blend
+  `"am_puck:0.6+am_fenrir:0.4"` for a voice nobody else has; `"rate": "+6%"` = speed. Best
+  voices: af_heart, af_bella (female) · am_puck, am_fenrir, am_michael (male) · bm_george,
+  bf_emma (British). Word times are derived from the audio's pauses (syllable-accurate).
+  When choosing a new character's voice, make an audition file like
+  `toon-shorts/bro/voice-audition.mp3` and let the user pick by ear.
+- `elevenlabs`: the paid upgrade (`ELEVENLABS_API_KEY` in `.env`), with exact word alignment.
+- `edge`: free but online over WebSockets (fails behind proxies that block them).
+Every line should fit its window with tempo 1.00 in the voice table; if one overflows, widen
+the window in beats.json and don't squeeze the line.
 
 SFX: `sfx-plan.json` (library ids only; see /suggest-sfx). Comedy staples: smash cut =
 `impact-deep-soft`, stare = `impact-deep-soft`, stamp = `stamp-hit`, time card =

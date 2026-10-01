@@ -25,5 +25,8 @@ toon-shorts/*/*/output/
 ai-shorts/*/shots/*.mp4
 ai-shorts/*/bakeoff/*.mp4
 
+# free local TTS model + voices (tools/setup_kokoro.py re-downloads them)
+tools/kokoro/
+
 # local editor config
 .vscode/
