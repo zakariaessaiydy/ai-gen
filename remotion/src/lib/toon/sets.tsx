@@ -4,6 +4,7 @@
 // (signs, jokes) between y 450 and 1250.
 import React from 'react';
 import { FONT_TOON } from './comedy';
+import { prog } from '../shorts';
 
 const INK = '#22160f';
 const st = { stroke: INK, strokeWidth: 7, strokeLinejoin: 'round' as const };
@@ -530,3 +531,93 @@ export const PizzaBox: React.FC<{ scale?: number }> = ({ scale = 1 }) => (
     </text>
   </g>
 );
+
+// ---------------------------------------------------------------------------------------------
+// DESK + LAPTOP with a live price CHART — the chart is the joke slot: it rises (dash-reveal),
+// crashes, and can SPILL — the crash line breaks out of the bottom of the screen and pours
+// onto the desk and the floor (a silent visual punchline).
+// Desk origin = floor centre, top at y-280. Laptop origin = base centre (sits on the desk top).
+// ---------------------------------------------------------------------------------------------
+export const Desk: React.FC<{ x: number; y: number; w?: number }> = ({ x, y, w = 520 }) => (
+  <g transform={`translate(${x},${y})`}>
+    <rect x={-w / 2} y={-280} width={w} height={34} fill="#9c6644" {...st} />
+    <rect x={-w / 2 + 20} y={-246} width={30} height={246} fill="#7f5539" {...st} />
+    <rect x={w / 2 - 50} y={-246} width={30} height={246} fill="#7f5539" {...st} />
+    <rect x={w / 2 - 210} y={-246} width={160} height={120} fill="#b08968" {...st} />
+  </g>
+);
+
+export const LAPTOP_SCREEN = { w: 360, h: 230 }; // screen size; top-left = (x - w/2, y - h - 24)
+export const Laptop: React.FC<{
+  x: number;
+  y: number;
+  t: number;
+  rise: [number, number]; // chart draws itself up
+  crash?: [number, number]; // the plunge
+  spill?: [number, number]; // the line pours out of the screen to the floor
+  floorY?: number;
+  price: string;
+  priceColor?: string;
+  moon?: boolean; // "TO THE MOON" + rocket at the top of the rise
+  spillLeft?: number; // how far left of the laptop centre the line goes over the desk edge
+}> = ({ x, y, t, rise, crash, spill, floorY = 1460, price, priceColor = '#2dc653', moon, spillLeft = 190 }) => {
+  const { w, h } = LAPTOP_SCREEN;
+  const sx = x - w / 2;
+  const sy = y - h - 24;
+  const rp = prog(t, rise[0], rise[1]);
+  const cp = crash ? prog(t, crash[0], crash[1]) : 0;
+  const pp = spill ? prog(t, spill[0], spill[1]) : 0;
+  const up = 'M 20,200 L 60,170 L 95,185 L 135,130 L 170,145 L 215,85 L 250,100 L 300,40 L 330,26';
+  const down = 'M 330,26 L 336,120 L 342,250';
+  // where the plunge exits the screen bottom, in stage coords, then down the desk, onto the floor
+  const ex = sx + 341;
+  // spills LEFT, toward the middle of the frame: down the screen, along the desk top, over the
+  // desk's front edge to the floor, where it coils (rightwards, in front of the desk)
+  const lx = x - spillLeft;
+  const spillD = `M ${ex},${sy + h} L ${ex + 4},${y + 2} L ${lx},${y + 6} L ${lx - 12},${floorY + 10} Q ${lx - 10},${floorY + 40} ${lx + 50},${floorY + 34} Q ${lx + 120},${floorY + 24} ${lx + 85},${floorY + 54} Q ${lx + 50},${floorY + 78} ${lx + 160},${floorY + 68}`;
+  const clipId = `laptop-${Math.round(x)}-${Math.round(y)}`;
+  return (
+    <g>
+      {/* lid + screen */}
+      <rect x={sx - 18} y={sy - 18} width={w + 36} height={h + 36} rx={16} fill="#2b2d42" {...st} />
+      <clipPath id={clipId}>
+        <rect x={sx} y={sy} width={w} height={h} />
+      </clipPath>
+      <rect x={sx} y={sy} width={w} height={h} fill="#0b132b" />
+      <g clipPath={`url(#${clipId})`}>
+        {[60, 120, 180].map((gy) => (
+          <line key={gy} x1={sx} y1={sy + gy} x2={sx + w} y2={sy + gy} stroke="#1c2541" strokeWidth={3} />
+        ))}
+        <g transform={`translate(${sx},${sy})`}>
+          <path d={up} fill="none" stroke="#2dc653" strokeWidth={8} strokeLinejoin="round" strokeLinecap="round" pathLength={1} strokeDasharray="1 1" strokeDashoffset={1 - rp} />
+          {crash && cp > 0 && (
+            <path d={down} fill="none" stroke="#ff3b30" strokeWidth={8} strokeLinejoin="round" strokeLinecap="round" pathLength={1} strokeDasharray="1 1" strokeDashoffset={1 - cp} />
+          )}
+          {moon && rp >= 1 && cp === 0 && (
+            <g transform="translate(296,58) rotate(35)">
+              <path d="M 0,-34 Q 16,-10 12,18 L -12,18 Q -16,-10 0,-34 Z" fill="#e9ecef" stroke={INK} strokeWidth={4} />
+              <circle cx={0} cy={-6} r={6} fill="#4cc9f0" stroke={INK} strokeWidth={3} />
+              <path d="M -8,18 L 0,34 L 8,18 Z" fill="#ff7b00" />
+            </g>
+          )}
+        </g>
+        <text x={sx + 16} y={sy + 34} fontFamily={FONT_TOON} fontWeight={700} fontSize={24} fill="#e0fbfc">
+          BROCOIN
+        </text>
+        <text x={sx + w - 14} y={sy + 34} textAnchor="end" fontFamily={FONT_TOON} fontWeight={700} fontSize={26} fill={priceColor}>
+          {price}
+        </text>
+        {moon && rp >= 1 && cp === 0 && (
+          <text x={sx + 20} y={sy + h - 18} fontFamily={FONT_TOON} fontWeight={700} fontSize={26} fill="#ffd23f">
+            TO THE MOON
+          </text>
+        )}
+      </g>
+      {/* base */}
+      <path d={`M ${sx - 40},${y - 6} L ${sx + w + 40},${y - 6} L ${sx + w + 20},${y} L ${sx - 20},${y} Z`} fill="#8d99ae" {...st} />
+      {spill && pp > 0 && (
+        <path d={spillD} fill="none" stroke="#ff3b30" strokeWidth={13} strokeLinejoin="round" strokeLinecap="round" pathLength={1} strokeDasharray="1 1" strokeDashoffset={1 - pp} />
+      )}
+    </g>
+  );
+};

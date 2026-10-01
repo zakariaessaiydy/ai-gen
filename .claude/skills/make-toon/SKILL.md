@@ -18,13 +18,15 @@ Run everything from the **repo root**.
 remotion/src/lib/toon/
   rig.tsx            <Toon> — THE body every character is drawn with (expr, arms, legs, mouth, look…)
   comedy.tsx         camera (camAt/Stage/shakeAt), Cut, Flash, lipSync/talking, DialogueCaptions,
-                     TitleBar, TimeCard, Rays, Sparkles, Zzz, BroMath (floating "bro math"
+                     TitleBar, TimeCard, Rays, Sparkles, Zzz, Notification (phone push banner:
+                     bad news without dialogue), BroMath (floating "bro math""
                      equations, the series' recurring payoff visual), signatureFilter + SignatureStamp
   sets.tsx           Room (night 0..1), Street (Mini Mart + joke poster slot), Table, Bottle, Crate,
                      Bed, Blanket, Nightstand, AlarmClock (time + ring),
                      Gym (wall clock joke slot), SquatRack, Barbell (readable plate label),
                      Kitchen (door, SMOKE ALARM, char), Counter + StoveDial, Pan, Flames, Smoke,
-                     Phone (screen text), PizzaBox
+                     Phone (screen text), PizzaBox, Desk, Laptop (price chart: rise / crash /
+                     SPILL out of the screen onto the floor)
   series/<series>.ts LOCKED cast specs + speaker colours + series name/catchphrase/accent
 remotion/src/shots/
   toon-<series>/<Series>ModelSheet.tsx   the model sheet -> toon-shorts/<series>/character.png
@@ -164,6 +166,9 @@ Rig vocabulary (see rig.tsx for all of it):
 - `shadesDown`: the shades on Bro's cap come down over his eyes (the action-hero moment)
 - walking TOWARD camera = grow `scale` and push `y` down together (EP4's action walk)
 - props: `<Bottle anchor="center" level>` in a hand via `holdR` + `holdRotR`
+
+Insert shots (a close-up on a prop: the dial, the laptop) must not show stray limbs: force the
+nearby character's arms to 'down' for the insert's duration (EP5).
 
 Prop gags must be STAGED for the camera: a prop held in a raised hand goes behind the head
 (arms draw behind the torso), so hold the joke prop out to the SIDE, toward the other

@@ -467,3 +467,51 @@ export const BroMath: React.FC<{ x: number; y: number; t: number; to: number; li
     </g>
   );
 };
+
+// ---------------------------------------------------------------------------------------------
+// NOTIFICATION — a phone push banner sliding down under the title bar (screen space). The
+// fastest way to deliver bad news without a line of dialogue.
+// ---------------------------------------------------------------------------------------------
+export const Notification: React.FC<{ at: number; until: number; app: string; title: string; body: string; color?: string }> = ({
+  at,
+  until,
+  app,
+  title,
+  body,
+  color = '#e63946',
+}) => {
+  const t = useT();
+  if (t < at || t >= until) return null;
+  const inP = EASE_OUT(prog(t, at, at + 0.25));
+  const outP = prog(t, until - 0.2, until);
+  const wob = t < at + 0.6 ? Math.sin((t - at) * 50) * 4 * (1 - prog(t, at, at + 0.6)) : 0;
+  return (
+    <div
+      style={{
+        position: 'absolute',
+        left: 70,
+        right: 70,
+        top: 450,
+        transform: `translate(${wob}px, ${(1 - inP) * -260 - outP * 260}px)`,
+        opacity: 1 - outP,
+        background: 'rgba(255,255,255,0.97)',
+        borderRadius: 30,
+        border: '4px solid #160e09',
+        boxShadow: '0 12px 0 rgba(0,0,0,0.25)',
+        display: 'flex',
+        alignItems: 'center',
+        gap: 22,
+        padding: '20px 26px',
+      }}
+    >
+      <div style={{ width: 84, height: 84, borderRadius: 20, background: color, border: '4px solid #160e09', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: FONT_PUNCH, fontSize: 56, color: '#fff' }}>
+        {app.slice(0, 1)}
+      </div>
+      <div style={{ display: 'flex', flexDirection: 'column' }}>
+        <div style={{ fontFamily: FONT_TOON, fontWeight: 600, fontSize: 28, color: '#6c757d' }}>{app} · now</div>
+        <div style={{ fontFamily: FONT_TOON, fontWeight: 700, fontSize: 42, color: '#111' }}>{title}</div>
+        <div style={{ fontFamily: FONT_TOON, fontWeight: 600, fontSize: 34, color: color }}>{body}</div>
+      </div>
+    </div>
+  );
+};
