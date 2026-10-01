@@ -11,7 +11,9 @@ const st = { stroke: INK, strokeWidth: 7, strokeLinejoin: 'round' as const };
 // ---------------------------------------------------------------------------------------------
 // ROOM — Bro's bedroom: light-blue wall, window, the "GRIND" poster, wood floor.
 // ---------------------------------------------------------------------------------------------
-export const Room: React.FC<{ wall?: string; poster?: string }> = ({ wall = '#8ecae6', poster = 'GRIND' }) => (
+// night 0..1: dusk-to-night grade + a moonlit window (draw it, then the characters — they get no
+// overlay, so they pop against the dark room)
+export const Room: React.FC<{ wall?: string; poster?: string; night?: number }> = ({ wall = '#8ecae6', poster = 'GRIND', night = 0 }) => (
   <g>
     <rect x={0} y={0} width={1080} height={1460} fill={wall} />
     <rect x={0} y={1240} width={1080} height={220} fill="rgba(0,0,0,0.06)" />
@@ -24,6 +26,18 @@ export const Room: React.FC<{ wall?: string; poster?: string }> = ({ wall = '#8e
       <rect x={1030} y={740} width={50} height={150} fill="#a2b5cd" />
       <line x1={965} y1={470} x2={965} y2={890} {...st} />
       <line x1={850} y1={680} x2={1080} y2={680} {...st} />
+      {night > 0 && (
+        <g opacity={night}>
+          <rect x={850} y={470} width={230} height={420} fill="#1d2a52" {...st} />
+          <circle cx={1010} cy={545} r={34} fill="#fff3c4" />
+          <circle cx={996} cy={538} r={30} fill="#1d2a52" />
+          {[[880, 520], [930, 610], [900, 760], [1040, 700]].map(([x, y]) => (
+            <circle key={`${x}${y}`} cx={x} cy={y} r={4} fill="#ffffff" />
+          ))}
+          <line x1={965} y1={470} x2={965} y2={890} {...st} />
+          <line x1={850} y1={680} x2={1080} y2={680} {...st} />
+        </g>
+      )}
     </g>
     {/* poster */}
     <g transform="rotate(-3 470 600)">
@@ -44,8 +58,83 @@ export const Room: React.FC<{ wall?: string; poster?: string }> = ({ wall = '#8e
     ))}
     <line x1={0} y1={1460} x2={1080} y2={1460} stroke={INK} strokeWidth={7} />
     <ellipse cx={540} cy={1560} rx={430} ry={70} fill="#e5989b" opacity={0.85} />
+    {night > 0 && <rect x={0} y={0} width={1080} height={1920} fill="#0b1640" opacity={0.55 * night} />}
   </g>
 );
+
+// ---------------------------------------------------------------------------------------------
+// BEDROOM PROPS — bed (headboard on the LEFT), blanket (drawn AFTER a lying character to tuck
+// him in), nightstand, alarm clock. Lying pose: <Toon lean={-90}> with its feet at the foot of
+// the bed — the body extends LEFT from the feet, head on the pillow.
+// ---------------------------------------------------------------------------------------------
+// origin = floor under the headboard's outer edge; mattress top at y - 210
+export const Bed: React.FC<{ x: number; y: number; w?: number; sheet?: string; frame?: string }> = ({
+  x,
+  y,
+  w = 820,
+  sheet = '#f1faee',
+  frame = '#8d5a3b',
+}) => (
+  <g transform={`translate(${x},${y})`}>
+    <rect x={20} y={-60} width={30} height={60} fill={frame} {...st} />
+    <rect x={w - 50} y={-60} width={30} height={60} fill={frame} {...st} />
+    <rect x={0} y={-150} width={w} height={95} rx={16} fill={frame} {...st} />
+    <rect x={10} y={-215} width={w - 20} height={75} rx={30} fill={sheet} {...st} />
+    <rect x={-10} y={-470} width={70} height={470} rx={22} fill={frame} {...st} />
+    <rect x={80} y={-285} width={190} height={80} rx={38} fill="#ffffff" {...st} />
+  </g>
+);
+
+// origin = left end at the mattress top; covers a lying body from x to x+w
+export const Blanket: React.FC<{ x: number; y: number; w?: number; color?: string }> = ({ x, y, w = 520, color = '#457b9d' }) => (
+  <g transform={`translate(${x},${y})`}>
+    <path d={`M 0,10 Q 10,-120 120,-128 L ${w - 30},-118 Q ${w},-112 ${w},-60 L ${w},70 L 0,70 Z`} fill={color} {...st} />
+    <path d={`M 30,-80 Q ${w / 2},-108 ${w - 40},-80`} fill="none" stroke="rgba(255,255,255,0.35)" strokeWidth={10} strokeLinecap="round" />
+    <path d={`M 0,10 Q ${w / 2},-10 ${w},10`} fill="none" stroke={INK} strokeWidth={6} opacity={0.4} />
+  </g>
+);
+
+// origin = floor centre
+export const Nightstand: React.FC<{ x: number; y: number }> = ({ x, y }) => (
+  <g transform={`translate(${x},${y})`}>
+    <rect x={-85} y={-230} width={170} height={230} rx={10} fill="#bc8a5f" {...st} />
+    <line x1={-85} y1={-120} x2={85} y2={-120} {...st} />
+    <circle cx={0} cy={-170} r={9} fill={INK} />
+    <circle cx={0} cy={-62} r={9} fill={INK} />
+  </g>
+);
+
+// origin = bottom centre. ring (0..1 amplitude) + t make it rattle and throw ring lines.
+export const AlarmClock: React.FC<{ x: number; y: number; time: string; ring?: number; t?: number; scale?: number }> = ({
+  x,
+  y,
+  time,
+  ring = 0,
+  t = 0,
+  scale = 1,
+}) => {
+  const wob = ring * Math.sin(t * 60) * 9;
+  const hop = ring * Math.abs(Math.sin(t * 30)) * -10;
+  return (
+    <g transform={`translate(${x},${y + hop}) scale(${scale}) rotate(${wob})`}>
+      <circle cx={-55} cy={-118} r={26} fill="#e9c46a" {...st} />
+      <circle cx={55} cy={-118} r={26} fill="#e9c46a" {...st} />
+      <rect x={-95} y={-110} width={190} height={110} rx={28} fill="#e63946" {...st} />
+      <rect x={-72} y={-92} width={144} height={66} rx={10} fill="#111827" stroke={INK} strokeWidth={5} />
+      <text x={0} y={-44} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={50} fill="#7CFC7C">
+        {time}
+      </text>
+      {ring > 0 &&
+        [-1, 1].map((s) => (
+          <g key={s} stroke={INK} strokeWidth={7} strokeLinecap="round" opacity={0.6 + 0.4 * Math.abs(Math.sin(t * 20))}>
+            <line x1={s * 120} y1={-120} x2={s * 160} y2={-150} />
+            <line x1={s * 128} y1={-80} x2={s * 175} y2={-82} />
+            <line x1={s * 120} y1={-40} x2={s * 160} y2={-14} />
+          </g>
+        ))}
+    </g>
+  );
+};
 
 // ---------------------------------------------------------------------------------------------
 // STREET — sidewalk in front of the MINI MART. The window poster is a joke slot

@@ -9,7 +9,7 @@ Status: ✅ made · 🟡 next up · (blank) idea
 | # | Title (title bar) | Plan → escalation → cope line | Sets / extras |
 |---|---|---|---|
 | ✅ 1 | Bro thought he could get rich in ONE day | "I quit my job" / "you don't have one" / "that's how fast I quit" → ONE bottle at $10, "premium… the price" → "do they have ME?" "that's why it's $1" → drinks his stock: "saved $10… so I'm up nine." | Room, Street, customer |
-| 🟡 2 | Bro said he'd wake up at 5AM | Alarm set, motivational speech to Dee → 5:00 snooze → 5:01 snooze → wakes up at 2PM. *"5AM… in Tokyo."* | Room (+ bed, clock) |
+| ✅ 2 | Bro said he'd wake up at 5AM | "I'm getting earlier" (woke at 3PM) → slaps the 5:00 alarm: "Millionaires sleep in." → 5:01 "visualizing success" → 2:47 PM "Rise and grind!" → bro math: 13 min earlier a day = 5AM in 45 days. Dee: "...That's actually right." | Room night/day, Bed, AlarmClock |
 | 🟡 3 | Bro tried to impress her at the gym | Flexes, loads the bar → can't lift it → gets stuck under it, she helps him. *"I was spotting HER."* | Gym (new set), girl extra |
 | 4 | Bro thinks he can cook | Pro-chef talk → sets off the smoke alarm → orders delivery. *"Deconstructed dinner."* | Kitchen (new set) |
 | 5 | Bro started a crypto coin | "BROCOIN to the moon" → worth $0.0001 → he's the only holder. *"Exclusive community."* | Room, phone screen |

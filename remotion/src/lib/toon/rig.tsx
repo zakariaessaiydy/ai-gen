@@ -11,7 +11,7 @@ import React from 'react';
 import { useCurrentFrame } from 'remotion';
 
 export type Expr =
-  | 'neutral' | 'smug' | 'confident' | 'shock' | 'deadpan' | 'sad' | 'happy' | 'annoyed' | 'side-eye';
+  | 'neutral' | 'smug' | 'confident' | 'shock' | 'deadpan' | 'sad' | 'happy' | 'annoyed' | 'side-eye' | 'sleep';
 export type ArmPose =
   | 'down' | 'hip' | 'point' | 'point-up' | 'wave' | 'gun' | 'hold' | 'shrug' | 'cross' | 'flex'
   | 'drink' | 'facepalm' | 'thumb' | 'present'
@@ -131,6 +131,7 @@ type ExprDef = {
   pupil: number;
   mouth: 'smile' | 'grin' | 'smirk' | 'flat' | 'o' | 'frown';
   happyEyes?: boolean;
+  sleepEyes?: boolean; // closed, relaxed (sagging arcs)
   lookX?: number;
 };
 const EXPR: Record<Expr, ExprDef> = {
@@ -143,6 +144,7 @@ const EXPR: Record<Expr, ExprDef> = {
   happy: { tilt: [-6, -6], raise: [-12, -12], lid: 0, pupil: 1, mouth: 'grin', happyEyes: true },
   annoyed: { tilt: [16, 16], raise: [6, 6], lid: 0.36, pupil: 0.9, mouth: 'flat' },
   'side-eye': { tilt: [6, -4], raise: [2, -6], lid: 0.44, pupil: 0.95, mouth: 'flat', lookX: 0.85 },
+  sleep: { tilt: [-4, -4], raise: [4, 4], lid: 0, pupil: 1, mouth: 'o', sleepEyes: true },
 };
 
 const hashStr = (s: string) => {
@@ -257,6 +259,9 @@ const Face: React.FC<{
   const lx = (look[0] + (e.lookX ?? 0)) * 11;
   const ly = look[1] * 9;
   const eyes = [-56, 56].map((cx, i) => {
+    if (e.sleepEyes) {
+      return <path key={i} d={`M ${cx - 28},-6 Q ${cx},14 ${cx + 28},-6`} fill="none" stroke={ink} strokeWidth={9} strokeLinecap="round" />;
+    }
     if (e.happyEyes) {
       return <path key={i} d={`M ${cx - 28},2 Q ${cx},-38 ${cx + 28},2`} fill="none" stroke={ink} strokeWidth={10} strokeLinecap="round" />;
     }
@@ -456,7 +461,7 @@ export const Toon: React.FC<ToonProps> = ({
   const bob = legs === 'walk' ? -Math.abs(Math.sin(walk * Math.PI * 2)) * 10 : 0;
   const upperShift = legs === 'sit' ? 72 : 0;
   const cyc = (frame + h * 7) % 104;
-  const blinkLid = blink && !e.happyEyes && cyc < 4 ? 1 : 0;
+  const blinkLid = blink && !e.happyEyes && !e.sleepEyes && cyc < 4 ? 1 : 0;
   const nod = mouth * 5;
 
   const defaultHand = (pose: ArmPose): Hand =>

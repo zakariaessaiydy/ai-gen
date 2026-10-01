@@ -393,3 +393,77 @@ export const SignatureStamp: React.FC<{ at: number; text: string; accent: string
     </AbsoluteFill>
   );
 };
+
+// ---------------------------------------------------------------------------------------------
+// Zzz — snore letters drifting up from a sleeping head (stage coords)
+// ---------------------------------------------------------------------------------------------
+export const Zzz: React.FC<{ x: number; y: number; t: number; from?: number; to?: number }> = ({ x, y, t, from = -1e9, to = 1e9 }) => {
+  if (t < from || t >= to) return null;
+  return (
+    <g>
+      {[0, 1, 2].map((i) => {
+        const p = ((t - from) * 0.55 + i / 3) % 1;
+        return (
+          <text
+            key={i}
+            x={x + p * 90 + Math.sin(p * 6) * 14}
+            y={y - p * 230}
+            fontFamily={FONT_PUNCH}
+            fontSize={56 + i * 16}
+            fill="#ffffff"
+            stroke="#160e09"
+            strokeWidth={7}
+            paintOrder="stroke"
+            opacity={Math.sin(p * Math.PI)}
+          >
+            Z
+          </text>
+        );
+      })}
+    </g>
+  );
+};
+
+// ---------------------------------------------------------------------------------------------
+// BRO MATH — the "calculating meme": chalk equations pop in around a head, one per `at`, and
+// bob while he computes. A recurring visual for every "bro math" payoff (stage coords).
+// ---------------------------------------------------------------------------------------------
+export type MathLine = { text: string; dx: number; dy: number; at: number; rot?: number; color?: string };
+export const BroMath: React.FC<{ x: number; y: number; t: number; to: number; lines: MathLine[]; size?: number }> = ({
+  x,
+  y,
+  t,
+  to,
+  lines,
+  size = 46,
+}) => {
+  if (t >= to) return null;
+  return (
+    <g>
+      {lines.map((l, i) => {
+        if (t < l.at) return null;
+        const p = EASE_OUT(prog(t, l.at, l.at + 0.2));
+        const bob = Math.sin((t - l.at) * 3 + i) * 6;
+        return (
+          <text
+            key={i}
+            x={x + l.dx}
+            y={y + l.dy + bob}
+            textAnchor="middle"
+            fontFamily={FONT_TOON}
+            fontWeight={700}
+            fontSize={size}
+            fill={l.color ?? '#ffffff'}
+            stroke="#160e09"
+            strokeWidth={9}
+            paintOrder="stroke"
+            opacity={p}
+            transform={`rotate(${l.rot ?? 0} ${x + l.dx} ${y + l.dy}) translate(0,${(1 - p) * 20})`}
+          >
+            {l.text}
+          </text>
+        );
+      })}
+    </g>
+  );
+};
