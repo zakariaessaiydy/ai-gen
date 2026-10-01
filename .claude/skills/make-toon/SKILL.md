@@ -34,7 +34,9 @@ remotion/src/lib/toon/
                      RoadBackdrop (moving road), CarInterior + CarFront (front-view car: driver on
                      the viewer's right, GPS phone on the dash), CityMap (looping route + LAP
                      counter), House (the destination facade), PartyRoom (disco ball, beams,
-                     party on/off + light switch), DJBooth (turntables, laptop back, big button)
+                     party on/off + light switch), DJBooth (turntables, laptop back, big button),
+                     Park, Bench (back/seat parts around a sitter), ChipsBag, Splat,
+                     Pigeon (animal actor: hop, flap, carry in the beak, never blinks)
   series/<series>.ts LOCKED cast specs + speaker colours + series name/catchphrase/accent
 remotion/src/shots/
   toon-<series>/<Series>ModelSheet.tsx   the model sheet -> toon-shorts/<series>/character.png
@@ -182,6 +184,9 @@ overlay (EP7's 3AM fridge).
 Any full-screen overlay with a time window (lights out, a tint, a haze) needs BOTH ends in its
 condition. EP6 v1 left the lights-out overlay on after the power came back and blacked out
 the rest of the episode; QA caught it.
+
+Standoffs / reaction ping-pong: alternate hard cuts between two extreme close-ups (eyes vs
+eyes), each cut TIGHTER than the last, then break it with a wide (EP10's pigeon standoff).
 
 Crowds (extras): keep them SMALLER (scale ~0.8) and pushed to the frame edge / foreground so
 they never cover the hero or the joke prop in the opening close-up (EP9 v1 buried Bro under

@@ -1124,3 +1124,110 @@ export const DJBooth: React.FC<{ x: number; y: number; t: number; laptopOn: bool
     </text>
   </g>
 );
+
+// ---------------------------------------------------------------------------------------------
+// PARK KIT — park backdrop, bench (seat top = BENCH_SEAT_Y: a legs:'sit' character with feet
+// at y 1500 sits on it), chips bag, poop splat, and THE PIGEON (an animal actor: hops, flaps,
+// carries things in its beak, never blinks unless told).
+// ---------------------------------------------------------------------------------------------
+export const BENCH_SEAT_Y = 1255;
+export const Park: React.FC = () => (
+  <g>
+    <rect x={0} y={0} width={1080} height={1300} fill="#a2d2ff" />
+    <circle cx={880} cy={560} r={80} fill="#ffe066" />
+    {[[120, 900, 1.1], [420, 860, 0.9], [980, 920, 1.2]].map(([x, y, s], i) => (
+      <g key={i} transform={`translate(${x},${y}) scale(${s})`}>
+        <rect x={-22} y={0} width={44} height={420} fill="#7f5539" {...st} />
+        <circle cx={0} cy={-60} r={150} fill="#52b788" {...st} />
+        <circle cx={-80} cy={20} r={90} fill="#40916c" {...st} />
+        <circle cx={90} cy={10} r={100} fill="#40916c" {...st} />
+      </g>
+    ))}
+    <rect x={0} y={1300} width={1080} height={620} fill="#95d5b2" />
+    <path d="M 380,1300 L 700,1300 L 1080,1920 L 0,1920 Z" fill="#e9c46a" opacity={0.75} />
+    <line x1={0} y1={1300} x2={1080} y2={1300} stroke={INK} strokeWidth={6} opacity={0.4} />
+  </g>
+);
+
+// bench; origin = centre of the front edge of the seat (y = BENCH_SEAT_Y). Draw the back
+// (`part="back"`) BEFORE the sitter and the seat (`part="seat"`) AFTER.
+export const Bench: React.FC<{ x: number; part: 'back' | 'seat' }> = ({ x, part }) =>
+  part === 'back' ? (
+    <g>
+      {[1010, 1080, 1150].map((y) => (
+        <rect key={y} x={x - 280} y={y} width={560} height={46} rx={10} fill="#bc6c25" {...st} />
+      ))}
+      <rect x={x - 250} y={1000} width={30} height={260} fill="#3d405b" {...st} />
+      <rect x={x + 220} y={1000} width={30} height={260} fill="#3d405b" {...st} />
+    </g>
+  ) : (
+    <g>
+      <rect x={x - 290} y={BENCH_SEAT_Y} width={580} height={44} rx={10} fill="#dda15e" {...st} />
+      <rect x={x - 260} y={BENCH_SEAT_Y + 44} width={30} height={200} fill="#3d405b" {...st} />
+      <rect x={x + 230} y={BENCH_SEAT_Y + 44} width={30} height={200} fill="#3d405b" {...st} />
+    </g>
+  );
+
+// chips bag; origin = bottom centre
+export const ChipsBag: React.FC<{ x?: number; y?: number; scale?: number; rot?: number }> = ({ x = 0, y = 0, scale = 1, rot = 0 }) => (
+  <g transform={`translate(${x},${y}) rotate(${rot}) scale(${scale})`}>
+    <path d="M -55,0 L -60,-150 L -40,-160 L 0,-152 L 40,-160 L 60,-150 L 55,0 Z" fill="#e63946" {...st} />
+    <rect x={-45} y={-110} width={90} height={50} rx={10} fill="#ffd23f" stroke={INK} strokeWidth={4} />
+    <text x={0} y={-76} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={26} fill="#e63946">
+      CHIPS
+    </text>
+  </g>
+);
+
+export const Splat: React.FC<{ x: number; y: number; scale?: number }> = ({ x, y, scale = 1 }) => (
+  <g transform={`translate(${x},${y}) scale(${scale})`} fill="#ffffff" stroke={INK} strokeWidth={5}>
+    <path d="M -40,0 Q -50,-26 -18,-24 Q -10,-50 14,-30 Q 44,-36 40,-6 Q 60,10 30,18 Q 10,36 -10,20 Q -44,26 -40,0 Z" />
+    <circle cx={-46} cy={-30} r={8} />
+    <circle cx={52} cy={-24} r={6} />
+    <path d="M 4,18 Q 8,40 2,52" fill="none" strokeWidth={9} stroke="#ffffff" />
+  </g>
+);
+
+// THE PIGEON; origin = feet. facing 1 = looking right. carry = drawn in the beak.
+export const Pigeon: React.FC<{
+  x: number;
+  y: number;
+  t: number;
+  scale?: number;
+  facing?: 1 | -1;
+  flap?: boolean;
+  blink?: boolean;
+  carry?: React.ReactNode;
+  bob?: boolean;
+}> = ({ x, y, t, scale = 1, facing = 1, flap = false, blink = false, carry, bob = true }) => {
+  const peck = bob && !flap ? Math.max(0, Math.sin(t * 7)) * 6 : 0;
+  const w = flap ? Math.sin(t * 40) * 50 : 0;
+  return (
+    <g transform={`translate(${x},${y}) scale(${scale * facing},${scale})`}>
+      {!flap && (
+        <>
+          <line x1={-14} y1={-30} x2={-18} y2={0} stroke="#e07a5f" strokeWidth={7} />
+          <line x1={14} y1={-30} x2={18} y2={0} stroke="#e07a5f" strokeWidth={7} />
+          <path d="M -32,0 L -4,0 M 4,0 L 32,0" stroke="#e07a5f" strokeWidth={7} strokeLinecap="round" />
+        </>
+      )}
+      {flap && <ellipse cx={-10} cy={-90} rx={70} ry={22} fill="#8d99ae" stroke={INK} strokeWidth={5} transform={`rotate(${-30 - w} -10 -80)`} />}
+      <ellipse cx={-6} cy={-62} rx={72} ry={48} fill="#adb5bd" stroke={INK} strokeWidth={6} />
+      <path d="M -70,-60 L -118,-40 L -66,-30 Z" fill="#6c757d" stroke={INK} strokeWidth={5} />
+      {!flap && <ellipse cx={-14} cy={-60} rx={44} ry={26} fill="#8d99ae" stroke={INK} strokeWidth={5} />}
+      {flap && <ellipse cx={-10} cy={-80} rx={74} ry={24} fill="#8d99ae" stroke={INK} strokeWidth={5} transform={`rotate(${30 + w} -10 -80)`} />}
+      <g transform={`translate(0,${peck})`}>
+        <path d="M 22,-80 Q 36,-130 40,-120 Q 50,-96 30,-70 Z" fill="#6a4c93" opacity={0.6} />
+        <circle cx={40} cy={-128} r={36} fill="#9aa5b1" stroke={INK} strokeWidth={6} />
+        <path d="M 70,-128 L 100,-118 L 70,-110 Z" fill="#495057" stroke={INK} strokeWidth={4} />
+        <circle cx={50} cy={-136} r={13} fill="#f77f00" stroke={INK} strokeWidth={3} />
+        {blink ? (
+          <line x1={38} y1={-136} x2={62} y2={-136} stroke={INK} strokeWidth={5} />
+        ) : (
+          <circle cx={52} cy={-136} r={6} fill="#111" />
+        )}
+        {carry && <g transform="translate(108,-108)">{carry}</g>}
+      </g>
+    </g>
+  );
+};

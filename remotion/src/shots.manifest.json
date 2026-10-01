@@ -80,6 +80,14 @@
   "transparent": false
  },
  {
+  "id": "Bro10Pigeon",
+  "durationInSeconds": 29.8,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "Short1Chess",
   "durationInSeconds": 42,
   "fps": 30,
