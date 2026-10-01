@@ -39,7 +39,12 @@ remotion/src/lib/toon/
                      party on/off + light switch), DJBooth (turntables, laptop back, big button),
                      Park, Bench (back/seat parts around a sitter), ChipsBag, Splat,
                      Pigeon (animal actor: hop, flap, carry in the beak, never blinks),
-                     Clipboard (held prop with editable lines — change them for a visual punchline)
+                     Clipboard (held prop with editable lines — change them for a visual punchline),
+                     Store (Mini Mart interior: shelves + a BANNED poster with a mugshot slot —
+                     pass a small <Toon/> as `wanted`) + StoreCounter (draw after the cashier),
+                     Toaster (pop height + burnt toast), Toast, Receipt (long till strip to hold)
+  IK `to:[dx,dy]` is in the SCREEN-LEFT arm's frame: negative dx = outward. For armR that
+                     means negative dx = screen RIGHT (it's mirrored) — EP12 v1 got this backwards
   push-up / plank pose: lean={90} (head right), y animated, the floor arm as an IK target
                      {to:[-floorDist/scale,0]} so the hand stays planted while the body sinks;
                      captions move up (y≈720) when a lying close-up fills the lower frame

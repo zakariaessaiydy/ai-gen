@@ -1245,3 +1245,112 @@ export const Clipboard: React.FC<{ lines?: string[] }> = ({ lines = ['PLAN:', 'P
     ))}
   </g>
 );
+
+// ---------------------------------------------------------------------------------------------
+// STORE — Mini Mart interior: cream wall + red brand band, stocked shelves (left), checkout
+// counter (right). Draw the cashier BETWEEN <Store/> and <StoreCounter/> so the counter hides
+// her legs. `wanted` = the wall poster's mugshot slot (pass a small <Toon/> head from the
+// episode); `banned` = poster text. Poster sits right of the cashier: POSTER_AT.
+// ---------------------------------------------------------------------------------------------
+export const STORE_COUNTER_Y = 1180; // counter top (props sit on it)
+export const POSTER_AT: [number, number] = [985, 640]; // centre of the BANNED poster
+export const Store: React.FC<{ wanted?: React.ReactNode; banned?: string[] }> = ({ wanted, banned = ['BANNED', 'DO NOT SERVE'] }) => (
+  <g>
+    <rect x={0} y={0} width={1080} height={1460} fill="#fdf0d5" />
+    <rect x={0} y={380} width={1080} height={60} fill="#e63946" />
+    <text x={300} y={426} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={40} fill="#ffffff">MINI MART</text>
+    <rect x={0} y={440} width={1080} height={10} fill={INK} opacity={0.2} />
+    {/* shelves */}
+    {[620, 820, 1020, 1220].map((y, r) => (
+      <g key={y}>
+        <rect x={0} y={y} width={560} height={22} fill="#8d99ae" {...st} />
+        {Array.from({ length: 7 }).map((_, i) => {
+          const c = ['#ffbe0b', '#3a86ff', '#ff006e', '#06d6a0', '#fb5607', '#8338ec', '#2a9d8f'][(i + r * 3) % 7];
+          const h = 90 + ((i * 37 + r * 11) % 50);
+          return <rect key={i} x={12 + i * 78} y={y - h} width={62} height={h} rx={i % 3 === 0 ? 24 : 6} fill={c} stroke={INK} strokeWidth={5} />;
+        })}
+      </g>
+    ))}
+    {/* the BANNED poster (mugshot slot) */}
+    <g transform={`rotate(3 ${POSTER_AT[0]} ${POSTER_AT[1]})`}>
+      <rect x={POSTER_AT[0] - 95} y={POSTER_AT[1] - 170} width={190} height={340} fill="#ffffff" {...st} />
+      <rect x={POSTER_AT[0] - 95} y={POSTER_AT[1] - 170} width={190} height={64} fill="#e63946" {...st} />
+      <text x={POSTER_AT[0]} y={POSTER_AT[1] - 122} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={38} fill="#ffffff">
+        {banned[0]}
+      </text>
+      <rect x={POSTER_AT[0] - 75} y={POSTER_AT[1] - 92} width={150} height={170} fill="#e9ecef" stroke={INK} strokeWidth={5} />
+      <clipPath id="mugshot">
+        <rect x={POSTER_AT[0] - 75} y={POSTER_AT[1] - 92} width={150} height={170} />
+      </clipPath>
+      <g clipPath="url(#mugshot)">{wanted}</g>
+      {banned.slice(1).map((l, i) => (
+        <text key={i} x={POSTER_AT[0]} y={POSTER_AT[1] + 118 + i * 34} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={24} fill={INK}>
+          {l}
+        </text>
+      ))}
+      <circle cx={POSTER_AT[0] - 82} cy={POSTER_AT[1] - 158} r={7} fill="#adb5bd" stroke={INK} strokeWidth={3} />
+      <circle cx={POSTER_AT[0] + 82} cy={POSTER_AT[1] - 158} r={7} fill="#adb5bd" stroke={INK} strokeWidth={3} />
+    </g>
+    {/* tiled floor */}
+    <rect x={0} y={1460} width={1080} height={460} fill="#cfd8dc" />
+    {[0, 180, 360, 540, 720, 900].map((x) => (
+      <line key={x} x1={x} y1={1460} x2={x - 90} y2={1920} stroke="#b0bec5" strokeWidth={6} />
+    ))}
+    <line x1={0} y1={1640} x2={1080} y2={1640} stroke="#b0bec5" strokeWidth={6} />
+    <line x1={0} y1={1460} x2={1080} y2={1460} stroke={INK} strokeWidth={7} />
+  </g>
+);
+
+// the checkout counter + register (draw AFTER the cashier, BEFORE the customers)
+export const StoreCounter: React.FC = () => (
+  <g>
+    {/* register */}
+    <rect x={900} y={1060} width={150} height={120} rx={10} fill="#5c677d" {...st} />
+    <rect x={915} y={1000} width={120} height={70} rx={8} fill="#22223b" {...st} />
+    <text x={975} y={1046} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={28} fill="#2dc653">$0.00</text>
+    <rect x={590} y={STORE_COUNTER_Y} width={500} height={34} fill="#8d99ae" {...st} />
+    <rect x={600} y={STORE_COUNTER_Y + 34} width={490} height={246} fill="#e63946" {...st} />
+    <rect x={600} y={STORE_COUNTER_Y + 34} width={490} height={40} fill="#ffffff" opacity={0.25} />
+  </g>
+);
+
+// a slice of toast; origin = bottom centre. burnt 0..1
+export const Toast: React.FC<{ burnt?: number }> = ({ burnt = 0 }) => {
+  const mix = (a: number[], b: number[]) => `rgb(${a.map((v, i) => Math.round(v + (b[i] - v) * burnt)).join(',')})`;
+  return (
+    <g>
+      <path d="M -52,0 L -52,-80 C -78,-90 -76,-140 -40,-140 C -20,-160 20,-160 40,-140 C 76,-140 78,-90 52,-80 L 52,0 Z" fill={mix([214, 150, 82], [40, 28, 22])} {...st} />
+      <path d="M -36,-12 L -36,-84 C -54,-96 -52,-124 -30,-124 C -14,-140 14,-140 30,-124 C 52,-124 54,-96 36,-84 L 36,-12 Z" fill={mix([246, 214, 160], [62, 44, 34])} />
+    </g>
+  );
+};
+
+// toaster; origin = bottom centre. pop = how far the toast is up (px), burnt 0..1, toast = show it
+export const Toaster: React.FC<{ x: number; y: number; pop?: number; burnt?: number; toast?: boolean; scale?: number; color?: string }> = ({
+  x, y, pop = 0, burnt = 1, toast = true, scale = 1, color = '#ced4da',
+}) => (
+  <g transform={`translate(${x},${y}) scale(${scale})`}>
+    {toast && (
+      <g transform={`translate(-34,${-118 - pop + 120})`}>
+        <Toast burnt={burnt} />
+      </g>
+    )}
+    <rect x={-120} y={-140} width={240} height={140} rx={40} fill={color} {...st} />
+    <rect x={-74} y={-148} width={48} height={18} rx={8} fill={INK} />
+    <rect x={10} y={-148} width={48} height={18} rx={8} fill={INK} />
+    <path d="M -96,-100 C -70,-118 -30,-118 -10,-104" fill="none" stroke="#ffffff" strokeWidth={9} strokeLinecap="round" opacity={0.7} />
+    <rect x={118} y={-96} width={22} height={38} rx={6} fill="#22223b" stroke={INK} strokeWidth={5} />
+    <rect x={-100} y={-10} width={36} height={14} rx={5} fill={INK} />
+    <rect x={64} y={-10} width={36} height={14} rx={5} fill={INK} />
+  </g>
+);
+
+// a long till receipt; origin = top centre (hold it by the top)
+export const Receipt: React.FC<{ len?: number }> = ({ len = 220 }) => (
+  <g>
+    <path d={`M -38,0 L 38,0 L 38,${len} L 28,${len + 10} L 18,${len} L 8,${len + 10} L -2,${len} L -12,${len + 10} L -22,${len} L -32,${len + 10} L -38,${len} Z`} fill="#ffffff" stroke={INK} strokeWidth={5} />
+    {Array.from({ length: Math.floor(len / 26) }).map((_, i) => (
+      <line key={i} x1={-26} y1={22 + i * 26} x2={i % 3 === 2 ? 4 : 26} y2={22 + i * 26} stroke="#adb5bd" strokeWidth={6} strokeLinecap="round" />
+    ))}
+  </g>
+);
