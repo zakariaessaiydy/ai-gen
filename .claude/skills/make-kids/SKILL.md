@@ -53,15 +53,15 @@ tools/gen_song.py     FREE local song maker (see "Music")
 
 | who | role in every niche | voice (Kokoro) |
 |---|---|---|
-| **Mila** (6, yellow dress, puffs, pink bow) | the curious asker ("Why?"), sings lead | `af_bella` pitch +4, rate -6% |
-| **Leo** (6, blue stripes, ginger, freckles) | the brave/silly one who tries first and gets it WRONG — kids love correcting him | `am_puck` pitch +4, rate -6% |
+| **Mila** (6, yellow dress, puffs, pink bow) | the curious asker ("Why?"), sings lead | `af_bella` pitch +2, rate -6% |
+| **Leo** (6, blue stripes, ginger, freckles) | the brave/silly one who tries first and gets it WRONG — kids love correcting him | `am_puck` pitch +2, rate -6% |
 | **Bobo** (bear cub, red scarf) | the buddy: hungry, clumsy, funny, huge heart; the comic relief | `am_fenrir` pitch +2 formant, or `am_puck` -2 |
 | **Prof. Hoot** (owl, glasses, grad cap) | explains science, sets puzzles, never mocks a wrong answer | `bm_george` / `bm_fable`, pitch 0 |
 | **Narrator** | stories and bedtime | `af_heart` (EN) · `ff_siwis` (FR) |
 
 Voices come from the beats.json `cast` (see `kids-shorts/tiny-sparks/channel.json` for the exact
 entries). Kid voices are made by **pitch-shifting** an adult Kokoro voice (`"pitch": 4` in the
-cast entry — gen_voice uses ffmpeg rubberband, duration preserved, word times unchanged).
+cast entry — gen_voice uses ffmpeg rubberband in quality mode + de-ess/compress clean-up, duration preserved, word times unchanged). Keep shifts small (≤ +2): +4 sounded chipmunk/artificial to the user. A voice with pitch 0 is the cleanest.
 `"formant": true` keeps the adult timbre (less chipmunk). French lines: `"lang": "fr"` on the
 line + a `"kokoro_fr": "ff_siwis"` voice in the speaker's cast entry. The user picks voices by
 ear from `voice-audition.mp3`; record the choice in channel.json.

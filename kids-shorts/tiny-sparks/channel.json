@@ -3,18 +3,68 @@
   "tagline": "Learn, laugh and sing with Mila, Leo & Bobo!",
   "status": "working name — rename here + in remotion/src/lib/kids/cast/tiny-sparks.ts (CHANNEL)",
   "audience": "ages 2-7 (preschool + early primary); parents co-watch; YouTube 'Made for Kids' = YES on every upload",
-  "languages": { "primary": "en", "secondary": "fr", "note": "one primary language per channel/playlist; French as the bonus line in kids-words, or a separate FR channel later" },
+  "languages": {
+    "primary": "en",
+    "secondary": "fr",
+    "note": "one primary language per channel/playlist; French as the bonus line in kids-words, or a separate FR channel later"
+  },
   "formats": {
     "short": "9:16 1080x1920, 30-60 s, starts on the action, loops",
     "long": "16:9 1920x1080, episodes 3-6 min, compilations 20-60 min"
   },
   "cast": {
-    "mila": { "spec": "MILA", "role": "curious asker, lead singer", "voice": { "kokoro": "af_bella", "pitch": 4, "rate": "-6%", "kokoro_fr": "ff_siwis" } },
-    "leo": { "spec": "LEO", "role": "brave + silly, tries first and gets it wrong", "voice": { "kokoro": "am_puck", "pitch": 4, "rate": "-6%" } },
-    "bobo": { "spec": "BOBO (bear)", "role": "hungry clumsy buddy, comic relief, huge heart", "voice": { "kokoro": "am_fenrir", "pitch": 2, "formant": true, "rate": "-4%" } },
-    "hoot": { "spec": "HOOT (owl)", "role": "Prof. Hoot: explains science, sets puzzles, always kind", "voice": { "kokoro": "bm_george", "rate": "-6%" } },
-    "narrator": { "role": "stories, bedtime", "voice": { "kokoro": "af_heart", "rate": "-8%" } },
-    "narrator_fr": { "role": "French lines", "voice": { "kokoro": "ff_siwis", "lang": "fr", "rate": "-6%" } }
+    "mila": {
+      "spec": "MILA",
+      "role": "curious asker, lead singer",
+      "voice": {
+        "kokoro": "af_bella",
+        "pitch": 2,
+        "rate": "-6%",
+        "kokoro_fr": "ff_siwis"
+      }
+    },
+    "leo": {
+      "spec": "LEO",
+      "role": "brave + silly, tries first and gets it wrong",
+      "voice": {
+        "kokoro": "am_puck",
+        "pitch": 2,
+        "rate": "-6%"
+      }
+    },
+    "bobo": {
+      "spec": "BOBO (bear)",
+      "role": "hungry clumsy buddy, comic relief, huge heart",
+      "voice": {
+        "kokoro": "am_fenrir",
+        "pitch": 2,
+        "formant": true,
+        "rate": "-4%"
+      }
+    },
+    "hoot": {
+      "spec": "HOOT (owl)",
+      "role": "Prof. Hoot: explains science, sets puzzles, always kind",
+      "voice": {
+        "kokoro": "bm_george",
+        "rate": "-6%"
+      }
+    },
+    "narrator": {
+      "role": "stories, bedtime",
+      "voice": {
+        "kokoro": "af_heart",
+        "rate": "-8%"
+      }
+    },
+    "narrator_fr": {
+      "role": "French lines",
+      "voice": {
+        "kokoro": "ff_siwis",
+        "lang": "fr",
+        "rate": "-6%"
+      }
+    }
   },
   "voice_audition": "voice-audition.mp3 (A af_bella+4 · B af_heart+4 · C af_nova+3 = Mila candidates; D am_puck+4 · E am_echo+4 = Leo; F am_fenrir+2 formant · G am_puck-2 formant = Bobo; H af_heart · I bf_emma = narrator; J ff_siwis = French narrator; K ff_siwis+4 = French kid). Defaults above = A, D, F, H, J — change after the user listens.",
   "music": "tools/gen_song.py (songs/<slug>/song.json). Channel theme/intro sting = the chorus of songs/count-with-bobo.",
@@ -26,5 +76,6 @@
     "every number/word/fact on screen must be correct (QA it)",
     "no other channels' / brands' characters in titles or tags",
     "no CTA begging; the goodbye wave is the outro"
-  ]
+  ],
+  "voice_audition_2": "voice-audition-2.mp3 (clean chain, gentler shifts): Mila 1 af_bella+2 · 2 af_sky+1 · 3 af_nova+2 · 4 af_heart+2 | Leo 1 am_puck+2 · 2 af_nova+0 · 3 af_kore+1 · 4 am_echo+2 | Bobo 1 am_puck+0 · 2 am_echo+0 · 3 am_michael+1 · 4 am_fenrir+2 formant (current). Waiting for the user's pick."
 }

@@ -398,7 +398,11 @@ def tts_line_kokoro(voice, text, out_path, rate="+0%", pitch=0.0, lang=None, for
         w.writeframes(pcm.tobytes())
     af = []
     if pitch:
-        af = ["-af", f"rubberband=pitch={2 ** (float(pitch) / 12):.5f}" + (":formant=preserved" if formant else "")]
+        # highest-quality pitch path (fewer warbles), then a light clean-up: rumble cut, soft
+        # de-ess (pitched voices get hissy), gentle compression so lines sit evenly
+        af = ["-af", f"rubberband=pitch={2 ** (float(pitch) / 12):.5f}:pitchq=quality:transients=mixed:window=standard"
+              + (":formant=preserved" if formant else "")
+              + ",highpass=f=80,deesser=i=0.35,acompressor=threshold=0.12:ratio=2.5:attack=8:release=120:makeup=1.3"]
     run(["ffmpeg", "-y", "-v", "error", "-i", wav, *af, "-b:a", "192k", out_path])
     os.remove(wav)
     with open(out_path + ".words.json", "w", encoding="utf-8") as f:
@@ -507,7 +511,7 @@ def main():
         extra = ""
         if args.engine == "kokoro":
             pitch, lg, formant = kokoro_extras(line)
-            extra = (f"|p{pitch}" if pitch else "") + (f"|{lg}" if lg else "") + ("|fm" if formant and pitch else "")
+            extra = (f"|p{pitch}v2" if pitch else "") + (f"|{lg}" if lg else "") + ("|fm" if formant and pitch else "")
         h = hashlib.sha1(
             f"{args.engine}|{voice}|{args.model}|{rate}|{tts_text}{extra}".encode()).hexdigest()[:8]
         plan.append((i, line, start, window, tts_text,

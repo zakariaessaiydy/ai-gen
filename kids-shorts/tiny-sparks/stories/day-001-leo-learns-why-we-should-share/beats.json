@@ -15,12 +15,12 @@
   "cast": {
     "leo": {
       "kokoro": "am_puck",
-      "pitch": 4,
+      "pitch": 2,
       "rate": "-6%"
     },
     "mila": {
       "kokoro": "af_bella",
-      "pitch": 4,
+      "pitch": 2,
       "rate": "-6%",
       "kokoro_fr": "ff_siwis"
     },
@@ -79,7 +79,7 @@
       "beat": "hook",
       "speaker": "leo",
       "start": 2.19,
-      "end": 3.55,
+      "end": 3.47,
       "text": "It's mine! All mine!",
       "words": [
         {
@@ -108,7 +108,7 @@
       "beat": "want",
       "speaker": "mila",
       "start": 4.0,
-      "end": 5.11,
+      "end": 5.03,
       "text": "Can we play too?",
       "words": [
         {
@@ -137,7 +137,7 @@
       "beat": "want",
       "speaker": "bobo",
       "start": 5.41,
-      "end": 6.09,
+      "end": 6.01,
       "text": "Pleeease?",
       "words": [
         {
@@ -151,7 +151,7 @@
       "beat": "try",
       "speaker": "leo",
       "start": 6.49,
-      "end": 8.03,
+      "end": 8.04,
       "text": "No! I'll play by myself.",
       "words": [
         {
@@ -185,7 +185,7 @@
       "beat": "oops",
       "speaker": "leo",
       "start": 11.03,
-      "end": 12.69,
+      "end": 12.61,
       "text": "Hmm... playing alone is boring.",
       "words": [
         {
@@ -263,7 +263,7 @@
       "beat": "learn",
       "speaker": "mila",
       "start": 17.86,
-      "end": 20.29,
+      "end": 20.21,
       "text": "Let's share! First, ask: want to play?",
       "words": [
         {
@@ -307,7 +307,7 @@
       "beat": "learn",
       "speaker": "leo",
       "start": 20.79,
-      "end": 22.04,
+      "end": 22.05,
       "text": "Want to play with me?",
       "words": [
         {
@@ -341,7 +341,7 @@
       "beat": "learn",
       "speaker": "bobo",
       "start": 22.39,
-      "end": 23.2,
+      "end": 23.12,
       "text": "Yes! Yay!",
       "words": [
         {
@@ -384,7 +384,7 @@
       "beat": "doit",
       "speaker": "leo",
       "start": 27.01,
-      "end": 28.14,
+      "end": 28.13,
       "text": "Your turn, Bobo!",
       "words": [
         {
@@ -456,7 +456,7 @@
       "beat": "celebrate",
       "speaker": "leo",
       "start": 33.71,
-      "end": 34.95,
+      "end": 34.86,
       "text": "Sharing is more fun!",
       "words": [
         {
