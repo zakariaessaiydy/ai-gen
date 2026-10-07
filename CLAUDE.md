@@ -10,6 +10,7 @@ right skill is picked automatically from the request:
 | "vox style / documentary / explainer short" | `/make-vox` | layered paper-collage (AI images + cutouts) | `vox-shorts/vox-N-<topic>/` |
 | "cartoon / character series / new Bro episode" | `/make-toon` | 100% TSX 2D cartoon rig (LOCKED recurring cast, dialogue) | `toon-shorts/<series>/ep-NN-<slug>/` |
 | "kids video / for children / nursery / Tiny Sparks" | `/make-kids` → niche skill (`kids-stories`, `kids-numbers`, `kids-words`, `kids-animals`, `kids-science`, `kids-puzzles`, `kids-morals`, `kids-songs`) | 100% TSX kids kit (chibi `Kid` + `Critter` animals, LOCKED Tiny Sparks cast), Shorts AND 16:9 long | `kids-shorts/tiny-sparks/<niche>/ep-NN-<slug>/` |
+| "just create a video of a day", "next video", "video of the day" | `/video-of-the-day` (runs `python tools/next_video.py` for the next topic from `TINY-SPARKS-CALENDAR.xlsx`, then the niche skill, then `--done`) | — | — |
 
 All of them share the same backbone: a `beats.json` contract, ElevenLabs voice with word-exact
 captions (`gen_voice.py`), frame-by-frame QA at phone scale, library-first SFX (`/suggest-sfx`),
@@ -33,6 +34,7 @@ ai-shorts/        generative shorts: + character.json (LOCKED reference), shot s
 vox-shorts/       collage shorts: + DESIGN.md (the visual language — read before any vox work)
 toon-shorts/      cartoon series: <series>/series.json (bible) + character.png + IDEAS.md + ep-NN-*/
 kids-shorts/      kids channel: tiny-sparks/channel.json (bible) + character.png + songs/ + <niche>/ep-NN-*/
+TINY-SPARKS-CALENDAR.xlsx  the kids channel's 800-video calendar + tracker — NEVER read it directly; use tools/next_video.py
 brand.md          the style contract every skill reads (palette, motion, safe areas, SFX taste)
 IDEAS.md          the TSX-shorts idea bank + niche ranking
 .claude/skills/   make-short, make-ai-short, make-vox, make-toon, make-kids (+ 8 kids-* niches),

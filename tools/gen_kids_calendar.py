@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""gen_kids_calendar.py — build publishing/tiny-sparks-calendar.xlsx from publishing/ideas/<niche>.txt
+"""gen_kids_calendar.py — build TINY-SPARKS-CALENDAR.xlsx from publishing/ideas/<niche>.txt
 (100 ideas per niche, one per line). Rotation, titles, ages, formats, rig checks: see below.
-Re-run after editing the idea lists:  python tools/gen_kids_calendar.py   (needs openpyxl)
+Re-run after editing the idea lists:  python tools/gen_kids_calendar.py --force   (needs openpyxl)
 WARNING: re-running overwrites statuses/stats typed into the xlsx — export them first."""
-import datetime as dt, os, re
+import datetime as dt, os, re, sys
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.worksheet.datavalidation import DataValidation
@@ -266,5 +266,7 @@ for i, (a, b) in enumerate(rows, start=3):
 
 for sh in (s, g): sh.sheet_view.showGridLines = False
 wb.calculation.fullCalcOnLoad = True
-out = '/home/user/ai-gen/publishing/tiny-sparks-calendar.xlsx'
+out = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'TINY-SPARKS-CALENDAR.xlsx')
+if os.path.exists(out) and '--force' not in sys.argv:
+    sys.exit(f'{out} exists — re-generating would erase statuses/stats. Pass --force to overwrite.')
 wb.save(out); print('saved', out, LAST)
