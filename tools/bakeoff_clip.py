@@ -56,6 +56,7 @@ import urllib.parse
 import urllib.request
 
 from ffmpeg_path import ensure_on_path
+from common import download, get_arg, load_env, parse_val
 
 ensure_on_path()
 
@@ -127,30 +128,6 @@ PRINT_LOCK = threading.Lock()
 def say(msg):
     with PRINT_LOCK:
         print(msg, flush=True)
-
-
-def load_env():
-    env = {}
-    p = os.path.join(ROOT, ".env")
-    if os.path.exists(p):
-        for line in open(p, encoding="utf-8"):
-            line = line.strip()
-            if not line or line.startswith("#") or "=" not in line:
-                continue
-            k, v = line.split("=", 1)
-            env[k.strip()] = v.strip().strip('"').strip("'")
-    return {**env, **os.environ}
-
-
-def get_arg(args, name, default=None):
-    return args[args.index(name) + 1] if name in args else default
-
-
-def parse_val(v):
-    try:
-        return json.loads(v)
-    except (ValueError, json.JSONDecodeError):
-        return v
 
 
 def show(p):
@@ -231,7 +208,7 @@ def run_model(mkey, spec, payload, out_file, key, timeout, result):
         url = find_video_url(resp)
         if not url:
             raise RuntimeError("no video url in response: " + json.dumps(resp)[:300])
-        urllib.request.urlretrieve(url, out_file)
+        download(url, out_file)
         result.update(ok=True, file=out_file, request_id=rid, source_url=url,
                       elapsed=round(time.time() - t0, 1))
         say(f"  [{mkey}] done -> {show(out_file)}  ({os.path.getsize(out_file)//1024}KB, "

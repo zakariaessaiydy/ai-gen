@@ -18,11 +18,12 @@ Then: write the real script + VO into beats.json, build the canvas in the .tsx, 
   python tools/build_short.py shorts/short-N-salt
 """
 import argparse
-import json
 import os
 import re
 import subprocess
 import sys
+
+from common import write_json
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WPS = 2.7  # words/sec the voice actually lands at — the windows below are sized from it
@@ -260,10 +261,14 @@ def main():
     ap.add_argument("--index", type=int, help="force the short number (default: next free)")
     args = ap.parse_args()
 
-    n = args.index or next_index()
+    n = args.index if args.index is not None else next_index()
     niche = args.niche.lower()
     comp = f"Short{n}{pascal(niche)}"
     total = round(args.duration, 2)
+    # the skeleton needs the reveal to start after setup (13s) / the quiz (15.6s): twist = total - 10.5
+    min_total = (15.6 if not args.no_quiz else 13.0) + 10.5 + 1.0
+    if total < min_total:
+        sys.exit(f"--duration {total}s is too short for the beat skeleton (min ~{min_total:.0f}s)")
     proj = os.path.join(ROOT, "shorts", f"short-{n}-{niche}")
     shot = os.path.join(ROOT, "remotion", "src", "shots", f"short-{n}")
     if os.path.exists(proj):
@@ -274,7 +279,7 @@ def main():
     beats = beat_plan(total, quiz=not args.no_quiz)
     vo = vo_plan(beats)
 
-    json.dump({
+    write_json(os.path.join(proj, "beats.json"), {
         "id": f"short-{n}-{niche}",
         "title": args.title,
         "composition": comp,
@@ -284,7 +289,7 @@ def main():
         "vo": vo,
         "beats": beats,
         "facts": ["TODO every on-screen number, with its source"],
-    }, open(os.path.join(proj, "beats.json"), "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    }, indent=2)
 
     rows = "\n".join(
         f"| {b['start']:.1f}–{b['end']:.1f} | {b['id'].upper()} — TODO | TODO |" for b in beats)

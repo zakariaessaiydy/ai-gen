@@ -39,12 +39,14 @@ import json
 import os
 import subprocess
 import sys
+import threading
 import time
 import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 from ffmpeg_path import ensure_on_path
+from common import load_env, write_json
 
 ensure_on_path()
 
@@ -53,19 +55,6 @@ DEFAULT_VOICE = "TX3LPaxmHKxFdv7VOQHJ"  # ElevenLabs premade "Liam"
 DEFAULT_MODEL = "eleven_multilingual_v2"
 EDGE_VOICE = "en-US-AndrewMultilingualNeural"  # free engine's Liam-alike (warm male)
 MAX_ATEMPO = 1.3  # never speed a line up more than 30%
-
-
-def load_env():
-    env = {}
-    p = os.path.join(ROOT, ".env")
-    if os.path.exists(p):
-        for line in open(p, encoding="utf-8"):
-            line = line.strip()
-            if not line or line.startswith("#") or "=" not in line:
-                continue
-            k, v = line.split("=", 1)
-            env[k.strip()] = v.strip().strip('"').strip("'")
-    return {**env, **os.environ}
 
 
 def run(cmd):
@@ -261,7 +250,8 @@ def tts_line_edge(voice, text, out_path, rate="+0%"):
 KOKORO_DIR = os.path.join(ROOT, "tools", "kokoro")
 KOKORO_VOICE = "am_michael"
 _kokoro = None
-_kokoro_lock = None
+_kokoro_lock = threading.Lock()  # one ONNX session, shared by the --jobs pool
+_kokoro_init_lock = threading.Lock()  # pool threads must not each build their own session
 
 
 def kokoro_full():
@@ -270,11 +260,12 @@ def kokoro_full():
 
 
 def _kokoro_engine():
-    global _kokoro, _kokoro_lock
-    import threading
-    if _kokoro_lock is None:
-        _kokoro_lock = threading.Lock()
-    if _kokoro is None:
+    global _kokoro
+    if _kokoro is not None:
+        return _kokoro
+    with _kokoro_init_lock:
+        if _kokoro is not None:
+            return _kokoro
         full = os.path.join(KOKORO_DIR, "kokoro-v1.0.onnx")  # fp32 (setup_kokoro.py --full): cleaner
         model = full if os.path.exists(full) else os.path.join(KOKORO_DIR, "kokoro-v1.0.q8.onnx")
         voices = os.path.join(KOKORO_DIR, "voices-v1.0.npz")
@@ -647,6 +638,8 @@ def main():
         tempo = 1.0
         if dur > window:
             tempo = min(MAX_ATEMPO, dur / window)
+        # the fit depends on the window too (via tempo): name it so a moved line re-fits
+        fit = fit[:-len("-fit.wav")] + f"-fit-t{tempo:.3f}.wav"
         if args.force or not os.path.exists(fit):
             run(["ffmpeg", "-y", "-v", "error", "-i", raw,
                  "-filter:a", f"atempo={tempo:.4f}", "-ar", "44100", "-ac", "2", fit])
@@ -676,7 +669,7 @@ def main():
     print(f"voice track -> {os.path.relpath(voice_wav, ROOT)}")
 
     beats["voiceStatus"] = f"{args.engine}:{'cast' if cast else args.voice}"
-    json.dump(beats, open(beats_path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    write_json(beats_path, beats, indent=2)
     print(f"actual line timings + word maps written back -> {os.path.relpath(beats_path, ROOT)}")
 
     if args.emit_ts:

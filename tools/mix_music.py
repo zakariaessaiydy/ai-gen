@@ -1,24 +1,23 @@
 #!/usr/bin/env python3
 """
-mix_music.py — audition mixer for the MUSIC pass (step 4 of the AI Video Editor).
+mix_music.py — audition mixer for the MUSIC pass (the last step of build_short.py).
 
 Lays a continuous instrumental BED (from media/library/music/) under a base video and ducks it
 HARD under the voice, so the music is felt-not-heard: quiet under speech, breathing up in
 the gaps (intro/outro/pauses). Video is copied through untouched. This is the AUDITION mixer
-— pick the bed + level with the user here; final polished mix / loudness normalization is
-/assemble's job later.
+— pick the bed + level with the user here.
 
 The bed is looped/trimmed to the base length, gained to sit under the voice, high-passed a
 touch so it never muddies speech, sidechain-ducked keyed by the base audio (voice + any SFX),
 faded in/out, and summed with a safety limiter.
 
 Usage:
-  # one bed over the SFX'd first-60s -> a new file
-  python tools/mix_music.py --bed ambient-pad --base video-1/output/video-1-first60-sfx.mp4 \
-      --out video-1/output/video-1-first60-ambient-pad.mp4
+  # one bed over the SFX'd render -> a new file
+  python tools/mix_music.py --bed ambient-pad --base shorts/short-N-x/output/short-N-sfx.mp4 \
+      --out shorts/short-N-x/output/short-N-ambient-pad.mp4
 
   # compare every library bed at once (one out file per bed, <base-stem>-<bed>.mp4)
-  python tools/mix_music.py --all --base video-1/output/video-1-first60-sfx.mp4
+  python tools/mix_music.py --all --base shorts/short-N-x/output/short-N-sfx.mp4
 
   # a bed FILE instead of a library id (e.g. a kids-channel song bed from tools/gen_song.py)
   python tools/mix_music.py --bed kids-shorts/tiny-sparks/songs/count-with-bobo/bed.mp3 --base <video>.mp4
@@ -71,7 +70,10 @@ def probe_duration(path):
 
 def flag(args, name, default=None, cast=str):
     if name in args:
-        return cast(args[args.index(name) + 1])
+        i = args.index(name) + 1
+        if i >= len(args):
+            sys.exit(f"{name} needs a value")
+        return cast(args[i])
     return default
 
 
@@ -116,7 +118,9 @@ def mix_one(base, bed_file, out, bed_gain, duck, fade, end):
 
 def main():
     args = sys.argv[1:]
-    base = rp(flag(args, "--base", "video-1/output/video-1-first60-sfx.mp4"))
+    if flag(args, "--base", None) is None:
+        sys.exit(__doc__)
+    base = rp(flag(args, "--base", None))
     bed_gain = flag(args, "--bed-gain", -7.0, float)
     duck = flag(args, "--duck", 9.0, float)
     fade = flag(args, "--fade", 1.5, float)

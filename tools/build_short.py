@@ -82,7 +82,9 @@ def parse_voice_plan(beats, args):
         m = re.match(r"\s*(elevenlabs|edge|kokoro|azure)\b(?:\s*:\s*([^\s]+))?", plan)
         if m:
             engine = engine or m.group(1)
-            voice = voice or m.group(2)
+            # voiceStatus records a cast episode as "kokoro:cast" — that is not a voice name
+            if m.group(2) != "cast":
+                voice = voice or m.group(2)
     if not rate:
         m = re.search(r"--rate\s+(\S+)", plan)
         rate = m.group(1) if m else None
@@ -167,7 +169,7 @@ def main():
     # the render, and a duration mismatch is a re-render. Both are a one-second check.
     if not args.no_check:
         print("\npreflight:")
-        r = subprocess.run(["python", os.path.join(ROOT, "tools", "check_short.py"), proj], cwd=ROOT)
+        r = subprocess.run([sys.executable, os.path.join(ROOT, "tools", "check_short.py"), proj], cwd=ROOT)
         if r.returncode != 0:
             sys.exit("preflight found errors — fix them (or pass --no-check) before building")
 
@@ -179,7 +181,7 @@ def main():
     if stage("voice"):
         t = time.time()
         engine, voice, rate = parse_voice_plan(beats, args)
-        cmd = ["python", os.path.join(ROOT, "tools", "gen_voice.py"),
+        cmd = [sys.executable, os.path.join(ROOT, "tools", "gen_voice.py"),
                "--beats", beats_path, "--engine", engine, "--jobs", str(args.jobs),
                "--emit-ts", os.path.join(shot_dir, "vo.gen.ts")]
         if voice:
@@ -227,7 +229,7 @@ def main():
         else:
             t = time.time()
             env = dict(os.environ, PYTHONIOENCODING="utf-8")
-            subprocess.run(["python", os.path.join(ROOT, "tools", "mix_sfx.py"), plan],
+            subprocess.run([sys.executable, os.path.join(ROOT, "tools", "mix_sfx.py"), plan],
                            cwd=ROOT, env=env, check=True)
             timings.append(("sfx", time.time() - t))
 
@@ -235,7 +237,7 @@ def main():
         t = time.time()
         base = os.path.join(proj, "output", f"{beats.get('id', comp_id)}-sfx.mp4")
         base = base if os.path.exists(base) else voiced
-        cmd = ["python", os.path.join(ROOT, "tools", "mix_music.py"), "--base", base]
+        cmd = [sys.executable, os.path.join(ROOT, "tools", "mix_music.py"), "--base", base]
         cmd += ["--all"] if args.music == "all" else ["--bed", args.music]
         sh(cmd, cwd=ROOT)
         timings.append(("music", time.time() - t))
