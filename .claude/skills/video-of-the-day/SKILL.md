@@ -20,7 +20,9 @@ list the idea files. All calendar I/O goes through `tools/next_video.py` (prints
    Short version first and say so.
 4. Deliver: send the mp4 to the user (SendUserFile), then
    `python tools/next_video.py --done <day> --file <path to the mp4>` → prints `N/800 made`.
-5. Commit + push (the xlsx changes with the status). Report in 4 lines: Day N + topic, the title,
+5. Write the upload kit into the project's script.md (## Upload): title, description with `#Shorts`
+   first among 3–8 hashtags, and the two playlists (the niche playlist + "Tiny Sparks Shorts — All
+   Episodes"), Made for Kids = Yes. Then commit + push (the xlsx changes with the status). Report in 4 lines: Day N + topic, the title,
    the file, and what's next (`python tools/next_video.py --peek 1`).
 
 Other commands (each one call, no file reading):
