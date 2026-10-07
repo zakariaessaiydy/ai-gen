@@ -104,6 +104,30 @@
   "transparent": false
  },
  {
+  "id": "KidsKitDemo",
+  "durationInSeconds": 12,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsModelSheet",
+  "durationInSeconds": 2,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsStyleBoard",
+  "durationInSeconds": 2,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "Short1Chess",
   "durationInSeconds": 42,
   "fps": 30,

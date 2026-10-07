@@ -1,6 +1,6 @@
 # CLAUDE.md — claude-faceless-shorts-creator
 
-A **faceless-shorts factory** driven by Claude Code. Four production tracks, one repo — the
+A **faceless-shorts factory** driven by Claude Code. Five production tracks, one repo — the
 right skill is picked automatically from the request:
 
 | The user asks for… | Skill | Pixels come from | Projects live in |
@@ -9,8 +9,9 @@ right skill is picked automatically from the request:
 | "make an AI video short", "blue-man video" | `/make-ai-short` | a fal video model (locked recurring character) | `ai-shorts/<series>/` |
 | "vox style / documentary / explainer short" | `/make-vox` | layered paper-collage (AI images + cutouts) | `vox-shorts/vox-N-<topic>/` |
 | "cartoon / character series / new Bro episode" | `/make-toon` | 100% TSX 2D cartoon rig (LOCKED recurring cast, dialogue) | `toon-shorts/<series>/ep-NN-<slug>/` |
+| "kids video / for children / nursery / Tiny Sparks" | `/make-kids` → niche skill (`kids-stories`, `kids-numbers`, `kids-words`, `kids-animals`, `kids-science`, `kids-puzzles`, `kids-morals`, `kids-songs`) | 100% TSX kids kit (chibi `Kid` + `Critter` animals, LOCKED Tiny Sparks cast), Shorts AND 16:9 long | `kids-shorts/tiny-sparks/<niche>/ep-NN-<slug>/` |
 
-All four share the same backbone: a `beats.json` contract, ElevenLabs voice with word-exact
+All of them share the same backbone: a `beats.json` contract, ElevenLabs voice with word-exact
 captions (`gen_voice.py`), frame-by-frame QA at phone scale, library-first SFX (`/suggest-sfx`),
 optional music bed, seamless frame-0==last-frame loops, no CTA outros. TSX crash rules live in
 `/vidtsx-2d-generator`.
@@ -21,7 +22,8 @@ optional music bed, seamless frame-0==last-frame loops, no CTA outros. TSX crash
 tools/            Python tools. Pipeline drivers: new_short (scaffold), check_short (preflight),
                   build_short (voice→render→mux→sfx→music in one command).
                   Media: gen_voice (+ setup_kokoro), gen_sfx, gen_music, mix_sfx, mix_music, gen_chords,
-                  gen_image, gen_clip, bakeoff_clip, cutout, capture_web, ffmpeg_path
+                  gen_image, gen_clip, bakeoff_clip, cutout, capture_web, ffmpeg_path,
+                  gen_song (FREE local kids songs: synth instruments + Kokoro chant/toy-singer vocal)
 remotion/         the Remotion project — src/lib/ (shared + niche kits incl. collage.tsx),
                   src/shots/{short-N, ai-N, vox-N}/
 media/            Remotion's public root: library/ (reusable: sfx, music, logos)
@@ -30,9 +32,11 @@ shorts/           TSX shorts: script.md, beats.json, sfx-plan.json each
 ai-shorts/        generative shorts: + character.json (LOCKED reference), shot sidecars, IDEAS.md
 vox-shorts/       collage shorts: + DESIGN.md (the visual language — read before any vox work)
 toon-shorts/      cartoon series: <series>/series.json (bible) + character.png + IDEAS.md + ep-NN-*/
+kids-shorts/      kids channel: tiny-sparks/channel.json (bible) + character.png + songs/ + <niche>/ep-NN-*/
 brand.md          the style contract every skill reads (palette, motion, safe areas, SFX taste)
 IDEAS.md          the TSX-shorts idea bank + niche ranking
-.claude/skills/   make-short, make-ai-short, make-vox, make-toon, vidtsx-2d-generator, suggest-sfx
+.claude/skills/   make-short, make-ai-short, make-vox, make-toon, make-kids (+ 8 kids-* niches),
+                  vidtsx-2d-generator, suggest-sfx
 ```
 
 ## Conventions (hard rules)

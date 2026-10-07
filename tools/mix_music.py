@@ -20,6 +20,9 @@ Usage:
   # compare every library bed at once (one out file per bed, <base-stem>-<bed>.mp4)
   python tools/mix_music.py --all --base video-1/output/video-1-first60-sfx.mp4
 
+  # a bed FILE instead of a library id (e.g. a kids-channel song bed from tools/gen_song.py)
+  python tools/mix_music.py --bed kids-shorts/tiny-sparks/songs/count-with-bobo/bed.mp3 --base <video>.mp4
+
   --bed-gain -7      base bed level in dB (default -7; more negative = quieter)
   --duck 9           extra dB the bed drops under the voice (default 9)
   --fade 1.5         fade in/out seconds (default 1.5)
@@ -143,6 +146,14 @@ def main():
     results = []
     for bid in targets:
         clip = beds.get(bid)
+        if not clip and os.path.splitext(bid)[1].lower() in (".mp3", ".wav", ".m4a") and os.path.exists(rp(bid)):
+            # a bed FILE (e.g. a channel song's bed.mp3 from tools/gen_song.py) instead of a library id
+            out = rp(out_override) if out_override else os.path.join(os.path.dirname(base), f"{stem}-music.mp4")
+            if "--print" in args:
+                print(f"  {bid} -> {show(out)}")
+                continue
+            results.append(mix_one(base, rp(bid), out, bed_gain, duck, fade, end))
+            continue
         if not clip:
             print(f"  SKIP {bid}: not in catalog (run tools/gen_music.py)")
             continue

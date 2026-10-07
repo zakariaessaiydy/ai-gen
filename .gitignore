@@ -30,3 +30,9 @@ tools/kokoro/
 
 # local editor config
 .vscode/
+
+# kids channel (regenerable: voices, renders, song stems)
+kids-shorts/*/*/*/voice/
+kids-shorts/*/*/*/output/
+kids-shorts/*/songs/*/voice/
+kids-shorts/*/songs/*/*.wav

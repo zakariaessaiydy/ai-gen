@@ -358,19 +358,33 @@ def derive_word_times(text, runs, weight):
     return out
 
 
-def tts_line_kokoro(voice, text, out_path, rate="+0%"):
+KOKORO_LANGS = {"a": "en-us", "b": "en-gb", "f": "fr-fr", "e": "es", "i": "it", "p": "pt-br", "h": "hi", "j": "ja", "z": "cmn"}
+
+
+def kokoro_lang(voice, lang=None):
+    """Phonemizer language for a line: explicit `lang`, else the voice's prefix (ff_ = French)."""
+    if lang:
+        return {"fr": "fr-fr", "en": "en-us", "es": "es", "it": "it", "pt": "pt-br"}.get(lang, lang)
+    return KOKORO_LANGS.get((voice.split(":")[0].split("+")[0] or "a")[0], "en-us")
+
+
+def tts_line_kokoro(voice, text, out_path, rate="+0%", pitch=0.0, lang=None, formant=False):
     """FREE LOCAL engine. Same contract as tts_line(): writes the audio AND
-    <out_path>.words.json (word times derived from the audio's own pauses — see above)."""
+    <out_path>.words.json (word times derived from the audio's own pauses — see above).
+    pitch = semitones (e.g. +4 turns an adult voice into a kid/cartoon voice; rubberband keeps
+    the duration, so word times are unchanged). formant=True keeps the adult timbre (less
+    chipmunk). lang = phonemizer language (default from the voice prefix; 'fr' for French)."""
     import tempfile
     import wave
     import numpy as np
     k = _kokoro_engine()
     spoken = strip_tags(text)
     with _kokoro_lock:  # one ONNX session; lines queue rather than fight over the CPU
-        audio, sr = k.create(spoken, voice=kokoro_voice(k, voice), speed=rate_to_speed(rate), lang="en-us")
+        lg = kokoro_lang(voice, lang)
+        audio, sr = k.create(spoken, voice=kokoro_voice(k, voice), speed=rate_to_speed(rate), lang=lg)
 
         def weight(w):
-            ph = k.tokenizer.phonemize("".join(c for c in w if c.isalnum() or c == "'"), "en-us")
+            ph = k.tokenizer.phonemize("".join(c for c in w if c.isalnum() or c == "'"), lg)
             return len([c for c in ph if c.isalpha() or c in "ɑɐɒæɔəɘɚɛɜɝɞɤɨɪʉʊʌʏŋðθʃʒ"])
 
         words = derive_word_times(spoken, voiced_runs(audio, sr), weight)
@@ -382,7 +396,10 @@ def tts_line_kokoro(voice, text, out_path, rate="+0%"):
         w.setsampwidth(2)
         w.setframerate(sr)
         w.writeframes(pcm.tobytes())
-    run(["ffmpeg", "-y", "-v", "error", "-i", wav, "-b:a", "192k", out_path])
+    af = []
+    if pitch:
+        af = ["-af", f"rubberband=pitch={2 ** (float(pitch) / 12):.5f}" + (":formant=preserved" if formant else "")]
+    run(["ffmpeg", "-y", "-v", "error", "-i", wav, *af, "-b:a", "192k", out_path])
     os.remove(wav)
     with open(out_path + ".words.json", "w", encoding="utf-8") as f:
         json.dump(words, f, ensure_ascii=False)
@@ -468,9 +485,17 @@ def main():
     cast = beats.get("cast", {})
 
     def voice_of(line):
-        """(voice, rate) for a line: its speaker's cast entry for this engine, else the defaults."""
+        """(voice, rate) for a line: its speaker's cast entry for this engine, else the defaults.
+        A line with "lang": "fr" uses the speaker's "<engine>_fr" voice when the cast has one."""
         c = cast.get(line.get("speaker") or "", {})
-        return c.get(args.engine) or args.voice, c.get("rate", args.rate)
+        lg = line.get("lang")
+        v = (lg and c.get(f"{args.engine}_{lg}")) or c.get(args.engine) or args.voice
+        return v, c.get("rate", args.rate)
+
+    def kokoro_extras(line):
+        """(pitch semitones, lang, formant) — kokoro-only cast/line options for kid voices + French."""
+        c = cast.get(line.get("speaker") or "", {})
+        return float(c.get("pitch", 0) or 0), line.get("lang") or c.get("lang"), bool(c.get("formant", False))
 
     plan = []  # (i, line, start, window, tts_text, raw, fit)
     for i, line in enumerate(vo):
@@ -479,8 +504,12 @@ def main():
         window = next_start - start - 0.05
         tts_text = line.get("tts", line["text"])  # optional tagged/phonetic variant for TTS
         voice, rate = voice_of(line)
+        extra = ""
+        if args.engine == "kokoro":
+            pitch, lg, formant = kokoro_extras(line)
+            extra = (f"|p{pitch}" if pitch else "") + (f"|{lg}" if lg else "") + ("|fm" if formant and pitch else "")
         h = hashlib.sha1(
-            f"{args.engine}|{voice}|{args.model}|{rate}|{tts_text}".encode()).hexdigest()[:8]
+            f"{args.engine}|{voice}|{args.model}|{rate}|{tts_text}{extra}".encode()).hexdigest()[:8]
         plan.append((i, line, start, window, tts_text,
                      os.path.join(vdir, f"line-{i:02d}-{h}.mp3"),
                      os.path.join(vdir, f"line-{i:02d}-{h}-fit.wav")))
@@ -500,7 +529,8 @@ def main():
             if args.engine == "edge":
                 tts_line_edge(voice, tts_text, raw, rate)
             elif args.engine == "kokoro":
-                tts_line_kokoro(voice, tts_text, raw, rate)
+                pitch, lg, formant = kokoro_extras(line)
+                tts_line_kokoro(voice, tts_text, raw, rate, pitch, lg, formant)
             else:
                 # neighbour context steers prosody — only stitch lines from the SAME speaker,
                 # another character's line would bleed their delivery into this one
