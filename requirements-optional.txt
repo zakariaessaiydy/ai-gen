@@ -1,0 +1,22 @@
+# The core pipeline (new_short, check_short, build_short, gen_voice with ElevenLabs, gen_sfx,
+# gen_music, mix_sfx, mix_music, gen_clip) is stdlib-only. Install only the extras you use:
+#
+#   pip install -r requirements-optional.txt      # everything
+#
+# ffmpeg/ffprobe (with the rubberband filter for sung vocals) and node/npx must be on PATH.
+
+# Free local TTS: gen_voice --engine kokoro, gen_song vocals (then: python tools/setup_kokoro.py)
+kokoro-onnx
+numpy
+
+# Free online TTS: gen_voice --engine edge
+edge-tts
+
+# Kids calendar: tools/next_video.py, tools/gen_kids_calendar.py
+openpyxl
+
+# Vox collage layers: gen_image.py, cutout.py, capture_web.py (then: playwright install chromium)
+google-genai
+pillow
+rembg
+playwright
