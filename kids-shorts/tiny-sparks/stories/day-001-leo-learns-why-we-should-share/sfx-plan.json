@@ -17,35 +17,35 @@
       "cue": "new ball shine"
     },
     {
-      "at_s": 8.4,
+      "at_s": 8.61,
       "sfx_id": "knock-solid",
       "gain_db": -20,
       "shot": "KidsStories001",
       "cue": "bounce 1"
     },
     {
-      "at_s": 8.85,
+      "at_s": 9.06,
       "sfx_id": "knock-solid",
       "gain_db": -20,
       "shot": "KidsStories001",
       "cue": "bounce 2"
     },
     {
-      "at_s": 9.3,
+      "at_s": 9.51,
       "sfx_id": "knock-solid",
       "gain_db": -20,
       "shot": "KidsStories001",
       "cue": "bounce 3"
     },
     {
-      "at_s": 9.58,
+      "at_s": 9.79,
       "sfx_id": "whoosh-soft",
       "gain_db": -18,
       "shot": "KidsStories001",
       "cue": "ball rolls away"
     },
     {
-      "at_s": 15.81,
+      "at_s": 15.83,
       "sfx_id": "clock-tick-soft",
       "gain_db": -18,
       "shot": "KidsStories001",
@@ -73,14 +73,14 @@
       "cue": "3 PLAY TOGETHER"
     },
     {
-      "at_s": 25.11,
+      "at_s": 25.41,
       "sfx_id": "whoosh-soft",
       "gain_db": -20,
       "shot": "KidsStories001",
       "cue": "ball pass"
     },
     {
-      "at_s": 25.96,
+      "at_s": 26.26,
       "sfx_id": "whoosh-soft",
       "gain_db": -20,
       "shot": "KidsStories001",

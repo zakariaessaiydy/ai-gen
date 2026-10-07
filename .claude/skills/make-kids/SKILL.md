@@ -53,12 +53,13 @@ tools/gen_song.py     FREE local song maker (see "Music")
 
 | who | role in every niche | voice (Kokoro) |
 |---|---|---|
-| **Mila** (6, yellow dress, puffs, pink bow) | the curious asker ("Why?"), sings lead | `af_bella` pitch +2, rate -6% |
-| **Leo** (6, blue stripes, ginger, freckles) | the brave/silly one who tries first and gets it WRONG — kids love correcting him | `am_puck` pitch +2, rate -6% |
-| **Bobo** (bear cub, red scarf) | the buddy: hungry, clumsy, funny, huge heart; the comic relief | `am_fenrir` pitch +2 formant, or `am_puck` -2 |
+| **Mila** (6, yellow dress, puffs, pink bow) | the curious asker ("Why?"), sings lead | `af_sky`, rate -4% |
+| **Leo** (6, blue stripes, ginger, freckles) | the brave/silly one who tries first and gets it WRONG — kids love correcting him | blend `am_puck:0.5+af_nova:0.5`, rate -2% |
+| **Bobo** (bear cub, red scarf) | the buddy: hungry, clumsy, funny, huge heart; the comic relief | blend `am_fenrir:0.5+am_puck:0.5`, rate -4% |
 | **Prof. Hoot** (owl, glasses, grad cap) | explains science, sets puzzles, never mocks a wrong answer | `bm_george` / `bm_fable`, pitch 0 |
 | **Narrator** | stories and bedtime | `af_heart` (EN) · `ff_siwis` (FR) |
 
+**Voices are LOCKED (user's pick from voice-audition-3): full-precision Kokoro (`python tools/setup_kokoro.py --full`), pitch 0, kid voices via voice BLENDS — never pitch-shift (it sounded unclean to the user).** Copy the cast entries verbatim from channel.json.
 Voices come from the beats.json `cast` (see `kids-shorts/tiny-sparks/channel.json` for the exact
 entries). Kid voices are made by **pitch-shifting** an adult Kokoro voice (`"pitch": 4` in the
 cast entry — gen_voice uses ffmpeg rubberband in quality mode + de-ess/compress clean-up, duration preserved, word times unchanged). Keep shifts small (≤ +2): +4 sounded chipmunk/artificial to the user. A voice with pitch 0 is the cleanest.
