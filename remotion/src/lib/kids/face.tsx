@@ -50,6 +50,10 @@ const Mouth: React.FC<{ expr: KExpr; open: number; y: number; w: number; tongue?
     if (expr === 'sleepy') return <ellipse cx={0} cy={y + 4} rx={10} ry={7} fill="#7a2d4a" {...kst(6)} />;
     return <path d={`M ${-w * 0.55},${y - 4} Q 0,${y + 30} ${w * 0.55},${y - 4}`} fill="none" {...kst(8)} />;
   }
+  // worried / sad talking: a small round mouth, never a happy D
+  if (expr === 'sad' || expr === 'oops' || expr === 'sleepy') {
+    return <ellipse cx={0} cy={y + 8} rx={w * 0.22 + o * 6} ry={8 + o * 16} fill="#7a2d4a" {...kst(6)} />;
+  }
   // open smile: D shape whose depth follows the voice
   const d = (big ? 46 : 18) + o * 34;
   const ww = big ? w * 0.75 : w * 0.55;

@@ -312,3 +312,18 @@ export const Balloon: React.FC<{ c?: string }> = ({ c = '#4cc9f0' }) => (
     <ellipse cx={-22} cy={-26} rx={12} ry={20} fill="#ffffff" opacity={0.5} />
   </g>
 );
+
+// beach ball (origin = centre, r = radius); rot spins it (pass a growing angle when it rolls)
+export const Ball: React.FC<{ r?: number; rot?: number; colors?: string[] }> = ({ r = 70, rot = 0, colors = ['#ff595e', '#ffca3a', '#1982c4', '#8ac926'] }) => (
+  <g transform={`rotate(${rot})`}>
+    <circle r={r} fill="#ffffff" {...kst(7)} />
+    {colors.map((c, i) => {
+      const a0 = (i / colors.length) * Math.PI * 2;
+      const a1 = a0 + Math.PI / colors.length;
+      return <path key={i} d={`M 0,0 L ${Math.cos(a0) * r},${Math.sin(a0) * r} A ${r},${r} 0 0,1 ${Math.cos(a1) * r},${Math.sin(a1) * r} Z`} fill={c} />;
+    })}
+    <circle r={r} fill="none" {...kst(7)} />
+    <circle r={r * 0.18} fill="#ffffff" {...kst(5)} />
+    <ellipse cx={-r * 0.35} cy={-r * 0.4} rx={r * 0.18} ry={r * 0.1} fill="#ffffff" opacity={0.7} transform={`rotate(${-rot})`} />
+  </g>
+);
