@@ -104,6 +104,14 @@
   "transparent": false
  },
  {
+  "id": "KidsNumbers002",
+  "durationInSeconds": 47.2,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "KidsChannelBanner",
   "durationInSeconds": 1,
   "fps": 30,
