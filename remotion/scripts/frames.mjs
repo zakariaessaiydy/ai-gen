@@ -20,6 +20,7 @@ import { fileURLToPath } from 'url';
 import path from 'path';
 import { getServeUrl, REMOTION_ROOT as root } from './lib/bundle-cache.mjs';
 import { findFfmpeg } from './lib/ffmpeg.mjs';
+import { generate } from './gen-registry.mjs';
 
 const args = process.argv.slice(2);
 const flag = (name, dflt) => {
@@ -41,21 +42,46 @@ if (!id) {
 }
 
 // ── which frames? ────────────────────────────────────────────────────────────
-/** Find a short's beats.json by composition id, e.g. Short14Seed -> shorts/short-14-seed/beats.json */
+/**
+ * Find a project's beats.json by composition id, in every track — e.g. Short14Seed ->
+ * shorts/short-14-seed/, Bro03Gym -> toon-shorts/bro/ep-03-gym/, KidsStories001 ->
+ * kids-shorts/tiny-sparks/stories/day-001-…/ (projects nest up to 4 levels deep).
+ */
 function findBeats(compId) {
   const repo = path.join(root, '..');
-  for (const dir of ['shorts', 'ai-shorts', 'vox-shorts']) {
-    const base = path.join(repo, dir);
-    if (!existsSync(base)) continue;
-    for (const proj of readdirSync(base)) {
-      const p = path.join(base, proj, 'beats.json');
-      if (!existsSync(p)) continue;
+  const visit = (dir, depth) => {
+    const p = path.join(dir, 'beats.json');
+    if (existsSync(p)) {
       try {
         if (JSON.parse(readFileSync(p, 'utf8')).composition === compId) return p;
       } catch { /* not ours */ }
     }
+    if (depth === 0) return null;
+    for (const e of readdirSync(dir, { withFileTypes: true })) {
+      if (!e.isDirectory() || ['voice', 'output', 'shots', 'node_modules'].includes(e.name)) continue;
+      const hit = visit(path.join(dir, e.name), depth - 1);
+      if (hit) return hit;
+    }
+    return null;
+  };
+  for (const dir of ['shorts', 'ai-shorts', 'vox-shorts', 'toon-shorts', 'kids-shorts']) {
+    const base = path.join(repo, dir);
+    if (!existsSync(base)) continue;
+    const hit = visit(base, 4);
+    if (hit) return hit;
   }
   return null;
+}
+
+/** "0,140,290" -> [0,140,290]; anything that is not a whole frame number is a usage error. */
+function parseFrames(s) {
+  const out = s.split(',').map((n) => n.trim()).filter(Boolean).map(Number);
+  const bad = out.filter((f) => !Number.isInteger(f) || f < 0);
+  if (!out.length || bad.length) {
+    console.error(`bad frame list "${s}" — expected comma-separated frame numbers, e.g. 0,140,290`);
+    process.exit(1);
+  }
+  return out;
 }
 
 /**
@@ -68,6 +94,7 @@ function framesFromBeats(beatsPath, fps, durationInFrames) {
   const s2f = (s) => Math.round(Number(s) * fps);
   const out = new Set([0, 1, durationInFrames - 2, durationInFrames - 1]);
   for (const beat of b.beats ?? []) {
+    if (!Number.isFinite(Number(beat.start)) || !Number.isFinite(Number(beat.end))) continue;
     out.add(s2f(beat.start) + 12);
     out.add(s2f((Number(beat.start) + Number(beat.end)) / 2));
   }
@@ -83,6 +110,11 @@ const outDir = path.join(root, 'out', 'qa');
 mkdirSync(outDir, { recursive: true });
 
 const t0 = Date.now();
+const { shots } = generate({ quiet: true }); // a freshly added shot must not need a manual `npm run gen`
+if (!shots.some((s) => s.id === id)) {
+  console.error(`unknown composition id "${id}" — no compositionConfig in src/shots declares it`);
+  process.exit(1);
+}
 const serveUrl = await getServeUrl({ force: has('force-bundle') });
 const composition = await selectComposition({ serveUrl, id });
 const fps = composition.fps;
@@ -98,13 +130,13 @@ if (beatsFlag || has('auto') || !framesArg) {
       console.error(`no beats.json found for ${id} — pass frames explicitly or --beats=<path>`);
       process.exit(1);
     }
-    frames = framesArg.split(',').map((n) => Number(n.trim()));
+    frames = parseFrames(framesArg);
   } else {
     frames = framesFromBeats(beatsPath, fps, composition.durationInFrames);
     console.log(`frames from ${path.relative(path.join(root, '..'), beatsPath)}: ${frames.join(',')}`);
   }
 } else {
-  frames = framesArg.split(',').map((n) => Number(n.trim()));
+  frames = parseFrames(framesArg);
 }
 frames = frames.map((f) => Math.max(0, Math.min(composition.durationInFrames - 1, f)));
 
@@ -125,9 +157,12 @@ async function worker() {
     process.stdout.write(`  f${f} `);
   }
 }
-await Promise.all(Array.from({ length: Math.min(CONCURRENCY, frames.length) }, worker));
-process.stdout.write('\n');
-await browser.close({ silent: true });
+try {
+  await Promise.all(Array.from({ length: Math.min(CONCURRENCY, frames.length) }, worker));
+} finally {
+  process.stdout.write('\n');
+  await browser.close({ silent: true }); // also on a failed still — no orphaned Chrome
+}
 
 for (const r of results) console.log('  ->', path.relative(root, r.out));
 
