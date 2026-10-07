@@ -409,6 +409,67 @@ def tts_line_kokoro(voice, text, out_path, rate="+0%", pitch=0.0, lang=None, for
         json.dump(words, f, ensure_ascii=False)
 
 
+AZURE_LANGS = {"fr": "fr-FR", "en": "en-US", "es": "es-ES"}
+
+
+def tts_line_azure(voice, text, out_path, rate="+0%", pitch="+0%", style=None, lang=None):
+    """FREE-TIER engine for REAL CHILD VOICES (Microsoft Azure Speech, F0 = 0.5M neural chars/month):
+    en-US-AnaNeural (US girl), en-GB-MaisieNeural (UK girl), fr-FR-EloiseNeural (French girl) and
+    every other Azure neural voice. Pitch/rate are applied server-side via SSML <prosody> (clean, no
+    resampling artefacts). Needs AZURE_SPEECH_KEY + AZURE_SPEECH_REGION in .env and the host
+    <region>.tts.speech.microsoft.com reachable. Same contract as tts_line(): writes the audio AND
+    <out_path>.words.json (word times derived from the audio's pauses, like the kokoro engine)."""
+    import tempfile
+    import wave
+    from xml.sax.saxutils import escape
+    import numpy as np
+
+    env = load_env()
+    key, region = env.get("AZURE_SPEECH_KEY"), env.get("AZURE_SPEECH_REGION")
+    if not key or not region:
+        sys.exit("azure engine: put AZURE_SPEECH_KEY and AZURE_SPEECH_REGION (e.g. eastus) in .env "
+                 "(Azure portal → Speech resource, Free F0 tier → Keys and Endpoint)")
+    host = f"{region}.tts.speech.microsoft.com"
+    xml_lang = "-".join(voice.split("-")[:2]) if voice.count("-") >= 2 else AZURE_LANGS.get(lang or "en", "en-US")
+    spoken = strip_tags(text)
+    body = escape(spoken)
+    body = f'<prosody rate="{rate or "+0%"}" pitch="{pitch or "+0%"}">{body}</prosody>'
+    if style:
+        body = f'<mstts:express-as style="{style}">{body}</mstts:express-as>'
+    ssml = (f'<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" '
+            f'xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="{xml_lang}">'
+            f'<voice name="{voice}">{body}</voice></speak>')
+    req = urllib.request.Request(
+        f"https://{host}/cognitiveservices/v1", data=ssml.encode("utf-8"), method="POST",
+        headers={"Ocp-Apim-Subscription-Key": key, "Content-Type": "application/ssml+xml",
+                 "X-Microsoft-OutputFormat": "riff-24khz-16bit-mono-pcm", "User-Agent": "shorts-gen-voice"})
+    audio = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                audio = r.read()
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 500, 502, 503) and attempt < 2:
+                time.sleep(2 + attempt * 3)
+                continue
+            sys.exit(f"azure TTS HTTP {e.code} for {voice}: {e.read()[:300]!r}")
+        except urllib.error.URLError as e:
+            sys.exit(f"azure TTS: cannot reach {host} ({e.reason}). In a cloud session, add {host} "
+                     "to the environment's Allowed domains (Network access).")
+    with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
+        tmp.write(audio)
+        wav = tmp.name
+    with wave.open(wav, "rb") as w:
+        sr = w.getframerate()
+        samples = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768
+    words = derive_word_times(spoken, voiced_runs(samples, sr), lambda wd: max(1, sum(c.isalpha() for c in wd)))
+    run(["ffmpeg", "-y", "-v", "error", "-i", wav, "-af", "highpass=f=70", "-b:a", "192k", out_path])
+    os.remove(wav)
+    with open(out_path + ".words.json", "w", encoding="utf-8") as f:
+        json.dump(words, f, ensure_ascii=False)
+
+
 def list_edge_voices(prefix="en-"):
     import asyncio
     try:
@@ -449,9 +510,11 @@ def emit_ts(vo, path, engine="elevenlabs"):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--beats", help="path to the short's beats.json")
-    ap.add_argument("--engine", choices=("elevenlabs", "edge", "kokoro"), default="elevenlabs",
+    ap.add_argument("--engine", choices=("elevenlabs", "edge", "kokoro", "azure"), default="elevenlabs",
                     help="elevenlabs (paid key) · edge = free Microsoft Neural TTS (online) · "
-                         "kokoro = free LOCAL Kokoro-82M (setup: tools/setup_kokoro.py)")
+                         "kokoro = free LOCAL Kokoro-82M (setup: tools/setup_kokoro.py) · "
+                         "azure = Azure Speech free tier (real child voices; AZURE_SPEECH_KEY/REGION). "
+                         "A cast entry's \"engine\" overrides this per speaker.")
     ap.add_argument("--voice", help=f"default: {DEFAULT_VOICE} (elevenlabs) / {EDGE_VOICE} (edge)")
     ap.add_argument("--model", default=DEFAULT_MODEL, help="elevenlabs only")
     ap.add_argument("--list-voices", action="store_true", help="list free Edge voices and exit")
@@ -479,22 +542,33 @@ def main():
     vdir = os.path.join(os.path.dirname(beats_path), "voice")
     os.makedirs(vdir, exist_ok=True)
 
-    key = load_env().get("ELEVENLABS_API_KEY")
-    if args.engine == "elevenlabs" and not key and not args.dry_run:
-        sys.exit("ELEVENLABS_API_KEY not found in .env  (or use --engine edge — free, no key)")
-
     # ── plan every line first, then generate the MISSING ones in parallel ────────────
     # TTS is ~3-12s of network per line; serially that is over a minute for a 13-line short.
     # Cache hits (unchanged text) cost nothing, so only genuine misses are dispatched.
     cast = beats.get("cast", {})
+
+    def engine_of(line):
+        """A speaker's cast entry may pin its own engine ("engine": "azure") — e.g. real child
+        voices on Azure for the kids while the bear stays on local Kokoro."""
+        return cast.get(line.get("speaker") or "", {}).get("engine") or args.engine
+
+    key = load_env().get("ELEVENLABS_API_KEY")
+    if any(engine_of(l) == "elevenlabs" for l in vo) and not key and not args.dry_run:
+        sys.exit("ELEVENLABS_API_KEY not found in .env  (or use --engine edge — free, no key)")
 
     def voice_of(line):
         """(voice, rate) for a line: its speaker's cast entry for this engine, else the defaults.
         A line with "lang": "fr" uses the speaker's "<engine>_fr" voice when the cast has one."""
         c = cast.get(line.get("speaker") or "", {})
         lg = line.get("lang")
-        v = (lg and c.get(f"{args.engine}_{lg}")) or c.get(args.engine) or args.voice
+        eng = engine_of(line)
+        v = (lg and c.get(f"{eng}_{lg}")) or c.get(eng) or args.voice
         return v, c.get("rate", args.rate)
+
+    def azure_extras(line):
+        """(pitch, style) — azure-only cast options, SSML prosody pitch like "-8%" and a speaking style."""
+        c = cast.get(line.get("speaker") or "", {})
+        return c.get("azure_pitch", "+0%"), c.get("azure_style")
 
     def kokoro_extras(line):
         """(pitch semitones, lang, formant) — kokoro-only cast/line options for kid voices + French."""
@@ -509,11 +583,15 @@ def main():
         tts_text = line.get("tts", line["text"])  # optional tagged/phonetic variant for TTS
         voice, rate = voice_of(line)
         extra = ""
-        if args.engine == "kokoro":
+        eng = engine_of(line)
+        if eng == "kokoro":
             pitch, lg, formant = kokoro_extras(line)
             extra = (f"|p{pitch}v2" if pitch else "") + (f"|{lg}" if lg else "") + ("|fm" if formant and pitch else "")
+        elif eng == "azure":
+            apitch, astyle = azure_extras(line)
+            extra = f"|{apitch}|{astyle}|{line.get('lang')}"
         h = hashlib.sha1(
-            f"{args.engine}|{voice}|{args.model}|{rate}|{tts_text}{extra}".encode()).hexdigest()[:8]
+            f"{eng}|{voice}|{args.model}|{rate}|{tts_text}{extra}".encode()).hexdigest()[:8]
         plan.append((i, line, start, window, tts_text,
                      os.path.join(vdir, f"line-{i:02d}-{h}.mp3"),
                      os.path.join(vdir, f"line-{i:02d}-{h}-fit.wav")))
@@ -530,9 +608,13 @@ def main():
         def generate(p):
             i, line, _start, _window, tts_text, raw, _fit = p
             voice, rate = voice_of(line)
-            if args.engine == "edge":
+            eng = engine_of(line)
+            if eng == "edge":
                 tts_line_edge(voice, tts_text, raw, rate)
-            elif args.engine == "kokoro":
+            elif eng == "azure":
+                apitch, astyle = azure_extras(line)
+                tts_line_azure(voice, tts_text, raw, rate, apitch, astyle, line.get("lang"))
+            elif eng == "kokoro":
                 pitch, lg, formant = kokoro_extras(line)
                 tts_line_kokoro(voice, tts_text, raw, rate, pitch, lg, formant)
             else:

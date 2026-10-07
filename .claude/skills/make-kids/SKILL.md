@@ -66,6 +66,13 @@ cast entry — gen_voice uses ffmpeg rubberband in quality mode + de-ess/compres
 line + a `"kokoro_fr": "ff_siwis"` voice in the speaker's cast entry. The user picks voices by
 ear from `voice-audition.mp3`; record the choice in channel.json.
 
+**Real child voices (preferred): Azure Speech free tier** — `en-US-AnaNeural` (US girl),
+`en-GB-MaisieNeural` (UK girl), `fr-FR-EloiseNeural` (French girl), via a per-speaker cast entry
+`{"engine": "azure", "azure": "en-US-AnaNeural", "azure_pitch": "-8%", "azure_style": "cheerful", "rate": "-4%"}`
+(pitch/rate applied server-side = clean). Needs AZURE_SPEECH_KEY/REGION in .env and
+`<region>.tts.speech.microsoft.com` allowed in the cloud environment. Non-kid characters stay on
+Kokoro with pitch 0. Audition: `python tools/gen_voice.py --beats kids-shorts/tiny-sparks/voice-audition-3.beats.json --engine kokoro`.
+
 One-off characters (the fox in a story, a teacher) are new specs in the EPISODE file:
 `{ id:'fox1', species:'fox', fur:'#ff8c42', fur2:'#ffffff', dark:'#7a3b12' }` — never edits to
 the cast file. New recurring characters = a channel decision → cast file + model sheet re-render.

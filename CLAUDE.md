@@ -50,6 +50,8 @@ IDEAS.md          the TSX-shorts idea bank + niche ranking
   playwright install chromium` (capture_web.py). `ffmpeg`/`ffprobe` and `node`/`npx` on PATH.
 - **API keys** live in `.env` at the repo root (copy `.env.example`). Never commit `.env`.
   ELEVENLABS_API_KEY = voice/SFX/music · FAL_KEY = AI clips + images · GEMINI_API_KEY = images.
+  AZURE_SPEECH_KEY + AZURE_SPEECH_REGION = Azure Speech FREE tier (real child voices for the kids
+  channel: en-US-AnaNeural etc.; a cast entry `"engine": "azure"` uses it per speaker).
   Voice has two keyless engines: **`--engine kokoro`** (FREE + LOCAL Kokoro-82M, the best
   open TTS of its size, 54 voices incl. blends, no network at synthesis — one-time setup
   `pip install kokoro-onnx && python tools/setup_kokoro.py`, which pulls the weights from npm,
