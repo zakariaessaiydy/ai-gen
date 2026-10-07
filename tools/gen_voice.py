@@ -264,13 +264,19 @@ _kokoro = None
 _kokoro_lock = None
 
 
+def kokoro_full():
+    """True when the full-precision model is installed (setup_kokoro.py --full) — gen_voice uses it."""
+    return os.path.exists(os.path.join(KOKORO_DIR, "kokoro-v1.0.onnx"))
+
+
 def _kokoro_engine():
     global _kokoro, _kokoro_lock
     import threading
     if _kokoro_lock is None:
         _kokoro_lock = threading.Lock()
     if _kokoro is None:
-        model = os.path.join(KOKORO_DIR, "kokoro-v1.0.q8.onnx")
+        full = os.path.join(KOKORO_DIR, "kokoro-v1.0.onnx")  # fp32 (setup_kokoro.py --full): cleaner
+        model = full if os.path.exists(full) else os.path.join(KOKORO_DIR, "kokoro-v1.0.q8.onnx")
         voices = os.path.join(KOKORO_DIR, "voices-v1.0.npz")
         if not (os.path.exists(model) and os.path.exists(voices)):
             sys.exit("kokoro is not installed — run:  pip install kokoro-onnx && python tools/setup_kokoro.py")
@@ -396,7 +402,8 @@ def tts_line_kokoro(voice, text, out_path, rate="+0%", pitch=0.0, lang=None, for
         w.setsampwidth(2)
         w.setframerate(sr)
         w.writeframes(pcm.tobytes())
-    af = []
+    clean = "highpass=f=80,deesser=i=0.35,acompressor=threshold=0.12:ratio=2.5:attack=8:release=120:makeup=1.3"
+    af = ["-af", clean] if kokoro_full() else []
     if pitch:
         # highest-quality pitch path (fewer warbles), then a light clean-up: rumble cut, soft
         # de-ess (pitched voices get hissy), gentle compression so lines sit evenly
@@ -586,7 +593,7 @@ def main():
         eng = engine_of(line)
         if eng == "kokoro":
             pitch, lg, formant = kokoro_extras(line)
-            extra = (f"|p{pitch}v2" if pitch else "") + (f"|{lg}" if lg else "") + ("|fm" if formant and pitch else "")
+            extra = ("|fp32" if kokoro_full() else "") + (f"|p{pitch}v2" if pitch else "") + (f"|{lg}" if lg else "") + ("|fm" if formant and pitch else "")
         elif eng == "azure":
             apitch, astyle = azure_extras(line)
             extra = f"|{apitch}|{astyle}|{line.get('lang')}"
