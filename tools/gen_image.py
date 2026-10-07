@@ -2,8 +2,8 @@
 """
 gen_image.py — in-video AI images via the DIRECT Google Gemini API (channel shorts).
 
-General-purpose sibling of gen_thumbnail.py (which stays thumbnail-specialized): generates
-an illustration/atmosphere/still frame for a video beat, saves PNG + a sidecar .json
+Generates an illustration/atmosphere/still frame (or a vox collage layer) for a video beat,
+saves PNG + a sidecar .json
 (prompt, model, refs, seed) so any render can be reproduced or re-rolled.
 
 Model presets (confirmed against the live models endpoint 2026-07-10):
@@ -13,14 +13,14 @@ Model presets (confirmed against the live models endpoint 2026-07-10):
 Any raw model id is also accepted.
 
 Usage:
-  python tools/gen_image.py --prompt "..." --out shorts/ch-1-rate-limiting/assets/night.png
+  python tools/gen_image.py --prompt "..." --out media/projects/vox-1-coffee/night.png
   python tools/gen_image.py --prompt-file p.txt --model pro --aspect 9:16 --out x.png
   python tools/gen_image.py --prompt "..." --ref media/library/faces/a.jpg --out x.png
   --aspect 9:16 (default, vertical shorts) | 16:9 | 1:1 ...   --size 1K|2K|4K (default 2K)
   --seed N   --dry-run
 
-Needs GEMINI_API_KEY in .env and the google-genai SDK. Reference images are OPTIONAL and
-explicit (no default face kit here — that's gen_thumbnail.py's behavior).
+Needs GEMINI_API_KEY in .env and the google-genai SDK (pip install google-genai). Reference
+images are OPTIONAL and explicit; a --ref that does not exist is an error.
 """
 import json
 import os

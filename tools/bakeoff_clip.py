@@ -21,10 +21,10 @@ COSTS ARE DERIVED, NOT QUOTED (the 2026-07-14 lesson in ai-video/IDEAS.md):
   After the run we also try GET api.fal.ai/v1/models/usage for the ACTUAL billed cost; that
   endpoint needs an ADMIN-scoped key, so with a regular key panels are labelled "est".
 
-Usage (from a type workspace, via the core venv):
-  ../core/venv/Scripts/python.exe ../core/tools/bakeoff_clip.py \
+Usage (from the repo root):
+  python tools/bakeoff_clip.py \
       --prompt "the character walks slowly toward the huge door..." \
-      --ref blue-man/shots/01-door.png --out blue-man/bakeoff/round1
+      --ref ai-shorts/blue-man/shots/01-door.png --out ai-shorts/blue-man/bakeoff/round1
 
   --models a,b,c   registry keys (default: seedance,kling,veo-lite — the roster that keeps a
                    full 1080p bake-off well under $1; add wan / veo-fast per panel cost below)
@@ -42,7 +42,7 @@ Registry ($ for a 5s/4s 1080p audio-off panel, derived 2026-07-14):
   veo-fast   fal-ai/veo3.1/fast/image-to-video                   4s $0.40
   wan        fal-ai/wan-25-preview/image-to-video                5s $0.75  (priciest at 1080p)
 
-Needs FAL_KEY in core/.env; ffmpeg/ffprobe on PATH for the grid.
+Needs FAL_KEY in .env; ffmpeg/ffprobe on PATH for the grid.
 """
 import json
 import mimetypes
@@ -355,7 +355,7 @@ def main():
 
     key = load_env().get("FAL_KEY", "").strip()
     if not key:
-        sys.exit("FAL_KEY not set in core/.env")
+        sys.exit("FAL_KEY not set in .env (get one at https://fal.ai/dashboard/keys)")
 
     os.makedirs(out_dir, exist_ok=True)
     start_iso = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
