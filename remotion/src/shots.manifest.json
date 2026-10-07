@@ -104,6 +104,22 @@
   "transparent": false
  },
  {
+  "id": "KidsChannelBanner",
+  "durationInSeconds": 1,
+  "fps": 30,
+  "width": 2560,
+  "height": 1440,
+  "transparent": false
+ },
+ {
+  "id": "KidsChannelLogo",
+  "durationInSeconds": 1,
+  "fps": 30,
+  "width": 800,
+  "height": 800,
+  "transparent": false
+ },
+ {
   "id": "KidsKitDemo",
   "durationInSeconds": 12,
   "fps": 30,
