@@ -160,6 +160,14 @@
   "transparent": false
  },
  {
+  "id": "KidsWords003",
+  "durationInSeconds": 118.7,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "Short1Chess",
   "durationInSeconds": 42,
   "fps": 30,
