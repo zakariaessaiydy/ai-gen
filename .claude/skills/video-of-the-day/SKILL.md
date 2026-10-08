@@ -18,7 +18,8 @@ list the idea files. All calendar I/O goes through `tools/next_video.py` (prints
    the formats and rules). Use the brief's project folder and composition id; the YouTube title and
    description go into the project's script.md. Long 16:9 formats: if time is short, make the
    Short version first and say so.
-4. Deliver: send the mp4 to the user (SendUserFile), then
+4. Deliver: send the mp4 to the user (SendUserFile; the limit is 30 MB — long videos usually exceed it, so
+   first make `<out>/day-NNN-final.mp4` with `ffmpeg -i <mp4> -c:v libx264 -crf 24 -preset slow -c:a copy -movflags +faststart`), then
    `python tools/next_video.py --done <day> --file <path to the mp4>` → prints `N/800 made`.
 5. Write the upload kit into the project's script.md (## Upload): title, description with `#Shorts`
    first among 3–8 hashtags, and the two playlists (the niche playlist + "Tiny Sparks Shorts — All
