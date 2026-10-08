@@ -78,6 +78,22 @@ One-off characters (the fox in a story, a teacher) are new specs in the EPISODE 
 `{ id:'fox1', species:'fox', fur:'#ff8c42', fur2:'#ffffff', dark:'#7a3b12' }` — never edits to
 the cast file. New recurring characters = a channel decision → cast file + model sheet re-render.
 
+## PACING — slower than you think (user feedback after Day 3: "too fast, add empty seconds")
+
+Kids need silent time to hear, look and repeat. Every episode's packing MUST use at least these gaps
+(they are minimums — when unsure, add more):
+- **Between two items** (animal → next animal, number → next number, step → next step): **≥ 2.5 s** of
+  quiet with the picture still on screen before the next one appears.
+- **After a new word / number / fact is said**: **≥ 1.2 s** before the next line.
+- **Repetitions are separate lines with pauses** ("Lion." · 1.0 s · "Lion!" · 1.0 s · "Li-on."), never one
+  fast line "Lion. Lion! Lion.".
+- **"Your turn" pause**: after the key word, a **1.5–2 s** silent pause (character looking at the
+  camera, mouth closed) so the child can say it — add a small "🗣️ Your turn!" PopText.
+- **Questions / quizzes**: ThinkTimer **≥ 4 s**.
+- Voice rate for teaching lines: **-8 % to -12 %** (kids' cast rate entries stay locked; add the slower
+  rate as a per-line `"tts"` text with commas, or use the narrator for the slow teaching line).
+- A long (16:9) video should feel calm: aim for ~8–12 s per vocabulary item, not 5.
+
 ## Style rules (what makes kids watch — and parents trust it)
 
 1. **One idea per screen.** One number, one word, one animal fact. Big, centred, held long

@@ -7,7 +7,7 @@ description: 🔤 English and French VOCABULARY for children (ages 2–7) on Tin
 
 Read `.claude/skills/make-kids/SKILL.md` first.
 
-## The word loop (≈6–8 s per word)
+## The word loop (≈10–12 s per word — see make-kids PACING: separate repetitions, pauses, 2.5 s between words)
 
 1. **Picture first** — the object appears big (a prop drawing, a Critter, a set element) with a
    pop + sound. A character points at it (`armR="point"`).
