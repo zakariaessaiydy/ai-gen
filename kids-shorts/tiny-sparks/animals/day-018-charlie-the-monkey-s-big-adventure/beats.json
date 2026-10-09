@@ -1,0 +1,2264 @@
+{
+  "id": "day-018",
+  "series": "tiny-sparks",
+  "episode": 18,
+  "title": "Charlie the Monkey's Big Adventure",
+  "composition": "KidsAnimals018",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 215.9
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-10%"
+    },
+    "charlie": {
+      "kokoro": "am_liam:0.6+af_nova:0.4",
+      "rate": "-2%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "guess",
+      "speaker": "narrator",
+      "start": 1.8,
+      "end": 3.41,
+      "text": "Who is hanging from the tree?",
+      "words": [
+        {
+          "w": "Who",
+          "start": 1.87,
+          "end": 2.117
+        },
+        {
+          "w": "is",
+          "start": 2.117,
+          "end": 2.24
+        },
+        {
+          "w": "hanging",
+          "start": 2.24,
+          "end": 2.611
+        },
+        {
+          "w": "from",
+          "start": 2.611,
+          "end": 2.858
+        },
+        {
+          "w": "the",
+          "start": 2.858,
+          "end": 2.981
+        },
+        {
+          "w": "tree?",
+          "start": 2.981,
+          "end": 3.29
+        }
+      ]
+    },
+    {
+      "beat": "guess2",
+      "speaker": "narrator",
+      "start": 4.61,
+      "end": 7.34,
+      "text": "Look at that long, curly tail! Can you guess?",
+      "words": [
+        {
+          "w": "Look",
+          "start": 4.67,
+          "end": 4.958
+        },
+        {
+          "w": "at",
+          "start": 4.958,
+          "end": 5.102
+        },
+        {
+          "w": "that",
+          "start": 5.102,
+          "end": 5.389
+        },
+        {
+          "w": "long,",
+          "start": 5.389,
+          "end": 5.677
+        },
+        {
+          "w": "curly",
+          "start": 5.677,
+          "end": 6.109
+        },
+        {
+          "w": "tail!",
+          "start": 6.109,
+          "end": 6.469
+        },
+        {
+          "w": "Can",
+          "start": 6.469,
+          "end": 6.756
+        },
+        {
+          "w": "you",
+          "start": 6.756,
+          "end": 6.972
+        },
+        {
+          "w": "guess?",
+          "start": 6.972,
+          "end": 7.26
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "speaker": "narrator",
+      "start": 11.94,
+      "end": 13.1,
+      "text": "It's... a monkey!",
+      "words": [
+        {
+          "w": "It's...",
+          "start": 11.97,
+          "end": 12.22
+        },
+        {
+          "w": "a",
+          "start": 12.22,
+          "end": 12.47
+        },
+        {
+          "w": "monkey!",
+          "start": 12.47,
+          "end": 12.97
+        }
+      ]
+    },
+    {
+      "beat": "hello",
+      "speaker": "charlie",
+      "start": 14.5,
+      "end": 16.5,
+      "text": "Hi! I'm Charlie the monkey!",
+      "words": [
+        {
+          "w": "Hi!",
+          "start": 14.54,
+          "end": 14.844
+        },
+        {
+          "w": "I'm",
+          "start": 14.844,
+          "end": 15.073
+        },
+        {
+          "w": "Charlie",
+          "start": 15.073,
+          "end": 15.681
+        },
+        {
+          "w": "the",
+          "start": 15.681,
+          "end": 15.833
+        },
+        {
+          "w": "monkey!",
+          "start": 15.833,
+          "end": 16.29
+        }
+      ]
+    },
+    {
+      "beat": "bobo_hi",
+      "speaker": "bobo",
+      "start": 17.3,
+      "end": 18.81,
+      "text": "Hi, Charlie! I'm Bobo!",
+      "words": [
+        {
+          "w": "Hi,",
+          "start": 17.34,
+          "end": 17.584
+        },
+        {
+          "w": "Charlie!",
+          "start": 17.584,
+          "end": 18.071
+        },
+        {
+          "w": "I'm",
+          "start": 18.071,
+          "end": 18.254
+        },
+        {
+          "w": "Bobo!",
+          "start": 18.254,
+          "end": 18.68
+        }
+      ]
+    },
+    {
+      "beat": "sound_q",
+      "speaker": "narrator",
+      "start": 20.41,
+      "end": 21.75,
+      "text": "What does a monkey say?",
+      "words": [
+        {
+          "w": "What",
+          "start": 20.48,
+          "end": 20.695
+        },
+        {
+          "w": "does",
+          "start": 20.695,
+          "end": 20.91
+        },
+        {
+          "w": "a",
+          "start": 20.91,
+          "end": 21.072
+        },
+        {
+          "w": "monkey",
+          "start": 21.072,
+          "end": 21.395
+        },
+        {
+          "w": "say?",
+          "start": 21.395,
+          "end": 21.61
+        }
+      ]
+    },
+    {
+      "beat": "sound1",
+      "speaker": "charlie",
+      "start": 22.95,
+      "end": 24.35,
+      "text": "Ooh ooh! Ah ah!",
+      "words": [
+        {
+          "w": "Ooh",
+          "start": 22.99,
+          "end": 23.285
+        },
+        {
+          "w": "ooh!",
+          "start": 23.285,
+          "end": 23.58
+        },
+        {
+          "w": "Ah",
+          "start": 23.58,
+          "end": 23.875
+        },
+        {
+          "w": "ah!",
+          "start": 23.875,
+          "end": 24.17
+        }
+      ]
+    },
+    {
+      "beat": "your_turn",
+      "speaker": "narrator",
+      "start": 25.95,
+      "end": 28.38,
+      "text": "Can you say it like Charlie? Your turn!",
+      "words": [
+        {
+          "w": "Can",
+          "start": 26.0,
+          "end": 26.194
+        },
+        {
+          "w": "you",
+          "start": 26.194,
+          "end": 26.339
+        },
+        {
+          "w": "say",
+          "start": 26.339,
+          "end": 26.533
+        },
+        {
+          "w": "it",
+          "start": 26.533,
+          "end": 26.63
+        },
+        {
+          "w": "like",
+          "start": 26.63,
+          "end": 26.872
+        },
+        {
+          "w": "Charlie?",
+          "start": 26.872,
+          "end": 27.26
+        },
+        {
+          "w": "Your",
+          "start": 27.56,
+          "end": 27.83
+        },
+        {
+          "w": "turn!",
+          "start": 27.83,
+          "end": 28.28
+        }
+      ]
+    },
+    {
+      "beat": "sound2",
+      "speaker": "charlie",
+      "start": 31.58,
+      "end": 32.98,
+      "text": "Ooh ooh! Ah ah!",
+      "words": [
+        {
+          "w": "Ooh",
+          "start": 31.62,
+          "end": 31.915
+        },
+        {
+          "w": "ooh!",
+          "start": 31.915,
+          "end": 32.21
+        },
+        {
+          "w": "Ah",
+          "start": 32.21,
+          "end": 32.505
+        },
+        {
+          "w": "ah!",
+          "start": 32.505,
+          "end": 32.8
+        }
+      ]
+    },
+    {
+      "beat": "facts",
+      "speaker": "narrator",
+      "start": 34.58,
+      "end": 36.39,
+      "text": "Let's learn three monkey facts!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 34.64,
+          "end": 34.949
+        },
+        {
+          "w": "learn",
+          "start": 34.949,
+          "end": 35.259
+        },
+        {
+          "w": "three",
+          "start": 35.259,
+          "end": 35.568
+        },
+        {
+          "w": "monkey",
+          "start": 35.568,
+          "end": 35.939
+        },
+        {
+          "w": "facts!",
+          "start": 35.939,
+          "end": 36.31
+        }
+      ]
+    },
+    {
+      "beat": "fact1",
+      "speaker": "narrator",
+      "start": 37.99,
+      "end": 42.47,
+      "text": "Fact one. Some monkeys can hold on to branches, with their long tails!",
+      "words": [
+        {
+          "w": "Fact",
+          "start": 38.05,
+          "end": 38.407
+        },
+        {
+          "w": "one.",
+          "start": 38.407,
+          "end": 38.693
+        },
+        {
+          "w": "Some",
+          "start": 38.693,
+          "end": 38.979
+        },
+        {
+          "w": "monkeys",
+          "start": 38.979,
+          "end": 39.48
+        },
+        {
+          "w": "can",
+          "start": 39.48,
+          "end": 39.765
+        },
+        {
+          "w": "hold",
+          "start": 39.765,
+          "end": 40.194
+        },
+        {
+          "w": "on",
+          "start": 40.194,
+          "end": 40.409
+        },
+        {
+          "w": "to",
+          "start": 40.409,
+          "end": 40.623
+        },
+        {
+          "w": "branches,",
+          "start": 40.623,
+          "end": 41.266
+        },
+        {
+          "w": "with",
+          "start": 41.266,
+          "end": 41.481
+        },
+        {
+          "w": "their",
+          "start": 41.481,
+          "end": 41.695
+        },
+        {
+          "w": "long",
+          "start": 41.695,
+          "end": 41.981
+        },
+        {
+          "w": "tails!",
+          "start": 41.981,
+          "end": 42.41
+        }
+      ]
+    },
+    {
+      "beat": "fact2",
+      "speaker": "narrator",
+      "start": 45.27,
+      "end": 48.87,
+      "text": "Fact two. Monkeys eat lots of fruit, leaves, and seeds.",
+      "words": [
+        {
+          "w": "Fact",
+          "start": 45.33,
+          "end": 45.686
+        },
+        {
+          "w": "two.",
+          "start": 45.686,
+          "end": 45.971
+        },
+        {
+          "w": "Monkeys",
+          "start": 45.971,
+          "end": 46.47
+        },
+        {
+          "w": "eat",
+          "start": 46.47,
+          "end": 46.754
+        },
+        {
+          "w": "lots",
+          "start": 46.754,
+          "end": 47.182
+        },
+        {
+          "w": "of",
+          "start": 47.182,
+          "end": 47.324
+        },
+        {
+          "w": "fruit,",
+          "start": 47.324,
+          "end": 47.752
+        },
+        {
+          "w": "leaves,",
+          "start": 47.752,
+          "end": 48.179
+        },
+        {
+          "w": "and",
+          "start": 48.179,
+          "end": 48.393
+        },
+        {
+          "w": "seeds.",
+          "start": 48.393,
+          "end": 48.82
+        }
+      ]
+    },
+    {
+      "beat": "fact3",
+      "speaker": "narrator",
+      "start": 51.67,
+      "end": 56.46,
+      "text": "Fact three. Monkey friends clean each other's fur. That's how they say, I like you!",
+      "words": [
+        {
+          "w": "Fact",
+          "start": 51.72,
+          "end": 52.053
+        },
+        {
+          "w": "three.",
+          "start": 52.053,
+          "end": 52.386
+        },
+        {
+          "w": "Monkey",
+          "start": 52.386,
+          "end": 52.785
+        },
+        {
+          "w": "friends",
+          "start": 52.785,
+          "end": 53.251
+        },
+        {
+          "w": "clean",
+          "start": 53.251,
+          "end": 53.651
+        },
+        {
+          "w": "each",
+          "start": 53.651,
+          "end": 53.983
+        },
+        {
+          "w": "other's",
+          "start": 53.983,
+          "end": 54.316
+        },
+        {
+          "w": "fur.",
+          "start": 54.316,
+          "end": 54.583
+        },
+        {
+          "w": "That's",
+          "start": 54.583,
+          "end": 54.915
+        },
+        {
+          "w": "how",
+          "start": 54.915,
+          "end": 55.182
+        },
+        {
+          "w": "they",
+          "start": 55.182,
+          "end": 55.381
+        },
+        {
+          "w": "say,",
+          "start": 55.381,
+          "end": 55.648
+        },
+        {
+          "w": "I",
+          "start": 55.648,
+          "end": 55.847
+        },
+        {
+          "w": "like",
+          "start": 55.847,
+          "end": 56.18
+        },
+        {
+          "w": "you!",
+          "start": 56.18,
+          "end": 56.38
+        }
+      ]
+    },
+    {
+      "beat": "story",
+      "speaker": "narrator",
+      "start": 59.46,
+      "end": 62.19,
+      "text": "Today, Charlie wants to go on a big adventure.",
+      "words": [
+        {
+          "w": "Today,",
+          "start": 59.48,
+          "end": 59.94
+        },
+        {
+          "w": "Charlie",
+          "start": 60.14,
+          "end": 60.522
+        },
+        {
+          "w": "wants",
+          "start": 60.522,
+          "end": 60.809
+        },
+        {
+          "w": "to",
+          "start": 60.809,
+          "end": 60.952
+        },
+        {
+          "w": "go",
+          "start": 60.952,
+          "end": 61.143
+        },
+        {
+          "w": "on",
+          "start": 61.143,
+          "end": 61.286
+        },
+        {
+          "w": "a",
+          "start": 61.286,
+          "end": 61.429
+        },
+        {
+          "w": "big",
+          "start": 61.429,
+          "end": 61.62
+        },
+        {
+          "w": "adventure.",
+          "start": 61.62,
+          "end": 62.05
+        }
+      ]
+    },
+    {
+      "beat": "plan",
+      "speaker": "charlie",
+      "start": 63.39,
+      "end": 67.48,
+      "text": "I want to reach the top of the tallest tree! There's a yummy mango up there!",
+      "words": [
+        {
+          "w": "I",
+          "start": 63.42,
+          "end": 63.573
+        },
+        {
+          "w": "want",
+          "start": 63.573,
+          "end": 63.828
+        },
+        {
+          "w": "to",
+          "start": 63.828,
+          "end": 63.981
+        },
+        {
+          "w": "reach",
+          "start": 63.981,
+          "end": 64.287
+        },
+        {
+          "w": "the",
+          "start": 64.287,
+          "end": 64.389
+        },
+        {
+          "w": "top",
+          "start": 64.389,
+          "end": 64.643
+        },
+        {
+          "w": "of",
+          "start": 64.643,
+          "end": 64.745
+        },
+        {
+          "w": "the",
+          "start": 64.745,
+          "end": 64.847
+        },
+        {
+          "w": "tallest",
+          "start": 64.847,
+          "end": 65.255
+        },
+        {
+          "w": "tree!",
+          "start": 65.255,
+          "end": 65.51
+        },
+        {
+          "w": "There's",
+          "start": 65.8,
+          "end": 66.085
+        },
+        {
+          "w": "a",
+          "start": 66.085,
+          "end": 66.256
+        },
+        {
+          "w": "yummy",
+          "start": 66.256,
+          "end": 66.541
+        },
+        {
+          "w": "mango",
+          "start": 66.541,
+          "end": 66.941
+        },
+        {
+          "w": "up",
+          "start": 66.941,
+          "end": 67.112
+        },
+        {
+          "w": "there!",
+          "start": 67.112,
+          "end": 67.34
+        }
+      ]
+    },
+    {
+      "beat": "climb",
+      "speaker": "narrator",
+      "start": 69.08,
+      "end": 70.83,
+      "text": "Charlie climbs, and climbs...",
+      "words": [
+        {
+          "w": "Charlie",
+          "start": 69.1,
+          "end": 69.615
+        },
+        {
+          "w": "climbs,",
+          "start": 69.615,
+          "end": 70.066
+        },
+        {
+          "w": "and",
+          "start": 70.066,
+          "end": 70.259
+        },
+        {
+          "w": "climbs...",
+          "start": 70.259,
+          "end": 70.71
+        }
+      ]
+    },
+    {
+      "beat": "stuck",
+      "speaker": "charlie",
+      "start": 73.23,
+      "end": 76.17,
+      "text": "Oh no! The next branch is too high. I can't reach it!",
+      "words": [
+        {
+          "w": "Oh",
+          "start": 73.25,
+          "end": 73.422
+        },
+        {
+          "w": "no!",
+          "start": 73.422,
+          "end": 73.651
+        },
+        {
+          "w": "The",
+          "start": 73.651,
+          "end": 73.766
+        },
+        {
+          "w": "next",
+          "start": 73.766,
+          "end": 74.109
+        },
+        {
+          "w": "branch",
+          "start": 74.109,
+          "end": 74.51
+        },
+        {
+          "w": "is",
+          "start": 74.51,
+          "end": 74.625
+        },
+        {
+          "w": "too",
+          "start": 74.625,
+          "end": 74.854
+        },
+        {
+          "w": "high.",
+          "start": 74.854,
+          "end": 75.083
+        },
+        {
+          "w": "I",
+          "start": 75.083,
+          "end": 75.255
+        },
+        {
+          "w": "can't",
+          "start": 75.255,
+          "end": 75.542
+        },
+        {
+          "w": "reach",
+          "start": 75.542,
+          "end": 75.885
+        },
+        {
+          "w": "it!",
+          "start": 75.885,
+          "end": 76.0
+        }
+      ]
+    },
+    {
+      "beat": "sad",
+      "speaker": "narrator",
+      "start": 77.57,
+      "end": 79.83,
+      "text": "Charlie feels stuck, and a little sad.",
+      "words": [
+        {
+          "w": "Charlie",
+          "start": 77.62,
+          "end": 78.071
+        },
+        {
+          "w": "feels",
+          "start": 78.071,
+          "end": 78.408
+        },
+        {
+          "w": "stuck,",
+          "start": 78.408,
+          "end": 78.69
+        },
+        {
+          "w": "and",
+          "start": 78.88,
+          "end": 79.036
+        },
+        {
+          "w": "a",
+          "start": 79.036,
+          "end": 79.191
+        },
+        {
+          "w": "little",
+          "start": 79.191,
+          "end": 79.503
+        },
+        {
+          "w": "sad.",
+          "start": 79.503,
+          "end": 79.71
+        }
+      ]
+    },
+    {
+      "beat": "bobo_help",
+      "speaker": "bobo",
+      "start": 81.43,
+      "end": 84.58,
+      "text": "Don't worry, Charlie! I'll help you. Climb on my shoulders!",
+      "words": [
+        {
+          "w": "Don't",
+          "start": 81.46,
+          "end": 81.805
+        },
+        {
+          "w": "worry,",
+          "start": 81.805,
+          "end": 82.092
+        },
+        {
+          "w": "Charlie!",
+          "start": 82.092,
+          "end": 82.552
+        },
+        {
+          "w": "I'll",
+          "start": 82.552,
+          "end": 82.724
+        },
+        {
+          "w": "help",
+          "start": 82.724,
+          "end": 83.011
+        },
+        {
+          "w": "you.",
+          "start": 83.011,
+          "end": 83.184
+        },
+        {
+          "w": "Climb",
+          "start": 83.184,
+          "end": 83.528
+        },
+        {
+          "w": "on",
+          "start": 83.528,
+          "end": 83.701
+        },
+        {
+          "w": "my",
+          "start": 83.701,
+          "end": 83.93
+        },
+        {
+          "w": "shoulders!",
+          "start": 83.93,
+          "end": 84.39
+        }
+      ]
+    },
+    {
+      "beat": "up",
+      "speaker": "narrator",
+      "start": 86.18,
+      "end": 88.17,
+      "text": "Bobo lifts Charlie up, up, up...",
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 86.22,
+          "end": 86.649
+        },
+        {
+          "w": "lifts",
+          "start": 86.649,
+          "end": 87.017
+        },
+        {
+          "w": "Charlie",
+          "start": 87.017,
+          "end": 87.508
+        },
+        {
+          "w": "up,",
+          "start": 87.508,
+          "end": 87.692
+        },
+        {
+          "w": "up,",
+          "start": 87.692,
+          "end": 87.876
+        },
+        {
+          "w": "up...",
+          "start": 87.876,
+          "end": 88.06
+        }
+      ]
+    },
+    {
+      "beat": "reach",
+      "speaker": "charlie",
+      "start": 90.37,
+      "end": 92.54,
+      "text": "I can reach it! Thank you, Bobo!",
+      "words": [
+        {
+          "w": "I",
+          "start": 90.4,
+          "end": 90.595
+        },
+        {
+          "w": "can",
+          "start": 90.595,
+          "end": 90.855
+        },
+        {
+          "w": "reach",
+          "start": 90.855,
+          "end": 91.245
+        },
+        {
+          "w": "it!",
+          "start": 91.245,
+          "end": 91.375
+        },
+        {
+          "w": "Thank",
+          "start": 91.375,
+          "end": 91.7
+        },
+        {
+          "w": "you,",
+          "start": 91.7,
+          "end": 91.895
+        },
+        {
+          "w": "Bobo!",
+          "start": 91.895,
+          "end": 92.35
+        }
+      ]
+    },
+    {
+      "beat": "top",
+      "speaker": "narrator",
+      "start": 94.54,
+      "end": 98.65,
+      "text": "Charlie climbs to the very top, and finds the big, juicy mango!",
+      "words": [
+        {
+          "w": "Charlie",
+          "start": 94.58,
+          "end": 95.012
+        },
+        {
+          "w": "climbs",
+          "start": 95.012,
+          "end": 95.39
+        },
+        {
+          "w": "to",
+          "start": 95.39,
+          "end": 95.552
+        },
+        {
+          "w": "the",
+          "start": 95.552,
+          "end": 95.66
+        },
+        {
+          "w": "very",
+          "start": 95.66,
+          "end": 95.93
+        },
+        {
+          "w": "top,",
+          "start": 95.93,
+          "end": 96.2
+        },
+        {
+          "w": "and",
+          "start": 96.54,
+          "end": 96.728
+        },
+        {
+          "w": "finds",
+          "start": 96.728,
+          "end": 97.165
+        },
+        {
+          "w": "the",
+          "start": 97.165,
+          "end": 97.29
+        },
+        {
+          "w": "big,",
+          "start": 97.29,
+          "end": 97.54
+        },
+        {
+          "w": "juicy",
+          "start": 97.69,
+          "end": 98.125
+        },
+        {
+          "w": "mango!",
+          "start": 98.125,
+          "end": 98.56
+        }
+      ]
+    },
+    {
+      "beat": "share",
+      "speaker": "charlie",
+      "start": 100.65,
+      "end": 103.84,
+      "text": "Bobo, let's share it! Adventures are better with friends!",
+      "words": [
+        {
+          "w": "Bobo,",
+          "start": 100.71,
+          "end": 101.168
+        },
+        {
+          "w": "let's",
+          "start": 101.168,
+          "end": 101.495
+        },
+        {
+          "w": "share",
+          "start": 101.495,
+          "end": 101.757
+        },
+        {
+          "w": "it!",
+          "start": 101.757,
+          "end": 101.888
+        },
+        {
+          "w": "Adventures",
+          "start": 101.888,
+          "end": 102.542
+        },
+        {
+          "w": "are",
+          "start": 102.542,
+          "end": 102.738
+        },
+        {
+          "w": "better",
+          "start": 102.738,
+          "end": 103.066
+        },
+        {
+          "w": "with",
+          "start": 103.066,
+          "end": 103.262
+        },
+        {
+          "w": "friends!",
+          "start": 103.262,
+          "end": 103.72
+        }
+      ]
+    },
+    {
+      "beat": "bobo_yum",
+      "speaker": "bobo",
+      "start": 105.04,
+      "end": 106.38,
+      "text": "Yummy! Thank you, Charlie!",
+      "words": [
+        {
+          "w": "Yummy!",
+          "start": 105.07,
+          "end": 105.346
+        },
+        {
+          "w": "Thank",
+          "start": 105.346,
+          "end": 105.622
+        },
+        {
+          "w": "you,",
+          "start": 105.622,
+          "end": 105.788
+        },
+        {
+          "w": "Charlie!",
+          "start": 105.788,
+          "end": 106.23
+        }
+      ]
+    },
+    {
+      "beat": "groom",
+      "speaker": "narrator",
+      "start": 107.98,
+      "end": 111.11,
+      "text": "And Charlie cleans Bobo's fur, to say, I like you!",
+      "words": [
+        {
+          "w": "And",
+          "start": 108.06,
+          "end": 108.245
+        },
+        {
+          "w": "Charlie",
+          "start": 108.245,
+          "end": 108.738
+        },
+        {
+          "w": "cleans",
+          "start": 108.738,
+          "end": 109.17
+        },
+        {
+          "w": "Bobo's",
+          "start": 109.17,
+          "end": 109.663
+        },
+        {
+          "w": "fur,",
+          "start": 109.663,
+          "end": 109.91
+        },
+        {
+          "w": "to",
+          "start": 109.91,
+          "end": 110.095
+        },
+        {
+          "w": "say,",
+          "start": 110.095,
+          "end": 110.342
+        },
+        {
+          "w": "I",
+          "start": 110.342,
+          "end": 110.527
+        },
+        {
+          "w": "like",
+          "start": 110.527,
+          "end": 110.835
+        },
+        {
+          "w": "you!",
+          "start": 110.835,
+          "end": 111.02
+        }
+      ]
+    },
+    {
+      "beat": "lesson",
+      "speaker": "narrator",
+      "start": 113.51,
+      "end": 115.85,
+      "text": "Good friends help each other, every day.",
+      "words": [
+        {
+          "w": "Good",
+          "start": 113.56,
+          "end": 113.773
+        },
+        {
+          "w": "friends",
+          "start": 113.773,
+          "end": 114.145
+        },
+        {
+          "w": "help",
+          "start": 114.145,
+          "end": 114.411
+        },
+        {
+          "w": "each",
+          "start": 114.411,
+          "end": 114.677
+        },
+        {
+          "w": "other,",
+          "start": 114.677,
+          "end": 114.89
+        },
+        {
+          "w": "every",
+          "start": 115.13,
+          "end": 115.469
+        },
+        {
+          "w": "day.",
+          "start": 115.469,
+          "end": 115.74
+        }
+      ]
+    },
+    {
+      "beat": "again",
+      "speaker": "narrator",
+      "start": 118.85,
+      "end": 121.26,
+      "text": "Now, let's play and remember, with Charlie!",
+      "words": [
+        {
+          "w": "Now,",
+          "start": 118.9,
+          "end": 119.146
+        },
+        {
+          "w": "let's",
+          "start": 119.146,
+          "end": 119.453
+        },
+        {
+          "w": "play",
+          "start": 119.453,
+          "end": 119.759
+        },
+        {
+          "w": "and",
+          "start": 119.759,
+          "end": 119.944
+        },
+        {
+          "w": "remember,",
+          "start": 119.944,
+          "end": 120.435
+        },
+        {
+          "w": "with",
+          "start": 120.435,
+          "end": 120.619
+        },
+        {
+          "w": "Charlie!",
+          "start": 120.619,
+          "end": 121.11
+        }
+      ]
+    },
+    {
+      "beat": "s_q",
+      "speaker": "narrator",
+      "start": 123.66,
+      "end": 125.0,
+      "text": "What does a monkey say?",
+      "words": [
+        {
+          "w": "What",
+          "start": 123.73,
+          "end": 123.945
+        },
+        {
+          "w": "does",
+          "start": 123.945,
+          "end": 124.16
+        },
+        {
+          "w": "a",
+          "start": 124.16,
+          "end": 124.322
+        },
+        {
+          "w": "monkey",
+          "start": 124.322,
+          "end": 124.645
+        },
+        {
+          "w": "say?",
+          "start": 124.645,
+          "end": 124.86
+        }
+      ]
+    },
+    {
+      "beat": "s_a",
+      "speaker": "charlie",
+      "start": 130.0,
+      "end": 131.4,
+      "text": "Ooh ooh! Ah ah!",
+      "words": [
+        {
+          "w": "Ooh",
+          "start": 130.04,
+          "end": 130.335
+        },
+        {
+          "w": "ooh!",
+          "start": 130.335,
+          "end": 130.63
+        },
+        {
+          "w": "Ah",
+          "start": 130.63,
+          "end": 130.925
+        },
+        {
+          "w": "ah!",
+          "start": 130.925,
+          "end": 131.22
+        }
+      ]
+    },
+    {
+      "beat": "s_turn",
+      "speaker": "narrator",
+      "start": 133.2,
+      "end": 135.16,
+      "text": "Your turn! Say it like Charlie!",
+      "words": [
+        {
+          "w": "Your",
+          "start": 133.25,
+          "end": 133.446
+        },
+        {
+          "w": "turn!",
+          "start": 133.446,
+          "end": 133.771
+        },
+        {
+          "w": "Say",
+          "start": 133.771,
+          "end": 134.032
+        },
+        {
+          "w": "it",
+          "start": 134.032,
+          "end": 134.163
+        },
+        {
+          "w": "like",
+          "start": 134.163,
+          "end": 134.489
+        },
+        {
+          "w": "Charlie!",
+          "start": 134.489,
+          "end": 135.01
+        }
+      ]
+    },
+    {
+      "beat": "s_b",
+      "speaker": "charlie",
+      "start": 138.36,
+      "end": 139.76,
+      "text": "Ooh ooh! Ah ah!",
+      "words": [
+        {
+          "w": "Ooh",
+          "start": 138.4,
+          "end": 138.695
+        },
+        {
+          "w": "ooh!",
+          "start": 138.695,
+          "end": 138.99
+        },
+        {
+          "w": "Ah",
+          "start": 138.99,
+          "end": 139.285
+        },
+        {
+          "w": "ah!",
+          "start": 139.285,
+          "end": 139.58
+        }
+      ]
+    },
+    {
+      "beat": "q_intro",
+      "speaker": "narrator",
+      "start": 142.56,
+      "end": 144.35,
+      "text": "Do you remember the monkey facts?",
+      "words": [
+        {
+          "w": "Do",
+          "start": 142.63,
+          "end": 142.852
+        },
+        {
+          "w": "you",
+          "start": 142.852,
+          "end": 143.019
+        },
+        {
+          "w": "remember",
+          "start": 143.019,
+          "end": 143.463
+        },
+        {
+          "w": "the",
+          "start": 143.463,
+          "end": 143.574
+        },
+        {
+          "w": "monkey",
+          "start": 143.574,
+          "end": 143.907
+        },
+        {
+          "w": "facts?",
+          "start": 143.907,
+          "end": 144.24
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "narrator",
+      "start": 146.55,
+      "end": 148.55,
+      "text": "What can some monkeys hold on with?",
+      "words": [
+        {
+          "w": "What",
+          "start": 146.58,
+          "end": 146.823
+        },
+        {
+          "w": "can",
+          "start": 146.823,
+          "end": 147.065
+        },
+        {
+          "w": "some",
+          "start": 147.065,
+          "end": 147.308
+        },
+        {
+          "w": "monkeys",
+          "start": 147.308,
+          "end": 147.732
+        },
+        {
+          "w": "hold",
+          "start": 147.732,
+          "end": 148.096
+        },
+        {
+          "w": "on",
+          "start": 148.096,
+          "end": 148.278
+        },
+        {
+          "w": "with?",
+          "start": 148.278,
+          "end": 148.46
+        }
+      ]
+    },
+    {
+      "beat": "a1",
+      "speaker": "narrator",
+      "start": 154.55,
+      "end": 155.7,
+      "text": "Their long tails!",
+      "words": [
+        {
+          "w": "Their",
+          "start": 154.59,
+          "end": 154.823
+        },
+        {
+          "w": "long",
+          "start": 154.823,
+          "end": 155.134
+        },
+        {
+          "w": "tails!",
+          "start": 155.134,
+          "end": 155.6
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "narrator",
+      "start": 158.7,
+      "end": 160.1,
+      "text": "What do monkeys eat?",
+      "words": [
+        {
+          "w": "What",
+          "start": 158.77,
+          "end": 159.033
+        },
+        {
+          "w": "do",
+          "start": 159.033,
+          "end": 159.296
+        },
+        {
+          "w": "monkeys",
+          "start": 159.296,
+          "end": 159.757
+        },
+        {
+          "w": "eat?",
+          "start": 159.757,
+          "end": 160.02
+        }
+      ]
+    },
+    {
+      "beat": "a2",
+      "speaker": "narrator",
+      "start": 166.1,
+      "end": 167.68,
+      "text": "Fruit, leaves, and seeds!",
+      "words": [
+        {
+          "w": "Fruit,",
+          "start": 166.15,
+          "end": 166.561
+        },
+        {
+          "w": "leaves,",
+          "start": 166.561,
+          "end": 166.973
+        },
+        {
+          "w": "and",
+          "start": 166.973,
+          "end": 167.179
+        },
+        {
+          "w": "seeds!",
+          "start": 167.179,
+          "end": 167.59
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "narrator",
+      "start": 170.68,
+      "end": 172.98,
+      "text": "How do monkey friends say, I like you?",
+      "words": [
+        {
+          "w": "How",
+          "start": 170.73,
+          "end": 170.943
+        },
+        {
+          "w": "do",
+          "start": 170.943,
+          "end": 171.156
+        },
+        {
+          "w": "monkey",
+          "start": 171.156,
+          "end": 171.475
+        },
+        {
+          "w": "friends",
+          "start": 171.475,
+          "end": 171.847
+        },
+        {
+          "w": "say,",
+          "start": 171.847,
+          "end": 172.06
+        },
+        {
+          "w": "I",
+          "start": 172.18,
+          "end": 172.355
+        },
+        {
+          "w": "like",
+          "start": 172.355,
+          "end": 172.645
+        },
+        {
+          "w": "you?",
+          "start": 172.645,
+          "end": 172.82
+        }
+      ]
+    },
+    {
+      "beat": "a3",
+      "speaker": "narrator",
+      "start": 178.98,
+      "end": 180.56,
+      "text": "They clean each other's fur!",
+      "words": [
+        {
+          "w": "They",
+          "start": 179.04,
+          "end": 179.221
+        },
+        {
+          "w": "clean",
+          "start": 179.221,
+          "end": 179.584
+        },
+        {
+          "w": "each",
+          "start": 179.584,
+          "end": 179.886
+        },
+        {
+          "w": "other's",
+          "start": 179.886,
+          "end": 180.188
+        },
+        {
+          "w": "fur!",
+          "start": 180.188,
+          "end": 180.43
+        }
+      ]
+    },
+    {
+      "beat": "h_turn",
+      "speaker": "narrator",
+      "start": 182.16,
+      "end": 184.8,
+      "text": "Can you give your friend a big hug? Your turn!",
+      "words": [
+        {
+          "w": "Can",
+          "start": 182.2,
+          "end": 182.392
+        },
+        {
+          "w": "you",
+          "start": 182.392,
+          "end": 182.536
+        },
+        {
+          "w": "give",
+          "start": 182.536,
+          "end": 182.729
+        },
+        {
+          "w": "your",
+          "start": 182.729,
+          "end": 182.873
+        },
+        {
+          "w": "friend",
+          "start": 182.873,
+          "end": 183.161
+        },
+        {
+          "w": "a",
+          "start": 183.161,
+          "end": 183.305
+        },
+        {
+          "w": "big",
+          "start": 183.305,
+          "end": 183.498
+        },
+        {
+          "w": "hug?",
+          "start": 183.498,
+          "end": 183.69
+        },
+        {
+          "w": "Your",
+          "start": 183.99,
+          "end": 184.264
+        },
+        {
+          "w": "turn!",
+          "start": 184.264,
+          "end": 184.72
+        }
+      ]
+    },
+    {
+      "beat": "h_go",
+      "speaker": "bobo",
+      "start": 188.2,
+      "end": 188.74,
+      "text": "Hug!",
+      "words": [
+        {
+          "w": "Hug!",
+          "start": 188.24,
+          "end": 188.67
+        }
+      ]
+    },
+    {
+      "beat": "l_intro",
+      "speaker": "bobo",
+      "start": 191.74,
+      "end": 192.91,
+      "text": "Let's say it together!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 191.77,
+          "end": 192.051
+        },
+        {
+          "w": "say",
+          "start": 192.051,
+          "end": 192.275
+        },
+        {
+          "w": "it",
+          "start": 192.275,
+          "end": 192.387
+        },
+        {
+          "w": "together!",
+          "start": 192.387,
+          "end": 192.78
+        }
+      ]
+    },
+    {
+      "beat": "l1",
+      "speaker": "charlie",
+      "start": 194.31,
+      "end": 195.93,
+      "text": "Friends help each other!",
+      "words": [
+        {
+          "w": "Friends",
+          "start": 194.34,
+          "end": 194.8
+        },
+        {
+          "w": "help",
+          "start": 194.8,
+          "end": 195.129
+        },
+        {
+          "w": "each",
+          "start": 195.129,
+          "end": 195.457
+        },
+        {
+          "w": "other!",
+          "start": 195.457,
+          "end": 195.72
+        }
+      ]
+    },
+    {
+      "beat": "l_turn",
+      "speaker": "narrator",
+      "start": 197.93,
+      "end": 198.89,
+      "text": "Your turn!",
+      "words": [
+        {
+          "w": "Your",
+          "start": 197.97,
+          "end": 198.247
+        },
+        {
+          "w": "turn!",
+          "start": 198.247,
+          "end": 198.71
+        }
+      ]
+    },
+    {
+      "beat": "l2",
+      "speaker": "charlie",
+      "start": 202.49,
+      "end": 204.11,
+      "text": "Friends help each other!",
+      "words": [
+        {
+          "w": "Friends",
+          "start": 202.52,
+          "end": 202.98
+        },
+        {
+          "w": "help",
+          "start": 202.98,
+          "end": 203.309
+        },
+        {
+          "w": "each",
+          "start": 203.309,
+          "end": 203.637
+        },
+        {
+          "w": "other!",
+          "start": 203.637,
+          "end": 203.9
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "charlie",
+      "start": 206.71,
+      "end": 208.86,
+      "text": "Bye-bye, friends! Ooh ooh, ah ah!",
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 206.74,
+          "end": 207.351
+        },
+        {
+          "w": "friends!",
+          "start": 207.351,
+          "end": 207.826
+        },
+        {
+          "w": "Ooh",
+          "start": 207.826,
+          "end": 208.029
+        },
+        {
+          "w": "ooh,",
+          "start": 208.029,
+          "end": 208.233
+        },
+        {
+          "w": "ah",
+          "start": 208.233,
+          "end": 208.436
+        },
+        {
+          "w": "ah!",
+          "start": 208.436,
+          "end": 208.64
+        }
+      ]
+    },
+    {
+      "beat": "bye_b",
+      "speaker": "bobo",
+      "start": 209.46,
+      "end": 210.18,
+      "text": "Bye-bye!",
+      "words": [
+        {
+          "w": "Bye-bye!",
+          "start": 209.49,
+          "end": 210.05
+        }
+      ]
+    },
+    {
+      "beat": "ask",
+      "speaker": "narrator",
+      "start": 211.38,
+      "end": 212.87,
+      "text": "How do YOU help your friends?",
+      "words": [
+        {
+          "w": "How",
+          "start": 211.45,
+          "end": 211.648
+        },
+        {
+          "w": "do",
+          "start": 211.648,
+          "end": 211.847
+        },
+        {
+          "w": "YOU",
+          "start": 211.847,
+          "end": 211.996
+        },
+        {
+          "w": "help",
+          "start": 211.996,
+          "end": 212.244
+        },
+        {
+          "w": "your",
+          "start": 212.244,
+          "end": 212.393
+        },
+        {
+          "w": "friends?",
+          "start": 212.393,
+          "end": 212.74
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "guess",
+      "start": 0,
+      "visual": "Who is hanging from the tree?",
+      "end": 4.41
+    },
+    {
+      "id": "guess2",
+      "start": 4.41,
+      "visual": "Look at that long, curly tail! Can you guess?",
+      "end": 11.74
+    },
+    {
+      "id": "reveal",
+      "start": 11.74,
+      "visual": "It's... a monkey!",
+      "end": 14.3
+    },
+    {
+      "id": "hello",
+      "start": 14.3,
+      "visual": "Hi! I'm Charlie the monkey!",
+      "end": 17.1
+    },
+    {
+      "id": "bobo_hi",
+      "start": 17.1,
+      "visual": "Hi, Charlie! I'm Bobo!",
+      "end": 20.21
+    },
+    {
+      "id": "sound_q",
+      "start": 20.21,
+      "visual": "What does a monkey say?",
+      "end": 22.75
+    },
+    {
+      "id": "sound1",
+      "start": 22.75,
+      "visual": "Ooh ooh! Ah ah!",
+      "end": 25.75
+    },
+    {
+      "id": "your_turn",
+      "start": 25.75,
+      "visual": "Can you say it like Charlie? Your turn!",
+      "end": 31.38
+    },
+    {
+      "id": "sound2",
+      "start": 31.38,
+      "visual": "Ooh ooh! Ah ah!",
+      "end": 34.38
+    },
+    {
+      "id": "facts",
+      "start": 34.38,
+      "visual": "Let's learn three monkey facts!",
+      "end": 37.79
+    },
+    {
+      "id": "fact1",
+      "start": 37.79,
+      "visual": "Fact one. Some monkeys can hold on to branches, with their long tails!",
+      "end": 45.07
+    },
+    {
+      "id": "fact2",
+      "start": 45.07,
+      "visual": "Fact two. Monkeys eat lots of fruit, leaves, and seeds.",
+      "end": 51.47
+    },
+    {
+      "id": "fact3",
+      "start": 51.47,
+      "visual": "Fact three. Monkey friends clean each other's fur. That's how they say, I like you!",
+      "end": 59.26
+    },
+    {
+      "id": "story",
+      "start": 59.26,
+      "visual": "Today, Charlie wants to go on a big adventure.",
+      "end": 63.19
+    },
+    {
+      "id": "plan",
+      "start": 63.19,
+      "visual": "I want to reach the top of the tallest tree! There's a yummy mango up there!",
+      "end": 68.88
+    },
+    {
+      "id": "climb",
+      "start": 68.88,
+      "visual": "Charlie climbs, and climbs...",
+      "end": 73.03
+    },
+    {
+      "id": "stuck",
+      "start": 73.03,
+      "visual": "Oh no! The next branch is too high. I can't reach it!",
+      "end": 77.37
+    },
+    {
+      "id": "sad",
+      "start": 77.37,
+      "visual": "Charlie feels stuck, and a little sad.",
+      "end": 81.23
+    },
+    {
+      "id": "bobo_help",
+      "start": 81.23,
+      "visual": "Don't worry, Charlie! I'll help you. Climb on my shoulders!",
+      "end": 85.98
+    },
+    {
+      "id": "up",
+      "start": 85.98,
+      "visual": "Bobo lifts Charlie up, up, up...",
+      "end": 90.17
+    },
+    {
+      "id": "reach",
+      "start": 90.17,
+      "visual": "I can reach it! Thank you, Bobo!",
+      "end": 94.34
+    },
+    {
+      "id": "top",
+      "start": 94.34,
+      "visual": "Charlie climbs to the very top, and finds the big, juicy mango!",
+      "end": 100.45
+    },
+    {
+      "id": "share",
+      "start": 100.45,
+      "visual": "Bobo, let's share it! Adventures are better with friends!",
+      "end": 104.84
+    },
+    {
+      "id": "bobo_yum",
+      "start": 104.84,
+      "visual": "Yummy! Thank you, Charlie!",
+      "end": 107.78
+    },
+    {
+      "id": "groom",
+      "start": 107.78,
+      "visual": "And Charlie cleans Bobo's fur, to say, I like you!",
+      "end": 113.31
+    },
+    {
+      "id": "lesson",
+      "start": 113.31,
+      "visual": "Good friends help each other, every day.",
+      "end": 118.65
+    },
+    {
+      "id": "again",
+      "start": 118.65,
+      "visual": "Now, let's play and remember, with Charlie!",
+      "end": 123.46
+    },
+    {
+      "id": "s_q",
+      "start": 123.46,
+      "visual": "What does a monkey say?",
+      "end": 129.8
+    },
+    {
+      "id": "s_a",
+      "start": 129.8,
+      "visual": "Ooh ooh! Ah ah!",
+      "end": 133.0
+    },
+    {
+      "id": "s_turn",
+      "start": 133.0,
+      "visual": "Your turn! Say it like Charlie!",
+      "end": 138.16
+    },
+    {
+      "id": "s_b",
+      "start": 138.16,
+      "visual": "Ooh ooh! Ah ah!",
+      "end": 142.36
+    },
+    {
+      "id": "q_intro",
+      "start": 142.36,
+      "visual": "Do you remember the monkey facts?",
+      "end": 146.35
+    },
+    {
+      "id": "q1",
+      "start": 146.35,
+      "visual": "What can some monkeys hold on with?",
+      "end": 154.35
+    },
+    {
+      "id": "a1",
+      "start": 154.35,
+      "visual": "Their long tails!",
+      "end": 158.5
+    },
+    {
+      "id": "q2",
+      "start": 158.5,
+      "visual": "What do monkeys eat?",
+      "end": 165.9
+    },
+    {
+      "id": "a2",
+      "start": 165.9,
+      "visual": "Fruit, leaves, and seeds!",
+      "end": 170.48
+    },
+    {
+      "id": "q3",
+      "start": 170.48,
+      "visual": "How do monkey friends say, I like you?",
+      "end": 178.78
+    },
+    {
+      "id": "a3",
+      "start": 178.78,
+      "visual": "They clean each other's fur!",
+      "end": 181.96
+    },
+    {
+      "id": "h_turn",
+      "start": 181.96,
+      "visual": "Can you give your friend a big hug? Your turn!",
+      "end": 188.0
+    },
+    {
+      "id": "h_go",
+      "start": 188.0,
+      "visual": "Hug!",
+      "end": 191.54
+    },
+    {
+      "id": "l_intro",
+      "start": 191.54,
+      "visual": "Let's say it together!",
+      "end": 194.11
+    },
+    {
+      "id": "l1",
+      "start": 194.11,
+      "visual": "Friends help each other!",
+      "end": 197.73
+    },
+    {
+      "id": "l_turn",
+      "start": 197.73,
+      "visual": "Your turn!",
+      "end": 202.29
+    },
+    {
+      "id": "l2",
+      "start": 202.29,
+      "visual": "Friends help each other!",
+      "end": 206.51
+    },
+    {
+      "id": "bye",
+      "start": 206.51,
+      "visual": "Bye-bye, friends! Ooh ooh, ah ah!",
+      "end": 209.26
+    },
+    {
+      "id": "bye_b",
+      "start": 209.26,
+      "visual": "Bye-bye!",
+      "end": 211.18
+    },
+    {
+      "id": "ask",
+      "start": 211.18,
+      "visual": "How do YOU help your friends?",
+      "end": 215.9
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

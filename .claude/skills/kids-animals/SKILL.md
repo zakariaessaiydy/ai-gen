@@ -1,6 +1,6 @@
 ---
 name: kids-animals
-description: 🦁 Animated ANIMAL stories for kids (ages 2–7) on Tiny Sparks — meet an animal (its sound, home, food, one amazing fact) and watch a tiny story starring it, using the Critter rig (bear, bunny, cat, fox, lion, mouse, panda, pig, owl, frog) and the Meadow/Forest/Underwater sets. Use for "animal video for kids", "animal sounds", "story with animals", "farm/jungle/sea animals for kids". Read make-kids first.
+description: 🦁 Animated ANIMAL stories for kids (ages 2–7) on Tiny Sparks — meet an animal (its sound, home, food, one amazing fact) and watch a tiny story starring it, using the Critter rig (bear, bunny, cat, fox, lion, mouse, panda, pig, owl, frog, monkey) and the Meadow/Forest/Underwater sets. Use for "animal video for kids", "animal sounds", "story with animals", "farm/jungle/sea animals for kids". Read make-kids first.
 ---
 
 # kids-animals — meet them, hear them, love them
@@ -25,7 +25,7 @@ Read `.claude/skills/make-kids/SKILL.md` first.
 
 ## Species on the rig (Critter)
 
-bear · bunny · cat · fox · lion · mouse · panda · pig · owl · frog — colour each with
+bear · bunny · cat · fox · lion · mouse · panda · pig · owl · frog · monkey (added Day 18) — colour each with
 fur/fur2/dark; accessories (bow, scarf, party hat) for personality. Other animals (elephant,
 giraffe, fish, duck…) need a new species in `critter.tsx` first (same face, new ears/body
 details) — add it to the model sheet zoo and re-render character.png.
