@@ -1,0 +1,2334 @@
+{
+ "title": "Count from 1 to 10 (Tiny Sparks original)",
+ "bpm": 100.0,
+ "beatsPerBar": 4,
+ "secondsPerBeat": 0.6,
+ "durationSec": 165.2,
+ "introBars": 2,
+ "chords": [
+  {
+   "t": 0.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 2.4,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 4.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 7.2,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 9.6,
+   "dur": 2.4,
+   "chord": "Am"
+  },
+  {
+   "t": 12.0,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 14.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 16.8,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 19.2,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 21.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 24.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 26.4,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 28.8,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 31.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 33.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 36.0,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 38.4,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 40.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 43.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 45.6,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 48.0,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 50.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 52.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 55.2,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 57.6,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 60.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 62.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 64.8,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 67.2,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 69.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 72.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 74.4,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 76.8,
+   "dur": 2.4,
+   "chord": "Am"
+  },
+  {
+   "t": 79.2,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 81.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 84.0,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 86.4,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 88.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 91.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 93.6,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 96.0,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 98.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 100.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 103.2,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 105.6,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 108.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 110.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 112.8,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 115.2,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 117.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 120.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 122.4,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 124.8,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 127.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 129.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 132.0,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 134.4,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 136.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 139.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 141.6,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 144.0,
+   "dur": 2.4,
+   "chord": "Am"
+  },
+  {
+   "t": 146.4,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 148.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 151.2,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 153.6,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 156.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 158.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 160.8,
+   "dur": 2.4,
+   "chord": "C"
+  }
+ ],
+ "notes": [
+  {
+   "t": 4.8,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "One,"
+  },
+  {
+   "t": 5.4,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "two,"
+  },
+  {
+   "t": 6.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "three,"
+  },
+  {
+   "t": 6.6,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "four,"
+  },
+  {
+   "t": 7.2,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "five!"
+  },
+  {
+   "t": 9.6,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "Six,"
+  },
+  {
+   "t": 10.2,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "sev"
+  },
+  {
+   "t": 10.5,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "en,"
+  },
+  {
+   "t": 10.8,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "eight,"
+  },
+  {
+   "t": 12.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "nine,"
+  },
+  {
+   "t": 12.6,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "ten!"
+  },
+  {
+   "t": 13.2,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "_"
+  },
+  {
+   "t": 14.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "Count"
+  },
+  {
+   "t": 15.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "with"
+  },
+  {
+   "t": 15.6,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "me,"
+  },
+  {
+   "t": 16.8,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "count"
+  },
+  {
+   "t": 17.4,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "with"
+  },
+  {
+   "t": 18.0,
+   "dur": 1.2,
+   "midi": 69,
+   "syllable": "me,"
+  },
+  {
+   "t": 19.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "we"
+  },
+  {
+   "t": 19.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "can"
+  },
+  {
+   "t": 20.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "count"
+  },
+  {
+   "t": 21.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "from"
+  },
+  {
+   "t": 21.6,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "one"
+  },
+  {
+   "t": 22.2,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "to"
+  },
+  {
+   "t": 22.8,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "ten!"
+  },
+  {
+   "t": 24.0,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Num"
+  },
+  {
+   "t": 24.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "ber"
+  },
+  {
+   "t": 25.2,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "one!"
+  },
+  {
+   "t": 28.8,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "One"
+  },
+  {
+   "t": 29.1,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "lit"
+  },
+  {
+   "t": 29.4,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "tle"
+  },
+  {
+   "t": 29.7,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "li"
+  },
+  {
+   "t": 30.0,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "on"
+  },
+  {
+   "t": 30.3,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "says"
+  },
+  {
+   "t": 30.6,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "roar!"
+  },
+  {
+   "t": 33.6,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Num"
+  },
+  {
+   "t": 34.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "ber"
+  },
+  {
+   "t": 34.8,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "two!"
+  },
+  {
+   "t": 38.4,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "Two"
+  },
+  {
+   "t": 38.7,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "lit"
+  },
+  {
+   "t": 39.0,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "tle"
+  },
+  {
+   "t": 39.3,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "pig"
+  },
+  {
+   "t": 39.6,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "gies"
+  },
+  {
+   "t": 39.9,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "say"
+  },
+  {
+   "t": 40.2,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "oink!"
+  },
+  {
+   "t": 43.2,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Num"
+  },
+  {
+   "t": 43.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "ber"
+  },
+  {
+   "t": 44.4,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "three!"
+  },
+  {
+   "t": 48.0,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "Three"
+  },
+  {
+   "t": 48.3,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "lit"
+  },
+  {
+   "t": 48.6,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "tle"
+  },
+  {
+   "t": 48.9,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "kit"
+  },
+  {
+   "t": 49.2,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "tens"
+  },
+  {
+   "t": 49.5,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "say"
+  },
+  {
+   "t": 49.8,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "meow!"
+  },
+  {
+   "t": 52.8,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Num"
+  },
+  {
+   "t": 53.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "ber"
+  },
+  {
+   "t": 54.0,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "four!"
+  },
+  {
+   "t": 57.6,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "Four"
+  },
+  {
+   "t": 57.9,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "lit"
+  },
+  {
+   "t": 58.2,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "tle"
+  },
+  {
+   "t": 58.5,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "fox"
+  },
+  {
+   "t": 58.8,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "es"
+  },
+  {
+   "t": 59.1,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "run"
+  },
+  {
+   "t": 59.4,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "fast!"
+  },
+  {
+   "t": 62.4,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Num"
+  },
+  {
+   "t": 63.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "ber"
+  },
+  {
+   "t": 63.6,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "five!"
+  },
+  {
+   "t": 67.2,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "Five"
+  },
+  {
+   "t": 67.5,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "lit"
+  },
+  {
+   "t": 67.8,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "tle"
+  },
+  {
+   "t": 68.1,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "bun"
+  },
+  {
+   "t": 68.4,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "nies"
+  },
+  {
+   "t": 68.7,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "go"
+  },
+  {
+   "t": 69.0,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "hop!"
+  },
+  {
+   "t": 72.0,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "One,"
+  },
+  {
+   "t": 72.6,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "two,"
+  },
+  {
+   "t": 73.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "three,"
+  },
+  {
+   "t": 73.8,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "four,"
+  },
+  {
+   "t": 74.4,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "five!"
+  },
+  {
+   "t": 76.8,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "Six,"
+  },
+  {
+   "t": 77.4,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "sev"
+  },
+  {
+   "t": 77.7,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "en,"
+  },
+  {
+   "t": 78.0,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "eight,"
+  },
+  {
+   "t": 79.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "nine,"
+  },
+  {
+   "t": 79.8,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "ten!"
+  },
+  {
+   "t": 80.4,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "_"
+  },
+  {
+   "t": 81.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "Count"
+  },
+  {
+   "t": 82.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "with"
+  },
+  {
+   "t": 82.8,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "me,"
+  },
+  {
+   "t": 84.0,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "count"
+  },
+  {
+   "t": 84.6,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "with"
+  },
+  {
+   "t": 85.2,
+   "dur": 1.2,
+   "midi": 69,
+   "syllable": "me,"
+  },
+  {
+   "t": 86.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "we"
+  },
+  {
+   "t": 87.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "can"
+  },
+  {
+   "t": 87.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "count"
+  },
+  {
+   "t": 88.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "from"
+  },
+  {
+   "t": 88.8,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "one"
+  },
+  {
+   "t": 89.4,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "to"
+  },
+  {
+   "t": 90.0,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "ten!"
+  },
+  {
+   "t": 91.2,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Num"
+  },
+  {
+   "t": 91.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "ber"
+  },
+  {
+   "t": 92.4,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "six!"
+  },
+  {
+   "t": 96.0,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "Six"
+  },
+  {
+   "t": 96.3,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "lit"
+  },
+  {
+   "t": 96.6,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "tle"
+  },
+  {
+   "t": 96.9,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "mice"
+  },
+  {
+   "t": 97.2,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "say"
+  },
+  {
+   "t": 97.5,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "squeak,"
+  },
+  {
+   "t": 97.8,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "squeak!"
+  },
+  {
+   "t": 100.8,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Num"
+  },
+  {
+   "t": 101.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "ber"
+  },
+  {
+   "t": 102.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "sev"
+  },
+  {
+   "t": 102.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "en!"
+  },
+  {
+   "t": 105.6,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "Sev"
+  },
+  {
+   "t": 105.9,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "en"
+  },
+  {
+   "t": 106.2,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "pan"
+  },
+  {
+   "t": 106.5,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "das"
+  },
+  {
+   "t": 106.8,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "eat"
+  },
+  {
+   "t": 107.1,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "bam"
+  },
+  {
+   "t": 107.4,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "boo!"
+  },
+  {
+   "t": 110.4,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Num"
+  },
+  {
+   "t": 111.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "ber"
+  },
+  {
+   "t": 111.6,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "eight!"
+  },
+  {
+   "t": 115.2,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "Eight"
+  },
+  {
+   "t": 115.5,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "lit"
+  },
+  {
+   "t": 115.8,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "tle"
+  },
+  {
+   "t": 116.1,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "owls"
+  },
+  {
+   "t": 116.4,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "say"
+  },
+  {
+   "t": 116.7,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "hoo"
+  },
+  {
+   "t": 117.0,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "hoo!"
+  },
+  {
+   "t": 120.0,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Num"
+  },
+  {
+   "t": 120.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "ber"
+  },
+  {
+   "t": 121.2,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "nine!"
+  },
+  {
+   "t": 124.8,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "Nine"
+  },
+  {
+   "t": 125.1,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "lit"
+  },
+  {
+   "t": 125.4,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "tle"
+  },
+  {
+   "t": 125.7,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "frogs"
+  },
+  {
+   "t": 126.0,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "say"
+  },
+  {
+   "t": 126.3,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "rib"
+  },
+  {
+   "t": 126.6,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "bit!"
+  },
+  {
+   "t": 129.6,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Num"
+  },
+  {
+   "t": 130.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "ber"
+  },
+  {
+   "t": 130.8,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "ten!"
+  },
+  {
+   "t": 134.4,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "Ten"
+  },
+  {
+   "t": 134.7,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "bears,"
+  },
+  {
+   "t": 135.0,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "and"
+  },
+  {
+   "t": 135.3,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "one"
+  },
+  {
+   "t": 135.6,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "is"
+  },
+  {
+   "t": 135.9,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "Bo"
+  },
+  {
+   "t": 136.2,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "bo!"
+  },
+  {
+   "t": 139.2,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "One,"
+  },
+  {
+   "t": 139.8,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "two,"
+  },
+  {
+   "t": 140.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "three,"
+  },
+  {
+   "t": 141.0,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "four,"
+  },
+  {
+   "t": 141.6,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "five!"
+  },
+  {
+   "t": 144.0,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "Six,"
+  },
+  {
+   "t": 144.6,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "sev"
+  },
+  {
+   "t": 144.9,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "en,"
+  },
+  {
+   "t": 145.2,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "eight,"
+  },
+  {
+   "t": 146.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "nine,"
+  },
+  {
+   "t": 147.0,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "ten!"
+  },
+  {
+   "t": 147.6,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "_"
+  },
+  {
+   "t": 148.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "Count"
+  },
+  {
+   "t": 149.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "with"
+  },
+  {
+   "t": 150.0,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "me,"
+  },
+  {
+   "t": 151.2,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "count"
+  },
+  {
+   "t": 151.8,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "with"
+  },
+  {
+   "t": 152.4,
+   "dur": 1.2,
+   "midi": 69,
+   "syllable": "me,"
+  },
+  {
+   "t": 153.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "we"
+  },
+  {
+   "t": 154.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "can"
+  },
+  {
+   "t": 154.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "count"
+  },
+  {
+   "t": 155.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "from"
+  },
+  {
+   "t": 156.0,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "one"
+  },
+  {
+   "t": 156.6,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "to"
+  },
+  {
+   "t": 157.2,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "ten!"
+  }
+ ],
+ "lines": [
+  {
+   "text": "One, two, three, four, five!",
+   "start": 4.8,
+   "end": 8.4,
+   "words": [
+    {
+     "w": "One,",
+     "start": 4.8,
+     "end": 5.4
+    },
+    {
+     "w": "two,",
+     "start": 5.4,
+     "end": 6.0
+    },
+    {
+     "w": "three,",
+     "start": 6.0,
+     "end": 6.6
+    },
+    {
+     "w": "four,",
+     "start": 6.6,
+     "end": 7.2
+    },
+    {
+     "w": "five!",
+     "start": 7.2,
+     "end": 8.4
+    }
+   ]
+  },
+  {
+   "text": "Six, seven, eight, nine, ten!",
+   "start": 9.6,
+   "end": 14.4,
+   "words": [
+    {
+     "w": "Six,",
+     "start": 9.6,
+     "end": 10.2
+    },
+    {
+     "w": "seven,",
+     "start": 10.2,
+     "end": 10.8
+    },
+    {
+     "w": "eight,",
+     "start": 10.8,
+     "end": 12.0
+    },
+    {
+     "w": "nine,",
+     "start": 12.0,
+     "end": 12.6
+    },
+    {
+     "w": "ten!",
+     "start": 12.6,
+     "end": 14.4
+    }
+   ]
+  },
+  {
+   "text": "Count with me, count with me,",
+   "start": 14.4,
+   "end": 19.2,
+   "words": [
+    {
+     "w": "Count",
+     "start": 14.4,
+     "end": 15.0
+    },
+    {
+     "w": "with",
+     "start": 15.0,
+     "end": 15.6
+    },
+    {
+     "w": "me,",
+     "start": 15.6,
+     "end": 16.8
+    },
+    {
+     "w": "count",
+     "start": 16.8,
+     "end": 17.4
+    },
+    {
+     "w": "with",
+     "start": 17.4,
+     "end": 18.0
+    },
+    {
+     "w": "me,",
+     "start": 18.0,
+     "end": 19.2
+    }
+   ]
+  },
+  {
+   "text": "we can count from one to ten!",
+   "start": 19.2,
+   "end": 24.0,
+   "words": [
+    {
+     "w": "we",
+     "start": 19.2,
+     "end": 19.8
+    },
+    {
+     "w": "can",
+     "start": 19.8,
+     "end": 20.4
+    },
+    {
+     "w": "count",
+     "start": 20.4,
+     "end": 21.0
+    },
+    {
+     "w": "from",
+     "start": 21.0,
+     "end": 21.6
+    },
+    {
+     "w": "one",
+     "start": 21.6,
+     "end": 22.2
+    },
+    {
+     "w": "to",
+     "start": 22.2,
+     "end": 22.8
+    },
+    {
+     "w": "ten!",
+     "start": 22.8,
+     "end": 24.0
+    }
+   ]
+  },
+  {
+   "text": "Number one!",
+   "start": 24.0,
+   "end": 26.4,
+   "words": [
+    {
+     "w": "Number",
+     "start": 24.0,
+     "end": 25.2
+    },
+    {
+     "w": "one!",
+     "start": 25.2,
+     "end": 26.4
+    }
+   ]
+  },
+  {
+   "text": "One little lion says roar!",
+   "start": 28.8,
+   "end": 31.2,
+   "words": [
+    {
+     "w": "One",
+     "start": 28.8,
+     "end": 29.1
+    },
+    {
+     "w": "little",
+     "start": 29.1,
+     "end": 29.7
+    },
+    {
+     "w": "lion",
+     "start": 29.7,
+     "end": 30.3
+    },
+    {
+     "w": "says",
+     "start": 30.3,
+     "end": 30.6
+    },
+    {
+     "w": "roar!",
+     "start": 30.6,
+     "end": 31.2
+    }
+   ]
+  },
+  {
+   "text": "Number two!",
+   "start": 33.6,
+   "end": 36.0,
+   "words": [
+    {
+     "w": "Number",
+     "start": 33.6,
+     "end": 34.8
+    },
+    {
+     "w": "two!",
+     "start": 34.8,
+     "end": 36.0
+    }
+   ]
+  },
+  {
+   "text": "Two little piggies say oink!",
+   "start": 38.4,
+   "end": 40.8,
+   "words": [
+    {
+     "w": "Two",
+     "start": 38.4,
+     "end": 38.7
+    },
+    {
+     "w": "little",
+     "start": 38.7,
+     "end": 39.3
+    },
+    {
+     "w": "piggies",
+     "start": 39.3,
+     "end": 39.9
+    },
+    {
+     "w": "say",
+     "start": 39.9,
+     "end": 40.2
+    },
+    {
+     "w": "oink!",
+     "start": 40.2,
+     "end": 40.8
+    }
+   ]
+  },
+  {
+   "text": "Number three!",
+   "start": 43.2,
+   "end": 45.6,
+   "words": [
+    {
+     "w": "Number",
+     "start": 43.2,
+     "end": 44.4
+    },
+    {
+     "w": "three!",
+     "start": 44.4,
+     "end": 45.6
+    }
+   ]
+  },
+  {
+   "text": "Three little kittens say meow!",
+   "start": 48.0,
+   "end": 50.4,
+   "words": [
+    {
+     "w": "Three",
+     "start": 48.0,
+     "end": 48.3
+    },
+    {
+     "w": "little",
+     "start": 48.3,
+     "end": 48.9
+    },
+    {
+     "w": "kittens",
+     "start": 48.9,
+     "end": 49.5
+    },
+    {
+     "w": "say",
+     "start": 49.5,
+     "end": 49.8
+    },
+    {
+     "w": "meow!",
+     "start": 49.8,
+     "end": 50.4
+    }
+   ]
+  },
+  {
+   "text": "Number four!",
+   "start": 52.8,
+   "end": 55.2,
+   "words": [
+    {
+     "w": "Number",
+     "start": 52.8,
+     "end": 54.0
+    },
+    {
+     "w": "four!",
+     "start": 54.0,
+     "end": 55.2
+    }
+   ]
+  },
+  {
+   "text": "Four little foxes run fast!",
+   "start": 57.6,
+   "end": 60.0,
+   "words": [
+    {
+     "w": "Four",
+     "start": 57.6,
+     "end": 57.9
+    },
+    {
+     "w": "little",
+     "start": 57.9,
+     "end": 58.5
+    },
+    {
+     "w": "foxes",
+     "start": 58.5,
+     "end": 59.1
+    },
+    {
+     "w": "run",
+     "start": 59.1,
+     "end": 59.4
+    },
+    {
+     "w": "fast!",
+     "start": 59.4,
+     "end": 60.0
+    }
+   ]
+  },
+  {
+   "text": "Number five!",
+   "start": 62.4,
+   "end": 64.8,
+   "words": [
+    {
+     "w": "Number",
+     "start": 62.4,
+     "end": 63.6
+    },
+    {
+     "w": "five!",
+     "start": 63.6,
+     "end": 64.8
+    }
+   ]
+  },
+  {
+   "text": "Five little bunnies go hop!",
+   "start": 67.2,
+   "end": 69.6,
+   "words": [
+    {
+     "w": "Five",
+     "start": 67.2,
+     "end": 67.5
+    },
+    {
+     "w": "little",
+     "start": 67.5,
+     "end": 68.1
+    },
+    {
+     "w": "bunnies",
+     "start": 68.1,
+     "end": 68.7
+    },
+    {
+     "w": "go",
+     "start": 68.7,
+     "end": 69.0
+    },
+    {
+     "w": "hop!",
+     "start": 69.0,
+     "end": 69.6
+    }
+   ]
+  },
+  {
+   "text": "One, two, three, four, five!",
+   "start": 72.0,
+   "end": 75.6,
+   "words": [
+    {
+     "w": "One,",
+     "start": 72.0,
+     "end": 72.6
+    },
+    {
+     "w": "two,",
+     "start": 72.6,
+     "end": 73.2
+    },
+    {
+     "w": "three,",
+     "start": 73.2,
+     "end": 73.8
+    },
+    {
+     "w": "four,",
+     "start": 73.8,
+     "end": 74.4
+    },
+    {
+     "w": "five!",
+     "start": 74.4,
+     "end": 75.6
+    }
+   ]
+  },
+  {
+   "text": "Six, seven, eight, nine, ten!",
+   "start": 76.8,
+   "end": 81.6,
+   "words": [
+    {
+     "w": "Six,",
+     "start": 76.8,
+     "end": 77.4
+    },
+    {
+     "w": "seven,",
+     "start": 77.4,
+     "end": 78.0
+    },
+    {
+     "w": "eight,",
+     "start": 78.0,
+     "end": 79.2
+    },
+    {
+     "w": "nine,",
+     "start": 79.2,
+     "end": 79.8
+    },
+    {
+     "w": "ten!",
+     "start": 79.8,
+     "end": 81.6
+    }
+   ]
+  },
+  {
+   "text": "Count with me, count with me,",
+   "start": 81.6,
+   "end": 86.4,
+   "words": [
+    {
+     "w": "Count",
+     "start": 81.6,
+     "end": 82.2
+    },
+    {
+     "w": "with",
+     "start": 82.2,
+     "end": 82.8
+    },
+    {
+     "w": "me,",
+     "start": 82.8,
+     "end": 84.0
+    },
+    {
+     "w": "count",
+     "start": 84.0,
+     "end": 84.6
+    },
+    {
+     "w": "with",
+     "start": 84.6,
+     "end": 85.2
+    },
+    {
+     "w": "me,",
+     "start": 85.2,
+     "end": 86.4
+    }
+   ]
+  },
+  {
+   "text": "we can count from one to ten!",
+   "start": 86.4,
+   "end": 91.2,
+   "words": [
+    {
+     "w": "we",
+     "start": 86.4,
+     "end": 87.0
+    },
+    {
+     "w": "can",
+     "start": 87.0,
+     "end": 87.6
+    },
+    {
+     "w": "count",
+     "start": 87.6,
+     "end": 88.2
+    },
+    {
+     "w": "from",
+     "start": 88.2,
+     "end": 88.8
+    },
+    {
+     "w": "one",
+     "start": 88.8,
+     "end": 89.4
+    },
+    {
+     "w": "to",
+     "start": 89.4,
+     "end": 90.0
+    },
+    {
+     "w": "ten!",
+     "start": 90.0,
+     "end": 91.2
+    }
+   ]
+  },
+  {
+   "text": "Number six!",
+   "start": 91.2,
+   "end": 93.6,
+   "words": [
+    {
+     "w": "Number",
+     "start": 91.2,
+     "end": 92.4
+    },
+    {
+     "w": "six!",
+     "start": 92.4,
+     "end": 93.6
+    }
+   ]
+  },
+  {
+   "text": "Six little mice say squeak, squeak!",
+   "start": 96.0,
+   "end": 98.4,
+   "words": [
+    {
+     "w": "Six",
+     "start": 96.0,
+     "end": 96.3
+    },
+    {
+     "w": "little",
+     "start": 96.3,
+     "end": 96.9
+    },
+    {
+     "w": "mice",
+     "start": 96.9,
+     "end": 97.2
+    },
+    {
+     "w": "say",
+     "start": 97.2,
+     "end": 97.5
+    },
+    {
+     "w": "squeak,",
+     "start": 97.5,
+     "end": 97.8
+    },
+    {
+     "w": "squeak!",
+     "start": 97.8,
+     "end": 98.4
+    }
+   ]
+  },
+  {
+   "text": "Number seven!",
+   "start": 100.8,
+   "end": 103.2,
+   "words": [
+    {
+     "w": "Number",
+     "start": 100.8,
+     "end": 102.0
+    },
+    {
+     "w": "seven!",
+     "start": 102.0,
+     "end": 103.2
+    }
+   ]
+  },
+  {
+   "text": "Seven pandas eat bamboo!",
+   "start": 105.6,
+   "end": 108.0,
+   "words": [
+    {
+     "w": "Seven",
+     "start": 105.6,
+     "end": 106.2
+    },
+    {
+     "w": "pandas",
+     "start": 106.2,
+     "end": 106.8
+    },
+    {
+     "w": "eat",
+     "start": 106.8,
+     "end": 107.1
+    },
+    {
+     "w": "bamboo!",
+     "start": 107.1,
+     "end": 108.0
+    }
+   ]
+  },
+  {
+   "text": "Number eight!",
+   "start": 110.4,
+   "end": 112.8,
+   "words": [
+    {
+     "w": "Number",
+     "start": 110.4,
+     "end": 111.6
+    },
+    {
+     "w": "eight!",
+     "start": 111.6,
+     "end": 112.8
+    }
+   ]
+  },
+  {
+   "text": "Eight little owls say hoohoo!",
+   "start": 115.2,
+   "end": 117.6,
+   "words": [
+    {
+     "w": "Eight",
+     "start": 115.2,
+     "end": 115.5
+    },
+    {
+     "w": "little",
+     "start": 115.5,
+     "end": 116.1
+    },
+    {
+     "w": "owls",
+     "start": 116.1,
+     "end": 116.4
+    },
+    {
+     "w": "say",
+     "start": 116.4,
+     "end": 116.7
+    },
+    {
+     "w": "hoohoo!",
+     "start": 116.7,
+     "end": 117.6
+    }
+   ]
+  },
+  {
+   "text": "Number nine!",
+   "start": 120.0,
+   "end": 122.4,
+   "words": [
+    {
+     "w": "Number",
+     "start": 120.0,
+     "end": 121.2
+    },
+    {
+     "w": "nine!",
+     "start": 121.2,
+     "end": 122.4
+    }
+   ]
+  },
+  {
+   "text": "Nine little frogs say ribbit!",
+   "start": 124.8,
+   "end": 127.2,
+   "words": [
+    {
+     "w": "Nine",
+     "start": 124.8,
+     "end": 125.1
+    },
+    {
+     "w": "little",
+     "start": 125.1,
+     "end": 125.7
+    },
+    {
+     "w": "frogs",
+     "start": 125.7,
+     "end": 126.0
+    },
+    {
+     "w": "say",
+     "start": 126.0,
+     "end": 126.3
+    },
+    {
+     "w": "ribbit!",
+     "start": 126.3,
+     "end": 127.2
+    }
+   ]
+  },
+  {
+   "text": "Number ten!",
+   "start": 129.6,
+   "end": 132.0,
+   "words": [
+    {
+     "w": "Number",
+     "start": 129.6,
+     "end": 130.8
+    },
+    {
+     "w": "ten!",
+     "start": 130.8,
+     "end": 132.0
+    }
+   ]
+  },
+  {
+   "text": "Ten bears, and one is Bobo!",
+   "start": 134.4,
+   "end": 136.8,
+   "words": [
+    {
+     "w": "Ten",
+     "start": 134.4,
+     "end": 134.7
+    },
+    {
+     "w": "bears,",
+     "start": 134.7,
+     "end": 135.0
+    },
+    {
+     "w": "and",
+     "start": 135.0,
+     "end": 135.3
+    },
+    {
+     "w": "one",
+     "start": 135.3,
+     "end": 135.6
+    },
+    {
+     "w": "is",
+     "start": 135.6,
+     "end": 135.9
+    },
+    {
+     "w": "Bobo!",
+     "start": 135.9,
+     "end": 136.8
+    }
+   ]
+  },
+  {
+   "text": "One, two, three, four, five!",
+   "start": 139.2,
+   "end": 142.8,
+   "words": [
+    {
+     "w": "One,",
+     "start": 139.2,
+     "end": 139.8
+    },
+    {
+     "w": "two,",
+     "start": 139.8,
+     "end": 140.4
+    },
+    {
+     "w": "three,",
+     "start": 140.4,
+     "end": 141.0
+    },
+    {
+     "w": "four,",
+     "start": 141.0,
+     "end": 141.6
+    },
+    {
+     "w": "five!",
+     "start": 141.6,
+     "end": 142.8
+    }
+   ]
+  },
+  {
+   "text": "Six, seven, eight, nine, ten!",
+   "start": 144.0,
+   "end": 148.8,
+   "words": [
+    {
+     "w": "Six,",
+     "start": 144.0,
+     "end": 144.6
+    },
+    {
+     "w": "seven,",
+     "start": 144.6,
+     "end": 145.2
+    },
+    {
+     "w": "eight,",
+     "start": 145.2,
+     "end": 146.4
+    },
+    {
+     "w": "nine,",
+     "start": 146.4,
+     "end": 147.0
+    },
+    {
+     "w": "ten!",
+     "start": 147.0,
+     "end": 148.8
+    }
+   ]
+  },
+  {
+   "text": "Count with me, count with me,",
+   "start": 148.8,
+   "end": 153.6,
+   "words": [
+    {
+     "w": "Count",
+     "start": 148.8,
+     "end": 149.4
+    },
+    {
+     "w": "with",
+     "start": 149.4,
+     "end": 150.0
+    },
+    {
+     "w": "me,",
+     "start": 150.0,
+     "end": 151.2
+    },
+    {
+     "w": "count",
+     "start": 151.2,
+     "end": 151.8
+    },
+    {
+     "w": "with",
+     "start": 151.8,
+     "end": 152.4
+    },
+    {
+     "w": "me,",
+     "start": 152.4,
+     "end": 153.6
+    }
+   ]
+  },
+  {
+   "text": "we can count from one to ten!",
+   "start": 153.6,
+   "end": 158.4,
+   "words": [
+    {
+     "w": "we",
+     "start": 153.6,
+     "end": 154.2
+    },
+    {
+     "w": "can",
+     "start": 154.2,
+     "end": 154.8
+    },
+    {
+     "w": "count",
+     "start": 154.8,
+     "end": 155.4
+    },
+    {
+     "w": "from",
+     "start": 155.4,
+     "end": 156.0
+    },
+    {
+     "w": "one",
+     "start": 156.0,
+     "end": 156.6
+    },
+    {
+     "w": "to",
+     "start": 156.6,
+     "end": 157.2
+    },
+    {
+     "w": "ten!",
+     "start": 157.2,
+     "end": 158.4
+    }
+   ]
+  }
+ ]
+}
