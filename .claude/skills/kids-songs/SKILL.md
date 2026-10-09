@@ -14,7 +14,7 @@ Read `.claude/skills/make-kids/SKILL.md` first (especially **Music** — what is
 - **Simple melody**: stays within ~6 notes (C4–A4), mostly stepwise, repeats, ends on the home
   note (C). Range a child can sing. 4/4, **90–120 bpm** (lullabies 60–75).
 - **Structure**: intro (2 bars) → verse → chorus → verse 2 → chorus → (bridge with an action:
-  "clap clap!") → chorus → outro. 45–75 s for a Short, 2–3 min for a long song.
+  "clap clap!") → chorus → outro. 45–75 s for a Short; a 16:9 long video is MIN 5 min — the song (2–3 min) + a 2nd round / karaoke "now you sing!" repeat / a slower learning verse until ≥ 5:00.
 - **Actions** in the lyrics (clap, jump, spin, touch your nose) — kids dance along; the cast
   does the action on the beat.
 - **Counting/lists** escalate verse by verse (1 duck, 2 ducks…).

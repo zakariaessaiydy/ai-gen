@@ -43,7 +43,7 @@ timer) · Riddles ("I'm yellow and I shine in the sky…") · Sorting (fruit vs 
 ## Formats
 
 Short (9:16, 30–60 s): 2–3 puzzles ("Only geniuses get #3 🧠" style hook, but honest). Long
-(16:9, 5–10 min): 10–15 puzzles with a running score and a final super puzzle.
+(16:9, MIN 5 min, 5–10 min): 10–15 puzzles with a running score and a final super puzzle.
 
 ## Idea bank
 

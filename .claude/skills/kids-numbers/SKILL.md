@@ -26,7 +26,7 @@ word time of the number in vo.gen.ts.
 | 18–26 | twist: Bobo eats one (oops face) → "Now how many?" → ThinkTimer → "FOUR!" (5−1 seen) |
 | 26–32 | Confetti + recap "5 take away 1 is 4" with the objects still on screen |
 
-## Long (16:9, 3–6 min)
+## Long (16:9, MIN 5 min, 5–7 min)
 
 Count 1→10 (one object type per number, a mini-gag every 3 numbers), a counting song in the
 middle (`kids-songs`: "Count With Bobo"), then a "find the number" game (3 numerals on cards,

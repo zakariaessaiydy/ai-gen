@@ -31,7 +31,7 @@ Read `.claude/skills/make-kids/SKILL.md` first.
   book's text or a studio's version.
 - Moral in ≤ 6 words, positive phrasing ("Telling the truth feels good", not "Don't lie").
 
-## Bedtime long version (16:9, 5–10 min)
+## Bedtime long version (16:9, MIN 5 min, 5–10 min)
 
 Bedroom set, narrator `af_heart` (rate -10%), slow camera, a lullaby bed from `gen_song.py`
 (musicbox lead, piano, no drums, ~70 bpm), the story, the moral, then Mila yawning, "Goodnight,

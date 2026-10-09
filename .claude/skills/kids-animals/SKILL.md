@@ -41,7 +41,7 @@ details) — add it to the model sheet zoo and re-render character.png.
 
 ## Formats
 
-Short (9:16, 40–60 s): one animal, full loop compressed. Long (16:9, 3–6 min): 4–6 animals of
+Short (9:16, 40–60 s): one animal, full loop compressed. Long (16:9, MIN 5 min, 5–7 min): 4–6 animals of
 one habitat (farm, forest, sea, jungle) with a running mini-story (Bobo visits the farm); then
 compilations ("Animal Sounds for Kids | 20 min").
 

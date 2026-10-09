@@ -14,7 +14,9 @@ list the idea files. All calendar I/O goes through `tools/next_video.py` (prints
 2. If `rig:` says `Build first: <species>`, add that species to `remotion/src/lib/kids/critter.tsx`
    first (one new branch per species, same face), or restage the idea with a rig-ready animal and
    say so.
-3. Make the video with the skill named in the brief (read `make-kids` + that niche skill; they hold
+3. **Long 16:9 = MIN 5:00** (user rule — see make-kids "LONG-VIDEO LENGTH"): when the brief says Long 16:9, plan ≥ 5 min
+   even if the brief's length column says less (e.g. "3–5 min", "2–3 min" songs).
+   Make the video with the skill named in the brief (read `make-kids` + that niche skill; they hold
    the formats and rules). Use the brief's project folder and composition id; the YouTube title and
    description go into the project's script.md. Long 16:9 formats: if time is short, make the
    Short version first and say so.

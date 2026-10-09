@@ -38,7 +38,7 @@ Hoot's grad cap + pointing wing.
 
 ## Formats
 
-Short (9:16, 45–60 s): one question, one model. Long (16:9, 4–7 min): one topic, 3 connected
+Short (9:16, 45–60 s): one question, one model. Long (16:9, MIN 5 min, 5–7 min): one topic, 3 connected
 questions (the water cycle: evaporation, clouds, rain) with a recap song.
 
 ## Idea bank

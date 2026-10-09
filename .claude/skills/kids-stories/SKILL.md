@@ -25,7 +25,7 @@ repeated as a tiny recap the child can copy.
 | 42–52 | CELEBRATE + RECAP | Confetti, "1, 2, 3!" recap with icons, everybody `happy` |
 | 52–60 | loop | a wave that cuts back to frame 0's pose |
 
-## Long (16:9, 3–6 min)
+## Long (16:9, MIN 5 min, 5–7 min)
 
 TitleCard (1.2 s) → 2–3 scenes in different sets → the same loop but with a mid-story
 complication (the first fix almost works) → a short song or chant of the 3 steps

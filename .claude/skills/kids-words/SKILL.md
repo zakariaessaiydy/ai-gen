@@ -27,7 +27,7 @@ primary per channel/playlist; the second language is the bonus.
 Hook (0–2 s: Mila holds a mystery box, "What's inside?") → 4 word loops → quiz on one of them →
 Confetti → loop.
 
-## Long (16:9, 3–8 min)
+## Long (16:9, MIN 5 min, 5–8 min)
 
 TitleCard → 10–12 words of a theme in a matching set (fruit = Meadow picnic, sea animals =
 Underwater, space words = Space) → a quiz every 3 words → a recap montage (all cards in a grid,

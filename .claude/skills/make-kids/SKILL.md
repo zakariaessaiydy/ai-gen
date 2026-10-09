@@ -78,6 +78,16 @@ One-off characters (the fox in a story, a teacher) are new specs in the EPISODE 
 `{ id:'fox1', species:'fox', fur:'#ff8c42', fur2:'#ffffff', dark:'#7a3b12' }` — never edits to
 the cast file. New recurring characters = a channel decision → cast file + model sheet re-render.
 
+## LONG-VIDEO LENGTH — every 16:9 video is at least 5:00 (user rule)
+
+The user's rule: **a 16:9 long video is never shorter than 5 minutes.** Plan the script for ≥ 5:00 BEFORE voicing
+(after `pack`, if the total is < 300 s, add content — never just pad with silence):
+- a "Let's remember" round (repeat the key moments: your-turn repeats, quiz with think timers, say-it-together) —
+  this is what kids memorize from, so it is the first thing to grow;
+- more items (more words/numbers/puzzles/facts) or a second scene of the story;
+- songs: a second full round, a karaoke "now YOU sing!" pass (instrumental + lyrics), or a slow learning verse.
+Shorts (9:16) are unaffected.
+
 ## PACING — slower than you think (user feedback after Day 3: "too fast, add empty seconds")
 
 Kids need silent time to hear, look and repeat. Every episode's packing MUST use at least these gaps
@@ -123,7 +133,7 @@ Kids need silent time to hear, look and repeat. Every episode's packing MUST use
 
 | | Short (9:16, 1080x1920) | Long (16:9, 1920x1080) |
 |---|---|---|
-| length | 30–60 s | episode 3–6 min · compilation 20–60 min |
+| length | 30–60 s (Shorts may run to ~90 s with the PACING gaps) | **MIN 5:00** (user rule) — episode 5–8 min · compilation 20–60 min |
 | opening | ON the action in frame 0 (a question, a surprise, a character waving) — no title card | 1–1.5 s `TitleCard` with the episode name, then straight in |
 | ending | a reward + a soft loop back to frame 0 | goodbye song/wave + "see you next time!" (no CTA beg) |
 | captions | KidsCaptions at ~71% height | KidsCaptions at ~88% height |
