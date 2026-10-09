@@ -91,9 +91,12 @@ const Eye: React.FC<{ x: number; y: number; r: number; look: [number, number]; l
       </clipPath>
       <g clipPath={`url(#${id})`}>
         <circle cx={px} cy={py + r * 0.08} r={r * 0.62} fill={iris} />
+        {/* glossy iris: a lighter lower crescent + pupil + three highlights (the "sparkly toon eye") */}
+        <ellipse cx={px} cy={py + r * 0.44} rx={r * 0.46} ry={r * 0.22} fill="#ffffff" opacity={0.28} />
         <circle cx={px} cy={py + r * 0.1} r={r * 0.36} fill="#1d1426" />
-        <circle cx={px - r * 0.2} cy={py - r * 0.2} r={r * 0.2} fill="#ffffff" />
-        <circle cx={px + r * 0.22} cy={py + r * 0.3} r={r * 0.09} fill="#ffffff" />
+        <circle cx={px - r * 0.2} cy={py - r * 0.2} r={r * 0.24} fill="#ffffff" />
+        <circle cx={px + r * 0.24} cy={py + r * 0.3} r={r * 0.1} fill="#ffffff" />
+        <circle cx={px + r * 0.12} cy={py - r * 0.34} r={r * 0.07} fill="#ffffff" opacity={0.85} />
         {sparkle && <path d={`M ${px + r * 0.25},${py - r * 0.42} l 6,14 14,6 -14,6 -6,14 -6,-14 -14,-6 14,-6 Z`} fill="#ffffff" />}
         {lid > 0 && <rect x={x - rx - 4} y={y - ry - 4} width={rx * 2 + 8} height={ry * 2 * lid + 4} fill={lidColor} />}
       </g>
@@ -131,9 +134,11 @@ export const Face: React.FC<FaceProps> = ({
   return (
     <g>
       {cheeks && (
-        <g opacity={0.55}>
-          <ellipse cx={-eyeDX - 18} cy={eyeY + 52} rx={30} ry={18} fill="#ff8fab" />
-          <ellipse cx={eyeDX + 18} cy={eyeY + 52} rx={30} ry={18} fill="#ff8fab" />
+        <g>
+          <ellipse cx={-eyeDX - 18} cy={eyeY + 52} rx={32} ry={19} fill="#ff8fab" opacity={0.68} />
+          <ellipse cx={eyeDX + 18} cy={eyeY + 52} rx={32} ry={19} fill="#ff8fab" opacity={0.68} />
+          <circle cx={-eyeDX - 28} cy={eyeY + 46} r={5} fill="#ffffff" opacity={0.7} />
+          <circle cx={eyeDX + 8} cy={eyeY + 46} r={5} fill="#ffffff" opacity={0.7} />
         </g>
       )}
       {freckles && (
@@ -157,6 +162,44 @@ export const Face: React.FC<FaceProps> = ({
       )}
       {nose ?? <path d={`M -8,${eyeY + 34} Q 0,${eyeY + 44} 8,${eyeY + 34}`} fill="none" {...kst(7)} />}
       <Mouth expr={expr} open={mouth} y={mouthY} w={mouthW} />
+    </g>
+  );
+};
+
+// ── shared BEHAVIOUR (Kid + Critter): characters are never statues. A slow idle sway + head tilt,
+// a head-bob while talking, a happy bounce on 'laugh', and twinkles on 'wow' / 'proud'. All
+// gentle (≤ 2.5° / ≤ 12 px) so a pose set by the episode still reads exactly as authored.
+export const idleMotion = (frame: number, seed: number, expr: KExpr, mouth: number, moving: boolean) => {
+  const sway = moving ? 0 : Math.sin((frame + seed) / 22) * 1.4;
+  const tilt = Math.sin((frame + seed * 3) / 31) * 2.2 + (mouth > 0.08 ? Math.sin(frame / 3.1) * mouth * 3 : 0);
+  const nod = mouth > 0.08 ? -mouth * 7 : 0;
+  const bounce = !moving && expr === 'laugh' ? Math.abs(Math.sin((frame + seed) / 5)) * 10 : 0;
+  return { sway, tilt, nod, bounce };
+};
+
+// 4-point twinkle star
+export const Twinkle: React.FC<{ x: number; y: number; s: number; c?: string; o?: number }> = ({ x, y, s, c = '#ffffff', o = 1 }) => (
+  <path
+    d="M 0,-30 Q 4,-4 30,0 Q 4,4 0,30 Q -4,4 -30,0 Q -4,-4 0,-30 Z"
+    transform={`translate(${x},${y}) scale(${s})`}
+    fill={c}
+    stroke={KINK}
+    strokeWidth={4 / Math.max(0.2, s)}
+    opacity={o}
+  />
+);
+
+// twinkles that circle a happy head (wow / proud) — r = head radius in rig px
+export const HeadSparkles: React.FC<{ frame: number; r: number; on: boolean }> = ({ frame, r, on }) => {
+  if (!on) return null;
+  return (
+    <g>
+      {[0, 1, 2].map((i) => {
+        const ph = ((frame / 30) * 1.2 + i / 3) % 1;
+        const a = -2.4 + i * 1.2;
+        const s = Math.sin(ph * Math.PI);
+        return <Twinkle key={i} x={Math.cos(a) * (r + 40)} y={Math.sin(a) * (r + 30) - 20} s={0.5 + s * 0.6} c={['#ffd166', '#ffffff', '#ff8fab'][i]} o={s} />;
+      })}
     </g>
   );
 };

@@ -4,7 +4,7 @@
 // on purpose: a kids channel needs its own, softer silhouette.
 import React from 'react';
 import { useCurrentFrame } from 'remotion';
-import { Face, KINK, kst, type KExpr } from './face';
+import { Face, HeadSparkles, KINK, idleMotion, kst, type KExpr } from './face';
 import { Belt, Cape, ChestBadge, Mask, type HeroLook } from './hero';
 
 export type KidSpec = {
@@ -55,6 +55,7 @@ export type KidProps = {
   squash?: number;
   shadow?: boolean;
   blink?: boolean;
+  idle?: boolean; // auto idle behaviour (sway, head tilt, talk nod, laugh bounce) — default on
 };
 
 const U = 100; // upper arm
@@ -91,8 +92,8 @@ const armAngles = (pose: KArm, frame: number): [number, number] => {
   switch (pose) {
     case 'wave':
       return [138, 28 + Math.sin(frame / 3.2) * 26];
-    case 'up':
-      return [160, 12];
+    case 'up': // cheering fist beside the head (a chibi arm can't clear the big head going straight up)
+      return [130, 10];
     case 'point':
       return [96, 0];
     case 'hip':
@@ -204,13 +205,14 @@ const HairFront: React.FC<{ spec: KidSpec }> = ({ spec }) => {
 
 export const Kid: React.FC<KidProps> = ({
   spec, x, y, scale = 1, expr = 'smile', look = [0, 0], mouth = 0, armL = 'down', armR = 'down', fingersL = 0, fingersR = 0,
-  holdL, holdR, legs = 'stand', walk = 0, hop = 0, tilt = 0, lean = 0, squash = 0, shadow = true, blink = true,
+  holdL, holdR, legs = 'stand', walk = 0, hop = 0, tilt = 0, lean = 0, squash = 0, shadow = true, blink = true, idle = true,
 }) => {
   const frame = useCurrentFrame();
   const h = hashStr(spec.id);
   const breath = Math.sin((frame + h) / 13);
   const cyc = (frame + h * 7) % 96;
-  const closed = blink && cyc < 4;
+  const closed = blink && (cyc < 4 || (h % 3 === 0 && cyc >= 9 && cyc < 12)); // some kids double-blink
+  const im = idle ? idleMotion(frame, h, expr, mouth, legs === 'walk' || hop > 0) : { sway: 0, tilt: 0, nod: 0, bounce: 0 };
   const step = legs === 'walk' ? Math.sin(walk * Math.PI * 2) : 0;
   const bob = legs === 'walk' ? -Math.abs(step) * 14 : 0;
   const sit = legs === 'sit' ? 118 : 0;
@@ -288,7 +290,7 @@ export const Kid: React.FC<KidProps> = ({
   };
 
   const head = (
-    <g transform={`translate(0,${HEAD_Y + breath * 2}) rotate(${tilt} 0 140)`}>
+    <g transform={`translate(0,${HEAD_Y + breath * 2 + im.nod}) rotate(${tilt + im.tilt} 0 140)`}>
       <HairBack spec={spec} />
       <ellipse cx={-176} cy={20} rx={30} ry={34} fill={spec.skin} {...kst()} />
       <ellipse cx={176} cy={20} rx={30} ry={34} fill={spec.skin} {...kst()} />
@@ -298,6 +300,9 @@ export const Kid: React.FC<KidProps> = ({
         <Face expr={expr} look={look} mouth={mouth} blink={closed} skin={spec.skin} iris={spec.iris ?? '#6b4226'} eyeR={42} eyeDX={68} eyeY={-6} mouthY={66} mouthW={48} brows={spec.hairColor} lashes={spec.lashes} freckles={spec.freckles} />
       </g>
       <HairFront spec={spec} />
+      {/* hair shine */}
+      <path d="M -120,-118 Q -70,-158 -10,-160" fill="none" stroke="#ffffff" strokeWidth={14} strokeLinecap="round" opacity={0.32} />
+      <HeadSparkles frame={frame} r={178} on={expr === 'wow' || expr === 'proud'} />
       {spec.glasses && (
         <g fill="none" {...kst(8)}>
           <circle cx={-68} cy={20} r={56} fill="rgba(255,255,255,0.18)" />
@@ -317,8 +322,8 @@ export const Kid: React.FC<KidProps> = ({
 
   return (
     <g transform={`translate(${x},${y}) scale(${scale})`}>
-      {shadow && <ellipse cx={0} cy={6} rx={150 * (1 - Math.min(0.5, hop / 600))} ry={22} fill="rgba(40,20,60,0.16)" />}
-      <g transform={`translate(0,${-hop + bob}) rotate(${lean} 0 0) scale(${1 + squash * 0.08},${1 - squash * 0.14})`}>
+      {shadow && <ellipse cx={0} cy={6} rx={150 * (1 - Math.min(0.5, (hop + im.bounce) / 600))} ry={22} fill="rgba(40,20,60,0.16)" />}
+      <g transform={`translate(0,${-hop + bob - im.bounce}) rotate(${lean + im.sway} 0 0) scale(${1 + squash * 0.08},${1 - squash * 0.14})`}>
         {spec.hero && <g transform={`translate(0,${sit})`}><Cape look={spec.hero} frame={frame} top={-400} bottom={-50} half={175} lift={hop} /></g>}
         {leg(-1)}
         {leg(1)}

@@ -88,6 +88,23 @@ Model sheet: `kids-shorts/tiny-sparks/channel/tiny-sparks-heroes.png`.
 colour scheme): trademark/copyright claims + YouTube's Made-for-Kids crackdown on famous characters can
 demonetise or remove the channel. New heroes = new original emblems/colours.
 
+## ALIVE BY DEFAULT — characters + sets animate themselves (user request after Day 25: "more attractive")
+The kit now does the "cute" work automatically — don't fight it, build on it:
+- **Characters (`Kid`, `Critter`):** glossy 3-highlight eyes, brighter blush with a shine dot, hair/fur
+  shine, auto double-blinks, a slow idle sway + head tilt, a head-bob while talking (from `mouth`), a happy
+  bounce on `expr="laugh"`, twinkles circling the head on `wow` / `proud`, faster tail wag when happy,
+  ear perks every few seconds. `idle={false}` turns it off (a frozen pose for a still, a held prop that must
+  not drift). `armL/armR="up"` is a cheering fist BESIDE the head (it used to cover the face).
+- **Sets (`Meadow`):** 3-stop sky, glowing blinking sun, soft rainbow, a smiling cloud, gliding birds,
+  far hill + bushes, swaying tree and flowers, grass tufts, butterflies, air twinkles. Props:
+  `rainbow={false}` (colour lessons where a rainbow would confuse), `life={false}` (no birds/butterflies/
+  twinkles — calm or bedtime beats), `tree={false}` (episodes that draw their own tree), `sun={false}`.
+  `Forest` got sunbeams + glowing fireflies + butterflies, `Underwater` swimming fish, `Space` twinkles + a
+  shooting star every 7 s. The pieces are exported for any set/episode: `Butterflies`, `Birds`,
+  `AirTwinkles`, `Rainbow` (sets.tsx), `Twinkle`, `HeadSparkles`, `idleMotion` (face.tsx).
+- Still the rule: background motion stays slow and soft (no strobing, nothing fast behind a lesson).
+  When a card/grid teaches, it is drawn ABOVE the set, so the ambient life never covers the lesson.
+
 ## LONG-VIDEO LENGTH — every 16:9 video is at least 5:00 (user rule)
 
 The user's rule: **a 16:9 long video is never shorter than 5 minutes.** Plan the script for ≥ 5:00 BEFORE voicing

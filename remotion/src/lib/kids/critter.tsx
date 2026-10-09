@@ -4,7 +4,7 @@
 import React from 'react';
 import { Belt, Cape, ChestBadge, Mask, type HeroLook } from './hero';
 import { useCurrentFrame } from 'remotion';
-import { Face, KINK, kst, type KExpr } from './face';
+import { Face, HeadSparkles, KINK, idleMotion, kst, type KExpr } from './face';
 
 export type Species = 'bear' | 'bunny' | 'cat' | 'fox' | 'lion' | 'mouse' | 'panda' | 'pig' | 'owl' | 'frog' | 'monkey' | 'dog' | 'elephant';
 
@@ -44,6 +44,7 @@ export type CritterProps = {
   facing?: 1 | -1; // -1 mirrors the whole animal (tail side swaps)
   shadow?: boolean;
   blink?: boolean;
+  idle?: boolean; // auto idle behaviour (sway, head tilt, talk nod, laugh bounce, ear perk) — default on
 };
 
 const HEAD_Y = -420;
@@ -189,9 +190,9 @@ const Ears: React.FC<{ s: CritterSpec; layer: 'back' | 'front' }> = ({ s, layer 
   }
 };
 
-const Tail: React.FC<{ s: CritterSpec; frame: number }> = ({ s, frame }) => {
+const Tail: React.FC<{ s: CritterSpec; frame: number; happy?: boolean }> = ({ s, frame, happy }) => {
   const st = kst();
-  const wag = Math.sin(frame / 6) * 8;
+  const wag = happy ? Math.sin(frame / 2.6) * 14 : Math.sin(frame / 6) * 8; // happy animals wag fast
   switch (s.species) {
     case 'bunny':
     case 'bear':
@@ -234,13 +235,18 @@ const Tail: React.FC<{ s: CritterSpec; frame: number }> = ({ s, frame }) => {
 
 export const Critter: React.FC<CritterProps> = ({
   spec, x, y, scale = 1, expr = 'smile', look = [0, 0], mouth = 0, armL = 'down', armR = 'down', holdL, holdR,
-  walk = 0, walking = false, hop = 0, tilt = 0, squash = 0, facing = 1, shadow = true, blink = true,
+  walk = 0, walking = false, hop = 0, tilt = 0, squash = 0, facing = 1, shadow = true, blink = true, idle = true,
 }) => {
   const frame = useCurrentFrame();
   const s = spec;
   const hh = hashStr(s.id);
   const breath = Math.sin((frame + hh) / 12);
   const closed = blink && (frame + hh * 5) % 100 < 4;
+  const im = idle ? idleMotion(frame, hh, expr, mouth, walking || hop > 0) : { sway: 0, tilt: 0, nod: 0, bounce: 0 };
+  // ear perk: a quick twitch every ~3.5 s
+  const ec = (frame + hh * 11) % 105;
+  const perk = idle && ec < 8 ? Math.sin((ec / 8) * Math.PI) : 0;
+  const happy = expr === 'happy' || expr === 'laugh' || expr === 'proud';
   const step = walking ? Math.sin(walk * Math.PI * 2) : 0;
   const waddle = walking ? step * 6 : 0;
   const bob = walking ? -Math.abs(step) * 12 : 0;
@@ -336,7 +342,7 @@ export const Critter: React.FC<CritterProps> = ({
   };
 
   const headEl = (
-    <g transform={`translate(0,${HEAD_Y + breath * 2}) rotate(${tilt} 0 120)`}>
+    <g transform={`translate(0,${HEAD_Y + breath * 2 + im.nod}) rotate(${tilt + im.tilt} 0 120)`}>
       {s.species === 'lion' && (
         <g>
           {Array.from({ length: 14 }).map((_, i) => {
@@ -345,8 +351,12 @@ export const Critter: React.FC<CritterProps> = ({
           })}
         </g>
       )}
-      <Ears s={s} layer="back" />
+      <g transform={`translate(0,-100) scale(${1 + perk * 0.03},${1 + perk * 0.07}) translate(0,100)`}>
+        <Ears s={s} layer="back" />
+      </g>
       <ellipse cx={0} cy={0} rx={frog ? 190 : 172} ry={frog ? 140 : 160} fill={s.fur} {...kst(9)} />
+      {/* soft fur shine */}
+      <ellipse cx={-92} cy={-92} rx={40} ry={20} fill="#ffffff" opacity={0.3} transform="rotate(-32 -92 -92)" />
       {s.species === 'panda' && (
         <g fill={s.dark}>
           <ellipse cx={-66} cy={4} rx={56} ry={66} transform="rotate(20 -66 4)" />
@@ -391,6 +401,7 @@ export const Critter: React.FC<CritterProps> = ({
       )}
       {s.hat === 'party' && <path d="M -60,-130 L 0,-290 L 60,-130 Z" fill="#ff006e" {...st} />}
       {s.hat === 'crown' && <path d="M -80,-130 L -80,-210 L -40,-170 L 0,-230 L 40,-170 L 80,-210 L 80,-130 Z" fill="#ffd166" {...st} />}
+      <HeadSparkles frame={frame} r={172} on={expr === 'wow' || expr === 'proud'} />
       {s.bow && (
         <g transform="translate(-100,-130) rotate(-20)">
           <path d="M 0,0 L -50,-30 Q -62,0 -50,30 Z" fill={s.bow} {...kst(7)} />
@@ -404,9 +415,9 @@ export const Critter: React.FC<CritterProps> = ({
   return (
     <g transform={`translate(${x},${y}) scale(${scale * facing},${scale})`}>
       {shadow && <ellipse cx={0} cy={6} rx={140 * (1 - Math.min(0.5, hop / 600))} ry={20} fill="rgba(40,20,60,0.16)" />}
-      <g transform={`translate(0,${-hop + bob}) rotate(${waddle} 0 0) scale(${1 + squash * 0.08},${1 - squash * 0.14})`}>
+      <g transform={`translate(0,${-hop + bob - im.bounce}) rotate(${waddle + im.sway} 0 0) scale(${1 + squash * 0.08},${1 - squash * 0.14})`}>
         {s.hero && <Cape look={s.hero} frame={frame} top={-290} bottom={-40} half={170} lift={hop} />}
-        <Tail s={s} frame={frame} />
+        <Tail s={s} frame={frame} happy={happy} />
         {/* feet */}
         {[-1, 1].map((k) => (
           <ellipse key={k} cx={k * 62} cy={-24 - (walking ? Math.max(0, k * step) * 26 : 0)} rx={58} ry={34} fill={owl || frog ? '#ffb703' : s.species === 'panda' ? s.dark : s.fur} {...st} />
@@ -416,6 +427,7 @@ export const Critter: React.FC<CritterProps> = ({
         {/* body */}
         <ellipse cx={0} cy={-160} rx={130} ry={140} fill={s.fur} {...kst(9)} />
         <ellipse cx={0} cy={-140} rx={84} ry={96} fill={s.fur2} />
+        <ellipse cx={-70} cy={-232} rx={30} ry={14} fill="#ffffff" opacity={0.25} transform="rotate(-30 -70 -232)" />
         {s.hero && (
           <g>
             {s.hero.belt && <Belt color={s.hero.belt} y={-70} half={118} />}
