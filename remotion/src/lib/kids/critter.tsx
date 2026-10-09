@@ -6,7 +6,7 @@ import { Belt, Cape, ChestBadge, Mask, type HeroLook } from './hero';
 import { useCurrentFrame } from 'remotion';
 import { Face, KINK, kst, type KExpr } from './face';
 
-export type Species = 'bear' | 'bunny' | 'cat' | 'fox' | 'lion' | 'mouse' | 'panda' | 'pig' | 'owl' | 'frog' | 'monkey' | 'dog';
+export type Species = 'bear' | 'bunny' | 'cat' | 'fox' | 'lion' | 'mouse' | 'panda' | 'pig' | 'owl' | 'frog' | 'monkey' | 'dog' | 'elephant';
 
 export type CritterSpec = {
   id: string;
@@ -138,6 +138,17 @@ const Ears: React.FC<{ s: CritterSpec; layer: 'back' | 'front' }> = ({ s, layer 
           ))}
         </g>
       );
+    case 'elephant':
+      return (
+        <g>
+          {[-1, 1].map((k) => (
+            <g key={k}>
+              <ellipse cx={k * 190} cy={-10} rx={120} ry={150} fill={s.fur} {...st} />
+              <ellipse cx={k * 196} cy={-6} rx={78} ry={108} fill={s.fur2} />
+            </g>
+          ))}
+        </g>
+      );
     case 'dog':
       return (
         <g>
@@ -203,6 +214,13 @@ const Tail: React.FC<{ s: CritterSpec; frame: number }> = ({ s, frame }) => {
           <circle cx={230} cy={-190 + wag} r={30} fill={s.dark} {...st} />
         </g>
       );
+    case 'elephant':
+      return (
+        <g>
+          <path d={`M 110,-120 Q 180,-110 ${190 + wag},${-30 + wag * 0.5}`} fill="none" stroke={KINK} strokeWidth={18} strokeLinecap="round" />
+          <circle cx={190 + wag} cy={-24 + wag * 0.5} r={16} fill={s.dark} {...st} />
+        </g>
+      );
     case 'dog':
       return <path d={`M 100,-100 Q 200,-120 ${210 + wag * 2},${-220 + wag}`} fill="none" stroke={s.fur} strokeWidth={34} strokeLinecap="round" />;
     case 'monkey':
@@ -265,7 +283,7 @@ export const Critter: React.FC<CritterProps> = ({
         </g>
       );
     if (frog) return null;
-    if (s.species === 'pig') return null;
+    if (s.species === 'pig' || s.species === 'elephant') return null;
     const w = s.species === 'fox' ? 150 : s.species === 'mouse' || s.species === 'cat' ? 92 : 104;
     return <ellipse cx={0} cy={64} rx={w} ry={70} fill={s.fur2} />;
   };
@@ -274,6 +292,14 @@ export const Critter: React.FC<CritterProps> = ({
     switch (s.species) {
       case 'owl':
         return <path d="M -20,34 L 20,34 L 0,70 Z" fill="#ffb703" {...kst(6)} />;
+      case 'elephant':
+        return (
+          <g>
+            <path d="M -38,-30 Q -46,90 -30,150 Q -20,200 20,214 Q 52,222 60,196 Q 30,190 22,160 Q 14,110 38,-30 Z" fill={s.fur} />
+            <path d="M -38,-10 Q -46,90 -30,150 Q -20,200 20,214 Q 52,222 60,196 Q 30,190 22,160 Q 14,110 38,-10" fill="none" {...kst(8)} />
+            {[60, 100, 140].map((y) => <path key={y} d={`M ${-36 + (y - 60) * 0.06},${y} Q ${-4},${y + 8} ${26 - (y - 60) * 0.05},${y}`} fill="none" {...kst(4)} />)}
+          </g>
+        );
       case 'dog':
         return (
           <g>
@@ -342,7 +368,7 @@ export const Critter: React.FC<CritterProps> = ({
           eyeDX={frog ? 70 : 64}
           eyeY={-8}
           mouthY={frog ? 220 : 78}
-          mouthW={frog ? 80 : 40}
+          mouthW={frog ? 80 : s.species === 'elephant' ? 74 : 40}
           cheeks
           brows={owl || frog ? false : s.dark}
           nose={nose()}
