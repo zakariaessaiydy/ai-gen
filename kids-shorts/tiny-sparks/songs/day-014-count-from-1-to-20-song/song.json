@@ -1,0 +1,98 @@
+{
+ "title": "Count from 1 to 20 (Tiny Sparks original)",
+ "bpm": 100,
+ "beatsPerBar": 4,
+ "introBars": 2,
+ "outroBars": 2,
+ "instruments": {
+  "lead": "xylophone",
+  "chords": "ukulele",
+  "bass": true,
+  "drums": "soft",
+  "leadWithVocal": true
+ },
+ "singer": "mila",
+ "vocal": {
+  "voice": "af_sky",
+  "pitch": 0,
+  "rate": "-4%"
+ },
+ "sections": {
+  "A": {
+   "chords": "C | G | Am | F | C | F | G | C",
+   "melody": "C4:1 D4:1 E4:1 F4:1 | G4:2 R:2 | A4:1 A4:0.5 A4:0.5 G4:2 | E4:1 D4:1 C4:2 | G4:1 E4:1 G4:2 | A4:1 F4:1 A4:2 | G4:1 G4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": "One, two, three, four, five! / Six, sev-en, eight, nine, ten! _ / Count with me, count with me, / now let's count to twen-ty! _"
+  },
+  "B": {
+   "chords": "F | C | G | C | C | F | G | C",
+   "melody": "G4:0.7 G4:0.7 A4:0.7 G4:0.7 E4:0.7 E4:0.7 D4:0.7 E4:0.7 F4:0.7 G4:0.7 R:1 | G4:0.636 G4:0.636 A4:0.636 G4:0.636 E4:0.636 E4:0.636 D4:0.636 E4:0.636 F4:0.636 E4:0.636 C4:0.64 R:1 | G4:1 E4:1 G4:2 | A4:1 F4:1 A4:2 | G4:1 G4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": "E-lev-en, twelve, thir-teen, four-teen, fif-teen! / Six-teen, sev-en-teen, eight-een, nine-teen, twen-ty! / Count with me, count with me, / we can count to twen-ty! _"
+  },
+  "n11": {
+   "chords": "C | G",
+   "melody": "G4:0.571 G4:0.571 A4:0.571 G4:0.571 E4:0.571 E4:0.571 C4:0.574 | R:4",
+   "lyrics": "Ten and one make e-lev-en!"
+  },
+  "n12": {
+   "chords": "C | G",
+   "melody": "G4:0.8 G4:0.8 A4:0.8 G4:0.8 C4:0.8 | R:4",
+   "lyrics": "Ten and two make twelve!"
+  },
+  "n13": {
+   "chords": "C | G",
+   "melody": "G4:0.667 G4:0.667 A4:0.667 G4:0.667 E4:0.667 C4:0.665 | R:4",
+   "lyrics": "Ten and three make thir-teen!"
+  },
+  "n14": {
+   "chords": "C | G",
+   "melody": "G4:0.667 G4:0.667 A4:0.667 G4:0.667 E4:0.667 C4:0.665 | R:4",
+   "lyrics": "Ten and four make four-teen!"
+  },
+  "n15": {
+   "chords": "C | G",
+   "melody": "G4:0.667 G4:0.667 A4:0.667 G4:0.667 E4:0.667 C4:0.665 | R:4",
+   "lyrics": "Ten and five make fif-teen!"
+  },
+  "n16": {
+   "chords": "C | G",
+   "melody": "G4:0.667 G4:0.667 A4:0.667 G4:0.667 E4:0.667 C4:0.665 | R:4",
+   "lyrics": "Ten and six make six-teen!"
+  },
+  "n17": {
+   "chords": "C | G",
+   "melody": "G4:0.571 G4:0.571 A4:0.571 G4:0.571 E4:0.571 E4:0.571 C4:0.574 | R:4",
+   "lyrics": "Ten and sev-en, sev-en-teen!"
+  },
+  "n18": {
+   "chords": "C | G",
+   "melody": "G4:0.667 G4:0.667 A4:0.667 G4:0.667 E4:0.667 C4:0.665 | R:4",
+   "lyrics": "Ten and eight make eight-een!"
+  },
+  "n19": {
+   "chords": "C | G",
+   "melody": "G4:0.667 G4:0.667 A4:0.667 G4:0.667 E4:0.667 C4:0.665 | R:4",
+   "lyrics": "Ten and nine make nine-teen!"
+  },
+  "n20": {
+   "chords": "C | G",
+   "melody": "G4:0.667 G4:0.667 A4:0.667 G4:0.667 E4:0.667 C4:0.665 | R:4",
+   "lyrics": "Ten and ten make twen-ty!"
+  }
+ },
+ "form": [
+  "A",
+  "n11",
+  "n12",
+  "n13",
+  "n14",
+  "n15",
+  "B",
+  "n16",
+  "n17",
+  "n18",
+  "n19",
+  "n20",
+  "A",
+  "B"
+ ]
+}
