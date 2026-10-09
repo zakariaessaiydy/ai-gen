@@ -78,6 +78,16 @@ One-off characters (the fox in a story, a teacher) are new specs in the EPISODE 
 `{ id:'fox1', species:'fox', fur:'#ff8c42', fur2:'#ffffff', dark:'#7a3b12' }` — never edits to
 the cast file. New recurring characters = a channel decision → cast file + model sheet re-render.
 
+## TINY SPARKS HEROES — the cast wears ORIGINAL superhero outfits (user request, from Day 24)
+
+Use `MILA_HERO` (Spark Girl), `LEO_HERO` (Captain Leo), `BOBO_HERO` (Super Bobo) and `HOOT_HERO` (Professor Hoot)
+from `cast/tiny-sparks.ts` in every new episode instead of the everyday specs (same faces, voices and names in the
+dialogue). Outfits = cape + domino mask + chest emblem + belt (`lib/kids/hero.tsx`; any Kid/Critter takes `hero`).
+Model sheet: `kids-shorts/tiny-sparks/channel/tiny-sparks-heroes.png`.
+**Never** dress anyone as Spider-Man, Batman, Superman, Teen Titans or any real franchise hero (costume, logo,
+colour scheme): trademark/copyright claims + YouTube's Made-for-Kids crackdown on famous characters can
+demonetise or remove the channel. New heroes = new original emblems/colours.
+
 ## LONG-VIDEO LENGTH — every 16:9 video is at least 5:00 (user rule)
 
 The user's rule: **a 16:9 long video is never shorter than 5 minutes.** Plan the script for ≥ 5:00 BEFORE voicing

@@ -70,3 +70,38 @@ export const CHANNEL = {
   tagline: 'Learn, laugh and sing with Mila, Leo & Bobo!',
   accent: '#ff595e',
 };
+
+// ── TINY SPARKS HEROES — the cast's ORIGINAL superhero outfits (user request, Day 23+). Same faces,
+// same hair, same colours family, so kids still recognise them; capes / masks / emblems are our
+// own designs (never a real franchise's costume or logo). Use these specs instead of the everyday
+// ones for every episode from now on (or only for hero episodes if the user changes their mind).
+export const MILA_HERO: KidSpec = {
+  ...MILA,
+  id: 'mila-hero',
+  top: 'tee',
+  topColor: '#ffca3a', // yellow suit
+  pants: '#ff6fa5',
+  shoes: '#ff6fa5',
+  hero: { cape: '#ff6fa5', capeIn: '#ffd6e7', mask: '#ff6fa5', emblem: 'spark', emblemColor: '#ff6fa5', emblemInk: '#fff3b0', belt: '#ffffff' },
+}; // "SPARK GIRL"
+export const LEO_HERO: KidSpec = {
+  ...LEO,
+  id: 'leo-hero',
+  top: 'tee',
+  topColor: '#4cc9f0', // sky-blue suit
+  pants: '#1d4e89',
+  shoes: '#ff595e',
+  hero: { cape: '#ff595e', capeIn: '#ffb3b3', mask: '#1d4e89', emblem: 'star', emblemColor: '#ffca3a', emblemInk: '#ff595e', belt: '#1d4e89' },
+}; // "CAPTAIN LEO"
+export const BOBO_HERO: CritterSpec = {
+  ...BOBO,
+  id: 'bobo-hero',
+  scarf: undefined,
+  hero: { cape: '#ff595e', capeIn: '#ffb3b3', mask: '#2b2d42', emblem: 'honey', emblemColor: '#ffca3a', emblemInk: '#ff924c', belt: '#2b2d42' },
+}; // "SUPER BOBO"
+export const HOOT_HERO: CritterSpec = {
+  ...HOOT,
+  id: 'hoot-hero',
+  hero: { cape: '#7b2cbf', capeIn: '#d0b3ff', emblem: 'gear', emblemColor: '#8ac926', emblemInk: '#ffffff', belt: '#ffd166' },
+}; // "PROFESSOR HOOT" (glasses instead of a mask)
+export const HERO_NAMES: Record<string, string> = { mila: 'Spark Girl', leo: 'Captain Leo', bobo: 'Super Bobo', hoot: 'Professor Hoot' };

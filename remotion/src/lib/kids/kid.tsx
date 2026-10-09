@@ -5,6 +5,7 @@
 import React from 'react';
 import { useCurrentFrame } from 'remotion';
 import { Face, KINK, kst, type KExpr } from './face';
+import { Belt, Cape, ChestBadge, Mask, type HeroLook } from './hero';
 
 export type KidSpec = {
   id: string;
@@ -21,6 +22,7 @@ export type KidSpec = {
   glasses?: boolean;
   freckles?: boolean;
   lashes?: boolean;
+  hero?: HeroLook; // original superhero outfit (cape / mask / emblem / belt) — see hero.tsx
 };
 
 // arm pose: preset, (upper, fore) degrees outward-positive (screen-left arm; right mirrors),
@@ -265,6 +267,12 @@ export const Kid: React.FC<KidProps> = ({
             ))}
           </g>
         )}
+        {spec.hero && (
+          <g>
+            {spec.hero.belt && <Belt color={spec.hero.belt} y={-176} half={100} />}
+            <ChestBadge look={spec.hero} y={-292} r={44} />
+          </g>
+        )}
         {spec.top === 'overalls' && (
           <g>
             <path d="M -62,-300 L 62,-300 L 100,-160 Q 0,-140 -100,-160 Z" fill={spec.topColor2 ?? spec.pants} {...kst()} />
@@ -285,6 +293,7 @@ export const Kid: React.FC<KidProps> = ({
       <ellipse cx={-176} cy={20} rx={30} ry={34} fill={spec.skin} {...kst()} />
       <ellipse cx={176} cy={20} rx={30} ry={34} fill={spec.skin} {...kst()} />
       <ellipse cx={0} cy={0} rx={178} ry={168} fill={spec.skin} {...kst(9)} />
+      {spec.hero?.mask && <Mask color={spec.hero.mask} y={20} dx={68} r={42} />}
       <g transform="translate(0,26)">
         <Face expr={expr} look={look} mouth={mouth} blink={closed} skin={spec.skin} iris={spec.iris ?? '#6b4226'} eyeR={42} eyeDX={68} eyeY={-6} mouthY={66} mouthW={48} brows={spec.hairColor} lashes={spec.lashes} freckles={spec.freckles} />
       </g>
@@ -310,6 +319,7 @@ export const Kid: React.FC<KidProps> = ({
     <g transform={`translate(${x},${y}) scale(${scale})`}>
       {shadow && <ellipse cx={0} cy={6} rx={150 * (1 - Math.min(0.5, hop / 600))} ry={22} fill="rgba(40,20,60,0.16)" />}
       <g transform={`translate(0,${-hop + bob}) rotate(${lean} 0 0) scale(${1 + squash * 0.08},${1 - squash * 0.14})`}>
+        {spec.hero && <g transform={`translate(0,${sit})`}><Cape look={spec.hero} frame={frame} top={-400} bottom={-50} half={175} lift={hop} /></g>}
         {leg(-1)}
         {leg(1)}
         <g transform={`translate(0,${sit})`}>

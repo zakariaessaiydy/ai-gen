@@ -2,6 +2,7 @@
 // panda, pig, owl, frog). Same face/expressions as <Kid> (face.tsx), so animals and kids act in
 // the same language. Origin = between the feet; ~620px tall at scale 1 (a buddy, smaller than a kid).
 import React from 'react';
+import { Belt, Cape, ChestBadge, Mask, type HeroLook } from './hero';
 import { useCurrentFrame } from 'remotion';
 import { Face, KINK, kst, type KExpr } from './face';
 
@@ -18,6 +19,7 @@ export type CritterSpec = {
   bow?: string;
   glasses?: boolean;
   hat?: 'none' | 'grad' | 'party' | 'crown';
+  hero?: HeroLook; // original superhero outfit — see hero.tsx
 };
 
 export type CArm = 'down' | 'wave' | 'up' | 'hold' | 'point' | 'hug' | 'clap' | 'think' | { a: number };
@@ -327,6 +329,7 @@ export const Critter: React.FC<CritterProps> = ({
       )}
       {muzzle()}
       <Ears s={s} layer="front" />
+      {s.hero?.mask && <Mask color={s.hero.mask} y={-8} dx={64} r={40} />}
       <g transform={`translate(0,${frog ? -110 : 0})`}>
         <Face
           expr={expr}
@@ -376,6 +379,7 @@ export const Critter: React.FC<CritterProps> = ({
     <g transform={`translate(${x},${y}) scale(${scale * facing},${scale})`}>
       {shadow && <ellipse cx={0} cy={6} rx={140 * (1 - Math.min(0.5, hop / 600))} ry={20} fill="rgba(40,20,60,0.16)" />}
       <g transform={`translate(0,${-hop + bob}) rotate(${waddle} 0 0) scale(${1 + squash * 0.08},${1 - squash * 0.14})`}>
+        {s.hero && <Cape look={s.hero} frame={frame} top={-290} bottom={-40} half={170} lift={hop} />}
         <Tail s={s} frame={frame} />
         {/* feet */}
         {[-1, 1].map((k) => (
@@ -386,6 +390,12 @@ export const Critter: React.FC<CritterProps> = ({
         {/* body */}
         <ellipse cx={0} cy={-160} rx={130} ry={140} fill={s.fur} {...kst(9)} />
         <ellipse cx={0} cy={-140} rx={84} ry={96} fill={s.fur2} />
+        {s.hero && (
+          <g>
+            {s.hero.belt && <Belt color={s.hero.belt} y={-70} half={118} />}
+            <ChestBadge look={s.hero} y={-170} r={46} />
+          </g>
+        )}
         {s.scarf && (
           <g>
             <path d="M -110,-280 Q 0,-240 110,-280 L 116,-246 Q 0,-200 -116,-246 Z" fill={s.scarf} {...kst(7)} />
