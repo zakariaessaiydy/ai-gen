@@ -1,0 +1,174 @@
+{
+  "master": "remotion/out/KidsMorals022-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsMorals022-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/morals/day-022-the-girl-who-learned-to-share/output/day-022-sfx.mp4",
+    "end_s": 156.9,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0.05,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsMorals022",
+      "cue": "title"
+    },
+    {
+      "at_s": 7.23,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -16,
+      "shot": "KidsMorals022",
+      "cue": "new blocks"
+    },
+    {
+      "at_s": 18.03,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsMorals022",
+      "cue": "MY BLOCKS"
+    },
+    {
+      "at_s": 20.69,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -19,
+      "shot": "KidsMorals022",
+      "cue": "friends walk away"
+    },
+    {
+      "at_s": 28.43,
+      "sfx_id": "pop-reveal",
+      "gain_db": -18,
+      "shot": "KidsMorals022",
+      "cue": "stacking"
+    },
+    {
+      "at_s": 34.32,
+      "sfx_id": "impact-soft",
+      "gain_db": -11,
+      "shot": "KidsMorals022",
+      "cue": "tower falls"
+    },
+    {
+      "at_s": 42.54,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -19,
+      "shot": "KidsMorals022",
+      "cue": "close-up"
+    },
+    {
+      "at_s": 50.44,
+      "sfx_id": "pop-reveal",
+      "gain_db": -16,
+      "shot": "KidsMorals022",
+      "cue": "LONELY"
+    },
+    {
+      "at_s": 55.32,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsMorals022",
+      "cue": "what could Mila do"
+    },
+    {
+      "at_s": 62.22,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsMorals022",
+      "cue": "LET'S SHARE"
+    },
+    {
+      "at_s": 71.01,
+      "sfx_id": "pop-reveal",
+      "gain_db": -17,
+      "shot": "KidsMorals022",
+      "cue": "castle building"
+    },
+    {
+      "at_s": 79.32,
+      "sfx_id": "chime-magic",
+      "gain_db": -14,
+      "shot": "KidsMorals022",
+      "cue": "tallest castle"
+    },
+    {
+      "at_s": 88.55,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsMorals022",
+      "cue": "moral"
+    },
+    {
+      "at_s": 93.36,
+      "sfx_id": "chime-magic",
+      "gain_db": -15,
+      "shot": "KidsMorals022",
+      "cue": "LET'S REMEMBER"
+    },
+    {
+      "at_s": 96.37,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsMorals022",
+      "cue": "card rem1"
+    },
+    {
+      "at_s": 100.61,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsMorals022",
+      "cue": "card rem2"
+    },
+    {
+      "at_s": 105.04,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsMorals022",
+      "cue": "card rem3"
+    },
+    {
+      "at_s": 112.77,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsMorals022",
+      "cue": "quiz1"
+    },
+    {
+      "at_s": 117.67,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsMorals022",
+      "cue": "LONELY"
+    },
+    {
+      "at_s": 123.56,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsMorals022",
+      "cue": "quiz2"
+    },
+    {
+      "at_s": 128.46,
+      "sfx_id": "chime-reward",
+      "gain_db": -15,
+      "shot": "KidsMorals022",
+      "cue": "HAPPY"
+    },
+    {
+      "at_s": 139.16,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsMorals022",
+      "cue": "YOUR TURN"
+    },
+    {
+      "at_s": 151.12,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -15,
+      "shot": "KidsMorals022",
+      "cue": "bye"
+    }
+  ]
+}
