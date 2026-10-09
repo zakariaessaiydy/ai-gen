@@ -112,6 +112,14 @@
   "transparent": false
  },
  {
+  "id": "KidsAnimals011",
+  "durationInSeconds": 253.6,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "KidsMorals008",
   "durationInSeconds": 177.3,
   "fps": 30,
