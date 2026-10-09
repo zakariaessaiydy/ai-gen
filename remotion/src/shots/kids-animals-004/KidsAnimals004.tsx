@@ -2,7 +2,8 @@
 // kids-shorts/tiny-sparks/animals/day-004-rory-the-lion-who-was-afraid-of-the-dark. Cues from VO via K.
 // GUESS WHO (tail behind the tree) → MEET → SOUND (roar + "your turn" pause) → 3 TRUE FACTS (savanna,
 // pride, 5-mile roar) → STORY: sunset → night, scared → moon, fireflies, stars, deep breath → brave →
-// lesson → good night. First episode built with the PACING minimums (long quiet gaps).
+// lesson → LET'S REMEMBER (5-min memory round: roar ×3 with your-turn pauses, fact quiz with think
+// timers + say-it-with-me, night-sky quiz, breathe in/out together, brave words ×3) → good night.
 import React from 'react';
 import { Kid } from '../../lib/kids/kid';
 import { Critter, critterFaceAt, type CritterSpec } from '../../lib/kids/critter';
@@ -14,7 +15,7 @@ import { EASE_INOUT, EASE_OUT, prog } from '../../lib/shorts';
 import { VO } from './vo.gen';
 import { K } from './keys.gen';
 
-export const compositionConfig = { id: 'KidsAnimals004', durationInSeconds: 108.6, fps: 30, width: 1920, height: 1080 };
+export const compositionConfig = { id: 'KidsAnimals004', durationInSeconds: 299.9, fps: 30, width: 1920, height: 1080 };
 
 const W = 1920;
 const H = 1080;
@@ -66,7 +67,35 @@ const CAM: CamKey[] = [
   { t: S('brave') - 0.3, z: 1.35, x: rfx, y: rfy + 170, cut: true },
   { t: E('brave') + 0.8, z: 1.35, x: rfx, y: rfy + 170 },
   { t: E('brave') + 0.8, z: 1, x: W / 2, y: H / 2, cut: true },
+  { t: S('r_q') - 0.3, z: 1, x: W / 2, y: H / 2 },
+  { t: S('r_q') - 0.3, z: 1.45, x: rfx, y: rfy + 140, cut: true },
+  { t: E('r_c') + 1.0, z: 1.45, x: rfx, y: rfy + 140 },
+  { t: E('r_c') + 1.0, z: 1, x: W / 2, y: H / 2, cut: true },
+  { t: S('l1') - 0.3, z: 1, x: W / 2, y: H / 2 },
+  { t: S('l1') - 0.3, z: 1.35, x: rfx, y: rfy + 170, cut: true },
+  { t: E('l3') + 0.6, z: 1.35, x: rfx, y: rfy + 170 },
+  { t: E('l3') + 0.6, z: 1, x: W / 2, y: H / 2, cut: true },
 ];
+
+const within = (t: number, a: number, b: number) => t >= a && t < b;
+// memory round: the three "breathe" phases drive a growing / shrinking bubble
+const breathAt = (t: number) => {
+  const ph: [number, number, boolean][] = [
+    [S('b_in'), S('b_out'), true], [S('b_out'), S('b_in2'), false],
+    [S('b_in2'), S('b_out2'), true], [S('b_out2'), S('l_intro') - 0.4, false],
+  ];
+  for (const [a, b, up] of ph) if (within(t, a, b)) { const p = EASE_INOUT(prog(t, a, b)); return up ? p : 1 - p; }
+  return -1;
+};
+const BreathBubble: React.FC<{ t: number }> = ({ t }) => {
+  const b = breathAt(t);
+  if (b < 0) return null;
+  return (
+    <svg width={W} height={H} style={{ position: 'absolute', inset: 0 }}>
+      <circle cx={W / 2} cy={290} r={70 + b * 130} fill="#a0c4ff" opacity={0.55} {...kst(7)} />
+    </svg>
+  );
+};
 
 const Firefly: React.FC<{ x: number; y: number; t: number; i: number; a: number }> = ({ x, y, t, i, a }) => {
   const glow = 0.55 + 0.45 * Math.sin(t * 3 + i * 1.7);
@@ -105,8 +134,14 @@ export default function KidsAnimals004() {
   const roarBig = t >= S('roar2') && t < E('roar2') + 0.4;
   const showRory = t >= REVEAL;
   const walking = t >= REVEAL + 0.3 && t < S('hello') - 0.2;
-  const prideOn = t >= S('fact2') + 1.0 && t < S('fact3') - 0.4;
-  const rings = t >= S('fact3') + 2.2 && t < S('secret') - 0.6;
+  const prideOn = within(t, S('fact2') + 1.0, S('fact3') - 0.4) || within(t, S('a2') + 0.2, S('q3') - 0.4);
+  const prideT0 = t >= S('a2') ? S('a2') + 0.2 : S('fact2') + 1.0;
+  const rings = within(t, S('fact3') + 2.2, S('secret') - 0.6) || within(t, S('a3') + 0.3, S('n_intro') - 0.4);
+  const ringT0 = t >= S('a3') ? S('a3') + 0.3 : S('fact3') + 2.2;
+  const roarLine = (['r_a', 'r_b', 'r_c', 'a3_r'] as const).some((k) => within(t, S(k), E(k) + 0.4));
+  const braveLine = (['l1', 'l2', 'l3'] as const).some((k) => within(t, S(k), E(k) + 0.3));
+  const breathing = within(t, S('b_in'), S('l_intro') - 0.4);
+  const moonPulse = within(t, S('na1'), S('nq2')) ? 1 + 0.12 * Math.sin((t - S('na1')) * 6) : 1;
 
   const roryExpr =
     !showRory ? 'smile'
@@ -114,6 +149,8 @@ export default function KidsAnimals004() {
     : t < E('roar2') + 0.4 ? (roarBig ? 'laugh' : 'happy')
     : scared ? (t >= S('fireflies_r') ? 'wow' : t >= S('moon') ? 'surprised' : 'sad')
     : t >= S('breath') && t < S('brave') ? 'sleepy'
+    : breathing ? 'sleepy'
+    : roarLine || braveLine ? 'laugh'
     : 'happy';
 
   return (
@@ -131,7 +168,7 @@ export default function KidsAnimals004() {
                   opacity={night * (t >= STARS ? 0.6 + 0.4 * Math.sin(t * 3 + i) : 0.35)} />
               ))}
             {t >= MOON && (
-              <g transform={`translate(1560,190) scale(${EASE_OUT(prog(t, MOON, MOON + 0.8))})`}>
+              <g transform={`translate(1560,190) scale(${EASE_OUT(prog(t, MOON, MOON + 0.8)) * moonPulse})`}>
                 <circle r={110} fill="#fff3b0" opacity={0.25} />
                 <circle r={78} fill="#fff3b0" {...kst(6)} />
                 <circle cx={-22} cy={-10} r={10} fill="#f1e29a" />
@@ -154,13 +191,13 @@ export default function KidsAnimals004() {
         {/* the pride (fact 2) */}
         {prideOn &&
           PRIDE.map((p, i) => {
-            const s = EASE_OUT(prog(t, S('fact2') + 1.0 + i * 0.35, S('fact2') + 1.4 + i * 0.35));
+            const s = EASE_OUT(prog(t, prideT0 + i * 0.35, prideT0 + 0.4 + i * 0.35));
             return <Critter key={p.id} spec={p} x={1360 + i * 170} y={f + 10} scale={0.42 * s} expr={i === 1 ? 'laugh' : 'happy'} shadow={false} />;
           })}
         {/* the big roar: sound rings */}
         {rings &&
           [0, 1, 2].map((i) => {
-            const p = ((t - S('fact3') - 2.2) * 0.8 + i / 3) % 1;
+            const p = ((t - ringT0) * 0.8 + i / 3) % 1;
             return <circle key={i} cx={RORY_X} cy={rfy + 60} r={80 + p * 700} fill="none" stroke="#ffca3a" strokeWidth={14 * (1 - p)} opacity={1 - p} />;
           })}
         {/* fireflies */}
@@ -169,22 +206,23 @@ export default function KidsAnimals004() {
             <Firefly key={i} x={700 + (i % 5) * 180} y={420 + Math.floor(i / 5) * 180} t={t} i={i} a={EASE_OUT(prog(t, FIREFLIES + i * 0.15, FIREFLIES + i * 0.15 + 0.6))} />
           ))}
         <Critter spec={BOBO} x={BOBO_X} y={f} scale={0.55} expr={boboTalks ? 'laugh' : scared ? 'smile' : 'happy'} look={[0.7, -0.2]}
-          mouth={lipSync(VO, 'bobo', t)} armL={boboTalks && t >= S('bobo_help') ? 'hug' : boboTalks ? 'wave' : 'down'}
+          mouth={lipSync(VO, 'bobo', t)} armL={boboTalks && within(t, S('bobo_help'), S('lesson')) ? 'hug' : boboTalks ? 'wave' : 'down'}
           armR={t >= S('night') ? 'wave' : boboTalks ? 'point' : 'down'} />
         {showRory && (
           <Critter spec={RORY} x={roryX(t)} y={f} scale={0.62} expr={roryExpr} look={scared && t < S('moon') ? [-0.5, 0.6] : t >= MOON && t < S('breath') ? [0.6, -0.8] : [0, 0]}
-            mouth={lipSync(VO, 'rory', t) * (roarBig ? 1.4 : 1)} walking={walking} walk={t * 2}
+            mouth={lipSync(VO, 'rory', t) * (roarBig || roarLine ? 1.4 : 1)} walking={walking} walk={t * 2}
             hop={t >= REVEAL && t < REVEAL + 0.4 ? Math.sin(prog(t, REVEAL, REVEAL + 0.4) * Math.PI) * 80 : 0}
             squash={scared && t < S('moon') ? 0.15 : 0}
-            armL={t >= S('night') ? 'wave' : t >= S('brave') && t < E('brave') ? 'up' : scared && t < S('moon') ? 'hug' : 'down'}
-            armR={t >= S('brave') && t < E('brave') ? 'up' : scared && t < S('moon') ? 'hug' : t >= S('hello') && t < E('hello') ? 'wave' : 'down'} />
+            armL={t >= S('night') ? 'wave' : (t >= S('brave') && t < E('brave')) || roarLine || braveLine ? 'up' : scared && t < S('moon') ? 'hug' : 'down'}
+            armR={(t >= S('brave') && t < E('brave')) || roarLine || braveLine ? 'up' : scared && t < S('moon') ? 'hug' : t >= S('hello') && t < E('hello') ? 'wave' : 'down'} />
         )}
       </KidsStage>
       <TitleCard t={t} from={0} to={TITLE_END} title="RORY THE LION" sub="who was afraid of the dark" />
       <ThinkTimer t={t} from={E('guess2') + 0.2} to={S('reveal') - 0.2} label="WHO?" />
       <PopText t={t} at={E('your_turn') - 0.4} until={S('roar2') - 0.1} text="YOUR TURN!" y={200} size={120} color="#ffca3a" />
       <PopText t={t} at={S('roar2')} until={E('roar2') + 1.0} text="ROAR!" y={220} size={170} color="#ff924c" />
-      <FactCard t={t} at={S('fact1') - 0.2} until={S('fact2') - 0.4} n={1} text="the savanna">
+      {([[S('fact1') - 0.2, S('fact2') - 0.4], [S('a1') - 0.2, S('q2') - 0.4]] as const).map(([a, b]) => (
+      <FactCard key={a} t={t} at={a} until={b} n={1} text="the savanna">
         <g>
           <rect x={-90} y={10} width={180} height={50} rx={14} fill="#e9c46a" {...kst(5)} />
           <rect x={-8} y={-60} width={16} height={74} fill="#8d5a3b" {...kst(4)} />
@@ -192,10 +230,14 @@ export default function KidsAnimals004() {
           <circle cx={60} cy={-90} r={20} fill="#ffd166" {...kst(4)} />
         </g>
       </FactCard>
-      <FactCard t={t} at={S('fact2') - 0.2} until={S('fact3') - 0.4} n={2} text="a PRIDE of lions">
+      ))}
+      {([[S('fact2') - 0.2, S('fact3') - 0.4], [S('a2') - 0.2, S('q3') - 0.4]] as const).map(([a, b]) => (
+      <FactCard key={a} t={t} at={a} until={b} n={2} text="a PRIDE of lions">
         <g transform="translate(0,60)"><Critter spec={RORY} x={0} y={0} scale={0.22} shadow={false} expr="happy" /></g>
       </FactCard>
-      <FactCard t={t} at={S('fact3') - 0.2} until={S('secret') - 0.6} n={3} text="ROAR = 5 miles!">
+      ))}
+      {([[S('fact3') - 0.2, S('secret') - 0.6], [S('a3') - 0.2, S('n_intro') - 0.4]] as const).map(([a, b]) => (
+      <FactCard key={a} t={t} at={a} until={b} n={3} text="ROAR = 5 miles!">
         <g>
           {[30, 55, 80].map((r) => (
             <path key={r} d={`M ${r * 0.6},${-r} A ${r},${r} 0 0,1 ${r * 0.6},${r}`} fill="none" stroke="#ff924c" strokeWidth={10} strokeLinecap="round" />
@@ -203,7 +245,35 @@ export default function KidsAnimals004() {
           <circle cx={-20} cy={0} r={24} fill="#ffc857" {...kst(5)} />
         </g>
       </FactCard>
+      ))}
       <PopText t={t} at={S('lesson') + 0.4} until={E('lesson') + 2.0} text="BE BRAVE!" y={200} size={150} color="#ffca3a" />
+      {/* ── LET'S REMEMBER: the memory round ── */}
+      <PopText t={t} at={S('again')} until={S('r_q') - 0.3} text="LET'S REMEMBER!" y={220} size={130} color="#ffca3a" />
+      <ThinkTimer t={t} from={E('r_q') + 0.2} to={S('r_a') - 0.2} label="WHAT?" />
+      {(['r_a', 'r_b', 'r_c'] as const).map((k) => (
+        <PopText key={k} t={t} at={S(k)} until={E(k) + 1.0} text="ROAR!" y={220} size={170} color="#ff924c" />
+      ))}
+      <PopText t={t} at={E('r_turn') - 0.4} until={S('r_b') - 0.1} text="YOUR TURN!" y={200} size={120} color="#ffca3a" />
+      <PopText t={t} at={E('r_more') - 0.4} until={S('r_c') - 0.1} text="YOUR TURN!" y={200} size={120} color="#ffca3a" />
+      <ThinkTimer t={t} from={E('q1') + 0.2} to={S('a1') - 0.2} label="WHERE?" />
+      <ThinkTimer t={t} from={E('q2') + 0.2} to={S('a2') - 0.2} label="WHAT?" />
+      <ThinkTimer t={t} from={E('q3') + 0.2} to={S('a3') - 0.2} label="HOW FAR?" />
+      <PopText t={t} at={S('a3_say') + 0.3} until={S('a3_r')} text="5" x={1500} y={560} size={260} color="#ff595e" />
+      <ThinkTimer t={t} from={E('nq1') + 0.2} to={S('na1') - 0.2} label="WHAT?" />
+      <ThinkTimer t={t} from={E('nq2') + 0.2} to={S('na2') - 0.2} label="WHAT?" />
+      <ThinkTimer t={t} from={E('nq3') + 0.2} to={S('na3') - 0.2} label="WHAT?" />
+      <PopText t={t} at={S('na1')} until={S('nq2') - 0.3} text="THE MOON!" y={200} size={130} color="#fff3b0" />
+      <PopText t={t} at={S('na2')} until={S('nq3') - 0.3} text="FIREFLIES!" y={200} size={130} color="#fff59d" />
+      <PopText t={t} at={S('na3')} until={S('b_intro') - 0.3} text="THE STARS!" y={200} size={130} color="#ffffff" />
+      <BreathBubble t={t} />
+      <PopText t={t} at={S('b_in')} until={S('b_out')} text="BREATHE IN..." y={290} size={90} color="#a0c4ff" />
+      <PopText t={t} at={S('b_out')} until={S('b_in2')} text="...AND OUT" y={290} size={90} color="#ffffff" />
+      <PopText t={t} at={S('b_in2')} until={S('b_out2')} text="BREATHE IN..." y={290} size={90} color="#a0c4ff" />
+      <PopText t={t} at={S('b_out2')} until={S('l_intro') - 0.4} text="...AND OUT" y={290} size={90} color="#ffffff" />
+      <PopText t={t} at={S('l1')} until={S('l_turn')} text="BE BRAVE!" y={200} size={150} color="#ffca3a" />
+      <PopText t={t} at={E('l_turn') - 0.3} until={S('l2') - 0.1} text="YOUR TURN!" y={200} size={120} color="#ffca3a" />
+      <PopText t={t} at={S('l2')} until={S('l_turn2')} text="BE BRAVE!" y={200} size={150} color="#ffca3a" />
+      <PopText t={t} at={S('l_turn2')} until={S('night') - 0.4} text="ALL TOGETHER!" y={200} size={120} color="#ffca3a" />
       <KidsCaptions lines={VO} t={t} colors={COLORS} />
     </>
   );

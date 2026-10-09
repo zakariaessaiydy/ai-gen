@@ -1,8 +1,10 @@
-# Day 4 — Rory the Lion Who Was Afraid of the Dark (LONG 16:9, 1 min 49 s)
+# Day 4 — Rory the Lion Who Was Afraid of the Dark (LONG 16:9, 5 min 00 s)
 
 Niche: 🦁 Animal Stories #1 · ages 3–5 · cast: Rory the lion (guest, voice am_michael:0.6+am_onyx:0.4), Bobo, narrator
 First episode with the PACING rule (2.5 s+ between items, "your turn" pause, slower narrator).
-Guess who (tail behind the tree, 4 s timer) → meet Rory → "Roar!" + YOUR TURN pause → 3 facts → sunset/night: scared → moon, fireflies, stars, deep breath → brave → lesson → good night.
+Guess who (tail behind the tree, 4 s timer) → meet Rory → "Roar!" + YOUR TURN pause → 3 facts → sunset/night: scared → moon, fireflies, stars, deep breath → brave → lesson → LET'S REMEMBER memory round (user asked for 5 min, repeating scenes to memorize):
+roar ×3 with YOUR TURN pauses → fact quiz (6 s think timers, fact cards + pride + rings again, say-it-with-me) →
+night-sky quiz (moon / fireflies / stars) → breathe in–out ×2 with a breath bubble → "Being brave means trying!" ×3 → good night.
 
 Facts (true):
 1. Lions live in Africa, on the grassy savanna. (National Geographic Kids — African lion)
@@ -19,9 +21,21 @@ Join Rory and Bobo the bear as they discover the moon, glowing fireflies and twi
 
 🦁 Learn 3 true lion facts: lions live on the savanna, a lion family is called a pride, and a roar can be heard 5 miles away!
 🗣️ Roar along with Rory!
+🔁 Then play "Let's Remember": a gentle quiz and repeat-after-me round so little ones memorize the facts, breathe calmly together and say Rory's brave words: "Being brave means trying!"
 
 🌟 Perfect for ages 3–5 — calm enough for bedtime
 💬 Talk about it: what helps YOU feel brave at night?
+
+0:00 Guess who's hiding?
+0:12 Meet Rory the lion
+0:30 3 lion facts
+0:53 Rory is scared of the dark
+1:40 Let's remember: roar together!
+2:13 Lion facts quiz
+3:19 Night-sky quiz
+4:00 Breathe like Rory
+4:21 Being brave means trying
+4:50 Good night!
 
 Tiny Sparks makes short, gentle cartoons that help little ones learn kindness, numbers,
 words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video every day!
