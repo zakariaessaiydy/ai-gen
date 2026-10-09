@@ -1,0 +1,811 @@
+{
+  "id": "day-009",
+  "series": "tiny-sparks",
+  "episode": 9,
+  "title": "Counting 1–20 with Balloons",
+  "composition": "KidsNumbers009",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 77.4
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "mila",
+      "start": 1.4,
+      "end": 4.02,
+      "text": "Let's count balloons, all the way to twenty!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 1.43,
+          "end": 1.762
+        },
+        {
+          "w": "count",
+          "start": 1.762,
+          "end": 2.159
+        },
+        {
+          "w": "balloons,",
+          "start": 2.159,
+          "end": 2.69
+        },
+        {
+          "w": "all",
+          "start": 2.82,
+          "end": 3.034
+        },
+        {
+          "w": "the",
+          "start": 3.034,
+          "end": 3.141
+        },
+        {
+          "w": "way",
+          "start": 3.141,
+          "end": 3.355
+        },
+        {
+          "w": "to",
+          "start": 3.355,
+          "end": 3.515
+        },
+        {
+          "w": "twenty!",
+          "start": 3.515,
+          "end": 3.89
+        }
+      ]
+    },
+    {
+      "beat": "go",
+      "speaker": "bobo",
+      "start": 5.02,
+      "end": 6.12,
+      "text": "Ready? Let's go!",
+      "words": [
+        {
+          "w": "Ready?",
+          "start": 5.05,
+          "end": 5.389
+        },
+        {
+          "w": "Let's",
+          "start": 5.389,
+          "end": 5.729
+        },
+        {
+          "w": "go!",
+          "start": 5.729,
+          "end": 6.0
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 7.52,
+      "end": 8.33,
+      "text": "One!",
+      "words": [
+        {
+          "w": "One!",
+          "start": 7.6,
+          "end": 8.19
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "bobo",
+      "start": 9.43,
+      "end": 9.99,
+      "text": "Two!",
+      "words": [
+        {
+          "w": "Two!",
+          "start": 9.45,
+          "end": 9.91
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 11.09,
+      "end": 11.96,
+      "text": "Three!",
+      "words": [
+        {
+          "w": "Three!",
+          "start": 11.16,
+          "end": 11.8
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "bobo",
+      "start": 13.06,
+      "end": 13.65,
+      "text": "Four!",
+      "words": [
+        {
+          "w": "Four!",
+          "start": 13.1,
+          "end": 13.56
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 14.75,
+      "end": 15.67,
+      "text": "Five!",
+      "words": [
+        {
+          "w": "Five!",
+          "start": 14.83,
+          "end": 15.52
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "bobo",
+      "start": 16.77,
+      "end": 17.38,
+      "text": "Six!",
+      "words": [
+        {
+          "w": "Six!",
+          "start": 16.81,
+          "end": 17.31
+        }
+      ]
+    },
+    {
+      "beat": "c7",
+      "speaker": "mila",
+      "start": 18.48,
+      "end": 19.33,
+      "text": "Seven!",
+      "words": [
+        {
+          "w": "Seven!",
+          "start": 18.53,
+          "end": 19.19
+        }
+      ]
+    },
+    {
+      "beat": "c8",
+      "speaker": "bobo",
+      "start": 20.43,
+      "end": 20.99,
+      "text": "Eight!",
+      "words": [
+        {
+          "w": "Eight!",
+          "start": 20.47,
+          "end": 20.92
+        }
+      ]
+    },
+    {
+      "beat": "c9",
+      "speaker": "mila",
+      "start": 22.09,
+      "end": 22.98,
+      "text": "Nine!",
+      "words": [
+        {
+          "w": "Nine!",
+          "start": 22.17,
+          "end": 22.88
+        }
+      ]
+    },
+    {
+      "beat": "c10",
+      "speaker": "bobo",
+      "start": 24.08,
+      "end": 24.64,
+      "text": "Ten!",
+      "words": [
+        {
+          "w": "Ten!",
+          "start": 24.11,
+          "end": 24.56
+        }
+      ]
+    },
+    {
+      "beat": "tie",
+      "speaker": "bobo",
+      "start": 26.44,
+      "end": 28.46,
+      "text": "Ten balloons! Let's tie them together.",
+      "words": [
+        {
+          "w": "Ten",
+          "start": 26.47,
+          "end": 26.696
+        },
+        {
+          "w": "balloons!",
+          "start": 26.696,
+          "end": 27.149
+        },
+        {
+          "w": "Let's",
+          "start": 27.149,
+          "end": 27.432
+        },
+        {
+          "w": "tie",
+          "start": 27.432,
+          "end": 27.658
+        },
+        {
+          "w": "them",
+          "start": 27.658,
+          "end": 27.884
+        },
+        {
+          "w": "together.",
+          "start": 27.884,
+          "end": 28.28
+        }
+      ]
+    },
+    {
+      "beat": "ten",
+      "speaker": "mila",
+      "start": 29.66,
+      "end": 31.55,
+      "text": "That's one big bunch of ten!",
+      "words": [
+        {
+          "w": "That's",
+          "start": 29.69,
+          "end": 30.044
+        },
+        {
+          "w": "one",
+          "start": 30.044,
+          "end": 30.327
+        },
+        {
+          "w": "big",
+          "start": 30.327,
+          "end": 30.61
+        },
+        {
+          "w": "bunch",
+          "start": 30.61,
+          "end": 31.035
+        },
+        {
+          "w": "of",
+          "start": 31.035,
+          "end": 31.177
+        },
+        {
+          "w": "ten!",
+          "start": 31.177,
+          "end": 31.46
+        }
+      ]
+    },
+    {
+      "beat": "more",
+      "speaker": "mila",
+      "start": 33.55,
+      "end": 35.04,
+      "text": "Let's keep counting!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 33.59,
+          "end": 33.959
+        },
+        {
+          "w": "keep",
+          "start": 33.959,
+          "end": 34.329
+        },
+        {
+          "w": "counting!",
+          "start": 34.329,
+          "end": 34.92
+        }
+      ]
+    },
+    {
+      "beat": "c11",
+      "speaker": "mila",
+      "start": 36.44,
+      "end": 37.42,
+      "text": "Eleven!",
+      "words": [
+        {
+          "w": "Eleven!",
+          "start": 36.49,
+          "end": 37.26
+        }
+      ]
+    },
+    {
+      "beat": "c12",
+      "speaker": "bobo",
+      "start": 38.62,
+      "end": 39.26,
+      "text": "Twelve!",
+      "words": [
+        {
+          "w": "Twelve!",
+          "start": 38.65,
+          "end": 39.14
+        }
+      ]
+    },
+    {
+      "beat": "c13",
+      "speaker": "mila",
+      "start": 40.46,
+      "end": 41.5,
+      "text": "Thirteen!",
+      "words": [
+        {
+          "w": "Thirteen!",
+          "start": 40.52,
+          "end": 41.34
+        }
+      ]
+    },
+    {
+      "beat": "c14",
+      "speaker": "bobo",
+      "start": 42.7,
+      "end": 43.48,
+      "text": "Fourteen!",
+      "words": [
+        {
+          "w": "Fourteen!",
+          "start": 42.75,
+          "end": 43.39
+        }
+      ]
+    },
+    {
+      "beat": "c15",
+      "speaker": "mila",
+      "start": 44.68,
+      "end": 45.72,
+      "text": "Fifteen!",
+      "words": [
+        {
+          "w": "Fifteen!",
+          "start": 44.75,
+          "end": 45.56
+        }
+      ]
+    },
+    {
+      "beat": "c16",
+      "speaker": "bobo",
+      "start": 46.92,
+      "end": 47.67,
+      "text": "Sixteen!",
+      "words": [
+        {
+          "w": "Sixteen!",
+          "start": 46.95,
+          "end": 47.6
+        }
+      ]
+    },
+    {
+      "beat": "c17",
+      "speaker": "mila",
+      "start": 48.87,
+      "end": 49.97,
+      "text": "Seventeen!",
+      "words": [
+        {
+          "w": "Seventeen!",
+          "start": 48.93,
+          "end": 49.85
+        }
+      ]
+    },
+    {
+      "beat": "c18",
+      "speaker": "bobo",
+      "start": 51.17,
+      "end": 51.89,
+      "text": "Eighteen!",
+      "words": [
+        {
+          "w": "Eighteen!",
+          "start": 51.19,
+          "end": 51.8
+        }
+      ]
+    },
+    {
+      "beat": "c19",
+      "speaker": "mila",
+      "start": 53.09,
+      "end": 54.13,
+      "text": "Nineteen!",
+      "words": [
+        {
+          "w": "Nineteen!",
+          "start": 53.17,
+          "end": 54.0
+        }
+      ]
+    },
+    {
+      "beat": "c20",
+      "speaker": "bobo",
+      "start": 55.33,
+      "end": 56.04,
+      "text": "Twenty!",
+      "words": [
+        {
+          "w": "Twenty!",
+          "start": 55.36,
+          "end": 55.96
+        }
+      ]
+    },
+    {
+      "beat": "make",
+      "speaker": "mila",
+      "start": 57.84,
+      "end": 59.82,
+      "text": "Ten, and ten more, make twenty!",
+      "words": [
+        {
+          "w": "Ten,",
+          "start": 57.88,
+          "end": 58.141
+        },
+        {
+          "w": "and",
+          "start": 58.141,
+          "end": 58.338
+        },
+        {
+          "w": "ten",
+          "start": 58.338,
+          "end": 58.599
+        },
+        {
+          "w": "more,",
+          "start": 58.599,
+          "end": 58.926
+        },
+        {
+          "w": "make",
+          "start": 58.926,
+          "end": 59.253
+        },
+        {
+          "w": "twenty!",
+          "start": 59.253,
+          "end": 59.71
+        }
+      ]
+    },
+    {
+      "beat": "pop",
+      "speaker": "bobo",
+      "start": 62.02,
+      "end": 62.59,
+      "text": "Oops!",
+      "words": [
+        {
+          "w": "Oops!",
+          "start": 62.05,
+          "end": 62.5
+        }
+      ]
+    },
+    {
+      "beat": "howmany",
+      "speaker": "mila",
+      "start": 63.59,
+      "end": 65.72,
+      "text": "One balloon popped! Now, how many?",
+      "words": [
+        {
+          "w": "One",
+          "start": 63.61,
+          "end": 63.878
+        },
+        {
+          "w": "balloon",
+          "start": 63.878,
+          "end": 64.347
+        },
+        {
+          "w": "popped!",
+          "start": 64.347,
+          "end": 64.749
+        },
+        {
+          "w": "Now,",
+          "start": 64.749,
+          "end": 65.017
+        },
+        {
+          "w": "how",
+          "start": 65.017,
+          "end": 65.285
+        },
+        {
+          "w": "many?",
+          "start": 65.285,
+          "end": 65.62
+        }
+      ]
+    },
+    {
+      "beat": "ans",
+      "speaker": "mila",
+      "start": 70.72,
+      "end": 71.76,
+      "text": "Nineteen!",
+      "words": [
+        {
+          "w": "Nineteen!",
+          "start": 70.8,
+          "end": 71.63
+        }
+      ]
+    },
+    {
+      "beat": "yay",
+      "speaker": "bobo",
+      "start": 73.56,
+      "end": 75.03,
+      "text": "Yay! You can count to twenty!",
+      "words": [
+        {
+          "w": "Yay!",
+          "start": 73.59,
+          "end": 73.786
+        },
+        {
+          "w": "You",
+          "start": 73.786,
+          "end": 73.932
+        },
+        {
+          "w": "can",
+          "start": 73.932,
+          "end": 74.128
+        },
+        {
+          "w": "count",
+          "start": 74.128,
+          "end": 74.421
+        },
+        {
+          "w": "to",
+          "start": 74.421,
+          "end": 74.568
+        },
+        {
+          "w": "twenty!",
+          "start": 74.568,
+          "end": 74.91
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "visual": "Let's count balloons, all the way to twenty!",
+      "end": 4.82
+    },
+    {
+      "id": "go",
+      "start": 4.82,
+      "visual": "Ready? Let's go!",
+      "end": 7.32
+    },
+    {
+      "id": "c1",
+      "start": 7.32,
+      "visual": "One!",
+      "end": 9.23
+    },
+    {
+      "id": "c2",
+      "start": 9.23,
+      "visual": "Two!",
+      "end": 10.89
+    },
+    {
+      "id": "c3",
+      "start": 10.89,
+      "visual": "Three!",
+      "end": 12.86
+    },
+    {
+      "id": "c4",
+      "start": 12.86,
+      "visual": "Four!",
+      "end": 14.55
+    },
+    {
+      "id": "c5",
+      "start": 14.55,
+      "visual": "Five!",
+      "end": 16.57
+    },
+    {
+      "id": "c6",
+      "start": 16.57,
+      "visual": "Six!",
+      "end": 18.28
+    },
+    {
+      "id": "c7",
+      "start": 18.28,
+      "visual": "Seven!",
+      "end": 20.23
+    },
+    {
+      "id": "c8",
+      "start": 20.23,
+      "visual": "Eight!",
+      "end": 21.89
+    },
+    {
+      "id": "c9",
+      "start": 21.89,
+      "visual": "Nine!",
+      "end": 23.88
+    },
+    {
+      "id": "c10",
+      "start": 23.88,
+      "visual": "Ten!",
+      "end": 26.24
+    },
+    {
+      "id": "tie",
+      "start": 26.24,
+      "visual": "Ten balloons! Let's tie them together.",
+      "end": 29.46
+    },
+    {
+      "id": "ten",
+      "start": 29.46,
+      "visual": "That's one big bunch of ten!",
+      "end": 33.35
+    },
+    {
+      "id": "more",
+      "start": 33.35,
+      "visual": "Let's keep counting!",
+      "end": 36.24
+    },
+    {
+      "id": "c11",
+      "start": 36.24,
+      "visual": "Eleven!",
+      "end": 38.42
+    },
+    {
+      "id": "c12",
+      "start": 38.42,
+      "visual": "Twelve!",
+      "end": 40.26
+    },
+    {
+      "id": "c13",
+      "start": 40.26,
+      "visual": "Thirteen!",
+      "end": 42.5
+    },
+    {
+      "id": "c14",
+      "start": 42.5,
+      "visual": "Fourteen!",
+      "end": 44.48
+    },
+    {
+      "id": "c15",
+      "start": 44.48,
+      "visual": "Fifteen!",
+      "end": 46.72
+    },
+    {
+      "id": "c16",
+      "start": 46.72,
+      "visual": "Sixteen!",
+      "end": 48.67
+    },
+    {
+      "id": "c17",
+      "start": 48.67,
+      "visual": "Seventeen!",
+      "end": 50.97
+    },
+    {
+      "id": "c18",
+      "start": 50.97,
+      "visual": "Eighteen!",
+      "end": 52.89
+    },
+    {
+      "id": "c19",
+      "start": 52.89,
+      "visual": "Nineteen!",
+      "end": 55.13
+    },
+    {
+      "id": "c20",
+      "start": 55.13,
+      "visual": "Twenty!",
+      "end": 57.64
+    },
+    {
+      "id": "make",
+      "start": 57.64,
+      "visual": "Ten, and ten more, make twenty!",
+      "end": 61.82
+    },
+    {
+      "id": "pop",
+      "start": 61.82,
+      "visual": "Oops!",
+      "end": 63.39
+    },
+    {
+      "id": "howmany",
+      "start": 63.39,
+      "visual": "One balloon popped! Now, how many?",
+      "end": 70.52
+    },
+    {
+      "id": "ans",
+      "start": 70.52,
+      "visual": "Nineteen!",
+      "end": 73.36
+    },
+    {
+      "id": "yay",
+      "start": 73.36,
+      "visual": "Yay! You can count to twenty!",
+      "end": 77.4
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}
