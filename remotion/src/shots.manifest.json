@@ -192,6 +192,14 @@
   "transparent": false
  },
  {
+  "id": "KidsScience019",
+  "durationInSeconds": 75.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "KidsChannelBanner",
   "durationInSeconds": 1,
   "fps": 30,
