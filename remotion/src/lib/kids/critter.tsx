@@ -5,7 +5,7 @@ import React from 'react';
 import { useCurrentFrame } from 'remotion';
 import { Face, KINK, kst, type KExpr } from './face';
 
-export type Species = 'bear' | 'bunny' | 'cat' | 'fox' | 'lion' | 'mouse' | 'panda' | 'pig' | 'owl' | 'frog' | 'monkey';
+export type Species = 'bear' | 'bunny' | 'cat' | 'fox' | 'lion' | 'mouse' | 'panda' | 'pig' | 'owl' | 'frog' | 'monkey' | 'dog';
 
 export type CritterSpec = {
   id: string;
@@ -136,6 +136,14 @@ const Ears: React.FC<{ s: CritterSpec; layer: 'back' | 'front' }> = ({ s, layer 
           ))}
         </g>
       );
+    case 'dog':
+      return (
+        <g>
+          {[-1, 1].map((k) => (
+            <path key={k} d={`M ${k * 120},-120 Q ${k * 230},-120 ${k * 210},60 Q ${k * 190},120 ${k * 150},70 Q ${k * 130},-20 ${k * 100},-90 Z`} fill={s.dark} {...st} />
+          ))}
+        </g>
+      );
     case 'monkey':
       return (
         <g>
@@ -193,6 +201,8 @@ const Tail: React.FC<{ s: CritterSpec; frame: number }> = ({ s, frame }) => {
           <circle cx={230} cy={-190 + wag} r={30} fill={s.dark} {...st} />
         </g>
       );
+    case 'dog':
+      return <path d={`M 100,-100 Q 200,-120 ${210 + wag * 2},${-220 + wag}`} fill="none" stroke={s.fur} strokeWidth={34} strokeLinecap="round" />;
     case 'monkey':
       return <path d={`M 100,-80 Q 260,-40 250,${-200 + wag} Q 240,-300 170,${-290 + wag} Q 120,-270 150,${-230 + wag}`} fill="none" stroke={s.dark} strokeWidth={22} strokeLinecap="round" />;
     case 'pig':
@@ -262,6 +272,13 @@ export const Critter: React.FC<CritterProps> = ({
     switch (s.species) {
       case 'owl':
         return <path d="M -20,34 L 20,34 L 0,70 Z" fill="#ffb703" {...kst(6)} />;
+      case 'dog':
+        return (
+          <g>
+            <ellipse cx={0} cy={30} rx={38} ry={26} fill={KINK} />
+            <ellipse cx={-10} cy={22} rx={10} ry={6} fill="#ffffff" opacity={0.5} />
+          </g>
+        );
       case 'pig':
         return (
           <g>
