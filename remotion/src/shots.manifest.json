@@ -344,6 +344,14 @@
   "transparent": false
  },
  {
+  "id": "KidsStories029",
+  "durationInSeconds": 303.5,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "KidsWords003",
   "durationInSeconds": 118.7,
   "fps": 30,
