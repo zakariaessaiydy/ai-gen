@@ -77,10 +77,14 @@ def parse_voice_plan(beats, args):
     engine, voice, rate = args.engine, args.voice, args.rate
     plan = beats.get("voicePlan") or beats.get("voiceStatus") or ""
     if not engine or not voice:
-        m = re.match(r"\s*(elevenlabs|edge)\s*:\s*([^\s]+)", plan)
+        # "edge:<voice> --rate +12%", or a bare "edge" / "elevenlabs" for a cast episode
+        # whose voices come from beats.json's per-speaker "cast" map
+        m = re.match(r"\s*(elevenlabs|edge|kokoro|azure)\b(?:\s*:\s*([^\s]+))?", plan)
         if m:
             engine = engine or m.group(1)
-            voice = voice or m.group(2)
+            # voiceStatus records a cast episode as "kokoro:cast" — that is not a voice name
+            if m.group(2) != "cast":
+                voice = voice or m.group(2)
     if not rate:
         m = re.search(r"--rate\s+(\S+)", plan)
         rate = m.group(1) if m else None
@@ -112,9 +116,9 @@ def main():
     ap.add_argument("--draft", action="store_true",
                     help="render at half scale / crf 30 into <Id>-draft.mp4 — a motion check, not a master")
     ap.add_argument("--scale", type=float, help="render scale (default 1 for shorts, 0.5 with --draft)")
-    ap.add_argument("--engine", choices=("elevenlabs", "edge"))
+    ap.add_argument("--engine", choices=("elevenlabs", "edge", "kokoro", "azure"))
     ap.add_argument("--voice")
-    ap.add_argument("--rate", help="edge only, e.g. +12%%")
+    ap.add_argument("--rate", help="edge/kokoro, e.g. +12%%")
     ap.add_argument("--jobs", type=int, default=4, help="parallel TTS lines (default 4)")
     ap.add_argument("--music", help="bed id, or 'all' to audition every bed")
     ap.add_argument("--force", action="store_true", help="re-render even when nothing changed")
@@ -165,7 +169,7 @@ def main():
     # the render, and a duration mismatch is a re-render. Both are a one-second check.
     if not args.no_check:
         print("\npreflight:")
-        r = subprocess.run(["python", os.path.join(ROOT, "tools", "check_short.py"), proj], cwd=ROOT)
+        r = subprocess.run([sys.executable, os.path.join(ROOT, "tools", "check_short.py"), proj], cwd=ROOT)
         if r.returncode != 0:
             sys.exit("preflight found errors — fix them (or pass --no-check) before building")
 
@@ -177,12 +181,12 @@ def main():
     if stage("voice"):
         t = time.time()
         engine, voice, rate = parse_voice_plan(beats, args)
-        cmd = ["python", os.path.join(ROOT, "tools", "gen_voice.py"),
+        cmd = [sys.executable, os.path.join(ROOT, "tools", "gen_voice.py"),
                "--beats", beats_path, "--engine", engine, "--jobs", str(args.jobs),
                "--emit-ts", os.path.join(shot_dir, "vo.gen.ts")]
         if voice:
             cmd += ["--voice", voice]
-        if rate and engine == "edge":
+        if rate and engine in ("edge", "kokoro"):
             cmd += ["--rate", rate]
         if args.force_voice:
             cmd += ["--force"]
@@ -225,7 +229,7 @@ def main():
         else:
             t = time.time()
             env = dict(os.environ, PYTHONIOENCODING="utf-8")
-            subprocess.run(["python", os.path.join(ROOT, "tools", "mix_sfx.py"), plan],
+            subprocess.run([sys.executable, os.path.join(ROOT, "tools", "mix_sfx.py"), plan],
                            cwd=ROOT, env=env, check=True)
             timings.append(("sfx", time.time() - t))
 
@@ -233,7 +237,7 @@ def main():
         t = time.time()
         base = os.path.join(proj, "output", f"{beats.get('id', comp_id)}-sfx.mp4")
         base = base if os.path.exists(base) else voiced
-        cmd = ["python", os.path.join(ROOT, "tools", "mix_music.py"), "--base", base]
+        cmd = [sys.executable, os.path.join(ROOT, "tools", "mix_music.py"), "--base", base]
         cmd += ["--all"] if args.music == "all" else ["--bed", args.music]
         sh(cmd, cwd=ROOT)
         timings.append(("music", time.time() - t))

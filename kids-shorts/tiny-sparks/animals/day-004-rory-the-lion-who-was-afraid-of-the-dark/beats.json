@@ -1,0 +1,2769 @@
+{
+  "id": "day-004",
+  "series": "tiny-sparks",
+  "episode": 4,
+  "title": "Rory the Lion Who Was Afraid of the Dark",
+  "composition": "KidsAnimals004",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 299.9
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-10%"
+    },
+    "rory": {
+      "kokoro": "am_michael:0.6+am_onyx:0.4",
+      "rate": "-6%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "guess",
+      "speaker": "narrator",
+      "start": 1.8,
+      "end": 3.61,
+      "text": "Who is hiding behind the tree?",
+      "words": [
+        {
+          "w": "Who",
+          "start": 1.87,
+          "end": 2.103
+        },
+        {
+          "w": "is",
+          "start": 2.103,
+          "end": 2.219
+        },
+        {
+          "w": "hiding",
+          "start": 2.219,
+          "end": 2.627
+        },
+        {
+          "w": "behind",
+          "start": 2.627,
+          "end": 3.092
+        },
+        {
+          "w": "the",
+          "start": 3.092,
+          "end": 3.209
+        },
+        {
+          "w": "tree?",
+          "start": 3.209,
+          "end": 3.5
+        }
+      ]
+    },
+    {
+      "beat": "guess2",
+      "speaker": "narrator",
+      "start": 4.61,
+      "end": 5.59,
+      "text": "Can you guess?",
+      "words": [
+        {
+          "w": "Can",
+          "start": 4.65,
+          "end": 4.934
+        },
+        {
+          "w": "you",
+          "start": 4.934,
+          "end": 5.146
+        },
+        {
+          "w": "guess?",
+          "start": 5.146,
+          "end": 5.43
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "speaker": "narrator",
+      "start": 9.99,
+      "end": 11.2,
+      "text": "It's... a lion!",
+      "words": [
+        {
+          "w": "It's...",
+          "start": 10.02,
+          "end": 10.27
+        },
+        {
+          "w": "a",
+          "start": 10.27,
+          "end": 10.52
+        },
+        {
+          "w": "lion!",
+          "start": 10.52,
+          "end": 11.02
+        }
+      ]
+    },
+    {
+      "beat": "hello",
+      "speaker": "rory",
+      "start": 12.6,
+      "end": 14.77,
+      "text": "Hello! I'm Rory the lion!",
+      "words": [
+        {
+          "w": "Hello!",
+          "start": 12.66,
+          "end": 13.096
+        },
+        {
+          "w": "I'm",
+          "start": 13.096,
+          "end": 13.313
+        },
+        {
+          "w": "Rory",
+          "start": 13.313,
+          "end": 13.749
+        },
+        {
+          "w": "the",
+          "start": 13.749,
+          "end": 13.894
+        },
+        {
+          "w": "lion!",
+          "start": 13.894,
+          "end": 14.33
+        }
+      ]
+    },
+    {
+      "beat": "bobo_hi",
+      "speaker": "bobo",
+      "start": 15.57,
+      "end": 16.99,
+      "text": "Hi, Rory! I'm Bobo!",
+      "words": [
+        {
+          "w": "Hi,",
+          "start": 15.6,
+          "end": 15.854
+        },
+        {
+          "w": "Rory!",
+          "start": 15.854,
+          "end": 16.235
+        },
+        {
+          "w": "I'm",
+          "start": 16.235,
+          "end": 16.426
+        },
+        {
+          "w": "Bobo!",
+          "start": 16.426,
+          "end": 16.87
+        }
+      ]
+    },
+    {
+      "beat": "sound_q",
+      "speaker": "narrator",
+      "start": 18.39,
+      "end": 19.72,
+      "text": "What does a lion say?",
+      "words": [
+        {
+          "w": "What",
+          "start": 18.48,
+          "end": 18.691
+        },
+        {
+          "w": "does",
+          "start": 18.691,
+          "end": 18.903
+        },
+        {
+          "w": "a",
+          "start": 18.903,
+          "end": 19.061
+        },
+        {
+          "w": "lion",
+          "start": 19.061,
+          "end": 19.379
+        },
+        {
+          "w": "say?",
+          "start": 19.379,
+          "end": 19.59
+        }
+      ]
+    },
+    {
+      "beat": "roar1",
+      "speaker": "rory",
+      "start": 21.32,
+      "end": 22.28,
+      "text": "Roar!",
+      "words": [
+        {
+          "w": "Roar!",
+          "start": 21.39,
+          "end": 22.01
+        }
+      ]
+    },
+    {
+      "beat": "your_turn",
+      "speaker": "narrator",
+      "start": 23.68,
+      "end": 25.96,
+      "text": "Can you roar like Rory? Your turn!",
+      "words": [
+        {
+          "w": "Can",
+          "start": 23.73,
+          "end": 23.93
+        },
+        {
+          "w": "you",
+          "start": 23.93,
+          "end": 24.08
+        },
+        {
+          "w": "roar",
+          "start": 24.08,
+          "end": 24.33
+        },
+        {
+          "w": "like",
+          "start": 24.33,
+          "end": 24.58
+        },
+        {
+          "w": "Rory?",
+          "start": 24.58,
+          "end": 24.88
+        },
+        {
+          "w": "Your",
+          "start": 25.16,
+          "end": 25.423
+        },
+        {
+          "w": "turn!",
+          "start": 25.423,
+          "end": 25.86
+        }
+      ]
+    },
+    {
+      "beat": "roar2",
+      "speaker": "rory",
+      "start": 28.36,
+      "end": 29.32,
+      "text": "ROAR!",
+      "words": [
+        {
+          "w": "ROAR!",
+          "start": 28.43,
+          "end": 29.05
+        }
+      ]
+    },
+    {
+      "beat": "facts",
+      "speaker": "narrator",
+      "start": 30.72,
+      "end": 32.59,
+      "text": "Let's learn three lion facts!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 30.78,
+          "end": 31.102
+        },
+        {
+          "w": "learn",
+          "start": 31.102,
+          "end": 31.424
+        },
+        {
+          "w": "three",
+          "start": 31.424,
+          "end": 31.747
+        },
+        {
+          "w": "lion",
+          "start": 31.747,
+          "end": 32.133
+        },
+        {
+          "w": "facts!",
+          "start": 32.133,
+          "end": 32.52
+        }
+      ]
+    },
+    {
+      "beat": "fact1",
+      "speaker": "narrator",
+      "start": 33.99,
+      "end": 38.32,
+      "text": "Fact one. Lions live in Africa, on the big, grassy savanna.",
+      "words": [
+        {
+          "w": "Fact",
+          "start": 34.03,
+          "end": 34.425
+        },
+        {
+          "w": "one.",
+          "start": 34.425,
+          "end": 34.742
+        },
+        {
+          "w": "Lions",
+          "start": 34.742,
+          "end": 35.295
+        },
+        {
+          "w": "live",
+          "start": 35.295,
+          "end": 35.69
+        },
+        {
+          "w": "in",
+          "start": 35.69,
+          "end": 35.927
+        },
+        {
+          "w": "Africa,",
+          "start": 35.927,
+          "end": 36.481
+        },
+        {
+          "w": "on",
+          "start": 36.481,
+          "end": 36.718
+        },
+        {
+          "w": "the",
+          "start": 36.718,
+          "end": 36.876
+        },
+        {
+          "w": "big,",
+          "start": 36.876,
+          "end": 37.192
+        },
+        {
+          "w": "grassy",
+          "start": 37.192,
+          "end": 37.667
+        },
+        {
+          "w": "savanna.",
+          "start": 37.667,
+          "end": 38.22
+        }
+      ]
+    },
+    {
+      "beat": "fact2",
+      "speaker": "narrator",
+      "start": 40.92,
+      "end": 43.88,
+      "text": "Fact two. A family of lions is called a pride.",
+      "words": [
+        {
+          "w": "Fact",
+          "start": 40.98,
+          "end": 41.341
+        },
+        {
+          "w": "two.",
+          "start": 41.341,
+          "end": 41.63
+        },
+        {
+          "w": "A",
+          "start": 41.87,
+          "end": 42.029
+        },
+        {
+          "w": "family",
+          "start": 42.029,
+          "end": 42.401
+        },
+        {
+          "w": "of",
+          "start": 42.401,
+          "end": 42.507
+        },
+        {
+          "w": "lions",
+          "start": 42.507,
+          "end": 42.878
+        },
+        {
+          "w": "is",
+          "start": 42.878,
+          "end": 42.984
+        },
+        {
+          "w": "called",
+          "start": 42.984,
+          "end": 43.302
+        },
+        {
+          "w": "a",
+          "start": 43.302,
+          "end": 43.462
+        },
+        {
+          "w": "pride.",
+          "start": 43.462,
+          "end": 43.78
+        }
+      ]
+    },
+    {
+      "beat": "fact3",
+      "speaker": "narrator",
+      "start": 46.48,
+      "end": 51.24,
+      "text": "Fact three. A lion's roar is so loud, you can hear it five miles away!",
+      "words": [
+        {
+          "w": "Fact",
+          "start": 46.53,
+          "end": 46.9
+        },
+        {
+          "w": "three.",
+          "start": 46.9,
+          "end": 47.27
+        },
+        {
+          "w": "A",
+          "start": 47.59,
+          "end": 47.771
+        },
+        {
+          "w": "lion's",
+          "start": 47.771,
+          "end": 48.194
+        },
+        {
+          "w": "roar",
+          "start": 48.194,
+          "end": 48.496
+        },
+        {
+          "w": "is",
+          "start": 48.496,
+          "end": 48.617
+        },
+        {
+          "w": "so",
+          "start": 48.617,
+          "end": 48.858
+        },
+        {
+          "w": "loud,",
+          "start": 48.858,
+          "end": 49.16
+        },
+        {
+          "w": "you",
+          "start": 49.51,
+          "end": 49.679
+        },
+        {
+          "w": "can",
+          "start": 49.679,
+          "end": 49.903
+        },
+        {
+          "w": "hear",
+          "start": 49.903,
+          "end": 50.128
+        },
+        {
+          "w": "it",
+          "start": 50.128,
+          "end": 50.241
+        },
+        {
+          "w": "five",
+          "start": 50.241,
+          "end": 50.522
+        },
+        {
+          "w": "miles",
+          "start": 50.522,
+          "end": 50.859
+        },
+        {
+          "w": "away!",
+          "start": 50.859,
+          "end": 51.14
+        }
+      ]
+    },
+    {
+      "beat": "secret",
+      "speaker": "narrator",
+      "start": 53.84,
+      "end": 55.73,
+      "text": "But Rory has a little secret.",
+      "words": [
+        {
+          "w": "But",
+          "start": 53.96,
+          "end": 54.172
+        },
+        {
+          "w": "Rory",
+          "start": 54.172,
+          "end": 54.489
+        },
+        {
+          "w": "has",
+          "start": 54.489,
+          "end": 54.701
+        },
+        {
+          "w": "a",
+          "start": 54.701,
+          "end": 54.859
+        },
+        {
+          "w": "little",
+          "start": 54.859,
+          "end": 55.177
+        },
+        {
+          "w": "secret.",
+          "start": 55.177,
+          "end": 55.6
+        }
+      ]
+    },
+    {
+      "beat": "scared",
+      "speaker": "rory",
+      "start": 56.93,
+      "end": 60.38,
+      "text": "When the sun goes down... I get scared of the dark.",
+      "words": [
+        {
+          "w": "When",
+          "start": 56.99,
+          "end": 57.264
+        },
+        {
+          "w": "the",
+          "start": 57.264,
+          "end": 57.401
+        },
+        {
+          "w": "sun",
+          "start": 57.401,
+          "end": 57.675
+        },
+        {
+          "w": "goes",
+          "start": 57.675,
+          "end": 58.017
+        },
+        {
+          "w": "down...",
+          "start": 58.017,
+          "end": 58.36
+        },
+        {
+          "w": "I",
+          "start": 58.64,
+          "end": 58.815
+        },
+        {
+          "w": "get",
+          "start": 58.815,
+          "end": 59.048
+        },
+        {
+          "w": "scared",
+          "start": 59.048,
+          "end": 59.397
+        },
+        {
+          "w": "of",
+          "start": 59.397,
+          "end": 59.514
+        },
+        {
+          "w": "the",
+          "start": 59.514,
+          "end": 59.63
+        },
+        {
+          "w": "dark.",
+          "start": 59.63,
+          "end": 59.98
+        }
+      ]
+    },
+    {
+      "beat": "bobo_help",
+      "speaker": "bobo",
+      "start": 61.58,
+      "end": 64.15,
+      "text": "Don't worry, Rory. Let's look at the night together.",
+      "words": [
+        {
+          "w": "Don't",
+          "start": 61.61,
+          "end": 61.947
+        },
+        {
+          "w": "worry,",
+          "start": 61.947,
+          "end": 62.228
+        },
+        {
+          "w": "Rory.",
+          "start": 62.228,
+          "end": 62.565
+        },
+        {
+          "w": "Let's",
+          "start": 62.565,
+          "end": 62.846
+        },
+        {
+          "w": "look",
+          "start": 62.846,
+          "end": 63.071
+        },
+        {
+          "w": "at",
+          "start": 63.071,
+          "end": 63.183
+        },
+        {
+          "w": "the",
+          "start": 63.183,
+          "end": 63.296
+        },
+        {
+          "w": "night",
+          "start": 63.296,
+          "end": 63.577
+        },
+        {
+          "w": "together.",
+          "start": 63.577,
+          "end": 63.97
+        }
+      ]
+    },
+    {
+      "beat": "moon",
+      "speaker": "narrator",
+      "start": 66.75,
+      "end": 67.79,
+      "text": "Look! The moon!",
+      "words": [
+        {
+          "w": "Look!",
+          "start": 66.79,
+          "end": 67.095
+        },
+        {
+          "w": "The",
+          "start": 67.095,
+          "end": 67.248
+        },
+        {
+          "w": "moon!",
+          "start": 67.248,
+          "end": 67.63
+        }
+      ]
+    },
+    {
+      "beat": "nightlight",
+      "speaker": "bobo",
+      "start": 68.79,
+      "end": 70.92,
+      "text": "The moon is like a night light, in the sky.",
+      "words": [
+        {
+          "w": "The",
+          "start": 68.83,
+          "end": 68.933
+        },
+        {
+          "w": "moon",
+          "start": 68.933,
+          "end": 69.191
+        },
+        {
+          "w": "is",
+          "start": 69.191,
+          "end": 69.295
+        },
+        {
+          "w": "like",
+          "start": 69.295,
+          "end": 69.553
+        },
+        {
+          "w": "a",
+          "start": 69.553,
+          "end": 69.708
+        },
+        {
+          "w": "night",
+          "start": 69.708,
+          "end": 69.966
+        },
+        {
+          "w": "light,",
+          "start": 69.966,
+          "end": 70.224
+        },
+        {
+          "w": "in",
+          "start": 70.224,
+          "end": 70.379
+        },
+        {
+          "w": "the",
+          "start": 70.379,
+          "end": 70.482
+        },
+        {
+          "w": "sky.",
+          "start": 70.482,
+          "end": 70.74
+        }
+      ]
+    },
+    {
+      "beat": "fireflies_r",
+      "speaker": "rory",
+      "start": 73.12,
+      "end": 74.86,
+      "text": "Ooh... tiny lights!",
+      "words": [
+        {
+          "w": "Ooh...",
+          "start": 73.25,
+          "end": 73.5
+        },
+        {
+          "w": "tiny",
+          "start": 73.5,
+          "end": 74.0
+        },
+        {
+          "w": "lights!",
+          "start": 74.0,
+          "end": 74.5
+        }
+      ]
+    },
+    {
+      "beat": "fireflies",
+      "speaker": "narrator",
+      "start": 75.66,
+      "end": 77.79,
+      "text": "Fireflies! They glow in the dark.",
+      "words": [
+        {
+          "w": "Fireflies!",
+          "start": 75.72,
+          "end": 76.58
+        },
+        {
+          "w": "They",
+          "start": 76.69,
+          "end": 76.845
+        },
+        {
+          "w": "glow",
+          "start": 76.845,
+          "end": 77.103
+        },
+        {
+          "w": "in",
+          "start": 77.103,
+          "end": 77.257
+        },
+        {
+          "w": "the",
+          "start": 77.257,
+          "end": 77.361
+        },
+        {
+          "w": "dark.",
+          "start": 77.361,
+          "end": 77.67
+        }
+      ]
+    },
+    {
+      "beat": "stars",
+      "speaker": "bobo",
+      "start": 79.39,
+      "end": 82.11,
+      "text": "And the stars twinkle, twinkle, to say good night.",
+      "words": [
+        {
+          "w": "And",
+          "start": 79.42,
+          "end": 79.593
+        },
+        {
+          "w": "the",
+          "start": 79.593,
+          "end": 79.709
+        },
+        {
+          "w": "stars",
+          "start": 79.709,
+          "end": 80.113
+        },
+        {
+          "w": "twinkle,",
+          "start": 80.113,
+          "end": 80.575
+        },
+        {
+          "w": "twinkle,",
+          "start": 80.575,
+          "end": 81.036
+        },
+        {
+          "w": "to",
+          "start": 81.036,
+          "end": 81.21
+        },
+        {
+          "w": "say",
+          "start": 81.21,
+          "end": 81.44
+        },
+        {
+          "w": "good",
+          "start": 81.44,
+          "end": 81.671
+        },
+        {
+          "w": "night.",
+          "start": 81.671,
+          "end": 81.96
+        }
+      ]
+    },
+    {
+      "beat": "breath",
+      "speaker": "narrator",
+      "start": 83.71,
+      "end": 85.63,
+      "text": "Rory takes a big, deep breath.",
+      "words": [
+        {
+          "w": "Rory",
+          "start": 83.76,
+          "end": 84.132
+        },
+        {
+          "w": "takes",
+          "start": 84.132,
+          "end": 84.505
+        },
+        {
+          "w": "a",
+          "start": 84.505,
+          "end": 84.691
+        },
+        {
+          "w": "big,",
+          "start": 84.691,
+          "end": 84.939
+        },
+        {
+          "w": "deep",
+          "start": 84.939,
+          "end": 85.25
+        },
+        {
+          "w": "breath.",
+          "start": 85.25,
+          "end": 85.56
+        }
+      ]
+    },
+    {
+      "beat": "brave",
+      "speaker": "rory",
+      "start": 88.23,
+      "end": 91.96,
+      "text": "I feel brave now! The dark is quiet... and pretty!",
+      "words": [
+        {
+          "w": "I",
+          "start": 88.33,
+          "end": 88.548
+        },
+        {
+          "w": "feel",
+          "start": 88.548,
+          "end": 88.912
+        },
+        {
+          "w": "brave",
+          "start": 88.912,
+          "end": 89.348
+        },
+        {
+          "w": "now!",
+          "start": 89.348,
+          "end": 89.639
+        },
+        {
+          "w": "The",
+          "start": 89.639,
+          "end": 89.785
+        },
+        {
+          "w": "dark",
+          "start": 89.785,
+          "end": 90.221
+        },
+        {
+          "w": "is",
+          "start": 90.221,
+          "end": 90.366
+        },
+        {
+          "w": "quiet...",
+          "start": 90.366,
+          "end": 90.875
+        },
+        {
+          "w": "and",
+          "start": 90.875,
+          "end": 91.094
+        },
+        {
+          "w": "pretty!",
+          "start": 91.094,
+          "end": 91.53
+        }
+      ]
+    },
+    {
+      "beat": "lesson",
+      "speaker": "narrator",
+      "start": 93.36,
+      "end": 97.13,
+      "text": "Being brave means trying, even when you feel a little bit scared.",
+      "words": [
+        {
+          "w": "Being",
+          "start": 93.44,
+          "end": 93.817
+        },
+        {
+          "w": "brave",
+          "start": 93.817,
+          "end": 94.194
+        },
+        {
+          "w": "means",
+          "start": 94.194,
+          "end": 94.57
+        },
+        {
+          "w": "trying,",
+          "start": 94.57,
+          "end": 95.01
+        },
+        {
+          "w": "even",
+          "start": 95.38,
+          "end": 95.649
+        },
+        {
+          "w": "when",
+          "start": 95.649,
+          "end": 95.829
+        },
+        {
+          "w": "you",
+          "start": 95.829,
+          "end": 95.963
+        },
+        {
+          "w": "feel",
+          "start": 95.963,
+          "end": 96.188
+        },
+        {
+          "w": "a",
+          "start": 96.188,
+          "end": 96.322
+        },
+        {
+          "w": "little",
+          "start": 96.322,
+          "end": 96.591
+        },
+        {
+          "w": "bit",
+          "start": 96.591,
+          "end": 96.771
+        },
+        {
+          "w": "scared.",
+          "start": 96.771,
+          "end": 97.04
+        }
+      ]
+    },
+    {
+      "beat": "again",
+      "speaker": "narrator",
+      "start": 100.13,
+      "end": 102.54,
+      "text": "Now, let's play and remember, with Rory!",
+      "words": [
+        {
+          "w": "Now,",
+          "start": 100.19,
+          "end": 100.451
+        },
+        {
+          "w": "let's",
+          "start": 100.451,
+          "end": 100.778
+        },
+        {
+          "w": "play",
+          "start": 100.778,
+          "end": 101.104
+        },
+        {
+          "w": "and",
+          "start": 101.104,
+          "end": 101.3
+        },
+        {
+          "w": "remember,",
+          "start": 101.3,
+          "end": 101.822
+        },
+        {
+          "w": "with",
+          "start": 101.822,
+          "end": 102.018
+        },
+        {
+          "w": "Rory!",
+          "start": 102.018,
+          "end": 102.41
+        }
+      ]
+    },
+    {
+      "beat": "r_q",
+      "speaker": "narrator",
+      "start": 104.94,
+      "end": 106.27,
+      "text": "What does a lion say?",
+      "words": [
+        {
+          "w": "What",
+          "start": 105.03,
+          "end": 105.241
+        },
+        {
+          "w": "does",
+          "start": 105.241,
+          "end": 105.453
+        },
+        {
+          "w": "a",
+          "start": 105.453,
+          "end": 105.611
+        },
+        {
+          "w": "lion",
+          "start": 105.611,
+          "end": 105.929
+        },
+        {
+          "w": "say?",
+          "start": 105.929,
+          "end": 106.14
+        }
+      ]
+    },
+    {
+      "beat": "r_a",
+      "speaker": "rory",
+      "start": 110.67,
+      "end": 111.63,
+      "text": "Roar!",
+      "words": [
+        {
+          "w": "Roar!",
+          "start": 110.74,
+          "end": 111.36
+        }
+      ]
+    },
+    {
+      "beat": "r_turn",
+      "speaker": "narrator",
+      "start": 113.43,
+      "end": 115.28,
+      "text": "Your turn! Roar with Rory!",
+      "words": [
+        {
+          "w": "Your",
+          "start": 113.48,
+          "end": 113.724
+        },
+        {
+          "w": "turn!",
+          "start": 113.724,
+          "end": 114.13
+        },
+        {
+          "w": "Roar",
+          "start": 114.27,
+          "end": 114.584
+        },
+        {
+          "w": "with",
+          "start": 114.584,
+          "end": 114.773
+        },
+        {
+          "w": "Rory!",
+          "start": 114.773,
+          "end": 115.15
+        }
+      ]
+    },
+    {
+      "beat": "r_b",
+      "speaker": "rory",
+      "start": 118.48,
+      "end": 119.44,
+      "text": "ROAR!",
+      "words": [
+        {
+          "w": "ROAR!",
+          "start": 118.55,
+          "end": 119.17
+        }
+      ]
+    },
+    {
+      "beat": "r_more",
+      "speaker": "narrator",
+      "start": 121.64,
+      "end": 123.34,
+      "text": "One more time! Your turn!",
+      "words": [
+        {
+          "w": "One",
+          "start": 121.67,
+          "end": 121.957
+        },
+        {
+          "w": "more",
+          "start": 121.957,
+          "end": 122.316
+        },
+        {
+          "w": "time!",
+          "start": 122.316,
+          "end": 122.675
+        },
+        {
+          "w": "Your",
+          "start": 122.675,
+          "end": 122.891
+        },
+        {
+          "w": "turn!",
+          "start": 122.891,
+          "end": 123.25
+        }
+      ]
+    },
+    {
+      "beat": "r_c",
+      "speaker": "rory",
+      "start": 126.54,
+      "end": 127.65,
+      "text": "ROOOAR!",
+      "words": [
+        {
+          "w": "ROOOAR!",
+          "start": 126.62,
+          "end": 127.35
+        }
+      ]
+    },
+    {
+      "beat": "r_good",
+      "speaker": "bobo",
+      "start": 129.65,
+      "end": 130.76,
+      "text": "Wow! Great roaring!",
+      "words": [
+        {
+          "w": "Wow!",
+          "start": 129.69,
+          "end": 129.916
+        },
+        {
+          "w": "Great",
+          "start": 129.916,
+          "end": 130.255
+        },
+        {
+          "w": "roaring!",
+          "start": 130.255,
+          "end": 130.65
+        }
+      ]
+    },
+    {
+      "beat": "q_intro",
+      "speaker": "narrator",
+      "start": 133.56,
+      "end": 135.32,
+      "text": "Do you remember the lion facts?",
+      "words": [
+        {
+          "w": "Do",
+          "start": 133.63,
+          "end": 133.851
+        },
+        {
+          "w": "you",
+          "start": 133.851,
+          "end": 134.016
+        },
+        {
+          "w": "remember",
+          "start": 134.016,
+          "end": 134.458
+        },
+        {
+          "w": "the",
+          "start": 134.458,
+          "end": 134.568
+        },
+        {
+          "w": "lion",
+          "start": 134.568,
+          "end": 134.899
+        },
+        {
+          "w": "facts?",
+          "start": 134.899,
+          "end": 135.23
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "narrator",
+      "start": 137.52,
+      "end": 138.9,
+      "text": "Where do lions live?",
+      "words": [
+        {
+          "w": "Where",
+          "start": 137.59,
+          "end": 137.834
+        },
+        {
+          "w": "do",
+          "start": 137.834,
+          "end": 138.078
+        },
+        {
+          "w": "lions",
+          "start": 138.078,
+          "end": 138.505
+        },
+        {
+          "w": "live?",
+          "start": 138.505,
+          "end": 138.81
+        }
+      ]
+    },
+    {
+      "beat": "a1",
+      "speaker": "narrator",
+      "start": 144.9,
+      "end": 145.99,
+      "text": "On the savanna!",
+      "words": [
+        {
+          "w": "On",
+          "start": 144.94,
+          "end": 145.153
+        },
+        {
+          "w": "the",
+          "start": 145.153,
+          "end": 145.294
+        },
+        {
+          "w": "savanna!",
+          "start": 145.294,
+          "end": 145.79
+        }
+      ]
+    },
+    {
+      "beat": "a1_say",
+      "speaker": "narrator",
+      "start": 147.99,
+      "end": 149.78,
+      "text": "Say it with me. Savanna!",
+      "words": [
+        {
+          "w": "Say",
+          "start": 148.03,
+          "end": 148.267
+        },
+        {
+          "w": "it",
+          "start": 148.267,
+          "end": 148.385
+        },
+        {
+          "w": "with",
+          "start": 148.385,
+          "end": 148.563
+        },
+        {
+          "w": "me.",
+          "start": 148.563,
+          "end": 148.8
+        },
+        {
+          "w": "Savanna!",
+          "start": 149.01,
+          "end": 149.67
+        }
+      ]
+    },
+    {
+      "beat": "a1_r",
+      "speaker": "rory",
+      "start": 152.78,
+      "end": 153.91,
+      "text": "Savanna!",
+      "words": [
+        {
+          "w": "Savanna!",
+          "start": 152.84,
+          "end": 153.63
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "narrator",
+      "start": 156.91,
+      "end": 158.86,
+      "text": "What is a family of lions called?",
+      "words": [
+        {
+          "w": "What",
+          "start": 156.95,
+          "end": 157.181
+        },
+        {
+          "w": "is",
+          "start": 157.181,
+          "end": 157.296
+        },
+        {
+          "w": "a",
+          "start": 157.296,
+          "end": 157.47
+        },
+        {
+          "w": "family",
+          "start": 157.47,
+          "end": 157.874
+        },
+        {
+          "w": "of",
+          "start": 157.874,
+          "end": 157.989
+        },
+        {
+          "w": "lions",
+          "start": 157.989,
+          "end": 158.394
+        },
+        {
+          "w": "called?",
+          "start": 158.394,
+          "end": 158.74
+        }
+      ]
+    },
+    {
+      "beat": "a2",
+      "speaker": "narrator",
+      "start": 164.86,
+      "end": 165.79,
+      "text": "A pride!",
+      "words": [
+        {
+          "w": "A",
+          "start": 164.9,
+          "end": 165.127
+        },
+        {
+          "w": "pride!",
+          "start": 165.127,
+          "end": 165.58
+        }
+      ]
+    },
+    {
+      "beat": "a2_say",
+      "speaker": "narrator",
+      "start": 167.79,
+      "end": 169.47,
+      "text": "Say it with me. Pride!",
+      "words": [
+        {
+          "w": "Say",
+          "start": 167.83,
+          "end": 168.076
+        },
+        {
+          "w": "it",
+          "start": 168.076,
+          "end": 168.199
+        },
+        {
+          "w": "with",
+          "start": 168.199,
+          "end": 168.384
+        },
+        {
+          "w": "me.",
+          "start": 168.384,
+          "end": 168.63
+        },
+        {
+          "w": "Pride!",
+          "start": 168.82,
+          "end": 169.34
+        }
+      ]
+    },
+    {
+      "beat": "a2_r",
+      "speaker": "rory",
+      "start": 172.47,
+      "end": 173.41,
+      "text": "Pride!",
+      "words": [
+        {
+          "w": "Pride!",
+          "start": 172.6,
+          "end": 173.22
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "narrator",
+      "start": 176.41,
+      "end": 178.71,
+      "text": "How far away can you hear a lion's roar?",
+      "words": [
+        {
+          "w": "How",
+          "start": 176.47,
+          "end": 176.684
+        },
+        {
+          "w": "far",
+          "start": 176.684,
+          "end": 176.952
+        },
+        {
+          "w": "away",
+          "start": 176.952,
+          "end": 177.219
+        },
+        {
+          "w": "can",
+          "start": 177.219,
+          "end": 177.433
+        },
+        {
+          "w": "you",
+          "start": 177.433,
+          "end": 177.594
+        },
+        {
+          "w": "hear",
+          "start": 177.594,
+          "end": 177.808
+        },
+        {
+          "w": "a",
+          "start": 177.808,
+          "end": 177.968
+        },
+        {
+          "w": "lion's",
+          "start": 177.968,
+          "end": 178.343
+        },
+        {
+          "w": "roar?",
+          "start": 178.343,
+          "end": 178.61
+        }
+      ]
+    },
+    {
+      "beat": "a3",
+      "speaker": "narrator",
+      "start": 184.71,
+      "end": 186.05,
+      "text": "Five miles away!",
+      "words": [
+        {
+          "w": "Five",
+          "start": 184.76,
+          "end": 185.116
+        },
+        {
+          "w": "miles",
+          "start": 185.116,
+          "end": 185.544
+        },
+        {
+          "w": "away!",
+          "start": 185.544,
+          "end": 185.9
+        }
+      ]
+    },
+    {
+      "beat": "a3_say",
+      "speaker": "narrator",
+      "start": 188.05,
+      "end": 191.2,
+      "text": "Show me five fingers! One, two, three, four, five!",
+      "words": [
+        {
+          "w": "Show",
+          "start": 188.09,
+          "end": 188.372
+        },
+        {
+          "w": "me",
+          "start": 188.372,
+          "end": 188.654
+        },
+        {
+          "w": "five",
+          "start": 188.654,
+          "end": 189.006
+        },
+        {
+          "w": "fingers!",
+          "start": 189.006,
+          "end": 189.499
+        },
+        {
+          "w": "One,",
+          "start": 189.499,
+          "end": 189.781
+        },
+        {
+          "w": "two,",
+          "start": 189.781,
+          "end": 190.063
+        },
+        {
+          "w": "three,",
+          "start": 190.063,
+          "end": 190.415
+        },
+        {
+          "w": "four,",
+          "start": 190.415,
+          "end": 190.768
+        },
+        {
+          "w": "five!",
+          "start": 190.768,
+          "end": 191.12
+        }
+      ]
+    },
+    {
+      "beat": "a3_r",
+      "speaker": "rory",
+      "start": 194.2,
+      "end": 196.08,
+      "text": "Five miles! Roar!",
+      "words": [
+        {
+          "w": "Five",
+          "start": 194.26,
+          "end": 194.701
+        },
+        {
+          "w": "miles!",
+          "start": 194.701,
+          "end": 195.229
+        },
+        {
+          "w": "Roar!",
+          "start": 195.229,
+          "end": 195.67
+        }
+      ]
+    },
+    {
+      "beat": "n_intro",
+      "speaker": "bobo",
+      "start": 199.08,
+      "end": 200.76,
+      "text": "Let's look at the night sky again!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 199.11,
+          "end": 199.376
+        },
+        {
+          "w": "look",
+          "start": 199.376,
+          "end": 199.589
+        },
+        {
+          "w": "at",
+          "start": 199.589,
+          "end": 199.695
+        },
+        {
+          "w": "the",
+          "start": 199.695,
+          "end": 199.802
+        },
+        {
+          "w": "night",
+          "start": 199.802,
+          "end": 200.068
+        },
+        {
+          "w": "sky",
+          "start": 200.068,
+          "end": 200.334
+        },
+        {
+          "w": "again!",
+          "start": 200.334,
+          "end": 200.6
+        }
+      ]
+    },
+    {
+      "beat": "nq1",
+      "speaker": "narrator",
+      "start": 202.96,
+      "end": 205.11,
+      "text": "What is big and round, up in the sky?",
+      "words": [
+        {
+          "w": "What",
+          "start": 203.03,
+          "end": 203.251
+        },
+        {
+          "w": "is",
+          "start": 203.251,
+          "end": 203.362
+        },
+        {
+          "w": "big",
+          "start": 203.362,
+          "end": 203.583
+        },
+        {
+          "w": "and",
+          "start": 203.583,
+          "end": 203.748
+        },
+        {
+          "w": "round,",
+          "start": 203.748,
+          "end": 204.08
+        },
+        {
+          "w": "up",
+          "start": 204.19,
+          "end": 204.368
+        },
+        {
+          "w": "in",
+          "start": 204.368,
+          "end": 204.545
+        },
+        {
+          "w": "the",
+          "start": 204.545,
+          "end": 204.664
+        },
+        {
+          "w": "sky?",
+          "start": 204.664,
+          "end": 204.96
+        }
+      ]
+    },
+    {
+      "beat": "na1",
+      "speaker": "rory",
+      "start": 211.11,
+      "end": 212.15,
+      "text": "The moon!",
+      "words": [
+        {
+          "w": "The",
+          "start": 211.19,
+          "end": 211.387
+        },
+        {
+          "w": "moon!",
+          "start": 211.387,
+          "end": 211.88
+        }
+      ]
+    },
+    {
+      "beat": "nq2",
+      "speaker": "narrator",
+      "start": 215.15,
+      "end": 217.49,
+      "text": "What are the tiny lights that glow in the dark?",
+      "words": [
+        {
+          "w": "What",
+          "start": 215.24,
+          "end": 215.45
+        },
+        {
+          "w": "are",
+          "start": 215.45,
+          "end": 215.607
+        },
+        {
+          "w": "the",
+          "start": 215.607,
+          "end": 215.712
+        },
+        {
+          "w": "tiny",
+          "start": 215.712,
+          "end": 216.027
+        },
+        {
+          "w": "lights",
+          "start": 216.027,
+          "end": 216.341
+        },
+        {
+          "w": "that",
+          "start": 216.341,
+          "end": 216.551
+        },
+        {
+          "w": "glow",
+          "start": 216.551,
+          "end": 216.813
+        },
+        {
+          "w": "in",
+          "start": 216.813,
+          "end": 216.97
+        },
+        {
+          "w": "the",
+          "start": 216.97,
+          "end": 217.075
+        },
+        {
+          "w": "dark?",
+          "start": 217.075,
+          "end": 217.39
+        }
+      ]
+    },
+    {
+      "beat": "na2",
+      "speaker": "rory",
+      "start": 223.49,
+      "end": 224.85,
+      "text": "Fireflies!",
+      "words": [
+        {
+          "w": "Fireflies!",
+          "start": 223.6,
+          "end": 224.55
+        }
+      ]
+    },
+    {
+      "beat": "nq3",
+      "speaker": "narrator",
+      "start": 227.85,
+      "end": 229.76,
+      "text": "And what twinkles in the night sky?",
+      "words": [
+        {
+          "w": "And",
+          "start": 227.94,
+          "end": 228.105
+        },
+        {
+          "w": "what",
+          "start": 228.105,
+          "end": 228.326
+        },
+        {
+          "w": "twinkles",
+          "start": 228.326,
+          "end": 228.823
+        },
+        {
+          "w": "in",
+          "start": 228.823,
+          "end": 228.988
+        },
+        {
+          "w": "the",
+          "start": 228.988,
+          "end": 229.098
+        },
+        {
+          "w": "night",
+          "start": 229.098,
+          "end": 229.374
+        },
+        {
+          "w": "sky?",
+          "start": 229.374,
+          "end": 229.65
+        }
+      ]
+    },
+    {
+      "beat": "na3",
+      "speaker": "rory",
+      "start": 235.76,
+      "end": 237.06,
+      "text": "The stars!",
+      "words": [
+        {
+          "w": "The",
+          "start": 235.8,
+          "end": 236.007
+        },
+        {
+          "w": "stars!",
+          "start": 236.007,
+          "end": 236.73
+        }
+      ]
+    },
+    {
+      "beat": "b_intro",
+      "speaker": "narrator",
+      "start": 240.06,
+      "end": 242.96,
+      "text": "When you feel scared, take a big breath, like Rory.",
+      "words": [
+        {
+          "w": "When",
+          "start": 240.12,
+          "end": 240.357
+        },
+        {
+          "w": "you",
+          "start": 240.357,
+          "end": 240.535
+        },
+        {
+          "w": "feel",
+          "start": 240.535,
+          "end": 240.832
+        },
+        {
+          "w": "scared,",
+          "start": 240.832,
+          "end": 241.188
+        },
+        {
+          "w": "take",
+          "start": 241.188,
+          "end": 241.485
+        },
+        {
+          "w": "a",
+          "start": 241.485,
+          "end": 241.663
+        },
+        {
+          "w": "big",
+          "start": 241.663,
+          "end": 241.9
+        },
+        {
+          "w": "breath,",
+          "start": 241.9,
+          "end": 242.197
+        },
+        {
+          "w": "like",
+          "start": 242.197,
+          "end": 242.494
+        },
+        {
+          "w": "Rory.",
+          "start": 242.494,
+          "end": 242.85
+        }
+      ]
+    },
+    {
+      "beat": "b_in",
+      "speaker": "narrator",
+      "start": 244.96,
+      "end": 245.96,
+      "text": "Breathe in...",
+      "words": [
+        {
+          "w": "Breathe",
+          "start": 244.98,
+          "end": 245.507
+        },
+        {
+          "w": "in...",
+          "start": 245.507,
+          "end": 245.77
+        }
+      ]
+    },
+    {
+      "beat": "b_out",
+      "speaker": "narrator",
+      "start": 249.46,
+      "end": 250.33,
+      "text": "and out.",
+      "words": [
+        {
+          "w": "and",
+          "start": 249.5,
+          "end": 249.779
+        },
+        {
+          "w": "out.",
+          "start": 249.779,
+          "end": 250.15
+        }
+      ]
+    },
+    {
+      "beat": "b_in2",
+      "speaker": "narrator",
+      "start": 253.33,
+      "end": 254.33,
+      "text": "Breathe in...",
+      "words": [
+        {
+          "w": "Breathe",
+          "start": 253.35,
+          "end": 253.877
+        },
+        {
+          "w": "in...",
+          "start": 253.877,
+          "end": 254.14
+        }
+      ]
+    },
+    {
+      "beat": "b_out2",
+      "speaker": "narrator",
+      "start": 257.83,
+      "end": 258.7,
+      "text": "and out.",
+      "words": [
+        {
+          "w": "and",
+          "start": 257.87,
+          "end": 258.149
+        },
+        {
+          "w": "out.",
+          "start": 258.149,
+          "end": 258.52
+        }
+      ]
+    },
+    {
+      "beat": "l_intro",
+      "speaker": "bobo",
+      "start": 261.7,
+      "end": 263.7,
+      "text": "Let's say Rory's brave words together!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 261.73,
+          "end": 261.991
+        },
+        {
+          "w": "say",
+          "start": 261.991,
+          "end": 262.201
+        },
+        {
+          "w": "Rory's",
+          "start": 262.201,
+          "end": 262.567
+        },
+        {
+          "w": "brave",
+          "start": 262.567,
+          "end": 262.88
+        },
+        {
+          "w": "words",
+          "start": 262.88,
+          "end": 263.194
+        },
+        {
+          "w": "together!",
+          "start": 263.194,
+          "end": 263.56
+        }
+      ]
+    },
+    {
+      "beat": "l1",
+      "speaker": "rory",
+      "start": 265.5,
+      "end": 267.65,
+      "text": "Being brave means trying!",
+      "words": [
+        {
+          "w": "Being",
+          "start": 265.6,
+          "end": 265.986
+        },
+        {
+          "w": "brave",
+          "start": 265.986,
+          "end": 266.373
+        },
+        {
+          "w": "means",
+          "start": 266.373,
+          "end": 266.759
+        },
+        {
+          "w": "trying!",
+          "start": 266.759,
+          "end": 267.21
+        }
+      ]
+    },
+    {
+      "beat": "l_turn",
+      "speaker": "narrator",
+      "start": 269.85,
+      "end": 270.81,
+      "text": "Your turn!",
+      "words": [
+        {
+          "w": "Your",
+          "start": 269.89,
+          "end": 270.167
+        },
+        {
+          "w": "turn!",
+          "start": 270.167,
+          "end": 270.63
+        }
+      ]
+    },
+    {
+      "beat": "l2",
+      "speaker": "rory",
+      "start": 274.81,
+      "end": 276.96,
+      "text": "Being brave means trying!",
+      "words": [
+        {
+          "w": "Being",
+          "start": 274.91,
+          "end": 275.296
+        },
+        {
+          "w": "brave",
+          "start": 275.296,
+          "end": 275.683
+        },
+        {
+          "w": "means",
+          "start": 275.683,
+          "end": 276.069
+        },
+        {
+          "w": "trying!",
+          "start": 276.069,
+          "end": 276.52
+        }
+      ]
+    },
+    {
+      "beat": "l_turn2",
+      "speaker": "narrator",
+      "start": 279.16,
+      "end": 281.12,
+      "text": "One more time, all together!",
+      "words": [
+        {
+          "w": "One",
+          "start": 279.22,
+          "end": 279.48
+        },
+        {
+          "w": "more",
+          "start": 279.48,
+          "end": 279.805
+        },
+        {
+          "w": "time,",
+          "start": 279.805,
+          "end": 280.13
+        },
+        {
+          "w": "all",
+          "start": 280.29,
+          "end": 280.537
+        },
+        {
+          "w": "together!",
+          "start": 280.537,
+          "end": 280.97
+        }
+      ]
+    },
+    {
+      "beat": "l3",
+      "speaker": "rory",
+      "start": 282.32,
+      "end": 284.47,
+      "text": "Being brave means trying!",
+      "words": [
+        {
+          "w": "Being",
+          "start": 282.42,
+          "end": 282.806
+        },
+        {
+          "w": "brave",
+          "start": 282.806,
+          "end": 283.193
+        },
+        {
+          "w": "means",
+          "start": 283.193,
+          "end": 283.579
+        },
+        {
+          "w": "trying!",
+          "start": 283.579,
+          "end": 284.03
+        }
+      ]
+    },
+    {
+      "beat": "l_good",
+      "speaker": "bobo",
+      "start": 286.87,
+      "end": 288.12,
+      "text": "Yay! You are so brave!",
+      "words": [
+        {
+          "w": "Yay!",
+          "start": 286.9,
+          "end": 287.12
+        },
+        {
+          "w": "You",
+          "start": 287.12,
+          "end": 287.285
+        },
+        {
+          "w": "are",
+          "start": 287.285,
+          "end": 287.45
+        },
+        {
+          "w": "so",
+          "start": 287.45,
+          "end": 287.67
+        },
+        {
+          "w": "brave!",
+          "start": 287.67,
+          "end": 288.0
+        }
+      ]
+    },
+    {
+      "beat": "night",
+      "speaker": "rory",
+      "start": 290.52,
+      "end": 292.61,
+      "text": "Good night, friends! Roar!",
+      "words": [
+        {
+          "w": "Good",
+          "start": 290.62,
+          "end": 290.917
+        },
+        {
+          "w": "night,",
+          "start": 290.917,
+          "end": 291.289
+        },
+        {
+          "w": "friends!",
+          "start": 291.289,
+          "end": 291.809
+        },
+        {
+          "w": "Roar!",
+          "start": 291.809,
+          "end": 292.18
+        }
+      ]
+    },
+    {
+      "beat": "night_b",
+      "speaker": "bobo",
+      "start": 293.21,
+      "end": 293.96,
+      "text": "Good night!",
+      "words": [
+        {
+          "w": "Good",
+          "start": 293.23,
+          "end": 293.519
+        },
+        {
+          "w": "night!",
+          "start": 293.519,
+          "end": 293.88
+        }
+      ]
+    },
+    {
+      "beat": "ask",
+      "speaker": "narrator",
+      "start": 295.16,
+      "end": 296.95,
+      "text": "What helps you feel brave at night?",
+      "words": [
+        {
+          "w": "What",
+          "start": 295.25,
+          "end": 295.453
+        },
+        {
+          "w": "helps",
+          "start": 295.453,
+          "end": 295.756
+        },
+        {
+          "w": "you",
+          "start": 295.756,
+          "end": 295.908
+        },
+        {
+          "w": "feel",
+          "start": 295.908,
+          "end": 296.162
+        },
+        {
+          "w": "brave",
+          "start": 296.162,
+          "end": 296.465
+        },
+        {
+          "w": "at",
+          "start": 296.465,
+          "end": 296.567
+        },
+        {
+          "w": "night?",
+          "start": 296.567,
+          "end": 296.82
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "guess",
+      "start": 0,
+      "visual": "Who is hiding behind the tree?",
+      "end": 4.41
+    },
+    {
+      "id": "guess2",
+      "start": 4.41,
+      "visual": "Can you guess?",
+      "end": 9.79
+    },
+    {
+      "id": "reveal",
+      "start": 9.79,
+      "visual": "It's... a lion!",
+      "end": 12.4
+    },
+    {
+      "id": "hello",
+      "start": 12.4,
+      "visual": "Hello! I'm Rory the lion!",
+      "end": 15.37
+    },
+    {
+      "id": "bobo_hi",
+      "start": 15.37,
+      "visual": "Hi, Rory! I'm Bobo!",
+      "end": 18.19
+    },
+    {
+      "id": "sound_q",
+      "start": 18.19,
+      "visual": "What does a lion say?",
+      "end": 21.12
+    },
+    {
+      "id": "roar1",
+      "start": 21.12,
+      "visual": "Roar!",
+      "end": 23.48
+    },
+    {
+      "id": "your_turn",
+      "start": 23.48,
+      "visual": "Can you roar like Rory? Your turn!",
+      "end": 28.16
+    },
+    {
+      "id": "roar2",
+      "start": 28.16,
+      "visual": "ROAR!",
+      "end": 30.52
+    },
+    {
+      "id": "facts",
+      "start": 30.52,
+      "visual": "Let's learn three lion facts!",
+      "end": 33.79
+    },
+    {
+      "id": "fact1",
+      "start": 33.79,
+      "visual": "Fact one. Lions live in Africa, on the big, grassy savanna.",
+      "end": 40.72
+    },
+    {
+      "id": "fact2",
+      "start": 40.72,
+      "visual": "Fact two. A family of lions is called a pride.",
+      "end": 46.28
+    },
+    {
+      "id": "fact3",
+      "start": 46.28,
+      "visual": "Fact three. A lion's roar is so loud, you can hear it five miles away!",
+      "end": 53.64
+    },
+    {
+      "id": "secret",
+      "start": 53.64,
+      "visual": "But Rory has a little secret.",
+      "end": 56.73
+    },
+    {
+      "id": "scared",
+      "start": 56.73,
+      "visual": "When the sun goes down... I get scared of the dark.",
+      "end": 61.38
+    },
+    {
+      "id": "bobo_help",
+      "start": 61.38,
+      "visual": "Don't worry, Rory. Let's look at the night together.",
+      "end": 66.55
+    },
+    {
+      "id": "moon",
+      "start": 66.55,
+      "visual": "Look! The moon!",
+      "end": 68.59
+    },
+    {
+      "id": "nightlight",
+      "start": 68.59,
+      "visual": "The moon is like a night light, in the sky.",
+      "end": 72.92
+    },
+    {
+      "id": "fireflies_r",
+      "start": 72.92,
+      "visual": "Ooh... tiny lights!",
+      "end": 75.46
+    },
+    {
+      "id": "fireflies",
+      "start": 75.46,
+      "visual": "Fireflies! They glow in the dark.",
+      "end": 79.19
+    },
+    {
+      "id": "stars",
+      "start": 79.19,
+      "visual": "And the stars twinkle, twinkle, to say good night.",
+      "end": 83.51
+    },
+    {
+      "id": "breath",
+      "start": 83.51,
+      "visual": "Rory takes a big, deep breath.",
+      "end": 88.03
+    },
+    {
+      "id": "brave",
+      "start": 88.03,
+      "visual": "I feel brave now! The dark is quiet... and pretty!",
+      "end": 93.16
+    },
+    {
+      "id": "lesson",
+      "start": 93.16,
+      "visual": "Being brave means trying, even when you feel a little bit scared.",
+      "end": 99.93
+    },
+    {
+      "id": "again",
+      "start": 99.93,
+      "visual": "Now, let's play and remember, with Rory!",
+      "end": 104.74
+    },
+    {
+      "id": "r_q",
+      "start": 104.74,
+      "visual": "What does a lion say?",
+      "end": 110.47
+    },
+    {
+      "id": "r_a",
+      "start": 110.47,
+      "visual": "Roar!",
+      "end": 113.23
+    },
+    {
+      "id": "r_turn",
+      "start": 113.23,
+      "visual": "Your turn! Roar with Rory!",
+      "end": 118.28
+    },
+    {
+      "id": "r_b",
+      "start": 118.28,
+      "visual": "ROAR!",
+      "end": 121.44
+    },
+    {
+      "id": "r_more",
+      "start": 121.44,
+      "visual": "One more time! Your turn!",
+      "end": 126.34
+    },
+    {
+      "id": "r_c",
+      "start": 126.34,
+      "visual": "ROOOAR!",
+      "end": 129.45
+    },
+    {
+      "id": "r_good",
+      "start": 129.45,
+      "visual": "Wow! Great roaring!",
+      "end": 133.36
+    },
+    {
+      "id": "q_intro",
+      "start": 133.36,
+      "visual": "Do you remember the lion facts?",
+      "end": 137.32
+    },
+    {
+      "id": "q1",
+      "start": 137.32,
+      "visual": "Where do lions live?",
+      "end": 144.7
+    },
+    {
+      "id": "a1",
+      "start": 144.7,
+      "visual": "On the savanna!",
+      "end": 147.79
+    },
+    {
+      "id": "a1_say",
+      "start": 147.79,
+      "visual": "Say it with me. Savanna!",
+      "end": 152.58
+    },
+    {
+      "id": "a1_r",
+      "start": 152.58,
+      "visual": "Savanna!",
+      "end": 156.71
+    },
+    {
+      "id": "q2",
+      "start": 156.71,
+      "visual": "What is a family of lions called?",
+      "end": 164.66
+    },
+    {
+      "id": "a2",
+      "start": 164.66,
+      "visual": "A pride!",
+      "end": 167.59
+    },
+    {
+      "id": "a2_say",
+      "start": 167.59,
+      "visual": "Say it with me. Pride!",
+      "end": 172.27
+    },
+    {
+      "id": "a2_r",
+      "start": 172.27,
+      "visual": "Pride!",
+      "end": 176.21
+    },
+    {
+      "id": "q3",
+      "start": 176.21,
+      "visual": "How far away can you hear a lion's roar?",
+      "end": 184.51
+    },
+    {
+      "id": "a3",
+      "start": 184.51,
+      "visual": "Five miles away!",
+      "end": 187.85
+    },
+    {
+      "id": "a3_say",
+      "start": 187.85,
+      "visual": "Show me five fingers! One, two, three, four, five!",
+      "end": 194.0
+    },
+    {
+      "id": "a3_r",
+      "start": 194.0,
+      "visual": "Five miles! Roar!",
+      "end": 198.88
+    },
+    {
+      "id": "n_intro",
+      "start": 198.88,
+      "visual": "Let's look at the night sky again!",
+      "end": 202.76
+    },
+    {
+      "id": "nq1",
+      "start": 202.76,
+      "visual": "What is big and round, up in the sky?",
+      "end": 210.91
+    },
+    {
+      "id": "na1",
+      "start": 210.91,
+      "visual": "The moon!",
+      "end": 214.95
+    },
+    {
+      "id": "nq2",
+      "start": 214.95,
+      "visual": "What are the tiny lights that glow in the dark?",
+      "end": 223.29
+    },
+    {
+      "id": "na2",
+      "start": 223.29,
+      "visual": "Fireflies!",
+      "end": 227.65
+    },
+    {
+      "id": "nq3",
+      "start": 227.65,
+      "visual": "And what twinkles in the night sky?",
+      "end": 235.56
+    },
+    {
+      "id": "na3",
+      "start": 235.56,
+      "visual": "The stars!",
+      "end": 239.86
+    },
+    {
+      "id": "b_intro",
+      "start": 239.86,
+      "visual": "When you feel scared, take a big breath, like Rory.",
+      "end": 244.76
+    },
+    {
+      "id": "b_in",
+      "start": 244.76,
+      "visual": "Breathe in...",
+      "end": 249.26
+    },
+    {
+      "id": "b_out",
+      "start": 249.26,
+      "visual": "and out.",
+      "end": 253.13
+    },
+    {
+      "id": "b_in2",
+      "start": 253.13,
+      "visual": "Breathe in...",
+      "end": 257.63
+    },
+    {
+      "id": "b_out2",
+      "start": 257.63,
+      "visual": "and out.",
+      "end": 261.5
+    },
+    {
+      "id": "l_intro",
+      "start": 261.5,
+      "visual": "Let's say Rory's brave words together!",
+      "end": 265.3
+    },
+    {
+      "id": "l1",
+      "start": 265.3,
+      "visual": "Being brave means trying!",
+      "end": 269.65
+    },
+    {
+      "id": "l_turn",
+      "start": 269.65,
+      "visual": "Your turn!",
+      "end": 274.61
+    },
+    {
+      "id": "l2",
+      "start": 274.61,
+      "visual": "Being brave means trying!",
+      "end": 278.96
+    },
+    {
+      "id": "l_turn2",
+      "start": 278.96,
+      "visual": "One more time, all together!",
+      "end": 282.12
+    },
+    {
+      "id": "l3",
+      "start": 282.12,
+      "visual": "Being brave means trying!",
+      "end": 286.67
+    },
+    {
+      "id": "l_good",
+      "start": 286.67,
+      "visual": "Yay! You are so brave!",
+      "end": 290.32
+    },
+    {
+      "id": "night",
+      "start": 290.32,
+      "visual": "Good night, friends! Roar!",
+      "end": 293.01
+    },
+    {
+      "id": "night_b",
+      "start": 293.01,
+      "visual": "Good night!",
+      "end": 294.96
+    },
+    {
+      "id": "ask",
+      "start": 294.96,
+      "visual": "What helps you feel brave at night?",
+      "end": 299.9
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

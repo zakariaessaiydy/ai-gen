@@ -1,0 +1,147 @@
+{
+ "id": "voice-audition-3",
+ "format": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationSec": 84.2
+ },
+ "voicePlan": "kokoro",
+ "cast": {
+  "mila1": {
+   "engine": "azure",
+   "azure": "en-US-AnaNeural",
+   "rate": "-4%"
+  },
+  "mila2": {
+   "engine": "azure",
+   "azure": "en-US-AnaNeural",
+   "azure_style": "cheerful",
+   "rate": "-4%"
+  },
+  "mila3": {
+   "engine": "azure",
+   "azure": "en-GB-MaisieNeural",
+   "rate": "-4%"
+  },
+  "leo1": {
+   "engine": "azure",
+   "azure": "en-US-AnaNeural",
+   "azure_pitch": "-8%",
+   "rate": "+4%"
+  },
+  "leo2": {
+   "engine": "azure",
+   "azure": "en-GB-MaisieNeural",
+   "azure_pitch": "-6%"
+  },
+  "leo3": {
+   "kokoro": "af_nova",
+   "rate": "-4%"
+  },
+  "leo4": {
+   "kokoro": "am_echo",
+   "rate": "-4%"
+  },
+  "bobo1": {
+   "kokoro": "am_puck",
+   "rate": "-4%"
+  },
+  "bobo2": {
+   "kokoro": "am_michael",
+   "rate": "-4%"
+  },
+  "bobo3": {
+   "kokoro": "am_fenrir",
+   "pitch": 2,
+   "formant": true,
+   "rate": "-4%"
+  },
+  "french1": {
+   "engine": "azure",
+   "azure": "fr-FR-EloiseNeural",
+   "rate": "-4%"
+  }
+ },
+ "vo": [
+  {
+   "beat": "a",
+   "speaker": "mila1",
+   "start": 0.3,
+   "end": 7.38,
+   "text": "Mila, number one. Hi! I'm Mila! Can we play too? Let's count to five!"
+  },
+  {
+   "beat": "a",
+   "speaker": "mila2",
+   "start": 8.38,
+   "end": 15.46,
+   "text": "Mila, number two. Hi! I'm Mila! Can we play too? Let's count to five!"
+  },
+  {
+   "beat": "a",
+   "speaker": "mila3",
+   "start": 16.46,
+   "end": 23.54,
+   "text": "Mila, number three. Hi! I'm Mila! Can we play too? Let's count to five!"
+  },
+  {
+   "beat": "a",
+   "speaker": "leo1",
+   "start": 24.54,
+   "end": 31.2,
+   "text": "Leo, number one. Hey, I'm Leo! Want to play with me? Your turn!"
+  },
+  {
+   "beat": "a",
+   "speaker": "leo2",
+   "start": 32.2,
+   "end": 38.86,
+   "text": "Leo, number two. Hey, I'm Leo! Want to play with me? Your turn!"
+  },
+  {
+   "beat": "a",
+   "speaker": "leo3",
+   "start": 39.86,
+   "end": 46.52,
+   "text": "Leo, number three. Hey, I'm Leo! Want to play with me? Your turn!"
+  },
+  {
+   "beat": "a",
+   "speaker": "leo4",
+   "start": 47.52,
+   "end": 54.18,
+   "text": "Leo, number four. Hey, I'm Leo! Want to play with me? Your turn!"
+  },
+  {
+   "beat": "a",
+   "speaker": "bobo1",
+   "start": 55.18,
+   "end": 61.42,
+   "text": "Bobo, number one. I'm Bobo! Yes! Yay! Thank you, Leo! Honey, please?"
+  },
+  {
+   "beat": "a",
+   "speaker": "bobo2",
+   "start": 62.42,
+   "end": 68.66,
+   "text": "Bobo, number two. I'm Bobo! Yes! Yay! Thank you, Leo! Honey, please?"
+  },
+  {
+   "beat": "a",
+   "speaker": "bobo3",
+   "start": 69.66,
+   "end": 75.9,
+   "text": "Bobo, number three. I'm Bobo! Yes! Yay! Thank you, Leo! Honey, please?"
+  },
+  {
+   "beat": "a",
+   "speaker": "french1",
+   "start": 76.9,
+   "end": 82.72,
+   "text": "Français. Bonjour ! Je m'appelle Mila. On compte jusqu'à cinq !",
+   "lang": "fr"
+  }
+ ],
+ "beats": []
+}

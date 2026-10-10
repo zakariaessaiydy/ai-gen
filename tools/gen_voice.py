@@ -26,6 +26,12 @@ Usage:
 
 ffmpeg/ffprobe on PATH.
 Default voice: ElevenLabs premade "Liam" / Edge "en-US-AndrewMultilingualNeural".
+
+DIALOGUE (multi-voice): a vo line may carry "speaker": "<id>", and beats.json a "cast" map
+  "cast": {"bro": {"elevenlabs": "<voice id>", "edge": "en-US-...", "rate": "+10%"}, ...}
+Each line is then voiced by its speaker's voice for the active engine (falling back to
+--voice), and the speaker is emitted into vo.gen.ts so the composition can lip-sync the
+right character. Lines without a speaker are narration and use --voice as before.
 """
 import argparse
 import hashlib
@@ -33,12 +39,14 @@ import json
 import os
 import subprocess
 import sys
+import threading
 import time
 import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 from ffmpeg_path import ensure_on_path
+from common import load_env, write_json
 
 ensure_on_path()
 
@@ -47,19 +55,6 @@ DEFAULT_VOICE = "TX3LPaxmHKxFdv7VOQHJ"  # ElevenLabs premade "Liam"
 DEFAULT_MODEL = "eleven_multilingual_v2"
 EDGE_VOICE = "en-US-AndrewMultilingualNeural"  # free engine's Liam-alike (warm male)
 MAX_ATEMPO = 1.3  # never speed a line up more than 30%
-
-
-def load_env():
-    env = {}
-    p = os.path.join(ROOT, ".env")
-    if os.path.exists(p):
-        for line in open(p, encoding="utf-8"):
-            line = line.strip()
-            if not line or line.startswith("#") or "=" not in line:
-                continue
-            k, v = line.split("=", 1)
-            env[k.strip()] = v.strip().strip('"').strip("'")
-    return {**env, **os.environ}
 
 
 def run(cmd):
@@ -245,6 +240,234 @@ def tts_line_edge(voice, text, out_path, rate="+0%"):
         json.dump(merge_word_times(spoken, bounds), f, ensure_ascii=False)
 
 
+# ── FREE LOCAL engine: Kokoro-82M ───────────────────────────────────────────────────────
+# Apache-2.0, runs on CPU, no key/quota/network (install once: python tools/setup_kokoro.py).
+# Kokoro has no word-boundary events, so word times are DERIVED from the audio: the clip is cut
+# into voiced runs at its pauses, the line's words are grouped at their punctuation, and when the
+# groups line up with the runs each word gets a share of its run weighted by its phoneme count
+# (else the whole voiced span is shared). Accurate to a syllable or so — plenty for word-pop
+# captions and lip-flap; the timings stay REAL in that every boundary is measured audio.
+KOKORO_DIR = os.path.join(ROOT, "tools", "kokoro")
+KOKORO_VOICE = "am_michael"
+_kokoro = None
+_kokoro_lock = threading.Lock()  # one ONNX session, shared by the --jobs pool
+_kokoro_init_lock = threading.Lock()  # pool threads must not each build their own session
+
+
+def kokoro_full():
+    """True when the full-precision model is installed (setup_kokoro.py --full) — gen_voice uses it."""
+    return os.path.exists(os.path.join(KOKORO_DIR, "kokoro-v1.0.onnx"))
+
+
+def _kokoro_engine():
+    global _kokoro
+    if _kokoro is not None:
+        return _kokoro
+    with _kokoro_init_lock:
+        if _kokoro is not None:
+            return _kokoro
+        full = os.path.join(KOKORO_DIR, "kokoro-v1.0.onnx")  # fp32 (setup_kokoro.py --full): cleaner
+        model = full if os.path.exists(full) else os.path.join(KOKORO_DIR, "kokoro-v1.0.q8.onnx")
+        voices = os.path.join(KOKORO_DIR, "voices-v1.0.npz")
+        if not (os.path.exists(model) and os.path.exists(voices)):
+            sys.exit("kokoro is not installed — run:  pip install kokoro-onnx && python tools/setup_kokoro.py")
+        try:
+            from kokoro_onnx import Kokoro
+        except ImportError:
+            sys.exit("--engine kokoro needs:  pip install kokoro-onnx  (then python tools/setup_kokoro.py)")
+        _kokoro = Kokoro(model, voices)
+    return _kokoro
+
+
+def kokoro_voice(k, spec):
+    """'am_puck' or a BLEND 'am_puck:0.7+am_fenrir:0.3' (style vectors mixed — a voice of your own)."""
+    if "+" not in spec and ":" not in spec:
+        return spec
+    import numpy as np
+    mix = None
+    for part in spec.split("+"):
+        name, _, w = part.partition(":")
+        vec = k.voices[name.strip()] * float(w or 1)
+        mix = vec if mix is None else mix + vec
+    return mix.astype(np.float32)
+
+
+def rate_to_speed(rate):
+    """'+6%' -> 1.06 (the Edge-style rate string, reused so cast entries stay engine-neutral)."""
+    try:
+        return 1.0 + float(str(rate).strip().rstrip("%")) / 100.0
+    except ValueError:
+        return 1.0
+
+
+def voiced_runs(samples, sr, gap=0.11, floor_db=-38.0):
+    """[(start, end)] seconds of speech, split at silences >= `gap`s (10ms RMS frames)."""
+    import numpy as np
+    hop = int(sr * 0.01)
+    n = len(samples) // hop
+    if n == 0:
+        return []
+    frames = samples[: n * hop].reshape(n, hop)
+    rms = np.sqrt((frames.astype(np.float64) ** 2).mean(axis=1)) + 1e-9
+    db = 20 * np.log10(rms / rms.max())
+    on = db > floor_db
+    runs, i = [], 0
+    while i < n:
+        if not on[i]:
+            i += 1
+            continue
+        j = i
+        while j < n and on[j]:
+            j += 1
+        runs.append([i, j])
+        i = j
+    merged = []
+    for r in runs:  # close gaps shorter than `gap` (stops/plosives inside words)
+        if merged and (r[0] - merged[-1][1]) * 0.01 < gap:
+            merged[-1][1] = r[1]
+        else:
+            merged.append(r)
+    return [(a * 0.01, b * 0.01) for a, b in merged if (b - a) >= 3]
+
+
+def derive_word_times(text, runs, weight):
+    words = [w for w in text.split() if any(c.isalnum() for c in w)]
+    if not words or not runs:
+        return []
+    groups, cur = [], []
+    for w in words:
+        cur.append(w)
+        if w.rstrip("\"')")[-1:] in ".,!?;:—…":
+            groups.append(cur)
+            cur = []
+    if cur:
+        groups.append(cur)
+    if len(groups) != len(runs):  # pauses don't match punctuation: share the whole span
+        groups, runs = [words], [(runs[0][0], runs[-1][1])]
+    out = []
+    for g, (a, b) in zip(groups, runs):
+        ws = [max(1, weight(w)) for w in g]
+        t, tot = a, sum(ws)
+        for w, k in zip(g, ws):
+            d = (b - a) * k / tot
+            out.append({"w": w, "start": round(t, 3), "end": round(t + d, 3)})
+            t += d
+    return out
+
+
+KOKORO_LANGS = {"a": "en-us", "b": "en-gb", "f": "fr-fr", "e": "es", "i": "it", "p": "pt-br", "h": "hi", "j": "ja", "z": "cmn"}
+
+
+def kokoro_lang(voice, lang=None):
+    """Phonemizer language for a line: explicit `lang`, else the voice's prefix (ff_ = French)."""
+    if lang:
+        return {"fr": "fr-fr", "en": "en-us", "es": "es", "it": "it", "pt": "pt-br"}.get(lang, lang)
+    return KOKORO_LANGS.get((voice.split(":")[0].split("+")[0] or "a")[0], "en-us")
+
+
+def tts_line_kokoro(voice, text, out_path, rate="+0%", pitch=0.0, lang=None, formant=False):
+    """FREE LOCAL engine. Same contract as tts_line(): writes the audio AND
+    <out_path>.words.json (word times derived from the audio's own pauses — see above).
+    pitch = semitones (e.g. +4 turns an adult voice into a kid/cartoon voice; rubberband keeps
+    the duration, so word times are unchanged). formant=True keeps the adult timbre (less
+    chipmunk). lang = phonemizer language (default from the voice prefix; 'fr' for French)."""
+    import tempfile
+    import wave
+    import numpy as np
+    k = _kokoro_engine()
+    spoken = strip_tags(text)
+    with _kokoro_lock:  # one ONNX session; lines queue rather than fight over the CPU
+        lg = kokoro_lang(voice, lang)
+        audio, sr = k.create(spoken, voice=kokoro_voice(k, voice), speed=rate_to_speed(rate), lang=lg)
+
+        def weight(w):
+            ph = k.tokenizer.phonemize("".join(c for c in w if c.isalnum() or c == "'"), lg)
+            return len([c for c in ph if c.isalpha() or c in "ɑɐɒæɔəɘɚɛɜɝɞɤɨɪʉʊʌʏŋðθʃʒ"])
+
+        words = derive_word_times(spoken, voiced_runs(audio, sr), weight)
+    pcm = (np.clip(audio, -1, 1) * 32767).astype(np.int16)
+    with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
+        wav = tmp.name
+    with wave.open(wav, "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(sr)
+        w.writeframes(pcm.tobytes())
+    clean = "highpass=f=80,deesser=i=0.35,acompressor=threshold=0.12:ratio=2.5:attack=8:release=120:makeup=1.3"
+    af = ["-af", clean] if kokoro_full() else []
+    if pitch:
+        # highest-quality pitch path (fewer warbles), then a light clean-up: rumble cut, soft
+        # de-ess (pitched voices get hissy), gentle compression so lines sit evenly
+        af = ["-af", f"rubberband=pitch={2 ** (float(pitch) / 12):.5f}:pitchq=quality:transients=mixed:window=standard"
+              + (":formant=preserved" if formant else "")
+              + ",highpass=f=80,deesser=i=0.35,acompressor=threshold=0.12:ratio=2.5:attack=8:release=120:makeup=1.3"]
+    run(["ffmpeg", "-y", "-v", "error", "-i", wav, *af, "-b:a", "192k", out_path])
+    os.remove(wav)
+    with open(out_path + ".words.json", "w", encoding="utf-8") as f:
+        json.dump(words, f, ensure_ascii=False)
+
+
+AZURE_LANGS = {"fr": "fr-FR", "en": "en-US", "es": "es-ES"}
+
+
+def tts_line_azure(voice, text, out_path, rate="+0%", pitch="+0%", style=None, lang=None):
+    """FREE-TIER engine for REAL CHILD VOICES (Microsoft Azure Speech, F0 = 0.5M neural chars/month):
+    en-US-AnaNeural (US girl), en-GB-MaisieNeural (UK girl), fr-FR-EloiseNeural (French girl) and
+    every other Azure neural voice. Pitch/rate are applied server-side via SSML <prosody> (clean, no
+    resampling artefacts). Needs AZURE_SPEECH_KEY + AZURE_SPEECH_REGION in .env and the host
+    <region>.tts.speech.microsoft.com reachable. Same contract as tts_line(): writes the audio AND
+    <out_path>.words.json (word times derived from the audio's pauses, like the kokoro engine)."""
+    import tempfile
+    import wave
+    from xml.sax.saxutils import escape
+    import numpy as np
+
+    env = load_env()
+    key, region = env.get("AZURE_SPEECH_KEY"), env.get("AZURE_SPEECH_REGION")
+    if not key or not region:
+        sys.exit("azure engine: put AZURE_SPEECH_KEY and AZURE_SPEECH_REGION (e.g. eastus) in .env "
+                 "(Azure portal → Speech resource, Free F0 tier → Keys and Endpoint)")
+    host = f"{region}.tts.speech.microsoft.com"
+    xml_lang = "-".join(voice.split("-")[:2]) if voice.count("-") >= 2 else AZURE_LANGS.get(lang or "en", "en-US")
+    spoken = strip_tags(text)
+    body = escape(spoken)
+    body = f'<prosody rate="{rate or "+0%"}" pitch="{pitch or "+0%"}">{body}</prosody>'
+    if style:
+        body = f'<mstts:express-as style="{style}">{body}</mstts:express-as>'
+    ssml = (f'<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" '
+            f'xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="{xml_lang}">'
+            f'<voice name="{voice}">{body}</voice></speak>')
+    req = urllib.request.Request(
+        f"https://{host}/cognitiveservices/v1", data=ssml.encode("utf-8"), method="POST",
+        headers={"Ocp-Apim-Subscription-Key": key, "Content-Type": "application/ssml+xml",
+                 "X-Microsoft-OutputFormat": "riff-24khz-16bit-mono-pcm", "User-Agent": "shorts-gen-voice"})
+    audio = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                audio = r.read()
+            break
+        except urllib.error.HTTPError as e:
+            if e.code in (429, 500, 502, 503) and attempt < 2:
+                time.sleep(2 + attempt * 3)
+                continue
+            sys.exit(f"azure TTS HTTP {e.code} for {voice}: {e.read()[:300]!r}")
+        except urllib.error.URLError as e:
+            sys.exit(f"azure TTS: cannot reach {host} ({e.reason}). In a cloud session, add {host} "
+                     "to the environment's Allowed domains (Network access).")
+    with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
+        tmp.write(audio)
+        wav = tmp.name
+    with wave.open(wav, "rb") as w:
+        sr = w.getframerate()
+        samples = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype(np.float32) / 32768
+    words = derive_word_times(spoken, voiced_runs(samples, sr), lambda wd: max(1, sum(c.isalpha() for c in wd)))
+    run(["ffmpeg", "-y", "-v", "error", "-i", wav, "-af", "highpass=f=70", "-b:a", "192k", out_path])
+    os.remove(wav)
+    with open(out_path + ".words.json", "w", encoding="utf-8") as f:
+        json.dump(words, f, ensure_ascii=False)
+
+
 def list_edge_voices(prefix="en-"):
     import asyncio
     try:
@@ -256,10 +479,12 @@ def list_edge_voices(prefix="en-"):
             print(f"  {v['ShortName']:<40s} {v['Gender']:<7s} {v.get('FriendlyName', '')}")
 
 
-def emit_ts(vo, path):
+def emit_ts(vo, path, engine="elevenlabs"):
     """Write the generated VO (with exact word times) as a TS module the shot imports."""
+    how = {"elevenlabs": "the REAL ElevenLabs alignment", "edge": "Edge's real word boundaries",
+           "kokoro": "derived from the Kokoro audio's own pauses"}.get(engine, engine)
     lines = ["// AUTO-GENERATED by tools/gen_voice.py — do not edit.",
-             "// Word times are the REAL ElevenLabs alignment; captions sync exactly.",
+             f"// Word times are {how}; captions + lip-sync follow them.",
              "import type { VoLine } from '../../lib/shorts';", "",
              "export const VO: VoLine[] = ["]
     for line in vo:
@@ -267,7 +492,8 @@ def emit_ts(vo, path):
         ws = ", ".join(
             "{ w: '%s', start: %s, end: %s }" % (w["w"].replace("\\", "\\\\").replace("'", "\\'"), w["start"], w["end"])
             for w in line.get("words", []))
-        lines.append(f"  {{ text: '{esc}', start: {line['start']}, end: {line['end']}, words: [{ws}] }},")
+        spk = f"speaker: '{line['speaker']}', " if line.get("speaker") else ""
+        lines.append(f"  {{ {spk}text: '{esc}', start: {line['start']}, end: {line['end']}, words: [{ws}] }},")
     lines += ["];", ""]
     body = "\n".join(lines)
     # only touch the file when it actually changed: an unchanged mtime is what lets
@@ -282,12 +508,15 @@ def emit_ts(vo, path):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--beats", help="path to the short's beats.json")
-    ap.add_argument("--engine", choices=("elevenlabs", "edge"), default="elevenlabs",
-                    help="elevenlabs (paid key) or edge = free Microsoft Neural TTS, no key")
+    ap.add_argument("--engine", choices=("elevenlabs", "edge", "kokoro", "azure"), default="elevenlabs",
+                    help="elevenlabs (paid key) · edge = free Microsoft Neural TTS (online) · "
+                         "kokoro = free LOCAL Kokoro-82M (setup: tools/setup_kokoro.py) · "
+                         "azure = Azure Speech free tier (real child voices; AZURE_SPEECH_KEY/REGION). "
+                         "A cast entry's \"engine\" overrides this per speaker.")
     ap.add_argument("--voice", help=f"default: {DEFAULT_VOICE} (elevenlabs) / {EDGE_VOICE} (edge)")
     ap.add_argument("--model", default=DEFAULT_MODEL, help="elevenlabs only")
     ap.add_argument("--list-voices", action="store_true", help="list free Edge voices and exit")
-    ap.add_argument("--rate", default="+0%", help="edge only: narration speed, e.g. +10%%")
+    ap.add_argument("--rate", default="+0%", help="edge/kokoro: narration speed, e.g. +10%%")
     ap.add_argument("--mux", help="optional rendered mp4 to mux the voice onto (-voiced.mp4)")
     ap.add_argument("--emit-ts", help="write the VO (with exact word times) as a TS module, e.g. remotion/src/shots/short-2/vo.gen.ts")
     ap.add_argument("--jobs", type=int, default=4,
@@ -302,7 +531,7 @@ def main():
     if not args.beats:
         ap.error("--beats is required")
     if not args.voice:
-        args.voice = EDGE_VOICE if args.engine == "edge" else DEFAULT_VOICE
+        args.voice = {"edge": EDGE_VOICE, "kokoro": KOKORO_VOICE}.get(args.engine, DEFAULT_VOICE)
 
     beats_path = os.path.abspath(args.beats)
     beats = json.load(open(beats_path, encoding="utf-8"))
@@ -311,21 +540,56 @@ def main():
     vdir = os.path.join(os.path.dirname(beats_path), "voice")
     os.makedirs(vdir, exist_ok=True)
 
-    key = load_env().get("ELEVENLABS_API_KEY")
-    if args.engine == "elevenlabs" and not key and not args.dry_run:
-        sys.exit("ELEVENLABS_API_KEY not found in .env  (or use --engine edge — free, no key)")
-
     # ── plan every line first, then generate the MISSING ones in parallel ────────────
     # TTS is ~3-12s of network per line; serially that is over a minute for a 13-line short.
     # Cache hits (unchanged text) cost nothing, so only genuine misses are dispatched.
+    cast = beats.get("cast", {})
+
+    def engine_of(line):
+        """A speaker's cast entry may pin its own engine ("engine": "azure") — e.g. real child
+        voices on Azure for the kids while the bear stays on local Kokoro."""
+        return cast.get(line.get("speaker") or "", {}).get("engine") or args.engine
+
+    key = load_env().get("ELEVENLABS_API_KEY")
+    if any(engine_of(l) == "elevenlabs" for l in vo) and not key and not args.dry_run:
+        sys.exit("ELEVENLABS_API_KEY not found in .env  (or use --engine edge — free, no key)")
+
+    def voice_of(line):
+        """(voice, rate) for a line: its speaker's cast entry for this engine, else the defaults.
+        A line with "lang": "fr" uses the speaker's "<engine>_fr" voice when the cast has one."""
+        c = cast.get(line.get("speaker") or "", {})
+        lg = line.get("lang")
+        eng = engine_of(line)
+        v = (lg and c.get(f"{eng}_{lg}")) or c.get(eng) or args.voice
+        return v, c.get("rate", args.rate)
+
+    def azure_extras(line):
+        """(pitch, style) — azure-only cast options, SSML prosody pitch like "-8%" and a speaking style."""
+        c = cast.get(line.get("speaker") or "", {})
+        return c.get("azure_pitch", "+0%"), c.get("azure_style")
+
+    def kokoro_extras(line):
+        """(pitch semitones, lang, formant) — kokoro-only cast/line options for kid voices + French."""
+        c = cast.get(line.get("speaker") or "", {})
+        return float(c.get("pitch", 0) or 0), line.get("lang") or c.get("lang"), bool(c.get("formant", False))
+
     plan = []  # (i, line, start, window, tts_text, raw, fit)
     for i, line in enumerate(vo):
         start = float(line["start"])
         next_start = float(vo[i + 1]["start"]) if i + 1 < len(vo) else total - 0.3
         window = next_start - start - 0.05
         tts_text = line.get("tts", line["text"])  # optional tagged/phonetic variant for TTS
+        voice, rate = voice_of(line)
+        extra = ""
+        eng = engine_of(line)
+        if eng == "kokoro":
+            pitch, lg, formant = kokoro_extras(line)
+            extra = ("|fp32" if kokoro_full() else "") + (f"|p{pitch}v2" if pitch else "") + (f"|{lg}" if lg else "") + ("|fm" if formant and pitch else "")
+        elif eng == "azure":
+            apitch, astyle = azure_extras(line)
+            extra = f"|{apitch}|{astyle}|{line.get('lang')}"
         h = hashlib.sha1(
-            f"{args.engine}|{args.voice}|{args.model}|{args.rate}|{tts_text}".encode()).hexdigest()[:8]
+            f"{eng}|{voice}|{args.model}|{rate}|{tts_text}{extra}".encode()).hexdigest()[:8]
         plan.append((i, line, start, window, tts_text,
                      os.path.join(vdir, f"line-{i:02d}-{h}.mp3"),
                      os.path.join(vdir, f"line-{i:02d}-{h}-fit.wav")))
@@ -340,13 +604,24 @@ def main():
             if args.force or not os.path.exists(p[5]) or not os.path.exists(p[5] + ".words.json")]
     if todo:
         def generate(p):
-            i, _line, _start, _window, tts_text, raw, _fit = p
-            if args.engine == "edge":
-                tts_line_edge(args.voice, tts_text, raw, args.rate)
+            i, line, _start, _window, tts_text, raw, _fit = p
+            voice, rate = voice_of(line)
+            eng = engine_of(line)
+            if eng == "edge":
+                tts_line_edge(voice, tts_text, raw, rate)
+            elif eng == "azure":
+                apitch, astyle = azure_extras(line)
+                tts_line_azure(voice, tts_text, raw, rate, apitch, astyle, line.get("lang"))
+            elif eng == "kokoro":
+                pitch, lg, formant = kokoro_extras(line)
+                tts_line_kokoro(voice, tts_text, raw, rate, pitch, lg, formant)
             else:
-                prev_text = vo[i - 1].get("tts", vo[i - 1]["text"]) if i > 0 else None
-                next_text = vo[i + 1].get("tts", vo[i + 1]["text"]) if i + 1 < len(vo) else None
-                tts_line(key, args.voice, args.model, tts_text, prev_text, next_text, raw)
+                # neighbour context steers prosody — only stitch lines from the SAME speaker,
+                # another character's line would bleed their delivery into this one
+                def ctx(j):
+                    ok = 0 <= j < len(vo) and vo[j].get("speaker") == line.get("speaker")
+                    return vo[j].get("tts", vo[j]["text"]) if ok else None
+                tts_line(key, voice, args.model, tts_text, ctx(i - 1), ctx(i + 1), raw)
             print(f"  generated line {i:02d}")
 
         t0 = time.time()
@@ -363,6 +638,8 @@ def main():
         tempo = 1.0
         if dur > window:
             tempo = min(MAX_ATEMPO, dur / window)
+        # the fit depends on the window too (via tempo): name it so a moved line re-fits
+        fit = fit[:-len("-fit.wav")] + f"-fit-t{tempo:.3f}.wav"
         if args.force or not os.path.exists(fit):
             run(["ffmpeg", "-y", "-v", "error", "-i", raw,
                  "-filter:a", f"atempo={tempo:.4f}", "-ar", "44100", "-ac", "2", fit])
@@ -391,12 +668,12 @@ def main():
          "-map", "[out]", "-ar", "44100", "-ac", "2", voice_wav])
     print(f"voice track -> {os.path.relpath(voice_wav, ROOT)}")
 
-    beats["voiceStatus"] = f"{args.engine}:{args.voice}"
-    json.dump(beats, open(beats_path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    beats["voiceStatus"] = f"{args.engine}:{'cast' if cast else args.voice}"
+    write_json(beats_path, beats, indent=2)
     print(f"actual line timings + word maps written back -> {os.path.relpath(beats_path, ROOT)}")
 
     if args.emit_ts:
-        changed = emit_ts(vo, rp := os.path.abspath(args.emit_ts))
+        changed = emit_ts(vo, rp := os.path.abspath(args.emit_ts), args.engine)
         print(f"VO TS module -> {os.path.relpath(rp, ROOT)}" + ("" if changed else "  (unchanged)"))
 
     if args.mux:

@@ -1,0 +1,133 @@
+{
+  "master": "remotion/out/Bro01Business-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "notes": "Library-only first pass. Comedy staples are MISSING from the library (record scratch, vine boom, cash register, crickets) \u2014 impact-deep-soft stands in for the boom. Generate them with gen_sfx.py when an ElevenLabs key is available. Voiced with the free local Kokoro engine.",
+  "render": {
+    "preview": "remotion/out/Bro01Business-voiced.mp4",
+    "out": "toon-shorts/bro/ep-01-business/output/bro-01-sfx.mp4",
+    "end_s": 39.4,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 1.58,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -16,
+      "shot": "Bro01Business",
+      "cue": "cut wide \u2014 'You don't have a job.'"
+    },
+    {
+      "at_s": 4.83,
+      "sfx_id": "impact-soft",
+      "gain_db": -14,
+      "shot": "Bro01Business",
+      "cue": "'Trust me' punch-in + shake"
+    },
+    {
+      "at_s": 5.43,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -17,
+      "shot": "Bro01Business",
+      "cue": "sparkles round his face"
+    },
+    {
+      "at_s": 6.33,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -15,
+      "shot": "Bro01Business",
+      "cue": "god rays on 'millionaire by tonight'"
+    },
+    {
+      "at_s": 8.28,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -12,
+      "shot": "Bro01Business",
+      "cue": "SMASH CUT to ONE bottle on a stand (boom)"
+    },
+    {
+      "at_s": 8.83,
+      "sfx_id": "chime-magic",
+      "gain_db": -16,
+      "shot": "Bro01Business",
+      "cue": "'Phase one.' sparkle on the bottle"
+    },
+    {
+      "at_s": 16.34,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "Bro01Business",
+      "cue": "close-up '...The price.'"
+    },
+    {
+      "at_s": 19.04,
+      "sfx_id": "stamp-hit",
+      "gain_db": -14,
+      "shot": "Bro01Business",
+      "cue": "camera lands on the WATER $1 poster"
+    },
+    {
+      "at_s": 20.1,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -14,
+      "shot": "Bro01Business",
+      "cue": "flex + god rays 'do they have ME?'"
+    },
+    {
+      "at_s": 21.05,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -15,
+      "shot": "Bro01Business",
+      "cue": "chain sparkle on 'ME'"
+    },
+    {
+      "at_s": 24.03,
+      "sfx_id": "whoosh-reverse",
+      "gain_db": -16,
+      "shot": "Bro01Business",
+      "cue": "customer leaves"
+    },
+    {
+      "at_s": 25.03,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -11,
+      "shot": "Bro01Business",
+      "cue": "THE STARE '...Hater.' (boom)"
+    },
+    {
+      "at_s": 26.65,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -15,
+      "shot": "Bro01Business",
+      "cue": "3 HOURS LATER card"
+    },
+    {
+      "at_s": 28.25,
+      "sfx_id": "water-pour-glass",
+      "gain_db": -14,
+      "shot": "Bro01Business",
+      "cue": "he's drinking his only stock"
+    },
+    {
+      "at_s": 35.77,
+      "sfx_id": "chime-reward",
+      "gain_db": -11,
+      "shot": "Bro01Business",
+      "cue": "'...So I'm up nine.' \u2014 ka-ching (the bro-math payoff)"
+    },
+    {
+      "at_s": 36.47,
+      "sfx_id": "glitch-zap",
+      "gain_db": -15,
+      "shot": "Bro01Business",
+      "cue": "signature: world drains to grey"
+    },
+    {
+      "at_s": 37.22,
+      "sfx_id": "stamp-hit",
+      "gain_db": -11,
+      "shot": "Bro01Business",
+      "cue": "I GOT THIS. stamp"
+    }
+  ]
+}

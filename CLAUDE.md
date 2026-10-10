@@ -1,6 +1,6 @@
 # CLAUDE.md — claude-faceless-shorts-creator
 
-A **faceless-shorts factory** driven by Claude Code. Three production tracks, one repo — the
+A **faceless-shorts factory** driven by Claude Code. Five production tracks, one repo — the
 right skill is picked automatically from the request:
 
 | The user asks for… | Skill | Pixels come from | Projects live in |
@@ -8,8 +8,11 @@ right skill is picked automatically from the request:
 | "make a short about X" (default) | `/make-short` | 100% TSX (Remotion animation) | `shorts/short-N-<niche>/` |
 | "make an AI video short", "blue-man video" | `/make-ai-short` | a fal video model (locked recurring character) | `ai-shorts/<series>/` |
 | "vox style / documentary / explainer short" | `/make-vox` | layered paper-collage (AI images + cutouts) | `vox-shorts/vox-N-<topic>/` |
+| "cartoon / character series / new Bro episode" | `/make-toon` | 100% TSX 2D cartoon rig (LOCKED recurring cast, dialogue) | `toon-shorts/<series>/ep-NN-<slug>/` |
+| "kids video / for children / nursery / Tiny Sparks" | `/make-kids` → niche skill (`kids-stories`, `kids-numbers`, `kids-words`, `kids-animals`, `kids-science`, `kids-puzzles`, `kids-morals`, `kids-songs`) | 100% TSX kids kit (chibi `Kid` + `Critter` animals, LOCKED Tiny Sparks cast), Shorts AND 16:9 long | `kids-shorts/tiny-sparks/<niche>/ep-NN-<slug>/` |
+| "just create a video of a day", "next video", "video of the day" | `/video-of-the-day` (runs `python tools/next_video.py` for the next topic from `TINY-SPARKS-CALENDAR.xlsx`, then the niche skill, then `--done`) | — | — |
 
-All three share the same backbone: a `beats.json` contract, ElevenLabs voice with word-exact
+All of them share the same backbone: a `beats.json` contract, ElevenLabs voice with word-exact
 captions (`gen_voice.py`), frame-by-frame QA at phone scale, library-first SFX (`/suggest-sfx`),
 optional music bed, seamless frame-0==last-frame loops, no CTA outros. TSX crash rules live in
 `/vidtsx-2d-generator`.
@@ -19,33 +22,49 @@ optional music bed, seamless frame-0==last-frame loops, no CTA outros. TSX crash
 ```
 tools/            Python tools. Pipeline drivers: new_short (scaffold), check_short (preflight),
                   build_short (voice→render→mux→sfx→music in one command).
-                  Media: gen_voice, gen_sfx, gen_music, mix_sfx, mix_music, gen_chords,
-                  gen_image, gen_clip, bakeoff_clip, cutout, capture_web, ffmpeg_path
-remotion/         the Remotion project — src/lib/ (shared + niche kits incl. collage.tsx),
-                  src/shots/{short-N, ai-N, vox-N}/
+                  Media: gen_voice (+ setup_kokoro), gen_sfx, gen_music, mix_sfx, mix_music, gen_chords,
+                  gen_image, gen_clip, bakeoff_clip, cutout, capture_web, ffmpeg_path,
+                  gen_song (FREE local kids songs: synth instruments + Kokoro chant/toy-singer vocal)
+                  QA: loop_diff (measures the frame-0==last-frame wrap), audit_sfx (measures
+                  whether each SFX cue is audible). Calendar: next_video, gen_kids_calendar.
+                  common.py = shared helpers (load_env, write_json, audio loudness block).
+remotion/         the Remotion project — src/lib/ (shared + niche kits incl. collage.tsx,
+                  toon/, kids/), src/shots/{short-N, ai-N, vox-N, bro-NN, kids-*, toon-bro}/
 media/            Remotion's public root: library/ (reusable: sfx, music, logos)
                   + projects/<proj>/ (media for ONE video — incl. committed AI clips & layers)
 shorts/           TSX shorts: script.md, beats.json, sfx-plan.json each
 ai-shorts/        generative shorts: + character.json (LOCKED reference), shot sidecars, IDEAS.md
 vox-shorts/       collage shorts: + DESIGN.md (the visual language — read before any vox work)
+toon-shorts/      cartoon series: <series>/series.json (bible) + character.png + IDEAS.md + ep-NN-*/
+kids-shorts/      kids channel: tiny-sparks/channel.json (bible) + character.png + songs/ + <niche>/ep-NN-*/
+TINY-SPARKS-CALENDAR.xlsx  the kids channel's 800-video calendar + tracker — NEVER read it directly; use tools/next_video.py
+publishing/       ideas/<niche>.txt — the idea lists gen_kids_calendar.py built the calendar from
 brand.md          the style contract every skill reads (palette, motion, safe areas, SFX taste)
 IDEAS.md          the TSX-shorts idea bank + niche ranking
-.claude/skills/   make-short, make-ai-short, make-vox, vidtsx-2d-generator, suggest-sfx
+.claude/skills/   make-short, make-ai-short, make-vox, make-toon, make-kids (+ 8 kids-* niches),
+                  video-of-the-day, vidtsx-2d-generator, suggest-sfx
 ```
 
 ## Conventions (hard rules)
 
 - **Run everything from the repo root.** Tools resolve engine paths (media/library, catalogs)
   against their own location, but project paths (`shorts/...`) against the CWD.
-- **Python:** any Python 3.10+ — the core pipeline is stdlib-only. Only vox layer production
-  needs extras: `pip install pillow rembg` (cutout.py) and `pip install playwright &&
-  playwright install chromium` (capture_web.py). `ffmpeg`/`ffprobe` and `node`/`npx` on PATH.
+- **Python:** any Python 3.10+ — the core pipeline is stdlib-only. Extras per feature are in
+  `requirements-optional.txt`: vox layers (`pillow rembg`, `playwright` + `playwright install
+  chromium`), the calendar tools (`openpyxl`), Kokoro (`kokoro-onnx`), Edge (`edge-tts`).
+  `ffmpeg`/`ffprobe` and `node`/`npx` on PATH.
 - **API keys** live in `.env` at the repo root (copy `.env.example`). Never commit `.env`.
   ELEVENLABS_API_KEY = voice/SFX/music · FAL_KEY = AI clips + images · GEMINI_API_KEY = images.
-  Voice has a keyless fallback: `gen_voice.py --engine edge` (free Edge Neural TTS, still
-  word-exact) — needs `pip install edge-tts`.
-- **Registry is generated:** after adding/renaming a shot, `cd remotion && npm run gen`
-  (frames.mjs/render-all.mjs do NOT run it themselves).
+  AZURE_SPEECH_KEY + AZURE_SPEECH_REGION = Azure Speech FREE tier (real child voices for the kids
+  channel: en-US-AnaNeural etc.; a cast entry `"engine": "azure"` uses it per speaker).
+  Voice has two keyless engines: **`--engine kokoro`** (FREE + LOCAL Kokoro-82M, the best
+  open TTS of its size, 54 voices incl. blends, no network at synthesis — one-time setup
+  `pip install kokoro-onnx && python tools/setup_kokoro.py`, which pulls the weights from npm,
+  not Hugging Face) and `--engine edge` (free Edge Neural TTS, online, word-exact — needs
+  `pip install edge-tts` and a network that allows WebSockets).
+- **Registry is generated:** frames.mjs, render-all.mjs and build_short.py refresh it
+  themselves (writing only on change, so the bundle cache survives); `npm run gen` for Studio,
+  `npm run gen:check` to verify the committed registry, `npm run typecheck` for `tsc`.
 - **Media rules:** `media/library/` is for CROSS-VIDEO reusable assets only (each with a
   catalog). Anything generated FOR ONE video (story frames, AI clips, collage layers) goes in
   `media/projects/<proj>/`, referenced as `staticFile('projects/<proj>/x')`. Reuse before you

@@ -8,6 +8,422 @@
   "transparent": false
  },
  {
+  "id": "Bro01Business",
+  "durationInSeconds": 39.4,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Bro025am",
+  "durationInSeconds": 39.8,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Bro03Gym",
+  "durationInSeconds": 34.4,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Bro04Cook",
+  "durationInSeconds": 38,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Bro05Crypto",
+  "durationInSeconds": 34.7,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Bro06Wifi",
+  "durationInSeconds": 36.7,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Bro07Diet",
+  "durationInSeconds": 35.8,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Bro08Gps",
+  "durationInSeconds": 38.2,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Bro09Dj",
+  "durationInSeconds": 34.7,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Bro10Pigeon",
+  "durationInSeconds": 29.8,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Bro11Coach",
+  "durationInSeconds": 36.6,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Bro12Receipt",
+  "durationInSeconds": 34.8,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsAnimals004",
+  "durationInSeconds": 299.9,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsAnimals011",
+  "durationInSeconds": 253.6,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsAnimals018",
+  "durationInSeconds": 215.9,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsAnimals025",
+  "durationInSeconds": 309.3,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsAnimals032",
+  "durationInSeconds": 307.3,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsHeroesSheet",
+  "durationInSeconds": 2,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsMorals008",
+  "durationInSeconds": 177.3,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsMorals022",
+  "durationInSeconds": 156.9,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsNumbers002",
+  "durationInSeconds": 47.2,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsNumbers009",
+  "durationInSeconds": 77.4,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsNumbers016",
+  "durationInSeconds": 63,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsNumbers023",
+  "durationInSeconds": 66.8,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsNumbers030",
+  "durationInSeconds": 85.6,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsPuzzles006",
+  "durationInSeconds": 84.6,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsPuzzles013",
+  "durationInSeconds": 88.1,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsPuzzles020",
+  "durationInSeconds": 90,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsPuzzles027",
+  "durationInSeconds": 98.2,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsScience005",
+  "durationInSeconds": 75.1,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsScience012",
+  "durationInSeconds": 79.8,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsScience019",
+  "durationInSeconds": 75.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsScience026",
+  "durationInSeconds": 112,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsScience033",
+  "durationInSeconds": 110.5,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsChannelBanner",
+  "durationInSeconds": 1,
+  "fps": 30,
+  "width": 2560,
+  "height": 1440,
+  "transparent": false
+ },
+ {
+  "id": "KidsChannelLogo",
+  "durationInSeconds": 1,
+  "fps": 30,
+  "width": 800,
+  "height": 800,
+  "transparent": false
+ },
+ {
+  "id": "KidsKitDemo",
+  "durationInSeconds": 12,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsModelSheet",
+  "durationInSeconds": 2,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsStyleBoard",
+  "durationInSeconds": 2,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsSongs007",
+  "durationInSeconds": 165.2,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsSongs014",
+  "durationInSeconds": 136.4,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsSongs021",
+  "durationInSeconds": 184.4,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsSongs028",
+  "durationInSeconds": 308.4,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsStories001",
+  "durationInSeconds": 42,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsStories015",
+  "durationInSeconds": 171.4,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsStories029",
+  "durationInSeconds": 303.5,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsWords003",
+  "durationInSeconds": 118.7,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsWords010",
+  "durationInSeconds": 359,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsWords017",
+  "durationInSeconds": 351.2,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsWords024",
+  "durationInSeconds": 113,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "KidsWords031",
+  "durationInSeconds": 131.7,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "Short1Chess",
+  "durationInSeconds": 42,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "Short10Fees",
   "durationInSeconds": 42,
   "fps": 30,
@@ -88,7 +504,7 @@
   "transparent": false
  },
  {
-  "id": "Short1Chess",
+  "id": "Short2Math",
   "durationInSeconds": 42,
   "fps": 30,
   "width": 1080,
@@ -176,7 +592,7 @@
   "transparent": false
  },
  {
-  "id": "Short2Math",
+  "id": "Short3Algo",
   "durationInSeconds": 42,
   "fps": 30,
   "width": 1080,
@@ -264,8 +680,8 @@
   "transparent": false
  },
  {
-  "id": "Short3Algo",
-  "durationInSeconds": 42,
+  "id": "Short4Reflog",
+  "durationInSeconds": 34,
   "fps": 30,
   "width": 1080,
   "height": 1920,
@@ -352,8 +768,8 @@
   "transparent": false
  },
  {
-  "id": "Short4Reflog",
-  "durationInSeconds": 34,
+  "id": "Short5Monty",
+  "durationInSeconds": 43,
   "fps": 30,
   "width": 1080,
   "height": 1920,
@@ -416,14 +832,6 @@
   "transparent": false
  },
  {
-  "id": "Short5Monty",
-  "durationInSeconds": 43,
-  "fps": 30,
-  "width": 1080,
-  "height": 1920,
-  "transparent": false
- },
- {
   "id": "Short6Sheet",
   "durationInSeconds": 38,
   "fps": 30,
@@ -450,6 +858,30 @@
  {
   "id": "Short9Chords",
   "durationInSeconds": 42,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
+  "id": "BroChannelBanner",
+  "durationInSeconds": 1,
+  "fps": 30,
+  "width": 2560,
+  "height": 1440,
+  "transparent": false
+ },
+ {
+  "id": "BroChannelLogo",
+  "durationInSeconds": 1,
+  "fps": 30,
+  "width": 800,
+  "height": 800,
+  "transparent": false
+ },
+ {
+  "id": "BroModelSheet",
+  "durationInSeconds": 2,
   "fps": 30,
   "width": 1080,
   "height": 1920,

@@ -1,0 +1,600 @@
+{
+  "id": "ep-03-gym",
+  "series": "bro",
+  "episode": 3,
+  "title": "Bro tried to impress her at the gym",
+  "composition": "Bro03Gym",
+  "audience": "anyone who has ever tried to look strong in front of someone at the gym",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 34.4
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "bro": {
+      "elevenlabs": "TX3LPaxmHKxFdv7VOQHJ",
+      "edge": "en-US-ChristopherNeural",
+      "rate": "+6%",
+      "kokoro": "am_puck"
+    },
+    "dee": {
+      "elevenlabs": "ErXwobaYiN019PkySvjV",
+      "edge": "en-US-EricNeural",
+      "rate": "+4%",
+      "kokoro": "am_michael"
+    },
+    "jess": {
+      "kokoro": "af_heart",
+      "edge": "en-US-AriaNeural",
+      "rate": "+0%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "bro",
+      "start": 0.15,
+      "end": 1.41,
+      "text": "She keeps looking at me.",
+      "words": [
+        {
+          "w": "She",
+          "start": 0.19,
+          "end": 0.346
+        },
+        {
+          "w": "keeps",
+          "start": 0.346,
+          "end": 0.657
+        },
+        {
+          "w": "looking",
+          "start": 0.657,
+          "end": 0.969
+        },
+        {
+          "w": "at",
+          "start": 0.969,
+          "end": 1.072
+        },
+        {
+          "w": "me.",
+          "start": 1.072,
+          "end": 1.28
+        }
+      ]
+    },
+    {
+      "beat": "hook",
+      "speaker": "dee",
+      "start": 1.61,
+      "end": 3.65,
+      "text": "She's looking at the clock behind you.",
+      "words": [
+        {
+          "w": "She's",
+          "start": 1.66,
+          "end": 1.896
+        },
+        {
+          "w": "looking",
+          "start": 1.896,
+          "end": 2.25
+        },
+        {
+          "w": "at",
+          "start": 2.25,
+          "end": 2.368
+        },
+        {
+          "w": "the",
+          "start": 2.368,
+          "end": 2.486
+        },
+        {
+          "w": "clock",
+          "start": 2.486,
+          "end": 2.841
+        },
+        {
+          "w": "behind",
+          "start": 2.841,
+          "end": 3.313
+        },
+        {
+          "w": "you.",
+          "start": 3.313,
+          "end": 3.49
+        }
+      ]
+    },
+    {
+      "beat": "hook",
+      "speaker": "bro",
+      "start": 3.95,
+      "end": 5.8,
+      "text": "Exactly. She's counting the seconds.",
+      "words": [
+        {
+          "w": "Exactly.",
+          "start": 3.97,
+          "end": 4.452
+        },
+        {
+          "w": "She's",
+          "start": 4.452,
+          "end": 4.666
+        },
+        {
+          "w": "counting",
+          "start": 4.666,
+          "end": 5.095
+        },
+        {
+          "w": "the",
+          "start": 5.095,
+          "end": 5.202
+        },
+        {
+          "w": "seconds.",
+          "start": 5.202,
+          "end": 5.63
+        }
+      ]
+    },
+    {
+      "beat": "catch",
+      "speaker": "bro",
+      "start": 6.2,
+      "end": 7.45,
+      "text": "Trust me. I got this.",
+      "words": [
+        {
+          "w": "Trust",
+          "start": 6.25,
+          "end": 6.539
+        },
+        {
+          "w": "me.",
+          "start": 6.539,
+          "end": 6.732
+        },
+        {
+          "w": "I",
+          "start": 6.732,
+          "end": 6.876
+        },
+        {
+          "w": "got",
+          "start": 6.876,
+          "end": 7.117
+        },
+        {
+          "w": "this.",
+          "start": 7.117,
+          "end": 7.31
+        }
+      ]
+    },
+    {
+      "beat": "plan",
+      "speaker": "bro",
+      "start": 7.65,
+      "end": 9.04,
+      "text": "Watch me lift two hundred.",
+      "words": [
+        {
+          "w": "Watch",
+          "start": 7.69,
+          "end": 7.968
+        },
+        {
+          "w": "me",
+          "start": 7.968,
+          "end": 8.153
+        },
+        {
+          "w": "lift",
+          "start": 8.153,
+          "end": 8.384
+        },
+        {
+          "w": "two",
+          "start": 8.384,
+          "end": 8.57
+        },
+        {
+          "w": "hundred.",
+          "start": 8.57,
+          "end": 8.94
+        }
+      ]
+    },
+    {
+      "beat": "strain",
+      "speaker": "bro",
+      "start": 11.34,
+      "end": 12.37,
+      "text": "...I'm warming it up.",
+      "words": [
+        {
+          "w": "...I'm",
+          "start": 11.37,
+          "end": 11.539
+        },
+        {
+          "w": "warming",
+          "start": 11.539,
+          "end": 11.989
+        },
+        {
+          "w": "it",
+          "start": 11.989,
+          "end": 12.101
+        },
+        {
+          "w": "up.",
+          "start": 12.101,
+          "end": 12.27
+        }
+      ]
+    },
+    {
+      "beat": "jess",
+      "speaker": "jess",
+      "start": 13.57,
+      "end": 14.76,
+      "text": "Are you done with this?",
+      "words": [
+        {
+          "w": "Are",
+          "start": 13.66,
+          "end": 13.836
+        },
+        {
+          "w": "you",
+          "start": 13.836,
+          "end": 14.013
+        },
+        {
+          "w": "done",
+          "start": 14.013,
+          "end": 14.248
+        },
+        {
+          "w": "with",
+          "start": 14.248,
+          "end": 14.425
+        },
+        {
+          "w": "this?",
+          "start": 14.425,
+          "end": 14.66
+        }
+      ]
+    },
+    {
+      "beat": "flex",
+      "speaker": "bro",
+      "start": 15.06,
+      "end": 16.81,
+      "text": "Just finished. Two hundred, easy.",
+      "words": [
+        {
+          "w": "Just",
+          "start": 15.11,
+          "end": 15.406
+        },
+        {
+          "w": "finished.",
+          "start": 15.406,
+          "end": 15.751
+        },
+        {
+          "w": "Two",
+          "start": 15.751,
+          "end": 15.949
+        },
+        {
+          "w": "hundred,",
+          "start": 15.949,
+          "end": 16.343
+        },
+        {
+          "w": "easy.",
+          "start": 16.343,
+          "end": 16.59
+        }
+      ]
+    },
+    {
+      "beat": "burn",
+      "speaker": "jess",
+      "start": 18.01,
+      "end": 19.01,
+      "text": "...It's twenty.",
+      "words": [
+        {
+          "w": "...It's",
+          "start": 18.04,
+          "end": 18.277
+        },
+        {
+          "w": "twenty.",
+          "start": 18.277,
+          "end": 18.83
+        }
+      ]
+    },
+    {
+      "beat": "stare",
+      "speaker": "bro",
+      "start": 20.61,
+      "end": 21.56,
+      "text": "...I let her win.",
+      "words": [
+        {
+          "w": "...I",
+          "start": 20.64,
+          "end": 20.814
+        },
+        {
+          "w": "let",
+          "start": 20.814,
+          "end": 21.045
+        },
+        {
+          "w": "her",
+          "start": 21.045,
+          "end": 21.219
+        },
+        {
+          "w": "win.",
+          "start": 21.219,
+          "end": 21.45
+        }
+      ]
+    },
+    {
+      "beat": "math",
+      "speaker": "dee",
+      "start": 22.06,
+      "end": 23.64,
+      "text": "You didn't even lift it.",
+      "words": [
+        {
+          "w": "You",
+          "start": 22.16,
+          "end": 22.324
+        },
+        {
+          "w": "didn't",
+          "start": 22.324,
+          "end": 22.651
+        },
+        {
+          "w": "even",
+          "start": 22.651,
+          "end": 22.978
+        },
+        {
+          "w": "lift",
+          "start": 22.978,
+          "end": 23.251
+        },
+        {
+          "w": "it.",
+          "start": 23.251,
+          "end": 23.36
+        }
+      ]
+    },
+    {
+      "beat": "math",
+      "speaker": "bro",
+      "start": 23.94,
+      "end": 25.45,
+      "text": "I warmed it up. She lifted it.",
+      "words": [
+        {
+          "w": "I",
+          "start": 23.96,
+          "end": 24.111
+        },
+        {
+          "w": "warmed",
+          "start": 24.111,
+          "end": 24.464
+        },
+        {
+          "w": "it",
+          "start": 24.464,
+          "end": 24.564
+        },
+        {
+          "w": "up.",
+          "start": 24.564,
+          "end": 24.716
+        },
+        {
+          "w": "She",
+          "start": 24.716,
+          "end": 24.867
+        },
+        {
+          "w": "lifted",
+          "start": 24.867,
+          "end": 25.219
+        },
+        {
+          "w": "it.",
+          "start": 25.219,
+          "end": 25.32
+        }
+      ]
+    },
+    {
+      "beat": "math",
+      "speaker": "bro",
+      "start": 25.85,
+      "end": 27.92,
+      "text": "So technically... we lifted it together.",
+      "words": [
+        {
+          "w": "So",
+          "start": 25.88,
+          "end": 26.104
+        },
+        {
+          "w": "technically...",
+          "start": 26.104,
+          "end": 26.607
+        },
+        {
+          "w": "we",
+          "start": 26.607,
+          "end": 26.775
+        },
+        {
+          "w": "lifted",
+          "start": 26.775,
+          "end": 27.167
+        },
+        {
+          "w": "it",
+          "start": 27.167,
+          "end": 27.278
+        },
+        {
+          "w": "together.",
+          "start": 27.278,
+          "end": 27.67
+        }
+      ]
+    },
+    {
+      "beat": "math",
+      "speaker": "dee",
+      "start": 28.22,
+      "end": 29.22,
+      "text": "That's not—",
+      "words": [
+        {
+          "w": "That's",
+          "start": 28.267,
+          "end": 28.613
+        },
+        {
+          "w": "not—",
+          "start": 28.613,
+          "end": 28.959
+        }
+      ]
+    },
+    {
+      "beat": "math",
+      "speaker": "bro",
+      "start": 29.27,
+      "end": 30.83,
+      "text": "That's basically our first date.",
+      "words": [
+        {
+          "w": "That's",
+          "start": 29.3,
+          "end": 29.533
+        },
+        {
+          "w": "basically",
+          "start": 29.533,
+          "end": 29.952
+        },
+        {
+          "w": "our",
+          "start": 29.952,
+          "end": 30.138
+        },
+        {
+          "w": "first",
+          "start": 30.138,
+          "end": 30.417
+        },
+        {
+          "w": "date.",
+          "start": 30.417,
+          "end": 30.65
+        }
+      ]
+    },
+    {
+      "beat": "signature",
+      "speaker": "bro",
+      "start": 31.93,
+      "end": 32.75,
+      "text": "I got this.",
+      "words": [
+        {
+          "w": "I",
+          "start": 31.96,
+          "end": 32.13
+        },
+        {
+          "w": "got",
+          "start": 32.13,
+          "end": 32.413
+        },
+        {
+          "w": "this.",
+          "start": 32.413,
+          "end": 32.64
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 6.1,
+      "visual": "Gym. Bro close-up, smug, eyeing Jess off-right; the big WALL CLOCK is right behind his shoulder. Dee: 'She's looking at the clock behind you.' Bro: 'Exactly. She's counting the seconds.'"
+    },
+    {
+      "id": "setup",
+      "start": 6.1,
+      "end": 9.24,
+      "visual": "Punch-in + shake 'Trust me. I got this.' Cut: Bro gripping the bar on the squat rack (plates read 10 / 10): 'Watch me lift two hundred.'"
+    },
+    {
+      "id": "strain",
+      "start": 9.24,
+      "end": 12.42,
+      "visual": "He strains: shaking, squashing, sweat, the bar does not move. Close-up: '...I'm warming it up.'"
+    },
+    {
+      "id": "escalate",
+      "start": 12.42,
+      "end": 20.16,
+      "visual": "Jess walks in: 'Are you done with this?' Bro lets go, FLEXES with god rays: 'Just finished. Two hundred, easy.' Jess lifts the bar overhead ONE-HANDED: '...It's twenty.' and walks off with it."
+    },
+    {
+      "id": "stare",
+      "start": 20.16,
+      "end": 21.96,
+      "visual": "THE STARE: '...I let her win.'"
+    },
+    {
+      "id": "math",
+      "start": 21.96,
+      "end": 31.43,
+      "visual": "Dee: 'You didn't even lift it.' BRO MATH: I WARMED IT UP + SHE LIFTED IT = WE LIFTED IT. Dee interrupted. 'That's basically our first date.' (FIRST DATE in pink)"
+    },
+    {
+      "id": "signature",
+      "start": 31.43,
+      "end": 34.4,
+      "visual": "Series signature: grey-out, letterbox, THE STARE, 'I got this.' + stamp"
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

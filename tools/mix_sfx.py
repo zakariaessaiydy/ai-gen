@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-mix_sfx.py — audition mixer for the SFX pass (step 4 of the AI Video Editor).
+mix_sfx.py — audition mixer for the SFX pass (build_short.py runs it after the render).
 
 Reads a per-video sfx-plan.json (the audited source of truth: one event per cue, times
 on the MASTER timeline) + the shared library catalog + a composited preview, and renders
@@ -8,11 +8,11 @@ an SFX-mixed preview: each clip is delayed to its cue time, gained per the plan,
 into an SFX bus, optionally ducked under the voice (sidechain), and mixed over the master
 audio. Video is copied through untouched.
 
-This is the AUDITION mixer — get the cues right with the user here. Final polished
-mix / ducking / loudness normalization is /assemble's job later.
+This is the AUDITION mixer — get the cues right with the user here. The music bed is
+mixed on top afterwards by mix_music.py (build_short.py runs both).
 
 Usage:
-  python tools/mix_sfx.py [video-1/work/sfx-plan.json]
+  python tools/mix_sfx.py shorts/short-N-x/sfx-plan.json
   python tools/mix_sfx.py plan.json --print         # show the resolved cue sheet, no render
   python tools/mix_sfx.py plan.json --no-optional    # drop events marked "optional": true
   python tools/mix_sfx.py plan.json --no-duck --end 60 --out path.mp4
@@ -36,13 +36,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def rp(p):
-    """Engine/LIBRARY paths (catalog, clips) resolve relative to ROOT (=core/)."""
+    """Engine/LIBRARY paths (catalog, clips) resolve relative to the repo root."""
     return p if os.path.isabs(p) else os.path.join(ROOT, p)
 
 
 def proj(p):
-    """PROJECT-data paths (plan, preview, output) resolve relative to CWD — the type workspace
-    you run from (longs/), where video-N lives — NOT ROOT (=core/, the shared engine)."""
+    """PROJECT-data paths (plan, preview, output) resolve relative to the CWD (run from the
+    repo root, per CLAUDE.md)."""
     return p if os.path.isabs(p) else os.path.abspath(p)
 
 
@@ -77,9 +77,12 @@ def main():
         out_override = args[args.index("--out") + 1]
     if "--preview" in args:  # mix over a different composited video than the plan names
         preview_override = args[args.index("--preview") + 1]
-    positional = [a for a in args if not a.startswith("--")
-                  and a not in {str(end_override), out_override, preview_override}]
-    plan_path = proj(positional[0]) if positional else proj(os.path.join("video-1", "work", "sfx-plan.json"))
+    valued = {"--end", "--out", "--preview"}  # flags whose next token is their value
+    positional = [a for i, a in enumerate(args)
+                  if not a.startswith("--") and not (i and args[i - 1] in valued)]
+    if not positional:
+        sys.exit(__doc__)
+    plan_path = proj(positional[0])
 
     with open(plan_path, encoding="utf-8") as f:
         plan = json.load(f)
@@ -89,8 +92,10 @@ def main():
         catalog = json.load(f)
     lib = {c["id"]: c for c in catalog.get("clips", [])}
 
-    preview = proj(preview_override or render.get("preview", "video-1/output/video-1-preview.mp4"))
-    out = proj(out_override or render.get("out", "video-1/output/video-1-first60-sfx.mp4"))
+    if not (preview_override or render.get("preview")) or not (out_override or render.get("out")):
+        sys.exit(f"{show(plan_path)}: render.preview and render.out are required (or pass --preview/--out)")
+    preview = proj(preview_override or render["preview"])
+    out = proj(out_override or render["out"])
     end = end_override if end_override is not None else float(render.get("end_s", 60))
     duck = duck_override if duck_override is not None else bool(render.get("duck", True))
 

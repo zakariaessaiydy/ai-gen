@@ -1,0 +1,2557 @@
+{
+  "id": "day-017",
+  "series": "tiny-sparks",
+  "episode": 17,
+  "title": "Numbers 1–20 in English and French",
+  "composition": "KidsWords017",
+  "audience": "ages 2-6 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 351.2
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "narrator_fr": {
+      "kokoro": "ff_siwis",
+      "lang": "fr",
+      "rate": "-6%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "intro",
+      "speaker": "mila",
+      "start": 1.6,
+      "end": 5.16,
+      "text": "Hi friends! Let's count to twenty, in English, and in French!",
+      "words": [
+        {
+          "w": "Hi",
+          "start": 1.64,
+          "end": 1.89
+        },
+        {
+          "w": "friends!",
+          "start": 1.89,
+          "end": 2.328
+        },
+        {
+          "w": "Let's",
+          "start": 2.328,
+          "end": 2.641
+        },
+        {
+          "w": "count",
+          "start": 2.641,
+          "end": 3.016
+        },
+        {
+          "w": "to",
+          "start": 3.016,
+          "end": 3.204
+        },
+        {
+          "w": "twenty,",
+          "start": 3.204,
+          "end": 3.641
+        },
+        {
+          "w": "in",
+          "start": 3.641,
+          "end": 3.829
+        },
+        {
+          "w": "English,",
+          "start": 3.829,
+          "end": 4.267
+        },
+        {
+          "w": "and",
+          "start": 4.267,
+          "end": 4.455
+        },
+        {
+          "w": "in",
+          "start": 4.455,
+          "end": 4.642
+        },
+        {
+          "w": "French!",
+          "start": 4.642,
+          "end": 5.08
+        }
+      ]
+    },
+    {
+      "beat": "intro",
+      "speaker": "bobo",
+      "start": 5.96,
+      "end": 6.91,
+      "text": "Numbers! Yay!",
+      "words": [
+        {
+          "w": "Numbers!",
+          "start": 6.0,
+          "end": 6.503
+        },
+        {
+          "w": "Yay!",
+          "start": 6.503,
+          "end": 6.79
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "mila",
+      "start": 8.91,
+      "end": 9.7,
+      "text": "One.",
+      "words": [
+        {
+          "w": "One.",
+          "start": 8.98,
+          "end": 9.53
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "mila",
+      "start": 10.7,
+      "end": 11.51,
+      "text": "One!",
+      "words": [
+        {
+          "w": "One!",
+          "start": 10.78,
+          "end": 11.37
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "narrator_fr",
+      "start": 13.51,
+      "end": 14.04,
+      "text": "Un.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Un.",
+          "start": 13.54,
+          "end": 13.97
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "narrator_fr",
+      "start": 15.04,
+      "end": 15.57,
+      "text": "Un !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Un",
+          "start": 15.08,
+          "end": 15.48
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "mila",
+      "start": 16.87,
+      "end": 18.28,
+      "text": "One red apple!",
+      "words": [
+        {
+          "w": "One",
+          "start": 16.93,
+          "end": 17.305
+        },
+        {
+          "w": "red",
+          "start": 17.305,
+          "end": 17.681
+        },
+        {
+          "w": "apple!",
+          "start": 17.681,
+          "end": 18.15
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 20.88,
+      "end": 21.69,
+      "text": "Two.",
+      "words": [
+        {
+          "w": "Two.",
+          "start": 20.93,
+          "end": 21.54
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 22.69,
+      "end": 23.5,
+      "text": "Two!",
+      "words": [
+        {
+          "w": "Two!",
+          "start": 22.74,
+          "end": 23.35
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "narrator_fr",
+      "start": 25.5,
+      "end": 26.07,
+      "text": "Deux.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Deux.",
+          "start": 25.53,
+          "end": 25.97
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "narrator_fr",
+      "start": 27.07,
+      "end": 27.67,
+      "text": "Deux !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Deux",
+          "start": 27.1,
+          "end": 27.54
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "bobo",
+      "start": 28.97,
+      "end": 29.84,
+      "text": "Two balloons!",
+      "words": [
+        {
+          "w": "Two",
+          "start": 29.01,
+          "end": 29.247
+        },
+        {
+          "w": "balloons!",
+          "start": 29.247,
+          "end": 29.72
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 32.44,
+      "end": 33.33,
+      "text": "Three.",
+      "words": [
+        {
+          "w": "Three.",
+          "start": 32.52,
+          "end": 33.17
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 34.33,
+      "end": 35.2,
+      "text": "Three!",
+      "words": [
+        {
+          "w": "Three!",
+          "start": 34.4,
+          "end": 35.04
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "narrator_fr",
+      "start": 37.2,
+      "end": 37.79,
+      "text": "Trois.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Trois.",
+          "start": 37.23,
+          "end": 37.68
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "narrator_fr",
+      "start": 38.79,
+      "end": 39.45,
+      "text": "Trois !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Trois",
+          "start": 38.82,
+          "end": 39.35
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 40.75,
+      "end": 42.04,
+      "text": "Three stars!",
+      "words": [
+        {
+          "w": "Three",
+          "start": 40.88,
+          "end": 41.301
+        },
+        {
+          "w": "stars!",
+          "start": 41.301,
+          "end": 41.89
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 44.64,
+      "end": 45.56,
+      "text": "Four.",
+      "words": [
+        {
+          "w": "Four.",
+          "start": 44.73,
+          "end": 45.38
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 46.56,
+      "end": 47.48,
+      "text": "Four!",
+      "words": [
+        {
+          "w": "Four!",
+          "start": 46.65,
+          "end": 47.3
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "narrator_fr",
+      "start": 49.48,
+      "end": 50.24,
+      "text": "Quatre.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Quatre.",
+          "start": 49.52,
+          "end": 50.16
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "narrator_fr",
+      "start": 51.24,
+      "end": 52.05,
+      "text": "Quatre !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Quatre",
+          "start": 51.28,
+          "end": 51.97
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "bobo",
+      "start": 53.35,
+      "end": 54.25,
+      "text": "Four apples!",
+      "words": [
+        {
+          "w": "Four",
+          "start": 53.41,
+          "end": 53.746
+        },
+        {
+          "w": "apples!",
+          "start": 53.746,
+          "end": 54.15
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 56.85,
+      "end": 57.74,
+      "text": "Five.",
+      "words": [
+        {
+          "w": "Five.",
+          "start": 56.93,
+          "end": 57.62
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 58.74,
+      "end": 59.66,
+      "text": "Five!",
+      "words": [
+        {
+          "w": "Five!",
+          "start": 58.82,
+          "end": 59.51
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "narrator_fr",
+      "start": 61.66,
+      "end": 62.41,
+      "text": "Cinq.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Cinq.",
+          "start": 61.69,
+          "end": 62.3
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "narrator_fr",
+      "start": 63.41,
+      "end": 64.07,
+      "text": "Cinq !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Cinq",
+          "start": 63.44,
+          "end": 63.98
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 65.37,
+      "end": 66.73,
+      "text": "Five balloons!",
+      "words": [
+        {
+          "w": "Five",
+          "start": 65.47,
+          "end": 65.905
+        },
+        {
+          "w": "balloons!",
+          "start": 65.905,
+          "end": 66.6
+        }
+      ]
+    },
+    {
+      "beat": "q4",
+      "speaker": "mila",
+      "start": 69.33,
+      "end": 70.99,
+      "text": "Quiz time! Where is three?",
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 69.37,
+          "end": 69.732
+        },
+        {
+          "w": "time!",
+          "start": 69.732,
+          "end": 70.094
+        },
+        {
+          "w": "Where",
+          "start": 70.094,
+          "end": 70.383
+        },
+        {
+          "w": "is",
+          "start": 70.383,
+          "end": 70.528
+        },
+        {
+          "w": "three?",
+          "start": 70.528,
+          "end": 70.89
+        }
+      ]
+    },
+    {
+      "beat": "q4",
+      "speaker": "mila",
+      "start": 75.99,
+      "end": 77.44,
+      "text": "Yes! This is three!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 76.03,
+          "end": 76.377
+        },
+        {
+          "w": "This",
+          "start": 76.377,
+          "end": 76.723
+        },
+        {
+          "w": "is",
+          "start": 76.723,
+          "end": 76.897
+        },
+        {
+          "w": "three!",
+          "start": 76.897,
+          "end": 77.33
+        }
+      ]
+    },
+    {
+      "beat": "q4",
+      "speaker": "narrator_fr",
+      "start": 78.44,
+      "end": 79.1,
+      "text": "Trois !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Trois",
+          "start": 78.47,
+          "end": 79.0
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 81.7,
+      "end": 82.46,
+      "text": "Six.",
+      "words": [
+        {
+          "w": "Six.",
+          "start": 81.78,
+          "end": 82.37
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 83.46,
+      "end": 84.25,
+      "text": "Six!",
+      "words": [
+        {
+          "w": "Six!",
+          "start": 83.54,
+          "end": 84.14
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "narrator_fr",
+      "start": 86.25,
+      "end": 86.99,
+      "text": "Six.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Six.",
+          "start": 86.28,
+          "end": 86.89
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "narrator_fr",
+      "start": 87.99,
+      "end": 88.69,
+      "text": "Six !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Six",
+          "start": 88.02,
+          "end": 88.62
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "bobo",
+      "start": 89.99,
+      "end": 90.93,
+      "text": "Six stars!",
+      "words": [
+        {
+          "w": "Six",
+          "start": 90.03,
+          "end": 90.363
+        },
+        {
+          "w": "stars!",
+          "start": 90.363,
+          "end": 90.83
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "mila",
+      "start": 93.53,
+      "end": 94.36,
+      "text": "Seven.",
+      "words": [
+        {
+          "w": "Seven.",
+          "start": 93.56,
+          "end": 94.2
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "mila",
+      "start": 95.36,
+      "end": 96.21,
+      "text": "Seven!",
+      "words": [
+        {
+          "w": "Seven!",
+          "start": 95.41,
+          "end": 96.07
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "narrator_fr",
+      "start": 98.21,
+      "end": 98.86,
+      "text": "Sept.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Sept.",
+          "start": 98.24,
+          "end": 98.8
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "narrator_fr",
+      "start": 99.86,
+      "end": 100.44,
+      "text": "Sept !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Sept",
+          "start": 99.89,
+          "end": 100.4
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "mila",
+      "start": 101.74,
+      "end": 102.97,
+      "text": "Seven apples!",
+      "words": [
+        {
+          "w": "Seven",
+          "start": 101.78,
+          "end": 102.325
+        },
+        {
+          "w": "apples!",
+          "start": 102.325,
+          "end": 102.87
+        }
+      ]
+    },
+    {
+      "beat": "c7",
+      "speaker": "mila",
+      "start": 105.57,
+      "end": 106.42,
+      "text": "Eight.",
+      "words": [
+        {
+          "w": "Eight.",
+          "start": 105.64,
+          "end": 106.28
+        }
+      ]
+    },
+    {
+      "beat": "c7",
+      "speaker": "mila",
+      "start": 107.42,
+      "end": 108.22,
+      "text": "Eight!",
+      "words": [
+        {
+          "w": "Eight!",
+          "start": 107.49,
+          "end": 108.12
+        }
+      ]
+    },
+    {
+      "beat": "c7",
+      "speaker": "narrator_fr",
+      "start": 110.22,
+      "end": 110.92,
+      "text": "Huit.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Huit.",
+          "start": 110.25,
+          "end": 110.82
+        }
+      ]
+    },
+    {
+      "beat": "c7",
+      "speaker": "narrator_fr",
+      "start": 111.92,
+      "end": 112.66,
+      "text": "Huit !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Huit",
+          "start": 111.95,
+          "end": 112.57
+        }
+      ]
+    },
+    {
+      "beat": "c7",
+      "speaker": "bobo",
+      "start": 113.96,
+      "end": 114.84,
+      "text": "Eight balloons!",
+      "words": [
+        {
+          "w": "Eight",
+          "start": 114.0,
+          "end": 114.243
+        },
+        {
+          "w": "balloons!",
+          "start": 114.243,
+          "end": 114.73
+        }
+      ]
+    },
+    {
+      "beat": "c8",
+      "speaker": "mila",
+      "start": 117.44,
+      "end": 118.34,
+      "text": "Nine.",
+      "words": [
+        {
+          "w": "Nine.",
+          "start": 117.52,
+          "end": 118.21
+        }
+      ]
+    },
+    {
+      "beat": "c8",
+      "speaker": "mila",
+      "start": 119.34,
+      "end": 120.23,
+      "text": "Nine!",
+      "words": [
+        {
+          "w": "Nine!",
+          "start": 119.42,
+          "end": 120.13
+        }
+      ]
+    },
+    {
+      "beat": "c8",
+      "speaker": "narrator_fr",
+      "start": 122.23,
+      "end": 122.91,
+      "text": "Neuf.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Neuf.",
+          "start": 122.26,
+          "end": 122.82
+        }
+      ]
+    },
+    {
+      "beat": "c8",
+      "speaker": "narrator_fr",
+      "start": 123.91,
+      "end": 124.57,
+      "text": "Neuf !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Neuf",
+          "start": 123.94,
+          "end": 124.49
+        }
+      ]
+    },
+    {
+      "beat": "c8",
+      "speaker": "mila",
+      "start": 125.87,
+      "end": 127.17,
+      "text": "Nine stars!",
+      "words": [
+        {
+          "w": "Nine",
+          "start": 125.99,
+          "end": 126.419
+        },
+        {
+          "w": "stars!",
+          "start": 126.419,
+          "end": 127.02
+        }
+      ]
+    },
+    {
+      "beat": "c9",
+      "speaker": "mila",
+      "start": 129.77,
+      "end": 130.58,
+      "text": "Ten.",
+      "words": [
+        {
+          "w": "Ten.",
+          "start": 129.82,
+          "end": 130.43
+        }
+      ]
+    },
+    {
+      "beat": "c9",
+      "speaker": "mila",
+      "start": 131.58,
+      "end": 132.39,
+      "text": "Ten!",
+      "words": [
+        {
+          "w": "Ten!",
+          "start": 131.63,
+          "end": 132.26
+        }
+      ]
+    },
+    {
+      "beat": "c9",
+      "speaker": "narrator_fr",
+      "start": 134.39,
+      "end": 135.09,
+      "text": "Dix.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Dix.",
+          "start": 134.42,
+          "end": 135.0
+        }
+      ]
+    },
+    {
+      "beat": "c9",
+      "speaker": "narrator_fr",
+      "start": 136.09,
+      "end": 136.83,
+      "text": "Dix !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Dix",
+          "start": 136.12,
+          "end": 136.75
+        }
+      ]
+    },
+    {
+      "beat": "c9",
+      "speaker": "bobo",
+      "start": 138.13,
+      "end": 139.0,
+      "text": "Ten apples!",
+      "words": [
+        {
+          "w": "Ten",
+          "start": 138.15,
+          "end": 138.454
+        },
+        {
+          "w": "apples!",
+          "start": 138.454,
+          "end": 138.91
+        }
+      ]
+    },
+    {
+      "beat": "q9",
+      "speaker": "mila",
+      "start": 141.6,
+      "end": 143.26,
+      "text": "Quiz time! Where is seven?",
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 141.64,
+          "end": 141.983
+        },
+        {
+          "w": "time!",
+          "start": 141.983,
+          "end": 142.326
+        },
+        {
+          "w": "Where",
+          "start": 142.326,
+          "end": 142.601
+        },
+        {
+          "w": "is",
+          "start": 142.601,
+          "end": 142.738
+        },
+        {
+          "w": "seven?",
+          "start": 142.738,
+          "end": 143.15
+        }
+      ]
+    },
+    {
+      "beat": "q9",
+      "speaker": "mila",
+      "start": 148.26,
+      "end": 149.75,
+      "text": "Yes! This is seven!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 148.31,
+          "end": 148.643
+        },
+        {
+          "w": "This",
+          "start": 148.643,
+          "end": 148.975
+        },
+        {
+          "w": "is",
+          "start": 148.975,
+          "end": 149.141
+        },
+        {
+          "w": "seven!",
+          "start": 149.141,
+          "end": 149.64
+        }
+      ]
+    },
+    {
+      "beat": "q9",
+      "speaker": "narrator_fr",
+      "start": 150.75,
+      "end": 151.33,
+      "text": "Sept !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Sept",
+          "start": 150.78,
+          "end": 151.29
+        }
+      ]
+    },
+    {
+      "beat": "c10",
+      "speaker": "mila",
+      "start": 153.93,
+      "end": 154.93,
+      "text": "Eleven.",
+      "words": [
+        {
+          "w": "Eleven.",
+          "start": 153.98,
+          "end": 154.74
+        }
+      ]
+    },
+    {
+      "beat": "c10",
+      "speaker": "mila",
+      "start": 155.93,
+      "end": 156.91,
+      "text": "Eleven!",
+      "words": [
+        {
+          "w": "Eleven!",
+          "start": 155.98,
+          "end": 156.75
+        }
+      ]
+    },
+    {
+      "beat": "c10",
+      "speaker": "narrator_fr",
+      "start": 158.91,
+      "end": 159.61,
+      "text": "Onze.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Onze.",
+          "start": 158.95,
+          "end": 159.5
+        }
+      ]
+    },
+    {
+      "beat": "c10",
+      "speaker": "narrator_fr",
+      "start": 160.61,
+      "end": 161.39,
+      "text": "Onze !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Onze",
+          "start": 160.65,
+          "end": 161.28
+        }
+      ]
+    },
+    {
+      "beat": "c10",
+      "speaker": "mila",
+      "start": 162.69,
+      "end": 164.03,
+      "text": "Eleven balloons!",
+      "words": [
+        {
+          "w": "Eleven",
+          "start": 162.72,
+          "end": 163.28
+        },
+        {
+          "w": "balloons!",
+          "start": 163.28,
+          "end": 163.92
+        }
+      ]
+    },
+    {
+      "beat": "c11",
+      "speaker": "mila",
+      "start": 166.63,
+      "end": 167.53,
+      "text": "Twelve.",
+      "words": [
+        {
+          "w": "Twelve.",
+          "start": 166.69,
+          "end": 167.39
+        }
+      ]
+    },
+    {
+      "beat": "c11",
+      "speaker": "mila",
+      "start": 168.53,
+      "end": 169.45,
+      "text": "Twelve!",
+      "words": [
+        {
+          "w": "Twelve!",
+          "start": 168.6,
+          "end": 169.29
+        }
+      ]
+    },
+    {
+      "beat": "c11",
+      "speaker": "narrator_fr",
+      "start": 171.45,
+      "end": 172.24,
+      "text": "Douze.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Douze.",
+          "start": 171.48,
+          "end": 172.12
+        }
+      ]
+    },
+    {
+      "beat": "c11",
+      "speaker": "narrator_fr",
+      "start": 173.24,
+      "end": 173.96,
+      "text": "Douze !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Douze",
+          "start": 173.28,
+          "end": 173.86
+        }
+      ]
+    },
+    {
+      "beat": "c11",
+      "speaker": "bobo",
+      "start": 175.26,
+      "end": 176.23,
+      "text": "Twelve stars!",
+      "words": [
+        {
+          "w": "Twelve",
+          "start": 175.3,
+          "end": 175.688
+        },
+        {
+          "w": "stars!",
+          "start": 175.688,
+          "end": 176.14
+        }
+      ]
+    },
+    {
+      "beat": "c12",
+      "speaker": "mila",
+      "start": 178.83,
+      "end": 179.89,
+      "text": "Thirteen.",
+      "words": [
+        {
+          "w": "Thirteen.",
+          "start": 178.89,
+          "end": 179.73
+        }
+      ]
+    },
+    {
+      "beat": "c12",
+      "speaker": "mila",
+      "start": 180.89,
+      "end": 181.93,
+      "text": "Thirteen!",
+      "words": [
+        {
+          "w": "Thirteen!",
+          "start": 180.95,
+          "end": 181.77
+        }
+      ]
+    },
+    {
+      "beat": "c12",
+      "speaker": "narrator_fr",
+      "start": 183.93,
+      "end": 184.69,
+      "text": "Treize.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Treize.",
+          "start": 183.97,
+          "end": 184.59
+        }
+      ]
+    },
+    {
+      "beat": "c12",
+      "speaker": "narrator_fr",
+      "start": 185.69,
+      "end": 186.52,
+      "text": "Treize !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Treize",
+          "start": 185.73,
+          "end": 186.43
+        }
+      ]
+    },
+    {
+      "beat": "c12",
+      "speaker": "mila",
+      "start": 187.82,
+      "end": 189.23,
+      "text": "Thirteen apples!",
+      "words": [
+        {
+          "w": "Thirteen",
+          "start": 187.98,
+          "end": 188.609
+        },
+        {
+          "w": "apples!",
+          "start": 188.609,
+          "end": 189.08
+        }
+      ]
+    },
+    {
+      "beat": "c13",
+      "speaker": "mila",
+      "start": 191.83,
+      "end": 192.91,
+      "text": "Fourteen.",
+      "words": [
+        {
+          "w": "Fourteen.",
+          "start": 191.89,
+          "end": 192.75
+        }
+      ]
+    },
+    {
+      "beat": "c13",
+      "speaker": "mila",
+      "start": 193.91,
+      "end": 194.97,
+      "text": "Fourteen!",
+      "words": [
+        {
+          "w": "Fourteen!",
+          "start": 193.97,
+          "end": 194.83
+        }
+      ]
+    },
+    {
+      "beat": "c13",
+      "speaker": "narrator_fr",
+      "start": 196.97,
+      "end": 197.93,
+      "text": "Quatorze.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Quatorze.",
+          "start": 197.01,
+          "end": 197.82
+        }
+      ]
+    },
+    {
+      "beat": "c13",
+      "speaker": "narrator_fr",
+      "start": 198.93,
+      "end": 199.93,
+      "text": "Quatorze !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Quatorze",
+          "start": 198.97,
+          "end": 199.84
+        }
+      ]
+    },
+    {
+      "beat": "c13",
+      "speaker": "bobo",
+      "start": 201.23,
+      "end": 202.25,
+      "text": "Fourteen balloons!",
+      "words": [
+        {
+          "w": "Fourteen",
+          "start": 201.27,
+          "end": 201.741
+        },
+        {
+          "w": "balloons!",
+          "start": 201.741,
+          "end": 202.16
+        }
+      ]
+    },
+    {
+      "beat": "c14",
+      "speaker": "mila",
+      "start": 204.85,
+      "end": 205.89,
+      "text": "Fifteen.",
+      "words": [
+        {
+          "w": "Fifteen.",
+          "start": 204.93,
+          "end": 205.73
+        }
+      ]
+    },
+    {
+      "beat": "c14",
+      "speaker": "mila",
+      "start": 206.89,
+      "end": 207.93,
+      "text": "Fifteen!",
+      "words": [
+        {
+          "w": "Fifteen!",
+          "start": 206.96,
+          "end": 207.77
+        }
+      ]
+    },
+    {
+      "beat": "c14",
+      "speaker": "narrator_fr",
+      "start": 209.93,
+      "end": 210.69,
+      "text": "Quinze.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Quinze.",
+          "start": 209.97,
+          "end": 210.58
+        }
+      ]
+    },
+    {
+      "beat": "c14",
+      "speaker": "narrator_fr",
+      "start": 211.69,
+      "end": 212.48,
+      "text": "Quinze !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Quinze",
+          "start": 211.73,
+          "end": 212.35
+        }
+      ]
+    },
+    {
+      "beat": "c14",
+      "speaker": "mila",
+      "start": 213.78,
+      "end": 215.23,
+      "text": "Fifteen stars!",
+      "words": [
+        {
+          "w": "Fifteen",
+          "start": 213.91,
+          "end": 214.545
+        },
+        {
+          "w": "stars!",
+          "start": 214.545,
+          "end": 215.1
+        }
+      ]
+    },
+    {
+      "beat": "q14",
+      "speaker": "mila",
+      "start": 217.83,
+      "end": 219.53,
+      "text": "Quiz time! Where is twelve?",
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 217.87,
+          "end": 218.222
+        },
+        {
+          "w": "time!",
+          "start": 218.222,
+          "end": 218.575
+        },
+        {
+          "w": "Where",
+          "start": 218.575,
+          "end": 218.856
+        },
+        {
+          "w": "is",
+          "start": 218.856,
+          "end": 218.997
+        },
+        {
+          "w": "twelve?",
+          "start": 218.997,
+          "end": 219.42
+        }
+      ]
+    },
+    {
+      "beat": "q14",
+      "speaker": "mila",
+      "start": 224.53,
+      "end": 226.08,
+      "text": "Yes! This is twelve!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 224.57,
+          "end": 224.917
+        },
+        {
+          "w": "This",
+          "start": 224.917,
+          "end": 225.265
+        },
+        {
+          "w": "is",
+          "start": 225.265,
+          "end": 225.439
+        },
+        {
+          "w": "twelve!",
+          "start": 225.439,
+          "end": 225.96
+        }
+      ]
+    },
+    {
+      "beat": "q14",
+      "speaker": "narrator_fr",
+      "start": 227.08,
+      "end": 227.8,
+      "text": "Douze !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Douze",
+          "start": 227.12,
+          "end": 227.7
+        }
+      ]
+    },
+    {
+      "beat": "c15",
+      "speaker": "mila",
+      "start": 230.4,
+      "end": 231.49,
+      "text": "Sixteen.",
+      "words": [
+        {
+          "w": "Sixteen.",
+          "start": 230.46,
+          "end": 231.31
+        }
+      ]
+    },
+    {
+      "beat": "c15",
+      "speaker": "mila",
+      "start": 232.49,
+      "end": 233.6,
+      "text": "Sixteen!",
+      "words": [
+        {
+          "w": "Sixteen!",
+          "start": 232.55,
+          "end": 233.44
+        }
+      ]
+    },
+    {
+      "beat": "c15",
+      "speaker": "narrator_fr",
+      "start": 235.6,
+      "end": 236.3,
+      "text": "Seize.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Seize.",
+          "start": 235.63,
+          "end": 236.21
+        }
+      ]
+    },
+    {
+      "beat": "c15",
+      "speaker": "narrator_fr",
+      "start": 237.3,
+      "end": 238.0,
+      "text": "Seize !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Seize",
+          "start": 237.33,
+          "end": 237.91
+        }
+      ]
+    },
+    {
+      "beat": "c15",
+      "speaker": "bobo",
+      "start": 239.3,
+      "end": 240.35,
+      "text": "Sixteen apples!",
+      "words": [
+        {
+          "w": "Sixteen",
+          "start": 239.33,
+          "end": 239.876
+        },
+        {
+          "w": "apples!",
+          "start": 239.876,
+          "end": 240.24
+        }
+      ]
+    },
+    {
+      "beat": "c16",
+      "speaker": "mila",
+      "start": 242.95,
+      "end": 244.07,
+      "text": "Seventeen.",
+      "words": [
+        {
+          "w": "Seventeen.",
+          "start": 243.01,
+          "end": 243.95
+        }
+      ]
+    },
+    {
+      "beat": "c16",
+      "speaker": "mila",
+      "start": 245.07,
+      "end": 246.17,
+      "text": "Seventeen!",
+      "words": [
+        {
+          "w": "Seventeen!",
+          "start": 245.13,
+          "end": 246.05
+        }
+      ]
+    },
+    {
+      "beat": "c16",
+      "speaker": "narrator_fr",
+      "start": 248.17,
+      "end": 249.1,
+      "text": "Dix-sept.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Dix-sept.",
+          "start": 248.21,
+          "end": 249.01
+        }
+      ]
+    },
+    {
+      "beat": "c16",
+      "speaker": "narrator_fr",
+      "start": 250.1,
+      "end": 251.06,
+      "text": "Dix-sept !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Dix-sept",
+          "start": 250.14,
+          "end": 250.97
+        }
+      ]
+    },
+    {
+      "beat": "c16",
+      "speaker": "mila",
+      "start": 252.36,
+      "end": 253.87,
+      "text": "Seventeen balloons!",
+      "words": [
+        {
+          "w": "Seventeen",
+          "start": 252.4,
+          "end": 253.176
+        },
+        {
+          "w": "balloons!",
+          "start": 253.176,
+          "end": 253.74
+        }
+      ]
+    },
+    {
+      "beat": "c17",
+      "speaker": "mila",
+      "start": 256.47,
+      "end": 257.47,
+      "text": "Eighteen.",
+      "words": [
+        {
+          "w": "Eighteen.",
+          "start": 256.53,
+          "end": 257.31
+        }
+      ]
+    },
+    {
+      "beat": "c17",
+      "speaker": "mila",
+      "start": 258.47,
+      "end": 259.45,
+      "text": "Eighteen!",
+      "words": [
+        {
+          "w": "Eighteen!",
+          "start": 258.53,
+          "end": 259.3
+        }
+      ]
+    },
+    {
+      "beat": "c17",
+      "speaker": "narrator_fr",
+      "start": 261.45,
+      "end": 262.4,
+      "text": "Dix-huit.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Dix-huit.",
+          "start": 261.49,
+          "end": 262.3
+        }
+      ]
+    },
+    {
+      "beat": "c17",
+      "speaker": "narrator_fr",
+      "start": 263.4,
+      "end": 264.36,
+      "text": "Dix-huit !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Dix-huit",
+          "start": 263.44,
+          "end": 264.26
+        }
+      ]
+    },
+    {
+      "beat": "c17",
+      "speaker": "bobo",
+      "start": 265.66,
+      "end": 266.71,
+      "text": "Eighteen stars!",
+      "words": [
+        {
+          "w": "Eighteen",
+          "start": 265.7,
+          "end": 266.16
+        },
+        {
+          "w": "stars!",
+          "start": 266.16,
+          "end": 266.62
+        }
+      ]
+    },
+    {
+      "beat": "c18",
+      "speaker": "mila",
+      "start": 269.31,
+      "end": 270.33,
+      "text": "Nineteen.",
+      "words": [
+        {
+          "w": "Nineteen.",
+          "start": 269.37,
+          "end": 270.22
+        }
+      ]
+    },
+    {
+      "beat": "c18",
+      "speaker": "mila",
+      "start": 271.33,
+      "end": 272.37,
+      "text": "Nineteen!",
+      "words": [
+        {
+          "w": "Nineteen!",
+          "start": 271.41,
+          "end": 272.24
+        }
+      ]
+    },
+    {
+      "beat": "c18",
+      "speaker": "narrator_fr",
+      "start": 274.37,
+      "end": 275.33,
+      "text": "Dix-neuf.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Dix-neuf.",
+          "start": 274.41,
+          "end": 275.22
+        }
+      ]
+    },
+    {
+      "beat": "c18",
+      "speaker": "narrator_fr",
+      "start": 276.33,
+      "end": 277.27,
+      "text": "Dix-neuf !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Dix-neuf",
+          "start": 276.36,
+          "end": 277.17
+        }
+      ]
+    },
+    {
+      "beat": "c18",
+      "speaker": "mila",
+      "start": 278.57,
+      "end": 280.0,
+      "text": "Nineteen apples!",
+      "words": [
+        {
+          "w": "Nineteen",
+          "start": 278.61,
+          "end": 279.384
+        },
+        {
+          "w": "apples!",
+          "start": 279.384,
+          "end": 279.9
+        }
+      ]
+    },
+    {
+      "beat": "c19",
+      "speaker": "mila",
+      "start": 282.6,
+      "end": 283.51,
+      "text": "Twenty.",
+      "words": [
+        {
+          "w": "Twenty.",
+          "start": 282.68,
+          "end": 283.37
+        }
+      ]
+    },
+    {
+      "beat": "c19",
+      "speaker": "mila",
+      "start": 284.51,
+      "end": 285.42,
+      "text": "Twenty!",
+      "words": [
+        {
+          "w": "Twenty!",
+          "start": 284.57,
+          "end": 285.28
+        }
+      ]
+    },
+    {
+      "beat": "c19",
+      "speaker": "narrator_fr",
+      "start": 287.42,
+      "end": 288.06,
+      "text": "Vingt.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Vingt.",
+          "start": 287.45,
+          "end": 287.95
+        }
+      ]
+    },
+    {
+      "beat": "c19",
+      "speaker": "narrator_fr",
+      "start": 289.06,
+      "end": 289.7,
+      "text": "Vingt !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Vingt",
+          "start": 289.09,
+          "end": 289.59
+        }
+      ]
+    },
+    {
+      "beat": "c19",
+      "speaker": "bobo",
+      "start": 291.0,
+      "end": 291.98,
+      "text": "Twenty balloons!",
+      "words": [
+        {
+          "w": "Twenty",
+          "start": 291.03,
+          "end": 291.427
+        },
+        {
+          "w": "balloons!",
+          "start": 291.427,
+          "end": 291.88
+        }
+      ]
+    },
+    {
+      "beat": "q19",
+      "speaker": "mila",
+      "start": 294.58,
+      "end": 296.48,
+      "text": "Quiz time! Where is seventeen?",
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 294.62,
+          "end": 294.944
+        },
+        {
+          "w": "time!",
+          "start": 294.944,
+          "end": 295.268
+        },
+        {
+          "w": "Where",
+          "start": 295.268,
+          "end": 295.527
+        },
+        {
+          "w": "is",
+          "start": 295.527,
+          "end": 295.657
+        },
+        {
+          "w": "seventeen?",
+          "start": 295.657,
+          "end": 296.37
+        }
+      ]
+    },
+    {
+      "beat": "q19",
+      "speaker": "mila",
+      "start": 301.48,
+      "end": 303.2,
+      "text": "Yes! This is seventeen!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 301.52,
+          "end": 301.817
+        },
+        {
+          "w": "This",
+          "start": 301.817,
+          "end": 302.114
+        },
+        {
+          "w": "is",
+          "start": 302.114,
+          "end": 302.263
+        },
+        {
+          "w": "seventeen!",
+          "start": 302.263,
+          "end": 303.08
+        }
+      ]
+    },
+    {
+      "beat": "q19",
+      "speaker": "narrator_fr",
+      "start": 304.2,
+      "end": 305.16,
+      "text": "Dix-sept !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Dix-sept",
+          "start": 304.24,
+          "end": 305.07
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 307.76,
+      "end": 309.44,
+      "text": "Let's say them all, together!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 307.79,
+          "end": 308.111
+        },
+        {
+          "w": "say",
+          "start": 308.111,
+          "end": 308.367
+        },
+        {
+          "w": "them",
+          "start": 308.367,
+          "end": 308.624
+        },
+        {
+          "w": "all,",
+          "start": 308.624,
+          "end": 308.881
+        },
+        {
+          "w": "together!",
+          "start": 308.881,
+          "end": 309.33
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 311.04,
+      "end": 312.92,
+      "text": "One, Two, Three, Four, Five!",
+      "words": [
+        {
+          "w": "One,",
+          "start": 311.08,
+          "end": 311.384
+        },
+        {
+          "w": "Two,",
+          "start": 311.384,
+          "end": 311.689
+        },
+        {
+          "w": "Three,",
+          "start": 311.689,
+          "end": 312.069
+        },
+        {
+          "w": "Four,",
+          "start": 312.069,
+          "end": 312.45
+        },
+        {
+          "w": "Five!",
+          "start": 312.45,
+          "end": 312.83
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 314.32,
+      "end": 316.41,
+      "text": "Six, Seven, Eight, Nine, Ten!",
+      "words": [
+        {
+          "w": "Six,",
+          "start": 314.35,
+          "end": 314.746
+        },
+        {
+          "w": "Seven,",
+          "start": 314.746,
+          "end": 315.221
+        },
+        {
+          "w": "Eight,",
+          "start": 315.221,
+          "end": 315.537
+        },
+        {
+          "w": "Nine,",
+          "start": 315.537,
+          "end": 315.933
+        },
+        {
+          "w": "Ten!",
+          "start": 315.933,
+          "end": 316.25
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 317.81,
+      "end": 320.6,
+      "text": "Eleven, Twelve, Thirteen, Fourteen, Fifteen!",
+      "words": [
+        {
+          "w": "Eleven,",
+          "start": 317.84,
+          "end": 318.315
+        },
+        {
+          "w": "Twelve,",
+          "start": 318.315,
+          "end": 318.723
+        },
+        {
+          "w": "Thirteen,",
+          "start": 318.723,
+          "end": 319.266
+        },
+        {
+          "w": "Fourteen,",
+          "start": 319.266,
+          "end": 319.877
+        },
+        {
+          "w": "Fifteen!",
+          "start": 319.877,
+          "end": 320.42
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 322.0,
+      "end": 324.93,
+      "text": "Sixteen, Seventeen, Eighteen, Nineteen, Twenty!",
+      "words": [
+        {
+          "w": "Sixteen,",
+          "start": 322.04,
+          "end": 322.626
+        },
+        {
+          "w": "Seventeen,",
+          "start": 322.626,
+          "end": 323.342
+        },
+        {
+          "w": "Eighteen,",
+          "start": 323.342,
+          "end": 323.798
+        },
+        {
+          "w": "Nineteen,",
+          "start": 323.798,
+          "end": 324.384
+        },
+        {
+          "w": "Twenty!",
+          "start": 324.384,
+          "end": 324.84
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 326.93,
+      "end": 328.36,
+      "text": "Et maintenant, en français !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Et",
+          "start": 326.96,
+          "end": 327.12
+        },
+        {
+          "w": "maintenant,",
+          "start": 327.12,
+          "end": 327.6
+        },
+        {
+          "w": "en",
+          "start": 327.6,
+          "end": 327.76
+        },
+        {
+          "w": "français",
+          "start": 327.76,
+          "end": 328.24
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 329.76,
+      "end": 331.4,
+      "text": "un, deux, trois, quatre, cinq !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "un,",
+          "start": 329.79,
+          "end": 329.949
+        },
+        {
+          "w": "deux,",
+          "start": 329.949,
+          "end": 330.187
+        },
+        {
+          "w": "trois,",
+          "start": 330.187,
+          "end": 330.585
+        },
+        {
+          "w": "quatre,",
+          "start": 330.585,
+          "end": 330.982
+        },
+        {
+          "w": "cinq",
+          "start": 330.982,
+          "end": 331.3
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 332.8,
+      "end": 334.48,
+      "text": "six, sept, huit, neuf, dix !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "six,",
+          "start": 332.83,
+          "end": 333.138
+        },
+        {
+          "w": "sept,",
+          "start": 333.138,
+          "end": 333.446
+        },
+        {
+          "w": "huit,",
+          "start": 333.446,
+          "end": 333.754
+        },
+        {
+          "w": "neuf,",
+          "start": 333.754,
+          "end": 334.062
+        },
+        {
+          "w": "dix",
+          "start": 334.062,
+          "end": 334.37
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 335.88,
+      "end": 338.01,
+      "text": "onze, douze, treize, quatorze, quinze !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "onze,",
+          "start": 335.92,
+          "end": 336.177
+        },
+        {
+          "w": "douze,",
+          "start": 336.177,
+          "end": 336.52
+        },
+        {
+          "w": "treize,",
+          "start": 336.52,
+          "end": 336.948
+        },
+        {
+          "w": "quatorze,",
+          "start": 336.948,
+          "end": 337.547
+        },
+        {
+          "w": "quinze",
+          "start": 337.547,
+          "end": 337.89
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 339.41,
+      "end": 341.62,
+      "text": "seize, dix-sept, dix-huit, dix-neuf, vingt !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "seize,",
+          "start": 339.44,
+          "end": 339.71
+        },
+        {
+          "w": "dix-sept,",
+          "start": 339.71,
+          "end": 340.249
+        },
+        {
+          "w": "dix-huit,",
+          "start": 340.249,
+          "end": 340.788
+        },
+        {
+          "w": "dix-neuf,",
+          "start": 340.788,
+          "end": 341.328
+        },
+        {
+          "w": "vingt",
+          "start": 341.328,
+          "end": 341.53
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "start": 344.02,
+      "end": 346.87,
+      "text": "What's YOUR favorite number? Bye bye, friends!",
+      "words": [
+        {
+          "w": "What's",
+          "start": 344.2,
+          "end": 344.532
+        },
+        {
+          "w": "YOUR",
+          "start": 344.532,
+          "end": 344.731
+        },
+        {
+          "w": "favorite",
+          "start": 344.731,
+          "end": 345.327
+        },
+        {
+          "w": "number?",
+          "start": 345.327,
+          "end": 345.725
+        },
+        {
+          "w": "Bye",
+          "start": 345.725,
+          "end": 345.991
+        },
+        {
+          "w": "bye,",
+          "start": 345.991,
+          "end": 346.256
+        },
+        {
+          "w": "friends!",
+          "start": 346.256,
+          "end": 346.72
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "bobo",
+      "start": 347.47,
+      "end": 348.71,
+      "text": "Bye bye! Au revoir!",
+      "words": [
+        {
+          "w": "Bye",
+          "start": 347.49,
+          "end": 347.717
+        },
+        {
+          "w": "bye!",
+          "start": 347.717,
+          "end": 347.945
+        },
+        {
+          "w": "Au",
+          "start": 347.945,
+          "end": 348.115
+        },
+        {
+          "w": "revoir!",
+          "start": 348.115,
+          "end": 348.57
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "intro",
+      "start": 0,
+      "visual": "Hi friends! Let's count to twenty, in English, and in French! / Numbers! Yay!",
+      "end": 8.71
+    },
+    {
+      "id": "c0",
+      "start": 8.71,
+      "visual": "One. / One! / Un. / Un ! / One red apple!",
+      "end": 20.68
+    },
+    {
+      "id": "c1",
+      "start": 20.68,
+      "visual": "Two. / Two! / Deux. / Deux ! / Two balloons!",
+      "end": 32.24
+    },
+    {
+      "id": "c2",
+      "start": 32.24,
+      "visual": "Three. / Three! / Trois. / Trois ! / Three stars!",
+      "end": 44.44
+    },
+    {
+      "id": "c3",
+      "start": 44.44,
+      "visual": "Four. / Four! / Quatre. / Quatre ! / Four apples!",
+      "end": 56.65
+    },
+    {
+      "id": "c4",
+      "start": 56.65,
+      "visual": "Five. / Five! / Cinq. / Cinq ! / Five balloons!",
+      "end": 69.13
+    },
+    {
+      "id": "q4",
+      "start": 69.13,
+      "visual": "Quiz time! Where is three? / Yes! This is three! / Trois !",
+      "end": 81.5
+    },
+    {
+      "id": "c5",
+      "start": 81.5,
+      "visual": "Six. / Six! / Six. / Six ! / Six stars!",
+      "end": 93.33
+    },
+    {
+      "id": "c6",
+      "start": 93.33,
+      "visual": "Seven. / Seven! / Sept. / Sept ! / Seven apples!",
+      "end": 105.37
+    },
+    {
+      "id": "c7",
+      "start": 105.37,
+      "visual": "Eight. / Eight! / Huit. / Huit ! / Eight balloons!",
+      "end": 117.24
+    },
+    {
+      "id": "c8",
+      "start": 117.24,
+      "visual": "Nine. / Nine! / Neuf. / Neuf ! / Nine stars!",
+      "end": 129.57
+    },
+    {
+      "id": "c9",
+      "start": 129.57,
+      "visual": "Ten. / Ten! / Dix. / Dix ! / Ten apples!",
+      "end": 141.4
+    },
+    {
+      "id": "q9",
+      "start": 141.4,
+      "visual": "Quiz time! Where is seven? / Yes! This is seven! / Sept !",
+      "end": 153.73
+    },
+    {
+      "id": "c10",
+      "start": 153.73,
+      "visual": "Eleven. / Eleven! / Onze. / Onze ! / Eleven balloons!",
+      "end": 166.43
+    },
+    {
+      "id": "c11",
+      "start": 166.43,
+      "visual": "Twelve. / Twelve! / Douze. / Douze ! / Twelve stars!",
+      "end": 178.63
+    },
+    {
+      "id": "c12",
+      "start": 178.63,
+      "visual": "Thirteen. / Thirteen! / Treize. / Treize ! / Thirteen apples!",
+      "end": 191.63
+    },
+    {
+      "id": "c13",
+      "start": 191.63,
+      "visual": "Fourteen. / Fourteen! / Quatorze. / Quatorze ! / Fourteen balloons!",
+      "end": 204.65
+    },
+    {
+      "id": "c14",
+      "start": 204.65,
+      "visual": "Fifteen. / Fifteen! / Quinze. / Quinze ! / Fifteen stars!",
+      "end": 217.63
+    },
+    {
+      "id": "q14",
+      "start": 217.63,
+      "visual": "Quiz time! Where is twelve? / Yes! This is twelve! / Douze !",
+      "end": 230.2
+    },
+    {
+      "id": "c15",
+      "start": 230.2,
+      "visual": "Sixteen. / Sixteen! / Seize. / Seize ! / Sixteen apples!",
+      "end": 242.75
+    },
+    {
+      "id": "c16",
+      "start": 242.75,
+      "visual": "Seventeen. / Seventeen! / Dix-sept. / Dix-sept ! / Seventeen balloons!",
+      "end": 256.27
+    },
+    {
+      "id": "c17",
+      "start": 256.27,
+      "visual": "Eighteen. / Eighteen! / Dix-huit. / Dix-huit ! / Eighteen stars!",
+      "end": 269.11
+    },
+    {
+      "id": "c18",
+      "start": 269.11,
+      "visual": "Nineteen. / Nineteen! / Dix-neuf. / Dix-neuf ! / Nineteen apples!",
+      "end": 282.4
+    },
+    {
+      "id": "c19",
+      "start": 282.4,
+      "visual": "Twenty. / Twenty! / Vingt. / Vingt ! / Twenty balloons!",
+      "end": 294.38
+    },
+    {
+      "id": "q19",
+      "start": 294.38,
+      "visual": "Quiz time! Where is seventeen? / Yes! This is seventeen! / Dix-sept !",
+      "end": 307.56
+    },
+    {
+      "id": "recap",
+      "start": 307.56,
+      "visual": "Let's say them all, together! / One, Two, Three, Four, Five! / Six, Seven, Eight, Nine, Ten! / Eleven, Twelve, Thirteen, Fourteen, Fifteen! / Sixteen, Seventeen, Eighteen, Nineteen, Twenty!",
+      "end": 326.73
+    },
+    {
+      "id": "recapfr",
+      "start": 326.73,
+      "visual": "Et maintenant, en français ! / un, deux, trois, quatre, cinq ! / six, sept, huit, neuf, dix ! / onze, douze, treize, quatorze, quinze ! / seize, dix-sept, dix-huit, dix-neuf, vingt !",
+      "end": 343.82
+    },
+    {
+      "id": "bye",
+      "start": 343.82,
+      "visual": "What's YOUR favorite number? Bye bye, friends! / Bye bye! Au revoir!",
+      "end": 351.2
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

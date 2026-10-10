@@ -85,7 +85,7 @@ export const Layer: React.FC<{
   const { offX, offY } = useContext(CamCtx);
   const seed = seedOf(x, y);
 
-  const raw = interpolate(frame, [at, at + dur], [0, 1], { easing: enter === 'place' ? EASE_PLACE : EASE_OUT, ...clamp });
+  const raw = interpolate(frame, [at, at + Math.max(1, dur)], [0, 1], { easing: enter === 'place' ? EASE_PLACE : EASE_OUT, ...clamp });
   if (frame < at) return null;
 
   // idle drift — every layer breathes, nothing ever fully freezes
@@ -426,7 +426,7 @@ export const SketchArrow: React.FC<{
   z?: number;
 }> = ({ d, vb, at = 0, dur = 20, color = VOX.red, width = 7, dashed = false, head = true, id, z }) => {
   const frame = useCurrentFrame();
-  const prog = interpolate(frame, [at, at + dur], [0, 1], { easing: EASE_INOUT, ...clamp });
+  const prog = interpolate(frame, [at, at + Math.max(1, dur)], [0, 1], { easing: EASE_INOUT, ...clamp });
   if (frame < at || prog <= 0.001) return null;
   const evolved = evolvePath(prog, d);
   const len = getLength(d);

@@ -17,7 +17,7 @@ Locked 2026-07-14.
 - **`tools/gen_image.py`** — stills. This is what builds the character sheet.
 - `gen_voice.py` (ElevenLabs, incl. v3 emotion tags — proven on short-7), `gen_sfx.py`,
   `mix_sfx.py`, `gen_music.py`, `mix_music.py`, `yt_upload.py` — all reusable as-is.
-- `FAL_KEY` and `GEMINI_API_KEY` are in `core/.env`.
+- `FAL_KEY` and `GEMINI_API_KEY` are in `.env` at the repo root.
 
 **What's missing is the skill, not the engine.**
 

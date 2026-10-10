@@ -1,0 +1,202 @@
+{
+  "master": "remotion/out/KidsScience026-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsScience026-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/science/day-026-why-do-we-have-day-and-night/output/day-026-sfx.mp4",
+    "end_s": 112.0,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0.05,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsScience026",
+      "cue": "title"
+    },
+    {
+      "at_s": 1.8,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -15,
+      "shot": "KidsScience026",
+      "cue": "night falls"
+    },
+    {
+      "at_s": 4.9,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsScience026",
+      "cue": "guess bubble"
+    },
+    {
+      "at_s": 12.7,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsScience026",
+      "cue": "earth appears"
+    },
+    {
+      "at_s": 18.0,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -14,
+      "shot": "KidsScience026",
+      "cue": "sunlight"
+    },
+    {
+      "at_s": 24.0,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -13,
+      "shot": "KidsScience026",
+      "cue": "spin"
+    },
+    {
+      "at_s": 29.4,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsScience026",
+      "cue": "DAY label"
+    },
+    {
+      "at_s": 34.8,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsScience026",
+      "cue": "NIGHT label"
+    },
+    {
+      "at_s": 39.5,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsScience026",
+      "cue": "house"
+    },
+    {
+      "at_s": 45.25,
+      "sfx_id": "chime-magic",
+      "gain_db": -12,
+      "shot": "KidsScience026",
+      "cue": "good morning"
+    },
+    {
+      "at_s": 50.8,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -13,
+      "shot": "KidsScience026",
+      "cue": "good night"
+    },
+    {
+      "at_s": 56.6,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsScience026",
+      "cue": "your turn spin"
+    },
+    {
+      "at_s": 59.3,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsScience026",
+      "cue": "spin spin spin"
+    },
+    {
+      "at_s": 62.5,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsScience026",
+      "cue": "flashlight demo"
+    },
+    {
+      "at_s": 64.4,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsScience026",
+      "cue": "beam on"
+    },
+    {
+      "at_s": 72.1,
+      "sfx_id": "chime-magic",
+      "gain_db": -13,
+      "shot": "KidsScience026",
+      "cue": "sticker in light"
+    },
+    {
+      "at_s": 76.0,
+      "sfx_id": "chime-reward",
+      "gain_db": -12,
+      "shot": "KidsScience026",
+      "cue": "the earth spins"
+    },
+    {
+      "at_s": 80.5,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsScience026",
+      "cue": "other side"
+    },
+    {
+      "at_s": 82.0,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsScience026",
+      "cue": "night label"
+    },
+    {
+      "at_s": 82.9,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsScience026",
+      "cue": "day label"
+    },
+    {
+      "at_s": 90.3,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsScience026",
+      "cue": "recap 1"
+    },
+    {
+      "at_s": 93.6,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsScience026",
+      "cue": "recap 2"
+    },
+    {
+      "at_s": 97.3,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsScience026",
+      "cue": "recap 3"
+    },
+    {
+      "at_s": 101.1,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsScience026",
+      "cue": "wow spin"
+    },
+    {
+      "at_s": 102.4,
+      "sfx_id": "chime-reward",
+      "gain_db": -13,
+      "shot": "KidsScience026",
+      "cue": "1 spin 1 day"
+    },
+    {
+      "at_s": 107.9,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -14,
+      "shot": "KidsScience026",
+      "cue": "sunrise"
+    },
+    {
+      "at_s": 108.2,
+      "sfx_id": "chime-reward",
+      "gain_db": -13,
+      "shot": "KidsScience026",
+      "cue": "end"
+    }
+  ]
+}

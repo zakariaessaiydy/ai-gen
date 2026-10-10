@@ -1,0 +1,314 @@
+{
+  "master": "remotion/out/KidsAnimals004-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsAnimals004-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/animals/day-004-rory-the-lion-who-was-afraid-of-the-dark/output/day-004-sfx.mp4",
+    "end_s": 299.9,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0.05,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsAnimals004",
+      "cue": "title"
+    },
+    {
+      "at_s": 1.5,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals004",
+      "cue": "into the meadow"
+    },
+    {
+      "at_s": 5.79,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals004",
+      "cue": "who? timer"
+    },
+    {
+      "at_s": 10.89,
+      "sfx_id": "pop-reveal",
+      "gain_db": -12,
+      "shot": "KidsAnimals004",
+      "cue": "Rory pops out"
+    },
+    {
+      "at_s": 25.56,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsAnimals004",
+      "cue": "YOUR TURN"
+    },
+    {
+      "at_s": 28.36,
+      "sfx_id": "impact-soft",
+      "gain_db": -14,
+      "shot": "KidsAnimals004",
+      "cue": "big roar"
+    },
+    {
+      "at_s": 33.79,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsAnimals004",
+      "cue": "fact1"
+    },
+    {
+      "at_s": 40.72,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsAnimals004",
+      "cue": "fact2"
+    },
+    {
+      "at_s": 41.92,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -17,
+      "shot": "KidsAnimals004",
+      "cue": "pride appears"
+    },
+    {
+      "at_s": 46.28,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsAnimals004",
+      "cue": "fact3"
+    },
+    {
+      "at_s": 48.68,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -17,
+      "shot": "KidsAnimals004",
+      "cue": "roar rings"
+    },
+    {
+      "at_s": 56.33,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -18,
+      "shot": "KidsAnimals004",
+      "cue": "sunset"
+    },
+    {
+      "at_s": 66.45,
+      "sfx_id": "chime-magic",
+      "gain_db": -15,
+      "shot": "KidsAnimals004",
+      "cue": "the moon"
+    },
+    {
+      "at_s": 72.52,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -15,
+      "shot": "KidsAnimals004",
+      "cue": "fireflies"
+    },
+    {
+      "at_s": 79.19,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -16,
+      "shot": "KidsAnimals004",
+      "cue": "stars"
+    },
+    {
+      "at_s": 93.76,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsAnimals004",
+      "cue": "BE BRAVE"
+    },
+    {
+      "at_s": 100.13,
+      "sfx_id": "chime-magic",
+      "gain_db": -15,
+      "shot": "KidsAnimals004",
+      "cue": "LET'S REMEMBER"
+    },
+    {
+      "at_s": 106.47,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals004",
+      "cue": "what? timer (roar)"
+    },
+    {
+      "at_s": 110.67,
+      "sfx_id": "impact-soft",
+      "gain_db": -15,
+      "shot": "KidsAnimals004",
+      "cue": "roar r_a"
+    },
+    {
+      "at_s": 114.88,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsAnimals004",
+      "cue": "YOUR TURN 1"
+    },
+    {
+      "at_s": 118.48,
+      "sfx_id": "impact-soft",
+      "gain_db": -15,
+      "shot": "KidsAnimals004",
+      "cue": "roar r_b"
+    },
+    {
+      "at_s": 122.94,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsAnimals004",
+      "cue": "YOUR TURN 2"
+    },
+    {
+      "at_s": 126.54,
+      "sfx_id": "impact-soft",
+      "gain_db": -15,
+      "shot": "KidsAnimals004",
+      "cue": "roar r_c"
+    },
+    {
+      "at_s": 129.65,
+      "sfx_id": "chime-reward",
+      "gain_db": -16,
+      "shot": "KidsAnimals004",
+      "cue": "great roaring"
+    },
+    {
+      "at_s": 139.1,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals004",
+      "cue": "quiz 1 timer"
+    },
+    {
+      "at_s": 144.7,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsAnimals004",
+      "cue": "fact card 1"
+    },
+    {
+      "at_s": 159.06,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals004",
+      "cue": "quiz 2 timer"
+    },
+    {
+      "at_s": 164.66,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsAnimals004",
+      "cue": "fact card 2"
+    },
+    {
+      "at_s": 165.16,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -17,
+      "shot": "KidsAnimals004",
+      "cue": "pride again"
+    },
+    {
+      "at_s": 178.91,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals004",
+      "cue": "quiz 3 timer"
+    },
+    {
+      "at_s": 184.51,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsAnimals004",
+      "cue": "fact card 3"
+    },
+    {
+      "at_s": 185.01,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -17,
+      "shot": "KidsAnimals004",
+      "cue": "rings again"
+    },
+    {
+      "at_s": 205.31,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals004",
+      "cue": "moon timer"
+    },
+    {
+      "at_s": 211.11,
+      "sfx_id": "chime-magic",
+      "gain_db": -15,
+      "shot": "KidsAnimals004",
+      "cue": "moon"
+    },
+    {
+      "at_s": 217.69,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals004",
+      "cue": "fireflies timer"
+    },
+    {
+      "at_s": 223.49,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -15,
+      "shot": "KidsAnimals004",
+      "cue": "fireflies"
+    },
+    {
+      "at_s": 229.96,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals004",
+      "cue": "stars timer"
+    },
+    {
+      "at_s": 235.76,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -15,
+      "shot": "KidsAnimals004",
+      "cue": "stars"
+    },
+    {
+      "at_s": 244.96,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -19,
+      "shot": "KidsAnimals004",
+      "cue": "breathe in"
+    },
+    {
+      "at_s": 253.33,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -19,
+      "shot": "KidsAnimals004",
+      "cue": "breathe in"
+    },
+    {
+      "at_s": 265.5,
+      "sfx_id": "chime-reward",
+      "gain_db": -15,
+      "shot": "KidsAnimals004",
+      "cue": "BE BRAVE"
+    },
+    {
+      "at_s": 270.51,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsAnimals004",
+      "cue": "YOUR TURN brave"
+    },
+    {
+      "at_s": 286.87,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsAnimals004",
+      "cue": "you are so brave"
+    }
+  ]
+}

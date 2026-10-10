@@ -1,0 +1,139 @@
+{
+  "master": "remotion/out/KidsNumbers016-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsNumbers016-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/numbers/day-016-counting-apples-1-10/output/day-016-sfx.mp4",
+    "end_s": 63.0,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0.2,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers016",
+      "cue": "how many"
+    },
+    {
+      "at_s": 4.67,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsNumbers016",
+      "cue": "guess timer"
+    },
+    {
+      "at_s": 12.16,
+      "sfx_id": "pop-reveal",
+      "gain_db": -17,
+      "shot": "KidsNumbers016",
+      "cue": "apple 1"
+    },
+    {
+      "at_s": 14.27,
+      "sfx_id": "pop-reveal",
+      "gain_db": -17,
+      "shot": "KidsNumbers016",
+      "cue": "apple 2"
+    },
+    {
+      "at_s": 16.38,
+      "sfx_id": "pop-reveal",
+      "gain_db": -17,
+      "shot": "KidsNumbers016",
+      "cue": "apple 3"
+    },
+    {
+      "at_s": 18.55,
+      "sfx_id": "pop-reveal",
+      "gain_db": -17,
+      "shot": "KidsNumbers016",
+      "cue": "apple 4"
+    },
+    {
+      "at_s": 20.77,
+      "sfx_id": "pop-reveal",
+      "gain_db": -17,
+      "shot": "KidsNumbers016",
+      "cue": "apple 5"
+    },
+    {
+      "at_s": 22.99,
+      "sfx_id": "pop-reveal",
+      "gain_db": -17,
+      "shot": "KidsNumbers016",
+      "cue": "apple 6"
+    },
+    {
+      "at_s": 25.08,
+      "sfx_id": "pop-reveal",
+      "gain_db": -17,
+      "shot": "KidsNumbers016",
+      "cue": "apple 7"
+    },
+    {
+      "at_s": 27.23,
+      "sfx_id": "pop-reveal",
+      "gain_db": -17,
+      "shot": "KidsNumbers016",
+      "cue": "apple 8"
+    },
+    {
+      "at_s": 29.33,
+      "sfx_id": "pop-reveal",
+      "gain_db": -17,
+      "shot": "KidsNumbers016",
+      "cue": "apple 9"
+    },
+    {
+      "at_s": 31.52,
+      "sfx_id": "pop-reveal",
+      "gain_db": -17,
+      "shot": "KidsNumbers016",
+      "cue": "apple 10"
+    },
+    {
+      "at_s": 34.23,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsNumbers016",
+      "cue": "ten"
+    },
+    {
+      "at_s": 38.16,
+      "sfx_id": "impact-soft",
+      "gain_db": -13,
+      "shot": "KidsNumbers016",
+      "cue": "crunch"
+    },
+    {
+      "at_s": 42.36,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsNumbers016",
+      "cue": "how many timer"
+    },
+    {
+      "at_s": 47.26,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsNumbers016",
+      "cue": "nine"
+    },
+    {
+      "at_s": 49.75,
+      "sfx_id": "chime-magic",
+      "gain_db": -15,
+      "shot": "KidsNumbers016",
+      "cue": "10-1=9"
+    },
+    {
+      "at_s": 59.3,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsNumbers016",
+      "cue": "yay"
+    }
+  ]
+}
