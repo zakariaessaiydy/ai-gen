@@ -49,8 +49,8 @@ def yt_title(k, idea):
               'science': 'Science for Kids', 'puzzles': 'Brain Games for Kids', 'morals': 'Moral Stories for Kids', 'songs': 'Kids Songs'}[k]
     return f'{t} {LAB[k][1]} | {suffix} | Tiny Sparks'
 
-RIG = {'bear', 'panda', 'rabbit', 'bunny', 'cat', 'kitten', 'fox', 'lion', 'mouse', 'pig', 'owl', 'frog', 'monkey', 'dog', 'puppy', 'puppies', 'elephant', 'fish'}
-NEW = ['penguin', 'butterfly', 'butterflies', 'turtle', 'deer', 'wolf', 'giraffe', 'zebra', 'hippo',
+RIG = {'bear', 'panda', 'rabbit', 'bunny', 'cat', 'kitten', 'fox', 'lion', 'mouse', 'pig', 'owl', 'frog', 'monkey', 'dog', 'puppy', 'puppies', 'elephant', 'fish', 'turtle'}
+NEW = ['penguin', 'butterfly', 'butterflies', 'deer', 'wolf', 'giraffe', 'zebra', 'hippo',
        'crocodile', 'kangaroo', 'parrot', 'dolphin', 'whale', 'squirrel', 'firefly', 'bee', 'bees', 'ant', 'ants', 'peacock', 'crow', 'spider',
        'dinosaur', 'dinosaurs', 't-rex', 'bird', 'birds', 'horse', 'goat', 'chicken', 'insects', 'robot', 'farm animals', 'ocean animals',
        'jungle', 'baby animal']

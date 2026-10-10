@@ -6,7 +6,7 @@ import { Belt, Cape, ChestBadge, Mask, type HeroLook } from './hero';
 import { useCurrentFrame } from 'remotion';
 import { Face, HeadSparkles, KINK, idleMotion, kst, type KExpr } from './face';
 
-export type Species = 'bear' | 'bunny' | 'cat' | 'fox' | 'lion' | 'mouse' | 'panda' | 'pig' | 'owl' | 'frog' | 'monkey' | 'dog' | 'elephant';
+export type Species = 'bear' | 'bunny' | 'cat' | 'fox' | 'lion' | 'mouse' | 'panda' | 'pig' | 'owl' | 'frog' | 'monkey' | 'dog' | 'elephant' | 'turtle';
 
 export type CritterSpec = {
   id: string;
@@ -45,6 +45,7 @@ export type CritterProps = {
   shadow?: boolean;
   blink?: boolean;
   idle?: boolean; // auto idle behaviour (sway, head tilt, talk nod, laugh bounce, ear perk) — default on
+  tuck?: number; // 0..1 — pull the head (and paws) in, like a turtle hiding in its shell
 };
 
 const HEAD_Y = -420;
@@ -228,6 +229,8 @@ const Tail: React.FC<{ s: CritterSpec; frame: number; happy?: boolean }> = ({ s,
       return <path d={`M 100,-80 Q 260,-40 250,${-200 + wag} Q 240,-300 170,${-290 + wag} Q 120,-270 150,${-230 + wag}`} fill="none" stroke={s.dark} strokeWidth={22} strokeLinecap="round" />;
     case 'pig':
       return <path d="M 110,-110 q 40,-10 30,-40 q -10,-30 -30,-10 q -10,30 30,20" fill="none" stroke={KINK} strokeWidth={14} strokeLinecap="round" />;
+    case 'turtle':
+      return <path d={`M 120,-70 L ${176 + wag},${-50 + wag * 0.3} L 124,-34 Z`} fill={s.fur} {...st} />;
     default:
       return null;
   }
@@ -235,7 +238,7 @@ const Tail: React.FC<{ s: CritterSpec; frame: number; happy?: boolean }> = ({ s,
 
 export const Critter: React.FC<CritterProps> = ({
   spec, x, y, scale = 1, expr = 'smile', look = [0, 0], mouth = 0, armL = 'down', armR = 'down', holdL, holdR,
-  walk = 0, walking = false, hop = 0, tilt = 0, squash = 0, facing = 1, shadow = true, blink = true, idle = true,
+  walk = 0, walking = false, hop = 0, tilt = 0, squash = 0, facing = 1, shadow = true, blink = true, idle = true, tuck = 0,
 }) => {
   const frame = useCurrentFrame();
   const s = spec;
@@ -253,6 +256,7 @@ export const Critter: React.FC<CritterProps> = ({
   const st = kst();
   const owl = s.species === 'owl';
   const frog = s.species === 'frog';
+  const turtle = s.species === 'turtle';
 
   const arm = (p: CArm, side: -1 | 1, hold?: React.ReactNode) => {
     const a = armAngle(p, frame) * -side; // outward-positive, mirrored for the right arm
@@ -289,7 +293,7 @@ export const Critter: React.FC<CritterProps> = ({
         </g>
       );
     if (frog) return null;
-    if (s.species === 'pig' || s.species === 'elephant') return null;
+    if (s.species === 'pig' || s.species === 'elephant' || s.species === 'turtle') return null;
     const w = s.species === 'fox' ? 150 : s.species === 'mouse' || s.species === 'cat' ? 92 : 104;
     return <ellipse cx={0} cy={64} rx={w} ry={70} fill={s.fur2} />;
   };
@@ -304,6 +308,13 @@ export const Critter: React.FC<CritterProps> = ({
             <path d="M -38,-30 Q -46,90 -30,150 Q -20,200 20,214 Q 52,222 60,196 Q 30,190 22,160 Q 14,110 38,-30 Z" fill={s.fur} />
             <path d="M -38,-10 Q -46,90 -30,150 Q -20,200 20,214 Q 52,222 60,196 Q 30,190 22,160 Q 14,110 38,-10" fill="none" {...kst(8)} />
             {[60, 100, 140].map((y) => <path key={y} d={`M ${-36 + (y - 60) * 0.06},${y} Q ${-4},${y + 8} ${26 - (y - 60) * 0.05},${y}`} fill="none" {...kst(4)} />)}
+          </g>
+        );
+      case 'turtle':
+        return (
+          <g fill={KINK}>
+            <ellipse cx={-12} cy={36} rx={5} ry={4} />
+            <ellipse cx={12} cy={36} rx={5} ry={4} />
           </g>
         );
       case 'dog':
@@ -342,7 +353,7 @@ export const Critter: React.FC<CritterProps> = ({
   };
 
   const headEl = (
-    <g transform={`translate(0,${HEAD_Y + breath * 2 + im.nod}) rotate(${tilt + im.tilt} 0 120)`}>
+    <g transform={`translate(0,${HEAD_Y + breath * 2 + im.nod + tuck * 210}) rotate(${tilt + im.tilt} 0 120)`}>
       {s.species === 'lion' && (
         <g>
           {Array.from({ length: 14 }).map((_, i) => {
@@ -422,11 +433,30 @@ export const Critter: React.FC<CritterProps> = ({
         {[-1, 1].map((k) => (
           <ellipse key={k} cx={k * 62} cy={-24 - (walking ? Math.max(0, k * step) * 26 : 0)} rx={58} ry={34} fill={owl || frog ? '#ffb703' : s.species === 'panda' ? s.dark : s.fur} {...st} />
         ))}
-        {!front(armL) && arm(armL, -1, holdL)}
-        {!front(armR) && arm(armR, 1, holdR)}
+        {tuck < 0.5 && !front(armL) && arm(armL, -1, holdL)}
+        {tuck < 0.5 && !front(armR) && arm(armR, 1, holdR)}
+        {turtle && tuck > 0.02 && headEl}
         {/* body */}
-        <ellipse cx={0} cy={-160} rx={130} ry={140} fill={s.fur} {...kst(9)} />
-        <ellipse cx={0} cy={-140} rx={84} ry={96} fill={s.fur2} />
+        {turtle ? (
+          <g>
+            {/* shell: a dome with scutes around the edge, the yellow plastron in front */}
+            <ellipse cx={0} cy={-170} rx={162} ry={158} fill={s.dark} {...kst(9)} />
+            {[-150, -110, -60, 60, 110, 150].map((a) => {
+              const r = (a * Math.PI) / 180;
+              return <path key={a} d={`M ${Math.sin(r) * 112},${-170 - Math.cos(r) * 112} L ${Math.sin(r) * 160},${-170 - Math.cos(r) * 156}`} stroke={KINK} strokeWidth={5} opacity={0.45} />;
+            })}
+            <ellipse cx={0} cy={-170} rx={140} ry={136} fill="none" stroke="#ffffff" strokeWidth={6} opacity={0.18} />
+            <ellipse cx={0} cy={-150} rx={104} ry={122} fill={s.fur2} {...kst(7)} />
+            {[-210, -160, -110].map((y) => <path key={y} d={`M ${-92 + Math.abs(y + 150) * 0.12},${y} Q 0,${y + 8} ${92 - Math.abs(y + 150) * 0.12},${y}`} fill="none" stroke={KINK} strokeWidth={5} opacity={0.4} />)}
+            <line x1={0} y1={-262} x2={0} y2={-34} stroke={KINK} strokeWidth={5} opacity={0.3} />
+            <ellipse cx={-62} cy={-262} rx={34} ry={14} fill="#ffffff" opacity={0.3} transform="rotate(-30 -62 -262)" />
+          </g>
+        ) : (
+          <g>
+            <ellipse cx={0} cy={-160} rx={130} ry={140} fill={s.fur} {...kst(9)} />
+            <ellipse cx={0} cy={-140} rx={84} ry={96} fill={s.fur2} />
+          </g>
+        )}
         <ellipse cx={-70} cy={-232} rx={30} ry={14} fill="#ffffff" opacity={0.25} transform="rotate(-30 -70 -232)" />
         {s.hero && (
           <g>
@@ -440,9 +470,9 @@ export const Critter: React.FC<CritterProps> = ({
             <path d="M 40,-240 L 70,-150 L 30,-160 L 16,-236 Z" fill={s.scarf} {...kst(7)} />
           </g>
         )}
-        {front(armL) && arm(armL, -1, holdL)}
-        {front(armR) && arm(armR, 1, holdR)}
-        {headEl}
+        {tuck < 0.5 && front(armL) && arm(armL, -1, holdL)}
+        {tuck < 0.5 && front(armR) && arm(armR, 1, holdR)}
+        {!(turtle && tuck > 0.02) && headEl}
       </g>
     </g>
   );

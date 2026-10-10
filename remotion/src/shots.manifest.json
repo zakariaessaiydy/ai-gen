@@ -136,6 +136,14 @@
   "transparent": false
  },
  {
+  "id": "KidsAnimals032",
+  "durationInSeconds": 307.3,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "KidsHeroesSheet",
   "durationInSeconds": 2,
   "fps": 30,

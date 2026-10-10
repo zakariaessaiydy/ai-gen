@@ -1,6 +1,6 @@
 ---
 name: kids-animals
-description: 🦁 Animated ANIMAL stories for kids (ages 2–7) on Tiny Sparks — meet an animal (its sound, home, food, one amazing fact) and watch a tiny story starring it, using the Critter rig (bear, bunny, cat, fox, lion, mouse, panda, pig, owl, frog, monkey, dog, elephant) and the Meadow/Forest/Underwater sets. Use for "animal video for kids", "animal sounds", "story with animals", "farm/jungle/sea animals for kids". Read make-kids first.
+description: 🦁 Animated ANIMAL stories for kids (ages 2–7) on Tiny Sparks — meet an animal (its sound, home, food, one amazing fact) and watch a tiny story starring it, using the Critter rig (bear, bunny, cat, fox, lion, mouse, panda, pig, owl, frog, monkey, dog, elephant, turtle) + the Fish rig and the Meadow/Forest/Underwater sets. Use for "animal video for kids", "animal sounds", "story with animals", "farm/jungle/sea animals for kids". Read make-kids first.
 ---
 
 # kids-animals — meet them, hear them, love them
@@ -25,7 +25,7 @@ Read `.claude/skills/make-kids/SKILL.md` first.
 
 ## Species on the rig (Critter)
 
-bear · bunny · cat · fox · lion · mouse · panda · pig · owl · frog · monkey (added Day 18) · dog (added Day 23) · elephant (added Day 25) — colour each with
+bear · bunny · cat · fox · lion · mouse · panda · pig · owl · frog · monkey (added Day 18) · dog (added Day 23) · elephant (added Day 25) · turtle (added Day 32: fur = skin, fur2 = plastron, dark = shell; `tuck={0..1}` hides the head + paws in the shell — works on any Critter) — colour each with
 fur/fur2/dark; accessories (bow, scarf, party hat) for personality. FISH (added Day 30) is its own rig:
 `<Fish spec={{id, body, belly, fin, pattern: 'none'|'stripes'|'spots'|'rainbow', patternColor, bow}} …/>` in
 `lib/kids/sea.tsx` (same face/expressions, wagging tail, flapping fins, `swimming`, `facing`) + `<Bubbles>`; use
