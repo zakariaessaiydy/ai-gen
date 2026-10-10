@@ -335,7 +335,7 @@ export const Space: React.FC<SetProps> = ({ w = 1080, h = 1920, t = 0 }) => {
   );
 };
 
-export const Underwater: React.FC<SetProps> = ({ w = 1080, h = 1920, t = 0 }) => {
+export const Underwater: React.FC<SetProps & { life?: boolean }> = ({ w = 1080, h = 1920, t = 0, life = true }) => {
   const f = FLOOR(h);
   return (
     <g>
@@ -358,8 +358,8 @@ export const Underwater: React.FC<SetProps> = ({ w = 1080, h = 1920, t = 0 }) =>
       {[0.08, 0.3, 0.72, 0.92].map((sx, i) => (
         <path key={i} d={`M ${w * sx},${f} q ${-30 + Math.sin(t + i) * 10},-80 0,-160 q ${30 + Math.sin(t + i) * 10},-80 0,-160`} fill="none" stroke="#2a9d8f" strokeWidth={22} strokeLinecap="round" />
       ))}
-      {/* little fish swimming across */}
-      {[0, 1, 2].map((i) => {
+      {/* little fish swimming across (life={false} when the episode COUNTS fish — no extras) */}
+      {life && [0, 1, 2].map((i) => {
         const dir = i % 2 ? -1 : 1;
         const p = ((t * (40 + i * 12) + i * 400) % (w + 300)) - 150;
         const x = dir > 0 ? p : w - p;

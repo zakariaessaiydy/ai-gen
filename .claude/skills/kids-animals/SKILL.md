@@ -26,7 +26,10 @@ Read `.claude/skills/make-kids/SKILL.md` first.
 ## Species on the rig (Critter)
 
 bear · bunny · cat · fox · lion · mouse · panda · pig · owl · frog · monkey (added Day 18) · dog (added Day 23) · elephant (added Day 25) — colour each with
-fur/fur2/dark; accessories (bow, scarf, party hat) for personality. Other animals (elephant,
+fur/fur2/dark; accessories (bow, scarf, party hat) for personality. FISH (added Day 30) is its own rig:
+`<Fish spec={{id, body, belly, fin, pattern: 'none'|'stripes'|'spots'|'rainbow', patternColor, bow}} …/>` in
+`lib/kids/sea.tsx` (same face/expressions, wagging tail, flapping fins, `swimming`, `facing`) + `<Bubbles>`; use
+`<Underwater life={false}>` when an episode COUNTS fish (no ambient extras). Other animals (elephant,
 giraffe, fish, duck…) need a new species in `critter.tsx` first (same face, new ears/body
 details) — add it to the model sheet zoo and re-render character.png.
 
