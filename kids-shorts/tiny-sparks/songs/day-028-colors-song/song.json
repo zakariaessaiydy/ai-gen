@@ -1,0 +1,153 @@
+{
+ "title": "The Colors Song (Tiny Sparks original)",
+ "bpm": 94,
+ "beatsPerBar": 4,
+ "introBars": 2,
+ "outroBars": 2,
+ "instruments": {
+  "lead": "xylophone",
+  "chords": "ukulele",
+  "bass": true,
+  "drums": "soft",
+  "leadWithVocal": true
+ },
+ "singer": "mila",
+ "vocal": {
+  "voice": "af_sky",
+  "pitch": 0,
+  "rate": "-4%"
+ },
+ "sections": {
+  "chorus": {
+   "chords": "C | Am | F | G | C | Am | F G | C",
+   "melody": "C4:1 E4:1 G4:1 E4:1 | G4:1 A4:1 G4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2 | C4:1 E4:1 G4:1 E4:1 | G4:1 A4:1 G4:2 | A4:1 G4:1 F4:1 E4:1 | D4:1 E4:1 D4:1 C4:1",
+   "lyrics": "Co-lors, co-lors, all a-round! / Co-lors up and co-lors down! / Red and blue and yel-low too, / I see co-lors, how a-bout you?"
+  },
+  "karaoke": {
+   "chords": "C | Am | F | G | C | Am | F G | C",
+   "melody": "C4:1 E4:1 G4:1 E4:1 | G4:1 A4:1 G4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2 | C4:1 E4:1 G4:1 E4:1 | G4:1 A4:1 G4:2 | A4:1 G4:1 F4:1 E4:1 | D4:1 E4:1 D4:1 C4:1",
+   "lyrics": ""
+  },
+  "red": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 G4:1 G4:1 R:1 | E4:1 E4:0.5 E4:0.5 D4:1 C4:1 | G4:1 G4:1 G4:1 R:1 | R:4",
+   "lyrics": "Red, red, red! / Red like an ap-ple!"
+  },
+  "orange": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | E4:0.5 E4:0.5 E4:1 D4:0.5 D4:0.5 C4:1 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "Or-ange, or-ange! / Or-ange like a car-rot!"
+  },
+  "yellow": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | E4:1 E4:0.5 E4:0.5 D4:1 C4:1 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "Yel-low, yel-low! / Yel-low like the sun!"
+  },
+  "green": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 G4:1 G4:1 R:1 | E4:1 D4:1 E4:1 C4:1 | G4:1 G4:1 G4:1 R:1 | R:4",
+   "lyrics": "Green, green, green! / Green like a frog!"
+  },
+  "blue": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 G4:1 G4:1 R:1 | E4:1 D4:1 E4:1 C4:1 | G4:1 G4:1 G4:1 R:1 | R:4",
+   "lyrics": "Blue, blue, blue! / Blue like the sky!"
+  },
+  "purple": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | E4:1 D4:1 E4:1 C4:1 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "Pur-ple, pur-ple! / Pur-ple like grapes!"
+  },
+  "pink": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 G4:1 G4:1 R:1 | E4:1 D4:1 E4:1 C4:1 | G4:1 G4:1 G4:1 R:1 | R:4",
+   "lyrics": "Pink, pink, pink! / Pink like a pig!"
+  },
+  "brown": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 G4:1 G4:1 R:1 | E4:1 D4:1 E4:1 C4:1 | G4:1 G4:1 G4:1 R:1 | R:4",
+   "lyrics": "Brown, brown, brown! / Brown like a bear!"
+  },
+  "black": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 G4:1 G4:1 R:1 | E4:1 D4:1 E4:1 C4:1 | G4:1 G4:1 G4:1 R:1 | R:4",
+   "lyrics": "Black, black, black! / Black like the night!"
+  },
+  "white": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 G4:1 G4:1 R:1 | E4:1 D4:1 E4:1 C4:1 | G4:1 G4:1 G4:1 R:1 | R:4",
+   "lyrics": "White, white, white! / White like a cloud!"
+  },
+  "mix1": {
+   "chords": "C | G | F | C",
+   "melody": "E4:1 E4:1 G4:1 G4:1 | A4:1 A4:1 G4:2 | F4:1 E4:1 D4:1 E4:1 | C4:2 R:2",
+   "lyrics": "Red and yel-low, mix, mix, mix! / Now we have or-ange!"
+  },
+  "mix2": {
+   "chords": "C | G | F | C",
+   "melody": "E4:1 E4:1 G4:1 G4:1 | A4:1 A4:1 G4:2 | F4:1 E4:1 D4:1 R:1 | C4:2 R:2",
+   "lyrics": "Blue and yel-low, mix, mix, mix! / Now we have green!"
+  },
+  "mix3": {
+   "chords": "C | G | F | C",
+   "melody": "E4:1 E4:1 G4:1 G4:1 | A4:1 A4:1 G4:2 | F4:1 E4:1 D4:1 E4:1 | C4:2 R:2",
+   "lyrics": "Red and blue, now mix, mix, mix! / Now we have pur-ple!"
+  },
+  "q1": {
+   "chords": "C | F | G | C",
+   "melody": "G4:1 G4:1 E4:1 G4:1 | A4:1 G4:1 R:2 | R:4 | C4:2 R:2",
+   "lyrics": "What co-lor is the sky? / Blue!"
+  },
+  "q2": {
+   "chords": "C | F | G | C",
+   "melody": "G4:1 G4:1 E4:1 G4:1 | A4:1 G4:1 R:2 | R:4 | C4:2 R:2",
+   "lyrics": "What co-lor is the grass? / Green!"
+  },
+  "q3": {
+   "chords": "C | F | G | C",
+   "melody": "G4:1 G4:1 E4:1 G4:1 | A4:1 G4:1 R:2 | R:4 | E4:1 C4:1 R:2",
+   "lyrics": "What co-lor is the sun? / Yel-low!"
+  },
+  "q4": {
+   "chords": "C | F | G | C",
+   "melody": "G4:1 G4:1 E4:1 G4:1 | A4:0.5 A4:0.5 G4:1 E4:1 R:1 | R:4 | C4:2 R:2",
+   "lyrics": "What co-lor is a straw-ber-ry? / Red!"
+  },
+  "q5": {
+   "chords": "C | F | G | C",
+   "melody": "G4:1 G4:1 E4:1 G4:1 | A4:1 G4:1 R:2 | R:4 | C4:2 R:2",
+   "lyrics": "What co-lor is the snow? / White!"
+  },
+  "q6": {
+   "chords": "C | F | G | C",
+   "melody": "G4:1 G4:1 E4:1 G4:1 | A4:1 G4:1 R:2 | R:4 | C4:2 R:2",
+   "lyrics": "What co-lor is a pig? / Pink!"
+  }
+ },
+ "form": [
+  "chorus",
+  "red",
+  "orange",
+  "yellow",
+  "green",
+  "blue",
+  "purple",
+  "pink",
+  "brown",
+  "black",
+  "white",
+  "chorus",
+  "mix1",
+  "mix2",
+  "mix3",
+  "chorus",
+  "q1",
+  "q2",
+  "q3",
+  "q4",
+  "q5",
+  "q6",
+  "karaoke",
+  "chorus"
+ ]
+}

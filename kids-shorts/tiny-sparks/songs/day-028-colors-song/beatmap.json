@@ -1,0 +1,4112 @@
+{
+ "title": "The Colors Song (Tiny Sparks original)",
+ "bpm": 94.0,
+ "beatsPerBar": 4,
+ "secondsPerBeat": 0.6382978723404256,
+ "durationSec": 308.38,
+ "introBars": 2,
+ "chords": [
+  {
+   "t": 0.0,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 2.553,
+   "dur": 2.553,
+   "chord": "Am"
+  },
+  {
+   "t": 5.106,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 7.66,
+   "dur": 2.553,
+   "chord": "Am"
+  },
+  {
+   "t": 10.213,
+   "dur": 2.553,
+   "chord": "F"
+  },
+  {
+   "t": 12.766,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 15.319,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 17.872,
+   "dur": 2.553,
+   "chord": "Am"
+  },
+  {
+   "t": 20.426,
+   "dur": 1.277,
+   "chord": "F"
+  },
+  {
+   "t": 21.702,
+   "dur": 1.277,
+   "chord": "G"
+  },
+  {
+   "t": 22.979,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 25.532,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 28.085,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 30.638,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 33.191,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 35.745,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 38.298,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 40.851,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 43.404,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 45.957,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 48.511,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 51.064,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 53.617,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 56.17,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 58.723,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 61.277,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 63.83,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 66.383,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 68.936,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 71.489,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 74.043,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 76.596,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 79.149,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 81.702,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 84.255,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 86.809,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 89.362,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 91.915,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 94.468,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 97.021,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 99.574,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 102.128,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 104.681,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 107.234,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 109.787,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 112.34,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 114.894,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 117.447,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 120.0,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 122.553,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 125.106,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 127.66,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 130.213,
+   "dur": 2.553,
+   "chord": "Am"
+  },
+  {
+   "t": 132.766,
+   "dur": 2.553,
+   "chord": "F"
+  },
+  {
+   "t": 135.319,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 137.872,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 140.426,
+   "dur": 2.553,
+   "chord": "Am"
+  },
+  {
+   "t": 142.979,
+   "dur": 1.277,
+   "chord": "F"
+  },
+  {
+   "t": 144.255,
+   "dur": 1.277,
+   "chord": "G"
+  },
+  {
+   "t": 145.532,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 148.085,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 150.638,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 153.191,
+   "dur": 2.553,
+   "chord": "F"
+  },
+  {
+   "t": 155.745,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 158.298,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 160.851,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 163.404,
+   "dur": 2.553,
+   "chord": "F"
+  },
+  {
+   "t": 165.957,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 168.511,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 171.064,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 173.617,
+   "dur": 2.553,
+   "chord": "F"
+  },
+  {
+   "t": 176.17,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 178.723,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 181.277,
+   "dur": 2.553,
+   "chord": "Am"
+  },
+  {
+   "t": 183.83,
+   "dur": 2.553,
+   "chord": "F"
+  },
+  {
+   "t": 186.383,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 188.936,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 191.489,
+   "dur": 2.553,
+   "chord": "Am"
+  },
+  {
+   "t": 194.043,
+   "dur": 1.277,
+   "chord": "F"
+  },
+  {
+   "t": 195.319,
+   "dur": 1.277,
+   "chord": "G"
+  },
+  {
+   "t": 196.596,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 199.149,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 201.702,
+   "dur": 2.553,
+   "chord": "F"
+  },
+  {
+   "t": 204.255,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 206.809,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 209.362,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 211.915,
+   "dur": 2.553,
+   "chord": "F"
+  },
+  {
+   "t": 214.468,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 217.021,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 219.574,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 222.128,
+   "dur": 2.553,
+   "chord": "F"
+  },
+  {
+   "t": 224.681,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 227.234,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 229.787,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 232.34,
+   "dur": 2.553,
+   "chord": "F"
+  },
+  {
+   "t": 234.894,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 237.447,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 240.0,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 242.553,
+   "dur": 2.553,
+   "chord": "F"
+  },
+  {
+   "t": 245.106,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 247.66,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 250.213,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 252.766,
+   "dur": 2.553,
+   "chord": "F"
+  },
+  {
+   "t": 255.319,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 257.872,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 260.426,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 262.979,
+   "dur": 2.553,
+   "chord": "Am"
+  },
+  {
+   "t": 265.532,
+   "dur": 2.553,
+   "chord": "F"
+  },
+  {
+   "t": 268.085,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 270.638,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 273.191,
+   "dur": 2.553,
+   "chord": "Am"
+  },
+  {
+   "t": 275.745,
+   "dur": 1.277,
+   "chord": "F"
+  },
+  {
+   "t": 277.021,
+   "dur": 1.277,
+   "chord": "G"
+  },
+  {
+   "t": 278.298,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 280.851,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 283.404,
+   "dur": 2.553,
+   "chord": "Am"
+  },
+  {
+   "t": 285.957,
+   "dur": 2.553,
+   "chord": "F"
+  },
+  {
+   "t": 288.511,
+   "dur": 2.553,
+   "chord": "G"
+  },
+  {
+   "t": 291.064,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 293.617,
+   "dur": 2.553,
+   "chord": "Am"
+  },
+  {
+   "t": 296.17,
+   "dur": 1.277,
+   "chord": "F"
+  },
+  {
+   "t": 297.447,
+   "dur": 1.277,
+   "chord": "G"
+  },
+  {
+   "t": 298.723,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 301.277,
+   "dur": 2.553,
+   "chord": "C"
+  },
+  {
+   "t": 303.83,
+   "dur": 2.553,
+   "chord": "C"
+  }
+ ],
+ "notes": [
+  {
+   "t": 5.106,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "Co"
+  },
+  {
+   "t": 5.745,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lors,"
+  },
+  {
+   "t": 6.383,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "co"
+  },
+  {
+   "t": 7.021,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lors,"
+  },
+  {
+   "t": 7.66,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "all"
+  },
+  {
+   "t": 8.298,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "a"
+  },
+  {
+   "t": 8.936,
+   "dur": 1.277,
+   "midi": 67,
+   "syllable": "round!"
+  },
+  {
+   "t": 10.213,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": "Co"
+  },
+  {
+   "t": 10.851,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": "lors"
+  },
+  {
+   "t": 11.489,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "up"
+  },
+  {
+   "t": 12.128,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 12.766,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "co"
+  },
+  {
+   "t": 13.404,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "lors"
+  },
+  {
+   "t": 14.043,
+   "dur": 1.277,
+   "midi": 60,
+   "syllable": "down!"
+  },
+  {
+   "t": 15.319,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "Red"
+  },
+  {
+   "t": 15.957,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 16.596,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "blue"
+  },
+  {
+   "t": 17.234,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 17.872,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "yel"
+  },
+  {
+   "t": 18.511,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "low"
+  },
+  {
+   "t": 19.149,
+   "dur": 1.277,
+   "midi": 67,
+   "syllable": "too,"
+  },
+  {
+   "t": 20.426,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "I"
+  },
+  {
+   "t": 21.064,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "see"
+  },
+  {
+   "t": 21.702,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": "co"
+  },
+  {
+   "t": 22.34,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lors,"
+  },
+  {
+   "t": 22.979,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "how"
+  },
+  {
+   "t": 23.617,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 24.255,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "bout"
+  },
+  {
+   "t": 24.894,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "you?"
+  },
+  {
+   "t": 25.532,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "Red,"
+  },
+  {
+   "t": 26.17,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "red,"
+  },
+  {
+   "t": 26.809,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "red!"
+  },
+  {
+   "t": 28.085,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "Red"
+  },
+  {
+   "t": 28.723,
+   "dur": 0.319,
+   "midi": 64,
+   "syllable": "like"
+  },
+  {
+   "t": 29.043,
+   "dur": 0.319,
+   "midi": 64,
+   "syllable": "an"
+  },
+  {
+   "t": 29.362,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "ap"
+  },
+  {
+   "t": 30.0,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "ple!"
+  },
+  {
+   "t": 30.638,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 31.277,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 31.915,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 35.745,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "Or"
+  },
+  {
+   "t": 36.383,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "ange,"
+  },
+  {
+   "t": 37.021,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "or"
+  },
+  {
+   "t": 37.66,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "ange!"
+  },
+  {
+   "t": 38.298,
+   "dur": 0.319,
+   "midi": 64,
+   "syllable": "Or"
+  },
+  {
+   "t": 38.617,
+   "dur": 0.319,
+   "midi": 64,
+   "syllable": "ange"
+  },
+  {
+   "t": 38.936,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "like"
+  },
+  {
+   "t": 39.574,
+   "dur": 0.319,
+   "midi": 62,
+   "syllable": "a"
+  },
+  {
+   "t": 39.894,
+   "dur": 0.319,
+   "midi": 62,
+   "syllable": "car"
+  },
+  {
+   "t": 40.213,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "rot!"
+  },
+  {
+   "t": 40.851,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 41.489,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 42.128,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 42.766,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 45.957,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "Yel"
+  },
+  {
+   "t": 46.596,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "low,"
+  },
+  {
+   "t": 47.234,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "yel"
+  },
+  {
+   "t": 47.872,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "low!"
+  },
+  {
+   "t": 48.511,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "Yel"
+  },
+  {
+   "t": 49.149,
+   "dur": 0.319,
+   "midi": 64,
+   "syllable": "low"
+  },
+  {
+   "t": 49.468,
+   "dur": 0.319,
+   "midi": 64,
+   "syllable": "like"
+  },
+  {
+   "t": 49.787,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "the"
+  },
+  {
+   "t": 50.426,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "sun!"
+  },
+  {
+   "t": 51.064,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 51.702,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 52.34,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 52.979,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 56.17,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "Green,"
+  },
+  {
+   "t": 56.809,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "green,"
+  },
+  {
+   "t": 57.447,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "green!"
+  },
+  {
+   "t": 58.723,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "Green"
+  },
+  {
+   "t": 59.362,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "like"
+  },
+  {
+   "t": 60.0,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 60.638,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "frog!"
+  },
+  {
+   "t": 61.277,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 61.915,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 62.553,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 66.383,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "Blue,"
+  },
+  {
+   "t": 67.021,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "blue,"
+  },
+  {
+   "t": 67.66,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "blue!"
+  },
+  {
+   "t": 68.936,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "Blue"
+  },
+  {
+   "t": 69.574,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "like"
+  },
+  {
+   "t": 70.213,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "the"
+  },
+  {
+   "t": 70.851,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "sky!"
+  },
+  {
+   "t": 71.489,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 72.128,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 72.766,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 76.596,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "Pur"
+  },
+  {
+   "t": 77.234,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "ple,"
+  },
+  {
+   "t": 77.872,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "pur"
+  },
+  {
+   "t": 78.511,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "ple!"
+  },
+  {
+   "t": 79.149,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "Pur"
+  },
+  {
+   "t": 79.787,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "ple"
+  },
+  {
+   "t": 80.426,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "like"
+  },
+  {
+   "t": 81.064,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "grapes!"
+  },
+  {
+   "t": 81.702,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 82.34,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 82.979,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 83.617,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 86.809,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "Pink,"
+  },
+  {
+   "t": 87.447,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "pink,"
+  },
+  {
+   "t": 88.085,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "pink!"
+  },
+  {
+   "t": 89.362,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "Pink"
+  },
+  {
+   "t": 90.0,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "like"
+  },
+  {
+   "t": 90.638,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 91.277,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "pig!"
+  },
+  {
+   "t": 91.915,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 92.553,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 93.191,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 97.021,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "Brown,"
+  },
+  {
+   "t": 97.66,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "brown,"
+  },
+  {
+   "t": 98.298,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "brown!"
+  },
+  {
+   "t": 99.574,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "Brown"
+  },
+  {
+   "t": 100.213,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "like"
+  },
+  {
+   "t": 100.851,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 101.489,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "bear!"
+  },
+  {
+   "t": 102.128,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 102.766,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 103.404,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 107.234,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "Black,"
+  },
+  {
+   "t": 107.872,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "black,"
+  },
+  {
+   "t": 108.511,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "black!"
+  },
+  {
+   "t": 109.787,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "Black"
+  },
+  {
+   "t": 110.426,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "like"
+  },
+  {
+   "t": 111.064,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "the"
+  },
+  {
+   "t": 111.702,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "night!"
+  },
+  {
+   "t": 112.34,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 112.979,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 113.617,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 117.447,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "White,"
+  },
+  {
+   "t": 118.085,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "white,"
+  },
+  {
+   "t": 118.723,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "white!"
+  },
+  {
+   "t": 120.0,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "White"
+  },
+  {
+   "t": 120.638,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "like"
+  },
+  {
+   "t": 121.277,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 121.915,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "cloud!"
+  },
+  {
+   "t": 122.553,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 123.191,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 123.83,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 127.66,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "Co"
+  },
+  {
+   "t": 128.298,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lors,"
+  },
+  {
+   "t": 128.936,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "co"
+  },
+  {
+   "t": 129.574,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lors,"
+  },
+  {
+   "t": 130.213,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "all"
+  },
+  {
+   "t": 130.851,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "a"
+  },
+  {
+   "t": 131.489,
+   "dur": 1.277,
+   "midi": 67,
+   "syllable": "round!"
+  },
+  {
+   "t": 132.766,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": "Co"
+  },
+  {
+   "t": 133.404,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": "lors"
+  },
+  {
+   "t": 134.043,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "up"
+  },
+  {
+   "t": 134.681,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 135.319,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "co"
+  },
+  {
+   "t": 135.957,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "lors"
+  },
+  {
+   "t": 136.596,
+   "dur": 1.277,
+   "midi": 60,
+   "syllable": "down!"
+  },
+  {
+   "t": 137.872,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "Red"
+  },
+  {
+   "t": 138.511,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 139.149,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "blue"
+  },
+  {
+   "t": 139.787,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 140.426,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "yel"
+  },
+  {
+   "t": 141.064,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "low"
+  },
+  {
+   "t": 141.702,
+   "dur": 1.277,
+   "midi": 67,
+   "syllable": "too,"
+  },
+  {
+   "t": 142.979,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "I"
+  },
+  {
+   "t": 143.617,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "see"
+  },
+  {
+   "t": 144.255,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": "co"
+  },
+  {
+   "t": 144.894,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lors,"
+  },
+  {
+   "t": 145.532,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "how"
+  },
+  {
+   "t": 146.17,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 146.809,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "bout"
+  },
+  {
+   "t": 147.447,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "you?"
+  },
+  {
+   "t": 148.085,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "Red"
+  },
+  {
+   "t": 148.723,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 149.362,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "yel"
+  },
+  {
+   "t": 150.0,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "low,"
+  },
+  {
+   "t": 150.638,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "mix,"
+  },
+  {
+   "t": 151.277,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "mix,"
+  },
+  {
+   "t": 151.915,
+   "dur": 1.277,
+   "midi": 67,
+   "syllable": "mix!"
+  },
+  {
+   "t": 153.191,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": "Now"
+  },
+  {
+   "t": 153.83,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "we"
+  },
+  {
+   "t": 154.468,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "have"
+  },
+  {
+   "t": 155.106,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "or"
+  },
+  {
+   "t": 155.745,
+   "dur": 1.277,
+   "midi": 60,
+   "syllable": "ange!"
+  },
+  {
+   "t": 158.298,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "Blue"
+  },
+  {
+   "t": 158.936,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 159.574,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "yel"
+  },
+  {
+   "t": 160.213,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "low,"
+  },
+  {
+   "t": 160.851,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "mix,"
+  },
+  {
+   "t": 161.489,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "mix,"
+  },
+  {
+   "t": 162.128,
+   "dur": 1.277,
+   "midi": 67,
+   "syllable": "mix!"
+  },
+  {
+   "t": 163.404,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": "Now"
+  },
+  {
+   "t": 164.043,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "we"
+  },
+  {
+   "t": 164.681,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "have"
+  },
+  {
+   "t": 165.957,
+   "dur": 1.277,
+   "midi": 60,
+   "syllable": "green!"
+  },
+  {
+   "t": 168.511,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "Red"
+  },
+  {
+   "t": 169.149,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 169.787,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "blue,"
+  },
+  {
+   "t": 170.426,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "now"
+  },
+  {
+   "t": 171.064,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "mix,"
+  },
+  {
+   "t": 171.702,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "mix,"
+  },
+  {
+   "t": 172.34,
+   "dur": 1.277,
+   "midi": 67,
+   "syllable": "mix!"
+  },
+  {
+   "t": 173.617,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": "Now"
+  },
+  {
+   "t": 174.255,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "we"
+  },
+  {
+   "t": 174.894,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "have"
+  },
+  {
+   "t": 175.532,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "pur"
+  },
+  {
+   "t": 176.17,
+   "dur": 1.277,
+   "midi": 60,
+   "syllable": "ple!"
+  },
+  {
+   "t": 178.723,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "Co"
+  },
+  {
+   "t": 179.362,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lors,"
+  },
+  {
+   "t": 180.0,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "co"
+  },
+  {
+   "t": 180.638,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lors,"
+  },
+  {
+   "t": 181.277,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "all"
+  },
+  {
+   "t": 181.915,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "a"
+  },
+  {
+   "t": 182.553,
+   "dur": 1.277,
+   "midi": 67,
+   "syllable": "round!"
+  },
+  {
+   "t": 183.83,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": "Co"
+  },
+  {
+   "t": 184.468,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": "lors"
+  },
+  {
+   "t": 185.106,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "up"
+  },
+  {
+   "t": 185.745,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 186.383,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "co"
+  },
+  {
+   "t": 187.021,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "lors"
+  },
+  {
+   "t": 187.66,
+   "dur": 1.277,
+   "midi": 60,
+   "syllable": "down!"
+  },
+  {
+   "t": 188.936,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "Red"
+  },
+  {
+   "t": 189.574,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 190.213,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "blue"
+  },
+  {
+   "t": 190.851,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 191.489,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "yel"
+  },
+  {
+   "t": 192.128,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "low"
+  },
+  {
+   "t": 192.766,
+   "dur": 1.277,
+   "midi": 67,
+   "syllable": "too,"
+  },
+  {
+   "t": 194.043,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "I"
+  },
+  {
+   "t": 194.681,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "see"
+  },
+  {
+   "t": 195.319,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": "co"
+  },
+  {
+   "t": 195.957,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lors,"
+  },
+  {
+   "t": 196.596,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "how"
+  },
+  {
+   "t": 197.234,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 197.872,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "bout"
+  },
+  {
+   "t": 198.511,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "you?"
+  },
+  {
+   "t": 199.149,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "What"
+  },
+  {
+   "t": 199.787,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "co"
+  },
+  {
+   "t": 200.426,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lor"
+  },
+  {
+   "t": 201.064,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "is"
+  },
+  {
+   "t": 201.702,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "the"
+  },
+  {
+   "t": 202.34,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "sky?"
+  },
+  {
+   "t": 206.809,
+   "dur": 1.277,
+   "midi": 60,
+   "syllable": "Blue!"
+  },
+  {
+   "t": 209.362,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "What"
+  },
+  {
+   "t": 210.0,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "co"
+  },
+  {
+   "t": 210.638,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lor"
+  },
+  {
+   "t": 211.277,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "is"
+  },
+  {
+   "t": 211.915,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "the"
+  },
+  {
+   "t": 212.553,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "grass?"
+  },
+  {
+   "t": 217.021,
+   "dur": 1.277,
+   "midi": 60,
+   "syllable": "Green!"
+  },
+  {
+   "t": 219.574,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "What"
+  },
+  {
+   "t": 220.213,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "co"
+  },
+  {
+   "t": 220.851,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lor"
+  },
+  {
+   "t": 221.489,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "is"
+  },
+  {
+   "t": 222.128,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "the"
+  },
+  {
+   "t": 222.766,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "sun?"
+  },
+  {
+   "t": 227.234,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "Yel"
+  },
+  {
+   "t": 227.872,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "low!"
+  },
+  {
+   "t": 229.787,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "What"
+  },
+  {
+   "t": 230.426,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "co"
+  },
+  {
+   "t": 231.064,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lor"
+  },
+  {
+   "t": 231.702,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "is"
+  },
+  {
+   "t": 232.34,
+   "dur": 0.319,
+   "midi": 69,
+   "syllable": "a"
+  },
+  {
+   "t": 232.66,
+   "dur": 0.319,
+   "midi": 69,
+   "syllable": "straw"
+  },
+  {
+   "t": 232.979,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "ber"
+  },
+  {
+   "t": 233.617,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "ry?"
+  },
+  {
+   "t": 237.447,
+   "dur": 1.277,
+   "midi": 60,
+   "syllable": "Red!"
+  },
+  {
+   "t": 240.0,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "What"
+  },
+  {
+   "t": 240.638,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "co"
+  },
+  {
+   "t": 241.277,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lor"
+  },
+  {
+   "t": 241.915,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "is"
+  },
+  {
+   "t": 242.553,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "the"
+  },
+  {
+   "t": 243.191,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "snow?"
+  },
+  {
+   "t": 247.66,
+   "dur": 1.277,
+   "midi": 60,
+   "syllable": "White!"
+  },
+  {
+   "t": 250.213,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "What"
+  },
+  {
+   "t": 250.851,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "co"
+  },
+  {
+   "t": 251.489,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lor"
+  },
+  {
+   "t": 252.128,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "is"
+  },
+  {
+   "t": 252.766,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "a"
+  },
+  {
+   "t": 253.404,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "pig?"
+  },
+  {
+   "t": 257.872,
+   "dur": 1.277,
+   "midi": 60,
+   "syllable": "Pink!"
+  },
+  {
+   "t": 260.426,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 261.064,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 261.702,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 262.34,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 262.979,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 263.617,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 264.255,
+   "dur": 1.277,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 265.532,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 266.17,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 266.809,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 267.447,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 268.085,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 268.723,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 269.362,
+   "dur": 1.277,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 270.638,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 271.277,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 271.915,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 272.553,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 273.191,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 273.83,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 274.468,
+   "dur": 1.277,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 275.745,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 276.383,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 277.021,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 277.66,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 278.298,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 278.936,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 279.574,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 280.213,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 280.851,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "Co"
+  },
+  {
+   "t": 281.489,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lors,"
+  },
+  {
+   "t": 282.128,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "co"
+  },
+  {
+   "t": 282.766,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lors,"
+  },
+  {
+   "t": 283.404,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "all"
+  },
+  {
+   "t": 284.043,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "a"
+  },
+  {
+   "t": 284.681,
+   "dur": 1.277,
+   "midi": 67,
+   "syllable": "round!"
+  },
+  {
+   "t": 285.957,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": "Co"
+  },
+  {
+   "t": 286.596,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": "lors"
+  },
+  {
+   "t": 287.234,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "up"
+  },
+  {
+   "t": 287.872,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 288.511,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "co"
+  },
+  {
+   "t": 289.149,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "lors"
+  },
+  {
+   "t": 289.787,
+   "dur": 1.277,
+   "midi": 60,
+   "syllable": "down!"
+  },
+  {
+   "t": 291.064,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "Red"
+  },
+  {
+   "t": 291.702,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 292.34,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "blue"
+  },
+  {
+   "t": 292.979,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 293.617,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "yel"
+  },
+  {
+   "t": 294.255,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "low"
+  },
+  {
+   "t": 294.894,
+   "dur": 1.277,
+   "midi": 67,
+   "syllable": "too,"
+  },
+  {
+   "t": 296.17,
+   "dur": 0.638,
+   "midi": 69,
+   "syllable": "I"
+  },
+  {
+   "t": 296.809,
+   "dur": 0.638,
+   "midi": 67,
+   "syllable": "see"
+  },
+  {
+   "t": 297.447,
+   "dur": 0.638,
+   "midi": 65,
+   "syllable": "co"
+  },
+  {
+   "t": 298.085,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "lors,"
+  },
+  {
+   "t": 298.723,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "how"
+  },
+  {
+   "t": 299.362,
+   "dur": 0.638,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 300.0,
+   "dur": 0.638,
+   "midi": 62,
+   "syllable": "bout"
+  },
+  {
+   "t": 300.638,
+   "dur": 0.638,
+   "midi": 60,
+   "syllable": "you?"
+  }
+ ],
+ "lines": [
+  {
+   "text": "Colors, colors, all around!",
+   "start": 5.106,
+   "end": 10.213,
+   "words": [
+    {
+     "w": "Colors,",
+     "start": 5.106,
+     "end": 6.383
+    },
+    {
+     "w": "colors,",
+     "start": 6.383,
+     "end": 7.66
+    },
+    {
+     "w": "all",
+     "start": 7.66,
+     "end": 8.298
+    },
+    {
+     "w": "around!",
+     "start": 8.298,
+     "end": 10.213
+    }
+   ]
+  },
+  {
+   "text": "Colors up and colors down!",
+   "start": 10.213,
+   "end": 15.319,
+   "words": [
+    {
+     "w": "Colors",
+     "start": 10.213,
+     "end": 11.489
+    },
+    {
+     "w": "up",
+     "start": 11.489,
+     "end": 12.128
+    },
+    {
+     "w": "and",
+     "start": 12.128,
+     "end": 12.766
+    },
+    {
+     "w": "colors",
+     "start": 12.766,
+     "end": 14.043
+    },
+    {
+     "w": "down!",
+     "start": 14.043,
+     "end": 15.319
+    }
+   ]
+  },
+  {
+   "text": "Red and blue and yellow too,",
+   "start": 15.319,
+   "end": 20.426,
+   "words": [
+    {
+     "w": "Red",
+     "start": 15.319,
+     "end": 15.957
+    },
+    {
+     "w": "and",
+     "start": 15.957,
+     "end": 16.596
+    },
+    {
+     "w": "blue",
+     "start": 16.596,
+     "end": 17.234
+    },
+    {
+     "w": "and",
+     "start": 17.234,
+     "end": 17.872
+    },
+    {
+     "w": "yellow",
+     "start": 17.872,
+     "end": 19.149
+    },
+    {
+     "w": "too,",
+     "start": 19.149,
+     "end": 20.426
+    }
+   ]
+  },
+  {
+   "text": "I see colors, how about you?",
+   "start": 20.426,
+   "end": 25.532,
+   "words": [
+    {
+     "w": "I",
+     "start": 20.426,
+     "end": 21.064
+    },
+    {
+     "w": "see",
+     "start": 21.064,
+     "end": 21.702
+    },
+    {
+     "w": "colors,",
+     "start": 21.702,
+     "end": 22.979
+    },
+    {
+     "w": "how",
+     "start": 22.979,
+     "end": 23.617
+    },
+    {
+     "w": "about",
+     "start": 23.617,
+     "end": 24.894
+    },
+    {
+     "w": "you?",
+     "start": 24.894,
+     "end": 25.532
+    }
+   ]
+  },
+  {
+   "text": "Red, red, red!",
+   "start": 25.532,
+   "end": 27.447,
+   "words": [
+    {
+     "w": "Red,",
+     "start": 25.532,
+     "end": 26.17
+    },
+    {
+     "w": "red,",
+     "start": 26.17,
+     "end": 26.809
+    },
+    {
+     "w": "red!",
+     "start": 26.809,
+     "end": 27.447
+    }
+   ]
+  },
+  {
+   "text": "Red like an apple!",
+   "start": 28.085,
+   "end": 30.638,
+   "words": [
+    {
+     "w": "Red",
+     "start": 28.085,
+     "end": 28.723
+    },
+    {
+     "w": "like",
+     "start": 28.723,
+     "end": 29.043
+    },
+    {
+     "w": "an",
+     "start": 29.043,
+     "end": 29.362
+    },
+    {
+     "w": "apple!",
+     "start": 29.362,
+     "end": 30.638
+    }
+   ]
+  },
+  {
+   "text": "Orange, orange!",
+   "start": 35.745,
+   "end": 38.298,
+   "words": [
+    {
+     "w": "Orange,",
+     "start": 35.745,
+     "end": 37.021
+    },
+    {
+     "w": "orange!",
+     "start": 37.021,
+     "end": 38.298
+    }
+   ]
+  },
+  {
+   "text": "Orange like a carrot!",
+   "start": 38.298,
+   "end": 40.851,
+   "words": [
+    {
+     "w": "Orange",
+     "start": 38.298,
+     "end": 38.936
+    },
+    {
+     "w": "like",
+     "start": 38.936,
+     "end": 39.574
+    },
+    {
+     "w": "a",
+     "start": 39.574,
+     "end": 39.894
+    },
+    {
+     "w": "carrot!",
+     "start": 39.894,
+     "end": 40.851
+    }
+   ]
+  },
+  {
+   "text": "Yellow, yellow!",
+   "start": 45.957,
+   "end": 48.511,
+   "words": [
+    {
+     "w": "Yellow,",
+     "start": 45.957,
+     "end": 47.234
+    },
+    {
+     "w": "yellow!",
+     "start": 47.234,
+     "end": 48.511
+    }
+   ]
+  },
+  {
+   "text": "Yellow like the sun!",
+   "start": 48.511,
+   "end": 51.064,
+   "words": [
+    {
+     "w": "Yellow",
+     "start": 48.511,
+     "end": 49.468
+    },
+    {
+     "w": "like",
+     "start": 49.468,
+     "end": 49.787
+    },
+    {
+     "w": "the",
+     "start": 49.787,
+     "end": 50.426
+    },
+    {
+     "w": "sun!",
+     "start": 50.426,
+     "end": 51.064
+    }
+   ]
+  },
+  {
+   "text": "Green, green, green!",
+   "start": 56.17,
+   "end": 58.085,
+   "words": [
+    {
+     "w": "Green,",
+     "start": 56.17,
+     "end": 56.809
+    },
+    {
+     "w": "green,",
+     "start": 56.809,
+     "end": 57.447
+    },
+    {
+     "w": "green!",
+     "start": 57.447,
+     "end": 58.085
+    }
+   ]
+  },
+  {
+   "text": "Green like a frog!",
+   "start": 58.723,
+   "end": 61.277,
+   "words": [
+    {
+     "w": "Green",
+     "start": 58.723,
+     "end": 59.362
+    },
+    {
+     "w": "like",
+     "start": 59.362,
+     "end": 60.0
+    },
+    {
+     "w": "a",
+     "start": 60.0,
+     "end": 60.638
+    },
+    {
+     "w": "frog!",
+     "start": 60.638,
+     "end": 61.277
+    }
+   ]
+  },
+  {
+   "text": "Blue, blue, blue!",
+   "start": 66.383,
+   "end": 68.298,
+   "words": [
+    {
+     "w": "Blue,",
+     "start": 66.383,
+     "end": 67.021
+    },
+    {
+     "w": "blue,",
+     "start": 67.021,
+     "end": 67.66
+    },
+    {
+     "w": "blue!",
+     "start": 67.66,
+     "end": 68.298
+    }
+   ]
+  },
+  {
+   "text": "Blue like the sky!",
+   "start": 68.936,
+   "end": 71.489,
+   "words": [
+    {
+     "w": "Blue",
+     "start": 68.936,
+     "end": 69.574
+    },
+    {
+     "w": "like",
+     "start": 69.574,
+     "end": 70.213
+    },
+    {
+     "w": "the",
+     "start": 70.213,
+     "end": 70.851
+    },
+    {
+     "w": "sky!",
+     "start": 70.851,
+     "end": 71.489
+    }
+   ]
+  },
+  {
+   "text": "Purple, purple!",
+   "start": 76.596,
+   "end": 79.149,
+   "words": [
+    {
+     "w": "Purple,",
+     "start": 76.596,
+     "end": 77.872
+    },
+    {
+     "w": "purple!",
+     "start": 77.872,
+     "end": 79.149
+    }
+   ]
+  },
+  {
+   "text": "Purple like grapes!",
+   "start": 79.149,
+   "end": 81.702,
+   "words": [
+    {
+     "w": "Purple",
+     "start": 79.149,
+     "end": 80.426
+    },
+    {
+     "w": "like",
+     "start": 80.426,
+     "end": 81.064
+    },
+    {
+     "w": "grapes!",
+     "start": 81.064,
+     "end": 81.702
+    }
+   ]
+  },
+  {
+   "text": "Pink, pink, pink!",
+   "start": 86.809,
+   "end": 88.723,
+   "words": [
+    {
+     "w": "Pink,",
+     "start": 86.809,
+     "end": 87.447
+    },
+    {
+     "w": "pink,",
+     "start": 87.447,
+     "end": 88.085
+    },
+    {
+     "w": "pink!",
+     "start": 88.085,
+     "end": 88.723
+    }
+   ]
+  },
+  {
+   "text": "Pink like a pig!",
+   "start": 89.362,
+   "end": 91.915,
+   "words": [
+    {
+     "w": "Pink",
+     "start": 89.362,
+     "end": 90.0
+    },
+    {
+     "w": "like",
+     "start": 90.0,
+     "end": 90.638
+    },
+    {
+     "w": "a",
+     "start": 90.638,
+     "end": 91.277
+    },
+    {
+     "w": "pig!",
+     "start": 91.277,
+     "end": 91.915
+    }
+   ]
+  },
+  {
+   "text": "Brown, brown, brown!",
+   "start": 97.021,
+   "end": 98.936,
+   "words": [
+    {
+     "w": "Brown,",
+     "start": 97.021,
+     "end": 97.66
+    },
+    {
+     "w": "brown,",
+     "start": 97.66,
+     "end": 98.298
+    },
+    {
+     "w": "brown!",
+     "start": 98.298,
+     "end": 98.936
+    }
+   ]
+  },
+  {
+   "text": "Brown like a bear!",
+   "start": 99.574,
+   "end": 102.128,
+   "words": [
+    {
+     "w": "Brown",
+     "start": 99.574,
+     "end": 100.213
+    },
+    {
+     "w": "like",
+     "start": 100.213,
+     "end": 100.851
+    },
+    {
+     "w": "a",
+     "start": 100.851,
+     "end": 101.489
+    },
+    {
+     "w": "bear!",
+     "start": 101.489,
+     "end": 102.128
+    }
+   ]
+  },
+  {
+   "text": "Black, black, black!",
+   "start": 107.234,
+   "end": 109.149,
+   "words": [
+    {
+     "w": "Black,",
+     "start": 107.234,
+     "end": 107.872
+    },
+    {
+     "w": "black,",
+     "start": 107.872,
+     "end": 108.511
+    },
+    {
+     "w": "black!",
+     "start": 108.511,
+     "end": 109.149
+    }
+   ]
+  },
+  {
+   "text": "Black like the night!",
+   "start": 109.787,
+   "end": 112.34,
+   "words": [
+    {
+     "w": "Black",
+     "start": 109.787,
+     "end": 110.426
+    },
+    {
+     "w": "like",
+     "start": 110.426,
+     "end": 111.064
+    },
+    {
+     "w": "the",
+     "start": 111.064,
+     "end": 111.702
+    },
+    {
+     "w": "night!",
+     "start": 111.702,
+     "end": 112.34
+    }
+   ]
+  },
+  {
+   "text": "White, white, white!",
+   "start": 117.447,
+   "end": 119.362,
+   "words": [
+    {
+     "w": "White,",
+     "start": 117.447,
+     "end": 118.085
+    },
+    {
+     "w": "white,",
+     "start": 118.085,
+     "end": 118.723
+    },
+    {
+     "w": "white!",
+     "start": 118.723,
+     "end": 119.362
+    }
+   ]
+  },
+  {
+   "text": "White like a cloud!",
+   "start": 120.0,
+   "end": 122.553,
+   "words": [
+    {
+     "w": "White",
+     "start": 120.0,
+     "end": 120.638
+    },
+    {
+     "w": "like",
+     "start": 120.638,
+     "end": 121.277
+    },
+    {
+     "w": "a",
+     "start": 121.277,
+     "end": 121.915
+    },
+    {
+     "w": "cloud!",
+     "start": 121.915,
+     "end": 122.553
+    }
+   ]
+  },
+  {
+   "text": "Colors, colors, all around!",
+   "start": 127.66,
+   "end": 132.766,
+   "words": [
+    {
+     "w": "Colors,",
+     "start": 127.66,
+     "end": 128.936
+    },
+    {
+     "w": "colors,",
+     "start": 128.936,
+     "end": 130.213
+    },
+    {
+     "w": "all",
+     "start": 130.213,
+     "end": 130.851
+    },
+    {
+     "w": "around!",
+     "start": 130.851,
+     "end": 132.766
+    }
+   ]
+  },
+  {
+   "text": "Colors up and colors down!",
+   "start": 132.766,
+   "end": 137.872,
+   "words": [
+    {
+     "w": "Colors",
+     "start": 132.766,
+     "end": 134.043
+    },
+    {
+     "w": "up",
+     "start": 134.043,
+     "end": 134.681
+    },
+    {
+     "w": "and",
+     "start": 134.681,
+     "end": 135.319
+    },
+    {
+     "w": "colors",
+     "start": 135.319,
+     "end": 136.596
+    },
+    {
+     "w": "down!",
+     "start": 136.596,
+     "end": 137.872
+    }
+   ]
+  },
+  {
+   "text": "Red and blue and yellow too,",
+   "start": 137.872,
+   "end": 142.979,
+   "words": [
+    {
+     "w": "Red",
+     "start": 137.872,
+     "end": 138.511
+    },
+    {
+     "w": "and",
+     "start": 138.511,
+     "end": 139.149
+    },
+    {
+     "w": "blue",
+     "start": 139.149,
+     "end": 139.787
+    },
+    {
+     "w": "and",
+     "start": 139.787,
+     "end": 140.426
+    },
+    {
+     "w": "yellow",
+     "start": 140.426,
+     "end": 141.702
+    },
+    {
+     "w": "too,",
+     "start": 141.702,
+     "end": 142.979
+    }
+   ]
+  },
+  {
+   "text": "I see colors, how about you?",
+   "start": 142.979,
+   "end": 148.085,
+   "words": [
+    {
+     "w": "I",
+     "start": 142.979,
+     "end": 143.617
+    },
+    {
+     "w": "see",
+     "start": 143.617,
+     "end": 144.255
+    },
+    {
+     "w": "colors,",
+     "start": 144.255,
+     "end": 145.532
+    },
+    {
+     "w": "how",
+     "start": 145.532,
+     "end": 146.17
+    },
+    {
+     "w": "about",
+     "start": 146.17,
+     "end": 147.447
+    },
+    {
+     "w": "you?",
+     "start": 147.447,
+     "end": 148.085
+    }
+   ]
+  },
+  {
+   "text": "Red and yellow, mix, mix, mix!",
+   "start": 148.085,
+   "end": 153.191,
+   "words": [
+    {
+     "w": "Red",
+     "start": 148.085,
+     "end": 148.723
+    },
+    {
+     "w": "and",
+     "start": 148.723,
+     "end": 149.362
+    },
+    {
+     "w": "yellow,",
+     "start": 149.362,
+     "end": 150.638
+    },
+    {
+     "w": "mix,",
+     "start": 150.638,
+     "end": 151.277
+    },
+    {
+     "w": "mix,",
+     "start": 151.277,
+     "end": 151.915
+    },
+    {
+     "w": "mix!",
+     "start": 151.915,
+     "end": 153.191
+    }
+   ]
+  },
+  {
+   "text": "Now we have orange!",
+   "start": 153.191,
+   "end": 157.021,
+   "words": [
+    {
+     "w": "Now",
+     "start": 153.191,
+     "end": 153.83
+    },
+    {
+     "w": "we",
+     "start": 153.83,
+     "end": 154.468
+    },
+    {
+     "w": "have",
+     "start": 154.468,
+     "end": 155.106
+    },
+    {
+     "w": "orange!",
+     "start": 155.106,
+     "end": 157.021
+    }
+   ]
+  },
+  {
+   "text": "Blue and yellow, mix, mix, mix!",
+   "start": 158.298,
+   "end": 163.404,
+   "words": [
+    {
+     "w": "Blue",
+     "start": 158.298,
+     "end": 158.936
+    },
+    {
+     "w": "and",
+     "start": 158.936,
+     "end": 159.574
+    },
+    {
+     "w": "yellow,",
+     "start": 159.574,
+     "end": 160.851
+    },
+    {
+     "w": "mix,",
+     "start": 160.851,
+     "end": 161.489
+    },
+    {
+     "w": "mix,",
+     "start": 161.489,
+     "end": 162.128
+    },
+    {
+     "w": "mix!",
+     "start": 162.128,
+     "end": 163.404
+    }
+   ]
+  },
+  {
+   "text": "Now we have green!",
+   "start": 163.404,
+   "end": 167.234,
+   "words": [
+    {
+     "w": "Now",
+     "start": 163.404,
+     "end": 164.043
+    },
+    {
+     "w": "we",
+     "start": 164.043,
+     "end": 164.681
+    },
+    {
+     "w": "have",
+     "start": 164.681,
+     "end": 165.319
+    },
+    {
+     "w": "green!",
+     "start": 165.957,
+     "end": 167.234
+    }
+   ]
+  },
+  {
+   "text": "Red and blue, now mix, mix, mix!",
+   "start": 168.511,
+   "end": 173.617,
+   "words": [
+    {
+     "w": "Red",
+     "start": 168.511,
+     "end": 169.149
+    },
+    {
+     "w": "and",
+     "start": 169.149,
+     "end": 169.787
+    },
+    {
+     "w": "blue,",
+     "start": 169.787,
+     "end": 170.426
+    },
+    {
+     "w": "now",
+     "start": 170.426,
+     "end": 171.064
+    },
+    {
+     "w": "mix,",
+     "start": 171.064,
+     "end": 171.702
+    },
+    {
+     "w": "mix,",
+     "start": 171.702,
+     "end": 172.34
+    },
+    {
+     "w": "mix!",
+     "start": 172.34,
+     "end": 173.617
+    }
+   ]
+  },
+  {
+   "text": "Now we have purple!",
+   "start": 173.617,
+   "end": 177.447,
+   "words": [
+    {
+     "w": "Now",
+     "start": 173.617,
+     "end": 174.255
+    },
+    {
+     "w": "we",
+     "start": 174.255,
+     "end": 174.894
+    },
+    {
+     "w": "have",
+     "start": 174.894,
+     "end": 175.532
+    },
+    {
+     "w": "purple!",
+     "start": 175.532,
+     "end": 177.447
+    }
+   ]
+  },
+  {
+   "text": "Colors, colors, all around!",
+   "start": 178.723,
+   "end": 183.83,
+   "words": [
+    {
+     "w": "Colors,",
+     "start": 178.723,
+     "end": 180.0
+    },
+    {
+     "w": "colors,",
+     "start": 180.0,
+     "end": 181.277
+    },
+    {
+     "w": "all",
+     "start": 181.277,
+     "end": 181.915
+    },
+    {
+     "w": "around!",
+     "start": 181.915,
+     "end": 183.83
+    }
+   ]
+  },
+  {
+   "text": "Colors up and colors down!",
+   "start": 183.83,
+   "end": 188.936,
+   "words": [
+    {
+     "w": "Colors",
+     "start": 183.83,
+     "end": 185.106
+    },
+    {
+     "w": "up",
+     "start": 185.106,
+     "end": 185.745
+    },
+    {
+     "w": "and",
+     "start": 185.745,
+     "end": 186.383
+    },
+    {
+     "w": "colors",
+     "start": 186.383,
+     "end": 187.66
+    },
+    {
+     "w": "down!",
+     "start": 187.66,
+     "end": 188.936
+    }
+   ]
+  },
+  {
+   "text": "Red and blue and yellow too,",
+   "start": 188.936,
+   "end": 194.043,
+   "words": [
+    {
+     "w": "Red",
+     "start": 188.936,
+     "end": 189.574
+    },
+    {
+     "w": "and",
+     "start": 189.574,
+     "end": 190.213
+    },
+    {
+     "w": "blue",
+     "start": 190.213,
+     "end": 190.851
+    },
+    {
+     "w": "and",
+     "start": 190.851,
+     "end": 191.489
+    },
+    {
+     "w": "yellow",
+     "start": 191.489,
+     "end": 192.766
+    },
+    {
+     "w": "too,",
+     "start": 192.766,
+     "end": 194.043
+    }
+   ]
+  },
+  {
+   "text": "I see colors, how about you?",
+   "start": 194.043,
+   "end": 199.149,
+   "words": [
+    {
+     "w": "I",
+     "start": 194.043,
+     "end": 194.681
+    },
+    {
+     "w": "see",
+     "start": 194.681,
+     "end": 195.319
+    },
+    {
+     "w": "colors,",
+     "start": 195.319,
+     "end": 196.596
+    },
+    {
+     "w": "how",
+     "start": 196.596,
+     "end": 197.234
+    },
+    {
+     "w": "about",
+     "start": 197.234,
+     "end": 198.511
+    },
+    {
+     "w": "you?",
+     "start": 198.511,
+     "end": 199.149
+    }
+   ]
+  },
+  {
+   "text": "What color is the sky?",
+   "start": 199.149,
+   "end": 202.979,
+   "words": [
+    {
+     "w": "What",
+     "start": 199.149,
+     "end": 199.787
+    },
+    {
+     "w": "color",
+     "start": 199.787,
+     "end": 201.064
+    },
+    {
+     "w": "is",
+     "start": 201.064,
+     "end": 201.702
+    },
+    {
+     "w": "the",
+     "start": 201.702,
+     "end": 202.34
+    },
+    {
+     "w": "sky?",
+     "start": 202.34,
+     "end": 202.979
+    }
+   ]
+  },
+  {
+   "text": "Blue!",
+   "start": 206.809,
+   "end": 208.085,
+   "words": [
+    {
+     "w": "Blue!",
+     "start": 206.809,
+     "end": 208.085
+    }
+   ]
+  },
+  {
+   "text": "What color is the grass?",
+   "start": 209.362,
+   "end": 213.191,
+   "words": [
+    {
+     "w": "What",
+     "start": 209.362,
+     "end": 210.0
+    },
+    {
+     "w": "color",
+     "start": 210.0,
+     "end": 211.277
+    },
+    {
+     "w": "is",
+     "start": 211.277,
+     "end": 211.915
+    },
+    {
+     "w": "the",
+     "start": 211.915,
+     "end": 212.553
+    },
+    {
+     "w": "grass?",
+     "start": 212.553,
+     "end": 213.191
+    }
+   ]
+  },
+  {
+   "text": "Green!",
+   "start": 217.021,
+   "end": 218.298,
+   "words": [
+    {
+     "w": "Green!",
+     "start": 217.021,
+     "end": 218.298
+    }
+   ]
+  },
+  {
+   "text": "What color is the sun?",
+   "start": 219.574,
+   "end": 223.404,
+   "words": [
+    {
+     "w": "What",
+     "start": 219.574,
+     "end": 220.213
+    },
+    {
+     "w": "color",
+     "start": 220.213,
+     "end": 221.489
+    },
+    {
+     "w": "is",
+     "start": 221.489,
+     "end": 222.128
+    },
+    {
+     "w": "the",
+     "start": 222.128,
+     "end": 222.766
+    },
+    {
+     "w": "sun?",
+     "start": 222.766,
+     "end": 223.404
+    }
+   ]
+  },
+  {
+   "text": "Yellow!",
+   "start": 227.234,
+   "end": 228.511,
+   "words": [
+    {
+     "w": "Yellow!",
+     "start": 227.234,
+     "end": 228.511
+    }
+   ]
+  },
+  {
+   "text": "What color is a strawberry?",
+   "start": 229.787,
+   "end": 234.255,
+   "words": [
+    {
+     "w": "What",
+     "start": 229.787,
+     "end": 230.426
+    },
+    {
+     "w": "color",
+     "start": 230.426,
+     "end": 231.702
+    },
+    {
+     "w": "is",
+     "start": 231.702,
+     "end": 232.34
+    },
+    {
+     "w": "a",
+     "start": 232.34,
+     "end": 232.66
+    },
+    {
+     "w": "strawberry?",
+     "start": 232.66,
+     "end": 234.255
+    }
+   ]
+  },
+  {
+   "text": "Red!",
+   "start": 237.447,
+   "end": 238.723,
+   "words": [
+    {
+     "w": "Red!",
+     "start": 237.447,
+     "end": 238.723
+    }
+   ]
+  },
+  {
+   "text": "What color is the snow?",
+   "start": 240.0,
+   "end": 243.83,
+   "words": [
+    {
+     "w": "What",
+     "start": 240.0,
+     "end": 240.638
+    },
+    {
+     "w": "color",
+     "start": 240.638,
+     "end": 241.915
+    },
+    {
+     "w": "is",
+     "start": 241.915,
+     "end": 242.553
+    },
+    {
+     "w": "the",
+     "start": 242.553,
+     "end": 243.191
+    },
+    {
+     "w": "snow?",
+     "start": 243.191,
+     "end": 243.83
+    }
+   ]
+  },
+  {
+   "text": "White!",
+   "start": 247.66,
+   "end": 248.936,
+   "words": [
+    {
+     "w": "White!",
+     "start": 247.66,
+     "end": 248.936
+    }
+   ]
+  },
+  {
+   "text": "What color is a pig?",
+   "start": 250.213,
+   "end": 254.043,
+   "words": [
+    {
+     "w": "What",
+     "start": 250.213,
+     "end": 250.851
+    },
+    {
+     "w": "color",
+     "start": 250.851,
+     "end": 252.128
+    },
+    {
+     "w": "is",
+     "start": 252.128,
+     "end": 252.766
+    },
+    {
+     "w": "a",
+     "start": 252.766,
+     "end": 253.404
+    },
+    {
+     "w": "pig?",
+     "start": 253.404,
+     "end": 254.043
+    }
+   ]
+  },
+  {
+   "text": "Pink!",
+   "start": 257.872,
+   "end": 259.149,
+   "words": [
+    {
+     "w": "Pink!",
+     "start": 257.872,
+     "end": 259.149
+    }
+   ]
+  },
+  {
+   "text": "Colors, colors, all around!",
+   "start": 280.851,
+   "end": 285.957,
+   "words": [
+    {
+     "w": "Colors,",
+     "start": 280.851,
+     "end": 282.128
+    },
+    {
+     "w": "colors,",
+     "start": 282.128,
+     "end": 283.404
+    },
+    {
+     "w": "all",
+     "start": 283.404,
+     "end": 284.043
+    },
+    {
+     "w": "around!",
+     "start": 284.043,
+     "end": 285.957
+    }
+   ]
+  },
+  {
+   "text": "Colors up and colors down!",
+   "start": 285.957,
+   "end": 291.064,
+   "words": [
+    {
+     "w": "Colors",
+     "start": 285.957,
+     "end": 287.234
+    },
+    {
+     "w": "up",
+     "start": 287.234,
+     "end": 287.872
+    },
+    {
+     "w": "and",
+     "start": 287.872,
+     "end": 288.511
+    },
+    {
+     "w": "colors",
+     "start": 288.511,
+     "end": 289.787
+    },
+    {
+     "w": "down!",
+     "start": 289.787,
+     "end": 291.064
+    }
+   ]
+  },
+  {
+   "text": "Red and blue and yellow too,",
+   "start": 291.064,
+   "end": 296.17,
+   "words": [
+    {
+     "w": "Red",
+     "start": 291.064,
+     "end": 291.702
+    },
+    {
+     "w": "and",
+     "start": 291.702,
+     "end": 292.34
+    },
+    {
+     "w": "blue",
+     "start": 292.34,
+     "end": 292.979
+    },
+    {
+     "w": "and",
+     "start": 292.979,
+     "end": 293.617
+    },
+    {
+     "w": "yellow",
+     "start": 293.617,
+     "end": 294.894
+    },
+    {
+     "w": "too,",
+     "start": 294.894,
+     "end": 296.17
+    }
+   ]
+  },
+  {
+   "text": "I see colors, how about you?",
+   "start": 296.17,
+   "end": 301.277,
+   "words": [
+    {
+     "w": "I",
+     "start": 296.17,
+     "end": 296.809
+    },
+    {
+     "w": "see",
+     "start": 296.809,
+     "end": 297.447
+    },
+    {
+     "w": "colors,",
+     "start": 297.447,
+     "end": 298.723
+    },
+    {
+     "w": "how",
+     "start": 298.723,
+     "end": 299.362
+    },
+    {
+     "w": "about",
+     "start": 299.362,
+     "end": 300.638
+    },
+    {
+     "w": "you?",
+     "start": 300.638,
+     "end": 301.277
+    }
+   ]
+  }
+ ]
+}
