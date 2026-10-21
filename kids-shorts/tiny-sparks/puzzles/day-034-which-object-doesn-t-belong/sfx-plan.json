@@ -1,0 +1,188 @@
+{
+  "master": "remotion/out/KidsPuzzles034-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsPuzzles034-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/puzzles/day-034-which-object-doesn-t-belong/output/day-034-sfx.mp4",
+    "end_s": 101.3,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0.05,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsPuzzles034",
+      "cue": "board: ODD ONE OUT?"
+    },
+    {
+      "at_s": 5.49,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsPuzzles034",
+      "cue": "p1 label"
+    },
+    {
+      "at_s": 6.69,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsPuzzles034",
+      "cue": "p1 cards"
+    },
+    {
+      "at_s": 13.93,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsPuzzles034",
+      "cue": "p1 think"
+    },
+    {
+      "at_s": 18.87,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsPuzzles034",
+      "cue": "p1 guess bubble"
+    },
+    {
+      "at_s": 19.57,
+      "sfx_id": "impact-soft",
+      "gain_db": -16,
+      "shot": "KidsPuzzles034",
+      "cue": "p1 wrong"
+    },
+    {
+      "at_s": 23.17,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -14,
+      "shot": "KidsPuzzles034",
+      "cue": "p1 clue"
+    },
+    {
+      "at_s": 27.44,
+      "sfx_id": "chime-reward",
+      "gain_db": -12,
+      "shot": "KidsPuzzles034",
+      "cue": "p1 answer"
+    },
+    {
+      "at_s": 27.59,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsPuzzles034",
+      "cue": "p1 star"
+    },
+    {
+      "at_s": 36.63,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsPuzzles034",
+      "cue": "p2 label"
+    },
+    {
+      "at_s": 37.83,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsPuzzles034",
+      "cue": "p2 cards"
+    },
+    {
+      "at_s": 45.09,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsPuzzles034",
+      "cue": "p2 think"
+    },
+    {
+      "at_s": 50.02,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsPuzzles034",
+      "cue": "p2 guess bubble"
+    },
+    {
+      "at_s": 50.72,
+      "sfx_id": "impact-soft",
+      "gain_db": -16,
+      "shot": "KidsPuzzles034",
+      "cue": "p2 wrong"
+    },
+    {
+      "at_s": 55.49,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -14,
+      "shot": "KidsPuzzles034",
+      "cue": "p2 clue"
+    },
+    {
+      "at_s": 59.14,
+      "sfx_id": "chime-reward",
+      "gain_db": -12,
+      "shot": "KidsPuzzles034",
+      "cue": "p2 answer"
+    },
+    {
+      "at_s": 59.29,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsPuzzles034",
+      "cue": "p2 star"
+    },
+    {
+      "at_s": 68.91,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsPuzzles034",
+      "cue": "p3 label"
+    },
+    {
+      "at_s": 70.11,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsPuzzles034",
+      "cue": "p3 cards"
+    },
+    {
+      "at_s": 78.23,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsPuzzles034",
+      "cue": "p3 think"
+    },
+    {
+      "at_s": 83.68,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsPuzzles034",
+      "cue": "p3 guess bubble"
+    },
+    {
+      "at_s": 86.69,
+      "sfx_id": "chime-reward",
+      "gain_db": -12,
+      "shot": "KidsPuzzles034",
+      "cue": "p3 answer"
+    },
+    {
+      "at_s": 86.84,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsPuzzles034",
+      "cue": "p3 star"
+    },
+    {
+      "at_s": 93.58,
+      "sfx_id": "chime-magic",
+      "gain_db": -12,
+      "shot": "KidsPuzzles034",
+      "cue": "super thinker"
+    },
+    {
+      "at_s": 97.22,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsPuzzles034",
+      "cue": "bye"
+    }
+  ]
+}

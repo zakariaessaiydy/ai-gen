@@ -240,6 +240,14 @@
   "transparent": false
  },
  {
+  "id": "KidsPuzzles034",
+  "durationInSeconds": 101.3,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "KidsScience005",
   "durationInSeconds": 75.1,
   "fps": 30,
