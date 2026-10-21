@@ -4,17 +4,22 @@
 // never strobing (kids content: no more than gentle movement in the background).
 import React from 'react';
 import { KINK, kst } from './face';
+import { K3DDefs, KIDS_3D, Vol } from './depth';
 import { FONT_TOON } from '../toon/comedy';
 
 export const FLOOR = (h: number) => Math.round(h * (h > 1400 ? 0.79 : 0.84));
 type SetProps = { w?: number; h?: number; t?: number };
 
+const FAR = (w: number, h: number, farY: number) =>
+  `M 0,${farY - h * 0.03} Q ${w * 0.18},${farY - h * 0.13} ${w * 0.42},${farY - h * 0.05} Q ${w * 0.7},${farY - h * 0.16} ${w},${farY - h * 0.06} L ${w},${h} L 0,${h} Z`;
 const CLOUD = 'M -110,30 Q -130,-20 -80,-30 Q -70,-80 -10,-74 Q 30,-110 80,-70 Q 130,-70 126,-20 Q 150,20 110,34 Z';
 const Cloud: React.FC<{ x: number; y: number; s?: number; face?: boolean; t?: number }> = ({ x, y, s = 1, face = false, t = 0 }) => {
   const shut = face && (t * 30 + 70) % 140 < 5; // the sleepy-happy cloud blinks
   return (
     <g transform={`translate(${x},${y + Math.sin(t * 0.9 + x * 0.01) * 6}) scale(${s})`}>
-      <path d={CLOUD} fill="#ffffff" {...kst(6)} />
+      <Vol>
+        <path d={CLOUD} fill="#ffffff" {...kst(6)} />
+      </Vol>
       <path d="M -104,22 Q -20,44 104,24 Q 120,30 110,34 L -110,30 Z" fill="#dcefff" />
       {face && (
         <g>
@@ -102,10 +107,12 @@ const Flower: React.FC<{ x: number; y: number; c: string; s?: number; t?: number
   <g transform={`translate(${x},${y}) scale(${s}) rotate(${Math.sin(t * 1.6 + x * 0.05) * 6})`}>
     <path d="M 0,-24 Q -22,-40 -26,-24 Q -18,-14 0,-24 Z" fill="#55b84a" {...kst(3)} />
     <line x1={0} y1={0} x2={0} y2={-60} stroke="#3a8d3a" strokeWidth={8} />
-    {[0, 72, 144, 216, 288].map((a) => (
-      <circle key={a} cx={Math.cos((a * Math.PI) / 180) * 18} cy={-70 + Math.sin((a * Math.PI) / 180) * 18} r={14} fill={c} {...kst(4)} />
-    ))}
-    <circle cx={0} cy={-70} r={11} fill="#ffd166" {...kst(4)} />
+    <Vol>
+      {[0, 72, 144, 216, 288].map((a) => (
+        <circle key={a} cx={Math.cos((a * Math.PI) / 180) * 18} cy={-70 + Math.sin((a * Math.PI) / 180) * 18} r={14} fill={c} {...kst(4)} />
+      ))}
+      <circle cx={0} cy={-70} r={11} fill="#ffd166" {...kst(4)} />
+    </Vol>
     <circle cx={-3} cy={-73} r={3} fill="#ffffff" opacity={0.8} />
   </g>
 );
@@ -127,7 +134,9 @@ export const Sun: React.FC<{ x: number; y: number; r?: number; t?: number }> = (
         <rect key={i} x={-10} y={-r - (i % 2 ? 44 : 60) - Math.sin(t * 3 + i) * 4} width={20} height={i % 2 ? 28 : 44} rx={10} fill={i % 2 ? '#ffca3a' : '#ffb703'} transform={`rotate(${i * 30})`} />
       ))}
     </g>
-    <circle r={r} fill="#ffd166" {...kst(7)} />
+    <Vol>
+      <circle r={r} fill="#ffd166" {...kst(7)} />
+    </Vol>
     <ellipse cx={-r * 0.38} cy={-r * 0.45} rx={r * 0.28} ry={r * 0.14} fill="#ffffff" opacity={0.45} transform={`rotate(-30 ${-r * 0.38} ${-r * 0.45})`} />
     {shut ? (
       <g fill="none" {...kst(6)}><path d="M -38,-10 L -18,-10" /><path d="M 18,-10 L 38,-10" /></g>
@@ -165,6 +174,7 @@ export const Meadow: React.FC<SetProps & { sun?: boolean; rainbow?: boolean; lif
           <stop offset="1" stopColor="#e9f8ff" />
         </linearGradient>
       </defs>
+      <K3DDefs />
       <rect width={w} height={h} fill="url(#kSky)" />
       {sun && <Sun x={w * 0.8} y={h * 0.2} t={t} />}
       {rainbow && <Rainbow x={w * (wide ? 0.34 : 0.3)} y={farY + 30} r={wide ? h * 0.42 : w * 0.36} />}
@@ -172,19 +182,29 @@ export const Meadow: React.FC<SetProps & { sun?: boolean; rainbow?: boolean; lif
       <Cloud x={((w * 0.65 + t * 11) % (w + 300)) - 150} y={h * 0.3} s={0.8} t={t} />
       {wide && <Cloud x={((w * 0.95 + t * 14) % (w + 300)) - 150} y={h * 0.1} s={0.65} t={t} />}
       {life && <Birds t={t} w={w} y={h * (wide ? 0.12 : 0.1)} />}
-      {/* far hill */}
-      <path d={`M 0,${farY - h * 0.03} Q ${w * 0.18},${farY - h * 0.13} ${w * 0.42},${farY - h * 0.05} Q ${w * 0.7},${farY - h * 0.16} ${w},${farY - h * 0.06} L ${w},${h} L 0,${h} Z`} fill="#c2ecaa" {...kst(5)} />
-      <path d={`M 0,${f - h * 0.12} Q ${w * 0.3},${f - h * 0.22} ${w * 0.6},${f - h * 0.12} T ${w},${f - h * 0.14} L ${w},${h} L 0,${h} Z`} fill="#9be27a" {...kst(6)} />
+      {/* far hill (in 3D: hazed towards the sky — aerial perspective) */}
+      <Vol kind="slope">
+        <path d={FAR(w, h, farY)} fill="#c2ecaa" {...kst(5)} />
+      </Vol>
+      {KIDS_3D && <path d={FAR(w, h, farY)} fill="#e9f8ff" opacity={0.35} />}
+      <Vol kind="slope">
+        <path d={`M 0,${f - h * 0.12} Q ${w * 0.3},${f - h * 0.22} ${w * 0.6},${f - h * 0.12} T ${w},${f - h * 0.14} L ${w},${h} L 0,${h} Z`} fill="#9be27a" {...kst(6)} />
+      </Vol>
       {/* little round bushes on the mid hill */}
       {[0.22, 0.5, 0.72, 0.93].map((sx, i) => (
         <g key={i} transform={`translate(${w * sx},${f - h * (0.15 + (i % 2) * 0.012)})`}>
-          <circle cx={-18} cy={0} r={26} fill="#5cbf4a" {...kst(4)} />
-          <circle cx={14} cy={-8} r={30} fill="#6cc955" {...kst(4)} />
+          <Vol>
+            <circle cx={-18} cy={0} r={26} fill="#5cbf4a" {...kst(4)} />
+            <circle cx={14} cy={-8} r={30} fill="#6cc955" {...kst(4)} />
+          </Vol>
           <circle cx={-6} cy={-16} r={4} fill="#ff6fa5" />
         </g>
       ))}
-      <path d={`M 0,${f - h * 0.04} Q ${w * 0.5},${f - h * 0.1} ${w},${f - h * 0.03} L ${w},${h} L 0,${h} Z`} fill="#7bd162" {...kst(6)} />
+      <Vol kind="slope">
+        <path d={`M 0,${f - h * 0.04} Q ${w * 0.5},${f - h * 0.1} ${w},${f - h * 0.03} L ${w},${h} L 0,${h} Z`} fill="#7bd162" {...kst(6)} />
+      </Vol>
       <rect x={0} y={f} width={w} height={h - f} fill="#6cc551" />
+      {KIDS_3D && <rect x={0} y={f} width={w} height={h - f} fill="url(#k3d-floor)" />}
       {/* ground patches */}
       {[0.12, 0.4, 0.66, 0.9].map((sx, i) => (
         <ellipse key={i} cx={w * sx} cy={f + (h - f) * (0.3 + (i % 2) * 0.35)} rx={w * 0.08} ry={(h - f) * 0.1} fill="#7fd665" opacity={0.7} />
@@ -192,15 +212,21 @@ export const Meadow: React.FC<SetProps & { sun?: boolean; rainbow?: boolean; lif
       {/* tree — the canopy sways gently */}
       {tree && (
         <g transform={`translate(${w * 0.1},${f - h * 0.05})`}>
-          <rect x={-26} y={-260} width={52} height={260} rx={14} fill="#a0673c" {...kst(6)} />
+          <Vol kind="tube">
+            <rect x={-26} y={-260} width={52} height={260} rx={14} fill="#a0673c" {...kst(6)} />
+          </Vol>
           <g transform={`rotate(${Math.sin(t * 0.8) * 1.6} 0 -200)`}>
-            {[[-80, -300], [0, -360], [80, -300], [-40, -230], [50, -230]].map(([cx, cy], i) => (
-              <circle key={i} cx={cx} cy={cy} r={95} fill="#55b84a" {...kst(6)} />
-            ))}
+            <Vol>
+              {[[-80, -300], [0, -360], [80, -300], [-40, -230], [50, -230]].map(([cx, cy], i) => (
+                <circle key={i} cx={cx} cy={cy} r={95} fill="#55b84a" {...kst(6)} />
+              ))}
+            </Vol>
             <ellipse cx={-30} cy={-400} rx={50} ry={24} fill="#ffffff" opacity={0.22} />
             {[[-40, -300], [40, -340], [70, -250], [-90, -250]].map(([cx, cy], i) => (
               <g key={i}>
-                <circle cx={cx} cy={cy} r={14} fill="#ff4d6d" {...kst(4)} />
+                <Vol>
+                  <circle cx={cx} cy={cy} r={14} fill="#ff4d6d" {...kst(4)} />
+                </Vol>
                 <circle cx={cx - 4} cy={cy - 4} r={4} fill="#ffffff" opacity={0.8} />
               </g>
             ))}
@@ -231,20 +257,28 @@ export const Classroom: React.FC<SetProps & { board?: string[]; boardColor?: str
   const bh = h * (h > 1400 ? 0.24 : 0.42);
   return (
     <g>
+      <K3DDefs />
       <rect width={w} height={f} fill="#ffe8b8" />
+      {KIDS_3D && <rect width={w} height={f} fill="url(#k3d-room)" />}
       <rect y={f - 120} width={w} height={120} fill="#ffd38a" />
       {/* alphabet bunting */}
       {Array.from({ length: Math.floor(w / 90) }).map((_, i) => (
         <g key={i} transform={`translate(${30 + i * 90},${h * 0.04 + Math.sin(i) * 8})`}>
-          <path d="M 0,0 L 70,0 L 35,70 Z" fill={['#ff6b6b', '#4dabf7', '#ffd43b', '#69db7c', '#b197fc'][i % 5]} {...kst(5)} />
+          <Vol>
+            <path d="M 0,0 L 70,0 L 35,70 Z" fill={['#ff6b6b', '#4dabf7', '#ffd43b', '#69db7c', '#b197fc'][i % 5]} {...kst(5)} />
+          </Vol>
           <text x={35} y={36} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={30} fill={KINK}>
             {String.fromCharCode(65 + (i % 26))}
           </text>
         </g>
       ))}
       {/* chalkboard */}
-      <rect x={bx - 24} y={by - 24} width={bw + 48} height={bh + 48} rx={20} fill="#c0874f" {...kst(7)} />
+      {KIDS_3D && <rect x={bx - 10} y={by + 6} width={bw + 48} height={bh + 48} rx={20} fill="#24123a" opacity={0.14} />}
+      <Vol kind="slope">
+        <rect x={bx - 24} y={by - 24} width={bw + 48} height={bh + 48} rx={20} fill="#c0874f" {...kst(7)} />
+      </Vol>
       <rect x={bx} y={by} width={bw} height={bh} rx={10} fill="#2f6b52" {...kst(6)} />
+      {KIDS_3D && <rect x={bx} y={by} width={bw} height={bh} rx={10} fill="url(#k3d-board)" />}
       {board.map((l, i) => (
         <text key={i} x={w / 2} y={by + bh * ((i + 1) / (board.length + 1)) + 30} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={Math.min(110, bh / (board.length + 1))} fill={boardColor}>
           {l}
@@ -254,6 +288,7 @@ export const Classroom: React.FC<SetProps & { board?: string[]; boardColor?: str
       {Array.from({ length: Math.ceil(w / 160) }).map((_, i) => (
         <line key={i} x1={i * 160} y1={f} x2={i * 160 - 60} y2={h} stroke="#c48a52" strokeWidth={6} />
       ))}
+      {KIDS_3D && <rect x={0} y={f} width={w} height={h - f} fill="url(#k3d-floor)" />}
       <line x1={0} y1={f} x2={w} y2={f} {...kst(7)} />
     </g>
   );
@@ -265,11 +300,15 @@ export const Bedroom: React.FC<SetProps & { lamp?: boolean }> = ({ w = 1080, h =
   const wy = h * 0.14;
   return (
     <g>
+      <K3DDefs />
       <rect width={w} height={f} fill="#3d3577" />
+      {KIDS_3D && <rect width={w} height={f} fill="url(#k3d-room)" />}
       <rect y={f - 140} width={w} height={140} fill="#352e69" />
       {/* window with moon + stars */}
       <rect x={wx} y={wy} width={w * 0.3} height={h * 0.22} rx={20} fill="#1d2156" {...kst(7)} />
-      <circle cx={wx + w * 0.2} cy={wy + h * 0.07} r={46} fill="#fff3b0" />
+      <Vol>
+        <circle cx={wx + w * 0.2} cy={wy + h * 0.07} r={46} fill="#fff3b0" />
+      </Vol>
       <circle cx={wx + w * 0.2 + 22} cy={wy + h * 0.07 - 12} r={42} fill="#1d2156" />
       {[0, 1, 2, 3, 4].map((i) => (
         <circle key={i} cx={wx + 30 + i * (w * 0.055)} cy={wy + 40 + (i % 2) * 90 + 60} r={5 + 2 * Math.sin(t * 2 + i)} fill="#ffffff" />
@@ -282,12 +321,20 @@ export const Bedroom: React.FC<SetProps & { lamp?: boolean }> = ({ w = 1080, h =
       {lamp && <ellipse cx={w * 0.15} cy={f - 220} rx={260} ry={200} fill="#ffd166" opacity={0.18} />}
       {/* bed */}
       <g transform={`translate(${w * 0.5},${f})`}>
-        <rect x={-w * 0.36} y={-170} width={w * 0.72} height={150} rx={30} fill="#8ecae6" {...kst(7)} />
-        <rect x={-w * 0.36} y={-260} width={40} height={260} rx={12} fill="#c0874f" {...kst(7)} />
-        <rect x={w * 0.36 - 40} y={-200} width={40} height={200} rx={12} fill="#c0874f" {...kst(7)} />
-        <ellipse cx={-w * 0.24} cy={-180} rx={90} ry={44} fill="#ffffff" {...kst(6)} />
+        {KIDS_3D && <ellipse cx={0} cy={0} rx={w * 0.42} ry={30} fill="url(#k3d-ground)" />}
+        <Vol kind="slope">
+          <rect x={-w * 0.36} y={-170} width={w * 0.72} height={150} rx={30} fill="#8ecae6" {...kst(7)} />
+        </Vol>
+        <Vol kind="tube">
+          <rect x={-w * 0.36} y={-260} width={40} height={260} rx={12} fill="#c0874f" {...kst(7)} />
+          <rect x={w * 0.36 - 40} y={-200} width={40} height={200} rx={12} fill="#c0874f" {...kst(7)} />
+        </Vol>
+        <Vol>
+          <ellipse cx={-w * 0.24} cy={-180} rx={90} ry={44} fill="#ffffff" {...kst(6)} />
+        </Vol>
       </g>
       <rect x={0} y={f} width={w} height={h - f} fill="#5a4b8a" />
+      {KIDS_3D && <rect x={0} y={f} width={w} height={h - f} fill="url(#k3d-floor)" />}
       <line x1={0} y1={f} x2={w} y2={f} {...kst(7)} />
     </g>
   );
@@ -303,6 +350,7 @@ export const Space: React.FC<SetProps> = ({ w = 1080, h = 1920, t = 0 }) => {
           <stop offset="1" stopColor="#4b2c83" />
         </linearGradient>
       </defs>
+      <K3DDefs />
       <rect width={w} height={h} fill="url(#kSpace)" />
       {Array.from({ length: 40 }).map((_, i) => {
         const x = (i * 263) % w;
@@ -323,13 +371,24 @@ export const Space: React.FC<SetProps> = ({ w = 1080, h = 1920, t = 0 }) => {
         );
       })()}
       <g transform={`translate(${w * 0.78},${h * 0.18})`}>
-        <circle r={90} fill="#ff9f43" {...kst(7)} />
+        <Vol>
+          <circle r={90} fill="#ff9f43" {...kst(7)} />
+        </Vol>
         <ellipse rx={150} ry={32} fill="none" stroke="#ffd166" strokeWidth={14} transform="rotate(-18)" />
       </g>
-      <circle cx={w * 0.2} cy={h * 0.3} r={50} fill="#4dabf7" {...kst(6)} />
-      <path d={`M 0,${f} Q ${w / 2},${f - 90} ${w},${f} L ${w},${h} L 0,${h} Z`} fill="#b8b8d1" {...kst(7)} />
+      <Vol>
+        <circle cx={w * 0.2} cy={h * 0.3} r={50} fill="#4dabf7" {...kst(6)} />
+      </Vol>
+      <Vol kind="slope">
+        <path d={`M 0,${f} Q ${w / 2},${f - 90} ${w},${f} L ${w},${h} L 0,${h} Z`} fill="#b8b8d1" {...kst(7)} />
+      </Vol>
+      {/* craters are dents: light on the far rim, shadow on the near one (the ball shading flipped) */}
       {[[0.2, 60, 40], [0.55, 110, 30], [0.85, 70, 50]].map(([cx, dy, r], i) => (
-        <ellipse key={i} cx={w * cx} cy={f + dy} rx={r} ry={r * 0.45} fill="#9c9cbd" {...kst(5)} />
+        <g key={i} transform={`rotate(180 ${w * cx} ${f + dy})`}>
+          <Vol>
+            <ellipse cx={w * cx} cy={f + dy} rx={r} ry={r * 0.45} fill="#9c9cbd" {...kst(5)} />
+          </Vol>
+        </g>
       ))}
     </g>
   );
@@ -345,6 +404,7 @@ export const Underwater: React.FC<SetProps & { life?: boolean }> = ({ w = 1080, 
           <stop offset="1" stopColor="#0077b6" />
         </linearGradient>
       </defs>
+      <K3DDefs />
       <rect width={w} height={h} fill="url(#kSea)" />
       {Array.from({ length: 6 }).map((_, i) => (
         <path key={i} d={`M ${w * (0.1 + i * 0.17)},0 L ${w * (0.05 + i * 0.17)},${h * 0.6} L ${w * (0.15 + i * 0.17)},${h * 0.6} Z`} fill="#ffffff" opacity={0.06} />
@@ -355,6 +415,7 @@ export const Underwater: React.FC<SetProps & { life?: boolean }> = ({ w = 1080, 
       })}
       <rect x={0} y={f} width={w} height={h - f} fill="#f4d58d" />
       <path d={`M 0,${f} Q ${w * 0.25},${f - 30} ${w * 0.5},${f} T ${w},${f}`} fill="#f4d58d" {...kst(6)} />
+      {KIDS_3D && <rect x={0} y={f} width={w} height={h - f} fill="url(#k3d-floor)" />}
       {[0.08, 0.3, 0.72, 0.92].map((sx, i) => (
         <path key={i} d={`M ${w * sx},${f} q ${-30 + Math.sin(t + i) * 10},-80 0,-160 q ${30 + Math.sin(t + i) * 10},-80 0,-160`} fill="none" stroke="#2a9d8f" strokeWidth={22} strokeLinecap="round" />
       ))}
@@ -367,8 +428,10 @@ export const Underwater: React.FC<SetProps & { life?: boolean }> = ({ w = 1080, 
         const c = ['#ff924c', '#ffca3a', '#ff6fa5'][i];
         return (
           <g key={i} transform={`translate(${x},${y}) scale(${dir * 0.8},0.8)`}>
-            <path d={`M -40,0 L -70,${-22 + Math.sin(t * 8 + i) * 6} L -70,${22 + Math.sin(t * 8 + i) * 6} Z`} fill={c} {...kst(5)} />
-            <ellipse cx={0} cy={0} rx={48} ry={30} fill={c} {...kst(5)} />
+            <Vol>
+              <path d={`M -40,0 L -70,${-22 + Math.sin(t * 8 + i) * 6} L -70,${22 + Math.sin(t * 8 + i) * 6} Z`} fill={c} {...kst(5)} />
+              <ellipse cx={0} cy={0} rx={48} ry={30} fill={c} {...kst(5)} />
+            </Vol>
             <circle cx={22} cy={-6} r={8} fill="#ffffff" {...kst(3)} />
             <circle cx={24} cy={-6} r={4} fill={KINK} />
             <path d="M 34,10 Q 40,14 44,8" fill="none" {...kst(3)} />
@@ -383,20 +446,30 @@ export const Forest: React.FC<SetProps> = ({ w = 1080, h = 1920, t = 0 }) => {
   const f = FLOOR(h);
   return (
     <g>
+      <K3DDefs />
       <rect width={w} height={h} fill="#c7f0d8" />
       {Array.from({ length: Math.ceil(w / 220) + 1 }).map((_, i) => (
         <g key={i} transform={`translate(${i * 220 - 40},${f - 60})`}>
-          <rect x={-22} y={-200} width={44} height={200} fill="#8d5a3b" {...kst(6)} />
-          <path d="M -130,-160 L 0,-520 L 130,-160 Z" fill={i % 2 ? '#2d9a5a' : '#38b26b'} {...kst(6)} />
-          <path d="M -110,-320 L 0,-620 L 110,-320 Z" fill={i % 2 ? '#38b26b' : '#2d9a5a'} {...kst(6)} />
+          <Vol kind="tube">
+            <rect x={-22} y={-200} width={44} height={200} fill="#8d5a3b" {...kst(6)} />
+          </Vol>
+          <Vol kind="tube">
+            <path d="M -130,-160 L 0,-520 L 130,-160 Z" fill={i % 2 ? '#2d9a5a' : '#38b26b'} {...kst(6)} />
+            <path d="M -110,-320 L 0,-620 L 110,-320 Z" fill={i % 2 ? '#38b26b' : '#2d9a5a'} {...kst(6)} />
+          </Vol>
         </g>
       ))}
       <rect x={0} y={f} width={w} height={h - f} fill="#7cc576" />
+      {KIDS_3D && <rect x={0} y={f} width={w} height={h - f} fill="url(#k3d-floor)" />}
       <line x1={0} y1={f} x2={w} y2={f} {...kst(7)} />
       {[0.15, 0.6, 0.88].map((sx, i) => (
         <g key={i} transform={`translate(${w * sx},${f + 90 + i * 30})`}>
-          <rect x={-14} y={-50} width={28} height={50} rx={10} fill="#fff4e0" {...kst(5)} />
-          <path d="M -50,-46 Q 0,-110 50,-46 Z" fill="#ff595e" {...kst(5)} />
+          <Vol kind="tube">
+            <rect x={-14} y={-50} width={28} height={50} rx={10} fill="#fff4e0" {...kst(5)} />
+          </Vol>
+          <Vol>
+            <path d="M -50,-46 Q 0,-110 50,-46 Z" fill="#ff595e" {...kst(5)} />
+          </Vol>
           <circle cx={-14} cy={-70} r={8} fill="#ffffff" />
           <circle cx={16} cy={-62} r={6} fill="#ffffff" />
         </g>

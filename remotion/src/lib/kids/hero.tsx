@@ -4,6 +4,7 @@
 // Titans…) — trademark claims + YouTube's "Made for Kids" policy on famous characters.
 import React from 'react';
 import { KINK, kst } from './face';
+import { Vol } from './depth';
 
 export type Emblem = 'spark' | 'star' | 'honey' | 'gear' | 'heart' | 'moon';
 export type HeroLook = {
@@ -45,33 +46,41 @@ export const Cape: React.FC<{ look: HeroLook; frame: number; top: number; bottom
   const hem = bottom - lift * 0.5;
   const d = `M ${-half * 0.55},${top} Q 0,${top - 14} ${half * 0.55},${top} L ${half + sway},${hem} Q ${sway * 0.5 + half * 0.5},${hem + 24} ${sway * 0.3},${hem - 4} Q ${-half * 0.5 + sway * 0.2},${hem + 24} ${-half + sway},${hem} Z`;
   return (
-    <g>
+    <Vol shape={<path d={d} />}>
       <path d={d} fill={look.cape} {...kst(8)} />
       <path d={`M ${-half * 0.4},${top + 30} Q 0,${top + 18} ${half * 0.4},${top + 30} L ${half * 0.7 + sway},${hem - 30} L ${-half * 0.7 + sway},${hem - 30} Z`} fill={look.capeIn ?? look.cape} opacity={0.45} />
-    </g>
+    </Vol>
   );
 };
 
 // domino mask across the eyes (drawn UNDER the eyes so they stay visible)
 export const Mask: React.FC<{ color: string; y: number; dx: number; r: number }> = ({ color, y, dx, r }) => (
-  <path
-    d={`M ${-dx - r * 1.7},${y - r * 0.2} Q ${-dx},${y - r * 1.55} ${-r * 0.2},${y - r * 0.55} Q 0,${y - r * 0.35} ${r * 0.2},${y - r * 0.55} Q ${dx},${y - r * 1.55} ${dx + r * 1.7},${y - r * 0.2} Q ${dx + r * 0.9},${y + r * 1.45} ${r * 0.3},${y + r * 0.55} Q 0,${y + r * 0.75} ${-r * 0.3},${y + r * 0.55} Q ${-dx - r * 0.9},${y + r * 1.45} ${-dx - r * 1.7},${y - r * 0.2} Z`}
-    fill={color}
-    {...kst(7)}
-  />
+  <Vol>
+    <path
+      d={`M ${-dx - r * 1.7},${y - r * 0.2} Q ${-dx},${y - r * 1.55} ${-r * 0.2},${y - r * 0.55} Q 0,${y - r * 0.35} ${r * 0.2},${y - r * 0.55} Q ${dx},${y - r * 1.55} ${dx + r * 1.7},${y - r * 0.2} Q ${dx + r * 0.9},${y + r * 1.45} ${r * 0.3},${y + r * 0.55} Q 0,${y + r * 0.75} ${-r * 0.3},${y + r * 0.55} Q ${-dx - r * 0.9},${y + r * 1.45} ${-dx - r * 1.7},${y - r * 0.2} Z`}
+      fill={color}
+      {...kst(7)}
+    />
+  </Vol>
 );
 
 export const ChestBadge: React.FC<{ look: HeroLook; x?: number; y: number; r?: number }> = ({ look, x = 0, y, r = 46 }) => (
   <g transform={`translate(${x},${y})`}>
-    <circle r={r} fill={look.emblemColor} {...kst(7)} />
+    <Vol>
+      <circle r={r} fill={look.emblemColor} {...kst(7)} />
+    </Vol>
     <g transform={`scale(${r / 46})`}><EmblemIcon kind={look.emblem} ink={look.emblemInk ?? '#ffffff'} /></g>
   </g>
 );
 
 export const Belt: React.FC<{ color: string; y: number; half: number }> = ({ color, y, half }) => (
   <g>
-    <rect x={-half} y={y - 14} width={half * 2} height={28} rx={10} fill={color} {...kst(6)} />
-    <rect x={-20} y={y - 18} width={40} height={36} rx={8} fill="#ffd166" {...kst(5)} />
+    <Vol kind="slope">
+      <rect x={-half} y={y - 14} width={half * 2} height={28} rx={10} fill={color} {...kst(6)} />
+    </Vol>
+    <Vol>
+      <rect x={-20} y={y - 18} width={40} height={36} rx={8} fill="#ffd166" {...kst(5)} />
+    </Vol>
   </g>
 );
 void KINK;

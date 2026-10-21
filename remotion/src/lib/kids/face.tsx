@@ -2,6 +2,7 @@
 // character on a kids channel emotes the same way. Big glossy eyes + rosy cheeks + a soft ink
 // (not black) outline: the "preschool cartoon" look that reads at phone size.
 import React from 'react';
+import { KIDS_3D } from './depth';
 
 export const KINK = '#3b2a4a'; // soft plum ink — friendlier than black
 export const kst = (w = 8) => ({ stroke: KINK, strokeWidth: w, strokeLinejoin: 'round' as const, strokeLinecap: 'round' as const });
@@ -94,6 +95,7 @@ const Eye: React.FC<{ x: number; y: number; r: number; look: [number, number]; l
         {/* glossy iris: a lighter lower crescent + pupil + three highlights (the "sparkly toon eye") */}
         <ellipse cx={px} cy={py + r * 0.44} rx={r * 0.46} ry={r * 0.22} fill="#ffffff" opacity={0.28} />
         <circle cx={px} cy={py + r * 0.1} r={r * 0.36} fill="#1d1426" />
+        {KIDS_3D && <ellipse cx={x} cy={y} rx={rx} ry={ry} fill="url(#k3d-eye)" />}
         <circle cx={px - r * 0.2} cy={py - r * 0.2} r={r * 0.24} fill="#ffffff" />
         <circle cx={px + r * 0.24} cy={py + r * 0.3} r={r * 0.1} fill="#ffffff" />
         <circle cx={px + r * 0.12} cy={py - r * 0.34} r={r * 0.07} fill="#ffffff" opacity={0.85} />
@@ -135,8 +137,17 @@ export const Face: React.FC<FaceProps> = ({
     <g>
       {cheeks && (
         <g>
-          <ellipse cx={-eyeDX - 18} cy={eyeY + 52} rx={32} ry={19} fill="#ff8fab" opacity={0.68} />
-          <ellipse cx={eyeDX + 18} cy={eyeY + 52} rx={32} ry={19} fill="#ff8fab" opacity={0.68} />
+          {KIDS_3D ? (
+            <>
+              <ellipse cx={-eyeDX - 18} cy={eyeY + 52} rx={46} ry={28} fill="url(#k3d-blush)" />
+              <ellipse cx={eyeDX + 18} cy={eyeY + 52} rx={46} ry={28} fill="url(#k3d-blush)" />
+            </>
+          ) : (
+            <>
+              <ellipse cx={-eyeDX - 18} cy={eyeY + 52} rx={32} ry={19} fill="#ff8fab" opacity={0.68} />
+              <ellipse cx={eyeDX + 18} cy={eyeY + 52} rx={32} ry={19} fill="#ff8fab" opacity={0.68} />
+            </>
+          )}
           <circle cx={-eyeDX - 28} cy={eyeY + 46} r={5} fill="#ffffff" opacity={0.7} />
           <circle cx={eyeDX + 8} cy={eyeY + 46} r={5} fill="#ffffff" opacity={0.7} />
         </g>

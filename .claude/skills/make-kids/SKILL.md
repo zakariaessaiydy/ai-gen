@@ -31,6 +31,8 @@ remotion/src/lib/kids/
   sets.tsx        Meadow(smiling Sun, drifting clouds) · Classroom(board lines) · Bedroom(night,
                   moon, glow stars) · Space · Underwater(bubbles) · Forest — every set takes (w,h,t)
                   so ONE set serves 1080x1920 AND 1920x1080; stand characters on FLOOR(h)
+  depth.tsx       the 3D LOOK: <Vol> (shades shapes as lit volumes + thins their outline), <Ground>
+                  (soft contact shadow), <AO> (occlusion), K3DDefs (gradients) · KIDS_3D switch
   kit.tsx         KidsStage(any size camera) · KidsCaptions(word-by-word, big) · PopText(the ONE
                   thing being taught) · CountRow(objects pop in with rainbow number badges) ·
                   Confetti(reward) · ThinkTimer(3-2-1 pause ring) · AnswerMark(✓/✗) · WordCard
@@ -88,6 +90,31 @@ Model sheet: `kids-shorts/tiny-sparks/channel/tiny-sparks-heroes.png`.
 colour scheme): trademark/copyright claims + YouTube's Made-for-Kids crackdown on famous characters can
 demonetise or remove the channel. New heroes = new original emblems/colours.
 
+## 3D LOOK — soft "vinyl toy" volumes (user request after Day 33: "make the kids videos 3D")
+
+The channel's look is now 3D-shaded, done INSIDE the kit, so every episode (old and new) gets it with no
+episode changes and no extra render time (measured: 300 frames 32 s flat → 33 s 3D):
+- **`lib/kids/depth.tsx`**: `<Vol>` wraps solid shapes and draws them as lit volumes — a specular hot
+  spot top-left, the base colour, a cool plum core shadow bottom-right, a bounce on the rim — and thins
+  their ink outline to 62 % (CG has no thick line). `kind="tube"` for arms/legs/stems/trunks,
+  `kind="slope"` for hills/belts/big flat things, `tone="skin"` for warm skin shadows, `shape={…}` when
+  the group has inner details (stripes, a badge) that should sit under ONE shading of the silhouette.
+  `<Ground>` = soft contact shadow, `<AO>` = soft dark where volumes touch (chin on chest/tummy).
+- Already applied: Kid (head, ears, hair, torso, limbs as tubes, hands, shoes, bow), Critter (head, ears,
+  mane, muzzle, nose, body, belly, feet, arms/wings, tail, hats, scarf, turtle shell), Fish, hero
+  outfits (cape, mask, badge, belt), Face (lid shadow on the eyeballs, soft gradient blush), all 6 sets
+  (shaded hills + haze on the far hill, floor/wall light falloff, puffy clouds, glossy sun, spherical
+  tree canopy/bushes/flowers, cone trees, shaded planets/craters, bed, fish) and the props Apple, Star,
+  Balloon, Ball. Captions and teaching UI (PopText, WordCard, ThinkTimer) stay flat on purpose: they are
+  graphics ON the screen, not objects IN the world.
+- **New props / one-off objects drawn in an episode: wrap the solid shapes in `<Vol>`** (import from
+  `lib/kids/depth`), or they will look like flat stickers in a 3D world. Line art (mouths, whiskers,
+  grass strokes) stays outside. A `<line>` can't be shaded (zero-width box) — draw limbs/sticks as
+  rounded `<rect>`s. Light comes from the TOP-LEFT: put any hand-drawn highlight there.
+- `KIDS_3D = false` in depth.tsx brings back the flat 2D look everywhere (one switch, nothing else).
+- Real 3D (three.js / `@remotion/three`) or AI-video 3D would mean rebuilding every rig + all 800
+  calendar episodes — this kit-level shading was chosen because it keeps the whole pipeline.
+
 ## ALIVE BY DEFAULT — characters + sets animate themselves (user request after Day 25: "more attractive")
 The kit now does the "cute" work automatically — don't fight it, build on it:
 - **Characters (`Kid`, `Critter`):** glossy 3-highlight eyes, brighter blush with a shine dot, hair/fur
@@ -140,8 +167,9 @@ Kids need silent time to hear, look and repeat. Every episode's packing MUST use
 3. **Gentle motion.** Eases, bounces and pops; slow push-ins. No whip pans, no shake bigger than
    a giggle, **no flashing** (never > 3 flashes/s, never a full-screen white flash), no
    strobing backgrounds. Cuts every 3–6 s in Shorts, 5–10 s in long videos.
-4. **Bright, warm, round.** RAINBOW palette, pastel skies, soft plum outlines (never black),
-   rounded shapes only. Night scenes are cosy purple, never dark/scary.
+4. **Bright, warm, round — and 3D-shaded.** RAINBOW palette, pastel skies, soft thin plum outlines
+   (never black), rounded shapes only, every solid object a lit volume (`<Vol>`, see 3D LOOK).
+   Night scenes are cosy purple, never dark/scary.
 5. **Repetition is a feature.** Say the key word 3 times (rule of three), repeat the song
    chorus, reuse the same intro sting and the same reward (Confetti + "Yay!").
 6. **Interaction pauses.** Ask, then WAIT: a 2–3 s `ThinkTimer` gap with a character looking at

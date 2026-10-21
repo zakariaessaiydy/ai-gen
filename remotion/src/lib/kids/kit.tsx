@@ -7,6 +7,7 @@ import { AbsoluteFill, useVideoConfig } from 'remotion';
 import { EASE_OUT, prog, timeWords, type VoLine } from '../shorts';
 import { FONT_TOON, type Cam } from '../toon/comedy';
 import { KINK, kst } from './face';
+import { K3DDefs, Vol } from './depth';
 
 export { camAt, lipSync, talking, useT, Cut, type CamKey } from '../toon/comedy';
 export { FONT_TOON };
@@ -31,6 +32,7 @@ export const KidsStage: React.FC<{ cam: Cam; children: React.ReactNode; bg?: str
   return (
     <AbsoluteFill style={{ background: bg }}>
       <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} style={{ position: 'absolute', inset: 0 }}>
+        <K3DDefs />
         <g transform={`translate(${W / 2 - cx * z},${H / 2 - cy * z}) scale(${z}) rotate(${cam.rot} ${cx} ${cy})`}>{children}</g>
       </svg>
     </AbsoluteFill>
@@ -295,20 +297,28 @@ export const Bubble: React.FC<{ x: number; y: number; w: number; h: number; tx: 
 // simple friendly objects for counting / vocabulary (origin = centre, ~160px)
 export const Apple: React.FC<{ c?: string }> = ({ c = '#ff595e' }) => (
   <g>
-    <path d="M 0,-50 Q -70,-90 -76,0 Q -70,80 0,70 Q 70,80 76,0 Q 70,-90 0,-50 Z" fill={c} {...kst(7)} />
+    <Vol>
+      <path d="M 0,-50 Q -70,-90 -76,0 Q -70,80 0,70 Q 70,80 76,0 Q 70,-90 0,-50 Z" fill={c} {...kst(7)} />
+    </Vol>
     <path d="M 0,-50 Q 6,-80 20,-92" fill="none" {...kst(7)} />
-    <path d="M 10,-70 Q 50,-100 60,-66 Q 30,-50 10,-70 Z" fill="#8ac926" {...kst(5)} />
+    <Vol>
+      <path d="M 10,-70 Q 50,-100 60,-66 Q 30,-50 10,-70 Z" fill="#8ac926" {...kst(5)} />
+    </Vol>
     <ellipse cx={-30} cy={-20} rx={14} ry={22} fill="#ffffff" opacity={0.5} />
   </g>
 );
 export const Star: React.FC<{ c?: string; s?: number }> = ({ c = '#ffd166', s = 1 }) => (
-  <path d="M 0,-80 L 23,-27 L 80,-25 L 36,12 L 51,70 L 0,37 L -51,70 L -36,12 L -80,-25 L -23,-27 Z" fill={c} {...kst(7)} transform={`scale(${s})`} />
+  <Vol>
+    <path d="M 0,-80 L 23,-27 L 80,-25 L 36,12 L 51,70 L 0,37 L -51,70 L -36,12 L -80,-25 L -23,-27 Z" fill={c} {...kst(7)} transform={`scale(${s})`} />
+  </Vol>
 );
 export const Balloon: React.FC<{ c?: string }> = ({ c = '#4cc9f0' }) => (
   <g>
     <path d="M 0,70 Q -10,110 6,150" fill="none" stroke={KINK} strokeWidth={5} />
-    <ellipse cx={0} cy={0} rx={62} ry={74} fill={c} {...kst(7)} />
-    <path d="M -8,72 L 8,72 L 0,62 Z" fill={c} {...kst(5)} />
+    <Vol>
+      <ellipse cx={0} cy={0} rx={62} ry={74} fill={c} {...kst(7)} />
+      <path d="M -8,72 L 8,72 L 0,62 Z" fill={c} {...kst(5)} />
+    </Vol>
     <ellipse cx={-22} cy={-26} rx={12} ry={20} fill="#ffffff" opacity={0.5} />
   </g>
 );
@@ -324,6 +334,10 @@ export const Ball: React.FC<{ r?: number; rot?: number; colors?: string[] }> = (
     })}
     <circle r={r} fill="none" {...kst(7)} />
     <circle r={r * 0.18} fill="#ffffff" {...kst(5)} />
+    {/* the ball's light stays put while it rolls: shade it un-rotated */}
+    <g transform={`rotate(${-rot})`}>
+      <Vol shape={<circle r={r} />}>{null}</Vol>
+    </g>
     <ellipse cx={-r * 0.35} cy={-r * 0.4} rx={r * 0.18} ry={r * 0.1} fill="#ffffff" opacity={0.7} transform={`rotate(${-rot})`} />
   </g>
 );

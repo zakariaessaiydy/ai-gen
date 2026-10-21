@@ -6,6 +6,7 @@ import React from 'react';
 import { useCurrentFrame } from 'remotion';
 import { Face, HeadSparkles, KINK, idleMotion, kst, type KExpr } from './face';
 import { Belt, Cape, ChestBadge, Mask, type HeroLook } from './hero';
+import { AO, Ground, K3DDefs, Vol } from './depth';
 
 export type KidSpec = {
   id: string;
@@ -64,6 +65,8 @@ const SH_Y = -372; // shoulder height
 const SH_X = 74;
 const HEAD_Y = -560;
 const deg = Math.PI / 180;
+const DRESS = 'M -80,-400 Q 0,-418 80,-400 L 150,-150 Q 0,-118 -150,-150 Z';
+const TEE = 'M -84,-402 Q 0,-418 84,-402 Q 112,-330 100,-160 Q 0,-140 -100,-160 Q -112,-330 -84,-402 Z';
 
 const hashStr = (s: string) => {
   let h = 0;
@@ -122,13 +125,18 @@ const armAngles = (pose: KArm, frame: number): [number, number] => {
 // a mitten hand, or a hand showing N raised fingers (always drawn upright in world space)
 const Hand: React.FC<{ skin: string; fingers: number; rot: number }> = ({ skin, fingers, rot }) => (
   <g transform={`rotate(${-rot})`}>
-    {fingers > 0 &&
-      Array.from({ length: Math.min(5, fingers) }).map((_, i) => {
-        const n = Math.min(5, fingers);
-        const a = (i - (n - 1) / 2) * 20;
-        return <rect key={i} x={-9} y={-70} width={18} height={50} rx={9} fill={skin} {...kst(6)} transform={`rotate(${a})`} />;
-      })}
-    <circle cx={0} cy={0} r={28} fill={skin} {...kst(7)} />
+    {fingers > 0 && (
+      <Vol kind="tube" tone="skin">
+        {Array.from({ length: Math.min(5, fingers) }).map((_, i) => {
+          const n = Math.min(5, fingers);
+          const a = (i - (n - 1) / 2) * 20;
+          return <rect key={i} x={-9} y={-70} width={18} height={50} rx={9} fill={skin} {...kst(6)} transform={`rotate(${a})`} />;
+        })}
+      </Vol>
+    )}
+    <Vol tone="skin">
+      <circle cx={0} cy={0} r={28} fill={skin} {...kst(7)} />
+    </Vol>
   </g>
 );
 
@@ -138,12 +146,17 @@ const Arm: React.FC<{ spec: KidSpec; pose: KArm; mirror: boolean; frame: number;
   const showFingers = fingers || (pose === 'count' ? 0 : 0);
   return (
     <g transform={`${mirror ? 'scale(-1,1) ' : ''}translate(${-SH_X},${SH_Y}) rotate(${a1})`}>
-      <line x1={0} y1={0} x2={0} y2={U} stroke={KINK} strokeWidth={46} strokeLinecap="round" />
-      <line x1={0} y1={0} x2={0} y2={U} stroke={spec.skin} strokeWidth={32} strokeLinecap="round" />
-      <path d={`M -24,-6 L 24,-6 L 22,${U * 0.55} L -22,${U * 0.55} Z`} fill={sleeve} {...kst(7)} />
+      {/* limbs are rounded rects, not thick lines: a line has a zero-width box, so it can't take a gradient */}
+      <Vol kind="tube" tone="skin">
+        <rect x={-19.5} y={-19.5} width={39} height={U + 39} rx={19.5} fill={spec.skin} stroke={KINK} strokeWidth={7} />
+      </Vol>
+      <Vol>
+        <path d={`M -24,-6 L 24,-6 L 22,${U * 0.55} L -22,${U * 0.55} Z`} fill={sleeve} {...kst(7)} />
+      </Vol>
       <g transform={`translate(0,${U}) rotate(${a2})`}>
-        <line x1={0} y1={0} x2={0} y2={F} stroke={KINK} strokeWidth={44} strokeLinecap="round" />
-        <line x1={0} y1={0} x2={0} y2={F} stroke={spec.skin} strokeWidth={30} strokeLinecap="round" />
+        <Vol kind="tube" tone="skin">
+          <rect x={-18.5} y={-18.5} width={37} height={F + 37} rx={18.5} fill={spec.skin} stroke={KINK} strokeWidth={7} />
+        </Vol>
         <g transform={`translate(0,${F + 6})${mirror ? ' scale(-1,1)' : ''}`}>
           <Hand skin={spec.skin} fingers={showFingers} rot={(mirror ? -1 : 1) * (a1 + a2)} />
           {hold && <g transform={`rotate(${-(mirror ? -1 : 1) * (a1 + a2)})`}>{hold}</g>}
@@ -225,14 +238,20 @@ export const Kid: React.FC<KidProps> = ({
     if (legs === 'sit')
       return (
         <g key={side}>
-          <rect x={side * 40 - 36} y={-60} width={72} height={60} rx={30} fill={pantsLegs} {...kst()} />
-          <ellipse cx={side * 52} cy={-2} rx={52} ry={34} fill={spec.shoes} {...kst()} />
+          <Vol>
+            <rect x={side * 40 - 36} y={-60} width={72} height={60} rx={30} fill={pantsLegs} {...kst()} />
+            <ellipse cx={side * 52} cy={-2} rx={52} ry={34} fill={spec.shoes} {...kst()} />
+          </Vol>
         </g>
       );
     return (
       <g key={side} transform={`translate(${side * 46 + swing},${-lift})`}>
-        <rect x={-34} y={-176} width={68} height={150} rx={30} fill={pantsLegs} {...kst()} />
-        <path d={`M ${-44 + side * 14},-4 Q ${-50 + side * 14},-62 ${side * 14},-62 Q ${50 + side * 14},-62 ${44 + side * 14},-4 Z`} fill={spec.shoes} {...kst()} />
+        <Vol kind="tube" tone={spec.top === 'dress' ? 'skin' : undefined}>
+          <rect x={-34} y={-176} width={68} height={150} rx={30} fill={pantsLegs} {...kst()} />
+        </Vol>
+        <Vol>
+          <path d={`M ${-44 + side * 14},-4 Q ${-50 + side * 14},-62 ${side * 14},-62 Q ${50 + side * 14},-62 ${44 + side * 14},-4 Z`} fill={spec.shoes} {...kst()} />
+        </Vol>
         <path d={`M ${-40 + side * 14},-14 L ${40 + side * 14},-14`} stroke="#ffffff" strokeWidth={10} strokeLinecap="round" opacity={0.85} />
       </g>
     );
@@ -248,58 +267,76 @@ export const Kid: React.FC<KidProps> = ({
   const aL = <Arm spec={spec} pose={armL} mirror={false} frame={frame} fingers={fingerL} hold={holdL} />;
   const aR = <Arm spec={spec} pose={armR} mirror frame={frame} fingers={fingersR} hold={holdR} />;
 
+  // the chin's soft shadow on the chest (clipped to the top, so it never smudges the background)
+  const chinAO = (d: string) => (
+    <g clipPath={`url(#kao-${spec.id})`}>
+      <clipPath id={`kao-${spec.id}`}>
+        <path d={d} />
+      </clipPath>
+      <AO cx={0} cy={-404 + im.nod} rx={150} ry={56} />
+    </g>
+  );
+
   const torso = () => {
     if (spec.top === 'dress')
       return (
-        <g>
-          <path d="M -80,-400 Q 0,-418 80,-400 L 150,-150 Q 0,-118 -150,-150 Z" fill={spec.topColor} {...kst()} />
-          <path d="M -146,-166 Q 0,-136 146,-166 L 150,-150 Q 0,-118 -150,-150 Z" fill={spec.topColor2 ?? '#ffffff'} {...kst(6)} />
-        </g>
+        <>
+          <Vol shape={<path d={DRESS} />}>
+            <path d={DRESS} fill={spec.topColor} {...kst()} />
+            <path d="M -146,-166 Q 0,-136 146,-166 L 150,-150 Q 0,-118 -150,-150 Z" fill={spec.topColor2 ?? '#ffffff'} {...kst(6)} />
+          </Vol>
+          {chinAO(DRESS)}
+        </>
       );
     return (
-      <g>
-        <path d="M -84,-402 Q 0,-418 84,-402 Q 112,-330 100,-160 Q 0,-140 -100,-160 Q -112,-330 -84,-402 Z" fill={spec.topColor} {...kst()} />
-        {spec.top === 'stripes' && (
-          <g clipPath={`url(#torso-${spec.id})`}>
-            <clipPath id={`torso-${spec.id}`}>
-              <path d="M -84,-402 Q 0,-418 84,-402 Q 112,-330 100,-160 Q 0,-140 -100,-160 Q -112,-330 -84,-402 Z" />
-            </clipPath>
-            {[-370, -320, -270, -220].map((yy) => (
-              <rect key={yy} x={-120} y={yy} width={240} height={22} fill={spec.topColor2 ?? '#ffffff'} />
-            ))}
-          </g>
-        )}
-        {spec.hero && (
-          <g>
-            {spec.hero.belt && <Belt color={spec.hero.belt} y={-176} half={100} />}
-            <ChestBadge look={spec.hero} y={-292} r={44} />
-          </g>
-        )}
-        {spec.top === 'overalls' && (
-          <g>
-            <path d="M -62,-300 L 62,-300 L 100,-160 Q 0,-140 -100,-160 Z" fill={spec.topColor2 ?? spec.pants} {...kst()} />
-            <path d="M -62,-300 L -70,-398 M 62,-300 L 70,-398" stroke={spec.topColor2 ?? spec.pants} strokeWidth={22} />
-            <circle cx={-46} cy={-282} r={10} fill="#ffd166" {...kst(4)} />
-            <circle cx={46} cy={-282} r={10} fill="#ffd166" {...kst(4)} />
-            <rect x={-30} y={-246} width={60} height={40} rx={8} fill="none" {...kst(5)} />
-          </g>
-        )}
-        <path d="M -40,-404 Q 0,-378 40,-404" fill="none" {...kst(7)} />
-      </g>
+      <>
+        <Vol shape={<path d={TEE} />}>
+          <path d={TEE} fill={spec.topColor} {...kst()} />
+          {spec.top === 'stripes' && (
+            <g clipPath={`url(#torso-${spec.id})`}>
+              <clipPath id={`torso-${spec.id}`}>
+                <path d={TEE} />
+              </clipPath>
+              {[-370, -320, -270, -220].map((yy) => (
+                <rect key={yy} x={-120} y={yy} width={240} height={22} fill={spec.topColor2 ?? '#ffffff'} />
+              ))}
+            </g>
+          )}
+          {spec.hero && (
+            <g>
+              {spec.hero.belt && <Belt color={spec.hero.belt} y={-176} half={100} />}
+              <ChestBadge look={spec.hero} y={-292} r={44} />
+            </g>
+          )}
+          {spec.top === 'overalls' && (
+            <g>
+              <path d="M -62,-300 L 62,-300 L 100,-160 Q 0,-140 -100,-160 Z" fill={spec.topColor2 ?? spec.pants} {...kst()} />
+              <path d="M -62,-300 L -70,-398 M 62,-300 L 70,-398" stroke={spec.topColor2 ?? spec.pants} strokeWidth={22} />
+              <circle cx={-46} cy={-282} r={10} fill="#ffd166" {...kst(4)} />
+              <circle cx={46} cy={-282} r={10} fill="#ffd166" {...kst(4)} />
+              <rect x={-30} y={-246} width={60} height={40} rx={8} fill="none" {...kst(5)} />
+            </g>
+          )}
+          <path d="M -40,-404 Q 0,-378 40,-404" fill="none" {...kst(7)} />
+        </Vol>
+        {chinAO(TEE)}
+      </>
     );
   };
 
   const head = (
     <g transform={`translate(0,${HEAD_Y + breath * 2 + im.nod}) rotate(${tilt + im.tilt} 0 140)`}>
-      <HairBack spec={spec} />
-      <ellipse cx={-176} cy={20} rx={30} ry={34} fill={spec.skin} {...kst()} />
-      <ellipse cx={176} cy={20} rx={30} ry={34} fill={spec.skin} {...kst()} />
-      <ellipse cx={0} cy={0} rx={178} ry={168} fill={spec.skin} {...kst(9)} />
+      <Vol>{HairBack({ spec })}</Vol>
+      <Vol tone="skin">
+        <ellipse cx={-176} cy={20} rx={30} ry={34} fill={spec.skin} {...kst()} />
+        <ellipse cx={176} cy={20} rx={30} ry={34} fill={spec.skin} {...kst()} />
+        <ellipse cx={0} cy={0} rx={178} ry={168} fill={spec.skin} {...kst(9)} />
+      </Vol>
       {spec.hero?.mask && <Mask color={spec.hero.mask} y={20} dx={68} r={42} />}
       <g transform="translate(0,26)">
         <Face expr={expr} look={look} mouth={mouth} blink={closed} skin={spec.skin} iris={spec.iris ?? '#6b4226'} eyeR={42} eyeDX={68} eyeY={-6} mouthY={66} mouthW={48} brows={spec.hairColor} lashes={spec.lashes} freckles={spec.freckles} />
       </g>
-      <HairFront spec={spec} />
+      <Vol>{HairFront({ spec })}</Vol>
       {/* hair shine */}
       <path d="M -120,-118 Q -70,-158 -10,-160" fill="none" stroke="#ffffff" strokeWidth={14} strokeLinecap="round" opacity={0.32} />
       <HeadSparkles frame={frame} r={178} on={expr === 'wow' || expr === 'proud'} />
@@ -312,9 +349,11 @@ export const Kid: React.FC<KidProps> = ({
       )}
       {spec.bow && (
         <g transform="translate(-112,-150) rotate(-18)">
-          <path d="M 0,0 L -56,-34 Q -70,0 -56,34 Z" fill={spec.bow} {...kst(7)} />
-          <path d="M 0,0 L 56,-34 Q 70,0 56,34 Z" fill={spec.bow} {...kst(7)} />
-          <circle r={16} fill={spec.bow} {...kst(7)} />
+          <Vol>
+            <path d="M 0,0 L -56,-34 Q -70,0 -56,34 Z" fill={spec.bow} {...kst(7)} />
+            <path d="M 0,0 L 56,-34 Q 70,0 56,34 Z" fill={spec.bow} {...kst(7)} />
+            <circle r={16} fill={spec.bow} {...kst(7)} />
+          </Vol>
         </g>
       )}
     </g>
@@ -322,7 +361,8 @@ export const Kid: React.FC<KidProps> = ({
 
   return (
     <g transform={`translate(${x},${y}) scale(${scale})`}>
-      {shadow && <ellipse cx={0} cy={6} rx={150 * (1 - Math.min(0.5, (hop + im.bounce) / 600))} ry={22} fill="rgba(40,20,60,0.16)" />}
+      <K3DDefs />
+      {shadow && <Ground rx={150} ry={22} lift={hop + im.bounce} />}
       <g transform={`translate(0,${-hop + bob - im.bounce}) rotate(${lean + im.sway} 0 0) scale(${1 + squash * 0.08},${1 - squash * 0.14})`}>
         {spec.hero && <g transform={`translate(0,${sit})`}><Cape look={spec.hero} frame={frame} top={-400} bottom={-50} half={175} lift={hop} /></g>}
         {leg(-1)}

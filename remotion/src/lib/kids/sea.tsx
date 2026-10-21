@@ -5,6 +5,7 @@
 import React from 'react';
 import { useCurrentFrame } from 'remotion';
 import { Face, HeadSparkles, KINK, kst, type KExpr } from './face';
+import { K3DDefs, Vol } from './depth';
 
 export type FishSpec = {
   id: string;
@@ -59,41 +60,50 @@ export const Fish: React.FC<FishProps> = ({
   const pc = spec.patternColor ?? KINK;
   return (
     <g transform={`translate(${x},${y + bob}) scale(${scale * facing},${scale}) rotate(${tilt + sway})`}>
+      <K3DDefs />
       {/* tail fan */}
       <g transform={`rotate(${wag} -108 0)`}>
-        <path d="M -104,0 C -150,-30 -170,-78 -196,-82 C -186,-40 -176,-14 -176,0 C -176,14 -186,40 -196,82 C -170,78 -150,30 -104,0 Z" fill={spec.fin} {...kst(7)} />
+        <Vol>
+          <path d="M -104,0 C -150,-30 -170,-78 -196,-82 C -186,-40 -176,-14 -176,0 C -176,14 -186,40 -196,82 C -170,78 -150,30 -104,0 Z" fill={spec.fin} {...kst(7)} />
+        </Vol>
         <path d="M -128,-6 L -172,-50 M -128,6 L -172,50" fill="none" stroke={KINK} strokeWidth={4} opacity={0.35} strokeLinecap="round" />
       </g>
       {/* top fin */}
-      <path d={`M -40,-88 C -20,-150 50,-150 74,-${118 + Math.sin(ph * 6) * 4} C 62,-104 40,-96 30,-94 Z`} fill={spec.fin} {...kst(7)} />
-      {/* bottom fin */}
-      <path d="M -10,90 C 0,124 34,130 52,118 C 40,108 34,98 30,92 Z" fill={spec.fin} {...kst(6)} />
+      <Vol>
+        <path d={`M -40,-88 C -20,-150 50,-150 74,-${118 + Math.sin(ph * 6) * 4} C 62,-104 40,-96 30,-94 Z`} fill={spec.fin} {...kst(7)} />
+        {/* bottom fin */}
+        <path d="M -10,90 C 0,124 34,130 52,118 C 40,108 34,98 30,92 Z" fill={spec.fin} {...kst(6)} />
+      </Vol>
       {/* body + belly + pattern */}
       <defs>
         <clipPath id={id}>
           <path d={BODY} />
         </clipPath>
       </defs>
-      <path d={BODY} fill={spec.body} />
-      <g clipPath={`url(#${id})`}>
-        {pat === 'rainbow' && RAIN.map((c, i) => <rect key={c} x={-130} y={-100 + i * 34} width={270} height={36} fill={c} />)}
-        <ellipse cx={14} cy={70} rx={110} ry={46} fill={spec.belly} opacity={pat === 'rainbow' ? 0.5 : 1} />
-        {pat === 'stripes' && [-60, -14, 32].map((sx) => (
-          <path key={sx} d={`M ${sx},-110 Q ${sx + 18},0 ${sx},110 L ${sx + 22},110 Q ${sx + 40},0 ${sx + 22},-110 Z`} fill={pc} opacity={0.85} />
-        ))}
-        {pat === 'spots' && [[-70, -30, 14], [-40, 30, 11], [-20, -60, 10], [0, 10, 12], [-80, 40, 9], [30, -55, 9], [-50, -5, 8]].map(([sx, sy, r], i) => (
-          <circle key={i} cx={sx} cy={sy} r={r} fill={pc} opacity={0.85} />
-        ))}
-        {/* scale hints */}
-        {[[-70, 10], [-50, 40], [-80, -20]].map(([sx, sy], i) => <path key={i} d={`M ${sx},${sy} q 10,-12 20,0`} fill="none" stroke="#ffffff" strokeWidth={4} opacity={0.35} strokeLinecap="round" />)}
-        <ellipse cx={-30} cy={-58} rx={46} ry={18} fill="#ffffff" opacity={0.3} transform="rotate(-12 -30 -58)" />
-      </g>
-      <path d={BODY} fill="none" {...kst(8)} />
+      <Vol shape={<path d={BODY} />}>
+        <path d={BODY} fill={spec.body} />
+        <g clipPath={`url(#${id})`}>
+          {pat === 'rainbow' && RAIN.map((c, i) => <rect key={c} x={-130} y={-100 + i * 34} width={270} height={36} fill={c} />)}
+          <ellipse cx={14} cy={70} rx={110} ry={46} fill={spec.belly} opacity={pat === 'rainbow' ? 0.5 : 1} />
+          {pat === 'stripes' && [-60, -14, 32].map((sx) => (
+            <path key={sx} d={`M ${sx},-110 Q ${sx + 18},0 ${sx},110 L ${sx + 22},110 Q ${sx + 40},0 ${sx + 22},-110 Z`} fill={pc} opacity={0.85} />
+          ))}
+          {pat === 'spots' && [[-70, -30, 14], [-40, 30, 11], [-20, -60, 10], [0, 10, 12], [-80, 40, 9], [30, -55, 9], [-50, -5, 8]].map(([sx, sy, r], i) => (
+            <circle key={i} cx={sx} cy={sy} r={r} fill={pc} opacity={0.85} />
+          ))}
+          {/* scale hints */}
+          {[[-70, 10], [-50, 40], [-80, -20]].map(([sx, sy], i) => <path key={i} d={`M ${sx},${sy} q 10,-12 20,0`} fill="none" stroke="#ffffff" strokeWidth={4} opacity={0.35} strokeLinecap="round" />)}
+          <ellipse cx={-30} cy={-58} rx={46} ry={18} fill="#ffffff" opacity={0.3} transform="rotate(-12 -30 -58)" />
+        </g>
+        <path d={BODY} fill="none" {...kst(8)} />
+      </Vol>
       {/* gill line */}
       <path d="M 20,-56 Q 2,0 20,56" fill="none" stroke={KINK} strokeWidth={5} opacity={0.4} strokeLinecap="round" />
       {/* side fin (flaps) */}
       <g transform={`translate(-6,26) scale(1,${1 - flap})`}>
-        <path d="M 0,0 C -30,-10 -54,10 -50,34 C -30,34 -10,22 0,0 Z" fill={spec.fin} {...kst(5)} />
+        <Vol>
+          <path d="M 0,0 C -30,-10 -54,10 -50,34 C -30,34 -10,22 0,0 Z" fill={spec.fin} {...kst(5)} />
+        </Vol>
       </g>
       {/* face (shared kids face, scaled to the fish) */}
       <g transform="translate(60,-6) scale(0.62)">
@@ -101,9 +111,11 @@ export const Fish: React.FC<FishProps> = ({
       </g>
       {spec.bow && (
         <g transform="translate(10,-92) rotate(-12) scale(0.8)">
-          <path d="M 0,0 L -50,-30 Q -62,0 -50,30 Z" fill={spec.bow} {...kst(7)} />
-          <path d="M 0,0 L 50,-30 Q 62,0 50,30 Z" fill={spec.bow} {...kst(7)} />
-          <circle r={14} fill={spec.bow} {...kst(7)} />
+          <Vol>
+            <path d="M 0,0 L -50,-30 Q -62,0 -50,30 Z" fill={spec.bow} {...kst(7)} />
+            <path d="M 0,0 L 50,-30 Q 62,0 50,30 Z" fill={spec.bow} {...kst(7)} />
+            <circle r={14} fill={spec.bow} {...kst(7)} />
+          </Vol>
         </g>
       )}
       <g transform="translate(40,0)"><HeadSparkles frame={frame} r={110} on={expr === 'wow' || expr === 'proud'} /></g>
