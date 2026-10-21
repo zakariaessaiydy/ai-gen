@@ -360,6 +360,14 @@
   "transparent": false
  },
  {
+  "id": "KidsSongs035",
+  "durationInSeconds": 302,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "KidsStories001",
   "durationInSeconds": 42,
   "fps": 30,
