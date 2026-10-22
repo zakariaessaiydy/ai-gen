@@ -53,7 +53,7 @@ words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video ever
 ```
 (Long 16:9 video — no #Shorts tag.)
 
-**Playlists:** "Tiny Sparks Songs" (create it now — first video) + "Tiny Sparks Shorts — All Episodes"
+**Playlists:** "Kids Songs & Sing-Alongs" (create it now — first video) + "Tiny Sparks Shorts — All Episodes"
 (also fits "Numbers & Math for Kids").
 **Settings:** Made for Kids = Yes · Altered/synthetic = No · Category: Education · Sun 25 Oct 2026, 16:00 ET ·
 Thumbnail: the 10 numbered bears with "10" (~2:17) or the rainbow 1–10 chorus (~0:16)

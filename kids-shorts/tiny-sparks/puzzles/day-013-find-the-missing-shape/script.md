@@ -28,6 +28,6 @@ words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video ever
 #Shorts #PuzzlesForKids #BrainGames #ShapesForKids #Patterns #Preschool #TinySparks
 ```
 
-**Playlists:** "Puzzles & Brain Games for Kids" (created on Day 6) + "Tiny Sparks Shorts — All Episodes"
+**Playlists:** "Brain Games & Puzzles for Kids" (created on Day 6) + "Tiny Sparks Shorts — All Episodes"
 **Settings:** Made for Kids = Yes · Altered/synthetic = No · Category: Education · Sat 31 Oct 2026, 16:00 ET ·
 Thumbnail frame: ● ■ ● ■ ● ? with Leo thinking (~16 s)

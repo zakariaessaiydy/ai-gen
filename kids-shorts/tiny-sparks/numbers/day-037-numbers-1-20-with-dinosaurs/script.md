@@ -53,7 +53,7 @@ science and songs — with Spark Girl, Captain Leo, Super Bobo and Professor Hoo
 ```
 (Long 16:9 video — no #Shorts tag.)
 
-**Playlists:** "Numbers & Math for Kids" + "Tiny Sparks Shorts — All Episodes"
+**Playlists:** "Learn Numbers & Math" + "Tiny Sparks Shorts — All Episodes"
 **Settings:** Made for Kids = Yes · Altered/synthetic = No · Category: Education · Tue 24 Nov 2026, 16:00 ET ·
 Thumbnail: `thumbnail.jpg` (Rexy's big "ROAR!" + "COUNT TO 20!") · Short: `output/short-from-long.mp4` (see
 publishing/shorts-from-long.md).

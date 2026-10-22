@@ -1,0 +1,983 @@
+{
+  "id": "day-044",
+  "series": "tiny-sparks",
+  "episode": 44,
+  "title": "Count the Farm Animals",
+  "composition": "KidsNumbers044",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 88.6
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "cow": {
+      "kokoro": "am_onyx",
+      "rate": "-12%"
+    },
+    "pig": {
+      "kokoro": "am_puck",
+      "rate": "-2%"
+    },
+    "sheep": {
+      "kokoro": "af_bella",
+      "rate": "-6%"
+    },
+    "duck": {
+      "kokoro": "bm_lewis",
+      "rate": "+2%"
+    },
+    "chick": {
+      "kokoro": "af_jessica",
+      "rate": "+4%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -7,
+    "duck": 8,
+    "start": 0,
+    "fade_in": 0.3
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "bobo",
+      "start": 0.4,
+      "end": 2.72,
+      "text": "Knock, knock! Who lives in the big red barn?",
+      "words": [
+        {
+          "w": "Knock,",
+          "start": 0.43,
+          "end": 0.699
+        },
+        {
+          "w": "knock!",
+          "start": 0.699,
+          "end": 0.968
+        },
+        {
+          "w": "Who",
+          "start": 0.968,
+          "end": 1.184
+        },
+        {
+          "w": "lives",
+          "start": 1.184,
+          "end": 1.507
+        },
+        {
+          "w": "in",
+          "start": 1.507,
+          "end": 1.668
+        },
+        {
+          "w": "the",
+          "start": 1.668,
+          "end": 1.776
+        },
+        {
+          "w": "big",
+          "start": 1.776,
+          "end": 1.992
+        },
+        {
+          "w": "red",
+          "start": 1.992,
+          "end": 2.207
+        },
+        {
+          "w": "barn?",
+          "start": 2.207,
+          "end": 2.53
+        }
+      ]
+    },
+    {
+      "beat": "mila_go",
+      "speaker": "mila",
+      "start": 3.78,
+      "end": 7.06,
+      "text": "Farm animals! Let's count them! Get your fingers ready!",
+      "words": [
+        {
+          "w": "Farm",
+          "start": 3.85,
+          "end": 4.238
+        },
+        {
+          "w": "animals!",
+          "start": 4.238,
+          "end": 4.754
+        },
+        {
+          "w": "Let's",
+          "start": 4.754,
+          "end": 5.077
+        },
+        {
+          "w": "count",
+          "start": 5.077,
+          "end": 5.465
+        },
+        {
+          "w": "them!",
+          "start": 5.465,
+          "end": 5.723
+        },
+        {
+          "w": "Get",
+          "start": 5.723,
+          "end": 5.981
+        },
+        {
+          "w": "your",
+          "start": 5.981,
+          "end": 6.175
+        },
+        {
+          "w": "fingers",
+          "start": 6.175,
+          "end": 6.627
+        },
+        {
+          "w": "ready!",
+          "start": 6.627,
+          "end": 6.95
+        }
+      ]
+    },
+    {
+      "beat": "cow",
+      "speaker": "cow",
+      "start": 9.92,
+      "end": 10.6,
+      "text": "Moo!",
+      "words": [
+        {
+          "w": "Moo!",
+          "start": 9.98,
+          "end": 10.57
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 11.26,
+      "end": 12.5,
+      "text": "One! A cow!",
+      "words": [
+        {
+          "w": "One!",
+          "start": 11.32,
+          "end": 11.716
+        },
+        {
+          "w": "A",
+          "start": 11.716,
+          "end": 12.014
+        },
+        {
+          "w": "cow!",
+          "start": 12.014,
+          "end": 12.41
+        }
+      ]
+    },
+    {
+      "beat": "pig",
+      "speaker": "pig",
+      "start": 15.36,
+      "end": 16.15,
+      "text": "Oink, oink!",
+      "words": [
+        {
+          "w": "Oink,",
+          "start": 15.39,
+          "end": 15.72
+        },
+        {
+          "w": "oink!",
+          "start": 15.72,
+          "end": 16.05
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "bobo",
+      "start": 16.82,
+      "end": 17.69,
+      "text": "Two! A pig!",
+      "words": [
+        {
+          "w": "Two!",
+          "start": 16.85,
+          "end": 17.115
+        },
+        {
+          "w": "A",
+          "start": 17.115,
+          "end": 17.315
+        },
+        {
+          "w": "pig!",
+          "start": 17.315,
+          "end": 17.58
+        }
+      ]
+    },
+    {
+      "beat": "sheep",
+      "speaker": "sheep",
+      "start": 20.56,
+      "end": 21.11,
+      "text": "Baa!",
+      "words": [
+        {
+          "w": "Baa!",
+          "start": 20.58,
+          "end": 21.02
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 21.78,
+      "end": 23.52,
+      "text": "Three! A fluffy sheep!",
+      "words": [
+        {
+          "w": "Three!",
+          "start": 21.85,
+          "end": 22.245
+        },
+        {
+          "w": "A",
+          "start": 22.245,
+          "end": 22.482
+        },
+        {
+          "w": "fluffy",
+          "start": 22.482,
+          "end": 22.955
+        },
+        {
+          "w": "sheep!",
+          "start": 22.955,
+          "end": 23.35
+        }
+      ]
+    },
+    {
+      "beat": "duck",
+      "speaker": "duck",
+      "start": 26.38,
+      "end": 27.29,
+      "text": "Quack, quack!",
+      "words": [
+        {
+          "w": "Quack,",
+          "start": 26.42,
+          "end": 26.81
+        },
+        {
+          "w": "quack!",
+          "start": 26.81,
+          "end": 27.2
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "bobo",
+      "start": 27.96,
+      "end": 28.81,
+      "text": "Four! A duck!",
+      "words": [
+        {
+          "w": "Four!",
+          "start": 27.99,
+          "end": 28.298
+        },
+        {
+          "w": "A",
+          "start": 28.298,
+          "end": 28.483
+        },
+        {
+          "w": "duck!",
+          "start": 28.483,
+          "end": 28.73
+        }
+      ]
+    },
+    {
+      "beat": "chick",
+      "speaker": "chick",
+      "start": 31.67,
+      "end": 32.56,
+      "text": "Cheep, cheep!",
+      "words": [
+        {
+          "w": "Cheep,",
+          "start": 31.71,
+          "end": 32.11
+        },
+        {
+          "w": "cheep!",
+          "start": 32.11,
+          "end": 32.51
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 33.23,
+      "end": 34.87,
+      "text": "Five! A tiny chick!",
+      "words": [
+        {
+          "w": "Five!",
+          "start": 33.3,
+          "end": 33.684
+        },
+        {
+          "w": "A",
+          "start": 33.684,
+          "end": 33.915
+        },
+        {
+          "w": "tiny",
+          "start": 33.915,
+          "end": 34.376
+        },
+        {
+          "w": "chick!",
+          "start": 34.376,
+          "end": 34.76
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "bobo",
+      "start": 37.53,
+      "end": 39.42,
+      "text": "How many farm animals can you see?",
+      "words": [
+        {
+          "w": "How",
+          "start": 37.56,
+          "end": 37.76
+        },
+        {
+          "w": "many",
+          "start": 37.76,
+          "end": 38.01
+        },
+        {
+          "w": "farm",
+          "start": 38.01,
+          "end": 38.31
+        },
+        {
+          "w": "animals",
+          "start": 38.31,
+          "end": 38.71
+        },
+        {
+          "w": "can",
+          "start": 38.71,
+          "end": 38.91
+        },
+        {
+          "w": "you",
+          "start": 38.91,
+          "end": 39.06
+        },
+        {
+          "w": "see?",
+          "start": 39.06,
+          "end": 39.26
+        }
+      ]
+    },
+    {
+      "beat": "a1",
+      "speaker": "mila",
+      "start": 44.5,
+      "end": 46.52,
+      "text": "Five! Five farm animals!",
+      "words": [
+        {
+          "w": "Five!",
+          "start": 44.64,
+          "end": 45.03
+        },
+        {
+          "w": "Five",
+          "start": 45.14,
+          "end": 45.458
+        },
+        {
+          "w": "farm",
+          "start": 45.458,
+          "end": 45.841
+        },
+        {
+          "w": "animals!",
+          "start": 45.841,
+          "end": 46.35
+        }
+      ]
+    },
+    {
+      "beat": "again",
+      "speaker": "bobo",
+      "start": 48.19,
+      "end": 49.57,
+      "text": "Let's count them all again!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 48.22,
+          "end": 48.476
+        },
+        {
+          "w": "count",
+          "start": 48.476,
+          "end": 48.784
+        },
+        {
+          "w": "them",
+          "start": 48.784,
+          "end": 48.989
+        },
+        {
+          "w": "all",
+          "start": 48.989,
+          "end": 49.194
+        },
+        {
+          "w": "again!",
+          "start": 49.194,
+          "end": 49.45
+        }
+      ]
+    },
+    {
+      "beat": "recount",
+      "speaker": "mila",
+      "start": 50.23,
+      "end": 52.11,
+      "text": "One, two, three, four, five!",
+      "words": [
+        {
+          "w": "One,",
+          "start": 50.27,
+          "end": 50.574
+        },
+        {
+          "w": "two,",
+          "start": 50.574,
+          "end": 50.879
+        },
+        {
+          "w": "three,",
+          "start": 50.879,
+          "end": 51.259
+        },
+        {
+          "w": "four,",
+          "start": 51.259,
+          "end": 51.64
+        },
+        {
+          "w": "five!",
+          "start": 51.64,
+          "end": 52.02
+        }
+      ]
+    },
+    {
+      "beat": "duck_go",
+      "speaker": "duck",
+      "start": 54.57,
+      "end": 55.99,
+      "text": "Quack! Time for a swim!",
+      "words": [
+        {
+          "w": "Quack!",
+          "start": 54.59,
+          "end": 54.904
+        },
+        {
+          "w": "Time",
+          "start": 54.904,
+          "end": 55.219
+        },
+        {
+          "w": "for",
+          "start": 55.219,
+          "end": 55.407
+        },
+        {
+          "w": "a",
+          "start": 55.407,
+          "end": 55.596
+        },
+        {
+          "w": "swim!",
+          "start": 55.596,
+          "end": 55.91
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "bobo",
+      "start": 58.66,
+      "end": 61.28,
+      "text": "The duck went to the pond. Now how many animals?",
+      "words": [
+        {
+          "w": "The",
+          "start": 58.69,
+          "end": 58.789
+        },
+        {
+          "w": "duck",
+          "start": 58.789,
+          "end": 58.987
+        },
+        {
+          "w": "went",
+          "start": 58.987,
+          "end": 59.235
+        },
+        {
+          "w": "to",
+          "start": 59.235,
+          "end": 59.384
+        },
+        {
+          "w": "the",
+          "start": 59.384,
+          "end": 59.483
+        },
+        {
+          "w": "pond.",
+          "start": 59.483,
+          "end": 59.78
+        },
+        {
+          "w": "Now",
+          "start": 59.94,
+          "end": 60.18
+        },
+        {
+          "w": "how",
+          "start": 60.18,
+          "end": 60.42
+        },
+        {
+          "w": "many",
+          "start": 60.42,
+          "end": 60.72
+        },
+        {
+          "w": "animals?",
+          "start": 60.72,
+          "end": 61.2
+        }
+      ]
+    },
+    {
+      "beat": "a2",
+      "speaker": "mila",
+      "start": 66.35,
+      "end": 68.82,
+      "text": "One, two, three, four! Four animals!",
+      "words": [
+        {
+          "w": "One,",
+          "start": 66.38,
+          "end": 66.685
+        },
+        {
+          "w": "two,",
+          "start": 66.685,
+          "end": 66.989
+        },
+        {
+          "w": "three,",
+          "start": 66.989,
+          "end": 67.37
+        },
+        {
+          "w": "four!",
+          "start": 67.37,
+          "end": 67.75
+        },
+        {
+          "w": "Four",
+          "start": 67.75,
+          "end": 68.131
+        },
+        {
+          "w": "animals!",
+          "start": 68.131,
+          "end": 68.74
+        }
+      ]
+    },
+    {
+      "beat": "a2b",
+      "speaker": "bobo",
+      "start": 70.09,
+      "end": 71.6,
+      "text": "Five, take away one, is four!",
+      "words": [
+        {
+          "w": "Five,",
+          "start": 70.13,
+          "end": 70.38
+        },
+        {
+          "w": "take",
+          "start": 70.38,
+          "end": 70.63
+        },
+        {
+          "w": "away",
+          "start": 70.63,
+          "end": 70.88
+        },
+        {
+          "w": "one,",
+          "start": 70.88,
+          "end": 71.08
+        },
+        {
+          "w": "is",
+          "start": 71.08,
+          "end": 71.18
+        },
+        {
+          "w": "four!",
+          "start": 71.18,
+          "end": 71.43
+        }
+      ]
+    },
+    {
+      "beat": "duck_back",
+      "speaker": "duck",
+      "start": 74.07,
+      "end": 75.56,
+      "text": "Quack, quack! I'm back!",
+      "words": [
+        {
+          "w": "Quack,",
+          "start": 74.09,
+          "end": 74.502
+        },
+        {
+          "w": "quack!",
+          "start": 74.502,
+          "end": 74.914
+        },
+        {
+          "w": "I'm",
+          "start": 74.914,
+          "end": 75.161
+        },
+        {
+          "w": "back!",
+          "start": 75.161,
+          "end": 75.49
+        }
+      ]
+    },
+    {
+      "beat": "a3",
+      "speaker": "bobo",
+      "start": 76.43,
+      "end": 77.9,
+      "text": "Four, and one more, is five!",
+      "words": [
+        {
+          "w": "Four,",
+          "start": 76.47,
+          "end": 76.745
+        },
+        {
+          "w": "and",
+          "start": 76.745,
+          "end": 76.91
+        },
+        {
+          "w": "one",
+          "start": 76.91,
+          "end": 77.13
+        },
+        {
+          "w": "more,",
+          "start": 77.13,
+          "end": 77.405
+        },
+        {
+          "w": "is",
+          "start": 77.405,
+          "end": 77.515
+        },
+        {
+          "w": "five!",
+          "start": 77.515,
+          "end": 77.79
+        }
+      ]
+    },
+    {
+      "beat": "yay",
+      "speaker": "mila",
+      "start": 79.57,
+      "end": 81.76,
+      "text": "Yay! You counted the farm animals!",
+      "words": [
+        {
+          "w": "Yay!",
+          "start": 79.6,
+          "end": 79.87
+        },
+        {
+          "w": "You",
+          "start": 79.87,
+          "end": 80.072
+        },
+        {
+          "w": "counted",
+          "start": 80.072,
+          "end": 80.611
+        },
+        {
+          "w": "the",
+          "start": 80.611,
+          "end": 80.746
+        },
+        {
+          "w": "farm",
+          "start": 80.746,
+          "end": 81.151
+        },
+        {
+          "w": "animals!",
+          "start": 81.151,
+          "end": 81.69
+        }
+      ]
+    },
+    {
+      "beat": "night",
+      "speaker": "bobo",
+      "start": 83.23,
+      "end": 85.29,
+      "text": "Night-night, animals! Back to the barn!",
+      "words": [
+        {
+          "w": "Night-night,",
+          "start": 83.26,
+          "end": 83.794
+        },
+        {
+          "w": "animals!",
+          "start": 83.794,
+          "end": 84.269
+        },
+        {
+          "w": "Back",
+          "start": 84.269,
+          "end": 84.507
+        },
+        {
+          "w": "to",
+          "start": 84.507,
+          "end": 84.685
+        },
+        {
+          "w": "the",
+          "start": 84.685,
+          "end": 84.804
+        },
+        {
+          "w": "barn!",
+          "start": 84.804,
+          "end": 85.16
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "visual": "Knock, knock! Who lives in the big red barn?",
+      "end": 3.58
+    },
+    {
+      "id": "mila_go",
+      "start": 3.58,
+      "visual": "Farm animals! Let's count them! Get your fingers ready!",
+      "end": 9.72
+    },
+    {
+      "id": "cow",
+      "start": 9.72,
+      "visual": "Moo!",
+      "end": 11.06
+    },
+    {
+      "id": "c1",
+      "start": 11.06,
+      "visual": "One! A cow!",
+      "end": 15.16
+    },
+    {
+      "id": "pig",
+      "start": 15.16,
+      "visual": "Oink, oink!",
+      "end": 16.62
+    },
+    {
+      "id": "c2",
+      "start": 16.62,
+      "visual": "Two! A pig!",
+      "end": 20.36
+    },
+    {
+      "id": "sheep",
+      "start": 20.36,
+      "visual": "Baa!",
+      "end": 21.58
+    },
+    {
+      "id": "c3",
+      "start": 21.58,
+      "visual": "Three! A fluffy sheep!",
+      "end": 26.18
+    },
+    {
+      "id": "duck",
+      "start": 26.18,
+      "visual": "Quack, quack!",
+      "end": 27.76
+    },
+    {
+      "id": "c4",
+      "start": 27.76,
+      "visual": "Four! A duck!",
+      "end": 31.47
+    },
+    {
+      "id": "chick",
+      "start": 31.47,
+      "visual": "Cheep, cheep!",
+      "end": 33.03
+    },
+    {
+      "id": "c5",
+      "start": 33.03,
+      "visual": "Five! A tiny chick!",
+      "end": 37.33
+    },
+    {
+      "id": "q1",
+      "start": 37.33,
+      "visual": "How many farm animals can you see?",
+      "end": 44.3
+    },
+    {
+      "id": "a1",
+      "start": 44.3,
+      "visual": "Five! Five farm animals!",
+      "end": 47.99
+    },
+    {
+      "id": "again",
+      "start": 47.99,
+      "visual": "Let's count them all again!",
+      "end": 50.03
+    },
+    {
+      "id": "recount",
+      "start": 50.03,
+      "visual": "One, two, three, four, five!",
+      "end": 54.37
+    },
+    {
+      "id": "duck_go",
+      "start": 54.37,
+      "visual": "Quack! Time for a swim!",
+      "end": 58.46
+    },
+    {
+      "id": "q2",
+      "start": 58.46,
+      "visual": "The duck went to the pond. Now how many animals?",
+      "end": 66.15
+    },
+    {
+      "id": "a2",
+      "start": 66.15,
+      "visual": "One, two, three, four! Four animals!",
+      "end": 69.89
+    },
+    {
+      "id": "a2b",
+      "start": 69.89,
+      "visual": "Five, take away one, is four!",
+      "end": 73.87
+    },
+    {
+      "id": "duck_back",
+      "start": 73.87,
+      "visual": "Quack, quack! I'm back!",
+      "end": 76.23
+    },
+    {
+      "id": "a3",
+      "start": 76.23,
+      "visual": "Four, and one more, is five!",
+      "end": 79.37
+    },
+    {
+      "id": "yay",
+      "start": 79.37,
+      "visual": "Yay! You counted the farm animals!",
+      "end": 83.03
+    },
+    {
+      "id": "night",
+      "start": 83.03,
+      "visual": "Night-night, animals! Back to the barn!",
+      "end": 88.6
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

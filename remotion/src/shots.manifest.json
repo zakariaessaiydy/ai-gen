@@ -256,6 +256,14 @@
   "transparent": false
  },
  {
+  "id": "KidsNumbers044",
+  "durationInSeconds": 88.6,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "KidsPuzzles006",
   "durationInSeconds": 84.6,
   "fps": 30,
@@ -369,6 +377,14 @@
  },
  {
   "id": "KidsDinoSheet",
+  "durationInSeconds": 2,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsFarmSheet",
   "durationInSeconds": 2,
   "fps": 30,
   "width": 1920,

@@ -46,6 +46,6 @@ words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video ever
 ```
 (Long 16:9 video — no #Shorts tag.)
 
-**Playlists:** "English & French Words for Kids" (created on Day 3) + "Tiny Sparks Shorts — All Episodes" (also fits "Numbers & Math for Kids")
+**Playlists:** "English & French Words for Kids" (created on Day 3) + "Tiny Sparks Shorts — All Episodes" (also fits "Learn Numbers & Math")
 **Settings:** Made for Kids = Yes · Altered/synthetic = No · Category: Education · Wed 04 Nov 2026, 16:00 ET ·
 Thumbnail: the "20 / vingt" card (~4:45) or the 1–20 grid (~5:15)

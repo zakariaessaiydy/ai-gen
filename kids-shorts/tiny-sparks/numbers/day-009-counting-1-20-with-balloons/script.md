@@ -28,6 +28,6 @@ words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video ever
 #Shorts #CountingForKids #LearnNumbers #MathForKids #Preschool #Toddler #TinySparks
 ```
 
-**Playlists:** "Numbers & Math for Kids" (created on Day 2) + "Tiny Sparks Shorts — All Episodes"
+**Playlists:** "Learn Numbers & Math" + "Tiny Sparks Shorts — All Episodes"
 **Settings:** Made for Kids = Yes · Altered/synthetic = No · Category: Education · Tue 27 Oct 2026, 16:00 ET ·
 Thumbnail frame: all 20 balloons with "10 + 10 = 20" (~0:59)

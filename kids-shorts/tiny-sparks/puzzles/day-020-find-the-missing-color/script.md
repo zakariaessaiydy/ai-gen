@@ -29,6 +29,6 @@ words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video ever
 #Shorts #PuzzlesForKids #BrainGames #LearnColors #Patterns #Preschool #TinySparks
 ```
 
-**Playlists:** "Puzzles & Brain Games for Kids" (created on Day 6) + "Tiny Sparks Shorts — All Episodes"
+**Playlists:** "Brain Games & Puzzles for Kids" (created on Day 6) + "Tiny Sparks Shorts — All Episodes"
 **Settings:** Made for Kids = Yes · Altered/synthetic = No · Category: Education · Sat 07 Nov 2026, 16:00 ET ·
 Thumbnail frame: the rainbow with the missing stripe (~65 s)

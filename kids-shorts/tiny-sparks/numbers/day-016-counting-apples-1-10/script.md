@@ -24,6 +24,6 @@ words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video ever
 #Shorts #CountingForKids #LearnNumbers #MathForKids #Preschool #Toddler #TinySparks
 ```
 
-**Playlists:** "Numbers & Math for Kids" (created on Day 2) + "Tiny Sparks Shorts — All Episodes"
+**Playlists:** "Learn Numbers & Math" + "Tiny Sparks Shorts — All Episodes"
 **Settings:** Made for Kids = Yes · Altered/synthetic = No · Category: Education · Tue 03 Nov 2026, 16:00 ET ·
 Thumbnail frame: the 10 numbered apples with "10" (~33 s) or the CRUNCH moment (~38 s)

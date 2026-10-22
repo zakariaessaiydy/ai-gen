@@ -48,7 +48,7 @@ words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video ever
 ```
 (Long 16:9 video — no #Shorts tag.)
 
-**Playlists:** "Educational Stories for Kids" (created on Day 1) + "Tiny Sparks Shorts — All Episodes"
+**Playlists:** "Kids Stories — Learn Kindness & Good Habits" (created on Day 1) + "Tiny Sparks Shorts — All Episodes"
 **Settings:** Made for Kids = Yes · Altered/synthetic = No · Category: Education · Mon 02 Nov 2026, 16:00 ET ·
 Thumbnail: the 3 magic-word step cards (~1:23) or Leo grabbing the cookie (~1:43)
 Short teaser (50 s, 9:16) not made yet — ask for it.

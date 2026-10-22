@@ -45,6 +45,6 @@ songs — with Spark Girl, Captain Leo, Super Bobo and Professor Hoot. New video
 
 #KidsSongs #DaysOfTheWeek #NurseryRhymes #Preschool #LearningSongs #SingAlong #TinySparks
 ```
-**Playlists:** "Songs for Kids" + "Tiny Sparks Shorts — All Episodes"
+**Playlists:** "Kids Songs & Sing-Alongs" + "Tiny Sparks Shorts — All Episodes"
 **Settings:** Made for Kids = Yes · Category: Education · Sun 29 Nov 2026 · Public (or scheduled within days) ·
 Thumbnail: `thumbnail.jpg` · Short: `output/short-from-long.mp4` (the first chorus, see publishing/shorts-from-long.md).

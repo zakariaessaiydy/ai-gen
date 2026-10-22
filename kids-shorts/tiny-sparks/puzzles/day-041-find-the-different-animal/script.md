@@ -18,5 +18,5 @@ SUPER PUZZLE four bears — which is Bobo? Only one wears the RED SCARF (Leo ✓
 
 #BrainGames #PuzzlesForKids #SpotTheDifference #Preschool #KidsLearning #TinySparks
 ```
-**Playlists:** "Puzzles & Brain Games for Kids" + "Tiny Sparks Shorts — All Episodes"
+**Playlists:** "Brain Games & Puzzles for Kids" + "Tiny Sparks Shorts — All Episodes"
 **Settings:** Made for Kids = Yes · Category: Education · Sat 28 Nov 2026 · Public (or scheduled within days).

@@ -27,6 +27,6 @@ words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video ever
 #Shorts #PuzzlesForKids #BrainGames #KidsQuiz #LearnNumbers #Preschool #TinySparks
 ```
 
-**Playlists:** "Puzzles & Brain Games for Kids" (create it now — first video) + "Tiny Sparks Shorts — All Episodes"
+**Playlists:** "Brain Games & Puzzles for Kids" (create it now — first video) + "Tiny Sparks Shorts — All Episodes"
 **Settings:** Made for Kids = Yes · Altered/synthetic = No · Category: Education · Sat 24 Oct 2026, 16:00 ET ·
 Thumbnail frame: the board "1 2 ? 4" with Leo thinking (~15 s)

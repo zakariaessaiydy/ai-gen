@@ -25,10 +25,14 @@ remotion/src/lib/kids/
                   fingersL/R = 1..5 raised fingers (COUNTING!) · holdL/R props · legs stand|walk|sit
                   · walk phase · hop(px) · tilt · lean · squash · kidFaceAt() for close-ups
   critter.tsx     <Critter> ONE parametric animal rig: bear · bunny · cat · fox · lion · mouse ·
-                  panda · pig · owl · frog (fur/fur2/dark colours, scarf/bow/glasses/hat grad|
+                  panda · pig · owl · frog · monkey · dog · elephant · turtle · cow · sheep · chick ·
+                  duck (fur/fur2/dark colours, scarf/bow/glasses/hat grad|
                   party|crown), same face + expressions, arms down|wave|up|hold|point|hug|clap|think,
                   walking (waddle), hop, facing ±1, critterFaceAt()
   sea.tsx         <Fish> rig (Day 30) + Bubbles
+  farm.tsx        the FARM (Day 44): COW · PIG · SHEEP · DUCK · CHICK · HEN specs (FARM_ANIMALS) · Barn(open 0..1 =
+                  the doors) · Fence · HayBale · FarmYard (a raised hill + sandy yard for 9:16, drawn over a
+                  Meadow with rainbow={false} tree={false}) · model sheet = KidsFarmSheet
   dino.tsx        <Dino> rig (Day 37): kind rex · tops (triceratops) · stego · neck (long-neck) · baby (in its
                   shell) — same face + expressions, walk, hop, squash, wave (tiny arms), facing ±1 ·
                   props DinoEgg(crack, wobble) · EggNest(2×5 TEN-FRAME of egg cups, label) · Footprint ·

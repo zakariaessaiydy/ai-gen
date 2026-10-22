@@ -46,7 +46,7 @@ words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video ever
 ```
 (Long 16:9 video — no #Shorts tag.)
 
-**Playlists:** "Tiny Sparks Songs" (created on Day 7) + "Tiny Sparks Shorts — All Episodes" (also fits "English & French Words for Kids")
+**Playlists:** "Kids Songs & Sing-Alongs" (created on Day 7) + "Tiny Sparks Shorts — All Episodes" (also fits "English & French Words for Kids")
 **Settings:** Made for Kids = Yes · Altered/synthetic = No · Category: Education · Sun 08 Nov 2026, 16:00 ET ·
 Thumbnail: the full A–Z rainbow grid (~0:25) or the "Aa apple" card (~0:30)
 Short cut (45 s chorus, 9:16) not made yet — ask for it.

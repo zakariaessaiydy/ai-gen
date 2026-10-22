@@ -59,7 +59,7 @@ words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video ever
 ```
 (Long 16:9 video — no #Shorts tag.)
 
-**Playlists:** "Tiny Sparks Songs" (created on Day 7) + "Tiny Sparks Shorts — All Episodes" (also fits "Numbers & Math for Kids")
+**Playlists:** "Kids Songs & Sing-Alongs" (created on Day 7) + "Tiny Sparks Shorts — All Episodes" (also fits "Learn Numbers & Math")
 **Settings:** Made for Kids = Yes · Altered/synthetic = No · Category: Education · Sun 01 Nov 2026, 16:00 ET ·
 Thumbnail: "20" with the bunch of 10 + 10 balloons (~1:28)
 Short cut (45 s chorus, 9:16) not made yet — ask for it.

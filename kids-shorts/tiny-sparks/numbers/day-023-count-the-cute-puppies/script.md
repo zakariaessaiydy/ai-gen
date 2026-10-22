@@ -25,6 +25,6 @@ words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video ever
 #Shorts #CountingForKids #LearnNumbers #MathForKids #Puppies #Preschool #TinySparks
 ```
 
-**Playlists:** "Numbers & Math for Kids" (created on Day 2) + "Tiny Sparks Shorts — All Episodes"
+**Playlists:** "Learn Numbers & Math" + "Tiny Sparks Shorts — All Episodes"
 **Settings:** Made for Kids = Yes · Altered/synthetic = No · Category: Education · Tue 10 Nov 2026, 16:00 ET ·
 Thumbnail frame: all 10 puppies with "10" (~32 s)

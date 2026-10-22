@@ -1,5 +1,5 @@
 // KIDS KIT — <Critter>: one parametric chibi ANIMAL rig (bear, bunny, cat, fox, lion, mouse,
-// panda, pig, owl, frog). Same face/expressions as <Kid> (face.tsx), so animals and kids act in
+// panda, pig, owl, frog, monkey, dog, elephant, turtle + the farm: cow, sheep, chick, duck). Same face/expressions as <Kid> (face.tsx), so animals and kids act in
 // the same language. Origin = between the feet; ~620px tall at scale 1 (a buddy, smaller than a kid).
 import React from 'react';
 import { Belt, Cape, ChestBadge, Mask, type HeroLook } from './hero';
@@ -7,7 +7,7 @@ import { useCurrentFrame } from 'remotion';
 import { Face, HeadSparkles, KINK, idleMotion, kst, type KExpr } from './face';
 import { AO, Ground, K3DDefs, Vol } from './depth';
 
-export type Species = 'bear' | 'bunny' | 'cat' | 'fox' | 'lion' | 'mouse' | 'panda' | 'pig' | 'owl' | 'frog' | 'monkey' | 'dog' | 'elephant' | 'turtle';
+export type Species = 'bear' | 'bunny' | 'cat' | 'fox' | 'lion' | 'mouse' | 'panda' | 'pig' | 'owl' | 'frog' | 'monkey' | 'dog' | 'elephant' | 'turtle' | 'cow' | 'sheep' | 'chick' | 'duck';
 
 export type CritterSpec = {
   id: string;
@@ -83,6 +83,15 @@ const armAngle = (p: CArm, frame: number): number => {
 const Ears: React.FC<{ s: CritterSpec; layer: 'back' | 'front' }> = ({ s, layer }) => {
   const st = kst();
   if (layer === 'front') {
+    if (s.species === 'cow') return <ellipse cx={98} cy={-102} rx={48} ry={34} transform="rotate(18 98 -102)" fill={s.dark} />;
+    if (s.species === 'sheep')
+      return (
+        <g>
+          {[[-118, -96], [-64, -138], [0, -152], [64, -138], [118, -96]].map(([x, y], i) => (
+            <circle key={i} cx={x} cy={y} r={50} fill={s.fur2} {...st} />
+          ))}
+        </g>
+      );
     if (s.species === 'pig')
       return (
         <g>
@@ -187,6 +196,39 @@ const Ears: React.FC<{ s: CritterSpec; layer: 'back' | 'front' }> = ({ s, layer 
           ))}
         </g>
       );
+    case 'cow':
+      return (
+        <g>
+          {[-1, 1].map((k) => (
+            <g key={k}>
+              <path d={`M ${k * 52},-138 Q ${k * 70},-200 ${k * 116},-226 Q ${k * 102},-180 ${k * 106},-130 Z`} fill="#fff1d0" {...st} />
+              <ellipse cx={k * 196} cy={-58} rx={64} ry={30} transform={`rotate(${k * 18} ${k * 196} -58)`} fill={s.fur} {...st} />
+              <ellipse cx={k * 202} cy={-56} rx={38} ry={14} transform={`rotate(${k * 18} ${k * 202} -56)`} fill="#ffb3c6" />
+            </g>
+          ))}
+        </g>
+      );
+    case 'sheep':
+      return (
+        <g>
+          {[-1, 1].map((k) => (
+            <g key={k}>
+              <ellipse cx={k * 190} cy={-24} rx={60} ry={28} transform={`rotate(${k * 30} ${k * 190} -24)`} fill={s.fur} {...st} />
+              <ellipse cx={k * 194} cy={-20} rx={36} ry={13} transform={`rotate(${k * 30} ${k * 194} -20)`} fill="#ffb3c6" />
+            </g>
+          ))}
+        </g>
+      );
+    case 'chick':
+    case 'duck':
+      // a little feather tuft on top of the head
+      return (
+        <g>
+          {[-1, 0, 1].map((k) => (
+            <path key={k} d={`M ${k * 16},-150 Q ${k * 46 - 18},-236 ${k * 40},-262 Q ${k * 34 + 24},-210 ${k * 16 + 4},-150 Z`} fill={s.fur} {...st} />
+          ))}
+        </g>
+      );
     default:
       return null;
   }
@@ -232,6 +274,18 @@ const Tail: React.FC<{ s: CritterSpec; frame: number; happy?: boolean }> = ({ s,
       return <path d="M 110,-110 q 40,-10 30,-40 q -10,-30 -30,-10 q -10,30 30,20" fill="none" stroke={KINK} strokeWidth={14} strokeLinecap="round" />;
     case 'turtle':
       return <path d={`M 120,-70 L ${176 + wag},${-50 + wag * 0.3} L 124,-34 Z`} fill={s.fur} {...st} />;
+    case 'cow':
+      return (
+        <g>
+          <path d={`M 100,-150 Q 200,-140 ${206 + wag},-30`} fill="none" stroke={KINK} strokeWidth={16} strokeLinecap="round" />
+          <ellipse cx={206 + wag} cy={-14} rx={20} ry={32} fill={s.dark} {...st} />
+        </g>
+      );
+    case 'sheep':
+      return <circle cx={132} cy={-150} r={42} fill={s.fur2} {...st} />;
+    case 'chick':
+    case 'duck':
+      return <path d={`M 110,-170 Q 190,-190 ${204 + wag},${-250 + wag * 0.4} Q 186,-176 ${196 + wag * 0.5},-150 Q 160,-120 116,-120 Z`} fill={s.fur} {...st} />;
     default:
       return null;
   }
@@ -258,18 +312,21 @@ export const Critter: React.FC<CritterProps> = ({
   const owl = s.species === 'owl';
   const frog = s.species === 'frog';
   const turtle = s.species === 'turtle';
+  const bird = s.species === 'chick' || s.species === 'duck'; // wings + a beak/bill
+  const hooves = s.species === 'cow' || s.species === 'sheep';
 
   const arm = (p: CArm, side: -1 | 1, hold?: React.ReactNode) => {
     const a = armAngle(p, frame) * -side; // outward-positive, mirrored for the right arm
     return (
       <g key={side} transform={`translate(${side * SH[0]},${SH[1]}) rotate(${a})`}>
-        {owl ? (
+        {owl || bird ? (
           <Vol>
-            <path d="M -30,0 Q -10,140 0,150 Q 26,130 30,0 Z" fill={s.dark} {...st} />
+            <path d="M -30,0 Q -10,140 0,150 Q 26,130 30,0 Z" fill={owl ? s.dark : s.fur} {...st} />
           </Vol>
         ) : (
           <Vol kind="tube">
-            <rect x={-26.5} y={-26.5} width={53} height={173} rx={26.5} fill={s.species === 'panda' ? s.dark : s.fur} stroke={KINK} strokeWidth={7} />
+            <rect x={-26.5} y={-26.5} width={53} height={173} rx={26.5} fill={s.species === 'panda' || s.species === 'sheep' ? s.dark : s.fur} stroke={KINK} strokeWidth={7} />
+            {s.species === 'cow' && <rect x={-26.5} y={108} width={53} height={38.5} rx={16} fill={s.dark} stroke={KINK} strokeWidth={7} />}
           </Vol>
         )}
         {hold && <g transform={`translate(0,140) rotate(${-a})`}>{hold}</g>}
@@ -294,8 +351,9 @@ export const Critter: React.FC<CritterProps> = ({
           <ellipse cx={64} cy={6} rx={84} ry={88} fill={s.fur2} />
         </g>
       );
-    if (frog) return null;
+    if (frog || bird) return null;
     if (s.species === 'pig' || s.species === 'elephant' || s.species === 'turtle') return null;
+    if (s.species === 'cow') return <ellipse cx={0} cy={78} rx={118} ry={66} fill={s.fur2} />;
     const w = s.species === 'fox' ? 150 : s.species === 'mouse' || s.species === 'cat' ? 92 : 104;
     return <ellipse cx={0} cy={64} rx={w} ry={70} fill={s.fur2} />;
   };
@@ -336,13 +394,31 @@ export const Critter: React.FC<CritterProps> = ({
         );
       case 'frog':
         return <g />;
+      case 'cow':
+        return (
+          <g fill={KINK} opacity={0.75}>
+            <ellipse cx={-36} cy={62} rx={11} ry={15} />
+            <ellipse cx={36} cy={62} rx={11} ry={15} />
+          </g>
+        );
+      case 'chick':
+        return <path d="M -24,30 L 24,30 L 0,64 Z" fill={s.dark} {...kst(6)} />;
+      case 'duck':
+        return (
+          <g>
+            <ellipse cx={0} cy={52} rx={80} ry={36} fill={s.dark} {...kst(7)} />
+            <ellipse cx={-20} cy={36} rx={7} ry={4} fill={KINK} opacity={0.55} />
+            <ellipse cx={20} cy={36} rx={7} ry={4} fill={KINK} opacity={0.55} />
+          </g>
+        );
+      case 'sheep':
       case 'cat':
       case 'mouse':
       case 'bunny':
         return (
           <g>
             <path d="M -16,30 L 16,30 L 0,46 Z" fill="#ff8fab" {...kst(6)} />
-            {s.species !== 'bunny' && (
+            {s.species !== 'bunny' && s.species !== 'sheep' && (
               <g {...kst(4)}>
                 {[-1, 1].map((k) => [0, 1].map((i) => <line key={`${k}${i}`} x1={k * 70} y1={48 + i * 16} x2={k * 150} y2={36 + i * 30} />))}
               </g>
@@ -392,10 +468,10 @@ export const Critter: React.FC<CritterProps> = ({
           eyeR={frog ? 44 : 40}
           eyeDX={frog ? 70 : 64}
           eyeY={-8}
-          mouthY={frog ? 220 : 78}
-          mouthW={frog ? 80 : s.species === 'elephant' ? 74 : 40}
+          mouthY={frog ? 220 : s.species === 'cow' ? 104 : s.species === 'duck' ? 64 : 78}
+          mouthW={frog ? 80 : s.species === 'elephant' ? 74 : s.species === 'duck' ? 52 : 40}
           cheeks
-          brows={owl || frog ? false : s.dark}
+          brows={owl || frog ? false : bird ? KINK : s.dark}
           nose={<Vol>{nose()}</Vol>}
         />
       </g>
@@ -449,7 +525,7 @@ export const Critter: React.FC<CritterProps> = ({
         {/* feet */}
         <Vol>
           {[-1, 1].map((k) => (
-            <ellipse key={k} cx={k * 62} cy={-24 - (walking ? Math.max(0, k * step) * 26 : 0)} rx={58} ry={34} fill={owl || frog ? '#ffb703' : s.species === 'panda' ? s.dark : s.fur} {...st} />
+            <ellipse key={k} cx={k * 62} cy={-24 - (walking ? Math.max(0, k * step) * 26 : 0)} rx={58} ry={34} fill={owl || frog ? '#ffb703' : bird || hooves || s.species === 'panda' ? s.dark : s.fur} {...st} />
           ))}
         </Vol>
         {tuck < 0.5 && !front(armL) && arm(armL, -1, holdL)}
@@ -476,12 +552,30 @@ export const Critter: React.FC<CritterProps> = ({
           </g>
         ) : (
           <g>
-            <Vol>
-              <ellipse cx={0} cy={-160} rx={130} ry={140} fill={s.fur} {...kst(9)} />
-            </Vol>
-            <Vol>
-              <ellipse cx={0} cy={-140} rx={84} ry={96} fill={s.fur2} />
-            </Vol>
+            {s.species === 'sheep' ? (
+              <Vol>
+                {/* a fluffy wool cloud: scalloped puffs, then one fill that hides their inner outlines */}
+                {Array.from({ length: 12 }).map((_, i) => {
+                  const a = (i / 12) * Math.PI * 2;
+                  return <circle key={i} cx={Math.sin(a) * 120} cy={-160 - Math.cos(a) * 128} r={46} fill={s.fur2} {...kst(8)} />;
+                })}
+                <ellipse cx={0} cy={-160} rx={124} ry={132} fill={s.fur2} />
+              </Vol>
+            ) : (
+              <Vol>
+                <ellipse cx={0} cy={-160} rx={130} ry={140} fill={s.fur} {...kst(9)} />
+              </Vol>
+            )}
+            {s.species === 'cow' ? (
+              <g fill={s.dark}>
+                <ellipse cx={-62} cy={-222} rx={40} ry={30} transform="rotate(-14 -62 -222)" />
+                <ellipse cx={74} cy={-118} rx={34} ry={40} />
+              </g>
+            ) : s.species !== 'sheep' && (
+              <Vol>
+                <ellipse cx={0} cy={-140} rx={84} ry={96} fill={s.fur2} />
+              </Vol>
+            )}
             {/* the chin's soft shadow on the tummy, clipped to the body */}
             <g clipPath={`url(#cao-${s.id})`}>
               <clipPath id={`cao-${s.id}`}>
