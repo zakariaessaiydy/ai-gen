@@ -220,7 +220,7 @@ export const WordCard: React.FC<{ t: number; at: number; until?: number; x: numb
       </text>
       {word2 && (
         <g>
-          <text y={hgt * 0.38} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={w * 0.12} fill={color} stroke={KINK} strokeWidth={4} paintOrder="stroke">
+          <text y={hgt * 0.38} textAnchor="middle" fontFamily={FONT_TOON} fontWeight={700} fontSize={w * Math.min(0.12, 1.35 / Math.max(1, word2.length))} fill={color} stroke={KINK} strokeWidth={4} paintOrder="stroke">
             {word2}
           </text>
           <text x={-w / 2 + 50} y={hgt * 0.2 - w * 0.02} fontFamily={FONT_TOON} fontWeight={700} fontSize={28} fill="#adb5bd">{lang}</text>

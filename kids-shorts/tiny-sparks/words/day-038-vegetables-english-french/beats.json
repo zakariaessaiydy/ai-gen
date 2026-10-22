@@ -1,0 +1,1272 @@
+{
+  "id": "day-038",
+  "series": "tiny-sparks",
+  "episode": 38,
+  "title": "Vegetables in English and French",
+  "composition": "KidsWords038",
+  "audience": "ages 2-6 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 135.7
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "narrator_fr": {
+      "kokoro": "ff_siwis",
+      "lang": "fr",
+      "rate": "-6%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "bobo",
+      "start": 0.4,
+      "end": 2.29,
+      "text": "Look! Something is growing in the garden!",
+      "words": [
+        {
+          "w": "Look!",
+          "start": 0.43,
+          "end": 0.637
+        },
+        {
+          "w": "Something",
+          "start": 0.637,
+          "end": 1.0
+        },
+        {
+          "w": "is",
+          "start": 1.0,
+          "end": 1.104
+        },
+        {
+          "w": "growing",
+          "start": 1.104,
+          "end": 1.466
+        },
+        {
+          "w": "in",
+          "start": 1.466,
+          "end": 1.622
+        },
+        {
+          "w": "the",
+          "start": 1.622,
+          "end": 1.725
+        },
+        {
+          "w": "garden!",
+          "start": 1.725,
+          "end": 2.14
+        }
+      ]
+    },
+    {
+      "beat": "hook",
+      "speaker": "bobo",
+      "start": 2.89,
+      "end": 4.1,
+      "text": "Pull... pull... POP!",
+      "words": [
+        {
+          "w": "Pull...",
+          "start": 2.93,
+          "end": 3.262
+        },
+        {
+          "w": "pull...",
+          "start": 3.262,
+          "end": 3.595
+        },
+        {
+          "w": "POP!",
+          "start": 3.595,
+          "end": 4.01
+        }
+      ]
+    },
+    {
+      "beat": "intro",
+      "speaker": "mila",
+      "start": 5.3,
+      "end": 8.83,
+      "text": "Hi friends! Let's learn vegetables, in English, and in French!",
+      "words": [
+        {
+          "w": "Hi",
+          "start": 5.34,
+          "end": 5.584
+        },
+        {
+          "w": "friends!",
+          "start": 5.584,
+          "end": 6.012
+        },
+        {
+          "w": "Let's",
+          "start": 6.012,
+          "end": 6.317
+        },
+        {
+          "w": "learn",
+          "start": 6.317,
+          "end": 6.623
+        },
+        {
+          "w": "vegetables,",
+          "start": 6.623,
+          "end": 7.355
+        },
+        {
+          "w": "in",
+          "start": 7.355,
+          "end": 7.539
+        },
+        {
+          "w": "English,",
+          "start": 7.539,
+          "end": 7.966
+        },
+        {
+          "w": "and",
+          "start": 7.966,
+          "end": 8.149
+        },
+        {
+          "w": "in",
+          "start": 8.149,
+          "end": 8.332
+        },
+        {
+          "w": "French!",
+          "start": 8.332,
+          "end": 8.76
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "mila",
+      "start": 10.83,
+      "end": 11.67,
+      "text": "Carrot.",
+      "words": [
+        {
+          "w": "Carrot.",
+          "start": 10.95,
+          "end": 11.55
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "mila",
+      "start": 12.67,
+      "end": 13.52,
+      "text": "Carrot!",
+      "words": [
+        {
+          "w": "Carrot!",
+          "start": 12.72,
+          "end": 13.39
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "narrator_fr",
+      "start": 15.52,
+      "end": 16.5,
+      "text": "La carotte.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 15.56,
+          "end": 15.843
+        },
+        {
+          "w": "carotte.",
+          "start": 15.843,
+          "end": 16.41
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "narrator_fr",
+      "start": 17.5,
+      "end": 18.5,
+      "text": "La carotte !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 17.53,
+          "end": 17.823
+        },
+        {
+          "w": "carotte",
+          "start": 17.823,
+          "end": 18.41
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "bobo",
+      "start": 19.8,
+      "end": 21.69,
+      "text": "Bunnies love carrots! Crunch, crunch!",
+      "words": [
+        {
+          "w": "Bunnies",
+          "start": 19.82,
+          "end": 20.165
+        },
+        {
+          "w": "love",
+          "start": 20.165,
+          "end": 20.394
+        },
+        {
+          "w": "carrots!",
+          "start": 20.394,
+          "end": 20.796
+        },
+        {
+          "w": "Crunch,",
+          "start": 20.796,
+          "end": 21.198
+        },
+        {
+          "w": "crunch!",
+          "start": 21.198,
+          "end": 21.6
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 24.29,
+      "end": 25.24,
+      "text": "Tomato.",
+      "words": [
+        {
+          "w": "Tomato.",
+          "start": 24.33,
+          "end": 25.07
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 26.24,
+      "end": 27.19,
+      "text": "Tomato!",
+      "words": [
+        {
+          "w": "Tomato!",
+          "start": 26.29,
+          "end": 27.03
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "narrator_fr",
+      "start": 29.19,
+      "end": 30.12,
+      "text": "La tomate.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 29.22,
+          "end": 29.49
+        },
+        {
+          "w": "tomate.",
+          "start": 29.49,
+          "end": 30.03
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "narrator_fr",
+      "start": 31.12,
+      "end": 32.1,
+      "text": "La tomate !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 31.15,
+          "end": 31.437
+        },
+        {
+          "w": "tomate",
+          "start": 31.437,
+          "end": 32.01
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 33.4,
+      "end": 35.12,
+      "text": "A round, red tomato!",
+      "words": [
+        {
+          "w": "A",
+          "start": 33.42,
+          "end": 33.634
+        },
+        {
+          "w": "round,",
+          "start": 33.634,
+          "end": 34.062
+        },
+        {
+          "w": "red",
+          "start": 34.062,
+          "end": 34.348
+        },
+        {
+          "w": "tomato!",
+          "start": 34.348,
+          "end": 34.99
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 37.72,
+      "end": 38.69,
+      "text": "Broccoli.",
+      "words": [
+        {
+          "w": "Broccoli.",
+          "start": 37.8,
+          "end": 38.57
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 39.69,
+      "end": 40.69,
+      "text": "Broccoli!",
+      "words": [
+        {
+          "w": "Broccoli!",
+          "start": 39.77,
+          "end": 40.54
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "narrator_fr",
+      "start": 42.69,
+      "end": 43.69,
+      "text": "Le brocoli.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 42.72,
+          "end": 42.946
+        },
+        {
+          "w": "brocoli.",
+          "start": 42.946,
+          "end": 43.55
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "narrator_fr",
+      "start": 44.69,
+      "end": 45.71,
+      "text": "Le brocoli !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 44.72,
+          "end": 44.952
+        },
+        {
+          "w": "brocoli",
+          "start": 44.952,
+          "end": 45.57
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 47.01,
+      "end": 48.95,
+      "text": "Broccoli looks like a little tree!",
+      "words": [
+        {
+          "w": "Broccoli",
+          "start": 47.08,
+          "end": 47.56
+        },
+        {
+          "w": "looks",
+          "start": 47.56,
+          "end": 47.827
+        },
+        {
+          "w": "like",
+          "start": 47.827,
+          "end": 48.093
+        },
+        {
+          "w": "a",
+          "start": 48.093,
+          "end": 48.253
+        },
+        {
+          "w": "little",
+          "start": 48.253,
+          "end": 48.573
+        },
+        {
+          "w": "tree!",
+          "start": 48.573,
+          "end": 48.84
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 51.55,
+      "end": 52.44,
+      "text": "Corn.",
+      "words": [
+        {
+          "w": "Corn.",
+          "start": 51.67,
+          "end": 52.27
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 53.44,
+      "end": 54.33,
+      "text": "Corn!",
+      "words": [
+        {
+          "w": "Corn!",
+          "start": 53.56,
+          "end": 54.17
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "narrator_fr",
+      "start": 56.33,
+      "end": 57.31,
+      "text": "Le maïs.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 56.36,
+          "end": 56.675
+        },
+        {
+          "w": "maïs.",
+          "start": 56.675,
+          "end": 57.2
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "narrator_fr",
+      "start": 58.31,
+      "end": 59.29,
+      "text": "Le maïs !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 58.34,
+          "end": 58.655
+        },
+        {
+          "w": "maïs",
+          "start": 58.655,
+          "end": 59.18
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "bobo",
+      "start": 60.59,
+      "end": 62.46,
+      "text": "Pop, pop! Corn makes popcorn!",
+      "words": [
+        {
+          "w": "Pop,",
+          "start": 60.62,
+          "end": 60.884
+        },
+        {
+          "w": "pop!",
+          "start": 60.884,
+          "end": 61.148
+        },
+        {
+          "w": "Corn",
+          "start": 61.148,
+          "end": 61.465
+        },
+        {
+          "w": "makes",
+          "start": 61.465,
+          "end": 61.782
+        },
+        {
+          "w": "popcorn!",
+          "start": 61.782,
+          "end": 62.31
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 65.06,
+      "end": 66.21,
+      "text": "Potato.",
+      "words": [
+        {
+          "w": "Potato.",
+          "start": 65.16,
+          "end": 66.03
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 67.21,
+      "end": 68.36,
+      "text": "Potato!",
+      "words": [
+        {
+          "w": "Potato!",
+          "start": 67.3,
+          "end": 68.19
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "narrator_fr",
+      "start": 70.36,
+      "end": 71.57,
+      "text": "La pomme de terre.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 70.39,
+          "end": 70.63
+        },
+        {
+          "w": "pomme",
+          "start": 70.63,
+          "end": 70.95
+        },
+        {
+          "w": "de",
+          "start": 70.95,
+          "end": 71.11
+        },
+        {
+          "w": "terre.",
+          "start": 71.11,
+          "end": 71.43
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "narrator_fr",
+      "start": 72.57,
+      "end": 73.82,
+      "text": "La pomme de terre !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 72.6,
+          "end": 72.852
+        },
+        {
+          "w": "pomme",
+          "start": 72.852,
+          "end": 73.187
+        },
+        {
+          "w": "de",
+          "start": 73.187,
+          "end": 73.355
+        },
+        {
+          "w": "terre",
+          "start": 73.355,
+          "end": 73.69
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 75.12,
+      "end": 77.06,
+      "text": "Potatoes grow under the ground!",
+      "words": [
+        {
+          "w": "Potatoes",
+          "start": 75.16,
+          "end": 75.774
+        },
+        {
+          "w": "grow",
+          "start": 75.774,
+          "end": 76.081
+        },
+        {
+          "w": "under",
+          "start": 76.081,
+          "end": 76.388
+        },
+        {
+          "w": "the",
+          "start": 76.388,
+          "end": 76.51
+        },
+        {
+          "w": "ground!",
+          "start": 76.51,
+          "end": 76.94
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 79.66,
+      "end": 80.59,
+      "text": "Peas.",
+      "words": [
+        {
+          "w": "Peas.",
+          "start": 79.79,
+          "end": 80.46
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 81.59,
+      "end": 82.55,
+      "text": "Peas!",
+      "words": [
+        {
+          "w": "Peas!",
+          "start": 81.69,
+          "end": 82.41
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "narrator_fr",
+      "start": 84.55,
+      "end": 85.64,
+      "text": "Les petits pois.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Les",
+          "start": 84.59,
+          "end": 84.818
+        },
+        {
+          "w": "petits",
+          "start": 84.818,
+          "end": 85.197
+        },
+        {
+          "w": "pois.",
+          "start": 85.197,
+          "end": 85.5
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "narrator_fr",
+      "start": 86.64,
+      "end": 87.75,
+      "text": "Les petits pois !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Les",
+          "start": 86.68,
+          "end": 86.915
+        },
+        {
+          "w": "petits",
+          "start": 86.915,
+          "end": 87.307
+        },
+        {
+          "w": "pois",
+          "start": 87.307,
+          "end": 87.62
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "bobo",
+      "start": 89.05,
+      "end": 90.62,
+      "text": "Tiny green peas, in a pod!",
+      "words": [
+        {
+          "w": "Tiny",
+          "start": 89.08,
+          "end": 89.389
+        },
+        {
+          "w": "green",
+          "start": 89.389,
+          "end": 89.697
+        },
+        {
+          "w": "peas,",
+          "start": 89.697,
+          "end": 89.954
+        },
+        {
+          "w": "in",
+          "start": 89.954,
+          "end": 90.109
+        },
+        {
+          "w": "a",
+          "start": 90.109,
+          "end": 90.263
+        },
+        {
+          "w": "pod!",
+          "start": 90.263,
+          "end": 90.52
+        }
+      ]
+    },
+    {
+      "beat": "q5",
+      "speaker": "mila",
+      "start": 93.22,
+      "end": 95.52,
+      "text": "Quiz time! Which one is the broccoli?",
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 93.26,
+          "end": 93.598
+        },
+        {
+          "w": "time!",
+          "start": 93.598,
+          "end": 93.935
+        },
+        {
+          "w": "Which",
+          "start": 93.935,
+          "end": 94.273
+        },
+        {
+          "w": "one",
+          "start": 94.273,
+          "end": 94.543
+        },
+        {
+          "w": "is",
+          "start": 94.543,
+          "end": 94.678
+        },
+        {
+          "w": "the",
+          "start": 94.678,
+          "end": 94.813
+        },
+        {
+          "w": "broccoli?",
+          "start": 94.813,
+          "end": 95.42
+        }
+      ]
+    },
+    {
+      "beat": "q5",
+      "speaker": "mila",
+      "start": 100.52,
+      "end": 102.33,
+      "text": "Yes! This is the broccoli!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 100.56,
+          "end": 100.878
+        },
+        {
+          "w": "This",
+          "start": 100.878,
+          "end": 101.196
+        },
+        {
+          "w": "is",
+          "start": 101.196,
+          "end": 101.355
+        },
+        {
+          "w": "the",
+          "start": 101.355,
+          "end": 101.514
+        },
+        {
+          "w": "broccoli!",
+          "start": 101.514,
+          "end": 102.23
+        }
+      ]
+    },
+    {
+      "beat": "q5",
+      "speaker": "narrator_fr",
+      "start": 103.33,
+      "end": 104.35,
+      "text": "Le brocoli !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 103.36,
+          "end": 103.592
+        },
+        {
+          "w": "brocoli",
+          "start": 103.592,
+          "end": 104.21
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 106.95,
+      "end": 108.63,
+      "text": "Let's say them all, together!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 106.98,
+          "end": 107.301
+        },
+        {
+          "w": "say",
+          "start": 107.301,
+          "end": 107.557
+        },
+        {
+          "w": "them",
+          "start": 107.557,
+          "end": 107.814
+        },
+        {
+          "w": "all,",
+          "start": 107.814,
+          "end": 108.071
+        },
+        {
+          "w": "together!",
+          "start": 108.071,
+          "end": 108.52
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 110.23,
+      "end": 112.02,
+      "text": "Carrot, Tomato, Broccoli!",
+      "words": [
+        {
+          "w": "Carrot,",
+          "start": 110.25,
+          "end": 110.662
+        },
+        {
+          "w": "Tomato,",
+          "start": 110.662,
+          "end": 111.281
+        },
+        {
+          "w": "Broccoli!",
+          "start": 111.281,
+          "end": 111.9
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 113.42,
+      "end": 115.14,
+      "text": "Corn, Potato, Peas!",
+      "words": [
+        {
+          "w": "Corn,",
+          "start": 113.46,
+          "end": 113.934
+        },
+        {
+          "w": "Potato,",
+          "start": 113.934,
+          "end": 114.645
+        },
+        {
+          "w": "Peas!",
+          "start": 114.645,
+          "end": 115.04
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 117.14,
+      "end": 118.25,
+      "text": "Et en français !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Et",
+          "start": 117.17,
+          "end": 117.364
+        },
+        {
+          "w": "en",
+          "start": 117.364,
+          "end": 117.558
+        },
+        {
+          "w": "français",
+          "start": 117.558,
+          "end": 118.14
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 119.65,
+      "end": 121.71,
+      "text": "la carotte, la tomate, le brocoli !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "la",
+          "start": 119.69,
+          "end": 119.884
+        },
+        {
+          "w": "carotte,",
+          "start": 119.884,
+          "end": 120.273
+        },
+        {
+          "w": "la",
+          "start": 120.273,
+          "end": 120.468
+        },
+        {
+          "w": "tomate,",
+          "start": 120.468,
+          "end": 120.857
+        },
+        {
+          "w": "le",
+          "start": 120.857,
+          "end": 121.051
+        },
+        {
+          "w": "brocoli",
+          "start": 121.051,
+          "end": 121.57
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 123.11,
+      "end": 125.6,
+      "text": "le maïs, la pomme de terre, les petits pois !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "le",
+          "start": 123.14,
+          "end": 123.353
+        },
+        {
+          "w": "maïs,",
+          "start": 123.353,
+          "end": 123.707
+        },
+        {
+          "w": "la",
+          "start": 123.707,
+          "end": 123.92
+        },
+        {
+          "w": "pomme",
+          "start": 123.92,
+          "end": 124.204
+        },
+        {
+          "w": "de",
+          "start": 124.204,
+          "end": 124.345
+        },
+        {
+          "w": "terre,",
+          "start": 124.345,
+          "end": 124.629
+        },
+        {
+          "w": "les",
+          "start": 124.629,
+          "end": 124.842
+        },
+        {
+          "w": "petits",
+          "start": 124.842,
+          "end": 125.196
+        },
+        {
+          "w": "pois",
+          "start": 125.196,
+          "end": 125.48
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "start": 128.0,
+      "end": 131.32,
+      "text": "Which vegetable do YOU like best? Bye bye, friends!",
+      "words": [
+        {
+          "w": "Which",
+          "start": 128.18,
+          "end": 128.492
+        },
+        {
+          "w": "vegetable",
+          "start": 128.492,
+          "end": 129.18
+        },
+        {
+          "w": "do",
+          "start": 129.18,
+          "end": 129.43
+        },
+        {
+          "w": "YOU",
+          "start": 129.43,
+          "end": 129.617
+        },
+        {
+          "w": "like",
+          "start": 129.617,
+          "end": 129.93
+        },
+        {
+          "w": "best?",
+          "start": 129.93,
+          "end": 130.242
+        },
+        {
+          "w": "Bye",
+          "start": 130.242,
+          "end": 130.492
+        },
+        {
+          "w": "bye,",
+          "start": 130.492,
+          "end": 130.742
+        },
+        {
+          "w": "friends!",
+          "start": 130.742,
+          "end": 131.18
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "bobo",
+      "start": 131.92,
+      "end": 133.16,
+      "text": "Bye bye! Au revoir!",
+      "words": [
+        {
+          "w": "Bye",
+          "start": 131.94,
+          "end": 132.167
+        },
+        {
+          "w": "bye!",
+          "start": 132.167,
+          "end": 132.395
+        },
+        {
+          "w": "Au",
+          "start": 132.395,
+          "end": 132.565
+        },
+        {
+          "w": "revoir!",
+          "start": 132.565,
+          "end": 133.02
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "visual": "Look! Something is growing in the garden! / Pull... pull... POP!",
+      "end": 5.1
+    },
+    {
+      "id": "intro",
+      "start": 5.1,
+      "visual": "Hi friends! Let's learn vegetables, in English, and in French!",
+      "end": 10.63
+    },
+    {
+      "id": "c0",
+      "start": 10.63,
+      "visual": "Carrot. / Carrot! / La carotte. / La carotte ! / Bunnies love carrots! Crunch, crunch!",
+      "end": 24.09
+    },
+    {
+      "id": "c1",
+      "start": 24.09,
+      "visual": "Tomato. / Tomato! / La tomate. / La tomate ! / A round, red tomato!",
+      "end": 37.52
+    },
+    {
+      "id": "c2",
+      "start": 37.52,
+      "visual": "Broccoli. / Broccoli! / Le brocoli. / Le brocoli ! / Broccoli looks like a little tree!",
+      "end": 51.35
+    },
+    {
+      "id": "c3",
+      "start": 51.35,
+      "visual": "Corn. / Corn! / Le maïs. / Le maïs ! / Pop, pop! Corn makes popcorn!",
+      "end": 64.86
+    },
+    {
+      "id": "c4",
+      "start": 64.86,
+      "visual": "Potato. / Potato! / La pomme de terre. / La pomme de terre ! / Potatoes grow under the ground!",
+      "end": 79.46
+    },
+    {
+      "id": "c5",
+      "start": 79.46,
+      "visual": "Peas. / Peas! / Les petits pois. / Les petits pois ! / Tiny green peas, in a pod!",
+      "end": 93.02
+    },
+    {
+      "id": "q5",
+      "start": 93.02,
+      "visual": "Quiz time! Which one is the broccoli? / Yes! This is the broccoli! / Le brocoli !",
+      "end": 106.75
+    },
+    {
+      "id": "recap",
+      "start": 106.75,
+      "visual": "Let's say them all, together! / Carrot, Tomato, Broccoli! / Corn, Potato, Peas!",
+      "end": 116.94
+    },
+    {
+      "id": "recapfr",
+      "start": 116.94,
+      "visual": "Et en français ! / la carotte, la tomate, le brocoli ! / le maïs, la pomme de terre, les petits pois !",
+      "end": 127.8
+    },
+    {
+      "id": "bye",
+      "start": 127.8,
+      "visual": "Which vegetable do YOU like best? Bye bye, friends! / Bye bye! Au revoir!",
+      "end": 135.7
+    }
+  ],
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -6,
+    "duck": 8,
+    "start": 0,
+    "fade_in": 0.3
+  },
+  "voiceStatus": "kokoro:cast"
+}
