@@ -43,3 +43,4 @@ tools/.cache/
 # kids thumbnails: background frames extracted from the renders (tools/kids_thumbs.py regenerates them)
 media/projects/kids-thumbs/frames/
 kids-shorts/tiny-sparks/lab/thumbs-out/
+kids-shorts/tiny-sparks/lab/shorts-out/

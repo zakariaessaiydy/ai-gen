@@ -272,6 +272,10 @@ long episodes with ffmpeg + a 2 s branded transition; title "… + More Kids Son
    `--music <id or bed FILE>` overrides it (e.g. a song's `bed.mp3` for a calm episode).
 6. Write the title/description/tags into script.md (patterns in each niche skill), update
    IDEAS.md (✅ + next 🟡), commit + push.
+7. Long videos: a **thumbnail** (`tools/kids_thumbs.py`, spec `kids-shorts/tiny-sparks/thumbs.json`: a frame
+   of the render zoomed onto a big expressive face + a 2-4 word title; keep the bottom-right corner clear for
+   YouTube's duration stamp) and a **Short cut** (`tools/kids_shortcuts.py`, spec `shortcuts.json`: the best
+   30-55 s in a 1080x1920 frame with a hook title). See video-of-the-day step 4b.
 
 ## Music (free, legal, no Content-ID risk)
 

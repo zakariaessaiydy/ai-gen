@@ -24,6 +24,13 @@ list the idea files. All calendar I/O goes through `tools/next_video.py` (prints
    first make `<out>/day-NNN-final.mp4` with `ffmpeg -i <mp4> -c:v libx264 -crf 24 -preset slow -c:a copy -movflags +faststart`; if it is STILL over 30 MB — busy 16:9 songs are — encode two-pass
    `-b:v 1250k -preset slow -tune animation` (≈29 MB for 2:45)), then
    `python tools/next_video.py --done <day> --file <path to the mp4>` → prints `N/800 made`.
+4b. **Long 16:9 videos also get a thumbnail and a Short** (user request: "thumbnails and shorts" to get
+   views): add an entry to `kids-shorts/tiny-sparks/thumbs.json` (a frame time with the hero's face big,
+   zoom/focus, a 2-4 word title) → `python tools/kids_thumbs.py --only <day>` → `<project>/thumbnail.jpg`;
+   and to `kids-shorts/tiny-sparks/shortcuts.json` (the best 30-55 s: a guessing game, the story's
+   cliffhanger, or the song's first chorus + a 2-line hook title) → `python tools/kids_shortcuts.py --only
+   <day>` → `<project>/output/short-from-long.mp4`. QA both (frames), send both with the video, and add the
+   Short's title/description to `publishing/shorts-from-long.md`.
 5. Write the upload kit into the project's script.md (## Upload): title, description with `#Shorts`
    first among 3–8 hashtags, and the two playlists (the niche playlist + "Tiny Sparks Shorts — All
    Episodes"), Made for Kids = Yes. Then commit + push (the xlsx changes with the status). Report in 4 lines: Day N + topic, the title,
