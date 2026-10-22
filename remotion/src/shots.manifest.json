@@ -480,6 +480,14 @@
   "transparent": false
  },
  {
+  "id": "KidsStories043",
+  "durationInSeconds": 306.8,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "KidsThumbs",
   "durationInSeconds": 10,
   "fps": 30,

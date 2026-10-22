@@ -250,5 +250,17 @@
    "DAYS OF THE WEEK",
    "SING ALONG!"
   ]
+ },
+ {
+  "day": 43,
+  "comp": "KidsStories043",
+  "a": 70.0,
+  "b": 108.9,
+  "xc": 900,
+  "w": 1440,
+  "lines": [
+   "COUNT TO TEN",
+   "WITH MILA!"
+  ]
  }
 ]

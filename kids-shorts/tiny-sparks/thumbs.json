@@ -302,5 +302,20 @@
   "at": "bottom",
   "size": 124,
   "rot": -3
+ },
+ {
+  "day": 43,
+  "comp": "KidsStories043",
+  "t": 131.5,
+  "z": 1.25,
+  "fx": 1000,
+  "fy": 480,
+  "lines": [
+   "WAIT,",
+   "MILA!"
+  ],
+  "at": "right",
+  "size": 136,
+  "rot": -3
  }
 ]
