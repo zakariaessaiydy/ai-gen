@@ -5,6 +5,33 @@ export type Thumb = { day: number; frame: string; z: number; fx: number; fy: num
   bubbles?: { items: string[]; x: number; y: number; r?: number; perRow?: number } };
 export const THUMBS: Thumb[] = [
  {
+  "day": 3,
+  "frame": "d003-110.00.png",
+  "z": 1.3,
+  "fx": 930,
+  "fy": 490,
+  "lines": [
+   "10 ANIMALS"
+  ],
+  "size": 112,
+  "at": "bottom",
+  "rot": -3,
+  "sticker": "EN\n+FR"
+ },
+ {
+  "day": 4,
+  "frame": "d004-61.00.png",
+  "z": 1.9,
+  "fx": 1180,
+  "fy": 560,
+  "lines": [
+   "AFRAID OF",
+   "THE DARK?"
+  ],
+  "size": 110,
+  "at": "right"
+ },
+ {
   "day": 7,
   "frame": "d007-24.50.png",
   "z": 1.25,
@@ -17,6 +44,46 @@ export const THUMBS: Thumb[] = [
   "at": "bottom",
   "rot": -3,
   "ribbon": "tl"
+ },
+ {
+  "day": 8,
+  "frame": "d008-36.00.png",
+  "z": 1.35,
+  "fx": 620,
+  "fy": 520,
+  "lines": [
+   "WHO BROKE IT?"
+  ],
+  "size": 112,
+  "at": "top",
+  "ribbon": "bl"
+ },
+ {
+  "day": 10,
+  "frame": "d010-340.00.png",
+  "z": 1.2,
+  "fx": 930,
+  "fy": 480,
+  "lines": [
+   "20 COLORS"
+  ],
+  "size": 116,
+  "at": "bottom",
+  "rot": -3,
+  "sticker": "EN\n+FR"
+ },
+ {
+  "day": 11,
+  "frame": "d011-106.00.png",
+  "z": 1.5,
+  "fx": 990,
+  "fy": 450,
+  "lines": [
+   "THE LOST",
+   "CARROT!"
+  ],
+  "size": 108,
+  "at": "right"
  },
  {
   "day": 14,
@@ -33,6 +100,47 @@ export const THUMBS: Thumb[] = [
   "ribbon": "tl"
  },
  {
+  "day": 15,
+  "frame": "d015-90.00.png",
+  "z": 1.3,
+  "fx": 980,
+  "fy": 520,
+  "lines": [
+   "PLEASE & THANK YOU!"
+  ],
+  "size": 92,
+  "at": "top",
+  "rot": -3,
+  "ribbon": "bl"
+ },
+ {
+  "day": 17,
+  "frame": "d017-330.00.png",
+  "z": 1.2,
+  "fx": 930,
+  "fy": 480,
+  "lines": [
+   "NUMBERS 1-20"
+  ],
+  "size": 100,
+  "at": "bottom",
+  "rot": -3,
+  "sticker": "EN\n+FR"
+ },
+ {
+  "day": 18,
+  "frame": "d018-84.00.png",
+  "z": 1.5,
+  "fx": 1300,
+  "fy": 500,
+  "lines": [
+   "MANGO",
+   "MISSION!"
+  ],
+  "size": 124,
+  "at": "left"
+ },
+ {
   "day": 21,
   "frame": "d021-172.00.png",
   "z": 1.25,
@@ -44,6 +152,32 @@ export const THUMBS: Thumb[] = [
   "size": 124,
   "at": "bottom",
   "rot": -3
+ },
+ {
+  "day": 22,
+  "frame": "d022-49.00.png",
+  "z": 1.3,
+  "fx": 1060,
+  "fy": 520,
+  "lines": [
+   "WILL SHE",
+   "SHARE?"
+  ],
+  "size": 118,
+  "at": "right"
+ },
+ {
+  "day": 25,
+  "frame": "d025-96.00.png",
+  "z": 1.5,
+  "fx": 700,
+  "fy": 500,
+  "lines": [
+   "KIND",
+   "ELEPHANT"
+  ],
+  "size": 118,
+  "at": "right"
  },
  {
   "day": 28,
@@ -59,6 +193,34 @@ export const THUMBS: Thumb[] = [
   "rot": -3
  },
  {
+  "day": 29,
+  "frame": "d029-61.00.png",
+  "z": 1.25,
+  "fx": 960,
+  "fy": 560,
+  "lines": [
+   "MESSY ROOM!"
+  ],
+  "size": 124,
+  "at": "top",
+  "rot": -3,
+  "ribbon": "bl"
+ },
+ {
+  "day": 32,
+  "frame": "d032-12.00.png",
+  "z": 1.6,
+  "fx": 1100,
+  "fy": 540,
+  "lines": [
+   "SAMMY THE TURTLE"
+  ],
+  "size": 96,
+  "at": "top",
+  "rot": -3,
+  "ribbon": "bl"
+ },
+ {
   "day": 35,
   "frame": "d035-126.00.png",
   "z": 1.25,
@@ -70,5 +232,18 @@ export const THUMBS: Thumb[] = [
   "size": 120,
   "at": "bottom",
   "rot": -3
+ },
+ {
+  "day": 36,
+  "frame": "d036-48.60.png",
+  "z": 1.8,
+  "fx": 930,
+  "fy": 600,
+  "lines": [
+   "OH NO!",
+   "STUCK!"
+  ],
+  "size": 128,
+  "at": "right"
  }
 ];

@@ -17,7 +17,7 @@ then:
   3. saves <episode folder>/thumbnail.jpg (YouTube limit 2 MB) and prints the QA contact sheets.
 
   python tools/kids_thumbs.py               # every entry
-  python tools/kids_thumbs.py --only 36,35  # some days (frames 0..n-1 = those entries)
+  python tools/kids_thumbs.py --only 36,35  # re-render some days (thumbs.gen.ts always holds every entry)
 
 Run from the repo root. Needs ffmpeg + node (the Remotion project).
 """
@@ -59,13 +59,13 @@ def main():
     args = ap.parse_args()
     spec = json.load(open(SPEC, encoding="utf-8"))
     only = {int(x) for x in args.only.split(",")} if args.only else None
-    items = [e for e in spec if not only or e["day"] in only]
-    if not items:
+    picked = [i for i, e in enumerate(spec) if not only or e["day"] in only]
+    if not picked:
         sys.exit("nothing to do")
     os.makedirs(FRAMES, exist_ok=True)
 
-    data = []
-    for e in items:
+    data = []  # every entry (frame i = spec[i]), so the committed thumbs.gen.ts never shrinks
+    for e in spec:
         ep = episode_dir(e["day"])
         name = f"d{e['day']:03d}-{e['t']:.2f}.png"
         out = os.path.join(FRAMES, name)
@@ -84,9 +84,10 @@ def main():
                 "  bubbles?: { items: string[]; x: number; y: number; r?: number; perRow?: number } };\n")
         f.write("export const THUMBS: Thumb[] = " + json.dumps([d for d, _ in data], indent=1, ensure_ascii=False) + ";\n")
 
-    frames = ",".join(str(i) for i in range(len(data)))
+    frames = ",".join(str(i) for i in picked)
     subprocess.run(["node", "scripts/frames.mjs", "KidsThumbs", frames, "--scale=1"], cwd=os.path.join(ROOT, "remotion"), check=True)
-    for i, (d, ep) in enumerate(data):
+    for i in picked:
+        d, ep = data[i]
         png = os.path.join(ROOT, "remotion", "out", "qa", f"KidsThumbs-f{i:04d}.png")
         jpg = os.path.join(ep, "thumbnail.jpg")
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", png, "-q:v", "2", jpg], check=True)
