@@ -39,3 +39,7 @@ kids-shorts/*/songs/*/*.wav
 
 # local caches of generated audio (tools/gen_kids_sounds.py)
 tools/.cache/
+
+# kids thumbnails: background frames extracted from the renders (tools/kids_thumbs.py regenerates them)
+media/projects/kids-thumbs/frames/
+kids-shorts/tiny-sparks/lab/thumbs-out/
