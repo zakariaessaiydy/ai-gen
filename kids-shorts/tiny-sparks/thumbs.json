@@ -273,5 +273,19 @@
   "size": 128,
   "rot": -3,
   "ribbon": "bl"
+ },
+ {
+  "day": 39,
+  "comp": "KidsAnimals039",
+  "t": 147.5,
+  "z": 1.6,
+  "fx": 1010,
+  "fy": 600,
+  "lines": [
+   "FIRST",
+   "FLIGHT!"
+  ],
+  "at": "right",
+  "size": 136
  }
 ]

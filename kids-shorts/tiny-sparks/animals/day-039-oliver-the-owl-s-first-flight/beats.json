@@ -1,0 +1,3420 @@
+{
+  "id": "day-039",
+  "series": "tiny-sparks",
+  "episode": 39,
+  "title": "Oliver the Owl's First Flight",
+  "composition": "KidsAnimals039",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 301.2
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-8%"
+    },
+    "oliver": {
+      "kokoro": "af_nova:0.5+am_puck:0.5",
+      "rate": "-2%"
+    },
+    "bella": {
+      "kokoro": "bf_lily",
+      "rate": "-4%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -6,
+    "duck": 8,
+    "start": 3.7,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "guess",
+      "speaker": "narrator",
+      "start": 3.9,
+      "end": 6.8,
+      "text": "Who has big round eyes, and soft fluffy feathers?",
+      "words": [
+        {
+          "w": "Who",
+          "start": 3.95,
+          "end": 4.166
+        },
+        {
+          "w": "has",
+          "start": 4.166,
+          "end": 4.383
+        },
+        {
+          "w": "big",
+          "start": 4.383,
+          "end": 4.599
+        },
+        {
+          "w": "round",
+          "start": 4.599,
+          "end": 4.924
+        },
+        {
+          "w": "eyes,",
+          "start": 4.924,
+          "end": 5.14
+        },
+        {
+          "w": "and",
+          "start": 5.37,
+          "end": 5.572
+        },
+        {
+          "w": "soft",
+          "start": 5.572,
+          "end": 5.91
+        },
+        {
+          "w": "fluffy",
+          "start": 5.91,
+          "end": 6.315
+        },
+        {
+          "w": "feathers?",
+          "start": 6.315,
+          "end": 6.72
+        }
+      ]
+    },
+    {
+      "beat": "guess2",
+      "speaker": "narrator",
+      "start": 8.05,
+      "end": 10.07,
+      "text": "Who says: hoo, hoo? Can you guess?",
+      "words": [
+        {
+          "w": "Who",
+          "start": 8.1,
+          "end": 8.377
+        },
+        {
+          "w": "says:",
+          "start": 8.377,
+          "end": 8.654
+        },
+        {
+          "w": "hoo,",
+          "start": 8.654,
+          "end": 8.931
+        },
+        {
+          "w": "hoo?",
+          "start": 8.931,
+          "end": 9.208
+        },
+        {
+          "w": "Can",
+          "start": 9.208,
+          "end": 9.485
+        },
+        {
+          "w": "you",
+          "start": 9.485,
+          "end": 9.693
+        },
+        {
+          "w": "guess?",
+          "start": 9.693,
+          "end": 9.97
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "speaker": "narrator",
+      "start": 14.54,
+      "end": 15.69,
+      "text": "It's... an owl!",
+      "words": [
+        {
+          "w": "It's...",
+          "start": 14.57,
+          "end": 14.887
+        },
+        {
+          "w": "an",
+          "start": 14.887,
+          "end": 15.098
+        },
+        {
+          "w": "owl!",
+          "start": 15.098,
+          "end": 15.52
+        }
+      ]
+    },
+    {
+      "beat": "hello",
+      "speaker": "oliver",
+      "start": 17.14,
+      "end": 19.27,
+      "text": "Hoo-hoo! Hello! I'm Oliver the owl!",
+      "words": [
+        {
+          "w": "Hoo-hoo!",
+          "start": 17.18,
+          "end": 17.602
+        },
+        {
+          "w": "Hello!",
+          "start": 17.602,
+          "end": 17.964
+        },
+        {
+          "w": "I'm",
+          "start": 17.964,
+          "end": 18.146
+        },
+        {
+          "w": "Oliver",
+          "start": 18.146,
+          "end": 18.568
+        },
+        {
+          "w": "the",
+          "start": 18.568,
+          "end": 18.689
+        },
+        {
+          "w": "owl!",
+          "start": 18.689,
+          "end": 18.93
+        }
+      ]
+    },
+    {
+      "beat": "bobo_hi",
+      "speaker": "bobo",
+      "start": 20.22,
+      "end": 22.07,
+      "text": "Hi, Oliver! I'm Super Bobo!",
+      "words": [
+        {
+          "w": "Hi,",
+          "start": 20.25,
+          "end": 20.494
+        },
+        {
+          "w": "Oliver!",
+          "start": 20.494,
+          "end": 20.922
+        },
+        {
+          "w": "I'm",
+          "start": 20.922,
+          "end": 21.106
+        },
+        {
+          "w": "Super",
+          "start": 21.106,
+          "end": 21.472
+        },
+        {
+          "w": "Bobo!",
+          "start": 21.472,
+          "end": 21.9
+        }
+      ]
+    },
+    {
+      "beat": "bella_hi",
+      "speaker": "bella",
+      "start": 22.94,
+      "end": 24.43,
+      "text": "And I'm Bella!",
+      "words": [
+        {
+          "w": "And",
+          "start": 22.99,
+          "end": 23.358
+        },
+        {
+          "w": "I'm",
+          "start": 23.358,
+          "end": 23.726
+        },
+        {
+          "w": "Bella!",
+          "start": 23.726,
+          "end": 24.34
+        }
+      ]
+    },
+    {
+      "beat": "sound_q",
+      "speaker": "narrator",
+      "start": 26.1,
+      "end": 27.31,
+      "text": "What does an owl say?",
+      "words": [
+        {
+          "w": "What",
+          "start": 26.17,
+          "end": 26.392
+        },
+        {
+          "w": "does",
+          "start": 26.392,
+          "end": 26.614
+        },
+        {
+          "w": "an",
+          "start": 26.614,
+          "end": 26.726
+        },
+        {
+          "w": "owl",
+          "start": 26.726,
+          "end": 26.948
+        },
+        {
+          "w": "say?",
+          "start": 26.948,
+          "end": 27.17
+        }
+      ]
+    },
+    {
+      "beat": "sound_a",
+      "speaker": "oliver",
+      "start": 28.57,
+      "end": 29.85,
+      "text": "Hoo-hoo! Hoo-hoo!",
+      "words": [
+        {
+          "w": "Hoo-hoo!",
+          "start": 28.6,
+          "end": 29.105
+        },
+        {
+          "w": "Hoo-hoo!",
+          "start": 29.105,
+          "end": 29.61
+        }
+      ]
+    },
+    {
+      "beat": "sound_turn",
+      "speaker": "narrator",
+      "start": 31.51,
+      "end": 33.68,
+      "text": "Can you hoot like Oliver? Your turn!",
+      "words": [
+        {
+          "w": "Can",
+          "start": 31.55,
+          "end": 31.733
+        },
+        {
+          "w": "you",
+          "start": 31.733,
+          "end": 31.871
+        },
+        {
+          "w": "hoot",
+          "start": 31.871,
+          "end": 32.1
+        },
+        {
+          "w": "like",
+          "start": 32.1,
+          "end": 32.329
+        },
+        {
+          "w": "Oliver?",
+          "start": 32.329,
+          "end": 32.65
+        },
+        {
+          "w": "Your",
+          "start": 32.89,
+          "end": 33.153
+        },
+        {
+          "w": "turn!",
+          "start": 33.153,
+          "end": 33.59
+        }
+      ]
+    },
+    {
+      "beat": "sound_b",
+      "speaker": "oliver",
+      "start": 37.14,
+      "end": 38.07,
+      "text": "Hoo-hoo!",
+      "words": [
+        {
+          "w": "Hoo-hoo!",
+          "start": 37.18,
+          "end": 37.92
+        }
+      ]
+    },
+    {
+      "beat": "facts",
+      "speaker": "narrator",
+      "start": 39.95,
+      "end": 41.67,
+      "text": "Let's learn three owl facts!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 40.0,
+          "end": 40.32
+        },
+        {
+          "w": "learn",
+          "start": 40.32,
+          "end": 40.64
+        },
+        {
+          "w": "three",
+          "start": 40.64,
+          "end": 40.96
+        },
+        {
+          "w": "owl",
+          "start": 40.96,
+          "end": 41.216
+        },
+        {
+          "w": "facts!",
+          "start": 41.216,
+          "end": 41.6
+        }
+      ]
+    },
+    {
+      "beat": "fact1",
+      "speaker": "narrator",
+      "start": 43.33,
+      "end": 47.34,
+      "text": "Fact one. Most owls are awake at night, and they sleep in the day.",
+      "words": [
+        {
+          "w": "Fact",
+          "start": 43.38,
+          "end": 43.774
+        },
+        {
+          "w": "one.",
+          "start": 43.774,
+          "end": 44.09
+        },
+        {
+          "w": "Most",
+          "start": 44.35,
+          "end": 44.688
+        },
+        {
+          "w": "owls",
+          "start": 44.688,
+          "end": 44.969
+        },
+        {
+          "w": "are",
+          "start": 44.969,
+          "end": 45.138
+        },
+        {
+          "w": "awake",
+          "start": 45.138,
+          "end": 45.476
+        },
+        {
+          "w": "at",
+          "start": 45.476,
+          "end": 45.589
+        },
+        {
+          "w": "night,",
+          "start": 45.589,
+          "end": 45.87
+        },
+        {
+          "w": "and",
+          "start": 46.15,
+          "end": 46.306
+        },
+        {
+          "w": "they",
+          "start": 46.306,
+          "end": 46.461
+        },
+        {
+          "w": "sleep",
+          "start": 46.461,
+          "end": 46.773
+        },
+        {
+          "w": "in",
+          "start": 46.773,
+          "end": 46.929
+        },
+        {
+          "w": "the",
+          "start": 46.929,
+          "end": 47.032
+        },
+        {
+          "w": "day.",
+          "start": 47.032,
+          "end": 47.24
+        }
+      ]
+    },
+    {
+      "beat": "yawn",
+      "speaker": "oliver",
+      "start": 48.81,
+      "end": 51.04,
+      "text": "Yaaawn! That's why I'm a little sleepy!",
+      "words": [
+        {
+          "w": "Yaaawn!",
+          "start": 48.85,
+          "end": 49.222
+        },
+        {
+          "w": "That's",
+          "start": 49.222,
+          "end": 49.488
+        },
+        {
+          "w": "why",
+          "start": 49.488,
+          "end": 49.7
+        },
+        {
+          "w": "I'm",
+          "start": 49.7,
+          "end": 49.86
+        },
+        {
+          "w": "a",
+          "start": 49.86,
+          "end": 50.019
+        },
+        {
+          "w": "little",
+          "start": 50.019,
+          "end": 50.338
+        },
+        {
+          "w": "sleepy!",
+          "start": 50.338,
+          "end": 50.71
+        }
+      ]
+    },
+    {
+      "beat": "fact2",
+      "speaker": "narrator",
+      "start": 53.31,
+      "end": 58.28,
+      "text": "Fact two. Owls can turn their heads very, very far. Almost all the way around!",
+      "words": [
+        {
+          "w": "Fact",
+          "start": 53.35,
+          "end": 53.687
+        },
+        {
+          "w": "two.",
+          "start": 53.687,
+          "end": 53.956
+        },
+        {
+          "w": "Owls",
+          "start": 53.956,
+          "end": 54.293
+        },
+        {
+          "w": "can",
+          "start": 54.293,
+          "end": 54.562
+        },
+        {
+          "w": "turn",
+          "start": 54.562,
+          "end": 54.899
+        },
+        {
+          "w": "their",
+          "start": 54.899,
+          "end": 55.101
+        },
+        {
+          "w": "heads",
+          "start": 55.101,
+          "end": 55.438
+        },
+        {
+          "w": "very,",
+          "start": 55.438,
+          "end": 55.775
+        },
+        {
+          "w": "very",
+          "start": 55.775,
+          "end": 56.112
+        },
+        {
+          "w": "far.",
+          "start": 56.112,
+          "end": 56.449
+        },
+        {
+          "w": "Almost",
+          "start": 56.449,
+          "end": 57.055
+        },
+        {
+          "w": "all",
+          "start": 57.055,
+          "end": 57.324
+        },
+        {
+          "w": "the",
+          "start": 57.324,
+          "end": 57.459
+        },
+        {
+          "w": "way",
+          "start": 57.459,
+          "end": 57.728
+        },
+        {
+          "w": "around!",
+          "start": 57.728,
+          "end": 58.2
+        }
+      ]
+    },
+    {
+      "beat": "look",
+      "speaker": "oliver",
+      "start": 59.55,
+      "end": 62.28,
+      "text": "Look left... look right... I can see behind me!",
+      "words": [
+        {
+          "w": "Look",
+          "start": 59.58,
+          "end": 59.811
+        },
+        {
+          "w": "left...",
+          "start": 59.811,
+          "end": 60.1
+        },
+        {
+          "w": "look",
+          "start": 60.1,
+          "end": 60.331
+        },
+        {
+          "w": "right...",
+          "start": 60.331,
+          "end": 60.62
+        },
+        {
+          "w": "I",
+          "start": 60.62,
+          "end": 60.794
+        },
+        {
+          "w": "can",
+          "start": 60.794,
+          "end": 61.025
+        },
+        {
+          "w": "see",
+          "start": 61.025,
+          "end": 61.256
+        },
+        {
+          "w": "behind",
+          "start": 61.256,
+          "end": 61.719
+        },
+        {
+          "w": "me!",
+          "start": 61.719,
+          "end": 61.95
+        }
+      ]
+    },
+    {
+      "beat": "fact3",
+      "speaker": "narrator",
+      "start": 64.53,
+      "end": 70.73,
+      "text": "Fact three. Owl feathers are so soft, owls can fly very, very quietly. Shhh!",
+      "words": [
+        {
+          "w": "Fact",
+          "start": 64.59,
+          "end": 64.956
+        },
+        {
+          "w": "three.",
+          "start": 64.956,
+          "end": 65.321
+        },
+        {
+          "w": "Owl",
+          "start": 65.321,
+          "end": 65.614
+        },
+        {
+          "w": "feathers",
+          "start": 65.614,
+          "end": 66.053
+        },
+        {
+          "w": "are",
+          "start": 66.053,
+          "end": 66.272
+        },
+        {
+          "w": "so",
+          "start": 66.272,
+          "end": 66.565
+        },
+        {
+          "w": "soft,",
+          "start": 66.565,
+          "end": 66.93
+        },
+        {
+          "w": "owls",
+          "start": 66.93,
+          "end": 67.296
+        },
+        {
+          "w": "can",
+          "start": 67.296,
+          "end": 67.588
+        },
+        {
+          "w": "fly",
+          "start": 67.588,
+          "end": 67.954
+        },
+        {
+          "w": "very,",
+          "start": 67.954,
+          "end": 68.32
+        },
+        {
+          "w": "very",
+          "start": 68.32,
+          "end": 68.685
+        },
+        {
+          "w": "quietly.",
+          "start": 68.685,
+          "end": 69.344
+        },
+        {
+          "w": "Shhh!",
+          "start": 69.344,
+          "end": 70.66
+        }
+      ]
+    },
+    {
+      "beat": "wow",
+      "speaker": "bobo",
+      "start": 71.99,
+      "end": 73.35,
+      "text": "Wow! Owls are amazing!",
+      "words": [
+        {
+          "w": "Wow!",
+          "start": 72.03,
+          "end": 72.264
+        },
+        {
+          "w": "Owls",
+          "start": 72.264,
+          "end": 72.557
+        },
+        {
+          "w": "are",
+          "start": 72.557,
+          "end": 72.732
+        },
+        {
+          "w": "amazing!",
+          "start": 72.732,
+          "end": 73.2
+        }
+      ]
+    },
+    {
+      "beat": "story",
+      "speaker": "narrator",
+      "start": 75.81,
+      "end": 77.74,
+      "text": "But Oliver has a little problem.",
+      "words": [
+        {
+          "w": "But",
+          "start": 75.9,
+          "end": 76.107
+        },
+        {
+          "w": "Oliver",
+          "start": 76.107,
+          "end": 76.47
+        },
+        {
+          "w": "has",
+          "start": 76.47,
+          "end": 76.677
+        },
+        {
+          "w": "a",
+          "start": 76.677,
+          "end": 76.833
+        },
+        {
+          "w": "little",
+          "start": 76.833,
+          "end": 77.144
+        },
+        {
+          "w": "problem.",
+          "start": 77.144,
+          "end": 77.61
+        }
+      ]
+    },
+    {
+      "beat": "problem",
+      "speaker": "oliver",
+      "start": 79.0,
+      "end": 82.96,
+      "text": "All my owl friends can fly. But I never flew before. I'm scared!",
+      "words": [
+        {
+          "w": "All",
+          "start": 79.04,
+          "end": 79.277
+        },
+        {
+          "w": "my",
+          "start": 79.277,
+          "end": 79.515
+        },
+        {
+          "w": "owl",
+          "start": 79.515,
+          "end": 79.752
+        },
+        {
+          "w": "friends",
+          "start": 79.752,
+          "end": 80.168
+        },
+        {
+          "w": "can",
+          "start": 80.168,
+          "end": 80.405
+        },
+        {
+          "w": "fly.",
+          "start": 80.405,
+          "end": 80.702
+        },
+        {
+          "w": "But",
+          "start": 80.702,
+          "end": 80.939
+        },
+        {
+          "w": "I",
+          "start": 80.939,
+          "end": 81.117
+        },
+        {
+          "w": "never",
+          "start": 81.117,
+          "end": 81.414
+        },
+        {
+          "w": "flew",
+          "start": 81.414,
+          "end": 81.71
+        },
+        {
+          "w": "before.",
+          "start": 81.71,
+          "end": 82.126
+        },
+        {
+          "w": "I'm",
+          "start": 82.126,
+          "end": 82.304
+        },
+        {
+          "w": "scared!",
+          "start": 82.304,
+          "end": 82.66
+        }
+      ]
+    },
+    {
+      "beat": "feel",
+      "speaker": "narrator",
+      "start": 84.63,
+      "end": 87.64,
+      "text": "Oliver feels scared. His tummy feels wobbly.",
+      "words": [
+        {
+          "w": "Oliver",
+          "start": 84.71,
+          "end": 85.13
+        },
+        {
+          "w": "feels",
+          "start": 85.13,
+          "end": 85.49
+        },
+        {
+          "w": "scared.",
+          "start": 85.49,
+          "end": 85.85
+        },
+        {
+          "w": "His",
+          "start": 86.17,
+          "end": 86.419
+        },
+        {
+          "w": "tummy",
+          "start": 86.419,
+          "end": 86.73
+        },
+        {
+          "w": "feels",
+          "start": 86.73,
+          "end": 87.104
+        },
+        {
+          "w": "wobbly.",
+          "start": 87.104,
+          "end": 87.54
+        }
+      ]
+    },
+    {
+      "beat": "ask",
+      "speaker": "narrator",
+      "start": 89.3,
+      "end": 91.13,
+      "text": "How can his friends help Oliver?",
+      "words": [
+        {
+          "w": "How",
+          "start": 89.33,
+          "end": 89.544
+        },
+        {
+          "w": "can",
+          "start": 89.544,
+          "end": 89.758
+        },
+        {
+          "w": "his",
+          "start": 89.758,
+          "end": 89.973
+        },
+        {
+          "w": "friends",
+          "start": 89.973,
+          "end": 90.347
+        },
+        {
+          "w": "help",
+          "start": 90.347,
+          "end": 90.615
+        },
+        {
+          "w": "Oliver?",
+          "start": 90.615,
+          "end": 90.99
+        }
+      ]
+    },
+    {
+      "beat": "idea",
+      "speaker": "bella",
+      "start": 95.2,
+      "end": 99.06,
+      "text": "I know! Friends help friends! Let's practice, one step at a time!",
+      "words": [
+        {
+          "w": "I",
+          "start": 95.24,
+          "end": 95.433
+        },
+        {
+          "w": "know!",
+          "start": 95.433,
+          "end": 95.69
+        },
+        {
+          "w": "Friends",
+          "start": 95.69,
+          "end": 96.14
+        },
+        {
+          "w": "help",
+          "start": 96.14,
+          "end": 96.462
+        },
+        {
+          "w": "friends!",
+          "start": 96.462,
+          "end": 96.912
+        },
+        {
+          "w": "Let's",
+          "start": 96.912,
+          "end": 97.234
+        },
+        {
+          "w": "practice,",
+          "start": 97.234,
+          "end": 97.748
+        },
+        {
+          "w": "one",
+          "start": 97.748,
+          "end": 98.005
+        },
+        {
+          "w": "step",
+          "start": 98.005,
+          "end": 98.327
+        },
+        {
+          "w": "at",
+          "start": 98.327,
+          "end": 98.456
+        },
+        {
+          "w": "a",
+          "start": 98.456,
+          "end": 98.648
+        },
+        {
+          "w": "time!",
+          "start": 98.648,
+          "end": 98.97
+        }
+      ]
+    },
+    {
+      "beat": "step1",
+      "speaker": "bobo",
+      "start": 100.91,
+      "end": 103.4,
+      "text": "Step one. Flap your wings! Flap, flap, flap!",
+      "words": [
+        {
+          "w": "Step",
+          "start": 100.94,
+          "end": 101.254
+        },
+        {
+          "w": "one.",
+          "start": 101.254,
+          "end": 101.504
+        },
+        {
+          "w": "Flap",
+          "start": 101.504,
+          "end": 101.818
+        },
+        {
+          "w": "your",
+          "start": 101.818,
+          "end": 102.006
+        },
+        {
+          "w": "wings!",
+          "start": 102.006,
+          "end": 102.319
+        },
+        {
+          "w": "Flap,",
+          "start": 102.319,
+          "end": 102.633
+        },
+        {
+          "w": "flap,",
+          "start": 102.633,
+          "end": 102.946
+        },
+        {
+          "w": "flap!",
+          "start": 102.946,
+          "end": 103.26
+        }
+      ]
+    },
+    {
+      "beat": "flap_turn",
+      "speaker": "narrator",
+      "start": 104.85,
+      "end": 107.53,
+      "text": "Can you flap your wings like Oliver? Your turn!",
+      "words": [
+        {
+          "w": "Can",
+          "start": 104.88,
+          "end": 105.076
+        },
+        {
+          "w": "you",
+          "start": 105.076,
+          "end": 105.223
+        },
+        {
+          "w": "flap",
+          "start": 105.223,
+          "end": 105.469
+        },
+        {
+          "w": "your",
+          "start": 105.469,
+          "end": 105.616
+        },
+        {
+          "w": "wings",
+          "start": 105.616,
+          "end": 105.861
+        },
+        {
+          "w": "like",
+          "start": 105.861,
+          "end": 106.107
+        },
+        {
+          "w": "Oliver?",
+          "start": 106.107,
+          "end": 106.45
+        },
+        {
+          "w": "Your",
+          "start": 106.76,
+          "end": 107.022
+        },
+        {
+          "w": "turn!",
+          "start": 107.022,
+          "end": 107.46
+        }
+      ]
+    },
+    {
+      "beat": "flap_do",
+      "speaker": "oliver",
+      "start": 111.19,
+      "end": 113.21,
+      "text": "Flap, flap, flap! I'm doing it!",
+      "words": [
+        {
+          "w": "Flap,",
+          "start": 111.23,
+          "end": 111.563
+        },
+        {
+          "w": "flap,",
+          "start": 111.563,
+          "end": 111.895
+        },
+        {
+          "w": "flap!",
+          "start": 111.895,
+          "end": 112.228
+        },
+        {
+          "w": "I'm",
+          "start": 112.228,
+          "end": 112.428
+        },
+        {
+          "w": "doing",
+          "start": 112.428,
+          "end": 112.827
+        },
+        {
+          "w": "it!",
+          "start": 112.827,
+          "end": 112.96
+        }
+      ]
+    },
+    {
+      "beat": "step2",
+      "speaker": "bella",
+      "start": 115.08,
+      "end": 117.7,
+      "text": "Step two. A little hop, from the low branch!",
+      "words": [
+        {
+          "w": "Step",
+          "start": 115.11,
+          "end": 115.429
+        },
+        {
+          "w": "two.",
+          "start": 115.429,
+          "end": 115.685
+        },
+        {
+          "w": "A",
+          "start": 115.685,
+          "end": 115.876
+        },
+        {
+          "w": "little",
+          "start": 115.876,
+          "end": 116.259
+        },
+        {
+          "w": "hop,",
+          "start": 116.259,
+          "end": 116.515
+        },
+        {
+          "w": "from",
+          "start": 116.515,
+          "end": 116.77
+        },
+        {
+          "w": "the",
+          "start": 116.77,
+          "end": 116.898
+        },
+        {
+          "w": "low",
+          "start": 116.898,
+          "end": 117.153
+        },
+        {
+          "w": "branch!",
+          "start": 117.153,
+          "end": 117.6
+        }
+      ]
+    },
+    {
+      "beat": "leaves",
+      "speaker": "bobo",
+      "start": 118.77,
+      "end": 120.7,
+      "text": "I made a soft pile of leaves for you!",
+      "words": [
+        {
+          "w": "I",
+          "start": 118.8,
+          "end": 118.946
+        },
+        {
+          "w": "made",
+          "start": 118.946,
+          "end": 119.189
+        },
+        {
+          "w": "a",
+          "start": 119.189,
+          "end": 119.335
+        },
+        {
+          "w": "soft",
+          "start": 119.335,
+          "end": 119.578
+        },
+        {
+          "w": "pile",
+          "start": 119.578,
+          "end": 119.821
+        },
+        {
+          "w": "of",
+          "start": 119.821,
+          "end": 119.918
+        },
+        {
+          "w": "leaves",
+          "start": 119.918,
+          "end": 120.21
+        },
+        {
+          "w": "for",
+          "start": 120.21,
+          "end": 120.404
+        },
+        {
+          "w": "you!",
+          "start": 120.404,
+          "end": 120.55
+        }
+      ]
+    },
+    {
+      "beat": "hop",
+      "speaker": "oliver",
+      "start": 122.16,
+      "end": 123.56,
+      "text": "Here I go... hop!",
+      "words": [
+        {
+          "w": "Here",
+          "start": 122.19,
+          "end": 122.49
+        },
+        {
+          "w": "I",
+          "start": 122.49,
+          "end": 122.715
+        },
+        {
+          "w": "go...",
+          "start": 122.715,
+          "end": 123.015
+        },
+        {
+          "w": "hop!",
+          "start": 123.015,
+          "end": 123.39
+        }
+      ]
+    },
+    {
+      "beat": "boing",
+      "speaker": "narrator",
+      "start": 124.62,
+      "end": 127.04,
+      "text": "Boing! Oliver lands in the soft leaves.",
+      "words": [
+        {
+          "w": "Boing!",
+          "start": 124.66,
+          "end": 125.13
+        },
+        {
+          "w": "Oliver",
+          "start": 125.32,
+          "end": 125.713
+        },
+        {
+          "w": "lands",
+          "start": 125.713,
+          "end": 126.051
+        },
+        {
+          "w": "in",
+          "start": 126.051,
+          "end": 126.219
+        },
+        {
+          "w": "the",
+          "start": 126.219,
+          "end": 126.332
+        },
+        {
+          "w": "soft",
+          "start": 126.332,
+          "end": 126.613
+        },
+        {
+          "w": "leaves.",
+          "start": 126.613,
+          "end": 126.95
+        }
+      ]
+    },
+    {
+      "beat": "hop_ok",
+      "speaker": "oliver",
+      "start": 128.32,
+      "end": 129.87,
+      "text": "I did it! That was fun!",
+      "words": [
+        {
+          "w": "I",
+          "start": 128.35,
+          "end": 128.539
+        },
+        {
+          "w": "did",
+          "start": 128.539,
+          "end": 128.791
+        },
+        {
+          "w": "it!",
+          "start": 128.791,
+          "end": 128.917
+        },
+        {
+          "w": "That",
+          "start": 128.917,
+          "end": 129.169
+        },
+        {
+          "w": "was",
+          "start": 129.169,
+          "end": 129.358
+        },
+        {
+          "w": "fun!",
+          "start": 129.358,
+          "end": 129.61
+        }
+      ]
+    },
+    {
+      "beat": "step3",
+      "speaker": "bobo",
+      "start": 131.93,
+      "end": 135.91,
+      "text": "Step three. Back up on the big branch. We count to three, and you fly!",
+      "words": [
+        {
+          "w": "Step",
+          "start": 131.96,
+          "end": 132.261
+        },
+        {
+          "w": "three.",
+          "start": 132.261,
+          "end": 132.562
+        },
+        {
+          "w": "Back",
+          "start": 132.562,
+          "end": 132.802
+        },
+        {
+          "w": "up",
+          "start": 132.802,
+          "end": 132.983
+        },
+        {
+          "w": "on",
+          "start": 132.983,
+          "end": 133.163
+        },
+        {
+          "w": "the",
+          "start": 133.163,
+          "end": 133.284
+        },
+        {
+          "w": "big",
+          "start": 133.284,
+          "end": 133.524
+        },
+        {
+          "w": "branch.",
+          "start": 133.524,
+          "end": 133.945
+        },
+        {
+          "w": "We",
+          "start": 133.945,
+          "end": 134.126
+        },
+        {
+          "w": "count",
+          "start": 134.126,
+          "end": 134.487
+        },
+        {
+          "w": "to",
+          "start": 134.487,
+          "end": 134.667
+        },
+        {
+          "w": "three,",
+          "start": 134.667,
+          "end": 134.968
+        },
+        {
+          "w": "and",
+          "start": 134.968,
+          "end": 135.149
+        },
+        {
+          "w": "you",
+          "start": 135.149,
+          "end": 135.329
+        },
+        {
+          "w": "fly!",
+          "start": 135.329,
+          "end": 135.63
+        }
+      ]
+    },
+    {
+      "beat": "ready",
+      "speaker": "oliver",
+      "start": 137.39,
+      "end": 139.88,
+      "text": "I'm a little scared... but my friends are here.",
+      "words": [
+        {
+          "w": "I'm",
+          "start": 137.42,
+          "end": 137.578
+        },
+        {
+          "w": "a",
+          "start": 137.578,
+          "end": 137.737
+        },
+        {
+          "w": "little",
+          "start": 137.737,
+          "end": 138.053
+        },
+        {
+          "w": "scared...",
+          "start": 138.053,
+          "end": 138.37
+        },
+        {
+          "w": "but",
+          "start": 138.37,
+          "end": 138.581
+        },
+        {
+          "w": "my",
+          "start": 138.581,
+          "end": 138.792
+        },
+        {
+          "w": "friends",
+          "start": 138.792,
+          "end": 139.161
+        },
+        {
+          "w": "are",
+          "start": 139.161,
+          "end": 139.319
+        },
+        {
+          "w": "here.",
+          "start": 139.319,
+          "end": 139.53
+        }
+      ]
+    },
+    {
+      "beat": "count",
+      "speaker": "narrator",
+      "start": 141.33,
+      "end": 143.76,
+      "text": "Let's count together! One... two... three!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 141.38,
+          "end": 141.748
+        },
+        {
+          "w": "count",
+          "start": 141.748,
+          "end": 142.189
+        },
+        {
+          "w": "together!",
+          "start": 142.189,
+          "end": 142.704
+        },
+        {
+          "w": "One...",
+          "start": 142.704,
+          "end": 142.998
+        },
+        {
+          "w": "two...",
+          "start": 142.998,
+          "end": 143.292
+        },
+        {
+          "w": "three!",
+          "start": 143.292,
+          "end": 143.66
+        }
+      ]
+    },
+    {
+      "beat": "fly",
+      "speaker": "oliver",
+      "start": 144.83,
+      "end": 146.81,
+      "text": "Flap, flap... I'm flying! Wheee!",
+      "words": [
+        {
+          "w": "Flap,",
+          "start": 144.86,
+          "end": 145.208
+        },
+        {
+          "w": "flap...",
+          "start": 145.208,
+          "end": 145.556
+        },
+        {
+          "w": "I'm",
+          "start": 145.556,
+          "end": 145.765
+        },
+        {
+          "w": "flying!",
+          "start": 145.765,
+          "end": 146.252
+        },
+        {
+          "w": "Wheee!",
+          "start": 146.252,
+          "end": 146.53
+        }
+      ]
+    },
+    {
+      "beat": "cheer",
+      "speaker": "bella",
+      "start": 147.87,
+      "end": 149.98,
+      "text": "Hooray! You can fly, Oliver!",
+      "words": [
+        {
+          "w": "Hooray!",
+          "start": 147.91,
+          "end": 148.462
+        },
+        {
+          "w": "You",
+          "start": 148.462,
+          "end": 148.698
+        },
+        {
+          "w": "can",
+          "start": 148.698,
+          "end": 149.013
+        },
+        {
+          "w": "fly,",
+          "start": 149.013,
+          "end": 149.407
+        },
+        {
+          "w": "Oliver!",
+          "start": 149.407,
+          "end": 149.88
+        }
+      ]
+    },
+    {
+      "beat": "soar",
+      "speaker": "narrator",
+      "start": 151.43,
+      "end": 154.79,
+      "text": "Oliver flies over the trees, quietly, like a feather.",
+      "words": [
+        {
+          "w": "Oliver",
+          "start": 151.53,
+          "end": 151.961
+        },
+        {
+          "w": "flies",
+          "start": 151.961,
+          "end": 152.33
+        },
+        {
+          "w": "over",
+          "start": 152.33,
+          "end": 152.638
+        },
+        {
+          "w": "the",
+          "start": 152.638,
+          "end": 152.761
+        },
+        {
+          "w": "trees,",
+          "start": 152.761,
+          "end": 153.13
+        },
+        {
+          "w": "quietly,",
+          "start": 153.31,
+          "end": 153.87
+        },
+        {
+          "w": "like",
+          "start": 154.02,
+          "end": 154.282
+        },
+        {
+          "w": "a",
+          "start": 154.282,
+          "end": 154.438
+        },
+        {
+          "w": "feather.",
+          "start": 154.438,
+          "end": 154.7
+        }
+      ]
+    },
+    {
+      "beat": "thanks",
+      "speaker": "oliver",
+      "start": 156.66,
+      "end": 158.94,
+      "text": "Thank you, friends! You helped me be brave!",
+      "words": [
+        {
+          "w": "Thank",
+          "start": 156.68,
+          "end": 156.941
+        },
+        {
+          "w": "you,",
+          "start": 156.941,
+          "end": 157.097
+        },
+        {
+          "w": "friends!",
+          "start": 157.097,
+          "end": 157.462
+        },
+        {
+          "w": "You",
+          "start": 157.462,
+          "end": 157.618
+        },
+        {
+          "w": "helped",
+          "start": 157.618,
+          "end": 157.931
+        },
+        {
+          "w": "me",
+          "start": 157.931,
+          "end": 158.139
+        },
+        {
+          "w": "be",
+          "start": 158.139,
+          "end": 158.347
+        },
+        {
+          "w": "brave!",
+          "start": 158.347,
+          "end": 158.66
+        }
+      ]
+    },
+    {
+      "beat": "balloon",
+      "speaker": "narrator",
+      "start": 161.21,
+      "end": 165.51,
+      "text": "Oh no! Bella's red balloon floats away, and gets stuck in a tall tree!",
+      "words": [
+        {
+          "w": "Oh",
+          "start": 161.24,
+          "end": 161.463
+        },
+        {
+          "w": "no!",
+          "start": 161.463,
+          "end": 161.76
+        },
+        {
+          "w": "Bella's",
+          "start": 161.94,
+          "end": 162.298
+        },
+        {
+          "w": "red",
+          "start": 162.298,
+          "end": 162.537
+        },
+        {
+          "w": "balloon",
+          "start": 162.537,
+          "end": 162.954
+        },
+        {
+          "w": "floats",
+          "start": 162.954,
+          "end": 163.372
+        },
+        {
+          "w": "away,",
+          "start": 163.372,
+          "end": 163.67
+        },
+        {
+          "w": "and",
+          "start": 163.99,
+          "end": 164.138
+        },
+        {
+          "w": "gets",
+          "start": 164.138,
+          "end": 164.384
+        },
+        {
+          "w": "stuck",
+          "start": 164.384,
+          "end": 164.631
+        },
+        {
+          "w": "in",
+          "start": 164.631,
+          "end": 164.779
+        },
+        {
+          "w": "a",
+          "start": 164.779,
+          "end": 164.927
+        },
+        {
+          "w": "tall",
+          "start": 164.927,
+          "end": 165.173
+        },
+        {
+          "w": "tree!",
+          "start": 165.173,
+          "end": 165.42
+        }
+      ]
+    },
+    {
+      "beat": "bella_sad",
+      "speaker": "bella",
+      "start": 166.58,
+      "end": 168.56,
+      "text": "My balloon! It's too high!",
+      "words": [
+        {
+          "w": "My",
+          "start": 166.6,
+          "end": 166.938
+        },
+        {
+          "w": "balloon!",
+          "start": 166.938,
+          "end": 167.53
+        },
+        {
+          "w": "It's",
+          "start": 167.53,
+          "end": 167.784
+        },
+        {
+          "w": "too",
+          "start": 167.784,
+          "end": 168.122
+        },
+        {
+          "w": "high!",
+          "start": 168.122,
+          "end": 168.46
+        }
+      ]
+    },
+    {
+      "beat": "help_q",
+      "speaker": "narrator",
+      "start": 170.22,
+      "end": 172.22,
+      "text": "Who can help Bella? Can you guess?",
+      "words": [
+        {
+          "w": "Who",
+          "start": 170.29,
+          "end": 170.494
+        },
+        {
+          "w": "can",
+          "start": 170.494,
+          "end": 170.699
+        },
+        {
+          "w": "help",
+          "start": 170.699,
+          "end": 170.954
+        },
+        {
+          "w": "Bella?",
+          "start": 170.954,
+          "end": 171.21
+        },
+        {
+          "w": "Can",
+          "start": 171.39,
+          "end": 171.655
+        },
+        {
+          "w": "you",
+          "start": 171.655,
+          "end": 171.855
+        },
+        {
+          "w": "guess?",
+          "start": 171.855,
+          "end": 172.12
+        }
+      ]
+    },
+    {
+      "beat": "oliver_go",
+      "speaker": "oliver",
+      "start": 175.48,
+      "end": 178.27,
+      "text": "I can! I can fly now! Friends help friends!",
+      "words": [
+        {
+          "w": "I",
+          "start": 175.52,
+          "end": 175.694
+        },
+        {
+          "w": "can!",
+          "start": 175.694,
+          "end": 175.925
+        },
+        {
+          "w": "I",
+          "start": 175.925,
+          "end": 176.099
+        },
+        {
+          "w": "can",
+          "start": 176.099,
+          "end": 176.33
+        },
+        {
+          "w": "fly",
+          "start": 176.33,
+          "end": 176.619
+        },
+        {
+          "w": "now!",
+          "start": 176.619,
+          "end": 176.851
+        },
+        {
+          "w": "Friends",
+          "start": 176.851,
+          "end": 177.256
+        },
+        {
+          "w": "help",
+          "start": 177.256,
+          "end": 177.545
+        },
+        {
+          "w": "friends!",
+          "start": 177.545,
+          "end": 177.95
+        }
+      ]
+    },
+    {
+      "beat": "get",
+      "speaker": "narrator",
+      "start": 179.54,
+      "end": 182.56,
+      "text": "Oliver flies up... up... and gets the balloon!",
+      "words": [
+        {
+          "w": "Oliver",
+          "start": 179.64,
+          "end": 180.112
+        },
+        {
+          "w": "flies",
+          "start": 180.112,
+          "end": 180.517
+        },
+        {
+          "w": "up...",
+          "start": 180.517,
+          "end": 180.72
+        },
+        {
+          "w": "up...",
+          "start": 180.97,
+          "end": 181.26
+        },
+        {
+          "w": "and",
+          "start": 181.42,
+          "end": 181.6
+        },
+        {
+          "w": "gets",
+          "start": 181.6,
+          "end": 181.9
+        },
+        {
+          "w": "the",
+          "start": 181.9,
+          "end": 182.02
+        },
+        {
+          "w": "balloon!",
+          "start": 182.02,
+          "end": 182.44
+        }
+      ]
+    },
+    {
+      "beat": "give",
+      "speaker": "oliver",
+      "start": 184.04,
+      "end": 185.4,
+      "text": "Here you go, Bella!",
+      "words": [
+        {
+          "w": "Here",
+          "start": 184.09,
+          "end": 184.363
+        },
+        {
+          "w": "you",
+          "start": 184.363,
+          "end": 184.567
+        },
+        {
+          "w": "go,",
+          "start": 184.567,
+          "end": 184.839
+        },
+        {
+          "w": "Bella!",
+          "start": 184.839,
+          "end": 185.18
+        }
+      ]
+    },
+    {
+      "beat": "bella_yay",
+      "speaker": "bella",
+      "start": 186.46,
+      "end": 188.87,
+      "text": "Thank you, Oliver! You're a good friend!",
+      "words": [
+        {
+          "w": "Thank",
+          "start": 186.49,
+          "end": 186.868
+        },
+        {
+          "w": "you,",
+          "start": 186.868,
+          "end": 187.095
+        },
+        {
+          "w": "Oliver!",
+          "start": 187.095,
+          "end": 187.549
+        },
+        {
+          "w": "You're",
+          "start": 187.549,
+          "end": 187.776
+        },
+        {
+          "w": "a",
+          "start": 187.776,
+          "end": 188.003
+        },
+        {
+          "w": "good",
+          "start": 188.003,
+          "end": 188.306
+        },
+        {
+          "w": "friend!",
+          "start": 188.306,
+          "end": 188.76
+        }
+      ]
+    },
+    {
+      "beat": "lesson",
+      "speaker": "narrator",
+      "start": 190.93,
+      "end": 194.09,
+      "text": "Friends help friends. And together, we can be brave!",
+      "words": [
+        {
+          "w": "Friends",
+          "start": 190.97,
+          "end": 191.434
+        },
+        {
+          "w": "help",
+          "start": 191.434,
+          "end": 191.766
+        },
+        {
+          "w": "friends.",
+          "start": 191.766,
+          "end": 192.23
+        },
+        {
+          "w": "And",
+          "start": 192.23,
+          "end": 192.429
+        },
+        {
+          "w": "together,",
+          "start": 192.429,
+          "end": 192.893
+        },
+        {
+          "w": "we",
+          "start": 192.893,
+          "end": 193.092
+        },
+        {
+          "w": "can",
+          "start": 193.092,
+          "end": 193.357
+        },
+        {
+          "w": "be",
+          "start": 193.357,
+          "end": 193.622
+        },
+        {
+          "w": "brave!",
+          "start": 193.622,
+          "end": 194.02
+        }
+      ]
+    },
+    {
+      "beat": "night",
+      "speaker": "narrator",
+      "start": 196.75,
+      "end": 200.48,
+      "text": "Now the moon comes out. It's night time, and owls are awake!",
+      "words": [
+        {
+          "w": "Now",
+          "start": 196.8,
+          "end": 197.089
+        },
+        {
+          "w": "the",
+          "start": 197.089,
+          "end": 197.233
+        },
+        {
+          "w": "moon",
+          "start": 197.233,
+          "end": 197.594
+        },
+        {
+          "w": "comes",
+          "start": 197.594,
+          "end": 197.955
+        },
+        {
+          "w": "out.",
+          "start": 197.955,
+          "end": 198.244
+        },
+        {
+          "w": "It's",
+          "start": 198.244,
+          "end": 198.461
+        },
+        {
+          "w": "night",
+          "start": 198.461,
+          "end": 198.822
+        },
+        {
+          "w": "time,",
+          "start": 198.822,
+          "end": 199.183
+        },
+        {
+          "w": "and",
+          "start": 199.183,
+          "end": 199.399
+        },
+        {
+          "w": "owls",
+          "start": 199.399,
+          "end": 199.76
+        },
+        {
+          "w": "are",
+          "start": 199.76,
+          "end": 199.977
+        },
+        {
+          "w": "awake!",
+          "start": 199.977,
+          "end": 200.41
+        }
+      ]
+    },
+    {
+      "beat": "night_o",
+      "speaker": "oliver",
+      "start": 201.94,
+      "end": 204.15,
+      "text": "Hoo-hoo! Night is my favorite time!",
+      "words": [
+        {
+          "w": "Hoo-hoo!",
+          "start": 201.99,
+          "end": 202.388
+        },
+        {
+          "w": "Night",
+          "start": 202.388,
+          "end": 202.672
+        },
+        {
+          "w": "is",
+          "start": 202.672,
+          "end": 202.786
+        },
+        {
+          "w": "my",
+          "start": 202.786,
+          "end": 203.014
+        },
+        {
+          "w": "favorite",
+          "start": 203.014,
+          "end": 203.526
+        },
+        {
+          "w": "time!",
+          "start": 203.526,
+          "end": 203.81
+        }
+      ]
+    },
+    {
+      "beat": "again",
+      "speaker": "narrator",
+      "start": 206.82,
+      "end": 209.2,
+      "text": "Now, let's play and remember, with Oliver!",
+      "words": [
+        {
+          "w": "Now,",
+          "start": 206.87,
+          "end": 207.123
+        },
+        {
+          "w": "let's",
+          "start": 207.123,
+          "end": 207.438
+        },
+        {
+          "w": "play",
+          "start": 207.438,
+          "end": 207.754
+        },
+        {
+          "w": "and",
+          "start": 207.754,
+          "end": 207.943
+        },
+        {
+          "w": "remember,",
+          "start": 207.943,
+          "end": 208.449
+        },
+        {
+          "w": "with",
+          "start": 208.449,
+          "end": 208.638
+        },
+        {
+          "w": "Oliver!",
+          "start": 208.638,
+          "end": 209.08
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "narrator",
+      "start": 211.27,
+      "end": 214.34,
+      "text": "When are most owls awake? In the day, or at night?",
+      "words": [
+        {
+          "w": "When",
+          "start": 211.33,
+          "end": 211.603
+        },
+        {
+          "w": "are",
+          "start": 211.603,
+          "end": 211.809
+        },
+        {
+          "w": "most",
+          "start": 211.809,
+          "end": 212.219
+        },
+        {
+          "w": "owls",
+          "start": 212.219,
+          "end": 212.561
+        },
+        {
+          "w": "awake?",
+          "start": 212.561,
+          "end": 212.971
+        },
+        {
+          "w": "In",
+          "start": 212.971,
+          "end": 213.176
+        },
+        {
+          "w": "the",
+          "start": 213.176,
+          "end": 213.313
+        },
+        {
+          "w": "day,",
+          "start": 213.313,
+          "end": 213.586
+        },
+        {
+          "w": "or",
+          "start": 213.586,
+          "end": 213.791
+        },
+        {
+          "w": "at",
+          "start": 213.791,
+          "end": 213.928
+        },
+        {
+          "w": "night?",
+          "start": 213.928,
+          "end": 214.27
+        }
+      ]
+    },
+    {
+      "beat": "a1",
+      "speaker": "oliver",
+      "start": 218.99,
+      "end": 219.86,
+      "text": "At night!",
+      "words": [
+        {
+          "w": "At",
+          "start": 219.02,
+          "end": 219.217
+        },
+        {
+          "w": "night!",
+          "start": 219.217,
+          "end": 219.71
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "narrator",
+      "start": 221.93,
+      "end": 223.93,
+      "text": "Why can owls fly so quietly?",
+      "words": [
+        {
+          "w": "Why",
+          "start": 221.96,
+          "end": 222.197
+        },
+        {
+          "w": "can",
+          "start": 222.197,
+          "end": 222.435
+        },
+        {
+          "w": "owls",
+          "start": 222.435,
+          "end": 222.732
+        },
+        {
+          "w": "fly",
+          "start": 222.732,
+          "end": 223.028
+        },
+        {
+          "w": "so",
+          "start": 223.028,
+          "end": 223.266
+        },
+        {
+          "w": "quietly?",
+          "start": 223.266,
+          "end": 223.8
+        }
+      ]
+    },
+    {
+      "beat": "a2",
+      "speaker": "bella",
+      "start": 228.59,
+      "end": 230.76,
+      "text": "Their feathers are so soft!",
+      "words": [
+        {
+          "w": "Their",
+          "start": 228.62,
+          "end": 228.928
+        },
+        {
+          "w": "feathers",
+          "start": 228.928,
+          "end": 229.543
+        },
+        {
+          "w": "are",
+          "start": 229.543,
+          "end": 229.747
+        },
+        {
+          "w": "so",
+          "start": 229.747,
+          "end": 230.157
+        },
+        {
+          "w": "soft!",
+          "start": 230.157,
+          "end": 230.67
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "narrator",
+      "start": 232.82,
+      "end": 236.07,
+      "text": "Can you turn your head like an owl? Look left... look right!",
+      "words": [
+        {
+          "w": "Can",
+          "start": 232.87,
+          "end": 233.057
+        },
+        {
+          "w": "you",
+          "start": 233.057,
+          "end": 233.197
+        },
+        {
+          "w": "turn",
+          "start": 233.197,
+          "end": 233.43
+        },
+        {
+          "w": "your",
+          "start": 233.43,
+          "end": 233.57
+        },
+        {
+          "w": "head",
+          "start": 233.57,
+          "end": 233.757
+        },
+        {
+          "w": "like",
+          "start": 233.757,
+          "end": 233.99
+        },
+        {
+          "w": "an",
+          "start": 233.99,
+          "end": 234.083
+        },
+        {
+          "w": "owl?",
+          "start": 234.083,
+          "end": 234.27
+        },
+        {
+          "w": "Look",
+          "start": 234.52,
+          "end": 234.822
+        },
+        {
+          "w": "left...",
+          "start": 234.822,
+          "end": 235.2
+        },
+        {
+          "w": "look",
+          "start": 235.4,
+          "end": 235.667
+        },
+        {
+          "w": "right!",
+          "start": 235.667,
+          "end": 236.0
+        }
+      ]
+    },
+    {
+      "beat": "a3",
+      "speaker": "oliver",
+      "start": 240.53,
+      "end": 241.63,
+      "text": "Great looking!",
+      "words": [
+        {
+          "w": "Great",
+          "start": 240.56,
+          "end": 241.01
+        },
+        {
+          "w": "looking!",
+          "start": 241.01,
+          "end": 241.46
+        }
+      ]
+    },
+    {
+      "beat": "q4",
+      "speaker": "narrator",
+      "start": 243.71,
+      "end": 245.43,
+      "text": "What were the three steps to fly?",
+      "words": [
+        {
+          "w": "What",
+          "start": 243.76,
+          "end": 243.979
+        },
+        {
+          "w": "were",
+          "start": 243.979,
+          "end": 244.142
+        },
+        {
+          "w": "the",
+          "start": 244.142,
+          "end": 244.252
+        },
+        {
+          "w": "three",
+          "start": 244.252,
+          "end": 244.525
+        },
+        {
+          "w": "steps",
+          "start": 244.525,
+          "end": 244.853
+        },
+        {
+          "w": "to",
+          "start": 244.853,
+          "end": 245.017
+        },
+        {
+          "w": "fly?",
+          "start": 245.017,
+          "end": 245.29
+        }
+      ]
+    },
+    {
+      "beat": "a4a",
+      "speaker": "bobo",
+      "start": 250.09,
+      "end": 251.05,
+      "text": "Flap your wings,",
+      "words": [
+        {
+          "w": "Flap",
+          "start": 250.14,
+          "end": 250.448
+        },
+        {
+          "w": "your",
+          "start": 250.448,
+          "end": 250.632
+        },
+        {
+          "w": "wings,",
+          "start": 250.632,
+          "end": 250.94
+        }
+      ]
+    },
+    {
+      "beat": "a4b",
+      "speaker": "bella",
+      "start": 251.6,
+      "end": 252.84,
+      "text": "a little hop,",
+      "words": [
+        {
+          "w": "a",
+          "start": 251.64,
+          "end": 251.896
+        },
+        {
+          "w": "little",
+          "start": 251.896,
+          "end": 252.408
+        },
+        {
+          "w": "hop,",
+          "start": 252.408,
+          "end": 252.75
+        }
+      ]
+    },
+    {
+      "beat": "a4c",
+      "speaker": "oliver",
+      "start": 253.4,
+      "end": 254.74,
+      "text": "and count to three!",
+      "words": [
+        {
+          "w": "and",
+          "start": 253.43,
+          "end": 253.621
+        },
+        {
+          "w": "count",
+          "start": 253.621,
+          "end": 254.002
+        },
+        {
+          "w": "to",
+          "start": 254.002,
+          "end": 254.192
+        },
+        {
+          "w": "three!",
+          "start": 254.192,
+          "end": 254.51
+        }
+      ]
+    },
+    {
+      "beat": "q5",
+      "speaker": "narrator",
+      "start": 256.79,
+      "end": 258.52,
+      "text": "Who helped Bella get her balloon?",
+      "words": [
+        {
+          "w": "Who",
+          "start": 256.85,
+          "end": 257.061
+        },
+        {
+          "w": "helped",
+          "start": 257.061,
+          "end": 257.378
+        },
+        {
+          "w": "Bella",
+          "start": 257.378,
+          "end": 257.641
+        },
+        {
+          "w": "get",
+          "start": 257.641,
+          "end": 257.852
+        },
+        {
+          "w": "her",
+          "start": 257.852,
+          "end": 258.011
+        },
+        {
+          "w": "balloon?",
+          "start": 258.011,
+          "end": 258.38
+        }
+      ]
+    },
+    {
+      "beat": "a5",
+      "speaker": "bella",
+      "start": 263.17,
+      "end": 264.17,
+      "text": "Oliver!",
+      "words": [
+        {
+          "w": "Oliver!",
+          "start": 263.21,
+          "end": 264.06
+        }
+      ]
+    },
+    {
+      "beat": "chant",
+      "speaker": "narrator",
+      "start": 266.43,
+      "end": 267.77,
+      "text": "Let's say it together!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 266.5,
+          "end": 266.814
+        },
+        {
+          "w": "say",
+          "start": 266.814,
+          "end": 267.065
+        },
+        {
+          "w": "it",
+          "start": 267.065,
+          "end": 267.191
+        },
+        {
+          "w": "together!",
+          "start": 267.191,
+          "end": 267.63
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "oliver",
+      "start": 268.82,
+      "end": 270.27,
+      "text": "Friends help friends!",
+      "words": [
+        {
+          "w": "Friends",
+          "start": 268.86,
+          "end": 269.291
+        },
+        {
+          "w": "help",
+          "start": 269.291,
+          "end": 269.599
+        },
+        {
+          "w": "friends!",
+          "start": 269.599,
+          "end": 270.03
+        }
+      ]
+    },
+    {
+      "beat": "c_turn",
+      "speaker": "narrator",
+      "start": 271.73,
+      "end": 272.69,
+      "text": "Your turn!",
+      "words": [
+        {
+          "w": "Your",
+          "start": 271.77,
+          "end": 272.047
+        },
+        {
+          "w": "turn!",
+          "start": 272.047,
+          "end": 272.51
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "oliver",
+      "start": 275.94,
+      "end": 277.39,
+      "text": "Friends help friends!",
+      "words": [
+        {
+          "w": "Friends",
+          "start": 275.98,
+          "end": 276.411
+        },
+        {
+          "w": "help",
+          "start": 276.411,
+          "end": 276.719
+        },
+        {
+          "w": "friends!",
+          "start": 276.719,
+          "end": 277.15
+        }
+      ]
+    },
+    {
+      "beat": "c_more",
+      "speaker": "narrator",
+      "start": 279.05,
+      "end": 280.97,
+      "text": "One more time, all together!",
+      "words": [
+        {
+          "w": "One",
+          "start": 279.1,
+          "end": 279.349
+        },
+        {
+          "w": "more",
+          "start": 279.349,
+          "end": 279.659
+        },
+        {
+          "w": "time,",
+          "start": 279.659,
+          "end": 279.97
+        },
+        {
+          "w": "all",
+          "start": 280.13,
+          "end": 280.381
+        },
+        {
+          "w": "together!",
+          "start": 280.381,
+          "end": 280.82
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "bobo",
+      "start": 282.02,
+      "end": 283.19,
+      "text": "Friends help friends!",
+      "words": [
+        {
+          "w": "Friends",
+          "start": 282.06,
+          "end": 282.428
+        },
+        {
+          "w": "help",
+          "start": 282.428,
+          "end": 282.692
+        },
+        {
+          "w": "friends!",
+          "start": 282.692,
+          "end": 283.06
+        }
+      ]
+    },
+    {
+      "beat": "flap_end",
+      "speaker": "narrator",
+      "start": 285.24,
+      "end": 288.45,
+      "text": "Let's flap and fly with Oliver! Flap, flap, flap!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 285.28,
+          "end": 285.639
+        },
+        {
+          "w": "flap",
+          "start": 285.639,
+          "end": 285.999
+        },
+        {
+          "w": "and",
+          "start": 285.999,
+          "end": 286.214
+        },
+        {
+          "w": "fly",
+          "start": 286.214,
+          "end": 286.573
+        },
+        {
+          "w": "with",
+          "start": 286.573,
+          "end": 286.789
+        },
+        {
+          "w": "Oliver!",
+          "start": 286.789,
+          "end": 287.292
+        },
+        {
+          "w": "Flap,",
+          "start": 287.292,
+          "end": 287.651
+        },
+        {
+          "w": "flap,",
+          "start": 287.651,
+          "end": 288.011
+        },
+        {
+          "w": "flap!",
+          "start": 288.011,
+          "end": 288.37
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "oliver",
+      "start": 291.53,
+      "end": 293.21,
+      "text": "Bye-bye, friends! Hoo-hoo!",
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 291.55,
+          "end": 292.09
+        },
+        {
+          "w": "friends!",
+          "start": 292.09,
+          "end": 292.51
+        },
+        {
+          "w": "Hoo-hoo!",
+          "start": 292.51,
+          "end": 292.93
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "bella",
+      "start": 293.88,
+      "end": 295.01,
+      "text": "Bye-bye!",
+      "words": [
+        {
+          "w": "Bye-bye!",
+          "start": 293.92,
+          "end": 294.88
+        }
+      ]
+    },
+    {
+      "beat": "ask_end",
+      "speaker": "narrator",
+      "start": 296.48,
+      "end": 298.12,
+      "text": "How can YOU help a friend today?",
+      "words": [
+        {
+          "w": "How",
+          "start": 296.52,
+          "end": 296.71
+        },
+        {
+          "w": "can",
+          "start": 296.71,
+          "end": 296.899
+        },
+        {
+          "w": "YOU",
+          "start": 296.899,
+          "end": 297.042
+        },
+        {
+          "w": "help",
+          "start": 297.042,
+          "end": 297.279
+        },
+        {
+          "w": "a",
+          "start": 297.279,
+          "end": 297.421
+        },
+        {
+          "w": "friend",
+          "start": 297.421,
+          "end": 297.705
+        },
+        {
+          "w": "today?",
+          "start": 297.705,
+          "end": 297.99
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "guess",
+      "start": 0,
+      "visual": "Who has big round eyes, and soft fluffy feathers?",
+      "end": 7.85
+    },
+    {
+      "id": "guess2",
+      "start": 7.85,
+      "visual": "Who says: hoo, hoo? Can you guess?",
+      "end": 14.34
+    },
+    {
+      "id": "reveal",
+      "start": 14.34,
+      "visual": "It's... an owl!",
+      "end": 16.94
+    },
+    {
+      "id": "hello",
+      "start": 16.94,
+      "visual": "Hoo-hoo! Hello! I'm Oliver the owl!",
+      "end": 20.02
+    },
+    {
+      "id": "bobo_hi",
+      "start": 20.02,
+      "visual": "Hi, Oliver! I'm Super Bobo!",
+      "end": 22.74
+    },
+    {
+      "id": "bella_hi",
+      "start": 22.74,
+      "visual": "And I'm Bella!",
+      "end": 25.9
+    },
+    {
+      "id": "sound_q",
+      "start": 25.9,
+      "visual": "What does an owl say?",
+      "end": 28.37
+    },
+    {
+      "id": "sound_a",
+      "start": 28.37,
+      "visual": "Hoo-hoo! Hoo-hoo!",
+      "end": 31.31
+    },
+    {
+      "id": "sound_turn",
+      "start": 31.31,
+      "visual": "Can you hoot like Oliver? Your turn!",
+      "end": 36.94
+    },
+    {
+      "id": "sound_b",
+      "start": 36.94,
+      "visual": "Hoo-hoo!",
+      "end": 39.75
+    },
+    {
+      "id": "facts",
+      "start": 39.75,
+      "visual": "Let's learn three owl facts!",
+      "end": 43.13
+    },
+    {
+      "id": "fact1",
+      "start": 43.13,
+      "visual": "Fact one. Most owls are awake at night, and they sleep in the day.",
+      "end": 48.61
+    },
+    {
+      "id": "yawn",
+      "start": 48.61,
+      "visual": "Yaaawn! That's why I'm a little sleepy!",
+      "end": 53.11
+    },
+    {
+      "id": "fact2",
+      "start": 53.11,
+      "visual": "Fact two. Owls can turn their heads very, very far. Almost all the way around!",
+      "end": 59.35
+    },
+    {
+      "id": "look",
+      "start": 59.35,
+      "visual": "Look left... look right... I can see behind me!",
+      "end": 64.33
+    },
+    {
+      "id": "fact3",
+      "start": 64.33,
+      "visual": "Fact three. Owl feathers are so soft, owls can fly very, very quietly. Shhh!",
+      "end": 71.79
+    },
+    {
+      "id": "wow",
+      "start": 71.79,
+      "visual": "Wow! Owls are amazing!",
+      "end": 75.61
+    },
+    {
+      "id": "story",
+      "start": 75.61,
+      "visual": "But Oliver has a little problem.",
+      "end": 78.8
+    },
+    {
+      "id": "problem",
+      "start": 78.8,
+      "visual": "All my owl friends can fly. But I never flew before. I'm scared!",
+      "end": 84.43
+    },
+    {
+      "id": "feel",
+      "start": 84.43,
+      "visual": "Oliver feels scared. His tummy feels wobbly.",
+      "end": 89.1
+    },
+    {
+      "id": "ask",
+      "start": 89.1,
+      "visual": "How can his friends help Oliver?",
+      "end": 95.0
+    },
+    {
+      "id": "idea",
+      "start": 95.0,
+      "visual": "I know! Friends help friends! Let's practice, one step at a time!",
+      "end": 100.71
+    },
+    {
+      "id": "step1",
+      "start": 100.71,
+      "visual": "Step one. Flap your wings! Flap, flap, flap!",
+      "end": 104.65
+    },
+    {
+      "id": "flap_turn",
+      "start": 104.65,
+      "visual": "Can you flap your wings like Oliver? Your turn!",
+      "end": 110.99
+    },
+    {
+      "id": "flap_do",
+      "start": 110.99,
+      "visual": "Flap, flap, flap! I'm doing it!",
+      "end": 114.88
+    },
+    {
+      "id": "step2",
+      "start": 114.88,
+      "visual": "Step two. A little hop, from the low branch!",
+      "end": 118.57
+    },
+    {
+      "id": "leaves",
+      "start": 118.57,
+      "visual": "I made a soft pile of leaves for you!",
+      "end": 121.96
+    },
+    {
+      "id": "hop",
+      "start": 121.96,
+      "visual": "Here I go... hop!",
+      "end": 124.42
+    },
+    {
+      "id": "boing",
+      "start": 124.42,
+      "visual": "Boing! Oliver lands in the soft leaves.",
+      "end": 128.12
+    },
+    {
+      "id": "hop_ok",
+      "start": 128.12,
+      "visual": "I did it! That was fun!",
+      "end": 131.73
+    },
+    {
+      "id": "step3",
+      "start": 131.73,
+      "visual": "Step three. Back up on the big branch. We count to three, and you fly!",
+      "end": 137.19
+    },
+    {
+      "id": "ready",
+      "start": 137.19,
+      "visual": "I'm a little scared... but my friends are here.",
+      "end": 141.13
+    },
+    {
+      "id": "count",
+      "start": 141.13,
+      "visual": "Let's count together! One... two... three!",
+      "end": 144.63
+    },
+    {
+      "id": "fly",
+      "start": 144.63,
+      "visual": "Flap, flap... I'm flying! Wheee!",
+      "end": 147.67
+    },
+    {
+      "id": "cheer",
+      "start": 147.67,
+      "visual": "Hooray! You can fly, Oliver!",
+      "end": 151.23
+    },
+    {
+      "id": "soar",
+      "start": 151.23,
+      "visual": "Oliver flies over the trees, quietly, like a feather.",
+      "end": 156.46
+    },
+    {
+      "id": "thanks",
+      "start": 156.46,
+      "visual": "Thank you, friends! You helped me be brave!",
+      "end": 161.01
+    },
+    {
+      "id": "balloon",
+      "start": 161.01,
+      "visual": "Oh no! Bella's red balloon floats away, and gets stuck in a tall tree!",
+      "end": 166.38
+    },
+    {
+      "id": "bella_sad",
+      "start": 166.38,
+      "visual": "My balloon! It's too high!",
+      "end": 170.02
+    },
+    {
+      "id": "help_q",
+      "start": 170.02,
+      "visual": "Who can help Bella? Can you guess?",
+      "end": 175.28
+    },
+    {
+      "id": "oliver_go",
+      "start": 175.28,
+      "visual": "I can! I can fly now! Friends help friends!",
+      "end": 179.34
+    },
+    {
+      "id": "get",
+      "start": 179.34,
+      "visual": "Oliver flies up... up... and gets the balloon!",
+      "end": 183.84
+    },
+    {
+      "id": "give",
+      "start": 183.84,
+      "visual": "Here you go, Bella!",
+      "end": 186.26
+    },
+    {
+      "id": "bella_yay",
+      "start": 186.26,
+      "visual": "Thank you, Oliver! You're a good friend!",
+      "end": 190.73
+    },
+    {
+      "id": "lesson",
+      "start": 190.73,
+      "visual": "Friends help friends. And together, we can be brave!",
+      "end": 196.55
+    },
+    {
+      "id": "night",
+      "start": 196.55,
+      "visual": "Now the moon comes out. It's night time, and owls are awake!",
+      "end": 201.74
+    },
+    {
+      "id": "night_o",
+      "start": 201.74,
+      "visual": "Hoo-hoo! Night is my favorite time!",
+      "end": 206.62
+    },
+    {
+      "id": "again",
+      "start": 206.62,
+      "visual": "Now, let's play and remember, with Oliver!",
+      "end": 211.07
+    },
+    {
+      "id": "q1",
+      "start": 211.07,
+      "visual": "When are most owls awake? In the day, or at night?",
+      "end": 218.79
+    },
+    {
+      "id": "a1",
+      "start": 218.79,
+      "visual": "At night!",
+      "end": 221.73
+    },
+    {
+      "id": "q2",
+      "start": 221.73,
+      "visual": "Why can owls fly so quietly?",
+      "end": 228.39
+    },
+    {
+      "id": "a2",
+      "start": 228.39,
+      "visual": "Their feathers are so soft!",
+      "end": 232.62
+    },
+    {
+      "id": "q3",
+      "start": 232.62,
+      "visual": "Can you turn your head like an owl? Look left... look right!",
+      "end": 240.33
+    },
+    {
+      "id": "a3",
+      "start": 240.33,
+      "visual": "Great looking!",
+      "end": 243.51
+    },
+    {
+      "id": "q4",
+      "start": 243.51,
+      "visual": "What were the three steps to fly?",
+      "end": 249.89
+    },
+    {
+      "id": "a4a",
+      "start": 249.89,
+      "visual": "Flap your wings,",
+      "end": 251.4
+    },
+    {
+      "id": "a4b",
+      "start": 251.4,
+      "visual": "a little hop,",
+      "end": 253.2
+    },
+    {
+      "id": "a4c",
+      "start": 253.2,
+      "visual": "and count to three!",
+      "end": 256.59
+    },
+    {
+      "id": "q5",
+      "start": 256.59,
+      "visual": "Who helped Bella get her balloon?",
+      "end": 262.97
+    },
+    {
+      "id": "a5",
+      "start": 262.97,
+      "visual": "Oliver!",
+      "end": 266.23
+    },
+    {
+      "id": "chant",
+      "start": 266.23,
+      "visual": "Let's say it together!",
+      "end": 268.62
+    },
+    {
+      "id": "c1",
+      "start": 268.62,
+      "visual": "Friends help friends!",
+      "end": 271.53
+    },
+    {
+      "id": "c_turn",
+      "start": 271.53,
+      "visual": "Your turn!",
+      "end": 275.74
+    },
+    {
+      "id": "c2",
+      "start": 275.74,
+      "visual": "Friends help friends!",
+      "end": 278.85
+    },
+    {
+      "id": "c_more",
+      "start": 278.85,
+      "visual": "One more time, all together!",
+      "end": 281.82
+    },
+    {
+      "id": "c3",
+      "start": 281.82,
+      "visual": "Friends help friends!",
+      "end": 285.04
+    },
+    {
+      "id": "flap_end",
+      "start": 285.04,
+      "visual": "Let's flap and fly with Oliver! Flap, flap, flap!",
+      "end": 291.33
+    },
+    {
+      "id": "bye",
+      "start": 291.33,
+      "visual": "Bye-bye, friends! Hoo-hoo!",
+      "end": 293.68
+    },
+    {
+      "id": "bye2",
+      "start": 293.68,
+      "visual": "Bye-bye!",
+      "end": 296.28
+    },
+    {
+      "id": "ask_end",
+      "start": 296.28,
+      "visual": "How can YOU help a friend today?",
+      "end": 301.2
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

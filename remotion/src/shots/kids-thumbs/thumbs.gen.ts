@@ -259,5 +259,18 @@ export const THUMBS: Thumb[] = [
   "at": "top",
   "rot": -3,
   "ribbon": "bl"
+ },
+ {
+  "day": 39,
+  "frame": "d039-147.50.png",
+  "z": 1.6,
+  "fx": 1010,
+  "fy": 600,
+  "lines": [
+   "FIRST",
+   "FLIGHT!"
+  ],
+  "size": 136,
+  "at": "right"
  }
 ];

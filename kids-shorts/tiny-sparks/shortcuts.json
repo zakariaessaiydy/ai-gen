@@ -226,5 +226,17 @@
    "THE EGGS ARE",
    "HATCHING!"
   ]
+ },
+ {
+  "day": 39,
+  "comp": "KidsAnimals039",
+  "a": 114.6,
+  "b": 150.6,
+  "xc": 1000,
+  "w": 1440,
+  "lines": [
+   "CAN OLIVER",
+   "FLY?"
+  ]
  }
 ]
