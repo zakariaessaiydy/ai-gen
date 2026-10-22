@@ -19,84 +19,84 @@
     {
       "at_s": 3.95,
       "sfx_id": "cartoon-pop",
-      "gain_db": -10,
+      "gain_db": -4,
       "shot": "KidsStories043",
       "cue": "THE WAITING GAME"
     },
     {
       "at_s": 11.24,
       "sfx_id": "whip-whoosh",
-      "gain_db": -9,
+      "gain_db": -10,
       "shot": "KidsStories043",
       "cue": "whip (see)"
     },
     {
       "at_s": 14.49,
       "sfx_id": "slide-whistle-up",
-      "gain_db": -10,
+      "gain_db": -4,
       "shot": "KidsStories043",
       "cue": "Leo: wheee (swing high)"
     },
     {
       "at_s": 16.92,
       "sfx_id": "whip-whoosh",
-      "gain_db": -9,
+      "gain_db": -10,
       "shot": "KidsStories043",
       "cue": "whip (want)"
     },
     {
       "at_s": 21.682,
       "sfx_id": "cartoon-pop",
-      "gain_db": -11,
+      "gain_db": -5,
       "shot": "KidsStories043",
       "cue": "HURRY!"
     },
     {
       "at_s": 24.51,
       "sfx_id": "whip-whoosh",
-      "gain_db": -9,
+      "gain_db": -10,
       "shot": "KidsStories043",
       "cue": "whip (leo_sad)"
     },
     {
       "at_s": 30.164,
       "sfx_id": "rubber-stretch",
-      "gain_db": -13,
+      "gain_db": -7,
       "shot": "KidsStories043",
       "cue": "steam (impatient)"
     },
     {
       "at_s": 31.807,
       "sfx_id": "dino-stomp",
-      "gain_db": -13,
+      "gain_db": -14,
       "shot": "KidsStories043",
       "cue": "stomp 1"
     },
     {
       "at_s": 32.291,
       "sfx_id": "dino-stomp",
-      "gain_db": -11,
+      "gain_db": -13,
       "shot": "KidsStories043",
       "cue": "stomp 2"
     },
     {
       "at_s": 32.776,
       "sfx_id": "dino-stomp",
-      "gain_db": -9,
+      "gain_db": -12,
       "shot": "KidsStories043",
       "cue": "stomp 3"
     },
     {
       "at_s": 34.93,
       "sfx_id": "cartoon-pop",
-      "gain_db": -9,
+      "gain_db": -3,
       "shot": "KidsStories043",
       "cue": "IMPATIENT"
     },
     {
       "at_s": 42.7,
       "sfx_id": "think-tick",
-      "gain_db": -6,
+      "gain_db": -9,
       "shot": "KidsStories043",
       "cue": "how can Mila wait? (think)",
       "dur_s": 3.22
@@ -104,42 +104,42 @@
     {
       "at_s": 46.02,
       "sfx_id": "whip-whoosh",
-      "gain_db": -9,
+      "gain_db": -10,
       "shot": "KidsStories043",
       "cue": "whip (bobo_hi)"
     },
     {
       "at_s": 46.67,
       "sfx_id": "sparkle-soft",
-      "gain_db": -10,
+      "gain_db": -4,
       "shot": "KidsStories043",
       "cue": "Bobo idea bulb"
     },
     {
       "at_s": 50.85,
       "sfx_id": "cartoon-pop",
-      "gain_db": -9,
+      "gain_db": -3,
       "shot": "KidsStories043",
       "cue": "STEP 1: ASK NICELY"
     },
     {
       "at_s": 59.46,
       "sfx_id": "sparkle-soft",
-      "gain_db": -12,
+      "gain_db": -6,
       "shot": "KidsStories043",
       "cue": "Leo heart"
     },
     {
       "at_s": 66.06,
       "sfx_id": "cartoon-pop",
-      "gain_db": -9,
+      "gain_db": -3,
       "shot": "KidsStories043",
       "cue": "YOUR TURN (say please)"
     },
     {
       "at_s": 67.2,
       "sfx_id": "think-tick",
-      "gain_db": -6,
+      "gain_db": -9,
       "shot": "KidsStories043",
       "cue": "your turn: please",
       "dur_s": 2.92
@@ -147,189 +147,189 @@
     {
       "at_s": 70.32,
       "sfx_id": "cartoon-pop",
-      "gain_db": -9,
+      "gain_db": -3,
       "shot": "KidsStories043",
       "cue": "STEP 2: COUNT TO TEN"
     },
     {
       "at_s": 70.62,
       "sfx_id": "pop-reveal",
-      "gain_db": -12,
+      "gain_db": -6,
       "shot": "KidsStories043",
       "cue": "sand timer appears"
     },
     {
       "at_s": 75.62,
       "sfx_id": "whip-whoosh",
-      "gain_db": -11,
+      "gain_db": -5,
       "shot": "KidsStories043",
       "cue": "timer flips"
     },
     {
       "at_s": 80.35,
       "sfx_id": "cartoon-pop",
-      "gain_db": -8,
+      "gain_db": -2,
       "shot": "KidsStories043",
       "cue": "count 1"
     },
     {
       "at_s": 81.81,
       "sfx_id": "cartoon-pop",
-      "gain_db": -8,
+      "gain_db": -2,
       "shot": "KidsStories043",
       "cue": "count 2"
     },
     {
       "at_s": 83.03,
       "sfx_id": "cartoon-pop",
-      "gain_db": -8,
+      "gain_db": -2,
       "shot": "KidsStories043",
       "cue": "count 3"
     },
     {
       "at_s": 84.57,
       "sfx_id": "cartoon-pop",
-      "gain_db": -8,
+      "gain_db": -2,
       "shot": "KidsStories043",
       "cue": "count 4"
     },
     {
       "at_s": 85.82,
       "sfx_id": "cartoon-pop",
-      "gain_db": -8,
+      "gain_db": -2,
       "shot": "KidsStories043",
       "cue": "count 5"
     },
     {
       "at_s": 87.4,
       "sfx_id": "cartoon-pop",
-      "gain_db": -8,
+      "gain_db": -2,
       "shot": "KidsStories043",
       "cue": "count 6"
     },
     {
       "at_s": 88.67,
       "sfx_id": "cartoon-pop",
-      "gain_db": -8,
+      "gain_db": -2,
       "shot": "KidsStories043",
       "cue": "count 7"
     },
     {
       "at_s": 90.18,
       "sfx_id": "cartoon-pop",
-      "gain_db": -8,
+      "gain_db": -2,
       "shot": "KidsStories043",
       "cue": "count 8"
     },
     {
       "at_s": 91.4,
       "sfx_id": "cartoon-pop",
-      "gain_db": -8,
+      "gain_db": -2,
       "shot": "KidsStories043",
       "cue": "count 9"
     },
     {
       "at_s": 92.96,
       "sfx_id": "cartoon-pop",
-      "gain_db": -8,
+      "gain_db": -2,
       "shot": "KidsStories043",
       "cue": "count 10"
     },
     {
       "at_s": 93.6,
       "sfx_id": "ding-correct",
-      "gain_db": -7,
+      "gain_db": -12,
       "shot": "KidsStories043",
       "cue": "TEN: the sand is done"
     },
     {
       "at_s": 98.08,
       "sfx_id": "cartoon-boing",
-      "gain_db": -9,
+      "gain_db": -3,
       "shot": "KidsStories043",
       "cue": "Leo hops off"
     },
     {
       "at_s": 100.92,
       "sfx_id": "sparkle-soft",
-      "gain_db": -10,
+      "gain_db": -4,
       "shot": "KidsStories043",
       "cue": "thank you + confetti"
     },
     {
       "at_s": 102.017,
       "sfx_id": "slide-whistle-up",
-      "gain_db": -9,
+      "gain_db": -3,
       "shot": "KidsStories043",
       "cue": "Mila: wheee"
     },
     {
       "at_s": 109.08,
       "sfx_id": "whip-whoosh",
-      "gain_db": -8,
+      "gain_db": -10,
       "shot": "KidsStories043",
       "cue": "star wipe to the classroom"
     },
     {
       "at_s": 120.32,
       "sfx_id": "cartoon-pop",
-      "gain_db": -12,
+      "gain_db": -6,
       "shot": "KidsStories043",
       "cue": "Bobo: wait!"
     },
     {
       "at_s": 124.5,
       "sfx_id": "slide-whistle-up",
-      "gain_db": -11,
+      "gain_db": -5,
       "shot": "KidsStories043",
       "cue": "lifts it too fast"
     },
     {
       "at_s": 125.653,
       "sfx_id": "slide-whistle-down",
-      "gain_db": -11,
+      "gain_db": -5,
       "shot": "KidsStories043",
       "cue": "drip"
     },
     {
       "at_s": 125.753,
       "sfx_id": "cartoon-pop",
-      "gain_db": -11,
+      "gain_db": -5,
       "shot": "KidsStories043",
       "cue": "DRIP!"
     },
     {
       "at_s": 126.107,
       "sfx_id": "cartoon-pop",
-      "gain_db": -11,
+      "gain_db": -5,
       "shot": "KidsStories043",
       "cue": "DRIP!"
     },
     {
       "at_s": 130.9,
       "sfx_id": "sad-trombone",
-      "gain_db": -11,
+      "gain_db": -13,
       "shot": "KidsStories043",
       "cue": "drippy rainbow"
     },
     {
       "at_s": 133.52,
       "sfx_id": "pop-reveal",
-      "gain_db": -12,
+      "gain_db": -6,
       "shot": "KidsStories043",
       "cue": "a new painting"
     },
     {
       "at_s": 136.81,
       "sfx_id": "cartoon-pop",
-      "gain_db": -9,
+      "gain_db": -3,
       "shot": "KidsStories043",
       "cue": "STEP 3: FIND SOMETHING FUN"
     },
     {
       "at_s": 145.2,
       "sfx_id": "think-tick",
-      "gain_db": -6,
+      "gain_db": -9,
       "shot": "KidsStories043",
       "cue": "what can Mila do? (think)",
       "dur_s": 3.77
@@ -337,119 +337,119 @@
     {
       "at_s": 149.32,
       "sfx_id": "sparkle-soft",
-      "gain_db": -10,
+      "gain_db": -4,
       "shot": "KidsStories043",
       "cue": "Mila idea"
     },
     {
       "at_s": 156.65,
       "sfx_id": "whip-whoosh",
-      "gain_db": -9,
+      "gain_db": -10,
       "shot": "KidsStories043",
       "cue": "whip (s3_leo)"
     },
     {
       "at_s": 158.403,
       "sfx_id": "bonk",
-      "gain_db": -13,
+      "gain_db": -7,
       "shot": "KidsStories043",
       "cue": "block on the tower"
     },
     {
       "at_s": 159.017,
       "sfx_id": "bonk",
-      "gain_db": -13,
+      "gain_db": -7,
       "shot": "KidsStories043",
       "cue": "block on the tower"
     },
     {
       "at_s": 159.693,
       "sfx_id": "bonk",
-      "gain_db": -13,
+      "gain_db": -7,
       "shot": "KidsStories043",
       "cue": "block on the tower"
     },
     {
       "at_s": 167.686,
       "sfx_id": "sparkle-soft",
-      "gain_db": -8,
+      "gain_db": -2,
       "shot": "KidsStories043",
       "cue": "DRY!"
     },
     {
       "at_s": 167.786,
       "sfx_id": "ding-correct",
-      "gain_db": -9,
+      "gain_db": -3,
       "shot": "KidsStories043",
       "cue": "dry"
     },
     {
       "at_s": 168.732,
       "sfx_id": "cartoon-pop",
-      "gain_db": -10,
+      "gain_db": -4,
       "shot": "KidsStories043",
       "cue": "hang it up"
     },
     {
       "at_s": 170.52,
       "sfx_id": "kids-applause",
-      "gain_db": -11,
+      "gain_db": -5,
       "shot": "KidsStories043",
       "cue": "wow + confetti"
     },
     {
       "at_s": 174.05,
       "sfx_id": "sparkle-soft",
-      "gain_db": -12,
+      "gain_db": -6,
       "shot": "KidsStories043",
       "cue": "heart"
     },
     {
       "at_s": 178.02,
       "sfx_id": "cartoon-pop",
-      "gain_db": -9,
+      "gain_db": -3,
       "shot": "KidsStories043",
       "cue": "PLAY THE WAITING GAME"
     },
     {
       "at_s": 180.9,
       "sfx_id": "whip-whoosh",
-      "gain_db": -8,
+      "gain_db": -10,
       "shot": "KidsStories043",
       "cue": "star wipe to the meadow"
     },
     {
       "at_s": 183.17,
       "sfx_id": "cartoon-pop",
-      "gain_db": -10,
+      "gain_db": -4,
       "shot": "KidsStories043",
       "cue": "LET'S REMEMBER"
     },
     {
       "at_s": 186.49,
       "sfx_id": "pop-reveal",
-      "gain_db": -10,
+      "gain_db": -4,
       "shot": "KidsStories043",
       "cue": "step card r1"
     },
     {
       "at_s": 190.01,
       "sfx_id": "pop-reveal",
-      "gain_db": -10,
+      "gain_db": -4,
       "shot": "KidsStories043",
       "cue": "step card r2"
     },
     {
       "at_s": 193.39,
       "sfx_id": "pop-reveal",
-      "gain_db": -10,
+      "gain_db": -4,
       "shot": "KidsStories043",
       "cue": "step card r3"
     },
     {
       "at_s": 199.7,
       "sfx_id": "think-tick",
-      "gain_db": -6,
+      "gain_db": -9,
       "shot": "KidsStories043",
       "cue": "q1 think",
       "dur_s": 3.96
@@ -457,14 +457,14 @@
     {
       "at_s": 204.01,
       "sfx_id": "ding-correct",
-      "gain_db": -6,
+      "gain_db": -3,
       "shot": "KidsStories043",
       "cue": "a1 correct"
     },
     {
       "at_s": 210.2,
       "sfx_id": "think-tick",
-      "gain_db": -6,
+      "gain_db": -9,
       "shot": "KidsStories043",
       "cue": "q2 think",
       "dur_s": 4.23
@@ -472,14 +472,14 @@
     {
       "at_s": 214.78,
       "sfx_id": "ding-correct",
-      "gain_db": -6,
+      "gain_db": -3,
       "shot": "KidsStories043",
       "cue": "a2 correct"
     },
     {
       "at_s": 221.2,
       "sfx_id": "think-tick",
-      "gain_db": -6,
+      "gain_db": -9,
       "shot": "KidsStories043",
       "cue": "q3 think",
       "dur_s": 4.37
@@ -487,14 +487,14 @@
     {
       "at_s": 225.92,
       "sfx_id": "ding-correct",
-      "gain_db": -6,
+      "gain_db": -3,
       "shot": "KidsStories043",
       "cue": "a3 correct"
     },
     {
       "at_s": 230.7,
       "sfx_id": "think-tick",
-      "gain_db": -6,
+      "gain_db": -9,
       "shot": "KidsStories043",
       "cue": "q4 think",
       "dur_s": 4.73
@@ -502,14 +502,14 @@
     {
       "at_s": 235.78,
       "sfx_id": "ding-correct",
-      "gain_db": -6,
+      "gain_db": -3,
       "shot": "KidsStories043",
       "cue": "a4 correct"
     },
     {
       "at_s": 245.7,
       "sfx_id": "think-tick",
-      "gain_db": -6,
+      "gain_db": -9,
       "shot": "KidsStories043",
       "cue": "q5 think",
       "dur_s": 3.89
@@ -517,14 +517,14 @@
     {
       "at_s": 249.94,
       "sfx_id": "ding-correct",
-      "gain_db": -6,
+      "gain_db": -3,
       "shot": "KidsStories043",
       "cue": "a5 correct"
     },
     {
       "at_s": 255.53,
       "sfx_id": "cartoon-pop",
-      "gain_db": -10,
+      "gain_db": -4,
       "shot": "KidsStories043",
       "cue": "ASK COUNT PLAY"
     },
@@ -538,7 +538,7 @@
     {
       "at_s": 261.2,
       "sfx_id": "think-tick",
-      "gain_db": -8,
+      "gain_db": -9,
       "shot": "KidsStories043",
       "cue": "your turn: chant",
       "dur_s": 3.66
@@ -546,21 +546,21 @@
     {
       "at_s": 275.42,
       "sfx_id": "kids-yay",
-      "gain_db": -6,
+      "gain_db": -12,
       "shot": "KidsStories043",
       "cue": "chant done"
     },
     {
       "at_s": 277.43,
       "sfx_id": "cartoon-pop",
-      "gain_db": -9,
+      "gain_db": -3,
       "shot": "KidsStories043",
       "cue": "YOUR TURN: count to ten"
     },
     {
       "at_s": 277.59,
       "sfx_id": "whip-whoosh",
-      "gain_db": -11,
+      "gain_db": -5,
       "shot": "KidsStories043",
       "cue": "timer flips"
     },
@@ -637,28 +637,28 @@
     {
       "at_s": 291.8,
       "sfx_id": "kids-yay",
-      "gain_db": -4,
+      "gain_db": -12,
       "shot": "KidsStories043",
       "cue": "you counted to ten!"
     },
     {
       "at_s": 292.73,
       "sfx_id": "kids-applause",
-      "gain_db": -8,
+      "gain_db": -2,
       "shot": "KidsStories043",
       "cue": "great waiting"
     },
     {
       "at_s": 295.67,
       "sfx_id": "sparkle-soft",
-      "gain_db": -12,
+      "gain_db": -6,
       "shot": "KidsStories043",
       "cue": "bye"
     },
     {
       "at_s": 304.58,
       "sfx_id": "whip-whoosh",
-      "gain_db": -8,
+      "gain_db": -10,
       "shot": "KidsStories043",
       "cue": "ending iris"
     }

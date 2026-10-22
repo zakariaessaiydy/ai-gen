@@ -169,5 +169,13 @@ export const SHORTS: ShortCard[] = [
    "DAYS OF THE WEEK",
    "SING ALONG!"
   ]
+ },
+ {
+  "day": 43,
+  "w": 1440,
+  "lines": [
+   "COUNT TO TEN",
+   "WITH MILA!"
+  ]
  }
 ];
