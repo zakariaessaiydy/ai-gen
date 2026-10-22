@@ -132,6 +132,29 @@ The kit now does the "cute" work automatically — don't fight it, build on it:
 - Still the rule: background motion stays slow and soft (no strobing, nothing fast behind a lesson).
   When a card/grid teaches, it is drawn ABOVE the set, so the ambient life never covers the lesson.
 
+## ENERGY LAYER — livelier sound + more action (user request after Day 36; demo: lab/energy-demo)
+Built and demo'd on Day 36's jar scene (before/after). It is NOT the default yet: use it once the user
+approves the demo. Reference episode: `remotion/src/shots/kids-lab-energy/KidsEnergyDemo.tsx`.
+- **Sound pack (FREE, local):** `python tools/gen_kids_sounds.py [--only id,id] [--list]` (numpy synth +
+  Kokoro kid crowds) → SFX ids in the sfx catalog: `cartoon-boing` `slide-whistle-up/down` `drum-roll`
+  `cymbal-crash` `ding-correct` `sad-trombone` `uh-oh` `cartoon-pop` `rubber-stretch` `whip-whoosh` `bonk`
+  `zip-up` `kids-applause` `think-tick` `kids-yay/ohno/wow/laugh` `tiny-sparks-jingle` (3.7 s ident) + the
+  theme bed `tiny-sparks-bounce` (music catalog, 120 bpm, 64 s, loops seamlessly).
+- **Mix:** mix_sfx gives the SFX bus +6 dB makeup when nobody talks, so set `gain_db` ~6 dB under the
+  level you want (jingle `-5`). A plan event may carry `"dur_s"` (play only the first N s). Bed:
+  `build_short.py <ep> --music tiny-sparks-bounce --bed-gain -5 --duck 7 --bed-start 3.7 --bed-fade-in 0.25`
+  (+ `--bed-stop <s> --bed-fade 0.7` to drop the music for a punchline sting). `think-tick` starts ON the
+  bed's beat grid: bed start + k × 0.5 s.
+- **Kit (`lib/kids/energy.tsx`):** `<SparksIntro>` (first 3.6 s, synced to `tiny-sparks-jingle` at 0; the
+  first VO line at ≥ 3.75 s) · `directorCam(t, shots, punches)` + `<ActionStage>` (shots arrive by
+  `cut | snap | smooth | whip` (whip = motion blur); `push` = slow zoom while a shot holds; punches = zoom
+  kicks; `shakeOf(t, hits)`) · `hopAt` (crouch → stretch → squash landing) · `<Reaction kind="! ? sweat
+  heart stars cloud steam idea">` · `<Dust>` `<MotionLines>` `<StrainLines>` `<ImpactStar>` `<StageWord>`
+  (comic words IN the world, they move with the camera) · `<FocusLines>` · `<StarWipe>` (scene change /
+  ending iris).
+- Placement rule: anything above a head must sit inside the shot (visible y = cam.y ± H / (2·z)) — QA
+  the frames at every snap zoom.
+
 ## LONG-VIDEO LENGTH — every 16:9 video is at least 5:00 (user rule)
 
 The user's rule: **a 16:9 long video is never shorter than 5 minutes.** Plan the script for ≥ 5:00 BEFORE voicing

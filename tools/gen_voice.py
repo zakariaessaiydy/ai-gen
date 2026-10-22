@@ -46,7 +46,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 from ffmpeg_path import ensure_on_path
-from common import load_env, write_json
+from common import load_env, measure_lufs, write_json
 
 ensure_on_path()
 
@@ -662,10 +662,19 @@ def main():
         ms = int(round(start * 1000))
         parts.append(f"[{j}:a]adelay={ms}|{ms}[a{j}]")
     chain = "".join(f"[a{j}]" for j in range(len(fitted)))
-    fc = ";".join(parts) + f";{chain}amix=inputs={len(fitted)}:normalize=0,apad,atrim=0:{total}," \
-         f"loudnorm=I=-16:TP=-1.5:LRA=11[out]"
+    fc = ";".join(parts) + f";{chain}amix=inputs={len(fitted)}:normalize=0,apad,atrim=0:{total}[out]"
+    raw_mix = os.path.join(vdir, "voice-raw.wav")
     run(["ffmpeg", "-y", "-v", "error", *inputs, "-filter_complex", fc,
-         "-map", "[out]", "-ar", "44100", "-ac", "2", voice_wav])
+         "-map", "[out]", "-ar", "44100", "-ac", "2", raw_mix])
+    # ONE static gain to -16 LUFS, peaks held by a limiter. (A single-pass loudnorm is dynamic: it starts
+    # low and ramps up over the first seconds, so the opening lines — the hook — came out 4-6 dB quieter
+    # than the rest of the episode.) The lines are already levelled by the per-line clean-up chain.
+    lufs = measure_lufs(raw_mix)
+    gain = 0.0 if lufs is None or lufs < -60 else -16.0 - lufs
+    run(["ffmpeg", "-y", "-v", "error", "-i", raw_mix, "-af",
+         f"volume={gain:.2f}dB,alimiter=limit=0.84:level=0:attack=4:release=60",
+         "-ar", "44100", "-ac", "2", voice_wav])
+    os.remove(raw_mix)
     print(f"voice track -> {os.path.relpath(voice_wav, ROOT)}")
 
     beats["voiceStatus"] = f"{args.engine}:{'cast' if cast else args.voice}"

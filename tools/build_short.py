@@ -121,6 +121,12 @@ def main():
     ap.add_argument("--rate", help="edge/kokoro, e.g. +12%%")
     ap.add_argument("--jobs", type=int, default=4, help="parallel TTS lines (default 4)")
     ap.add_argument("--music", help="bed id, or 'all' to audition every bed")
+    ap.add_argument("--bed-gain", help="mix_music --bed-gain (dB, default -7)")
+    ap.add_argument("--duck", help="mix_music --duck (dB, default 9)")
+    ap.add_argument("--bed-start", help="mix_music --start: the bed enters at N s (e.g. after the jingle)")
+    ap.add_argument("--bed-stop", help="mix_music --stop: the bed fades out ending at N s")
+    ap.add_argument("--bed-fade-in", help="mix_music --fade-in (s)")
+    ap.add_argument("--bed-fade", help="mix_music --fade: fade-out (and default fade-in) seconds")
     ap.add_argument("--force", action="store_true", help="re-render even when nothing changed")
     ap.add_argument("--force-voice", action="store_true", help="re-bill every TTS line")
     ap.add_argument("--no-check", action="store_true", help="skip the preflight (check_short.py)")
@@ -239,6 +245,10 @@ def main():
         base = base if os.path.exists(base) else voiced
         cmd = [sys.executable, os.path.join(ROOT, "tools", "mix_music.py"), "--base", base]
         cmd += ["--all"] if args.music == "all" else ["--bed", args.music]
+        for opt, val in (("--bed-gain", args.bed_gain), ("--duck", args.duck), ("--start", args.bed_start),
+                         ("--stop", args.bed_stop), ("--fade-in", args.bed_fade_in), ("--fade", args.bed_fade)):
+            if val is not None:
+                cmd += [opt, str(val)]
         sh(cmd, cwd=ROOT)
         timings.append(("music", time.time() - t))
 

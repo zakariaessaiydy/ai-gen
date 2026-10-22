@@ -26,6 +26,10 @@ Usage:
   --duck 9           extra dB the bed drops under the voice (default 9)
   --fade 1.5         fade in/out seconds (default 1.5)
   --end 60           trim output to N seconds (default: full base)
+  --start 3.7        the bed ENTERS at N seconds (e.g. after the channel jingle; the bed's beat grid
+                     then runs from N — sync think-tick SFX to N + k*60/bpm)
+  --fade-in 0.2      fade-in seconds at --start (default = --fade)
+  --stop 37.8        the bed fades OUT ending at N seconds (music drops for a punchline / sting)
   --print            show the resolved settings, no render
 
 ffmpeg/ffprobe on PATH. Beds come from media/library/music/catalog.json (run tools/gen_music.py first).
@@ -77,7 +81,7 @@ def flag(args, name, default=None, cast=str):
     return default
 
 
-def mix_one(base, bed_file, out, bed_gain, duck, fade, end):
+def mix_one(base, bed_file, out, bed_gain, duck, fade, end, start=0.0, stop=None, fade_in=None):
     """Render base video with `bed_file` ducked underneath. Returns out path."""
     os.makedirs(os.path.dirname(out), exist_ok=True)
     dur = end if end is not None else probe_duration(base)
@@ -90,10 +94,17 @@ def mix_one(base, bed_file, out, bed_gain, duck, fade, end):
     parts = []
     # bed: standard format, gentle high-pass so it never muddies speech, trim to length,
     # set base level, fade in/out.
+    # --start/--stop: the bed only plays inside [start, stop] (delayed + padded with silence).
+    start = max(0.0, start or 0.0)
+    stop = min(dur, stop) if stop else dur
+    blen = max(0.1, stop - start)
+    fin = fade if fade_in is None else fade_in
+    delay = f",adelay={int(round(start * 1000))}:all=1" if start > 0 else ""
     parts.append(
         f"[1:a]aformat=sample_rates=48000:channel_layouts=stereo,"
-        f"highpass=f=90,volume={bed_gain:.2f}dB,atrim=0:{dur:.3f},asetpts=N/SR/TB,"
-        f"afade=t=in:st=0:d={fade:.2f},afade=t=out:st={max(0.0, dur - fade):.3f}:d={fade:.2f}[bed]"
+        f"highpass=f=90,volume={bed_gain:.2f}dB,atrim=0:{blen:.3f},asetpts=N/SR/TB,"
+        f"afade=t=in:st=0:d={fin:.2f},afade=t=out:st={max(0.0, blen - fade):.3f}:d={fade:.2f}"
+        f"{delay},apad=whole_dur={dur:.3f}[bed]"
     )
     # base voice: split — one copy is the sidechain key, one is the final voice.
     parts.append("[0:a]aformat=sample_rates=48000:channel_layouts=stereo,asplit=2[key][voice]")
@@ -125,6 +136,9 @@ def main():
     duck = flag(args, "--duck", 9.0, float)
     fade = flag(args, "--fade", 1.5, float)
     end = flag(args, "--end", None, float)
+    start = flag(args, "--start", 0.0, float)
+    stop = flag(args, "--stop", None, float)
+    fade_in = flag(args, "--fade-in", None, float)
     do_all = "--all" in args
     only_bed = flag(args, "--bed", None)
     out_override = flag(args, "--out", None)
@@ -141,7 +155,8 @@ def main():
         sys.exit("specify --bed <id> or --all (available: " + ", ".join(beds) + ")")
 
     print(f"base: {show(base)}   bed-gain: {bed_gain}dB   duck: {duck}dB   fade: {fade}s"
-          + (f"   end: {end}s" if end else ""))
+          + (f"   end: {end}s" if end else "") + (f"   start: {start}s" if start else "")
+          + (f"   stop: {stop}s" if stop else "") + (f"   fade-in: {fade_in}s" if fade_in is not None else ""))
     print(f"beds: {', '.join(targets)}")
     if not os.path.exists(base):
         sys.exit(f"missing base video: {base}")
@@ -156,7 +171,7 @@ def main():
             if "--print" in args:
                 print(f"  {bid} -> {show(out)}")
                 continue
-            results.append(mix_one(base, rp(bid), out, bed_gain, duck, fade, end))
+            results.append(mix_one(base, rp(bid), out, bed_gain, duck, fade, end, start, stop, fade_in))
             continue
         if not clip:
             print(f"  SKIP {bid}: not in catalog (run tools/gen_music.py)")
@@ -173,7 +188,7 @@ def main():
         if "--print" in args:
             print(f"  {bid} -> {show(out)}")
             continue
-        results.append(mix_one(base, bed_file, out, bed_gain, duck, fade, end))
+        results.append(mix_one(base, bed_file, out, bed_gain, duck, fade, end, start, stop, fade_in))
 
     if results:
         print("\ndone:")

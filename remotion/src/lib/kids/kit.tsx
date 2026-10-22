@@ -39,7 +39,8 @@ export const KidsStage: React.FC<{ cam: Cam; children: React.ReactNode; bg?: str
   );
 };
 
-// word-by-word captions: big rounded type, the spoken word grows + takes the speaker colour.
+// word-by-word captions: big rounded type, the spoken word grows + takes the speaker colour (the gap is wide
+// enough that the grown word + its thick stroke never touch the next word).
 // Kids can't all read — captions SUPPORT the voice (and parents watching muted); max 4 words.
 export const KidsCaptions: React.FC<{ lines: VoLine[]; t: number; colors: Record<string, string>; y?: number; size?: number; maxWords?: number }> = ({
   lines, t, colors, y, size, maxWords = 4,
@@ -56,7 +57,7 @@ export const KidsCaptions: React.FC<{ lines: VoLine[]; t: number; colors: Record
   const g = groups.find((gr, i) => t < (groups[i + 1]?.[0].start ?? 1e9)) ?? groups[groups.length - 1];
   const color = colors[line.speaker ?? ''] ?? '#ffd166';
   return (
-    <div style={{ position: 'absolute', left: 40, right: 40, top: yy, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', columnGap: sz * 0.28, transform: 'translateY(-50%)' }}>
+    <div style={{ position: 'absolute', left: 40, right: 40, top: yy, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', columnGap: sz * 0.46, transform: 'translateY(-50%)' }}>
       {g.map((w, i) => {
         const on = t >= w.start && t < w.end + 0.05;
         return (

@@ -1479,6 +1479,388 @@
    "used_in": [
     "toon bro ep-09-dj"
    ]
+  },
+  {
+   "id": "cartoon-boing",
+   "file": "clips/cartoon-boing.mp3",
+   "category": "cartoon",
+   "tags": [
+    "boing",
+    "spring",
+    "jump",
+    "bounce",
+    "hop",
+    "cartoon",
+    "kids"
+   ],
+   "desc": "cartoon spring boing for hops and bounces, 0.8 s",
+   "duration_s": 0.8,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "slide-whistle-up",
+   "file": "clips/slide-whistle-up.mp3",
+   "category": "cartoon",
+   "tags": [
+    "slide-whistle",
+    "up",
+    "jump",
+    "rise",
+    "cartoon",
+    "kids"
+   ],
+   "desc": "slide whistle gliding up — jumps, lifts, surprises, 0.6 s",
+   "duration_s": 0.6,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "slide-whistle-down",
+   "file": "clips/slide-whistle-down.mp3",
+   "category": "cartoon",
+   "tags": [
+    "slide-whistle",
+    "down",
+    "fall",
+    "drop",
+    "cartoon",
+    "kids"
+   ],
+   "desc": "slide whistle gliding down — falls, oops, 0.65 s",
+   "duration_s": 0.65,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "drum-roll",
+   "file": "clips/drum-roll.mp3",
+   "category": "cartoon",
+   "tags": [
+    "drum-roll",
+    "snare",
+    "build",
+    "reveal",
+    "suspense",
+    "kids"
+   ],
+   "desc": "snare drum roll crescendo with a final accent — before a reveal, 1.9 s",
+   "duration_s": 1.9,
+   "loudness_lufs": -22.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "cymbal-crash",
+   "file": "clips/cymbal-crash.mp3",
+   "category": "cartoon",
+   "tags": [
+    "cymbal",
+    "crash",
+    "reveal",
+    "hit",
+    "ta-da",
+    "kids"
+   ],
+   "desc": "bright cymbal crash — the reveal after a drum roll, 2.2 s",
+   "duration_s": 2.2,
+   "loudness_lufs": -24.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "ding-correct",
+   "file": "clips/ding-correct.mp3",
+   "category": "reward",
+   "tags": [
+    "ding",
+    "correct",
+    "right-answer",
+    "bell",
+    "reward",
+    "kids"
+   ],
+   "desc": "two bright bell notes + glints — the right answer, 1.6 s",
+   "duration_s": 1.6,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "sad-trombone",
+   "file": "clips/sad-trombone.mp3",
+   "category": "cartoon",
+   "tags": [
+    "sad-trombone",
+    "wah-wah",
+    "fail",
+    "oops",
+    "funny",
+    "kids"
+   ],
+   "desc": "wah-wah-wah-waaah sad trombone — a funny oops, 2.9 s",
+   "duration_s": 2.9,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "uh-oh",
+   "file": "clips/uh-oh.mp3",
+   "category": "cartoon",
+   "tags": [
+    "uh-oh",
+    "oops",
+    "marimba",
+    "problem",
+    "kids"
+   ],
+   "desc": "two-note marimba 'uh-oh' — a small problem, 0.95 s",
+   "duration_s": 0.95,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "cartoon-pop",
+   "file": "clips/cartoon-pop.mp3",
+   "category": "cartoon",
+   "tags": [
+    "pop",
+    "bloop",
+    "appear",
+    "pop-in",
+    "cartoon",
+    "kids"
+   ],
+   "desc": "bubbly cartoon pop — something pops in, 0.2 s",
+   "duration_s": 0.2,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "rubber-stretch",
+   "file": "clips/rubber-stretch.mp3",
+   "category": "cartoon",
+   "tags": [
+    "stretch",
+    "rubber",
+    "squeak",
+    "pull",
+    "strain",
+    "cartoon",
+    "kids"
+   ],
+   "desc": "squeaky rubber stretch — pulling, straining, 0.7 s",
+   "duration_s": 0.7,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "whip-whoosh",
+   "file": "clips/whip-whoosh.mp3",
+   "category": "motion",
+   "tags": [
+    "whoosh",
+    "whip",
+    "swish",
+    "fast",
+    "transition",
+    "camera",
+    "kids"
+   ],
+   "desc": "fast whip whoosh panning left to right — whip pans and dashes, 0.45 s",
+   "duration_s": 0.45,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "bonk",
+   "file": "clips/bonk.mp3",
+   "category": "cartoon",
+   "tags": [
+    "bonk",
+    "bump",
+    "hit",
+    "wood",
+    "thud",
+    "cartoon",
+    "kids"
+   ],
+   "desc": "cartoon bonk — a bump on the head or a jar hitting the ground, 0.4 s",
+   "duration_s": 0.4,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "zip-up",
+   "file": "clips/zip-up.mp3",
+   "category": "cartoon",
+   "tags": [
+    "zip",
+    "zoom",
+    "fast",
+    "rise",
+    "cartoon",
+    "kids"
+   ],
+   "desc": "quick rising zip — zooms and fast moves, 0.26 s",
+   "duration_s": 0.26,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "kids-applause",
+   "file": "clips/kids-applause.mp3",
+   "category": "crowd",
+   "tags": [
+    "applause",
+    "clapping",
+    "celebrate",
+    "kids",
+    "crowd"
+   ],
+   "desc": "kids clapping in a small room — celebrations, 2.8 s",
+   "duration_s": 3.15,
+   "loudness_lufs": -22.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "think-tick",
+   "file": "clips/think-tick.mp3",
+   "category": "rhythm",
+   "tags": [
+    "tick-tock",
+    "woodblock",
+    "think",
+    "pause",
+    "your-turn",
+    "120bpm",
+    "kids"
+   ],
+   "desc": "tick-tock woodblock + shakers at 120 bpm for 4 s — fills a 'your turn' pause (start on a theme-bed beat)",
+   "duration_s": 4.3,
+   "loudness_lufs": -22.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "kids-yay",
+   "file": "clips/kids-yay.mp3",
+   "category": "crowd",
+   "tags": [
+    "yay",
+    "cheer",
+    "crowd",
+    "kids",
+    "celebrate",
+    "voices"
+   ],
+   "desc": "a group of kids cheering 'Yay!'",
+   "duration_s": 1.36,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py) + Kokoro-82M voices",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py; voices: Kokoro-82M (Apache-2.0)",
+   "used_in": []
+  },
+  {
+   "id": "kids-ohno",
+   "file": "clips/kids-ohno.mp3",
+   "category": "crowd",
+   "tags": [
+    "oh-no",
+    "crowd",
+    "kids",
+    "surprise",
+    "voices"
+   ],
+   "desc": "a group of kids gasping 'Oh no!'",
+   "duration_s": 1.39,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py) + Kokoro-82M voices",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py; voices: Kokoro-82M (Apache-2.0)",
+   "used_in": []
+  },
+  {
+   "id": "kids-wow",
+   "file": "clips/kids-wow.mp3",
+   "category": "crowd",
+   "tags": [
+    "wow",
+    "crowd",
+    "kids",
+    "amazed",
+    "voices"
+   ],
+   "desc": "a group of kids going 'Wow!'",
+   "duration_s": 1.26,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py) + Kokoro-82M voices",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py; voices: Kokoro-82M (Apache-2.0)",
+   "used_in": []
+  },
+  {
+   "id": "kids-laugh",
+   "file": "clips/kids-laugh.mp3",
+   "category": "crowd",
+   "tags": [
+    "laugh",
+    "giggle",
+    "crowd",
+    "kids",
+    "funny",
+    "voices"
+   ],
+   "desc": "a group of kids laughing 'Ha ha ha!'",
+   "duration_s": 1.59,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py) + Kokoro-82M voices",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py; voices: Kokoro-82M (Apache-2.0)",
+   "used_in": []
+  },
+  {
+   "id": "tiny-sparks-jingle",
+   "file": "clips/tiny-sparks-jingle.mp3",
+   "category": "sting",
+   "tags": [
+    "jingle",
+    "intro",
+    "logo",
+    "channel",
+    "tiny-sparks",
+    "kids",
+    "sting"
+   ],
+   "desc": "the Tiny Sparks channel jingle: drum fill → hit + kids shout 'Tiny Sparks!' at 0.47s → sparkle → ta-da, 3.7 s",
+   "duration_s": 3.7,
+   "loudness_lufs": -16.0,
+   "source": "local synth (tools/gen_kids_sounds.py) + Kokoro-82M voices",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py; voices: Kokoro-82M (Apache-2.0)",
+   "used_in": []
   }
  ]
 }

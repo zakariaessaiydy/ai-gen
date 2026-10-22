@@ -152,6 +152,30 @@
   "transparent": false
  },
  {
+  "id": "KidsEnergyCardAfter",
+  "durationInSeconds": 2.6,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsEnergyCardBefore",
+  "durationInSeconds": 2.2,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsEnergyDemo",
+  "durationInSeconds": 41.4,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "KidsMorals008",
   "durationInSeconds": 177.3,
   "fps": 30,

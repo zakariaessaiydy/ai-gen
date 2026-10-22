@@ -17,6 +17,8 @@ Usage:
   python tools/mix_sfx.py plan.json --no-optional    # drop events marked "optional": true
   python tools/mix_sfx.py plan.json --no-duck --end 60 --out path.mp4
 
+An event may carry "dur_s" to play only the first N seconds of its clip (with a short fade-out).
+
 ffmpeg/ffprobe on PATH. The preview + all referenced clips must exist.
 """
 import json
@@ -149,8 +151,14 @@ def main():
     for i, e in enumerate(events):
         ms = int(round(float(e["at_s"]) * 1000))
         g = float(e.get("gain_db", 0))
+        # optional "dur_s": play only the first N seconds of the clip (short fade-out) — e.g. a 4 s
+        # think-tick cut to fit a 3.4 s pause
+        trim = ""
+        if e.get("dur_s"):
+            d = float(e["dur_s"])
+            trim = f"atrim=0:{d:.3f},afade=t=out:st={max(0.0, d - 0.12):.3f}:d=0.12,"
         parts.append(f"[{i + 1}:a]aformat=sample_rates=48000:channel_layouts=stereo,"
-                     f"adelay={ms}:all=1,volume={g:.2f}dB[e{i}]")
+                     f"{trim}adelay={ms}:all=1,volume={g:.2f}dB[e{i}]")
         labels.append(f"[e{i}]")
 
     if len(labels) == 1:

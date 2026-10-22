@@ -36,3 +36,6 @@ kids-shorts/*/*/*/voice/
 kids-shorts/*/*/*/output/
 kids-shorts/*/songs/*/voice/
 kids-shorts/*/songs/*/*.wav
+
+# local caches of generated audio (tools/gen_kids_sounds.py)
+tools/.cache/
