@@ -137,6 +137,15 @@ def main():
     if not os.path.exists(beats_path):
         sys.exit(f"no beats.json in {args.project}")
     beats = json.load(open(beats_path, encoding="utf-8"))
+    # the episode's own music settings — beats.json "music": {"bed", "gain", "duck", "start", "stop",
+    # "fade_in", "fade"} (the kids channel's standard bed lives there); command-line flags win
+    mcfg = beats.get("music") if isinstance(beats.get("music"), dict) else {}
+    if mcfg.get("bed") and not args.music:
+        args.music = mcfg["bed"]
+    for key, attr in (("gain", "bed_gain"), ("duck", "duck"), ("start", "bed_start"), ("stop", "bed_stop"),
+                      ("fade_in", "bed_fade_in"), ("fade", "bed_fade")):
+        if getattr(args, attr) is None and mcfg.get(key) is not None:
+            setattr(args, attr, mcfg[key])
     comp_id = beats.get("composition")
     if not comp_id:
         sys.exit("beats.json has no \"composition\" id")

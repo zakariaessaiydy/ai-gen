@@ -29,7 +29,7 @@ Confetti → loop.
 
 ## Long (16:9, MIN 5 min, 5–8 min)
 
-TitleCard → 10–12 words of a theme in a matching set (fruit = Meadow picnic, sea animals =
+SparksIntro ident (long videos) → 10–12 words of a theme in a matching set (fruit = Meadow picnic, sea animals =
 Underwater, space words = Space) → a quiz every 3 words → a recap montage (all cards in a grid,
 each says its word) → goodbye.
 

@@ -132,28 +132,55 @@ The kit now does the "cute" work automatically — don't fight it, build on it:
 - Still the rule: background motion stays slow and soft (no strobing, nothing fast behind a lesson).
   When a card/grid teaches, it is drawn ABOVE the set, so the ambient life never covers the lesson.
 
-## ENERGY LAYER — livelier sound + more action (user request after Day 36; demo: lab/energy-demo)
-Built and demo'd on Day 36's jar scene (before/after). It is NOT the default yet: use it once the user
-approves the demo. Reference episode: `remotion/src/shots/kids-lab-energy/KidsEnergyDemo.tsx`.
-- **Sound pack (FREE, local):** `python tools/gen_kids_sounds.py [--only id,id] [--list]` (numpy synth +
-  Kokoro kid crowds) → SFX ids in the sfx catalog: `cartoon-boing` `slide-whistle-up/down` `drum-roll`
-  `cymbal-crash` `ding-correct` `sad-trombone` `uh-oh` `cartoon-pop` `rubber-stretch` `whip-whoosh` `bonk`
-  `zip-up` `kids-applause` `think-tick` `kids-yay/ohno/wow/laugh` `tiny-sparks-jingle` (3.7 s ident) + the
-  theme bed `tiny-sparks-bounce` (music catalog, 120 bpm, 64 s, loops seamlessly).
-- **Mix:** mix_sfx gives the SFX bus +6 dB makeup when nobody talks, so set `gain_db` ~6 dB under the
-  level you want (jingle `-5`). A plan event may carry `"dur_s"` (play only the first N s). Bed:
-  `build_short.py <ep> --music tiny-sparks-bounce --bed-gain -5 --duck 7 --bed-start 3.7 --bed-fade-in 0.25`
-  (+ `--bed-stop <s> --bed-fade 0.7` to drop the music for a punchline sting). `think-tick` starts ON the
-  bed's beat grid: bed start + k × 0.5 s.
-- **Kit (`lib/kids/energy.tsx`):** `<SparksIntro>` (first 3.6 s, synced to `tiny-sparks-jingle` at 0; the
-  first VO line at ≥ 3.75 s) · `directorCam(t, shots, punches)` + `<ActionStage>` (shots arrive by
-  `cut | snap | smooth | whip` (whip = motion blur); `push` = slow zoom while a shot holds; punches = zoom
-  kicks; `shakeOf(t, hits)`) · `hopAt` (crouch → stretch → squash landing) · `<Reaction kind="! ? sweat
-  heart stars cloud steam idea">` · `<Dust>` `<MotionLines>` `<StrainLines>` `<ImpactStar>` `<StageWord>`
-  (comic words IN the world, they move with the camera) · `<FocusLines>` · `<StarWipe>` (scene change /
-  ending iris).
-- Placement rule: anything above a head must sit inside the shot (visible y = cam.y ± H / (2·z)) — QA
-  the frames at every snap zoom.
+## ENERGY LAYER — STANDARD from Day 37 (user approved the Day 36 demo: "make it standard, keep slow gaps")
+Every episode from Day 37 on uses it. **Pacing stays SLOW**: the PACING rules below are unchanged (the demo's
+0.8–1.5 s gaps were NOT approved). The energy comes from sound, camera and reactions, never from speed.
+Reference: `remotion/src/shots/kids-lab-energy/KidsEnergyDemo.tsx` (the before/after demo).
+
+**Per format**
+- **Long 16:9:** open with `<SparksIntro t={t} at={0} cast={{ kids: [MILA_HERO, LEO_HERO], buddy: BOBO_HERO }} />`
+  (rendered AFTER the stage, before KidsCaptions) + the `tiny-sparks-jingle` SFX at 0 (`gain_db -5`). It
+  replaces the old opening TitleCard: the first VO line starts at ≥ `INTRO_S + 0.2` (3.9 s) and the episode
+  title is a PopText over the first shot (≤ 2 s). The theme bed enters at 3.7 s.
+- **Shorts 9:16:** NO ident (start on the action in frame 0); everything else applies; bed from 0.
+- **Songs:** the song IS the music (no theme bed under it). Long song videos still open with the ident: offset
+  every song time by `INTRO_S` and delay the song audio by 3.7 s when muxing.
+- **Calm beats** (bedtime, lullabies, a sad or tender moment): smooth moves + slow pushes only, no whips or
+  shakes. Big action (surprise, a fall, a hop, a reveal) gets the full treatment.
+
+**Every episode**
+- **Stage + camera:** `<ActionStage cam={cam} shake={shakeOf(t, HITS)} blur={cam.blur}>` with
+  `const cam = directorCam(t, SHOTS, PUNCHES)` (replaces KidsStage + camAt). Shots arrive by `cut | snap |
+  smooth | whip` (whip = motion blur + `whip-whoosh`); `push` = slow zoom while a shot holds, so the camera is
+  never dead still; punches = zoom kicks on impacts; shakes ≤ 16 px, ≤ 0.4 s, only on real impacts. A new
+  framing at least every line or two: wide → two-shot → close-up on the speaker or the key object.
+- **Acting:** hops with `hopAt` (crouch → stretch → squash landing) + `<Dust>` on landings, `<MotionLines>`
+  behind fast moves, `<StrainLines>` on effort, `<ImpactStar>` behind a big reveal.
+- **Reactions** over heads on every emotional beat: `<Reaction kind="! ? sweat heart stars cloud steam idea">`
+  (surprise `!`, puzzled `?`, sad `cloud`, love `heart`, dizzy `stars`, cross `steam`, got-it `idea`).
+- **Words:** action words as `<StageWord>` (in the world, they move with the camera); the ONE teaching word
+  stays a big screen PopText.
+- **Sound:** an SFX on every action and reveal, from the pack below (+ the older catalog clips). Kids'
+  crowd reactions (`kids-yay/ohno/wow/laugh`, `kids-applause`) answer the big moments, in a gap — never over
+  a line. A punchline sting (`sad-trombone`, `cymbal-crash` …) can drop the music: `"stop"` in the bed config.
+- **Your-turn / quiz pauses** (still ≥ 4 s): ThinkTimer + `think-tick` both start ON a bed beat:
+  `onBeat(E(q) + 0.1)` in TSX, `3.7 + ceil((t − 3.7) / 0.5) × 0.5` in the pack script.
+- **Ending:** the goodbye, then a `<StarWipe>` iris on the waving cast.
+
+**Sound pack (FREE, local):** `python tools/gen_kids_sounds.py [--only id,id] [--list]` (numpy synth + Kokoro
+kid crowds) → `cartoon-boing` `slide-whistle-up/down` `drum-roll` `cymbal-crash` `ding-correct` `sad-trombone`
+`uh-oh` `cartoon-pop` `rubber-stretch` `whip-whoosh` `bonk` `zip-up` `kids-applause` `think-tick`
+`kids-yay/ohno/wow/laugh` `tiny-sparks-jingle` (3.7 s) + the theme bed `tiny-sparks-bounce` (music catalog,
+120 bpm, 64 s, seamless loop).
+
+**Mix:** mix_sfx gives the SFX bus +6 dB makeup when nobody talks, so set `gain_db` ~6 dB under the level you
+want (jingle `-5`, crowds `-2…-4`, small pops `-10…-12`); a plan event may carry `"dur_s"` (play only the first
+N s). Put the bed in beats.json so `build_short.py <ep>` picks it up with no flags:
+`"music": {"bed": "tiny-sparks-bounce", "gain": -5, "duck": 7, "start": 3.7, "fade_in": 0.25}` (long) ·
+`"start": 0` (Shorts) · add `"stop": <s>, "fade": 0.7` to drop the music for a sting. Flags still override.
+
+**Placement rule:** anything above a head must sit inside the shot (visible y = cam.y ± H / (2·z)); QA the
+frames at every snap zoom and every reaction.
 
 ## LONG-VIDEO LENGTH — every 16:9 video is at least 5:00 (user rule)
 
@@ -166,6 +193,8 @@ The user's rule: **a 16:9 long video is never shorter than 5 minutes.** Plan the
 Shorts (9:16) are unaffected.
 
 ## PACING — slower than you think (user feedback after Day 3: "too fast, add empty seconds")
+
+**Still the rule with the energy layer** (user, Day 36 demo: "keep slow gaps").
 
 Kids need silent time to hear, look and repeat. Every episode's packing MUST use at least these gaps
 (they are minimums — when unsure, add more):
@@ -212,7 +241,7 @@ Kids need silent time to hear, look and repeat. Every episode's packing MUST use
 | | Short (9:16, 1080x1920) | Long (16:9, 1920x1080) |
 |---|---|---|
 | length | 30–60 s (Shorts may run to ~90 s with the PACING gaps) | **MIN 5:00** (user rule) — episode 5–8 min · compilation 20–60 min |
-| opening | ON the action in frame 0 (a question, a surprise, a character waving) — no title card | 1–1.5 s `TitleCard` with the episode name, then straight in |
+| opening | ON the action in frame 0 (a question, a surprise, a character waving) — no ident, no title card | the `SparksIntro` ident on the jingle (3.7 s), then the episode title as a PopText over the first shot |
 | ending | a reward + a soft loop back to frame 0 | goodbye song/wave + "see you next time!" (no CTA beg) |
 | captions | KidsCaptions at ~71% height | KidsCaptions at ~88% height |
 | characters | scale ~0.9–1.0, feet on FLOOR(1920) | scale ~0.55–0.65, feet on FLOOR(1080) |
@@ -232,13 +261,15 @@ long episodes with ffmpeg + a 2 s branded transition; title "… + More Kids Son
    clip lengths → PACK the timeline (0.3–0.5 s between lines — slower than the comedy series;
    2–3 s for interaction pauses; room for songs/rewards) → re-run with
    `--emit-ts remotion/src/shots/kids-<niche>-NN/vo.gen.ts` (cached, free).
-3. Composition: global seconds everywhere (`S(i)/E(i)` from VO), camera keys with `camAt`,
-   scenes as `{t >= a && t < b && …}`. Root: `KidsStage` → set → characters → props/overlays
-   in stage space; then screen-space overlays (PopText, ThinkTimer, Confetti, SingAlong) and
-   `KidsCaptions` last.
+3. Composition: global seconds everywhere (`S(i)/E(i)` from VO), a director shot list
+   (`directorCam` — ENERGY LAYER above), scenes as `{t >= a && t < b && …}`. Root: `ActionStage`
+   → set → characters → props, FX, reactions and StageWords in stage space; then screen-space
+   overlays (PopText, ThinkTimer, FocusLines, Confetti, SingAlong), `KidsCaptions`, and on long
+   videos `SparksIntro` + the ending `StarWipe` last.
 4. `cd remotion && node scripts/gen-registry.mjs`, `python tools/check_short.py <ep>`.
-5. QA (below), then `python tools/build_short.py <ep>` (voice → render → mux → sfx) and the
-   music bed: `--music kids-shorts/tiny-sparks/songs/<slug>/bed.mp3` (a bed FILE works).
+5. QA (below), then `python tools/build_short.py <ep>` (voice → render → mux → sfx → music).
+   The bed comes from beats.json `"music"` (standard: `tiny-sparks-bounce`, ENERGY LAYER above);
+   `--music <id or bed FILE>` overrides it (e.g. a song's `bed.mp3` for a calm episode).
 6. Write the title/description/tags into script.md (patterns in each niche skill), update
    IDEAS.md (✅ + next 🟡), commit + push.
 

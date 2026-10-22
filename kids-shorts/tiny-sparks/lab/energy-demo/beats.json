@@ -551,5 +551,14 @@
       "end": 41.4
     }
   ],
-  "voiceStatus": "kokoro:cast"
+  "voiceStatus": "kokoro:cast",
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -5,
+    "duck": 7,
+    "start": 3.7,
+    "stop": 38.3,
+    "fade_in": 0.25,
+    "fade": 0.7
+  }
 }

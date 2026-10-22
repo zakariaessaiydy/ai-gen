@@ -16,6 +16,13 @@ import { Kid, type KidSpec } from './kid';
 import { Critter, type CritterSpec } from './critter';
 import { Confetti, RAINBOW, Star } from './kit';
 
+// the channel ident + jingle length: the theme bed (tiny-sparks-bounce, 120 bpm) enters here, the first VO
+// line starts at >= INTRO_S + 0.2 on long videos
+export const INTRO_S = 3.7;
+// the first beat of the theme bed at or after t (bed started at `start`): start ThinkTimers + the
+// think-tick SFX here so the tick-tock sits on the music
+export const onBeat = (t: number, start = INTRO_S, spb = 0.5) => start + Math.max(0, Math.ceil((t - start) / spb - 1e-6)) * spb;
+
 // ── easing
 const backOut = (p: number, k = 1.6) => 1 + (k + 1) * Math.pow(p - 1, 3) + k * Math.pow(p - 1, 2);
 const quintInOut = (p: number) => (p < 0.5 ? 16 * p ** 5 : 1 - Math.pow(-2 * p + 2, 5) / 2);

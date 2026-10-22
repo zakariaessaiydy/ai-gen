@@ -40,8 +40,10 @@ python tools/gen_song.py kids-shorts/tiny-sparks/songs/<slug>/song.json --vocal 
   melody so kids hear the tune even with chanting.
 - Outputs: `song.mp3` (the track), `bed.mp3` (background for other videos), `beatmap.json`
   (chords, notes, syllable times), `song.gen.ts` (lyrics with word times).
-- Reuse: a channel song's `bed.mp3` is the bed for its theme's other videos (`build_short.py
-  --music <bed.mp3>`), and the chorus is the intro sting.
+- Reuse: a channel song's `bed.mp3` can be the bed for a calm episode of its theme (`build_short.py
+  --music <bed.mp3>`). The channel ident is now `tiny-sparks-jingle` + `<SparksIntro>` (make-kids ENERGY
+  LAYER, standard from Day 37): long song videos open with it, so offset every song time by `INTRO_S`
+  (3.7 s) and delay the song audio by 3.7 s when muxing; Shorts start straight on the song.
 
 ## 3. Animate the sing-along
 
