@@ -238,5 +238,17 @@
    "CAN OLIVER",
    "FLY?"
   ]
+ },
+ {
+  "day": 42,
+  "comp": "KidsSongs042",
+  "a": 3.5,
+  "b": 51.8,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "DAYS OF THE WEEK",
+   "SING ALONG!"
+  ]
  }
 ]

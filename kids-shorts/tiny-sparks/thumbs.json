@@ -287,5 +287,20 @@
   ],
   "at": "right",
   "size": 136
+ },
+ {
+  "day": 42,
+  "comp": "KidsSongs042",
+  "t": 6.5,
+  "z": 1.15,
+  "fx": 960,
+  "fy": 420,
+  "lines": [
+   "DAYS OF",
+   "THE WEEK!"
+  ],
+  "at": "bottom",
+  "size": 124,
+  "rot": -3
  }
 ]

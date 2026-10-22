@@ -272,5 +272,19 @@ export const THUMBS: Thumb[] = [
   ],
   "size": 136,
   "at": "right"
+ },
+ {
+  "day": 42,
+  "frame": "d042-6.50.png",
+  "z": 1.15,
+  "fx": 960,
+  "fy": 420,
+  "lines": [
+   "DAYS OF",
+   "THE WEEK!"
+  ],
+  "size": 124,
+  "at": "bottom",
+  "rot": -3
  }
 ];

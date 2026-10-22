@@ -34,3 +34,4 @@ spec in `kids-shorts/tiny-sparks/shortcuts.json`). Each is 1080x1920, 28-54 s.
 | 36 | Momo's Hand Is Stuck! 🐒 The Greedy Little Monkey | Tiny Sparks #shorts | Momo wants ALL the nuts... and now his hand is stuck in the jar! Boing, boing, boing! | Moral stories |
 | 37 | Watch the Dino Eggs Hatch! 🥚🦖 Count by 2s to 20 | Tiny Sparks #shorts | Crack... crack... twenty dinosaur eggs are hatching! Count the babies by twos with Rexy: 2, 4, 6, 8... 20! | Numbers & Math |
 | 39 | Can Oliver the Owl Fly? 🦉 Flap, Hop, 1-2-3! | Tiny Sparks #shorts | Oliver has never flown before... flap your wings, a little hop, count to three — and FLY! Friends help friends! | Animal stories |
+| 42 | Days of the Week Song 🚂 Sing Along! | Tiny Sparks #shorts | Sunday, Monday, Tuesday too! Hop on the Week Train and sing the 7 days of the week! | Songs |

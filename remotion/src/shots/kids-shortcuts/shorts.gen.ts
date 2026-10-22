@@ -161,5 +161,13 @@ export const SHORTS: ShortCard[] = [
    "CAN OLIVER",
    "FLY?"
   ]
+ },
+ {
+  "day": 42,
+  "w": 1440,
+  "lines": [
+   "DAYS OF THE WEEK",
+   "SING ALONG!"
+  ]
  }
 ];
