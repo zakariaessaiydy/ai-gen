@@ -649,9 +649,13 @@ def main():
         line["end"] = round(start + fdur, 2)
         # exact word times: raw alignment, scaled by the tempo fit, offset to global
         raw_words = json.load(open(raw + ".words.json", encoding="utf-8"))
-        line["words"] = [{"w": w["w"],
+        # a phonetic `tts` variant ("sac à dô") must not leak into the captions: when it has as many
+        # words as the caption `text`, the timed words take the caption's spelling
+        shown = [w for w in line["text"].split() if any(c.isalnum() for c in w)]
+        use_shown = tts_text != line["text"] and len(shown) == len(raw_words)
+        line["words"] = [{"w": shown[j] if use_shown else w["w"],
                           "start": round(start + w["start"] / tempo, 3),
-                          "end": round(start + w["end"] / tempo, 3)} for w in raw_words]
+                          "end": round(start + w["end"] / tempo, 3)} for j, w in enumerate(raw_words)]
         fitted.append((fit, start, fdur))
 
     # assemble: delay each line to its start, sum (lines never overlap), pad to length

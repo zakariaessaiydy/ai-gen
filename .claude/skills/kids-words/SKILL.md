@@ -38,7 +38,10 @@ each says its word) → goodbye.
 - Concrete nouns before abstract words; one theme per video.
 - Correct French spelling WITH accents (é, è, ç, à, ê) and correct articles — QA every card.
 - Pronunciation: Kokoro reads French with `lang: "fr"`. If a word sounds wrong, give a phonetic
-  `tts` variant on the line (the `text` stays correct for captions).
+  `tts` variant on the line (the `text` stays correct for captions — keep the SAME number of words so
+  gen_voice maps the timed words back to the caption spelling). Check first with
+  `kokoro_onnx.tokenizer.Tokenizer().phonemize(text, 'fr-fr')`: a `(en)` marker means espeak switched to
+  English (e.g. *dos* → "DOS"; fixed with tts "sac à dô", Day 45).
 - English: use American spelling by default (color) unless the user picks British.
 - Never more than ONE new word on screen at a time.
 - Alphabet/phonics: letter shape → its SOUND ("A says /a/") → 2 words starting with it.
