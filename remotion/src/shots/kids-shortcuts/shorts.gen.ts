@@ -145,5 +145,13 @@ export const SHORTS: ShortCard[] = [
    "MOMO'S HAND",
    "IS STUCK!"
   ]
+ },
+ {
+  "day": 37,
+  "w": 1440,
+  "lines": [
+   "THE EGGS ARE",
+   "HATCHING!"
+  ]
  }
 ];

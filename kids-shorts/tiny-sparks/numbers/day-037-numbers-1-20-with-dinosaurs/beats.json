@@ -1,0 +1,3981 @@
+{
+  "id": "day-037",
+  "series": "tiny-sparks",
+  "episode": 37,
+  "title": "Numbers 1–20 with Dinosaurs",
+  "composition": "KidsNumbers037",
+  "audience": "ages 6-8 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 389.3
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-8%"
+    },
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "rexy": {
+      "kokoro": "am_michael:0.5+am_puck:0.5",
+      "rate": "-2%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -5,
+    "duck": 7,
+    "start": 3.7,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "stomp",
+      "speaker": "narrator",
+      "start": 3.9,
+      "end": 5.7,
+      "text": "Stomp... stomp... STOMP!",
+      "words": [
+        {
+          "w": "Stomp...",
+          "start": 3.94,
+          "end": 4.49
+        },
+        {
+          "w": "stomp...",
+          "start": 4.49,
+          "end": 5.04
+        },
+        {
+          "w": "STOMP!",
+          "start": 5.04,
+          "end": 5.59
+        }
+      ]
+    },
+    {
+      "beat": "who",
+      "speaker": "narrator",
+      "start": 6.9,
+      "end": 8.67,
+      "text": "Who is coming? Can you guess?",
+      "words": [
+        {
+          "w": "Who",
+          "start": 6.97,
+          "end": 7.213
+        },
+        {
+          "w": "is",
+          "start": 7.213,
+          "end": 7.335
+        },
+        {
+          "w": "coming?",
+          "start": 7.335,
+          "end": 7.7
+        },
+        {
+          "w": "Can",
+          "start": 7.85,
+          "end": 8.115
+        },
+        {
+          "w": "you",
+          "start": 8.115,
+          "end": 8.315
+        },
+        {
+          "w": "guess?",
+          "start": 8.315,
+          "end": 8.58
+        }
+      ]
+    },
+    {
+      "beat": "rex_hi",
+      "speaker": "rexy",
+      "start": 12.27,
+      "end": 15.34,
+      "text": "Roar! Hello, friends! I'm Rexy the dinosaur!",
+      "words": [
+        {
+          "w": "Roar!",
+          "start": 12.31,
+          "end": 12.642
+        },
+        {
+          "w": "Hello,",
+          "start": 12.642,
+          "end": 13.04
+        },
+        {
+          "w": "friends!",
+          "start": 13.04,
+          "end": 13.504
+        },
+        {
+          "w": "I'm",
+          "start": 13.504,
+          "end": 13.703
+        },
+        {
+          "w": "Rexy",
+          "start": 13.703,
+          "end": 14.168
+        },
+        {
+          "w": "the",
+          "start": 14.168,
+          "end": 14.3
+        },
+        {
+          "w": "dinosaur!",
+          "start": 14.3,
+          "end": 15.03
+        }
+      ]
+    },
+    {
+      "beat": "mila_hi",
+      "speaker": "mila",
+      "start": 16.54,
+      "end": 18.75,
+      "text": "Hi, Rexy! I'm Spark Girl!",
+      "words": [
+        {
+          "w": "Hi,",
+          "start": 16.58,
+          "end": 16.886
+        },
+        {
+          "w": "Rexy!",
+          "start": 16.886,
+          "end": 17.422
+        },
+        {
+          "w": "I'm",
+          "start": 17.422,
+          "end": 17.652
+        },
+        {
+          "w": "Spark",
+          "start": 17.652,
+          "end": 18.187
+        },
+        {
+          "w": "Girl!",
+          "start": 18.187,
+          "end": 18.57
+        }
+      ]
+    },
+    {
+      "beat": "bobo_hi",
+      "speaker": "bobo",
+      "start": 19.65,
+      "end": 22.48,
+      "text": "And I'm Super Bobo! Wow, a real dinosaur!",
+      "words": [
+        {
+          "w": "And",
+          "start": 19.68,
+          "end": 19.861
+        },
+        {
+          "w": "I'm",
+          "start": 19.861,
+          "end": 20.041
+        },
+        {
+          "w": "Super",
+          "start": 20.041,
+          "end": 20.403
+        },
+        {
+          "w": "Bobo!",
+          "start": 20.403,
+          "end": 20.824
+        },
+        {
+          "w": "Wow,",
+          "start": 20.824,
+          "end": 21.065
+        },
+        {
+          "w": "a",
+          "start": 21.065,
+          "end": 21.246
+        },
+        {
+          "w": "real",
+          "start": 21.246,
+          "end": 21.607
+        },
+        {
+          "w": "dinosaur!",
+          "start": 21.607,
+          "end": 22.27
+        }
+      ]
+    },
+    {
+      "beat": "rex_ask",
+      "speaker": "rexy",
+      "start": 23.88,
+      "end": 29.06,
+      "text": "My dino friends are hiding in Dino Valley. Can you help me find them, and count them?",
+      "words": [
+        {
+          "w": "My",
+          "start": 23.96,
+          "end": 24.191
+        },
+        {
+          "w": "dino",
+          "start": 24.191,
+          "end": 24.595
+        },
+        {
+          "w": "friends",
+          "start": 24.595,
+          "end": 24.998
+        },
+        {
+          "w": "are",
+          "start": 24.998,
+          "end": 25.171
+        },
+        {
+          "w": "hiding",
+          "start": 25.171,
+          "end": 25.575
+        },
+        {
+          "w": "in",
+          "start": 25.575,
+          "end": 25.748
+        },
+        {
+          "w": "Dino",
+          "start": 25.748,
+          "end": 26.152
+        },
+        {
+          "w": "Valley.",
+          "start": 26.152,
+          "end": 26.44
+        },
+        {
+          "w": "Can",
+          "start": 26.44,
+          "end": 26.671
+        },
+        {
+          "w": "you",
+          "start": 26.671,
+          "end": 26.844
+        },
+        {
+          "w": "help",
+          "start": 26.844,
+          "end": 27.133
+        },
+        {
+          "w": "me",
+          "start": 27.133,
+          "end": 27.363
+        },
+        {
+          "w": "find",
+          "start": 27.363,
+          "end": 27.709
+        },
+        {
+          "w": "them,",
+          "start": 27.709,
+          "end": 27.94
+        },
+        {
+          "w": "and",
+          "start": 27.94,
+          "end": 28.113
+        },
+        {
+          "w": "count",
+          "start": 28.113,
+          "end": 28.459
+        },
+        {
+          "w": "them?",
+          "start": 28.459,
+          "end": 28.69
+        }
+      ]
+    },
+    {
+      "beat": "goal",
+      "speaker": "narrator",
+      "start": 30.46,
+      "end": 33.27,
+      "text": "Let's count dinosaurs, all the way to twenty!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 30.51,
+          "end": 30.799
+        },
+        {
+          "w": "count",
+          "start": 30.799,
+          "end": 31.146
+        },
+        {
+          "w": "dinosaurs,",
+          "start": 31.146,
+          "end": 31.84
+        },
+        {
+          "w": "all",
+          "start": 32.11,
+          "end": 32.318
+        },
+        {
+          "w": "the",
+          "start": 32.318,
+          "end": 32.422
+        },
+        {
+          "w": "way",
+          "start": 32.422,
+          "end": 32.63
+        },
+        {
+          "w": "to",
+          "start": 32.63,
+          "end": 32.786
+        },
+        {
+          "w": "twenty!",
+          "start": 32.786,
+          "end": 33.15
+        }
+      ]
+    },
+    {
+      "beat": "fingers",
+      "speaker": "mila",
+      "start": 34.47,
+      "end": 37.05,
+      "text": "I'll count on my fingers. Count with me!",
+      "words": [
+        {
+          "w": "I'll",
+          "start": 34.67,
+          "end": 34.849
+        },
+        {
+          "w": "count",
+          "start": 34.849,
+          "end": 35.206
+        },
+        {
+          "w": "on",
+          "start": 35.206,
+          "end": 35.385
+        },
+        {
+          "w": "my",
+          "start": 35.385,
+          "end": 35.623
+        },
+        {
+          "w": "fingers.",
+          "start": 35.623,
+          "end": 36.04
+        },
+        {
+          "w": "Count",
+          "start": 36.18,
+          "end": 36.517
+        },
+        {
+          "w": "with",
+          "start": 36.517,
+          "end": 36.685
+        },
+        {
+          "w": "me!",
+          "start": 36.685,
+          "end": 36.91
+        }
+      ]
+    },
+    {
+      "beat": "n1",
+      "speaker": "narrator",
+      "start": 39.45,
+      "end": 42.56,
+      "text": "Look! Who's that? A triceratops, with three horns!",
+      "words": [
+        {
+          "w": "Look!",
+          "start": 39.49,
+          "end": 39.753
+        },
+        {
+          "w": "Who's",
+          "start": 39.753,
+          "end": 40.081
+        },
+        {
+          "w": "that?",
+          "start": 40.081,
+          "end": 40.343
+        },
+        {
+          "w": "A",
+          "start": 40.343,
+          "end": 40.54
+        },
+        {
+          "w": "triceratops,",
+          "start": 40.54,
+          "end": 41.525
+        },
+        {
+          "w": "with",
+          "start": 41.525,
+          "end": 41.722
+        },
+        {
+          "w": "three",
+          "start": 41.722,
+          "end": 42.05
+        },
+        {
+          "w": "horns!",
+          "start": 42.05,
+          "end": 42.51
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 43.76,
+      "end": 44.57,
+      "text": "One!",
+      "words": [
+        {
+          "w": "One!",
+          "start": 43.84,
+          "end": 44.43
+        }
+      ]
+    },
+    {
+      "beat": "n2",
+      "speaker": "narrator",
+      "start": 47.17,
+      "end": 50.51,
+      "text": "Here comes a stegosaurus, with spiky plates on its back!",
+      "words": [
+        {
+          "w": "Here",
+          "start": 47.19,
+          "end": 47.416
+        },
+        {
+          "w": "comes",
+          "start": 47.416,
+          "end": 47.698
+        },
+        {
+          "w": "a",
+          "start": 47.698,
+          "end": 47.867
+        },
+        {
+          "w": "stegosaurus,",
+          "start": 47.867,
+          "end": 48.6
+        },
+        {
+          "w": "with",
+          "start": 48.87,
+          "end": 49.043
+        },
+        {
+          "w": "spiky",
+          "start": 49.043,
+          "end": 49.448
+        },
+        {
+          "w": "plates",
+          "start": 49.448,
+          "end": 49.852
+        },
+        {
+          "w": "on",
+          "start": 49.852,
+          "end": 50.026
+        },
+        {
+          "w": "its",
+          "start": 50.026,
+          "end": 50.199
+        },
+        {
+          "w": "back!",
+          "start": 50.199,
+          "end": 50.43
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 51.71,
+      "end": 52.52,
+      "text": "Two!",
+      "words": [
+        {
+          "w": "Two!",
+          "start": 51.76,
+          "end": 52.37
+        }
+      ]
+    },
+    {
+      "beat": "n3",
+      "speaker": "narrator",
+      "start": 55.12,
+      "end": 58.49,
+      "text": "Whoa! A long, long neck! It's a long-neck dinosaur!",
+      "words": [
+        {
+          "w": "Whoa!",
+          "start": 55.15,
+          "end": 55.453
+        },
+        {
+          "w": "A",
+          "start": 55.453,
+          "end": 55.681
+        },
+        {
+          "w": "long,",
+          "start": 55.681,
+          "end": 55.984
+        },
+        {
+          "w": "long",
+          "start": 55.984,
+          "end": 56.287
+        },
+        {
+          "w": "neck!",
+          "start": 56.287,
+          "end": 56.59
+        },
+        {
+          "w": "It's",
+          "start": 56.59,
+          "end": 56.818
+        },
+        {
+          "w": "a",
+          "start": 56.818,
+          "end": 57.045
+        },
+        {
+          "w": "long-neck",
+          "start": 57.045,
+          "end": 57.576
+        },
+        {
+          "w": "dinosaur!",
+          "start": 57.576,
+          "end": 58.41
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 59.69,
+      "end": 60.56,
+      "text": "Three!",
+      "words": [
+        {
+          "w": "Three!",
+          "start": 59.76,
+          "end": 60.4
+        }
+      ]
+    },
+    {
+      "beat": "n4",
+      "speaker": "narrator",
+      "start": 63.16,
+      "end": 65.31,
+      "text": "A little T-rex, just like Rexy!",
+      "words": [
+        {
+          "w": "A",
+          "start": 63.24,
+          "end": 63.417
+        },
+        {
+          "w": "little",
+          "start": 63.417,
+          "end": 63.772
+        },
+        {
+          "w": "T-rex,",
+          "start": 63.772,
+          "end": 64.126
+        },
+        {
+          "w": "just",
+          "start": 64.126,
+          "end": 64.481
+        },
+        {
+          "w": "like",
+          "start": 64.481,
+          "end": 64.776
+        },
+        {
+          "w": "Rexy!",
+          "start": 64.776,
+          "end": 65.19
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 66.51,
+      "end": 67.43,
+      "text": "Four!",
+      "words": [
+        {
+          "w": "Four!",
+          "start": 66.6,
+          "end": 67.25
+        }
+      ]
+    },
+    {
+      "beat": "n5",
+      "speaker": "narrator",
+      "start": 70.03,
+      "end": 72.67,
+      "text": "Another triceratops! This one is yellow.",
+      "words": [
+        {
+          "w": "Another",
+          "start": 70.07,
+          "end": 70.439
+        },
+        {
+          "w": "triceratops!",
+          "start": 70.439,
+          "end": 71.36
+        },
+        {
+          "w": "This",
+          "start": 71.58,
+          "end": 71.83
+        },
+        {
+          "w": "one",
+          "start": 71.83,
+          "end": 72.08
+        },
+        {
+          "w": "is",
+          "start": 72.08,
+          "end": 72.205
+        },
+        {
+          "w": "yellow.",
+          "start": 72.205,
+          "end": 72.58
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 73.87,
+      "end": 76.32,
+      "text": "Five! Five fingers, one whole hand!",
+      "words": [
+        {
+          "w": "Five!",
+          "start": 73.93,
+          "end": 74.298
+        },
+        {
+          "w": "Five",
+          "start": 74.298,
+          "end": 74.665
+        },
+        {
+          "w": "fingers,",
+          "start": 74.665,
+          "end": 75.18
+        },
+        {
+          "w": "one",
+          "start": 75.18,
+          "end": 75.475
+        },
+        {
+          "w": "whole",
+          "start": 75.475,
+          "end": 75.842
+        },
+        {
+          "w": "hand!",
+          "start": 75.842,
+          "end": 76.21
+        }
+      ]
+    },
+    {
+      "beat": "n6",
+      "speaker": "narrator",
+      "start": 78.92,
+      "end": 81.54,
+      "text": "A stegosaurus... ah... ah... ACHOO!",
+      "words": [
+        {
+          "w": "A",
+          "start": 79.02,
+          "end": 79.277
+        },
+        {
+          "w": "stegosaurus...",
+          "start": 79.277,
+          "end": 80.391
+        },
+        {
+          "w": "ah...",
+          "start": 80.391,
+          "end": 80.649
+        },
+        {
+          "w": "ah...",
+          "start": 80.649,
+          "end": 80.906
+        },
+        {
+          "w": "ACHOO!",
+          "start": 80.906,
+          "end": 81.42
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "mila",
+      "start": 82.74,
+      "end": 83.53,
+      "text": "Six!",
+      "words": [
+        {
+          "w": "Six!",
+          "start": 82.82,
+          "end": 83.42
+        }
+      ]
+    },
+    {
+      "beat": "n7",
+      "speaker": "narrator",
+      "start": 86.13,
+      "end": 88.35,
+      "text": "Another long-neck, munching on leaves!",
+      "words": [
+        {
+          "w": "Another",
+          "start": 86.2,
+          "end": 86.611
+        },
+        {
+          "w": "long-neck,",
+          "start": 86.611,
+          "end": 87.09
+        },
+        {
+          "w": "munching",
+          "start": 87.23,
+          "end": 87.719
+        },
+        {
+          "w": "on",
+          "start": 87.719,
+          "end": 87.903
+        },
+        {
+          "w": "leaves!",
+          "start": 87.903,
+          "end": 88.27
+        }
+      ]
+    },
+    {
+      "beat": "c7",
+      "speaker": "mila",
+      "start": 89.55,
+      "end": 90.4,
+      "text": "Seven!",
+      "words": [
+        {
+          "w": "Seven!",
+          "start": 89.6,
+          "end": 90.26
+        }
+      ]
+    },
+    {
+      "beat": "n8",
+      "speaker": "narrator",
+      "start": 93.0,
+      "end": 95.26,
+      "text": "A sleepy T-rex, yawning. Yaaawn!",
+      "words": [
+        {
+          "w": "A",
+          "start": 93.05,
+          "end": 93.259
+        },
+        {
+          "w": "sleepy",
+          "start": 93.259,
+          "end": 93.747
+        },
+        {
+          "w": "T-rex,",
+          "start": 93.747,
+          "end": 94.165
+        },
+        {
+          "w": "yawning.",
+          "start": 94.165,
+          "end": 94.652
+        },
+        {
+          "w": "Yaaawn!",
+          "start": 94.652,
+          "end": 95.14
+        }
+      ]
+    },
+    {
+      "beat": "c8",
+      "speaker": "mila",
+      "start": 96.46,
+      "end": 97.26,
+      "text": "Eight!",
+      "words": [
+        {
+          "w": "Eight!",
+          "start": 96.53,
+          "end": 97.16
+        }
+      ]
+    },
+    {
+      "beat": "n9",
+      "speaker": "narrator",
+      "start": 99.86,
+      "end": 102.33,
+      "text": "A sky-blue triceratops, running fast!",
+      "words": [
+        {
+          "w": "A",
+          "start": 99.91,
+          "end": 100.071
+        },
+        {
+          "w": "sky-blue",
+          "start": 100.071,
+          "end": 100.554
+        },
+        {
+          "w": "triceratops,",
+          "start": 100.554,
+          "end": 101.36
+        },
+        {
+          "w": "running",
+          "start": 101.47,
+          "end": 101.901
+        },
+        {
+          "w": "fast!",
+          "start": 101.901,
+          "end": 102.26
+        }
+      ]
+    },
+    {
+      "beat": "c9",
+      "speaker": "mila",
+      "start": 103.53,
+      "end": 104.42,
+      "text": "Nine!",
+      "words": [
+        {
+          "w": "Nine!",
+          "start": 103.61,
+          "end": 104.32
+        }
+      ]
+    },
+    {
+      "beat": "n10",
+      "speaker": "narrator",
+      "start": 107.02,
+      "end": 109.85,
+      "text": "And the littlest one... a baby dino, in its egg!",
+      "words": [
+        {
+          "w": "And",
+          "start": 107.12,
+          "end": 107.305
+        },
+        {
+          "w": "the",
+          "start": 107.305,
+          "end": 107.428
+        },
+        {
+          "w": "littlest",
+          "start": 107.428,
+          "end": 107.983
+        },
+        {
+          "w": "one...",
+          "start": 107.983,
+          "end": 108.229
+        },
+        {
+          "w": "a",
+          "start": 108.229,
+          "end": 108.414
+        },
+        {
+          "w": "baby",
+          "start": 108.414,
+          "end": 108.784
+        },
+        {
+          "w": "dino,",
+          "start": 108.784,
+          "end": 109.215
+        },
+        {
+          "w": "in",
+          "start": 109.215,
+          "end": 109.4
+        },
+        {
+          "w": "its",
+          "start": 109.4,
+          "end": 109.585
+        },
+        {
+          "w": "egg!",
+          "start": 109.585,
+          "end": 109.77
+        }
+      ]
+    },
+    {
+      "beat": "c10",
+      "speaker": "mila",
+      "start": 111.05,
+      "end": 111.86,
+      "text": "Ten!",
+      "words": [
+        {
+          "w": "Ten!",
+          "start": 111.1,
+          "end": 111.73
+        }
+      ]
+    },
+    {
+      "beat": "ten",
+      "speaker": "narrator",
+      "start": 114.06,
+      "end": 119.07,
+      "text": "Ten dinosaurs! Five in the back, and five in the front. Five and five make ten!",
+      "words": [
+        {
+          "w": "Ten",
+          "start": 114.08,
+          "end": 114.355
+        },
+        {
+          "w": "dinosaurs!",
+          "start": 114.355,
+          "end": 115.182
+        },
+        {
+          "w": "Five",
+          "start": 115.182,
+          "end": 115.526
+        },
+        {
+          "w": "in",
+          "start": 115.526,
+          "end": 115.733
+        },
+        {
+          "w": "the",
+          "start": 115.733,
+          "end": 115.871
+        },
+        {
+          "w": "back,",
+          "start": 115.871,
+          "end": 116.146
+        },
+        {
+          "w": "and",
+          "start": 116.146,
+          "end": 116.353
+        },
+        {
+          "w": "five",
+          "start": 116.353,
+          "end": 116.697
+        },
+        {
+          "w": "in",
+          "start": 116.697,
+          "end": 116.904
+        },
+        {
+          "w": "the",
+          "start": 116.904,
+          "end": 117.042
+        },
+        {
+          "w": "front.",
+          "start": 117.042,
+          "end": 117.455
+        },
+        {
+          "w": "Five",
+          "start": 117.455,
+          "end": 117.799
+        },
+        {
+          "w": "and",
+          "start": 117.799,
+          "end": 118.006
+        },
+        {
+          "w": "five",
+          "start": 118.006,
+          "end": 118.35
+        },
+        {
+          "w": "make",
+          "start": 118.35,
+          "end": 118.695
+        },
+        {
+          "w": "ten!",
+          "start": 118.695,
+          "end": 118.97
+        }
+      ]
+    },
+    {
+      "beat": "ten_turn",
+      "speaker": "narrator",
+      "start": 120.67,
+      "end": 123.08,
+      "text": "Can you show me ten fingers? Your turn!",
+      "words": [
+        {
+          "w": "Can",
+          "start": 120.72,
+          "end": 120.925
+        },
+        {
+          "w": "you",
+          "start": 120.925,
+          "end": 121.078
+        },
+        {
+          "w": "show",
+          "start": 121.078,
+          "end": 121.283
+        },
+        {
+          "w": "me",
+          "start": 121.283,
+          "end": 121.487
+        },
+        {
+          "w": "ten",
+          "start": 121.487,
+          "end": 121.692
+        },
+        {
+          "w": "fingers?",
+          "start": 121.692,
+          "end": 122.05
+        },
+        {
+          "w": "Your",
+          "start": 122.29,
+          "end": 122.549
+        },
+        {
+          "w": "turn!",
+          "start": 122.549,
+          "end": 122.98
+        }
+      ]
+    },
+    {
+      "beat": "egg_go",
+      "speaker": "rexy",
+      "start": 125.48,
+      "end": 128.55,
+      "text": "Now come and see my mama's nest! Stomp, stomp!",
+      "words": [
+        {
+          "w": "Now",
+          "start": 125.52,
+          "end": 125.765
+        },
+        {
+          "w": "come",
+          "start": 125.765,
+          "end": 126.011
+        },
+        {
+          "w": "and",
+          "start": 126.011,
+          "end": 126.195
+        },
+        {
+          "w": "see",
+          "start": 126.195,
+          "end": 126.44
+        },
+        {
+          "w": "my",
+          "start": 126.44,
+          "end": 126.685
+        },
+        {
+          "w": "mama's",
+          "start": 126.685,
+          "end": 127.115
+        },
+        {
+          "w": "nest!",
+          "start": 127.115,
+          "end": 127.421
+        },
+        {
+          "w": "Stomp,",
+          "start": 127.421,
+          "end": 127.851
+        },
+        {
+          "w": "stomp!",
+          "start": 127.851,
+          "end": 128.28
+        }
+      ]
+    },
+    {
+      "beat": "egg_ten",
+      "speaker": "narrator",
+      "start": 130.75,
+      "end": 134.22,
+      "text": "This nest is full. It has ten eggs. One group of ten!",
+      "words": [
+        {
+          "w": "This",
+          "start": 130.79,
+          "end": 131.043
+        },
+        {
+          "w": "nest",
+          "start": 131.043,
+          "end": 131.36
+        },
+        {
+          "w": "is",
+          "start": 131.36,
+          "end": 131.487
+        },
+        {
+          "w": "full.",
+          "start": 131.487,
+          "end": 131.74
+        },
+        {
+          "w": "It",
+          "start": 131.9,
+          "end": 132.03
+        },
+        {
+          "w": "has",
+          "start": 132.03,
+          "end": 132.29
+        },
+        {
+          "w": "ten",
+          "start": 132.29,
+          "end": 132.55
+        },
+        {
+          "w": "eggs.",
+          "start": 132.55,
+          "end": 132.81
+        },
+        {
+          "w": "One",
+          "start": 133.1,
+          "end": 133.357
+        },
+        {
+          "w": "group",
+          "start": 133.357,
+          "end": 133.744
+        },
+        {
+          "w": "of",
+          "start": 133.744,
+          "end": 133.873
+        },
+        {
+          "w": "ten!",
+          "start": 133.873,
+          "end": 134.13
+        }
+      ]
+    },
+    {
+      "beat": "egg_more",
+      "speaker": "narrator",
+      "start": 135.82,
+      "end": 139.34,
+      "text": "Let's put more eggs in the next nest. Ten, and one more...",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 135.89,
+          "end": 136.226
+        },
+        {
+          "w": "put",
+          "start": 136.226,
+          "end": 136.495
+        },
+        {
+          "w": "more",
+          "start": 136.495,
+          "end": 136.831
+        },
+        {
+          "w": "eggs",
+          "start": 136.831,
+          "end": 137.1
+        },
+        {
+          "w": "in",
+          "start": 137.1,
+          "end": 137.301
+        },
+        {
+          "w": "the",
+          "start": 137.301,
+          "end": 137.436
+        },
+        {
+          "w": "next",
+          "start": 137.436,
+          "end": 137.839
+        },
+        {
+          "w": "nest.",
+          "start": 137.839,
+          "end": 138.175
+        },
+        {
+          "w": "Ten,",
+          "start": 138.175,
+          "end": 138.444
+        },
+        {
+          "w": "and",
+          "start": 138.444,
+          "end": 138.645
+        },
+        {
+          "w": "one",
+          "start": 138.645,
+          "end": 138.914
+        },
+        {
+          "w": "more...",
+          "start": 138.914,
+          "end": 139.25
+        }
+      ]
+    },
+    {
+      "beat": "e11",
+      "speaker": "narrator",
+      "start": 141.34,
+      "end": 143.21,
+      "text": "Ten, and one, make eleven!",
+      "words": [
+        {
+          "w": "Ten,",
+          "start": 141.38,
+          "end": 141.676
+        },
+        {
+          "w": "and",
+          "start": 141.676,
+          "end": 141.897
+        },
+        {
+          "w": "one,",
+          "start": 141.897,
+          "end": 142.193
+        },
+        {
+          "w": "make",
+          "start": 142.193,
+          "end": 142.563
+        },
+        {
+          "w": "eleven!",
+          "start": 142.563,
+          "end": 143.08
+        }
+      ]
+    },
+    {
+      "beat": "m11",
+      "speaker": "mila",
+      "start": 144.41,
+      "end": 145.39,
+      "text": "Eleven!",
+      "words": [
+        {
+          "w": "Eleven!",
+          "start": 144.46,
+          "end": 145.23
+        }
+      ]
+    },
+    {
+      "beat": "e12",
+      "speaker": "narrator",
+      "start": 147.99,
+      "end": 149.61,
+      "text": "Ten, and two, make twelve!",
+      "words": [
+        {
+          "w": "Ten,",
+          "start": 148.03,
+          "end": 148.299
+        },
+        {
+          "w": "and",
+          "start": 148.299,
+          "end": 148.501
+        },
+        {
+          "w": "two,",
+          "start": 148.501,
+          "end": 148.77
+        },
+        {
+          "w": "make",
+          "start": 148.77,
+          "end": 149.106
+        },
+        {
+          "w": "twelve!",
+          "start": 149.106,
+          "end": 149.51
+        }
+      ]
+    },
+    {
+      "beat": "m12",
+      "speaker": "mila",
+      "start": 150.81,
+      "end": 151.73,
+      "text": "Twelve!",
+      "words": [
+        {
+          "w": "Twelve!",
+          "start": 150.88,
+          "end": 151.57
+        }
+      ]
+    },
+    {
+      "beat": "e13",
+      "speaker": "narrator",
+      "start": 154.33,
+      "end": 156.14,
+      "text": "Ten, and three, make thirteen!",
+      "words": [
+        {
+          "w": "Ten,",
+          "start": 154.37,
+          "end": 154.632
+        },
+        {
+          "w": "and",
+          "start": 154.632,
+          "end": 154.829
+        },
+        {
+          "w": "three,",
+          "start": 154.829,
+          "end": 155.157
+        },
+        {
+          "w": "make",
+          "start": 155.157,
+          "end": 155.485
+        },
+        {
+          "w": "thirteen!",
+          "start": 155.485,
+          "end": 156.01
+        }
+      ]
+    },
+    {
+      "beat": "m13",
+      "speaker": "mila",
+      "start": 157.34,
+      "end": 158.38,
+      "text": "Thirteen!",
+      "words": [
+        {
+          "w": "Thirteen!",
+          "start": 157.4,
+          "end": 158.22
+        }
+      ]
+    },
+    {
+      "beat": "e14",
+      "speaker": "narrator",
+      "start": 160.98,
+      "end": 162.83,
+      "text": "Ten, and four, make fourteen!",
+      "words": [
+        {
+          "w": "Ten,",
+          "start": 161.02,
+          "end": 161.277
+        },
+        {
+          "w": "and",
+          "start": 161.277,
+          "end": 161.47
+        },
+        {
+          "w": "four,",
+          "start": 161.47,
+          "end": 161.791
+        },
+        {
+          "w": "make",
+          "start": 161.791,
+          "end": 162.112
+        },
+        {
+          "w": "fourteen!",
+          "start": 162.112,
+          "end": 162.69
+        }
+      ]
+    },
+    {
+      "beat": "m14",
+      "speaker": "mila",
+      "start": 164.03,
+      "end": 165.09,
+      "text": "Fourteen!",
+      "words": [
+        {
+          "w": "Fourteen!",
+          "start": 164.09,
+          "end": 164.95
+        }
+      ]
+    },
+    {
+      "beat": "e15",
+      "speaker": "narrator",
+      "start": 167.69,
+      "end": 169.52,
+      "text": "Ten, and five, make fifteen!",
+      "words": [
+        {
+          "w": "Ten,",
+          "start": 167.73,
+          "end": 167.994
+        },
+        {
+          "w": "and",
+          "start": 167.994,
+          "end": 168.192
+        },
+        {
+          "w": "five,",
+          "start": 168.192,
+          "end": 168.522
+        },
+        {
+          "w": "make",
+          "start": 168.522,
+          "end": 168.852
+        },
+        {
+          "w": "fifteen!",
+          "start": 168.852,
+          "end": 169.38
+        }
+      ]
+    },
+    {
+      "beat": "m15",
+      "speaker": "mila",
+      "start": 170.72,
+      "end": 171.76,
+      "text": "Fifteen!",
+      "words": [
+        {
+          "w": "Fifteen!",
+          "start": 170.79,
+          "end": 171.6
+        }
+      ]
+    },
+    {
+      "beat": "e16",
+      "speaker": "narrator",
+      "start": 174.36,
+      "end": 176.21,
+      "text": "Ten, and six, make sixteen!",
+      "words": [
+        {
+          "w": "Ten,",
+          "start": 174.4,
+          "end": 174.658
+        },
+        {
+          "w": "and",
+          "start": 174.658,
+          "end": 174.852
+        },
+        {
+          "w": "six,",
+          "start": 174.852,
+          "end": 175.175
+        },
+        {
+          "w": "make",
+          "start": 175.175,
+          "end": 175.498
+        },
+        {
+          "w": "sixteen!",
+          "start": 175.498,
+          "end": 176.08
+        }
+      ]
+    },
+    {
+      "beat": "m16",
+      "speaker": "mila",
+      "start": 177.41,
+      "end": 178.52,
+      "text": "Sixteen!",
+      "words": [
+        {
+          "w": "Sixteen!",
+          "start": 177.47,
+          "end": 178.36
+        }
+      ]
+    },
+    {
+      "beat": "e17",
+      "speaker": "narrator",
+      "start": 181.12,
+      "end": 183.31,
+      "text": "Ten, and seven, make seventeen!",
+      "words": [
+        {
+          "w": "Ten,",
+          "start": 181.14,
+          "end": 181.423
+        },
+        {
+          "w": "and",
+          "start": 181.423,
+          "end": 181.635
+        },
+        {
+          "w": "seven,",
+          "start": 181.635,
+          "end": 182.059
+        },
+        {
+          "w": "make",
+          "start": 182.059,
+          "end": 182.412
+        },
+        {
+          "w": "seventeen!",
+          "start": 182.412,
+          "end": 183.19
+        }
+      ]
+    },
+    {
+      "beat": "m17",
+      "speaker": "mila",
+      "start": 184.51,
+      "end": 185.61,
+      "text": "Seventeen!",
+      "words": [
+        {
+          "w": "Seventeen!",
+          "start": 184.57,
+          "end": 185.49
+        }
+      ]
+    },
+    {
+      "beat": "e18",
+      "speaker": "narrator",
+      "start": 188.21,
+      "end": 190.06,
+      "text": "Ten, and eight, make eighteen!",
+      "words": [
+        {
+          "w": "Ten,",
+          "start": 188.25,
+          "end": 188.542
+        },
+        {
+          "w": "and",
+          "start": 188.542,
+          "end": 188.761
+        },
+        {
+          "w": "eight,",
+          "start": 188.761,
+          "end": 189.053
+        },
+        {
+          "w": "make",
+          "start": 189.053,
+          "end": 189.419
+        },
+        {
+          "w": "eighteen!",
+          "start": 189.419,
+          "end": 189.93
+        }
+      ]
+    },
+    {
+      "beat": "m18",
+      "speaker": "mila",
+      "start": 191.26,
+      "end": 192.24,
+      "text": "Eighteen!",
+      "words": [
+        {
+          "w": "Eighteen!",
+          "start": 191.32,
+          "end": 192.09
+        }
+      ]
+    },
+    {
+      "beat": "e19",
+      "speaker": "narrator",
+      "start": 194.84,
+      "end": 196.88,
+      "text": "Ten, and nine, make nineteen!",
+      "words": [
+        {
+          "w": "Ten,",
+          "start": 194.88,
+          "end": 195.168
+        },
+        {
+          "w": "and",
+          "start": 195.168,
+          "end": 195.383
+        },
+        {
+          "w": "nine,",
+          "start": 195.383,
+          "end": 195.743
+        },
+        {
+          "w": "make",
+          "start": 195.743,
+          "end": 196.103
+        },
+        {
+          "w": "nineteen!",
+          "start": 196.103,
+          "end": 196.75
+        }
+      ]
+    },
+    {
+      "beat": "m19",
+      "speaker": "mila",
+      "start": 198.08,
+      "end": 199.12,
+      "text": "Nineteen!",
+      "words": [
+        {
+          "w": "Nineteen!",
+          "start": 198.16,
+          "end": 198.99
+        }
+      ]
+    },
+    {
+      "beat": "e20",
+      "speaker": "narrator",
+      "start": 201.72,
+      "end": 203.56,
+      "text": "Ten, and ten, make twenty!",
+      "words": [
+        {
+          "w": "Ten,",
+          "start": 201.76,
+          "end": 202.054
+        },
+        {
+          "w": "and",
+          "start": 202.054,
+          "end": 202.274
+        },
+        {
+          "w": "ten,",
+          "start": 202.274,
+          "end": 202.568
+        },
+        {
+          "w": "make",
+          "start": 202.568,
+          "end": 202.936
+        },
+        {
+          "w": "twenty!",
+          "start": 202.936,
+          "end": 203.45
+        }
+      ]
+    },
+    {
+      "beat": "m20",
+      "speaker": "mila",
+      "start": 204.76,
+      "end": 205.67,
+      "text": "Twenty!",
+      "words": [
+        {
+          "w": "Twenty!",
+          "start": 204.82,
+          "end": 205.53
+        }
+      ]
+    },
+    {
+      "beat": "egg20",
+      "speaker": "narrator",
+      "start": 207.87,
+      "end": 211.32,
+      "text": "Twenty eggs! Two full nests. Two tens make twenty!",
+      "words": [
+        {
+          "w": "Twenty",
+          "start": 207.9,
+          "end": 208.405
+        },
+        {
+          "w": "eggs!",
+          "start": 208.405,
+          "end": 208.694
+        },
+        {
+          "w": "Two",
+          "start": 208.694,
+          "end": 208.983
+        },
+        {
+          "w": "full",
+          "start": 208.983,
+          "end": 209.271
+        },
+        {
+          "w": "nests.",
+          "start": 209.271,
+          "end": 209.704
+        },
+        {
+          "w": "Two",
+          "start": 209.704,
+          "end": 209.993
+        },
+        {
+          "w": "tens",
+          "start": 209.993,
+          "end": 210.354
+        },
+        {
+          "w": "make",
+          "start": 210.354,
+          "end": 210.715
+        },
+        {
+          "w": "twenty!",
+          "start": 210.715,
+          "end": 211.22
+        }
+      ]
+    },
+    {
+      "beat": "egg20_b",
+      "speaker": "bobo",
+      "start": 212.52,
+      "end": 214.18,
+      "text": "Twenty! That's a LOT of eggs!",
+      "words": [
+        {
+          "w": "Twenty!",
+          "start": 212.55,
+          "end": 212.965
+        },
+        {
+          "w": "That's",
+          "start": 212.965,
+          "end": 213.261
+        },
+        {
+          "w": "a",
+          "start": 213.261,
+          "end": 213.438
+        },
+        {
+          "w": "LOT",
+          "start": 213.438,
+          "end": 213.735
+        },
+        {
+          "w": "of",
+          "start": 213.735,
+          "end": 213.853
+        },
+        {
+          "w": "eggs!",
+          "start": 213.853,
+          "end": 214.09
+        }
+      ]
+    },
+    {
+      "beat": "hatch",
+      "speaker": "narrator",
+      "start": 216.58,
+      "end": 219.27,
+      "text": "Listen! Crack... crack... The eggs are hatching!",
+      "words": [
+        {
+          "w": "Listen!",
+          "start": 216.63,
+          "end": 217.103
+        },
+        {
+          "w": "Crack...",
+          "start": 217.103,
+          "end": 217.496
+        },
+        {
+          "w": "crack...",
+          "start": 217.496,
+          "end": 217.89
+        },
+        {
+          "w": "The",
+          "start": 217.89,
+          "end": 218.048
+        },
+        {
+          "w": "eggs",
+          "start": 218.048,
+          "end": 218.362
+        },
+        {
+          "w": "are",
+          "start": 218.362,
+          "end": 218.599
+        },
+        {
+          "w": "hatching!",
+          "start": 218.599,
+          "end": 219.15
+        }
+      ]
+    },
+    {
+      "beat": "by2",
+      "speaker": "rexy",
+      "start": 220.87,
+      "end": 223.87,
+      "text": "Let's count the babies by twos! Two at a time!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 220.9,
+          "end": 221.184
+        },
+        {
+          "w": "count",
+          "start": 221.184,
+          "end": 221.526
+        },
+        {
+          "w": "the",
+          "start": 221.526,
+          "end": 221.64
+        },
+        {
+          "w": "babies",
+          "start": 221.64,
+          "end": 222.038
+        },
+        {
+          "w": "by",
+          "start": 222.038,
+          "end": 222.266
+        },
+        {
+          "w": "twos!",
+          "start": 222.266,
+          "end": 222.55
+        },
+        {
+          "w": "Two",
+          "start": 222.7,
+          "end": 222.954
+        },
+        {
+          "w": "at",
+          "start": 222.954,
+          "end": 223.081
+        },
+        {
+          "w": "a",
+          "start": 223.081,
+          "end": 223.272
+        },
+        {
+          "w": "time!",
+          "start": 223.272,
+          "end": 223.59
+        }
+      ]
+    },
+    {
+      "beat": "s2",
+      "speaker": "bobo",
+      "start": 225.67,
+      "end": 226.23,
+      "text": "Two!",
+      "words": [
+        {
+          "w": "Two!",
+          "start": 225.69,
+          "end": 226.15
+        }
+      ]
+    },
+    {
+      "beat": "s4",
+      "speaker": "bobo",
+      "start": 227.23,
+      "end": 227.82,
+      "text": "Four!",
+      "words": [
+        {
+          "w": "Four!",
+          "start": 227.27,
+          "end": 227.73
+        }
+      ]
+    },
+    {
+      "beat": "s6",
+      "speaker": "bobo",
+      "start": 228.82,
+      "end": 229.43,
+      "text": "Six!",
+      "words": [
+        {
+          "w": "Six!",
+          "start": 228.86,
+          "end": 229.36
+        }
+      ]
+    },
+    {
+      "beat": "s8",
+      "speaker": "bobo",
+      "start": 230.43,
+      "end": 230.99,
+      "text": "Eight!",
+      "words": [
+        {
+          "w": "Eight!",
+          "start": 230.47,
+          "end": 230.92
+        }
+      ]
+    },
+    {
+      "beat": "s10",
+      "speaker": "bobo",
+      "start": 231.99,
+      "end": 232.55,
+      "text": "Ten!",
+      "words": [
+        {
+          "w": "Ten!",
+          "start": 232.02,
+          "end": 232.47
+        }
+      ]
+    },
+    {
+      "beat": "s12",
+      "speaker": "bobo",
+      "start": 233.55,
+      "end": 234.19,
+      "text": "Twelve!",
+      "words": [
+        {
+          "w": "Twelve!",
+          "start": 233.58,
+          "end": 234.07
+        }
+      ]
+    },
+    {
+      "beat": "s14",
+      "speaker": "bobo",
+      "start": 235.19,
+      "end": 235.97,
+      "text": "Fourteen!",
+      "words": [
+        {
+          "w": "Fourteen!",
+          "start": 235.24,
+          "end": 235.88
+        }
+      ]
+    },
+    {
+      "beat": "s16",
+      "speaker": "bobo",
+      "start": 236.97,
+      "end": 237.72,
+      "text": "Sixteen!",
+      "words": [
+        {
+          "w": "Sixteen!",
+          "start": 237.0,
+          "end": 237.65
+        }
+      ]
+    },
+    {
+      "beat": "s18",
+      "speaker": "bobo",
+      "start": 238.72,
+      "end": 239.44,
+      "text": "Eighteen!",
+      "words": [
+        {
+          "w": "Eighteen!",
+          "start": 238.74,
+          "end": 239.35
+        }
+      ]
+    },
+    {
+      "beat": "s20",
+      "speaker": "bobo",
+      "start": 240.44,
+      "end": 241.15,
+      "text": "Twenty!",
+      "words": [
+        {
+          "w": "Twenty!",
+          "start": 240.47,
+          "end": 241.07
+        }
+      ]
+    },
+    {
+      "beat": "babies",
+      "speaker": "bobo",
+      "start": 242.75,
+      "end": 244.45,
+      "text": "Twenty baby dinos! Hooray!",
+      "words": [
+        {
+          "w": "Twenty",
+          "start": 242.78,
+          "end": 243.162
+        },
+        {
+          "w": "baby",
+          "start": 243.162,
+          "end": 243.49
+        },
+        {
+          "w": "dinos!",
+          "start": 243.49,
+          "end": 243.927
+        },
+        {
+          "w": "Hooray!",
+          "start": 243.927,
+          "end": 244.31
+        }
+      ]
+    },
+    {
+      "beat": "game",
+      "speaker": "rexy",
+      "start": 247.05,
+      "end": 249.67,
+      "text": "Let's play a game! Find the number on the rocks.",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 247.08,
+          "end": 247.353
+        },
+        {
+          "w": "play",
+          "start": 247.353,
+          "end": 247.627
+        },
+        {
+          "w": "a",
+          "start": 247.627,
+          "end": 247.79
+        },
+        {
+          "w": "game!",
+          "start": 247.79,
+          "end": 248.064
+        },
+        {
+          "w": "Find",
+          "start": 248.064,
+          "end": 248.392
+        },
+        {
+          "w": "the",
+          "start": 248.392,
+          "end": 248.501
+        },
+        {
+          "w": "number",
+          "start": 248.501,
+          "end": 248.829
+        },
+        {
+          "w": "on",
+          "start": 248.829,
+          "end": 248.993
+        },
+        {
+          "w": "the",
+          "start": 248.993,
+          "end": 249.102
+        },
+        {
+          "w": "rocks.",
+          "start": 249.102,
+          "end": 249.43
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "narrator",
+      "start": 251.27,
+      "end": 252.78,
+      "text": "Which rock says fifteen?",
+      "words": [
+        {
+          "w": "Which",
+          "start": 251.31,
+          "end": 251.61
+        },
+        {
+          "w": "rock",
+          "start": 251.61,
+          "end": 251.91
+        },
+        {
+          "w": "says",
+          "start": 251.91,
+          "end": 252.15
+        },
+        {
+          "w": "fifteen?",
+          "start": 252.15,
+          "end": 252.63
+        }
+      ]
+    },
+    {
+      "beat": "a1",
+      "speaker": "mila",
+      "start": 257.98,
+      "end": 260.39,
+      "text": "This one! A one, and a five. Fifteen!",
+      "words": [
+        {
+          "w": "This",
+          "start": 258.01,
+          "end": 258.275
+        },
+        {
+          "w": "one!",
+          "start": 258.275,
+          "end": 258.539
+        },
+        {
+          "w": "A",
+          "start": 258.539,
+          "end": 258.738
+        },
+        {
+          "w": "one,",
+          "start": 258.738,
+          "end": 259.003
+        },
+        {
+          "w": "and",
+          "start": 259.003,
+          "end": 259.201
+        },
+        {
+          "w": "a",
+          "start": 259.201,
+          "end": 259.4
+        },
+        {
+          "w": "five.",
+          "start": 259.4,
+          "end": 259.731
+        },
+        {
+          "w": "Fifteen!",
+          "start": 259.731,
+          "end": 260.26
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "narrator",
+      "start": 262.99,
+      "end": 264.42,
+      "text": "Which rock says twelve?",
+      "words": [
+        {
+          "w": "Which",
+          "start": 263.02,
+          "end": 263.345
+        },
+        {
+          "w": "rock",
+          "start": 263.345,
+          "end": 263.67
+        },
+        {
+          "w": "says",
+          "start": 263.67,
+          "end": 263.93
+        },
+        {
+          "w": "twelve?",
+          "start": 263.93,
+          "end": 264.32
+        }
+      ]
+    },
+    {
+      "beat": "a2",
+      "speaker": "bobo",
+      "start": 269.62,
+      "end": 271.44,
+      "text": "This one! A one, and a two. Twelve!",
+      "words": [
+        {
+          "w": "This",
+          "start": 269.65,
+          "end": 269.868
+        },
+        {
+          "w": "one!",
+          "start": 269.868,
+          "end": 270.086
+        },
+        {
+          "w": "A",
+          "start": 270.086,
+          "end": 270.25
+        },
+        {
+          "w": "one,",
+          "start": 270.25,
+          "end": 270.468
+        },
+        {
+          "w": "and",
+          "start": 270.468,
+          "end": 270.631
+        },
+        {
+          "w": "a",
+          "start": 270.631,
+          "end": 270.795
+        },
+        {
+          "w": "two.",
+          "start": 270.795,
+          "end": 271.013
+        },
+        {
+          "w": "Twelve!",
+          "start": 271.013,
+          "end": 271.34
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "narrator",
+      "start": 274.04,
+      "end": 275.65,
+      "text": "Which rock says nineteen?",
+      "words": [
+        {
+          "w": "Which",
+          "start": 274.09,
+          "end": 274.401
+        },
+        {
+          "w": "rock",
+          "start": 274.401,
+          "end": 274.712
+        },
+        {
+          "w": "says",
+          "start": 274.712,
+          "end": 274.96
+        },
+        {
+          "w": "nineteen?",
+          "start": 274.96,
+          "end": 275.52
+        }
+      ]
+    },
+    {
+      "beat": "a3",
+      "speaker": "mila",
+      "start": 280.85,
+      "end": 283.34,
+      "text": "This one! A one, and a nine. Nineteen!",
+      "words": [
+        {
+          "w": "This",
+          "start": 280.9,
+          "end": 281.167
+        },
+        {
+          "w": "one!",
+          "start": 281.167,
+          "end": 281.435
+        },
+        {
+          "w": "A",
+          "start": 281.435,
+          "end": 281.635
+        },
+        {
+          "w": "one,",
+          "start": 281.635,
+          "end": 281.903
+        },
+        {
+          "w": "and",
+          "start": 281.903,
+          "end": 282.103
+        },
+        {
+          "w": "a",
+          "start": 282.103,
+          "end": 282.304
+        },
+        {
+          "w": "nine.",
+          "start": 282.304,
+          "end": 282.638
+        },
+        {
+          "w": "Nineteen!",
+          "start": 282.638,
+          "end": 283.24
+        }
+      ]
+    },
+    {
+      "beat": "tip",
+      "speaker": "narrator",
+      "start": 285.74,
+      "end": 291.37,
+      "text": "The numbers from eleven to nineteen all start with a one. That one means, one group of ten!",
+      "words": [
+        {
+          "w": "The",
+          "start": 285.82,
+          "end": 285.952
+        },
+        {
+          "w": "numbers",
+          "start": 285.952,
+          "end": 286.413
+        },
+        {
+          "w": "from",
+          "start": 286.413,
+          "end": 286.677
+        },
+        {
+          "w": "eleven",
+          "start": 286.677,
+          "end": 287.138
+        },
+        {
+          "w": "to",
+          "start": 287.138,
+          "end": 287.336
+        },
+        {
+          "w": "nineteen",
+          "start": 287.336,
+          "end": 287.929
+        },
+        {
+          "w": "all",
+          "start": 287.929,
+          "end": 288.193
+        },
+        {
+          "w": "start",
+          "start": 288.193,
+          "end": 288.654
+        },
+        {
+          "w": "with",
+          "start": 288.654,
+          "end": 288.852
+        },
+        {
+          "w": "a",
+          "start": 288.852,
+          "end": 289.049
+        },
+        {
+          "w": "one.",
+          "start": 289.049,
+          "end": 289.313
+        },
+        {
+          "w": "That",
+          "start": 289.313,
+          "end": 289.577
+        },
+        {
+          "w": "one",
+          "start": 289.577,
+          "end": 289.84
+        },
+        {
+          "w": "means,",
+          "start": 289.84,
+          "end": 290.236
+        },
+        {
+          "w": "one",
+          "start": 290.236,
+          "end": 290.499
+        },
+        {
+          "w": "group",
+          "start": 290.499,
+          "end": 290.895
+        },
+        {
+          "w": "of",
+          "start": 290.895,
+          "end": 291.026
+        },
+        {
+          "w": "ten!",
+          "start": 291.026,
+          "end": 291.29
+        }
+      ]
+    },
+    {
+      "beat": "path",
+      "speaker": "rexy",
+      "start": 293.97,
+      "end": 297.72,
+      "text": "Oh, look! My footprints have numbers. But one number is missing!",
+      "words": [
+        {
+          "w": "Oh,",
+          "start": 294.0,
+          "end": 294.189
+        },
+        {
+          "w": "look!",
+          "start": 294.189,
+          "end": 294.442
+        },
+        {
+          "w": "My",
+          "start": 294.442,
+          "end": 294.695
+        },
+        {
+          "w": "footprints",
+          "start": 294.695,
+          "end": 295.326
+        },
+        {
+          "w": "have",
+          "start": 295.326,
+          "end": 295.579
+        },
+        {
+          "w": "numbers.",
+          "start": 295.579,
+          "end": 296.021
+        },
+        {
+          "w": "But",
+          "start": 296.021,
+          "end": 296.273
+        },
+        {
+          "w": "one",
+          "start": 296.273,
+          "end": 296.526
+        },
+        {
+          "w": "number",
+          "start": 296.526,
+          "end": 296.905
+        },
+        {
+          "w": "is",
+          "start": 296.905,
+          "end": 297.031
+        },
+        {
+          "w": "missing!",
+          "start": 297.031,
+          "end": 297.41
+        }
+      ]
+    },
+    {
+      "beat": "m1q",
+      "speaker": "narrator",
+      "start": 299.32,
+      "end": 303.69,
+      "text": "Sixteen, seventeen... and then... nineteen. Which number is missing?",
+      "words": [
+        {
+          "w": "Sixteen,",
+          "start": 299.36,
+          "end": 300.054
+        },
+        {
+          "w": "seventeen...",
+          "start": 300.054,
+          "end": 300.902
+        },
+        {
+          "w": "and",
+          "start": 300.902,
+          "end": 301.133
+        },
+        {
+          "w": "then...",
+          "start": 301.133,
+          "end": 301.441
+        },
+        {
+          "w": "nineteen.",
+          "start": 301.441,
+          "end": 302.135
+        },
+        {
+          "w": "Which",
+          "start": 302.135,
+          "end": 302.521
+        },
+        {
+          "w": "number",
+          "start": 302.521,
+          "end": 302.983
+        },
+        {
+          "w": "is",
+          "start": 302.983,
+          "end": 303.137
+        },
+        {
+          "w": "missing?",
+          "start": 303.137,
+          "end": 303.6
+        }
+      ]
+    },
+    {
+      "beat": "m1a",
+      "speaker": "mila",
+      "start": 308.89,
+      "end": 309.87,
+      "text": "Eighteen!",
+      "words": [
+        {
+          "w": "Eighteen!",
+          "start": 308.95,
+          "end": 309.72
+        }
+      ]
+    },
+    {
+      "beat": "m2q",
+      "speaker": "narrator",
+      "start": 312.47,
+      "end": 316.97,
+      "text": "Ten, eleven, twelve... and then... fourteen. Which number is missing?",
+      "words": [
+        {
+          "w": "Ten,",
+          "start": 312.5,
+          "end": 312.838
+        },
+        {
+          "w": "eleven,",
+          "start": 312.838,
+          "end": 313.429
+        },
+        {
+          "w": "twelve...",
+          "start": 313.429,
+          "end": 313.935
+        },
+        {
+          "w": "and",
+          "start": 313.935,
+          "end": 314.188
+        },
+        {
+          "w": "then...",
+          "start": 314.188,
+          "end": 314.526
+        },
+        {
+          "w": "fourteen.",
+          "start": 314.526,
+          "end": 315.286
+        },
+        {
+          "w": "Which",
+          "start": 315.286,
+          "end": 315.708
+        },
+        {
+          "w": "number",
+          "start": 315.708,
+          "end": 316.215
+        },
+        {
+          "w": "is",
+          "start": 316.215,
+          "end": 316.383
+        },
+        {
+          "w": "missing?",
+          "start": 316.383,
+          "end": 316.89
+        }
+      ]
+    },
+    {
+      "beat": "m2a",
+      "speaker": "bobo",
+      "start": 322.17,
+      "end": 322.9,
+      "text": "Thirteen!",
+      "words": [
+        {
+          "w": "Thirteen!",
+          "start": 322.21,
+          "end": 322.8
+        }
+      ]
+    },
+    {
+      "beat": "all",
+      "speaker": "narrator",
+      "start": 325.5,
+      "end": 328.31,
+      "text": "Now, let's count all the way to twenty, together!",
+      "words": [
+        {
+          "w": "Now,",
+          "start": 325.54,
+          "end": 325.793
+        },
+        {
+          "w": "let's",
+          "start": 325.793,
+          "end": 326.11
+        },
+        {
+          "w": "count",
+          "start": 326.11,
+          "end": 326.49
+        },
+        {
+          "w": "all",
+          "start": 326.49,
+          "end": 326.743
+        },
+        {
+          "w": "the",
+          "start": 326.743,
+          "end": 326.87
+        },
+        {
+          "w": "way",
+          "start": 326.87,
+          "end": 327.123
+        },
+        {
+          "w": "to",
+          "start": 327.123,
+          "end": 327.313
+        },
+        {
+          "w": "twenty,",
+          "start": 327.313,
+          "end": 327.757
+        },
+        {
+          "w": "together!",
+          "start": 327.757,
+          "end": 328.2
+        }
+      ]
+    },
+    {
+      "beat": "k1",
+      "speaker": "mila",
+      "start": 329.71,
+      "end": 330.52,
+      "text": "One!",
+      "words": [
+        {
+          "w": "One!",
+          "start": 329.79,
+          "end": 330.38
+        }
+      ]
+    },
+    {
+      "beat": "k2",
+      "speaker": "mila",
+      "start": 330.97,
+      "end": 331.78,
+      "text": "Two!",
+      "words": [
+        {
+          "w": "Two!",
+          "start": 331.02,
+          "end": 331.63
+        }
+      ]
+    },
+    {
+      "beat": "k3",
+      "speaker": "mila",
+      "start": 332.23,
+      "end": 333.1,
+      "text": "Three!",
+      "words": [
+        {
+          "w": "Three!",
+          "start": 332.3,
+          "end": 332.94
+        }
+      ]
+    },
+    {
+      "beat": "k4",
+      "speaker": "mila",
+      "start": 333.55,
+      "end": 334.47,
+      "text": "Four!",
+      "words": [
+        {
+          "w": "Four!",
+          "start": 333.64,
+          "end": 334.29
+        }
+      ]
+    },
+    {
+      "beat": "k5",
+      "speaker": "mila",
+      "start": 334.92,
+      "end": 335.84,
+      "text": "Five!",
+      "words": [
+        {
+          "w": "Five!",
+          "start": 335.0,
+          "end": 335.69
+        }
+      ]
+    },
+    {
+      "beat": "k6",
+      "speaker": "mila",
+      "start": 336.29,
+      "end": 337.08,
+      "text": "Six!",
+      "words": [
+        {
+          "w": "Six!",
+          "start": 336.37,
+          "end": 336.97
+        }
+      ]
+    },
+    {
+      "beat": "k7",
+      "speaker": "mila",
+      "start": 337.53,
+      "end": 338.38,
+      "text": "Seven!",
+      "words": [
+        {
+          "w": "Seven!",
+          "start": 337.58,
+          "end": 338.24
+        }
+      ]
+    },
+    {
+      "beat": "k8",
+      "speaker": "mila",
+      "start": 338.83,
+      "end": 339.63,
+      "text": "Eight!",
+      "words": [
+        {
+          "w": "Eight!",
+          "start": 338.9,
+          "end": 339.53
+        }
+      ]
+    },
+    {
+      "beat": "k9",
+      "speaker": "mila",
+      "start": 340.08,
+      "end": 340.97,
+      "text": "Nine!",
+      "words": [
+        {
+          "w": "Nine!",
+          "start": 340.16,
+          "end": 340.87
+        }
+      ]
+    },
+    {
+      "beat": "k10",
+      "speaker": "mila",
+      "start": 341.42,
+      "end": 342.23,
+      "text": "Ten!",
+      "words": [
+        {
+          "w": "Ten!",
+          "start": 341.47,
+          "end": 342.1
+        }
+      ]
+    },
+    {
+      "beat": "k11",
+      "speaker": "mila",
+      "start": 343.13,
+      "end": 344.11,
+      "text": "Eleven!",
+      "words": [
+        {
+          "w": "Eleven!",
+          "start": 343.18,
+          "end": 343.95
+        }
+      ]
+    },
+    {
+      "beat": "k12",
+      "speaker": "mila",
+      "start": 344.56,
+      "end": 345.48,
+      "text": "Twelve!",
+      "words": [
+        {
+          "w": "Twelve!",
+          "start": 344.63,
+          "end": 345.32
+        }
+      ]
+    },
+    {
+      "beat": "k13",
+      "speaker": "mila",
+      "start": 345.93,
+      "end": 346.97,
+      "text": "Thirteen!",
+      "words": [
+        {
+          "w": "Thirteen!",
+          "start": 345.99,
+          "end": 346.81
+        }
+      ]
+    },
+    {
+      "beat": "k14",
+      "speaker": "mila",
+      "start": 347.42,
+      "end": 348.48,
+      "text": "Fourteen!",
+      "words": [
+        {
+          "w": "Fourteen!",
+          "start": 347.48,
+          "end": 348.34
+        }
+      ]
+    },
+    {
+      "beat": "k15",
+      "speaker": "mila",
+      "start": 348.93,
+      "end": 349.97,
+      "text": "Fifteen!",
+      "words": [
+        {
+          "w": "Fifteen!",
+          "start": 349.0,
+          "end": 349.81
+        }
+      ]
+    },
+    {
+      "beat": "k16",
+      "speaker": "mila",
+      "start": 350.42,
+      "end": 351.53,
+      "text": "Sixteen!",
+      "words": [
+        {
+          "w": "Sixteen!",
+          "start": 350.48,
+          "end": 351.37
+        }
+      ]
+    },
+    {
+      "beat": "k17",
+      "speaker": "mila",
+      "start": 351.98,
+      "end": 353.08,
+      "text": "Seventeen!",
+      "words": [
+        {
+          "w": "Seventeen!",
+          "start": 352.04,
+          "end": 352.96
+        }
+      ]
+    },
+    {
+      "beat": "k18",
+      "speaker": "mila",
+      "start": 353.53,
+      "end": 354.51,
+      "text": "Eighteen!",
+      "words": [
+        {
+          "w": "Eighteen!",
+          "start": 353.59,
+          "end": 354.36
+        }
+      ]
+    },
+    {
+      "beat": "k19",
+      "speaker": "mila",
+      "start": 354.96,
+      "end": 356.0,
+      "text": "Nineteen!",
+      "words": [
+        {
+          "w": "Nineteen!",
+          "start": 355.04,
+          "end": 355.87
+        }
+      ]
+    },
+    {
+      "beat": "k20",
+      "speaker": "mila",
+      "start": 356.45,
+      "end": 357.36,
+      "text": "Twenty!",
+      "words": [
+        {
+          "w": "Twenty!",
+          "start": 356.51,
+          "end": 357.22
+        }
+      ]
+    },
+    {
+      "beat": "cnt_yay",
+      "speaker": "narrator",
+      "start": 358.76,
+      "end": 360.15,
+      "text": "Twenty! You did it!",
+      "words": [
+        {
+          "w": "Twenty!",
+          "start": 358.8,
+          "end": 359.343
+        },
+        {
+          "w": "You",
+          "start": 359.343,
+          "end": 359.575
+        },
+        {
+          "w": "did",
+          "start": 359.575,
+          "end": 359.885
+        },
+        {
+          "w": "it!",
+          "start": 359.885,
+          "end": 360.04
+        }
+      ]
+    },
+    {
+      "beat": "turn",
+      "speaker": "narrator",
+      "start": 362.35,
+      "end": 365.8,
+      "text": "Your turn! Can you count to twenty, all by yourself? Go!",
+      "words": [
+        {
+          "w": "Your",
+          "start": 362.39,
+          "end": 362.58
+        },
+        {
+          "w": "turn!",
+          "start": 362.58,
+          "end": 362.898
+        },
+        {
+          "w": "Can",
+          "start": 362.898,
+          "end": 363.152
+        },
+        {
+          "w": "you",
+          "start": 363.152,
+          "end": 363.342
+        },
+        {
+          "w": "count",
+          "start": 363.342,
+          "end": 363.723
+        },
+        {
+          "w": "to",
+          "start": 363.723,
+          "end": 363.913
+        },
+        {
+          "w": "twenty,",
+          "start": 363.913,
+          "end": 364.357
+        },
+        {
+          "w": "all",
+          "start": 364.357,
+          "end": 364.611
+        },
+        {
+          "w": "by",
+          "start": 364.611,
+          "end": 364.865
+        },
+        {
+          "w": "yourself?",
+          "start": 364.865,
+          "end": 365.436
+        },
+        {
+          "w": "Go!",
+          "start": 365.436,
+          "end": 365.69
+        }
+      ]
+    },
+    {
+      "beat": "great",
+      "speaker": "rexy",
+      "start": 376.8,
+      "end": 379.59,
+      "text": "Great counting! Thank you for helping me, friends!",
+      "words": [
+        {
+          "w": "Great",
+          "start": 376.85,
+          "end": 377.187
+        },
+        {
+          "w": "counting!",
+          "start": 377.187,
+          "end": 377.636
+        },
+        {
+          "w": "Thank",
+          "start": 377.636,
+          "end": 377.917
+        },
+        {
+          "w": "you",
+          "start": 377.917,
+          "end": 378.085
+        },
+        {
+          "w": "for",
+          "start": 378.085,
+          "end": 378.31
+        },
+        {
+          "w": "helping",
+          "start": 378.31,
+          "end": 378.703
+        },
+        {
+          "w": "me,",
+          "start": 378.703,
+          "end": 378.927
+        },
+        {
+          "w": "friends!",
+          "start": 378.927,
+          "end": 379.32
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "start": 380.99,
+      "end": 383.41,
+      "text": "Bye-bye, Rexy! Bye-bye, friends!",
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 381.02,
+          "end": 381.65
+        },
+        {
+          "w": "Rexy!",
+          "start": 381.65,
+          "end": 382.14
+        },
+        {
+          "w": "Bye-bye,",
+          "start": 382.14,
+          "end": 382.77
+        },
+        {
+          "w": "friends!",
+          "start": 382.77,
+          "end": 383.26
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "rexy",
+      "start": 384.41,
+      "end": 385.9,
+      "text": "Roar! See you next time!",
+      "words": [
+        {
+          "w": "Roar!",
+          "start": 384.45,
+          "end": 384.711
+        },
+        {
+          "w": "See",
+          "start": 384.711,
+          "end": 384.92
+        },
+        {
+          "w": "you",
+          "start": 384.92,
+          "end": 385.076
+        },
+        {
+          "w": "next",
+          "start": 385.076,
+          "end": 385.389
+        },
+        {
+          "w": "time!",
+          "start": 385.389,
+          "end": 385.65
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "stomp",
+      "start": 0,
+      "visual": "Stomp... stomp... STOMP!",
+      "end": 6.7
+    },
+    {
+      "id": "who",
+      "start": 6.7,
+      "visual": "Who is coming? Can you guess?",
+      "end": 12.07
+    },
+    {
+      "id": "rex_hi",
+      "start": 12.07,
+      "visual": "Roar! Hello, friends! I'm Rexy the dinosaur!",
+      "end": 16.34
+    },
+    {
+      "id": "mila_hi",
+      "start": 16.34,
+      "visual": "Hi, Rexy! I'm Spark Girl!",
+      "end": 19.45
+    },
+    {
+      "id": "bobo_hi",
+      "start": 19.45,
+      "visual": "And I'm Super Bobo! Wow, a real dinosaur!",
+      "end": 23.68
+    },
+    {
+      "id": "rex_ask",
+      "start": 23.68,
+      "visual": "My dino friends are hiding in Dino Valley. Can you help me find them, and count them?",
+      "end": 30.26
+    },
+    {
+      "id": "goal",
+      "start": 30.26,
+      "visual": "Let's count dinosaurs, all the way to twenty!",
+      "end": 34.27
+    },
+    {
+      "id": "fingers",
+      "start": 34.27,
+      "visual": "I'll count on my fingers. Count with me!",
+      "end": 39.25
+    },
+    {
+      "id": "n1",
+      "start": 39.25,
+      "visual": "Look! Who's that? A triceratops, with three horns!",
+      "end": 43.56
+    },
+    {
+      "id": "c1",
+      "start": 43.56,
+      "visual": "One!",
+      "end": 46.97
+    },
+    {
+      "id": "n2",
+      "start": 46.97,
+      "visual": "Here comes a stegosaurus, with spiky plates on its back!",
+      "end": 51.51
+    },
+    {
+      "id": "c2",
+      "start": 51.51,
+      "visual": "Two!",
+      "end": 54.92
+    },
+    {
+      "id": "n3",
+      "start": 54.92,
+      "visual": "Whoa! A long, long neck! It's a long-neck dinosaur!",
+      "end": 59.49
+    },
+    {
+      "id": "c3",
+      "start": 59.49,
+      "visual": "Three!",
+      "end": 62.96
+    },
+    {
+      "id": "n4",
+      "start": 62.96,
+      "visual": "A little T-rex, just like Rexy!",
+      "end": 66.31
+    },
+    {
+      "id": "c4",
+      "start": 66.31,
+      "visual": "Four!",
+      "end": 69.83
+    },
+    {
+      "id": "n5",
+      "start": 69.83,
+      "visual": "Another triceratops! This one is yellow.",
+      "end": 73.67
+    },
+    {
+      "id": "c5",
+      "start": 73.67,
+      "visual": "Five! Five fingers, one whole hand!",
+      "end": 78.72
+    },
+    {
+      "id": "n6",
+      "start": 78.72,
+      "visual": "A stegosaurus... ah... ah... ACHOO!",
+      "end": 82.54
+    },
+    {
+      "id": "c6",
+      "start": 82.54,
+      "visual": "Six!",
+      "end": 85.93
+    },
+    {
+      "id": "n7",
+      "start": 85.93,
+      "visual": "Another long-neck, munching on leaves!",
+      "end": 89.35
+    },
+    {
+      "id": "c7",
+      "start": 89.35,
+      "visual": "Seven!",
+      "end": 92.8
+    },
+    {
+      "id": "n8",
+      "start": 92.8,
+      "visual": "A sleepy T-rex, yawning. Yaaawn!",
+      "end": 96.26
+    },
+    {
+      "id": "c8",
+      "start": 96.26,
+      "visual": "Eight!",
+      "end": 99.66
+    },
+    {
+      "id": "n9",
+      "start": 99.66,
+      "visual": "A sky-blue triceratops, running fast!",
+      "end": 103.33
+    },
+    {
+      "id": "c9",
+      "start": 103.33,
+      "visual": "Nine!",
+      "end": 106.82
+    },
+    {
+      "id": "n10",
+      "start": 106.82,
+      "visual": "And the littlest one... a baby dino, in its egg!",
+      "end": 110.85
+    },
+    {
+      "id": "c10",
+      "start": 110.85,
+      "visual": "Ten!",
+      "end": 113.86
+    },
+    {
+      "id": "ten",
+      "start": 113.86,
+      "visual": "Ten dinosaurs! Five in the back, and five in the front. Five and five make ten!",
+      "end": 120.47
+    },
+    {
+      "id": "ten_turn",
+      "start": 120.47,
+      "visual": "Can you show me ten fingers? Your turn!",
+      "end": 125.28
+    },
+    {
+      "id": "egg_go",
+      "start": 125.28,
+      "visual": "Now come and see my mama's nest! Stomp, stomp!",
+      "end": 130.55
+    },
+    {
+      "id": "egg_ten",
+      "start": 130.55,
+      "visual": "This nest is full. It has ten eggs. One group of ten!",
+      "end": 135.62
+    },
+    {
+      "id": "egg_more",
+      "start": 135.62,
+      "visual": "Let's put more eggs in the next nest. Ten, and one more...",
+      "end": 141.14
+    },
+    {
+      "id": "e11",
+      "start": 141.14,
+      "visual": "Ten, and one, make eleven!",
+      "end": 144.21
+    },
+    {
+      "id": "m11",
+      "start": 144.21,
+      "visual": "Eleven!",
+      "end": 147.79
+    },
+    {
+      "id": "e12",
+      "start": 147.79,
+      "visual": "Ten, and two, make twelve!",
+      "end": 150.61
+    },
+    {
+      "id": "m12",
+      "start": 150.61,
+      "visual": "Twelve!",
+      "end": 154.13
+    },
+    {
+      "id": "e13",
+      "start": 154.13,
+      "visual": "Ten, and three, make thirteen!",
+      "end": 157.14
+    },
+    {
+      "id": "m13",
+      "start": 157.14,
+      "visual": "Thirteen!",
+      "end": 160.78
+    },
+    {
+      "id": "e14",
+      "start": 160.78,
+      "visual": "Ten, and four, make fourteen!",
+      "end": 163.83
+    },
+    {
+      "id": "m14",
+      "start": 163.83,
+      "visual": "Fourteen!",
+      "end": 167.49
+    },
+    {
+      "id": "e15",
+      "start": 167.49,
+      "visual": "Ten, and five, make fifteen!",
+      "end": 170.52
+    },
+    {
+      "id": "m15",
+      "start": 170.52,
+      "visual": "Fifteen!",
+      "end": 174.16
+    },
+    {
+      "id": "e16",
+      "start": 174.16,
+      "visual": "Ten, and six, make sixteen!",
+      "end": 177.21
+    },
+    {
+      "id": "m16",
+      "start": 177.21,
+      "visual": "Sixteen!",
+      "end": 180.92
+    },
+    {
+      "id": "e17",
+      "start": 180.92,
+      "visual": "Ten, and seven, make seventeen!",
+      "end": 184.31
+    },
+    {
+      "id": "m17",
+      "start": 184.31,
+      "visual": "Seventeen!",
+      "end": 188.01
+    },
+    {
+      "id": "e18",
+      "start": 188.01,
+      "visual": "Ten, and eight, make eighteen!",
+      "end": 191.06
+    },
+    {
+      "id": "m18",
+      "start": 191.06,
+      "visual": "Eighteen!",
+      "end": 194.64
+    },
+    {
+      "id": "e19",
+      "start": 194.64,
+      "visual": "Ten, and nine, make nineteen!",
+      "end": 197.88
+    },
+    {
+      "id": "m19",
+      "start": 197.88,
+      "visual": "Nineteen!",
+      "end": 201.52
+    },
+    {
+      "id": "e20",
+      "start": 201.52,
+      "visual": "Ten, and ten, make twenty!",
+      "end": 204.56
+    },
+    {
+      "id": "m20",
+      "start": 204.56,
+      "visual": "Twenty!",
+      "end": 207.67
+    },
+    {
+      "id": "egg20",
+      "start": 207.67,
+      "visual": "Twenty eggs! Two full nests. Two tens make twenty!",
+      "end": 212.32
+    },
+    {
+      "id": "egg20_b",
+      "start": 212.32,
+      "visual": "Twenty! That's a LOT of eggs!",
+      "end": 216.38
+    },
+    {
+      "id": "hatch",
+      "start": 216.38,
+      "visual": "Listen! Crack... crack... The eggs are hatching!",
+      "end": 220.67
+    },
+    {
+      "id": "by2",
+      "start": 220.67,
+      "visual": "Let's count the babies by twos! Two at a time!",
+      "end": 225.47
+    },
+    {
+      "id": "s2",
+      "start": 225.47,
+      "visual": "Two!",
+      "end": 227.03
+    },
+    {
+      "id": "s4",
+      "start": 227.03,
+      "visual": "Four!",
+      "end": 228.62
+    },
+    {
+      "id": "s6",
+      "start": 228.62,
+      "visual": "Six!",
+      "end": 230.23
+    },
+    {
+      "id": "s8",
+      "start": 230.23,
+      "visual": "Eight!",
+      "end": 231.79
+    },
+    {
+      "id": "s10",
+      "start": 231.79,
+      "visual": "Ten!",
+      "end": 233.35
+    },
+    {
+      "id": "s12",
+      "start": 233.35,
+      "visual": "Twelve!",
+      "end": 234.99
+    },
+    {
+      "id": "s14",
+      "start": 234.99,
+      "visual": "Fourteen!",
+      "end": 236.77
+    },
+    {
+      "id": "s16",
+      "start": 236.77,
+      "visual": "Sixteen!",
+      "end": 238.52
+    },
+    {
+      "id": "s18",
+      "start": 238.52,
+      "visual": "Eighteen!",
+      "end": 240.24
+    },
+    {
+      "id": "s20",
+      "start": 240.24,
+      "visual": "Twenty!",
+      "end": 242.55
+    },
+    {
+      "id": "babies",
+      "start": 242.55,
+      "visual": "Twenty baby dinos! Hooray!",
+      "end": 246.85
+    },
+    {
+      "id": "game",
+      "start": 246.85,
+      "visual": "Let's play a game! Find the number on the rocks.",
+      "end": 251.07
+    },
+    {
+      "id": "q1",
+      "start": 251.07,
+      "visual": "Which rock says fifteen?",
+      "end": 257.78
+    },
+    {
+      "id": "a1",
+      "start": 257.78,
+      "visual": "This one! A one, and a five. Fifteen!",
+      "end": 262.79
+    },
+    {
+      "id": "q2",
+      "start": 262.79,
+      "visual": "Which rock says twelve?",
+      "end": 269.42
+    },
+    {
+      "id": "a2",
+      "start": 269.42,
+      "visual": "This one! A one, and a two. Twelve!",
+      "end": 273.84
+    },
+    {
+      "id": "q3",
+      "start": 273.84,
+      "visual": "Which rock says nineteen?",
+      "end": 280.65
+    },
+    {
+      "id": "a3",
+      "start": 280.65,
+      "visual": "This one! A one, and a nine. Nineteen!",
+      "end": 285.54
+    },
+    {
+      "id": "tip",
+      "start": 285.54,
+      "visual": "The numbers from eleven to nineteen all start with a one. That one means, one group of ten!",
+      "end": 293.77
+    },
+    {
+      "id": "path",
+      "start": 293.77,
+      "visual": "Oh, look! My footprints have numbers. But one number is missing!",
+      "end": 299.12
+    },
+    {
+      "id": "m1q",
+      "start": 299.12,
+      "visual": "Sixteen, seventeen... and then... nineteen. Which number is missing?",
+      "end": 308.69
+    },
+    {
+      "id": "m1a",
+      "start": 308.69,
+      "visual": "Eighteen!",
+      "end": 312.27
+    },
+    {
+      "id": "m2q",
+      "start": 312.27,
+      "visual": "Ten, eleven, twelve... and then... fourteen. Which number is missing?",
+      "end": 321.97
+    },
+    {
+      "id": "m2a",
+      "start": 321.97,
+      "visual": "Thirteen!",
+      "end": 325.3
+    },
+    {
+      "id": "all",
+      "start": 325.3,
+      "visual": "Now, let's count all the way to twenty, together!",
+      "end": 329.51
+    },
+    {
+      "id": "k1",
+      "start": 329.51,
+      "visual": "One!",
+      "end": 330.77
+    },
+    {
+      "id": "k2",
+      "start": 330.77,
+      "visual": "Two!",
+      "end": 332.03
+    },
+    {
+      "id": "k3",
+      "start": 332.03,
+      "visual": "Three!",
+      "end": 333.35
+    },
+    {
+      "id": "k4",
+      "start": 333.35,
+      "visual": "Four!",
+      "end": 334.72
+    },
+    {
+      "id": "k5",
+      "start": 334.72,
+      "visual": "Five!",
+      "end": 336.09
+    },
+    {
+      "id": "k6",
+      "start": 336.09,
+      "visual": "Six!",
+      "end": 337.33
+    },
+    {
+      "id": "k7",
+      "start": 337.33,
+      "visual": "Seven!",
+      "end": 338.63
+    },
+    {
+      "id": "k8",
+      "start": 338.63,
+      "visual": "Eight!",
+      "end": 339.88
+    },
+    {
+      "id": "k9",
+      "start": 339.88,
+      "visual": "Nine!",
+      "end": 341.22
+    },
+    {
+      "id": "k10",
+      "start": 341.22,
+      "visual": "Ten!",
+      "end": 342.93
+    },
+    {
+      "id": "k11",
+      "start": 342.93,
+      "visual": "Eleven!",
+      "end": 344.36
+    },
+    {
+      "id": "k12",
+      "start": 344.36,
+      "visual": "Twelve!",
+      "end": 345.73
+    },
+    {
+      "id": "k13",
+      "start": 345.73,
+      "visual": "Thirteen!",
+      "end": 347.22
+    },
+    {
+      "id": "k14",
+      "start": 347.22,
+      "visual": "Fourteen!",
+      "end": 348.73
+    },
+    {
+      "id": "k15",
+      "start": 348.73,
+      "visual": "Fifteen!",
+      "end": 350.22
+    },
+    {
+      "id": "k16",
+      "start": 350.22,
+      "visual": "Sixteen!",
+      "end": 351.78
+    },
+    {
+      "id": "k17",
+      "start": 351.78,
+      "visual": "Seventeen!",
+      "end": 353.33
+    },
+    {
+      "id": "k18",
+      "start": 353.33,
+      "visual": "Eighteen!",
+      "end": 354.76
+    },
+    {
+      "id": "k19",
+      "start": 354.76,
+      "visual": "Nineteen!",
+      "end": 356.25
+    },
+    {
+      "id": "k20",
+      "start": 356.25,
+      "visual": "Twenty!",
+      "end": 358.56
+    },
+    {
+      "id": "cnt_yay",
+      "start": 358.56,
+      "visual": "Twenty! You did it!",
+      "end": 362.15
+    },
+    {
+      "id": "turn",
+      "start": 362.15,
+      "visual": "Your turn! Can you count to twenty, all by yourself? Go!",
+      "end": 376.6
+    },
+    {
+      "id": "great",
+      "start": 376.6,
+      "visual": "Great counting! Thank you for helping me, friends!",
+      "end": 380.79
+    },
+    {
+      "id": "bye",
+      "start": 380.79,
+      "visual": "Bye-bye, Rexy! Bye-bye, friends!",
+      "end": 384.21
+    },
+    {
+      "id": "bye2",
+      "start": 384.21,
+      "visual": "Roar! See you next time!",
+      "end": 389.3
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

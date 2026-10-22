@@ -1861,6 +1861,43 @@
    "source": "local synth (tools/gen_kids_sounds.py) + Kokoro-82M voices",
    "license": "original — synthesized locally by tools/gen_kids_sounds.py; voices: Kokoro-82M (Apache-2.0)",
    "used_in": []
+  },
+  {
+   "id": "dino-stomp",
+   "file": "clips/dino-stomp.mp3",
+   "category": "impact",
+   "tags": [
+    "stomp",
+    "footstep",
+    "dinosaur",
+    "thud",
+    "big",
+    "kids"
+   ],
+   "desc": "a big friendly dinosaur footstep: soft low thump + muffled thud, 0.9 s",
+   "duration_s": 0.9,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "egg-crack",
+   "file": "clips/egg-crack.mp3",
+   "category": "foley",
+   "tags": [
+    "egg",
+    "crack",
+    "hatch",
+    "shell",
+    "kids"
+   ],
+   "desc": "an egg cracking: three crisp shell crackles + tiny clicks, 0.45 s",
+   "duration_s": 0.45,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
   }
  ]
 }

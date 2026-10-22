@@ -403,6 +403,31 @@ def s_think_tick():
     return buf
 
 
+def s_stomp():
+    """A big friendly dinosaur footstep: a soft low thump + a muffled thud + a short rumble tail."""
+    t = T(0.9)
+    f = 34 + 46 * np.exp(-t / 0.06)
+    boom = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t / 0.22)
+    thud = band(noise(len(t), 77), hi=420) * np.exp(-t / 0.05) * 1.4
+    rumble = band(noise(len(t), 78), lo=30, hi=160) * np.exp(-t / 0.35) * 0.5
+    return rel((boom + thud + rumble) * np.minimum(1, t / 0.004), 40)
+
+
+def s_egg_crack():
+    """An egg cracking: three crisp shell crackles + tiny clicks, 0.45 s."""
+    buf = np.zeros(int(SR * 0.45))
+    rng = np.random.default_rng(91)
+    for i, at in enumerate([0.0, 0.11, 0.19]):
+        n = int(SR * (0.03 + 0.01 * i))
+        tt = np.arange(n) / SR
+        burst = band(noise(n, 92 + i), lo=1800, hi=7000) * np.exp(-tt / 0.012) * (1.0 - i * 0.15)
+        place(buf, burst, at)
+    for _ in range(9):
+        n = int(SR * 0.006)
+        place(buf, band(noise(n, int(rng.integers(1000))), lo=3000, hi=9000) * 0.35, float(rng.uniform(0.02, 0.4)))
+    return buf
+
+
 # ─────────────────────────────── kids crowd (Kokoro) ─────────────────────────────────────────────
 VOICES = ["af_sky", "af_nicole", "af_nova", "af_jessica", "bf_lily", "am_puck", "af_bella", "af_kore", "af_river", "bf_alice"]
 
@@ -502,6 +527,8 @@ SFX = {
     "bonk": (s_bonk, "cartoon", ["bonk", "bump", "hit", "wood", "thud", "cartoon", "kids"], "cartoon bonk — a bump on the head or a jar hitting the ground, 0.4 s", False),
     "zip-up": (s_zip, "cartoon", ["zip", "zoom", "fast", "rise", "cartoon", "kids"], "quick rising zip — zooms and fast moves, 0.26 s", False),
     "kids-applause": (s_applause, "crowd", ["applause", "clapping", "celebrate", "kids", "crowd"], "kids clapping in a small room — celebrations, 2.8 s", False),
+    "dino-stomp": (s_stomp, "impact", ["stomp", "footstep", "dinosaur", "thud", "big", "kids"], "a big friendly dinosaur footstep: soft low thump + muffled thud, 0.9 s", False),
+    "egg-crack": (s_egg_crack, "foley", ["egg", "crack", "hatch", "shell", "kids"], "an egg cracking: three crisp shell crackles + tiny clicks, 0.45 s", False),
     "think-tick": (s_think_tick, "rhythm", ["tick-tock", "woodblock", "think", "pause", "your-turn", "120bpm", "kids"], "tick-tock woodblock + shakers at 120 bpm for 4 s — fills a 'your turn' pause (start on a theme-bed beat)", False),
     "kids-yay": (s_kids_yay, "crowd", ["yay", "cheer", "crowd", "kids", "celebrate", "voices"], "a group of kids cheering 'Yay!'", True),
     "kids-ohno": (s_kids_ohno, "crowd", ["oh-no", "crowd", "kids", "surprise", "voices"], "a group of kids gasping 'Oh no!'", True),

@@ -32,3 +32,4 @@ spec in `kids-shorts/tiny-sparks/shortcuts.json`). Each is 1080x1920, 28-54 s.
 | 32 | A House on Its Back? 🐢 Guess the Animal! | Tiny Sparks #shorts | Who carries a little house everywhere it goes? It's Sammy the turtle! Can you hide like Sammy? Peekaboo! | Animals |
 | 35 | Shapes Song ⭐ Circle, Square, Triangle | Tiny Sparks #shorts | Shapes, shapes, all around the town! Round like the sun, four sides all the same, three sides like a tent! | Songs |
 | 36 | Momo's Hand Is Stuck! 🐒 The Greedy Little Monkey | Tiny Sparks #shorts | Momo wants ALL the nuts... and now his hand is stuck in the jar! Boing, boing, boing! | Moral stories |
+| 37 | Watch the Dino Eggs Hatch! 🥚🦖 Count by 2s to 20 | Tiny Sparks #shorts | Crack... crack... twenty dinosaur eggs are hatching! Count the babies by twos with Rexy: 2, 4, 6, 8... 20! | Numbers & Math |

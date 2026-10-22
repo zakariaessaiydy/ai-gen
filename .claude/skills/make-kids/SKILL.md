@@ -28,6 +28,15 @@ remotion/src/lib/kids/
                   panda · pig · owl · frog (fur/fur2/dark colours, scarf/bow/glasses/hat grad|
                   party|crown), same face + expressions, arms down|wave|up|hold|point|hug|clap|think,
                   walking (waddle), hop, facing ±1, critterFaceAt()
+  sea.tsx         <Fish> rig (Day 30) + Bubbles
+  dino.tsx        <Dino> rig (Day 37): kind rex · tops (triceratops) · stego · neck (long-neck) · baby (in its
+                  shell) — same face + expressions, walk, hop, squash, wave (tiny arms), facing ±1 ·
+                  props DinoEgg(crack, wobble) · EggNest(2×5 TEN-FRAME of egg cups, label) · Footprint ·
+                  NumStone(hiFirst = the tens digit in yellow) · set DinoValley(volcano, palms) ·
+                  model sheet = KidsDinoSheet
+  energy.tsx      the ENERGY LAYER (Day 37+ standard, see below): directorCam/ActionStage, hopAt,
+                  Reaction, Dust, MotionLines, StrainLines, ImpactStar, StageWord, FocusLines, StarWipe,
+                  SparksIntro, INTRO_S, onBeat
   sets.tsx        Meadow(smiling Sun, drifting clouds) · Classroom(board lines) · Bedroom(night,
                   moon, glow stars) · Space · Underwater(bubbles) · Forest — every set takes (w,h,t)
                   so ONE set serves 1080x1920 AND 1920x1080; stand characters on FLOOR(h)

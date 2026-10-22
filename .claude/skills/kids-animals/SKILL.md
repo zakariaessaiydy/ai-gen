@@ -27,6 +27,8 @@ Read `.claude/skills/make-kids/SKILL.md` first.
 
 bear · bunny · cat · fox · lion · mouse · panda · pig · owl · frog · monkey (added Day 18) · dog (added Day 23) · elephant (added Day 25) · turtle (added Day 32: fur = skin, fur2 = plastron, dark = shell; `tuck={0..1}` hides the head + paws in the shell — works on any Critter) — colour each with
 fur/fur2/dark; accessories (bow, scarf, party hat) for personality. FISH (added Day 30) is its own rig:
+`<Dino spec={{id, kind: 'rex'|'tops'|'stego'|'neck'|'baby', body, belly, accent, spots?, bow?}} …/>` in
+`lib/kids/dino.tsx` (Day 37) for dinosaur episodes (+ DinoEgg, EggNest, Footprint, the DinoValley set).
 `<Fish spec={{id, body, belly, fin, pattern: 'none'|'stripes'|'spots'|'rainbow', patternColor, bow}} …/>` in
 `lib/kids/sea.tsx` (same face/expressions, wagging tail, flapping fins, `swimming`, `facing`) + `<Bubbles>`; use
 `<Underwater life={false}>` when an episode COUNTS fish (no ambient extras). Other animals (elephant,

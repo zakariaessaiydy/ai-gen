@@ -214,5 +214,17 @@
    "MOMO'S HAND",
    "IS STUCK!"
   ]
+ },
+ {
+  "day": 37,
+  "comp": "KidsNumbers037",
+  "a": 207.9,
+  "b": 246.3,
+  "xc": 1100,
+  "w": 1440,
+  "lines": [
+   "THE EGGS ARE",
+   "HATCHING!"
+  ]
  }
 ]

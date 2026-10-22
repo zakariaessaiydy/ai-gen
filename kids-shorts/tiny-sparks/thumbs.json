@@ -258,5 +258,20 @@
   ],
   "at": "right",
   "size": 128
+ },
+ {
+  "day": 37,
+  "comp": "KidsNumbers037",
+  "t": 113.0,
+  "z": 1.5,
+  "fx": 1180,
+  "fy": 720,
+  "lines": [
+   "COUNT TO 20!"
+  ],
+  "at": "top",
+  "size": 128,
+  "rot": -3,
+  "ribbon": "bl"
  }
 ]

@@ -245,5 +245,19 @@ export const THUMBS: Thumb[] = [
   ],
   "size": 128,
   "at": "right"
+ },
+ {
+  "day": 37,
+  "frame": "d037-113.00.png",
+  "z": 1.5,
+  "fx": 1180,
+  "fy": 720,
+  "lines": [
+   "COUNT TO 20!"
+  ],
+  "size": 128,
+  "at": "top",
+  "rot": -3,
+  "ribbon": "bl"
  }
 ];
