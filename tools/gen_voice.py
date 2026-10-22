@@ -666,9 +666,10 @@ def main():
     raw_mix = os.path.join(vdir, "voice-raw.wav")
     run(["ffmpeg", "-y", "-v", "error", *inputs, "-filter_complex", fc,
          "-map", "[out]", "-ar", "44100", "-ac", "2", raw_mix])
-    # ONE static gain to -16 LUFS, peaks held by a limiter. (A single-pass loudnorm is dynamic: it starts
-    # low and ramps up over the first seconds, so the opening lines — the hook — came out 4-6 dB quieter
-    # than the rest of the episode.) The lines are already levelled by the per-line clean-up chain.
+    # ONE static gain to -16 LUFS, peaks held by a limiter. (A single-pass loudnorm is dynamic: when the
+    # first line starts late — e.g. after the 3.7 s channel jingle — it started low and ramped up, leaving
+    # the opening lines, the hook, up to 6 dB quieter; with the usual 1.8 s lead-in it measured fine.)
+    # The lines are already levelled by the per-line clean-up chain.
     lufs = measure_lufs(raw_mix)
     gain = 0.0 if lufs is None or lufs < -60 else -16.0 - lufs
     run(["ffmpeg", "-y", "-v", "error", "-i", raw_mix, "-af",
