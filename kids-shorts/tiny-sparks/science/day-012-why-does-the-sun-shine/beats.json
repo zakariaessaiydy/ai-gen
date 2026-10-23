@@ -1,0 +1,910 @@
+{
+  "id": "day-012",
+  "series": "tiny-sparks",
+  "episode": 12,
+  "title": "Why Does the Sun Shine?",
+  "composition": "KidsScience012",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 79.8
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "why",
+      "speaker": "mila",
+      "start": 1.4,
+      "end": 3.08,
+      "text": "Why does the Sun shine?",
+      "words": [
+        {
+          "w": "Why",
+          "start": 1.45,
+          "end": 1.774
+        },
+        {
+          "w": "does",
+          "start": 1.774,
+          "end": 2.098
+        },
+        {
+          "w": "the",
+          "start": 2.098,
+          "end": 2.261
+        },
+        {
+          "w": "Sun",
+          "start": 2.261,
+          "end": 2.585
+        },
+        {
+          "w": "shine?",
+          "start": 2.585,
+          "end": 2.99
+        }
+      ]
+    },
+    {
+      "beat": "guess",
+      "speaker": "leo",
+      "start": 4.28,
+      "end": 7.05,
+      "text": "I know! Someone turned on a giant light bulb!",
+      "words": [
+        {
+          "w": "I",
+          "start": 4.32,
+          "end": 5.16
+        },
+        {
+          "w": "know!",
+          "start": 5.16,
+          "end": 6.28
+        },
+        {
+          "w": "Someone",
+          "start": 6.39,
+          "end": 6.466
+        },
+        {
+          "w": "turned",
+          "start": 6.466,
+          "end": 6.531
+        },
+        {
+          "w": "on",
+          "start": 6.531,
+          "end": 6.563
+        },
+        {
+          "w": "a",
+          "start": 6.563,
+          "end": 6.595
+        },
+        {
+          "w": "giant",
+          "start": 6.595,
+          "end": 6.682
+        },
+        {
+          "w": "light",
+          "start": 6.682,
+          "end": 6.736
+        },
+        {
+          "w": "bulb!",
+          "start": 6.736,
+          "end": 6.79
+        }
+      ]
+    },
+    {
+      "beat": "good",
+      "speaker": "hoot",
+      "start": 8.45,
+      "end": 10.84,
+      "text": "Good guess, Leo! Let's find out.",
+      "words": [
+        {
+          "w": "Good",
+          "start": 8.49,
+          "end": 8.799
+        },
+        {
+          "w": "guess,",
+          "start": 8.799,
+          "end": 9.108
+        },
+        {
+          "w": "Leo!",
+          "start": 9.108,
+          "end": 9.571
+        },
+        {
+          "w": "Let's",
+          "start": 9.571,
+          "end": 9.958
+        },
+        {
+          "w": "find",
+          "start": 9.958,
+          "end": 10.421
+        },
+        {
+          "w": "out.",
+          "start": 10.421,
+          "end": 10.73
+        }
+      ]
+    },
+    {
+      "beat": "star",
+      "speaker": "hoot",
+      "start": 12.44,
+      "end": 16.96,
+      "text": "The Sun is a star! A giant ball of very, very hot gas.",
+      "words": [
+        {
+          "w": "The",
+          "start": 12.47,
+          "end": 12.639
+        },
+        {
+          "w": "Sun",
+          "start": 12.639,
+          "end": 12.978
+        },
+        {
+          "w": "is",
+          "start": 12.978,
+          "end": 13.147
+        },
+        {
+          "w": "a",
+          "start": 13.147,
+          "end": 13.401
+        },
+        {
+          "w": "star!",
+          "start": 13.401,
+          "end": 13.824
+        },
+        {
+          "w": "A",
+          "start": 13.824,
+          "end": 14.078
+        },
+        {
+          "w": "giant",
+          "start": 14.078,
+          "end": 14.755
+        },
+        {
+          "w": "ball",
+          "start": 14.755,
+          "end": 15.178
+        },
+        {
+          "w": "of",
+          "start": 15.178,
+          "end": 15.347
+        },
+        {
+          "w": "very,",
+          "start": 15.347,
+          "end": 15.77
+        },
+        {
+          "w": "very",
+          "start": 15.77,
+          "end": 16.193
+        },
+        {
+          "w": "hot",
+          "start": 16.193,
+          "end": 16.532
+        },
+        {
+          "w": "gas.",
+          "start": 16.532,
+          "end": 16.87
+        }
+      ]
+    },
+    {
+      "beat": "say",
+      "speaker": "hoot",
+      "start": 19.16,
+      "end": 21.08,
+      "text": "Can you say it? Star!",
+      "words": [
+        {
+          "w": "Can",
+          "start": 19.18,
+          "end": 19.482
+        },
+        {
+          "w": "you",
+          "start": 19.482,
+          "end": 19.708
+        },
+        {
+          "w": "say",
+          "start": 19.708,
+          "end": 20.009
+        },
+        {
+          "w": "it?",
+          "start": 20.009,
+          "end": 20.16
+        },
+        {
+          "w": "Star!",
+          "start": 20.33,
+          "end": 21.01
+        }
+      ]
+    },
+    {
+      "beat": "leo_say",
+      "speaker": "leo",
+      "start": 23.28,
+      "end": 24.05,
+      "text": "Star!",
+      "words": [
+        {
+          "w": "Star!",
+          "start": 23.33,
+          "end": 23.93
+        }
+      ]
+    },
+    {
+      "beat": "inside",
+      "speaker": "hoot",
+      "start": 26.45,
+      "end": 31.07,
+      "text": "Deep inside the Sun, tiny, tiny bits squeeze together, super hard.",
+      "words": [
+        {
+          "w": "Deep",
+          "start": 26.47,
+          "end": 26.847
+        },
+        {
+          "w": "inside",
+          "start": 26.847,
+          "end": 27.374
+        },
+        {
+          "w": "the",
+          "start": 27.374,
+          "end": 27.525
+        },
+        {
+          "w": "Sun,",
+          "start": 27.525,
+          "end": 27.826
+        },
+        {
+          "w": "tiny,",
+          "start": 27.826,
+          "end": 28.278
+        },
+        {
+          "w": "tiny",
+          "start": 28.278,
+          "end": 28.73
+        },
+        {
+          "w": "bits",
+          "start": 28.73,
+          "end": 29.107
+        },
+        {
+          "w": "squeeze",
+          "start": 29.107,
+          "end": 29.634
+        },
+        {
+          "w": "together,",
+          "start": 29.634,
+          "end": 30.161
+        },
+        {
+          "w": "super",
+          "start": 30.161,
+          "end": 30.613
+        },
+        {
+          "w": "hard.",
+          "start": 30.613,
+          "end": 30.99
+        }
+      ]
+    },
+    {
+      "beat": "energy",
+      "speaker": "hoot",
+      "start": 32.67,
+      "end": 35.67,
+      "text": "That squeezing makes lots of light, and heat!",
+      "words": [
+        {
+          "w": "That",
+          "start": 32.7,
+          "end": 32.945
+        },
+        {
+          "w": "squeezing",
+          "start": 32.945,
+          "end": 33.497
+        },
+        {
+          "w": "makes",
+          "start": 33.497,
+          "end": 33.865
+        },
+        {
+          "w": "lots",
+          "start": 33.865,
+          "end": 34.171
+        },
+        {
+          "w": "of",
+          "start": 34.171,
+          "end": 34.294
+        },
+        {
+          "w": "light,",
+          "start": 34.294,
+          "end": 34.6
+        },
+        {
+          "w": "and",
+          "start": 34.86,
+          "end": 35.13
+        },
+        {
+          "w": "heat!",
+          "start": 35.13,
+          "end": 35.58
+        }
+      ]
+    },
+    {
+      "beat": "travel",
+      "speaker": "hoot",
+      "start": 38.07,
+      "end": 42.55,
+      "text": "The light zooms all the way to Earth, to keep us warm and bright.",
+      "words": [
+        {
+          "w": "The",
+          "start": 38.1,
+          "end": 38.259
+        },
+        {
+          "w": "light",
+          "start": 38.259,
+          "end": 38.656
+        },
+        {
+          "w": "zooms",
+          "start": 38.656,
+          "end": 39.133
+        },
+        {
+          "w": "all",
+          "start": 39.133,
+          "end": 39.451
+        },
+        {
+          "w": "the",
+          "start": 39.451,
+          "end": 39.61
+        },
+        {
+          "w": "way",
+          "start": 39.61,
+          "end": 39.927
+        },
+        {
+          "w": "to",
+          "start": 39.927,
+          "end": 40.166
+        },
+        {
+          "w": "Earth,",
+          "start": 40.166,
+          "end": 40.484
+        },
+        {
+          "w": "to",
+          "start": 40.484,
+          "end": 40.722
+        },
+        {
+          "w": "keep",
+          "start": 40.722,
+          "end": 41.119
+        },
+        {
+          "w": "us",
+          "start": 41.119,
+          "end": 41.358
+        },
+        {
+          "w": "warm",
+          "start": 41.358,
+          "end": 41.755
+        },
+        {
+          "w": "and",
+          "start": 41.755,
+          "end": 41.993
+        },
+        {
+          "w": "bright.",
+          "start": 41.993,
+          "end": 42.47
+        }
+      ]
+    },
+    {
+      "beat": "leo_wow",
+      "speaker": "leo",
+      "start": 44.55,
+      "end": 46.89,
+      "text": "So it's not a light bulb. It's a star!",
+      "words": [
+        {
+          "w": "So",
+          "start": 44.59,
+          "end": 44.806
+        },
+        {
+          "w": "it's",
+          "start": 44.806,
+          "end": 44.968
+        },
+        {
+          "w": "not",
+          "start": 44.968,
+          "end": 45.239
+        },
+        {
+          "w": "a",
+          "start": 45.239,
+          "end": 45.401
+        },
+        {
+          "w": "light",
+          "start": 45.401,
+          "end": 45.671
+        },
+        {
+          "w": "bulb.",
+          "start": 45.671,
+          "end": 45.941
+        },
+        {
+          "w": "It's",
+          "start": 45.941,
+          "end": 46.104
+        },
+        {
+          "w": "a",
+          "start": 46.104,
+          "end": 46.266
+        },
+        {
+          "w": "star!",
+          "start": 46.266,
+          "end": 46.59
+        }
+      ]
+    },
+    {
+      "beat": "safety",
+      "speaker": "hoot",
+      "start": 49.29,
+      "end": 53.47,
+      "text": "Remember. Never look right at the Sun. It's too bright for your eyes!",
+      "words": [
+        {
+          "w": "Remember.",
+          "start": 49.31,
+          "end": 49.926
+        },
+        {
+          "w": "Never",
+          "start": 49.926,
+          "end": 50.311
+        },
+        {
+          "w": "look",
+          "start": 50.311,
+          "end": 50.619
+        },
+        {
+          "w": "right",
+          "start": 50.619,
+          "end": 51.004
+        },
+        {
+          "w": "at",
+          "start": 51.004,
+          "end": 51.158
+        },
+        {
+          "w": "the",
+          "start": 51.158,
+          "end": 51.312
+        },
+        {
+          "w": "Sun.",
+          "start": 51.312,
+          "end": 51.619
+        },
+        {
+          "w": "It's",
+          "start": 51.619,
+          "end": 51.85
+        },
+        {
+          "w": "too",
+          "start": 51.85,
+          "end": 52.158
+        },
+        {
+          "w": "bright",
+          "start": 52.158,
+          "end": 52.62
+        },
+        {
+          "w": "for",
+          "start": 52.62,
+          "end": 52.851
+        },
+        {
+          "w": "your",
+          "start": 52.851,
+          "end": 53.082
+        },
+        {
+          "w": "eyes!",
+          "start": 53.082,
+          "end": 53.39
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 56.07,
+      "end": 57.34,
+      "text": "Let's remember!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 56.18,
+          "end": 56.58
+        },
+        {
+          "w": "remember!",
+          "start": 56.58,
+          "end": 57.22
+        }
+      ]
+    },
+    {
+      "beat": "r1",
+      "speaker": "mila",
+      "start": 58.34,
+      "end": 59.92,
+      "text": "The Sun is a star.",
+      "words": [
+        {
+          "w": "The",
+          "start": 58.38,
+          "end": 58.547
+        },
+        {
+          "w": "Sun",
+          "start": 58.547,
+          "end": 58.881
+        },
+        {
+          "w": "is",
+          "start": 58.881,
+          "end": 59.048
+        },
+        {
+          "w": "a",
+          "start": 59.048,
+          "end": 59.299
+        },
+        {
+          "w": "star.",
+          "start": 59.299,
+          "end": 59.8
+        }
+      ]
+    },
+    {
+      "beat": "r2",
+      "speaker": "mila",
+      "start": 61.92,
+      "end": 63.83,
+      "text": "Tiny bits squeeze inside.",
+      "words": [
+        {
+          "w": "Tiny",
+          "start": 61.96,
+          "end": 62.375
+        },
+        {
+          "w": "bits",
+          "start": 62.375,
+          "end": 62.721
+        },
+        {
+          "w": "squeeze",
+          "start": 62.721,
+          "end": 63.206
+        },
+        {
+          "w": "inside.",
+          "start": 63.206,
+          "end": 63.69
+        }
+      ]
+    },
+    {
+      "beat": "r3",
+      "speaker": "mila",
+      "start": 65.83,
+      "end": 67.49,
+      "text": "That makes light and heat!",
+      "words": [
+        {
+          "w": "That",
+          "start": 65.86,
+          "end": 66.121
+        },
+        {
+          "w": "makes",
+          "start": 66.121,
+          "end": 66.512
+        },
+        {
+          "w": "light",
+          "start": 66.512,
+          "end": 66.838
+        },
+        {
+          "w": "and",
+          "start": 66.838,
+          "end": 67.034
+        },
+        {
+          "w": "heat!",
+          "start": 67.034,
+          "end": 67.36
+        }
+      ]
+    },
+    {
+      "beat": "wow",
+      "speaker": "hoot",
+      "start": 69.89,
+      "end": 73.98,
+      "text": "Wow fact! About one million Earths could fit inside the Sun!",
+      "words": [
+        {
+          "w": "Wow",
+          "start": 69.91,
+          "end": 70.234
+        },
+        {
+          "w": "fact!",
+          "start": 70.234,
+          "end": 70.64
+        },
+        {
+          "w": "About",
+          "start": 70.92,
+          "end": 71.337
+        },
+        {
+          "w": "one",
+          "start": 71.337,
+          "end": 71.615
+        },
+        {
+          "w": "million",
+          "start": 71.615,
+          "end": 72.102
+        },
+        {
+          "w": "Earths",
+          "start": 72.102,
+          "end": 72.45
+        },
+        {
+          "w": "could",
+          "start": 72.45,
+          "end": 72.728
+        },
+        {
+          "w": "fit",
+          "start": 72.728,
+          "end": 73.006
+        },
+        {
+          "w": "inside",
+          "start": 73.006,
+          "end": 73.493
+        },
+        {
+          "w": "the",
+          "start": 73.493,
+          "end": 73.632
+        },
+        {
+          "w": "Sun!",
+          "start": 73.632,
+          "end": 73.91
+        }
+      ]
+    },
+    {
+      "beat": "end",
+      "speaker": "mila",
+      "start": 75.98,
+      "end": 77.36,
+      "text": "Keep asking why!",
+      "words": [
+        {
+          "w": "Keep",
+          "start": 76.01,
+          "end": 76.413
+        },
+        {
+          "w": "asking",
+          "start": 76.413,
+          "end": 76.897
+        },
+        {
+          "w": "why!",
+          "start": 76.897,
+          "end": 77.22
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "why",
+      "start": 0,
+      "visual": "Why does the Sun shine?",
+      "end": 4.08
+    },
+    {
+      "id": "guess",
+      "start": 4.08,
+      "visual": "I know! Someone turned on a giant light bulb!",
+      "end": 8.25
+    },
+    {
+      "id": "good",
+      "start": 8.25,
+      "visual": "Good guess, Leo! Let's find out.",
+      "end": 12.24
+    },
+    {
+      "id": "star",
+      "start": 12.24,
+      "visual": "The Sun is a star! A giant ball of very, very hot gas.",
+      "end": 18.96
+    },
+    {
+      "id": "say",
+      "start": 18.96,
+      "visual": "Can you say it? Star!",
+      "end": 23.08
+    },
+    {
+      "id": "leo_say",
+      "start": 23.08,
+      "visual": "Star!",
+      "end": 26.25
+    },
+    {
+      "id": "inside",
+      "start": 26.25,
+      "visual": "Deep inside the Sun, tiny, tiny bits squeeze together, super hard.",
+      "end": 32.47
+    },
+    {
+      "id": "energy",
+      "start": 32.47,
+      "visual": "That squeezing makes lots of light, and heat!",
+      "end": 37.87
+    },
+    {
+      "id": "travel",
+      "start": 37.87,
+      "visual": "The light zooms all the way to Earth, to keep us warm and bright.",
+      "end": 44.35
+    },
+    {
+      "id": "leo_wow",
+      "start": 44.35,
+      "visual": "So it's not a light bulb. It's a star!",
+      "end": 49.09
+    },
+    {
+      "id": "safety",
+      "start": 49.09,
+      "visual": "Remember. Never look right at the Sun. It's too bright for your eyes!",
+      "end": 55.87
+    },
+    {
+      "id": "recap",
+      "start": 55.87,
+      "visual": "Let's remember!",
+      "end": 58.14
+    },
+    {
+      "id": "r1",
+      "start": 58.14,
+      "visual": "The Sun is a star.",
+      "end": 61.72
+    },
+    {
+      "id": "r2",
+      "start": 61.72,
+      "visual": "Tiny bits squeeze inside.",
+      "end": 65.63
+    },
+    {
+      "id": "r3",
+      "start": 65.63,
+      "visual": "That makes light and heat!",
+      "end": 69.69
+    },
+    {
+      "id": "wow",
+      "start": 69.69,
+      "visual": "Wow fact! About one million Earths could fit inside the Sun!",
+      "end": 75.78
+    },
+    {
+      "id": "end",
+      "start": 75.78,
+      "visual": "Keep asking why!",
+      "end": 79.8
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

@@ -1,0 +1,230 @@
+{
+  "master": "remotion/out/KidsAnimals011-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsAnimals011-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/animals/day-011-benny-the-rabbit-and-the-lost-carrot/output/day-011-sfx.mp4",
+    "end_s": 253.6,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0.05,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsAnimals011",
+      "cue": "title"
+    },
+    {
+      "at_s": 7.15,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals011",
+      "cue": "who timer"
+    },
+    {
+      "at_s": 12.45,
+      "sfx_id": "pop-reveal",
+      "gain_db": -12,
+      "shot": "KidsAnimals011",
+      "cue": "Benny pops out"
+    },
+    {
+      "at_s": 25.63,
+      "sfx_id": "impact-soft",
+      "gain_db": -15,
+      "shot": "KidsAnimals011",
+      "cue": "thump thump1"
+    },
+    {
+      "at_s": 30.64,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsAnimals011",
+      "cue": "YOUR TURN"
+    },
+    {
+      "at_s": 34.24,
+      "sfx_id": "impact-soft",
+      "gain_db": -15,
+      "shot": "KidsAnimals011",
+      "cue": "thump thump2"
+    },
+    {
+      "at_s": 40.38,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsAnimals011",
+      "cue": "fact1"
+    },
+    {
+      "at_s": 47.76,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsAnimals011",
+      "cue": "fact2"
+    },
+    {
+      "at_s": 55.38,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsAnimals011",
+      "cue": "fact3"
+    },
+    {
+      "at_s": 61.7,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -16,
+      "shot": "KidsAnimals011",
+      "cue": "binky binky"
+    },
+    {
+      "at_s": 80.58,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals011",
+      "cue": "hops away"
+    },
+    {
+      "at_s": 84.38,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals011",
+      "cue": "back"
+    },
+    {
+      "at_s": 103.74,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -17,
+      "shot": "KidsAnimals011",
+      "cue": "listen"
+    },
+    {
+      "at_s": 108.83,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -16,
+      "shot": "KidsAnimals011",
+      "cue": "crunch"
+    },
+    {
+      "at_s": 115.94,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsAnimals011",
+      "cue": "Pip found"
+    },
+    {
+      "at_s": 128.04,
+      "sfx_id": "chime-magic",
+      "gain_db": -15,
+      "shot": "KidsAnimals011",
+      "cue": "LET'S SHARE"
+    },
+    {
+      "at_s": 141.78,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -16,
+      "shot": "KidsAnimals011",
+      "cue": "binky benny_happy"
+    },
+    {
+      "at_s": 147.55,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsAnimals011",
+      "cue": "lesson"
+    },
+    {
+      "at_s": 152.52,
+      "sfx_id": "chime-magic",
+      "gain_db": -15,
+      "shot": "KidsAnimals011",
+      "cue": "LET'S REMEMBER"
+    },
+    {
+      "at_s": 159.4,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals011",
+      "cue": "t_q timer"
+    },
+    {
+      "at_s": 164.2,
+      "sfx_id": "impact-soft",
+      "gain_db": -15,
+      "shot": "KidsAnimals011",
+      "cue": "thump t_a"
+    },
+    {
+      "at_s": 172.13,
+      "sfx_id": "impact-soft",
+      "gain_db": -15,
+      "shot": "KidsAnimals011",
+      "cue": "thump t_b"
+    },
+    {
+      "at_s": 182.11,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals011",
+      "cue": "q1 timer"
+    },
+    {
+      "at_s": 187.71,
+      "sfx_id": "chime-reward",
+      "gain_db": -15,
+      "shot": "KidsAnimals011",
+      "cue": "a1"
+    },
+    {
+      "at_s": 197.35,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals011",
+      "cue": "q2 timer"
+    },
+    {
+      "at_s": 202.95,
+      "sfx_id": "chime-reward",
+      "gain_db": -15,
+      "shot": "KidsAnimals011",
+      "cue": "a2"
+    },
+    {
+      "at_s": 209.69,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsAnimals011",
+      "cue": "q3 timer"
+    },
+    {
+      "at_s": 215.29,
+      "sfx_id": "chime-reward",
+      "gain_db": -15,
+      "shot": "KidsAnimals011",
+      "cue": "a3"
+    },
+    {
+      "at_s": 224.23,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -16,
+      "shot": "KidsAnimals011",
+      "cue": "binky b_jump"
+    },
+    {
+      "at_s": 230.64,
+      "sfx_id": "chime-reward",
+      "gain_db": -15,
+      "shot": "KidsAnimals011",
+      "cue": "friends help"
+    },
+    {
+      "at_s": 243.88,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -15,
+      "shot": "KidsAnimals011",
+      "cue": "bye"
+    }
+  ]
+}

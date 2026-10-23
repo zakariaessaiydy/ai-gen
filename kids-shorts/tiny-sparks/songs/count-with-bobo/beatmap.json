@@ -1,0 +1,634 @@
+{
+ "title": "Count With Bobo (original)",
+ "bpm": 100.0,
+ "beatsPerBar": 4,
+ "secondsPerBeat": 0.6,
+ "durationSec": 50.0,
+ "introBars": 2,
+ "chords": [
+  {
+   "t": 0.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 2.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 4.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 7.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 9.6,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 12.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 14.4,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 16.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 19.2,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 21.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 24.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 26.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 28.8,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 31.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 33.6,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 36.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 38.4,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 40.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 43.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 45.6,
+   "dur": 2.4,
+   "chord": "C"
+  }
+ ],
+ "notes": [
+  {
+   "t": 4.8,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "One,"
+  },
+  {
+   "t": 5.4,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "two,"
+  },
+  {
+   "t": 6.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "three,"
+  },
+  {
+   "t": 6.6,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "four,"
+  },
+  {
+   "t": 7.2,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "five!"
+  },
+  {
+   "t": 9.6,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "Count"
+  },
+  {
+   "t": 10.2,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "them"
+  },
+  {
+   "t": 10.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "all"
+  },
+  {
+   "t": 11.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "with"
+  },
+  {
+   "t": 12.0,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "me!"
+  },
+  {
+   "t": 14.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "Six,"
+  },
+  {
+   "t": 15.0,
+   "dur": 0.3,
+   "midi": 65,
+   "syllable": "sev"
+  },
+  {
+   "t": 15.3,
+   "dur": 0.3,
+   "midi": 65,
+   "syllable": "en,"
+  },
+  {
+   "t": 15.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "eight,"
+  },
+  {
+   "t": 16.2,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "nine,"
+  },
+  {
+   "t": 16.8,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "ten!"
+  },
+  {
+   "t": 19.2,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "Let's"
+  },
+  {
+   "t": 19.5,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "count"
+  },
+  {
+   "t": 19.8,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "a"
+  },
+  {
+   "t": 20.4,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "gain,"
+  },
+  {
+   "t": 21.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "my"
+  },
+  {
+   "t": 21.6,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "friend!"
+  },
+  {
+   "t": 24.0,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "One,"
+  },
+  {
+   "t": 24.6,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "two,"
+  },
+  {
+   "t": 25.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "three,"
+  },
+  {
+   "t": 25.8,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "four,"
+  },
+  {
+   "t": 26.4,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "five!"
+  },
+  {
+   "t": 28.8,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "Count"
+  },
+  {
+   "t": 29.4,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "them"
+  },
+  {
+   "t": 30.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "all"
+  },
+  {
+   "t": 30.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "with"
+  },
+  {
+   "t": 31.2,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "me!"
+  },
+  {
+   "t": 33.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "Six,"
+  },
+  {
+   "t": 34.2,
+   "dur": 0.3,
+   "midi": 65,
+   "syllable": "sev"
+  },
+  {
+   "t": 34.5,
+   "dur": 0.3,
+   "midi": 65,
+   "syllable": "en,"
+  },
+  {
+   "t": 34.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "eight,"
+  },
+  {
+   "t": 35.4,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "nine,"
+  },
+  {
+   "t": 36.0,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "ten!"
+  },
+  {
+   "t": 38.4,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "Let's"
+  },
+  {
+   "t": 38.7,
+   "dur": 0.3,
+   "midi": 64,
+   "syllable": "count"
+  },
+  {
+   "t": 39.0,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "a"
+  },
+  {
+   "t": 39.6,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "gain,"
+  },
+  {
+   "t": 40.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "my"
+  },
+  {
+   "t": 40.8,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "friend!"
+  }
+ ],
+ "lines": [
+  {
+   "text": "One, two, three, four, five!",
+   "start": 4.8,
+   "end": 8.4,
+   "words": [
+    {
+     "w": "One,",
+     "start": 4.8,
+     "end": 5.4
+    },
+    {
+     "w": "two,",
+     "start": 5.4,
+     "end": 6.0
+    },
+    {
+     "w": "three,",
+     "start": 6.0,
+     "end": 6.6
+    },
+    {
+     "w": "four,",
+     "start": 6.6,
+     "end": 7.2
+    },
+    {
+     "w": "five!",
+     "start": 7.2,
+     "end": 8.4
+    }
+   ]
+  },
+  {
+   "text": "Count them all with me!",
+   "start": 9.6,
+   "end": 13.2,
+   "words": [
+    {
+     "w": "Count",
+     "start": 9.6,
+     "end": 10.2
+    },
+    {
+     "w": "them",
+     "start": 10.2,
+     "end": 10.8
+    },
+    {
+     "w": "all",
+     "start": 10.8,
+     "end": 11.4
+    },
+    {
+     "w": "with",
+     "start": 11.4,
+     "end": 12.0
+    },
+    {
+     "w": "me!",
+     "start": 12.0,
+     "end": 13.2
+    }
+   ]
+  },
+  {
+   "text": "Six, seven, eight, nine, ten!",
+   "start": 14.4,
+   "end": 18.0,
+   "words": [
+    {
+     "w": "Six,",
+     "start": 14.4,
+     "end": 15.0
+    },
+    {
+     "w": "seven,",
+     "start": 15.0,
+     "end": 15.6
+    },
+    {
+     "w": "eight,",
+     "start": 15.6,
+     "end": 16.2
+    },
+    {
+     "w": "nine,",
+     "start": 16.2,
+     "end": 16.8
+    },
+    {
+     "w": "ten!",
+     "start": 16.8,
+     "end": 18.0
+    }
+   ]
+  },
+  {
+   "text": "Let's count again, my friend!",
+   "start": 19.2,
+   "end": 22.8,
+   "words": [
+    {
+     "w": "Let's",
+     "start": 19.2,
+     "end": 19.5
+    },
+    {
+     "w": "count",
+     "start": 19.5,
+     "end": 19.8
+    },
+    {
+     "w": "again,",
+     "start": 19.8,
+     "end": 21.0
+    },
+    {
+     "w": "my",
+     "start": 21.0,
+     "end": 21.6
+    },
+    {
+     "w": "friend!",
+     "start": 21.6,
+     "end": 22.8
+    }
+   ]
+  },
+  {
+   "text": "One, two, three, four, five!",
+   "start": 24.0,
+   "end": 27.6,
+   "words": [
+    {
+     "w": "One,",
+     "start": 24.0,
+     "end": 24.6
+    },
+    {
+     "w": "two,",
+     "start": 24.6,
+     "end": 25.2
+    },
+    {
+     "w": "three,",
+     "start": 25.2,
+     "end": 25.8
+    },
+    {
+     "w": "four,",
+     "start": 25.8,
+     "end": 26.4
+    },
+    {
+     "w": "five!",
+     "start": 26.4,
+     "end": 27.6
+    }
+   ]
+  },
+  {
+   "text": "Count them all with me!",
+   "start": 28.8,
+   "end": 32.4,
+   "words": [
+    {
+     "w": "Count",
+     "start": 28.8,
+     "end": 29.4
+    },
+    {
+     "w": "them",
+     "start": 29.4,
+     "end": 30.0
+    },
+    {
+     "w": "all",
+     "start": 30.0,
+     "end": 30.6
+    },
+    {
+     "w": "with",
+     "start": 30.6,
+     "end": 31.2
+    },
+    {
+     "w": "me!",
+     "start": 31.2,
+     "end": 32.4
+    }
+   ]
+  },
+  {
+   "text": "Six, seven, eight, nine, ten!",
+   "start": 33.6,
+   "end": 37.2,
+   "words": [
+    {
+     "w": "Six,",
+     "start": 33.6,
+     "end": 34.2
+    },
+    {
+     "w": "seven,",
+     "start": 34.2,
+     "end": 34.8
+    },
+    {
+     "w": "eight,",
+     "start": 34.8,
+     "end": 35.4
+    },
+    {
+     "w": "nine,",
+     "start": 35.4,
+     "end": 36.0
+    },
+    {
+     "w": "ten!",
+     "start": 36.0,
+     "end": 37.2
+    }
+   ]
+  },
+  {
+   "text": "Let's count again, my friend!",
+   "start": 38.4,
+   "end": 42.0,
+   "words": [
+    {
+     "w": "Let's",
+     "start": 38.4,
+     "end": 38.7
+    },
+    {
+     "w": "count",
+     "start": 38.7,
+     "end": 39.0
+    },
+    {
+     "w": "again,",
+     "start": 39.0,
+     "end": 40.2
+    },
+    {
+     "w": "my",
+     "start": 40.2,
+     "end": 40.8
+    },
+    {
+     "w": "friend!",
+     "start": 40.8,
+     "end": 42.0
+    }
+   ]
+  }
+ ]
+}

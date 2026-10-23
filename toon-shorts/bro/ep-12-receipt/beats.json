@@ -1,0 +1,627 @@
+{
+ "id": "ep-12-receipt",
+ "series": "bro",
+ "episode": 12,
+ "title": "Bro tried to return something without a receipt",
+ "composition": "Bro12Receipt",
+ "audience": "anyone who has tried a return with zero proof and full confidence",
+ "format": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationSec": 34.8
+ },
+ "voicePlan": "kokoro",
+ "cast": {
+  "bro": {
+   "elevenlabs": "TX3LPaxmHKxFdv7VOQHJ",
+   "edge": "en-US-ChristopherNeural",
+   "rate": "+6%",
+   "kokoro": "am_puck"
+  },
+  "dee": {
+   "elevenlabs": "ErXwobaYiN019PkySvjV",
+   "edge": "en-US-EricNeural",
+   "rate": "+4%",
+   "kokoro": "am_michael"
+  },
+  "pam": {
+   "elevenlabs": "",
+   "edge": "en-US-JennyNeural",
+   "rate": "-4%",
+   "kokoro": "af_bella"
+  }
+ },
+ "vo": [
+  {
+   "beat": "hook",
+   "speaker": "bro",
+   "start": 0.15,
+   "end": 2.53,
+   "text": "I'd like to return this. And I know my rights.",
+   "words": [
+    {
+     "w": "I'd",
+     "start": 0.17,
+     "end": 0.324
+    },
+    {
+     "w": "like",
+     "start": 0.324,
+     "end": 0.581
+    },
+    {
+     "w": "to",
+     "start": 0.581,
+     "end": 0.736
+    },
+    {
+     "w": "return",
+     "start": 0.736,
+     "end": 1.096
+    },
+    {
+     "w": "this.",
+     "start": 1.096,
+     "end": 1.301
+    },
+    {
+     "w": "And",
+     "start": 1.301,
+     "end": 1.456
+    },
+    {
+     "w": "I",
+     "start": 1.456,
+     "end": 1.61
+    },
+    {
+     "w": "know",
+     "start": 1.61,
+     "end": 1.816
+    },
+    {
+     "w": "my",
+     "start": 1.816,
+     "end": 2.021
+    },
+    {
+     "w": "rights.",
+     "start": 2.021,
+     "end": 2.33
+    }
+   ]
+  },
+  {
+   "beat": "hook",
+   "speaker": "dee",
+   "start": 2.73,
+   "end": 4.84,
+   "text": "You don't even know your own phone number.",
+   "words": [
+    {
+     "w": "You",
+     "start": 2.83,
+     "end": 2.983
+    },
+    {
+     "w": "don't",
+     "start": 2.983,
+     "end": 3.29
+    },
+    {
+     "w": "even",
+     "start": 3.29,
+     "end": 3.596
+    },
+    {
+     "w": "know",
+     "start": 3.596,
+     "end": 3.801
+    },
+    {
+     "w": "your",
+     "start": 3.801,
+     "end": 3.954
+    },
+    {
+     "w": "own",
+     "start": 3.954,
+     "end": 4.158
+    },
+    {
+     "w": "phone",
+     "start": 4.158,
+     "end": 4.414
+    },
+    {
+     "w": "number.",
+     "start": 4.414,
+     "end": 4.72
+    }
+   ]
+  },
+  {
+   "beat": "hook",
+   "speaker": "bro",
+   "start": 5.44,
+   "end": 7.11,
+   "text": "...Rights are easier. There's like four.",
+   "words": [
+    {
+     "w": "...Rights",
+     "start": 5.47,
+     "end": 5.77
+    },
+    {
+     "w": "are",
+     "start": 5.77,
+     "end": 5.92
+    },
+    {
+     "w": "easier.",
+     "start": 5.92,
+     "end": 6.22
+    },
+    {
+     "w": "There's",
+     "start": 6.22,
+     "end": 6.47
+    },
+    {
+     "w": "like",
+     "start": 6.47,
+     "end": 6.72
+    },
+    {
+     "w": "four.",
+     "start": 6.72,
+     "end": 6.97
+    }
+   ]
+  },
+  {
+   "beat": "setup",
+   "speaker": "pam",
+   "start": 7.56,
+   "end": 8.26,
+   "text": "Receipt?",
+   "words": [
+    {
+     "w": "Receipt?",
+     "start": 7.59,
+     "end": 8.19
+    }
+   ]
+  },
+  {
+   "beat": "setup",
+   "speaker": "bro",
+   "start": 8.76,
+   "end": 9.73,
+   "text": "I am the receipt.",
+   "words": [
+    {
+     "w": "I",
+     "start": 8.79,
+     "end": 8.961
+    },
+    {
+     "w": "am",
+     "start": 8.961,
+     "end": 9.076
+    },
+    {
+     "w": "the",
+     "start": 9.076,
+     "end": 9.19
+    },
+    {
+     "w": "receipt.",
+     "start": 9.19,
+     "end": 9.59
+    }
+   ]
+  },
+  {
+   "beat": "setup",
+   "speaker": "bro",
+   "start": 10.18,
+   "end": 11.43,
+   "text": "Trust me. I got this.",
+   "words": [
+    {
+     "w": "Trust",
+     "start": 10.23,
+     "end": 10.519
+    },
+    {
+     "w": "me.",
+     "start": 10.519,
+     "end": 10.712
+    },
+    {
+     "w": "I",
+     "start": 10.712,
+     "end": 10.856
+    },
+    {
+     "w": "got",
+     "start": 10.856,
+     "end": 11.097
+    },
+    {
+     "w": "this.",
+     "start": 11.097,
+     "end": 11.29
+    }
+   ]
+  },
+  {
+   "beat": "reveal",
+   "speaker": "pam",
+   "start": 11.83,
+   "end": 12.89,
+   "text": "Has it been used?",
+   "words": [
+    {
+     "w": "Has",
+     "start": 11.87,
+     "end": 12.088
+    },
+    {
+     "w": "it",
+     "start": 12.088,
+     "end": 12.196
+    },
+    {
+     "w": "been",
+     "start": 12.196,
+     "end": 12.414
+    },
+    {
+     "w": "used?",
+     "start": 12.414,
+     "end": 12.74
+    }
+   ]
+  },
+  {
+   "beat": "reveal",
+   "speaker": "bro",
+   "start": 13.14,
+   "end": 14.22,
+   "text": "Never. Brand new.",
+   "words": [
+    {
+     "w": "Never.",
+     "start": 13.17,
+     "end": 13.49
+    },
+    {
+     "w": "Brand",
+     "start": 13.49,
+     "end": 13.874
+    },
+    {
+     "w": "new.",
+     "start": 13.874,
+     "end": 14.13
+    }
+   ]
+  },
+  {
+   "beat": "reveal",
+   "speaker": "bro",
+   "start": 16.22,
+   "end": 17.42,
+   "text": "...It came pre-toasted.",
+   "words": [
+    {
+     "w": "...It",
+     "start": 16.25,
+     "end": 16.367
+    },
+    {
+     "w": "came",
+     "start": 16.367,
+     "end": 16.658
+    },
+    {
+     "w": "pre-toasted.",
+     "start": 16.658,
+     "end": 17.3
+    }
+   ]
+  },
+  {
+   "beat": "escalate",
+   "speaker": "pam",
+   "start": 17.87,
+   "end": 19.06,
+   "text": "Sir. You're banned.",
+   "words": [
+    {
+     "w": "Sir.",
+     "start": 17.9,
+     "end": 18.24
+    },
+    {
+     "w": "You're",
+     "start": 18.37,
+     "end": 18.569
+    },
+    {
+     "w": "banned.",
+     "start": 18.569,
+     "end": 18.9
+    }
+   ]
+  },
+  {
+   "beat": "stare",
+   "speaker": "bro",
+   "start": 20.56,
+   "end": 21.82,
+   "text": "...That's a fan poster.",
+   "words": [
+    {
+     "w": "...That's",
+     "start": 20.59,
+     "end": 20.882
+    },
+    {
+     "w": "a",
+     "start": 20.882,
+     "end": 21.057
+    },
+    {
+     "w": "fan",
+     "start": 21.057,
+     "end": 21.291
+    },
+    {
+     "w": "poster.",
+     "start": 21.291,
+     "end": 21.7
+    }
+   ]
+  },
+  {
+   "beat": "twist",
+   "speaker": "bro",
+   "start": 22.42,
+   "end": 23.85,
+   "text": "Fine. I'll buy another one.",
+   "words": [
+    {
+     "w": "Fine.",
+     "start": 22.47,
+     "end": 22.759
+    },
+    {
+     "w": "I'll",
+     "start": 22.759,
+     "end": 22.932
+    },
+    {
+     "w": "buy",
+     "start": 22.932,
+     "end": 23.163
+    },
+    {
+     "w": "another",
+     "start": 23.163,
+     "end": 23.509
+    },
+    {
+     "w": "one.",
+     "start": 23.509,
+     "end": 23.74
+    }
+   ]
+  },
+  {
+   "beat": "twist",
+   "speaker": "dee",
+   "start": 24.1,
+   "end": 24.85,
+   "text": "Why?!",
+   "words": [
+    {
+     "w": "Why?!",
+     "start": 24.14,
+     "end": 24.67
+    }
+   ]
+  },
+  {
+   "beat": "math",
+   "speaker": "bro",
+   "start": 25.15,
+   "end": 28.37,
+   "text": "One toaster is a mistake. Two toasters is a collection.",
+   "words": [
+    {
+     "w": "One",
+     "start": 25.18,
+     "end": 25.414
+    },
+    {
+     "w": "toaster",
+     "start": 25.414,
+     "end": 25.822
+    },
+    {
+     "w": "is",
+     "start": 25.822,
+     "end": 25.939
+    },
+    {
+     "w": "a",
+     "start": 25.939,
+     "end": 26.114
+    },
+    {
+     "w": "mistake.",
+     "start": 26.114,
+     "end": 26.582
+    },
+    {
+     "w": "Two",
+     "start": 26.582,
+     "end": 26.815
+    },
+    {
+     "w": "toasters",
+     "start": 26.815,
+     "end": 27.282
+    },
+    {
+     "w": "is",
+     "start": 27.282,
+     "end": 27.399
+    },
+    {
+     "w": "a",
+     "start": 27.399,
+     "end": 27.574
+    },
+    {
+     "w": "collection.",
+     "start": 27.574,
+     "end": 28.1
+    }
+   ]
+  },
+  {
+   "beat": "tag",
+   "speaker": "pam",
+   "start": 28.92,
+   "end": 29.62,
+   "text": "Receipt?",
+   "words": [
+    {
+     "w": "Receipt?",
+     "start": 28.95,
+     "end": 29.55
+    }
+   ]
+  },
+  {
+   "beat": "tag",
+   "speaker": "bro",
+   "start": 30.22,
+   "end": 31.4,
+   "text": "...Keep it. I'll be back.",
+   "words": [
+    {
+     "w": "...Keep",
+     "start": 30.26,
+     "end": 30.543
+    },
+    {
+     "w": "it.",
+     "start": 30.543,
+     "end": 30.657
+    },
+    {
+     "w": "I'll",
+     "start": 30.657,
+     "end": 30.827
+    },
+    {
+     "w": "be",
+     "start": 30.827,
+     "end": 31.053
+    },
+    {
+     "w": "back.",
+     "start": 31.053,
+     "end": 31.28
+    }
+   ]
+  },
+  {
+   "beat": "signature",
+   "speaker": "bro",
+   "start": 32.5,
+   "end": 33.32,
+   "text": "I got this.",
+   "words": [
+    {
+     "w": "I",
+     "start": 32.53,
+     "end": 32.7
+    },
+    {
+     "w": "got",
+     "start": 32.7,
+     "end": 32.983
+    },
+    {
+     "w": "this.",
+     "start": 32.983,
+     "end": 33.21
+    }
+   ]
+  }
+ ],
+ "beats": [
+  {
+   "id": "hook",
+   "start": 0,
+   "end": 7.46,
+   "visual": "BRO: I'd like to return this. And I know my rights. / DEE: You don't even know your own phone number. / BRO: ...Rights are easier. There's like four."
+  },
+  {
+   "id": "setup",
+   "start": 7.46,
+   "end": 11.73,
+   "visual": "PAM: Receipt? / BRO: I am the receipt. / BRO: Trust me. I got this."
+  },
+  {
+   "id": "reveal",
+   "start": 11.73,
+   "end": 17.77,
+   "visual": "PAM: Has it been used? / BRO: Never. Brand new. / BRO: ...It came pre-toasted."
+  },
+  {
+   "id": "escalate",
+   "start": 17.77,
+   "end": 20.46,
+   "visual": "PAM: Sir. You're banned."
+  },
+  {
+   "id": "stare",
+   "start": 20.46,
+   "end": 22.32,
+   "visual": "BRO: ...That's a fan poster."
+  },
+  {
+   "id": "twist",
+   "start": 22.32,
+   "end": 25.05,
+   "visual": "BRO: Fine. I'll buy another one. / DEE: Why?!"
+  },
+  {
+   "id": "math",
+   "start": 25.05,
+   "end": 28.82,
+   "visual": "BRO: One toaster is a mistake. Two toasters is a collection."
+  },
+  {
+   "id": "tag",
+   "start": 28.82,
+   "end": 32.4,
+   "visual": "PAM: Receipt? / BRO: ...Keep it. I'll be back."
+  },
+  {
+   "id": "signature",
+   "start": 32.4,
+   "end": 34.8,
+   "visual": "BRO: I got this."
+  }
+ ],
+ "voiceStatus": "kokoro:cast"
+}

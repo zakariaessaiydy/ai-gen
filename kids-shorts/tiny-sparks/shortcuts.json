@@ -1,0 +1,266 @@
+[
+ {
+  "day": 3,
+  "comp": "KidsWords003",
+  "a": 1.3,
+  "b": 41.7,
+  "xc": 930,
+  "w": 1440,
+  "lines": [
+   "LEARN ANIMALS",
+   "ENGLISH + FRENCH"
+  ]
+ },
+ {
+  "day": 4,
+  "comp": "KidsAnimals004",
+  "a": 1.5,
+  "b": 30.0,
+  "xc": 800,
+  "w": 1080,
+  "lines": [
+   "WHO IS HIDING?",
+   "CAN YOU GUESS?"
+  ]
+ },
+ {
+  "day": 7,
+  "comp": "KidsSongs007",
+  "a": 4.6,
+  "b": 51.4,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "COUNT TO 10!",
+   "SING ALONG"
+  ]
+ },
+ {
+  "day": 8,
+  "comp": "KidsMorals008",
+  "a": 18.3,
+  "b": 67.8,
+  "xc": 930,
+  "w": 1440,
+  "lines": [
+   "OH NO!",
+   "WHO BROKE IT?"
+  ]
+ },
+ {
+  "day": 10,
+  "comp": "KidsWords010",
+  "a": 1.3,
+  "b": 44.6,
+  "xc": 930,
+  "w": 1440,
+  "lines": [
+   "LEARN COLORS",
+   "ENGLISH + FRENCH"
+  ]
+ },
+ {
+  "day": 11,
+  "comp": "KidsAnimals011",
+  "a": 1.5,
+  "b": 36.0,
+  "xc": 800,
+  "w": 1440,
+  "lines": [
+   "WHOSE LONG EARS?",
+   "CAN YOU GUESS?"
+  ]
+ },
+ {
+  "day": 14,
+  "comp": "KidsSongs014",
+  "a": 4.6,
+  "b": 58.0,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "COUNT TO 20!",
+   "SING ALONG"
+  ]
+ },
+ {
+  "day": 15,
+  "comp": "KidsStories015",
+  "a": 1.5,
+  "b": 47.0,
+  "xc": 800,
+  "w": 1440,
+  "lines": [
+   "WHAT'S THE",
+   "MAGIC WORD?"
+  ]
+ },
+ {
+  "day": 17,
+  "comp": "KidsWords017",
+  "a": 1.3,
+  "b": 42.6,
+  "xc": 930,
+  "w": 1440,
+  "lines": [
+   "COUNT 1, 2, 3",
+   "ENGLISH + FRENCH"
+  ]
+ },
+ {
+  "day": 18,
+  "comp": "KidsAnimals018",
+  "a": 1.5,
+  "b": 33.6,
+  "xc": 1000,
+  "w": 1440,
+  "lines": [
+   "WHO IS HANGING",
+   "FROM THE TREE?"
+  ]
+ },
+ {
+  "day": 21,
+  "comp": "KidsSongs021",
+  "a": 4.6,
+  "b": 51.4,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "ABC SONG",
+   "SING ALONG"
+  ]
+ },
+ {
+  "day": 22,
+  "comp": "KidsMorals022",
+  "a": 1.5,
+  "b": 56.0,
+  "xc": 1060,
+  "w": 1440,
+  "lines": [
+   "MILA WON'T",
+   "SHARE..."
+  ]
+ },
+ {
+  "day": 25,
+  "comp": "KidsAnimals025",
+  "a": 1.5,
+  "b": 36.6,
+  "xc": 800,
+  "w": 1440,
+  "lines": [
+   "BIG EARS,",
+   "LONG NOSE?"
+  ]
+ },
+ {
+  "day": 28,
+  "comp": "KidsSongs028",
+  "a": 4.9,
+  "b": 52.0,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "COLORS SONG",
+   "SING ALONG"
+  ]
+ },
+ {
+  "day": 29,
+  "comp": "KidsStories029",
+  "a": 1.4,
+  "b": 55.4,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "SO MESSY!",
+   "WHERE'S THE BALL?"
+  ]
+ },
+ {
+  "day": 32,
+  "comp": "KidsAnimals032",
+  "a": 1.5,
+  "b": 42.8,
+  "xc": 1120,
+  "w": 1080,
+  "lines": [
+   "A HOUSE ON",
+   "ITS BACK?"
+  ]
+ },
+ {
+  "day": 35,
+  "comp": "KidsSongs035",
+  "a": 4.8,
+  "b": 51.0,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "SHAPES SONG",
+   "SING ALONG"
+  ]
+ },
+ {
+  "day": 36,
+  "comp": "KidsMorals036",
+  "a": 25.6,
+  "b": 67.6,
+  "xc": 950,
+  "w": 1200,
+  "lines": [
+   "MOMO'S HAND",
+   "IS STUCK!"
+  ]
+ },
+ {
+  "day": 37,
+  "comp": "KidsNumbers037",
+  "a": 207.9,
+  "b": 246.3,
+  "xc": 1100,
+  "w": 1440,
+  "lines": [
+   "THE EGGS ARE",
+   "HATCHING!"
+  ]
+ },
+ {
+  "day": 39,
+  "comp": "KidsAnimals039",
+  "a": 114.6,
+  "b": 150.6,
+  "xc": 1000,
+  "w": 1440,
+  "lines": [
+   "CAN OLIVER",
+   "FLY?"
+  ]
+ },
+ {
+  "day": 42,
+  "comp": "KidsSongs042",
+  "a": 3.5,
+  "b": 51.8,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "DAYS OF THE WEEK",
+   "SING ALONG!"
+  ]
+ },
+ {
+  "day": 43,
+  "comp": "KidsStories043",
+  "a": 70.0,
+  "b": 108.9,
+  "xc": 900,
+  "w": 1440,
+  "lines": [
+   "COUNT TO TEN",
+   "WITH MILA!"
+  ]
+ }
+]

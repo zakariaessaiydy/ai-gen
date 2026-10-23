@@ -89,7 +89,7 @@ windows too tight for the narration, and sfx cues naming ids the catalog lacks.
 
 **Then read the frames:**
 ```
-cd remotion && npm run gen        # frames.mjs does NOT run gen-registry itself
+cd remotion                      # frames.mjs refreshes the shot registry itself
 node scripts/frames.mjs ShortNName --auto --scale=0.5      # frames DERIVED from beats.json
 node scripts/frames.mjs ShortNName 0,140,290,540 --scale=0.5   # or an explicit list
 ```

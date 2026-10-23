@@ -1,0 +1,123 @@
+{
+ "title": "Days of the Week Song (Tiny Sparks original)",
+ "bpm": 100,
+ "beatsPerBar": 4,
+ "introBars": 2,
+ "outroBars": 2,
+ "instruments": {
+  "lead": "xylophone",
+  "chords": "ukulele",
+  "bass": true,
+  "drums": "soft",
+  "leadWithVocal": true
+ },
+ "singer": "mila",
+ "vocal": {
+  "voice": "af_sky",
+  "pitch": 0,
+  "rate": "-4%"
+ },
+ "sections": {
+  "chorus": {
+   "chords": "C | C | F | C | C | F | G | C",
+   "melody": "C4:1 C4:1 E4:1 E4:1 | G4:1 G4:1 E4:2 | F4:1 F4:1 A4:1 A4:1 | G4:1 F4:1 E4:2 | E4:1 E4:1 G4:0.5 G4:0.5 G4:1 | A4:2 G4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": "Sun-day, Mon-day, Tues-day too, / Wednes-day, Thurs-day, me and you! / Fri-day, Sat-ur-day, hoo-ray! / Sev-en days, come sing and play!"
+  },
+  "karaoke": {
+   "chords": "C | C | F | C | C | F | G | C",
+   "melody": "C4:1 C4:1 E4:1 E4:1 | G4:1 G4:1 E4:2 | F4:1 F4:1 A4:1 A4:1 | G4:1 F4:1 E4:2 | E4:1 E4:1 G4:0.5 G4:0.5 G4:1 | A4:2 G4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": ""
+  },
+  "sunday": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "Sun-day, Sun-day! / Shi-ny, sun-ny day!"
+  },
+  "monday": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "Mon-day, Mon-day! / Back to school we go!"
+  },
+  "tuesday": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "Tues-day, Tues-day! / Paint a pic-ture day!"
+  },
+  "wednesday": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "Wednes-day, Wednes-day! / Mid-dle of the week!"
+  },
+  "thursday": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "Thurs-day, Thurs-day! / Dance a-round to-day!"
+  },
+  "friday": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "Fri-day, Fri-day! / Piz-za par-ty day!"
+  },
+  "saturday": {
+   "chords": "C | G | C | G",
+   "melody": "G4:0.5 G4:0.5 E4:1 G4:0.5 G4:0.5 E4:1 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | G4:0.5 G4:0.5 E4:1 G4:0.5 G4:0.5 E4:1 | R:4",
+   "lyrics": "Sat-ur-day, Sat-ur-day! / Play out-side all day!"
+  },
+  "q1": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 R:2 | R:4 | R:4 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "What comes af-ter Mon-day? / Tues-day! Tues-day!"
+  },
+  "q2": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 R:2 | R:4 | R:4 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "What comes af-ter Wednes-day? / Thurs-day! Thurs-day!"
+  },
+  "q3": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 R:2 | R:4 | R:4 | G4:0.5 G4:0.5 E4:1 G4:0.5 G4:0.5 E4:1 | R:4",
+   "lyrics": "What comes af-ter Fri-day? / Sat-ur-day! Sat-ur-day!"
+  },
+  "q4": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | R:4 | R:4 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "What comes af-ter Sat-ur-day? / Sun-day! Sun-day!"
+  },
+  "q5": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 R:2 | R:4 | R:4 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "What comes be-fore Wednes-day? / Tues-day! Tues-day!"
+  },
+  "weekend": {
+   "chords": "Am | F | C | G | Am | F | G | C",
+   "melody": "E4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 R:2 | F4:1 F4:1 A4:1 A4:1 | G4:1 E4:1 R:2 | E4:1 E4:1 G4:1 G4:1 | C5:1 A4:1 G4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": "Sat-ur-day and Sun-day, / they are called the week-end! / Five school days and two to play, / sev-en days in all, hoo-ray!"
+  },
+  "slow": {
+   "chords": "C | C | C | G | C | G | C | G | C | G | C | G | C | G | C | C",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | C4:2 R:2 | G4:2 E4:2 | R:4 | G4:2 E4:2 | R:4 | G4:2 E4:2 | R:4 | G4:2 E4:2 | R:4 | G4:2 E4:2 | R:4 | G4:2 E4:2 | R:4 | G4:1 G4:1 E4:2 | R:4",
+   "lyrics": "Let's say them slow-ly! / Sun-day / Mon-day / Tues-day / Wednes-day / Thurs-day / Fri-day / Sat-ur-day"
+  }
+ },
+ "form": [
+  "chorus",
+  "sunday",
+  "monday",
+  "tuesday",
+  "wednesday",
+  "thursday",
+  "friday",
+  "saturday",
+  "chorus",
+  "q1",
+  "q2",
+  "q3",
+  "q4",
+  "q5",
+  "chorus",
+  "weekend",
+  "karaoke",
+  "slow",
+  "chorus"
+ ]
+}

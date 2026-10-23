@@ -1,0 +1,23 @@
+{
+  "title": "Twinkle Twinkle Little Star (traditional — public-domain melody, our arrangement)",
+  "bpm": 92,
+  "beatsPerBar": 4,
+  "introBars": 1,
+  "outroBars": 2,
+  "instruments": { "lead": "musicbox", "chords": "piano", "bass": true, "drums": "none" },
+  "singer": "mila",
+  "vocal": { "voice": "af_bella", "pitch": 4, "rate": "-8%" },
+  "sections": {
+    "a": {
+      "chords": "C | F C | F C | G C",
+      "melody": "C4:1 C4:1 G4:1 G4:1 | A4:1 A4:1 G4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+      "lyrics": "Twin-kle, twin-kle, lit-tle star, / how I won-der what you are!"
+    },
+    "b": {
+      "chords": "C G | C G | C G | C G",
+      "melody": "G4:1 G4:1 F4:1 F4:1 | E4:1 E4:1 D4:2 | G4:1 G4:1 F4:1 F4:1 | E4:1 E4:1 D4:2",
+      "lyrics": "Up a-bove the world so high, / like a dia-mond in the sky!"
+    }
+  },
+  "form": ["a", "b", "a"]
+}

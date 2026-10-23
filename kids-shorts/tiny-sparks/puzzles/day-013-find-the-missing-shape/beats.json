@@ -1,0 +1,835 @@
+{
+  "id": "day-013",
+  "series": "tiny-sparks",
+  "episode": 13,
+  "title": "Find the Missing Shape",
+  "composition": "KidsPuzzles013",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 88.1
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "hoot",
+      "start": 1.4,
+      "end": 3.34,
+      "text": "Can you find the missing shape?",
+      "words": [
+        {
+          "w": "Can",
+          "start": 1.44,
+          "end": 1.718
+        },
+        {
+          "w": "you",
+          "start": 1.718,
+          "end": 1.927
+        },
+        {
+          "w": "find",
+          "start": 1.927,
+          "end": 2.345
+        },
+        {
+          "w": "the",
+          "start": 2.345,
+          "end": 2.484
+        },
+        {
+          "w": "missing",
+          "start": 2.484,
+          "end": 2.902
+        },
+        {
+          "w": "shape?",
+          "start": 2.902,
+          "end": 3.25
+        }
+      ]
+    },
+    {
+      "beat": "p1_intro",
+      "speaker": "hoot",
+      "start": 4.94,
+      "end": 6.02,
+      "text": "Puzzle one!",
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 4.97,
+          "end": 5.552
+        },
+        {
+          "w": "one!",
+          "start": 5.552,
+          "end": 5.94
+        }
+      ]
+    },
+    {
+      "beat": "p1_read",
+      "speaker": "hoot",
+      "start": 7.22,
+      "end": 10.44,
+      "text": "Circle... square... circle... square... circle...",
+      "words": [
+        {
+          "w": "Circle...",
+          "start": 7.25,
+          "end": 7.91
+        },
+        {
+          "w": "square...",
+          "start": 7.91,
+          "end": 8.475
+        },
+        {
+          "w": "circle...",
+          "start": 8.475,
+          "end": 9.135
+        },
+        {
+          "w": "square...",
+          "start": 9.135,
+          "end": 9.7
+        },
+        {
+          "w": "circle...",
+          "start": 9.7,
+          "end": 10.36
+        }
+      ]
+    },
+    {
+      "beat": "p1_q",
+      "speaker": "hoot",
+      "start": 11.64,
+      "end": 13.15,
+      "text": "What comes next?",
+      "words": [
+        {
+          "w": "What",
+          "start": 11.68,
+          "end": 12.051
+        },
+        {
+          "w": "comes",
+          "start": 12.051,
+          "end": 12.514
+        },
+        {
+          "w": "next?",
+          "start": 12.514,
+          "end": 13.07
+        }
+      ]
+    },
+    {
+      "beat": "p1_leo",
+      "speaker": "leo",
+      "start": 18.35,
+      "end": 19.48,
+      "text": "A triangle!",
+      "words": [
+        {
+          "w": "A",
+          "start": 18.38,
+          "end": 18.588
+        },
+        {
+          "w": "triangle!",
+          "start": 18.588,
+          "end": 19.28
+        }
+      ]
+    },
+    {
+      "beat": "p1_no",
+      "speaker": "hoot",
+      "start": 20.68,
+      "end": 23.34,
+      "text": "Hmm, not quite, Leo. Look at the pattern.",
+      "words": [
+        {
+          "w": "Hmm,",
+          "start": 20.73,
+          "end": 20.96
+        },
+        {
+          "w": "not",
+          "start": 20.96,
+          "end": 21.267
+        },
+        {
+          "w": "quite,",
+          "start": 21.267,
+          "end": 21.727
+        },
+        {
+          "w": "Leo.",
+          "start": 21.727,
+          "end": 22.187
+        },
+        {
+          "w": "Look",
+          "start": 22.187,
+          "end": 22.493
+        },
+        {
+          "w": "at",
+          "start": 22.493,
+          "end": 22.647
+        },
+        {
+          "w": "the",
+          "start": 22.647,
+          "end": 22.8
+        },
+        {
+          "w": "pattern.",
+          "start": 22.8,
+          "end": 23.26
+        }
+      ]
+    },
+    {
+      "beat": "p1_ans",
+      "speaker": "hoot",
+      "start": 24.74,
+      "end": 27.91,
+      "text": "Circle, square, circle, square! It's a square!",
+      "words": [
+        {
+          "w": "Circle,",
+          "start": 24.77,
+          "end": 25.337
+        },
+        {
+          "w": "square,",
+          "start": 25.337,
+          "end": 25.824
+        },
+        {
+          "w": "circle,",
+          "start": 25.824,
+          "end": 26.391
+        },
+        {
+          "w": "square!",
+          "start": 26.391,
+          "end": 26.877
+        },
+        {
+          "w": "It's",
+          "start": 26.877,
+          "end": 27.121
+        },
+        {
+          "w": "a",
+          "start": 27.121,
+          "end": 27.364
+        },
+        {
+          "w": "square!",
+          "start": 27.364,
+          "end": 27.85
+        }
+      ]
+    },
+    {
+      "beat": "p1_yay",
+      "speaker": "leo",
+      "start": 29.31,
+      "end": 30.71,
+      "text": "A square! Silly me!",
+      "words": [
+        {
+          "w": "A",
+          "start": 29.34,
+          "end": 29.525
+        },
+        {
+          "w": "square!",
+          "start": 29.525,
+          "end": 29.895
+        },
+        {
+          "w": "Silly",
+          "start": 29.895,
+          "end": 30.203
+        },
+        {
+          "w": "me!",
+          "start": 30.203,
+          "end": 30.45
+        }
+      ]
+    },
+    {
+      "beat": "p2_intro",
+      "speaker": "hoot",
+      "start": 33.31,
+      "end": 34.5,
+      "text": "Puzzle two!",
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 33.35,
+          "end": 33.986
+        },
+        {
+          "w": "two!",
+          "start": 33.986,
+          "end": 34.41
+        }
+      ]
+    },
+    {
+      "beat": "p2_read",
+      "speaker": "hoot",
+      "start": 35.7,
+      "end": 39.09,
+      "text": "Triangle... star... star... triangle... star...",
+      "words": [
+        {
+          "w": "Triangle...",
+          "start": 35.73,
+          "end": 36.664
+        },
+        {
+          "w": "star...",
+          "start": 36.664,
+          "end": 37.131
+        },
+        {
+          "w": "star...",
+          "start": 37.131,
+          "end": 37.599
+        },
+        {
+          "w": "triangle...",
+          "start": 37.599,
+          "end": 38.533
+        },
+        {
+          "w": "star...",
+          "start": 38.533,
+          "end": 39.0
+        }
+      ]
+    },
+    {
+      "beat": "p2_q",
+      "speaker": "hoot",
+      "start": 40.29,
+      "end": 41.8,
+      "text": "What comes next?",
+      "words": [
+        {
+          "w": "What",
+          "start": 40.33,
+          "end": 40.701
+        },
+        {
+          "w": "comes",
+          "start": 40.701,
+          "end": 41.164
+        },
+        {
+          "w": "next?",
+          "start": 41.164,
+          "end": 41.72
+        }
+      ]
+    },
+    {
+      "beat": "p2_leo",
+      "speaker": "leo",
+      "start": 47.0,
+      "end": 48.13,
+      "text": "A triangle!",
+      "words": [
+        {
+          "w": "A",
+          "start": 47.03,
+          "end": 47.238
+        },
+        {
+          "w": "triangle!",
+          "start": 47.238,
+          "end": 47.93
+        }
+      ]
+    },
+    {
+      "beat": "p2_no",
+      "speaker": "hoot",
+      "start": 49.33,
+      "end": 51.54,
+      "text": "Not quite! Let's say it together.",
+      "words": [
+        {
+          "w": "Not",
+          "start": 49.35,
+          "end": 49.658
+        },
+        {
+          "w": "quite!",
+          "start": 49.658,
+          "end": 50.12
+        },
+        {
+          "w": "Let's",
+          "start": 50.24,
+          "end": 50.584
+        },
+        {
+          "w": "say",
+          "start": 50.584,
+          "end": 50.86
+        },
+        {
+          "w": "it",
+          "start": 50.86,
+          "end": 50.998
+        },
+        {
+          "w": "together.",
+          "start": 50.998,
+          "end": 51.48
+        }
+      ]
+    },
+    {
+      "beat": "p2_ans",
+      "speaker": "hoot",
+      "start": 52.94,
+      "end": 56.88,
+      "text": "Triangle, star, star! Triangle, star, star! It's a star!",
+      "words": [
+        {
+          "w": "Triangle,",
+          "start": 52.96,
+          "end": 53.711
+        },
+        {
+          "w": "star,",
+          "start": 53.711,
+          "end": 54.086
+        },
+        {
+          "w": "star!",
+          "start": 54.086,
+          "end": 54.462
+        },
+        {
+          "w": "Triangle,",
+          "start": 54.462,
+          "end": 55.213
+        },
+        {
+          "w": "star,",
+          "start": 55.213,
+          "end": 55.588
+        },
+        {
+          "w": "star!",
+          "start": 55.588,
+          "end": 55.964
+        },
+        {
+          "w": "It's",
+          "start": 55.964,
+          "end": 56.189
+        },
+        {
+          "w": "a",
+          "start": 56.189,
+          "end": 56.415
+        },
+        {
+          "w": "star!",
+          "start": 56.415,
+          "end": 56.79
+        }
+      ]
+    },
+    {
+      "beat": "p2_yay",
+      "speaker": "leo",
+      "start": 58.28,
+      "end": 59.96,
+      "text": "A star! I've got it now!",
+      "words": [
+        {
+          "w": "A",
+          "start": 58.32,
+          "end": 58.5
+        },
+        {
+          "w": "star!",
+          "start": 58.5,
+          "end": 58.86
+        },
+        {
+          "w": "I've",
+          "start": 58.86,
+          "end": 59.04
+        },
+        {
+          "w": "got",
+          "start": 59.04,
+          "end": 59.34
+        },
+        {
+          "w": "it",
+          "start": 59.34,
+          "end": 59.46
+        },
+        {
+          "w": "now!",
+          "start": 59.46,
+          "end": 59.7
+        }
+      ]
+    },
+    {
+      "beat": "p3_intro",
+      "speaker": "hoot",
+      "start": 62.56,
+      "end": 63.81,
+      "text": "Super puzzle!",
+      "words": [
+        {
+          "w": "Super",
+          "start": 62.59,
+          "end": 63.16
+        },
+        {
+          "w": "puzzle!",
+          "start": 63.16,
+          "end": 63.73
+        }
+      ]
+    },
+    {
+      "beat": "p3_q",
+      "speaker": "hoot",
+      "start": 65.21,
+      "end": 67.15,
+      "text": "Which shape fits in the hole?",
+      "words": [
+        {
+          "w": "Which",
+          "start": 65.25,
+          "end": 65.616
+        },
+        {
+          "w": "shape",
+          "start": 65.616,
+          "end": 65.982
+        },
+        {
+          "w": "fits",
+          "start": 65.982,
+          "end": 66.348
+        },
+        {
+          "w": "in",
+          "start": 66.348,
+          "end": 66.568
+        },
+        {
+          "w": "the",
+          "start": 66.568,
+          "end": 66.714
+        },
+        {
+          "w": "hole?",
+          "start": 66.714,
+          "end": 67.08
+        }
+      ]
+    },
+    {
+      "beat": "p3_leo",
+      "speaker": "leo",
+      "start": 72.35,
+      "end": 74.03,
+      "text": "I know this one! The heart!",
+      "words": [
+        {
+          "w": "I",
+          "start": 72.38,
+          "end": 72.56
+        },
+        {
+          "w": "know",
+          "start": 72.56,
+          "end": 72.8
+        },
+        {
+          "w": "this",
+          "start": 72.8,
+          "end": 73.04
+        },
+        {
+          "w": "one!",
+          "start": 73.04,
+          "end": 73.28
+        },
+        {
+          "w": "The",
+          "start": 73.28,
+          "end": 73.4
+        },
+        {
+          "w": "heart!",
+          "start": 73.4,
+          "end": 73.76
+        }
+      ]
+    },
+    {
+      "beat": "p3_ans",
+      "speaker": "hoot",
+      "start": 75.43,
+      "end": 78.39,
+      "text": "Yes! The heart fits! Great job, Leo!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 75.47,
+          "end": 75.815
+        },
+        {
+          "w": "The",
+          "start": 75.815,
+          "end": 75.988
+        },
+        {
+          "w": "heart",
+          "start": 75.988,
+          "end": 76.42
+        },
+        {
+          "w": "fits!",
+          "start": 76.42,
+          "end": 76.852
+        },
+        {
+          "w": "Great",
+          "start": 76.852,
+          "end": 77.37
+        },
+        {
+          "w": "job,",
+          "start": 77.37,
+          "end": 77.802
+        },
+        {
+          "w": "Leo!",
+          "start": 77.802,
+          "end": 78.32
+        }
+      ]
+    },
+    {
+      "beat": "end",
+      "speaker": "hoot",
+      "start": 80.79,
+      "end": 83.01,
+      "text": "You found every missing shape!",
+      "words": [
+        {
+          "w": "You",
+          "start": 80.82,
+          "end": 81.072
+        },
+        {
+          "w": "found",
+          "start": 81.072,
+          "end": 81.576
+        },
+        {
+          "w": "every",
+          "start": 81.576,
+          "end": 81.996
+        },
+        {
+          "w": "missing",
+          "start": 81.996,
+          "end": 82.5
+        },
+        {
+          "w": "shape!",
+          "start": 82.5,
+          "end": 82.92
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "leo",
+      "start": 84.41,
+      "end": 85.71,
+      "text": "Bye-bye, friends!",
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 84.45,
+          "end": 85.024
+        },
+        {
+          "w": "friends!",
+          "start": 85.024,
+          "end": 85.47
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "visual": "Can you find the missing shape?",
+      "end": 4.74
+    },
+    {
+      "id": "p1_intro",
+      "start": 4.74,
+      "visual": "Puzzle one!",
+      "end": 7.02
+    },
+    {
+      "id": "p1_read",
+      "start": 7.02,
+      "visual": "Circle... square... circle... square... circle...",
+      "end": 11.44
+    },
+    {
+      "id": "p1_q",
+      "start": 11.44,
+      "visual": "What comes next?",
+      "end": 18.15
+    },
+    {
+      "id": "p1_leo",
+      "start": 18.15,
+      "visual": "A triangle!",
+      "end": 20.48
+    },
+    {
+      "id": "p1_no",
+      "start": 20.48,
+      "visual": "Hmm, not quite, Leo. Look at the pattern.",
+      "end": 24.54
+    },
+    {
+      "id": "p1_ans",
+      "start": 24.54,
+      "visual": "Circle, square, circle, square! It's a square!",
+      "end": 29.11
+    },
+    {
+      "id": "p1_yay",
+      "start": 29.11,
+      "visual": "A square! Silly me!",
+      "end": 33.11
+    },
+    {
+      "id": "p2_intro",
+      "start": 33.11,
+      "visual": "Puzzle two!",
+      "end": 35.5
+    },
+    {
+      "id": "p2_read",
+      "start": 35.5,
+      "visual": "Triangle... star... star... triangle... star...",
+      "end": 40.09
+    },
+    {
+      "id": "p2_q",
+      "start": 40.09,
+      "visual": "What comes next?",
+      "end": 46.8
+    },
+    {
+      "id": "p2_leo",
+      "start": 46.8,
+      "visual": "A triangle!",
+      "end": 49.13
+    },
+    {
+      "id": "p2_no",
+      "start": 49.13,
+      "visual": "Not quite! Let's say it together.",
+      "end": 52.74
+    },
+    {
+      "id": "p2_ans",
+      "start": 52.74,
+      "visual": "Triangle, star, star! Triangle, star, star! It's a star!",
+      "end": 58.08
+    },
+    {
+      "id": "p2_yay",
+      "start": 58.08,
+      "visual": "A star! I've got it now!",
+      "end": 62.36
+    },
+    {
+      "id": "p3_intro",
+      "start": 62.36,
+      "visual": "Super puzzle!",
+      "end": 65.01
+    },
+    {
+      "id": "p3_q",
+      "start": 65.01,
+      "visual": "Which shape fits in the hole?",
+      "end": 72.15
+    },
+    {
+      "id": "p3_leo",
+      "start": 72.15,
+      "visual": "I know this one! The heart!",
+      "end": 75.23
+    },
+    {
+      "id": "p3_ans",
+      "start": 75.23,
+      "visual": "Yes! The heart fits! Great job, Leo!",
+      "end": 80.59
+    },
+    {
+      "id": "end",
+      "start": 80.59,
+      "visual": "You found every missing shape!",
+      "end": 84.21
+    },
+    {
+      "id": "bye",
+      "start": 84.21,
+      "visual": "Bye-bye, friends!",
+      "end": 88.1
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

@@ -1,0 +1,210 @@
+{
+  "master": "remotion/out/KidsScience040-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsScience040-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/science/day-040-what-are-clouds/output/day-040-sfx.mp4",
+    "end_s": 102.5,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0.3,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -9,
+      "shot": "KidsScience040",
+      "cue": "title"
+    },
+    {
+      "at_s": 4.584,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsScience040",
+      "cue": "bubble"
+    },
+    {
+      "at_s": 13.015,
+      "sfx_id": "ding-correct",
+      "gain_db": -7,
+      "shot": "KidsScience040",
+      "cue": "WATER!"
+    },
+    {
+      "at_s": 14.63,
+      "sfx_id": "uh-oh",
+      "gain_db": -9,
+      "shot": "KidsScience040",
+      "cue": "Leo confused"
+    },
+    {
+      "at_s": 18.58,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -8,
+      "shot": "KidsScience040",
+      "cue": "to the sea"
+    },
+    {
+      "at_s": 24.089,
+      "sfx_id": "riser-soft",
+      "gain_db": -8,
+      "shot": "KidsScience040",
+      "cue": "water goes up"
+    },
+    {
+      "at_s": 31.51,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -8,
+      "shot": "KidsScience040",
+      "cue": "EVAPORATION"
+    },
+    {
+      "at_s": 36.93,
+      "sfx_id": "think-tick",
+      "gain_db": -8,
+      "shot": "KidsScience040",
+      "cue": "your turn",
+      "dur_s": 2.05
+    },
+    {
+      "at_s": 39.58,
+      "sfx_id": "wind-soft",
+      "gain_db": -12,
+      "shot": "KidsScience040",
+      "cue": "cold up high"
+    },
+    {
+      "at_s": 41.519,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -10,
+      "shot": "KidsScience040",
+      "cue": "tiny drops"
+    },
+    {
+      "at_s": 46.31,
+      "sfx_id": "zip-up",
+      "gain_db": -9,
+      "shot": "KidsScience040",
+      "cue": "drops gather"
+    },
+    {
+      "at_s": 47.71,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -4,
+      "shot": "KidsScience040",
+      "cue": "A CLOUD!"
+    },
+    {
+      "at_s": 54.31,
+      "sfx_id": "kids-wow",
+      "gain_db": -4,
+      "shot": "KidsScience040",
+      "cue": "wow"
+    },
+    {
+      "at_s": 57.66,
+      "sfx_id": "slide-whistle-down",
+      "gain_db": -9,
+      "shot": "KidsScience040",
+      "cue": "drops fall"
+    },
+    {
+      "at_s": 60.94,
+      "sfx_id": "water-pour-glass",
+      "gain_db": -8,
+      "shot": "KidsScience040",
+      "cue": "splash"
+    },
+    {
+      "at_s": 62.29,
+      "sfx_id": "kids-yay",
+      "gain_db": -5,
+      "shot": "KidsScience040",
+      "cue": "yay"
+    },
+    {
+      "at_s": 64.01,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -8,
+      "shot": "KidsScience040",
+      "cue": "to the mirror"
+    },
+    {
+      "at_s": 69.971,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -6,
+      "shot": "KidsScience040",
+      "cue": "HAAA"
+    },
+    {
+      "at_s": 71.273,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -9,
+      "shot": "KidsScience040",
+      "cue": "tiny drops"
+    },
+    {
+      "at_s": 75.16,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -8,
+      "shot": "KidsScience040",
+      "cue": "recap"
+    },
+    {
+      "at_s": 77.7,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsScience040",
+      "cue": "r1"
+    },
+    {
+      "at_s": 80.57,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsScience040",
+      "cue": "r2"
+    },
+    {
+      "at_s": 82.91,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsScience040",
+      "cue": "r3"
+    },
+    {
+      "at_s": 86.05,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsScience040",
+      "cue": "r4"
+    },
+    {
+      "at_s": 89.69,
+      "sfx_id": "drum-roll",
+      "gain_db": -12,
+      "shot": "KidsScience040",
+      "cue": "wow fact"
+    },
+    {
+      "at_s": 93.085,
+      "sfx_id": "cymbal-crash",
+      "gain_db": -11,
+      "shot": "KidsScience040",
+      "cue": "80 elephants"
+    },
+    {
+      "at_s": 94.91,
+      "sfx_id": "kids-wow",
+      "gain_db": -4,
+      "shot": "KidsScience040",
+      "cue": "wow"
+    },
+    {
+      "at_s": 100.62,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -8,
+      "shot": "KidsScience040",
+      "cue": "iris"
+    }
+  ]
+}

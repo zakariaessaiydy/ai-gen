@@ -1,0 +1,168 @@
+{
+  "master": "remotion/out/Bro08Gps-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "notes": "Library-only. Missing for a richer mix: engine hum / tire screech (gen_sfx when a key is available).",
+  "render": {
+    "preview": "remotion/out/Bro08Gps-voiced.mp4",
+    "out": "toon-shorts/bro/ep-08-gps/output/bro-08-sfx.mp4",
+    "end_s": 38.2,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 1.36,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -16,
+      "shot": "Bro08Gps",
+      "cue": "cut wide \u2014 'Put on the GPS.'"
+    },
+    {
+      "at_s": 6.02,
+      "sfx_id": "impact-soft",
+      "gain_db": -14,
+      "shot": "Bro08Gps",
+      "cue": "'Trust me' punch-in"
+    },
+    {
+      "at_s": 6.62,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -17,
+      "shot": "Bro08Gps",
+      "cue": "sparkles"
+    },
+    {
+      "at_s": 7.67,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -14,
+      "shot": "Bro08Gps",
+      "cue": "GPS ping"
+    },
+    {
+      "at_s": 8.79,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -11,
+      "shot": "Bro08Gps",
+      "cue": "swerve RIGHT"
+    },
+    {
+      "at_s": 8.89,
+      "sfx_id": "knock-solid",
+      "gain_db": -15,
+      "shot": "Bro08Gps",
+      "cue": "swerve thud"
+    },
+    {
+      "at_s": 11.01,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -14,
+      "shot": "Bro08Gps",
+      "cue": "GPS ping"
+    },
+    {
+      "at_s": 12.13,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -11,
+      "shot": "Bro08Gps",
+      "cue": "swerve RIGHT again"
+    },
+    {
+      "at_s": 12.23,
+      "sfx_id": "knock-solid",
+      "gain_db": -15,
+      "shot": "Bro08Gps",
+      "cue": "swerve thud"
+    },
+    {
+      "at_s": 14.23,
+      "sfx_id": "glitch-zap",
+      "gain_db": -14,
+      "shot": "Bro08Gps",
+      "cue": "GPS insert \u2014 'I give up.'"
+    },
+    {
+      "at_s": 15.96,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -15,
+      "shot": "Bro08Gps",
+      "cue": "map insert"
+    },
+    {
+      "at_s": 16.36,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -15,
+      "shot": "Bro08Gps",
+      "cue": "laps ticking round"
+    },
+    {
+      "at_s": 17.16,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -15,
+      "shot": "Bro08Gps",
+      "cue": "laps"
+    },
+    {
+      "at_s": 17.96,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -15,
+      "shot": "Bro08Gps",
+      "cue": "laps"
+    },
+    {
+      "at_s": 18.36,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -15,
+      "shot": "Bro08Gps",
+      "cue": "2 HOURS LATER card"
+    },
+    {
+      "at_s": 23.23,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "Bro08Gps",
+      "cue": "'...They have six gas stations.'"
+    },
+    {
+      "at_s": 25.17,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -12,
+      "shot": "Bro08Gps",
+      "cue": "they're home"
+    },
+    {
+      "at_s": 27.51,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -11,
+      "shot": "Bro08Gps",
+      "cue": "THE STARE '...Scenic route.'"
+    },
+    {
+      "at_s": 30.93,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "Bro08Gps",
+      "cue": "'Exactly. Zero traffic.'"
+    },
+    {
+      "at_s": 32.85,
+      "sfx_id": "chime-reward",
+      "gain_db": -13,
+      "shot": "Bro08Gps",
+      "cue": "GPS: 'You have arrived... tourist.'"
+    },
+    {
+      "at_s": 35.27,
+      "sfx_id": "glitch-zap",
+      "gain_db": -15,
+      "shot": "Bro08Gps",
+      "cue": "signature grey-out"
+    },
+    {
+      "at_s": 36.02,
+      "sfx_id": "stamp-hit",
+      "gain_db": -11,
+      "shot": "Bro08Gps",
+      "cue": "I GOT THIS. stamp"
+    }
+  ]
+}
