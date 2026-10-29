@@ -50,3 +50,72 @@ words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video ever
 page (Featured) and in "Kids Stories — Learn Kindness & Good Habits" + "Kids Songs & Sing-Alongs".
 **Settings:** Made for Kids = Yes · Altered/synthetic = No · Category: Education ·
 Thumbnail: the 4 heroes waving under "KIDS CARTOON MARATHON!" (intro ~0:06).
+
+---
+# Split upload (3 parts — each under the 400 MB app limit; cut at chapter starts)
+
+## Part 1 — `output/marathon-01-part1of3.mp4` (48:28) · thumbnail `thumbnail-part1.jpg`
+**Title:** `Kids Cartoon Marathon Part 1 🌈 Animals, Colors, Counting Songs & Kind Stories | Tiny Sparks`
+```
+48 minutes of Tiny Sparks! 🌈 Brave Rory the lion, 20 colors in English & French, counting songs,
+saying please and thank you, and more — with Spark Girl, Captain Leo, Super Bobo and Professor Hoot.
+Perfect for ages 2–6.
+
+0:00 Intro
+0:09 Learn 10 Animals in English & French 🦁🐸
+2:07 Rory the Lion Who Was Afraid of the Dark 🦁🌙
+7:07 Count from 1 to 10 Song 🎵
+9:52 The Boy Who Always Told the Truth 📚
+12:50 20 Colors in English and French 🎨🔤
+18:49 Benny the Rabbit and the Lost Carrot 🐰🥕
+23:02 Count from 1 to 20 Song 🎵
+25:19 Mila Learns to Say Please and Thank You 🧠
+28:10 Numbers 1–20 in English and French 🔢🔤
+34:01 Charlie the Monkey's Big Adventure 🐒🥭
+37:37 Alphabet A–Z Song 🎵🔤
+40:42 The Girl Who Learned to Share 📚
+43:18 Emma the Elephant Helps Her Friend 🐘
+
+Tiny Sparks makes short, gentle cartoons that help little ones learn kindness, numbers,
+words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video every day!
+
+#KidsCartoons #KidsSongs #LearningForKids #Preschool #Toddlers #KidsStories #TinySparks
+```
+
+## Part 2 — `output/marathon-01-part2of3.mp4` (25:36) · thumbnail `thumbnail-part2.jpg`
+**Title:** `Kids Cartoon Marathon Part 2 🐢 Colors Song, Shapes Song & Stories for Kids | Tiny Sparks`
+```
+25 minutes of Tiny Sparks! 🎨 Sing the Colors Song and the Shapes Song, help Bobo clean his room,
+learn patience with Sammy the turtle, and meet the greedy little monkey. Perfect for ages 2–6.
+
+0:00 The Colors Song 🎨🎵
+5:08 Bobo Learns to Clean His Room 🧸
+10:12 Sammy the Turtle Learns Patience 🐢
+15:19 The Shapes Song 🔺🟦🔴
+20:21 The Greedy Little Monkey 🐒🥜
+
+Tiny Sparks makes short, gentle cartoons that help little ones learn kindness, numbers,
+words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video every day!
+
+#KidsCartoons #KidsSongs #ColorsSong #ShapesSong #Preschool #KidsStories #TinySparks
+```
+
+## Part 3 — `output/marathon-01-part3of3.mp4` (21:37) · thumbnail `thumbnail-part3.jpg`
+**Title:** `Kids Cartoon Marathon Part 3 🦖 Dinosaur Counting, Days of the Week & Patience | Tiny Sparks`
+```
+22 minutes of Tiny Sparks! 🦖 Count to 20 with dinosaurs, watch Oliver the owl fly for the first time,
+sing the Days of the Week song, and learn the waiting game with Spark Girl. Perfect for ages 2–6.
+
+0:00 Numbers 1–20 with Dinosaurs 🦖🔢
+6:29 Oliver the Owl's First Flight 🦉
+11:30 Days of the Week Song 🚂
+16:38 The Day Mila Learned Patience 🧠
+
+Tiny Sparks makes short, gentle cartoons that help little ones learn kindness, numbers,
+words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video every day!
+
+#KidsCartoons #CountingForKids #Dinosaurs #DaysOfTheWeek #Preschool #KidsStories #TinySparks
+```
+
+**All 3 parts:** Made for Kids = Yes · Altered/synthetic = No · Category: Education · Public · add all three
+to a playlist "Tiny Sparks Marathons" and to the channel's Featured section.
