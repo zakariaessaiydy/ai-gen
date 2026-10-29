@@ -82,17 +82,18 @@ words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video ever
 #KidsCartoons #KidsSongs #LearningForKids #Preschool #Toddlers #KidsStories #TinySparks
 ```
 
-## Part 2 — `output/marathon-01-part2of3.mp4` (25:36) · thumbnail `thumbnail-part2.jpg`
+## Part 2 — `output/marathon-01-part2of3-intro.mp4` (25:45) · thumbnail `thumbnail-part2.jpg`
 **Title:** `Kids Cartoon Marathon Part 2 🐢 Colors Song, Shapes Song & Stories for Kids | Tiny Sparks`
 ```
 25 minutes of Tiny Sparks! 🎨 Sing the Colors Song and the Shapes Song, help Bobo clean his room,
 learn patience with Sammy the turtle, and meet the greedy little monkey. Perfect for ages 2–6.
 
-0:00 The Colors Song 🎨🎵
-5:08 Bobo Learns to Clean His Room 🧸
-10:12 Sammy the Turtle Learns Patience 🐢
-15:19 The Shapes Song 🔺🟦🔴
-20:21 The Greedy Little Monkey 🐒🥜
+0:00 Intro
+0:09 The Colors Song 🎨🎵
+5:17 Bobo Learns to Clean His Room 🧸
+10:21 Sammy the Turtle Learns Patience 🐢
+15:28 The Shapes Song 🔺🟦🔴
+20:30 The Greedy Little Monkey 🐒🥜
 
 Tiny Sparks makes short, gentle cartoons that help little ones learn kindness, numbers,
 words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video every day!
@@ -100,16 +101,17 @@ words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video ever
 #KidsCartoons #KidsSongs #ColorsSong #ShapesSong #Preschool #KidsStories #TinySparks
 ```
 
-## Part 3 — `output/marathon-01-part3of3.mp4` (21:37) · thumbnail `thumbnail-part3.jpg`
+## Part 3 — `output/marathon-01-part3of3-intro.mp4` (21:46) · thumbnail `thumbnail-part3.jpg`
 **Title:** `Kids Cartoon Marathon Part 3 🦖 Dinosaur Counting, Days of the Week & Patience | Tiny Sparks`
 ```
 22 minutes of Tiny Sparks! 🦖 Count to 20 with dinosaurs, watch Oliver the owl fly for the first time,
 sing the Days of the Week song, and learn the waiting game with Spark Girl. Perfect for ages 2–6.
 
-0:00 Numbers 1–20 with Dinosaurs 🦖🔢
-6:29 Oliver the Owl's First Flight 🦉
-11:30 Days of the Week Song 🚂
-16:38 The Day Mila Learned Patience 🧠
+0:00 Intro
+0:09 Numbers 1–20 with Dinosaurs 🦖🔢
+6:38 Oliver the Owl's First Flight 🦉
+11:39 Days of the Week Song 🚂
+16:47 The Day Mila Learned Patience 🧠
 
 Tiny Sparks makes short, gentle cartoons that help little ones learn kindness, numbers,
 words, science and songs — with Mila, Leo, Bobo and Prof. Hoot. New video every day!

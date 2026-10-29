@@ -20,7 +20,7 @@ const SHOTS: Shot[] = [
   { t: T0, z: 1.12, x: 960, y: 600, move: 'cut', push: 0.012 },
 ];
 
-export default function KidsMarathonIntro() {
+export const MarathonIntro: React.FC<{ title?: string; sub?: string }> = ({ title = 'KIDS CARTOON MARATHON!', sub = '22 episodes · 1.5 hours of fun' }) => {
   const t = useT();
   const cam = directorCam(t, SHOTS, [T0 + 0.6]);
   const hop = (k: number) => hopAt(t, [T0 + 0.5 + k * 0.15, T0 + 2.6 + k * 0.15], { h: 70, air: 0.36, pre: 0.06, land: 0.2 });
@@ -37,11 +37,15 @@ export default function KidsMarathonIntro() {
           </g>
         )}
       </ActionStage>
-      <PopText t={t} at={T0 + 0.25} text="KIDS CARTOON MARATHON!" y={170} size={120} color="#ffca3a" />
-      <PopText t={t} at={T0 + 0.9} text="22 episodes · 1.5 hours of fun" y={300} size={66} color="#ffffff" rot={2} />
+      <PopText t={t} at={T0 + 0.25} text={title} y={170} size={120} color="#ffca3a" />
+      <PopText t={t} at={T0 + 0.9} text={sub} y={300} size={66} color="#ffffff" rot={2} />
       <Confetti t={t} at={T0 + 0.6} y={300} />
       <SparksIntro t={t} at={0} cast={{ kids: [MILA_HERO, LEO_HERO], buddy: BOBO_HERO }} />
       <StarWipe t={t} at={8.2} dur={0.4} hold={1} color="#3b2a4a" />
     </>
   );
+};
+
+export default function KidsMarathonIntro() {
+  return <MarathonIntro />;
 }
