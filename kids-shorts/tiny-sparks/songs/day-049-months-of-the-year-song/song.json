@@ -1,0 +1,147 @@
+{
+ "title": "Months of the Year Song (Tiny Sparks original)",
+ "bpm": 104,
+ "beatsPerBar": 4,
+ "introBars": 2,
+ "outroBars": 2,
+ "instruments": {
+  "lead": "xylophone",
+  "chords": "ukulele",
+  "bass": true,
+  "drums": "soft",
+  "leadWithVocal": true
+ },
+ "singer": "mila",
+ "vocal": {
+  "voice": "af_sky",
+  "pitch": 0,
+  "rate": "-4%"
+ },
+ "form": [
+  "chorus",
+  "m01",
+  "m02",
+  "m03",
+  "m04",
+  "m05",
+  "m06",
+  "m07",
+  "m08",
+  "m09",
+  "m10",
+  "m11",
+  "m12",
+  "chorus",
+  "q1",
+  "q2",
+  "q3",
+  "q4",
+  "chorus",
+  "birthday",
+  "karaoke",
+  "slow",
+  "chorus"
+ ],
+ "sections": {
+  "chorus": {
+   "chords": "C | F | C | G | C | F | G | C",
+   "melody": "C4:0.5 C4:0.5 E4:0.5 E4:0.5 G4:0.5 G4:0.5 E4:0.5 E4:0.5 | F4:1 F4:0.5 A4:0.5 A4:1 G4:1 | E4:1 E4:0.5 G4:0.5 G4:0.5 G4:0.5 E4:1 | F4:0.5 F4:0.5 E4:1 D4:0.5 C4:1.5 | G4:0.5 G4:0.5 E4:1 G4:0.5 G4:0.5 E4:1 | A4:0.5 A4:0.5 F4:1 A4:0.5 A4:0.5 F4:1 | G4:1 G4:0.5 E4:0.5 E4:0.5 G4:1.5 | F4:0.5 F4:0.5 E4:0.5 E4:0.5 D4:1 C4:1",
+   "lyrics": "Jan-u-ar-y, Feb-ru-ar-y, March and A-pril too, / May and June and Ju-ly, Au-gust, sing it through! / Sep-tem-ber, Oc-to-ber, No-vem-ber, De-cem-ber, / Twelve months in a year, come on and re-mem-ber!"
+  },
+  "karaoke": {
+   "chords": "C | F | C | G | C | F | G | C",
+   "melody": "C4:0.5 C4:0.5 E4:0.5 E4:0.5 G4:0.5 G4:0.5 E4:0.5 E4:0.5 | F4:1 F4:0.5 A4:0.5 A4:1 G4:1 | E4:1 E4:0.5 G4:0.5 G4:0.5 G4:0.5 E4:1 | F4:0.5 F4:0.5 E4:1 D4:0.5 C4:1.5 | G4:0.5 G4:0.5 E4:1 G4:0.5 G4:0.5 E4:1 | A4:0.5 A4:0.5 F4:1 A4:0.5 A4:0.5 F4:1 | G4:1 G4:0.5 E4:0.5 E4:0.5 G4:1.5 | F4:0.5 F4:0.5 E4:0.5 E4:0.5 D4:1 C4:1",
+   "lyrics": ""
+  },
+  "m01": {
+   "chords": "C | G | F | G",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | E4:1 D4:1 E4:1 C4:1 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | R:4",
+   "lyrics": "Jan-u-ar-y, / Jan-u-ar-y! / Snow-y, cold and white!"
+  },
+  "m02": {
+   "chords": "C | G | F | C",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | E4:1 D4:1 E4:1 C4:1 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | R:4",
+   "lyrics": "Feb-ru-ar-y, / Feb-ru-ar-y! / Hearts and hugs for you!"
+  },
+  "m03": {
+   "chords": "C | G | F | G",
+   "melody": "G4:3 R:1 | E4:3 R:1 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | R:4",
+   "lyrics": "March, / March! / Wind-y kites fly high!"
+  },
+  "m04": {
+   "chords": "C | G | F | C",
+   "melody": "G4:2 E4:2 | E4:2 C4:2 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | R:4",
+   "lyrics": "A-pril, / A-pril! / Rain-drops, pit-ter pat!"
+  },
+  "m05": {
+   "chords": "C | G | F | G",
+   "melody": "G4:3 R:1 | E4:3 R:1 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | R:4",
+   "lyrics": "May, / May! / Flow-ers bloom and grow!"
+  },
+  "m06": {
+   "chords": "C | G | F | C",
+   "melody": "G4:3 R:1 | E4:3 R:1 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | R:4",
+   "lyrics": "June, / June! / Sun-ny days are here!"
+  },
+  "m07": {
+   "chords": "C | G | F | G",
+   "melody": "G4:2 E4:2 | E4:2 C4:2 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | R:4",
+   "lyrics": "Ju-ly, / Ju-ly! / Splash-ing in the pool!"
+  },
+  "m08": {
+   "chords": "C | G | F | C",
+   "melody": "G4:2 E4:2 | E4:2 C4:2 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | R:4",
+   "lyrics": "Au-gust, / Au-gust! / Sand-y beach-es, yay!"
+  },
+  "m09": {
+   "chords": "C | G | F | G",
+   "melody": "G4:1 E4:1 G4:2 | E4:1 D4:1 C4:2 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | R:4",
+   "lyrics": "Sep-tem-ber, / Sep-tem-ber! / Back to school we go!"
+  },
+  "m10": {
+   "chords": "C | G | F | C",
+   "melody": "G4:1 E4:1 G4:2 | E4:1 D4:1 C4:2 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | R:4",
+   "lyrics": "Oc-to-ber, / Oc-to-ber! / Leaves fall red and brown!"
+  },
+  "m11": {
+   "chords": "C | G | F | G",
+   "melody": "G4:1 E4:1 G4:2 | E4:1 D4:1 C4:2 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | R:4",
+   "lyrics": "No-vem-ber, / No-vem-ber! / Co-zy sweat-er days!"
+  },
+  "m12": {
+   "chords": "C | G | F | C",
+   "melody": "G4:1 E4:1 G4:2 | E4:1 D4:1 C4:2 | E4:1 D4:0.5 D4:0.5 E4:1 C4:1 | R:4",
+   "lyrics": "De-cem-ber, / De-cem-ber! / Twin-kly lights at night!"
+  },
+  "q1": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:1 | R:4 | R:4 | R:4 | G4:2 E4:2 | R:4",
+   "lyrics": "What comes af-ter March? / A-pril!"
+  },
+  "q2": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:1 | R:4 | R:4 | R:4 | G4:2 E4:2 | R:4",
+   "lyrics": "What comes af-ter June? / Ju-ly!"
+  },
+  "q3": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:1 E4:1 G4:2 | R:4",
+   "lyrics": "What comes af-ter Au-gust? / Sep-tem-ber!"
+  },
+  "q4": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:0.5 E4:0.5 G4:0.5 G4:0.5 A4:0.5 A4:0.5 G4:1 | R:4 | R:4 | R:4 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "What comes af-ter De-cem-ber? / Jan-u-ar-y!"
+  },
+  "birthday": {
+   "chords": "Am | F | C | G",
+   "melody": "E4:0.5 E4:0.5 G4:0.5 G4:0.5 A4:0.5 A4:0.5 G4:1 | R:4 | F4:0.5 F4:0.5 E4:0.5 E4:0.5 D4:0.5 D4:0.5 C4:1 | R:4",
+   "lyrics": "When's your birth-day? Can you say? / Shout your month, hip hip hoo-ray!"
+  },
+  "slow": {
+   "chords": "C | G | C | G | C | G | C | G | C | G | C | G | C | G | C | G | C | G | C | G | C | G | C | G | C | G",
+   "melody": "G4:1 E4:1 G4:0.5 G4:0.5 E4:1 | R:4 | G4:1 E4:1 G4:1 E4:1 | R:4 | G4:1 E4:1 G4:1 E4:1 | R:4 | G4:3 R:1 | R:4 | G4:2 E4:2 | R:4 | G4:3 R:1 | R:4 | G4:3 R:1 | R:4 | G4:2 E4:2 | R:4 | G4:2 E4:2 | R:4 | G4:1 E4:1 G4:2 | R:4 | G4:1 E4:1 G4:2 | R:4 | G4:1 E4:1 G4:2 | R:4 | G4:1 E4:1 G4:2 | R:4",
+   "lyrics": "Let's say them slow-ly! / Jan-u-ar-y / Feb-ru-ar-y / March / A-pril / May / June / Ju-ly / Au-gust / Sep-tem-ber / Oc-to-ber / No-vem-ber / De-cem-ber"
+  }
+ }
+}

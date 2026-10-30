@@ -1,5 +1,5 @@
 // KIDS KIT — <Critter>: one parametric chibi ANIMAL rig (bear, bunny, cat, fox, lion, mouse,
-// panda, pig, owl, frog, monkey, dog, elephant, turtle + the farm: cow, sheep, chick, duck). Same face/expressions as <Kid> (face.tsx), so animals and kids act in
+// panda, pig, owl, frog, monkey, dog, elephant, turtle + the farm: cow, sheep, chick, duck + penguin). Same face/expressions as <Kid> (face.tsx), so animals and kids act in
 // the same language. Origin = between the feet; ~620px tall at scale 1 (a buddy, smaller than a kid).
 import React from 'react';
 import { Belt, Cape, ChestBadge, Mask, type HeroLook } from './hero';
@@ -7,7 +7,7 @@ import { useCurrentFrame } from 'remotion';
 import { Face, HeadSparkles, KINK, idleMotion, kst, type KExpr } from './face';
 import { AO, Ground, K3DDefs, Vol } from './depth';
 
-export type Species = 'bear' | 'bunny' | 'cat' | 'fox' | 'lion' | 'mouse' | 'panda' | 'pig' | 'owl' | 'frog' | 'monkey' | 'dog' | 'elephant' | 'turtle' | 'cow' | 'sheep' | 'chick' | 'duck';
+export type Species = 'bear' | 'bunny' | 'cat' | 'fox' | 'lion' | 'mouse' | 'panda' | 'pig' | 'owl' | 'frog' | 'monkey' | 'dog' | 'elephant' | 'turtle' | 'cow' | 'sheep' | 'chick' | 'duck' | 'penguin';
 
 export type CritterSpec = {
   id: string;
@@ -283,6 +283,8 @@ const Tail: React.FC<{ s: CritterSpec; frame: number; happy?: boolean }> = ({ s,
       );
     case 'sheep':
       return <circle cx={132} cy={-150} r={42} fill={s.fur2} {...st} />;
+    case 'penguin':
+      return <path d={`M 104,-60 L ${170 + wag * 0.6},-40 L 110,-24 Z`} fill={s.fur} {...st} />;
     case 'chick':
     case 'duck':
       return <path d={`M 110,-170 Q 190,-190 ${204 + wag},${-250 + wag * 0.4} Q 186,-176 ${196 + wag * 0.5},-150 Q 160,-120 116,-120 Z`} fill={s.fur} {...st} />;
@@ -312,7 +314,8 @@ export const Critter: React.FC<CritterProps> = ({
   const owl = s.species === 'owl';
   const frog = s.species === 'frog';
   const turtle = s.species === 'turtle';
-  const bird = s.species === 'chick' || s.species === 'duck'; // wings + a beak/bill
+  const penguin = s.species === 'penguin';
+  const bird = s.species === 'chick' || s.species === 'duck' || penguin; // wings + a beak/bill
   const hooves = s.species === 'cow' || s.species === 'sheep';
 
   const arm = (p: CArm, side: -1 | 1, hold?: React.ReactNode) => {
@@ -349,6 +352,15 @@ export const Critter: React.FC<CritterProps> = ({
         <g>
           <ellipse cx={-64} cy={6} rx={84} ry={88} fill={s.fur2} />
           <ellipse cx={64} cy={6} rx={84} ry={88} fill={s.fur2} />
+        </g>
+      );
+    if (penguin)
+      // the white face: two round eye patches meeting over the beak, opening into the chin
+      return (
+        <g fill={s.fur2}>
+          <ellipse cx={-62} cy={0} rx={82} ry={92} />
+          <ellipse cx={62} cy={0} rx={82} ry={92} />
+          <ellipse cx={0} cy={70} rx={110} ry={74} />
         </g>
       );
     if (frog || bird) return null;
@@ -403,6 +415,8 @@ export const Critter: React.FC<CritterProps> = ({
         );
       case 'chick':
         return <path d="M -24,30 L 24,30 L 0,64 Z" fill={s.dark} {...kst(6)} />;
+      case 'penguin':
+        return <path d="M -30,26 Q 0,16 30,26 L 0,70 Z" fill={s.dark} {...kst(6)} />;
       case 'duck':
         return (
           <g>
@@ -468,7 +482,7 @@ export const Critter: React.FC<CritterProps> = ({
           eyeR={frog ? 44 : 40}
           eyeDX={frog ? 70 : 64}
           eyeY={-8}
-          mouthY={frog ? 220 : s.species === 'cow' ? 104 : s.species === 'duck' ? 64 : 78}
+          mouthY={frog ? 220 : s.species === 'cow' ? 104 : s.species === 'duck' ? 64 : penguin ? 94 : 78}
           mouthW={frog ? 80 : s.species === 'elephant' ? 74 : s.species === 'duck' ? 52 : 40}
           cheeks
           brows={owl || frog ? false : bird ? KINK : s.dark}
@@ -573,7 +587,7 @@ export const Critter: React.FC<CritterProps> = ({
               </g>
             ) : s.species !== 'sheep' && (
               <Vol>
-                <ellipse cx={0} cy={-140} rx={84} ry={96} fill={s.fur2} />
+                <ellipse cx={0} cy={penguin ? -150 : -140} rx={penguin ? 108 : 84} ry={penguin ? 120 : 96} fill={s.fur2} />
               </Vol>
             )}
             {/* the chin's soft shadow on the tummy, clipped to the body */}

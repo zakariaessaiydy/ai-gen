@@ -1,0 +1,3627 @@
+{
+  "id": "day-047",
+  "series": "tiny-sparks",
+  "episode": 47,
+  "title": "How Does Rain Form?",
+  "composition": "KidsScience047",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 305.0
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    },
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-8%"
+    },
+    "drippy": {
+      "kokoro": "af_bella:0.5+af_sky:0.5",
+      "rate": "-2%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -6,
+    "duck": 8,
+    "start": 3.7,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "why",
+      "speaker": "mila",
+      "text": "Look, it's raining! Where does rain come from?",
+      "gap": 1.4,
+      "start": 3.9,
+      "end": 6.43,
+      "words": [
+        {
+          "w": "Look,",
+          "start": 3.95,
+          "end": 4.223
+        },
+        {
+          "w": "it's",
+          "start": 4.223,
+          "end": 4.428
+        },
+        {
+          "w": "raining!",
+          "start": 4.428,
+          "end": 4.906
+        },
+        {
+          "w": "Where",
+          "start": 4.906,
+          "end": 5.179
+        },
+        {
+          "w": "does",
+          "start": 5.179,
+          "end": 5.452
+        },
+        {
+          "w": "rain",
+          "start": 5.452,
+          "end": 5.794
+        },
+        {
+          "w": "come",
+          "start": 5.794,
+          "end": 6.067
+        },
+        {
+          "w": "from?",
+          "start": 6.067,
+          "end": 6.34
+        }
+      ]
+    },
+    {
+      "beat": "guess",
+      "speaker": "leo",
+      "text": "I know! A giant up in the sky has a big watering can!",
+      "gap": 1.6,
+      "start": 7.83,
+      "end": 11.25,
+      "words": [
+        {
+          "w": "I",
+          "start": 7.87,
+          "end": 8.034
+        },
+        {
+          "w": "know!",
+          "start": 8.034,
+          "end": 8.253
+        },
+        {
+          "w": "A",
+          "start": 8.253,
+          "end": 8.417
+        },
+        {
+          "w": "giant",
+          "start": 8.417,
+          "end": 8.855
+        },
+        {
+          "w": "up",
+          "start": 8.855,
+          "end": 9.019
+        },
+        {
+          "w": "in",
+          "start": 9.019,
+          "end": 9.183
+        },
+        {
+          "w": "the",
+          "start": 9.183,
+          "end": 9.293
+        },
+        {
+          "w": "sky",
+          "start": 9.293,
+          "end": 9.567
+        },
+        {
+          "w": "has",
+          "start": 9.567,
+          "end": 9.785
+        },
+        {
+          "w": "a",
+          "start": 9.785,
+          "end": 9.95
+        },
+        {
+          "w": "big",
+          "start": 9.95,
+          "end": 10.169
+        },
+        {
+          "w": "watering",
+          "start": 10.169,
+          "end": 10.661
+        },
+        {
+          "w": "can!",
+          "start": 10.661,
+          "end": 10.88
+        }
+      ]
+    },
+    {
+      "beat": "good",
+      "speaker": "hoot",
+      "text": "Good guess, Leo! What a funny idea. But rain comes from... the clouds!",
+      "gap": 1.4,
+      "start": 12.85,
+      "end": 17.67,
+      "words": [
+        {
+          "w": "Good",
+          "start": 12.89,
+          "end": 13.209
+        },
+        {
+          "w": "guess,",
+          "start": 13.209,
+          "end": 13.529
+        },
+        {
+          "w": "Leo!",
+          "start": 13.529,
+          "end": 14.008
+        },
+        {
+          "w": "What",
+          "start": 14.008,
+          "end": 14.327
+        },
+        {
+          "w": "a",
+          "start": 14.327,
+          "end": 14.566
+        },
+        {
+          "w": "funny",
+          "start": 14.566,
+          "end": 14.966
+        },
+        {
+          "w": "idea.",
+          "start": 14.966,
+          "end": 15.445
+        },
+        {
+          "w": "But",
+          "start": 15.445,
+          "end": 15.764
+        },
+        {
+          "w": "rain",
+          "start": 15.764,
+          "end": 16.163
+        },
+        {
+          "w": "comes",
+          "start": 16.163,
+          "end": 16.562
+        },
+        {
+          "w": "from...",
+          "start": 16.562,
+          "end": 16.882
+        },
+        {
+          "w": "the",
+          "start": 16.882,
+          "end": 17.041
+        },
+        {
+          "w": "clouds!",
+          "start": 17.041,
+          "end": 17.6
+        }
+      ]
+    },
+    {
+      "beat": "how",
+      "speaker": "leo",
+      "text": "From the clouds? But how does the water get up there?",
+      "gap": 1.2,
+      "start": 19.07,
+      "end": 21.88,
+      "words": [
+        {
+          "w": "From",
+          "start": 19.11,
+          "end": 19.331
+        },
+        {
+          "w": "the",
+          "start": 19.331,
+          "end": 19.441
+        },
+        {
+          "w": "clouds?",
+          "start": 19.441,
+          "end": 19.828
+        },
+        {
+          "w": "But",
+          "start": 19.828,
+          "end": 20.049
+        },
+        {
+          "w": "how",
+          "start": 20.049,
+          "end": 20.27
+        },
+        {
+          "w": "does",
+          "start": 20.27,
+          "end": 20.491
+        },
+        {
+          "w": "the",
+          "start": 20.491,
+          "end": 20.601
+        },
+        {
+          "w": "water",
+          "start": 20.601,
+          "end": 20.933
+        },
+        {
+          "w": "get",
+          "start": 20.933,
+          "end": 21.153
+        },
+        {
+          "w": "up",
+          "start": 21.153,
+          "end": 21.319
+        },
+        {
+          "w": "there?",
+          "start": 21.319,
+          "end": 21.54
+        }
+      ]
+    },
+    {
+      "beat": "meet",
+      "speaker": "hoot",
+      "text": "Let's follow one tiny drop of water. Meet Drippy!",
+      "gap": 1.0,
+      "start": 23.08,
+      "end": 26.9,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 23.12,
+          "end": 23.488
+        },
+        {
+          "w": "follow",
+          "start": 23.488,
+          "end": 23.929
+        },
+        {
+          "w": "one",
+          "start": 23.929,
+          "end": 24.223
+        },
+        {
+          "w": "tiny",
+          "start": 24.223,
+          "end": 24.664
+        },
+        {
+          "w": "drop",
+          "start": 24.664,
+          "end": 25.032
+        },
+        {
+          "w": "of",
+          "start": 25.032,
+          "end": 25.179
+        },
+        {
+          "w": "water.",
+          "start": 25.179,
+          "end": 25.62
+        },
+        {
+          "w": "Meet",
+          "start": 25.96,
+          "end": 26.346
+        },
+        {
+          "w": "Drippy!",
+          "start": 26.346,
+          "end": 26.81
+        }
+      ]
+    },
+    {
+      "beat": "drippy_hi",
+      "speaker": "drippy",
+      "text": "Hi! I'm Drippy the raindrop! Come on an adventure with me!",
+      "gap": 1.8,
+      "start": 27.9,
+      "end": 31.27,
+      "words": [
+        {
+          "w": "Hi!",
+          "start": 27.94,
+          "end": 28.2
+        },
+        {
+          "w": "I'm",
+          "start": 28.2,
+          "end": 28.395
+        },
+        {
+          "w": "Drippy",
+          "start": 28.395,
+          "end": 28.785
+        },
+        {
+          "w": "the",
+          "start": 28.785,
+          "end": 28.915
+        },
+        {
+          "w": "raindrop!",
+          "start": 28.915,
+          "end": 29.565
+        },
+        {
+          "w": "Come",
+          "start": 29.565,
+          "end": 29.825
+        },
+        {
+          "w": "on",
+          "start": 29.825,
+          "end": 30.02
+        },
+        {
+          "w": "an",
+          "start": 30.02,
+          "end": 30.15
+        },
+        {
+          "w": "adventure",
+          "start": 30.15,
+          "end": 30.735
+        },
+        {
+          "w": "with",
+          "start": 30.735,
+          "end": 30.93
+        },
+        {
+          "w": "me!",
+          "start": 30.93,
+          "end": 31.19
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "narrator",
+      "text": "Question one. How does Drippy get up into the sky?",
+      "gap": 1.4,
+      "start": 33.07,
+      "end": 36.01,
+      "words": [
+        {
+          "w": "Question",
+          "start": 33.1,
+          "end": 33.654
+        },
+        {
+          "w": "one.",
+          "start": 33.654,
+          "end": 33.9
+        },
+        {
+          "w": "How",
+          "start": 34.23,
+          "end": 34.434
+        },
+        {
+          "w": "does",
+          "start": 34.434,
+          "end": 34.637
+        },
+        {
+          "w": "Drippy",
+          "start": 34.637,
+          "end": 34.943
+        },
+        {
+          "w": "get",
+          "start": 34.943,
+          "end": 35.146
+        },
+        {
+          "w": "up",
+          "start": 35.146,
+          "end": 35.299
+        },
+        {
+          "w": "into",
+          "start": 35.299,
+          "end": 35.554
+        },
+        {
+          "w": "the",
+          "start": 35.554,
+          "end": 35.655
+        },
+        {
+          "w": "sky?",
+          "start": 35.655,
+          "end": 35.91
+        }
+      ]
+    },
+    {
+      "beat": "sun",
+      "speaker": "drippy",
+      "text": "I'm in the big blue sea. The warm sun shines on me. Ooh, I feel warm!",
+      "gap": 1.2,
+      "start": 37.41,
+      "end": 41.89,
+      "words": [
+        {
+          "w": "I'm",
+          "start": 37.45,
+          "end": 37.658
+        },
+        {
+          "w": "in",
+          "start": 37.658,
+          "end": 37.866
+        },
+        {
+          "w": "the",
+          "start": 37.866,
+          "end": 38.005
+        },
+        {
+          "w": "big",
+          "start": 38.005,
+          "end": 38.282
+        },
+        {
+          "w": "blue",
+          "start": 38.282,
+          "end": 38.629
+        },
+        {
+          "w": "sea.",
+          "start": 38.629,
+          "end": 38.907
+        },
+        {
+          "w": "The",
+          "start": 38.907,
+          "end": 39.045
+        },
+        {
+          "w": "warm",
+          "start": 39.045,
+          "end": 39.462
+        },
+        {
+          "w": "sun",
+          "start": 39.462,
+          "end": 39.739
+        },
+        {
+          "w": "shines",
+          "start": 39.739,
+          "end": 40.155
+        },
+        {
+          "w": "on",
+          "start": 40.155,
+          "end": 40.363
+        },
+        {
+          "w": "me.",
+          "start": 40.363,
+          "end": 40.641
+        },
+        {
+          "w": "Ooh,",
+          "start": 40.641,
+          "end": 40.849
+        },
+        {
+          "w": "I",
+          "start": 40.849,
+          "end": 41.057
+        },
+        {
+          "w": "feel",
+          "start": 41.057,
+          "end": 41.404
+        },
+        {
+          "w": "warm!",
+          "start": 41.404,
+          "end": 41.82
+        }
+      ]
+    },
+    {
+      "beat": "up",
+      "speaker": "drippy",
+      "text": "I get so light, I float up, up, up! You can't see me now!",
+      "gap": 1.6,
+      "start": 43.09,
+      "end": 46.39,
+      "words": [
+        {
+          "w": "I",
+          "start": 43.12,
+          "end": 43.293
+        },
+        {
+          "w": "get",
+          "start": 43.293,
+          "end": 43.524
+        },
+        {
+          "w": "so",
+          "start": 43.524,
+          "end": 43.756
+        },
+        {
+          "w": "light,",
+          "start": 43.756,
+          "end": 44.044
+        },
+        {
+          "w": "I",
+          "start": 44.044,
+          "end": 44.218
+        },
+        {
+          "w": "float",
+          "start": 44.218,
+          "end": 44.564
+        },
+        {
+          "w": "up,",
+          "start": 44.564,
+          "end": 44.738
+        },
+        {
+          "w": "up,",
+          "start": 44.738,
+          "end": 44.911
+        },
+        {
+          "w": "up!",
+          "start": 44.911,
+          "end": 45.084
+        },
+        {
+          "w": "You",
+          "start": 45.084,
+          "end": 45.258
+        },
+        {
+          "w": "can't",
+          "start": 45.258,
+          "end": 45.547
+        },
+        {
+          "w": "see",
+          "start": 45.547,
+          "end": 45.778
+        },
+        {
+          "w": "me",
+          "start": 45.778,
+          "end": 46.009
+        },
+        {
+          "w": "now!",
+          "start": 46.009,
+          "end": 46.24
+        }
+      ]
+    },
+    {
+      "beat": "up_turn",
+      "speaker": "narrator",
+      "text": "Point up with Drippy! Up, up, up!",
+      "gap": 2.8,
+      "start": 47.99,
+      "end": 50.14,
+      "words": [
+        {
+          "w": "Point",
+          "start": 48.04,
+          "end": 48.484
+        },
+        {
+          "w": "up",
+          "start": 48.484,
+          "end": 48.707
+        },
+        {
+          "w": "with",
+          "start": 48.707,
+          "end": 48.929
+        },
+        {
+          "w": "Drippy!",
+          "start": 48.929,
+          "end": 49.373
+        },
+        {
+          "w": "Up,",
+          "start": 49.373,
+          "end": 49.596
+        },
+        {
+          "w": "up,",
+          "start": 49.596,
+          "end": 49.818
+        },
+        {
+          "w": "up!",
+          "start": 49.818,
+          "end": 50.04
+        }
+      ]
+    },
+    {
+      "beat": "cold",
+      "speaker": "drippy",
+      "text": "High in the sky, it's cold! Brrr! I turn back into a tiny drop.",
+      "gap": 1.4,
+      "start": 52.94,
+      "end": 57.73,
+      "words": [
+        {
+          "w": "High",
+          "start": 52.98,
+          "end": 53.237
+        },
+        {
+          "w": "in",
+          "start": 53.237,
+          "end": 53.43
+        },
+        {
+          "w": "the",
+          "start": 53.43,
+          "end": 53.558
+        },
+        {
+          "w": "sky,",
+          "start": 53.558,
+          "end": 53.879
+        },
+        {
+          "w": "it's",
+          "start": 53.879,
+          "end": 54.072
+        },
+        {
+          "w": "cold!",
+          "start": 54.072,
+          "end": 54.458
+        },
+        {
+          "w": "Brrr!",
+          "start": 54.458,
+          "end": 55.614
+        },
+        {
+          "w": "I",
+          "start": 55.614,
+          "end": 55.807
+        },
+        {
+          "w": "turn",
+          "start": 55.807,
+          "end": 56.128
+        },
+        {
+          "w": "back",
+          "start": 56.128,
+          "end": 56.385
+        },
+        {
+          "w": "into",
+          "start": 56.385,
+          "end": 56.706
+        },
+        {
+          "w": "a",
+          "start": 56.706,
+          "end": 56.899
+        },
+        {
+          "w": "tiny",
+          "start": 56.899,
+          "end": 57.285
+        },
+        {
+          "w": "drop.",
+          "start": 57.285,
+          "end": 57.67
+        }
+      ]
+    },
+    {
+      "beat": "cloud",
+      "speaker": "drippy",
+      "text": "And look! Lots of tiny drops, all together. We make a cloud!",
+      "gap": 2.2,
+      "start": 59.13,
+      "end": 62.69,
+      "words": [
+        {
+          "w": "And",
+          "start": 59.15,
+          "end": 59.336
+        },
+        {
+          "w": "look!",
+          "start": 59.336,
+          "end": 59.584
+        },
+        {
+          "w": "Lots",
+          "start": 59.584,
+          "end": 59.956
+        },
+        {
+          "w": "of",
+          "start": 59.956,
+          "end": 60.079
+        },
+        {
+          "w": "tiny",
+          "start": 60.079,
+          "end": 60.451
+        },
+        {
+          "w": "drops,",
+          "start": 60.451,
+          "end": 60.885
+        },
+        {
+          "w": "all",
+          "start": 60.885,
+          "end": 61.133
+        },
+        {
+          "w": "together.",
+          "start": 61.133,
+          "end": 61.567
+        },
+        {
+          "w": "We",
+          "start": 61.567,
+          "end": 61.753
+        },
+        {
+          "w": "make",
+          "start": 61.753,
+          "end": 62.062
+        },
+        {
+          "w": "a",
+          "start": 62.062,
+          "end": 62.248
+        },
+        {
+          "w": "cloud!",
+          "start": 62.248,
+          "end": 62.62
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "narrator",
+      "text": "Question two. Why does rain fall down?",
+      "gap": 1.4,
+      "start": 64.89,
+      "end": 67.49,
+      "words": [
+        {
+          "w": "Question",
+          "start": 64.92,
+          "end": 65.474
+        },
+        {
+          "w": "two.",
+          "start": 65.474,
+          "end": 65.72
+        },
+        {
+          "w": "Why",
+          "start": 66.02,
+          "end": 66.257
+        },
+        {
+          "w": "does",
+          "start": 66.257,
+          "end": 66.493
+        },
+        {
+          "w": "rain",
+          "start": 66.493,
+          "end": 66.789
+        },
+        {
+          "w": "fall",
+          "start": 66.789,
+          "end": 67.084
+        },
+        {
+          "w": "down?",
+          "start": 67.084,
+          "end": 67.38
+        }
+      ]
+    },
+    {
+      "beat": "bump",
+      "speaker": "hoot",
+      "text": "Inside the cloud, the tiny drops bump into each other, and join together.",
+      "gap": 1.4,
+      "start": 68.89,
+      "end": 73.94,
+      "words": [
+        {
+          "w": "Inside",
+          "start": 68.92,
+          "end": 69.447
+        },
+        {
+          "w": "the",
+          "start": 69.447,
+          "end": 69.598
+        },
+        {
+          "w": "cloud,",
+          "start": 69.598,
+          "end": 70.05
+        },
+        {
+          "w": "the",
+          "start": 70.34,
+          "end": 70.465
+        },
+        {
+          "w": "tiny",
+          "start": 70.465,
+          "end": 70.839
+        },
+        {
+          "w": "drops",
+          "start": 70.839,
+          "end": 71.214
+        },
+        {
+          "w": "bump",
+          "start": 71.214,
+          "end": 71.526
+        },
+        {
+          "w": "into",
+          "start": 71.526,
+          "end": 71.838
+        },
+        {
+          "w": "each",
+          "start": 71.838,
+          "end": 72.15
+        },
+        {
+          "w": "other,",
+          "start": 72.15,
+          "end": 72.4
+        },
+        {
+          "w": "and",
+          "start": 72.76,
+          "end": 72.968
+        },
+        {
+          "w": "join",
+          "start": 72.968,
+          "end": 73.384
+        },
+        {
+          "w": "together.",
+          "start": 73.384,
+          "end": 73.87
+        }
+      ]
+    },
+    {
+      "beat": "bigger",
+      "speaker": "drippy",
+      "text": "Bump! I get bigger. Bump! Bigger! Bump! Bigger!",
+      "gap": 1.8,
+      "start": 75.34,
+      "end": 78.01,
+      "words": [
+        {
+          "w": "Bump!",
+          "start": 75.37,
+          "end": 75.715
+        },
+        {
+          "w": "I",
+          "start": 75.715,
+          "end": 75.921
+        },
+        {
+          "w": "get",
+          "start": 75.921,
+          "end": 76.197
+        },
+        {
+          "w": "bigger.",
+          "start": 76.197,
+          "end": 76.542
+        },
+        {
+          "w": "Bump!",
+          "start": 76.542,
+          "end": 76.886
+        },
+        {
+          "w": "Bigger!",
+          "start": 76.886,
+          "end": 77.231
+        },
+        {
+          "w": "Bump!",
+          "start": 77.231,
+          "end": 77.575
+        },
+        {
+          "w": "Bigger!",
+          "start": 77.575,
+          "end": 77.92
+        }
+      ]
+    },
+    {
+      "beat": "bump_turn",
+      "speaker": "narrator",
+      "text": "Say it with Drippy! Bump! Bigger!",
+      "gap": 2.8,
+      "start": 79.81,
+      "end": 82.09,
+      "words": [
+        {
+          "w": "Say",
+          "start": 79.85,
+          "end": 80.192
+        },
+        {
+          "w": "it",
+          "start": 80.192,
+          "end": 80.364
+        },
+        {
+          "w": "with",
+          "start": 80.364,
+          "end": 80.62
+        },
+        {
+          "w": "Drippy!",
+          "start": 80.62,
+          "end": 81.134
+        },
+        {
+          "w": "Bump!",
+          "start": 81.134,
+          "end": 81.562
+        },
+        {
+          "w": "Bigger!",
+          "start": 81.562,
+          "end": 81.99
+        }
+      ]
+    },
+    {
+      "beat": "heavy",
+      "speaker": "hoot",
+      "text": "When the drops get big and heavy, the cloud can't hold them anymore.",
+      "gap": 1.2,
+      "start": 84.89,
+      "end": 88.88,
+      "words": [
+        {
+          "w": "When",
+          "start": 84.92,
+          "end": 85.166
+        },
+        {
+          "w": "the",
+          "start": 85.166,
+          "end": 85.289
+        },
+        {
+          "w": "drops",
+          "start": 85.289,
+          "end": 85.657
+        },
+        {
+          "w": "get",
+          "start": 85.657,
+          "end": 85.903
+        },
+        {
+          "w": "big",
+          "start": 85.903,
+          "end": 86.149
+        },
+        {
+          "w": "and",
+          "start": 86.149,
+          "end": 86.333
+        },
+        {
+          "w": "heavy,",
+          "start": 86.333,
+          "end": 86.64
+        },
+        {
+          "w": "the",
+          "start": 86.97,
+          "end": 87.084
+        },
+        {
+          "w": "cloud",
+          "start": 87.084,
+          "end": 87.425
+        },
+        {
+          "w": "can't",
+          "start": 87.425,
+          "end": 87.766
+        },
+        {
+          "w": "hold",
+          "start": 87.766,
+          "end": 88.108
+        },
+        {
+          "w": "them",
+          "start": 88.108,
+          "end": 88.335
+        },
+        {
+          "w": "anymore.",
+          "start": 88.335,
+          "end": 88.79
+        }
+      ]
+    },
+    {
+      "beat": "fall",
+      "speaker": "drippy",
+      "text": "Whoa! Here I go! Wheee! I'm rain!",
+      "gap": 2.4,
+      "start": 90.08,
+      "end": 92.0,
+      "words": [
+        {
+          "w": "Whoa!",
+          "start": 90.11,
+          "end": 90.363
+        },
+        {
+          "w": "Here",
+          "start": 90.363,
+          "end": 90.617
+        },
+        {
+          "w": "I",
+          "start": 90.617,
+          "end": 90.807
+        },
+        {
+          "w": "go!",
+          "start": 90.807,
+          "end": 91.06
+        },
+        {
+          "w": "Wheee!",
+          "start": 91.06,
+          "end": 91.313
+        },
+        {
+          "w": "I'm",
+          "start": 91.313,
+          "end": 91.503
+        },
+        {
+          "w": "rain!",
+          "start": 91.503,
+          "end": 91.82
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "narrator",
+      "text": "Question three. Where does the rain go?",
+      "gap": 1.4,
+      "start": 94.4,
+      "end": 96.66,
+      "words": [
+        {
+          "w": "Question",
+          "start": 94.43,
+          "end": 94.957
+        },
+        {
+          "w": "three.",
+          "start": 94.957,
+          "end": 95.25
+        },
+        {
+          "w": "Where",
+          "start": 95.52,
+          "end": 95.737
+        },
+        {
+          "w": "does",
+          "start": 95.737,
+          "end": 95.954
+        },
+        {
+          "w": "the",
+          "start": 95.954,
+          "end": 96.062
+        },
+        {
+          "w": "rain",
+          "start": 96.062,
+          "end": 96.333
+        },
+        {
+          "w": "go?",
+          "start": 96.333,
+          "end": 96.55
+        }
+      ]
+    },
+    {
+      "beat": "land",
+      "speaker": "drippy",
+      "text": "Splash! I land on a hill, and I slide down into a river.",
+      "gap": 1.4,
+      "start": 98.06,
+      "end": 101.57,
+      "words": [
+        {
+          "w": "Splash!",
+          "start": 98.08,
+          "end": 98.461
+        },
+        {
+          "w": "I",
+          "start": 98.461,
+          "end": 98.652
+        },
+        {
+          "w": "land",
+          "start": 98.652,
+          "end": 98.969
+        },
+        {
+          "w": "on",
+          "start": 98.969,
+          "end": 99.16
+        },
+        {
+          "w": "a",
+          "start": 99.16,
+          "end": 99.35
+        },
+        {
+          "w": "hill,",
+          "start": 99.35,
+          "end": 99.604
+        },
+        {
+          "w": "and",
+          "start": 99.604,
+          "end": 99.795
+        },
+        {
+          "w": "I",
+          "start": 99.795,
+          "end": 99.986
+        },
+        {
+          "w": "slide",
+          "start": 99.986,
+          "end": 100.367
+        },
+        {
+          "w": "down",
+          "start": 100.367,
+          "end": 100.684
+        },
+        {
+          "w": "into",
+          "start": 100.684,
+          "end": 101.002
+        },
+        {
+          "w": "a",
+          "start": 101.002,
+          "end": 101.192
+        },
+        {
+          "w": "river.",
+          "start": 101.192,
+          "end": 101.51
+        }
+      ]
+    },
+    {
+      "beat": "plants",
+      "speaker": "hoot",
+      "text": "Some raindrops help the flowers and trees drink, and grow.",
+      "gap": 1.6,
+      "start": 102.97,
+      "end": 107.02,
+      "words": [
+        {
+          "w": "Some",
+          "start": 103.01,
+          "end": 103.319
+        },
+        {
+          "w": "raindrops",
+          "start": 103.319,
+          "end": 104.092
+        },
+        {
+          "w": "help",
+          "start": 104.092,
+          "end": 104.478
+        },
+        {
+          "w": "the",
+          "start": 104.478,
+          "end": 104.632
+        },
+        {
+          "w": "flowers",
+          "start": 104.632,
+          "end": 105.173
+        },
+        {
+          "w": "and",
+          "start": 105.173,
+          "end": 105.405
+        },
+        {
+          "w": "trees",
+          "start": 105.405,
+          "end": 105.868
+        },
+        {
+          "w": "drink,",
+          "start": 105.868,
+          "end": 106.332
+        },
+        {
+          "w": "and",
+          "start": 106.332,
+          "end": 106.564
+        },
+        {
+          "w": "grow.",
+          "start": 106.564,
+          "end": 106.95
+        }
+      ]
+    },
+    {
+      "beat": "river",
+      "speaker": "drippy",
+      "text": "The river takes me all the way back to the sea!",
+      "gap": 1.6,
+      "start": 108.62,
+      "end": 111.03,
+      "words": [
+        {
+          "w": "The",
+          "start": 108.66,
+          "end": 108.775
+        },
+        {
+          "w": "river",
+          "start": 108.775,
+          "end": 109.064
+        },
+        {
+          "w": "takes",
+          "start": 109.064,
+          "end": 109.411
+        },
+        {
+          "w": "me",
+          "start": 109.411,
+          "end": 109.642
+        },
+        {
+          "w": "all",
+          "start": 109.642,
+          "end": 109.873
+        },
+        {
+          "w": "the",
+          "start": 109.873,
+          "end": 109.988
+        },
+        {
+          "w": "way",
+          "start": 109.988,
+          "end": 110.219
+        },
+        {
+          "w": "back",
+          "start": 110.219,
+          "end": 110.45
+        },
+        {
+          "w": "to",
+          "start": 110.45,
+          "end": 110.624
+        },
+        {
+          "w": "the",
+          "start": 110.624,
+          "end": 110.739
+        },
+        {
+          "w": "sea!",
+          "start": 110.739,
+          "end": 110.97
+        }
+      ]
+    },
+    {
+      "beat": "again",
+      "speaker": "hoot",
+      "text": "And then the sun warms the water again, and up, up, up it goes!",
+      "gap": 1.4,
+      "start": 112.63,
+      "end": 117.1,
+      "words": [
+        {
+          "w": "And",
+          "start": 112.67,
+          "end": 112.926
+        },
+        {
+          "w": "then",
+          "start": 112.926,
+          "end": 113.268
+        },
+        {
+          "w": "the",
+          "start": 113.268,
+          "end": 113.439
+        },
+        {
+          "w": "sun",
+          "start": 113.439,
+          "end": 113.781
+        },
+        {
+          "w": "warms",
+          "start": 113.781,
+          "end": 114.294
+        },
+        {
+          "w": "the",
+          "start": 114.294,
+          "end": 114.465
+        },
+        {
+          "w": "water",
+          "start": 114.465,
+          "end": 114.978
+        },
+        {
+          "w": "again,",
+          "start": 114.978,
+          "end": 115.406
+        },
+        {
+          "w": "and",
+          "start": 115.406,
+          "end": 115.662
+        },
+        {
+          "w": "up,",
+          "start": 115.662,
+          "end": 115.919
+        },
+        {
+          "w": "up,",
+          "start": 115.919,
+          "end": 116.175
+        },
+        {
+          "w": "up",
+          "start": 116.175,
+          "end": 116.432
+        },
+        {
+          "w": "it",
+          "start": 116.432,
+          "end": 116.603
+        },
+        {
+          "w": "goes!",
+          "start": 116.603,
+          "end": 117.03
+        }
+      ]
+    },
+    {
+      "beat": "cycle",
+      "speaker": "hoot",
+      "text": "Up, cloud, rain, and back to the sea. Round and round! This is called the water cycle.",
+      "gap": 1.4,
+      "start": 118.5,
+      "end": 124.38,
+      "words": [
+        {
+          "w": "Up,",
+          "start": 118.52,
+          "end": 118.762
+        },
+        {
+          "w": "cloud,",
+          "start": 118.762,
+          "end": 119.245
+        },
+        {
+          "w": "rain,",
+          "start": 119.245,
+          "end": 119.648
+        },
+        {
+          "w": "and",
+          "start": 119.648,
+          "end": 119.889
+        },
+        {
+          "w": "back",
+          "start": 119.889,
+          "end": 120.212
+        },
+        {
+          "w": "to",
+          "start": 120.212,
+          "end": 120.453
+        },
+        {
+          "w": "the",
+          "start": 120.453,
+          "end": 120.614
+        },
+        {
+          "w": "sea.",
+          "start": 120.614,
+          "end": 120.937
+        },
+        {
+          "w": "Round",
+          "start": 120.937,
+          "end": 121.42
+        },
+        {
+          "w": "and",
+          "start": 121.42,
+          "end": 121.662
+        },
+        {
+          "w": "round!",
+          "start": 121.662,
+          "end": 122.145
+        },
+        {
+          "w": "This",
+          "start": 122.145,
+          "end": 122.467
+        },
+        {
+          "w": "is",
+          "start": 122.467,
+          "end": 122.628
+        },
+        {
+          "w": "called",
+          "start": 122.628,
+          "end": 123.112
+        },
+        {
+          "w": "the",
+          "start": 123.112,
+          "end": 123.273
+        },
+        {
+          "w": "water",
+          "start": 123.273,
+          "end": 123.756
+        },
+        {
+          "w": "cycle.",
+          "start": 123.756,
+          "end": 124.32
+        }
+      ]
+    },
+    {
+      "beat": "cycle_turn",
+      "speaker": "mila",
+      "text": "Wa-ter cy-cle! Your turn!",
+      "gap": 2.8,
+      "start": 125.78,
+      "end": 127.65,
+      "words": [
+        {
+          "w": "Wa-ter",
+          "start": 125.82,
+          "end": 126.317
+        },
+        {
+          "w": "cy-cle!",
+          "start": 126.317,
+          "end": 126.897
+        },
+        {
+          "w": "Your",
+          "start": 126.897,
+          "end": 127.146
+        },
+        {
+          "w": "turn!",
+          "start": 127.146,
+          "end": 127.56
+        }
+      ]
+    },
+    {
+      "beat": "leo_wow",
+      "speaker": "leo",
+      "text": "Whoa! So rain is the same water, going round and round!",
+      "gap": 1.4,
+      "start": 130.45,
+      "end": 133.73,
+      "words": [
+        {
+          "w": "Whoa!",
+          "start": 130.48,
+          "end": 130.717
+        },
+        {
+          "w": "So",
+          "start": 130.717,
+          "end": 130.953
+        },
+        {
+          "w": "rain",
+          "start": 130.953,
+          "end": 131.249
+        },
+        {
+          "w": "is",
+          "start": 131.249,
+          "end": 131.368
+        },
+        {
+          "w": "the",
+          "start": 131.368,
+          "end": 131.486
+        },
+        {
+          "w": "same",
+          "start": 131.486,
+          "end": 131.782
+        },
+        {
+          "w": "water,",
+          "start": 131.782,
+          "end": 132.137
+        },
+        {
+          "w": "going",
+          "start": 132.137,
+          "end": 132.492
+        },
+        {
+          "w": "round",
+          "start": 132.492,
+          "end": 132.847
+        },
+        {
+          "w": "and",
+          "start": 132.847,
+          "end": 133.025
+        },
+        {
+          "w": "round!",
+          "start": 133.025,
+          "end": 133.38
+        }
+      ]
+    },
+    {
+      "beat": "hoot_yes",
+      "speaker": "hoot",
+      "text": "Yes! The water in your bath was in a cloud, long, long ago!",
+      "gap": 2.2,
+      "start": 135.13,
+      "end": 139.44,
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 135.16,
+          "end": 135.496
+        },
+        {
+          "w": "The",
+          "start": 135.496,
+          "end": 135.664
+        },
+        {
+          "w": "water",
+          "start": 135.664,
+          "end": 136.168
+        },
+        {
+          "w": "in",
+          "start": 136.168,
+          "end": 136.42
+        },
+        {
+          "w": "your",
+          "start": 136.42,
+          "end": 136.672
+        },
+        {
+          "w": "bath",
+          "start": 136.672,
+          "end": 137.008
+        },
+        {
+          "w": "was",
+          "start": 137.008,
+          "end": 137.26
+        },
+        {
+          "w": "in",
+          "start": 137.26,
+          "end": 137.512
+        },
+        {
+          "w": "a",
+          "start": 137.512,
+          "end": 137.764
+        },
+        {
+          "w": "cloud,",
+          "start": 137.764,
+          "end": 138.268
+        },
+        {
+          "w": "long,",
+          "start": 138.268,
+          "end": 138.604
+        },
+        {
+          "w": "long",
+          "start": 138.604,
+          "end": 138.94
+        },
+        {
+          "w": "ago!",
+          "start": 138.94,
+          "end": 139.36
+        }
+      ]
+    },
+    {
+      "beat": "see",
+      "speaker": "mila",
+      "text": "We can make rain in a jar! Ask a grown-up to help.",
+      "gap": 1.4,
+      "start": 141.64,
+      "end": 144.92,
+      "words": [
+        {
+          "w": "We",
+          "start": 141.81,
+          "end": 141.964
+        },
+        {
+          "w": "can",
+          "start": 141.964,
+          "end": 142.17
+        },
+        {
+          "w": "make",
+          "start": 142.17,
+          "end": 142.427
+        },
+        {
+          "w": "rain",
+          "start": 142.427,
+          "end": 142.683
+        },
+        {
+          "w": "in",
+          "start": 142.683,
+          "end": 142.838
+        },
+        {
+          "w": "a",
+          "start": 142.838,
+          "end": 142.992
+        },
+        {
+          "w": "jar!",
+          "start": 142.992,
+          "end": 143.3
+        },
+        {
+          "w": "Ask",
+          "start": 143.54,
+          "end": 143.757
+        },
+        {
+          "w": "a",
+          "start": 143.757,
+          "end": 143.92
+        },
+        {
+          "w": "grown-up",
+          "start": 143.92,
+          "end": 144.355
+        },
+        {
+          "w": "to",
+          "start": 144.355,
+          "end": 144.518
+        },
+        {
+          "w": "help.",
+          "start": 144.518,
+          "end": 144.79
+        }
+      ]
+    },
+    {
+      "beat": "j1",
+      "speaker": "hoot",
+      "text": "Step one. A grown-up pours warm water into a jar.",
+      "gap": 1.8,
+      "start": 146.32,
+      "end": 150.07,
+      "words": [
+        {
+          "w": "Step",
+          "start": 146.35,
+          "end": 146.721
+        },
+        {
+          "w": "one.",
+          "start": 146.721,
+          "end": 147.019
+        },
+        {
+          "w": "A",
+          "start": 147.019,
+          "end": 147.241
+        },
+        {
+          "w": "grown-up",
+          "start": 147.241,
+          "end": 147.836
+        },
+        {
+          "w": "pours",
+          "start": 147.836,
+          "end": 148.207
+        },
+        {
+          "w": "warm",
+          "start": 148.207,
+          "end": 148.579
+        },
+        {
+          "w": "water",
+          "start": 148.579,
+          "end": 149.024
+        },
+        {
+          "w": "into",
+          "start": 149.024,
+          "end": 149.396
+        },
+        {
+          "w": "a",
+          "start": 149.396,
+          "end": 149.619
+        },
+        {
+          "w": "jar.",
+          "start": 149.619,
+          "end": 149.99
+        }
+      ]
+    },
+    {
+      "beat": "j2",
+      "speaker": "hoot",
+      "text": "Step two. Put a plate on top, with ice cubes on it.",
+      "gap": 1.8,
+      "start": 151.87,
+      "end": 155.35,
+      "words": [
+        {
+          "w": "Step",
+          "start": 151.9,
+          "end": 152.249
+        },
+        {
+          "w": "two.",
+          "start": 152.249,
+          "end": 152.528
+        },
+        {
+          "w": "Put",
+          "start": 152.528,
+          "end": 152.807
+        },
+        {
+          "w": "a",
+          "start": 152.807,
+          "end": 153.017
+        },
+        {
+          "w": "plate",
+          "start": 153.017,
+          "end": 153.435
+        },
+        {
+          "w": "on",
+          "start": 153.435,
+          "end": 153.645
+        },
+        {
+          "w": "top,",
+          "start": 153.645,
+          "end": 153.924
+        },
+        {
+          "w": "with",
+          "start": 153.924,
+          "end": 154.133
+        },
+        {
+          "w": "ice",
+          "start": 154.133,
+          "end": 154.413
+        },
+        {
+          "w": "cubes",
+          "start": 154.413,
+          "end": 154.901
+        },
+        {
+          "w": "on",
+          "start": 154.901,
+          "end": 155.11
+        },
+        {
+          "w": "it.",
+          "start": 155.11,
+          "end": 155.25
+        }
+      ]
+    },
+    {
+      "beat": "j3",
+      "speaker": "hoot",
+      "text": "Now, wait, and watch.",
+      "gap": 3.6,
+      "start": 157.15,
+      "end": 159.11,
+      "words": [
+        {
+          "w": "Now,",
+          "start": 157.19,
+          "end": 157.625
+        },
+        {
+          "w": "wait,",
+          "start": 157.625,
+          "end": 158.169
+        },
+        {
+          "w": "and",
+          "start": 158.169,
+          "end": 158.496
+        },
+        {
+          "w": "watch.",
+          "start": 158.496,
+          "end": 159.04
+        }
+      ]
+    },
+    {
+      "beat": "j4",
+      "speaker": "hoot",
+      "text": "Look! Tiny drops under the cold plate. They get bigger, and... drip, drip! Rain!",
+      "gap": 2.0,
+      "start": 162.71,
+      "end": 168.02,
+      "words": [
+        {
+          "w": "Look!",
+          "start": 162.75,
+          "end": 163.071
+        },
+        {
+          "w": "Tiny",
+          "start": 163.071,
+          "end": 163.552
+        },
+        {
+          "w": "drops",
+          "start": 163.552,
+          "end": 164.032
+        },
+        {
+          "w": "under",
+          "start": 164.032,
+          "end": 164.433
+        },
+        {
+          "w": "the",
+          "start": 164.433,
+          "end": 164.594
+        },
+        {
+          "w": "cold",
+          "start": 164.594,
+          "end": 165.074
+        },
+        {
+          "w": "plate.",
+          "start": 165.074,
+          "end": 165.555
+        },
+        {
+          "w": "They",
+          "start": 165.555,
+          "end": 165.796
+        },
+        {
+          "w": "get",
+          "start": 165.796,
+          "end": 166.116
+        },
+        {
+          "w": "bigger,",
+          "start": 166.116,
+          "end": 166.517
+        },
+        {
+          "w": "and...",
+          "start": 166.517,
+          "end": 166.758
+        },
+        {
+          "w": "drip,",
+          "start": 166.758,
+          "end": 167.158
+        },
+        {
+          "w": "drip!",
+          "start": 167.158,
+          "end": 167.559
+        },
+        {
+          "w": "Rain!",
+          "start": 167.559,
+          "end": 167.96
+        }
+      ]
+    },
+    {
+      "beat": "mila_yay",
+      "speaker": "mila",
+      "text": "We made rain! Hooray!",
+      "gap": 2.4,
+      "start": 170.02,
+      "end": 171.63,
+      "words": [
+        {
+          "w": "We",
+          "start": 170.05,
+          "end": 170.271
+        },
+        {
+          "w": "made",
+          "start": 170.271,
+          "end": 170.638
+        },
+        {
+          "w": "rain!",
+          "start": 170.638,
+          "end": 171.006
+        },
+        {
+          "w": "Hooray!",
+          "start": 171.006,
+          "end": 171.52
+        }
+      ]
+    },
+    {
+      "beat": "fact_q",
+      "speaker": "leo",
+      "text": "Prof. Hoot, are raindrops pointy, like this?",
+      "gap": 1.0,
+      "start": 174.03,
+      "end": 176.75,
+      "words": [
+        {
+          "w": "Prof.",
+          "start": 174.06,
+          "end": 174.41
+        },
+        {
+          "w": "Hoot,",
+          "start": 174.41,
+          "end": 174.701
+        },
+        {
+          "w": "are",
+          "start": 174.701,
+          "end": 174.876
+        },
+        {
+          "w": "raindrops",
+          "start": 174.876,
+          "end": 175.517
+        },
+        {
+          "w": "pointy,",
+          "start": 175.517,
+          "end": 175.925
+        },
+        {
+          "w": "like",
+          "start": 175.925,
+          "end": 176.217
+        },
+        {
+          "w": "this?",
+          "start": 176.217,
+          "end": 176.45
+        }
+      ]
+    },
+    {
+      "beat": "fact_a",
+      "speaker": "hoot",
+      "text": "Good question! Real raindrops are not pointy. Small ones are round, like little balls.",
+      "gap": 1.4,
+      "start": 177.75,
+      "end": 183.68,
+      "words": [
+        {
+          "w": "Good",
+          "start": 177.77,
+          "end": 178.073
+        },
+        {
+          "w": "question!",
+          "start": 178.073,
+          "end": 178.754
+        },
+        {
+          "w": "Real",
+          "start": 178.754,
+          "end": 179.133
+        },
+        {
+          "w": "raindrops",
+          "start": 179.133,
+          "end": 179.89
+        },
+        {
+          "w": "are",
+          "start": 179.89,
+          "end": 180.041
+        },
+        {
+          "w": "not",
+          "start": 180.041,
+          "end": 180.344
+        },
+        {
+          "w": "pointy.",
+          "start": 180.344,
+          "end": 180.874
+        },
+        {
+          "w": "Small",
+          "start": 180.874,
+          "end": 181.329
+        },
+        {
+          "w": "ones",
+          "start": 181.329,
+          "end": 181.707
+        },
+        {
+          "w": "are",
+          "start": 181.707,
+          "end": 181.859
+        },
+        {
+          "w": "round,",
+          "start": 181.859,
+          "end": 182.313
+        },
+        {
+          "w": "like",
+          "start": 182.313,
+          "end": 182.691
+        },
+        {
+          "w": "little",
+          "start": 182.691,
+          "end": 183.146
+        },
+        {
+          "w": "balls.",
+          "start": 183.146,
+          "end": 183.6
+        }
+      ]
+    },
+    {
+      "beat": "fact_b",
+      "speaker": "hoot",
+      "text": "And big ones look a bit like a tiny bun! Wow!",
+      "gap": 1.6,
+      "start": 185.08,
+      "end": 188.68,
+      "words": [
+        {
+          "w": "And",
+          "start": 185.12,
+          "end": 185.307
+        },
+        {
+          "w": "big",
+          "start": 185.307,
+          "end": 185.555
+        },
+        {
+          "w": "ones",
+          "start": 185.555,
+          "end": 185.866
+        },
+        {
+          "w": "look",
+          "start": 185.866,
+          "end": 186.115
+        },
+        {
+          "w": "a",
+          "start": 186.115,
+          "end": 186.302
+        },
+        {
+          "w": "bit",
+          "start": 186.302,
+          "end": 186.55
+        },
+        {
+          "w": "like",
+          "start": 186.55,
+          "end": 186.861
+        },
+        {
+          "w": "a",
+          "start": 186.861,
+          "end": 187.048
+        },
+        {
+          "w": "tiny",
+          "start": 187.048,
+          "end": 187.421
+        },
+        {
+          "w": "bun!",
+          "start": 187.421,
+          "end": 187.67
+        },
+        {
+          "w": "Wow!",
+          "start": 188.04,
+          "end": 188.58
+        }
+      ]
+    },
+    {
+      "beat": "leo_bun",
+      "speaker": "leo",
+      "text": "A bun? Now I'm hungry!",
+      "gap": 2.4,
+      "start": 190.28,
+      "end": 191.81,
+      "words": [
+        {
+          "w": "A",
+          "start": 190.31,
+          "end": 190.487
+        },
+        {
+          "w": "bun?",
+          "start": 190.487,
+          "end": 190.723
+        },
+        {
+          "w": "Now",
+          "start": 190.723,
+          "end": 190.96
+        },
+        {
+          "w": "I'm",
+          "start": 190.96,
+          "end": 191.137
+        },
+        {
+          "w": "hungry!",
+          "start": 191.137,
+          "end": 191.55
+        }
+      ]
+    },
+    {
+      "beat": "rainbow_q",
+      "speaker": "mila",
+      "text": "Look! The sun is back. And... a rainbow!",
+      "gap": 1.6,
+      "start": 194.21,
+      "end": 196.74,
+      "words": [
+        {
+          "w": "Look!",
+          "start": 194.25,
+          "end": 194.562
+        },
+        {
+          "w": "The",
+          "start": 194.562,
+          "end": 194.718
+        },
+        {
+          "w": "sun",
+          "start": 194.718,
+          "end": 195.03
+        },
+        {
+          "w": "is",
+          "start": 195.03,
+          "end": 195.186
+        },
+        {
+          "w": "back.",
+          "start": 195.186,
+          "end": 195.498
+        },
+        {
+          "w": "And...",
+          "start": 195.498,
+          "end": 195.732
+        },
+        {
+          "w": "a",
+          "start": 195.732,
+          "end": 195.966
+        },
+        {
+          "w": "rainbow!",
+          "start": 195.966,
+          "end": 196.59
+        }
+      ]
+    },
+    {
+      "beat": "rainbow",
+      "speaker": "hoot",
+      "text": "When sunshine shines through the raindrops, it makes a rainbow!",
+      "gap": 1.6,
+      "start": 198.34,
+      "end": 202.37,
+      "words": [
+        {
+          "w": "When",
+          "start": 198.36,
+          "end": 198.63
+        },
+        {
+          "w": "sunshine",
+          "start": 198.63,
+          "end": 199.169
+        },
+        {
+          "w": "shines",
+          "start": 199.169,
+          "end": 199.574
+        },
+        {
+          "w": "through",
+          "start": 199.574,
+          "end": 199.911
+        },
+        {
+          "w": "the",
+          "start": 199.911,
+          "end": 200.046
+        },
+        {
+          "w": "raindrops,",
+          "start": 200.046,
+          "end": 200.72
+        },
+        {
+          "w": "it",
+          "start": 201.07,
+          "end": 201.198
+        },
+        {
+          "w": "makes",
+          "start": 201.198,
+          "end": 201.584
+        },
+        {
+          "w": "a",
+          "start": 201.584,
+          "end": 201.776
+        },
+        {
+          "w": "rainbow!",
+          "start": 201.776,
+          "end": 202.29
+        }
+      ]
+    },
+    {
+      "beat": "colors",
+      "speaker": "mila",
+      "text": "Red, orange, yellow, green, blue, and purple!",
+      "gap": 2.4,
+      "start": 203.97,
+      "end": 206.87,
+      "words": [
+        {
+          "w": "Red,",
+          "start": 204.02,
+          "end": 204.311
+        },
+        {
+          "w": "orange,",
+          "start": 204.311,
+          "end": 204.819
+        },
+        {
+          "w": "yellow,",
+          "start": 204.819,
+          "end": 205.255
+        },
+        {
+          "w": "green,",
+          "start": 205.255,
+          "end": 205.691
+        },
+        {
+          "w": "blue,",
+          "start": 205.691,
+          "end": 206.054
+        },
+        {
+          "w": "and",
+          "start": 206.054,
+          "end": 206.272
+        },
+        {
+          "w": "purple!",
+          "start": 206.272,
+          "end": 206.78
+        }
+      ]
+    },
+    {
+      "beat": "thanks",
+      "speaker": "leo",
+      "text": "Thank you, rain!",
+      "gap": 2.2,
+      "start": 209.27,
+      "end": 210.39,
+      "words": [
+        {
+          "w": "Thank",
+          "start": 209.31,
+          "end": 209.648
+        },
+        {
+          "w": "you,",
+          "start": 209.648,
+          "end": 209.852
+        },
+        {
+          "w": "rain!",
+          "start": 209.852,
+          "end": 210.19
+        }
+      ]
+    },
+    {
+      "beat": "rem",
+      "speaker": "mila",
+      "text": "Let's remember!",
+      "gap": 1.2,
+      "start": 212.59,
+      "end": 213.86,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 212.7,
+          "end": 213.1
+        },
+        {
+          "w": "remember!",
+          "start": 213.1,
+          "end": 213.74
+        }
+      ]
+    },
+    {
+      "beat": "rq1",
+      "speaker": "narrator",
+      "text": "Where does rain come from?",
+      "gap": 5.0,
+      "start": 215.06,
+      "end": 216.46,
+      "words": [
+        {
+          "w": "Where",
+          "start": 215.12,
+          "end": 215.349
+        },
+        {
+          "w": "does",
+          "start": 215.349,
+          "end": 215.577
+        },
+        {
+          "w": "rain",
+          "start": 215.577,
+          "end": 215.863
+        },
+        {
+          "w": "come",
+          "start": 215.863,
+          "end": 216.091
+        },
+        {
+          "w": "from?",
+          "start": 216.091,
+          "end": 216.32
+        }
+      ]
+    },
+    {
+      "beat": "ra1",
+      "speaker": "leo",
+      "text": "From the clouds!",
+      "gap": 2.0,
+      "start": 221.46,
+      "end": 222.61,
+      "words": [
+        {
+          "w": "From",
+          "start": 221.5,
+          "end": 221.786
+        },
+        {
+          "w": "the",
+          "start": 221.786,
+          "end": 221.929
+        },
+        {
+          "w": "clouds!",
+          "start": 221.929,
+          "end": 222.43
+        }
+      ]
+    },
+    {
+      "beat": "rq2",
+      "speaker": "narrator",
+      "text": "What makes the water go up into the sky?",
+      "gap": 5.0,
+      "start": 224.61,
+      "end": 226.63,
+      "words": [
+        {
+          "w": "What",
+          "start": 224.65,
+          "end": 224.851
+        },
+        {
+          "w": "makes",
+          "start": 224.851,
+          "end": 225.153
+        },
+        {
+          "w": "the",
+          "start": 225.153,
+          "end": 225.253
+        },
+        {
+          "w": "water",
+          "start": 225.253,
+          "end": 225.555
+        },
+        {
+          "w": "go",
+          "start": 225.555,
+          "end": 225.756
+        },
+        {
+          "w": "up",
+          "start": 225.756,
+          "end": 225.907
+        },
+        {
+          "w": "into",
+          "start": 225.907,
+          "end": 226.158
+        },
+        {
+          "w": "the",
+          "start": 226.158,
+          "end": 226.259
+        },
+        {
+          "w": "sky?",
+          "start": 226.259,
+          "end": 226.51
+        }
+      ]
+    },
+    {
+      "beat": "ra2",
+      "speaker": "mila",
+      "text": "The warm sun!",
+      "gap": 2.0,
+      "start": 231.63,
+      "end": 232.82,
+      "words": [
+        {
+          "w": "The",
+          "start": 231.67,
+          "end": 231.845
+        },
+        {
+          "w": "warm",
+          "start": 231.845,
+          "end": 232.37
+        },
+        {
+          "w": "sun!",
+          "start": 232.37,
+          "end": 232.72
+        }
+      ]
+    },
+    {
+      "beat": "rq3",
+      "speaker": "narrator",
+      "text": "Why do the drops fall down?",
+      "gap": 5.0,
+      "start": 234.82,
+      "end": 236.52,
+      "words": [
+        {
+          "w": "Why",
+          "start": 234.87,
+          "end": 235.094
+        },
+        {
+          "w": "do",
+          "start": 235.094,
+          "end": 235.317
+        },
+        {
+          "w": "the",
+          "start": 235.317,
+          "end": 235.429
+        },
+        {
+          "w": "drops",
+          "start": 235.429,
+          "end": 235.821
+        },
+        {
+          "w": "fall",
+          "start": 235.821,
+          "end": 236.1
+        },
+        {
+          "w": "down?",
+          "start": 236.1,
+          "end": 236.38
+        }
+      ]
+    },
+    {
+      "beat": "ra3",
+      "speaker": "hoot",
+      "text": "They get big and heavy!",
+      "gap": 2.0,
+      "start": 241.52,
+      "end": 243.35,
+      "words": [
+        {
+          "w": "They",
+          "start": 241.54,
+          "end": 241.816
+        },
+        {
+          "w": "get",
+          "start": 241.816,
+          "end": 242.185
+        },
+        {
+          "w": "big",
+          "start": 242.185,
+          "end": 242.553
+        },
+        {
+          "w": "and",
+          "start": 242.553,
+          "end": 242.829
+        },
+        {
+          "w": "heavy!",
+          "start": 242.829,
+          "end": 243.29
+        }
+      ]
+    },
+    {
+      "beat": "rq4",
+      "speaker": "narrator",
+      "text": "Where does the river take Drippy?",
+      "gap": 5.0,
+      "start": 245.35,
+      "end": 247.13,
+      "words": [
+        {
+          "w": "Where",
+          "start": 245.42,
+          "end": 245.666
+        },
+        {
+          "w": "does",
+          "start": 245.666,
+          "end": 245.912
+        },
+        {
+          "w": "the",
+          "start": 245.912,
+          "end": 246.035
+        },
+        {
+          "w": "river",
+          "start": 246.035,
+          "end": 246.343
+        },
+        {
+          "w": "take",
+          "start": 246.343,
+          "end": 246.651
+        },
+        {
+          "w": "Drippy?",
+          "start": 246.651,
+          "end": 247.02
+        }
+      ]
+    },
+    {
+      "beat": "ra4",
+      "speaker": "drippy",
+      "text": "Back to the sea!",
+      "gap": 2.0,
+      "start": 252.13,
+      "end": 253.17,
+      "words": [
+        {
+          "w": "Back",
+          "start": 252.17,
+          "end": 252.447
+        },
+        {
+          "w": "to",
+          "start": 252.447,
+          "end": 252.655
+        },
+        {
+          "w": "the",
+          "start": 252.655,
+          "end": 252.793
+        },
+        {
+          "w": "sea!",
+          "start": 252.793,
+          "end": 253.07
+        }
+      ]
+    },
+    {
+      "beat": "rq5",
+      "speaker": "narrator",
+      "text": "What do we call it, when water goes round and round?",
+      "gap": 5.0,
+      "start": 255.17,
+      "end": 258.09,
+      "words": [
+        {
+          "w": "What",
+          "start": 255.22,
+          "end": 255.404
+        },
+        {
+          "w": "do",
+          "start": 255.404,
+          "end": 255.589
+        },
+        {
+          "w": "we",
+          "start": 255.589,
+          "end": 255.727
+        },
+        {
+          "w": "call",
+          "start": 255.727,
+          "end": 255.958
+        },
+        {
+          "w": "it,",
+          "start": 255.958,
+          "end": 256.05
+        },
+        {
+          "w": "when",
+          "start": 256.31,
+          "end": 256.535
+        },
+        {
+          "w": "water",
+          "start": 256.535,
+          "end": 256.873
+        },
+        {
+          "w": "goes",
+          "start": 256.873,
+          "end": 257.155
+        },
+        {
+          "w": "round",
+          "start": 257.155,
+          "end": 257.493
+        },
+        {
+          "w": "and",
+          "start": 257.493,
+          "end": 257.662
+        },
+        {
+          "w": "round?",
+          "start": 257.662,
+          "end": 258.0
+        }
+      ]
+    },
+    {
+      "beat": "ra5",
+      "speaker": "mila",
+      "text": "The water cycle!",
+      "gap": 2.0,
+      "start": 263.09,
+      "end": 264.43,
+      "words": [
+        {
+          "w": "The",
+          "start": 263.14,
+          "end": 263.293
+        },
+        {
+          "w": "water",
+          "start": 263.293,
+          "end": 263.753
+        },
+        {
+          "w": "cycle!",
+          "start": 263.753,
+          "end": 264.29
+        }
+      ]
+    },
+    {
+      "beat": "rq6",
+      "speaker": "narrator",
+      "text": "What do we see, when the sun shines through raindrops?",
+      "gap": 5.0,
+      "start": 266.43,
+      "end": 269.39,
+      "words": [
+        {
+          "w": "What",
+          "start": 266.48,
+          "end": 266.667
+        },
+        {
+          "w": "do",
+          "start": 266.667,
+          "end": 266.853
+        },
+        {
+          "w": "we",
+          "start": 266.853,
+          "end": 266.993
+        },
+        {
+          "w": "see,",
+          "start": 266.993,
+          "end": 267.18
+        },
+        {
+          "w": "when",
+          "start": 267.48,
+          "end": 267.71
+        },
+        {
+          "w": "the",
+          "start": 267.71,
+          "end": 267.825
+        },
+        {
+          "w": "sun",
+          "start": 267.825,
+          "end": 268.055
+        },
+        {
+          "w": "shines",
+          "start": 268.055,
+          "end": 268.4
+        },
+        {
+          "w": "through",
+          "start": 268.4,
+          "end": 268.687
+        },
+        {
+          "w": "raindrops?",
+          "start": 268.687,
+          "end": 269.32
+        }
+      ]
+    },
+    {
+      "beat": "ra6",
+      "speaker": "leo",
+      "text": "A rainbow!",
+      "gap": 2.0,
+      "start": 274.39,
+      "end": 275.41,
+      "words": [
+        {
+          "w": "A",
+          "start": 274.42,
+          "end": 274.638
+        },
+        {
+          "w": "rainbow!",
+          "start": 274.638,
+          "end": 275.22
+        }
+      ]
+    },
+    {
+      "beat": "chant",
+      "speaker": "hoot",
+      "text": "Let's say it all together!",
+      "gap": 0.9,
+      "start": 277.41,
+      "end": 279.13,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 277.43,
+          "end": 277.798
+        },
+        {
+          "w": "say",
+          "start": 277.798,
+          "end": 278.093
+        },
+        {
+          "w": "it",
+          "start": 278.093,
+          "end": 278.24
+        },
+        {
+          "w": "all",
+          "start": 278.24,
+          "end": 278.535
+        },
+        {
+          "w": "together!",
+          "start": 278.535,
+          "end": 279.05
+        }
+      ]
+    },
+    {
+      "beat": "ch1",
+      "speaker": "mila",
+      "text": "Up, up, up!",
+      "gap": 0.9,
+      "start": 280.03,
+      "end": 281.2,
+      "words": [
+        {
+          "w": "Up,",
+          "start": 280.12,
+          "end": 280.45
+        },
+        {
+          "w": "up,",
+          "start": 280.45,
+          "end": 280.78
+        },
+        {
+          "w": "up!",
+          "start": 280.78,
+          "end": 281.11
+        }
+      ]
+    },
+    {
+      "beat": "ch2",
+      "speaker": "leo",
+      "text": "Cloud!",
+      "gap": 0.9,
+      "start": 282.1,
+      "end": 282.88,
+      "words": [
+        {
+          "w": "Cloud!",
+          "start": 282.14,
+          "end": 282.76
+        }
+      ]
+    },
+    {
+      "beat": "ch3",
+      "speaker": "drippy",
+      "text": "Rain!",
+      "gap": 0.9,
+      "start": 283.78,
+      "end": 284.46,
+      "words": [
+        {
+          "w": "Rain!",
+          "start": 283.8,
+          "end": 284.34
+        }
+      ]
+    },
+    {
+      "beat": "ch4",
+      "speaker": "hoot",
+      "text": "And round again!",
+      "gap": 1.6,
+      "start": 285.36,
+      "end": 286.76,
+      "words": [
+        {
+          "w": "And",
+          "start": 285.39,
+          "end": 285.669
+        },
+        {
+          "w": "round",
+          "start": 285.669,
+          "end": 286.226
+        },
+        {
+          "w": "again!",
+          "start": 286.226,
+          "end": 286.69
+        }
+      ]
+    },
+    {
+      "beat": "ch_turn",
+      "speaker": "narrator",
+      "text": "Your turn! Up, up, up! Cloud! Rain! And round again!",
+      "gap": 3.0,
+      "start": 288.36,
+      "end": 291.57,
+      "words": [
+        {
+          "w": "Your",
+          "start": 288.4,
+          "end": 288.621
+        },
+        {
+          "w": "turn!",
+          "start": 288.621,
+          "end": 288.99
+        },
+        {
+          "w": "Up,",
+          "start": 288.99,
+          "end": 289.212
+        },
+        {
+          "w": "up,",
+          "start": 289.212,
+          "end": 289.433
+        },
+        {
+          "w": "up!",
+          "start": 289.433,
+          "end": 289.655
+        },
+        {
+          "w": "Cloud!",
+          "start": 289.655,
+          "end": 290.098
+        },
+        {
+          "w": "Rain!",
+          "start": 290.098,
+          "end": 290.467
+        },
+        {
+          "w": "And",
+          "start": 290.467,
+          "end": 290.688
+        },
+        {
+          "w": "round",
+          "start": 290.688,
+          "end": 291.131
+        },
+        {
+          "w": "again!",
+          "start": 291.131,
+          "end": 291.5
+        }
+      ]
+    },
+    {
+      "beat": "bye_d",
+      "speaker": "drippy",
+      "text": "Thanks for coming on my adventure! Bye-bye!",
+      "gap": 1.0,
+      "start": 294.57,
+      "end": 297.21,
+      "words": [
+        {
+          "w": "Thanks",
+          "start": 294.64,
+          "end": 294.912
+        },
+        {
+          "w": "for",
+          "start": 294.912,
+          "end": 295.093
+        },
+        {
+          "w": "coming",
+          "start": 295.093,
+          "end": 295.365
+        },
+        {
+          "w": "on",
+          "start": 295.365,
+          "end": 295.501
+        },
+        {
+          "w": "my",
+          "start": 295.501,
+          "end": 295.682
+        },
+        {
+          "w": "adventure!",
+          "start": 295.682,
+          "end": 296.09
+        },
+        {
+          "w": "Bye-bye!",
+          "start": 296.33,
+          "end": 297.01
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "text": "See you next time, friends!",
+      "gap": 1.0,
+      "start": 298.21,
+      "end": 299.96,
+      "words": [
+        {
+          "w": "See",
+          "start": 298.24,
+          "end": 298.491
+        },
+        {
+          "w": "you",
+          "start": 298.491,
+          "end": 298.68
+        },
+        {
+          "w": "next",
+          "start": 298.68,
+          "end": 299.056
+        },
+        {
+          "w": "time,",
+          "start": 299.056,
+          "end": 299.37
+        },
+        {
+          "w": "friends!",
+          "start": 299.37,
+          "end": 299.81
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast",
+  "beats": [
+    {
+      "id": "why",
+      "start": 0,
+      "visual": "Look, it's raining! Where does rain come from?",
+      "end": 7.63
+    },
+    {
+      "id": "guess",
+      "start": 7.63,
+      "visual": "I know! A giant up in the sky has a big watering can!",
+      "end": 12.65
+    },
+    {
+      "id": "good",
+      "start": 12.65,
+      "visual": "Good guess, Leo! What a funny idea. But rain comes from... the clouds!",
+      "end": 18.87
+    },
+    {
+      "id": "how",
+      "start": 18.87,
+      "visual": "From the clouds? But how does the water get up there?",
+      "end": 22.88
+    },
+    {
+      "id": "meet",
+      "start": 22.88,
+      "visual": "Let's follow one tiny drop of water. Meet Drippy!",
+      "end": 27.7
+    },
+    {
+      "id": "drippy_hi",
+      "start": 27.7,
+      "visual": "Hi! I'm Drippy the raindrop! Come on an adventure with me!",
+      "end": 32.87
+    },
+    {
+      "id": "q1",
+      "start": 32.87,
+      "visual": "Question one. How does Drippy get up into the sky?",
+      "end": 37.21
+    },
+    {
+      "id": "sun",
+      "start": 37.21,
+      "visual": "I'm in the big blue sea. The warm sun shines on me. Ooh, I feel warm!",
+      "end": 42.89
+    },
+    {
+      "id": "up",
+      "start": 42.89,
+      "visual": "I get so light, I float up, up, up! You can't see me now!",
+      "end": 47.79
+    },
+    {
+      "id": "up_turn",
+      "start": 47.79,
+      "visual": "Point up with Drippy! Up, up, up!",
+      "end": 52.74
+    },
+    {
+      "id": "cold",
+      "start": 52.74,
+      "visual": "High in the sky, it's cold! Brrr! I turn back into a tiny drop.",
+      "end": 58.93
+    },
+    {
+      "id": "cloud",
+      "start": 58.93,
+      "visual": "And look! Lots of tiny drops, all together. We make a cloud!",
+      "end": 64.69
+    },
+    {
+      "id": "q2",
+      "start": 64.69,
+      "visual": "Question two. Why does rain fall down?",
+      "end": 68.69
+    },
+    {
+      "id": "bump",
+      "start": 68.69,
+      "visual": "Inside the cloud, the tiny drops bump into each other, and join together.",
+      "end": 75.14
+    },
+    {
+      "id": "bigger",
+      "start": 75.14,
+      "visual": "Bump! I get bigger. Bump! Bigger! Bump! Bigger!",
+      "end": 79.61
+    },
+    {
+      "id": "bump_turn",
+      "start": 79.61,
+      "visual": "Say it with Drippy! Bump! Bigger!",
+      "end": 84.69
+    },
+    {
+      "id": "heavy",
+      "start": 84.69,
+      "visual": "When the drops get big and heavy, the cloud can't hold them anymore.",
+      "end": 89.88
+    },
+    {
+      "id": "fall",
+      "start": 89.88,
+      "visual": "Whoa! Here I go! Wheee! I'm rain!",
+      "end": 94.2
+    },
+    {
+      "id": "q3",
+      "start": 94.2,
+      "visual": "Question three. Where does the rain go?",
+      "end": 97.86
+    },
+    {
+      "id": "land",
+      "start": 97.86,
+      "visual": "Splash! I land on a hill, and I slide down into a river.",
+      "end": 102.77
+    },
+    {
+      "id": "plants",
+      "start": 102.77,
+      "visual": "Some raindrops help the flowers and trees drink, and grow.",
+      "end": 108.42
+    },
+    {
+      "id": "river",
+      "start": 108.42,
+      "visual": "The river takes me all the way back to the sea!",
+      "end": 112.43
+    },
+    {
+      "id": "again",
+      "start": 112.43,
+      "visual": "And then the sun warms the water again, and up, up, up it goes!",
+      "end": 118.3
+    },
+    {
+      "id": "cycle",
+      "start": 118.3,
+      "visual": "Up, cloud, rain, and back to the sea. Round and round! This is called the water cycle.",
+      "end": 125.58
+    },
+    {
+      "id": "cycle_turn",
+      "start": 125.58,
+      "visual": "Wa-ter cy-cle! Your turn!",
+      "end": 130.25
+    },
+    {
+      "id": "leo_wow",
+      "start": 130.25,
+      "visual": "Whoa! So rain is the same water, going round and round!",
+      "end": 134.93
+    },
+    {
+      "id": "hoot_yes",
+      "start": 134.93,
+      "visual": "Yes! The water in your bath was in a cloud, long, long ago!",
+      "end": 141.44
+    },
+    {
+      "id": "see",
+      "start": 141.44,
+      "visual": "We can make rain in a jar! Ask a grown-up to help.",
+      "end": 146.12
+    },
+    {
+      "id": "j1",
+      "start": 146.12,
+      "visual": "Step one. A grown-up pours warm water into a jar.",
+      "end": 151.67
+    },
+    {
+      "id": "j2",
+      "start": 151.67,
+      "visual": "Step two. Put a plate on top, with ice cubes on it.",
+      "end": 156.95
+    },
+    {
+      "id": "j3",
+      "start": 156.95,
+      "visual": "Now, wait, and watch.",
+      "end": 162.51
+    },
+    {
+      "id": "j4",
+      "start": 162.51,
+      "visual": "Look! Tiny drops under the cold plate. They get bigger, and... drip, drip! Rain!",
+      "end": 169.82
+    },
+    {
+      "id": "mila_yay",
+      "start": 169.82,
+      "visual": "We made rain! Hooray!",
+      "end": 173.83
+    },
+    {
+      "id": "fact_q",
+      "start": 173.83,
+      "visual": "Prof. Hoot, are raindrops pointy, like this?",
+      "end": 177.55
+    },
+    {
+      "id": "fact_a",
+      "start": 177.55,
+      "visual": "Good question! Real raindrops are not pointy. Small ones are round, like little balls.",
+      "end": 184.88
+    },
+    {
+      "id": "fact_b",
+      "start": 184.88,
+      "visual": "And big ones look a bit like a tiny bun! Wow!",
+      "end": 190.08
+    },
+    {
+      "id": "leo_bun",
+      "start": 190.08,
+      "visual": "A bun? Now I'm hungry!",
+      "end": 194.01
+    },
+    {
+      "id": "rainbow_q",
+      "start": 194.01,
+      "visual": "Look! The sun is back. And... a rainbow!",
+      "end": 198.14
+    },
+    {
+      "id": "rainbow",
+      "start": 198.14,
+      "visual": "When sunshine shines through the raindrops, it makes a rainbow!",
+      "end": 203.77
+    },
+    {
+      "id": "colors",
+      "start": 203.77,
+      "visual": "Red, orange, yellow, green, blue, and purple!",
+      "end": 209.07
+    },
+    {
+      "id": "thanks",
+      "start": 209.07,
+      "visual": "Thank you, rain!",
+      "end": 212.39
+    },
+    {
+      "id": "rem",
+      "start": 212.39,
+      "visual": "Let's remember!",
+      "end": 214.86
+    },
+    {
+      "id": "rq1",
+      "start": 214.86,
+      "visual": "Where does rain come from?",
+      "end": 221.26
+    },
+    {
+      "id": "ra1",
+      "start": 221.26,
+      "visual": "From the clouds!",
+      "end": 224.41
+    },
+    {
+      "id": "rq2",
+      "start": 224.41,
+      "visual": "What makes the water go up into the sky?",
+      "end": 231.43
+    },
+    {
+      "id": "ra2",
+      "start": 231.43,
+      "visual": "The warm sun!",
+      "end": 234.62
+    },
+    {
+      "id": "rq3",
+      "start": 234.62,
+      "visual": "Why do the drops fall down?",
+      "end": 241.32
+    },
+    {
+      "id": "ra3",
+      "start": 241.32,
+      "visual": "They get big and heavy!",
+      "end": 245.15
+    },
+    {
+      "id": "rq4",
+      "start": 245.15,
+      "visual": "Where does the river take Drippy?",
+      "end": 251.93
+    },
+    {
+      "id": "ra4",
+      "start": 251.93,
+      "visual": "Back to the sea!",
+      "end": 254.97
+    },
+    {
+      "id": "rq5",
+      "start": 254.97,
+      "visual": "What do we call it, when water goes round and round?",
+      "end": 262.89
+    },
+    {
+      "id": "ra5",
+      "start": 262.89,
+      "visual": "The water cycle!",
+      "end": 266.23
+    },
+    {
+      "id": "rq6",
+      "start": 266.23,
+      "visual": "What do we see, when the sun shines through raindrops?",
+      "end": 274.19
+    },
+    {
+      "id": "ra6",
+      "start": 274.19,
+      "visual": "A rainbow!",
+      "end": 277.21
+    },
+    {
+      "id": "chant",
+      "start": 277.21,
+      "visual": "Let's say it all together!",
+      "end": 279.83
+    },
+    {
+      "id": "ch1",
+      "start": 279.83,
+      "visual": "Up, up, up!",
+      "end": 281.9
+    },
+    {
+      "id": "ch2",
+      "start": 281.9,
+      "visual": "Cloud!",
+      "end": 283.58
+    },
+    {
+      "id": "ch3",
+      "start": 283.58,
+      "visual": "Rain!",
+      "end": 285.16
+    },
+    {
+      "id": "ch4",
+      "start": 285.16,
+      "visual": "And round again!",
+      "end": 288.16
+    },
+    {
+      "id": "ch_turn",
+      "start": 288.16,
+      "visual": "Your turn! Up, up, up! Cloud! Rain! And round again!",
+      "end": 294.37
+    },
+    {
+      "id": "bye_d",
+      "start": 294.37,
+      "visual": "Thanks for coming on my adventure! Bye-bye!",
+      "end": 298.01
+    },
+    {
+      "id": "bye",
+      "start": 298.01,
+      "visual": "See you next time, friends!",
+      "end": 305.0
+    }
+  ]
+}
