@@ -1,0 +1,3121 @@
+{
+  "id": "day-055",
+  "series": "tiny-sparks",
+  "episode": 55,
+  "title": "Find the Different Number",
+  "composition": "KidsPuzzles055",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 326.8
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -6,
+    "duck": 8,
+    "start": 3.7,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "intro",
+      "speaker": "hoot",
+      "text": "Hello, puzzle friends! Today's game is: find the different number!",
+      "gap": 1.2,
+      "start": 3.9,
+      "end": 8.22,
+      "words": [
+        {
+          "w": "Hello,",
+          "start": 3.94,
+          "end": 4.399
+        },
+        {
+          "w": "puzzle",
+          "start": 4.399,
+          "end": 4.859
+        },
+        {
+          "w": "friends!",
+          "start": 4.859,
+          "end": 5.394
+        },
+        {
+          "w": "Today's",
+          "start": 5.394,
+          "end": 5.93
+        },
+        {
+          "w": "game",
+          "start": 5.93,
+          "end": 6.313
+        },
+        {
+          "w": "is:",
+          "start": 6.313,
+          "end": 6.466
+        },
+        {
+          "w": "find",
+          "start": 6.466,
+          "end": 6.925
+        },
+        {
+          "w": "the",
+          "start": 6.925,
+          "end": 7.078
+        },
+        {
+          "w": "different",
+          "start": 7.078,
+          "end": 7.691
+        },
+        {
+          "w": "number!",
+          "start": 7.691,
+          "end": 8.15
+        }
+      ]
+    },
+    {
+      "beat": "intro2",
+      "speaker": "leo",
+      "text": "Numbers? Easy! I'm super fast!",
+      "gap": 1.0,
+      "start": 9.42,
+      "end": 11.57,
+      "words": [
+        {
+          "w": "Numbers?",
+          "start": 9.45,
+          "end": 9.948
+        },
+        {
+          "w": "Easy!",
+          "start": 9.948,
+          "end": 10.304
+        },
+        {
+          "w": "I'm",
+          "start": 10.304,
+          "end": 10.517
+        },
+        {
+          "w": "super",
+          "start": 10.517,
+          "end": 10.944
+        },
+        {
+          "w": "fast!",
+          "start": 10.944,
+          "end": 11.3
+        }
+      ]
+    },
+    {
+      "beat": "rules",
+      "speaker": "hoot",
+      "text": "Look carefully. One is different. When the clock ticks, you think!",
+      "gap": 1.2,
+      "start": 12.57,
+      "end": 16.56,
+      "words": [
+        {
+          "w": "Look",
+          "start": 12.6,
+          "end": 12.91
+        },
+        {
+          "w": "carefully.",
+          "start": 12.91,
+          "end": 13.531
+        },
+        {
+          "w": "One",
+          "start": 13.531,
+          "end": 13.842
+        },
+        {
+          "w": "is",
+          "start": 13.842,
+          "end": 13.997
+        },
+        {
+          "w": "different.",
+          "start": 13.997,
+          "end": 14.618
+        },
+        {
+          "w": "When",
+          "start": 14.618,
+          "end": 14.928
+        },
+        {
+          "w": "the",
+          "start": 14.928,
+          "end": 15.083
+        },
+        {
+          "w": "clock",
+          "start": 15.083,
+          "end": 15.471
+        },
+        {
+          "w": "ticks,",
+          "start": 15.471,
+          "end": 15.859
+        },
+        {
+          "w": "you",
+          "start": 15.859,
+          "end": 16.092
+        },
+        {
+          "w": "think!",
+          "start": 16.092,
+          "end": 16.48
+        }
+      ]
+    },
+    {
+      "beat": "go",
+      "speaker": "mila",
+      "text": "Ready? Let's go!",
+      "gap": 1.6,
+      "start": 17.76,
+      "end": 19.14,
+      "words": [
+        {
+          "w": "Ready?",
+          "start": 17.8,
+          "end": 18.239
+        },
+        {
+          "w": "Let's",
+          "start": 18.239,
+          "end": 18.679
+        },
+        {
+          "w": "go!",
+          "start": 18.679,
+          "end": 19.03
+        }
+      ]
+    },
+    {
+      "beat": "p1",
+      "speaker": "hoot",
+      "text": "Puzzle one! Which number is different?",
+      "gap": 5.5,
+      "start": 20.74,
+      "end": 23.25,
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 20.77,
+          "end": 21.232
+        },
+        {
+          "w": "one!",
+          "start": 21.232,
+          "end": 21.54
+        },
+        {
+          "w": "Which",
+          "start": 21.72,
+          "end": 22.06
+        },
+        {
+          "w": "number",
+          "start": 22.06,
+          "end": 22.469
+        },
+        {
+          "w": "is",
+          "start": 22.469,
+          "end": 22.605
+        },
+        {
+          "w": "different?",
+          "start": 22.605,
+          "end": 23.15
+        }
+      ]
+    },
+    {
+      "beat": "l1",
+      "speaker": "leo",
+      "text": "That one! The first three!",
+      "gap": 1.0,
+      "start": 28.75,
+      "end": 30.32,
+      "words": [
+        {
+          "w": "That",
+          "start": 28.79,
+          "end": 29.036
+        },
+        {
+          "w": "one!",
+          "start": 29.036,
+          "end": 29.281
+        },
+        {
+          "w": "The",
+          "start": 29.281,
+          "end": 29.404
+        },
+        {
+          "w": "first",
+          "start": 29.404,
+          "end": 29.773
+        },
+        {
+          "w": "three!",
+          "start": 29.773,
+          "end": 30.08
+        }
+      ]
+    },
+    {
+      "beat": "l1b",
+      "speaker": "leo",
+      "text": "Oops! They are all threes!",
+      "gap": 1.0,
+      "start": 31.32,
+      "end": 32.85,
+      "words": [
+        {
+          "w": "Oops!",
+          "start": 31.35,
+          "end": 31.645
+        },
+        {
+          "w": "They",
+          "start": 31.645,
+          "end": 31.822
+        },
+        {
+          "w": "are",
+          "start": 31.822,
+          "end": 32.0
+        },
+        {
+          "w": "all",
+          "start": 32.0,
+          "end": 32.236
+        },
+        {
+          "w": "threes!",
+          "start": 32.236,
+          "end": 32.59
+        }
+      ]
+    },
+    {
+      "beat": "a1",
+      "speaker": "hoot",
+      "text": "It's the eight! All the others are threes.",
+      "gap": 1.4,
+      "start": 33.85,
+      "end": 36.51,
+      "words": [
+        {
+          "w": "It's",
+          "start": 33.89,
+          "end": 34.137
+        },
+        {
+          "w": "the",
+          "start": 34.137,
+          "end": 34.301
+        },
+        {
+          "w": "eight!",
+          "start": 34.301,
+          "end": 34.63
+        },
+        {
+          "w": "All",
+          "start": 34.85,
+          "end": 35.183
+        },
+        {
+          "w": "the",
+          "start": 35.183,
+          "end": 35.349
+        },
+        {
+          "w": "others",
+          "start": 35.349,
+          "end": 35.765
+        },
+        {
+          "w": "are",
+          "start": 35.765,
+          "end": 35.931
+        },
+        {
+          "w": "threes.",
+          "start": 35.931,
+          "end": 36.43
+        }
+      ]
+    },
+    {
+      "beat": "s1",
+      "speaker": "mila",
+      "text": "Say it with me: eight!",
+      "gap": 2.4,
+      "start": 37.91,
+      "end": 39.46,
+      "words": [
+        {
+          "w": "Say",
+          "start": 37.99,
+          "end": 38.305
+        },
+        {
+          "w": "it",
+          "start": 38.305,
+          "end": 38.463
+        },
+        {
+          "w": "with",
+          "start": 38.463,
+          "end": 38.699
+        },
+        {
+          "w": "me:",
+          "start": 38.699,
+          "end": 39.015
+        },
+        {
+          "w": "eight!",
+          "start": 39.015,
+          "end": 39.33
+        }
+      ]
+    },
+    {
+      "beat": "p2",
+      "speaker": "hoot",
+      "text": "Puzzle two! Find the different number.",
+      "gap": 5.5,
+      "start": 41.86,
+      "end": 44.29,
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 41.89,
+          "end": 42.394
+        },
+        {
+          "w": "two!",
+          "start": 42.394,
+          "end": 42.73
+        },
+        {
+          "w": "Find",
+          "start": 42.91,
+          "end": 43.265
+        },
+        {
+          "w": "the",
+          "start": 43.265,
+          "end": 43.383
+        },
+        {
+          "w": "different",
+          "start": 43.383,
+          "end": 43.855
+        },
+        {
+          "w": "number.",
+          "start": 43.855,
+          "end": 44.21
+        }
+      ]
+    },
+    {
+      "beat": "a2",
+      "speaker": "mila",
+      "text": "The one! The others are all fives.",
+      "gap": 1.4,
+      "start": 49.79,
+      "end": 51.98,
+      "words": [
+        {
+          "w": "The",
+          "start": 49.83,
+          "end": 49.99
+        },
+        {
+          "w": "one!",
+          "start": 49.99,
+          "end": 50.31
+        },
+        {
+          "w": "The",
+          "start": 50.31,
+          "end": 50.47
+        },
+        {
+          "w": "others",
+          "start": 50.47,
+          "end": 50.87
+        },
+        {
+          "w": "are",
+          "start": 50.87,
+          "end": 51.11
+        },
+        {
+          "w": "all",
+          "start": 51.11,
+          "end": 51.43
+        },
+        {
+          "w": "fives.",
+          "start": 51.43,
+          "end": 51.91
+        }
+      ]
+    },
+    {
+      "beat": "s2",
+      "speaker": "leo",
+      "text": "Say it: one!",
+      "gap": 2.4,
+      "start": 53.38,
+      "end": 54.44,
+      "words": [
+        {
+          "w": "Say",
+          "start": 53.4,
+          "end": 53.756
+        },
+        {
+          "w": "it:",
+          "start": 53.756,
+          "end": 53.934
+        },
+        {
+          "w": "one!",
+          "start": 53.934,
+          "end": 54.29
+        }
+      ]
+    },
+    {
+      "beat": "p3",
+      "speaker": "hoot",
+      "text": "Puzzle three! Look at the dice. Which one is different?",
+      "gap": 5.5,
+      "start": 56.84,
+      "end": 60.32,
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 56.88,
+          "end": 57.343
+        },
+        {
+          "w": "three!",
+          "start": 57.343,
+          "end": 57.729
+        },
+        {
+          "w": "Look",
+          "start": 57.729,
+          "end": 58.038
+        },
+        {
+          "w": "at",
+          "start": 58.038,
+          "end": 58.193
+        },
+        {
+          "w": "the",
+          "start": 58.193,
+          "end": 58.347
+        },
+        {
+          "w": "dice.",
+          "start": 58.347,
+          "end": 58.733
+        },
+        {
+          "w": "Which",
+          "start": 58.733,
+          "end": 59.119
+        },
+        {
+          "w": "one",
+          "start": 59.119,
+          "end": 59.428
+        },
+        {
+          "w": "is",
+          "start": 59.428,
+          "end": 59.582
+        },
+        {
+          "w": "different?",
+          "start": 59.582,
+          "end": 60.2
+        }
+      ]
+    },
+    {
+      "beat": "l3",
+      "speaker": "leo",
+      "text": "This one! It has more dots!",
+      "gap": 1.0,
+      "start": 65.82,
+      "end": 67.61,
+      "words": [
+        {
+          "w": "This",
+          "start": 65.86,
+          "end": 66.098
+        },
+        {
+          "w": "one!",
+          "start": 66.098,
+          "end": 66.337
+        },
+        {
+          "w": "It",
+          "start": 66.337,
+          "end": 66.456
+        },
+        {
+          "w": "has",
+          "start": 66.456,
+          "end": 66.694
+        },
+        {
+          "w": "more",
+          "start": 66.694,
+          "end": 66.992
+        },
+        {
+          "w": "dots!",
+          "start": 66.992,
+          "end": 67.35
+        }
+      ]
+    },
+    {
+      "beat": "l3b",
+      "speaker": "leo",
+      "text": "Hmm... no, it has four, like the others.",
+      "gap": 1.0,
+      "start": 68.61,
+      "end": 70.8,
+      "words": [
+        {
+          "w": "Hmm...",
+          "start": 68.64,
+          "end": 68.826
+        },
+        {
+          "w": "no,",
+          "start": 68.826,
+          "end": 69.074
+        },
+        {
+          "w": "it",
+          "start": 69.074,
+          "end": 69.198
+        },
+        {
+          "w": "has",
+          "start": 69.198,
+          "end": 69.446
+        },
+        {
+          "w": "four,",
+          "start": 69.446,
+          "end": 69.756
+        },
+        {
+          "w": "like",
+          "start": 69.756,
+          "end": 70.066
+        },
+        {
+          "w": "the",
+          "start": 70.066,
+          "end": 70.19
+        },
+        {
+          "w": "others.",
+          "start": 70.19,
+          "end": 70.5
+        }
+      ]
+    },
+    {
+      "beat": "a3",
+      "speaker": "mila",
+      "text": "This one has six dots! The others have four. Let's count: one, two, three, four, five, six!",
+      "gap": 2.4,
+      "start": 71.8,
+      "end": 77.23,
+      "words": [
+        {
+          "w": "This",
+          "start": 72.0,
+          "end": 72.264
+        },
+        {
+          "w": "one",
+          "start": 72.264,
+          "end": 72.527
+        },
+        {
+          "w": "has",
+          "start": 72.527,
+          "end": 72.791
+        },
+        {
+          "w": "six",
+          "start": 72.791,
+          "end": 73.12
+        },
+        {
+          "w": "dots!",
+          "start": 73.12,
+          "end": 73.516
+        },
+        {
+          "w": "The",
+          "start": 73.516,
+          "end": 73.647
+        },
+        {
+          "w": "others",
+          "start": 73.647,
+          "end": 73.977
+        },
+        {
+          "w": "have",
+          "start": 73.977,
+          "end": 74.241
+        },
+        {
+          "w": "four.",
+          "start": 74.241,
+          "end": 74.57
+        },
+        {
+          "w": "Let's",
+          "start": 74.57,
+          "end": 74.899
+        },
+        {
+          "w": "count:",
+          "start": 74.899,
+          "end": 75.295
+        },
+        {
+          "w": "one,",
+          "start": 75.295,
+          "end": 75.558
+        },
+        {
+          "w": "two,",
+          "start": 75.558,
+          "end": 75.822
+        },
+        {
+          "w": "three,",
+          "start": 75.822,
+          "end": 76.152
+        },
+        {
+          "w": "four,",
+          "start": 76.152,
+          "end": 76.481
+        },
+        {
+          "w": "five,",
+          "start": 76.481,
+          "end": 76.811
+        },
+        {
+          "w": "six!",
+          "start": 76.811,
+          "end": 77.14
+        }
+      ]
+    },
+    {
+      "beat": "p4",
+      "speaker": "hoot",
+      "text": "Puzzle four! Which group has a different number of apples?",
+      "gap": 5.5,
+      "start": 79.63,
+      "end": 83.02,
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 79.67,
+          "end": 80.156
+        },
+        {
+          "w": "four!",
+          "start": 80.156,
+          "end": 80.48
+        },
+        {
+          "w": "Which",
+          "start": 80.74,
+          "end": 81.016
+        },
+        {
+          "w": "group",
+          "start": 81.016,
+          "end": 81.348
+        },
+        {
+          "w": "has",
+          "start": 81.348,
+          "end": 81.569
+        },
+        {
+          "w": "a",
+          "start": 81.569,
+          "end": 81.735
+        },
+        {
+          "w": "different",
+          "start": 81.735,
+          "end": 82.177
+        },
+        {
+          "w": "number",
+          "start": 82.177,
+          "end": 82.508
+        },
+        {
+          "w": "of",
+          "start": 82.508,
+          "end": 82.619
+        },
+        {
+          "w": "apples?",
+          "start": 82.619,
+          "end": 82.95
+        }
+      ]
+    },
+    {
+      "beat": "a4",
+      "speaker": "leo",
+      "text": "This group has three apples! The others have two!",
+      "gap": 2.4,
+      "start": 88.52,
+      "end": 91.29,
+      "words": [
+        {
+          "w": "This",
+          "start": 88.56,
+          "end": 88.801
+        },
+        {
+          "w": "group",
+          "start": 88.801,
+          "end": 89.163
+        },
+        {
+          "w": "has",
+          "start": 89.163,
+          "end": 89.404
+        },
+        {
+          "w": "three",
+          "start": 89.404,
+          "end": 89.705
+        },
+        {
+          "w": "apples!",
+          "start": 89.705,
+          "end": 90.066
+        },
+        {
+          "w": "The",
+          "start": 90.066,
+          "end": 90.187
+        },
+        {
+          "w": "others",
+          "start": 90.187,
+          "end": 90.488
+        },
+        {
+          "w": "have",
+          "start": 90.488,
+          "end": 90.729
+        },
+        {
+          "w": "two!",
+          "start": 90.729,
+          "end": 90.97
+        }
+      ]
+    },
+    {
+      "beat": "p5",
+      "speaker": "hoot",
+      "text": "Puzzle five! Which number is a different color?",
+      "gap": 5.5,
+      "start": 93.69,
+      "end": 96.76,
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 93.73,
+          "end": 94.215
+        },
+        {
+          "w": "five!",
+          "start": 94.215,
+          "end": 94.62
+        },
+        {
+          "w": "Which",
+          "start": 94.9,
+          "end": 95.209
+        },
+        {
+          "w": "number",
+          "start": 95.209,
+          "end": 95.579
+        },
+        {
+          "w": "is",
+          "start": 95.579,
+          "end": 95.702
+        },
+        {
+          "w": "a",
+          "start": 95.702,
+          "end": 95.888
+        },
+        {
+          "w": "different",
+          "start": 95.888,
+          "end": 96.381
+        },
+        {
+          "w": "color?",
+          "start": 96.381,
+          "end": 96.69
+        }
+      ]
+    },
+    {
+      "beat": "a5",
+      "speaker": "mila",
+      "text": "The green seven! The others are red.",
+      "gap": 2.4,
+      "start": 102.26,
+      "end": 104.45,
+      "words": [
+        {
+          "w": "The",
+          "start": 102.29,
+          "end": 102.414
+        },
+        {
+          "w": "green",
+          "start": 102.414,
+          "end": 102.787
+        },
+        {
+          "w": "seven!",
+          "start": 102.787,
+          "end": 103.16
+        },
+        {
+          "w": "The",
+          "start": 103.3,
+          "end": 103.449
+        },
+        {
+          "w": "others",
+          "start": 103.449,
+          "end": 103.82
+        },
+        {
+          "w": "are",
+          "start": 103.82,
+          "end": 104.043
+        },
+        {
+          "w": "red.",
+          "start": 104.043,
+          "end": 104.34
+        }
+      ]
+    },
+    {
+      "beat": "p6",
+      "speaker": "hoot",
+      "text": "Puzzle six! Which number is different?",
+      "gap": 5.5,
+      "start": 106.85,
+      "end": 109.41,
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 106.89,
+          "end": 107.326
+        },
+        {
+          "w": "six!",
+          "start": 107.326,
+          "end": 107.69
+        },
+        {
+          "w": "Which",
+          "start": 107.88,
+          "end": 108.223
+        },
+        {
+          "w": "number",
+          "start": 108.223,
+          "end": 108.634
+        },
+        {
+          "w": "is",
+          "start": 108.634,
+          "end": 108.771
+        },
+        {
+          "w": "different?",
+          "start": 108.771,
+          "end": 109.32
+        }
+      ]
+    },
+    {
+      "beat": "l6",
+      "speaker": "leo",
+      "text": "The big one!",
+      "gap": 1.0,
+      "start": 114.91,
+      "end": 115.93,
+      "words": [
+        {
+          "w": "The",
+          "start": 114.94,
+          "end": 115.1
+        },
+        {
+          "w": "big",
+          "start": 115.1,
+          "end": 115.42
+        },
+        {
+          "w": "one!",
+          "start": 115.42,
+          "end": 115.74
+        }
+      ]
+    },
+    {
+      "beat": "l6b",
+      "speaker": "leo",
+      "text": "Oh! They are all the same size!",
+      "gap": 1.0,
+      "start": 116.93,
+      "end": 118.76,
+      "words": [
+        {
+          "w": "Oh!",
+          "start": 116.97,
+          "end": 117.149
+        },
+        {
+          "w": "They",
+          "start": 117.149,
+          "end": 117.328
+        },
+        {
+          "w": "are",
+          "start": 117.328,
+          "end": 117.506
+        },
+        {
+          "w": "all",
+          "start": 117.506,
+          "end": 117.745
+        },
+        {
+          "w": "the",
+          "start": 117.745,
+          "end": 117.864
+        },
+        {
+          "w": "same",
+          "start": 117.864,
+          "end": 118.162
+        },
+        {
+          "w": "size!",
+          "start": 118.162,
+          "end": 118.46
+        }
+      ]
+    },
+    {
+      "beat": "a6",
+      "speaker": "hoot",
+      "text": "It's the six! The others are nines. Six and nine look alike, but they are different!",
+      "gap": 2.4,
+      "start": 119.76,
+      "end": 125.09,
+      "words": [
+        {
+          "w": "It's",
+          "start": 119.8,
+          "end": 120.04
+        },
+        {
+          "w": "the",
+          "start": 120.04,
+          "end": 120.199
+        },
+        {
+          "w": "six!",
+          "start": 120.199,
+          "end": 120.598
+        },
+        {
+          "w": "The",
+          "start": 120.598,
+          "end": 120.758
+        },
+        {
+          "w": "others",
+          "start": 120.758,
+          "end": 121.157
+        },
+        {
+          "w": "are",
+          "start": 121.157,
+          "end": 121.317
+        },
+        {
+          "w": "nines.",
+          "start": 121.317,
+          "end": 121.796
+        },
+        {
+          "w": "Six",
+          "start": 121.796,
+          "end": 122.195
+        },
+        {
+          "w": "and",
+          "start": 122.195,
+          "end": 122.435
+        },
+        {
+          "w": "nine",
+          "start": 122.435,
+          "end": 122.834
+        },
+        {
+          "w": "look",
+          "start": 122.834,
+          "end": 123.154
+        },
+        {
+          "w": "alike,",
+          "start": 123.154,
+          "end": 123.633
+        },
+        {
+          "w": "but",
+          "start": 123.633,
+          "end": 123.952
+        },
+        {
+          "w": "they",
+          "start": 123.952,
+          "end": 124.192
+        },
+        {
+          "w": "are",
+          "start": 124.192,
+          "end": 124.351
+        },
+        {
+          "w": "different!",
+          "start": 124.351,
+          "end": 124.99
+        }
+      ]
+    },
+    {
+      "beat": "stretch",
+      "speaker": "hoot",
+      "text": "Great thinking! Time to stretch! Jump two times! One, two!",
+      "gap": 2.4,
+      "start": 127.49,
+      "end": 131.73,
+      "words": [
+        {
+          "w": "Great",
+          "start": 127.51,
+          "end": 127.99
+        },
+        {
+          "w": "thinking!",
+          "start": 127.99,
+          "end": 128.55
+        },
+        {
+          "w": "Time",
+          "start": 128.55,
+          "end": 128.95
+        },
+        {
+          "w": "to",
+          "start": 128.95,
+          "end": 129.19
+        },
+        {
+          "w": "stretch!",
+          "start": 129.19,
+          "end": 129.75
+        },
+        {
+          "w": "Jump",
+          "start": 129.75,
+          "end": 130.23
+        },
+        {
+          "w": "two",
+          "start": 130.23,
+          "end": 130.55
+        },
+        {
+          "w": "times!",
+          "start": 130.55,
+          "end": 131.03
+        },
+        {
+          "w": "One,",
+          "start": 131.03,
+          "end": 131.35
+        },
+        {
+          "w": "two!",
+          "start": 131.35,
+          "end": 131.67
+        }
+      ]
+    },
+    {
+      "beat": "wiggle",
+      "speaker": "mila",
+      "text": "Now clap three times! Clap, clap, clap!",
+      "gap": 2.2,
+      "start": 134.13,
+      "end": 136.78,
+      "words": [
+        {
+          "w": "Now",
+          "start": 134.17,
+          "end": 134.458
+        },
+        {
+          "w": "clap",
+          "start": 134.458,
+          "end": 134.818
+        },
+        {
+          "w": "three",
+          "start": 134.818,
+          "end": 135.178
+        },
+        {
+          "w": "times!",
+          "start": 135.178,
+          "end": 135.61
+        },
+        {
+          "w": "Clap,",
+          "start": 135.61,
+          "end": 135.97
+        },
+        {
+          "w": "clap,",
+          "start": 135.97,
+          "end": 136.33
+        },
+        {
+          "w": "clap!",
+          "start": 136.33,
+          "end": 136.69
+        }
+      ]
+    },
+    {
+      "beat": "p7",
+      "speaker": "hoot",
+      "text": "Puzzle seven! Count the stars. Which group is different?",
+      "gap": 5.5,
+      "start": 138.98,
+      "end": 142.64,
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 139.0,
+          "end": 139.43
+        },
+        {
+          "w": "seven!",
+          "start": 139.43,
+          "end": 139.86
+        },
+        {
+          "w": "Count",
+          "start": 140.02,
+          "end": 140.47
+        },
+        {
+          "w": "the",
+          "start": 140.47,
+          "end": 140.62
+        },
+        {
+          "w": "stars.",
+          "start": 140.62,
+          "end": 141.07
+        },
+        {
+          "w": "Which",
+          "start": 141.31,
+          "end": 141.603
+        },
+        {
+          "w": "group",
+          "start": 141.603,
+          "end": 141.954
+        },
+        {
+          "w": "is",
+          "start": 141.954,
+          "end": 142.071
+        },
+        {
+          "w": "different?",
+          "start": 142.071,
+          "end": 142.54
+        }
+      ]
+    },
+    {
+      "beat": "a7",
+      "speaker": "mila",
+      "text": "This group has five stars! The others have four.",
+      "gap": 2.4,
+      "start": 148.14,
+      "end": 151.23,
+      "words": [
+        {
+          "w": "This",
+          "start": 148.29,
+          "end": 148.525
+        },
+        {
+          "w": "group",
+          "start": 148.525,
+          "end": 148.878
+        },
+        {
+          "w": "has",
+          "start": 148.878,
+          "end": 149.114
+        },
+        {
+          "w": "five",
+          "start": 149.114,
+          "end": 149.408
+        },
+        {
+          "w": "stars!",
+          "start": 149.408,
+          "end": 149.82
+        },
+        {
+          "w": "The",
+          "start": 149.97,
+          "end": 150.111
+        },
+        {
+          "w": "others",
+          "start": 150.111,
+          "end": 150.464
+        },
+        {
+          "w": "have",
+          "start": 150.464,
+          "end": 150.747
+        },
+        {
+          "w": "four.",
+          "start": 150.747,
+          "end": 151.1
+        }
+      ]
+    },
+    {
+      "beat": "p8",
+      "speaker": "hoot",
+      "text": "Puzzle eight! Which number is different?",
+      "gap": 5.5,
+      "start": 153.63,
+      "end": 156.14,
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 153.66,
+          "end": 154.11
+        },
+        {
+          "w": "eight!",
+          "start": 154.11,
+          "end": 154.41
+        },
+        {
+          "w": "Which",
+          "start": 154.63,
+          "end": 154.968
+        },
+        {
+          "w": "number",
+          "start": 154.968,
+          "end": 155.374
+        },
+        {
+          "w": "is",
+          "start": 155.374,
+          "end": 155.509
+        },
+        {
+          "w": "different?",
+          "start": 155.509,
+          "end": 156.05
+        }
+      ]
+    },
+    {
+      "beat": "a8",
+      "speaker": "leo",
+      "text": "The two! The others are tens!",
+      "gap": 2.4,
+      "start": 161.64,
+      "end": 163.45,
+      "words": [
+        {
+          "w": "The",
+          "start": 161.67,
+          "end": 161.812
+        },
+        {
+          "w": "two!",
+          "start": 161.812,
+          "end": 162.096
+        },
+        {
+          "w": "The",
+          "start": 162.096,
+          "end": 162.238
+        },
+        {
+          "w": "others",
+          "start": 162.238,
+          "end": 162.592
+        },
+        {
+          "w": "are",
+          "start": 162.592,
+          "end": 162.805
+        },
+        {
+          "w": "tens!",
+          "start": 162.805,
+          "end": 163.16
+        }
+      ]
+    },
+    {
+      "beat": "p9",
+      "speaker": "hoot",
+      "text": "Puzzle nine! This is tricky. Which one is not number four?",
+      "gap": 5.5,
+      "start": 165.85,
+      "end": 169.9,
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 165.89,
+          "end": 166.343
+        },
+        {
+          "w": "nine!",
+          "start": 166.343,
+          "end": 166.72
+        },
+        {
+          "w": "This",
+          "start": 166.89,
+          "end": 167.207
+        },
+        {
+          "w": "is",
+          "start": 167.207,
+          "end": 167.365
+        },
+        {
+          "w": "tricky.",
+          "start": 167.365,
+          "end": 167.84
+        },
+        {
+          "w": "Which",
+          "start": 168.14,
+          "end": 168.476
+        },
+        {
+          "w": "one",
+          "start": 168.476,
+          "end": 168.745
+        },
+        {
+          "w": "is",
+          "start": 168.745,
+          "end": 168.879
+        },
+        {
+          "w": "not",
+          "start": 168.879,
+          "end": 169.148
+        },
+        {
+          "w": "number",
+          "start": 169.148,
+          "end": 169.551
+        },
+        {
+          "w": "four?",
+          "start": 169.551,
+          "end": 169.82
+        }
+      ]
+    },
+    {
+      "beat": "a9",
+      "speaker": "mila",
+      "text": "These all show four: four dots, four fingers, number four. But this one shows five!",
+      "gap": 2.6,
+      "start": 175.4,
+      "end": 180.56,
+      "words": [
+        {
+          "w": "These",
+          "start": 175.62,
+          "end": 175.944
+        },
+        {
+          "w": "all",
+          "start": 175.944,
+          "end": 176.204
+        },
+        {
+          "w": "show",
+          "start": 176.204,
+          "end": 176.463
+        },
+        {
+          "w": "four:",
+          "start": 176.463,
+          "end": 176.788
+        },
+        {
+          "w": "four",
+          "start": 176.788,
+          "end": 177.112
+        },
+        {
+          "w": "dots,",
+          "start": 177.112,
+          "end": 177.501
+        },
+        {
+          "w": "four",
+          "start": 177.501,
+          "end": 177.825
+        },
+        {
+          "w": "fingers,",
+          "start": 177.825,
+          "end": 178.279
+        },
+        {
+          "w": "number",
+          "start": 178.279,
+          "end": 178.669
+        },
+        {
+          "w": "four.",
+          "start": 178.669,
+          "end": 178.993
+        },
+        {
+          "w": "But",
+          "start": 178.993,
+          "end": 179.252
+        },
+        {
+          "w": "this",
+          "start": 179.252,
+          "end": 179.512
+        },
+        {
+          "w": "one",
+          "start": 179.512,
+          "end": 179.771
+        },
+        {
+          "w": "shows",
+          "start": 179.771,
+          "end": 180.096
+        },
+        {
+          "w": "five!",
+          "start": 180.096,
+          "end": 180.42
+        }
+      ]
+    },
+    {
+      "beat": "p10",
+      "speaker": "hoot",
+      "text": "Puzzle ten! Which basket has a different number of balls?",
+      "gap": 5.5,
+      "start": 183.16,
+      "end": 186.8,
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 183.2,
+          "end": 183.668
+        },
+        {
+          "w": "ten!",
+          "start": 183.668,
+          "end": 183.98
+        },
+        {
+          "w": "Which",
+          "start": 184.27,
+          "end": 184.568
+        },
+        {
+          "w": "basket",
+          "start": 184.568,
+          "end": 184.984
+        },
+        {
+          "w": "has",
+          "start": 184.984,
+          "end": 185.222
+        },
+        {
+          "w": "a",
+          "start": 185.222,
+          "end": 185.401
+        },
+        {
+          "w": "different",
+          "start": 185.401,
+          "end": 185.877
+        },
+        {
+          "w": "number",
+          "start": 185.877,
+          "end": 186.234
+        },
+        {
+          "w": "of",
+          "start": 186.234,
+          "end": 186.353
+        },
+        {
+          "w": "balls?",
+          "start": 186.353,
+          "end": 186.71
+        }
+      ]
+    },
+    {
+      "beat": "a10",
+      "speaker": "leo",
+      "text": "This one! It has one ball. The others have three!",
+      "gap": 2.4,
+      "start": 192.3,
+      "end": 195.13,
+      "words": [
+        {
+          "w": "This",
+          "start": 192.34,
+          "end": 192.589
+        },
+        {
+          "w": "one!",
+          "start": 192.589,
+          "end": 192.838
+        },
+        {
+          "w": "It",
+          "start": 192.838,
+          "end": 192.963
+        },
+        {
+          "w": "has",
+          "start": 192.963,
+          "end": 193.212
+        },
+        {
+          "w": "one",
+          "start": 193.212,
+          "end": 193.462
+        },
+        {
+          "w": "ball.",
+          "start": 193.462,
+          "end": 193.773
+        },
+        {
+          "w": "The",
+          "start": 193.773,
+          "end": 193.898
+        },
+        {
+          "w": "others",
+          "start": 193.898,
+          "end": 194.209
+        },
+        {
+          "w": "have",
+          "start": 194.209,
+          "end": 194.458
+        },
+        {
+          "w": "three!",
+          "start": 194.458,
+          "end": 194.77
+        }
+      ]
+    },
+    {
+      "beat": "air",
+      "speaker": "hoot",
+      "text": "Now draw a big number one in the air, with your finger! Down, down, down!",
+      "gap": 3.0,
+      "start": 197.53,
+      "end": 202.6,
+      "words": [
+        {
+          "w": "Now",
+          "start": 197.56,
+          "end": 197.885
+        },
+        {
+          "w": "draw",
+          "start": 197.885,
+          "end": 198.292
+        },
+        {
+          "w": "a",
+          "start": 198.292,
+          "end": 198.536
+        },
+        {
+          "w": "big",
+          "start": 198.536,
+          "end": 198.861
+        },
+        {
+          "w": "number",
+          "start": 198.861,
+          "end": 199.349
+        },
+        {
+          "w": "one",
+          "start": 199.349,
+          "end": 199.674
+        },
+        {
+          "w": "in",
+          "start": 199.674,
+          "end": 199.918
+        },
+        {
+          "w": "the",
+          "start": 199.918,
+          "end": 200.081
+        },
+        {
+          "w": "air,",
+          "start": 200.081,
+          "end": 200.325
+        },
+        {
+          "w": "with",
+          "start": 200.325,
+          "end": 200.569
+        },
+        {
+          "w": "your",
+          "start": 200.569,
+          "end": 200.812
+        },
+        {
+          "w": "finger!",
+          "start": 200.812,
+          "end": 201.3
+        },
+        {
+          "w": "Down,",
+          "start": 201.3,
+          "end": 201.707
+        },
+        {
+          "w": "down,",
+          "start": 201.707,
+          "end": 202.113
+        },
+        {
+          "w": "down!",
+          "start": 202.113,
+          "end": 202.52
+        }
+      ]
+    },
+    {
+      "beat": "p11",
+      "speaker": "hoot",
+      "text": "Puzzle eleven! Which number is upside down?",
+      "gap": 5.5,
+      "start": 205.6,
+      "end": 208.65,
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 205.64,
+          "end": 206.051
+        },
+        {
+          "w": "eleven!",
+          "start": 206.051,
+          "end": 206.53
+        },
+        {
+          "w": "Which",
+          "start": 206.79,
+          "end": 207.146
+        },
+        {
+          "w": "number",
+          "start": 207.146,
+          "end": 207.573
+        },
+        {
+          "w": "is",
+          "start": 207.573,
+          "end": 207.716
+        },
+        {
+          "w": "upside",
+          "start": 207.716,
+          "end": 208.214
+        },
+        {
+          "w": "down?",
+          "start": 208.214,
+          "end": 208.57
+        }
+      ]
+    },
+    {
+      "beat": "a11",
+      "speaker": "mila",
+      "text": "This seven is upside down! Silly seven!",
+      "gap": 2.4,
+      "start": 214.15,
+      "end": 216.9,
+      "words": [
+        {
+          "w": "This",
+          "start": 214.2,
+          "end": 214.47
+        },
+        {
+          "w": "seven",
+          "start": 214.47,
+          "end": 214.875
+        },
+        {
+          "w": "is",
+          "start": 214.875,
+          "end": 215.01
+        },
+        {
+          "w": "upside",
+          "start": 215.01,
+          "end": 215.482
+        },
+        {
+          "w": "down!",
+          "start": 215.482,
+          "end": 215.82
+        },
+        {
+          "w": "Silly",
+          "start": 215.93,
+          "end": 216.307
+        },
+        {
+          "w": "seven!",
+          "start": 216.307,
+          "end": 216.76
+        }
+      ]
+    },
+    {
+      "beat": "super",
+      "speaker": "hoot",
+      "text": "And now... the super puzzle!",
+      "gap": 1.6,
+      "start": 219.3,
+      "end": 221.25,
+      "words": [
+        {
+          "w": "And",
+          "start": 219.32,
+          "end": 219.611
+        },
+        {
+          "w": "now...",
+          "start": 219.611,
+          "end": 220.0
+        },
+        {
+          "w": "the",
+          "start": 220.15,
+          "end": 220.3
+        },
+        {
+          "w": "super",
+          "start": 220.3,
+          "end": 220.75
+        },
+        {
+          "w": "puzzle!",
+          "start": 220.75,
+          "end": 221.2
+        }
+      ]
+    },
+    {
+      "beat": "p12",
+      "speaker": "hoot",
+      "text": "Every number has a twin, except one. Which number is all alone?",
+      "gap": 7.0,
+      "start": 222.85,
+      "end": 227.28,
+      "words": [
+        {
+          "w": "Every",
+          "start": 222.87,
+          "end": 223.183
+        },
+        {
+          "w": "number",
+          "start": 223.183,
+          "end": 223.559
+        },
+        {
+          "w": "has",
+          "start": 223.559,
+          "end": 223.809
+        },
+        {
+          "w": "a",
+          "start": 223.809,
+          "end": 223.997
+        },
+        {
+          "w": "twin,",
+          "start": 223.997,
+          "end": 224.31
+        },
+        {
+          "w": "except",
+          "start": 224.47,
+          "end": 225.005
+        },
+        {
+          "w": "one.",
+          "start": 225.005,
+          "end": 225.31
+        },
+        {
+          "w": "Which",
+          "start": 225.67,
+          "end": 226.005
+        },
+        {
+          "w": "number",
+          "start": 226.005,
+          "end": 226.407
+        },
+        {
+          "w": "is",
+          "start": 226.407,
+          "end": 226.54
+        },
+        {
+          "w": "all",
+          "start": 226.54,
+          "end": 226.808
+        },
+        {
+          "w": "alone?",
+          "start": 226.808,
+          "end": 227.21
+        }
+      ]
+    },
+    {
+      "beat": "l12",
+      "speaker": "leo",
+      "text": "Is it... the two?",
+      "gap": 1.0,
+      "start": 234.28,
+      "end": 235.58,
+      "words": [
+        {
+          "w": "Is",
+          "start": 234.31,
+          "end": 234.52
+        },
+        {
+          "w": "it...",
+          "start": 234.52,
+          "end": 234.73
+        },
+        {
+          "w": "the",
+          "start": 234.73,
+          "end": 234.94
+        },
+        {
+          "w": "two?",
+          "start": 234.94,
+          "end": 235.36
+        }
+      ]
+    },
+    {
+      "beat": "l12b",
+      "speaker": "hoot",
+      "text": "Good try, Leo! Look again. The two has a twin!",
+      "gap": 3.0,
+      "start": 236.58,
+      "end": 240.07,
+      "words": [
+        {
+          "w": "Good",
+          "start": 236.61,
+          "end": 236.932
+        },
+        {
+          "w": "try,",
+          "start": 236.932,
+          "end": 237.334
+        },
+        {
+          "w": "Leo!",
+          "start": 237.334,
+          "end": 237.817
+        },
+        {
+          "w": "Look",
+          "start": 237.817,
+          "end": 238.139
+        },
+        {
+          "w": "again.",
+          "start": 238.139,
+          "end": 238.541
+        },
+        {
+          "w": "The",
+          "start": 238.541,
+          "end": 238.702
+        },
+        {
+          "w": "two",
+          "start": 238.702,
+          "end": 239.024
+        },
+        {
+          "w": "has",
+          "start": 239.024,
+          "end": 239.346
+        },
+        {
+          "w": "a",
+          "start": 239.346,
+          "end": 239.588
+        },
+        {
+          "w": "twin!",
+          "start": 239.588,
+          "end": 239.99
+        }
+      ]
+    },
+    {
+      "beat": "a12",
+      "speaker": "mila",
+      "text": "The nine! It has no twin!",
+      "gap": 2.4,
+      "start": 243.07,
+      "end": 244.86,
+      "words": [
+        {
+          "w": "The",
+          "start": 243.1,
+          "end": 243.251
+        },
+        {
+          "w": "nine!",
+          "start": 243.251,
+          "end": 243.628
+        },
+        {
+          "w": "It",
+          "start": 243.628,
+          "end": 243.779
+        },
+        {
+          "w": "has",
+          "start": 243.779,
+          "end": 244.081
+        },
+        {
+          "w": "no",
+          "start": 244.081,
+          "end": 244.383
+        },
+        {
+          "w": "twin!",
+          "start": 244.383,
+          "end": 244.76
+        }
+      ]
+    },
+    {
+      "beat": "win",
+      "speaker": "hoot",
+      "text": "Twelve puzzles! You did it! You are a number superstar!",
+      "gap": 2.6,
+      "start": 247.26,
+      "end": 251.05,
+      "words": [
+        {
+          "w": "Twelve",
+          "start": 247.28,
+          "end": 247.709
+        },
+        {
+          "w": "puzzles!",
+          "start": 247.709,
+          "end": 248.21
+        },
+        {
+          "w": "You",
+          "start": 248.35,
+          "end": 248.557
+        },
+        {
+          "w": "did",
+          "start": 248.557,
+          "end": 248.832
+        },
+        {
+          "w": "it!",
+          "start": 248.832,
+          "end": 248.97
+        },
+        {
+          "w": "You",
+          "start": 249.28,
+          "end": 249.483
+        },
+        {
+          "w": "are",
+          "start": 249.483,
+          "end": 249.618
+        },
+        {
+          "w": "a",
+          "start": 249.618,
+          "end": 249.821
+        },
+        {
+          "w": "number",
+          "start": 249.821,
+          "end": 250.226
+        },
+        {
+          "w": "superstar!",
+          "start": 250.226,
+          "end": 250.97
+        }
+      ]
+    },
+    {
+      "beat": "quiz",
+      "speaker": "mila",
+      "text": "One more game! Number riddles!",
+      "gap": 1.2,
+      "start": 253.65,
+      "end": 255.52,
+      "words": [
+        {
+          "w": "One",
+          "start": 253.68,
+          "end": 253.944
+        },
+        {
+          "w": "more",
+          "start": 253.944,
+          "end": 254.273
+        },
+        {
+          "w": "game!",
+          "start": 254.273,
+          "end": 254.603
+        },
+        {
+          "w": "Number",
+          "start": 254.603,
+          "end": 254.999
+        },
+        {
+          "w": "riddles!",
+          "start": 254.999,
+          "end": 255.46
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "hoot",
+      "text": "I come after one, and before three. What number am I?",
+      "gap": 5.5,
+      "start": 256.72,
+      "end": 260.58,
+      "words": [
+        {
+          "w": "I",
+          "start": 256.76,
+          "end": 256.957
+        },
+        {
+          "w": "come",
+          "start": 256.957,
+          "end": 257.219
+        },
+        {
+          "w": "after",
+          "start": 257.219,
+          "end": 257.548
+        },
+        {
+          "w": "one,",
+          "start": 257.548,
+          "end": 257.81
+        },
+        {
+          "w": "and",
+          "start": 257.99,
+          "end": 258.211
+        },
+        {
+          "w": "before",
+          "start": 258.211,
+          "end": 258.652
+        },
+        {
+          "w": "three.",
+          "start": 258.652,
+          "end": 259.02
+        },
+        {
+          "w": "What",
+          "start": 259.35,
+          "end": 259.649
+        },
+        {
+          "w": "number",
+          "start": 259.649,
+          "end": 260.097
+        },
+        {
+          "w": "am",
+          "start": 260.097,
+          "end": 260.246
+        },
+        {
+          "w": "I?",
+          "start": 260.246,
+          "end": 260.47
+        }
+      ]
+    },
+    {
+      "beat": "qa1",
+      "speaker": "leo",
+      "text": "Two!",
+      "gap": 2.0,
+      "start": 266.08,
+      "end": 266.8,
+      "words": [
+        {
+          "w": "Two!",
+          "start": 266.12,
+          "end": 266.69
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "hoot",
+      "text": "How many fingers are on one hand?",
+      "gap": 5.5,
+      "start": 268.8,
+      "end": 271.44,
+      "words": [
+        {
+          "w": "How",
+          "start": 268.85,
+          "end": 269.181
+        },
+        {
+          "w": "many",
+          "start": 269.181,
+          "end": 269.594
+        },
+        {
+          "w": "fingers",
+          "start": 269.594,
+          "end": 270.173
+        },
+        {
+          "w": "are",
+          "start": 270.173,
+          "end": 270.338
+        },
+        {
+          "w": "on",
+          "start": 270.338,
+          "end": 270.586
+        },
+        {
+          "w": "one",
+          "start": 270.586,
+          "end": 270.917
+        },
+        {
+          "w": "hand?",
+          "start": 270.917,
+          "end": 271.33
+        }
+      ]
+    },
+    {
+      "beat": "qa2",
+      "speaker": "mila",
+      "text": "Five!",
+      "gap": 2.0,
+      "start": 276.94,
+      "end": 277.86,
+      "words": [
+        {
+          "w": "Five!",
+          "start": 277.02,
+          "end": 277.71
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "hoot",
+      "text": "What number comes after nine?",
+      "gap": 5.5,
+      "start": 279.86,
+      "end": 282.03,
+      "words": [
+        {
+          "w": "What",
+          "start": 279.89,
+          "end": 280.22
+        },
+        {
+          "w": "number",
+          "start": 280.22,
+          "end": 280.714
+        },
+        {
+          "w": "comes",
+          "start": 280.714,
+          "end": 281.126
+        },
+        {
+          "w": "after",
+          "start": 281.126,
+          "end": 281.538
+        },
+        {
+          "w": "nine?",
+          "start": 281.538,
+          "end": 281.95
+        }
+      ]
+    },
+    {
+      "beat": "qa3",
+      "speaker": "leo",
+      "text": "Ten!",
+      "gap": 2.2,
+      "start": 287.53,
+      "end": 288.2,
+      "words": [
+        {
+          "w": "Ten!",
+          "start": 287.56,
+          "end": 288.11
+        }
+      ]
+    },
+    {
+      "beat": "rem",
+      "speaker": "mila",
+      "text": "Let's count to ten together!",
+      "gap": 1.0,
+      "start": 290.4,
+      "end": 292.19,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 290.42,
+          "end": 290.752
+        },
+        {
+          "w": "count",
+          "start": 290.752,
+          "end": 291.15
+        },
+        {
+          "w": "to",
+          "start": 291.15,
+          "end": 291.35
+        },
+        {
+          "w": "ten",
+          "start": 291.35,
+          "end": 291.615
+        },
+        {
+          "w": "together!",
+          "start": 291.615,
+          "end": 292.08
+        }
+      ]
+    },
+    {
+      "beat": "n1",
+      "speaker": "mila",
+      "text": "One!",
+      "gap": 0.9,
+      "start": 293.19,
+      "end": 294.0,
+      "words": [
+        {
+          "w": "One!",
+          "start": 293.27,
+          "end": 293.86
+        }
+      ]
+    },
+    {
+      "beat": "n2",
+      "speaker": "leo",
+      "text": "Two!",
+      "gap": 0.9,
+      "start": 294.9,
+      "end": 295.62,
+      "words": [
+        {
+          "w": "Two!",
+          "start": 294.94,
+          "end": 295.51
+        }
+      ]
+    },
+    {
+      "beat": "n3",
+      "speaker": "hoot",
+      "text": "Three!",
+      "gap": 0.9,
+      "start": 296.52,
+      "end": 297.33,
+      "words": [
+        {
+          "w": "Three!",
+          "start": 296.55,
+          "end": 297.26
+        }
+      ]
+    },
+    {
+      "beat": "n4",
+      "speaker": "mila",
+      "text": "Four!",
+      "gap": 0.9,
+      "start": 298.23,
+      "end": 299.15,
+      "words": [
+        {
+          "w": "Four!",
+          "start": 298.32,
+          "end": 298.97
+        }
+      ]
+    },
+    {
+      "beat": "n5",
+      "speaker": "leo",
+      "text": "Five!",
+      "gap": 0.9,
+      "start": 300.05,
+      "end": 300.79,
+      "words": [
+        {
+          "w": "Five!",
+          "start": 300.1,
+          "end": 300.68
+        }
+      ]
+    },
+    {
+      "beat": "n6",
+      "speaker": "hoot",
+      "text": "Six!",
+      "gap": 0.9,
+      "start": 301.69,
+      "end": 302.41,
+      "words": [
+        {
+          "w": "Six!",
+          "start": 301.73,
+          "end": 302.34
+        }
+      ]
+    },
+    {
+      "beat": "n7",
+      "speaker": "mila",
+      "text": "Seven!",
+      "gap": 0.9,
+      "start": 303.31,
+      "end": 304.16,
+      "words": [
+        {
+          "w": "Seven!",
+          "start": 303.36,
+          "end": 304.02
+        }
+      ]
+    },
+    {
+      "beat": "n8",
+      "speaker": "leo",
+      "text": "Eight!",
+      "gap": 0.9,
+      "start": 305.06,
+      "end": 305.69,
+      "words": [
+        {
+          "w": "Eight!",
+          "start": 305.09,
+          "end": 305.61
+        }
+      ]
+    },
+    {
+      "beat": "n9",
+      "speaker": "hoot",
+      "text": "Nine!",
+      "gap": 0.9,
+      "start": 306.59,
+      "end": 307.48,
+      "words": [
+        {
+          "w": "Nine!",
+          "start": 306.62,
+          "end": 307.38
+        }
+      ]
+    },
+    {
+      "beat": "n10",
+      "speaker": "mila",
+      "text": "Ten!",
+      "gap": 1.4,
+      "start": 308.38,
+      "end": 309.19,
+      "words": [
+        {
+          "w": "Ten!",
+          "start": 308.43,
+          "end": 309.06
+        }
+      ]
+    },
+    {
+      "beat": "n_turn",
+      "speaker": "hoot",
+      "text": "Your turn! Count to ten, with your fingers!",
+      "gap": 4.0,
+      "start": 310.59,
+      "end": 313.63,
+      "words": [
+        {
+          "w": "Your",
+          "start": 310.63,
+          "end": 310.911
+        },
+        {
+          "w": "turn!",
+          "start": 310.911,
+          "end": 311.38
+        },
+        {
+          "w": "Count",
+          "start": 311.55,
+          "end": 311.956
+        },
+        {
+          "w": "to",
+          "start": 311.956,
+          "end": 312.159
+        },
+        {
+          "w": "ten,",
+          "start": 312.159,
+          "end": 312.43
+        },
+        {
+          "w": "with",
+          "start": 312.54,
+          "end": 312.773
+        },
+        {
+          "w": "your",
+          "start": 312.773,
+          "end": 313.006
+        },
+        {
+          "w": "fingers!",
+          "start": 313.006,
+          "end": 313.55
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "leo",
+      "text": "Bye-bye, puzzle friends!",
+      "gap": 1.0,
+      "start": 317.63,
+      "end": 319.4,
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 317.67,
+          "end": 318.271
+        },
+        {
+          "w": "puzzle",
+          "start": 318.271,
+          "end": 318.672
+        },
+        {
+          "w": "friends!",
+          "start": 318.672,
+          "end": 319.14
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "hoot",
+      "text": "See you next time!",
+      "gap": 1.0,
+      "start": 320.4,
+      "end": 321.84,
+      "words": [
+        {
+          "w": "See",
+          "start": 320.43,
+          "end": 320.726
+        },
+        {
+          "w": "you",
+          "start": 320.726,
+          "end": 320.947
+        },
+        {
+          "w": "next",
+          "start": 320.947,
+          "end": 321.391
+        },
+        {
+          "w": "time!",
+          "start": 321.391,
+          "end": 321.76
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast",
+  "beats": [
+    {
+      "id": "intro",
+      "start": 0,
+      "visual": "Hello, puzzle friends! Today's game is: find the different number!",
+      "end": 9.22
+    },
+    {
+      "id": "intro2",
+      "start": 9.22,
+      "visual": "Numbers? Easy! I'm super fast!",
+      "end": 12.37
+    },
+    {
+      "id": "rules",
+      "start": 12.37,
+      "visual": "Look carefully. One is different. When the clock ticks, you think!",
+      "end": 17.56
+    },
+    {
+      "id": "go",
+      "start": 17.56,
+      "visual": "Ready? Let's go!",
+      "end": 20.54
+    },
+    {
+      "id": "p1",
+      "start": 20.54,
+      "visual": "Puzzle one! Which number is different?",
+      "end": 28.55
+    },
+    {
+      "id": "l1",
+      "start": 28.55,
+      "visual": "That one! The first three!",
+      "end": 31.12
+    },
+    {
+      "id": "l1b",
+      "start": 31.12,
+      "visual": "Oops! They are all threes!",
+      "end": 33.65
+    },
+    {
+      "id": "a1",
+      "start": 33.65,
+      "visual": "It's the eight! All the others are threes.",
+      "end": 37.71
+    },
+    {
+      "id": "s1",
+      "start": 37.71,
+      "visual": "Say it with me: eight!",
+      "end": 41.66
+    },
+    {
+      "id": "p2",
+      "start": 41.66,
+      "visual": "Puzzle two! Find the different number.",
+      "end": 49.59
+    },
+    {
+      "id": "a2",
+      "start": 49.59,
+      "visual": "The one! The others are all fives.",
+      "end": 53.18
+    },
+    {
+      "id": "s2",
+      "start": 53.18,
+      "visual": "Say it: one!",
+      "end": 56.64
+    },
+    {
+      "id": "p3",
+      "start": 56.64,
+      "visual": "Puzzle three! Look at the dice. Which one is different?",
+      "end": 65.62
+    },
+    {
+      "id": "l3",
+      "start": 65.62,
+      "visual": "This one! It has more dots!",
+      "end": 68.41
+    },
+    {
+      "id": "l3b",
+      "start": 68.41,
+      "visual": "Hmm... no, it has four, like the others.",
+      "end": 71.6
+    },
+    {
+      "id": "a3",
+      "start": 71.6,
+      "visual": "This one has six dots! The others have four. Let's count: one, two, three, four, five, six!",
+      "end": 79.43
+    },
+    {
+      "id": "p4",
+      "start": 79.43,
+      "visual": "Puzzle four! Which group has a different number of apples?",
+      "end": 88.32
+    },
+    {
+      "id": "a4",
+      "start": 88.32,
+      "visual": "This group has three apples! The others have two!",
+      "end": 93.49
+    },
+    {
+      "id": "p5",
+      "start": 93.49,
+      "visual": "Puzzle five! Which number is a different color?",
+      "end": 102.06
+    },
+    {
+      "id": "a5",
+      "start": 102.06,
+      "visual": "The green seven! The others are red.",
+      "end": 106.65
+    },
+    {
+      "id": "p6",
+      "start": 106.65,
+      "visual": "Puzzle six! Which number is different?",
+      "end": 114.71
+    },
+    {
+      "id": "l6",
+      "start": 114.71,
+      "visual": "The big one!",
+      "end": 116.73
+    },
+    {
+      "id": "l6b",
+      "start": 116.73,
+      "visual": "Oh! They are all the same size!",
+      "end": 119.56
+    },
+    {
+      "id": "a6",
+      "start": 119.56,
+      "visual": "It's the six! The others are nines. Six and nine look alike, but they are different!",
+      "end": 127.29
+    },
+    {
+      "id": "stretch",
+      "start": 127.29,
+      "visual": "Great thinking! Time to stretch! Jump two times! One, two!",
+      "end": 133.93
+    },
+    {
+      "id": "wiggle",
+      "start": 133.93,
+      "visual": "Now clap three times! Clap, clap, clap!",
+      "end": 138.78
+    },
+    {
+      "id": "p7",
+      "start": 138.78,
+      "visual": "Puzzle seven! Count the stars. Which group is different?",
+      "end": 147.94
+    },
+    {
+      "id": "a7",
+      "start": 147.94,
+      "visual": "This group has five stars! The others have four.",
+      "end": 153.43
+    },
+    {
+      "id": "p8",
+      "start": 153.43,
+      "visual": "Puzzle eight! Which number is different?",
+      "end": 161.44
+    },
+    {
+      "id": "a8",
+      "start": 161.44,
+      "visual": "The two! The others are tens!",
+      "end": 165.65
+    },
+    {
+      "id": "p9",
+      "start": 165.65,
+      "visual": "Puzzle nine! This is tricky. Which one is not number four?",
+      "end": 175.2
+    },
+    {
+      "id": "a9",
+      "start": 175.2,
+      "visual": "These all show four: four dots, four fingers, number four. But this one shows five!",
+      "end": 182.96
+    },
+    {
+      "id": "p10",
+      "start": 182.96,
+      "visual": "Puzzle ten! Which basket has a different number of balls?",
+      "end": 192.1
+    },
+    {
+      "id": "a10",
+      "start": 192.1,
+      "visual": "This one! It has one ball. The others have three!",
+      "end": 197.33
+    },
+    {
+      "id": "air",
+      "start": 197.33,
+      "visual": "Now draw a big number one in the air, with your finger! Down, down, down!",
+      "end": 205.4
+    },
+    {
+      "id": "p11",
+      "start": 205.4,
+      "visual": "Puzzle eleven! Which number is upside down?",
+      "end": 213.95
+    },
+    {
+      "id": "a11",
+      "start": 213.95,
+      "visual": "This seven is upside down! Silly seven!",
+      "end": 219.1
+    },
+    {
+      "id": "super",
+      "start": 219.1,
+      "visual": "And now... the super puzzle!",
+      "end": 222.65
+    },
+    {
+      "id": "p12",
+      "start": 222.65,
+      "visual": "Every number has a twin, except one. Which number is all alone?",
+      "end": 234.08
+    },
+    {
+      "id": "l12",
+      "start": 234.08,
+      "visual": "Is it... the two?",
+      "end": 236.38
+    },
+    {
+      "id": "l12b",
+      "start": 236.38,
+      "visual": "Good try, Leo! Look again. The two has a twin!",
+      "end": 242.87
+    },
+    {
+      "id": "a12",
+      "start": 242.87,
+      "visual": "The nine! It has no twin!",
+      "end": 247.06
+    },
+    {
+      "id": "win",
+      "start": 247.06,
+      "visual": "Twelve puzzles! You did it! You are a number superstar!",
+      "end": 253.45
+    },
+    {
+      "id": "quiz",
+      "start": 253.45,
+      "visual": "One more game! Number riddles!",
+      "end": 256.52
+    },
+    {
+      "id": "q1",
+      "start": 256.52,
+      "visual": "I come after one, and before three. What number am I?",
+      "end": 265.88
+    },
+    {
+      "id": "qa1",
+      "start": 265.88,
+      "visual": "Two!",
+      "end": 268.6
+    },
+    {
+      "id": "q2",
+      "start": 268.6,
+      "visual": "How many fingers are on one hand?",
+      "end": 276.74
+    },
+    {
+      "id": "qa2",
+      "start": 276.74,
+      "visual": "Five!",
+      "end": 279.66
+    },
+    {
+      "id": "q3",
+      "start": 279.66,
+      "visual": "What number comes after nine?",
+      "end": 287.33
+    },
+    {
+      "id": "qa3",
+      "start": 287.33,
+      "visual": "Ten!",
+      "end": 290.2
+    },
+    {
+      "id": "rem",
+      "start": 290.2,
+      "visual": "Let's count to ten together!",
+      "end": 292.99
+    },
+    {
+      "id": "n1",
+      "start": 292.99,
+      "visual": "One!",
+      "end": 294.7
+    },
+    {
+      "id": "n2",
+      "start": 294.7,
+      "visual": "Two!",
+      "end": 296.32
+    },
+    {
+      "id": "n3",
+      "start": 296.32,
+      "visual": "Three!",
+      "end": 298.03
+    },
+    {
+      "id": "n4",
+      "start": 298.03,
+      "visual": "Four!",
+      "end": 299.85
+    },
+    {
+      "id": "n5",
+      "start": 299.85,
+      "visual": "Five!",
+      "end": 301.49
+    },
+    {
+      "id": "n6",
+      "start": 301.49,
+      "visual": "Six!",
+      "end": 303.11
+    },
+    {
+      "id": "n7",
+      "start": 303.11,
+      "visual": "Seven!",
+      "end": 304.86
+    },
+    {
+      "id": "n8",
+      "start": 304.86,
+      "visual": "Eight!",
+      "end": 306.39
+    },
+    {
+      "id": "n9",
+      "start": 306.39,
+      "visual": "Nine!",
+      "end": 308.18
+    },
+    {
+      "id": "n10",
+      "start": 308.18,
+      "visual": "Ten!",
+      "end": 310.39
+    },
+    {
+      "id": "n_turn",
+      "start": 310.39,
+      "visual": "Your turn! Count to ten, with your fingers!",
+      "end": 317.43
+    },
+    {
+      "id": "bye",
+      "start": 317.43,
+      "visual": "Bye-bye, puzzle friends!",
+      "end": 320.2
+    },
+    {
+      "id": "bye2",
+      "start": 320.2,
+      "visual": "See you next time!",
+      "end": 326.8
+    }
+  ]
+}

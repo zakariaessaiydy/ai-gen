@@ -192,6 +192,14 @@
   "transparent": false
  },
  {
+  "id": "KidsMarathonIntro04",
+  "durationInSeconds": 9,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "KidsMarathonIntroP2",
   "durationInSeconds": 9,
   "fps": 30,
@@ -392,6 +400,14 @@
   "transparent": false
  },
  {
+  "id": "KidsPuzzles055",
+  "durationInSeconds": 326.8,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "KidsScience005",
   "durationInSeconds": 75.1,
   "fps": 30,
@@ -442,6 +458,14 @@
  {
   "id": "KidsScience047",
   "durationInSeconds": 305,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsScience054",
+  "durationInSeconds": 302.4,
   "fps": 30,
   "width": 1920,
   "height": 1080,
@@ -592,6 +616,14 @@
   "transparent": false
  },
  {
+  "id": "KidsSongs056",
+  "durationInSeconds": 312.1,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "KidsStories001",
   "durationInSeconds": 42,
   "fps": 30,
@@ -618,6 +650,14 @@
  {
   "id": "KidsStories043",
   "durationInSeconds": 306.8,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsStories057",
+  "durationInSeconds": 304.8,
   "fps": 30,
   "width": 1920,
   "height": 1080,
