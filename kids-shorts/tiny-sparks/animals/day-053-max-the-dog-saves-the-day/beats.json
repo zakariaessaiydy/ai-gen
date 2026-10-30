@@ -1,0 +1,3599 @@
+{
+  "id": "day-053",
+  "series": "tiny-sparks",
+  "episode": 53,
+  "title": "Max the Dog Saves the Day",
+  "composition": "KidsAnimals053",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 303.3
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-8%"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "max": {
+      "kokoro": "am_puck:0.6+am_echo:0.4",
+      "rate": "-2%"
+    },
+    "bella": {
+      "kokoro": "bf_lily",
+      "rate": "-4%"
+    },
+    "kiki": {
+      "kokoro": "af_sky:0.4+bf_isabella:0.6",
+      "rate": "-2%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -6,
+    "duck": 8,
+    "start": 3.7,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "guess",
+      "speaker": "narrator",
+      "text": "Who has a wet black nose, and a waggy tail?",
+      "gap": 1.2,
+      "start": 3.9,
+      "end": 6.49,
+      "words": [
+        {
+          "w": "Who",
+          "start": 3.96,
+          "end": 4.182
+        },
+        {
+          "w": "has",
+          "start": 4.182,
+          "end": 4.405
+        },
+        {
+          "w": "a",
+          "start": 4.405,
+          "end": 4.572
+        },
+        {
+          "w": "wet",
+          "start": 4.572,
+          "end": 4.794
+        },
+        {
+          "w": "black",
+          "start": 4.794,
+          "end": 5.072
+        },
+        {
+          "w": "nose,",
+          "start": 5.072,
+          "end": 5.35
+        },
+        {
+          "w": "and",
+          "start": 5.49,
+          "end": 5.651
+        },
+        {
+          "w": "a",
+          "start": 5.651,
+          "end": 5.813
+        },
+        {
+          "w": "waggy",
+          "start": 5.813,
+          "end": 6.081
+        },
+        {
+          "w": "tail?",
+          "start": 6.081,
+          "end": 6.35
+        }
+      ]
+    },
+    {
+      "beat": "guess2",
+      "speaker": "narrator",
+      "text": "Who says: woof, woof? Can you guess?",
+      "gap": 5.0,
+      "start": 7.69,
+      "end": 9.95,
+      "words": [
+        {
+          "w": "Who",
+          "start": 7.74,
+          "end": 8.032
+        },
+        {
+          "w": "says:",
+          "start": 8.032,
+          "end": 8.325
+        },
+        {
+          "w": "woof,",
+          "start": 8.325,
+          "end": 8.69
+        },
+        {
+          "w": "woof?",
+          "start": 8.69,
+          "end": 9.056
+        },
+        {
+          "w": "Can",
+          "start": 9.056,
+          "end": 9.348
+        },
+        {
+          "w": "you",
+          "start": 9.348,
+          "end": 9.568
+        },
+        {
+          "w": "guess?",
+          "start": 9.568,
+          "end": 9.86
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "speaker": "narrator",
+      "text": "It's... a dog!",
+      "gap": 1.4,
+      "start": 14.95,
+      "end": 16.12,
+      "words": [
+        {
+          "w": "It's...",
+          "start": 14.98,
+          "end": 15.242
+        },
+        {
+          "w": "a",
+          "start": 15.242,
+          "end": 15.504
+        },
+        {
+          "w": "dog!",
+          "start": 15.504,
+          "end": 15.94
+        }
+      ]
+    },
+    {
+      "beat": "hello",
+      "speaker": "max",
+      "text": "Woof! Hello! I'm Max the puppy!",
+      "gap": 0.9,
+      "start": 17.52,
+      "end": 19.46,
+      "words": [
+        {
+          "w": "Woof!",
+          "start": 17.55,
+          "end": 17.867
+        },
+        {
+          "w": "Hello!",
+          "start": 17.867,
+          "end": 18.248
+        },
+        {
+          "w": "I'm",
+          "start": 18.248,
+          "end": 18.438
+        },
+        {
+          "w": "Max",
+          "start": 18.438,
+          "end": 18.756
+        },
+        {
+          "w": "the",
+          "start": 18.756,
+          "end": 18.883
+        },
+        {
+          "w": "puppy!",
+          "start": 18.883,
+          "end": 19.2
+        }
+      ]
+    },
+    {
+      "beat": "bobo_hi",
+      "speaker": "bobo",
+      "text": "Hi, Max! I'm Super Bobo! Do you want to come to our picnic?",
+      "gap": 1.0,
+      "start": 20.36,
+      "end": 23.81,
+      "words": [
+        {
+          "w": "Hi,",
+          "start": 20.39,
+          "end": 20.609
+        },
+        {
+          "w": "Max!",
+          "start": 20.609,
+          "end": 20.882
+        },
+        {
+          "w": "I'm",
+          "start": 20.882,
+          "end": 21.046
+        },
+        {
+          "w": "Super",
+          "start": 21.046,
+          "end": 21.374
+        },
+        {
+          "w": "Bobo!",
+          "start": 21.374,
+          "end": 21.756
+        },
+        {
+          "w": "Do",
+          "start": 21.756,
+          "end": 21.975
+        },
+        {
+          "w": "you",
+          "start": 21.975,
+          "end": 22.139
+        },
+        {
+          "w": "want",
+          "start": 22.139,
+          "end": 22.412
+        },
+        {
+          "w": "to",
+          "start": 22.412,
+          "end": 22.576
+        },
+        {
+          "w": "come",
+          "start": 22.576,
+          "end": 22.795
+        },
+        {
+          "w": "to",
+          "start": 22.795,
+          "end": 22.959
+        },
+        {
+          "w": "our",
+          "start": 22.959,
+          "end": 23.177
+        },
+        {
+          "w": "picnic?",
+          "start": 23.177,
+          "end": 23.56
+        }
+      ]
+    },
+    {
+      "beat": "max_yes",
+      "speaker": "max",
+      "text": "Yes, please! I love picnics! Woof!",
+      "gap": 1.8,
+      "start": 24.81,
+      "end": 27.04,
+      "words": [
+        {
+          "w": "Yes,",
+          "start": 24.84,
+          "end": 25.103
+        },
+        {
+          "w": "please!",
+          "start": 25.103,
+          "end": 25.497
+        },
+        {
+          "w": "I",
+          "start": 25.497,
+          "end": 25.694
+        },
+        {
+          "w": "love",
+          "start": 25.694,
+          "end": 25.956
+        },
+        {
+          "w": "picnics!",
+          "start": 25.956,
+          "end": 26.482
+        },
+        {
+          "w": "Woof!",
+          "start": 26.482,
+          "end": 26.81
+        }
+      ]
+    },
+    {
+      "beat": "sound_q",
+      "speaker": "narrator",
+      "text": "What does a dog say?",
+      "gap": 1.2,
+      "start": 28.84,
+      "end": 30.03,
+      "words": [
+        {
+          "w": "What",
+          "start": 28.91,
+          "end": 29.106
+        },
+        {
+          "w": "does",
+          "start": 29.106,
+          "end": 29.302
+        },
+        {
+          "w": "a",
+          "start": 29.302,
+          "end": 29.449
+        },
+        {
+          "w": "dog",
+          "start": 29.449,
+          "end": 29.694
+        },
+        {
+          "w": "say?",
+          "start": 29.694,
+          "end": 29.89
+        }
+      ]
+    },
+    {
+      "beat": "sound_a",
+      "speaker": "max",
+      "text": "Woof! Woof!",
+      "gap": 1.5,
+      "start": 31.23,
+      "end": 32.19,
+      "words": [
+        {
+          "w": "Woof!",
+          "start": 31.26,
+          "end": 31.665
+        },
+        {
+          "w": "Woof!",
+          "start": 31.665,
+          "end": 32.07
+        }
+      ]
+    },
+    {
+      "beat": "sound_turn",
+      "speaker": "narrator",
+      "text": "Can you bark like Max? Your turn!",
+      "gap": 2.8,
+      "start": 33.69,
+      "end": 35.86,
+      "words": [
+        {
+          "w": "Can",
+          "start": 33.74,
+          "end": 33.952
+        },
+        {
+          "w": "you",
+          "start": 33.952,
+          "end": 34.111
+        },
+        {
+          "w": "bark",
+          "start": 34.111,
+          "end": 34.43
+        },
+        {
+          "w": "like",
+          "start": 34.43,
+          "end": 34.695
+        },
+        {
+          "w": "Max?",
+          "start": 34.695,
+          "end": 34.96
+        },
+        {
+          "w": "Your",
+          "start": 35.08,
+          "end": 35.339
+        },
+        {
+          "w": "turn!",
+          "start": 35.339,
+          "end": 35.77
+        }
+      ]
+    },
+    {
+      "beat": "sound_b",
+      "speaker": "max",
+      "text": "Woof! Woof!",
+      "gap": 1.6,
+      "start": 38.66,
+      "end": 39.62,
+      "words": [
+        {
+          "w": "Woof!",
+          "start": 38.69,
+          "end": 39.095
+        },
+        {
+          "w": "Woof!",
+          "start": 39.095,
+          "end": 39.5
+        }
+      ]
+    },
+    {
+      "beat": "sounds",
+      "speaker": "narrator",
+      "text": "Dogs make lots of sounds! A happy dog says: woof! A tiny puppy says: yip, yip!",
+      "gap": 1.2,
+      "start": 41.22,
+      "end": 47.04,
+      "words": [
+        {
+          "w": "Dogs",
+          "start": 41.25,
+          "end": 41.713
+        },
+        {
+          "w": "make",
+          "start": 41.713,
+          "end": 42.099
+        },
+        {
+          "w": "lots",
+          "start": 42.099,
+          "end": 42.562
+        },
+        {
+          "w": "of",
+          "start": 42.562,
+          "end": 42.716
+        },
+        {
+          "w": "sounds!",
+          "start": 42.716,
+          "end": 43.256
+        },
+        {
+          "w": "A",
+          "start": 43.256,
+          "end": 43.488
+        },
+        {
+          "w": "happy",
+          "start": 43.488,
+          "end": 43.874
+        },
+        {
+          "w": "dog",
+          "start": 43.874,
+          "end": 44.259
+        },
+        {
+          "w": "says:",
+          "start": 44.259,
+          "end": 44.568
+        },
+        {
+          "w": "woof!",
+          "start": 44.568,
+          "end": 44.954
+        },
+        {
+          "w": "A",
+          "start": 44.954,
+          "end": 45.185
+        },
+        {
+          "w": "tiny",
+          "start": 45.185,
+          "end": 45.648
+        },
+        {
+          "w": "puppy",
+          "start": 45.648,
+          "end": 46.034
+        },
+        {
+          "w": "says:",
+          "start": 46.034,
+          "end": 46.343
+        },
+        {
+          "w": "yip,",
+          "start": 46.343,
+          "end": 46.651
+        },
+        {
+          "w": "yip!",
+          "start": 46.651,
+          "end": 46.96
+        }
+      ]
+    },
+    {
+      "beat": "yip",
+      "speaker": "max",
+      "text": "Yip, yip! Your turn!",
+      "gap": 2.6,
+      "start": 48.24,
+      "end": 49.58,
+      "words": [
+        {
+          "w": "Yip,",
+          "start": 48.27,
+          "end": 48.547
+        },
+        {
+          "w": "yip!",
+          "start": 48.547,
+          "end": 48.825
+        },
+        {
+          "w": "Your",
+          "start": 48.825,
+          "end": 49.033
+        },
+        {
+          "w": "turn!",
+          "start": 49.033,
+          "end": 49.38
+        }
+      ]
+    },
+    {
+      "beat": "facts",
+      "speaker": "narrator",
+      "text": "Let's learn three dog facts!",
+      "gap": 1.4,
+      "start": 52.18,
+      "end": 53.95,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 52.23,
+          "end": 52.547
+        },
+        {
+          "w": "learn",
+          "start": 52.547,
+          "end": 52.865
+        },
+        {
+          "w": "three",
+          "start": 52.865,
+          "end": 53.182
+        },
+        {
+          "w": "dog",
+          "start": 53.182,
+          "end": 53.499
+        },
+        {
+          "w": "facts!",
+          "start": 53.499,
+          "end": 53.88
+        }
+      ]
+    },
+    {
+      "beat": "fact1",
+      "speaker": "narrator",
+      "text": "Fact one. A dog has a super nose! It can smell much, much better than you and me.",
+      "gap": 1.2,
+      "start": 55.35,
+      "end": 60.58,
+      "words": [
+        {
+          "w": "Fact",
+          "start": 55.41,
+          "end": 55.754
+        },
+        {
+          "w": "one.",
+          "start": 55.754,
+          "end": 56.029
+        },
+        {
+          "w": "A",
+          "start": 56.029,
+          "end": 56.235
+        },
+        {
+          "w": "dog",
+          "start": 56.235,
+          "end": 56.579
+        },
+        {
+          "w": "has",
+          "start": 56.579,
+          "end": 56.854
+        },
+        {
+          "w": "a",
+          "start": 56.854,
+          "end": 57.061
+        },
+        {
+          "w": "super",
+          "start": 57.061,
+          "end": 57.474
+        },
+        {
+          "w": "nose!",
+          "start": 57.474,
+          "end": 57.817
+        },
+        {
+          "w": "It",
+          "start": 57.817,
+          "end": 57.955
+        },
+        {
+          "w": "can",
+          "start": 57.955,
+          "end": 58.23
+        },
+        {
+          "w": "smell",
+          "start": 58.23,
+          "end": 58.574
+        },
+        {
+          "w": "much,",
+          "start": 58.574,
+          "end": 58.918
+        },
+        {
+          "w": "much",
+          "start": 58.918,
+          "end": 59.262
+        },
+        {
+          "w": "better",
+          "start": 59.262,
+          "end": 59.606
+        },
+        {
+          "w": "than",
+          "start": 59.606,
+          "end": 59.812
+        },
+        {
+          "w": "you",
+          "start": 59.812,
+          "end": 60.019
+        },
+        {
+          "w": "and",
+          "start": 60.019,
+          "end": 60.225
+        },
+        {
+          "w": "me.",
+          "start": 60.225,
+          "end": 60.5
+        }
+      ]
+    },
+    {
+      "beat": "sniff",
+      "speaker": "max",
+      "text": "Sniff, sniff! I smell... sandwiches!",
+      "gap": 2.4,
+      "start": 61.78,
+      "end": 64.12,
+      "words": [
+        {
+          "w": "Sniff,",
+          "start": 61.82,
+          "end": 62.17
+        },
+        {
+          "w": "sniff!",
+          "start": 62.17,
+          "end": 62.52
+        },
+        {
+          "w": "I",
+          "start": 62.52,
+          "end": 62.73
+        },
+        {
+          "w": "smell...",
+          "start": 62.73,
+          "end": 63.08
+        },
+        {
+          "w": "sandwiches!",
+          "start": 63.08,
+          "end": 63.85
+        }
+      ]
+    },
+    {
+      "beat": "fact2",
+      "speaker": "narrator",
+      "text": "Fact two. When a dog wags its tail fast and wiggly, it is often happy!",
+      "gap": 1.2,
+      "start": 66.52,
+      "end": 71.25,
+      "words": [
+        {
+          "w": "Fact",
+          "start": 66.57,
+          "end": 66.937
+        },
+        {
+          "w": "two.",
+          "start": 66.937,
+          "end": 67.23
+        },
+        {
+          "w": "When",
+          "start": 67.51,
+          "end": 67.74
+        },
+        {
+          "w": "a",
+          "start": 67.74,
+          "end": 67.912
+        },
+        {
+          "w": "dog",
+          "start": 67.912,
+          "end": 68.199
+        },
+        {
+          "w": "wags",
+          "start": 68.199,
+          "end": 68.486
+        },
+        {
+          "w": "its",
+          "start": 68.486,
+          "end": 68.659
+        },
+        {
+          "w": "tail",
+          "start": 68.659,
+          "end": 68.946
+        },
+        {
+          "w": "fast",
+          "start": 68.946,
+          "end": 69.233
+        },
+        {
+          "w": "and",
+          "start": 69.233,
+          "end": 69.405
+        },
+        {
+          "w": "wiggly,",
+          "start": 69.405,
+          "end": 69.75
+        },
+        {
+          "w": "it",
+          "start": 70.11,
+          "end": 70.259
+        },
+        {
+          "w": "is",
+          "start": 70.259,
+          "end": 70.407
+        },
+        {
+          "w": "often",
+          "start": 70.407,
+          "end": 70.779
+        },
+        {
+          "w": "happy!",
+          "start": 70.779,
+          "end": 71.15
+        }
+      ]
+    },
+    {
+      "beat": "wag",
+      "speaker": "max",
+      "text": "Look at my tail! Wag, wag, wag! I'm happy!",
+      "gap": 2.4,
+      "start": 72.45,
+      "end": 75.28,
+      "words": [
+        {
+          "w": "Look",
+          "start": 72.49,
+          "end": 72.772
+        },
+        {
+          "w": "at",
+          "start": 72.772,
+          "end": 72.913
+        },
+        {
+          "w": "my",
+          "start": 72.913,
+          "end": 73.196
+        },
+        {
+          "w": "tail!",
+          "start": 73.196,
+          "end": 73.549
+        },
+        {
+          "w": "Wag,",
+          "start": 73.549,
+          "end": 73.831
+        },
+        {
+          "w": "wag,",
+          "start": 73.831,
+          "end": 74.113
+        },
+        {
+          "w": "wag!",
+          "start": 74.113,
+          "end": 74.395
+        },
+        {
+          "w": "I'm",
+          "start": 74.395,
+          "end": 74.607
+        },
+        {
+          "w": "happy!",
+          "start": 74.607,
+          "end": 74.96
+        }
+      ]
+    },
+    {
+      "beat": "fact3",
+      "speaker": "narrator",
+      "text": "Fact three. Baby puppies are born with their eyes closed! They open them when they are about two weeks old.",
+      "gap": 1.2,
+      "start": 77.68,
+      "end": 83.95,
+      "words": [
+        {
+          "w": "Fact",
+          "start": 77.72,
+          "end": 78.09
+        },
+        {
+          "w": "three.",
+          "start": 78.09,
+          "end": 78.46
+        },
+        {
+          "w": "Baby",
+          "start": 78.77,
+          "end": 79.158
+        },
+        {
+          "w": "puppies",
+          "start": 79.158,
+          "end": 79.547
+        },
+        {
+          "w": "are",
+          "start": 79.547,
+          "end": 79.741
+        },
+        {
+          "w": "born",
+          "start": 79.741,
+          "end": 80.129
+        },
+        {
+          "w": "with",
+          "start": 80.129,
+          "end": 80.324
+        },
+        {
+          "w": "their",
+          "start": 80.324,
+          "end": 80.518
+        },
+        {
+          "w": "eyes",
+          "start": 80.518,
+          "end": 80.777
+        },
+        {
+          "w": "closed!",
+          "start": 80.777,
+          "end": 81.23
+        },
+        {
+          "w": "They",
+          "start": 81.68,
+          "end": 81.83
+        },
+        {
+          "w": "open",
+          "start": 81.83,
+          "end": 82.13
+        },
+        {
+          "w": "them",
+          "start": 82.13,
+          "end": 82.33
+        },
+        {
+          "w": "when",
+          "start": 82.33,
+          "end": 82.53
+        },
+        {
+          "w": "they",
+          "start": 82.53,
+          "end": 82.68
+        },
+        {
+          "w": "are",
+          "start": 82.68,
+          "end": 82.83
+        },
+        {
+          "w": "about",
+          "start": 82.83,
+          "end": 83.13
+        },
+        {
+          "w": "two",
+          "start": 83.13,
+          "end": 83.33
+        },
+        {
+          "w": "weeks",
+          "start": 83.33,
+          "end": 83.63
+        },
+        {
+          "w": "old.",
+          "start": 83.63,
+          "end": 83.88
+        }
+      ]
+    },
+    {
+      "beat": "wow",
+      "speaker": "bobo",
+      "text": "Eyes closed? Wow! Tiny sleepy puppies!",
+      "gap": 2.8,
+      "start": 85.15,
+      "end": 87.41,
+      "words": [
+        {
+          "w": "Eyes",
+          "start": 85.18,
+          "end": 85.432
+        },
+        {
+          "w": "closed?",
+          "start": 85.432,
+          "end": 85.872
+        },
+        {
+          "w": "Wow!",
+          "start": 85.872,
+          "end": 86.124
+        },
+        {
+          "w": "Tiny",
+          "start": 86.124,
+          "end": 86.502
+        },
+        {
+          "w": "sleepy",
+          "start": 86.502,
+          "end": 86.942
+        },
+        {
+          "w": "puppies!",
+          "start": 86.942,
+          "end": 87.32
+        }
+      ]
+    },
+    {
+      "beat": "tricks",
+      "speaker": "max",
+      "text": "I can do tricks! Watch me! I can sit!",
+      "gap": 1.4,
+      "start": 90.21,
+      "end": 92.77,
+      "words": [
+        {
+          "w": "I",
+          "start": 90.24,
+          "end": 90.418
+        },
+        {
+          "w": "can",
+          "start": 90.418,
+          "end": 90.654
+        },
+        {
+          "w": "do",
+          "start": 90.654,
+          "end": 90.891
+        },
+        {
+          "w": "tricks!",
+          "start": 90.891,
+          "end": 91.247
+        },
+        {
+          "w": "Watch",
+          "start": 91.247,
+          "end": 91.602
+        },
+        {
+          "w": "me!",
+          "start": 91.602,
+          "end": 91.839
+        },
+        {
+          "w": "I",
+          "start": 91.839,
+          "end": 92.016
+        },
+        {
+          "w": "can",
+          "start": 92.016,
+          "end": 92.253
+        },
+        {
+          "w": "sit!",
+          "start": 92.253,
+          "end": 92.49
+        }
+      ]
+    },
+    {
+      "beat": "trick2",
+      "speaker": "max",
+      "text": "I can give a paw!",
+      "gap": 1.4,
+      "start": 94.17,
+      "end": 95.47,
+      "words": [
+        {
+          "w": "I",
+          "start": 94.2,
+          "end": 94.382
+        },
+        {
+          "w": "can",
+          "start": 94.382,
+          "end": 94.624
+        },
+        {
+          "w": "give",
+          "start": 94.624,
+          "end": 94.866
+        },
+        {
+          "w": "a",
+          "start": 94.866,
+          "end": 95.048
+        },
+        {
+          "w": "paw!",
+          "start": 95.048,
+          "end": 95.29
+        }
+      ]
+    },
+    {
+      "beat": "trick3",
+      "speaker": "max",
+      "text": "And I can spin around! Wheee!",
+      "gap": 1.6,
+      "start": 96.87,
+      "end": 98.78,
+      "words": [
+        {
+          "w": "And",
+          "start": 96.91,
+          "end": 97.099
+        },
+        {
+          "w": "I",
+          "start": 97.099,
+          "end": 97.288
+        },
+        {
+          "w": "can",
+          "start": 97.288,
+          "end": 97.541
+        },
+        {
+          "w": "spin",
+          "start": 97.541,
+          "end": 97.856
+        },
+        {
+          "w": "around!",
+          "start": 97.856,
+          "end": 98.298
+        },
+        {
+          "w": "Wheee!",
+          "start": 98.298,
+          "end": 98.55
+        }
+      ]
+    },
+    {
+      "beat": "trick_turn",
+      "speaker": "narrator",
+      "text": "Can you spin around like Max? Your turn!",
+      "gap": 3.0,
+      "start": 100.38,
+      "end": 102.93,
+      "words": [
+        {
+          "w": "Can",
+          "start": 100.43,
+          "end": 100.638
+        },
+        {
+          "w": "you",
+          "start": 100.638,
+          "end": 100.794
+        },
+        {
+          "w": "spin",
+          "start": 100.794,
+          "end": 101.055
+        },
+        {
+          "w": "around",
+          "start": 101.055,
+          "end": 101.419
+        },
+        {
+          "w": "like",
+          "start": 101.419,
+          "end": 101.68
+        },
+        {
+          "w": "Max?",
+          "start": 101.68,
+          "end": 101.94
+        },
+        {
+          "w": "Your",
+          "start": 102.15,
+          "end": 102.405
+        },
+        {
+          "w": "turn!",
+          "start": 102.405,
+          "end": 102.83
+        }
+      ]
+    },
+    {
+      "beat": "picnic",
+      "speaker": "narrator",
+      "text": "Everyone sat down for the picnic. Bella the bunny counted her friends.",
+      "gap": 1.2,
+      "start": 105.93,
+      "end": 110.19,
+      "words": [
+        {
+          "w": "Everyone",
+          "start": 105.96,
+          "end": 106.483
+        },
+        {
+          "w": "sat",
+          "start": 106.483,
+          "end": 106.715
+        },
+        {
+          "w": "down",
+          "start": 106.715,
+          "end": 107.005
+        },
+        {
+          "w": "for",
+          "start": 107.005,
+          "end": 107.237
+        },
+        {
+          "w": "the",
+          "start": 107.237,
+          "end": 107.354
+        },
+        {
+          "w": "picnic.",
+          "start": 107.354,
+          "end": 107.76
+        },
+        {
+          "w": "Bella",
+          "start": 108.21,
+          "end": 108.53
+        },
+        {
+          "w": "the",
+          "start": 108.53,
+          "end": 108.658
+        },
+        {
+          "w": "bunny",
+          "start": 108.658,
+          "end": 108.978
+        },
+        {
+          "w": "counted",
+          "start": 108.978,
+          "end": 109.49
+        },
+        {
+          "w": "her",
+          "start": 109.49,
+          "end": 109.682
+        },
+        {
+          "w": "friends.",
+          "start": 109.682,
+          "end": 110.13
+        }
+      ]
+    },
+    {
+      "beat": "bella_q",
+      "speaker": "bella",
+      "text": "Wait... where is Kiki? Kiki the kitten isn't here!",
+      "gap": 1.4,
+      "start": 111.39,
+      "end": 114.31,
+      "words": [
+        {
+          "w": "Wait...",
+          "start": 111.43,
+          "end": 111.788
+        },
+        {
+          "w": "where",
+          "start": 111.788,
+          "end": 112.074
+        },
+        {
+          "w": "is",
+          "start": 112.074,
+          "end": 112.217
+        },
+        {
+          "w": "Kiki?",
+          "start": 112.217,
+          "end": 112.575
+        },
+        {
+          "w": "Kiki",
+          "start": 112.575,
+          "end": 112.932
+        },
+        {
+          "w": "the",
+          "start": 112.932,
+          "end": 113.075
+        },
+        {
+          "w": "kitten",
+          "start": 113.075,
+          "end": 113.505
+        },
+        {
+          "w": "isn't",
+          "start": 113.505,
+          "end": 113.934
+        },
+        {
+          "w": "here!",
+          "start": 113.934,
+          "end": 114.22
+        }
+      ]
+    },
+    {
+      "beat": "worried",
+      "speaker": "narrator",
+      "text": "Everyone looked around. Kiki was missing! Bella felt worried.",
+      "gap": 1.6,
+      "start": 115.71,
+      "end": 119.44,
+      "words": [
+        {
+          "w": "Everyone",
+          "start": 115.8,
+          "end": 116.267
+        },
+        {
+          "w": "looked",
+          "start": 116.267,
+          "end": 116.527
+        },
+        {
+          "w": "around.",
+          "start": 116.527,
+          "end": 116.89
+        },
+        {
+          "w": "Kiki",
+          "start": 117.18,
+          "end": 117.498
+        },
+        {
+          "w": "was",
+          "start": 117.498,
+          "end": 117.689
+        },
+        {
+          "w": "missing!",
+          "start": 117.689,
+          "end": 118.07
+        },
+        {
+          "w": "Bella",
+          "start": 118.3,
+          "end": 118.628
+        },
+        {
+          "w": "felt",
+          "start": 118.628,
+          "end": 118.956
+        },
+        {
+          "w": "worried.",
+          "start": 118.956,
+          "end": 119.35
+        }
+      ]
+    },
+    {
+      "beat": "help_q",
+      "speaker": "narrator",
+      "text": "Who can help find Kiki? Who has a super nose?",
+      "gap": 5.0,
+      "start": 121.04,
+      "end": 123.94,
+      "words": [
+        {
+          "w": "Who",
+          "start": 121.11,
+          "end": 121.312
+        },
+        {
+          "w": "can",
+          "start": 121.312,
+          "end": 121.513
+        },
+        {
+          "w": "help",
+          "start": 121.513,
+          "end": 121.765
+        },
+        {
+          "w": "find",
+          "start": 121.765,
+          "end": 122.068
+        },
+        {
+          "w": "Kiki?",
+          "start": 122.068,
+          "end": 122.32
+        },
+        {
+          "w": "Who",
+          "start": 122.63,
+          "end": 122.854
+        },
+        {
+          "w": "has",
+          "start": 122.854,
+          "end": 123.077
+        },
+        {
+          "w": "a",
+          "start": 123.077,
+          "end": 123.245
+        },
+        {
+          "w": "super",
+          "start": 123.245,
+          "end": 123.58
+        },
+        {
+          "w": "nose?",
+          "start": 123.58,
+          "end": 123.86
+        }
+      ]
+    },
+    {
+      "beat": "max_go",
+      "speaker": "max",
+      "text": "Me! My nose can help! Sniff, sniff!",
+      "gap": 1.2,
+      "start": 128.94,
+      "end": 131.06,
+      "words": [
+        {
+          "w": "Me!",
+          "start": 128.97,
+          "end": 129.201
+        },
+        {
+          "w": "My",
+          "start": 129.201,
+          "end": 129.432
+        },
+        {
+          "w": "nose",
+          "start": 129.432,
+          "end": 129.722
+        },
+        {
+          "w": "can",
+          "start": 129.722,
+          "end": 129.953
+        },
+        {
+          "w": "help!",
+          "start": 129.953,
+          "end": 130.242
+        },
+        {
+          "w": "Sniff,",
+          "start": 130.242,
+          "end": 130.531
+        },
+        {
+          "w": "sniff!",
+          "start": 130.531,
+          "end": 130.82
+        }
+      ]
+    },
+    {
+      "beat": "trail1",
+      "speaker": "narrator",
+      "text": "Max sniffed the grass. Kiki went this way! Past the flowers...",
+      "gap": 1.6,
+      "start": 132.26,
+      "end": 136.03,
+      "words": [
+        {
+          "w": "Max",
+          "start": 132.31,
+          "end": 132.657
+        },
+        {
+          "w": "sniffed",
+          "start": 132.657,
+          "end": 133.074
+        },
+        {
+          "w": "the",
+          "start": 133.074,
+          "end": 133.213
+        },
+        {
+          "w": "grass.",
+          "start": 133.213,
+          "end": 133.56
+        },
+        {
+          "w": "Kiki",
+          "start": 133.9,
+          "end": 134.169
+        },
+        {
+          "w": "went",
+          "start": 134.169,
+          "end": 134.439
+        },
+        {
+          "w": "this",
+          "start": 134.439,
+          "end": 134.654
+        },
+        {
+          "w": "way!",
+          "start": 134.654,
+          "end": 134.87
+        },
+        {
+          "w": "Past",
+          "start": 134.98,
+          "end": 135.326
+        },
+        {
+          "w": "the",
+          "start": 135.326,
+          "end": 135.465
+        },
+        {
+          "w": "flowers...",
+          "start": 135.465,
+          "end": 135.95
+        }
+      ]
+    },
+    {
+      "beat": "ball",
+      "speaker": "narrator",
+      "text": "Max saw a ball! But he did not stop to play. Finding Kiki was more important!",
+      "gap": 1.6,
+      "start": 137.63,
+      "end": 142.59,
+      "words": [
+        {
+          "w": "Max",
+          "start": 137.68,
+          "end": 137.974
+        },
+        {
+          "w": "saw",
+          "start": 137.974,
+          "end": 138.209
+        },
+        {
+          "w": "a",
+          "start": 138.209,
+          "end": 138.386
+        },
+        {
+          "w": "ball!",
+          "start": 138.386,
+          "end": 138.68
+        },
+        {
+          "w": "But",
+          "start": 138.99,
+          "end": 139.17
+        },
+        {
+          "w": "he",
+          "start": 139.17,
+          "end": 139.305
+        },
+        {
+          "w": "did",
+          "start": 139.305,
+          "end": 139.485
+        },
+        {
+          "w": "not",
+          "start": 139.485,
+          "end": 139.71
+        },
+        {
+          "w": "stop",
+          "start": 139.71,
+          "end": 139.98
+        },
+        {
+          "w": "to",
+          "start": 139.98,
+          "end": 140.115
+        },
+        {
+          "w": "play.",
+          "start": 140.115,
+          "end": 140.34
+        },
+        {
+          "w": "Finding",
+          "start": 140.74,
+          "end": 141.182
+        },
+        {
+          "w": "Kiki",
+          "start": 141.182,
+          "end": 141.459
+        },
+        {
+          "w": "was",
+          "start": 141.459,
+          "end": 141.625
+        },
+        {
+          "w": "more",
+          "start": 141.625,
+          "end": 141.902
+        },
+        {
+          "w": "important!",
+          "start": 141.902,
+          "end": 142.51
+        }
+      ]
+    },
+    {
+      "beat": "trail_turn",
+      "speaker": "narrator",
+      "text": "Sniff with Max! Sniff, sniff, sniff!",
+      "gap": 2.4,
+      "start": 144.19,
+      "end": 146.45,
+      "words": [
+        {
+          "w": "Sniff",
+          "start": 144.21,
+          "end": 144.596
+        },
+        {
+          "w": "with",
+          "start": 144.596,
+          "end": 144.827
+        },
+        {
+          "w": "Max!",
+          "start": 144.827,
+          "end": 145.213
+        },
+        {
+          "w": "Sniff,",
+          "start": 145.213,
+          "end": 145.599
+        },
+        {
+          "w": "sniff,",
+          "start": 145.599,
+          "end": 145.984
+        },
+        {
+          "w": "sniff!",
+          "start": 145.984,
+          "end": 146.37
+        }
+      ]
+    },
+    {
+      "beat": "trail2",
+      "speaker": "narrator",
+      "text": "Past the little pond...",
+      "gap": 1.6,
+      "start": 148.85,
+      "end": 150.19,
+      "words": [
+        {
+          "w": "Past",
+          "start": 148.93,
+          "end": 149.225
+        },
+        {
+          "w": "the",
+          "start": 149.225,
+          "end": 149.343
+        },
+        {
+          "w": "little",
+          "start": 149.343,
+          "end": 149.696
+        },
+        {
+          "w": "pond...",
+          "start": 149.696,
+          "end": 150.05
+        }
+      ]
+    },
+    {
+      "beat": "achoo",
+      "speaker": "max",
+      "text": "Sniff... sniff... ACHOO! A flower tickled my nose! Back to the trail!",
+      "gap": 1.6,
+      "start": 151.79,
+      "end": 155.88,
+      "words": [
+        {
+          "w": "Sniff...",
+          "start": 151.82,
+          "end": 152.153
+        },
+        {
+          "w": "sniff...",
+          "start": 152.153,
+          "end": 152.486
+        },
+        {
+          "w": "ACHOO!",
+          "start": 152.486,
+          "end": 152.886
+        },
+        {
+          "w": "A",
+          "start": 152.886,
+          "end": 153.086
+        },
+        {
+          "w": "flower",
+          "start": 153.086,
+          "end": 153.485
+        },
+        {
+          "w": "tickled",
+          "start": 153.485,
+          "end": 153.951
+        },
+        {
+          "w": "my",
+          "start": 153.951,
+          "end": 154.218
+        },
+        {
+          "w": "nose!",
+          "start": 154.218,
+          "end": 154.551
+        },
+        {
+          "w": "Back",
+          "start": 154.551,
+          "end": 154.817
+        },
+        {
+          "w": "to",
+          "start": 154.817,
+          "end": 155.017
+        },
+        {
+          "w": "the",
+          "start": 155.017,
+          "end": 155.15
+        },
+        {
+          "w": "trail!",
+          "start": 155.15,
+          "end": 155.55
+        }
+      ]
+    },
+    {
+      "beat": "trail3",
+      "speaker": "narrator",
+      "text": "All the way to... a big hollow log!",
+      "gap": 1.6,
+      "start": 157.48,
+      "end": 159.82,
+      "words": [
+        {
+          "w": "All",
+          "start": 157.6,
+          "end": 157.843
+        },
+        {
+          "w": "the",
+          "start": 157.843,
+          "end": 157.965
+        },
+        {
+          "w": "way",
+          "start": 157.965,
+          "end": 158.208
+        },
+        {
+          "w": "to...",
+          "start": 158.208,
+          "end": 158.39
+        },
+        {
+          "w": "a",
+          "start": 158.64,
+          "end": 158.822
+        },
+        {
+          "w": "big",
+          "start": 158.822,
+          "end": 159.064
+        },
+        {
+          "w": "hollow",
+          "start": 159.064,
+          "end": 159.488
+        },
+        {
+          "w": "log!",
+          "start": 159.488,
+          "end": 159.73
+        }
+      ]
+    },
+    {
+      "beat": "peek",
+      "speaker": "max",
+      "text": "Kiki? Are you in there?",
+      "gap": 1.6,
+      "start": 161.42,
+      "end": 162.78,
+      "words": [
+        {
+          "w": "Kiki?",
+          "start": 161.45,
+          "end": 161.764
+        },
+        {
+          "w": "Are",
+          "start": 161.764,
+          "end": 161.952
+        },
+        {
+          "w": "you",
+          "start": 161.952,
+          "end": 162.141
+        },
+        {
+          "w": "in",
+          "start": 162.141,
+          "end": 162.329
+        },
+        {
+          "w": "there?",
+          "start": 162.329,
+          "end": 162.58
+        }
+      ]
+    },
+    {
+      "beat": "kiki",
+      "speaker": "narrator",
+      "text": "And there was Kiki! She was playing hide and seek, and she fell asleep!",
+      "gap": 1.4,
+      "start": 164.38,
+      "end": 168.43,
+      "words": [
+        {
+          "w": "And",
+          "start": 164.46,
+          "end": 164.662
+        },
+        {
+          "w": "there",
+          "start": 164.662,
+          "end": 164.931
+        },
+        {
+          "w": "was",
+          "start": 164.931,
+          "end": 165.132
+        },
+        {
+          "w": "Kiki!",
+          "start": 165.132,
+          "end": 165.469
+        },
+        {
+          "w": "She",
+          "start": 165.469,
+          "end": 165.67
+        },
+        {
+          "w": "was",
+          "start": 165.67,
+          "end": 165.872
+        },
+        {
+          "w": "playing",
+          "start": 165.872,
+          "end": 166.343
+        },
+        {
+          "w": "hide",
+          "start": 166.343,
+          "end": 166.679
+        },
+        {
+          "w": "and",
+          "start": 166.679,
+          "end": 166.881
+        },
+        {
+          "w": "seek,",
+          "start": 166.881,
+          "end": 167.217
+        },
+        {
+          "w": "and",
+          "start": 167.217,
+          "end": 167.419
+        },
+        {
+          "w": "she",
+          "start": 167.419,
+          "end": 167.62
+        },
+        {
+          "w": "fell",
+          "start": 167.62,
+          "end": 167.889
+        },
+        {
+          "w": "asleep!",
+          "start": 167.889,
+          "end": 168.36
+        }
+      ]
+    },
+    {
+      "beat": "found",
+      "speaker": "bella",
+      "text": "Kiki! We found you! Max found you!",
+      "gap": 1.2,
+      "start": 169.83,
+      "end": 172.15,
+      "words": [
+        {
+          "w": "Kiki!",
+          "start": 169.85,
+          "end": 170.206
+        },
+        {
+          "w": "We",
+          "start": 170.206,
+          "end": 170.42
+        },
+        {
+          "w": "found",
+          "start": 170.42,
+          "end": 170.848
+        },
+        {
+          "w": "you!",
+          "start": 170.848,
+          "end": 171.062
+        },
+        {
+          "w": "Max",
+          "start": 171.062,
+          "end": 171.418
+        },
+        {
+          "w": "found",
+          "start": 171.418,
+          "end": 171.846
+        },
+        {
+          "w": "you!",
+          "start": 171.846,
+          "end": 172.06
+        }
+      ]
+    },
+    {
+      "beat": "kiki_hi",
+      "speaker": "kiki",
+      "text": "Yawn... Hi, Max! Did I win hide and seek?",
+      "gap": 1.2,
+      "start": 173.35,
+      "end": 175.99,
+      "words": [
+        {
+          "w": "Yawn...",
+          "start": 173.39,
+          "end": 173.704
+        },
+        {
+          "w": "Hi,",
+          "start": 173.704,
+          "end": 173.956
+        },
+        {
+          "w": "Max!",
+          "start": 173.956,
+          "end": 174.271
+        },
+        {
+          "w": "Did",
+          "start": 174.271,
+          "end": 174.522
+        },
+        {
+          "w": "I",
+          "start": 174.522,
+          "end": 174.711
+        },
+        {
+          "w": "win",
+          "start": 174.711,
+          "end": 174.962
+        },
+        {
+          "w": "hide",
+          "start": 174.962,
+          "end": 175.277
+        },
+        {
+          "w": "and",
+          "start": 175.277,
+          "end": 175.466
+        },
+        {
+          "w": "seek?",
+          "start": 175.466,
+          "end": 175.78
+        }
+      ]
+    },
+    {
+      "beat": "laugh",
+      "speaker": "bobo",
+      "text": "Ha ha! Yes, you did, Kiki! But we missed you!",
+      "gap": 1.6,
+      "start": 177.19,
+      "end": 179.66,
+      "words": [
+        {
+          "w": "Ha",
+          "start": 177.22,
+          "end": 177.448
+        },
+        {
+          "w": "ha!",
+          "start": 177.448,
+          "end": 177.675
+        },
+        {
+          "w": "Yes,",
+          "start": 177.675,
+          "end": 177.903
+        },
+        {
+          "w": "you",
+          "start": 177.903,
+          "end": 178.074
+        },
+        {
+          "w": "did,",
+          "start": 178.074,
+          "end": 178.302
+        },
+        {
+          "w": "Kiki!",
+          "start": 178.302,
+          "end": 178.586
+        },
+        {
+          "w": "But",
+          "start": 178.586,
+          "end": 178.814
+        },
+        {
+          "w": "we",
+          "start": 178.814,
+          "end": 178.985
+        },
+        {
+          "w": "missed",
+          "start": 178.985,
+          "end": 179.269
+        },
+        {
+          "w": "you!",
+          "start": 179.269,
+          "end": 179.44
+        }
+      ]
+    },
+    {
+      "beat": "kiki2",
+      "speaker": "narrator",
+      "text": "Kiki yawned a big yawn, and gave Max a hug.",
+      "gap": 1.4,
+      "start": 181.26,
+      "end": 183.9,
+      "words": [
+        {
+          "w": "Kiki",
+          "start": 181.28,
+          "end": 181.545
+        },
+        {
+          "w": "yawned",
+          "start": 181.545,
+          "end": 181.863
+        },
+        {
+          "w": "a",
+          "start": 181.863,
+          "end": 182.023
+        },
+        {
+          "w": "big",
+          "start": 182.023,
+          "end": 182.235
+        },
+        {
+          "w": "yawn,",
+          "start": 182.235,
+          "end": 182.5
+        },
+        {
+          "w": "and",
+          "start": 182.74,
+          "end": 182.901
+        },
+        {
+          "w": "gave",
+          "start": 182.901,
+          "end": 183.168
+        },
+        {
+          "w": "Max",
+          "start": 183.168,
+          "end": 183.436
+        },
+        {
+          "w": "a",
+          "start": 183.436,
+          "end": 183.596
+        },
+        {
+          "w": "hug.",
+          "start": 183.596,
+          "end": 183.81
+        }
+      ]
+    },
+    {
+      "beat": "hero",
+      "speaker": "bobo",
+      "text": "Max, you saved the day! Hooray for Max!",
+      "gap": 2.4,
+      "start": 185.3,
+      "end": 187.61,
+      "words": [
+        {
+          "w": "Max,",
+          "start": 185.33,
+          "end": 185.634
+        },
+        {
+          "w": "you",
+          "start": 185.634,
+          "end": 185.817
+        },
+        {
+          "w": "saved",
+          "start": 185.817,
+          "end": 186.182
+        },
+        {
+          "w": "the",
+          "start": 186.182,
+          "end": 186.303
+        },
+        {
+          "w": "day!",
+          "start": 186.303,
+          "end": 186.547
+        },
+        {
+          "w": "Hooray",
+          "start": 186.547,
+          "end": 186.973
+        },
+        {
+          "w": "for",
+          "start": 186.973,
+          "end": 187.216
+        },
+        {
+          "w": "Max!",
+          "start": 187.216,
+          "end": 187.52
+        }
+      ]
+    },
+    {
+      "beat": "thanks",
+      "speaker": "max",
+      "text": "Woof! Thank you, friends! Helping is fun!",
+      "gap": 2.0,
+      "start": 190.01,
+      "end": 192.28,
+      "words": [
+        {
+          "w": "Woof!",
+          "start": 190.04,
+          "end": 190.335
+        },
+        {
+          "w": "Thank",
+          "start": 190.335,
+          "end": 190.631
+        },
+        {
+          "w": "you,",
+          "start": 190.631,
+          "end": 190.808
+        },
+        {
+          "w": "friends!",
+          "start": 190.808,
+          "end": 191.222
+        },
+        {
+          "w": "Helping",
+          "start": 191.222,
+          "end": 191.635
+        },
+        {
+          "w": "is",
+          "start": 191.635,
+          "end": 191.754
+        },
+        {
+          "w": "fun!",
+          "start": 191.754,
+          "end": 191.99
+        }
+      ]
+    },
+    {
+      "beat": "lesson",
+      "speaker": "narrator",
+      "text": "Friends look out for each other. And Max used his super nose to help!",
+      "gap": 2.4,
+      "start": 194.28,
+      "end": 198.46,
+      "words": [
+        {
+          "w": "Friends",
+          "start": 194.32,
+          "end": 194.687
+        },
+        {
+          "w": "look",
+          "start": 194.687,
+          "end": 194.897
+        },
+        {
+          "w": "out",
+          "start": 194.897,
+          "end": 195.107
+        },
+        {
+          "w": "for",
+          "start": 195.107,
+          "end": 195.317
+        },
+        {
+          "w": "each",
+          "start": 195.317,
+          "end": 195.58
+        },
+        {
+          "w": "other.",
+          "start": 195.58,
+          "end": 195.79
+        },
+        {
+          "w": "And",
+          "start": 196.21,
+          "end": 196.385
+        },
+        {
+          "w": "Max",
+          "start": 196.385,
+          "end": 196.677
+        },
+        {
+          "w": "used",
+          "start": 196.677,
+          "end": 197.027
+        },
+        {
+          "w": "his",
+          "start": 197.027,
+          "end": 197.261
+        },
+        {
+          "w": "super",
+          "start": 197.261,
+          "end": 197.611
+        },
+        {
+          "w": "nose",
+          "start": 197.611,
+          "end": 197.903
+        },
+        {
+          "w": "to",
+          "start": 197.903,
+          "end": 198.078
+        },
+        {
+          "w": "help!",
+          "start": 198.078,
+          "end": 198.37
+        }
+      ]
+    },
+    {
+      "beat": "rule",
+      "speaker": "bella",
+      "text": "And next time, we play hide and seek all together, and we stay close!",
+      "gap": 2.2,
+      "start": 200.86,
+      "end": 204.82,
+      "words": [
+        {
+          "w": "And",
+          "start": 200.89,
+          "end": 201.073
+        },
+        {
+          "w": "next",
+          "start": 201.073,
+          "end": 201.439
+        },
+        {
+          "w": "time,",
+          "start": 201.439,
+          "end": 201.743
+        },
+        {
+          "w": "we",
+          "start": 201.743,
+          "end": 201.926
+        },
+        {
+          "w": "play",
+          "start": 201.926,
+          "end": 202.231
+        },
+        {
+          "w": "hide",
+          "start": 202.231,
+          "end": 202.536
+        },
+        {
+          "w": "and",
+          "start": 202.536,
+          "end": 202.719
+        },
+        {
+          "w": "seek",
+          "start": 202.719,
+          "end": 203.023
+        },
+        {
+          "w": "all",
+          "start": 203.023,
+          "end": 203.267
+        },
+        {
+          "w": "together,",
+          "start": 203.267,
+          "end": 203.694
+        },
+        {
+          "w": "and",
+          "start": 203.694,
+          "end": 203.877
+        },
+        {
+          "w": "we",
+          "start": 203.877,
+          "end": 204.06
+        },
+        {
+          "w": "stay",
+          "start": 204.06,
+          "end": 204.364
+        },
+        {
+          "w": "close!",
+          "start": 204.364,
+          "end": 204.73
+        }
+      ]
+    },
+    {
+      "beat": "safe",
+      "speaker": "narrator",
+      "text": "Remember, friends: when you play outside, always stay close to your grown-up!",
+      "gap": 2.2,
+      "start": 207.02,
+      "end": 211.46,
+      "words": [
+        {
+          "w": "Remember,",
+          "start": 207.06,
+          "end": 207.568
+        },
+        {
+          "w": "friends:",
+          "start": 207.568,
+          "end": 208.013
+        },
+        {
+          "w": "when",
+          "start": 208.013,
+          "end": 208.267
+        },
+        {
+          "w": "you",
+          "start": 208.267,
+          "end": 208.458
+        },
+        {
+          "w": "play",
+          "start": 208.458,
+          "end": 208.775
+        },
+        {
+          "w": "outside,",
+          "start": 208.775,
+          "end": 209.284
+        },
+        {
+          "w": "always",
+          "start": 209.284,
+          "end": 209.792
+        },
+        {
+          "w": "stay",
+          "start": 209.792,
+          "end": 210.109
+        },
+        {
+          "w": "close",
+          "start": 210.109,
+          "end": 210.491
+        },
+        {
+          "w": "to",
+          "start": 210.491,
+          "end": 210.681
+        },
+        {
+          "w": "your",
+          "start": 210.681,
+          "end": 210.872
+        },
+        {
+          "w": "grown-up!",
+          "start": 210.872,
+          "end": 211.38
+        }
+      ]
+    },
+    {
+      "beat": "feast",
+      "speaker": "narrator",
+      "text": "Then everybody ate the picnic together. Even Max got a doggy treat!",
+      "gap": 2.4,
+      "start": 213.66,
+      "end": 217.82,
+      "words": [
+        {
+          "w": "Then",
+          "start": 213.7,
+          "end": 213.919
+        },
+        {
+          "w": "everybody",
+          "start": 213.919,
+          "end": 214.523
+        },
+        {
+          "w": "ate",
+          "start": 214.523,
+          "end": 214.742
+        },
+        {
+          "w": "the",
+          "start": 214.742,
+          "end": 214.852
+        },
+        {
+          "w": "picnic",
+          "start": 214.852,
+          "end": 215.236
+        },
+        {
+          "w": "together.",
+          "start": 215.236,
+          "end": 215.62
+        },
+        {
+          "w": "Even",
+          "start": 216.04,
+          "end": 216.369
+        },
+        {
+          "w": "Max",
+          "start": 216.369,
+          "end": 216.643
+        },
+        {
+          "w": "got",
+          "start": 216.643,
+          "end": 216.917
+        },
+        {
+          "w": "a",
+          "start": 216.917,
+          "end": 217.082
+        },
+        {
+          "w": "doggy",
+          "start": 217.082,
+          "end": 217.411
+        },
+        {
+          "w": "treat!",
+          "start": 217.411,
+          "end": 217.74
+        }
+      ]
+    },
+    {
+      "beat": "yum",
+      "speaker": "bobo",
+      "text": "Yum! Picnics are better with friends!",
+      "gap": 2.4,
+      "start": 220.22,
+      "end": 222.05,
+      "words": [
+        {
+          "w": "Yum!",
+          "start": 220.25,
+          "end": 220.479
+        },
+        {
+          "w": "Picnics",
+          "start": 220.479,
+          "end": 220.938
+        },
+        {
+          "w": "are",
+          "start": 220.938,
+          "end": 221.11
+        },
+        {
+          "w": "better",
+          "start": 221.11,
+          "end": 221.397
+        },
+        {
+          "w": "with",
+          "start": 221.397,
+          "end": 221.569
+        },
+        {
+          "w": "friends!",
+          "start": 221.569,
+          "end": 221.97
+        }
+      ]
+    },
+    {
+      "beat": "again",
+      "speaker": "narrator",
+      "text": "Let's remember!",
+      "gap": 1.2,
+      "start": 224.45,
+      "end": 225.58,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 224.49,
+          "end": 224.836
+        },
+        {
+          "w": "remember!",
+          "start": 224.836,
+          "end": 225.39
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "narrator",
+      "text": "What does a dog say?",
+      "gap": 5.0,
+      "start": 226.78,
+      "end": 227.97,
+      "words": [
+        {
+          "w": "What",
+          "start": 226.85,
+          "end": 227.046
+        },
+        {
+          "w": "does",
+          "start": 227.046,
+          "end": 227.242
+        },
+        {
+          "w": "a",
+          "start": 227.242,
+          "end": 227.389
+        },
+        {
+          "w": "dog",
+          "start": 227.389,
+          "end": 227.634
+        },
+        {
+          "w": "say?",
+          "start": 227.634,
+          "end": 227.83
+        }
+      ]
+    },
+    {
+      "beat": "a1",
+      "speaker": "max",
+      "text": "Woof! Woof!",
+      "gap": 2.0,
+      "start": 232.97,
+      "end": 233.93,
+      "words": [
+        {
+          "w": "Woof!",
+          "start": 233.0,
+          "end": 233.405
+        },
+        {
+          "w": "Woof!",
+          "start": 233.405,
+          "end": 233.81
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "narrator",
+      "text": "What does a fast, wiggly tail often mean?",
+      "gap": 5.0,
+      "start": 235.93,
+      "end": 238.4,
+      "words": [
+        {
+          "w": "What",
+          "start": 235.98,
+          "end": 236.188
+        },
+        {
+          "w": "does",
+          "start": 236.188,
+          "end": 236.395
+        },
+        {
+          "w": "a",
+          "start": 236.395,
+          "end": 236.551
+        },
+        {
+          "w": "fast,",
+          "start": 236.551,
+          "end": 236.81
+        },
+        {
+          "w": "wiggly",
+          "start": 237.0,
+          "end": 237.377
+        },
+        {
+          "w": "tail",
+          "start": 237.377,
+          "end": 237.691
+        },
+        {
+          "w": "often",
+          "start": 237.691,
+          "end": 238.006
+        },
+        {
+          "w": "mean?",
+          "start": 238.006,
+          "end": 238.32
+        }
+      ]
+    },
+    {
+      "beat": "a2",
+      "speaker": "narrator",
+      "text": "The dog is happy!",
+      "gap": 2.0,
+      "start": 243.4,
+      "end": 244.65,
+      "words": [
+        {
+          "w": "The",
+          "start": 243.44,
+          "end": 243.594
+        },
+        {
+          "w": "dog",
+          "start": 243.594,
+          "end": 243.98
+        },
+        {
+          "w": "is",
+          "start": 243.98,
+          "end": 244.134
+        },
+        {
+          "w": "happy!",
+          "start": 244.134,
+          "end": 244.52
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "narrator",
+      "text": "How did Max find Kiki?",
+      "gap": 5.0,
+      "start": 246.65,
+      "end": 248.2,
+      "words": [
+        {
+          "w": "How",
+          "start": 246.7,
+          "end": 246.93
+        },
+        {
+          "w": "did",
+          "start": 246.93,
+          "end": 247.16
+        },
+        {
+          "w": "Max",
+          "start": 247.16,
+          "end": 247.447
+        },
+        {
+          "w": "find",
+          "start": 247.447,
+          "end": 247.793
+        },
+        {
+          "w": "Kiki?",
+          "start": 247.793,
+          "end": 248.08
+        }
+      ]
+    },
+    {
+      "beat": "a3",
+      "speaker": "max",
+      "text": "With my super nose! Sniff, sniff!",
+      "gap": 2.0,
+      "start": 253.2,
+      "end": 255.35,
+      "words": [
+        {
+          "w": "With",
+          "start": 253.23,
+          "end": 253.434
+        },
+        {
+          "w": "my",
+          "start": 253.434,
+          "end": 253.705
+        },
+        {
+          "w": "super",
+          "start": 253.705,
+          "end": 254.112
+        },
+        {
+          "w": "nose!",
+          "start": 254.112,
+          "end": 254.451
+        },
+        {
+          "w": "Sniff,",
+          "start": 254.451,
+          "end": 254.791
+        },
+        {
+          "w": "sniff!",
+          "start": 254.791,
+          "end": 255.13
+        }
+      ]
+    },
+    {
+      "beat": "q4",
+      "speaker": "narrator",
+      "text": "Where was Kiki hiding?",
+      "gap": 5.0,
+      "start": 257.35,
+      "end": 258.65,
+      "words": [
+        {
+          "w": "Where",
+          "start": 257.41,
+          "end": 257.646
+        },
+        {
+          "w": "was",
+          "start": 257.646,
+          "end": 257.823
+        },
+        {
+          "w": "Kiki",
+          "start": 257.823,
+          "end": 258.117
+        },
+        {
+          "w": "hiding?",
+          "start": 258.117,
+          "end": 258.53
+        }
+      ]
+    },
+    {
+      "beat": "a4",
+      "speaker": "bella",
+      "text": "In a big hollow log!",
+      "gap": 2.2,
+      "start": 263.65,
+      "end": 265.5,
+      "words": [
+        {
+          "w": "In",
+          "start": 263.68,
+          "end": 263.941
+        },
+        {
+          "w": "a",
+          "start": 263.941,
+          "end": 264.202
+        },
+        {
+          "w": "big",
+          "start": 264.202,
+          "end": 264.55
+        },
+        {
+          "w": "hollow",
+          "start": 264.55,
+          "end": 265.072
+        },
+        {
+          "w": "log!",
+          "start": 265.072,
+          "end": 265.42
+        }
+      ]
+    },
+    {
+      "beat": "q5",
+      "speaker": "narrator",
+      "text": "How are baby puppies born? With their eyes...",
+      "gap": 5.0,
+      "start": 267.7,
+      "end": 270.34,
+      "words": [
+        {
+          "w": "How",
+          "start": 267.75,
+          "end": 267.98
+        },
+        {
+          "w": "are",
+          "start": 267.98,
+          "end": 268.153
+        },
+        {
+          "w": "baby",
+          "start": 268.153,
+          "end": 268.499
+        },
+        {
+          "w": "puppies",
+          "start": 268.499,
+          "end": 268.844
+        },
+        {
+          "w": "born?",
+          "start": 268.844,
+          "end": 269.19
+        },
+        {
+          "w": "With",
+          "start": 269.44,
+          "end": 269.692
+        },
+        {
+          "w": "their",
+          "start": 269.692,
+          "end": 269.944
+        },
+        {
+          "w": "eyes...",
+          "start": 269.944,
+          "end": 270.28
+        }
+      ]
+    },
+    {
+      "beat": "a5",
+      "speaker": "narrator",
+      "text": "Closed! Sleepy little puppies!",
+      "gap": 2.2,
+      "start": 275.34,
+      "end": 277.19,
+      "words": [
+        {
+          "w": "Closed!",
+          "start": 275.38,
+          "end": 275.838
+        },
+        {
+          "w": "Sleepy",
+          "start": 275.838,
+          "end": 276.295
+        },
+        {
+          "w": "little",
+          "start": 276.295,
+          "end": 276.688
+        },
+        {
+          "w": "puppies!",
+          "start": 276.688,
+          "end": 277.08
+        }
+      ]
+    },
+    {
+      "beat": "chant",
+      "speaker": "narrator",
+      "text": "Say it with Max!",
+      "gap": 0.9,
+      "start": 279.39,
+      "end": 280.56,
+      "words": [
+        {
+          "w": "Say",
+          "start": 279.44,
+          "end": 279.723
+        },
+        {
+          "w": "it",
+          "start": 279.723,
+          "end": 279.864
+        },
+        {
+          "w": "with",
+          "start": 279.864,
+          "end": 280.076
+        },
+        {
+          "w": "Max!",
+          "start": 280.076,
+          "end": 280.43
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "max",
+      "text": "Sniff, sniff!",
+      "gap": 1.0,
+      "start": 281.46,
+      "end": 282.41,
+      "words": [
+        {
+          "w": "Sniff,",
+          "start": 281.49,
+          "end": 281.9
+        },
+        {
+          "w": "sniff!",
+          "start": 281.9,
+          "end": 282.31
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "bobo",
+      "text": "Wag, wag!",
+      "gap": 1.0,
+      "start": 283.41,
+      "end": 284.26,
+      "words": [
+        {
+          "w": "Wag,",
+          "start": 283.45,
+          "end": 283.795
+        },
+        {
+          "w": "wag!",
+          "start": 283.795,
+          "end": 284.14
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "max",
+      "text": "Max saves the day!",
+      "gap": 1.4,
+      "start": 285.26,
+      "end": 286.58,
+      "words": [
+        {
+          "w": "Max",
+          "start": 285.29,
+          "end": 285.611
+        },
+        {
+          "w": "saves",
+          "start": 285.611,
+          "end": 285.995
+        },
+        {
+          "w": "the",
+          "start": 285.995,
+          "end": 286.124
+        },
+        {
+          "w": "day!",
+          "start": 286.124,
+          "end": 286.38
+        }
+      ]
+    },
+    {
+      "beat": "c_turn",
+      "speaker": "narrator",
+      "text": "Your turn! Sniff, sniff! Wag, wag! Max saves the day!",
+      "gap": 3.0,
+      "start": 287.98,
+      "end": 291.52,
+      "words": [
+        {
+          "w": "Your",
+          "start": 288.02,
+          "end": 288.259
+        },
+        {
+          "w": "turn!",
+          "start": 288.259,
+          "end": 288.656
+        },
+        {
+          "w": "Sniff,",
+          "start": 288.656,
+          "end": 289.054
+        },
+        {
+          "w": "sniff!",
+          "start": 289.054,
+          "end": 289.452
+        },
+        {
+          "w": "Wag,",
+          "start": 289.452,
+          "end": 289.77
+        },
+        {
+          "w": "wag!",
+          "start": 289.77,
+          "end": 290.088
+        },
+        {
+          "w": "Max",
+          "start": 290.088,
+          "end": 290.486
+        },
+        {
+          "w": "saves",
+          "start": 290.486,
+          "end": 290.963
+        },
+        {
+          "w": "the",
+          "start": 290.963,
+          "end": 291.122
+        },
+        {
+          "w": "day!",
+          "start": 291.122,
+          "end": 291.44
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "max",
+      "text": "Bye-bye, friends! Woof, woof!",
+      "gap": 0.9,
+      "start": 294.52,
+      "end": 296.33,
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 294.54,
+          "end": 295.09
+        },
+        {
+          "w": "friends!",
+          "start": 295.09,
+          "end": 295.518
+        },
+        {
+          "w": "Woof,",
+          "start": 295.518,
+          "end": 295.824
+        },
+        {
+          "w": "woof!",
+          "start": 295.824,
+          "end": 296.13
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "bobo",
+      "text": "See you next time!",
+      "gap": 1.0,
+      "start": 297.23,
+      "end": 298.28,
+      "words": [
+        {
+          "w": "See",
+          "start": 297.25,
+          "end": 297.452
+        },
+        {
+          "w": "you",
+          "start": 297.452,
+          "end": 297.604
+        },
+        {
+          "w": "next",
+          "start": 297.604,
+          "end": 297.907
+        },
+        {
+          "w": "time!",
+          "start": 297.907,
+          "end": 298.16
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast",
+  "beats": [
+    {
+      "id": "guess",
+      "start": 0,
+      "visual": "Who has a wet black nose, and a waggy tail?",
+      "end": 7.49
+    },
+    {
+      "id": "guess2",
+      "start": 7.49,
+      "visual": "Who says: woof, woof? Can you guess?",
+      "end": 14.75
+    },
+    {
+      "id": "reveal",
+      "start": 14.75,
+      "visual": "It's... a dog!",
+      "end": 17.32
+    },
+    {
+      "id": "hello",
+      "start": 17.32,
+      "visual": "Woof! Hello! I'm Max the puppy!",
+      "end": 20.16
+    },
+    {
+      "id": "bobo_hi",
+      "start": 20.16,
+      "visual": "Hi, Max! I'm Super Bobo! Do you want to come to our picnic?",
+      "end": 24.61
+    },
+    {
+      "id": "max_yes",
+      "start": 24.61,
+      "visual": "Yes, please! I love picnics! Woof!",
+      "end": 28.64
+    },
+    {
+      "id": "sound_q",
+      "start": 28.64,
+      "visual": "What does a dog say?",
+      "end": 31.03
+    },
+    {
+      "id": "sound_a",
+      "start": 31.03,
+      "visual": "Woof! Woof!",
+      "end": 33.49
+    },
+    {
+      "id": "sound_turn",
+      "start": 33.49,
+      "visual": "Can you bark like Max? Your turn!",
+      "end": 38.46
+    },
+    {
+      "id": "sound_b",
+      "start": 38.46,
+      "visual": "Woof! Woof!",
+      "end": 41.02
+    },
+    {
+      "id": "sounds",
+      "start": 41.02,
+      "visual": "Dogs make lots of sounds! A happy dog says: woof! A tiny puppy says: yip, yip!",
+      "end": 48.04
+    },
+    {
+      "id": "yip",
+      "start": 48.04,
+      "visual": "Yip, yip! Your turn!",
+      "end": 51.98
+    },
+    {
+      "id": "facts",
+      "start": 51.98,
+      "visual": "Let's learn three dog facts!",
+      "end": 55.15
+    },
+    {
+      "id": "fact1",
+      "start": 55.15,
+      "visual": "Fact one. A dog has a super nose! It can smell much, much better than you and me.",
+      "end": 61.58
+    },
+    {
+      "id": "sniff",
+      "start": 61.58,
+      "visual": "Sniff, sniff! I smell... sandwiches!",
+      "end": 66.32
+    },
+    {
+      "id": "fact2",
+      "start": 66.32,
+      "visual": "Fact two. When a dog wags its tail fast and wiggly, it is often happy!",
+      "end": 72.25
+    },
+    {
+      "id": "wag",
+      "start": 72.25,
+      "visual": "Look at my tail! Wag, wag, wag! I'm happy!",
+      "end": 77.48
+    },
+    {
+      "id": "fact3",
+      "start": 77.48,
+      "visual": "Fact three. Baby puppies are born with their eyes closed! They open them when they are about two weeks old.",
+      "end": 84.95
+    },
+    {
+      "id": "wow",
+      "start": 84.95,
+      "visual": "Eyes closed? Wow! Tiny sleepy puppies!",
+      "end": 90.01
+    },
+    {
+      "id": "tricks",
+      "start": 90.01,
+      "visual": "I can do tricks! Watch me! I can sit!",
+      "end": 93.97
+    },
+    {
+      "id": "trick2",
+      "start": 93.97,
+      "visual": "I can give a paw!",
+      "end": 96.67
+    },
+    {
+      "id": "trick3",
+      "start": 96.67,
+      "visual": "And I can spin around! Wheee!",
+      "end": 100.18
+    },
+    {
+      "id": "trick_turn",
+      "start": 100.18,
+      "visual": "Can you spin around like Max? Your turn!",
+      "end": 105.73
+    },
+    {
+      "id": "picnic",
+      "start": 105.73,
+      "visual": "Everyone sat down for the picnic. Bella the bunny counted her friends.",
+      "end": 111.19
+    },
+    {
+      "id": "bella_q",
+      "start": 111.19,
+      "visual": "Wait... where is Kiki? Kiki the kitten isn't here!",
+      "end": 115.51
+    },
+    {
+      "id": "worried",
+      "start": 115.51,
+      "visual": "Everyone looked around. Kiki was missing! Bella felt worried.",
+      "end": 120.84
+    },
+    {
+      "id": "help_q",
+      "start": 120.84,
+      "visual": "Who can help find Kiki? Who has a super nose?",
+      "end": 128.74
+    },
+    {
+      "id": "max_go",
+      "start": 128.74,
+      "visual": "Me! My nose can help! Sniff, sniff!",
+      "end": 132.06
+    },
+    {
+      "id": "trail1",
+      "start": 132.06,
+      "visual": "Max sniffed the grass. Kiki went this way! Past the flowers...",
+      "end": 137.43
+    },
+    {
+      "id": "ball",
+      "start": 137.43,
+      "visual": "Max saw a ball! But he did not stop to play. Finding Kiki was more important!",
+      "end": 143.99
+    },
+    {
+      "id": "trail_turn",
+      "start": 143.99,
+      "visual": "Sniff with Max! Sniff, sniff, sniff!",
+      "end": 148.65
+    },
+    {
+      "id": "trail2",
+      "start": 148.65,
+      "visual": "Past the little pond...",
+      "end": 151.59
+    },
+    {
+      "id": "achoo",
+      "start": 151.59,
+      "visual": "Sniff... sniff... ACHOO! A flower tickled my nose! Back to the trail!",
+      "end": 157.28
+    },
+    {
+      "id": "trail3",
+      "start": 157.28,
+      "visual": "All the way to... a big hollow log!",
+      "end": 161.22
+    },
+    {
+      "id": "peek",
+      "start": 161.22,
+      "visual": "Kiki? Are you in there?",
+      "end": 164.18
+    },
+    {
+      "id": "kiki",
+      "start": 164.18,
+      "visual": "And there was Kiki! She was playing hide and seek, and she fell asleep!",
+      "end": 169.63
+    },
+    {
+      "id": "found",
+      "start": 169.63,
+      "visual": "Kiki! We found you! Max found you!",
+      "end": 173.15
+    },
+    {
+      "id": "kiki_hi",
+      "start": 173.15,
+      "visual": "Yawn... Hi, Max! Did I win hide and seek?",
+      "end": 176.99
+    },
+    {
+      "id": "laugh",
+      "start": 176.99,
+      "visual": "Ha ha! Yes, you did, Kiki! But we missed you!",
+      "end": 181.06
+    },
+    {
+      "id": "kiki2",
+      "start": 181.06,
+      "visual": "Kiki yawned a big yawn, and gave Max a hug.",
+      "end": 185.1
+    },
+    {
+      "id": "hero",
+      "start": 185.1,
+      "visual": "Max, you saved the day! Hooray for Max!",
+      "end": 189.81
+    },
+    {
+      "id": "thanks",
+      "start": 189.81,
+      "visual": "Woof! Thank you, friends! Helping is fun!",
+      "end": 194.08
+    },
+    {
+      "id": "lesson",
+      "start": 194.08,
+      "visual": "Friends look out for each other. And Max used his super nose to help!",
+      "end": 200.66
+    },
+    {
+      "id": "rule",
+      "start": 200.66,
+      "visual": "And next time, we play hide and seek all together, and we stay close!",
+      "end": 206.82
+    },
+    {
+      "id": "safe",
+      "start": 206.82,
+      "visual": "Remember, friends: when you play outside, always stay close to your grown-up!",
+      "end": 213.46
+    },
+    {
+      "id": "feast",
+      "start": 213.46,
+      "visual": "Then everybody ate the picnic together. Even Max got a doggy treat!",
+      "end": 220.02
+    },
+    {
+      "id": "yum",
+      "start": 220.02,
+      "visual": "Yum! Picnics are better with friends!",
+      "end": 224.25
+    },
+    {
+      "id": "again",
+      "start": 224.25,
+      "visual": "Let's remember!",
+      "end": 226.58
+    },
+    {
+      "id": "q1",
+      "start": 226.58,
+      "visual": "What does a dog say?",
+      "end": 232.77
+    },
+    {
+      "id": "a1",
+      "start": 232.77,
+      "visual": "Woof! Woof!",
+      "end": 235.73
+    },
+    {
+      "id": "q2",
+      "start": 235.73,
+      "visual": "What does a fast, wiggly tail often mean?",
+      "end": 243.2
+    },
+    {
+      "id": "a2",
+      "start": 243.2,
+      "visual": "The dog is happy!",
+      "end": 246.45
+    },
+    {
+      "id": "q3",
+      "start": 246.45,
+      "visual": "How did Max find Kiki?",
+      "end": 253.0
+    },
+    {
+      "id": "a3",
+      "start": 253.0,
+      "visual": "With my super nose! Sniff, sniff!",
+      "end": 257.15
+    },
+    {
+      "id": "q4",
+      "start": 257.15,
+      "visual": "Where was Kiki hiding?",
+      "end": 263.45
+    },
+    {
+      "id": "a4",
+      "start": 263.45,
+      "visual": "In a big hollow log!",
+      "end": 267.5
+    },
+    {
+      "id": "q5",
+      "start": 267.5,
+      "visual": "How are baby puppies born? With their eyes...",
+      "end": 275.14
+    },
+    {
+      "id": "a5",
+      "start": 275.14,
+      "visual": "Closed! Sleepy little puppies!",
+      "end": 279.19
+    },
+    {
+      "id": "chant",
+      "start": 279.19,
+      "visual": "Say it with Max!",
+      "end": 281.26
+    },
+    {
+      "id": "c1",
+      "start": 281.26,
+      "visual": "Sniff, sniff!",
+      "end": 283.21
+    },
+    {
+      "id": "c2",
+      "start": 283.21,
+      "visual": "Wag, wag!",
+      "end": 285.06
+    },
+    {
+      "id": "c3",
+      "start": 285.06,
+      "visual": "Max saves the day!",
+      "end": 287.78
+    },
+    {
+      "id": "c_turn",
+      "start": 287.78,
+      "visual": "Your turn! Sniff, sniff! Wag, wag! Max saves the day!",
+      "end": 294.32
+    },
+    {
+      "id": "bye",
+      "start": 294.32,
+      "visual": "Bye-bye, friends! Woof, woof!",
+      "end": 297.03
+    },
+    {
+      "id": "bye2",
+      "start": 297.03,
+      "visual": "See you next time!",
+      "end": 303.3
+    }
+  ]
+}
