@@ -44,3 +44,6 @@ tools/.cache/
 media/projects/kids-thumbs/frames/
 kids-shorts/tiny-sparks/lab/thumbs-out/
 kids-shorts/tiny-sparks/lab/shorts-out/
+
+# kids backgrounds: the raw generated PNGs (the committed copy is the fitted jpg; prompt sidecars stay)
+media/library/backgrounds/_raw/*.png

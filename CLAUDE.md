@@ -24,6 +24,7 @@ tools/            Python tools. Pipeline drivers: new_short (scaffold), check_sh
                   build_short (voice→render→mux→sfx→music in one command).
                   Media: gen_voice (+ setup_kokoro), gen_sfx, gen_music, mix_sfx, mix_music, gen_chords,
                   gen_image, gen_clip, bakeoff_clip, cutout, capture_web, ffmpeg_path,
+                  gen_backgrounds (paints the kids PLACES library from backgrounds/plan.json),
                   gen_song (FREE local kids songs: synth instruments + Kokoro chant/toy-singer vocal)
                   QA: loop_diff (measures the frame-0==last-frame wrap), audit_sfx (measures
                   whether each SFX cue is audible). Calendar: next_video, gen_kids_calendar.

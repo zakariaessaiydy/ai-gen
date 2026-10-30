@@ -9,7 +9,7 @@ import { cancelRender, continueRender, delayRender, staticFile } from 'remotion'
 import catalog from '../../../../media/library/backgrounds/catalog.json';
 import { AirTwinkles, Birds, Butterflies, FLOOR } from './sets';
 
-export type PlaceFx = 'butterflies' | 'birds' | 'twinkles' | 'stars' | 'motes' | 'fireflies' | 'rain';
+export type PlaceFx = 'butterflies' | 'birds' | 'twinkles' | 'stars' | 'motes' | 'fireflies' | 'rain' | 'snow' | 'bubbles' | 'leaves';
 type PlaceEntry = { wide: string[]; tall: string[]; fx: string[]; use: string };
 const PLACES = catalog.places as Record<string, PlaceEntry>;
 export type Place = keyof typeof catalog.places;
@@ -102,6 +102,52 @@ export const Motes: React.FC<{ t: number; w: number; h: number; n?: number; c?: 
   </g>
 );
 
+// snow: soft round flakes drifting down and swaying
+export const Snow: React.FC<{ t: number; w: number; h: number; n?: number }> = ({ t, w, h, n = 45 }) => (
+  <g>
+    {Array.from({ length: n }).map((_, i) => {
+      const y = ((t * (0.05 + hash(i, 2) * 0.05) + hash(i, 3)) % 1) * (h + 60) - 30;
+      const x = hash(i, 1) * w + Math.sin(t * 0.8 + i) * 30;
+      return <circle key={i} cx={x} cy={y} r={4 + hash(i, 4) * 7} fill="#ffffff" opacity={0.6 + hash(i, 5) * 0.35} />;
+    })}
+  </g>
+);
+
+// bubbles: rings rising from the floor, wobbling
+export const RisingBubbles: React.FC<{ t: number; w: number; h: number; floor: number; n?: number }> = ({ t, w, h, floor, n = 16 }) => (
+  <g>
+    {Array.from({ length: n }).map((_, i) => {
+      const p = (t * (0.06 + hash(i, 2) * 0.05) + hash(i, 3)) % 1;
+      const x = hash(i, 1) * w + Math.sin(t * 2 + i) * 14;
+      const y = floor - p * (floor + 80);
+      const r = 8 + hash(i, 4) * 16;
+      return (
+        <g key={i} opacity={Math.min(1, (1 - p) * 3) * 0.7}>
+          <circle cx={x} cy={y} r={r} fill="#ffffff" fillOpacity={0.12} stroke="#ffffff" strokeWidth={3} />
+          <circle cx={x - r * 0.35} cy={y - r * 0.35} r={r * 0.22} fill="#ffffff" />
+        </g>
+      );
+    })}
+  </g>
+);
+
+// leaves: autumn leaves tumbling down
+export const Leaves: React.FC<{ t: number; w: number; h: number; n?: number }> = ({ t, w, h, n = 12 }) => (
+  <g>
+    {Array.from({ length: n }).map((_, i) => {
+      const y = ((t * (0.06 + hash(i, 2) * 0.04) + hash(i, 3)) % 1) * (h + 80) - 40;
+      const x = hash(i, 1) * w + Math.sin(t * 1.1 + i) * 60;
+      const c = ['#ff924c', '#ffca3a', '#e85d4a', '#f4a259'][i % 4];
+      return (
+        <g key={i} transform={`translate(${x},${y}) rotate(${t * 60 * (i % 2 ? 1 : -1) + i * 40}) scale(${0.8 + hash(i, 4) * 0.6})`}>
+          <path d="M 0,-18 Q 14,-6 0,18 Q -14,-6 0,-18 Z" fill={c} />
+          <path d="M 0,-14 L 0,16" stroke="#a0522d" strokeWidth={2} opacity={0.6} />
+        </g>
+      );
+    })}
+  </g>
+);
+
 const Fx: React.FC<{ fx: PlaceFx; t: number; w: number; h: number; floor: number }> = ({ fx, t, w, h, floor }) => {
   const wide = w > h;
   switch (fx) {
@@ -119,6 +165,12 @@ const Fx: React.FC<{ fx: PlaceFx; t: number; w: number; h: number; floor: number
       return <Fireflies t={t} w={w} y0={h * 0.35} y1={floor} />;
     case 'rain':
       return <Rain t={t} w={w} h={h} floor={floor} />;
+    case 'snow':
+      return <Snow t={t} w={w} h={h} />;
+    case 'bubbles':
+      return <RisingBubbles t={t} w={w} h={h} floor={floor} />;
+    case 'leaves':
+      return <Leaves t={t} w={w} h={h} />;
     default:
       return null;
   }
