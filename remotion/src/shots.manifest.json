@@ -432,6 +432,22 @@
   "transparent": false
  },
  {
+  "id": "KidsPlacesBoard",
+  "durationInSeconds": 4,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsPlacesBoardTall",
+  "durationInSeconds": 4,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "KidsStyleBoard",
   "durationInSeconds": 2,
   "fps": 30,

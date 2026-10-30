@@ -44,6 +44,15 @@ remotion/src/lib/kids/
   sets.tsx        Meadow(smiling Sun, drifting clouds) · Classroom(board lines) · Bedroom(night,
                   moon, glow stars) · Space · Underwater(bubbles) · Forest — every set takes (w,h,t)
                   so ONE set serves 1080x1920 AND 1920x1080; stand characters on FLOOR(h)
+  places.tsx      PAINTED PLACES: <Backdrop place="beach" w h t /> — 24 painted soft-3D backgrounds
+                  (media/library/backgrounds/catalog.json: beach, farm, jungle, forest, dino-valley,
+                  rainy-street, schoolyard, camp-night, cave, space-moon, spaceship, kitchen, library,
+                  playroom, bedroom, party, ice-cream-shop, sweet-shop, music-room, art-room, clinic,
+                  science-lab, classroom, meadow) + ambient fx in code (rain, fireflies, motes, birds,
+                  butterflies, twinkles). Pick the place that fits the topic — don't default to the
+                  Meadow. fx={false} when counting things in the air; dim={0.3} behind busy cards;
+                  variant={1} for an alt painting. QA board: KidsPlacesBoard / KidsPlacesBoardTall.
+                  A place without a 9:16 file centre-crops its 16:9 one (check the frame).
   depth.tsx       the 3D LOOK: <Vol> (shades shapes as lit volumes + thins their outline), <Ground>
                   (soft contact shadow), <AO> (occlusion), K3DDefs (gradients) · KIDS_3D switch
   kit.tsx         KidsStage(any size camera) · KidsCaptions(word-by-word, big) · PopText(the ONE

@@ -1,0 +1,29 @@
+{
+  "note": "Painted backgrounds for the Tiny Sparks kids channel (soft-3D pastel, no characters, no text). Reusable across videos. Read by remotion/src/lib/kids/places.tsx (<Backdrop place=...>), which draws the image cover-fitted to the stage and the place's ambient fx on top (fx are drawn in code so the scene never looks frozen). wide = 16:9 files, tall = 9:16 files; the first file is the default, the others are variants (variant={1}). A place missing an orientation falls back to a centre crop of the other one — listed in 'missing' until the real file is added. Characters stand on FLOOR(h) as with every kids set.",
+  "places": {
+    "meadow":         { "wide": ["meadow-169.jpg"], "tall": [], "fx": ["butterflies", "birds", "twinkles"], "use": "stories, animals, songs — the home set" },
+    "forest":         { "wide": ["forest-169.jpg"], "tall": [], "fx": ["butterflies", "motes"], "use": "animal stories, fables" },
+    "jungle":         { "wide": ["jungle-169.jpg"], "tall": [], "fx": ["butterflies", "motes"], "use": "jungle animals, adventures" },
+    "dino-valley":    { "wide": ["dino-valley-169.jpg", "dino-valley-169-b.jpg"], "tall": ["dino-valley-916.jpg"], "fx": ["birds", "butterflies"], "use": "dinosaur episodes" },
+    "farm":           { "wide": ["farm-169.jpg"], "tall": ["farm-916.jpg"], "fx": ["butterflies", "birds"], "use": "farm animals, food, counting" },
+    "beach":          { "wide": ["beach-169.jpg"], "tall": ["beach-916.jpg"], "fx": ["birds", "twinkles"], "use": "ocean, summer, sea animals on land" },
+    "rainy-street":   { "wide": ["rainy-street-169.jpg"], "tall": ["rainy-street-916.jpg"], "fx": ["rain"], "use": "weather, rain, umbrellas, town" },
+    "schoolyard":     { "wide": ["schoolyard-169.jpg", "schoolyard-169-b.jpg"], "tall": ["schoolyard-916.jpg"], "fx": ["butterflies", "birds"], "use": "school stories, playground, friends" },
+    "camp-night":     { "wide": ["camp-night-169.jpg"], "tall": ["camp-night-916.jpg", "camp-night-916-b.jpg"], "fx": ["fireflies", "stars"], "use": "camping, night, bedtime, stars" },
+    "cave":           { "wide": ["cave-169.jpg"], "tall": [], "fx": ["fireflies"], "use": "caves, crystals, bats, adventures" },
+    "space-moon":     { "wide": ["space-moon-169.jpg"], "tall": [], "fx": ["stars"], "use": "space, planets, the moon" },
+    "spaceship":      { "wide": ["spaceship-169.jpg", "spaceship-169-b.jpg"], "tall": ["spaceship-916.jpg", "spaceship-916-b.jpg"], "fx": ["stars"], "use": "space science, robots, the future" },
+    "classroom":      { "wide": ["classroom-169.jpg"], "tall": [], "fx": ["motes"], "use": "numbers, words, puzzles (blank board — write on it in code)" },
+    "playroom":       { "wide": ["playroom-169.jpg"], "tall": [], "fx": ["motes"], "use": "toys, counting, shapes, colours" },
+    "bedroom":        { "wide": ["bedroom-169.jpg"], "tall": [], "fx": ["motes"], "use": "bedtime, morals, lullabies" },
+    "kitchen":        { "wide": ["kitchen-169.jpg", "kitchen-169-b.jpg"], "tall": ["kitchen-916.jpg"], "fx": ["motes"], "use": "food, fruit, healthy habits, cooking" },
+    "library":        { "wide": ["library-169.jpg"], "tall": ["library-916.jpg"], "fx": ["motes"], "use": "reading, words, quiet stories" },
+    "science-lab":    { "wide": ["science-lab-169.jpg"], "tall": [], "fx": ["twinkles"], "use": "science experiments, Prof. Hoot" },
+    "music-room":     { "wide": [], "tall": ["music-room-916.jpg"], "fx": ["motes"], "use": "songs, instruments" },
+    "art-room":       { "wide": [], "tall": ["art-room-916.jpg"], "fx": ["motes"], "use": "colours, shapes, drawing" },
+    "clinic":         { "wide": [], "tall": ["clinic-916.jpg"], "fx": ["motes"], "use": "doctor visit, being brave, the body" },
+    "party":          { "wide": ["party-169.jpg"], "tall": ["party-916.jpg"], "fx": ["twinkles"], "use": "birthdays, celebrations, sharing" },
+    "ice-cream-shop": { "wide": ["ice-cream-shop-169.jpg"], "tall": ["ice-cream-shop-916.jpg"], "fx": ["twinkles"], "use": "colours, counting scoops, treats, sharing" },
+    "sweet-shop":     { "wide": [], "tall": ["sweet-shop-916.jpg"], "fx": ["twinkles"], "use": "shopping, money, counting, patience" }
+  }
+}
