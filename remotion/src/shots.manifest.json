@@ -456,6 +456,14 @@
   "transparent": false
  },
  {
+  "id": "KidsStyleBoardTall",
+  "durationInSeconds": 4,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "KidsShortCards",
   "durationInSeconds": 10,
   "fps": 30,

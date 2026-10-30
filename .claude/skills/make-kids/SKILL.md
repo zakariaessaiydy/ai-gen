@@ -41,8 +41,11 @@ remotion/src/lib/kids/
   energy.tsx      the ENERGY LAYER (Day 37+ standard, see below): directorCam/ActionStage, hopAt,
                   Reaction, Dust, MotionLines, StrainLines, ImpactStar, StageWord, FocusLines, StarWipe,
                   SparksIntro, INTRO_S, onBeat
-  sets.tsx        Meadow(smiling Sun, drifting clouds) · Classroom(board lines) · Bedroom(night,
-                  moon, glow stars) · Space · Underwater(bubbles) · Forest — every set takes (w,h,t)
+  sets.tsx        Meadow(smiling Sun, clouds, far mountains) · Classroom(board lines; window, clock,
+                  bookshelf+globe, plant, rug) · Bedroom(curtained window, moon, shelf+teddy, lamp,
+                  quilt bed, rug, toys) · Space(nebulae, Earth, ringed planet, crystals) ·
+                  Underwater(rays, corals, kelp, starfish; life={false} = no fish) · Forest(layered
+                  woods, path, framing trees, log; life={false}) — every set takes (w,h,t)
                   so ONE set serves 1080x1920 AND 1920x1080; stand characters on FLOOR(h)
   places.tsx      PAINTED PLACES: <Backdrop place="beach" w h t /> — 24 painted soft-3D backgrounds
                   (media/library/backgrounds/catalog.json: beach, farm, jungle, forest, dino-valley,

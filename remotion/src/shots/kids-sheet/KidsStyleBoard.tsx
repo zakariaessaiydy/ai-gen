@@ -20,7 +20,7 @@ const cells: [string, React.ReactNode][] = [
     <Critter spec={BOBO} x={1050} y={f} scale={0.6} expr="laugh" armR="up" />
   </>],
   ['Classroom — numbers, words, puzzles', <>
-    <Classroom w={W} h={H} board={['1 + 2 = 3']} />
+    <Classroom w={W} h={H} t={1} board={['1 + 2 = 3']} />
     <Critter spec={HOOT} x={1500} y={f} scale={0.6} expr="smile" armL="point" />
     <Kid spec={LEO} x={380} y={f} scale={0.62} expr="think" armR="think" />
   </>],
