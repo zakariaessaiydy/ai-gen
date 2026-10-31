@@ -317,5 +317,52 @@
   "at": "right",
   "size": 136,
   "rot": -3
+ },
+ {
+  "day": 59,
+  "comp": "KidsWords059",
+  "t": 66.86,
+  "z": 1.35,
+  "fx": 760,
+  "fy": 520,
+  "lines": [
+   "LEARN",
+   "CLOTHES!"
+  ],
+  "at": "right",
+  "size": 136,
+  "sticker": "EN\n+FR",
+  "stickerAt": "tl"
+ },
+ {
+  "day": 60,
+  "comp": "KidsAnimals060",
+  "t": 175.04,
+  "z": 1.5,
+  "fx": 1150,
+  "fy": 640,
+  "lines": [
+   "WHERE'S",
+   "MY BALL?"
+  ],
+  "at": "left",
+  "size": 136,
+  "rot": -3
+ },
+ {
+  "day": 61,
+  "comp": "KidsScience061",
+  "t": 25.54,
+  "z": 1.0,
+  "fx": 960,
+  "fy": 540,
+  "lines": [
+   "HOW DO",
+   "RAINBOWS",
+   "APPEAR?"
+  ],
+  "at": "right",
+  "size": 112,
+  "rot": -3
  }
 ]

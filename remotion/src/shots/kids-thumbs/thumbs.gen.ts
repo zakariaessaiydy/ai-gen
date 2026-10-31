@@ -300,5 +300,49 @@ export const THUMBS: Thumb[] = [
   "size": 136,
   "at": "right",
   "rot": -3
+ },
+ {
+  "day": 59,
+  "frame": "d059-66.86.png",
+  "z": 1.35,
+  "fx": 760,
+  "fy": 520,
+  "lines": [
+   "LEARN",
+   "CLOTHES!"
+  ],
+  "size": 136,
+  "at": "right",
+  "sticker": "EN\n+FR",
+  "stickerAt": "tl"
+ },
+ {
+  "day": 60,
+  "frame": "d060-175.04.png",
+  "z": 1.5,
+  "fx": 1150,
+  "fy": 640,
+  "lines": [
+   "WHERE'S",
+   "MY BALL?"
+  ],
+  "size": 136,
+  "at": "left",
+  "rot": -3
+ },
+ {
+  "day": 61,
+  "frame": "d061-25.54.png",
+  "z": 1.0,
+  "fx": 960,
+  "fy": 540,
+  "lines": [
+   "HOW DO",
+   "RAINBOWS",
+   "APPEAR?"
+  ],
+  "size": 112,
+  "at": "right",
+  "rot": -3
  }
 ];

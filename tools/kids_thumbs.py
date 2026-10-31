@@ -65,11 +65,12 @@ def main():
     os.makedirs(FRAMES, exist_ok=True)
 
     data = []  # every entry (frame i = spec[i]), so the committed thumbs.gen.ts never shrinks
-    for e in spec:
+    for i, e in enumerate(spec):
         ep = episode_dir(e["day"])
         name = f"d{e['day']:03d}-{e['t']:.2f}.png"
         out = os.path.join(FRAMES, name)
-        if not os.path.exists(out):
+        # only the picked days need their frame (and their render) — the others are listed, not drawn
+        if i in picked and not os.path.exists(out):
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{e['t']:.3f}", "-i", source_video(e, ep),
                             "-frames:v", "1", out], check=True)
         d = {"day": e["day"], "frame": name, "z": e.get("z", 1.0), "fx": e.get("fx", 960), "fy": e.get("fy", 540)}
