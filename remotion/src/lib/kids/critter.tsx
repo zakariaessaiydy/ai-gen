@@ -7,7 +7,7 @@ import { useCurrentFrame } from 'remotion';
 import { Face, HeadSparkles, KINK, idleMotion, kst, type KExpr } from './face';
 import { AO, Ground, K3DDefs, Vol } from './depth';
 
-export type Species = 'bear' | 'bunny' | 'cat' | 'fox' | 'lion' | 'mouse' | 'panda' | 'pig' | 'owl' | 'frog' | 'monkey' | 'dog' | 'elephant' | 'turtle' | 'cow' | 'sheep' | 'chick' | 'duck' | 'penguin';
+export type Species = 'bear' | 'bunny' | 'cat' | 'fox' | 'lion' | 'mouse' | 'panda' | 'pig' | 'owl' | 'frog' | 'monkey' | 'dog' | 'elephant' | 'turtle' | 'cow' | 'sheep' | 'chick' | 'duck' | 'penguin' | 'tiger';
 
 export type CritterSpec = {
   id: string;
@@ -106,6 +106,7 @@ const Ears: React.FC<{ s: CritterSpec; layer: 'back' | 'front' }> = ({ s, layer 
     case 'bear':
     case 'panda':
     case 'lion':
+    case 'tiger':
       return (
         <g>
           {[-1, 1].map((k) => (
@@ -257,6 +258,15 @@ const Tail: React.FC<{ s: CritterSpec; frame: number; happy?: boolean }> = ({ s,
         <g>
           <path d={`M 100,-90 Q 230,-60 230,${-180 + wag}`} fill="none" stroke={KINK} strokeWidth={22} strokeLinecap="round" />
           <circle cx={230} cy={-190 + wag} r={30} fill={s.dark} {...st} />
+        </g>
+      );
+    case 'tiger':
+      // a thick striped tail: ink outline, fur, dark bands
+      return (
+        <g transform={`rotate(${wag * 0.6} 100 -100)`}>
+          <path d="M 96,-90 Q 230,-70 236,-190 Q 240,-260 290,-280" fill="none" stroke={KINK} strokeWidth={44} strokeLinecap="round" />
+          <path d="M 96,-90 Q 230,-70 236,-190 Q 240,-260 290,-280" fill="none" stroke={s.fur} strokeWidth={30} strokeLinecap="round" />
+          <path d="M 96,-90 Q 230,-70 236,-190 Q 240,-260 290,-280" fill="none" stroke={s.dark} strokeWidth={30} strokeDasharray="14 34" strokeDashoffset={-40} />
         </g>
       );
     case 'elephant':
@@ -462,6 +472,20 @@ export const Critter: React.FC<CritterProps> = ({
       </Vol>
       {/* soft fur shine */}
       <ellipse cx={-92} cy={-92} rx={40} ry={20} fill="#ffffff" opacity={0.3} transform="rotate(-32 -92 -92)" />
+      {s.species === 'tiger' && (
+        // forehead + cheek stripes (drawn under the muzzle, inside the head)
+        <g fill={s.dark}>
+          <path d="M -14,-158 L 14,-158 L 6,-96 L -6,-96 Z" />
+          <path d="M -62,-150 Q -46,-150 -34,-108 Q -50,-112 -62,-150 Z" />
+          <path d="M 62,-150 Q 46,-150 34,-108 Q 50,-112 62,-150 Z" />
+          {[-1, 1].map((k) => (
+            <g key={k}>
+              <path d={`M ${k * 172},-30 Q ${k * 130},-24 ${k * 112},-6 Q ${k * 136},-6 ${k * 170},4 Z`} />
+              <path d={`M ${k * 168},34 Q ${k * 128},38 ${k * 108},58 Q ${k * 134},56 ${k * 164},66 Z`} />
+            </g>
+          ))}
+        </g>
+      )}
       {s.species === 'panda' && (
         <g fill={s.dark}>
           <ellipse cx={-66} cy={4} rx={56} ry={66} transform="rotate(20 -66 4)" />
@@ -579,6 +603,14 @@ export const Critter: React.FC<CritterProps> = ({
               <Vol>
                 <ellipse cx={0} cy={-160} rx={130} ry={140} fill={s.fur} {...kst(9)} />
               </Vol>
+            )}
+            {s.species === 'tiger' && (
+              // flank stripes on the body, outside the belly patch
+              <g fill={s.dark}>
+                {[-1, 1].map((k) => [-230, -170, -110].map((y) => (
+                  <path key={`${k}${y}`} d={`M ${k * 130},${y - 12} Q ${k * 104},${y - 6} ${k * 90},${y + 10} Q ${k * 108},${y + 12} ${k * 128},${y + 14} Z`} />
+                )))}
+              </g>
             )}
             {s.species === 'cow' ? (
               <g fill={s.dark}>

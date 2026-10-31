@@ -1898,6 +1898,102 @@
    "source": "local synth (tools/gen_kids_sounds.py)",
    "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
    "used_in": []
+  },
+  {
+   "id": "leaf-rustle",
+   "file": "clips/leaf-rustle.mp3",
+   "category": "foley",
+   "tags": [
+    "rustle",
+    "leaves",
+    "bush",
+    "hide",
+    "jungle",
+    "peek",
+    "kids"
+   ],
+   "desc": "leaves rustling in a bush — something hiding in there, 0.9 s",
+   "duration_s": 0.9,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "cartoon-roar",
+   "file": "clips/cartoon-roar.mp3",
+   "category": "animal",
+   "tags": [
+    "roar",
+    "lion",
+    "tiger",
+    "growl",
+    "animal",
+    "friendly",
+    "kids"
+   ],
+   "desc": "a friendly cartoon lion roar (not scary), 1.1 s",
+   "duration_s": 1.1,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "elephant-trumpet",
+   "file": "clips/elephant-trumpet.mp3",
+   "category": "animal",
+   "tags": [
+    "elephant",
+    "trumpet",
+    "toot",
+    "animal",
+    "kids"
+   ],
+   "desc": "an elephant trumpet: brassy glide up + wobble, 0.95 s",
+   "duration_s": 0.95,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "monkey-ooh",
+   "file": "clips/monkey-ooh.mp3",
+   "category": "animal",
+   "tags": [
+    "monkey",
+    "ooh-ooh-ah-ah",
+    "chimp",
+    "animal",
+    "funny",
+    "kids",
+    "voices"
+   ],
+   "desc": "a cheeky monkey call 'Ooh ooh! Ah ah ah!'",
+   "duration_s": 0.81,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py) + Kokoro-82M voices",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py; voices: Kokoro-82M (Apache-2.0)",
+   "used_in": []
+  },
+  {
+   "id": "water-splash",
+   "file": "clips/water-splash.mp3",
+   "category": "foley",
+   "tags": [
+    "splash",
+    "water",
+    "spray",
+    "drops",
+    "kids"
+   ],
+   "desc": "a water splash + droplet blips, 0.75 s",
+   "duration_s": 0.75,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
   }
  ]
 }

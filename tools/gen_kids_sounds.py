@@ -428,6 +428,61 @@ def s_egg_crack():
     return buf
 
 
+def s_rustle():
+    """Leaves rustling in a bush: three irregular swishes of bright filtered noise, 0.9 s."""
+    t = T(0.9)
+    env = np.zeros_like(t)
+    for at, w, g in [(0.05, 0.16, 1.0), (0.3, 0.14, 0.8), (0.52, 0.2, 0.95)]:
+        env += g * np.exp(-((t - at - w / 2) / (w / 2.4)) ** 2)
+    crackle = (np.random.default_rng(31).uniform(0, 1, len(t)) > 0.97) * 0.9  # little leaf ticks
+    y = band(noise(len(t), 30), 1400, 8000) * env + band(crackle * noise(len(t), 32), 2500, 9000) * env * 0.6
+    return rel(y, 30)
+
+
+def s_roar():
+    """A FRIENDLY cartoon lion roar (not scary): a buzzy low tone that swells up then falls + a soft growl, 1.1 s."""
+    t = T(1.1)
+    f = 95 + 70 * np.sin(np.pi * np.clip(t / 1.0, 0, 1)) ** 1.5
+    ph = 2 * np.pi * np.cumsum(f) / SR
+    tone = sum(np.sin(k * ph) / k ** 0.8 for k in range(1, 14))
+    growl = 1 + 0.35 * np.sin(2 * np.pi * 27 * t)
+    breath = band(noise(len(t), 41), 300, 2600) * 0.5
+    env = np.minimum(1, t / 0.08) * np.clip((1.1 - t) / 0.35, 0, 1)
+    return rel(band((tone * 0.35 + breath) * growl * env, 70, 3200), 40)
+
+
+def s_trumpet():
+    """An elephant trumpet: a brassy glide up with a wobble at the top, 0.95 s."""
+    t = T(0.95)
+    f = 330 + 360 * np.clip(t / 0.35, 0, 1) ** 0.6
+    f = f * (1 + 0.035 * np.sin(2 * np.pi * 7.5 * t) * np.clip((t - 0.3) / 0.2, 0, 1))
+    ph = 2 * np.pi * np.cumsum(f) / SR
+    b = 0.5 + 0.5 * np.minimum(1, t / 0.3)
+    y = sum(np.exp(-(k - 1) * (1.0 - 0.85 * b)) / k ** 0.4 * np.sin(k * ph) for k in range(1, 18))
+    y += band(noise(len(t), 51), 800, 5000) * 0.25  # breath
+    return rel(y * np.minimum(1, t / 0.03) * np.clip((0.95 - t) / 0.2, 0, 1) * 0.25, 30)
+
+
+def s_monkey():
+    """A cheeky monkey call 'Ooh ooh! Ah ah!': one Kokoro voice, pitched up, a touch of room."""
+    x = kokoro_wav("am_puck", "Ooh ooh! Ah ah ah!", "+8%")
+    x = np.interp(np.arange(0, len(x) - 1, 1.35), np.arange(len(x)), x)
+    return reverb(stereo(x / (np.max(np.abs(x)) + 1e-9)), 0.25, 0.15, seed=61)
+
+
+def s_splash():
+    """A water splash: a soft noisy whoosh-burst + a few rising droplet blips, 0.75 s."""
+    t = T(0.75)
+    y = band(noise(len(t), 71), 400, 7000) * np.exp(-t / 0.12) * np.minimum(1, t / 0.006)
+    rng = np.random.default_rng(72)
+    for _ in range(7):
+        at, f0 = float(rng.uniform(0.08, 0.55)), float(rng.uniform(700, 1500))
+        tt = T(0.05)
+        drop = np.sin(2 * np.pi * np.cumsum(f0 * (1 + 2.5 * tt / 0.05)) / SR) * np.exp(-tt / 0.015) * 0.35
+        place(y, drop, at)
+    return rel(y, 30)
+
+
 # ─────────────────────────────── kids crowd (Kokoro) ─────────────────────────────────────────────
 VOICES = ["af_sky", "af_nicole", "af_nova", "af_jessica", "bf_lily", "am_puck", "af_bella", "af_kore", "af_river", "bf_alice"]
 
@@ -528,6 +583,11 @@ SFX = {
     "zip-up": (s_zip, "cartoon", ["zip", "zoom", "fast", "rise", "cartoon", "kids"], "quick rising zip — zooms and fast moves, 0.26 s", False),
     "kids-applause": (s_applause, "crowd", ["applause", "clapping", "celebrate", "kids", "crowd"], "kids clapping in a small room — celebrations, 2.8 s", False),
     "dino-stomp": (s_stomp, "impact", ["stomp", "footstep", "dinosaur", "thud", "big", "kids"], "a big friendly dinosaur footstep: soft low thump + muffled thud, 0.9 s", False),
+    "leaf-rustle": (s_rustle, "foley", ["rustle", "leaves", "bush", "hide", "jungle", "peek", "kids"], "leaves rustling in a bush — something hiding in there, 0.9 s", False),
+    "cartoon-roar": (s_roar, "animal", ["roar", "lion", "tiger", "growl", "animal", "friendly", "kids"], "a friendly cartoon lion roar (not scary), 1.1 s", False),
+    "elephant-trumpet": (s_trumpet, "animal", ["elephant", "trumpet", "toot", "animal", "kids"], "an elephant trumpet: brassy glide up + wobble, 0.95 s", False),
+    "monkey-ooh": (s_monkey, "animal", ["monkey", "ooh-ooh-ah-ah", "chimp", "animal", "funny", "kids", "voices"], "a cheeky monkey call 'Ooh ooh! Ah ah ah!'", True),
+    "water-splash": (s_splash, "foley", ["splash", "water", "spray", "drops", "kids"], "a water splash + droplet blips, 0.75 s", False),
     "egg-crack": (s_egg_crack, "foley", ["egg", "crack", "hatch", "shell", "kids"], "an egg cracking: three crisp shell crackles + tiny clicks, 0.45 s", False),
     "think-tick": (s_think_tick, "rhythm", ["tick-tock", "woodblock", "think", "pause", "your-turn", "120bpm", "kids"], "tick-tock woodblock + shakers at 120 bpm for 4 s — fills a 'your turn' pause (start on a theme-bed beat)", False),
     "kids-yay": (s_kids_yay, "crowd", ["yay", "cheer", "crowd", "kids", "celebrate", "voices"], "a group of kids cheering 'Yay!'", True),
