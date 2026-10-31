@@ -36,3 +36,4 @@ spec in `kids-shorts/tiny-sparks/shortcuts.json`). Each is 1080x1920, 28-54 s.
 | 39 | Can Oliver the Owl Fly? 🦉 Flap, Hop, 1-2-3! | Tiny Sparks #shorts | Oliver has never flown before... flap your wings, a little hop, count to three — and FLY! Friends help friends! | Animal stories |
 | 42 | Days of the Week Song 🚂 Sing Along! | Tiny Sparks #shorts | Sunday, Monday, Tuesday too! Hop on the Week Train and sing the 7 days of the week! | Songs |
 | 43 | Count to Ten with Mila! ⏳ The Waiting Game | Tiny Sparks #shorts | Mila wants the swing NOW... so she counts to ten while the sand runs out. 1, 2, 3... count with her! Wheee! | Learning stories |
+| 81 | Who's Hiding in the Tall Grass? 🐰 Guess the Animal! | Tiny Sparks #shorts | Two long ears and a fluffy tail... it's Rosie the rabbit! Can you wiggle your nose like Rosie? Sniff, sniff! Your turn! | Animals |

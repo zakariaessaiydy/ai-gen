@@ -177,5 +177,13 @@ export const SHORTS: ShortCard[] = [
    "COUNT TO TEN",
    "WITH MILA!"
   ]
+ },
+ {
+  "day": 81,
+  "w": 1440,
+  "lines": [
+   "WHO IS HIDING",
+   "IN THE GRASS?"
+  ]
  }
 ];

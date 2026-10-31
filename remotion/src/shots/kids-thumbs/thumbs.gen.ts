@@ -300,5 +300,19 @@ export const THUMBS: Thumb[] = [
   "size": 136,
   "at": "right",
   "rot": -3
+ },
+ {
+  "day": 81,
+  "frame": "d081-180.00.png",
+  "z": 1.25,
+  "fx": 1430,
+  "fy": 480,
+  "lines": [
+   "ROSIE &",
+   "THE OWL"
+  ],
+  "size": 136,
+  "at": "left",
+  "rot": -3
  }
 ];

@@ -317,5 +317,20 @@
   "at": "right",
   "size": 136,
   "rot": -3
+ },
+ {
+  "day": 81,
+  "comp": "KidsAnimals081",
+  "t": 180.0,
+  "z": 1.25,
+  "fx": 1430,
+  "fy": 480,
+  "lines": [
+   "ROSIE &",
+   "THE OWL"
+  ],
+  "at": "left",
+  "size": 136,
+  "rot": -3
  }
 ]

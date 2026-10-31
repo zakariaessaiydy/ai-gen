@@ -262,5 +262,17 @@
    "COUNT TO TEN",
    "WITH MILA!"
   ]
+ },
+ {
+  "day": 81,
+  "comp": "KidsAnimals081",
+  "a": 4.0,
+  "b": 49.0,
+  "xc": 800,
+  "w": 1440,
+  "lines": [
+   "WHO IS HIDING",
+   "IN THE GRASS?"
+  ]
  }
 ]
