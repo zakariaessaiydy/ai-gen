@@ -44,7 +44,7 @@ if (!id) {
 /** Find a short's beats.json by composition id, e.g. Short14Seed -> shorts/short-14-seed/beats.json */
 function findBeats(compId) {
   const repo = path.join(root, '..');
-  for (const dir of ['shorts', 'ai-shorts', 'vox-shorts']) {
+  for (const dir of ['shorts', 'ai-shorts', 'vox-shorts', 'kids-stories']) {
     const base = path.join(repo, dir);
     if (!existsSync(base)) continue;
     for (const proj of readdirSync(base)) {
@@ -84,7 +84,7 @@ mkdirSync(outDir, { recursive: true });
 
 const t0 = Date.now();
 const serveUrl = await getServeUrl({ force: has('force-bundle') });
-const composition = await selectComposition({ serveUrl, id });
+const composition = await selectComposition({ serveUrl, id, browserExecutable: process.env.REMOTION_BROWSER_EXECUTABLE || null });
 const fps = composition.fps;
 
 let frames;
@@ -108,7 +108,10 @@ if (beatsFlag || has('auto') || !framesArg) {
 }
 frames = frames.map((f) => Math.max(0, Math.min(composition.durationInFrames - 1, f)));
 
-const browser = await openBrowser('chrome', { shouldDumpIo: false });
+// REMOTION_BROWSER_EXECUTABLE: use an already-installed Chrome/Chromium instead of letting
+// Remotion download its headless shell (sandboxed/offline machines).
+const BROWSER = process.env.REMOTION_BROWSER_EXECUTABLE || null;
+const browser = await openBrowser('chrome', { shouldDumpIo: false, browserExecutable: BROWSER });
 
 const results = new Array(frames.length);
 let next = 0;

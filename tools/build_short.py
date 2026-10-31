@@ -21,7 +21,9 @@ Usage:
 
 Reads the engine/voice/rate from beats.json ("voicePlan": "edge:en-US-Andrew... --rate +12%")
 unless overridden. Skips a render when nothing that feeds it changed (--force to override).
-Works for shorts/, ai-shorts/ and vox-shorts/ projects alike.
+Works for shorts/, ai-shorts/, vox-shorts/ and kids-stories/ projects alike. For kids-stories
+the gen stage also re-emits shots.gen.ts from beats.json, and a final `short` stage renders the
+vertical teaser (beats.json "shortCut") and muxes the matching slice of the best audio.
 """
 import argparse
 import hashlib
@@ -34,6 +36,7 @@ import sys
 import time
 
 from ffmpeg_path import ensure_on_path
+from kids_lib import emit_estimated_vo, emit_shots_ts, is_kids
 
 ensure_on_path()
 
@@ -43,7 +46,7 @@ if hasattr(sys.stdout, "reconfigure"):
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REMOTION = os.path.join(ROOT, "remotion")
-ALL_STAGES = ["gen", "voice", "render", "mux", "sfx", "music"]
+ALL_STAGES = ["gen", "voice", "render", "mux", "sfx", "music", "short"]
 
 
 def sh(cmd, cwd=None, quiet=False):
@@ -142,6 +145,8 @@ def main():
             stages.remove("sfx")
         if not args.music:
             stages.remove("music")
+        if not beats.get("shortCut"):
+            stages.remove("short")
     for s in (args.skip or "").split(","):
         if s.strip() in stages:
             stages.remove(s.strip())
@@ -160,6 +165,14 @@ def main():
         return name in stages
 
     t_all = time.time()
+
+    # kids-stories: beats.json is the source of the shot list — emit it BEFORE the preflight so
+    # the check (and the render) see the current shots, not the last build's
+    if stage("gen") and is_kids(beats, proj) and beats.get("shots"):
+        changed = emit_shots_ts(beats, os.path.join(shot_dir, "shots.gen.ts"))
+        print(f"shots.gen.ts {'re-emitted from beats.json' if changed else 'up to date'}")
+        if emit_estimated_vo(beats, os.path.join(shot_dir, "vo.gen.ts")):
+            print("vo.gen.ts re-emitted from the script (estimated timings — voice stage makes them exact)")
 
     # Preflight first: a banned hook or a non-monotonic interpolate range is a crash 45s into
     # the render, and a duration mismatch is a re-render. Both are a one-second check.
@@ -183,7 +196,7 @@ def main():
         if voice:
             cmd += ["--voice", voice]
         if rate and engine == "edge":
-            cmd += ["--rate", rate]
+            cmd += [f"--rate={rate}"]  # = form: a negative rate ("-4%") would parse as a flag
         if args.force_voice:
             cmd += ["--force"]
         sh(cmd, cwd=ROOT)
@@ -238,12 +251,43 @@ def main():
         sh(cmd, cwd=ROOT)
         timings.append(("music", time.time() - t))
 
+    vertical = None
+    if stage("short") and beats.get("shortCut"):
+        t = time.time()
+        cut = beats["shortCut"]
+        vid = f"{comp_id}Vertical"
+        vraw = os.path.join(REMOTION, "out", f"{vid}{suffix}.mp4")
+        cmd = ["node", "scripts/render-all.mjs", vid]
+        cmd += ["--draft"] if args.draft else [f"--scale={scale}"]
+        sh(cmd, cwd=REMOTION)
+        # the richest audio that exists: music mix > sfx mix > voice; sliced to the cut window
+        out_dir = os.path.join(proj, "output")
+        sfx_mix = os.path.join(out_dir, f"{beats.get('id', comp_id)}-sfx.mp4")
+        music = sorted(f for f in (os.listdir(out_dir) if os.path.isdir(out_dir) else [])
+                       if f.startswith(f"{beats.get('id', comp_id)}-sfx-") and f.endswith(".mp4"))
+        audio = (os.path.join(out_dir, music[0]) if music else
+                 sfx_mix if os.path.exists(sfx_mix) else
+                 voice_wav if os.path.exists(voice_wav) else None)
+        os.makedirs(out_dir, exist_ok=True)
+        vertical = os.path.join(out_dir, f"{beats.get('id', comp_id)}-vertical{suffix}.mp4")
+        dur = float(cut["end"]) - float(cut["start"])
+        if audio:
+            sh(["ffmpeg", "-y", "-v", "error", "-i", vraw, "-ss", str(cut["start"]), "-t", str(dur),
+                "-i", audio, "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+                "-af", "afade=t=in:d=0.15,afade=t=out:st=%.2f:d=0.6" % max(0, dur - 0.6),
+                "-t", str(dur), vertical], cwd=ROOT)
+            print(f"vertical -> {os.path.relpath(vertical, ROOT)}  (audio: {os.path.relpath(audio, ROOT)})")
+        else:
+            sh(["ffmpeg", "-y", "-v", "error", "-i", vraw, "-c", "copy", vertical], cwd=ROOT)
+            print(f"vertical -> {os.path.relpath(vertical, ROOT)}  (silent — no voice yet)")
+        timings.append(("short", time.time() - t))
+
     print("\n" + "-" * 46)
     for name, secs in timings:
         print(f"  {name:8s} {secs:6.1f}s" + ("   (cached)" if secs == 0.0 else ""))
     print(f"  {'TOTAL':8s} {time.time() - t_all:6.1f}s")
     print("-" * 46)
-    for label, p in (("video", video), ("voiced", voiced)):
+    for label, p in (("video", video), ("voiced", voiced), ("vertical", vertical or "")):
         if os.path.exists(p):
             print(f"  {label:8s} {os.path.relpath(p, ROOT)}")
 

@@ -13,3 +13,6 @@ export const FONT_SERIF = loadSerif('normal', { weights: ['500', '600'], subsets
 // heavy editorial serif for the vox collage engine's headlines (Publico-ish; Spectral maxes
 // at 600 and reads too light/bookish over collage layers)
 export const FONT_EDITORIAL = loadEditorial('normal', { weights: ['600', '700', '900'], subsets: ['latin'] }).fontFamily;
+// round, friendly display face for the kids-stories track (captions, question bubbles, cards)
+import { loadFont as loadKids } from '@remotion/google-fonts/Fredoka';
+export const FONT_KIDS = loadKids('normal', { weights: ['500', '600', '700'], subsets: ['latin'] }).fontFamily;

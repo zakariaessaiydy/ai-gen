@@ -9,12 +9,13 @@ import path from 'path';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const shotsDir = path.join(root, 'src', 'shots');
 
-// Optional `--type=<longs|channel|faceless|lectures>` narrows the registry to one video type's
+// Optional `--type=<longs|channel|faceless|kids|lectures>` narrows the registry to one video type's
 // shots, so each workspace's Studio only shows its own (see MIGRATION.md). Maps the shot GROUP
 // folder (src/shots/<group>/) to a type by prefix; unknown groups fall through to 'other'.
 function typeOfGroup(g) {
   if (/^video-/.test(g)) return 'channel-longs';
   if (/^short-/.test(g)) return 'faceless';
+  if (/^ks-/.test(g)) return 'kids';
   if (/^ch-/.test(g) || g === 'cover') return 'channel';
   if (/^bwa-/.test(g) || g === 'ebq') return 'lectures';
   return 'other';

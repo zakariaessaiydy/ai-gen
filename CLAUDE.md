@@ -1,6 +1,6 @@
 # CLAUDE.md — claude-faceless-shorts-creator
 
-A **faceless-shorts factory** driven by Claude Code. Three production tracks, one repo — the
+A **faceless-shorts factory** driven by Claude Code. Four production tracks, one repo — the
 right skill is picked automatically from the request:
 
 | The user asks for… | Skill | Pixels come from | Projects live in |
@@ -8,10 +8,13 @@ right skill is picked automatically from the request:
 | "make a short about X" (default) | `/make-short` | 100% TSX (Remotion animation) | `shorts/short-N-<niche>/` |
 | "make an AI video short", "blue-man video" | `/make-ai-short` | a fal video model (locked recurring character) | `ai-shorts/<series>/` |
 | "vox style / documentary / explainer short" | `/make-vox` | layered paper-collage (AI images + cutouts) | `vox-shorts/vox-N-<topic>/` |
+| "kids story / kids episode / Sammy-Oliver-Mila / kids compilation" | `/make-kids-story` | 100% TSX, **16:9**, locked recurring cast | `kids-stories/ks-N-<slug>/` |
 
-All three share the same backbone: a `beats.json` contract, ElevenLabs voice with word-exact
+All tracks share the same backbone: a `beats.json` contract, ElevenLabs voice with word-exact
 captions (`gen_voice.py`), frame-by-frame QA at phone scale, library-first SFX (`/suggest-sfx`),
-optional music bed, seamless frame-0==last-frame loops, no CTA outros. TSX crash rules live in
+optional music bed, seamless frame-0==last-frame loops (vertical tracks), no CTA outros.
+kids-stories differs on purpose: 16:9 2–4 min episodes, a spoken NEXT-episode tease instead of a loop
+(Made for Kids has no end screens), an auto-cropped 9:16 teaser, and compilations (`compile_kids.py`). TSX crash rules live in
 `/vidtsx-2d-generator`.
 
 ## Layout
@@ -21,6 +24,7 @@ tools/            Python tools. Pipeline drivers: new_short (scaffold), check_sh
                   build_short (voice→render→mux→sfx→music in one command).
                   Media: gen_voice, gen_sfx, gen_music, mix_sfx, mix_music, gen_chords,
                   gen_image, gen_clip, bakeoff_clip, cutout, capture_web, ffmpeg_path
+                  Kids: new_kids_story (scaffold), compile_kids (compilations), kids_lib (rules)
 remotion/         the Remotion project — src/lib/ (shared + niche kits incl. collage.tsx),
                   src/shots/{short-N, ai-N, vox-N}/
 media/            Remotion's public root: library/ (reusable: sfx, music, logos)
@@ -28,9 +32,10 @@ media/            Remotion's public root: library/ (reusable: sfx, music, logos)
 shorts/           TSX shorts: script.md, beats.json, sfx-plan.json each
 ai-shorts/        generative shorts: + character.json (LOCKED reference), shot sidecars, IDEAS.md
 vox-shorts/       collage shorts: + DESIGN.md (the visual language — read before any vox work)
+kids-stories/     16:9 kids episodes (beats.json holds the shot list) + CAST.md + compilations/
 brand.md          the style contract every skill reads (palette, motion, safe areas, SFX taste)
 IDEAS.md          the TSX-shorts idea bank + niche ranking
-.claude/skills/   make-short, make-ai-short, make-vox, vidtsx-2d-generator, suggest-sfx
+.claude/skills/   make-short, make-ai-short, make-vox, make-kids-story, vidtsx-2d-generator, suggest-sfx
 ```
 
 ## Conventions (hard rules)
@@ -63,6 +68,8 @@ IDEAS.md          the TSX-shorts idea bank + niche ranking
   writes labelled contact sheets), `build_short.py <project>` to build. The build order is
   **voice → render → mux**: gen_voice writes the real word times into `vo.gen.ts` that the
   composition imports, so rendering first means rendering twice.
+- **No browser download?** (sandboxed/offline machines) set `REMOTION_BROWSER_EXECUTABLE` to an
+  installed Chrome/Chromium; frames.mjs and render-all.mjs use it instead of Remotion's download.
 - **Caches you can trust:** the Remotion bundle (`remotion/out/.bundles/`, keyed on src+media),
   the render (skipped when the shot, libs and vo.gen.ts are unchanged — `--force` overrides),
   and TTS lines (keyed on engine+voice+text). Nothing re-bills or re-renders without a reason.

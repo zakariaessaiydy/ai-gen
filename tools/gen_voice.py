@@ -267,7 +267,8 @@ def emit_ts(vo, path):
         ws = ", ".join(
             "{ w: '%s', start: %s, end: %s }" % (w["w"].replace("\\", "\\\\").replace("'", "\\'"), w["start"], w["end"])
             for w in line.get("words", []))
-        lines.append(f"  {{ text: '{esc}', start: {line['start']}, end: {line['end']}, words: [{ws}] }},")
+        sp = f", speaker: '{line['speaker']}'" if line.get("speaker") else ""
+        lines.append(f"  {{ text: '{esc}', start: {line['start']}, end: {line['end']}{sp}, words: [{ws}] }},")
     lines += ["];", ""]
     body = "\n".join(lines)
     # only touch the file when it actually changed: an unchanged mtime is what lets
@@ -318,6 +319,12 @@ def main():
     # ── plan every line first, then generate the MISSING ones in parallel ────────────
     # TTS is ~3-12s of network per line; serially that is over a minute for a 13-line short.
     # Cache hits (unchanged text) cost nothing, so only genuine misses are dispatched.
+    # Per-character voices (kids-stories): a line with "speaker": "sammy" is read by
+    # beats.json "voices": {"<engine>": {"sammy": "<voice id>"}}; lines without one (narration)
+    # use --voice. The voice is part of each line's cache key, so recasting re-bills only that role.
+    cast_voices = (beats.get("voices") or {}).get(args.engine, {})
+    voice_of = lambda line: cast_voices.get(line.get("speaker"), args.voice)
+
     plan = []  # (i, line, start, window, tts_text, raw, fit)
     for i, line in enumerate(vo):
         start = float(line["start"])
@@ -325,7 +332,7 @@ def main():
         window = next_start - start - 0.05
         tts_text = line.get("tts", line["text"])  # optional tagged/phonetic variant for TTS
         h = hashlib.sha1(
-            f"{args.engine}|{args.voice}|{args.model}|{args.rate}|{tts_text}".encode()).hexdigest()[:8]
+            f"{args.engine}|{voice_of(line)}|{args.model}|{args.rate}|{tts_text}".encode()).hexdigest()[:8]
         plan.append((i, line, start, window, tts_text,
                      os.path.join(vdir, f"line-{i:02d}-{h}.mp3"),
                      os.path.join(vdir, f"line-{i:02d}-{h}-fit.wav")))
@@ -333,20 +340,20 @@ def main():
     if args.dry_run:
         print(f"{'line':4s} {'start':>6s} {'window':>6s} {'clip':>6s} {'tempo':>5s}  text")
         for i, _line, start, window, tts_text, _raw, _fit in plan:
-            print(f"{i:4d} {start:6.2f} {window:6.2f}      ?     ?  {tts_text}")
+            print(f"{i:4d} {start:6.2f} {window:6.2f}      ?     ?  [{voice_of(_line)}] {tts_text}")
         return
 
     todo = [p for p in plan
             if args.force or not os.path.exists(p[5]) or not os.path.exists(p[5] + ".words.json")]
     if todo:
         def generate(p):
-            i, _line, _start, _window, tts_text, raw, _fit = p
+            i, line, _start, _window, tts_text, raw, _fit = p
             if args.engine == "edge":
-                tts_line_edge(args.voice, tts_text, raw, args.rate)
+                tts_line_edge(voice_of(line), tts_text, raw, args.rate)
             else:
                 prev_text = vo[i - 1].get("tts", vo[i - 1]["text"]) if i > 0 else None
                 next_text = vo[i + 1].get("tts", vo[i + 1]["text"]) if i + 1 < len(vo) else None
-                tts_line(key, args.voice, args.model, tts_text, prev_text, next_text, raw)
+                tts_line(key, voice_of(line), args.model, tts_text, prev_text, next_text, raw)
             print(f"  generated line {i:02d}")
 
         t0 = time.time()

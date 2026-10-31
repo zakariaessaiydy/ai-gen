@@ -19,6 +19,8 @@ import os
 import re
 import sys
 
+from kids_lib import check_kids, is_kids
+
 # Windows consoles default to cp1252 — force UTF-8 so the report's punctuation prints
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -102,7 +104,8 @@ def check_beats(beats, cfg, proj, rep):
     total = float(fmt.get("durationSec", 0))
     fps = float(fmt.get("fps", 30))
 
-    if fmt.get("width") != 1080 or fmt.get("height") != 1920:
+    # kids-stories episodes are 16:9 — kids_lib.check_kids owns their format rule
+    if not is_kids(beats, proj) and (fmt.get("width") != 1080 or fmt.get("height") != 1920):
         rep.warn("beats.json", f"format is {fmt.get('width')}x{fmt.get('height')}, not 1080x1920")
 
     if cfg:
@@ -124,7 +127,7 @@ def check_beats(beats, cfg, proj, rep):
             rep.error(f"vo[{i}]", f"line starts at {start} but the next line starts at {nxt}")
             continue
         wps = words / window
-        if not voiced and wps > 3.0:
+        if not voiced and wps > 3.0 and not is_kids(beats, proj):  # kids: stricter, in check_kids
             rep.warn(f"vo[{i}]", f"{wps:.1f} words/sec in its window (>3.0 forces an audible "
                                  f"atempo squeeze; aim for ~2.7): {line['text'][:48]!r}")
         if end > total + 0.01:
@@ -204,6 +207,11 @@ def main():
         rep.note(f"composition: {os.path.relpath(tsx, ROOT)}")
 
     total, _fps = check_beats(beats, cfg, proj, rep)
+    if is_kids(beats, proj):
+        check_kids(beats, rep, total, os.path.dirname(tsx) if tsx else None)
+        vert = os.path.join(os.path.dirname(tsx), f"{comp_id}Vertical.tsx") if tsx else None
+        if vert and os.path.exists(vert):
+            check_tsx(vert, rep)
     check_sfx(proj, total, rep)
 
     for n in rep.notes:

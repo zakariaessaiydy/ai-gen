@@ -1,0 +1,9 @@
+{
+  "id": "animal-stories-1",
+  "title": "Animal Stories for Kids | Sammy, Oliver & Mila | Tiny Sparks",
+  "episodes": [
+    "kids-stories/ks-1-acorn"
+  ],
+  "trimNext": true,
+  "notes": "Add 4-8 finished episodes on one theme (15-60 min total). Each entry is a project path, or {\"project\": ..., \"file\": <a specific final mp4>}."
+}

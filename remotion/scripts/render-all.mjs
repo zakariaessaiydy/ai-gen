@@ -32,17 +32,19 @@ const outDir = path.join(root, 'out');
 mkdirSync(outDir, { recursive: true });
 
 const serveUrl = await getServeUrl();
+// REMOTION_BROWSER_EXECUTABLE: use an installed Chrome/Chromium instead of Remotion's download
+const browserExecutable = process.env.REMOTION_BROWSER_EXECUTABLE || null;
 
 let n = 0;
 const t0 = Date.now();
 for (const shot of manifest) {
   if (onlyIds.length && !onlyIds.includes(shot.id)) continue;
-  const composition = await selectComposition({ serveUrl, id: shot.id });
+  const composition = await selectComposition({ serveUrl, id: shot.id, browserExecutable });
 
   if (stillMode) {
     const out = path.join(outDir, `${shot.id}.png`);
     await renderStill({
-      serveUrl, composition, output: out, scale: SCALE, overwrite: true,
+      serveUrl, composition, output: out, scale: SCALE, overwrite: true, browserExecutable,
       frame: Math.floor(composition.durationInFrames * 0.6),
       imageFormat: shot.transparent ? 'png' : 'jpeg',
     });
@@ -56,7 +58,7 @@ for (const shot of manifest) {
       : undefined;
     let last = -1;
     await renderMedia({
-      serveUrl, composition, outputLocation: out, scale: SCALE, overwrite: true,
+      serveUrl, composition, outputLocation: out, scale: SCALE, overwrite: true, browserExecutable,
       codec: transparent ? 'prores' : 'h264',
       proResProfile: transparent ? '4444' : undefined,
       pixelFormat: transparent ? 'yuva444p10le' : 'yuv420p',

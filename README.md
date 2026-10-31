@@ -1,13 +1,14 @@
 # claude-faceless-shorts-creator
 
 **A faceless YouTube-Shorts factory you drive with [Claude Code](https://claude.com/claude-code).**
-Three production tracks in one repo — you just describe the video, and the right pipeline runs:
+Four production tracks in one repo — you just describe the video, and the right pipeline runs:
 
 | You say… | Track | The pixels |
 |---|---|---|
 | *"make a short about the ×11 trick"* | **TSX** (`/make-short`) | 100% code — a [Remotion](https://remotion.dev) composition, no footage, no stock |
 | *"make an AI video short with blue-man"* | **Generative** (`/make-ai-short`) | a fal video model animating a **locked recurring character** |
 | *"make a vox-style short about coffee"* | **Collage** (`/make-vox`) | Vox-documentary paper collage — AI-image layers, die-cuts, a traveling camera |
+| *"make a kids story: Sammy and the Rolling Acorn"* | **Kids stories** (`/make-kids-story`) | 16:9 2–4 min episodes with a locked recurring cast, an auto-cropped 9:16 teaser, and long themed compilations with chapters |
 
 Every track shares the same backbone: ElevenLabs voice with **word-exact synced captions**,
 frame-by-frame QA at phone scale, a reusable self-growing SFX/music library, seamless
