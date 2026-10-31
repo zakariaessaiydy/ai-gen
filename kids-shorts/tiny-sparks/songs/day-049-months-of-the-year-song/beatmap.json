@@ -1,0 +1,5039 @@
+{
+ "title": "Months of the Year Song (Tiny Sparks original)",
+ "bpm": 104.0,
+ "beatsPerBar": 4,
+ "secondsPerBeat": 0.5769230769230769,
+ "durationSec": 338.92,
+ "introBars": 2,
+ "chords": [
+  {
+   "t": 0.0,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 2.308,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 4.615,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 6.923,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 9.231,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 11.538,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 13.846,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 16.154,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 18.462,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 20.769,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 23.077,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 25.385,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 27.692,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 30.0,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 32.308,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 34.615,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 36.923,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 39.231,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 41.538,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 43.846,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 46.154,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 48.462,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 50.769,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 53.077,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 55.385,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 57.692,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 60.0,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 62.308,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 64.615,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 66.923,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 69.231,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 71.538,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 73.846,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 76.154,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 78.462,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 80.769,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 83.077,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 85.385,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 87.692,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 90.0,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 92.308,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 94.615,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 96.923,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 99.231,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 101.538,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 103.846,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 106.154,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 108.462,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 110.769,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 113.077,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 115.385,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 117.692,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 120.0,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 122.308,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 124.615,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 126.923,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 129.231,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 131.538,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 133.846,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 136.154,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 138.462,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 140.769,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 143.077,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 145.385,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 147.692,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 150.0,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 152.308,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 154.615,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 156.923,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 159.231,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 161.538,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 163.846,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 166.154,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 168.462,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 170.769,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 173.077,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 175.385,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 177.692,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 180.0,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 182.308,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 184.615,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 186.923,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 189.231,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 191.538,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 193.846,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 196.154,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 198.462,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 200.769,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 203.077,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 205.385,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 207.692,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 210.0,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 212.308,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 214.615,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 216.923,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 219.231,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 221.538,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 223.846,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 226.154,
+   "dur": 2.308,
+   "chord": "Am"
+  },
+  {
+   "t": 228.462,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 230.769,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 233.077,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 235.385,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 237.692,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 240.0,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 242.308,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 244.615,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 246.923,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 249.231,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 251.538,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 253.846,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 256.154,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 258.462,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 260.769,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 263.077,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 265.385,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 267.692,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 270.0,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 272.308,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 274.615,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 276.923,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 279.231,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 281.538,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 283.846,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 286.154,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 288.462,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 290.769,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 293.077,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 295.385,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 297.692,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 300.0,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 302.308,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 304.615,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 306.923,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 309.231,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 311.538,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 313.846,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 316.154,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 318.462,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 320.769,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 323.077,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 325.385,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 327.692,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 330.0,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 332.308,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 334.615,
+   "dur": 2.308,
+   "chord": "C"
+  }
+ ],
+ "notes": [
+  {
+   "t": 4.615,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": "Jan"
+  },
+  {
+   "t": 4.904,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": "u"
+  },
+  {
+   "t": 5.192,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "ar"
+  },
+  {
+   "t": 5.481,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "y,"
+  },
+  {
+   "t": 5.769,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Feb"
+  },
+  {
+   "t": 6.058,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "ru"
+  },
+  {
+   "t": 6.346,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "ar"
+  },
+  {
+   "t": 6.635,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "y,"
+  },
+  {
+   "t": 6.923,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "March"
+  },
+  {
+   "t": 7.5,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 7.788,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "A"
+  },
+  {
+   "t": 8.077,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "pril"
+  },
+  {
+   "t": 8.654,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "too,"
+  },
+  {
+   "t": 9.231,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "May"
+  },
+  {
+   "t": 9.808,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 10.096,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "June"
+  },
+  {
+   "t": 10.385,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "and"
+  },
+  {
+   "t": 10.673,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Ju"
+  },
+  {
+   "t": 10.962,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ly,"
+  },
+  {
+   "t": 11.538,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "Au"
+  },
+  {
+   "t": 11.827,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "gust,"
+  },
+  {
+   "t": 12.115,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "sing"
+  },
+  {
+   "t": 12.692,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "it"
+  },
+  {
+   "t": 12.981,
+   "dur": 0.865,
+   "midi": 60,
+   "syllable": "through!"
+  },
+  {
+   "t": 13.846,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Sep"
+  },
+  {
+   "t": 14.135,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "tem"
+  },
+  {
+   "t": 14.423,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ber,"
+  },
+  {
+   "t": 15.0,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Oc"
+  },
+  {
+   "t": 15.288,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "to"
+  },
+  {
+   "t": 15.577,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ber,"
+  },
+  {
+   "t": 16.154,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "No"
+  },
+  {
+   "t": 16.442,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "vem"
+  },
+  {
+   "t": 16.731,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "ber,"
+  },
+  {
+   "t": 17.308,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "De"
+  },
+  {
+   "t": 17.596,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "cem"
+  },
+  {
+   "t": 17.885,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "ber,"
+  },
+  {
+   "t": 18.462,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Twelve"
+  },
+  {
+   "t": 19.038,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "months"
+  },
+  {
+   "t": 19.327,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "in"
+  },
+  {
+   "t": 19.615,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 19.904,
+   "dur": 0.865,
+   "midi": 67,
+   "syllable": "year,"
+  },
+  {
+   "t": 20.769,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "come"
+  },
+  {
+   "t": 21.058,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "on"
+  },
+  {
+   "t": 21.346,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 21.635,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "re"
+  },
+  {
+   "t": 21.923,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "mem"
+  },
+  {
+   "t": 22.5,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "ber!"
+  },
+  {
+   "t": 23.077,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Jan"
+  },
+  {
+   "t": 23.654,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "u"
+  },
+  {
+   "t": 24.231,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "ar"
+  },
+  {
+   "t": 24.808,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "y,"
+  },
+  {
+   "t": 25.385,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Jan"
+  },
+  {
+   "t": 25.962,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "u"
+  },
+  {
+   "t": 26.538,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ar"
+  },
+  {
+   "t": 27.115,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "y!"
+  },
+  {
+   "t": 27.692,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Snow"
+  },
+  {
+   "t": 28.269,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "y,"
+  },
+  {
+   "t": 28.558,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "cold"
+  },
+  {
+   "t": 28.846,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 29.423,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "white!"
+  },
+  {
+   "t": 32.308,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Feb"
+  },
+  {
+   "t": 32.885,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ru"
+  },
+  {
+   "t": 33.462,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "ar"
+  },
+  {
+   "t": 34.038,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "y,"
+  },
+  {
+   "t": 34.615,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Feb"
+  },
+  {
+   "t": 35.192,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "ru"
+  },
+  {
+   "t": 35.769,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ar"
+  },
+  {
+   "t": 36.346,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "y!"
+  },
+  {
+   "t": 36.923,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Hearts"
+  },
+  {
+   "t": 37.5,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "and"
+  },
+  {
+   "t": 37.788,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "hugs"
+  },
+  {
+   "t": 38.077,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "for"
+  },
+  {
+   "t": 38.654,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "you!"
+  },
+  {
+   "t": 41.538,
+   "dur": 1.731,
+   "midi": 67,
+   "syllable": "March,"
+  },
+  {
+   "t": 43.846,
+   "dur": 1.731,
+   "midi": 64,
+   "syllable": "March!"
+  },
+  {
+   "t": 46.154,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Wind"
+  },
+  {
+   "t": 46.731,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "y"
+  },
+  {
+   "t": 47.019,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "kites"
+  },
+  {
+   "t": 47.308,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "fly"
+  },
+  {
+   "t": 47.885,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "high!"
+  },
+  {
+   "t": 50.769,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "A"
+  },
+  {
+   "t": 51.923,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "pril,"
+  },
+  {
+   "t": 53.077,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "A"
+  },
+  {
+   "t": 54.231,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "pril!"
+  },
+  {
+   "t": 55.385,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Rain"
+  },
+  {
+   "t": 55.962,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "drops,"
+  },
+  {
+   "t": 56.25,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "pit"
+  },
+  {
+   "t": 56.538,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ter"
+  },
+  {
+   "t": 57.115,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "pat!"
+  },
+  {
+   "t": 60.0,
+   "dur": 1.731,
+   "midi": 67,
+   "syllable": "May,"
+  },
+  {
+   "t": 62.308,
+   "dur": 1.731,
+   "midi": 64,
+   "syllable": "May!"
+  },
+  {
+   "t": 64.615,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Flow"
+  },
+  {
+   "t": 65.192,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "ers"
+  },
+  {
+   "t": 65.481,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "bloom"
+  },
+  {
+   "t": 65.769,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 66.346,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "grow!"
+  },
+  {
+   "t": 69.231,
+   "dur": 1.731,
+   "midi": 67,
+   "syllable": "June,"
+  },
+  {
+   "t": 71.538,
+   "dur": 1.731,
+   "midi": 64,
+   "syllable": "June!"
+  },
+  {
+   "t": 73.846,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Sun"
+  },
+  {
+   "t": 74.423,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "ny"
+  },
+  {
+   "t": 74.712,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "days"
+  },
+  {
+   "t": 75.0,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "are"
+  },
+  {
+   "t": 75.577,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "here!"
+  },
+  {
+   "t": 78.462,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "Ju"
+  },
+  {
+   "t": 79.615,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "ly,"
+  },
+  {
+   "t": 80.769,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "Ju"
+  },
+  {
+   "t": 81.923,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "ly!"
+  },
+  {
+   "t": 83.077,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Splash"
+  },
+  {
+   "t": 83.654,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "ing"
+  },
+  {
+   "t": 83.942,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "in"
+  },
+  {
+   "t": 84.231,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "the"
+  },
+  {
+   "t": 84.808,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "pool!"
+  },
+  {
+   "t": 87.692,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "Au"
+  },
+  {
+   "t": 88.846,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "gust,"
+  },
+  {
+   "t": 90.0,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "Au"
+  },
+  {
+   "t": 91.154,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "gust!"
+  },
+  {
+   "t": 92.308,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Sand"
+  },
+  {
+   "t": 92.885,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "y"
+  },
+  {
+   "t": 93.173,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "beach"
+  },
+  {
+   "t": 93.462,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "es,"
+  },
+  {
+   "t": 94.038,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "yay!"
+  },
+  {
+   "t": 96.923,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Sep"
+  },
+  {
+   "t": 97.5,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "tem"
+  },
+  {
+   "t": 98.077,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "ber,"
+  },
+  {
+   "t": 99.231,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Sep"
+  },
+  {
+   "t": 99.808,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "tem"
+  },
+  {
+   "t": 100.385,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "ber!"
+  },
+  {
+   "t": 101.538,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Back"
+  },
+  {
+   "t": 102.115,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "to"
+  },
+  {
+   "t": 102.404,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "school"
+  },
+  {
+   "t": 102.692,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "we"
+  },
+  {
+   "t": 103.269,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "go!"
+  },
+  {
+   "t": 106.154,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Oc"
+  },
+  {
+   "t": 106.731,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "to"
+  },
+  {
+   "t": 107.308,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "ber,"
+  },
+  {
+   "t": 108.462,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Oc"
+  },
+  {
+   "t": 109.038,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "to"
+  },
+  {
+   "t": 109.615,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "ber!"
+  },
+  {
+   "t": 110.769,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Leaves"
+  },
+  {
+   "t": 111.346,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "fall"
+  },
+  {
+   "t": 111.635,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "red"
+  },
+  {
+   "t": 111.923,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 112.5,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "brown!"
+  },
+  {
+   "t": 115.385,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "No"
+  },
+  {
+   "t": 115.962,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "vem"
+  },
+  {
+   "t": 116.538,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "ber,"
+  },
+  {
+   "t": 117.692,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "No"
+  },
+  {
+   "t": 118.269,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "vem"
+  },
+  {
+   "t": 118.846,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "ber!"
+  },
+  {
+   "t": 120.0,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Co"
+  },
+  {
+   "t": 120.577,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "zy"
+  },
+  {
+   "t": 120.865,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "sweat"
+  },
+  {
+   "t": 121.154,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "er"
+  },
+  {
+   "t": 121.731,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "days!"
+  },
+  {
+   "t": 124.615,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "De"
+  },
+  {
+   "t": 125.192,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "cem"
+  },
+  {
+   "t": 125.769,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "ber,"
+  },
+  {
+   "t": 126.923,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "De"
+  },
+  {
+   "t": 127.5,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "cem"
+  },
+  {
+   "t": 128.077,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "ber!"
+  },
+  {
+   "t": 129.231,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Twin"
+  },
+  {
+   "t": 129.808,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "kly"
+  },
+  {
+   "t": 130.096,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "lights"
+  },
+  {
+   "t": 130.385,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "at"
+  },
+  {
+   "t": 130.962,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "night!"
+  },
+  {
+   "t": 133.846,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": "Jan"
+  },
+  {
+   "t": 134.135,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": "u"
+  },
+  {
+   "t": 134.423,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "ar"
+  },
+  {
+   "t": 134.712,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "y,"
+  },
+  {
+   "t": 135.0,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Feb"
+  },
+  {
+   "t": 135.288,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "ru"
+  },
+  {
+   "t": 135.577,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "ar"
+  },
+  {
+   "t": 135.865,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "y,"
+  },
+  {
+   "t": 136.154,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "March"
+  },
+  {
+   "t": 136.731,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 137.019,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "A"
+  },
+  {
+   "t": 137.308,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "pril"
+  },
+  {
+   "t": 137.885,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "too,"
+  },
+  {
+   "t": 138.462,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "May"
+  },
+  {
+   "t": 139.038,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 139.327,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "June"
+  },
+  {
+   "t": 139.615,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "and"
+  },
+  {
+   "t": 139.904,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Ju"
+  },
+  {
+   "t": 140.192,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ly,"
+  },
+  {
+   "t": 140.769,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "Au"
+  },
+  {
+   "t": 141.058,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "gust,"
+  },
+  {
+   "t": 141.346,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "sing"
+  },
+  {
+   "t": 141.923,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "it"
+  },
+  {
+   "t": 142.212,
+   "dur": 0.865,
+   "midi": 60,
+   "syllable": "through!"
+  },
+  {
+   "t": 143.077,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Sep"
+  },
+  {
+   "t": 143.365,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "tem"
+  },
+  {
+   "t": 143.654,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ber,"
+  },
+  {
+   "t": 144.231,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Oc"
+  },
+  {
+   "t": 144.519,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "to"
+  },
+  {
+   "t": 144.808,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ber,"
+  },
+  {
+   "t": 145.385,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "No"
+  },
+  {
+   "t": 145.673,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "vem"
+  },
+  {
+   "t": 145.962,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "ber,"
+  },
+  {
+   "t": 146.538,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "De"
+  },
+  {
+   "t": 146.827,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "cem"
+  },
+  {
+   "t": 147.115,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "ber,"
+  },
+  {
+   "t": 147.692,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Twelve"
+  },
+  {
+   "t": 148.269,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "months"
+  },
+  {
+   "t": 148.558,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "in"
+  },
+  {
+   "t": 148.846,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 149.135,
+   "dur": 0.865,
+   "midi": 67,
+   "syllable": "year,"
+  },
+  {
+   "t": 150.0,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "come"
+  },
+  {
+   "t": 150.288,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "on"
+  },
+  {
+   "t": 150.577,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 150.865,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "re"
+  },
+  {
+   "t": 151.154,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "mem"
+  },
+  {
+   "t": 151.731,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "ber!"
+  },
+  {
+   "t": 152.308,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "What"
+  },
+  {
+   "t": 152.885,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "comes"
+  },
+  {
+   "t": 153.462,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "af"
+  },
+  {
+   "t": 153.75,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "ter"
+  },
+  {
+   "t": 154.038,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "March?"
+  },
+  {
+   "t": 161.538,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "A"
+  },
+  {
+   "t": 162.692,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "pril!"
+  },
+  {
+   "t": 166.154,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "What"
+  },
+  {
+   "t": 166.731,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "comes"
+  },
+  {
+   "t": 167.308,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "af"
+  },
+  {
+   "t": 167.596,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "ter"
+  },
+  {
+   "t": 167.885,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "June?"
+  },
+  {
+   "t": 175.385,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "Ju"
+  },
+  {
+   "t": 176.538,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "ly!"
+  },
+  {
+   "t": 180.0,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "What"
+  },
+  {
+   "t": 180.577,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "comes"
+  },
+  {
+   "t": 181.154,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "af"
+  },
+  {
+   "t": 181.442,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "ter"
+  },
+  {
+   "t": 181.731,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "Au"
+  },
+  {
+   "t": 182.019,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "gust?"
+  },
+  {
+   "t": 189.231,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Sep"
+  },
+  {
+   "t": 189.808,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "tem"
+  },
+  {
+   "t": 190.385,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "ber!"
+  },
+  {
+   "t": 193.846,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": "What"
+  },
+  {
+   "t": 194.135,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "comes"
+  },
+  {
+   "t": 194.423,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "af"
+  },
+  {
+   "t": 194.712,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "ter"
+  },
+  {
+   "t": 195.0,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "De"
+  },
+  {
+   "t": 195.288,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "cem"
+  },
+  {
+   "t": 195.577,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "ber?"
+  },
+  {
+   "t": 203.077,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Jan"
+  },
+  {
+   "t": 203.654,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "u"
+  },
+  {
+   "t": 204.231,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "ar"
+  },
+  {
+   "t": 204.808,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "y!"
+  },
+  {
+   "t": 207.692,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": "Jan"
+  },
+  {
+   "t": 207.981,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": "u"
+  },
+  {
+   "t": 208.269,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "ar"
+  },
+  {
+   "t": 208.558,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "y,"
+  },
+  {
+   "t": 208.846,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Feb"
+  },
+  {
+   "t": 209.135,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "ru"
+  },
+  {
+   "t": 209.423,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "ar"
+  },
+  {
+   "t": 209.712,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "y,"
+  },
+  {
+   "t": 210.0,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "March"
+  },
+  {
+   "t": 210.577,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 210.865,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "A"
+  },
+  {
+   "t": 211.154,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "pril"
+  },
+  {
+   "t": 211.731,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "too,"
+  },
+  {
+   "t": 212.308,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "May"
+  },
+  {
+   "t": 212.885,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 213.173,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "June"
+  },
+  {
+   "t": 213.462,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "and"
+  },
+  {
+   "t": 213.75,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Ju"
+  },
+  {
+   "t": 214.038,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ly,"
+  },
+  {
+   "t": 214.615,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "Au"
+  },
+  {
+   "t": 214.904,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "gust,"
+  },
+  {
+   "t": 215.192,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "sing"
+  },
+  {
+   "t": 215.769,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "it"
+  },
+  {
+   "t": 216.058,
+   "dur": 0.865,
+   "midi": 60,
+   "syllable": "through!"
+  },
+  {
+   "t": 216.923,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Sep"
+  },
+  {
+   "t": 217.212,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "tem"
+  },
+  {
+   "t": 217.5,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ber,"
+  },
+  {
+   "t": 218.077,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Oc"
+  },
+  {
+   "t": 218.365,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "to"
+  },
+  {
+   "t": 218.654,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ber,"
+  },
+  {
+   "t": 219.231,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "No"
+  },
+  {
+   "t": 219.519,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "vem"
+  },
+  {
+   "t": 219.808,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "ber,"
+  },
+  {
+   "t": 220.385,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "De"
+  },
+  {
+   "t": 220.673,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "cem"
+  },
+  {
+   "t": 220.962,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "ber,"
+  },
+  {
+   "t": 221.538,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Twelve"
+  },
+  {
+   "t": 222.115,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "months"
+  },
+  {
+   "t": 222.404,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "in"
+  },
+  {
+   "t": 222.692,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 222.981,
+   "dur": 0.865,
+   "midi": 67,
+   "syllable": "year,"
+  },
+  {
+   "t": 223.846,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "come"
+  },
+  {
+   "t": 224.135,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "on"
+  },
+  {
+   "t": 224.423,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 224.712,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "re"
+  },
+  {
+   "t": 225.0,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "mem"
+  },
+  {
+   "t": 225.577,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "ber!"
+  },
+  {
+   "t": 226.154,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "When's"
+  },
+  {
+   "t": 226.442,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "your"
+  },
+  {
+   "t": 226.731,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "birth"
+  },
+  {
+   "t": 227.019,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "day?"
+  },
+  {
+   "t": 227.308,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "Can"
+  },
+  {
+   "t": 227.596,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "you"
+  },
+  {
+   "t": 227.885,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "say?"
+  },
+  {
+   "t": 230.769,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "Shout"
+  },
+  {
+   "t": 231.058,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "your"
+  },
+  {
+   "t": 231.346,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "month,"
+  },
+  {
+   "t": 231.635,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "hip"
+  },
+  {
+   "t": 231.923,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "hip"
+  },
+  {
+   "t": 232.212,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "hoo"
+  },
+  {
+   "t": 232.5,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "ray!"
+  },
+  {
+   "t": 235.385,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 235.673,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 235.962,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 236.25,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 236.538,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 236.827,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 237.115,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 237.404,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 237.692,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 238.269,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 238.558,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 238.846,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 239.423,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 240.0,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 240.577,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 240.865,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 241.154,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 241.442,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 241.731,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 242.308,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 242.596,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 242.885,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 243.462,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 243.75,
+   "dur": 0.865,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 244.615,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 244.904,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 245.192,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 245.769,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 246.058,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 246.346,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 246.923,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 247.212,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 247.5,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 248.077,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 248.365,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 248.654,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 249.231,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 249.808,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 250.096,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 250.385,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 250.673,
+   "dur": 0.865,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 251.538,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 251.827,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 252.115,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 252.404,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 252.692,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 253.269,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 253.846,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Let's"
+  },
+  {
+   "t": 254.423,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "say"
+  },
+  {
+   "t": 255.0,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "them"
+  },
+  {
+   "t": 255.288,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "slow"
+  },
+  {
+   "t": 255.577,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ly!"
+  },
+  {
+   "t": 258.462,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Jan"
+  },
+  {
+   "t": 259.038,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "u"
+  },
+  {
+   "t": 259.615,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "ar"
+  },
+  {
+   "t": 260.192,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "y"
+  },
+  {
+   "t": 263.077,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Feb"
+  },
+  {
+   "t": 263.654,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ru"
+  },
+  {
+   "t": 264.231,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "ar"
+  },
+  {
+   "t": 264.808,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "y"
+  },
+  {
+   "t": 267.692,
+   "dur": 1.731,
+   "midi": 67,
+   "syllable": "March"
+  },
+  {
+   "t": 272.308,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "A"
+  },
+  {
+   "t": 273.462,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "pril"
+  },
+  {
+   "t": 276.923,
+   "dur": 1.731,
+   "midi": 67,
+   "syllable": "May"
+  },
+  {
+   "t": 281.538,
+   "dur": 1.731,
+   "midi": 67,
+   "syllable": "June"
+  },
+  {
+   "t": 286.154,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "Ju"
+  },
+  {
+   "t": 287.308,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "ly"
+  },
+  {
+   "t": 290.769,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "Au"
+  },
+  {
+   "t": 291.923,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "gust"
+  },
+  {
+   "t": 295.385,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Sep"
+  },
+  {
+   "t": 295.962,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "tem"
+  },
+  {
+   "t": 296.538,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "ber"
+  },
+  {
+   "t": 300.0,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Oc"
+  },
+  {
+   "t": 300.577,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "to"
+  },
+  {
+   "t": 301.154,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "ber"
+  },
+  {
+   "t": 304.615,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "No"
+  },
+  {
+   "t": 305.192,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "vem"
+  },
+  {
+   "t": 305.769,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "ber"
+  },
+  {
+   "t": 309.231,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "De"
+  },
+  {
+   "t": 309.808,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "cem"
+  },
+  {
+   "t": 310.385,
+   "dur": 1.154,
+   "midi": 67,
+   "syllable": "ber"
+  },
+  {
+   "t": 313.846,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": "Jan"
+  },
+  {
+   "t": 314.135,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": "u"
+  },
+  {
+   "t": 314.423,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "ar"
+  },
+  {
+   "t": 314.712,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "y,"
+  },
+  {
+   "t": 315.0,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Feb"
+  },
+  {
+   "t": 315.288,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "ru"
+  },
+  {
+   "t": 315.577,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "ar"
+  },
+  {
+   "t": 315.865,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "y,"
+  },
+  {
+   "t": 316.154,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "March"
+  },
+  {
+   "t": 316.731,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 317.019,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "A"
+  },
+  {
+   "t": 317.308,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "pril"
+  },
+  {
+   "t": 317.885,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "too,"
+  },
+  {
+   "t": 318.462,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "May"
+  },
+  {
+   "t": 319.038,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 319.327,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "June"
+  },
+  {
+   "t": 319.615,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "and"
+  },
+  {
+   "t": 319.904,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Ju"
+  },
+  {
+   "t": 320.192,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ly,"
+  },
+  {
+   "t": 320.769,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "Au"
+  },
+  {
+   "t": 321.058,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "gust,"
+  },
+  {
+   "t": 321.346,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "sing"
+  },
+  {
+   "t": 321.923,
+   "dur": 0.288,
+   "midi": 62,
+   "syllable": "it"
+  },
+  {
+   "t": 322.212,
+   "dur": 0.865,
+   "midi": 60,
+   "syllable": "through!"
+  },
+  {
+   "t": 323.077,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Sep"
+  },
+  {
+   "t": 323.365,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "tem"
+  },
+  {
+   "t": 323.654,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ber,"
+  },
+  {
+   "t": 324.231,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "Oc"
+  },
+  {
+   "t": 324.519,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "to"
+  },
+  {
+   "t": 324.808,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ber,"
+  },
+  {
+   "t": 325.385,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "No"
+  },
+  {
+   "t": 325.673,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "vem"
+  },
+  {
+   "t": 325.962,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "ber,"
+  },
+  {
+   "t": 326.538,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "De"
+  },
+  {
+   "t": 326.827,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "cem"
+  },
+  {
+   "t": 327.115,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "ber,"
+  },
+  {
+   "t": 327.692,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Twelve"
+  },
+  {
+   "t": 328.269,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "months"
+  },
+  {
+   "t": 328.558,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "in"
+  },
+  {
+   "t": 328.846,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 329.135,
+   "dur": 0.865,
+   "midi": 67,
+   "syllable": "year,"
+  },
+  {
+   "t": 330.0,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "come"
+  },
+  {
+   "t": 330.288,
+   "dur": 0.288,
+   "midi": 65,
+   "syllable": "on"
+  },
+  {
+   "t": 330.577,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 330.865,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "re"
+  },
+  {
+   "t": 331.154,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "mem"
+  },
+  {
+   "t": 331.731,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "ber!"
+  }
+ ],
+ "lines": [
+  {
+   "text": "January, February, March and April too,",
+   "start": 4.615,
+   "end": 9.231,
+   "words": [
+    {
+     "w": "January,",
+     "start": 4.615,
+     "end": 5.769
+    },
+    {
+     "w": "February,",
+     "start": 5.769,
+     "end": 6.923
+    },
+    {
+     "w": "March",
+     "start": 6.923,
+     "end": 7.5
+    },
+    {
+     "w": "and",
+     "start": 7.5,
+     "end": 7.788
+    },
+    {
+     "w": "April",
+     "start": 7.788,
+     "end": 8.654
+    },
+    {
+     "w": "too,",
+     "start": 8.654,
+     "end": 9.231
+    }
+   ]
+  },
+  {
+   "text": "May and June and July, August, sing it through!",
+   "start": 9.231,
+   "end": 13.846,
+   "words": [
+    {
+     "w": "May",
+     "start": 9.231,
+     "end": 9.808
+    },
+    {
+     "w": "and",
+     "start": 9.808,
+     "end": 10.096
+    },
+    {
+     "w": "June",
+     "start": 10.096,
+     "end": 10.385
+    },
+    {
+     "w": "and",
+     "start": 10.385,
+     "end": 10.673
+    },
+    {
+     "w": "July,",
+     "start": 10.673,
+     "end": 11.538
+    },
+    {
+     "w": "August,",
+     "start": 11.538,
+     "end": 12.115
+    },
+    {
+     "w": "sing",
+     "start": 12.115,
+     "end": 12.692
+    },
+    {
+     "w": "it",
+     "start": 12.692,
+     "end": 12.981
+    },
+    {
+     "w": "through!",
+     "start": 12.981,
+     "end": 13.846
+    }
+   ]
+  },
+  {
+   "text": "September, October, November, December,",
+   "start": 13.846,
+   "end": 18.462,
+   "words": [
+    {
+     "w": "September,",
+     "start": 13.846,
+     "end": 15.0
+    },
+    {
+     "w": "October,",
+     "start": 15.0,
+     "end": 16.154
+    },
+    {
+     "w": "November,",
+     "start": 16.154,
+     "end": 17.308
+    },
+    {
+     "w": "December,",
+     "start": 17.308,
+     "end": 18.462
+    }
+   ]
+  },
+  {
+   "text": "Twelve months in a year, come on and remember!",
+   "start": 18.462,
+   "end": 23.077,
+   "words": [
+    {
+     "w": "Twelve",
+     "start": 18.462,
+     "end": 19.038
+    },
+    {
+     "w": "months",
+     "start": 19.038,
+     "end": 19.327
+    },
+    {
+     "w": "in",
+     "start": 19.327,
+     "end": 19.615
+    },
+    {
+     "w": "a",
+     "start": 19.615,
+     "end": 19.904
+    },
+    {
+     "w": "year,",
+     "start": 19.904,
+     "end": 20.769
+    },
+    {
+     "w": "come",
+     "start": 20.769,
+     "end": 21.058
+    },
+    {
+     "w": "on",
+     "start": 21.058,
+     "end": 21.346
+    },
+    {
+     "w": "and",
+     "start": 21.346,
+     "end": 21.635
+    },
+    {
+     "w": "remember!",
+     "start": 21.635,
+     "end": 23.077
+    }
+   ]
+  },
+  {
+   "text": "January,",
+   "start": 23.077,
+   "end": 25.385,
+   "words": [
+    {
+     "w": "January,",
+     "start": 23.077,
+     "end": 25.385
+    }
+   ]
+  },
+  {
+   "text": "January!",
+   "start": 25.385,
+   "end": 27.692,
+   "words": [
+    {
+     "w": "January!",
+     "start": 25.385,
+     "end": 27.692
+    }
+   ]
+  },
+  {
+   "text": "Snowy, cold and white!",
+   "start": 27.692,
+   "end": 30.0,
+   "words": [
+    {
+     "w": "Snowy,",
+     "start": 27.692,
+     "end": 28.558
+    },
+    {
+     "w": "cold",
+     "start": 28.558,
+     "end": 28.846
+    },
+    {
+     "w": "and",
+     "start": 28.846,
+     "end": 29.423
+    },
+    {
+     "w": "white!",
+     "start": 29.423,
+     "end": 30.0
+    }
+   ]
+  },
+  {
+   "text": "February,",
+   "start": 32.308,
+   "end": 34.615,
+   "words": [
+    {
+     "w": "February,",
+     "start": 32.308,
+     "end": 34.615
+    }
+   ]
+  },
+  {
+   "text": "February!",
+   "start": 34.615,
+   "end": 36.923,
+   "words": [
+    {
+     "w": "February!",
+     "start": 34.615,
+     "end": 36.923
+    }
+   ]
+  },
+  {
+   "text": "Hearts and hugs for you!",
+   "start": 36.923,
+   "end": 39.231,
+   "words": [
+    {
+     "w": "Hearts",
+     "start": 36.923,
+     "end": 37.5
+    },
+    {
+     "w": "and",
+     "start": 37.5,
+     "end": 37.788
+    },
+    {
+     "w": "hugs",
+     "start": 37.788,
+     "end": 38.077
+    },
+    {
+     "w": "for",
+     "start": 38.077,
+     "end": 38.654
+    },
+    {
+     "w": "you!",
+     "start": 38.654,
+     "end": 39.231
+    }
+   ]
+  },
+  {
+   "text": "March,",
+   "start": 41.538,
+   "end": 43.269,
+   "words": [
+    {
+     "w": "March,",
+     "start": 41.538,
+     "end": 43.269
+    }
+   ]
+  },
+  {
+   "text": "March!",
+   "start": 43.846,
+   "end": 45.577,
+   "words": [
+    {
+     "w": "March!",
+     "start": 43.846,
+     "end": 45.577
+    }
+   ]
+  },
+  {
+   "text": "Windy kites fly high!",
+   "start": 46.154,
+   "end": 48.462,
+   "words": [
+    {
+     "w": "Windy",
+     "start": 46.154,
+     "end": 47.019
+    },
+    {
+     "w": "kites",
+     "start": 47.019,
+     "end": 47.308
+    },
+    {
+     "w": "fly",
+     "start": 47.308,
+     "end": 47.885
+    },
+    {
+     "w": "high!",
+     "start": 47.885,
+     "end": 48.462
+    }
+   ]
+  },
+  {
+   "text": "April,",
+   "start": 50.769,
+   "end": 53.077,
+   "words": [
+    {
+     "w": "April,",
+     "start": 50.769,
+     "end": 53.077
+    }
+   ]
+  },
+  {
+   "text": "April!",
+   "start": 53.077,
+   "end": 55.385,
+   "words": [
+    {
+     "w": "April!",
+     "start": 53.077,
+     "end": 55.385
+    }
+   ]
+  },
+  {
+   "text": "Raindrops, pitter pat!",
+   "start": 55.385,
+   "end": 57.692,
+   "words": [
+    {
+     "w": "Raindrops,",
+     "start": 55.385,
+     "end": 56.25
+    },
+    {
+     "w": "pitter",
+     "start": 56.25,
+     "end": 57.115
+    },
+    {
+     "w": "pat!",
+     "start": 57.115,
+     "end": 57.692
+    }
+   ]
+  },
+  {
+   "text": "May,",
+   "start": 60.0,
+   "end": 61.731,
+   "words": [
+    {
+     "w": "May,",
+     "start": 60.0,
+     "end": 61.731
+    }
+   ]
+  },
+  {
+   "text": "May!",
+   "start": 62.308,
+   "end": 64.038,
+   "words": [
+    {
+     "w": "May!",
+     "start": 62.308,
+     "end": 64.038
+    }
+   ]
+  },
+  {
+   "text": "Flowers bloom and grow!",
+   "start": 64.615,
+   "end": 66.923,
+   "words": [
+    {
+     "w": "Flowers",
+     "start": 64.615,
+     "end": 65.481
+    },
+    {
+     "w": "bloom",
+     "start": 65.481,
+     "end": 65.769
+    },
+    {
+     "w": "and",
+     "start": 65.769,
+     "end": 66.346
+    },
+    {
+     "w": "grow!",
+     "start": 66.346,
+     "end": 66.923
+    }
+   ]
+  },
+  {
+   "text": "June,",
+   "start": 69.231,
+   "end": 70.962,
+   "words": [
+    {
+     "w": "June,",
+     "start": 69.231,
+     "end": 70.962
+    }
+   ]
+  },
+  {
+   "text": "June!",
+   "start": 71.538,
+   "end": 73.269,
+   "words": [
+    {
+     "w": "June!",
+     "start": 71.538,
+     "end": 73.269
+    }
+   ]
+  },
+  {
+   "text": "Sunny days are here!",
+   "start": 73.846,
+   "end": 76.154,
+   "words": [
+    {
+     "w": "Sunny",
+     "start": 73.846,
+     "end": 74.712
+    },
+    {
+     "w": "days",
+     "start": 74.712,
+     "end": 75.0
+    },
+    {
+     "w": "are",
+     "start": 75.0,
+     "end": 75.577
+    },
+    {
+     "w": "here!",
+     "start": 75.577,
+     "end": 76.154
+    }
+   ]
+  },
+  {
+   "text": "July,",
+   "start": 78.462,
+   "end": 80.769,
+   "words": [
+    {
+     "w": "July,",
+     "start": 78.462,
+     "end": 80.769
+    }
+   ]
+  },
+  {
+   "text": "July!",
+   "start": 80.769,
+   "end": 83.077,
+   "words": [
+    {
+     "w": "July!",
+     "start": 80.769,
+     "end": 83.077
+    }
+   ]
+  },
+  {
+   "text": "Splashing in the pool!",
+   "start": 83.077,
+   "end": 85.385,
+   "words": [
+    {
+     "w": "Splashing",
+     "start": 83.077,
+     "end": 83.942
+    },
+    {
+     "w": "in",
+     "start": 83.942,
+     "end": 84.231
+    },
+    {
+     "w": "the",
+     "start": 84.231,
+     "end": 84.808
+    },
+    {
+     "w": "pool!",
+     "start": 84.808,
+     "end": 85.385
+    }
+   ]
+  },
+  {
+   "text": "August,",
+   "start": 87.692,
+   "end": 90.0,
+   "words": [
+    {
+     "w": "August,",
+     "start": 87.692,
+     "end": 90.0
+    }
+   ]
+  },
+  {
+   "text": "August!",
+   "start": 90.0,
+   "end": 92.308,
+   "words": [
+    {
+     "w": "August!",
+     "start": 90.0,
+     "end": 92.308
+    }
+   ]
+  },
+  {
+   "text": "Sandy beaches, yay!",
+   "start": 92.308,
+   "end": 94.615,
+   "words": [
+    {
+     "w": "Sandy",
+     "start": 92.308,
+     "end": 93.173
+    },
+    {
+     "w": "beaches,",
+     "start": 93.173,
+     "end": 94.038
+    },
+    {
+     "w": "yay!",
+     "start": 94.038,
+     "end": 94.615
+    }
+   ]
+  },
+  {
+   "text": "September,",
+   "start": 96.923,
+   "end": 99.231,
+   "words": [
+    {
+     "w": "September,",
+     "start": 96.923,
+     "end": 99.231
+    }
+   ]
+  },
+  {
+   "text": "September!",
+   "start": 99.231,
+   "end": 101.538,
+   "words": [
+    {
+     "w": "September!",
+     "start": 99.231,
+     "end": 101.538
+    }
+   ]
+  },
+  {
+   "text": "Back to school we go!",
+   "start": 101.538,
+   "end": 103.846,
+   "words": [
+    {
+     "w": "Back",
+     "start": 101.538,
+     "end": 102.115
+    },
+    {
+     "w": "to",
+     "start": 102.115,
+     "end": 102.404
+    },
+    {
+     "w": "school",
+     "start": 102.404,
+     "end": 102.692
+    },
+    {
+     "w": "we",
+     "start": 102.692,
+     "end": 103.269
+    },
+    {
+     "w": "go!",
+     "start": 103.269,
+     "end": 103.846
+    }
+   ]
+  },
+  {
+   "text": "October,",
+   "start": 106.154,
+   "end": 108.462,
+   "words": [
+    {
+     "w": "October,",
+     "start": 106.154,
+     "end": 108.462
+    }
+   ]
+  },
+  {
+   "text": "October!",
+   "start": 108.462,
+   "end": 110.769,
+   "words": [
+    {
+     "w": "October!",
+     "start": 108.462,
+     "end": 110.769
+    }
+   ]
+  },
+  {
+   "text": "Leaves fall red and brown!",
+   "start": 110.769,
+   "end": 113.077,
+   "words": [
+    {
+     "w": "Leaves",
+     "start": 110.769,
+     "end": 111.346
+    },
+    {
+     "w": "fall",
+     "start": 111.346,
+     "end": 111.635
+    },
+    {
+     "w": "red",
+     "start": 111.635,
+     "end": 111.923
+    },
+    {
+     "w": "and",
+     "start": 111.923,
+     "end": 112.5
+    },
+    {
+     "w": "brown!",
+     "start": 112.5,
+     "end": 113.077
+    }
+   ]
+  },
+  {
+   "text": "November,",
+   "start": 115.385,
+   "end": 117.692,
+   "words": [
+    {
+     "w": "November,",
+     "start": 115.385,
+     "end": 117.692
+    }
+   ]
+  },
+  {
+   "text": "November!",
+   "start": 117.692,
+   "end": 120.0,
+   "words": [
+    {
+     "w": "November!",
+     "start": 117.692,
+     "end": 120.0
+    }
+   ]
+  },
+  {
+   "text": "Cozy sweater days!",
+   "start": 120.0,
+   "end": 122.308,
+   "words": [
+    {
+     "w": "Cozy",
+     "start": 120.0,
+     "end": 120.865
+    },
+    {
+     "w": "sweater",
+     "start": 120.865,
+     "end": 121.731
+    },
+    {
+     "w": "days!",
+     "start": 121.731,
+     "end": 122.308
+    }
+   ]
+  },
+  {
+   "text": "December,",
+   "start": 124.615,
+   "end": 126.923,
+   "words": [
+    {
+     "w": "December,",
+     "start": 124.615,
+     "end": 126.923
+    }
+   ]
+  },
+  {
+   "text": "December!",
+   "start": 126.923,
+   "end": 129.231,
+   "words": [
+    {
+     "w": "December!",
+     "start": 126.923,
+     "end": 129.231
+    }
+   ]
+  },
+  {
+   "text": "Twinkly lights at night!",
+   "start": 129.231,
+   "end": 131.538,
+   "words": [
+    {
+     "w": "Twinkly",
+     "start": 129.231,
+     "end": 130.096
+    },
+    {
+     "w": "lights",
+     "start": 130.096,
+     "end": 130.385
+    },
+    {
+     "w": "at",
+     "start": 130.385,
+     "end": 130.962
+    },
+    {
+     "w": "night!",
+     "start": 130.962,
+     "end": 131.538
+    }
+   ]
+  },
+  {
+   "text": "January, February, March and April too,",
+   "start": 133.846,
+   "end": 138.462,
+   "words": [
+    {
+     "w": "January,",
+     "start": 133.846,
+     "end": 135.0
+    },
+    {
+     "w": "February,",
+     "start": 135.0,
+     "end": 136.154
+    },
+    {
+     "w": "March",
+     "start": 136.154,
+     "end": 136.731
+    },
+    {
+     "w": "and",
+     "start": 136.731,
+     "end": 137.019
+    },
+    {
+     "w": "April",
+     "start": 137.019,
+     "end": 137.885
+    },
+    {
+     "w": "too,",
+     "start": 137.885,
+     "end": 138.462
+    }
+   ]
+  },
+  {
+   "text": "May and June and July, August, sing it through!",
+   "start": 138.462,
+   "end": 143.077,
+   "words": [
+    {
+     "w": "May",
+     "start": 138.462,
+     "end": 139.038
+    },
+    {
+     "w": "and",
+     "start": 139.038,
+     "end": 139.327
+    },
+    {
+     "w": "June",
+     "start": 139.327,
+     "end": 139.615
+    },
+    {
+     "w": "and",
+     "start": 139.615,
+     "end": 139.904
+    },
+    {
+     "w": "July,",
+     "start": 139.904,
+     "end": 140.769
+    },
+    {
+     "w": "August,",
+     "start": 140.769,
+     "end": 141.346
+    },
+    {
+     "w": "sing",
+     "start": 141.346,
+     "end": 141.923
+    },
+    {
+     "w": "it",
+     "start": 141.923,
+     "end": 142.212
+    },
+    {
+     "w": "through!",
+     "start": 142.212,
+     "end": 143.077
+    }
+   ]
+  },
+  {
+   "text": "September, October, November, December,",
+   "start": 143.077,
+   "end": 147.692,
+   "words": [
+    {
+     "w": "September,",
+     "start": 143.077,
+     "end": 144.231
+    },
+    {
+     "w": "October,",
+     "start": 144.231,
+     "end": 145.385
+    },
+    {
+     "w": "November,",
+     "start": 145.385,
+     "end": 146.538
+    },
+    {
+     "w": "December,",
+     "start": 146.538,
+     "end": 147.692
+    }
+   ]
+  },
+  {
+   "text": "Twelve months in a year, come on and remember!",
+   "start": 147.692,
+   "end": 152.308,
+   "words": [
+    {
+     "w": "Twelve",
+     "start": 147.692,
+     "end": 148.269
+    },
+    {
+     "w": "months",
+     "start": 148.269,
+     "end": 148.558
+    },
+    {
+     "w": "in",
+     "start": 148.558,
+     "end": 148.846
+    },
+    {
+     "w": "a",
+     "start": 148.846,
+     "end": 149.135
+    },
+    {
+     "w": "year,",
+     "start": 149.135,
+     "end": 150.0
+    },
+    {
+     "w": "come",
+     "start": 150.0,
+     "end": 150.288
+    },
+    {
+     "w": "on",
+     "start": 150.288,
+     "end": 150.577
+    },
+    {
+     "w": "and",
+     "start": 150.577,
+     "end": 150.865
+    },
+    {
+     "w": "remember!",
+     "start": 150.865,
+     "end": 152.308
+    }
+   ]
+  },
+  {
+   "text": "What comes after March?",
+   "start": 152.308,
+   "end": 154.615,
+   "words": [
+    {
+     "w": "What",
+     "start": 152.308,
+     "end": 152.885
+    },
+    {
+     "w": "comes",
+     "start": 152.885,
+     "end": 153.462
+    },
+    {
+     "w": "after",
+     "start": 153.462,
+     "end": 154.038
+    },
+    {
+     "w": "March?",
+     "start": 154.038,
+     "end": 154.615
+    }
+   ]
+  },
+  {
+   "text": "April!",
+   "start": 161.538,
+   "end": 163.846,
+   "words": [
+    {
+     "w": "April!",
+     "start": 161.538,
+     "end": 163.846
+    }
+   ]
+  },
+  {
+   "text": "What comes after June?",
+   "start": 166.154,
+   "end": 168.462,
+   "words": [
+    {
+     "w": "What",
+     "start": 166.154,
+     "end": 166.731
+    },
+    {
+     "w": "comes",
+     "start": 166.731,
+     "end": 167.308
+    },
+    {
+     "w": "after",
+     "start": 167.308,
+     "end": 167.885
+    },
+    {
+     "w": "June?",
+     "start": 167.885,
+     "end": 168.462
+    }
+   ]
+  },
+  {
+   "text": "July!",
+   "start": 175.385,
+   "end": 177.692,
+   "words": [
+    {
+     "w": "July!",
+     "start": 175.385,
+     "end": 177.692
+    }
+   ]
+  },
+  {
+   "text": "What comes after August?",
+   "start": 180.0,
+   "end": 182.308,
+   "words": [
+    {
+     "w": "What",
+     "start": 180.0,
+     "end": 180.577
+    },
+    {
+     "w": "comes",
+     "start": 180.577,
+     "end": 181.154
+    },
+    {
+     "w": "after",
+     "start": 181.154,
+     "end": 181.731
+    },
+    {
+     "w": "August?",
+     "start": 181.731,
+     "end": 182.308
+    }
+   ]
+  },
+  {
+   "text": "September!",
+   "start": 189.231,
+   "end": 191.538,
+   "words": [
+    {
+     "w": "September!",
+     "start": 189.231,
+     "end": 191.538
+    }
+   ]
+  },
+  {
+   "text": "What comes after December?",
+   "start": 193.846,
+   "end": 196.154,
+   "words": [
+    {
+     "w": "What",
+     "start": 193.846,
+     "end": 194.135
+    },
+    {
+     "w": "comes",
+     "start": 194.135,
+     "end": 194.423
+    },
+    {
+     "w": "after",
+     "start": 194.423,
+     "end": 195.0
+    },
+    {
+     "w": "December?",
+     "start": 195.0,
+     "end": 196.154
+    }
+   ]
+  },
+  {
+   "text": "January!",
+   "start": 203.077,
+   "end": 205.385,
+   "words": [
+    {
+     "w": "January!",
+     "start": 203.077,
+     "end": 205.385
+    }
+   ]
+  },
+  {
+   "text": "January, February, March and April too,",
+   "start": 207.692,
+   "end": 212.308,
+   "words": [
+    {
+     "w": "January,",
+     "start": 207.692,
+     "end": 208.846
+    },
+    {
+     "w": "February,",
+     "start": 208.846,
+     "end": 210.0
+    },
+    {
+     "w": "March",
+     "start": 210.0,
+     "end": 210.577
+    },
+    {
+     "w": "and",
+     "start": 210.577,
+     "end": 210.865
+    },
+    {
+     "w": "April",
+     "start": 210.865,
+     "end": 211.731
+    },
+    {
+     "w": "too,",
+     "start": 211.731,
+     "end": 212.308
+    }
+   ]
+  },
+  {
+   "text": "May and June and July, August, sing it through!",
+   "start": 212.308,
+   "end": 216.923,
+   "words": [
+    {
+     "w": "May",
+     "start": 212.308,
+     "end": 212.885
+    },
+    {
+     "w": "and",
+     "start": 212.885,
+     "end": 213.173
+    },
+    {
+     "w": "June",
+     "start": 213.173,
+     "end": 213.462
+    },
+    {
+     "w": "and",
+     "start": 213.462,
+     "end": 213.75
+    },
+    {
+     "w": "July,",
+     "start": 213.75,
+     "end": 214.615
+    },
+    {
+     "w": "August,",
+     "start": 214.615,
+     "end": 215.192
+    },
+    {
+     "w": "sing",
+     "start": 215.192,
+     "end": 215.769
+    },
+    {
+     "w": "it",
+     "start": 215.769,
+     "end": 216.058
+    },
+    {
+     "w": "through!",
+     "start": 216.058,
+     "end": 216.923
+    }
+   ]
+  },
+  {
+   "text": "September, October, November, December,",
+   "start": 216.923,
+   "end": 221.538,
+   "words": [
+    {
+     "w": "September,",
+     "start": 216.923,
+     "end": 218.077
+    },
+    {
+     "w": "October,",
+     "start": 218.077,
+     "end": 219.231
+    },
+    {
+     "w": "November,",
+     "start": 219.231,
+     "end": 220.385
+    },
+    {
+     "w": "December,",
+     "start": 220.385,
+     "end": 221.538
+    }
+   ]
+  },
+  {
+   "text": "Twelve months in a year, come on and remember!",
+   "start": 221.538,
+   "end": 226.154,
+   "words": [
+    {
+     "w": "Twelve",
+     "start": 221.538,
+     "end": 222.115
+    },
+    {
+     "w": "months",
+     "start": 222.115,
+     "end": 222.404
+    },
+    {
+     "w": "in",
+     "start": 222.404,
+     "end": 222.692
+    },
+    {
+     "w": "a",
+     "start": 222.692,
+     "end": 222.981
+    },
+    {
+     "w": "year,",
+     "start": 222.981,
+     "end": 223.846
+    },
+    {
+     "w": "come",
+     "start": 223.846,
+     "end": 224.135
+    },
+    {
+     "w": "on",
+     "start": 224.135,
+     "end": 224.423
+    },
+    {
+     "w": "and",
+     "start": 224.423,
+     "end": 224.712
+    },
+    {
+     "w": "remember!",
+     "start": 224.712,
+     "end": 226.154
+    }
+   ]
+  },
+  {
+   "text": "When's your birthday? Can you say?",
+   "start": 226.154,
+   "end": 228.462,
+   "words": [
+    {
+     "w": "When's",
+     "start": 226.154,
+     "end": 226.442
+    },
+    {
+     "w": "your",
+     "start": 226.442,
+     "end": 226.731
+    },
+    {
+     "w": "birthday?",
+     "start": 226.731,
+     "end": 227.308
+    },
+    {
+     "w": "Can",
+     "start": 227.308,
+     "end": 227.596
+    },
+    {
+     "w": "you",
+     "start": 227.596,
+     "end": 227.885
+    },
+    {
+     "w": "say?",
+     "start": 227.885,
+     "end": 228.462
+    }
+   ]
+  },
+  {
+   "text": "Shout your month, hip hip hooray!",
+   "start": 230.769,
+   "end": 233.077,
+   "words": [
+    {
+     "w": "Shout",
+     "start": 230.769,
+     "end": 231.058
+    },
+    {
+     "w": "your",
+     "start": 231.058,
+     "end": 231.346
+    },
+    {
+     "w": "month,",
+     "start": 231.346,
+     "end": 231.635
+    },
+    {
+     "w": "hip",
+     "start": 231.635,
+     "end": 231.923
+    },
+    {
+     "w": "hip",
+     "start": 231.923,
+     "end": 232.212
+    },
+    {
+     "w": "hooray!",
+     "start": 232.212,
+     "end": 233.077
+    }
+   ]
+  },
+  {
+   "text": "Let's say them slowly!",
+   "start": 253.846,
+   "end": 256.154,
+   "words": [
+    {
+     "w": "Let's",
+     "start": 253.846,
+     "end": 254.423
+    },
+    {
+     "w": "say",
+     "start": 254.423,
+     "end": 255.0
+    },
+    {
+     "w": "them",
+     "start": 255.0,
+     "end": 255.288
+    },
+    {
+     "w": "slowly!",
+     "start": 255.288,
+     "end": 256.154
+    }
+   ]
+  },
+  {
+   "text": "January",
+   "start": 258.462,
+   "end": 260.769,
+   "words": [
+    {
+     "w": "January",
+     "start": 258.462,
+     "end": 260.769
+    }
+   ]
+  },
+  {
+   "text": "February",
+   "start": 263.077,
+   "end": 265.385,
+   "words": [
+    {
+     "w": "February",
+     "start": 263.077,
+     "end": 265.385
+    }
+   ]
+  },
+  {
+   "text": "March",
+   "start": 267.692,
+   "end": 269.423,
+   "words": [
+    {
+     "w": "March",
+     "start": 267.692,
+     "end": 269.423
+    }
+   ]
+  },
+  {
+   "text": "April",
+   "start": 272.308,
+   "end": 274.615,
+   "words": [
+    {
+     "w": "April",
+     "start": 272.308,
+     "end": 274.615
+    }
+   ]
+  },
+  {
+   "text": "May",
+   "start": 276.923,
+   "end": 278.654,
+   "words": [
+    {
+     "w": "May",
+     "start": 276.923,
+     "end": 278.654
+    }
+   ]
+  },
+  {
+   "text": "June",
+   "start": 281.538,
+   "end": 283.269,
+   "words": [
+    {
+     "w": "June",
+     "start": 281.538,
+     "end": 283.269
+    }
+   ]
+  },
+  {
+   "text": "July",
+   "start": 286.154,
+   "end": 288.462,
+   "words": [
+    {
+     "w": "July",
+     "start": 286.154,
+     "end": 288.462
+    }
+   ]
+  },
+  {
+   "text": "August",
+   "start": 290.769,
+   "end": 293.077,
+   "words": [
+    {
+     "w": "August",
+     "start": 290.769,
+     "end": 293.077
+    }
+   ]
+  },
+  {
+   "text": "September",
+   "start": 295.385,
+   "end": 297.692,
+   "words": [
+    {
+     "w": "September",
+     "start": 295.385,
+     "end": 297.692
+    }
+   ]
+  },
+  {
+   "text": "October",
+   "start": 300.0,
+   "end": 302.308,
+   "words": [
+    {
+     "w": "October",
+     "start": 300.0,
+     "end": 302.308
+    }
+   ]
+  },
+  {
+   "text": "November",
+   "start": 304.615,
+   "end": 306.923,
+   "words": [
+    {
+     "w": "November",
+     "start": 304.615,
+     "end": 306.923
+    }
+   ]
+  },
+  {
+   "text": "December",
+   "start": 309.231,
+   "end": 311.538,
+   "words": [
+    {
+     "w": "December",
+     "start": 309.231,
+     "end": 311.538
+    }
+   ]
+  },
+  {
+   "text": "January, February, March and April too,",
+   "start": 313.846,
+   "end": 318.462,
+   "words": [
+    {
+     "w": "January,",
+     "start": 313.846,
+     "end": 315.0
+    },
+    {
+     "w": "February,",
+     "start": 315.0,
+     "end": 316.154
+    },
+    {
+     "w": "March",
+     "start": 316.154,
+     "end": 316.731
+    },
+    {
+     "w": "and",
+     "start": 316.731,
+     "end": 317.019
+    },
+    {
+     "w": "April",
+     "start": 317.019,
+     "end": 317.885
+    },
+    {
+     "w": "too,",
+     "start": 317.885,
+     "end": 318.462
+    }
+   ]
+  },
+  {
+   "text": "May and June and July, August, sing it through!",
+   "start": 318.462,
+   "end": 323.077,
+   "words": [
+    {
+     "w": "May",
+     "start": 318.462,
+     "end": 319.038
+    },
+    {
+     "w": "and",
+     "start": 319.038,
+     "end": 319.327
+    },
+    {
+     "w": "June",
+     "start": 319.327,
+     "end": 319.615
+    },
+    {
+     "w": "and",
+     "start": 319.615,
+     "end": 319.904
+    },
+    {
+     "w": "July,",
+     "start": 319.904,
+     "end": 320.769
+    },
+    {
+     "w": "August,",
+     "start": 320.769,
+     "end": 321.346
+    },
+    {
+     "w": "sing",
+     "start": 321.346,
+     "end": 321.923
+    },
+    {
+     "w": "it",
+     "start": 321.923,
+     "end": 322.212
+    },
+    {
+     "w": "through!",
+     "start": 322.212,
+     "end": 323.077
+    }
+   ]
+  },
+  {
+   "text": "September, October, November, December,",
+   "start": 323.077,
+   "end": 327.692,
+   "words": [
+    {
+     "w": "September,",
+     "start": 323.077,
+     "end": 324.231
+    },
+    {
+     "w": "October,",
+     "start": 324.231,
+     "end": 325.385
+    },
+    {
+     "w": "November,",
+     "start": 325.385,
+     "end": 326.538
+    },
+    {
+     "w": "December,",
+     "start": 326.538,
+     "end": 327.692
+    }
+   ]
+  },
+  {
+   "text": "Twelve months in a year, come on and remember!",
+   "start": 327.692,
+   "end": 332.308,
+   "words": [
+    {
+     "w": "Twelve",
+     "start": 327.692,
+     "end": 328.269
+    },
+    {
+     "w": "months",
+     "start": 328.269,
+     "end": 328.558
+    },
+    {
+     "w": "in",
+     "start": 328.558,
+     "end": 328.846
+    },
+    {
+     "w": "a",
+     "start": 328.846,
+     "end": 329.135
+    },
+    {
+     "w": "year,",
+     "start": 329.135,
+     "end": 330.0
+    },
+    {
+     "w": "come",
+     "start": 330.0,
+     "end": 330.288
+    },
+    {
+     "w": "on",
+     "start": 330.288,
+     "end": 330.577
+    },
+    {
+     "w": "and",
+     "start": 330.577,
+     "end": 330.865
+    },
+    {
+     "w": "remember!",
+     "start": 330.865,
+     "end": 332.308
+    }
+   ]
+  }
+ ]
+}

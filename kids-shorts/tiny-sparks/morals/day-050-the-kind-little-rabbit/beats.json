@@ -1,0 +1,3674 @@
+{
+  "id": "day-050",
+  "series": "tiny-sparks",
+  "episode": 50,
+  "title": "The Kind Little Rabbit",
+  "composition": "KidsMorals050",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 303.8
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-8%"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "ruby": {
+      "kokoro": "af_nova:0.5+bf_lily:0.5",
+      "rate": "-4%"
+    },
+    "milo": {
+      "kokoro": "am_puck:0.6+af_sky:0.4",
+      "rate": "-2%"
+    },
+    "tilly": {
+      "kokoro": "af_sky:0.5+bf_isabella:0.5",
+      "rate": "-2%"
+    },
+    "tom": {
+      "kokoro": "am_onyx",
+      "rate": "-10%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -7,
+    "duck": 8,
+    "start": 3.7,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "intro",
+      "speaker": "narrator",
+      "text": "Once upon a time, in a big green forest, there lived a little rabbit called Ruby.",
+      "gap": 1.4,
+      "start": 3.9,
+      "end": 8.7,
+      "words": [
+        {
+          "w": "Once",
+          "start": 3.94,
+          "end": 4.222
+        },
+        {
+          "w": "upon",
+          "start": 4.222,
+          "end": 4.559
+        },
+        {
+          "w": "a",
+          "start": 4.559,
+          "end": 4.728
+        },
+        {
+          "w": "time,",
+          "start": 4.728,
+          "end": 5.01
+        },
+        {
+          "w": "in",
+          "start": 5.24,
+          "end": 5.401
+        },
+        {
+          "w": "a",
+          "start": 5.401,
+          "end": 5.562
+        },
+        {
+          "w": "big",
+          "start": 5.562,
+          "end": 5.777
+        },
+        {
+          "w": "green",
+          "start": 5.777,
+          "end": 6.1
+        },
+        {
+          "w": "forest,",
+          "start": 6.1,
+          "end": 6.53
+        },
+        {
+          "w": "there",
+          "start": 6.85,
+          "end": 7.046
+        },
+        {
+          "w": "lived",
+          "start": 7.046,
+          "end": 7.29
+        },
+        {
+          "w": "a",
+          "start": 7.29,
+          "end": 7.437
+        },
+        {
+          "w": "little",
+          "start": 7.437,
+          "end": 7.73
+        },
+        {
+          "w": "rabbit",
+          "start": 7.73,
+          "end": 8.023
+        },
+        {
+          "w": "called",
+          "start": 8.023,
+          "end": 8.317
+        },
+        {
+          "w": "Ruby.",
+          "start": 8.317,
+          "end": 8.61
+        }
+      ]
+    },
+    {
+      "beat": "ruby_hi",
+      "speaker": "ruby",
+      "text": "Hello! I'm Ruby! Today is Bobo's big picnic party!",
+      "gap": 1.2,
+      "start": 10.1,
+      "end": 13.55,
+      "words": [
+        {
+          "w": "Hello!",
+          "start": 10.12,
+          "end": 10.52
+        },
+        {
+          "w": "I'm",
+          "start": 10.52,
+          "end": 10.721
+        },
+        {
+          "w": "Ruby!",
+          "start": 10.721,
+          "end": 11.121
+        },
+        {
+          "w": "Today",
+          "start": 11.121,
+          "end": 11.521
+        },
+        {
+          "w": "is",
+          "start": 11.521,
+          "end": 11.655
+        },
+        {
+          "w": "Bobo's",
+          "start": 11.655,
+          "end": 12.189
+        },
+        {
+          "w": "big",
+          "start": 12.189,
+          "end": 12.456
+        },
+        {
+          "w": "picnic",
+          "start": 12.456,
+          "end": 12.923
+        },
+        {
+          "w": "party!",
+          "start": 12.923,
+          "end": 13.39
+        }
+      ]
+    },
+    {
+      "beat": "basket",
+      "speaker": "narrator",
+      "text": "Ruby picked a basket full of crunchy orange carrots for the party.",
+      "gap": 1.2,
+      "start": 14.75,
+      "end": 18.29,
+      "words": [
+        {
+          "w": "Ruby",
+          "start": 14.78,
+          "end": 15.111
+        },
+        {
+          "w": "picked",
+          "start": 15.111,
+          "end": 15.387
+        },
+        {
+          "w": "a",
+          "start": 15.387,
+          "end": 15.552
+        },
+        {
+          "w": "basket",
+          "start": 15.552,
+          "end": 15.938
+        },
+        {
+          "w": "full",
+          "start": 15.938,
+          "end": 16.159
+        },
+        {
+          "w": "of",
+          "start": 16.159,
+          "end": 16.269
+        },
+        {
+          "w": "crunchy",
+          "start": 16.269,
+          "end": 16.711
+        },
+        {
+          "w": "orange",
+          "start": 16.711,
+          "end": 17.097
+        },
+        {
+          "w": "carrots",
+          "start": 17.097,
+          "end": 17.483
+        },
+        {
+          "w": "for",
+          "start": 17.483,
+          "end": 17.704
+        },
+        {
+          "w": "the",
+          "start": 17.704,
+          "end": 17.814
+        },
+        {
+          "w": "party.",
+          "start": 17.814,
+          "end": 18.2
+        }
+      ]
+    },
+    {
+      "beat": "count",
+      "speaker": "narrator",
+      "text": "How many carrots? Let's count! One, two, three, four, five!",
+      "gap": 2.2,
+      "start": 19.49,
+      "end": 23.11,
+      "words": [
+        {
+          "w": "How",
+          "start": 19.54,
+          "end": 19.819
+        },
+        {
+          "w": "many",
+          "start": 19.819,
+          "end": 20.168
+        },
+        {
+          "w": "carrots?",
+          "start": 20.168,
+          "end": 20.657
+        },
+        {
+          "w": "Let's",
+          "start": 20.657,
+          "end": 21.006
+        },
+        {
+          "w": "count!",
+          "start": 21.006,
+          "end": 21.425
+        },
+        {
+          "w": "One,",
+          "start": 21.425,
+          "end": 21.704
+        },
+        {
+          "w": "two,",
+          "start": 21.704,
+          "end": 21.983
+        },
+        {
+          "w": "three,",
+          "start": 21.983,
+          "end": 22.332
+        },
+        {
+          "w": "four,",
+          "start": 22.332,
+          "end": 22.681
+        },
+        {
+          "w": "five!",
+          "start": 22.681,
+          "end": 23.03
+        }
+      ]
+    },
+    {
+      "beat": "want",
+      "speaker": "ruby",
+      "text": "Five carrots! I want to be the first one at the party! Hop, hop, hop!",
+      "gap": 1.6,
+      "start": 25.31,
+      "end": 29.51,
+      "words": [
+        {
+          "w": "Five",
+          "start": 25.36,
+          "end": 25.668
+        },
+        {
+          "w": "carrots!",
+          "start": 25.668,
+          "end": 26.098
+        },
+        {
+          "w": "I",
+          "start": 26.098,
+          "end": 26.283
+        },
+        {
+          "w": "want",
+          "start": 26.283,
+          "end": 26.591
+        },
+        {
+          "w": "to",
+          "start": 26.591,
+          "end": 26.775
+        },
+        {
+          "w": "be",
+          "start": 26.775,
+          "end": 27.022
+        },
+        {
+          "w": "the",
+          "start": 27.022,
+          "end": 27.145
+        },
+        {
+          "w": "first",
+          "start": 27.145,
+          "end": 27.514
+        },
+        {
+          "w": "one",
+          "start": 27.514,
+          "end": 27.76
+        },
+        {
+          "w": "at",
+          "start": 27.76,
+          "end": 27.883
+        },
+        {
+          "w": "the",
+          "start": 27.883,
+          "end": 28.006
+        },
+        {
+          "w": "party!",
+          "start": 28.006,
+          "end": 28.437
+        },
+        {
+          "w": "Hop,",
+          "start": 28.437,
+          "end": 28.745
+        },
+        {
+          "w": "hop,",
+          "start": 28.745,
+          "end": 29.052
+        },
+        {
+          "w": "hop!",
+          "start": 29.052,
+          "end": 29.36
+        }
+      ]
+    },
+    {
+      "beat": "mouse",
+      "speaker": "narrator",
+      "text": "On the path, Ruby saw Milo the mouse. He looked sad.",
+      "gap": 1.2,
+      "start": 31.11,
+      "end": 34.35,
+      "words": [
+        {
+          "w": "On",
+          "start": 31.18,
+          "end": 31.386
+        },
+        {
+          "w": "the",
+          "start": 31.386,
+          "end": 31.523
+        },
+        {
+          "w": "path,",
+          "start": 31.523,
+          "end": 31.798
+        },
+        {
+          "w": "Ruby",
+          "start": 31.798,
+          "end": 32.21
+        },
+        {
+          "w": "saw",
+          "start": 32.21,
+          "end": 32.485
+        },
+        {
+          "w": "Milo",
+          "start": 32.485,
+          "end": 32.965
+        },
+        {
+          "w": "the",
+          "start": 32.965,
+          "end": 33.103
+        },
+        {
+          "w": "mouse.",
+          "start": 33.103,
+          "end": 33.446
+        },
+        {
+          "w": "He",
+          "start": 33.446,
+          "end": 33.652
+        },
+        {
+          "w": "looked",
+          "start": 33.652,
+          "end": 33.995
+        },
+        {
+          "w": "sad.",
+          "start": 33.995,
+          "end": 34.27
+        }
+      ]
+    },
+    {
+      "beat": "milo",
+      "speaker": "milo",
+      "text": "Ruby... I'm so hungry. Can I have one carrot, please?",
+      "gap": 1.2,
+      "start": 35.55,
+      "end": 38.75,
+      "words": [
+        {
+          "w": "Ruby...",
+          "start": 35.6,
+          "end": 35.974
+        },
+        {
+          "w": "I'm",
+          "start": 35.974,
+          "end": 36.161
+        },
+        {
+          "w": "so",
+          "start": 36.161,
+          "end": 36.41
+        },
+        {
+          "w": "hungry.",
+          "start": 36.41,
+          "end": 36.847
+        },
+        {
+          "w": "Can",
+          "start": 36.847,
+          "end": 37.096
+        },
+        {
+          "w": "I",
+          "start": 37.096,
+          "end": 37.283
+        },
+        {
+          "w": "have",
+          "start": 37.283,
+          "end": 37.533
+        },
+        {
+          "w": "one",
+          "start": 37.533,
+          "end": 37.782
+        },
+        {
+          "w": "carrot,",
+          "start": 37.782,
+          "end": 38.156
+        },
+        {
+          "w": "please?",
+          "start": 38.156,
+          "end": 38.53
+        }
+      ]
+    },
+    {
+      "beat": "rush",
+      "speaker": "ruby",
+      "text": "Sorry, Milo! I'm in a hurry!",
+      "gap": 1.2,
+      "start": 39.95,
+      "end": 42.12,
+      "words": [
+        {
+          "w": "Sorry,",
+          "start": 39.98,
+          "end": 40.385
+        },
+        {
+          "w": "Milo!",
+          "start": 40.385,
+          "end": 40.857
+        },
+        {
+          "w": "I'm",
+          "start": 40.857,
+          "end": 41.06
+        },
+        {
+          "w": "in",
+          "start": 41.06,
+          "end": 41.262
+        },
+        {
+          "w": "a",
+          "start": 41.262,
+          "end": 41.465
+        },
+        {
+          "w": "hurry!",
+          "start": 41.465,
+          "end": 41.87
+        }
+      ]
+    },
+    {
+      "beat": "rush2",
+      "speaker": "narrator",
+      "text": "And Ruby hopped away. Fast, fast, fast.",
+      "gap": 1.8,
+      "start": 43.32,
+      "end": 46.15,
+      "words": [
+        {
+          "w": "And",
+          "start": 43.4,
+          "end": 43.631
+        },
+        {
+          "w": "Ruby",
+          "start": 43.631,
+          "end": 44.094
+        },
+        {
+          "w": "hopped",
+          "start": 44.094,
+          "end": 44.557
+        },
+        {
+          "w": "away.",
+          "start": 44.557,
+          "end": 44.943
+        },
+        {
+          "w": "Fast,",
+          "start": 44.943,
+          "end": 45.329
+        },
+        {
+          "w": "fast,",
+          "start": 45.329,
+          "end": 45.714
+        },
+        {
+          "w": "fast.",
+          "start": 45.714,
+          "end": 46.1
+        }
+      ]
+    },
+    {
+      "beat": "feel",
+      "speaker": "narrator",
+      "text": "But soon, Ruby's tummy felt funny. Her ears drooped down.",
+      "gap": 1.4,
+      "start": 47.95,
+      "end": 51.57,
+      "words": [
+        {
+          "w": "But",
+          "start": 48.02,
+          "end": 48.298
+        },
+        {
+          "w": "soon,",
+          "start": 48.298,
+          "end": 48.645
+        },
+        {
+          "w": "Ruby's",
+          "start": 48.645,
+          "end": 49.13
+        },
+        {
+          "w": "tummy",
+          "start": 49.13,
+          "end": 49.477
+        },
+        {
+          "w": "felt",
+          "start": 49.477,
+          "end": 49.824
+        },
+        {
+          "w": "funny.",
+          "start": 49.824,
+          "end": 50.171
+        },
+        {
+          "w": "Her",
+          "start": 50.171,
+          "end": 50.38
+        },
+        {
+          "w": "ears",
+          "start": 50.38,
+          "end": 50.657
+        },
+        {
+          "w": "drooped",
+          "start": 50.657,
+          "end": 51.143
+        },
+        {
+          "w": "down.",
+          "start": 51.143,
+          "end": 51.49
+        }
+      ]
+    },
+    {
+      "beat": "feel2",
+      "speaker": "ruby",
+      "text": "Oh... I feel bad. Milo was hungry, and I didn't help him.",
+      "gap": 1.4,
+      "start": 52.97,
+      "end": 56.44,
+      "words": [
+        {
+          "w": "Oh...",
+          "start": 53.01,
+          "end": 53.189
+        },
+        {
+          "w": "I",
+          "start": 53.189,
+          "end": 53.369
+        },
+        {
+          "w": "feel",
+          "start": 53.369,
+          "end": 53.668
+        },
+        {
+          "w": "bad.",
+          "start": 53.668,
+          "end": 53.907
+        },
+        {
+          "w": "Milo",
+          "start": 53.907,
+          "end": 54.326
+        },
+        {
+          "w": "was",
+          "start": 54.326,
+          "end": 54.505
+        },
+        {
+          "w": "hungry,",
+          "start": 54.505,
+          "end": 54.924
+        },
+        {
+          "w": "and",
+          "start": 54.924,
+          "end": 55.103
+        },
+        {
+          "w": "I",
+          "start": 55.103,
+          "end": 55.283
+        },
+        {
+          "w": "didn't",
+          "start": 55.283,
+          "end": 55.642
+        },
+        {
+          "w": "help",
+          "start": 55.642,
+          "end": 55.941
+        },
+        {
+          "w": "him.",
+          "start": 55.941,
+          "end": 56.18
+        }
+      ]
+    },
+    {
+      "beat": "word",
+      "speaker": "narrator",
+      "text": "That funny feeling is called feeling sorry.",
+      "gap": 1.6,
+      "start": 57.84,
+      "end": 60.23,
+      "words": [
+        {
+          "w": "That",
+          "start": 57.89,
+          "end": 58.129
+        },
+        {
+          "w": "funny",
+          "start": 58.129,
+          "end": 58.428
+        },
+        {
+          "w": "feeling",
+          "start": 58.428,
+          "end": 58.846
+        },
+        {
+          "w": "is",
+          "start": 58.846,
+          "end": 58.965
+        },
+        {
+          "w": "called",
+          "start": 58.965,
+          "end": 59.324
+        },
+        {
+          "w": "feeling",
+          "start": 59.324,
+          "end": 59.742
+        },
+        {
+          "w": "sorry.",
+          "start": 59.742,
+          "end": 60.1
+        }
+      ]
+    },
+    {
+      "beat": "ask",
+      "speaker": "narrator",
+      "text": "What should Ruby do now? What do you think?",
+      "gap": 5.0,
+      "start": 61.83,
+      "end": 64.07,
+      "words": [
+        {
+          "w": "What",
+          "start": 61.91,
+          "end": 62.106
+        },
+        {
+          "w": "should",
+          "start": 62.106,
+          "end": 62.303
+        },
+        {
+          "w": "Ruby",
+          "start": 62.303,
+          "end": 62.597
+        },
+        {
+          "w": "do",
+          "start": 62.597,
+          "end": 62.794
+        },
+        {
+          "w": "now?",
+          "start": 62.794,
+          "end": 62.99
+        },
+        {
+          "w": "What",
+          "start": 63.25,
+          "end": 63.43
+        },
+        {
+          "w": "do",
+          "start": 63.43,
+          "end": 63.61
+        },
+        {
+          "w": "you",
+          "start": 63.61,
+          "end": 63.745
+        },
+        {
+          "w": "think?",
+          "start": 63.745,
+          "end": 63.97
+        }
+      ]
+    },
+    {
+      "beat": "back",
+      "speaker": "ruby",
+      "text": "I'll go back! Hop, hop, hop!",
+      "gap": 1.2,
+      "start": 69.07,
+      "end": 71.24,
+      "words": [
+        {
+          "w": "I'll",
+          "start": 69.11,
+          "end": 69.337
+        },
+        {
+          "w": "go",
+          "start": 69.337,
+          "end": 69.64
+        },
+        {
+          "w": "back!",
+          "start": 69.64,
+          "end": 69.943
+        },
+        {
+          "w": "Hop,",
+          "start": 69.943,
+          "end": 70.322
+        },
+        {
+          "w": "hop,",
+          "start": 70.322,
+          "end": 70.701
+        },
+        {
+          "w": "hop!",
+          "start": 70.701,
+          "end": 71.08
+        }
+      ]
+    },
+    {
+      "beat": "sorry",
+      "speaker": "ruby",
+      "text": "Milo, I'm sorry I hurried past you. Here, have a carrot!",
+      "gap": 1.2,
+      "start": 72.44,
+      "end": 76.02,
+      "words": [
+        {
+          "w": "Milo,",
+          "start": 72.48,
+          "end": 72.941
+        },
+        {
+          "w": "I'm",
+          "start": 72.941,
+          "end": 73.139
+        },
+        {
+          "w": "sorry",
+          "start": 73.139,
+          "end": 73.534
+        },
+        {
+          "w": "I",
+          "start": 73.534,
+          "end": 73.732
+        },
+        {
+          "w": "hurried",
+          "start": 73.732,
+          "end": 74.193
+        },
+        {
+          "w": "past",
+          "start": 74.193,
+          "end": 74.522
+        },
+        {
+          "w": "you.",
+          "start": 74.522,
+          "end": 74.72
+        },
+        {
+          "w": "Here,",
+          "start": 74.72,
+          "end": 74.984
+        },
+        {
+          "w": "have",
+          "start": 74.984,
+          "end": 75.247
+        },
+        {
+          "w": "a",
+          "start": 75.247,
+          "end": 75.445
+        },
+        {
+          "w": "carrot!",
+          "start": 75.445,
+          "end": 75.84
+        }
+      ]
+    },
+    {
+      "beat": "milo_yay",
+      "speaker": "milo",
+      "text": "Thank you, Ruby! Crunch, crunch! Yum!",
+      "gap": 1.6,
+      "start": 77.22,
+      "end": 79.41,
+      "words": [
+        {
+          "w": "Thank",
+          "start": 77.27,
+          "end": 77.564
+        },
+        {
+          "w": "you,",
+          "start": 77.564,
+          "end": 77.74
+        },
+        {
+          "w": "Ruby!",
+          "start": 77.74,
+          "end": 78.092
+        },
+        {
+          "w": "Crunch,",
+          "start": 78.092,
+          "end": 78.504
+        },
+        {
+          "w": "crunch!",
+          "start": 78.504,
+          "end": 78.915
+        },
+        {
+          "w": "Yum!",
+          "start": 78.915,
+          "end": 79.15
+        }
+      ]
+    },
+    {
+      "beat": "kind",
+      "speaker": "narrator",
+      "text": "Ruby felt warm and happy inside. Being kind feels good!",
+      "gap": 2.2,
+      "start": 81.01,
+      "end": 84.72,
+      "words": [
+        {
+          "w": "Ruby",
+          "start": 81.04,
+          "end": 81.413
+        },
+        {
+          "w": "felt",
+          "start": 81.413,
+          "end": 81.724
+        },
+        {
+          "w": "warm",
+          "start": 81.724,
+          "end": 82.097
+        },
+        {
+          "w": "and",
+          "start": 82.097,
+          "end": 82.284
+        },
+        {
+          "w": "happy",
+          "start": 82.284,
+          "end": 82.595
+        },
+        {
+          "w": "inside.",
+          "start": 82.595,
+          "end": 83.03
+        },
+        {
+          "w": "Being",
+          "start": 83.42,
+          "end": 83.755
+        },
+        {
+          "w": "kind",
+          "start": 83.755,
+          "end": 84.091
+        },
+        {
+          "w": "feels",
+          "start": 84.091,
+          "end": 84.426
+        },
+        {
+          "w": "good!",
+          "start": 84.426,
+          "end": 84.65
+        }
+      ]
+    },
+    {
+      "beat": "happy",
+      "speaker": "ruby",
+      "text": "I feel happy again! Hop, hop, hop!",
+      "gap": 2.0,
+      "start": 86.92,
+      "end": 89.43,
+      "words": [
+        {
+          "w": "I",
+          "start": 86.96,
+          "end": 87.168
+        },
+        {
+          "w": "feel",
+          "start": 87.168,
+          "end": 87.515
+        },
+        {
+          "w": "happy",
+          "start": 87.515,
+          "end": 87.862
+        },
+        {
+          "w": "again!",
+          "start": 87.862,
+          "end": 88.209
+        },
+        {
+          "w": "Hop,",
+          "start": 88.209,
+          "end": 88.556
+        },
+        {
+          "w": "hop,",
+          "start": 88.556,
+          "end": 88.903
+        },
+        {
+          "w": "hop!",
+          "start": 88.903,
+          "end": 89.25
+        }
+      ]
+    },
+    {
+      "beat": "bird",
+      "speaker": "narrator",
+      "text": "Then Ruby heard a little peep. Tilly the bird was stuck in a bush!",
+      "gap": 1.2,
+      "start": 91.43,
+      "end": 95.01,
+      "words": [
+        {
+          "w": "Then",
+          "start": 91.47,
+          "end": 91.663
+        },
+        {
+          "w": "Ruby",
+          "start": 91.663,
+          "end": 91.953
+        },
+        {
+          "w": "heard",
+          "start": 91.953,
+          "end": 92.194
+        },
+        {
+          "w": "a",
+          "start": 92.194,
+          "end": 92.339
+        },
+        {
+          "w": "little",
+          "start": 92.339,
+          "end": 92.629
+        },
+        {
+          "w": "peep.",
+          "start": 92.629,
+          "end": 92.87
+        },
+        {
+          "w": "Tilly",
+          "start": 93.25,
+          "end": 93.533
+        },
+        {
+          "w": "the",
+          "start": 93.533,
+          "end": 93.647
+        },
+        {
+          "w": "bird",
+          "start": 93.647,
+          "end": 93.93
+        },
+        {
+          "w": "was",
+          "start": 93.93,
+          "end": 94.1
+        },
+        {
+          "w": "stuck",
+          "start": 94.1,
+          "end": 94.383
+        },
+        {
+          "w": "in",
+          "start": 94.383,
+          "end": 94.553
+        },
+        {
+          "w": "a",
+          "start": 94.553,
+          "end": 94.723
+        },
+        {
+          "w": "bush!",
+          "start": 94.723,
+          "end": 94.95
+        }
+      ]
+    },
+    {
+      "beat": "tilly",
+      "speaker": "tilly",
+      "text": "Peep, peep! Help! My wing is caught in the leaves!",
+      "gap": 1.2,
+      "start": 96.21,
+      "end": 98.89,
+      "words": [
+        {
+          "w": "Peep,",
+          "start": 96.25,
+          "end": 96.546
+        },
+        {
+          "w": "peep!",
+          "start": 96.546,
+          "end": 96.843
+        },
+        {
+          "w": "Help!",
+          "start": 96.843,
+          "end": 97.139
+        },
+        {
+          "w": "My",
+          "start": 97.139,
+          "end": 97.376
+        },
+        {
+          "w": "wing",
+          "start": 97.376,
+          "end": 97.613
+        },
+        {
+          "w": "is",
+          "start": 97.613,
+          "end": 97.732
+        },
+        {
+          "w": "caught",
+          "start": 97.732,
+          "end": 98.028
+        },
+        {
+          "w": "in",
+          "start": 98.028,
+          "end": 98.206
+        },
+        {
+          "w": "the",
+          "start": 98.206,
+          "end": 98.324
+        },
+        {
+          "w": "leaves!",
+          "start": 98.324,
+          "end": 98.68
+        }
+      ]
+    },
+    {
+      "beat": "help_q",
+      "speaker": "narrator",
+      "text": "Will Ruby stop to help? What do you think?",
+      "gap": 5.0,
+      "start": 100.09,
+      "end": 102.58,
+      "words": [
+        {
+          "w": "Will",
+          "start": 100.15,
+          "end": 100.38
+        },
+        {
+          "w": "Ruby",
+          "start": 100.38,
+          "end": 100.725
+        },
+        {
+          "w": "stop",
+          "start": 100.725,
+          "end": 101.07
+        },
+        {
+          "w": "to",
+          "start": 101.07,
+          "end": 101.242
+        },
+        {
+          "w": "help?",
+          "start": 101.242,
+          "end": 101.53
+        },
+        {
+          "w": "What",
+          "start": 101.79,
+          "end": 101.967
+        },
+        {
+          "w": "do",
+          "start": 101.967,
+          "end": 102.145
+        },
+        {
+          "w": "you",
+          "start": 102.145,
+          "end": 102.278
+        },
+        {
+          "w": "think?",
+          "start": 102.278,
+          "end": 102.5
+        }
+      ]
+    },
+    {
+      "beat": "help",
+      "speaker": "ruby",
+      "text": "Don't worry, Tilly! I'll help you. Gently, gently...",
+      "gap": 1.4,
+      "start": 107.58,
+      "end": 110.63,
+      "words": [
+        {
+          "w": "Don't",
+          "start": 107.65,
+          "end": 108.032
+        },
+        {
+          "w": "worry,",
+          "start": 108.032,
+          "end": 108.351
+        },
+        {
+          "w": "Tilly!",
+          "start": 108.351,
+          "end": 108.67
+        },
+        {
+          "w": "I'll",
+          "start": 108.67,
+          "end": 108.861
+        },
+        {
+          "w": "help",
+          "start": 108.861,
+          "end": 109.179
+        },
+        {
+          "w": "you.",
+          "start": 109.179,
+          "end": 109.37
+        },
+        {
+          "w": "Gently,",
+          "start": 109.37,
+          "end": 109.88
+        },
+        {
+          "w": "gently...",
+          "start": 109.88,
+          "end": 110.39
+        }
+      ]
+    },
+    {
+      "beat": "free",
+      "speaker": "narrator",
+      "text": "Ruby moved the leaves very gently. And Tilly was free!",
+      "gap": 1.4,
+      "start": 112.03,
+      "end": 115.36,
+      "words": [
+        {
+          "w": "Ruby",
+          "start": 112.07,
+          "end": 112.405
+        },
+        {
+          "w": "moved",
+          "start": 112.405,
+          "end": 112.739
+        },
+        {
+          "w": "the",
+          "start": 112.739,
+          "end": 112.851
+        },
+        {
+          "w": "leaves",
+          "start": 112.851,
+          "end": 113.185
+        },
+        {
+          "w": "very",
+          "start": 113.185,
+          "end": 113.464
+        },
+        {
+          "w": "gently.",
+          "start": 113.464,
+          "end": 113.91
+        },
+        {
+          "w": "And",
+          "start": 114.25,
+          "end": 114.438
+        },
+        {
+          "w": "Tilly",
+          "start": 114.438,
+          "end": 114.75
+        },
+        {
+          "w": "was",
+          "start": 114.75,
+          "end": 114.938
+        },
+        {
+          "w": "free!",
+          "start": 114.938,
+          "end": 115.25
+        }
+      ]
+    },
+    {
+      "beat": "tilly_yay",
+      "speaker": "tilly",
+      "text": "Peep, peep! Thank you, Ruby! You're so kind!",
+      "gap": 2.0,
+      "start": 116.76,
+      "end": 119.33,
+      "words": [
+        {
+          "w": "Peep,",
+          "start": 116.8,
+          "end": 117.109
+        },
+        {
+          "w": "peep!",
+          "start": 117.109,
+          "end": 117.419
+        },
+        {
+          "w": "Thank",
+          "start": 117.419,
+          "end": 117.728
+        },
+        {
+          "w": "you,",
+          "start": 117.728,
+          "end": 117.914
+        },
+        {
+          "w": "Ruby!",
+          "start": 117.914,
+          "end": 118.285
+        },
+        {
+          "w": "You're",
+          "start": 118.285,
+          "end": 118.471
+        },
+        {
+          "w": "so",
+          "start": 118.471,
+          "end": 118.719
+        },
+        {
+          "w": "kind!",
+          "start": 118.719,
+          "end": 119.09
+        }
+      ]
+    },
+    {
+      "beat": "turtle",
+      "speaker": "narrator",
+      "text": "Next, Ruby met Tom the turtle. He was very slow, and the party was far away.",
+      "gap": 1.2,
+      "start": 121.33,
+      "end": 126.34,
+      "words": [
+        {
+          "w": "Next,",
+          "start": 121.36,
+          "end": 121.775
+        },
+        {
+          "w": "Ruby",
+          "start": 121.775,
+          "end": 122.19
+        },
+        {
+          "w": "met",
+          "start": 122.19,
+          "end": 122.466
+        },
+        {
+          "w": "Tom",
+          "start": 122.466,
+          "end": 122.812
+        },
+        {
+          "w": "the",
+          "start": 122.812,
+          "end": 122.951
+        },
+        {
+          "w": "turtle.",
+          "start": 122.951,
+          "end": 123.435
+        },
+        {
+          "w": "He",
+          "start": 123.435,
+          "end": 123.642
+        },
+        {
+          "w": "was",
+          "start": 123.642,
+          "end": 123.85
+        },
+        {
+          "w": "very",
+          "start": 123.85,
+          "end": 124.195
+        },
+        {
+          "w": "slow,",
+          "start": 124.195,
+          "end": 124.541
+        },
+        {
+          "w": "and",
+          "start": 124.541,
+          "end": 124.749
+        },
+        {
+          "w": "the",
+          "start": 124.749,
+          "end": 124.887
+        },
+        {
+          "w": "party",
+          "start": 124.887,
+          "end": 125.371
+        },
+        {
+          "w": "was",
+          "start": 125.371,
+          "end": 125.578
+        },
+        {
+          "w": "far",
+          "start": 125.578,
+          "end": 125.924
+        },
+        {
+          "w": "away.",
+          "start": 125.924,
+          "end": 126.27
+        }
+      ]
+    },
+    {
+      "beat": "tom",
+      "speaker": "tom",
+      "text": "Oh dear... I'm so slow. I will miss the party.",
+      "gap": 1.2,
+      "start": 127.54,
+      "end": 131.07,
+      "words": [
+        {
+          "w": "Oh",
+          "start": 127.59,
+          "end": 127.852
+        },
+        {
+          "w": "dear...",
+          "start": 127.852,
+          "end": 128.202
+        },
+        {
+          "w": "I'm",
+          "start": 128.202,
+          "end": 128.464
+        },
+        {
+          "w": "so",
+          "start": 128.464,
+          "end": 128.814
+        },
+        {
+          "w": "slow.",
+          "start": 128.814,
+          "end": 129.251
+        },
+        {
+          "w": "I",
+          "start": 129.251,
+          "end": 129.514
+        },
+        {
+          "w": "will",
+          "start": 129.514,
+          "end": 129.863
+        },
+        {
+          "w": "miss",
+          "start": 129.863,
+          "end": 130.213
+        },
+        {
+          "w": "the",
+          "start": 130.213,
+          "end": 130.388
+        },
+        {
+          "w": "party.",
+          "start": 130.388,
+          "end": 131.0
+        }
+      ]
+    },
+    {
+      "beat": "think",
+      "speaker": "ruby",
+      "text": "Hmm... if I help Tom, I will be even later. But Tom needs a friend!",
+      "gap": 1.4,
+      "start": 132.27,
+      "end": 136.25,
+      "words": [
+        {
+          "w": "Hmm...",
+          "start": 132.3,
+          "end": 132.472
+        },
+        {
+          "w": "if",
+          "start": 132.472,
+          "end": 132.586
+        },
+        {
+          "w": "I",
+          "start": 132.586,
+          "end": 132.758
+        },
+        {
+          "w": "help",
+          "start": 132.758,
+          "end": 133.044
+        },
+        {
+          "w": "Tom,",
+          "start": 133.044,
+          "end": 133.33
+        },
+        {
+          "w": "I",
+          "start": 133.33,
+          "end": 133.502
+        },
+        {
+          "w": "will",
+          "start": 133.502,
+          "end": 133.731
+        },
+        {
+          "w": "be",
+          "start": 133.731,
+          "end": 133.96
+        },
+        {
+          "w": "even",
+          "start": 133.96,
+          "end": 134.303
+        },
+        {
+          "w": "later.",
+          "start": 134.303,
+          "end": 134.646
+        },
+        {
+          "w": "But",
+          "start": 134.646,
+          "end": 134.875
+        },
+        {
+          "w": "Tom",
+          "start": 134.875,
+          "end": 135.162
+        },
+        {
+          "w": "needs",
+          "start": 135.162,
+          "end": 135.505
+        },
+        {
+          "w": "a",
+          "start": 135.505,
+          "end": 135.677
+        },
+        {
+          "w": "friend!",
+          "start": 135.677,
+          "end": 136.02
+        }
+      ]
+    },
+    {
+      "beat": "carry",
+      "speaker": "ruby",
+      "text": "Climb into my basket, Tom! We'll go together!",
+      "gap": 1.4,
+      "start": 137.65,
+      "end": 140.5,
+      "words": [
+        {
+          "w": "Climb",
+          "start": 137.67,
+          "end": 138.04
+        },
+        {
+          "w": "into",
+          "start": 138.04,
+          "end": 138.348
+        },
+        {
+          "w": "my",
+          "start": 138.348,
+          "end": 138.595
+        },
+        {
+          "w": "basket,",
+          "start": 138.595,
+          "end": 139.027
+        },
+        {
+          "w": "Tom!",
+          "start": 139.027,
+          "end": 139.335
+        },
+        {
+          "w": "We'll",
+          "start": 139.335,
+          "end": 139.582
+        },
+        {
+          "w": "go",
+          "start": 139.582,
+          "end": 139.828
+        },
+        {
+          "w": "together!",
+          "start": 139.828,
+          "end": 140.26
+        }
+      ]
+    },
+    {
+      "beat": "hop",
+      "speaker": "narrator",
+      "text": "So Ruby hopped along, with Tom in her basket. Hop, hop, hop!",
+      "gap": 2.2,
+      "start": 141.9,
+      "end": 145.86,
+      "words": [
+        {
+          "w": "So",
+          "start": 141.93,
+          "end": 142.201
+        },
+        {
+          "w": "Ruby",
+          "start": 142.201,
+          "end": 142.607
+        },
+        {
+          "w": "hopped",
+          "start": 142.607,
+          "end": 143.014
+        },
+        {
+          "w": "along,",
+          "start": 143.014,
+          "end": 143.352
+        },
+        {
+          "w": "with",
+          "start": 143.352,
+          "end": 143.555
+        },
+        {
+          "w": "Tom",
+          "start": 143.555,
+          "end": 143.894
+        },
+        {
+          "w": "in",
+          "start": 143.894,
+          "end": 144.097
+        },
+        {
+          "w": "her",
+          "start": 144.097,
+          "end": 144.3
+        },
+        {
+          "w": "basket.",
+          "start": 144.3,
+          "end": 144.774
+        },
+        {
+          "w": "Hop,",
+          "start": 144.774,
+          "end": 145.113
+        },
+        {
+          "w": "hop,",
+          "start": 145.113,
+          "end": 145.451
+        },
+        {
+          "w": "hop!",
+          "start": 145.451,
+          "end": 145.79
+        }
+      ]
+    },
+    {
+      "beat": "late",
+      "speaker": "narrator",
+      "text": "Ruby was the very last one at the party.",
+      "gap": 1.2,
+      "start": 148.06,
+      "end": 150.49,
+      "words": [
+        {
+          "w": "Ruby",
+          "start": 148.09,
+          "end": 148.472
+        },
+        {
+          "w": "was",
+          "start": 148.472,
+          "end": 148.662
+        },
+        {
+          "w": "the",
+          "start": 148.662,
+          "end": 148.79
+        },
+        {
+          "w": "very",
+          "start": 148.79,
+          "end": 149.108
+        },
+        {
+          "w": "last",
+          "start": 149.108,
+          "end": 149.426
+        },
+        {
+          "w": "one",
+          "start": 149.426,
+          "end": 149.68
+        },
+        {
+          "w": "at",
+          "start": 149.68,
+          "end": 149.808
+        },
+        {
+          "w": "the",
+          "start": 149.808,
+          "end": 149.935
+        },
+        {
+          "w": "party.",
+          "start": 149.935,
+          "end": 150.38
+        }
+      ]
+    },
+    {
+      "beat": "ruby_sad",
+      "speaker": "ruby",
+      "text": "I'm late... and now I only have four carrots.",
+      "gap": 1.8,
+      "start": 151.69,
+      "end": 154.46,
+      "words": [
+        {
+          "w": "I'm",
+          "start": 151.72,
+          "end": 151.912
+        },
+        {
+          "w": "late...",
+          "start": 151.912,
+          "end": 152.232
+        },
+        {
+          "w": "and",
+          "start": 152.232,
+          "end": 152.424
+        },
+        {
+          "w": "now",
+          "start": 152.424,
+          "end": 152.68
+        },
+        {
+          "w": "I",
+          "start": 152.68,
+          "end": 152.872
+        },
+        {
+          "w": "only",
+          "start": 152.872,
+          "end": 153.256
+        },
+        {
+          "w": "have",
+          "start": 153.256,
+          "end": 153.512
+        },
+        {
+          "w": "four",
+          "start": 153.512,
+          "end": 153.832
+        },
+        {
+          "w": "carrots.",
+          "start": 153.832,
+          "end": 154.28
+        }
+      ]
+    },
+    {
+      "beat": "surprise",
+      "speaker": "narrator",
+      "text": "But then... surprise!",
+      "gap": 1.4,
+      "start": 156.26,
+      "end": 157.77,
+      "words": [
+        {
+          "w": "But",
+          "start": 156.32,
+          "end": 156.66
+        },
+        {
+          "w": "then...",
+          "start": 156.66,
+          "end": 157.0
+        },
+        {
+          "w": "surprise!",
+          "start": 157.0,
+          "end": 157.68
+        }
+      ]
+    },
+    {
+      "beat": "gifts",
+      "speaker": "bobo",
+      "text": "Ruby! Milo told us how kind you were! We saved you the best seat!",
+      "gap": 1.2,
+      "start": 159.17,
+      "end": 163.0,
+      "words": [
+        {
+          "w": "Ruby!",
+          "start": 159.2,
+          "end": 159.543
+        },
+        {
+          "w": "Milo",
+          "start": 159.543,
+          "end": 159.942
+        },
+        {
+          "w": "told",
+          "start": 159.942,
+          "end": 160.285
+        },
+        {
+          "w": "us",
+          "start": 160.285,
+          "end": 160.456
+        },
+        {
+          "w": "how",
+          "start": 160.456,
+          "end": 160.685
+        },
+        {
+          "w": "kind",
+          "start": 160.685,
+          "end": 161.027
+        },
+        {
+          "w": "you",
+          "start": 161.027,
+          "end": 161.198
+        },
+        {
+          "w": "were!",
+          "start": 161.198,
+          "end": 161.37
+        },
+        {
+          "w": "We",
+          "start": 161.37,
+          "end": 161.541
+        },
+        {
+          "w": "saved",
+          "start": 161.541,
+          "end": 161.884
+        },
+        {
+          "w": "you",
+          "start": 161.884,
+          "end": 162.055
+        },
+        {
+          "w": "the",
+          "start": 162.055,
+          "end": 162.169
+        },
+        {
+          "w": "best",
+          "start": 162.169,
+          "end": 162.455
+        },
+        {
+          "w": "seat!",
+          "start": 162.455,
+          "end": 162.74
+        }
+      ]
+    },
+    {
+      "beat": "milo2",
+      "speaker": "milo",
+      "text": "And I brought you some sweet berries!",
+      "gap": 1.0,
+      "start": 164.2,
+      "end": 166.07,
+      "words": [
+        {
+          "w": "And",
+          "start": 164.24,
+          "end": 164.397
+        },
+        {
+          "w": "I",
+          "start": 164.397,
+          "end": 164.554
+        },
+        {
+          "w": "brought",
+          "start": 164.554,
+          "end": 164.867
+        },
+        {
+          "w": "you",
+          "start": 164.867,
+          "end": 165.024
+        },
+        {
+          "w": "some",
+          "start": 165.024,
+          "end": 165.233
+        },
+        {
+          "w": "sweet",
+          "start": 165.233,
+          "end": 165.546
+        },
+        {
+          "w": "berries!",
+          "start": 165.546,
+          "end": 165.86
+        }
+      ]
+    },
+    {
+      "beat": "tilly2",
+      "speaker": "tilly",
+      "text": "And I made you a flower crown! Peep!",
+      "gap": 1.0,
+      "start": 167.07,
+      "end": 169.37,
+      "words": [
+        {
+          "w": "And",
+          "start": 167.12,
+          "end": 167.278
+        },
+        {
+          "w": "I",
+          "start": 167.278,
+          "end": 167.437
+        },
+        {
+          "w": "made",
+          "start": 167.437,
+          "end": 167.7
+        },
+        {
+          "w": "you",
+          "start": 167.7,
+          "end": 167.859
+        },
+        {
+          "w": "a",
+          "start": 167.859,
+          "end": 168.017
+        },
+        {
+          "w": "flower",
+          "start": 168.017,
+          "end": 168.333
+        },
+        {
+          "w": "crown!",
+          "start": 168.333,
+          "end": 168.65
+        },
+        {
+          "w": "Peep!",
+          "start": 168.8,
+          "end": 169.18
+        }
+      ]
+    },
+    {
+      "beat": "tom2",
+      "speaker": "tom",
+      "text": "Thank you for carrying me, Ruby.",
+      "gap": 1.6,
+      "start": 170.37,
+      "end": 172.99,
+      "words": [
+        {
+          "w": "Thank",
+          "start": 170.4,
+          "end": 170.835
+        },
+        {
+          "w": "you",
+          "start": 170.835,
+          "end": 171.096
+        },
+        {
+          "w": "for",
+          "start": 171.096,
+          "end": 171.443
+        },
+        {
+          "w": "carrying",
+          "start": 171.443,
+          "end": 172.052
+        },
+        {
+          "w": "me,",
+          "start": 172.052,
+          "end": 172.4
+        },
+        {
+          "w": "Ruby.",
+          "start": 172.69,
+          "end": 172.87
+        }
+      ]
+    },
+    {
+      "beat": "share",
+      "speaker": "ruby",
+      "text": "Thank you, friends! Let's share everything, carrots and berries for everyone!",
+      "gap": 2.6,
+      "start": 174.59,
+      "end": 178.7,
+      "words": [
+        {
+          "w": "Thank",
+          "start": 174.68,
+          "end": 174.986
+        },
+        {
+          "w": "you,",
+          "start": 174.986,
+          "end": 175.169
+        },
+        {
+          "w": "friends!",
+          "start": 175.169,
+          "end": 175.597
+        },
+        {
+          "w": "Let's",
+          "start": 175.597,
+          "end": 175.903
+        },
+        {
+          "w": "share",
+          "start": 175.903,
+          "end": 176.147
+        },
+        {
+          "w": "everything,",
+          "start": 176.147,
+          "end": 176.697
+        },
+        {
+          "w": "carrots",
+          "start": 176.697,
+          "end": 177.125
+        },
+        {
+          "w": "and",
+          "start": 177.125,
+          "end": 177.309
+        },
+        {
+          "w": "berries",
+          "start": 177.309,
+          "end": 177.675
+        },
+        {
+          "w": "for",
+          "start": 177.675,
+          "end": 177.92
+        },
+        {
+          "w": "everyone!",
+          "start": 177.92,
+          "end": 178.47
+        }
+      ]
+    },
+    {
+      "beat": "moral",
+      "speaker": "narrator",
+      "text": "Kindness always comes back to you.",
+      "gap": 2.0,
+      "start": 181.3,
+      "end": 183.3,
+      "words": [
+        {
+          "w": "Kindness",
+          "start": 181.35,
+          "end": 181.862
+        },
+        {
+          "w": "always",
+          "start": 181.862,
+          "end": 182.317
+        },
+        {
+          "w": "comes",
+          "start": 182.317,
+          "end": 182.601
+        },
+        {
+          "w": "back",
+          "start": 182.601,
+          "end": 182.829
+        },
+        {
+          "w": "to",
+          "start": 182.829,
+          "end": 182.999
+        },
+        {
+          "w": "you.",
+          "start": 182.999,
+          "end": 183.17
+        }
+      ]
+    },
+    {
+      "beat": "moral_turn",
+      "speaker": "narrator",
+      "text": "Say it with me! Kindness always comes back!",
+      "gap": 3.0,
+      "start": 185.3,
+      "end": 188.02,
+      "words": [
+        {
+          "w": "Say",
+          "start": 185.34,
+          "end": 185.574
+        },
+        {
+          "w": "it",
+          "start": 185.574,
+          "end": 185.691
+        },
+        {
+          "w": "with",
+          "start": 185.691,
+          "end": 185.866
+        },
+        {
+          "w": "me!",
+          "start": 185.866,
+          "end": 186.1
+        },
+        {
+          "w": "Kindness",
+          "start": 186.39,
+          "end": 186.93
+        },
+        {
+          "w": "always",
+          "start": 186.93,
+          "end": 187.41
+        },
+        {
+          "w": "comes",
+          "start": 187.41,
+          "end": 187.71
+        },
+        {
+          "w": "back!",
+          "start": 187.71,
+          "end": 187.95
+        }
+      ]
+    },
+    {
+      "beat": "ideas",
+      "speaker": "narrator",
+      "text": "What kind things can we do? Let's see!",
+      "gap": 1.4,
+      "start": 191.02,
+      "end": 193.13,
+      "words": [
+        {
+          "w": "What",
+          "start": 191.08,
+          "end": 191.258
+        },
+        {
+          "w": "kind",
+          "start": 191.258,
+          "end": 191.526
+        },
+        {
+          "w": "things",
+          "start": 191.526,
+          "end": 191.749
+        },
+        {
+          "w": "can",
+          "start": 191.749,
+          "end": 191.928
+        },
+        {
+          "w": "we",
+          "start": 191.928,
+          "end": 192.062
+        },
+        {
+          "w": "do?",
+          "start": 192.062,
+          "end": 192.24
+        },
+        {
+          "w": "Let's",
+          "start": 192.41,
+          "end": 192.743
+        },
+        {
+          "w": "see!",
+          "start": 192.743,
+          "end": 193.01
+        }
+      ]
+    },
+    {
+      "beat": "i1",
+      "speaker": "ruby",
+      "text": "We can share our snacks!",
+      "gap": 2.0,
+      "start": 194.53,
+      "end": 196.38,
+      "words": [
+        {
+          "w": "We",
+          "start": 194.57,
+          "end": 194.804
+        },
+        {
+          "w": "can",
+          "start": 194.804,
+          "end": 195.117
+        },
+        {
+          "w": "share",
+          "start": 195.117,
+          "end": 195.429
+        },
+        {
+          "w": "our",
+          "start": 195.429,
+          "end": 195.741
+        },
+        {
+          "w": "snacks!",
+          "start": 195.741,
+          "end": 196.21
+        }
+      ]
+    },
+    {
+      "beat": "i2",
+      "speaker": "milo",
+      "text": "We can help a friend clean up!",
+      "gap": 2.0,
+      "start": 198.38,
+      "end": 199.93,
+      "words": [
+        {
+          "w": "We",
+          "start": 198.42,
+          "end": 198.555
+        },
+        {
+          "w": "can",
+          "start": 198.555,
+          "end": 198.735
+        },
+        {
+          "w": "help",
+          "start": 198.735,
+          "end": 198.96
+        },
+        {
+          "w": "a",
+          "start": 198.96,
+          "end": 199.095
+        },
+        {
+          "w": "friend",
+          "start": 199.095,
+          "end": 199.365
+        },
+        {
+          "w": "clean",
+          "start": 199.365,
+          "end": 199.635
+        },
+        {
+          "w": "up!",
+          "start": 199.635,
+          "end": 199.77
+        }
+      ]
+    },
+    {
+      "beat": "i3",
+      "speaker": "tilly",
+      "text": "We can say nice words! You are my friend!",
+      "gap": 2.0,
+      "start": 201.93,
+      "end": 204.55,
+      "words": [
+        {
+          "w": "We",
+          "start": 201.97,
+          "end": 202.154
+        },
+        {
+          "w": "can",
+          "start": 202.154,
+          "end": 202.4
+        },
+        {
+          "w": "say",
+          "start": 202.4,
+          "end": 202.645
+        },
+        {
+          "w": "nice",
+          "start": 202.645,
+          "end": 202.952
+        },
+        {
+          "w": "words!",
+          "start": 202.952,
+          "end": 203.32
+        },
+        {
+          "w": "You",
+          "start": 203.44,
+          "end": 203.603
+        },
+        {
+          "w": "are",
+          "start": 203.603,
+          "end": 203.766
+        },
+        {
+          "w": "my",
+          "start": 203.766,
+          "end": 203.984
+        },
+        {
+          "w": "friend!",
+          "start": 203.984,
+          "end": 204.31
+        }
+      ]
+    },
+    {
+      "beat": "i4",
+      "speaker": "tom",
+      "text": "We can wait, and help a slow friend.",
+      "gap": 2.0,
+      "start": 206.55,
+      "end": 209.49,
+      "words": [
+        {
+          "w": "We",
+          "start": 206.6,
+          "end": 207.165
+        },
+        {
+          "w": "can",
+          "start": 207.165,
+          "end": 207.918
+        },
+        {
+          "w": "wait,",
+          "start": 207.918,
+          "end": 208.86
+        },
+        {
+          "w": "and",
+          "start": 209.24,
+          "end": 209.259
+        },
+        {
+          "w": "help",
+          "start": 209.259,
+          "end": 209.291
+        },
+        {
+          "w": "a",
+          "start": 209.291,
+          "end": 209.31
+        },
+        {
+          "w": "slow",
+          "start": 209.31,
+          "end": 209.342
+        },
+        {
+          "w": "friend.",
+          "start": 209.342,
+          "end": 209.38
+        }
+      ]
+    },
+    {
+      "beat": "i5",
+      "speaker": "bobo",
+      "text": "And we can give a big, warm hug!",
+      "gap": 2.4,
+      "start": 211.49,
+      "end": 213.09,
+      "words": [
+        {
+          "w": "And",
+          "start": 211.52,
+          "end": 211.659
+        },
+        {
+          "w": "we",
+          "start": 211.659,
+          "end": 211.799
+        },
+        {
+          "w": "can",
+          "start": 211.799,
+          "end": 211.985
+        },
+        {
+          "w": "give",
+          "start": 211.985,
+          "end": 212.17
+        },
+        {
+          "w": "a",
+          "start": 212.17,
+          "end": 212.31
+        },
+        {
+          "w": "big,",
+          "start": 212.31,
+          "end": 212.495
+        },
+        {
+          "w": "warm",
+          "start": 212.495,
+          "end": 212.774
+        },
+        {
+          "w": "hug!",
+          "start": 212.774,
+          "end": 212.96
+        }
+      ]
+    },
+    {
+      "beat": "chant",
+      "speaker": "narrator",
+      "text": "Kindness chant! Help a friend! Share a snack! Kindness always comes right back!",
+      "gap": 1.6,
+      "start": 215.49,
+      "end": 220.48,
+      "words": [
+        {
+          "w": "Kindness",
+          "start": 215.53,
+          "end": 216.052
+        },
+        {
+          "w": "chant!",
+          "start": 216.052,
+          "end": 216.4
+        },
+        {
+          "w": "Help",
+          "start": 216.53,
+          "end": 216.787
+        },
+        {
+          "w": "a",
+          "start": 216.787,
+          "end": 216.941
+        },
+        {
+          "w": "friend!",
+          "start": 216.941,
+          "end": 217.25
+        },
+        {
+          "w": "Share",
+          "start": 217.47,
+          "end": 217.747
+        },
+        {
+          "w": "a",
+          "start": 217.747,
+          "end": 217.954
+        },
+        {
+          "w": "snack!",
+          "start": 217.954,
+          "end": 218.3
+        },
+        {
+          "w": "Kindness",
+          "start": 218.66,
+          "end": 219.168
+        },
+        {
+          "w": "always",
+          "start": 219.168,
+          "end": 219.62
+        },
+        {
+          "w": "comes",
+          "start": 219.62,
+          "end": 219.902
+        },
+        {
+          "w": "right",
+          "start": 219.902,
+          "end": 220.184
+        },
+        {
+          "w": "back!",
+          "start": 220.184,
+          "end": 220.41
+        }
+      ]
+    },
+    {
+      "beat": "chant_turn",
+      "speaker": "narrator",
+      "text": "Your turn! Help a friend! Share a snack! Kindness always comes right back!",
+      "gap": 3.4,
+      "start": 222.08,
+      "end": 226.7,
+      "words": [
+        {
+          "w": "Your",
+          "start": 222.12,
+          "end": 222.328
+        },
+        {
+          "w": "turn!",
+          "start": 222.328,
+          "end": 222.674
+        },
+        {
+          "w": "Help",
+          "start": 222.674,
+          "end": 223.02
+        },
+        {
+          "w": "a",
+          "start": 223.02,
+          "end": 223.228
+        },
+        {
+          "w": "friend!",
+          "start": 223.228,
+          "end": 223.643
+        },
+        {
+          "w": "Share",
+          "start": 223.643,
+          "end": 223.92
+        },
+        {
+          "w": "a",
+          "start": 223.92,
+          "end": 224.128
+        },
+        {
+          "w": "snack!",
+          "start": 224.128,
+          "end": 224.474
+        },
+        {
+          "w": "Kindness",
+          "start": 224.474,
+          "end": 225.097
+        },
+        {
+          "w": "always",
+          "start": 225.097,
+          "end": 225.651
+        },
+        {
+          "w": "comes",
+          "start": 225.651,
+          "end": 225.997
+        },
+        {
+          "w": "right",
+          "start": 225.997,
+          "end": 226.343
+        },
+        {
+          "w": "back!",
+          "start": 226.343,
+          "end": 226.62
+        }
+      ]
+    },
+    {
+      "beat": "rem",
+      "speaker": "narrator",
+      "text": "Let's remember the story!",
+      "gap": 1.2,
+      "start": 230.1,
+      "end": 231.57,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 230.15,
+          "end": 230.443
+        },
+        {
+          "w": "remember",
+          "start": 230.443,
+          "end": 230.912
+        },
+        {
+          "w": "the",
+          "start": 230.912,
+          "end": 231.03
+        },
+        {
+          "w": "story!",
+          "start": 231.03,
+          "end": 231.44
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "narrator",
+      "text": "Who was hungry on the path?",
+      "gap": 5.0,
+      "start": 232.77,
+      "end": 234.3,
+      "words": [
+        {
+          "w": "Who",
+          "start": 232.84,
+          "end": 233.082
+        },
+        {
+          "w": "was",
+          "start": 233.082,
+          "end": 233.263
+        },
+        {
+          "w": "hungry",
+          "start": 233.263,
+          "end": 233.686
+        },
+        {
+          "w": "on",
+          "start": 233.686,
+          "end": 233.867
+        },
+        {
+          "w": "the",
+          "start": 233.867,
+          "end": 233.988
+        },
+        {
+          "w": "path?",
+          "start": 233.988,
+          "end": 234.23
+        }
+      ]
+    },
+    {
+      "beat": "a1",
+      "speaker": "milo",
+      "text": "Me! Milo the mouse!",
+      "gap": 2.0,
+      "start": 239.3,
+      "end": 240.56,
+      "words": [
+        {
+          "w": "Me!",
+          "start": 239.33,
+          "end": 239.57
+        },
+        {
+          "w": "Milo",
+          "start": 239.57,
+          "end": 239.99
+        },
+        {
+          "w": "the",
+          "start": 239.99,
+          "end": 240.11
+        },
+        {
+          "w": "mouse!",
+          "start": 240.11,
+          "end": 240.41
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "narrator",
+      "text": "How did Ruby feel, when she hurried past Milo?",
+      "gap": 5.0,
+      "start": 242.56,
+      "end": 245.54,
+      "words": [
+        {
+          "w": "How",
+          "start": 242.58,
+          "end": 242.828
+        },
+        {
+          "w": "did",
+          "start": 242.828,
+          "end": 243.077
+        },
+        {
+          "w": "Ruby",
+          "start": 243.077,
+          "end": 243.449
+        },
+        {
+          "w": "feel,",
+          "start": 243.449,
+          "end": 243.76
+        },
+        {
+          "w": "when",
+          "start": 244.03,
+          "end": 244.248
+        },
+        {
+          "w": "she",
+          "start": 244.248,
+          "end": 244.412
+        },
+        {
+          "w": "hurried",
+          "start": 244.412,
+          "end": 244.795
+        },
+        {
+          "w": "past",
+          "start": 244.795,
+          "end": 245.068
+        },
+        {
+          "w": "Milo?",
+          "start": 245.068,
+          "end": 245.45
+        }
+      ]
+    },
+    {
+      "beat": "a2",
+      "speaker": "narrator",
+      "text": "She felt bad. She felt sorry.",
+      "gap": 2.0,
+      "start": 250.54,
+      "end": 252.52,
+      "words": [
+        {
+          "w": "She",
+          "start": 250.56,
+          "end": 250.76
+        },
+        {
+          "w": "felt",
+          "start": 250.76,
+          "end": 251.093
+        },
+        {
+          "w": "bad.",
+          "start": 251.093,
+          "end": 251.36
+        },
+        {
+          "w": "She",
+          "start": 251.51,
+          "end": 251.694
+        },
+        {
+          "w": "felt",
+          "start": 251.694,
+          "end": 252.001
+        },
+        {
+          "w": "sorry.",
+          "start": 252.001,
+          "end": 252.37
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "narrator",
+      "text": "Who did Ruby carry in her basket?",
+      "gap": 5.0,
+      "start": 254.52,
+      "end": 256.51,
+      "words": [
+        {
+          "w": "Who",
+          "start": 254.58,
+          "end": 254.809
+        },
+        {
+          "w": "did",
+          "start": 254.809,
+          "end": 255.038
+        },
+        {
+          "w": "Ruby",
+          "start": 255.038,
+          "end": 255.381
+        },
+        {
+          "w": "carry",
+          "start": 255.381,
+          "end": 255.667
+        },
+        {
+          "w": "in",
+          "start": 255.667,
+          "end": 255.838
+        },
+        {
+          "w": "her",
+          "start": 255.838,
+          "end": 256.01
+        },
+        {
+          "w": "basket?",
+          "start": 256.01,
+          "end": 256.41
+        }
+      ]
+    },
+    {
+      "beat": "a3",
+      "speaker": "tom",
+      "text": "Me! Tom the turtle!",
+      "gap": 2.0,
+      "start": 261.51,
+      "end": 263.64,
+      "words": [
+        {
+          "w": "Me!",
+          "start": 261.55,
+          "end": 263.15
+        },
+        {
+          "w": "Tom",
+          "start": 263.29,
+          "end": 263.379
+        },
+        {
+          "w": "the",
+          "start": 263.379,
+          "end": 263.415
+        },
+        {
+          "w": "turtle!",
+          "start": 263.415,
+          "end": 263.54
+        }
+      ]
+    },
+    {
+      "beat": "q4",
+      "speaker": "narrator",
+      "text": "What did Tilly make for Ruby?",
+      "gap": 5.0,
+      "start": 265.64,
+      "end": 267.3,
+      "words": [
+        {
+          "w": "What",
+          "start": 265.68,
+          "end": 265.893
+        },
+        {
+          "w": "did",
+          "start": 265.893,
+          "end": 266.106
+        },
+        {
+          "w": "Tilly",
+          "start": 266.106,
+          "end": 266.372
+        },
+        {
+          "w": "make",
+          "start": 266.372,
+          "end": 266.638
+        },
+        {
+          "w": "for",
+          "start": 266.638,
+          "end": 266.851
+        },
+        {
+          "w": "Ruby?",
+          "start": 266.851,
+          "end": 267.17
+        }
+      ]
+    },
+    {
+      "beat": "a4",
+      "speaker": "tilly",
+      "text": "A flower crown! Peep!",
+      "gap": 2.2,
+      "start": 272.3,
+      "end": 273.96,
+      "words": [
+        {
+          "w": "A",
+          "start": 272.37,
+          "end": 272.58
+        },
+        {
+          "w": "flower",
+          "start": 272.58,
+          "end": 273.0
+        },
+        {
+          "w": "crown!",
+          "start": 273.0,
+          "end": 273.42
+        },
+        {
+          "w": "Peep!",
+          "start": 273.42,
+          "end": 273.77
+        }
+      ]
+    },
+    {
+      "beat": "q5",
+      "speaker": "narrator",
+      "text": "And what does kindness always do?",
+      "gap": 5.0,
+      "start": 276.16,
+      "end": 278.09,
+      "words": [
+        {
+          "w": "And",
+          "start": 276.24,
+          "end": 276.403
+        },
+        {
+          "w": "what",
+          "start": 276.403,
+          "end": 276.621
+        },
+        {
+          "w": "does",
+          "start": 276.621,
+          "end": 276.838
+        },
+        {
+          "w": "kindness",
+          "start": 276.838,
+          "end": 277.327
+        },
+        {
+          "w": "always",
+          "start": 277.327,
+          "end": 277.763
+        },
+        {
+          "w": "do?",
+          "start": 277.763,
+          "end": 277.98
+        }
+      ]
+    },
+    {
+      "beat": "a5",
+      "speaker": "ruby",
+      "text": "It always comes back!",
+      "gap": 2.4,
+      "start": 283.09,
+      "end": 284.83,
+      "words": [
+        {
+          "w": "It",
+          "start": 283.13,
+          "end": 283.294
+        },
+        {
+          "w": "always",
+          "start": 283.294,
+          "end": 283.951
+        },
+        {
+          "w": "comes",
+          "start": 283.951,
+          "end": 284.362
+        },
+        {
+          "w": "back!",
+          "start": 284.362,
+          "end": 284.69
+        }
+      ]
+    },
+    {
+      "beat": "talk",
+      "speaker": "narrator",
+      "text": "Now it is your turn. When were YOU kind to a friend? Tell a grown-up!",
+      "gap": 3.4,
+      "start": 287.23,
+      "end": 291.1,
+      "words": [
+        {
+          "w": "Now",
+          "start": 287.28,
+          "end": 287.577
+        },
+        {
+          "w": "it",
+          "start": 287.577,
+          "end": 287.726
+        },
+        {
+          "w": "is",
+          "start": 287.726,
+          "end": 287.875
+        },
+        {
+          "w": "your",
+          "start": 287.875,
+          "end": 288.098
+        },
+        {
+          "w": "turn.",
+          "start": 288.098,
+          "end": 288.47
+        },
+        {
+          "w": "When",
+          "start": 288.72,
+          "end": 288.89
+        },
+        {
+          "w": "were",
+          "start": 288.89,
+          "end": 289.017
+        },
+        {
+          "w": "YOU",
+          "start": 289.017,
+          "end": 289.145
+        },
+        {
+          "w": "kind",
+          "start": 289.145,
+          "end": 289.4
+        },
+        {
+          "w": "to",
+          "start": 289.4,
+          "end": 289.527
+        },
+        {
+          "w": "a",
+          "start": 289.527,
+          "end": 289.655
+        },
+        {
+          "w": "friend?",
+          "start": 289.655,
+          "end": 289.91
+        },
+        {
+          "w": "Tell",
+          "start": 290.22,
+          "end": 290.439
+        },
+        {
+          "w": "a",
+          "start": 290.439,
+          "end": 290.603
+        },
+        {
+          "w": "grown-up!",
+          "start": 290.603,
+          "end": 291.04
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "ruby",
+      "text": "Bye-bye, friends! Be kind!",
+      "gap": 1.0,
+      "start": 294.5,
+      "end": 296.74,
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 294.57,
+          "end": 295.248
+        },
+        {
+          "w": "friends!",
+          "start": 295.248,
+          "end": 295.776
+        },
+        {
+          "w": "Be",
+          "start": 295.776,
+          "end": 296.078
+        },
+        {
+          "w": "kind!",
+          "start": 296.078,
+          "end": 296.53
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "bobo",
+      "text": "See you next time!",
+      "gap": 1.0,
+      "start": 297.74,
+      "end": 298.79,
+      "words": [
+        {
+          "w": "See",
+          "start": 297.76,
+          "end": 297.962
+        },
+        {
+          "w": "you",
+          "start": 297.962,
+          "end": 298.114
+        },
+        {
+          "w": "next",
+          "start": 298.114,
+          "end": 298.417
+        },
+        {
+          "w": "time!",
+          "start": 298.417,
+          "end": 298.67
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast",
+  "beats": [
+    {
+      "id": "intro",
+      "start": 0,
+      "visual": "Once upon a time, in a big green forest, there lived a little rabbit called Ruby.",
+      "end": 9.9
+    },
+    {
+      "id": "ruby_hi",
+      "start": 9.9,
+      "visual": "Hello! I'm Ruby! Today is Bobo's big picnic party!",
+      "end": 14.55
+    },
+    {
+      "id": "basket",
+      "start": 14.55,
+      "visual": "Ruby picked a basket full of crunchy orange carrots for the party.",
+      "end": 19.29
+    },
+    {
+      "id": "count",
+      "start": 19.29,
+      "visual": "How many carrots? Let's count! One, two, three, four, five!",
+      "end": 25.11
+    },
+    {
+      "id": "want",
+      "start": 25.11,
+      "visual": "Five carrots! I want to be the first one at the party! Hop, hop, hop!",
+      "end": 30.91
+    },
+    {
+      "id": "mouse",
+      "start": 30.91,
+      "visual": "On the path, Ruby saw Milo the mouse. He looked sad.",
+      "end": 35.35
+    },
+    {
+      "id": "milo",
+      "start": 35.35,
+      "visual": "Ruby... I'm so hungry. Can I have one carrot, please?",
+      "end": 39.75
+    },
+    {
+      "id": "rush",
+      "start": 39.75,
+      "visual": "Sorry, Milo! I'm in a hurry!",
+      "end": 43.12
+    },
+    {
+      "id": "rush2",
+      "start": 43.12,
+      "visual": "And Ruby hopped away. Fast, fast, fast.",
+      "end": 47.75
+    },
+    {
+      "id": "feel",
+      "start": 47.75,
+      "visual": "But soon, Ruby's tummy felt funny. Her ears drooped down.",
+      "end": 52.77
+    },
+    {
+      "id": "feel2",
+      "start": 52.77,
+      "visual": "Oh... I feel bad. Milo was hungry, and I didn't help him.",
+      "end": 57.64
+    },
+    {
+      "id": "word",
+      "start": 57.64,
+      "visual": "That funny feeling is called feeling sorry.",
+      "end": 61.63
+    },
+    {
+      "id": "ask",
+      "start": 61.63,
+      "visual": "What should Ruby do now? What do you think?",
+      "end": 68.87
+    },
+    {
+      "id": "back",
+      "start": 68.87,
+      "visual": "I'll go back! Hop, hop, hop!",
+      "end": 72.24
+    },
+    {
+      "id": "sorry",
+      "start": 72.24,
+      "visual": "Milo, I'm sorry I hurried past you. Here, have a carrot!",
+      "end": 77.02
+    },
+    {
+      "id": "milo_yay",
+      "start": 77.02,
+      "visual": "Thank you, Ruby! Crunch, crunch! Yum!",
+      "end": 80.81
+    },
+    {
+      "id": "kind",
+      "start": 80.81,
+      "visual": "Ruby felt warm and happy inside. Being kind feels good!",
+      "end": 86.72
+    },
+    {
+      "id": "happy",
+      "start": 86.72,
+      "visual": "I feel happy again! Hop, hop, hop!",
+      "end": 91.23
+    },
+    {
+      "id": "bird",
+      "start": 91.23,
+      "visual": "Then Ruby heard a little peep. Tilly the bird was stuck in a bush!",
+      "end": 96.01
+    },
+    {
+      "id": "tilly",
+      "start": 96.01,
+      "visual": "Peep, peep! Help! My wing is caught in the leaves!",
+      "end": 99.89
+    },
+    {
+      "id": "help_q",
+      "start": 99.89,
+      "visual": "Will Ruby stop to help? What do you think?",
+      "end": 107.38
+    },
+    {
+      "id": "help",
+      "start": 107.38,
+      "visual": "Don't worry, Tilly! I'll help you. Gently, gently...",
+      "end": 111.83
+    },
+    {
+      "id": "free",
+      "start": 111.83,
+      "visual": "Ruby moved the leaves very gently. And Tilly was free!",
+      "end": 116.56
+    },
+    {
+      "id": "tilly_yay",
+      "start": 116.56,
+      "visual": "Peep, peep! Thank you, Ruby! You're so kind!",
+      "end": 121.13
+    },
+    {
+      "id": "turtle",
+      "start": 121.13,
+      "visual": "Next, Ruby met Tom the turtle. He was very slow, and the party was far away.",
+      "end": 127.34
+    },
+    {
+      "id": "tom",
+      "start": 127.34,
+      "visual": "Oh dear... I'm so slow. I will miss the party.",
+      "end": 132.07
+    },
+    {
+      "id": "think",
+      "start": 132.07,
+      "visual": "Hmm... if I help Tom, I will be even later. But Tom needs a friend!",
+      "end": 137.45
+    },
+    {
+      "id": "carry",
+      "start": 137.45,
+      "visual": "Climb into my basket, Tom! We'll go together!",
+      "end": 141.7
+    },
+    {
+      "id": "hop",
+      "start": 141.7,
+      "visual": "So Ruby hopped along, with Tom in her basket. Hop, hop, hop!",
+      "end": 147.86
+    },
+    {
+      "id": "late",
+      "start": 147.86,
+      "visual": "Ruby was the very last one at the party.",
+      "end": 151.49
+    },
+    {
+      "id": "ruby_sad",
+      "start": 151.49,
+      "visual": "I'm late... and now I only have four carrots.",
+      "end": 156.06
+    },
+    {
+      "id": "surprise",
+      "start": 156.06,
+      "visual": "But then... surprise!",
+      "end": 158.97
+    },
+    {
+      "id": "gifts",
+      "start": 158.97,
+      "visual": "Ruby! Milo told us how kind you were! We saved you the best seat!",
+      "end": 164.0
+    },
+    {
+      "id": "milo2",
+      "start": 164.0,
+      "visual": "And I brought you some sweet berries!",
+      "end": 166.87
+    },
+    {
+      "id": "tilly2",
+      "start": 166.87,
+      "visual": "And I made you a flower crown! Peep!",
+      "end": 170.17
+    },
+    {
+      "id": "tom2",
+      "start": 170.17,
+      "visual": "Thank you for carrying me, Ruby.",
+      "end": 174.39
+    },
+    {
+      "id": "share",
+      "start": 174.39,
+      "visual": "Thank you, friends! Let's share everything, carrots and berries for everyone!",
+      "end": 181.1
+    },
+    {
+      "id": "moral",
+      "start": 181.1,
+      "visual": "Kindness always comes back to you.",
+      "end": 185.1
+    },
+    {
+      "id": "moral_turn",
+      "start": 185.1,
+      "visual": "Say it with me! Kindness always comes back!",
+      "end": 190.82
+    },
+    {
+      "id": "ideas",
+      "start": 190.82,
+      "visual": "What kind things can we do? Let's see!",
+      "end": 194.33
+    },
+    {
+      "id": "i1",
+      "start": 194.33,
+      "visual": "We can share our snacks!",
+      "end": 198.18
+    },
+    {
+      "id": "i2",
+      "start": 198.18,
+      "visual": "We can help a friend clean up!",
+      "end": 201.73
+    },
+    {
+      "id": "i3",
+      "start": 201.73,
+      "visual": "We can say nice words! You are my friend!",
+      "end": 206.35
+    },
+    {
+      "id": "i4",
+      "start": 206.35,
+      "visual": "We can wait, and help a slow friend.",
+      "end": 211.29
+    },
+    {
+      "id": "i5",
+      "start": 211.29,
+      "visual": "And we can give a big, warm hug!",
+      "end": 215.29
+    },
+    {
+      "id": "chant",
+      "start": 215.29,
+      "visual": "Kindness chant! Help a friend! Share a snack! Kindness always comes right back!",
+      "end": 221.88
+    },
+    {
+      "id": "chant_turn",
+      "start": 221.88,
+      "visual": "Your turn! Help a friend! Share a snack! Kindness always comes right back!",
+      "end": 229.9
+    },
+    {
+      "id": "rem",
+      "start": 229.9,
+      "visual": "Let's remember the story!",
+      "end": 232.57
+    },
+    {
+      "id": "q1",
+      "start": 232.57,
+      "visual": "Who was hungry on the path?",
+      "end": 239.1
+    },
+    {
+      "id": "a1",
+      "start": 239.1,
+      "visual": "Me! Milo the mouse!",
+      "end": 242.36
+    },
+    {
+      "id": "q2",
+      "start": 242.36,
+      "visual": "How did Ruby feel, when she hurried past Milo?",
+      "end": 250.34
+    },
+    {
+      "id": "a2",
+      "start": 250.34,
+      "visual": "She felt bad. She felt sorry.",
+      "end": 254.32
+    },
+    {
+      "id": "q3",
+      "start": 254.32,
+      "visual": "Who did Ruby carry in her basket?",
+      "end": 261.31
+    },
+    {
+      "id": "a3",
+      "start": 261.31,
+      "visual": "Me! Tom the turtle!",
+      "end": 265.44
+    },
+    {
+      "id": "q4",
+      "start": 265.44,
+      "visual": "What did Tilly make for Ruby?",
+      "end": 272.1
+    },
+    {
+      "id": "a4",
+      "start": 272.1,
+      "visual": "A flower crown! Peep!",
+      "end": 275.96
+    },
+    {
+      "id": "q5",
+      "start": 275.96,
+      "visual": "And what does kindness always do?",
+      "end": 282.89
+    },
+    {
+      "id": "a5",
+      "start": 282.89,
+      "visual": "It always comes back!",
+      "end": 287.03
+    },
+    {
+      "id": "talk",
+      "start": 287.03,
+      "visual": "Now it is your turn. When were YOU kind to a friend? Tell a grown-up!",
+      "end": 294.3
+    },
+    {
+      "id": "bye",
+      "start": 294.3,
+      "visual": "Bye-bye, friends! Be kind!",
+      "end": 297.54
+    },
+    {
+      "id": "bye2",
+      "start": 297.54,
+      "visual": "See you next time!",
+      "end": 303.8
+    }
+  ]
+}

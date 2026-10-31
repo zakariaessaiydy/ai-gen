@@ -1,0 +1,3483 @@
+{
+  "id": "day-046",
+  "series": "tiny-sparks",
+  "episode": 46,
+  "title": "Coco the Penguin Finds a Friend",
+  "composition": "KidsAnimals046",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 306.9
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-8%"
+    },
+    "coco": {
+      "kokoro": "af_sky:0.5+af_nova:0.5",
+      "rate": "-4%"
+    },
+    "pip": {
+      "kokoro": "am_puck:0.5+af_kore:0.5",
+      "rate": "-2%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -6,
+    "duck": 8,
+    "start": 3.7,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "guess",
+      "speaker": "narrator",
+      "text": "Who lives far, far away, where it is very, very cold?",
+      "gap": 1.2,
+      "start": 3.9,
+      "end": 7.16,
+      "words": [
+        {
+          "w": "Who",
+          "start": 3.94,
+          "end": 4.196
+        },
+        {
+          "w": "lives",
+          "start": 4.196,
+          "end": 4.581
+        },
+        {
+          "w": "far,",
+          "start": 4.581,
+          "end": 4.901
+        },
+        {
+          "w": "far",
+          "start": 4.901,
+          "end": 5.222
+        },
+        {
+          "w": "away,",
+          "start": 5.222,
+          "end": 5.542
+        },
+        {
+          "w": "where",
+          "start": 5.542,
+          "end": 5.798
+        },
+        {
+          "w": "it",
+          "start": 5.798,
+          "end": 5.927
+        },
+        {
+          "w": "is",
+          "start": 5.927,
+          "end": 6.055
+        },
+        {
+          "w": "very,",
+          "start": 6.055,
+          "end": 6.375
+        },
+        {
+          "w": "very",
+          "start": 6.375,
+          "end": 6.696
+        },
+        {
+          "w": "cold?",
+          "start": 6.696,
+          "end": 7.08
+        }
+      ]
+    },
+    {
+      "beat": "guess2",
+      "speaker": "narrator",
+      "text": "Who wears a black and white coat, and walks like this? Waddle, waddle! Can you guess?",
+      "gap": 5.0,
+      "start": 8.36,
+      "end": 13.2,
+      "words": [
+        {
+          "w": "Who",
+          "start": 8.42,
+          "end": 8.679
+        },
+        {
+          "w": "wears",
+          "start": 8.679,
+          "end": 9.002
+        },
+        {
+          "w": "a",
+          "start": 9.002,
+          "end": 9.196
+        },
+        {
+          "w": "black",
+          "start": 9.196,
+          "end": 9.519
+        },
+        {
+          "w": "and",
+          "start": 9.519,
+          "end": 9.713
+        },
+        {
+          "w": "white",
+          "start": 9.713,
+          "end": 10.036
+        },
+        {
+          "w": "coat,",
+          "start": 10.036,
+          "end": 10.36
+        },
+        {
+          "w": "and",
+          "start": 10.36,
+          "end": 10.554
+        },
+        {
+          "w": "walks",
+          "start": 10.554,
+          "end": 10.942
+        },
+        {
+          "w": "like",
+          "start": 10.942,
+          "end": 11.265
+        },
+        {
+          "w": "this?",
+          "start": 11.265,
+          "end": 11.524
+        },
+        {
+          "w": "Waddle,",
+          "start": 11.524,
+          "end": 11.976
+        },
+        {
+          "w": "waddle!",
+          "start": 11.976,
+          "end": 12.429
+        },
+        {
+          "w": "Can",
+          "start": 12.429,
+          "end": 12.687
+        },
+        {
+          "w": "you",
+          "start": 12.687,
+          "end": 12.881
+        },
+        {
+          "w": "guess?",
+          "start": 12.881,
+          "end": 13.14
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "speaker": "narrator",
+      "text": "It's... a penguin!",
+      "gap": 1.4,
+      "start": 18.2,
+      "end": 19.35,
+      "words": [
+        {
+          "w": "It's...",
+          "start": 18.23,
+          "end": 18.434
+        },
+        {
+          "w": "a",
+          "start": 18.434,
+          "end": 18.637
+        },
+        {
+          "w": "penguin!",
+          "start": 18.637,
+          "end": 19.18
+        }
+      ]
+    },
+    {
+      "beat": "hello",
+      "speaker": "coco",
+      "text": "Hello! I'm Coco the penguin!",
+      "gap": 0.9,
+      "start": 20.75,
+      "end": 23.01,
+      "words": [
+        {
+          "w": "Hello!",
+          "start": 20.79,
+          "end": 21.219
+        },
+        {
+          "w": "I'm",
+          "start": 21.219,
+          "end": 21.434
+        },
+        {
+          "w": "Coco",
+          "start": 21.434,
+          "end": 21.935
+        },
+        {
+          "w": "the",
+          "start": 21.935,
+          "end": 22.078
+        },
+        {
+          "w": "penguin!",
+          "start": 22.078,
+          "end": 22.65
+        }
+      ]
+    },
+    {
+      "beat": "bobo_hi",
+      "speaker": "bobo",
+      "text": "Hi, Coco! I'm Super Bobo! Brrr! It's so cold here!",
+      "gap": 1.0,
+      "start": 23.91,
+      "end": 27.96,
+      "words": [
+        {
+          "w": "Hi,",
+          "start": 23.95,
+          "end": 24.192
+        },
+        {
+          "w": "Coco!",
+          "start": 24.192,
+          "end": 24.615
+        },
+        {
+          "w": "I'm",
+          "start": 24.615,
+          "end": 24.797
+        },
+        {
+          "w": "Super",
+          "start": 24.797,
+          "end": 25.16
+        },
+        {
+          "w": "Bobo!",
+          "start": 25.16,
+          "end": 25.583
+        },
+        {
+          "w": "Brrr!",
+          "start": 25.583,
+          "end": 26.672
+        },
+        {
+          "w": "It's",
+          "start": 26.672,
+          "end": 26.853
+        },
+        {
+          "w": "so",
+          "start": 26.853,
+          "end": 27.095
+        },
+        {
+          "w": "cold",
+          "start": 27.095,
+          "end": 27.458
+        },
+        {
+          "w": "here!",
+          "start": 27.458,
+          "end": 27.7
+        }
+      ]
+    },
+    {
+      "beat": "home",
+      "speaker": "coco",
+      "text": "This is my home. Ice and snow, all around!",
+      "gap": 1.8,
+      "start": 28.96,
+      "end": 32.07,
+      "words": [
+        {
+          "w": "This",
+          "start": 29.03,
+          "end": 29.314
+        },
+        {
+          "w": "is",
+          "start": 29.314,
+          "end": 29.456
+        },
+        {
+          "w": "my",
+          "start": 29.456,
+          "end": 29.741
+        },
+        {
+          "w": "home.",
+          "start": 29.741,
+          "end": 30.096
+        },
+        {
+          "w": "Ice",
+          "start": 30.096,
+          "end": 30.38
+        },
+        {
+          "w": "and",
+          "start": 30.38,
+          "end": 30.593
+        },
+        {
+          "w": "snow,",
+          "start": 30.593,
+          "end": 30.948
+        },
+        {
+          "w": "all",
+          "start": 30.948,
+          "end": 31.233
+        },
+        {
+          "w": "around!",
+          "start": 31.233,
+          "end": 31.73
+        }
+      ]
+    },
+    {
+      "beat": "sound_q",
+      "speaker": "narrator",
+      "text": "What sound does a penguin make?",
+      "gap": 1.2,
+      "start": 33.87,
+      "end": 35.52,
+      "words": [
+        {
+          "w": "What",
+          "start": 33.9,
+          "end": 34.104
+        },
+        {
+          "w": "sound",
+          "start": 34.104,
+          "end": 34.41
+        },
+        {
+          "w": "does",
+          "start": 34.41,
+          "end": 34.614
+        },
+        {
+          "w": "a",
+          "start": 34.614,
+          "end": 34.767
+        },
+        {
+          "w": "penguin",
+          "start": 34.767,
+          "end": 35.175
+        },
+        {
+          "w": "make?",
+          "start": 35.175,
+          "end": 35.43
+        }
+      ]
+    },
+    {
+      "beat": "sound_a",
+      "speaker": "coco",
+      "text": "Squawk! Squawk!",
+      "gap": 1.5,
+      "start": 36.72,
+      "end": 38.14,
+      "words": [
+        {
+          "w": "Squawk!",
+          "start": 36.76,
+          "end": 37.345
+        },
+        {
+          "w": "Squawk!",
+          "start": 37.345,
+          "end": 37.93
+        }
+      ]
+    },
+    {
+      "beat": "sound_turn",
+      "speaker": "narrator",
+      "text": "Can you squawk like Coco? Your turn!",
+      "gap": 2.8,
+      "start": 39.64,
+      "end": 42.03,
+      "words": [
+        {
+          "w": "Can",
+          "start": 39.68,
+          "end": 39.875
+        },
+        {
+          "w": "you",
+          "start": 39.875,
+          "end": 40.022
+        },
+        {
+          "w": "squawk",
+          "start": 40.022,
+          "end": 40.364
+        },
+        {
+          "w": "like",
+          "start": 40.364,
+          "end": 40.608
+        },
+        {
+          "w": "Coco?",
+          "start": 40.608,
+          "end": 40.95
+        },
+        {
+          "w": "Your",
+          "start": 41.22,
+          "end": 41.486
+        },
+        {
+          "w": "turn!",
+          "start": 41.486,
+          "end": 41.93
+        }
+      ]
+    },
+    {
+      "beat": "sound_b",
+      "speaker": "coco",
+      "text": "Squawk! Squawk!",
+      "gap": 1.6,
+      "start": 44.83,
+      "end": 46.25,
+      "words": [
+        {
+          "w": "Squawk!",
+          "start": 44.87,
+          "end": 45.455
+        },
+        {
+          "w": "Squawk!",
+          "start": 45.455,
+          "end": 46.04
+        }
+      ]
+    },
+    {
+      "beat": "waddle_q",
+      "speaker": "narrator",
+      "text": "And how does a penguin walk? Waddle, waddle, waddle!",
+      "gap": 1.2,
+      "start": 47.85,
+      "end": 51.09,
+      "words": [
+        {
+          "w": "And",
+          "start": 47.92,
+          "end": 48.112
+        },
+        {
+          "w": "how",
+          "start": 48.112,
+          "end": 48.368
+        },
+        {
+          "w": "does",
+          "start": 48.368,
+          "end": 48.624
+        },
+        {
+          "w": "a",
+          "start": 48.624,
+          "end": 48.815
+        },
+        {
+          "w": "penguin",
+          "start": 48.815,
+          "end": 49.327
+        },
+        {
+          "w": "walk?",
+          "start": 49.327,
+          "end": 49.647
+        },
+        {
+          "w": "Waddle,",
+          "start": 49.647,
+          "end": 50.095
+        },
+        {
+          "w": "waddle,",
+          "start": 50.095,
+          "end": 50.542
+        },
+        {
+          "w": "waddle!",
+          "start": 50.542,
+          "end": 50.99
+        }
+      ]
+    },
+    {
+      "beat": "waddle_turn",
+      "speaker": "bobo",
+      "text": "Let's waddle together! Waddle, waddle!",
+      "gap": 2.8,
+      "start": 52.29,
+      "end": 54.5,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 52.32,
+          "end": 52.626
+        },
+        {
+          "w": "waddle",
+          "start": 52.626,
+          "end": 53.055
+        },
+        {
+          "w": "together!",
+          "start": 53.055,
+          "end": 53.483
+        },
+        {
+          "w": "Waddle,",
+          "start": 53.483,
+          "end": 53.912
+        },
+        {
+          "w": "waddle!",
+          "start": 53.912,
+          "end": 54.34
+        }
+      ]
+    },
+    {
+      "beat": "waddle_why",
+      "speaker": "narrator",
+      "text": "Penguins waddle, because their legs are short!",
+      "gap": 1.8,
+      "start": 57.3,
+      "end": 59.97,
+      "words": [
+        {
+          "w": "Penguins",
+          "start": 57.33,
+          "end": 57.87
+        },
+        {
+          "w": "waddle,",
+          "start": 57.87,
+          "end": 58.29
+        },
+        {
+          "w": "because",
+          "start": 58.55,
+          "end": 58.902
+        },
+        {
+          "w": "their",
+          "start": 58.902,
+          "end": 59.078
+        },
+        {
+          "w": "legs",
+          "start": 59.078,
+          "end": 59.372
+        },
+        {
+          "w": "are",
+          "start": 59.372,
+          "end": 59.548
+        },
+        {
+          "w": "short!",
+          "start": 59.548,
+          "end": 59.9
+        }
+      ]
+    },
+    {
+      "beat": "facts",
+      "speaker": "narrator",
+      "text": "Let's learn three penguin facts!",
+      "gap": 1.4,
+      "start": 61.77,
+      "end": 63.66,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 61.82,
+          "end": 62.125
+        },
+        {
+          "w": "learn",
+          "start": 62.125,
+          "end": 62.43
+        },
+        {
+          "w": "three",
+          "start": 62.43,
+          "end": 62.736
+        },
+        {
+          "w": "penguin",
+          "start": 62.736,
+          "end": 63.224
+        },
+        {
+          "w": "facts!",
+          "start": 63.224,
+          "end": 63.59
+        }
+      ]
+    },
+    {
+      "beat": "fact1",
+      "speaker": "narrator",
+      "text": "Fact one. Penguins are birds, but they can't fly.",
+      "gap": 1.4,
+      "start": 65.06,
+      "end": 68.19,
+      "words": [
+        {
+          "w": "Fact",
+          "start": 65.1,
+          "end": 65.441
+        },
+        {
+          "w": "one.",
+          "start": 65.441,
+          "end": 65.714
+        },
+        {
+          "w": "Penguins",
+          "start": 65.714,
+          "end": 66.327
+        },
+        {
+          "w": "are",
+          "start": 66.327,
+          "end": 66.532
+        },
+        {
+          "w": "birds,",
+          "start": 66.532,
+          "end": 66.941
+        },
+        {
+          "w": "but",
+          "start": 66.941,
+          "end": 67.214
+        },
+        {
+          "w": "they",
+          "start": 67.214,
+          "end": 67.418
+        },
+        {
+          "w": "can't",
+          "start": 67.418,
+          "end": 67.759
+        },
+        {
+          "w": "fly.",
+          "start": 67.759,
+          "end": 68.1
+        }
+      ]
+    },
+    {
+      "beat": "fly_try",
+      "speaker": "bobo",
+      "text": "Can't fly? Oh no!",
+      "gap": 1.0,
+      "start": 69.59,
+      "end": 70.8,
+      "words": [
+        {
+          "w": "Can't",
+          "start": 69.62,
+          "end": 69.923
+        },
+        {
+          "w": "fly?",
+          "start": 69.923,
+          "end": 70.226
+        },
+        {
+          "w": "Oh",
+          "start": 70.226,
+          "end": 70.408
+        },
+        {
+          "w": "no!",
+          "start": 70.408,
+          "end": 70.65
+        }
+      ]
+    },
+    {
+      "beat": "fact1b",
+      "speaker": "narrator",
+      "text": "But penguins are super swimmers! Their wings are flippers. Swish, swish!",
+      "gap": 2.8,
+      "start": 71.8,
+      "end": 76.21,
+      "words": [
+        {
+          "w": "But",
+          "start": 71.87,
+          "end": 72.17
+        },
+        {
+          "w": "penguins",
+          "start": 72.17,
+          "end": 72.846
+        },
+        {
+          "w": "are",
+          "start": 72.846,
+          "end": 73.071
+        },
+        {
+          "w": "super",
+          "start": 73.071,
+          "end": 73.522
+        },
+        {
+          "w": "swimmers!",
+          "start": 73.522,
+          "end": 74.048
+        },
+        {
+          "w": "Their",
+          "start": 74.048,
+          "end": 74.273
+        },
+        {
+          "w": "wings",
+          "start": 74.273,
+          "end": 74.648
+        },
+        {
+          "w": "are",
+          "start": 74.648,
+          "end": 74.874
+        },
+        {
+          "w": "flippers.",
+          "start": 74.874,
+          "end": 75.399
+        },
+        {
+          "w": "Swish,",
+          "start": 75.399,
+          "end": 75.775
+        },
+        {
+          "w": "swish!",
+          "start": 75.775,
+          "end": 76.15
+        }
+      ]
+    },
+    {
+      "beat": "fact2",
+      "speaker": "narrator",
+      "text": "Fact two. Penguins slide on their tummies, on the ice. Wheee!",
+      "gap": 2.4,
+      "start": 79.01,
+      "end": 82.74,
+      "words": [
+        {
+          "w": "Fact",
+          "start": 79.07,
+          "end": 79.434
+        },
+        {
+          "w": "two.",
+          "start": 79.434,
+          "end": 79.726
+        },
+        {
+          "w": "Penguins",
+          "start": 79.726,
+          "end": 80.381
+        },
+        {
+          "w": "slide",
+          "start": 80.381,
+          "end": 80.819
+        },
+        {
+          "w": "on",
+          "start": 80.819,
+          "end": 81.037
+        },
+        {
+          "w": "their",
+          "start": 81.037,
+          "end": 81.256
+        },
+        {
+          "w": "tummies,",
+          "start": 81.256,
+          "end": 81.693
+        },
+        {
+          "w": "on",
+          "start": 81.693,
+          "end": 81.911
+        },
+        {
+          "w": "the",
+          "start": 81.911,
+          "end": 82.057
+        },
+        {
+          "w": "ice.",
+          "start": 82.057,
+          "end": 82.349
+        },
+        {
+          "w": "Wheee!",
+          "start": 82.349,
+          "end": 82.64
+        }
+      ]
+    },
+    {
+      "beat": "bobo_slide",
+      "speaker": "bobo",
+      "text": "I want to try! Wheee! Oops!",
+      "gap": 2.2,
+      "start": 85.14,
+      "end": 86.63,
+      "words": [
+        {
+          "w": "I",
+          "start": 85.17,
+          "end": 85.333
+        },
+        {
+          "w": "want",
+          "start": 85.333,
+          "end": 85.605
+        },
+        {
+          "w": "to",
+          "start": 85.605,
+          "end": 85.768
+        },
+        {
+          "w": "try!",
+          "start": 85.768,
+          "end": 86.04
+        },
+        {
+          "w": "Wheee!",
+          "start": 86.04,
+          "end": 86.258
+        },
+        {
+          "w": "Oops!",
+          "start": 86.258,
+          "end": 86.53
+        }
+      ]
+    },
+    {
+      "beat": "fact3",
+      "speaker": "narrator",
+      "text": "Fact three. Emperor penguin daddies keep the egg warm, on their feet!",
+      "gap": 1.4,
+      "start": 88.83,
+      "end": 92.83,
+      "words": [
+        {
+          "w": "Fact",
+          "start": 88.87,
+          "end": 89.206
+        },
+        {
+          "w": "three.",
+          "start": 89.206,
+          "end": 89.542
+        },
+        {
+          "w": "Emperor",
+          "start": 89.542,
+          "end": 90.013
+        },
+        {
+          "w": "penguin",
+          "start": 90.013,
+          "end": 90.551
+        },
+        {
+          "w": "daddies",
+          "start": 90.551,
+          "end": 90.954
+        },
+        {
+          "w": "keep",
+          "start": 90.954,
+          "end": 91.291
+        },
+        {
+          "w": "the",
+          "start": 91.291,
+          "end": 91.425
+        },
+        {
+          "w": "egg",
+          "start": 91.425,
+          "end": 91.627
+        },
+        {
+          "w": "warm,",
+          "start": 91.627,
+          "end": 92.03
+        },
+        {
+          "w": "on",
+          "start": 92.03,
+          "end": 92.232
+        },
+        {
+          "w": "their",
+          "start": 92.232,
+          "end": 92.434
+        },
+        {
+          "w": "feet!",
+          "start": 92.434,
+          "end": 92.77
+        }
+      ]
+    },
+    {
+      "beat": "wow",
+      "speaker": "bobo",
+      "text": "On their feet? Wow! A warm, cozy egg!",
+      "gap": 2.8,
+      "start": 94.23,
+      "end": 96.31,
+      "words": [
+        {
+          "w": "On",
+          "start": 94.26,
+          "end": 94.433
+        },
+        {
+          "w": "their",
+          "start": 94.433,
+          "end": 94.605
+        },
+        {
+          "w": "feet?",
+          "start": 94.605,
+          "end": 94.893
+        },
+        {
+          "w": "Wow!",
+          "start": 94.893,
+          "end": 95.124
+        },
+        {
+          "w": "A",
+          "start": 95.124,
+          "end": 95.296
+        },
+        {
+          "w": "warm,",
+          "start": 95.296,
+          "end": 95.642
+        },
+        {
+          "w": "cozy",
+          "start": 95.642,
+          "end": 95.987
+        },
+        {
+          "w": "egg!",
+          "start": 95.987,
+          "end": 96.16
+        }
+      ]
+    },
+    {
+      "beat": "story",
+      "speaker": "narrator",
+      "text": "But Coco had a problem.",
+      "gap": 1.0,
+      "start": 99.11,
+      "end": 100.7,
+      "words": [
+        {
+          "w": "But",
+          "start": 99.18,
+          "end": 99.387
+        },
+        {
+          "w": "Coco",
+          "start": 99.387,
+          "end": 99.75
+        },
+        {
+          "w": "had",
+          "start": 99.75,
+          "end": 99.958
+        },
+        {
+          "w": "a",
+          "start": 99.958,
+          "end": 100.113
+        },
+        {
+          "w": "problem.",
+          "start": 100.113,
+          "end": 100.58
+        }
+      ]
+    },
+    {
+      "beat": "problem",
+      "speaker": "coco",
+      "text": "All the other penguins are playing together. But I'm all alone.",
+      "gap": 1.4,
+      "start": 101.7,
+      "end": 105.43,
+      "words": [
+        {
+          "w": "All",
+          "start": 101.84,
+          "end": 102.056
+        },
+        {
+          "w": "the",
+          "start": 102.056,
+          "end": 102.163
+        },
+        {
+          "w": "other",
+          "start": 102.163,
+          "end": 102.379
+        },
+        {
+          "w": "penguins",
+          "start": 102.379,
+          "end": 102.864
+        },
+        {
+          "w": "are",
+          "start": 102.864,
+          "end": 103.026
+        },
+        {
+          "w": "playing",
+          "start": 103.026,
+          "end": 103.403
+        },
+        {
+          "w": "together.",
+          "start": 103.403,
+          "end": 103.78
+        },
+        {
+          "w": "But",
+          "start": 104.03,
+          "end": 104.272
+        },
+        {
+          "w": "I'm",
+          "start": 104.272,
+          "end": 104.454
+        },
+        {
+          "w": "all",
+          "start": 104.454,
+          "end": 104.696
+        },
+        {
+          "w": "alone.",
+          "start": 104.696,
+          "end": 105.06
+        }
+      ]
+    },
+    {
+      "beat": "feel",
+      "speaker": "narrator",
+      "text": "Coco felt lonely, and a little shy.",
+      "gap": 2.0,
+      "start": 106.83,
+      "end": 109.15,
+      "words": [
+        {
+          "w": "Coco",
+          "start": 106.85,
+          "end": 107.277
+        },
+        {
+          "w": "felt",
+          "start": 107.277,
+          "end": 107.583
+        },
+        {
+          "w": "lonely,",
+          "start": 107.583,
+          "end": 108.01
+        },
+        {
+          "w": "and",
+          "start": 108.26,
+          "end": 108.406
+        },
+        {
+          "w": "a",
+          "start": 108.406,
+          "end": 108.552
+        },
+        {
+          "w": "little",
+          "start": 108.552,
+          "end": 108.845
+        },
+        {
+          "w": "shy.",
+          "start": 108.845,
+          "end": 109.04
+        }
+      ]
+    },
+    {
+      "beat": "bobo_ask",
+      "speaker": "bobo",
+      "text": "Why don't you play with them, Coco?",
+      "gap": 1.0,
+      "start": 111.15,
+      "end": 112.89,
+      "words": [
+        {
+          "w": "Why",
+          "start": 111.18,
+          "end": 111.374
+        },
+        {
+          "w": "don't",
+          "start": 111.374,
+          "end": 111.664
+        },
+        {
+          "w": "you",
+          "start": 111.664,
+          "end": 111.81
+        },
+        {
+          "w": "play",
+          "start": 111.81,
+          "end": 112.052
+        },
+        {
+          "w": "with",
+          "start": 112.052,
+          "end": 112.197
+        },
+        {
+          "w": "them,",
+          "start": 112.197,
+          "end": 112.391
+        },
+        {
+          "w": "Coco?",
+          "start": 112.391,
+          "end": 112.73
+        }
+      ]
+    },
+    {
+      "beat": "shy",
+      "speaker": "coco",
+      "text": "I'm too shy. What can I say?",
+      "gap": 0.9,
+      "start": 113.89,
+      "end": 116.15,
+      "words": [
+        {
+          "w": "I'm",
+          "start": 114.0,
+          "end": 114.208
+        },
+        {
+          "w": "too",
+          "start": 114.208,
+          "end": 114.485
+        },
+        {
+          "w": "shy.",
+          "start": 114.485,
+          "end": 114.762
+        },
+        {
+          "w": "What",
+          "start": 114.762,
+          "end": 115.038
+        },
+        {
+          "w": "can",
+          "start": 115.038,
+          "end": 115.315
+        },
+        {
+          "w": "I",
+          "start": 115.315,
+          "end": 115.523
+        },
+        {
+          "w": "say?",
+          "start": 115.523,
+          "end": 115.8
+        }
+      ]
+    },
+    {
+      "beat": "ask",
+      "speaker": "narrator",
+      "text": "How can Coco make a friend? What do you think?",
+      "gap": 5.0,
+      "start": 117.05,
+      "end": 119.82,
+      "words": [
+        {
+          "w": "How",
+          "start": 117.09,
+          "end": 117.313
+        },
+        {
+          "w": "can",
+          "start": 117.313,
+          "end": 117.537
+        },
+        {
+          "w": "Coco",
+          "start": 117.537,
+          "end": 117.928
+        },
+        {
+          "w": "make",
+          "start": 117.928,
+          "end": 118.207
+        },
+        {
+          "w": "a",
+          "start": 118.207,
+          "end": 118.375
+        },
+        {
+          "w": "friend?",
+          "start": 118.375,
+          "end": 118.71
+        },
+        {
+          "w": "What",
+          "start": 119.02,
+          "end": 119.197
+        },
+        {
+          "w": "do",
+          "start": 119.197,
+          "end": 119.375
+        },
+        {
+          "w": "you",
+          "start": 119.375,
+          "end": 119.508
+        },
+        {
+          "w": "think?",
+          "start": 119.508,
+          "end": 119.73
+        }
+      ]
+    },
+    {
+      "beat": "idea",
+      "speaker": "bobo",
+      "text": "I know! Just say: Hello! Can I play with you?",
+      "gap": 1.8,
+      "start": 124.82,
+      "end": 127.16,
+      "words": [
+        {
+          "w": "I",
+          "start": 124.85,
+          "end": 125.004
+        },
+        {
+          "w": "know!",
+          "start": 125.004,
+          "end": 125.21
+        },
+        {
+          "w": "Just",
+          "start": 125.21,
+          "end": 125.519
+        },
+        {
+          "w": "say:",
+          "start": 125.519,
+          "end": 125.725
+        },
+        {
+          "w": "Hello!",
+          "start": 125.725,
+          "end": 126.034
+        },
+        {
+          "w": "Can",
+          "start": 126.034,
+          "end": 126.24
+        },
+        {
+          "w": "I",
+          "start": 126.24,
+          "end": 126.394
+        },
+        {
+          "w": "play",
+          "start": 126.394,
+          "end": 126.651
+        },
+        {
+          "w": "with",
+          "start": 126.651,
+          "end": 126.806
+        },
+        {
+          "w": "you?",
+          "start": 126.806,
+          "end": 126.96
+        }
+      ]
+    },
+    {
+      "beat": "pip_in",
+      "speaker": "narrator",
+      "text": "Look! There is a little penguin, all by himself. His name is Pip.",
+      "gap": 1.2,
+      "start": 128.96,
+      "end": 132.73,
+      "words": [
+        {
+          "w": "Look!",
+          "start": 128.99,
+          "end": 129.244
+        },
+        {
+          "w": "There",
+          "start": 129.244,
+          "end": 129.498
+        },
+        {
+          "w": "is",
+          "start": 129.498,
+          "end": 129.624
+        },
+        {
+          "w": "a",
+          "start": 129.624,
+          "end": 129.815
+        },
+        {
+          "w": "little",
+          "start": 129.815,
+          "end": 130.196
+        },
+        {
+          "w": "penguin,",
+          "start": 130.196,
+          "end": 130.703
+        },
+        {
+          "w": "all",
+          "start": 130.703,
+          "end": 130.957
+        },
+        {
+          "w": "by",
+          "start": 130.957,
+          "end": 131.211
+        },
+        {
+          "w": "himself.",
+          "start": 131.211,
+          "end": 131.718
+        },
+        {
+          "w": "His",
+          "start": 131.718,
+          "end": 131.972
+        },
+        {
+          "w": "name",
+          "start": 131.972,
+          "end": 132.289
+        },
+        {
+          "w": "is",
+          "start": 132.289,
+          "end": 132.416
+        },
+        {
+          "w": "Pip.",
+          "start": 132.416,
+          "end": 132.67
+        }
+      ]
+    },
+    {
+      "beat": "pip_hm",
+      "speaker": "pip",
+      "text": "Hmm. I want to build a snow tower. But it keeps falling down.",
+      "gap": 1.4,
+      "start": 133.93,
+      "end": 137.42,
+      "words": [
+        {
+          "w": "Hmm.",
+          "start": 133.97,
+          "end": 134.136
+        },
+        {
+          "w": "I",
+          "start": 134.136,
+          "end": 134.302
+        },
+        {
+          "w": "want",
+          "start": 134.302,
+          "end": 134.579
+        },
+        {
+          "w": "to",
+          "start": 134.579,
+          "end": 134.745
+        },
+        {
+          "w": "build",
+          "start": 134.745,
+          "end": 135.022
+        },
+        {
+          "w": "a",
+          "start": 135.022,
+          "end": 135.188
+        },
+        {
+          "w": "snow",
+          "start": 135.188,
+          "end": 135.465
+        },
+        {
+          "w": "tower.",
+          "start": 135.465,
+          "end": 135.741
+        },
+        {
+          "w": "But",
+          "start": 135.741,
+          "end": 135.963
+        },
+        {
+          "w": "it",
+          "start": 135.963,
+          "end": 136.074
+        },
+        {
+          "w": "keeps",
+          "start": 136.074,
+          "end": 136.406
+        },
+        {
+          "w": "falling",
+          "start": 136.406,
+          "end": 136.793
+        },
+        {
+          "w": "down.",
+          "start": 136.793,
+          "end": 137.07
+        }
+      ]
+    },
+    {
+      "beat": "breath",
+      "speaker": "narrator",
+      "text": "Coco took a big, deep breath.",
+      "gap": 1.4,
+      "start": 138.82,
+      "end": 140.74,
+      "words": [
+        {
+          "w": "Coco",
+          "start": 138.86,
+          "end": 139.31
+        },
+        {
+          "w": "took",
+          "start": 139.31,
+          "end": 139.567
+        },
+        {
+          "w": "a",
+          "start": 139.567,
+          "end": 139.76
+        },
+        {
+          "w": "big,",
+          "start": 139.76,
+          "end": 140.017
+        },
+        {
+          "w": "deep",
+          "start": 140.017,
+          "end": 140.339
+        },
+        {
+          "w": "breath.",
+          "start": 140.339,
+          "end": 140.66
+        }
+      ]
+    },
+    {
+      "beat": "breath_turn",
+      "speaker": "narrator",
+      "text": "Can you take a big breath, like Coco? In... and out.",
+      "gap": 3.0,
+      "start": 142.14,
+      "end": 145.48,
+      "words": [
+        {
+          "w": "Can",
+          "start": 142.19,
+          "end": 142.471
+        },
+        {
+          "w": "you",
+          "start": 142.471,
+          "end": 142.682
+        },
+        {
+          "w": "take",
+          "start": 142.682,
+          "end": 143.033
+        },
+        {
+          "w": "a",
+          "start": 143.033,
+          "end": 143.243
+        },
+        {
+          "w": "big",
+          "start": 143.243,
+          "end": 143.524
+        },
+        {
+          "w": "breath,",
+          "start": 143.524,
+          "end": 143.875
+        },
+        {
+          "w": "like",
+          "start": 143.875,
+          "end": 144.226
+        },
+        {
+          "w": "Coco?",
+          "start": 144.226,
+          "end": 144.718
+        },
+        {
+          "w": "In...",
+          "start": 144.718,
+          "end": 144.928
+        },
+        {
+          "w": "and",
+          "start": 144.928,
+          "end": 145.139
+        },
+        {
+          "w": "out.",
+          "start": 145.139,
+          "end": 145.42
+        }
+      ]
+    },
+    {
+      "beat": "coco_hello",
+      "speaker": "coco",
+      "text": "Hello! I'm Coco. Can I play with you?",
+      "gap": 1.4,
+      "start": 148.48,
+      "end": 151.18,
+      "words": [
+        {
+          "w": "Hello!",
+          "start": 148.53,
+          "end": 148.938
+        },
+        {
+          "w": "I'm",
+          "start": 148.938,
+          "end": 149.141
+        },
+        {
+          "w": "Coco.",
+          "start": 149.141,
+          "end": 149.617
+        },
+        {
+          "w": "Can",
+          "start": 149.617,
+          "end": 149.889
+        },
+        {
+          "w": "I",
+          "start": 149.889,
+          "end": 150.093
+        },
+        {
+          "w": "play",
+          "start": 150.093,
+          "end": 150.432
+        },
+        {
+          "w": "with",
+          "start": 150.432,
+          "end": 150.636
+        },
+        {
+          "w": "you?",
+          "start": 150.636,
+          "end": 150.84
+        }
+      ]
+    },
+    {
+      "beat": "pip_yes",
+      "speaker": "pip",
+      "text": "Yes, please! Can you help me build my tower?",
+      "gap": 1.4,
+      "start": 152.58,
+      "end": 154.95,
+      "words": [
+        {
+          "w": "Yes,",
+          "start": 152.61,
+          "end": 152.815
+        },
+        {
+          "w": "please!",
+          "start": 152.815,
+          "end": 153.122
+        },
+        {
+          "w": "Can",
+          "start": 153.122,
+          "end": 153.328
+        },
+        {
+          "w": "you",
+          "start": 153.328,
+          "end": 153.481
+        },
+        {
+          "w": "help",
+          "start": 153.481,
+          "end": 153.738
+        },
+        {
+          "w": "me",
+          "start": 153.738,
+          "end": 153.943
+        },
+        {
+          "w": "build",
+          "start": 153.943,
+          "end": 154.199
+        },
+        {
+          "w": "my",
+          "start": 154.199,
+          "end": 154.404
+        },
+        {
+          "w": "tower?",
+          "start": 154.404,
+          "end": 154.66
+        }
+      ]
+    },
+    {
+      "beat": "build",
+      "speaker": "narrator",
+      "text": "Coco and Pip built the tower together. One block,",
+      "gap": 1.4,
+      "start": 156.35,
+      "end": 159.48,
+      "words": [
+        {
+          "w": "Coco",
+          "start": 156.39,
+          "end": 156.882
+        },
+        {
+          "w": "and",
+          "start": 156.882,
+          "end": 157.092
+        },
+        {
+          "w": "Pip",
+          "start": 157.092,
+          "end": 157.373
+        },
+        {
+          "w": "built",
+          "start": 157.373,
+          "end": 157.724
+        },
+        {
+          "w": "the",
+          "start": 157.724,
+          "end": 157.865
+        },
+        {
+          "w": "tower",
+          "start": 157.865,
+          "end": 158.216
+        },
+        {
+          "w": "together.",
+          "start": 158.216,
+          "end": 158.708
+        },
+        {
+          "w": "One",
+          "start": 158.708,
+          "end": 158.989
+        },
+        {
+          "w": "block,",
+          "start": 158.989,
+          "end": 159.41
+        }
+      ]
+    },
+    {
+      "beat": "build2",
+      "speaker": "narrator",
+      "text": "two blocks,",
+      "gap": 1.4,
+      "start": 160.88,
+      "end": 161.86,
+      "words": [
+        {
+          "w": "two",
+          "start": 160.92,
+          "end": 161.196
+        },
+        {
+          "w": "blocks,",
+          "start": 161.196,
+          "end": 161.68
+        }
+      ]
+    },
+    {
+      "beat": "build3",
+      "speaker": "narrator",
+      "text": "three blocks!",
+      "gap": 1.2,
+      "start": 163.26,
+      "end": 164.31,
+      "words": [
+        {
+          "w": "three",
+          "start": 163.29,
+          "end": 163.64
+        },
+        {
+          "w": "blocks!",
+          "start": 163.64,
+          "end": 164.13
+        }
+      ]
+    },
+    {
+      "beat": "tower",
+      "speaker": "pip",
+      "text": "Our tower is so tall! We did it together!",
+      "gap": 2.2,
+      "start": 165.51,
+      "end": 167.74,
+      "words": [
+        {
+          "w": "Our",
+          "start": 165.54,
+          "end": 165.752
+        },
+        {
+          "w": "tower",
+          "start": 165.752,
+          "end": 166.017
+        },
+        {
+          "w": "is",
+          "start": 166.017,
+          "end": 166.124
+        },
+        {
+          "w": "so",
+          "start": 166.124,
+          "end": 166.336
+        },
+        {
+          "w": "tall!",
+          "start": 166.336,
+          "end": 166.601
+        },
+        {
+          "w": "We",
+          "start": 166.601,
+          "end": 166.76
+        },
+        {
+          "w": "did",
+          "start": 166.76,
+          "end": 166.972
+        },
+        {
+          "w": "it",
+          "start": 166.972,
+          "end": 167.079
+        },
+        {
+          "w": "together!",
+          "start": 167.079,
+          "end": 167.45
+        }
+      ]
+    },
+    {
+      "beat": "wind",
+      "speaker": "narrator",
+      "text": "Then, whoosh! The wind blew Pip's blue scarf into the water!",
+      "gap": 1.4,
+      "start": 169.94,
+      "end": 173.74,
+      "words": [
+        {
+          "w": "Then,",
+          "start": 169.98,
+          "end": 170.268
+        },
+        {
+          "w": "whoosh!",
+          "start": 170.268,
+          "end": 170.628
+        },
+        {
+          "w": "The",
+          "start": 170.628,
+          "end": 170.772
+        },
+        {
+          "w": "wind",
+          "start": 170.772,
+          "end": 171.131
+        },
+        {
+          "w": "blew",
+          "start": 171.131,
+          "end": 171.491
+        },
+        {
+          "w": "Pip's",
+          "start": 171.491,
+          "end": 171.851
+        },
+        {
+          "w": "blue",
+          "start": 171.851,
+          "end": 172.211
+        },
+        {
+          "w": "scarf",
+          "start": 172.211,
+          "end": 172.715
+        },
+        {
+          "w": "into",
+          "start": 172.715,
+          "end": 173.074
+        },
+        {
+          "w": "the",
+          "start": 173.074,
+          "end": 173.218
+        },
+        {
+          "w": "water!",
+          "start": 173.218,
+          "end": 173.65
+        }
+      ]
+    },
+    {
+      "beat": "pip_sad",
+      "speaker": "pip",
+      "text": "Oh no! My scarf!",
+      "gap": 1.4,
+      "start": 175.14,
+      "end": 176.37,
+      "words": [
+        {
+          "w": "Oh",
+          "start": 175.17,
+          "end": 175.348
+        },
+        {
+          "w": "no!",
+          "start": 175.348,
+          "end": 175.586
+        },
+        {
+          "w": "My",
+          "start": 175.586,
+          "end": 175.824
+        },
+        {
+          "w": "scarf!",
+          "start": 175.824,
+          "end": 176.24
+        }
+      ]
+    },
+    {
+      "beat": "help_q",
+      "speaker": "narrator",
+      "text": "Who can help Pip? Who is a super swimmer?",
+      "gap": 5.0,
+      "start": 177.77,
+      "end": 180.17,
+      "words": [
+        {
+          "w": "Who",
+          "start": 177.81,
+          "end": 178.017
+        },
+        {
+          "w": "can",
+          "start": 178.017,
+          "end": 178.224
+        },
+        {
+          "w": "help",
+          "start": 178.224,
+          "end": 178.483
+        },
+        {
+          "w": "Pip?",
+          "start": 178.483,
+          "end": 178.69
+        },
+        {
+          "w": "Who",
+          "start": 178.93,
+          "end": 179.147
+        },
+        {
+          "w": "is",
+          "start": 179.147,
+          "end": 179.256
+        },
+        {
+          "w": "a",
+          "start": 179.256,
+          "end": 179.419
+        },
+        {
+          "w": "super",
+          "start": 179.419,
+          "end": 179.744
+        },
+        {
+          "w": "swimmer?",
+          "start": 179.744,
+          "end": 180.07
+        }
+      ]
+    },
+    {
+      "beat": "coco_go",
+      "speaker": "coco",
+      "text": "I can! Penguins are super swimmers!",
+      "gap": 1.0,
+      "start": 185.17,
+      "end": 187.76,
+      "words": [
+        {
+          "w": "I",
+          "start": 185.25,
+          "end": 185.455
+        },
+        {
+          "w": "can!",
+          "start": 185.455,
+          "end": 185.729
+        },
+        {
+          "w": "Penguins",
+          "start": 185.729,
+          "end": 186.345
+        },
+        {
+          "w": "are",
+          "start": 186.345,
+          "end": 186.55
+        },
+        {
+          "w": "super",
+          "start": 186.55,
+          "end": 186.961
+        },
+        {
+          "w": "swimmers!",
+          "start": 186.961,
+          "end": 187.44
+        }
+      ]
+    },
+    {
+      "beat": "dive",
+      "speaker": "narrator",
+      "text": "Coco dived into the water. Splash! Swish, swish, swish!",
+      "gap": 2.4,
+      "start": 188.76,
+      "end": 192.72,
+      "words": [
+        {
+          "w": "Coco",
+          "start": 188.79,
+          "end": 189.366
+        },
+        {
+          "w": "dived",
+          "start": 189.366,
+          "end": 189.86
+        },
+        {
+          "w": "into",
+          "start": 189.86,
+          "end": 190.272
+        },
+        {
+          "w": "the",
+          "start": 190.272,
+          "end": 190.437
+        },
+        {
+          "w": "water.",
+          "start": 190.437,
+          "end": 190.931
+        },
+        {
+          "w": "Splash!",
+          "start": 190.931,
+          "end": 191.425
+        },
+        {
+          "w": "Swish,",
+          "start": 191.425,
+          "end": 191.837
+        },
+        {
+          "w": "swish,",
+          "start": 191.837,
+          "end": 192.248
+        },
+        {
+          "w": "swish!",
+          "start": 192.248,
+          "end": 192.66
+        }
+      ]
+    },
+    {
+      "beat": "got_it",
+      "speaker": "coco",
+      "text": "Here's your scarf, Pip!",
+      "gap": 1.0,
+      "start": 195.12,
+      "end": 196.91,
+      "words": [
+        {
+          "w": "Here's",
+          "start": 195.19,
+          "end": 195.574
+        },
+        {
+          "w": "your",
+          "start": 195.574,
+          "end": 195.805
+        },
+        {
+          "w": "scarf,",
+          "start": 195.805,
+          "end": 196.343
+        },
+        {
+          "w": "Pip!",
+          "start": 196.343,
+          "end": 196.65
+        }
+      ]
+    },
+    {
+      "beat": "pip_yay",
+      "speaker": "pip",
+      "text": "Thank you, Coco! You are my best friend!",
+      "gap": 1.2,
+      "start": 197.91,
+      "end": 200.1,
+      "words": [
+        {
+          "w": "Thank",
+          "start": 197.95,
+          "end": 198.211
+        },
+        {
+          "w": "you,",
+          "start": 198.211,
+          "end": 198.368
+        },
+        {
+          "w": "Coco!",
+          "start": 198.368,
+          "end": 198.733
+        },
+        {
+          "w": "You",
+          "start": 198.733,
+          "end": 198.89
+        },
+        {
+          "w": "are",
+          "start": 198.89,
+          "end": 199.047
+        },
+        {
+          "w": "my",
+          "start": 199.047,
+          "end": 199.256
+        },
+        {
+          "w": "best",
+          "start": 199.256,
+          "end": 199.517
+        },
+        {
+          "w": "friend!",
+          "start": 199.517,
+          "end": 199.83
+        }
+      ]
+    },
+    {
+      "beat": "coco_yay",
+      "speaker": "coco",
+      "text": "Best friends! Hooray!",
+      "gap": 2.2,
+      "start": 201.3,
+      "end": 203.11,
+      "words": [
+        {
+          "w": "Best",
+          "start": 201.43,
+          "end": 201.791
+        },
+        {
+          "w": "friends!",
+          "start": 201.791,
+          "end": 202.295
+        },
+        {
+          "w": "Hooray!",
+          "start": 202.295,
+          "end": 202.8
+        }
+      ]
+    },
+    {
+      "beat": "lesson",
+      "speaker": "narrator",
+      "text": "Coco found a friend! Say hello, play together, and help each other.",
+      "gap": 2.4,
+      "start": 205.31,
+      "end": 209.5,
+      "words": [
+        {
+          "w": "Coco",
+          "start": 205.33,
+          "end": 205.798
+        },
+        {
+          "w": "found",
+          "start": 205.798,
+          "end": 206.2
+        },
+        {
+          "w": "a",
+          "start": 206.2,
+          "end": 206.4
+        },
+        {
+          "w": "friend!",
+          "start": 206.4,
+          "end": 206.801
+        },
+        {
+          "w": "Say",
+          "start": 206.801,
+          "end": 207.069
+        },
+        {
+          "w": "hello,",
+          "start": 207.069,
+          "end": 207.47
+        },
+        {
+          "w": "play",
+          "start": 207.47,
+          "end": 207.805
+        },
+        {
+          "w": "together,",
+          "start": 207.805,
+          "end": 208.273
+        },
+        {
+          "w": "and",
+          "start": 208.273,
+          "end": 208.474
+        },
+        {
+          "w": "help",
+          "start": 208.474,
+          "end": 208.808
+        },
+        {
+          "w": "each",
+          "start": 208.808,
+          "end": 209.142
+        },
+        {
+          "w": "other.",
+          "start": 209.142,
+          "end": 209.41
+        }
+      ]
+    },
+    {
+      "beat": "slide_all",
+      "speaker": "narrator",
+      "text": "Now Coco and Pip slide together. Wheee!",
+      "gap": 2.2,
+      "start": 211.9,
+      "end": 214.63,
+      "words": [
+        {
+          "w": "Now",
+          "start": 211.95,
+          "end": 212.182
+        },
+        {
+          "w": "Coco",
+          "start": 212.182,
+          "end": 212.589
+        },
+        {
+          "w": "and",
+          "start": 212.589,
+          "end": 212.763
+        },
+        {
+          "w": "Pip",
+          "start": 212.763,
+          "end": 212.995
+        },
+        {
+          "w": "slide",
+          "start": 212.995,
+          "end": 213.344
+        },
+        {
+          "w": "together.",
+          "start": 213.344,
+          "end": 213.75
+        },
+        {
+          "w": "Wheee!",
+          "start": 214.1,
+          "end": 214.53
+        }
+      ]
+    },
+    {
+      "beat": "bobo_join",
+      "speaker": "bobo",
+      "text": "Wait for me! Wheee!",
+      "gap": 2.4,
+      "start": 216.83,
+      "end": 217.98,
+      "words": [
+        {
+          "w": "Wait",
+          "start": 216.86,
+          "end": 217.151
+        },
+        {
+          "w": "for",
+          "start": 217.151,
+          "end": 217.384
+        },
+        {
+          "w": "me!",
+          "start": 217.384,
+          "end": 217.617
+        },
+        {
+          "w": "Wheee!",
+          "start": 217.617,
+          "end": 217.85
+        }
+      ]
+    },
+    {
+      "beat": "again",
+      "speaker": "narrator",
+      "text": "Let's remember!",
+      "gap": 1.2,
+      "start": 220.38,
+      "end": 221.51,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 220.42,
+          "end": 220.766
+        },
+        {
+          "w": "remember!",
+          "start": 220.766,
+          "end": 221.32
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "narrator",
+      "text": "Can a penguin fly?",
+      "gap": 5.0,
+      "start": 222.71,
+      "end": 224.01,
+      "words": [
+        {
+          "w": "Can",
+          "start": 222.74,
+          "end": 222.97
+        },
+        {
+          "w": "a",
+          "start": 222.97,
+          "end": 223.142
+        },
+        {
+          "w": "penguin",
+          "start": 223.142,
+          "end": 223.602
+        },
+        {
+          "w": "fly?",
+          "start": 223.602,
+          "end": 223.89
+        }
+      ]
+    },
+    {
+      "beat": "a1",
+      "speaker": "narrator",
+      "text": "No! But penguins are super swimmers!",
+      "gap": 2.0,
+      "start": 229.01,
+      "end": 231.31,
+      "words": [
+        {
+          "w": "No!",
+          "start": 229.06,
+          "end": 229.47
+        },
+        {
+          "w": "But",
+          "start": 229.63,
+          "end": 229.849
+        },
+        {
+          "w": "penguins",
+          "start": 229.849,
+          "end": 230.343
+        },
+        {
+          "w": "are",
+          "start": 230.343,
+          "end": 230.507
+        },
+        {
+          "w": "super",
+          "start": 230.507,
+          "end": 230.836
+        },
+        {
+          "w": "swimmers!",
+          "start": 230.836,
+          "end": 231.22
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "narrator",
+      "text": "How do penguins slide on the ice?",
+      "gap": 5.0,
+      "start": 233.31,
+      "end": 235.29,
+      "words": [
+        {
+          "w": "How",
+          "start": 233.35,
+          "end": 233.581
+        },
+        {
+          "w": "do",
+          "start": 233.581,
+          "end": 233.812
+        },
+        {
+          "w": "penguins",
+          "start": 233.812,
+          "end": 234.333
+        },
+        {
+          "w": "slide",
+          "start": 234.333,
+          "end": 234.68
+        },
+        {
+          "w": "on",
+          "start": 234.68,
+          "end": 234.853
+        },
+        {
+          "w": "the",
+          "start": 234.853,
+          "end": 234.969
+        },
+        {
+          "w": "ice?",
+          "start": 234.969,
+          "end": 235.2
+        }
+      ]
+    },
+    {
+      "beat": "a2",
+      "speaker": "narrator",
+      "text": "On their tummies! Wheee!",
+      "gap": 2.0,
+      "start": 240.29,
+      "end": 241.76,
+      "words": [
+        {
+          "w": "On",
+          "start": 240.37,
+          "end": 240.61
+        },
+        {
+          "w": "their",
+          "start": 240.61,
+          "end": 240.85
+        },
+        {
+          "w": "tummies!",
+          "start": 240.85,
+          "end": 241.33
+        },
+        {
+          "w": "Wheee!",
+          "start": 241.33,
+          "end": 241.65
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "narrator",
+      "text": "Where do emperor penguin daddies keep the egg warm?",
+      "gap": 5.0,
+      "start": 243.76,
+      "end": 246.36,
+      "words": [
+        {
+          "w": "Where",
+          "start": 243.84,
+          "end": 244.055
+        },
+        {
+          "w": "do",
+          "start": 244.055,
+          "end": 244.27
+        },
+        {
+          "w": "emperor",
+          "start": 244.27,
+          "end": 244.647
+        },
+        {
+          "w": "penguin",
+          "start": 244.647,
+          "end": 245.077
+        },
+        {
+          "w": "daddies",
+          "start": 245.077,
+          "end": 245.4
+        },
+        {
+          "w": "keep",
+          "start": 245.4,
+          "end": 245.668
+        },
+        {
+          "w": "the",
+          "start": 245.668,
+          "end": 245.776
+        },
+        {
+          "w": "egg",
+          "start": 245.776,
+          "end": 245.937
+        },
+        {
+          "w": "warm?",
+          "start": 245.937,
+          "end": 246.26
+        }
+      ]
+    },
+    {
+      "beat": "a3",
+      "speaker": "narrator",
+      "text": "On their feet!",
+      "gap": 2.0,
+      "start": 251.36,
+      "end": 252.38,
+      "words": [
+        {
+          "w": "On",
+          "start": 251.39,
+          "end": 251.619
+        },
+        {
+          "w": "their",
+          "start": 251.619,
+          "end": 251.848
+        },
+        {
+          "w": "feet!",
+          "start": 251.848,
+          "end": 252.23
+        }
+      ]
+    },
+    {
+      "beat": "q4",
+      "speaker": "narrator",
+      "text": "What did Coco say, to make a friend?",
+      "gap": 5.0,
+      "start": 254.38,
+      "end": 256.62,
+      "words": [
+        {
+          "w": "What",
+          "start": 254.42,
+          "end": 254.666
+        },
+        {
+          "w": "did",
+          "start": 254.666,
+          "end": 254.913
+        },
+        {
+          "w": "Coco",
+          "start": 254.913,
+          "end": 255.344
+        },
+        {
+          "w": "say,",
+          "start": 255.344,
+          "end": 255.59
+        },
+        {
+          "w": "to",
+          "start": 255.74,
+          "end": 255.874
+        },
+        {
+          "w": "make",
+          "start": 255.874,
+          "end": 256.098
+        },
+        {
+          "w": "a",
+          "start": 256.098,
+          "end": 256.232
+        },
+        {
+          "w": "friend?",
+          "start": 256.232,
+          "end": 256.5
+        }
+      ]
+    },
+    {
+      "beat": "a4",
+      "speaker": "coco",
+      "text": "Hello! Can I play with you?",
+      "gap": 2.0,
+      "start": 261.62,
+      "end": 263.6,
+      "words": [
+        {
+          "w": "Hello!",
+          "start": 261.66,
+          "end": 262.067
+        },
+        {
+          "w": "Can",
+          "start": 262.067,
+          "end": 262.339
+        },
+        {
+          "w": "I",
+          "start": 262.339,
+          "end": 262.543
+        },
+        {
+          "w": "play",
+          "start": 262.543,
+          "end": 262.882
+        },
+        {
+          "w": "with",
+          "start": 262.882,
+          "end": 263.086
+        },
+        {
+          "w": "you?",
+          "start": 263.086,
+          "end": 263.29
+        }
+      ]
+    },
+    {
+      "beat": "q5",
+      "speaker": "narrator",
+      "text": "And what sound does a penguin make?",
+      "gap": 5.0,
+      "start": 265.6,
+      "end": 267.43,
+      "words": [
+        {
+          "w": "And",
+          "start": 265.7,
+          "end": 265.847
+        },
+        {
+          "w": "what",
+          "start": 265.847,
+          "end": 266.044
+        },
+        {
+          "w": "sound",
+          "start": 266.044,
+          "end": 266.338
+        },
+        {
+          "w": "does",
+          "start": 266.338,
+          "end": 266.535
+        },
+        {
+          "w": "a",
+          "start": 266.535,
+          "end": 266.682
+        },
+        {
+          "w": "penguin",
+          "start": 266.682,
+          "end": 267.075
+        },
+        {
+          "w": "make?",
+          "start": 267.075,
+          "end": 267.32
+        }
+      ]
+    },
+    {
+      "beat": "a5",
+      "speaker": "coco",
+      "text": "Squawk! Squawk!",
+      "gap": 2.0,
+      "start": 272.43,
+      "end": 273.85,
+      "words": [
+        {
+          "w": "Squawk!",
+          "start": 272.47,
+          "end": 273.055
+        },
+        {
+          "w": "Squawk!",
+          "start": 273.055,
+          "end": 273.64
+        }
+      ]
+    },
+    {
+      "beat": "chant",
+      "speaker": "narrator",
+      "text": "Say it with Coco and Pip!",
+      "gap": 0.9,
+      "start": 275.85,
+      "end": 277.44,
+      "words": [
+        {
+          "w": "Say",
+          "start": 275.89,
+          "end": 276.142
+        },
+        {
+          "w": "it",
+          "start": 276.142,
+          "end": 276.268
+        },
+        {
+          "w": "with",
+          "start": 276.268,
+          "end": 276.457
+        },
+        {
+          "w": "Coco",
+          "start": 276.457,
+          "end": 276.899
+        },
+        {
+          "w": "and",
+          "start": 276.899,
+          "end": 277.088
+        },
+        {
+          "w": "Pip!",
+          "start": 277.088,
+          "end": 277.34
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "coco",
+      "text": "Say hello!",
+      "gap": 1.0,
+      "start": 278.34,
+      "end": 279.57,
+      "words": [
+        {
+          "w": "Say",
+          "start": 278.37,
+          "end": 278.75
+        },
+        {
+          "w": "hello!",
+          "start": 278.75,
+          "end": 279.32
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "pip",
+      "text": "Play together!",
+      "gap": 1.0,
+      "start": 280.57,
+      "end": 281.5,
+      "words": [
+        {
+          "w": "Play",
+          "start": 280.61,
+          "end": 280.918
+        },
+        {
+          "w": "together!",
+          "start": 280.918,
+          "end": 281.35
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "coco",
+      "text": "Help each other!",
+      "gap": 1.4,
+      "start": 282.5,
+      "end": 283.82,
+      "words": [
+        {
+          "w": "Help",
+          "start": 282.54,
+          "end": 282.911
+        },
+        {
+          "w": "each",
+          "start": 282.911,
+          "end": 283.283
+        },
+        {
+          "w": "other!",
+          "start": 283.283,
+          "end": 283.58
+        }
+      ]
+    },
+    {
+      "beat": "c_turn",
+      "speaker": "narrator",
+      "text": "Your turn! Say hello. Play together. Help each other!",
+      "gap": 3.0,
+      "start": 285.22,
+      "end": 288.35,
+      "words": [
+        {
+          "w": "Your",
+          "start": 285.27,
+          "end": 285.473
+        },
+        {
+          "w": "turn!",
+          "start": 285.473,
+          "end": 285.81
+        },
+        {
+          "w": "Say",
+          "start": 285.81,
+          "end": 286.08
+        },
+        {
+          "w": "hello.",
+          "start": 286.08,
+          "end": 286.485
+        },
+        {
+          "w": "Play",
+          "start": 286.485,
+          "end": 286.823
+        },
+        {
+          "w": "together.",
+          "start": 286.823,
+          "end": 287.295
+        },
+        {
+          "w": "Help",
+          "start": 287.295,
+          "end": 287.633
+        },
+        {
+          "w": "each",
+          "start": 287.633,
+          "end": 287.97
+        },
+        {
+          "w": "other!",
+          "start": 287.97,
+          "end": 288.24
+        }
+      ]
+    },
+    {
+      "beat": "end_waddle",
+      "speaker": "bobo",
+      "text": "Let's waddle one more time! Waddle, waddle, waddle!",
+      "gap": 3.0,
+      "start": 291.35,
+      "end": 294.56,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 291.38,
+          "end": 291.692
+        },
+        {
+          "w": "waddle",
+          "start": 291.692,
+          "end": 292.128
+        },
+        {
+          "w": "one",
+          "start": 292.128,
+          "end": 292.377
+        },
+        {
+          "w": "more",
+          "start": 292.377,
+          "end": 292.689
+        },
+        {
+          "w": "time!",
+          "start": 292.689,
+          "end": 293.001
+        },
+        {
+          "w": "Waddle,",
+          "start": 293.001,
+          "end": 293.437
+        },
+        {
+          "w": "waddle,",
+          "start": 293.437,
+          "end": 293.874
+        },
+        {
+          "w": "waddle!",
+          "start": 293.874,
+          "end": 294.31
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "coco",
+      "text": "Bye-bye, friends! Squawk, squawk!",
+      "gap": 0.9,
+      "start": 297.56,
+      "end": 299.94,
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 297.68,
+          "end": 298.253
+        },
+        {
+          "w": "friends!",
+          "start": 298.253,
+          "end": 298.699
+        },
+        {
+          "w": "Squawk,",
+          "start": 298.699,
+          "end": 299.144
+        },
+        {
+          "w": "squawk!",
+          "start": 299.144,
+          "end": 299.59
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "bobo",
+      "text": "See you next time!",
+      "gap": 1.0,
+      "start": 300.84,
+      "end": 301.89,
+      "words": [
+        {
+          "w": "See",
+          "start": 300.86,
+          "end": 301.062
+        },
+        {
+          "w": "you",
+          "start": 301.062,
+          "end": 301.214
+        },
+        {
+          "w": "next",
+          "start": 301.214,
+          "end": 301.517
+        },
+        {
+          "w": "time!",
+          "start": 301.517,
+          "end": 301.77
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast",
+  "beats": [
+    {
+      "id": "guess",
+      "start": 0,
+      "visual": "Who lives far, far away, where it is very, very cold?",
+      "end": 8.16
+    },
+    {
+      "id": "guess2",
+      "start": 8.16,
+      "visual": "Who wears a black and white coat, and walks like this? Waddle, waddle! Can you guess?",
+      "end": 18.0
+    },
+    {
+      "id": "reveal",
+      "start": 18.0,
+      "visual": "It's... a penguin!",
+      "end": 20.55
+    },
+    {
+      "id": "hello",
+      "start": 20.55,
+      "visual": "Hello! I'm Coco the penguin!",
+      "end": 23.71
+    },
+    {
+      "id": "bobo_hi",
+      "start": 23.71,
+      "visual": "Hi, Coco! I'm Super Bobo! Brrr! It's so cold here!",
+      "end": 28.76
+    },
+    {
+      "id": "home",
+      "start": 28.76,
+      "visual": "This is my home. Ice and snow, all around!",
+      "end": 33.67
+    },
+    {
+      "id": "sound_q",
+      "start": 33.67,
+      "visual": "What sound does a penguin make?",
+      "end": 36.52
+    },
+    {
+      "id": "sound_a",
+      "start": 36.52,
+      "visual": "Squawk! Squawk!",
+      "end": 39.44
+    },
+    {
+      "id": "sound_turn",
+      "start": 39.44,
+      "visual": "Can you squawk like Coco? Your turn!",
+      "end": 44.63
+    },
+    {
+      "id": "sound_b",
+      "start": 44.63,
+      "visual": "Squawk! Squawk!",
+      "end": 47.65
+    },
+    {
+      "id": "waddle_q",
+      "start": 47.65,
+      "visual": "And how does a penguin walk? Waddle, waddle, waddle!",
+      "end": 52.09
+    },
+    {
+      "id": "waddle_turn",
+      "start": 52.09,
+      "visual": "Let's waddle together! Waddle, waddle!",
+      "end": 57.1
+    },
+    {
+      "id": "waddle_why",
+      "start": 57.1,
+      "visual": "Penguins waddle, because their legs are short!",
+      "end": 61.57
+    },
+    {
+      "id": "facts",
+      "start": 61.57,
+      "visual": "Let's learn three penguin facts!",
+      "end": 64.86
+    },
+    {
+      "id": "fact1",
+      "start": 64.86,
+      "visual": "Fact one. Penguins are birds, but they can't fly.",
+      "end": 69.39
+    },
+    {
+      "id": "fly_try",
+      "start": 69.39,
+      "visual": "Can't fly? Oh no!",
+      "end": 71.6
+    },
+    {
+      "id": "fact1b",
+      "start": 71.6,
+      "visual": "But penguins are super swimmers! Their wings are flippers. Swish, swish!",
+      "end": 78.81
+    },
+    {
+      "id": "fact2",
+      "start": 78.81,
+      "visual": "Fact two. Penguins slide on their tummies, on the ice. Wheee!",
+      "end": 84.94
+    },
+    {
+      "id": "bobo_slide",
+      "start": 84.94,
+      "visual": "I want to try! Wheee! Oops!",
+      "end": 88.63
+    },
+    {
+      "id": "fact3",
+      "start": 88.63,
+      "visual": "Fact three. Emperor penguin daddies keep the egg warm, on their feet!",
+      "end": 94.03
+    },
+    {
+      "id": "wow",
+      "start": 94.03,
+      "visual": "On their feet? Wow! A warm, cozy egg!",
+      "end": 98.91
+    },
+    {
+      "id": "story",
+      "start": 98.91,
+      "visual": "But Coco had a problem.",
+      "end": 101.5
+    },
+    {
+      "id": "problem",
+      "start": 101.5,
+      "visual": "All the other penguins are playing together. But I'm all alone.",
+      "end": 106.63
+    },
+    {
+      "id": "feel",
+      "start": 106.63,
+      "visual": "Coco felt lonely, and a little shy.",
+      "end": 110.95
+    },
+    {
+      "id": "bobo_ask",
+      "start": 110.95,
+      "visual": "Why don't you play with them, Coco?",
+      "end": 113.69
+    },
+    {
+      "id": "shy",
+      "start": 113.69,
+      "visual": "I'm too shy. What can I say?",
+      "end": 116.85
+    },
+    {
+      "id": "ask",
+      "start": 116.85,
+      "visual": "How can Coco make a friend? What do you think?",
+      "end": 124.62
+    },
+    {
+      "id": "idea",
+      "start": 124.62,
+      "visual": "I know! Just say: Hello! Can I play with you?",
+      "end": 128.76
+    },
+    {
+      "id": "pip_in",
+      "start": 128.76,
+      "visual": "Look! There is a little penguin, all by himself. His name is Pip.",
+      "end": 133.73
+    },
+    {
+      "id": "pip_hm",
+      "start": 133.73,
+      "visual": "Hmm. I want to build a snow tower. But it keeps falling down.",
+      "end": 138.62
+    },
+    {
+      "id": "breath",
+      "start": 138.62,
+      "visual": "Coco took a big, deep breath.",
+      "end": 141.94
+    },
+    {
+      "id": "breath_turn",
+      "start": 141.94,
+      "visual": "Can you take a big breath, like Coco? In... and out.",
+      "end": 148.28
+    },
+    {
+      "id": "coco_hello",
+      "start": 148.28,
+      "visual": "Hello! I'm Coco. Can I play with you?",
+      "end": 152.38
+    },
+    {
+      "id": "pip_yes",
+      "start": 152.38,
+      "visual": "Yes, please! Can you help me build my tower?",
+      "end": 156.15
+    },
+    {
+      "id": "build",
+      "start": 156.15,
+      "visual": "Coco and Pip built the tower together. One block,",
+      "end": 160.68
+    },
+    {
+      "id": "build2",
+      "start": 160.68,
+      "visual": "two blocks,",
+      "end": 163.06
+    },
+    {
+      "id": "build3",
+      "start": 163.06,
+      "visual": "three blocks!",
+      "end": 165.31
+    },
+    {
+      "id": "tower",
+      "start": 165.31,
+      "visual": "Our tower is so tall! We did it together!",
+      "end": 169.74
+    },
+    {
+      "id": "wind",
+      "start": 169.74,
+      "visual": "Then, whoosh! The wind blew Pip's blue scarf into the water!",
+      "end": 174.94
+    },
+    {
+      "id": "pip_sad",
+      "start": 174.94,
+      "visual": "Oh no! My scarf!",
+      "end": 177.57
+    },
+    {
+      "id": "help_q",
+      "start": 177.57,
+      "visual": "Who can help Pip? Who is a super swimmer?",
+      "end": 184.97
+    },
+    {
+      "id": "coco_go",
+      "start": 184.97,
+      "visual": "I can! Penguins are super swimmers!",
+      "end": 188.56
+    },
+    {
+      "id": "dive",
+      "start": 188.56,
+      "visual": "Coco dived into the water. Splash! Swish, swish, swish!",
+      "end": 194.92
+    },
+    {
+      "id": "got_it",
+      "start": 194.92,
+      "visual": "Here's your scarf, Pip!",
+      "end": 197.71
+    },
+    {
+      "id": "pip_yay",
+      "start": 197.71,
+      "visual": "Thank you, Coco! You are my best friend!",
+      "end": 201.1
+    },
+    {
+      "id": "coco_yay",
+      "start": 201.1,
+      "visual": "Best friends! Hooray!",
+      "end": 205.11
+    },
+    {
+      "id": "lesson",
+      "start": 205.11,
+      "visual": "Coco found a friend! Say hello, play together, and help each other.",
+      "end": 211.7
+    },
+    {
+      "id": "slide_all",
+      "start": 211.7,
+      "visual": "Now Coco and Pip slide together. Wheee!",
+      "end": 216.63
+    },
+    {
+      "id": "bobo_join",
+      "start": 216.63,
+      "visual": "Wait for me! Wheee!",
+      "end": 220.18
+    },
+    {
+      "id": "again",
+      "start": 220.18,
+      "visual": "Let's remember!",
+      "end": 222.51
+    },
+    {
+      "id": "q1",
+      "start": 222.51,
+      "visual": "Can a penguin fly?",
+      "end": 228.81
+    },
+    {
+      "id": "a1",
+      "start": 228.81,
+      "visual": "No! But penguins are super swimmers!",
+      "end": 233.11
+    },
+    {
+      "id": "q2",
+      "start": 233.11,
+      "visual": "How do penguins slide on the ice?",
+      "end": 240.09
+    },
+    {
+      "id": "a2",
+      "start": 240.09,
+      "visual": "On their tummies! Wheee!",
+      "end": 243.56
+    },
+    {
+      "id": "q3",
+      "start": 243.56,
+      "visual": "Where do emperor penguin daddies keep the egg warm?",
+      "end": 251.16
+    },
+    {
+      "id": "a3",
+      "start": 251.16,
+      "visual": "On their feet!",
+      "end": 254.18
+    },
+    {
+      "id": "q4",
+      "start": 254.18,
+      "visual": "What did Coco say, to make a friend?",
+      "end": 261.42
+    },
+    {
+      "id": "a4",
+      "start": 261.42,
+      "visual": "Hello! Can I play with you?",
+      "end": 265.4
+    },
+    {
+      "id": "q5",
+      "start": 265.4,
+      "visual": "And what sound does a penguin make?",
+      "end": 272.23
+    },
+    {
+      "id": "a5",
+      "start": 272.23,
+      "visual": "Squawk! Squawk!",
+      "end": 275.65
+    },
+    {
+      "id": "chant",
+      "start": 275.65,
+      "visual": "Say it with Coco and Pip!",
+      "end": 278.14
+    },
+    {
+      "id": "c1",
+      "start": 278.14,
+      "visual": "Say hello!",
+      "end": 280.37
+    },
+    {
+      "id": "c2",
+      "start": 280.37,
+      "visual": "Play together!",
+      "end": 282.3
+    },
+    {
+      "id": "c3",
+      "start": 282.3,
+      "visual": "Help each other!",
+      "end": 285.02
+    },
+    {
+      "id": "c_turn",
+      "start": 285.02,
+      "visual": "Your turn! Say hello. Play together. Help each other!",
+      "end": 291.15
+    },
+    {
+      "id": "end_waddle",
+      "start": 291.15,
+      "visual": "Let's waddle one more time! Waddle, waddle, waddle!",
+      "end": 297.36
+    },
+    {
+      "id": "bye",
+      "start": 297.36,
+      "visual": "Bye-bye, friends! Squawk, squawk!",
+      "end": 300.64
+    },
+    {
+      "id": "bye2",
+      "start": 300.64,
+      "visual": "See you next time!",
+      "end": 306.9
+    }
+  ]
+}

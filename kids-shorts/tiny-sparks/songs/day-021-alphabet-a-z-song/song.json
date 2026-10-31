@@ -1,0 +1,187 @@
+{
+ "title": "Alphabet A\u2013Z (Tiny Sparks original)",
+ "bpm": 100,
+ "beatsPerBar": 4,
+ "introBars": 2,
+ "outroBars": 2,
+ "instruments": {
+  "lead": "xylophone",
+  "chords": "ukulele",
+  "bass": true,
+  "drums": "soft",
+  "leadWithVocal": true
+ },
+ "singer": "mila",
+ "vocal": {
+  "voice": "af_sky",
+  "pitch": 0,
+  "rate": "-4%"
+ },
+ "sections": {
+  "chorus": {
+   "chords": "C | G | Am | F | C | G | F | G | C | C",
+   "melody": "C4:1 C4:1 G4:1 G4:1 | A4:1 A4:1 G4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2 | G4:1 G4:1 F4:1 F4:1 | E4:1 E4:1 D4:2 | G4:1 G4:1 F4:2 | E4:1 D4:1 C4:1 R:1 | C4:1 D4:1 E4:1 F4:1 | G4:1 E4:1 C4:2",
+   "lyrics": "A, B, C, D, E, F, G! / H, I, J, K, L, M, N! / O, P, Q, R, S, T, U! / V, W, X, Y, Z! _ / Sing the al-pha-bet with me!"
+  },
+  "A": {
+   "chords": "C | G",
+   "melody": "G4:1 E4:1 G4:1 C4:1 | R:4",
+   "lyrics": "A, A, ap-ple!"
+  },
+  "B": {
+   "chords": "C | G",
+   "melody": "G4:1.333 E4:1.333 C4:1.334 | R:4",
+   "lyrics": "B, B, bear!"
+  },
+  "C": {
+   "chords": "C | G",
+   "melody": "G4:1.333 E4:1.333 C4:1.334 | R:4",
+   "lyrics": "C, C, cat!"
+  },
+  "D": {
+   "chords": "C | G",
+   "melody": "G4:1.333 E4:1.333 C4:1.334 | R:4",
+   "lyrics": "D, D, drum!"
+  },
+  "E": {
+   "chords": "C | G",
+   "melody": "G4:1.333 E4:1.333 C4:1.334 | R:4",
+   "lyrics": "E, E, egg!"
+  },
+  "F": {
+   "chords": "C | G",
+   "melody": "G4:1.333 E4:1.333 C4:1.334 | R:4",
+   "lyrics": "F, F, fox!"
+  },
+  "G": {
+   "chords": "C | G",
+   "melody": "G4:1.333 E4:1.333 C4:1.334 | R:4",
+   "lyrics": "G, G, grapes!"
+  },
+  "H": {
+   "chords": "C | G",
+   "melody": "G4:1.333 E4:1.333 C4:1.334 | R:4",
+   "lyrics": "H, H, heart!"
+  },
+  "I": {
+   "chords": "C | G",
+   "melody": "G4:1 E4:1 G4:1 C4:1 | R:4",
+   "lyrics": "I, I, ice cream!"
+  },
+  "J": {
+   "chords": "C | G",
+   "melody": "G4:1.333 E4:1.333 C4:1.334 | R:4",
+   "lyrics": "J, J, juice!"
+  },
+  "K": {
+   "chords": "C | G",
+   "melody": "G4:1.333 E4:1.333 C4:1.334 | R:4",
+   "lyrics": "K, K, kite!"
+  },
+  "L": {
+   "chords": "C | G",
+   "melody": "G4:1 E4:1 G4:1 C4:1 | R:4",
+   "lyrics": "L, L, li-on!"
+  },
+  "M": {
+   "chords": "C | G",
+   "melody": "G4:1 E4:1 G4:1 C4:1 | R:4",
+   "lyrics": "M, M, mon-key!"
+  },
+  "N": {
+   "chords": "C | G",
+   "melody": "G4:1.333 E4:1.333 C4:1.334 | R:4",
+   "lyrics": "N, N, nest!"
+  },
+  "O": {
+   "chords": "C | G",
+   "melody": "G4:1.333 E4:1.333 C4:1.334 | R:4",
+   "lyrics": "O, O, owl!"
+  },
+  "P": {
+   "chords": "C | G",
+   "melody": "G4:1.333 E4:1.333 C4:1.334 | R:4",
+   "lyrics": "P, P, pig!"
+  },
+  "Q": {
+   "chords": "C | G",
+   "melody": "G4:1.333 E4:1.333 C4:1.334 | R:4",
+   "lyrics": "Q, Q, queen!"
+  },
+  "R": {
+   "chords": "C | G",
+   "melody": "G4:1 E4:1 G4:1 C4:1 | R:4",
+   "lyrics": "R, R, rain-bow!"
+  },
+  "S": {
+   "chords": "C | G",
+   "melody": "G4:1.333 E4:1.333 C4:1.334 | R:4",
+   "lyrics": "S, S, star!"
+  },
+  "T": {
+   "chords": "C | G",
+   "melody": "G4:1.333 E4:1.333 C4:1.334 | R:4",
+   "lyrics": "T, T, tree!"
+  },
+  "U": {
+   "chords": "C | G",
+   "melody": "G4:0.8 E4:0.8 G4:0.8 A4:0.8 C4:0.8 | R:4",
+   "lyrics": "U, U, um-brel-la!"
+  },
+  "V": {
+   "chords": "C | G",
+   "melody": "G4:0.8 E4:0.8 G4:0.8 A4:0.8 C4:0.8 | R:4",
+   "lyrics": "V, V, vol-ca-no!"
+  },
+  "W": {
+   "chords": "C | G",
+   "melody": "G4:0.667 E4:0.667 G4:0.667 A4:0.667 G4:0.667 C4:0.665 | R:4",
+   "lyrics": "W, W, wa-ter-mel-on!"
+  },
+  "X": {
+   "chords": "C | G",
+   "melody": "G4:0.8 E4:0.8 G4:0.8 A4:0.8 C4:0.8 | R:4",
+   "lyrics": "X, X, xy-lo-phone!"
+  },
+  "Y": {
+   "chords": "C | G",
+   "melody": "G4:1 E4:1 G4:1 C4:1 | R:4",
+   "lyrics": "Y, Y, yo-yo!"
+  },
+  "Z": {
+   "chords": "C | G",
+   "melody": "G4:1 E4:1 G4:1 C4:1 | R:4",
+   "lyrics": "Z, Z, zig-zag!"
+  }
+ },
+ "form": [
+  "chorus",
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "H",
+  "I",
+  "J",
+  "K",
+  "L",
+  "M",
+  "N",
+  "O",
+  "P",
+  "Q",
+  "R",
+  "S",
+  "T",
+  "U",
+  "V",
+  "W",
+  "X",
+  "Y",
+  "Z",
+  "chorus"
+ ]
+}

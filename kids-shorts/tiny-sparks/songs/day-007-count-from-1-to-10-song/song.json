@@ -1,0 +1,92 @@
+{
+ "title": "Count from 1 to 10 (Tiny Sparks original)",
+ "bpm": 100,
+ "beatsPerBar": 4,
+ "introBars": 2,
+ "outroBars": 2,
+ "instruments": {
+  "lead": "xylophone",
+  "chords": "ukulele",
+  "bass": true,
+  "drums": "soft",
+  "leadWithVocal": true
+ },
+ "singer": "mila",
+ "vocal": {
+  "voice": "af_sky",
+  "pitch": 0,
+  "rate": "-4%"
+ },
+ "sections": {
+  "chorus": {
+   "chords": "C | G | Am | F | C | F | G | C",
+   "melody": "C4:1 D4:1 E4:1 F4:1 | G4:2 R:2 | A4:1 A4:0.5 A4:0.5 G4:2 | E4:1 D4:1 C4:2 | G4:1 E4:1 G4:2 | A4:1 F4:1 A4:2 | G4:1 G4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": "One, two, three, four, five! / Six, sev-en, eight, nine, ten! _ / Count with me, count with me, / we can count from one to ten!"
+  },
+  "n1": {
+   "chords": "C | F | G | C",
+   "melody": "C4:1 E4:1 G4:2 | R:4 | G4:0.5 G4:0.5 A4:0.5 G4:0.5 E4:0.5 E4:0.5 C4:1 | R:4",
+   "lyrics": "Num-ber one! / One lit-tle li-on says roar!"
+  },
+  "n2": {
+   "chords": "C | F | G | C",
+   "melody": "C4:1 E4:1 G4:2 | R:4 | G4:0.5 G4:0.5 A4:0.5 G4:0.5 E4:0.5 E4:0.5 C4:1 | R:4",
+   "lyrics": "Num-ber two! / Two lit-tle pig-gies say oink!"
+  },
+  "n3": {
+   "chords": "C | F | G | C",
+   "melody": "C4:1 E4:1 G4:2 | R:4 | G4:0.5 G4:0.5 A4:0.5 G4:0.5 E4:0.5 E4:0.5 C4:1 | R:4",
+   "lyrics": "Num-ber three! / Three lit-tle kit-tens say meow!"
+  },
+  "n4": {
+   "chords": "C | F | G | C",
+   "melody": "C4:1 E4:1 G4:2 | R:4 | G4:0.5 G4:0.5 A4:0.5 G4:0.5 E4:0.5 E4:0.5 C4:1 | R:4",
+   "lyrics": "Num-ber four! / Four lit-tle fox-es run fast!"
+  },
+  "n5": {
+   "chords": "C | F | G | C",
+   "melody": "C4:1 E4:1 G4:2 | R:4 | G4:0.5 G4:0.5 A4:0.5 G4:0.5 E4:0.5 E4:0.5 C4:1 | R:4",
+   "lyrics": "Num-ber five! / Five lit-tle bun-nies go hop!"
+  },
+  "n6": {
+   "chords": "C | F | G | C",
+   "melody": "C4:1 E4:1 G4:2 | R:4 | G4:0.5 G4:0.5 A4:0.5 G4:0.5 E4:0.5 E4:0.5 C4:1 | R:4",
+   "lyrics": "Num-ber six! / Six lit-tle mice say squeak, squeak!"
+  },
+  "n7": {
+   "chords": "C | F | G | C",
+   "melody": "C4:1 E4:1 G4:1 G4:1 | R:4 | G4:0.5 G4:0.5 A4:0.5 G4:0.5 E4:0.5 E4:0.5 C4:1 | R:4",
+   "lyrics": "Num-ber sev-en! / Sev-en pan-das eat bam-boo!"
+  },
+  "n8": {
+   "chords": "C | F | G | C",
+   "melody": "C4:1 E4:1 G4:2 | R:4 | G4:0.5 G4:0.5 A4:0.5 G4:0.5 E4:0.5 E4:0.5 C4:1 | R:4",
+   "lyrics": "Num-ber eight! / Eight lit-tle owls say hoo-hoo!"
+  },
+  "n9": {
+   "chords": "C | F | G | C",
+   "melody": "C4:1 E4:1 G4:2 | R:4 | G4:0.5 G4:0.5 A4:0.5 G4:0.5 E4:0.5 E4:0.5 C4:1 | R:4",
+   "lyrics": "Num-ber nine! / Nine lit-tle frogs say rib-bit!"
+  },
+  "n10": {
+   "chords": "C | F | G | C",
+   "melody": "C4:1 E4:1 G4:2 | R:4 | G4:0.5 G4:0.5 A4:0.5 G4:0.5 E4:0.5 E4:0.5 C4:1 | R:4",
+   "lyrics": "Num-ber ten! / Ten bears, and one is Bo-bo!"
+  }
+ },
+ "form": [
+  "chorus",
+  "n1",
+  "n2",
+  "n3",
+  "n4",
+  "n5",
+  "chorus",
+  "n6",
+  "n7",
+  "n8",
+  "n9",
+  "n10",
+  "chorus"
+ ]
+}

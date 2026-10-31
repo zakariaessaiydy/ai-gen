@@ -1,0 +1,1145 @@
+{
+  "id": "day-031",
+  "series": "tiny-sparks",
+  "episode": 31,
+  "title": "Fruits in English and French",
+  "composition": "KidsWords031",
+  "audience": "ages 2-6 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 131.7
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "narrator_fr": {
+      "kokoro": "ff_siwis",
+      "lang": "fr",
+      "rate": "-6%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "intro",
+      "speaker": "mila",
+      "start": 1.6,
+      "end": 4.88,
+      "text": "Hi friends! Let's learn fruits, in English, and in French!",
+      "words": [
+        {
+          "w": "Hi",
+          "start": 1.63,
+          "end": 1.869
+        },
+        {
+          "w": "friends!",
+          "start": 1.869,
+          "end": 2.288
+        },
+        {
+          "w": "Let's",
+          "start": 2.288,
+          "end": 2.587
+        },
+        {
+          "w": "learn",
+          "start": 2.587,
+          "end": 2.886
+        },
+        {
+          "w": "fruits,",
+          "start": 2.886,
+          "end": 3.305
+        },
+        {
+          "w": "in",
+          "start": 3.305,
+          "end": 3.484
+        },
+        {
+          "w": "English,",
+          "start": 3.484,
+          "end": 3.903
+        },
+        {
+          "w": "and",
+          "start": 3.903,
+          "end": 4.082
+        },
+        {
+          "w": "in",
+          "start": 4.082,
+          "end": 4.261
+        },
+        {
+          "w": "French!",
+          "start": 4.261,
+          "end": 4.68
+        }
+      ]
+    },
+    {
+      "beat": "intro",
+      "speaker": "bobo",
+      "start": 5.68,
+      "end": 6.78,
+      "text": "Yum, yum! Fruit!",
+      "words": [
+        {
+          "w": "Yum,",
+          "start": 5.72,
+          "end": 5.994
+        },
+        {
+          "w": "yum!",
+          "start": 5.994,
+          "end": 6.269
+        },
+        {
+          "w": "Fruit!",
+          "start": 6.269,
+          "end": 6.68
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "mila",
+      "start": 8.78,
+      "end": 9.7,
+      "text": "Apple.",
+      "words": [
+        {
+          "w": "Apple.",
+          "start": 8.85,
+          "end": 9.54
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "mila",
+      "start": 10.7,
+      "end": 11.61,
+      "text": "Apple!",
+      "words": [
+        {
+          "w": "Apple!",
+          "start": 10.77,
+          "end": 11.46
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "narrator_fr",
+      "start": 13.61,
+      "end": 14.5,
+      "text": "La pomme.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 13.64,
+          "end": 13.966
+        },
+        {
+          "w": "pomme.",
+          "start": 13.966,
+          "end": 14.4
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "narrator_fr",
+      "start": 15.5,
+      "end": 16.5,
+      "text": "La pomme !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 15.53,
+          "end": 15.899
+        },
+        {
+          "w": "pomme",
+          "start": 15.899,
+          "end": 16.39
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "mila",
+      "start": 17.8,
+      "end": 19.72,
+      "text": "A red, crunchy apple! Yum!",
+      "words": [
+        {
+          "w": "A",
+          "start": 17.85,
+          "end": 18.06
+        },
+        {
+          "w": "red,",
+          "start": 18.06,
+          "end": 18.34
+        },
+        {
+          "w": "crunchy",
+          "start": 18.34,
+          "end": 18.9
+        },
+        {
+          "w": "apple!",
+          "start": 18.9,
+          "end": 19.25
+        },
+        {
+          "w": "Yum!",
+          "start": 19.25,
+          "end": 19.53
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 22.32,
+      "end": 23.28,
+      "text": "Banana.",
+      "words": [
+        {
+          "w": "Banana.",
+          "start": 22.42,
+          "end": 23.18
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 24.28,
+      "end": 25.26,
+      "text": "Banana!",
+      "words": [
+        {
+          "w": "Banana!",
+          "start": 24.38,
+          "end": 25.16
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "narrator_fr",
+      "start": 27.26,
+      "end": 28.22,
+      "text": "La banane.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 27.29,
+          "end": 27.56
+        },
+        {
+          "w": "banane.",
+          "start": 27.56,
+          "end": 28.1
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "narrator_fr",
+      "start": 29.22,
+      "end": 30.24,
+      "text": "La banane !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 29.25,
+          "end": 29.537
+        },
+        {
+          "w": "banane",
+          "start": 29.537,
+          "end": 30.11
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "bobo",
+      "start": 31.54,
+      "end": 33.28,
+      "text": "Bananas are yellow! Peel, peel!",
+      "words": [
+        {
+          "w": "Bananas",
+          "start": 31.56,
+          "end": 32.022
+        },
+        {
+          "w": "are",
+          "start": 32.022,
+          "end": 32.196
+        },
+        {
+          "w": "yellow!",
+          "start": 32.196,
+          "end": 32.542
+        },
+        {
+          "w": "Peel,",
+          "start": 32.542,
+          "end": 32.831
+        },
+        {
+          "w": "peel!",
+          "start": 32.831,
+          "end": 33.12
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 35.88,
+      "end": 36.82,
+      "text": "Orange.",
+      "words": [
+        {
+          "w": "Orange.",
+          "start": 35.98,
+          "end": 36.76
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 37.82,
+      "end": 38.78,
+      "text": "Orange!",
+      "words": [
+        {
+          "w": "Orange!",
+          "start": 37.94,
+          "end": 38.7
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "narrator_fr",
+      "start": 40.78,
+      "end": 41.71,
+      "text": "L'orange.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "L'orange.",
+          "start": 40.82,
+          "end": 41.61
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "narrator_fr",
+      "start": 42.71,
+      "end": 43.69,
+      "text": "L'orange !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "L'orange",
+          "start": 42.75,
+          "end": 43.58
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 44.99,
+      "end": 46.91,
+      "text": "An orange is so juicy!",
+      "words": [
+        {
+          "w": "An",
+          "start": 45.02,
+          "end": 45.184
+        },
+        {
+          "w": "orange",
+          "start": 45.184,
+          "end": 45.756
+        },
+        {
+          "w": "is",
+          "start": 45.756,
+          "end": 45.92
+        },
+        {
+          "w": "so",
+          "start": 45.92,
+          "end": 46.247
+        },
+        {
+          "w": "juicy!",
+          "start": 46.247,
+          "end": 46.82
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 49.51,
+      "end": 50.53,
+      "text": "Strawberry.",
+      "words": [
+        {
+          "w": "Strawberry.",
+          "start": 49.54,
+          "end": 50.38
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 51.53,
+      "end": 52.55,
+      "text": "Strawberry!",
+      "words": [
+        {
+          "w": "Strawberry!",
+          "start": 51.58,
+          "end": 52.39
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "narrator_fr",
+      "start": 54.55,
+      "end": 55.5,
+      "text": "La fraise.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 54.58,
+          "end": 54.888
+        },
+        {
+          "w": "fraise.",
+          "start": 54.888,
+          "end": 55.4
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "narrator_fr",
+      "start": 56.5,
+      "end": 57.56,
+      "text": "La fraise !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 56.53,
+          "end": 56.868
+        },
+        {
+          "w": "fraise",
+          "start": 56.868,
+          "end": 57.43
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "bobo",
+      "start": 58.86,
+      "end": 60.46,
+      "text": "Strawberries are sweet and red!",
+      "words": [
+        {
+          "w": "Strawberries",
+          "start": 58.89,
+          "end": 59.481
+        },
+        {
+          "w": "are",
+          "start": 59.481,
+          "end": 59.642
+        },
+        {
+          "w": "sweet",
+          "start": 59.642,
+          "end": 59.964
+        },
+        {
+          "w": "and",
+          "start": 59.964,
+          "end": 60.125
+        },
+        {
+          "w": "red!",
+          "start": 60.125,
+          "end": 60.34
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 63.06,
+      "end": 63.91,
+      "text": "Grapes.",
+      "words": [
+        {
+          "w": "Grapes.",
+          "start": 63.13,
+          "end": 63.81
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 64.91,
+      "end": 65.76,
+      "text": "Grapes!",
+      "words": [
+        {
+          "w": "Grapes!",
+          "start": 64.98,
+          "end": 65.66
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "narrator_fr",
+      "start": 67.76,
+      "end": 68.67,
+      "text": "Le raisin.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 67.78,
+          "end": 68.076
+        },
+        {
+          "w": "raisin.",
+          "start": 68.076,
+          "end": 68.57
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "narrator_fr",
+      "start": 69.67,
+      "end": 70.63,
+      "text": "Le raisin !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 69.71,
+          "end": 70.014
+        },
+        {
+          "w": "raisin",
+          "start": 70.014,
+          "end": 70.52
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 71.93,
+      "end": 73.76,
+      "text": "Grapes are small and round!",
+      "words": [
+        {
+          "w": "Grapes",
+          "start": 71.96,
+          "end": 72.436
+        },
+        {
+          "w": "are",
+          "start": 72.436,
+          "end": 72.64
+        },
+        {
+          "w": "small",
+          "start": 72.64,
+          "end": 73.048
+        },
+        {
+          "w": "and",
+          "start": 73.048,
+          "end": 73.252
+        },
+        {
+          "w": "round!",
+          "start": 73.252,
+          "end": 73.66
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 76.36,
+      "end": 77.51,
+      "text": "Watermelon.",
+      "words": [
+        {
+          "w": "Watermelon.",
+          "start": 76.48,
+          "end": 77.41
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 78.51,
+      "end": 79.66,
+      "text": "Watermelon!",
+      "words": [
+        {
+          "w": "Watermelon!",
+          "start": 78.64,
+          "end": 79.56
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "narrator_fr",
+      "start": 81.66,
+      "end": 82.72,
+      "text": "La pastèque.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 81.69,
+          "end": 81.966
+        },
+        {
+          "w": "pastèque.",
+          "start": 81.966,
+          "end": 82.61
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "narrator_fr",
+      "start": 83.72,
+      "end": 84.76,
+      "text": "La pastèque !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 83.75,
+          "end": 84.026
+        },
+        {
+          "w": "pastèque",
+          "start": 84.026,
+          "end": 84.67
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "bobo",
+      "start": 86.06,
+      "end": 87.38,
+      "text": "A big watermelon! Wow!",
+      "words": [
+        {
+          "w": "A",
+          "start": 86.09,
+          "end": 86.241
+        },
+        {
+          "w": "big",
+          "start": 86.241,
+          "end": 86.443
+        },
+        {
+          "w": "watermelon!",
+          "start": 86.443,
+          "end": 87.048
+        },
+        {
+          "w": "Wow!",
+          "start": 87.048,
+          "end": 87.25
+        }
+      ]
+    },
+    {
+      "beat": "q5",
+      "speaker": "mila",
+      "start": 89.98,
+      "end": 92.23,
+      "text": "Quiz time! Which one is the strawberry?",
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 90.02,
+          "end": 90.341
+        },
+        {
+          "w": "time!",
+          "start": 90.341,
+          "end": 90.662
+        },
+        {
+          "w": "Which",
+          "start": 90.662,
+          "end": 90.984
+        },
+        {
+          "w": "one",
+          "start": 90.984,
+          "end": 91.241
+        },
+        {
+          "w": "is",
+          "start": 91.241,
+          "end": 91.369
+        },
+        {
+          "w": "the",
+          "start": 91.369,
+          "end": 91.498
+        },
+        {
+          "w": "strawberry?",
+          "start": 91.498,
+          "end": 92.14
+        }
+      ]
+    },
+    {
+      "beat": "q5",
+      "speaker": "mila",
+      "start": 97.23,
+      "end": 99.02,
+      "text": "Yes! This is the strawberry!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 97.27,
+          "end": 97.566
+        },
+        {
+          "w": "This",
+          "start": 97.566,
+          "end": 97.863
+        },
+        {
+          "w": "is",
+          "start": 97.863,
+          "end": 98.011
+        },
+        {
+          "w": "the",
+          "start": 98.011,
+          "end": 98.159
+        },
+        {
+          "w": "strawberry!",
+          "start": 98.159,
+          "end": 98.9
+        }
+      ]
+    },
+    {
+      "beat": "q5",
+      "speaker": "narrator_fr",
+      "start": 100.02,
+      "end": 101.08,
+      "text": "La fraise !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 100.05,
+          "end": 100.388
+        },
+        {
+          "w": "fraise",
+          "start": 100.388,
+          "end": 100.95
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 103.68,
+      "end": 105.36,
+      "text": "Let's say them all, together!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 103.71,
+          "end": 104.031
+        },
+        {
+          "w": "say",
+          "start": 104.031,
+          "end": 104.287
+        },
+        {
+          "w": "them",
+          "start": 104.287,
+          "end": 104.544
+        },
+        {
+          "w": "all,",
+          "start": 104.544,
+          "end": 104.801
+        },
+        {
+          "w": "together!",
+          "start": 104.801,
+          "end": 105.25
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 106.96,
+      "end": 108.77,
+      "text": "Apple, Banana, Orange!",
+      "words": [
+        {
+          "w": "Apple,",
+          "start": 107.09,
+          "end": 107.506
+        },
+        {
+          "w": "Banana,",
+          "start": 107.506,
+          "end": 108.088
+        },
+        {
+          "w": "Orange!",
+          "start": 108.088,
+          "end": 108.67
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 110.17,
+      "end": 112.26,
+      "text": "Strawberry, Grapes, Watermelon!",
+      "words": [
+        {
+          "w": "Strawberry,",
+          "start": 110.21,
+          "end": 110.862
+        },
+        {
+          "w": "Grapes,",
+          "start": 110.862,
+          "end": 111.318
+        },
+        {
+          "w": "Watermelon!",
+          "start": 111.318,
+          "end": 112.1
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 114.26,
+      "end": 115.37,
+      "text": "Et en français !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Et",
+          "start": 114.29,
+          "end": 114.484
+        },
+        {
+          "w": "en",
+          "start": 114.484,
+          "end": 114.678
+        },
+        {
+          "w": "français",
+          "start": 114.678,
+          "end": 115.26
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 116.77,
+      "end": 118.65,
+      "text": "la pomme, la banane, l'orange !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "la",
+          "start": 116.81,
+          "end": 117.036
+        },
+        {
+          "w": "pomme,",
+          "start": 117.036,
+          "end": 117.338
+        },
+        {
+          "w": "la",
+          "start": 117.338,
+          "end": 117.565
+        },
+        {
+          "w": "banane,",
+          "start": 117.565,
+          "end": 118.017
+        },
+        {
+          "w": "l'orange",
+          "start": 118.017,
+          "end": 118.47
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 120.05,
+      "end": 122.05,
+      "text": "la fraise, le raisin, la pastèque !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "la",
+          "start": 120.09,
+          "end": 120.303
+        },
+        {
+          "w": "fraise,",
+          "start": 120.303,
+          "end": 120.659
+        },
+        {
+          "w": "le",
+          "start": 120.659,
+          "end": 120.873
+        },
+        {
+          "w": "raisin,",
+          "start": 120.873,
+          "end": 121.228
+        },
+        {
+          "w": "la",
+          "start": 121.228,
+          "end": 121.442
+        },
+        {
+          "w": "pastèque",
+          "start": 121.442,
+          "end": 121.94
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "start": 124.45,
+      "end": 127.39,
+      "text": "Which fruit do YOU like best? Bye bye, friends!",
+      "words": [
+        {
+          "w": "Which",
+          "start": 124.63,
+          "end": 124.927
+        },
+        {
+          "w": "fruit",
+          "start": 124.927,
+          "end": 125.282
+        },
+        {
+          "w": "do",
+          "start": 125.282,
+          "end": 125.52
+        },
+        {
+          "w": "YOU",
+          "start": 125.52,
+          "end": 125.697
+        },
+        {
+          "w": "like",
+          "start": 125.697,
+          "end": 125.994
+        },
+        {
+          "w": "best?",
+          "start": 125.994,
+          "end": 126.29
+        },
+        {
+          "w": "Bye",
+          "start": 126.29,
+          "end": 126.528
+        },
+        {
+          "w": "bye,",
+          "start": 126.528,
+          "end": 126.765
+        },
+        {
+          "w": "friends!",
+          "start": 126.765,
+          "end": 127.18
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "bobo",
+      "start": 127.99,
+      "end": 129.23,
+      "text": "Bye bye! Au revoir!",
+      "words": [
+        {
+          "w": "Bye",
+          "start": 128.01,
+          "end": 128.237
+        },
+        {
+          "w": "bye!",
+          "start": 128.237,
+          "end": 128.465
+        },
+        {
+          "w": "Au",
+          "start": 128.465,
+          "end": 128.635
+        },
+        {
+          "w": "revoir!",
+          "start": 128.635,
+          "end": 129.09
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "intro",
+      "start": 0,
+      "visual": "Hi friends! Let's learn fruits, in English, and in French! / Yum, yum! Fruit!",
+      "end": 8.58
+    },
+    {
+      "id": "c0",
+      "start": 8.58,
+      "visual": "Apple. / Apple! / La pomme. / La pomme ! / A red, crunchy apple! Yum!",
+      "end": 22.12
+    },
+    {
+      "id": "c1",
+      "start": 22.12,
+      "visual": "Banana. / Banana! / La banane. / La banane ! / Bananas are yellow! Peel, peel!",
+      "end": 35.68
+    },
+    {
+      "id": "c2",
+      "start": 35.68,
+      "visual": "Orange. / Orange! / L'orange. / L'orange ! / An orange is so juicy!",
+      "end": 49.31
+    },
+    {
+      "id": "c3",
+      "start": 49.31,
+      "visual": "Strawberry. / Strawberry! / La fraise. / La fraise ! / Strawberries are sweet and red!",
+      "end": 62.86
+    },
+    {
+      "id": "c4",
+      "start": 62.86,
+      "visual": "Grapes. / Grapes! / Le raisin. / Le raisin ! / Grapes are small and round!",
+      "end": 76.16
+    },
+    {
+      "id": "c5",
+      "start": 76.16,
+      "visual": "Watermelon. / Watermelon! / La pastèque. / La pastèque ! / A big watermelon! Wow!",
+      "end": 89.78
+    },
+    {
+      "id": "q5",
+      "start": 89.78,
+      "visual": "Quiz time! Which one is the strawberry? / Yes! This is the strawberry! / La fraise !",
+      "end": 103.48
+    },
+    {
+      "id": "recap",
+      "start": 103.48,
+      "visual": "Let's say them all, together! / Apple, Banana, Orange! / Strawberry, Grapes, Watermelon!",
+      "end": 114.06
+    },
+    {
+      "id": "recapfr",
+      "start": 114.06,
+      "visual": "Et en français ! / la pomme, la banane, l'orange ! / la fraise, le raisin, la pastèque !",
+      "end": 124.25
+    },
+    {
+      "id": "bye",
+      "start": 124.25,
+      "visual": "Which fruit do YOU like best? Bye bye, friends! / Bye bye! Au revoir!",
+      "end": 131.7
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

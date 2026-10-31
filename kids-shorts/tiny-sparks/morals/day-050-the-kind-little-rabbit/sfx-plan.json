@@ -1,0 +1,436 @@
+{
+  "master": "remotion/out/KidsMorals050-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsMorals050-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/morals/day-050-the-kind-little-rabbit/output/day-050-sfx.mp4",
+    "end_s": 303.8,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0,
+      "sfx_id": "tiny-sparks-jingle",
+      "gain_db": -5,
+      "shot": "KidsMorals050",
+      "cue": "ident"
+    },
+    {
+      "at_s": 21.425,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsMorals050",
+      "cue": "carrot"
+    },
+    {
+      "at_s": 21.704,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsMorals050",
+      "cue": "carrot"
+    },
+    {
+      "at_s": 21.983,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsMorals050",
+      "cue": "carrot"
+    },
+    {
+      "at_s": 22.332,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsMorals050",
+      "cue": "carrot"
+    },
+    {
+      "at_s": 22.681,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsMorals050",
+      "cue": "carrot"
+    },
+    {
+      "at_s": 28.006,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "hop"
+    },
+    {
+      "at_s": 28.437,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -12,
+      "shot": "KidsMorals050",
+      "cue": "hop"
+    },
+    {
+      "at_s": 30.81,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsMorals050",
+      "cue": "cut"
+    },
+    {
+      "at_s": 39.7,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "whip"
+    },
+    {
+      "at_s": 43.32,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "hops away"
+    },
+    {
+      "at_s": 48.35,
+      "sfx_id": "sad-trombone",
+      "gain_db": -14,
+      "shot": "KidsMorals050",
+      "cue": "funny tummy",
+      "dur_s": 2.0
+    },
+    {
+      "at_s": 52.72,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "whip"
+    },
+    {
+      "at_s": 64.2,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsMorals050",
+      "cue": "think",
+      "dur_s": 4.77
+    },
+    {
+      "at_s": 69.64,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "back"
+    },
+    {
+      "at_s": 75.247,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -8,
+      "shot": "KidsMorals050",
+      "cue": "give carrot"
+    },
+    {
+      "at_s": 76.97,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "whip"
+    },
+    {
+      "at_s": 78.092,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "crunch"
+    },
+    {
+      "at_s": 81.01,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -12,
+      "shot": "KidsMorals050",
+      "cue": "kind",
+      "dur_s": 2.0
+    },
+    {
+      "at_s": 91.13,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsMorals050",
+      "cue": "cut"
+    },
+    {
+      "at_s": 95.96,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "whip"
+    },
+    {
+      "at_s": 102.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsMorals050",
+      "cue": "think",
+      "dur_s": 4.78
+    },
+    {
+      "at_s": 114.25,
+      "sfx_id": "chime-magic",
+      "gain_db": -8,
+      "shot": "KidsMorals050",
+      "cue": "free"
+    },
+    {
+      "at_s": 119.43,
+      "sfx_id": "kids-yay",
+      "gain_db": -5,
+      "shot": "KidsMorals050",
+      "cue": "yay"
+    },
+    {
+      "at_s": 121.03,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsMorals050",
+      "cue": "cut"
+    },
+    {
+      "at_s": 132.02,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "whip"
+    },
+    {
+      "at_s": 138.348,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsMorals050",
+      "cue": "into basket"
+    },
+    {
+      "at_s": 144.774,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "hop"
+    },
+    {
+      "at_s": 147.76,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsMorals050",
+      "cue": "cut"
+    },
+    {
+      "at_s": 152.19,
+      "sfx_id": "uh-oh",
+      "gain_db": -12,
+      "shot": "KidsMorals050",
+      "cue": "only four"
+    },
+    {
+      "at_s": 156.26,
+      "sfx_id": "cymbal-crash",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "surprise",
+      "dur_s": 1.5
+    },
+    {
+      "at_s": 156.56,
+      "sfx_id": "kids-wow",
+      "gain_db": -4,
+      "shot": "KidsMorals050",
+      "cue": "wow"
+    },
+    {
+      "at_s": 158.92,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "whip"
+    },
+    {
+      "at_s": 163.95,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "whip"
+    },
+    {
+      "at_s": 165.546,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "berries"
+    },
+    {
+      "at_s": 166.82,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "whip"
+    },
+    {
+      "at_s": 168.017,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -8,
+      "shot": "KidsMorals050",
+      "cue": "crown"
+    },
+    {
+      "at_s": 170.12,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "whip"
+    },
+    {
+      "at_s": 174.59,
+      "sfx_id": "kids-applause",
+      "gain_db": -4,
+      "shot": "KidsMorals050",
+      "cue": "share"
+    },
+    {
+      "at_s": 181.3,
+      "sfx_id": "chime-reward",
+      "gain_db": -8,
+      "shot": "KidsMorals050",
+      "cue": "moral"
+    },
+    {
+      "at_s": 188.22,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -12,
+      "shot": "KidsMorals050",
+      "cue": "your turn"
+    },
+    {
+      "at_s": 194.28,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "whip"
+    },
+    {
+      "at_s": 198.13,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "whip"
+    },
+    {
+      "at_s": 201.68,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "whip"
+    },
+    {
+      "at_s": 206.3,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "whip"
+    },
+    {
+      "at_s": 211.24,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "whip"
+    },
+    {
+      "at_s": 226.9,
+      "sfx_id": "kids-yay",
+      "gain_db": -5,
+      "shot": "KidsMorals050",
+      "cue": "chant"
+    },
+    {
+      "at_s": 230.2,
+      "sfx_id": "chime-magic",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "remember"
+    },
+    {
+      "at_s": 234.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsMorals050",
+      "cue": "think",
+      "dur_s": 4.5
+    },
+    {
+      "at_s": 239.25,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "answer"
+    },
+    {
+      "at_s": 245.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsMorals050",
+      "cue": "think",
+      "dur_s": 4.74
+    },
+    {
+      "at_s": 250.49,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "answer"
+    },
+    {
+      "at_s": 256.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsMorals050",
+      "cue": "think",
+      "dur_s": 4.71
+    },
+    {
+      "at_s": 261.46,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "answer"
+    },
+    {
+      "at_s": 267.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsMorals050",
+      "cue": "think",
+      "dur_s": 4.5
+    },
+    {
+      "at_s": 272.25,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "answer"
+    },
+    {
+      "at_s": 278.2,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsMorals050",
+      "cue": "think",
+      "dur_s": 4.79
+    },
+    {
+      "at_s": 283.04,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsMorals050",
+      "cue": "answer"
+    },
+    {
+      "at_s": 299.39,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsMorals050",
+      "cue": "star iris"
+    }
+  ]
+}

@@ -1,0 +1,2822 @@
+{
+  "id": "day-010",
+  "series": "tiny-sparks",
+  "episode": 10,
+  "title": "20 Colors in English and French",
+  "composition": "KidsWords010",
+  "audience": "ages 2-6 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 359.0
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "narrator_fr": {
+      "kokoro": "ff_siwis",
+      "lang": "fr",
+      "rate": "-6%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "intro",
+      "speaker": "mila",
+      "start": 1.6,
+      "end": 5.16,
+      "text": "Hi friends! Let's learn twenty colors, in English, and in French!",
+      "words": [
+        {
+          "w": "Hi",
+          "start": 1.64,
+          "end": 1.875
+        },
+        {
+          "w": "friends!",
+          "start": 1.875,
+          "end": 2.286
+        },
+        {
+          "w": "Let's",
+          "start": 2.286,
+          "end": 2.58
+        },
+        {
+          "w": "learn",
+          "start": 2.58,
+          "end": 2.874
+        },
+        {
+          "w": "twenty",
+          "start": 2.874,
+          "end": 3.286
+        },
+        {
+          "w": "colors,",
+          "start": 3.286,
+          "end": 3.638
+        },
+        {
+          "w": "in",
+          "start": 3.638,
+          "end": 3.815
+        },
+        {
+          "w": "English,",
+          "start": 3.815,
+          "end": 4.226
+        },
+        {
+          "w": "and",
+          "start": 4.226,
+          "end": 4.402
+        },
+        {
+          "w": "in",
+          "start": 4.402,
+          "end": 4.579
+        },
+        {
+          "w": "French!",
+          "start": 4.579,
+          "end": 4.99
+        }
+      ]
+    },
+    {
+      "beat": "intro",
+      "speaker": "bobo",
+      "start": 5.96,
+      "end": 6.85,
+      "text": "Colors! Yay!",
+      "words": [
+        {
+          "w": "Colors!",
+          "start": 5.99,
+          "end": 6.434
+        },
+        {
+          "w": "Yay!",
+          "start": 6.434,
+          "end": 6.73
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "mila",
+      "start": 8.85,
+      "end": 9.7,
+      "text": "Red.",
+      "words": [
+        {
+          "w": "Red.",
+          "start": 8.93,
+          "end": 9.6
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "mila",
+      "start": 10.7,
+      "end": 11.53,
+      "text": "Red!",
+      "words": [
+        {
+          "w": "Red!",
+          "start": 10.78,
+          "end": 11.43
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "narrator_fr",
+      "start": 13.53,
+      "end": 14.29,
+      "text": "Rouge.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Rouge.",
+          "start": 13.57,
+          "end": 14.19
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "narrator_fr",
+      "start": 15.29,
+      "end": 16.08,
+      "text": "Rouge !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Rouge",
+          "start": 15.32,
+          "end": 15.98
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "mila",
+      "start": 17.38,
+      "end": 18.7,
+      "text": "A red apple!",
+      "words": [
+        {
+          "w": "A",
+          "start": 17.46,
+          "end": 17.728
+        },
+        {
+          "w": "red",
+          "start": 17.728,
+          "end": 18.084
+        },
+        {
+          "w": "apple!",
+          "start": 18.084,
+          "end": 18.53
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 21.3,
+      "end": 22.24,
+      "text": "Orange.",
+      "words": [
+        {
+          "w": "Orange.",
+          "start": 21.4,
+          "end": 22.18
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 23.24,
+      "end": 24.2,
+      "text": "Orange!",
+      "words": [
+        {
+          "w": "Orange!",
+          "start": 23.36,
+          "end": 24.12
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "narrator_fr",
+      "start": 26.2,
+      "end": 27.07,
+      "text": "Orange.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Orange.",
+          "start": 26.23,
+          "end": 26.96
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "narrator_fr",
+      "start": 28.07,
+      "end": 28.96,
+      "text": "Orange !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Orange",
+          "start": 28.1,
+          "end": 28.86
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "bobo",
+      "start": 30.26,
+      "end": 31.53,
+      "text": "An orange... orange!",
+      "words": [
+        {
+          "w": "An",
+          "start": 30.3,
+          "end": 30.445
+        },
+        {
+          "w": "orange...",
+          "start": 30.445,
+          "end": 30.952
+        },
+        {
+          "w": "orange!",
+          "start": 30.952,
+          "end": 31.46
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 34.13,
+      "end": 35.07,
+      "text": "Yellow.",
+      "words": [
+        {
+          "w": "Yellow.",
+          "start": 34.21,
+          "end": 34.89
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 36.07,
+      "end": 37.01,
+      "text": "Yellow!",
+      "words": [
+        {
+          "w": "Yellow!",
+          "start": 36.15,
+          "end": 36.83
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "narrator_fr",
+      "start": 39.01,
+      "end": 39.69,
+      "text": "Jaune.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Jaune.",
+          "start": 39.03,
+          "end": 39.57
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "narrator_fr",
+      "start": 40.69,
+      "end": 41.43,
+      "text": "Jaune !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Jaune",
+          "start": 40.73,
+          "end": 41.33
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 42.73,
+      "end": 43.94,
+      "text": "The yellow sun!",
+      "words": [
+        {
+          "w": "The",
+          "start": 42.77,
+          "end": 42.945
+        },
+        {
+          "w": "yellow",
+          "start": 42.945,
+          "end": 43.47
+        },
+        {
+          "w": "sun!",
+          "start": 43.47,
+          "end": 43.82
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 46.54,
+      "end": 47.48,
+      "text": "Green.",
+      "words": [
+        {
+          "w": "Green.",
+          "start": 46.62,
+          "end": 47.32
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 48.48,
+      "end": 49.39,
+      "text": "Green!",
+      "words": [
+        {
+          "w": "Green!",
+          "start": 48.56,
+          "end": 49.23
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "narrator_fr",
+      "start": 51.39,
+      "end": 52.07,
+      "text": "Vert.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Vert.",
+          "start": 51.42,
+          "end": 51.95
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "narrator_fr",
+      "start": 53.07,
+      "end": 53.73,
+      "text": "Vert !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Vert",
+          "start": 53.1,
+          "end": 53.59
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "bobo",
+      "start": 55.03,
+      "end": 55.98,
+      "text": "A green frog!",
+      "words": [
+        {
+          "w": "A",
+          "start": 55.06,
+          "end": 55.226
+        },
+        {
+          "w": "green",
+          "start": 55.226,
+          "end": 55.558
+        },
+        {
+          "w": "frog!",
+          "start": 55.558,
+          "end": 55.89
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 58.58,
+      "end": 59.47,
+      "text": "Blue.",
+      "words": [
+        {
+          "w": "Blue.",
+          "start": 58.7,
+          "end": 59.33
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 60.47,
+      "end": 61.34,
+      "text": "Blue!",
+      "words": [
+        {
+          "w": "Blue!",
+          "start": 60.59,
+          "end": 61.19
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "narrator_fr",
+      "start": 63.34,
+      "end": 64.04,
+      "text": "Bleu.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Bleu.",
+          "start": 63.37,
+          "end": 63.93
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "narrator_fr",
+      "start": 65.04,
+      "end": 65.7,
+      "text": "Bleu !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Bleu",
+          "start": 65.07,
+          "end": 65.6
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 67.0,
+      "end": 68.32,
+      "text": "A blue balloon!",
+      "words": [
+        {
+          "w": "A",
+          "start": 67.09,
+          "end": 67.304
+        },
+        {
+          "w": "blue",
+          "start": 67.304,
+          "end": 67.661
+        },
+        {
+          "w": "balloon!",
+          "start": 67.661,
+          "end": 68.16
+        }
+      ]
+    },
+    {
+      "beat": "q4",
+      "speaker": "mila",
+      "start": 70.92,
+      "end": 72.79,
+      "text": "Quiz time! Which one is green?",
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 70.96,
+          "end": 71.28
+        },
+        {
+          "w": "time!",
+          "start": 71.28,
+          "end": 71.601
+        },
+        {
+          "w": "Which",
+          "start": 71.601,
+          "end": 71.921
+        },
+        {
+          "w": "one",
+          "start": 71.921,
+          "end": 72.177
+        },
+        {
+          "w": "is",
+          "start": 72.177,
+          "end": 72.306
+        },
+        {
+          "w": "green?",
+          "start": 72.306,
+          "end": 72.69
+        }
+      ]
+    },
+    {
+      "beat": "q4",
+      "speaker": "mila",
+      "start": 77.79,
+      "end": 79.45,
+      "text": "Yes! This one is green!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 77.83,
+          "end": 78.134
+        },
+        {
+          "w": "This",
+          "start": 78.134,
+          "end": 78.438
+        },
+        {
+          "w": "one",
+          "start": 78.438,
+          "end": 78.742
+        },
+        {
+          "w": "is",
+          "start": 78.742,
+          "end": 78.894
+        },
+        {
+          "w": "green!",
+          "start": 78.894,
+          "end": 79.35
+        }
+      ]
+    },
+    {
+      "beat": "q4",
+      "speaker": "narrator_fr",
+      "start": 80.45,
+      "end": 81.11,
+      "text": "Vert !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Vert",
+          "start": 80.48,
+          "end": 80.97
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 83.71,
+      "end": 84.64,
+      "text": "Purple.",
+      "words": [
+        {
+          "w": "Purple.",
+          "start": 83.78,
+          "end": 84.47
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 85.64,
+      "end": 86.57,
+      "text": "Purple!",
+      "words": [
+        {
+          "w": "Purple!",
+          "start": 85.71,
+          "end": 86.41
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "narrator_fr",
+      "start": 88.57,
+      "end": 89.29,
+      "text": "Violet.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Violet.",
+          "start": 88.6,
+          "end": 89.15
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "narrator_fr",
+      "start": 90.29,
+      "end": 91.08,
+      "text": "Violet !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Violet",
+          "start": 90.32,
+          "end": 90.97
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "bobo",
+      "start": 92.38,
+      "end": 93.68,
+      "text": "Purple grapes. Yum!",
+      "words": [
+        {
+          "w": "Purple",
+          "start": 92.42,
+          "end": 92.871
+        },
+        {
+          "w": "grapes.",
+          "start": 92.871,
+          "end": 93.322
+        },
+        {
+          "w": "Yum!",
+          "start": 93.322,
+          "end": 93.58
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "mila",
+      "start": 96.28,
+      "end": 97.11,
+      "text": "Pink.",
+      "words": [
+        {
+          "w": "Pink.",
+          "start": 96.35,
+          "end": 96.98
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "mila",
+      "start": 98.11,
+      "end": 98.91,
+      "text": "Pink!",
+      "words": [
+        {
+          "w": "Pink!",
+          "start": 98.18,
+          "end": 98.78
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "narrator_fr",
+      "start": 100.91,
+      "end": 101.65,
+      "text": "Rose.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Rose.",
+          "start": 100.94,
+          "end": 101.54
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "narrator_fr",
+      "start": 102.65,
+      "end": 103.44,
+      "text": "Rose !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Rose",
+          "start": 102.68,
+          "end": 103.33
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "mila",
+      "start": 104.74,
+      "end": 105.91,
+      "text": "A pink pig!",
+      "words": [
+        {
+          "w": "A",
+          "start": 104.82,
+          "end": 105.07
+        },
+        {
+          "w": "pink",
+          "start": 105.07,
+          "end": 105.487
+        },
+        {
+          "w": "pig!",
+          "start": 105.487,
+          "end": 105.82
+        }
+      ]
+    },
+    {
+      "beat": "c7",
+      "speaker": "mila",
+      "start": 108.51,
+      "end": 109.44,
+      "text": "Brown.",
+      "words": [
+        {
+          "w": "Brown.",
+          "start": 108.61,
+          "end": 109.29
+        }
+      ]
+    },
+    {
+      "beat": "c7",
+      "speaker": "mila",
+      "start": 110.44,
+      "end": 111.38,
+      "text": "Brown!",
+      "words": [
+        {
+          "w": "Brown!",
+          "start": 110.54,
+          "end": 111.22
+        }
+      ]
+    },
+    {
+      "beat": "c7",
+      "speaker": "narrator_fr",
+      "start": 113.38,
+      "end": 114.14,
+      "text": "Marron.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Marron.",
+          "start": 113.42,
+          "end": 114.04
+        }
+      ]
+    },
+    {
+      "beat": "c7",
+      "speaker": "narrator_fr",
+      "start": 115.14,
+      "end": 115.95,
+      "text": "Marron !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Marron",
+          "start": 115.17,
+          "end": 115.86
+        }
+      ]
+    },
+    {
+      "beat": "c7",
+      "speaker": "bobo",
+      "start": 117.25,
+      "end": 118.76,
+      "text": "A brown bear... that's me!",
+      "words": [
+        {
+          "w": "A",
+          "start": 117.28,
+          "end": 117.468
+        },
+        {
+          "w": "brown",
+          "start": 117.468,
+          "end": 117.845
+        },
+        {
+          "w": "bear...",
+          "start": 117.845,
+          "end": 118.095
+        },
+        {
+          "w": "that's",
+          "start": 118.095,
+          "end": 118.409
+        },
+        {
+          "w": "me!",
+          "start": 118.409,
+          "end": 118.66
+        }
+      ]
+    },
+    {
+      "beat": "c8",
+      "speaker": "mila",
+      "start": 121.36,
+      "end": 122.21,
+      "text": "Black.",
+      "words": [
+        {
+          "w": "Black.",
+          "start": 121.46,
+          "end": 122.1
+        }
+      ]
+    },
+    {
+      "beat": "c8",
+      "speaker": "mila",
+      "start": 123.21,
+      "end": 124.06,
+      "text": "Black!",
+      "words": [
+        {
+          "w": "Black!",
+          "start": 123.31,
+          "end": 123.95
+        }
+      ]
+    },
+    {
+      "beat": "c8",
+      "speaker": "narrator_fr",
+      "start": 126.06,
+      "end": 126.8,
+      "text": "Noir.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Noir.",
+          "start": 126.09,
+          "end": 126.69
+        }
+      ]
+    },
+    {
+      "beat": "c8",
+      "speaker": "narrator_fr",
+      "start": 127.8,
+      "end": 128.52,
+      "text": "Noir !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Noir",
+          "start": 127.83,
+          "end": 128.44
+        }
+      ]
+    },
+    {
+      "beat": "c8",
+      "speaker": "mila",
+      "start": 129.82,
+      "end": 131.03,
+      "text": "A black cat!",
+      "words": [
+        {
+          "w": "A",
+          "start": 129.92,
+          "end": 130.173
+        },
+        {
+          "w": "black",
+          "start": 130.173,
+          "end": 130.593
+        },
+        {
+          "w": "cat!",
+          "start": 130.593,
+          "end": 130.93
+        }
+      ]
+    },
+    {
+      "beat": "c9",
+      "speaker": "mila",
+      "start": 133.63,
+      "end": 134.48,
+      "text": "White.",
+      "words": [
+        {
+          "w": "White.",
+          "start": 133.75,
+          "end": 134.37
+        }
+      ]
+    },
+    {
+      "beat": "c9",
+      "speaker": "mila",
+      "start": 135.48,
+      "end": 136.35,
+      "text": "White!",
+      "words": [
+        {
+          "w": "White!",
+          "start": 135.6,
+          "end": 136.24
+        }
+      ]
+    },
+    {
+      "beat": "c9",
+      "speaker": "narrator_fr",
+      "start": 138.35,
+      "end": 139.07,
+      "text": "Blanc.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Blanc.",
+          "start": 138.38,
+          "end": 138.94
+        }
+      ]
+    },
+    {
+      "beat": "c9",
+      "speaker": "narrator_fr",
+      "start": 140.07,
+      "end": 140.71,
+      "text": "Blanc !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Blanc",
+          "start": 140.09,
+          "end": 140.61
+        }
+      ]
+    },
+    {
+      "beat": "c9",
+      "speaker": "bobo",
+      "start": 142.01,
+      "end": 142.96,
+      "text": "A white cloud!",
+      "words": [
+        {
+          "w": "A",
+          "start": 142.04,
+          "end": 142.216
+        },
+        {
+          "w": "white",
+          "start": 142.216,
+          "end": 142.509
+        },
+        {
+          "w": "cloud!",
+          "start": 142.509,
+          "end": 142.86
+        }
+      ]
+    },
+    {
+      "beat": "q9",
+      "speaker": "mila",
+      "start": 145.56,
+      "end": 147.41,
+      "text": "Quiz time! Which one is pink?",
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 145.6,
+          "end": 145.931
+        },
+        {
+          "w": "time!",
+          "start": 145.931,
+          "end": 146.262
+        },
+        {
+          "w": "Which",
+          "start": 146.262,
+          "end": 146.592
+        },
+        {
+          "w": "one",
+          "start": 146.592,
+          "end": 146.857
+        },
+        {
+          "w": "is",
+          "start": 146.857,
+          "end": 146.989
+        },
+        {
+          "w": "pink?",
+          "start": 146.989,
+          "end": 147.32
+        }
+      ]
+    },
+    {
+      "beat": "q9",
+      "speaker": "mila",
+      "start": 152.41,
+      "end": 154.06,
+      "text": "Yes! This one is pink!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 152.46,
+          "end": 152.776
+        },
+        {
+          "w": "This",
+          "start": 152.776,
+          "end": 153.092
+        },
+        {
+          "w": "one",
+          "start": 153.092,
+          "end": 153.407
+        },
+        {
+          "w": "is",
+          "start": 153.407,
+          "end": 153.565
+        },
+        {
+          "w": "pink!",
+          "start": 153.565,
+          "end": 153.96
+        }
+      ]
+    },
+    {
+      "beat": "q9",
+      "speaker": "narrator_fr",
+      "start": 155.06,
+      "end": 155.85,
+      "text": "Rose !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Rose",
+          "start": 155.09,
+          "end": 155.74
+        }
+      ]
+    },
+    {
+      "beat": "c10",
+      "speaker": "mila",
+      "start": 158.45,
+      "end": 159.32,
+      "text": "Gray.",
+      "words": [
+        {
+          "w": "Gray.",
+          "start": 158.55,
+          "end": 159.15
+        }
+      ]
+    },
+    {
+      "beat": "c10",
+      "speaker": "mila",
+      "start": 160.32,
+      "end": 161.19,
+      "text": "Gray!",
+      "words": [
+        {
+          "w": "Gray!",
+          "start": 160.37,
+          "end": 161.05
+        }
+      ]
+    },
+    {
+      "beat": "c10",
+      "speaker": "narrator_fr",
+      "start": 163.19,
+      "end": 163.87,
+      "text": "Gris.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Gris.",
+          "start": 163.21,
+          "end": 163.75
+        }
+      ]
+    },
+    {
+      "beat": "c10",
+      "speaker": "narrator_fr",
+      "start": 164.87,
+      "end": 165.59,
+      "text": "Gris !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Gris",
+          "start": 164.9,
+          "end": 165.5
+        }
+      ]
+    },
+    {
+      "beat": "c10",
+      "speaker": "mila",
+      "start": 166.89,
+      "end": 168.21,
+      "text": "A gray mouse!",
+      "words": [
+        {
+          "w": "A",
+          "start": 167.06,
+          "end": 167.291
+        },
+        {
+          "w": "gray",
+          "start": 167.291,
+          "end": 167.675
+        },
+        {
+          "w": "mouse!",
+          "start": 167.675,
+          "end": 168.06
+        }
+      ]
+    },
+    {
+      "beat": "c11",
+      "speaker": "mila",
+      "start": 170.81,
+      "end": 171.71,
+      "text": "Gold.",
+      "words": [
+        {
+          "w": "Gold.",
+          "start": 170.91,
+          "end": 171.59
+        }
+      ]
+    },
+    {
+      "beat": "c11",
+      "speaker": "mila",
+      "start": 172.71,
+      "end": 173.63,
+      "text": "Gold!",
+      "words": [
+        {
+          "w": "Gold!",
+          "start": 172.81,
+          "end": 173.51
+        }
+      ]
+    },
+    {
+      "beat": "c11",
+      "speaker": "narrator_fr",
+      "start": 175.63,
+      "end": 176.33,
+      "text": "Doré.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Doré.",
+          "start": 175.66,
+          "end": 176.21
+        }
+      ]
+    },
+    {
+      "beat": "c11",
+      "speaker": "narrator_fr",
+      "start": 177.33,
+      "end": 178.07,
+      "text": "Doré !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Doré",
+          "start": 177.36,
+          "end": 177.97
+        }
+      ]
+    },
+    {
+      "beat": "c11",
+      "speaker": "bobo",
+      "start": 179.37,
+      "end": 180.28,
+      "text": "A gold star!",
+      "words": [
+        {
+          "w": "A",
+          "start": 179.4,
+          "end": 179.552
+        },
+        {
+          "w": "gold",
+          "start": 179.552,
+          "end": 179.856
+        },
+        {
+          "w": "star!",
+          "start": 179.856,
+          "end": 180.16
+        }
+      ]
+    },
+    {
+      "beat": "c12",
+      "speaker": "mila",
+      "start": 182.88,
+      "end": 183.8,
+      "text": "Silver.",
+      "words": [
+        {
+          "w": "Silver.",
+          "start": 182.96,
+          "end": 183.63
+        }
+      ]
+    },
+    {
+      "beat": "c12",
+      "speaker": "mila",
+      "start": 184.8,
+      "end": 185.72,
+      "text": "Silver!",
+      "words": [
+        {
+          "w": "Silver!",
+          "start": 184.86,
+          "end": 185.55
+        }
+      ]
+    },
+    {
+      "beat": "c12",
+      "speaker": "narrator_fr",
+      "start": 187.72,
+      "end": 188.66,
+      "text": "Argenté.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Argenté.",
+          "start": 187.75,
+          "end": 188.54
+        }
+      ]
+    },
+    {
+      "beat": "c12",
+      "speaker": "narrator_fr",
+      "start": 189.66,
+      "end": 190.62,
+      "text": "Argenté !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Argenté",
+          "start": 189.69,
+          "end": 190.5
+        }
+      ]
+    },
+    {
+      "beat": "c12",
+      "speaker": "mila",
+      "start": 191.92,
+      "end": 193.58,
+      "text": "A shiny silver key!",
+      "words": [
+        {
+          "w": "A",
+          "start": 191.96,
+          "end": 192.197
+        },
+        {
+          "w": "shiny",
+          "start": 192.197,
+          "end": 192.671
+        },
+        {
+          "w": "silver",
+          "start": 192.671,
+          "end": 193.144
+        },
+        {
+          "w": "key!",
+          "start": 193.144,
+          "end": 193.46
+        }
+      ]
+    },
+    {
+      "beat": "c13",
+      "speaker": "mila",
+      "start": 196.18,
+      "end": 197.22,
+      "text": "Turquoise.",
+      "words": [
+        {
+          "w": "Turquoise.",
+          "start": 196.26,
+          "end": 197.09
+        }
+      ]
+    },
+    {
+      "beat": "c13",
+      "speaker": "mila",
+      "start": 198.22,
+      "end": 199.28,
+      "text": "Turquoise!",
+      "words": [
+        {
+          "w": "Turquoise!",
+          "start": 198.28,
+          "end": 199.15
+        }
+      ]
+    },
+    {
+      "beat": "c13",
+      "speaker": "narrator_fr",
+      "start": 201.28,
+      "end": 202.24,
+      "text": "Turquoise.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Turquoise.",
+          "start": 201.32,
+          "end": 202.13
+        }
+      ]
+    },
+    {
+      "beat": "c13",
+      "speaker": "narrator_fr",
+      "start": 203.24,
+      "end": 204.2,
+      "text": "Turquoise !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Turquoise",
+          "start": 203.27,
+          "end": 204.1
+        }
+      ]
+    },
+    {
+      "beat": "c13",
+      "speaker": "bobo",
+      "start": 205.5,
+      "end": 206.54,
+      "text": "A turquoise fish!",
+      "words": [
+        {
+          "w": "A",
+          "start": 205.53,
+          "end": 205.697
+        },
+        {
+          "w": "turquoise",
+          "start": 205.697,
+          "end": 206.198
+        },
+        {
+          "w": "fish!",
+          "start": 206.198,
+          "end": 206.42
+        }
+      ]
+    },
+    {
+      "beat": "c14",
+      "speaker": "mila",
+      "start": 209.14,
+      "end": 210.25,
+      "text": "Sky blue.",
+      "words": [
+        {
+          "w": "Sky",
+          "start": 209.18,
+          "end": 209.625
+        },
+        {
+          "w": "blue.",
+          "start": 209.625,
+          "end": 210.07
+        }
+      ]
+    },
+    {
+      "beat": "c14",
+      "speaker": "mila",
+      "start": 211.25,
+      "end": 212.38,
+      "text": "Sky blue!",
+      "words": [
+        {
+          "w": "Sky",
+          "start": 211.3,
+          "end": 211.755
+        },
+        {
+          "w": "blue!",
+          "start": 211.755,
+          "end": 212.21
+        }
+      ]
+    },
+    {
+      "beat": "c14",
+      "speaker": "narrator_fr",
+      "start": 214.38,
+      "end": 215.4,
+      "text": "Bleu ciel.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Bleu",
+          "start": 214.41,
+          "end": 214.792
+        },
+        {
+          "w": "ciel.",
+          "start": 214.792,
+          "end": 215.27
+        }
+      ]
+    },
+    {
+      "beat": "c14",
+      "speaker": "narrator_fr",
+      "start": 216.4,
+      "end": 217.44,
+      "text": "Bleu ciel !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Bleu",
+          "start": 216.43,
+          "end": 216.826
+        },
+        {
+          "w": "ciel",
+          "start": 216.826,
+          "end": 217.32
+        }
+      ]
+    },
+    {
+      "beat": "c14",
+      "speaker": "mila",
+      "start": 218.74,
+      "end": 220.44,
+      "text": "The sky is sky blue!",
+      "words": [
+        {
+          "w": "The",
+          "start": 218.78,
+          "end": 218.939
+        },
+        {
+          "w": "sky",
+          "start": 218.939,
+          "end": 219.336
+        },
+        {
+          "w": "is",
+          "start": 219.336,
+          "end": 219.495
+        },
+        {
+          "w": "sky",
+          "start": 219.495,
+          "end": 219.893
+        },
+        {
+          "w": "blue!",
+          "start": 219.893,
+          "end": 220.29
+        }
+      ]
+    },
+    {
+      "beat": "q14",
+      "speaker": "mila",
+      "start": 223.04,
+      "end": 224.89,
+      "text": "Quiz time! Which one is gold?",
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 223.07,
+          "end": 223.389
+        },
+        {
+          "w": "time!",
+          "start": 223.389,
+          "end": 223.707
+        },
+        {
+          "w": "Which",
+          "start": 223.707,
+          "end": 224.026
+        },
+        {
+          "w": "one",
+          "start": 224.026,
+          "end": 224.28
+        },
+        {
+          "w": "is",
+          "start": 224.28,
+          "end": 224.408
+        },
+        {
+          "w": "gold?",
+          "start": 224.408,
+          "end": 224.79
+        }
+      ]
+    },
+    {
+      "beat": "q14",
+      "speaker": "mila",
+      "start": 229.89,
+      "end": 231.55,
+      "text": "Yes! This one is gold!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 229.94,
+          "end": 230.236
+        },
+        {
+          "w": "This",
+          "start": 230.236,
+          "end": 230.532
+        },
+        {
+          "w": "one",
+          "start": 230.532,
+          "end": 230.828
+        },
+        {
+          "w": "is",
+          "start": 230.828,
+          "end": 230.976
+        },
+        {
+          "w": "gold!",
+          "start": 230.976,
+          "end": 231.42
+        }
+      ]
+    },
+    {
+      "beat": "q14",
+      "speaker": "narrator_fr",
+      "start": 232.55,
+      "end": 233.29,
+      "text": "Doré !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Doré",
+          "start": 232.58,
+          "end": 233.19
+        }
+      ]
+    },
+    {
+      "beat": "c15",
+      "speaker": "mila",
+      "start": 235.89,
+      "end": 237.06,
+      "text": "Lime green.",
+      "words": [
+        {
+          "w": "Lime",
+          "start": 235.97,
+          "end": 236.415
+        },
+        {
+          "w": "green.",
+          "start": 236.415,
+          "end": 236.95
+        }
+      ]
+    },
+    {
+      "beat": "c15",
+      "speaker": "mila",
+      "start": 238.06,
+      "end": 239.19,
+      "text": "Lime green!",
+      "words": [
+        {
+          "w": "Lime",
+          "start": 238.12,
+          "end": 238.552
+        },
+        {
+          "w": "green!",
+          "start": 238.552,
+          "end": 239.07
+        }
+      ]
+    },
+    {
+      "beat": "c15",
+      "speaker": "narrator_fr",
+      "start": 241.19,
+      "end": 242.23,
+      "text": "Vert citron.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Vert",
+          "start": 241.22,
+          "end": 241.576
+        },
+        {
+          "w": "citron.",
+          "start": 241.576,
+          "end": 242.11
+        }
+      ]
+    },
+    {
+      "beat": "c15",
+      "speaker": "narrator_fr",
+      "start": 243.23,
+      "end": 244.29,
+      "text": "Vert citron !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Vert",
+          "start": 243.26,
+          "end": 243.636
+        },
+        {
+          "w": "citron",
+          "start": 243.636,
+          "end": 244.2
+        }
+      ]
+    },
+    {
+      "beat": "c15",
+      "speaker": "bobo",
+      "start": 245.59,
+      "end": 246.74,
+      "text": "A lime green leaf!",
+      "words": [
+        {
+          "w": "A",
+          "start": 245.63,
+          "end": 245.791
+        },
+        {
+          "w": "lime",
+          "start": 245.791,
+          "end": 246.059
+        },
+        {
+          "w": "green",
+          "start": 246.059,
+          "end": 246.382
+        },
+        {
+          "w": "leaf!",
+          "start": 246.382,
+          "end": 246.65
+        }
+      ]
+    },
+    {
+      "beat": "c16",
+      "speaker": "mila",
+      "start": 249.34,
+      "end": 250.43,
+      "text": "Navy blue.",
+      "words": [
+        {
+          "w": "Navy",
+          "start": 249.39,
+          "end": 249.897
+        },
+        {
+          "w": "blue.",
+          "start": 249.897,
+          "end": 250.32
+        }
+      ]
+    },
+    {
+      "beat": "c16",
+      "speaker": "mila",
+      "start": 251.43,
+      "end": 252.56,
+      "text": "Navy blue!",
+      "words": [
+        {
+          "w": "Navy",
+          "start": 251.46,
+          "end": 252.005
+        },
+        {
+          "w": "blue!",
+          "start": 252.005,
+          "end": 252.46
+        }
+      ]
+    },
+    {
+      "beat": "c16",
+      "speaker": "narrator_fr",
+      "start": 254.56,
+      "end": 255.61,
+      "text": "Bleu marine.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Bleu",
+          "start": 254.6,
+          "end": 254.956
+        },
+        {
+          "w": "marine.",
+          "start": 254.956,
+          "end": 255.49
+        }
+      ]
+    },
+    {
+      "beat": "c16",
+      "speaker": "narrator_fr",
+      "start": 256.61,
+      "end": 257.74,
+      "text": "Bleu marine !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Bleu",
+          "start": 256.65,
+          "end": 257.03
+        },
+        {
+          "w": "marine",
+          "start": 257.03,
+          "end": 257.6
+        }
+      ]
+    },
+    {
+      "beat": "c16",
+      "speaker": "mila",
+      "start": 259.04,
+      "end": 260.51,
+      "text": "A navy blue boat!",
+      "words": [
+        {
+          "w": "A",
+          "start": 259.08,
+          "end": 259.293
+        },
+        {
+          "w": "navy",
+          "start": 259.293,
+          "end": 259.719
+        },
+        {
+          "w": "blue",
+          "start": 259.719,
+          "end": 260.075
+        },
+        {
+          "w": "boat!",
+          "start": 260.075,
+          "end": 260.43
+        }
+      ]
+    },
+    {
+      "beat": "c17",
+      "speaker": "mila",
+      "start": 263.11,
+      "end": 263.98,
+      "text": "Peach.",
+      "words": [
+        {
+          "w": "Peach.",
+          "start": 263.18,
+          "end": 263.85
+        }
+      ]
+    },
+    {
+      "beat": "c17",
+      "speaker": "mila",
+      "start": 264.98,
+      "end": 265.85,
+      "text": "Peach!",
+      "words": [
+        {
+          "w": "Peach!",
+          "start": 265.07,
+          "end": 265.72
+        }
+      ]
+    },
+    {
+      "beat": "c17",
+      "speaker": "narrator_fr",
+      "start": 267.85,
+      "end": 268.55,
+      "text": "Pêche.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Pêche.",
+          "start": 267.89,
+          "end": 268.48
+        }
+      ]
+    },
+    {
+      "beat": "c17",
+      "speaker": "narrator_fr",
+      "start": 269.55,
+      "end": 270.19,
+      "text": "Pêche !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Pêche",
+          "start": 269.58,
+          "end": 270.12
+        }
+      ]
+    },
+    {
+      "beat": "c17",
+      "speaker": "bobo",
+      "start": 271.49,
+      "end": 272.49,
+      "text": "A juicy peach!",
+      "words": [
+        {
+          "w": "A",
+          "start": 271.52,
+          "end": 271.683
+        },
+        {
+          "w": "juicy",
+          "start": 271.683,
+          "end": 272.064
+        },
+        {
+          "w": "peach!",
+          "start": 272.064,
+          "end": 272.39
+        }
+      ]
+    },
+    {
+      "beat": "c18",
+      "speaker": "mila",
+      "start": 275.09,
+      "end": 276.13,
+      "text": "Lavender.",
+      "words": [
+        {
+          "w": "Lavender.",
+          "start": 275.19,
+          "end": 276.0
+        }
+      ]
+    },
+    {
+      "beat": "c18",
+      "speaker": "mila",
+      "start": 277.13,
+      "end": 278.15,
+      "text": "Lavender!",
+      "words": [
+        {
+          "w": "Lavender!",
+          "start": 277.25,
+          "end": 278.02
+        }
+      ]
+    },
+    {
+      "beat": "c18",
+      "speaker": "narrator_fr",
+      "start": 280.15,
+      "end": 281.15,
+      "text": "Lavande.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Lavande.",
+          "start": 280.19,
+          "end": 281.02
+        }
+      ]
+    },
+    {
+      "beat": "c18",
+      "speaker": "narrator_fr",
+      "start": 282.15,
+      "end": 283.11,
+      "text": "Lavande !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Lavande",
+          "start": 282.19,
+          "end": 283.01
+        }
+      ]
+    },
+    {
+      "beat": "c18",
+      "speaker": "mila",
+      "start": 284.41,
+      "end": 285.9,
+      "text": "A lavender flower!",
+      "words": [
+        {
+          "w": "A",
+          "start": 284.45,
+          "end": 284.69
+        },
+        {
+          "w": "lavender",
+          "start": 284.69,
+          "end": 285.33
+        },
+        {
+          "w": "flower!",
+          "start": 285.33,
+          "end": 285.81
+        }
+      ]
+    },
+    {
+      "beat": "c19",
+      "speaker": "mila",
+      "start": 288.5,
+      "end": 289.39,
+      "text": "Beige.",
+      "words": [
+        {
+          "w": "Beige.",
+          "start": 288.56,
+          "end": 289.28
+        }
+      ]
+    },
+    {
+      "beat": "c19",
+      "speaker": "mila",
+      "start": 290.39,
+      "end": 291.3,
+      "text": "Beige!",
+      "words": [
+        {
+          "w": "Beige!",
+          "start": 290.49,
+          "end": 291.18
+        }
+      ]
+    },
+    {
+      "beat": "c19",
+      "speaker": "narrator_fr",
+      "start": 293.3,
+      "end": 294.02,
+      "text": "Beige.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Beige.",
+          "start": 293.33,
+          "end": 293.92
+        }
+      ]
+    },
+    {
+      "beat": "c19",
+      "speaker": "narrator_fr",
+      "start": 295.02,
+      "end": 295.74,
+      "text": "Beige !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Beige",
+          "start": 295.06,
+          "end": 295.66
+        }
+      ]
+    },
+    {
+      "beat": "c19",
+      "speaker": "bobo",
+      "start": 297.04,
+      "end": 298.3,
+      "text": "A yummy beige cookie!",
+      "words": [
+        {
+          "w": "A",
+          "start": 297.07,
+          "end": 297.257
+        },
+        {
+          "w": "yummy",
+          "start": 297.257,
+          "end": 297.568
+        },
+        {
+          "w": "beige",
+          "start": 297.568,
+          "end": 297.879
+        },
+        {
+          "w": "cookie!",
+          "start": 297.879,
+          "end": 298.19
+        }
+      ]
+    },
+    {
+      "beat": "q19",
+      "speaker": "mila",
+      "start": 300.9,
+      "end": 302.81,
+      "text": "Quiz time! Which one is peach?",
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 300.94,
+          "end": 301.264
+        },
+        {
+          "w": "time!",
+          "start": 301.264,
+          "end": 301.588
+        },
+        {
+          "w": "Which",
+          "start": 301.588,
+          "end": 301.912
+        },
+        {
+          "w": "one",
+          "start": 301.912,
+          "end": 302.171
+        },
+        {
+          "w": "is",
+          "start": 302.171,
+          "end": 302.301
+        },
+        {
+          "w": "peach?",
+          "start": 302.301,
+          "end": 302.69
+        }
+      ]
+    },
+    {
+      "beat": "q19",
+      "speaker": "mila",
+      "start": 307.81,
+      "end": 309.47,
+      "text": "Yes! This one is peach!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 307.86,
+          "end": 308.162
+        },
+        {
+          "w": "This",
+          "start": 308.162,
+          "end": 308.464
+        },
+        {
+          "w": "one",
+          "start": 308.464,
+          "end": 308.766
+        },
+        {
+          "w": "is",
+          "start": 308.766,
+          "end": 308.917
+        },
+        {
+          "w": "peach!",
+          "start": 308.917,
+          "end": 309.37
+        }
+      ]
+    },
+    {
+      "beat": "q19",
+      "speaker": "narrator_fr",
+      "start": 310.47,
+      "end": 311.11,
+      "text": "Pêche !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Pêche",
+          "start": 310.5,
+          "end": 311.04
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 313.71,
+      "end": 315.39,
+      "text": "Let's say them all, together!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 313.74,
+          "end": 314.061
+        },
+        {
+          "w": "say",
+          "start": 314.061,
+          "end": 314.317
+        },
+        {
+          "w": "them",
+          "start": 314.317,
+          "end": 314.574
+        },
+        {
+          "w": "all,",
+          "start": 314.574,
+          "end": 314.831
+        },
+        {
+          "w": "together!",
+          "start": 314.831,
+          "end": 315.28
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 316.99,
+      "end": 319.24,
+      "text": "Red, Orange, Yellow, Green, Blue!",
+      "words": [
+        {
+          "w": "Red,",
+          "start": 317.02,
+          "end": 317.326
+        },
+        {
+          "w": "Orange,",
+          "start": 317.326,
+          "end": 317.861
+        },
+        {
+          "w": "Yellow,",
+          "start": 317.861,
+          "end": 318.319
+        },
+        {
+          "w": "Green,",
+          "start": 318.319,
+          "end": 318.778
+        },
+        {
+          "w": "Blue!",
+          "start": 318.778,
+          "end": 319.16
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 320.64,
+      "end": 322.81,
+      "text": "Purple, Pink, Brown, Black, White!",
+      "words": [
+        {
+          "w": "Purple,",
+          "start": 320.67,
+          "end": 321.183
+        },
+        {
+          "w": "Pink,",
+          "start": 321.183,
+          "end": 321.549
+        },
+        {
+          "w": "Brown,",
+          "start": 321.549,
+          "end": 321.988
+        },
+        {
+          "w": "Black,",
+          "start": 321.988,
+          "end": 322.354
+        },
+        {
+          "w": "White!",
+          "start": 322.354,
+          "end": 322.72
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 324.21,
+      "end": 326.87,
+      "text": "Gray, Gold, Silver, Turquoise, Sky blue!",
+      "words": [
+        {
+          "w": "Gray,",
+          "start": 324.26,
+          "end": 324.613
+        },
+        {
+          "w": "Gold,",
+          "start": 324.613,
+          "end": 325.036
+        },
+        {
+          "w": "Silver,",
+          "start": 325.036,
+          "end": 325.459
+        },
+        {
+          "w": "Turquoise,",
+          "start": 325.459,
+          "end": 326.094
+        },
+        {
+          "w": "Sky",
+          "start": 326.094,
+          "end": 326.447
+        },
+        {
+          "w": "blue!",
+          "start": 326.447,
+          "end": 326.8
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 328.27,
+      "end": 331.32,
+      "text": "Lime green, Navy blue, Peach, Lavender, Beige!",
+      "words": [
+        {
+          "w": "Lime",
+          "start": 328.3,
+          "end": 328.66
+        },
+        {
+          "w": "green,",
+          "start": 328.66,
+          "end": 329.091
+        },
+        {
+          "w": "Navy",
+          "start": 329.091,
+          "end": 329.523
+        },
+        {
+          "w": "blue,",
+          "start": 329.523,
+          "end": 329.883
+        },
+        {
+          "w": "Peach,",
+          "start": 329.883,
+          "end": 330.315
+        },
+        {
+          "w": "Lavender,",
+          "start": 330.315,
+          "end": 330.89
+        },
+        {
+          "w": "Beige!",
+          "start": 330.89,
+          "end": 331.25
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 333.32,
+      "end": 334.75,
+      "text": "Et maintenant, en français !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Et",
+          "start": 333.35,
+          "end": 333.51
+        },
+        {
+          "w": "maintenant,",
+          "start": 333.51,
+          "end": 333.99
+        },
+        {
+          "w": "en",
+          "start": 333.99,
+          "end": 334.15
+        },
+        {
+          "w": "français",
+          "start": 334.15,
+          "end": 334.63
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 336.15,
+      "end": 338.02,
+      "text": "rouge, orange, jaune, vert, bleu !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "rouge,",
+          "start": 336.19,
+          "end": 336.508
+        },
+        {
+          "w": "orange,",
+          "start": 336.508,
+          "end": 336.906
+        },
+        {
+          "w": "jaune,",
+          "start": 336.906,
+          "end": 337.224
+        },
+        {
+          "w": "vert,",
+          "start": 337.224,
+          "end": 337.542
+        },
+        {
+          "w": "bleu",
+          "start": 337.542,
+          "end": 337.86
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 339.42,
+      "end": 341.31,
+      "text": "violet, rose, marron, noir, blanc !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "violet,",
+          "start": 339.45,
+          "end": 339.88
+        },
+        {
+          "w": "rose,",
+          "start": 339.88,
+          "end": 340.167
+        },
+        {
+          "w": "marron,",
+          "start": 340.167,
+          "end": 340.525
+        },
+        {
+          "w": "noir,",
+          "start": 340.525,
+          "end": 340.883
+        },
+        {
+          "w": "blanc",
+          "start": 340.883,
+          "end": 341.17
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 342.71,
+      "end": 345.27,
+      "text": "gris, doré, argenté, turquoise, bleu ciel !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "gris,",
+          "start": 342.74,
+          "end": 343.031
+        },
+        {
+          "w": "doré,",
+          "start": 343.031,
+          "end": 343.395
+        },
+        {
+          "w": "argenté,",
+          "start": 343.395,
+          "end": 343.904
+        },
+        {
+          "w": "turquoise,",
+          "start": 343.904,
+          "end": 344.485
+        },
+        {
+          "w": "bleu",
+          "start": 344.485,
+          "end": 344.776
+        },
+        {
+          "w": "ciel",
+          "start": 344.776,
+          "end": 345.14
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 346.67,
+      "end": 349.48,
+      "text": "vert citron, bleu marine, pêche, lavande, beige !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "vert",
+          "start": 346.71,
+          "end": 347.018
+        },
+        {
+          "w": "citron,",
+          "start": 347.018,
+          "end": 347.481
+        },
+        {
+          "w": "bleu",
+          "start": 347.481,
+          "end": 347.789
+        },
+        {
+          "w": "marine,",
+          "start": 347.789,
+          "end": 348.251
+        },
+        {
+          "w": "pêche,",
+          "start": 348.251,
+          "end": 348.559
+        },
+        {
+          "w": "lavande,",
+          "start": 348.559,
+          "end": 349.022
+        },
+        {
+          "w": "beige",
+          "start": 349.022,
+          "end": 349.33
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "start": 351.88,
+      "end": 354.69,
+      "text": "What's YOUR favorite color? Bye bye, friends!",
+      "words": [
+        {
+          "w": "What's",
+          "start": 352.05,
+          "end": 352.385
+        },
+        {
+          "w": "YOUR",
+          "start": 352.385,
+          "end": 352.586
+        },
+        {
+          "w": "favorite",
+          "start": 352.586,
+          "end": 353.189
+        },
+        {
+          "w": "color?",
+          "start": 353.189,
+          "end": 353.525
+        },
+        {
+          "w": "Bye",
+          "start": 353.525,
+          "end": 353.793
+        },
+        {
+          "w": "bye,",
+          "start": 353.793,
+          "end": 354.061
+        },
+        {
+          "w": "friends!",
+          "start": 354.061,
+          "end": 354.53
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "bobo",
+      "start": 355.29,
+      "end": 356.53,
+      "text": "Bye bye! Au revoir!",
+      "words": [
+        {
+          "w": "Bye",
+          "start": 355.31,
+          "end": 355.537
+        },
+        {
+          "w": "bye!",
+          "start": 355.537,
+          "end": 355.765
+        },
+        {
+          "w": "Au",
+          "start": 355.765,
+          "end": 355.935
+        },
+        {
+          "w": "revoir!",
+          "start": 355.935,
+          "end": 356.39
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "intro",
+      "start": 0,
+      "visual": "Hi friends! Let's learn twenty colors, in English, and in French! / Colors! Yay!",
+      "end": 8.65
+    },
+    {
+      "id": "c0",
+      "start": 8.65,
+      "visual": "Red. / Red! / Rouge. / Rouge ! / A red apple!",
+      "end": 21.1
+    },
+    {
+      "id": "c1",
+      "start": 21.1,
+      "visual": "Orange. / Orange! / Orange. / Orange ! / An orange... orange!",
+      "end": 33.93
+    },
+    {
+      "id": "c2",
+      "start": 33.93,
+      "visual": "Yellow. / Yellow! / Jaune. / Jaune ! / The yellow sun!",
+      "end": 46.34
+    },
+    {
+      "id": "c3",
+      "start": 46.34,
+      "visual": "Green. / Green! / Vert. / Vert ! / A green frog!",
+      "end": 58.38
+    },
+    {
+      "id": "c4",
+      "start": 58.38,
+      "visual": "Blue. / Blue! / Bleu. / Bleu ! / A blue balloon!",
+      "end": 70.72
+    },
+    {
+      "id": "q4",
+      "start": 70.72,
+      "visual": "Quiz time! Which one is green? / Yes! This one is green! / Vert !",
+      "end": 83.51
+    },
+    {
+      "id": "c5",
+      "start": 83.51,
+      "visual": "Purple. / Purple! / Violet. / Violet ! / Purple grapes. Yum!",
+      "end": 96.08
+    },
+    {
+      "id": "c6",
+      "start": 96.08,
+      "visual": "Pink. / Pink! / Rose. / Rose ! / A pink pig!",
+      "end": 108.31
+    },
+    {
+      "id": "c7",
+      "start": 108.31,
+      "visual": "Brown. / Brown! / Marron. / Marron ! / A brown bear... that's me!",
+      "end": 121.16
+    },
+    {
+      "id": "c8",
+      "start": 121.16,
+      "visual": "Black. / Black! / Noir. / Noir ! / A black cat!",
+      "end": 133.43
+    },
+    {
+      "id": "c9",
+      "start": 133.43,
+      "visual": "White. / White! / Blanc. / Blanc ! / A white cloud!",
+      "end": 145.36
+    },
+    {
+      "id": "q9",
+      "start": 145.36,
+      "visual": "Quiz time! Which one is pink? / Yes! This one is pink! / Rose !",
+      "end": 158.25
+    },
+    {
+      "id": "c10",
+      "start": 158.25,
+      "visual": "Gray. / Gray! / Gris. / Gris ! / A gray mouse!",
+      "end": 170.61
+    },
+    {
+      "id": "c11",
+      "start": 170.61,
+      "visual": "Gold. / Gold! / Doré. / Doré ! / A gold star!",
+      "end": 182.68
+    },
+    {
+      "id": "c12",
+      "start": 182.68,
+      "visual": "Silver. / Silver! / Argenté. / Argenté ! / A shiny silver key!",
+      "end": 195.98
+    },
+    {
+      "id": "c13",
+      "start": 195.98,
+      "visual": "Turquoise. / Turquoise! / Turquoise. / Turquoise ! / A turquoise fish!",
+      "end": 208.94
+    },
+    {
+      "id": "c14",
+      "start": 208.94,
+      "visual": "Sky blue. / Sky blue! / Bleu ciel. / Bleu ciel ! / The sky is sky blue!",
+      "end": 222.84
+    },
+    {
+      "id": "q14",
+      "start": 222.84,
+      "visual": "Quiz time! Which one is gold? / Yes! This one is gold! / Doré !",
+      "end": 235.69
+    },
+    {
+      "id": "c15",
+      "start": 235.69,
+      "visual": "Lime green. / Lime green! / Vert citron. / Vert citron ! / A lime green leaf!",
+      "end": 249.14
+    },
+    {
+      "id": "c16",
+      "start": 249.14,
+      "visual": "Navy blue. / Navy blue! / Bleu marine. / Bleu marine ! / A navy blue boat!",
+      "end": 262.91
+    },
+    {
+      "id": "c17",
+      "start": 262.91,
+      "visual": "Peach. / Peach! / Pêche. / Pêche ! / A juicy peach!",
+      "end": 274.89
+    },
+    {
+      "id": "c18",
+      "start": 274.89,
+      "visual": "Lavender. / Lavender! / Lavande. / Lavande ! / A lavender flower!",
+      "end": 288.3
+    },
+    {
+      "id": "c19",
+      "start": 288.3,
+      "visual": "Beige. / Beige! / Beige. / Beige ! / A yummy beige cookie!",
+      "end": 300.7
+    },
+    {
+      "id": "q19",
+      "start": 300.7,
+      "visual": "Quiz time! Which one is peach? / Yes! This one is peach! / Pêche !",
+      "end": 313.51
+    },
+    {
+      "id": "recap",
+      "start": 313.51,
+      "visual": "Let's say them all, together! / Red, Orange, Yellow, Green, Blue! / Purple, Pink, Brown, Black, White! / Gray, Gold, Silver, Turquoise, Sky blue! / Lime green, Navy blue, Peach, Lavender, Beige!",
+      "end": 333.12
+    },
+    {
+      "id": "recapfr",
+      "start": 333.12,
+      "visual": "Et maintenant, en français ! / rouge, orange, jaune, vert, bleu ! / violet, rose, marron, noir, blanc ! / gris, doré, argenté, turquoise, bleu ciel ! / vert citron, bleu marine, pêche, lavande, beige !",
+      "end": 351.68
+    },
+    {
+      "id": "bye",
+      "start": 351.68,
+      "visual": "What's YOUR favorite color? Bye bye, friends! / Bye bye! Au revoir!",
+      "end": 359.0
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

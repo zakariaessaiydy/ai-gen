@@ -1,15 +1,18 @@
 # claude-faceless-shorts-creator
 
 **A faceless YouTube-Shorts factory you drive with [Claude Code](https://claude.com/claude-code).**
-Three production tracks in one repo — you just describe the video, and the right pipeline runs:
+Five production tracks in one repo — you just describe the video, and the right pipeline runs:
 
 | You say… | Track | The pixels |
 |---|---|---|
 | *"make a short about the ×11 trick"* | **TSX** (`/make-short`) | 100% code — a [Remotion](https://remotion.dev) composition, no footage, no stock |
 | *"make an AI video short with blue-man"* | **Generative** (`/make-ai-short`) | a fal video model animating a **locked recurring character** |
 | *"make a vox-style short about coffee"* | **Collage** (`/make-vox`) | Vox-documentary paper collage — AI-image layers, die-cuts, a traveling camera |
+| *"new Bro episode"* | **Cartoon series** (`/make-toon`) | a 100%-TSX 2D cartoon rig with a locked recurring cast, dialogue and lip-sync |
+| *"kids video about sharing"* · *"video of the day"* | **Kids channel** (`/make-kids` + 8 niche skills, `/video-of-the-day`) | the Tiny Sparks kids kit — Shorts and 16:9 long videos, driven by an 800-video calendar |
 
-Every track shares the same backbone: ElevenLabs voice with **word-exact synced captions**,
+Every track shares the same backbone: TTS voice (ElevenLabs, or free Kokoro / Edge / Azure)
+with **word-exact synced captions**,
 frame-by-frame QA at phone scale, a reusable self-growing SFX/music library, seamless
 frame-0==last-frame loops, and no dated engagement-CTA outros.
 
@@ -24,8 +27,9 @@ Free to read, no login. More build guides at
 
 ## The example videos (more coming)
 
-**TSX shorts** (`shorts/`) — 12 complete productions; each folder has the script, beats
-contract, and SFX cue sheet, and the committed composition renders the exact video:
+**TSX shorts** — every composition is committed in `remotion/src/shots/short-N/` and renders the
+exact video (`node scripts/render-all.mjs Short5Monty`); `shorts/` holds the full project
+folders (script, beats contract, SFX cue sheet) for the latest ones. A sample of the series:
 
 | # | Niche | Title / hook |
 |---|---|---|
@@ -52,6 +56,11 @@ are not reproducible.
 generated map/archival/cutout layers (committed), a camera choreographed across scenes, and
 `DESIGN.md` — the full visual-language spec of the collage engine.
 
+**Cartoon series** (`toon-shorts/bro/`) — *Bro Thinks He's Him*: twelve episodes on one locked
+cast (`series.json` is the bible). **Kids channel** (`kids-shorts/tiny-sparks/`) — the Tiny
+Sparks bible, cast sheet, free generated songs and the first story episodes; `publishing/ideas/`
+feeds `TINY-SPARKS-CALENDAR.xlsx`, which `/video-of-the-day` walks through one video at a time.
+
 Rendered videos aren't committed (they're reproducible from the repo); links to published
 versions will be added here as they go live.
 
@@ -67,10 +76,10 @@ topic ──▶ script.md + beats.json      the beat grammar: HOOK (frame 0 = th
         frame-by-frame QA              Claude renders PNGs at phone scale and READS them
                 │
                 ▼
-        gen_voice.py                   ElevenLabs TTS per line → REAL per-word timestamps
+        gen_voice.py                   TTS per line → REAL per-word timestamps
                 │                      → captions highlight on the exact spoken word
-                │                      (no key? `--engine edge` = free Edge Neural TTS,
-                │                       same word-exact timings, `pip install edge-tts`)
+                │                      (no key? `--engine kokoro` = free LOCAL TTS, or
+                │                       `--engine edge` = free Edge Neural TTS)
                 ▼
         sfx-plan.json + mix_sfx.py     library-first sound design, audition mix, your ear
                 │                      is the final gate (optional music bed: mix_music.py)
@@ -78,7 +87,7 @@ topic ──▶ script.md + beats.json      the beat grammar: HOOK (frame 0 = th
         <track>/<project>/output/*-sfx.mp4
 ```
 
-Five Claude Code **skills** encode the craft:
+Claude Code **skills** encode the craft (the main ones below; `.claude/skills/` has all 16):
 
 - **`/make-short`** — the TSX pipeline: hook grammar, no-CTA outros, caption safe areas,
   Sequence-local frame math, loop-into-intro endings.
@@ -86,6 +95,10 @@ Five Claude Code **skills** encode the craft:
   locked character from text, state the cost before spending it, loop by end-frame constraint.
 - **`/make-vox`** — scene dissection into layers, cheapest-source layer production
   (gen_image + rembg cutouts, HTML→PNG, SVG-in-TSX), CollageBoard camera choreography.
+- **`/make-toon`** — recurring-character cartoon episodes: locked cast, dialogue, poses,
+  lip-sync, the series' signature ending.
+- **`/make-kids`** — the kids-channel backbone (style bible, cast, Made-for-Kids rules) that the
+  eight `kids-*` niche skills build on; **`/video-of-the-day`** makes the next calendar video.
 - **`/vidtsx-2d-generator`** — the TSX authoring rules that keep Remotion renders from crashing.
 - **`/suggest-sfx`** — taste-encoded sound design: function-first cues, layered hero moments,
   measured audibility (RMS-diff, not hope), a library that compounds across videos.
@@ -96,10 +109,11 @@ brand and every future short follows it.
 ## Quickstart
 
 Requirements: [Claude Code](https://claude.com/claude-code) · Node 18+ · Python 3.10+ ·
-`ffmpeg` on PATH · an [ElevenLabs](https://elevenlabs.io) key (voice/SFX/music). For the
-generative track add a [fal.ai](https://fal.ai) key; for collage layer production:
-`pip install pillow rembg playwright && playwright install chromium` (the only pip installs
-in the repo — everything else is stdlib).
+`ffmpeg` on PATH · an [ElevenLabs](https://elevenlabs.io) key (voice/SFX/music) — or no key at
+all with the free local Kokoro voice (`pip install kokoro-onnx && python tools/setup_kokoro.py`).
+For the generative track add a [fal.ai](https://fal.ai) key. The core pipeline is stdlib-only;
+the optional extras per feature (Kokoro, Edge TTS, collage layers, the kids calendar, songs) are
+listed in `requirements-optional.txt`.
 
 ```bash
 git clone https://github.com/hassancs91/claude-faceless-shorts-creator
@@ -129,6 +143,9 @@ python tools/build_short.py shorts/short-15-salt          # voice → render →
 python tools/build_short.py shorts/short-15-salt --draft  # half-scale motion check
 ```
 
+`frames.mjs` and `render-all.mjs` refresh the shot registry themselves (`npm run gen:check`
+verifies it is committed up to date; `npm run typecheck` runs `tsc`).
+
 `build_short.py` runs the stages in the only correct order (the voice writes the word times the
 captions render from, so the video is rendered **once**), skips a render when nothing that feeds
 it changed, and prints a per-stage timing table. `check_short.py` catches the render-crashing
@@ -138,17 +155,21 @@ that disagrees with `beats.json` — in a second instead of 45 seconds into a re
 ## Repo layout
 
 ```
-.claude/skills/   the five skills (this is where the "editor" lives)
+.claude/skills/   the skills (this is where the "editor" lives)
 tools/            Python: new_short, check_short, build_short (the pipeline drivers) +
-                  gen_voice, gen_sfx, gen_music, mix_sfx, mix_music, gen_image,
-                  gen_clip, bakeoff_clip, cutout, capture_web, gen_chords
+                  gen_voice (+ setup_kokoro), gen_sfx, gen_music, mix_sfx, mix_music,
+                  gen_image, gen_clip, bakeoff_clip, cutout, capture_web, gen_chords,
+                  gen_song, next_video, loop_diff, audit_sfx · common.py (shared helpers)
 remotion/         the Remotion project — shared kits in src/lib/ (incl. collage.tsx),
                   one folder per video in src/shots/
 media/library/    reusable assets: SFX clips + music beds (catalogued, loudness-normalized)
 media/projects/   media for one specific video — incl. committed AI clips & collage layers
-shorts/           the 12 TSX example productions
+shorts/           TSX project folders (script, beats.json, sfx-plan.json)
 ai-shorts/        the generative track: blue-man/ (locked character) + IDEAS.md (cost tables)
 vox-shorts/       the collage track: vox-1-coffee/ + DESIGN.md (the visual language)
+toon-shorts/      cartoon series: bro/ (series.json bible + episodes)
+kids-shorts/      the Tiny Sparks kids channel (channel.json bible, songs, episodes)
+publishing/       ideas/<niche>.txt — the source of the kids calendar
 brand.md          the style contract — make it yours
 IDEAS.md          the TSX-shorts niche/idea bank
 ```

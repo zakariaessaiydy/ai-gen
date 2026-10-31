@@ -1,0 +1,780 @@
+{
+  "id": "day-006",
+  "series": "tiny-sparks",
+  "episode": 6,
+  "title": "Find the Missing Number",
+  "composition": "KidsPuzzles006",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 84.6
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "hoot",
+      "start": 1.4,
+      "end": 3.65,
+      "text": "Can you find the missing number?",
+      "words": [
+        {
+          "w": "Can",
+          "start": 1.44,
+          "end": 1.753
+        },
+        {
+          "w": "you",
+          "start": 1.753,
+          "end": 1.987
+        },
+        {
+          "w": "find",
+          "start": 1.987,
+          "end": 2.456
+        },
+        {
+          "w": "the",
+          "start": 2.456,
+          "end": 2.612
+        },
+        {
+          "w": "missing",
+          "start": 2.612,
+          "end": 3.081
+        },
+        {
+          "w": "number?",
+          "start": 3.081,
+          "end": 3.55
+        }
+      ]
+    },
+    {
+      "beat": "p1_intro",
+      "speaker": "hoot",
+      "start": 5.25,
+      "end": 6.33,
+      "text": "Puzzle one!",
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 5.28,
+          "end": 5.862
+        },
+        {
+          "w": "one!",
+          "start": 5.862,
+          "end": 6.25
+        }
+      ]
+    },
+    {
+      "beat": "p1_count",
+      "speaker": "hoot",
+      "start": 7.53,
+      "end": 9.53,
+      "text": "One... two... hmm... four.",
+      "words": [
+        {
+          "w": "One...",
+          "start": 7.57,
+          "end": 8.077
+        },
+        {
+          "w": "two...",
+          "start": 8.077,
+          "end": 8.583
+        },
+        {
+          "w": "hmm...",
+          "start": 8.583,
+          "end": 8.963
+        },
+        {
+          "w": "four.",
+          "start": 8.963,
+          "end": 9.47
+        }
+      ]
+    },
+    {
+      "beat": "p1_q",
+      "speaker": "hoot",
+      "start": 10.73,
+      "end": 12.54,
+      "text": "Which number is missing?",
+      "words": [
+        {
+          "w": "Which",
+          "start": 10.76,
+          "end": 11.207
+        },
+        {
+          "w": "number",
+          "start": 11.207,
+          "end": 11.744
+        },
+        {
+          "w": "is",
+          "start": 11.744,
+          "end": 11.923
+        },
+        {
+          "w": "missing?",
+          "start": 11.923,
+          "end": 12.46
+        }
+      ]
+    },
+    {
+      "beat": "p1_leo",
+      "speaker": "leo",
+      "start": 17.74,
+      "end": 18.48,
+      "text": "Five!",
+      "words": [
+        {
+          "w": "Five!",
+          "start": 17.79,
+          "end": 18.37
+        }
+      ]
+    },
+    {
+      "beat": "p1_no",
+      "speaker": "hoot",
+      "start": 19.68,
+      "end": 21.32,
+      "text": "Hmm, not quite, Leo.",
+      "words": [
+        {
+          "w": "Hmm,",
+          "start": 19.72,
+          "end": 19.96
+        },
+        {
+          "w": "not",
+          "start": 19.96,
+          "end": 20.28
+        },
+        {
+          "w": "quite,",
+          "start": 20.28,
+          "end": 20.76
+        },
+        {
+          "w": "Leo.",
+          "start": 20.76,
+          "end": 21.24
+        }
+      ]
+    },
+    {
+      "beat": "p1_ans",
+      "speaker": "hoot",
+      "start": 22.72,
+      "end": 24.94,
+      "text": "It's three! One, two, three, four!",
+      "words": [
+        {
+          "w": "It's",
+          "start": 22.75,
+          "end": 23.002
+        },
+        {
+          "w": "three!",
+          "start": 23.002,
+          "end": 23.422
+        },
+        {
+          "w": "One,",
+          "start": 23.422,
+          "end": 23.758
+        },
+        {
+          "w": "two,",
+          "start": 23.758,
+          "end": 24.094
+        },
+        {
+          "w": "three,",
+          "start": 24.094,
+          "end": 24.514
+        },
+        {
+          "w": "four!",
+          "start": 24.514,
+          "end": 24.85
+        }
+      ]
+    },
+    {
+      "beat": "p1_yay",
+      "speaker": "leo",
+      "start": 26.34,
+      "end": 27.57,
+      "text": "Three! Silly me!",
+      "words": [
+        {
+          "w": "Three!",
+          "start": 26.4,
+          "end": 26.746
+        },
+        {
+          "w": "Silly",
+          "start": 26.746,
+          "end": 27.093
+        },
+        {
+          "w": "me!",
+          "start": 27.093,
+          "end": 27.37
+        }
+      ]
+    },
+    {
+      "beat": "p2_intro",
+      "speaker": "hoot",
+      "start": 30.17,
+      "end": 31.36,
+      "text": "Puzzle two!",
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 30.21,
+          "end": 30.846
+        },
+        {
+          "w": "two!",
+          "start": 30.846,
+          "end": 31.27
+        }
+      ]
+    },
+    {
+      "beat": "p2_count",
+      "speaker": "hoot",
+      "start": 32.56,
+      "end": 34.93,
+      "text": "Five... six... seven... hmm...",
+      "words": [
+        {
+          "w": "Five...",
+          "start": 32.62,
+          "end": 33.204
+        },
+        {
+          "w": "six...",
+          "start": 33.204,
+          "end": 33.788
+        },
+        {
+          "w": "seven...",
+          "start": 33.788,
+          "end": 34.489
+        },
+        {
+          "w": "hmm...",
+          "start": 34.489,
+          "end": 34.84
+        }
+      ]
+    },
+    {
+      "beat": "p2_q",
+      "speaker": "hoot",
+      "start": 36.13,
+      "end": 37.64,
+      "text": "What comes next?",
+      "words": [
+        {
+          "w": "What",
+          "start": 36.17,
+          "end": 36.541
+        },
+        {
+          "w": "comes",
+          "start": 36.541,
+          "end": 37.004
+        },
+        {
+          "w": "next?",
+          "start": 37.004,
+          "end": 37.56
+        }
+      ]
+    },
+    {
+      "beat": "p2_leo",
+      "speaker": "leo",
+      "start": 42.84,
+      "end": 43.6,
+      "text": "Nine!",
+      "words": [
+        {
+          "w": "Nine!",
+          "start": 42.87,
+          "end": 43.5
+        }
+      ]
+    },
+    {
+      "beat": "p2_no",
+      "speaker": "hoot",
+      "start": 44.8,
+      "end": 46.99,
+      "text": "Not quite! Let's count together.",
+      "words": [
+        {
+          "w": "Not",
+          "start": 44.84,
+          "end": 45.14
+        },
+        {
+          "w": "quite!",
+          "start": 45.14,
+          "end": 45.59
+        },
+        {
+          "w": "Let's",
+          "start": 45.71,
+          "end": 46.046
+        },
+        {
+          "w": "count",
+          "start": 46.046,
+          "end": 46.449
+        },
+        {
+          "w": "together.",
+          "start": 46.449,
+          "end": 46.92
+        }
+      ]
+    },
+    {
+      "beat": "p2_ans",
+      "speaker": "hoot",
+      "start": 48.39,
+      "end": 50.9,
+      "text": "Five, six, seven, eight! It's eight!",
+      "words": [
+        {
+          "w": "Five,",
+          "start": 48.44,
+          "end": 48.881
+        },
+        {
+          "w": "six,",
+          "start": 48.881,
+          "end": 49.321
+        },
+        {
+          "w": "seven,",
+          "start": 49.321,
+          "end": 49.85
+        },
+        {
+          "w": "eight!",
+          "start": 49.85,
+          "end": 50.203
+        },
+        {
+          "w": "It's",
+          "start": 50.203,
+          "end": 50.467
+        },
+        {
+          "w": "eight!",
+          "start": 50.467,
+          "end": 50.82
+        }
+      ]
+    },
+    {
+      "beat": "p2_yay",
+      "speaker": "leo",
+      "start": 52.3,
+      "end": 53.75,
+      "text": "Eight! I've got it now!",
+      "words": [
+        {
+          "w": "Eight!",
+          "start": 52.34,
+          "end": 52.609
+        },
+        {
+          "w": "I've",
+          "start": 52.609,
+          "end": 52.811
+        },
+        {
+          "w": "got",
+          "start": 52.811,
+          "end": 53.147
+        },
+        {
+          "w": "it",
+          "start": 53.147,
+          "end": 53.281
+        },
+        {
+          "w": "now!",
+          "start": 53.281,
+          "end": 53.55
+        }
+      ]
+    },
+    {
+      "beat": "p3_intro",
+      "speaker": "hoot",
+      "start": 56.35,
+      "end": 57.6,
+      "text": "Super puzzle!",
+      "words": [
+        {
+          "w": "Super",
+          "start": 56.38,
+          "end": 56.95
+        },
+        {
+          "w": "puzzle!",
+          "start": 56.95,
+          "end": 57.52
+        }
+      ]
+    },
+    {
+      "beat": "p3_count",
+      "speaker": "hoot",
+      "start": 58.8,
+      "end": 60.93,
+      "text": "Hmm... two... three... four.",
+      "words": [
+        {
+          "w": "Hmm...",
+          "start": 58.83,
+          "end": 59.207
+        },
+        {
+          "w": "two...",
+          "start": 59.207,
+          "end": 59.709
+        },
+        {
+          "w": "three...",
+          "start": 59.709,
+          "end": 60.338
+        },
+        {
+          "w": "four.",
+          "start": 60.338,
+          "end": 60.84
+        }
+      ]
+    },
+    {
+      "beat": "p3_q",
+      "speaker": "hoot",
+      "start": 62.13,
+      "end": 63.98,
+      "text": "Which number comes first?",
+      "words": [
+        {
+          "w": "Which",
+          "start": 62.15,
+          "end": 62.543
+        },
+        {
+          "w": "number",
+          "start": 62.543,
+          "end": 63.015
+        },
+        {
+          "w": "comes",
+          "start": 63.015,
+          "end": 63.408
+        },
+        {
+          "w": "first?",
+          "start": 63.408,
+          "end": 63.88
+        }
+      ]
+    },
+    {
+      "beat": "p3_leo",
+      "speaker": "leo",
+      "start": 69.18,
+      "end": 70.69,
+      "text": "I know this one! One!",
+      "words": [
+        {
+          "w": "I",
+          "start": 69.21,
+          "end": 69.399
+        },
+        {
+          "w": "know",
+          "start": 69.399,
+          "end": 69.652
+        },
+        {
+          "w": "this",
+          "start": 69.652,
+          "end": 69.905
+        },
+        {
+          "w": "one!",
+          "start": 69.905,
+          "end": 70.157
+        },
+        {
+          "w": "One!",
+          "start": 70.157,
+          "end": 70.41
+        }
+      ]
+    },
+    {
+      "beat": "p3_ans",
+      "speaker": "hoot",
+      "start": 72.09,
+      "end": 74.78,
+      "text": "Yes! It's one! Great job, Leo!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 72.13,
+          "end": 72.496
+        },
+        {
+          "w": "It's",
+          "start": 72.496,
+          "end": 72.77
+        },
+        {
+          "w": "one!",
+          "start": 72.77,
+          "end": 73.136
+        },
+        {
+          "w": "Great",
+          "start": 73.136,
+          "end": 73.684
+        },
+        {
+          "w": "job,",
+          "start": 73.684,
+          "end": 74.141
+        },
+        {
+          "w": "Leo!",
+          "start": 74.141,
+          "end": 74.69
+        }
+      ]
+    },
+    {
+      "beat": "end",
+      "speaker": "hoot",
+      "start": 77.18,
+      "end": 79.46,
+      "text": "You found every missing number!",
+      "words": [
+        {
+          "w": "You",
+          "start": 77.21,
+          "end": 77.463
+        },
+        {
+          "w": "found",
+          "start": 77.463,
+          "end": 77.968
+        },
+        {
+          "w": "every",
+          "start": 77.968,
+          "end": 78.389
+        },
+        {
+          "w": "missing",
+          "start": 78.389,
+          "end": 78.895
+        },
+        {
+          "w": "number!",
+          "start": 78.895,
+          "end": 79.4
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "leo",
+      "start": 80.86,
+      "end": 82.16,
+      "text": "Bye-bye, friends!",
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 80.9,
+          "end": 81.474
+        },
+        {
+          "w": "friends!",
+          "start": 81.474,
+          "end": 81.92
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "visual": "Can you find the missing number?",
+      "end": 5.05
+    },
+    {
+      "id": "p1_intro",
+      "start": 5.05,
+      "visual": "Puzzle one!",
+      "end": 7.33
+    },
+    {
+      "id": "p1_count",
+      "start": 7.33,
+      "visual": "One... two... hmm... four.",
+      "end": 10.53
+    },
+    {
+      "id": "p1_q",
+      "start": 10.53,
+      "visual": "Which number is missing?",
+      "end": 17.54
+    },
+    {
+      "id": "p1_leo",
+      "start": 17.54,
+      "visual": "Five!",
+      "end": 19.48
+    },
+    {
+      "id": "p1_no",
+      "start": 19.48,
+      "visual": "Hmm, not quite, Leo.",
+      "end": 22.52
+    },
+    {
+      "id": "p1_ans",
+      "start": 22.52,
+      "visual": "It's three! One, two, three, four!",
+      "end": 26.14
+    },
+    {
+      "id": "p1_yay",
+      "start": 26.14,
+      "visual": "Three! Silly me!",
+      "end": 29.97
+    },
+    {
+      "id": "p2_intro",
+      "start": 29.97,
+      "visual": "Puzzle two!",
+      "end": 32.36
+    },
+    {
+      "id": "p2_count",
+      "start": 32.36,
+      "visual": "Five... six... seven... hmm...",
+      "end": 35.93
+    },
+    {
+      "id": "p2_q",
+      "start": 35.93,
+      "visual": "What comes next?",
+      "end": 42.64
+    },
+    {
+      "id": "p2_leo",
+      "start": 42.64,
+      "visual": "Nine!",
+      "end": 44.6
+    },
+    {
+      "id": "p2_no",
+      "start": 44.6,
+      "visual": "Not quite! Let's count together.",
+      "end": 48.19
+    },
+    {
+      "id": "p2_ans",
+      "start": 48.19,
+      "visual": "Five, six, seven, eight! It's eight!",
+      "end": 52.1
+    },
+    {
+      "id": "p2_yay",
+      "start": 52.1,
+      "visual": "Eight! I've got it now!",
+      "end": 56.15
+    },
+    {
+      "id": "p3_intro",
+      "start": 56.15,
+      "visual": "Super puzzle!",
+      "end": 58.6
+    },
+    {
+      "id": "p3_count",
+      "start": 58.6,
+      "visual": "Hmm... two... three... four.",
+      "end": 61.93
+    },
+    {
+      "id": "p3_q",
+      "start": 61.93,
+      "visual": "Which number comes first?",
+      "end": 68.98
+    },
+    {
+      "id": "p3_leo",
+      "start": 68.98,
+      "visual": "I know this one! One!",
+      "end": 71.89
+    },
+    {
+      "id": "p3_ans",
+      "start": 71.89,
+      "visual": "Yes! It's one! Great job, Leo!",
+      "end": 76.98
+    },
+    {
+      "id": "end",
+      "start": 76.98,
+      "visual": "You found every missing number!",
+      "end": 80.66
+    },
+    {
+      "id": "bye",
+      "start": 80.66,
+      "visual": "Bye-bye, friends!",
+      "end": 84.6
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

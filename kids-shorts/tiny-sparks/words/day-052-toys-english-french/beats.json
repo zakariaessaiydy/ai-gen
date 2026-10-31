@@ -1,0 +1,3097 @@
+{
+  "id": "day-052",
+  "series": "tiny-sparks",
+  "episode": 52,
+  "title": "Toys in English and French",
+  "composition": "KidsWords052",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 301.4
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "narrator_fr": {
+      "kokoro": "ff_siwis",
+      "lang": "fr",
+      "rate": "-6%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -6,
+    "duck": 8,
+    "start": 3.7,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "intro",
+      "speaker": "mila",
+      "text": "Hi, friends! Look, it's our big toy box!",
+      "gap": 1.0,
+      "start": 3.9,
+      "end": 6.58,
+      "words": [
+        {
+          "w": "Hi,",
+          "start": 3.94,
+          "end": 4.213
+        },
+        {
+          "w": "friends!",
+          "start": 4.213,
+          "end": 4.692
+        },
+        {
+          "w": "Look,",
+          "start": 4.692,
+          "end": 4.965
+        },
+        {
+          "w": "it's",
+          "start": 4.965,
+          "end": 5.17
+        },
+        {
+          "w": "our",
+          "start": 5.17,
+          "end": 5.443
+        },
+        {
+          "w": "big",
+          "start": 5.443,
+          "end": 5.717
+        },
+        {
+          "w": "toy",
+          "start": 5.717,
+          "end": 5.99
+        },
+        {
+          "w": "box!",
+          "start": 5.99,
+          "end": 6.4
+        }
+      ]
+    },
+    {
+      "beat": "intro2",
+      "speaker": "bobo",
+      "text": "Let's learn the toys, in English, and in French!",
+      "gap": 1.2,
+      "start": 7.58,
+      "end": 9.9,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 7.61,
+          "end": 7.884
+        },
+        {
+          "w": "learn",
+          "start": 7.884,
+          "end": 8.158
+        },
+        {
+          "w": "the",
+          "start": 8.158,
+          "end": 8.267
+        },
+        {
+          "w": "toys,",
+          "start": 8.267,
+          "end": 8.541
+        },
+        {
+          "w": "in",
+          "start": 8.541,
+          "end": 8.705
+        },
+        {
+          "w": "English,",
+          "start": 8.705,
+          "end": 9.088
+        },
+        {
+          "w": "and",
+          "start": 9.088,
+          "end": 9.253
+        },
+        {
+          "w": "in",
+          "start": 9.253,
+          "end": 9.417
+        },
+        {
+          "w": "French!",
+          "start": 9.417,
+          "end": 9.8
+        }
+      ]
+    },
+    {
+      "beat": "what",
+      "speaker": "mila",
+      "text": "What's inside? Let's see!",
+      "gap": 1.8,
+      "start": 11.1,
+      "end": 12.82,
+      "words": [
+        {
+          "w": "What's",
+          "start": 11.15,
+          "end": 11.526
+        },
+        {
+          "w": "inside?",
+          "start": 11.526,
+          "end": 12.053
+        },
+        {
+          "w": "Let's",
+          "start": 12.053,
+          "end": 12.429
+        },
+        {
+          "w": "see!",
+          "start": 12.429,
+          "end": 12.73
+        }
+      ]
+    },
+    {
+      "beat": "w0a",
+      "speaker": "mila",
+      "text": "Ball.",
+      "gap": 1.0,
+      "start": 14.62,
+      "end": 15.46,
+      "words": [
+        {
+          "w": "Ball.",
+          "start": 14.73,
+          "end": 15.29
+        }
+      ]
+    },
+    {
+      "beat": "w0b",
+      "speaker": "mila",
+      "text": "Ball!",
+      "gap": 1.0,
+      "start": 16.46,
+      "end": 17.33,
+      "words": [
+        {
+          "w": "Ball!",
+          "start": 16.58,
+          "end": 17.18
+        }
+      ]
+    },
+    {
+      "beat": "w0c",
+      "speaker": "mila",
+      "text": "Your turn! Ball!",
+      "gap": 2.0,
+      "start": 18.33,
+      "end": 19.71,
+      "words": [
+        {
+          "w": "Your",
+          "start": 18.41,
+          "end": 18.68
+        },
+        {
+          "w": "turn!",
+          "start": 18.68,
+          "end": 19.13
+        },
+        {
+          "w": "Ball!",
+          "start": 19.13,
+          "end": 19.58
+        }
+      ]
+    },
+    {
+      "beat": "w0f",
+      "speaker": "narrator_fr",
+      "text": "En français : le ballon.",
+      "gap": 1.2,
+      "start": 21.71,
+      "end": 23.08,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 21.74,
+          "end": 21.889
+        },
+        {
+          "w": "français",
+          "start": 21.889,
+          "end": 22.335
+        },
+        {
+          "w": "le",
+          "start": 22.335,
+          "end": 22.558
+        },
+        {
+          "w": "ballon.",
+          "start": 22.558,
+          "end": 22.93
+        }
+      ]
+    },
+    {
+      "beat": "w0g",
+      "speaker": "narrator_fr",
+      "text": "Le ballon !",
+      "gap": 1.6,
+      "start": 24.28,
+      "end": 25.17,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 24.32,
+          "end": 24.601
+        },
+        {
+          "w": "ballon",
+          "start": 24.601,
+          "end": 25.07
+        }
+      ]
+    },
+    {
+      "beat": "w0u",
+      "speaker": "bobo",
+      "text": "Bobo kicks the ball! Boing!",
+      "gap": 2.6,
+      "start": 26.77,
+      "end": 28.37,
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 26.79,
+          "end": 27.216
+        },
+        {
+          "w": "kicks",
+          "start": 27.216,
+          "end": 27.52
+        },
+        {
+          "w": "the",
+          "start": 27.52,
+          "end": 27.642
+        },
+        {
+          "w": "ball!",
+          "start": 27.642,
+          "end": 27.946
+        },
+        {
+          "w": "Boing!",
+          "start": 27.946,
+          "end": 28.25
+        }
+      ]
+    },
+    {
+      "beat": "w1a",
+      "speaker": "mila",
+      "text": "Doll.",
+      "gap": 1.0,
+      "start": 30.97,
+      "end": 31.9,
+      "words": [
+        {
+          "w": "Doll.",
+          "start": 31.09,
+          "end": 31.74
+        }
+      ]
+    },
+    {
+      "beat": "w1b",
+      "speaker": "mila",
+      "text": "Doll!",
+      "gap": 1.0,
+      "start": 32.9,
+      "end": 33.82,
+      "words": [
+        {
+          "w": "Doll!",
+          "start": 33.0,
+          "end": 33.67
+        }
+      ]
+    },
+    {
+      "beat": "w1c",
+      "speaker": "mila",
+      "text": "Your turn! Doll!",
+      "gap": 2.0,
+      "start": 34.82,
+      "end": 36.2,
+      "words": [
+        {
+          "w": "Your",
+          "start": 34.91,
+          "end": 35.175
+        },
+        {
+          "w": "turn!",
+          "start": 35.175,
+          "end": 35.618
+        },
+        {
+          "w": "Doll!",
+          "start": 35.618,
+          "end": 36.06
+        }
+      ]
+    },
+    {
+      "beat": "w1f",
+      "speaker": "narrator_fr",
+      "text": "En français : la poupée.",
+      "gap": 1.2,
+      "start": 38.2,
+      "end": 39.56,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 38.23,
+          "end": 38.381
+        },
+        {
+          "w": "français",
+          "start": 38.381,
+          "end": 38.835
+        },
+        {
+          "w": "la",
+          "start": 38.835,
+          "end": 39.062
+        },
+        {
+          "w": "poupée.",
+          "start": 39.062,
+          "end": 39.44
+        }
+      ]
+    },
+    {
+      "beat": "w1g",
+      "speaker": "narrator_fr",
+      "text": "La poupée !",
+      "gap": 1.6,
+      "start": 40.76,
+      "end": 41.72,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 40.8,
+          "end": 41.104
+        },
+        {
+          "w": "poupée",
+          "start": 41.104,
+          "end": 41.61
+        }
+      ]
+    },
+    {
+      "beat": "w1u",
+      "speaker": "mila",
+      "text": "Mila hugs her doll. So soft!",
+      "gap": 2.6,
+      "start": 43.32,
+      "end": 45.46,
+      "words": [
+        {
+          "w": "Mila",
+          "start": 43.36,
+          "end": 43.791
+        },
+        {
+          "w": "hugs",
+          "start": 43.791,
+          "end": 44.15
+        },
+        {
+          "w": "her",
+          "start": 44.15,
+          "end": 44.365
+        },
+        {
+          "w": "doll.",
+          "start": 44.365,
+          "end": 44.724
+        },
+        {
+          "w": "So",
+          "start": 44.724,
+          "end": 45.011
+        },
+        {
+          "w": "soft!",
+          "start": 45.011,
+          "end": 45.37
+        }
+      ]
+    },
+    {
+      "beat": "w2a",
+      "speaker": "mila",
+      "text": "Teddy bear.",
+      "gap": 1.0,
+      "start": 48.06,
+      "end": 49.19,
+      "words": [
+        {
+          "w": "Teddy",
+          "start": 48.16,
+          "end": 48.627
+        },
+        {
+          "w": "bear.",
+          "start": 48.627,
+          "end": 49.0
+        }
+      ]
+    },
+    {
+      "beat": "w2b",
+      "speaker": "mila",
+      "text": "Teddy bear!",
+      "gap": 1.0,
+      "start": 50.19,
+      "end": 51.3,
+      "words": [
+        {
+          "w": "Teddy",
+          "start": 50.29,
+          "end": 50.757
+        },
+        {
+          "w": "bear!",
+          "start": 50.757,
+          "end": 51.13
+        }
+      ]
+    },
+    {
+      "beat": "w2c",
+      "speaker": "mila",
+      "text": "Your turn! Teddy bear!",
+      "gap": 2.0,
+      "start": 52.3,
+      "end": 53.85,
+      "words": [
+        {
+          "w": "Your",
+          "start": 52.34,
+          "end": 52.584
+        },
+        {
+          "w": "turn!",
+          "start": 52.584,
+          "end": 52.989
+        },
+        {
+          "w": "Teddy",
+          "start": 52.989,
+          "end": 53.395
+        },
+        {
+          "w": "bear!",
+          "start": 53.395,
+          "end": 53.72
+        }
+      ]
+    },
+    {
+      "beat": "w2f",
+      "speaker": "narrator_fr",
+      "text": "En français : le nounours.",
+      "gap": 1.2,
+      "start": 55.85,
+      "end": 57.26,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 55.88,
+          "end": 56.025
+        },
+        {
+          "w": "français",
+          "start": 56.025,
+          "end": 56.459
+        },
+        {
+          "w": "le",
+          "start": 56.459,
+          "end": 56.676
+        },
+        {
+          "w": "nounours.",
+          "start": 56.676,
+          "end": 57.11
+        }
+      ]
+    },
+    {
+      "beat": "w2g",
+      "speaker": "narrator_fr",
+      "text": "Le nounours !",
+      "gap": 1.6,
+      "start": 58.46,
+      "end": 59.44,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 58.49,
+          "end": 58.763
+        },
+        {
+          "w": "nounours",
+          "start": 58.763,
+          "end": 59.31
+        }
+      ]
+    },
+    {
+      "beat": "w2u",
+      "speaker": "bobo",
+      "text": "A teddy bear! He looks just like me!",
+      "gap": 2.6,
+      "start": 61.04,
+      "end": 62.96,
+      "words": [
+        {
+          "w": "A",
+          "start": 61.07,
+          "end": 61.218
+        },
+        {
+          "w": "teddy",
+          "start": 61.218,
+          "end": 61.465
+        },
+        {
+          "w": "bear!",
+          "start": 61.465,
+          "end": 61.663
+        },
+        {
+          "w": "He",
+          "start": 61.663,
+          "end": 61.811
+        },
+        {
+          "w": "looks",
+          "start": 61.811,
+          "end": 62.059
+        },
+        {
+          "w": "just",
+          "start": 62.059,
+          "end": 62.355
+        },
+        {
+          "w": "like",
+          "start": 62.355,
+          "end": 62.602
+        },
+        {
+          "w": "me!",
+          "start": 62.602,
+          "end": 62.8
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "mila",
+      "text": "Quiz time! Where is the doll?",
+      "gap": 5.0,
+      "start": 65.56,
+      "end": 67.37,
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 65.6,
+          "end": 65.961
+        },
+        {
+          "w": "time!",
+          "start": 65.961,
+          "end": 66.322
+        },
+        {
+          "w": "Where",
+          "start": 66.322,
+          "end": 66.61
+        },
+        {
+          "w": "is",
+          "start": 66.61,
+          "end": 66.755
+        },
+        {
+          "w": "the",
+          "start": 66.755,
+          "end": 66.899
+        },
+        {
+          "w": "doll?",
+          "start": 66.899,
+          "end": 67.26
+        }
+      ]
+    },
+    {
+      "beat": "q2a",
+      "speaker": "bobo",
+      "text": "Here! The doll!",
+      "gap": 2.4,
+      "start": 72.37,
+      "end": 73.28,
+      "words": [
+        {
+          "w": "Here!",
+          "start": 72.41,
+          "end": 72.675
+        },
+        {
+          "w": "The",
+          "start": 72.675,
+          "end": 72.808
+        },
+        {
+          "w": "doll!",
+          "start": 72.808,
+          "end": 73.14
+        }
+      ]
+    },
+    {
+      "beat": "w3a",
+      "speaker": "mila",
+      "text": "Car.",
+      "gap": 1.0,
+      "start": 75.68,
+      "end": 76.57,
+      "words": [
+        {
+          "w": "Car.",
+          "start": 75.8,
+          "end": 76.42
+        }
+      ]
+    },
+    {
+      "beat": "w3b",
+      "speaker": "mila",
+      "text": "Car!",
+      "gap": 1.0,
+      "start": 77.57,
+      "end": 78.49,
+      "words": [
+        {
+          "w": "Car!",
+          "start": 77.74,
+          "end": 78.34
+        }
+      ]
+    },
+    {
+      "beat": "w3c",
+      "speaker": "mila",
+      "text": "Your turn! Car!",
+      "gap": 2.0,
+      "start": 79.49,
+      "end": 80.79,
+      "words": [
+        {
+          "w": "Your",
+          "start": 79.53,
+          "end": 79.788
+        },
+        {
+          "w": "turn!",
+          "start": 79.788,
+          "end": 80.219
+        },
+        {
+          "w": "Car!",
+          "start": 80.219,
+          "end": 80.65
+        }
+      ]
+    },
+    {
+      "beat": "w3f",
+      "speaker": "narrator_fr",
+      "text": "En français : la voiture.",
+      "gap": 1.2,
+      "start": 82.79,
+      "end": 84.32,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 82.83,
+          "end": 82.98
+        },
+        {
+          "w": "français",
+          "start": 82.98,
+          "end": 83.43
+        },
+        {
+          "w": "la",
+          "start": 83.43,
+          "end": 83.655
+        },
+        {
+          "w": "voiture.",
+          "start": 83.655,
+          "end": 84.18
+        }
+      ]
+    },
+    {
+      "beat": "w3g",
+      "speaker": "narrator_fr",
+      "text": "La voiture !",
+      "gap": 1.6,
+      "start": 85.52,
+      "end": 86.6,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 85.55,
+          "end": 85.829
+        },
+        {
+          "w": "voiture",
+          "start": 85.829,
+          "end": 86.48
+        }
+      ]
+    },
+    {
+      "beat": "w3u",
+      "speaker": "bobo",
+      "text": "The little car goes vroom, vroom!",
+      "gap": 2.6,
+      "start": 88.2,
+      "end": 89.88,
+      "words": [
+        {
+          "w": "The",
+          "start": 88.24,
+          "end": 88.339
+        },
+        {
+          "w": "little",
+          "start": 88.339,
+          "end": 88.635
+        },
+        {
+          "w": "car",
+          "start": 88.635,
+          "end": 88.881
+        },
+        {
+          "w": "goes",
+          "start": 88.881,
+          "end": 89.128
+        },
+        {
+          "w": "vroom,",
+          "start": 89.128,
+          "end": 89.424
+        },
+        {
+          "w": "vroom!",
+          "start": 89.424,
+          "end": 89.72
+        }
+      ]
+    },
+    {
+      "beat": "w4a",
+      "speaker": "mila",
+      "text": "Train.",
+      "gap": 1.0,
+      "start": 92.48,
+      "end": 93.4,
+      "words": [
+        {
+          "w": "Train.",
+          "start": 92.57,
+          "end": 93.23
+        }
+      ]
+    },
+    {
+      "beat": "w4b",
+      "speaker": "mila",
+      "text": "Train!",
+      "gap": 1.0,
+      "start": 94.4,
+      "end": 95.32,
+      "words": [
+        {
+          "w": "Train!",
+          "start": 94.49,
+          "end": 95.15
+        }
+      ]
+    },
+    {
+      "beat": "w4c",
+      "speaker": "mila",
+      "text": "Your turn! Train!",
+      "gap": 2.0,
+      "start": 96.32,
+      "end": 97.74,
+      "words": [
+        {
+          "w": "Your",
+          "start": 96.37,
+          "end": 96.638
+        },
+        {
+          "w": "turn!",
+          "start": 96.638,
+          "end": 97.084
+        },
+        {
+          "w": "Train!",
+          "start": 97.084,
+          "end": 97.62
+        }
+      ]
+    },
+    {
+      "beat": "w4f",
+      "speaker": "narrator_fr",
+      "text": "En français : le train.",
+      "gap": 1.2,
+      "start": 99.74,
+      "end": 101.02,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 99.76,
+          "end": 99.912
+        },
+        {
+          "w": "français",
+          "start": 99.912,
+          "end": 100.368
+        },
+        {
+          "w": "le",
+          "start": 100.368,
+          "end": 100.596
+        },
+        {
+          "w": "train.",
+          "start": 100.596,
+          "end": 100.9
+        }
+      ]
+    },
+    {
+      "beat": "w4g",
+      "speaker": "narrator_fr",
+      "text": "Le train !",
+      "gap": 1.6,
+      "start": 102.22,
+      "end": 103.09,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 102.26,
+          "end": 102.573
+        },
+        {
+          "w": "train",
+          "start": 102.573,
+          "end": 102.99
+        }
+      ]
+    },
+    {
+      "beat": "w4u",
+      "speaker": "mila",
+      "text": "The train goes choo, choo!",
+      "gap": 2.6,
+      "start": 104.69,
+      "end": 106.41,
+      "words": [
+        {
+          "w": "The",
+          "start": 104.73,
+          "end": 104.867
+        },
+        {
+          "w": "train",
+          "start": 104.867,
+          "end": 105.276
+        },
+        {
+          "w": "goes",
+          "start": 105.276,
+          "end": 105.617
+        },
+        {
+          "w": "choo,",
+          "start": 105.617,
+          "end": 105.959
+        },
+        {
+          "w": "choo!",
+          "start": 105.959,
+          "end": 106.3
+        }
+      ]
+    },
+    {
+      "beat": "w5a",
+      "speaker": "mila",
+      "text": "Kite.",
+      "gap": 1.0,
+      "start": 109.01,
+      "end": 109.84,
+      "words": [
+        {
+          "w": "Kite.",
+          "start": 109.11,
+          "end": 109.72
+        }
+      ]
+    },
+    {
+      "beat": "w5b",
+      "speaker": "mila",
+      "text": "Kite!",
+      "gap": 1.0,
+      "start": 110.84,
+      "end": 111.69,
+      "words": [
+        {
+          "w": "Kite!",
+          "start": 110.94,
+          "end": 111.57
+        }
+      ]
+    },
+    {
+      "beat": "w5c",
+      "speaker": "mila",
+      "text": "Your turn! Kite!",
+      "gap": 2.0,
+      "start": 112.69,
+      "end": 114.09,
+      "words": [
+        {
+          "w": "Your",
+          "start": 112.79,
+          "end": 113.06
+        },
+        {
+          "w": "turn!",
+          "start": 113.06,
+          "end": 113.51
+        },
+        {
+          "w": "Kite!",
+          "start": 113.51,
+          "end": 113.96
+        }
+      ]
+    },
+    {
+      "beat": "w5f",
+      "speaker": "narrator_fr",
+      "text": "En français : le cerf-volant.",
+      "gap": 1.2,
+      "start": 116.09,
+      "end": 117.69,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 116.13,
+          "end": 116.272
+        },
+        {
+          "w": "français",
+          "start": 116.272,
+          "end": 116.698
+        },
+        {
+          "w": "le",
+          "start": 116.698,
+          "end": 116.911
+        },
+        {
+          "w": "cerf-volant.",
+          "start": 116.911,
+          "end": 117.55
+        }
+      ]
+    },
+    {
+      "beat": "w5g",
+      "speaker": "narrator_fr",
+      "text": "Le cerf-volant !",
+      "gap": 1.6,
+      "start": 118.89,
+      "end": 120.04,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 118.92,
+          "end": 119.167
+        },
+        {
+          "w": "cerf-volant",
+          "start": 119.167,
+          "end": 119.91
+        }
+      ]
+    },
+    {
+      "beat": "w5u",
+      "speaker": "mila",
+      "text": "The kite flies up high in the sky!",
+      "gap": 2.6,
+      "start": 121.64,
+      "end": 123.81,
+      "words": [
+        {
+          "w": "The",
+          "start": 121.68,
+          "end": 121.815
+        },
+        {
+          "w": "kite",
+          "start": 121.815,
+          "end": 122.151
+        },
+        {
+          "w": "flies",
+          "start": 122.151,
+          "end": 122.555
+        },
+        {
+          "w": "up",
+          "start": 122.555,
+          "end": 122.757
+        },
+        {
+          "w": "high",
+          "start": 122.757,
+          "end": 123.027
+        },
+        {
+          "w": "in",
+          "start": 123.027,
+          "end": 123.229
+        },
+        {
+          "w": "the",
+          "start": 123.229,
+          "end": 123.363
+        },
+        {
+          "w": "sky!",
+          "start": 123.363,
+          "end": 123.7
+        }
+      ]
+    },
+    {
+      "beat": "q5",
+      "speaker": "mila",
+      "text": "Quiz time! Where is the kite?",
+      "gap": 5.0,
+      "start": 126.41,
+      "end": 128.24,
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 126.45,
+          "end": 126.815
+        },
+        {
+          "w": "time!",
+          "start": 126.815,
+          "end": 127.18
+        },
+        {
+          "w": "Where",
+          "start": 127.18,
+          "end": 127.473
+        },
+        {
+          "w": "is",
+          "start": 127.473,
+          "end": 127.619
+        },
+        {
+          "w": "the",
+          "start": 127.619,
+          "end": 127.765
+        },
+        {
+          "w": "kite?",
+          "start": 127.765,
+          "end": 128.13
+        }
+      ]
+    },
+    {
+      "beat": "q5a",
+      "speaker": "bobo",
+      "text": "Here! The kite!",
+      "gap": 2.4,
+      "start": 133.24,
+      "end": 134.15,
+      "words": [
+        {
+          "w": "Here!",
+          "start": 133.29,
+          "end": 133.566
+        },
+        {
+          "w": "The",
+          "start": 133.566,
+          "end": 133.705
+        },
+        {
+          "w": "kite!",
+          "start": 133.705,
+          "end": 134.05
+        }
+      ]
+    },
+    {
+      "beat": "w6a",
+      "speaker": "mila",
+      "text": "Blocks.",
+      "gap": 1.0,
+      "start": 136.55,
+      "end": 137.51,
+      "words": [
+        {
+          "w": "Blocks.",
+          "start": 136.65,
+          "end": 137.39
+        }
+      ]
+    },
+    {
+      "beat": "w6b",
+      "speaker": "mila",
+      "text": "Blocks!",
+      "gap": 1.0,
+      "start": 138.51,
+      "end": 139.49,
+      "words": [
+        {
+          "w": "Blocks!",
+          "start": 138.61,
+          "end": 139.36
+        }
+      ]
+    },
+    {
+      "beat": "w6c",
+      "speaker": "mila",
+      "text": "Your turn! Blocks!",
+      "gap": 2.0,
+      "start": 140.49,
+      "end": 141.98,
+      "words": [
+        {
+          "w": "Your",
+          "start": 140.54,
+          "end": 140.798
+        },
+        {
+          "w": "turn!",
+          "start": 140.798,
+          "end": 141.228
+        },
+        {
+          "w": "Blocks!",
+          "start": 141.228,
+          "end": 141.83
+        }
+      ]
+    },
+    {
+      "beat": "w6f",
+      "speaker": "narrator_fr",
+      "text": "En français : les cubes.",
+      "gap": 1.2,
+      "start": 143.98,
+      "end": 145.38,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 144.01,
+          "end": 144.178
+        },
+        {
+          "w": "français",
+          "start": 144.178,
+          "end": 144.682
+        },
+        {
+          "w": "les",
+          "start": 144.682,
+          "end": 144.934
+        },
+        {
+          "w": "cubes.",
+          "start": 144.934,
+          "end": 145.27
+        }
+      ]
+    },
+    {
+      "beat": "w6g",
+      "speaker": "narrator_fr",
+      "text": "Les cubes !",
+      "gap": 1.6,
+      "start": 146.58,
+      "end": 147.56,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Les",
+          "start": 146.61,
+          "end": 146.97
+        },
+        {
+          "w": "cubes",
+          "start": 146.97,
+          "end": 147.45
+        }
+      ]
+    },
+    {
+      "beat": "w6u",
+      "speaker": "bobo",
+      "text": "Bobo builds a tall tower with blocks!",
+      "gap": 2.6,
+      "start": 149.16,
+      "end": 151.16,
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 149.2,
+          "end": 149.566
+        },
+        {
+          "w": "builds",
+          "start": 149.566,
+          "end": 149.879
+        },
+        {
+          "w": "a",
+          "start": 149.879,
+          "end": 150.036
+        },
+        {
+          "w": "tall",
+          "start": 150.036,
+          "end": 150.297
+        },
+        {
+          "w": "tower",
+          "start": 150.297,
+          "end": 150.558
+        },
+        {
+          "w": "with",
+          "start": 150.558,
+          "end": 150.714
+        },
+        {
+          "w": "blocks!",
+          "start": 150.714,
+          "end": 151.08
+        }
+      ]
+    },
+    {
+      "beat": "w7a",
+      "speaker": "mila",
+      "text": "Drum.",
+      "gap": 1.0,
+      "start": 153.76,
+      "end": 154.59,
+      "words": [
+        {
+          "w": "Drum.",
+          "start": 153.79,
+          "end": 154.43
+        }
+      ]
+    },
+    {
+      "beat": "w7b",
+      "speaker": "mila",
+      "text": "Drum!",
+      "gap": 1.0,
+      "start": 155.59,
+      "end": 156.44,
+      "words": [
+        {
+          "w": "Drum!",
+          "start": 155.64,
+          "end": 156.28
+        }
+      ]
+    },
+    {
+      "beat": "w7c",
+      "speaker": "mila",
+      "text": "Your turn! Drum!",
+      "gap": 2.0,
+      "start": 157.44,
+      "end": 158.86,
+      "words": [
+        {
+          "w": "Your",
+          "start": 157.48,
+          "end": 157.771
+        },
+        {
+          "w": "turn!",
+          "start": 157.771,
+          "end": 158.255
+        },
+        {
+          "w": "Drum!",
+          "start": 158.255,
+          "end": 158.74
+        }
+      ]
+    },
+    {
+      "beat": "w7f",
+      "speaker": "narrator_fr",
+      "text": "En français : le tambour.",
+      "gap": 1.2,
+      "start": 160.86,
+      "end": 162.37,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 160.9,
+          "end": 161.056
+        },
+        {
+          "w": "français",
+          "start": 161.056,
+          "end": 161.526
+        },
+        {
+          "w": "le",
+          "start": 161.526,
+          "end": 161.761
+        },
+        {
+          "w": "tambour.",
+          "start": 161.761,
+          "end": 162.23
+        }
+      ]
+    },
+    {
+      "beat": "w7g",
+      "speaker": "narrator_fr",
+      "text": "Le tambour !",
+      "gap": 1.6,
+      "start": 163.57,
+      "end": 164.59,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 163.6,
+          "end": 163.89
+        },
+        {
+          "w": "tambour",
+          "start": 163.89,
+          "end": 164.47
+        }
+      ]
+    },
+    {
+      "beat": "w7u",
+      "speaker": "bobo",
+      "text": "Boom, boom, boom! Bobo plays the drum!",
+      "gap": 2.6,
+      "start": 166.19,
+      "end": 168.43,
+      "words": [
+        {
+          "w": "Boom,",
+          "start": 166.23,
+          "end": 166.517
+        },
+        {
+          "w": "boom,",
+          "start": 166.517,
+          "end": 166.804
+        },
+        {
+          "w": "boom!",
+          "start": 166.804,
+          "end": 167.091
+        },
+        {
+          "w": "Bobo",
+          "start": 167.091,
+          "end": 167.493
+        },
+        {
+          "w": "plays",
+          "start": 167.493,
+          "end": 167.838
+        },
+        {
+          "w": "the",
+          "start": 167.838,
+          "end": 167.953
+        },
+        {
+          "w": "drum!",
+          "start": 167.953,
+          "end": 168.24
+        }
+      ]
+    },
+    {
+      "beat": "w8a",
+      "speaker": "mila",
+      "text": "Robot.",
+      "gap": 1.0,
+      "start": 171.03,
+      "end": 172.03,
+      "words": [
+        {
+          "w": "Robot.",
+          "start": 171.11,
+          "end": 171.91
+        }
+      ]
+    },
+    {
+      "beat": "w8b",
+      "speaker": "mila",
+      "text": "Robot!",
+      "gap": 1.0,
+      "start": 173.03,
+      "end": 174.03,
+      "words": [
+        {
+          "w": "Robot!",
+          "start": 173.11,
+          "end": 173.91
+        }
+      ]
+    },
+    {
+      "beat": "w8c",
+      "speaker": "mila",
+      "text": "Your turn! Robot!",
+      "gap": 2.0,
+      "start": 175.03,
+      "end": 176.56,
+      "words": [
+        {
+          "w": "Your",
+          "start": 175.07,
+          "end": 175.332
+        },
+        {
+          "w": "turn!",
+          "start": 175.332,
+          "end": 175.77
+        },
+        {
+          "w": "Robot!",
+          "start": 175.77,
+          "end": 176.47
+        }
+      ]
+    },
+    {
+      "beat": "w8f",
+      "speaker": "narrator_fr",
+      "text": "En français : le robot.",
+      "gap": 1.2,
+      "start": 178.56,
+      "end": 179.9,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 178.59,
+          "end": 178.737
+        },
+        {
+          "w": "français",
+          "start": 178.737,
+          "end": 179.18
+        },
+        {
+          "w": "le",
+          "start": 179.18,
+          "end": 179.401
+        },
+        {
+          "w": "robot.",
+          "start": 179.401,
+          "end": 179.77
+        }
+      ]
+    },
+    {
+      "beat": "w8g",
+      "speaker": "narrator_fr",
+      "text": "Le robot !",
+      "gap": 1.6,
+      "start": 181.1,
+      "end": 182.03,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 181.14,
+          "end": 181.432
+        },
+        {
+          "w": "robot",
+          "start": 181.432,
+          "end": 181.92
+        }
+      ]
+    },
+    {
+      "beat": "w8u",
+      "speaker": "mila",
+      "text": "The robot says: beep, boop!",
+      "gap": 2.6,
+      "start": 183.63,
+      "end": 185.63,
+      "words": [
+        {
+          "w": "The",
+          "start": 183.67,
+          "end": 183.823
+        },
+        {
+          "w": "robot",
+          "start": 183.823,
+          "end": 184.437
+        },
+        {
+          "w": "says:",
+          "start": 184.437,
+          "end": 184.743
+        },
+        {
+          "w": "beep,",
+          "start": 184.743,
+          "end": 185.127
+        },
+        {
+          "w": "boop!",
+          "start": 185.127,
+          "end": 185.51
+        }
+      ]
+    },
+    {
+      "beat": "q8",
+      "speaker": "mila",
+      "text": "Quiz time! Where is the blocks?",
+      "gap": 5.0,
+      "start": 188.23,
+      "end": 190.17,
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 188.27,
+          "end": 188.626
+        },
+        {
+          "w": "time!",
+          "start": 188.626,
+          "end": 188.982
+        },
+        {
+          "w": "Where",
+          "start": 188.982,
+          "end": 189.267
+        },
+        {
+          "w": "is",
+          "start": 189.267,
+          "end": 189.409
+        },
+        {
+          "w": "the",
+          "start": 189.409,
+          "end": 189.552
+        },
+        {
+          "w": "blocks?",
+          "start": 189.552,
+          "end": 190.05
+        }
+      ]
+    },
+    {
+      "beat": "q8a",
+      "speaker": "bobo",
+      "text": "Here! The blocks!",
+      "gap": 2.4,
+      "start": 195.17,
+      "end": 196.13,
+      "words": [
+        {
+          "w": "Here!",
+          "start": 195.22,
+          "end": 195.469
+        },
+        {
+          "w": "The",
+          "start": 195.469,
+          "end": 195.594
+        },
+        {
+          "w": "blocks!",
+          "start": 195.594,
+          "end": 196.03
+        }
+      ]
+    },
+    {
+      "beat": "w9a",
+      "speaker": "mila",
+      "text": "Spinning top.",
+      "gap": 1.0,
+      "start": 198.53,
+      "end": 199.74,
+      "words": [
+        {
+          "w": "Spinning",
+          "start": 198.57,
+          "end": 199.183
+        },
+        {
+          "w": "top.",
+          "start": 199.183,
+          "end": 199.62
+        }
+      ]
+    },
+    {
+      "beat": "w9b",
+      "speaker": "mila",
+      "text": "Spinning top!",
+      "gap": 1.0,
+      "start": 200.74,
+      "end": 201.93,
+      "words": [
+        {
+          "w": "Spinning",
+          "start": 200.78,
+          "end": 201.381
+        },
+        {
+          "w": "top!",
+          "start": 201.381,
+          "end": 201.81
+        }
+      ]
+    },
+    {
+      "beat": "w9c",
+      "speaker": "mila",
+      "text": "Your turn! Spinning top!",
+      "gap": 2.0,
+      "start": 202.93,
+      "end": 204.65,
+      "words": [
+        {
+          "w": "Your",
+          "start": 202.97,
+          "end": 203.203
+        },
+        {
+          "w": "turn!",
+          "start": 203.203,
+          "end": 203.59
+        },
+        {
+          "w": "Spinning",
+          "start": 203.59,
+          "end": 204.133
+        },
+        {
+          "w": "top!",
+          "start": 204.133,
+          "end": 204.52
+        }
+      ]
+    },
+    {
+      "beat": "w9f",
+      "speaker": "narrator_fr",
+      "text": "En français : la toupie.",
+      "gap": 1.2,
+      "start": 206.65,
+      "end": 208.01,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 206.68,
+          "end": 206.831
+        },
+        {
+          "w": "français",
+          "start": 206.831,
+          "end": 207.285
+        },
+        {
+          "w": "la",
+          "start": 207.285,
+          "end": 207.512
+        },
+        {
+          "w": "toupie.",
+          "start": 207.512,
+          "end": 207.89
+        }
+      ]
+    },
+    {
+      "beat": "w9g",
+      "speaker": "narrator_fr",
+      "text": "La toupie !",
+      "gap": 1.6,
+      "start": 209.21,
+      "end": 210.21,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 209.24,
+          "end": 209.566
+        },
+        {
+          "w": "toupie",
+          "start": 209.566,
+          "end": 210.11
+        }
+      ]
+    },
+    {
+      "beat": "w9u",
+      "speaker": "mila",
+      "text": "The spinning top goes round and round!",
+      "gap": 2.6,
+      "start": 211.81,
+      "end": 214.07,
+      "words": [
+        {
+          "w": "The",
+          "start": 211.85,
+          "end": 211.974
+        },
+        {
+          "w": "spinning",
+          "start": 211.974,
+          "end": 212.409
+        },
+        {
+          "w": "top",
+          "start": 212.409,
+          "end": 212.719
+        },
+        {
+          "w": "goes",
+          "start": 212.719,
+          "end": 213.029
+        },
+        {
+          "w": "round",
+          "start": 213.029,
+          "end": 213.401
+        },
+        {
+          "w": "and",
+          "start": 213.401,
+          "end": 213.588
+        },
+        {
+          "w": "round!",
+          "start": 213.588,
+          "end": 213.96
+        }
+      ]
+    },
+    {
+      "beat": "fr_round",
+      "speaker": "mila",
+      "text": "Now let's say them all in French! Listen, and say it too!",
+      "gap": 1.2,
+      "start": 216.67,
+      "end": 220.29,
+      "words": [
+        {
+          "w": "Now",
+          "start": 216.85,
+          "end": 217.11
+        },
+        {
+          "w": "let's",
+          "start": 217.11,
+          "end": 217.435
+        },
+        {
+          "w": "say",
+          "start": 217.435,
+          "end": 217.695
+        },
+        {
+          "w": "them",
+          "start": 217.695,
+          "end": 217.955
+        },
+        {
+          "w": "all",
+          "start": 217.955,
+          "end": 218.215
+        },
+        {
+          "w": "in",
+          "start": 218.215,
+          "end": 218.41
+        },
+        {
+          "w": "French!",
+          "start": 218.41,
+          "end": 218.865
+        },
+        {
+          "w": "Listen,",
+          "start": 218.865,
+          "end": 219.255
+        },
+        {
+          "w": "and",
+          "start": 219.255,
+          "end": 219.45
+        },
+        {
+          "w": "say",
+          "start": 219.45,
+          "end": 219.71
+        },
+        {
+          "w": "it",
+          "start": 219.71,
+          "end": 219.84
+        },
+        {
+          "w": "too!",
+          "start": 219.84,
+          "end": 220.1
+        }
+      ]
+    },
+    {
+      "beat": "r0",
+      "speaker": "narrator_fr",
+      "text": "Le ballon.",
+      "gap": 2.2,
+      "start": 221.49,
+      "end": 222.36,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 221.52,
+          "end": 221.794
+        },
+        {
+          "w": "ballon.",
+          "start": 221.794,
+          "end": 222.25
+        }
+      ]
+    },
+    {
+      "beat": "r1",
+      "speaker": "narrator_fr",
+      "text": "La poupée.",
+      "gap": 2.2,
+      "start": 224.56,
+      "end": 225.49,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 224.6,
+          "end": 224.896
+        },
+        {
+          "w": "poupée.",
+          "start": 224.896,
+          "end": 225.39
+        }
+      ]
+    },
+    {
+      "beat": "r2",
+      "speaker": "narrator_fr",
+      "text": "Le nounours.",
+      "gap": 2.2,
+      "start": 227.69,
+      "end": 228.65,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 227.72,
+          "end": 227.983
+        },
+        {
+          "w": "nounours.",
+          "start": 227.983,
+          "end": 228.51
+        }
+      ]
+    },
+    {
+      "beat": "r3",
+      "speaker": "narrator_fr",
+      "text": "La voiture.",
+      "gap": 2.2,
+      "start": 230.85,
+      "end": 231.87,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 230.88,
+          "end": 231.141
+        },
+        {
+          "w": "voiture.",
+          "start": 231.141,
+          "end": 231.75
+        }
+      ]
+    },
+    {
+      "beat": "r4",
+      "speaker": "narrator_fr",
+      "text": "Le train.",
+      "gap": 2.2,
+      "start": 234.07,
+      "end": 234.9,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 234.1,
+          "end": 234.404
+        },
+        {
+          "w": "train.",
+          "start": 234.404,
+          "end": 234.81
+        }
+      ]
+    },
+    {
+      "beat": "r5",
+      "speaker": "narrator_fr",
+      "text": "Le cerf-volant.",
+      "gap": 2.2,
+      "start": 237.1,
+      "end": 238.21,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 237.13,
+          "end": 237.363
+        },
+        {
+          "w": "cerf-volant.",
+          "start": 237.363,
+          "end": 238.06
+        }
+      ]
+    },
+    {
+      "beat": "r6",
+      "speaker": "narrator_fr",
+      "text": "Les cubes.",
+      "gap": 2.2,
+      "start": 240.41,
+      "end": 241.32,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Les",
+          "start": 240.44,
+          "end": 240.766
+        },
+        {
+          "w": "cubes.",
+          "start": 240.766,
+          "end": 241.2
+        }
+      ]
+    },
+    {
+      "beat": "r7",
+      "speaker": "narrator_fr",
+      "text": "Le tambour.",
+      "gap": 2.2,
+      "start": 243.52,
+      "end": 244.54,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 243.55,
+          "end": 243.84
+        },
+        {
+          "w": "tambour.",
+          "start": 243.84,
+          "end": 244.42
+        }
+      ]
+    },
+    {
+      "beat": "r8",
+      "speaker": "narrator_fr",
+      "text": "Le robot.",
+      "gap": 2.2,
+      "start": 246.74,
+      "end": 247.59,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 246.78,
+          "end": 247.042
+        },
+        {
+          "w": "robot.",
+          "start": 247.042,
+          "end": 247.48
+        }
+      ]
+    },
+    {
+      "beat": "r9",
+      "speaker": "narrator_fr",
+      "text": "La toupie.",
+      "gap": 2.2,
+      "start": 249.79,
+      "end": 250.77,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 249.82,
+          "end": 250.135
+        },
+        {
+          "w": "toupie.",
+          "start": 250.135,
+          "end": 250.66
+        }
+      ]
+    },
+    {
+      "beat": "great",
+      "speaker": "bobo",
+      "text": "Great job, friends!",
+      "gap": 2.2,
+      "start": 252.97,
+      "end": 254.18,
+      "words": [
+        {
+          "w": "Great",
+          "start": 253.0,
+          "end": 253.335
+        },
+        {
+          "w": "job,",
+          "start": 253.335,
+          "end": 253.669
+        },
+        {
+          "w": "friends!",
+          "start": 253.669,
+          "end": 254.06
+        }
+      ]
+    },
+    {
+      "beat": "frq",
+      "speaker": "mila",
+      "text": "French quiz! Listen...",
+      "gap": 1.0,
+      "start": 256.38,
+      "end": 257.95,
+      "words": [
+        {
+          "w": "French",
+          "start": 256.45,
+          "end": 256.991
+        },
+        {
+          "w": "quiz!",
+          "start": 256.991,
+          "end": 257.377
+        },
+        {
+          "w": "Listen...",
+          "start": 257.377,
+          "end": 257.84
+        }
+      ]
+    },
+    {
+      "beat": "frq1",
+      "speaker": "narrator_fr",
+      "text": "Où est la poupée ?",
+      "gap": 5.0,
+      "start": 258.95,
+      "end": 260.0,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Où",
+          "start": 258.99,
+          "end": 259.138
+        },
+        {
+          "w": "est",
+          "start": 259.138,
+          "end": 259.287
+        },
+        {
+          "w": "la",
+          "start": 259.287,
+          "end": 259.509
+        },
+        {
+          "w": "poupée",
+          "start": 259.509,
+          "end": 259.88
+        }
+      ]
+    },
+    {
+      "beat": "frq1a",
+      "speaker": "mila",
+      "text": "The doll! Yes!",
+      "gap": 2.2,
+      "start": 265.0,
+      "end": 266.32,
+      "words": [
+        {
+          "w": "The",
+          "start": 265.07,
+          "end": 265.272
+        },
+        {
+          "w": "doll!",
+          "start": 265.272,
+          "end": 265.776
+        },
+        {
+          "w": "Yes!",
+          "start": 265.776,
+          "end": 266.18
+        }
+      ]
+    },
+    {
+      "beat": "frq2",
+      "speaker": "narrator_fr",
+      "text": "Où est le train ?",
+      "gap": 5.0,
+      "start": 268.52,
+      "end": 269.5,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Où",
+          "start": 268.56,
+          "end": 268.711
+        },
+        {
+          "w": "est",
+          "start": 268.711,
+          "end": 268.862
+        },
+        {
+          "w": "le",
+          "start": 268.862,
+          "end": 269.088
+        },
+        {
+          "w": "train",
+          "start": 269.088,
+          "end": 269.39
+        }
+      ]
+    },
+    {
+      "beat": "frq2a",
+      "speaker": "bobo",
+      "text": "The train! Yes!",
+      "gap": 2.4,
+      "start": 274.5,
+      "end": 275.48,
+      "words": [
+        {
+          "w": "The",
+          "start": 274.53,
+          "end": 274.67
+        },
+        {
+          "w": "train!",
+          "start": 274.67,
+          "end": 275.09
+        },
+        {
+          "w": "Yes!",
+          "start": 275.09,
+          "end": 275.37
+        }
+      ]
+    },
+    {
+      "beat": "fav",
+      "speaker": "mila",
+      "text": "What is YOUR favorite toy? Tell a grown-up!",
+      "gap": 3.0,
+      "start": 277.88,
+      "end": 280.43,
+      "words": [
+        {
+          "w": "What",
+          "start": 278.03,
+          "end": 278.268
+        },
+        {
+          "w": "is",
+          "start": 278.268,
+          "end": 278.387
+        },
+        {
+          "w": "YOUR",
+          "start": 278.387,
+          "end": 278.566
+        },
+        {
+          "w": "favorite",
+          "start": 278.566,
+          "end": 279.102
+        },
+        {
+          "w": "toy?",
+          "start": 279.102,
+          "end": 279.34
+        },
+        {
+          "w": "Tell",
+          "start": 279.5,
+          "end": 279.719
+        },
+        {
+          "w": "a",
+          "start": 279.719,
+          "end": 279.883
+        },
+        {
+          "w": "grown-up!",
+          "start": 279.883,
+          "end": 280.32
+        }
+      ]
+    },
+    {
+      "beat": "fav_b",
+      "speaker": "bobo",
+      "text": "My favorite is the teddy bear, of course!",
+      "gap": 1.6,
+      "start": 283.43,
+      "end": 285.45,
+      "words": [
+        {
+          "w": "My",
+          "start": 283.46,
+          "end": 283.686
+        },
+        {
+          "w": "favorite",
+          "start": 283.686,
+          "end": 284.194
+        },
+        {
+          "w": "is",
+          "start": 284.194,
+          "end": 284.307
+        },
+        {
+          "w": "the",
+          "start": 284.307,
+          "end": 284.42
+        },
+        {
+          "w": "teddy",
+          "start": 284.42,
+          "end": 284.702
+        },
+        {
+          "w": "bear,",
+          "start": 284.702,
+          "end": 284.928
+        },
+        {
+          "w": "of",
+          "start": 284.928,
+          "end": 285.041
+        },
+        {
+          "w": "course!",
+          "start": 285.041,
+          "end": 285.38
+        }
+      ]
+    },
+    {
+      "beat": "fav_m",
+      "speaker": "mila",
+      "text": "And mine is the kite!",
+      "gap": 2.4,
+      "start": 287.05,
+      "end": 288.68,
+      "words": [
+        {
+          "w": "And",
+          "start": 287.09,
+          "end": 287.356
+        },
+        {
+          "w": "mine",
+          "start": 287.356,
+          "end": 287.801
+        },
+        {
+          "w": "is",
+          "start": 287.801,
+          "end": 287.978
+        },
+        {
+          "w": "the",
+          "start": 287.978,
+          "end": 288.156
+        },
+        {
+          "w": "kite!",
+          "start": 288.156,
+          "end": 288.6
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "text": "Time to put the toys away. Bye-bye, friends!",
+      "gap": 1.0,
+      "start": 291.08,
+      "end": 294.0,
+      "words": [
+        {
+          "w": "Time",
+          "start": 291.11,
+          "end": 291.449
+        },
+        {
+          "w": "to",
+          "start": 291.449,
+          "end": 291.652
+        },
+        {
+          "w": "put",
+          "start": 291.652,
+          "end": 291.923
+        },
+        {
+          "w": "the",
+          "start": 291.923,
+          "end": 292.059
+        },
+        {
+          "w": "toys",
+          "start": 292.059,
+          "end": 292.397
+        },
+        {
+          "w": "away.",
+          "start": 292.397,
+          "end": 292.736
+        },
+        {
+          "w": "Bye-bye,",
+          "start": 292.736,
+          "end": 293.346
+        },
+        {
+          "w": "friends!",
+          "start": 293.346,
+          "end": 293.82
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "narrator_fr",
+      "text": "Au revoir, les amis !",
+      "gap": 1.0,
+      "start": 295.0,
+      "end": 296.36,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Au",
+          "start": 295.04,
+          "end": 295.117
+        },
+        {
+          "w": "revoir,",
+          "start": 295.117,
+          "end": 295.659
+        },
+        {
+          "w": "les",
+          "start": 295.659,
+          "end": 295.891
+        },
+        {
+          "w": "amis",
+          "start": 295.891,
+          "end": 296.2
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast",
+  "beats": [
+    {
+      "id": "intro",
+      "start": 0,
+      "visual": "Hi, friends! Look, it's our big toy box!",
+      "end": 7.38
+    },
+    {
+      "id": "intro2",
+      "start": 7.38,
+      "visual": "Let's learn the toys, in English, and in French!",
+      "end": 10.9
+    },
+    {
+      "id": "what",
+      "start": 10.9,
+      "visual": "What's inside? Let's see!",
+      "end": 14.42
+    },
+    {
+      "id": "w0a",
+      "start": 14.42,
+      "visual": "Ball.",
+      "end": 16.26
+    },
+    {
+      "id": "w0b",
+      "start": 16.26,
+      "visual": "Ball!",
+      "end": 18.13
+    },
+    {
+      "id": "w0c",
+      "start": 18.13,
+      "visual": "Your turn! Ball!",
+      "end": 21.51
+    },
+    {
+      "id": "w0f",
+      "start": 21.51,
+      "visual": "En français : le ballon.",
+      "end": 24.08
+    },
+    {
+      "id": "w0g",
+      "start": 24.08,
+      "visual": "Le ballon !",
+      "end": 26.57
+    },
+    {
+      "id": "w0u",
+      "start": 26.57,
+      "visual": "Bobo kicks the ball! Boing!",
+      "end": 30.77
+    },
+    {
+      "id": "w1a",
+      "start": 30.77,
+      "visual": "Doll.",
+      "end": 32.7
+    },
+    {
+      "id": "w1b",
+      "start": 32.7,
+      "visual": "Doll!",
+      "end": 34.62
+    },
+    {
+      "id": "w1c",
+      "start": 34.62,
+      "visual": "Your turn! Doll!",
+      "end": 38.0
+    },
+    {
+      "id": "w1f",
+      "start": 38.0,
+      "visual": "En français : la poupée.",
+      "end": 40.56
+    },
+    {
+      "id": "w1g",
+      "start": 40.56,
+      "visual": "La poupée !",
+      "end": 43.12
+    },
+    {
+      "id": "w1u",
+      "start": 43.12,
+      "visual": "Mila hugs her doll. So soft!",
+      "end": 47.86
+    },
+    {
+      "id": "w2a",
+      "start": 47.86,
+      "visual": "Teddy bear.",
+      "end": 49.99
+    },
+    {
+      "id": "w2b",
+      "start": 49.99,
+      "visual": "Teddy bear!",
+      "end": 52.1
+    },
+    {
+      "id": "w2c",
+      "start": 52.1,
+      "visual": "Your turn! Teddy bear!",
+      "end": 55.65
+    },
+    {
+      "id": "w2f",
+      "start": 55.65,
+      "visual": "En français : le nounours.",
+      "end": 58.26
+    },
+    {
+      "id": "w2g",
+      "start": 58.26,
+      "visual": "Le nounours !",
+      "end": 60.84
+    },
+    {
+      "id": "w2u",
+      "start": 60.84,
+      "visual": "A teddy bear! He looks just like me!",
+      "end": 65.36
+    },
+    {
+      "id": "q2",
+      "start": 65.36,
+      "visual": "Quiz time! Where is the doll?",
+      "end": 72.17
+    },
+    {
+      "id": "q2a",
+      "start": 72.17,
+      "visual": "Here! The doll!",
+      "end": 75.48
+    },
+    {
+      "id": "w3a",
+      "start": 75.48,
+      "visual": "Car.",
+      "end": 77.37
+    },
+    {
+      "id": "w3b",
+      "start": 77.37,
+      "visual": "Car!",
+      "end": 79.29
+    },
+    {
+      "id": "w3c",
+      "start": 79.29,
+      "visual": "Your turn! Car!",
+      "end": 82.59
+    },
+    {
+      "id": "w3f",
+      "start": 82.59,
+      "visual": "En français : la voiture.",
+      "end": 85.32
+    },
+    {
+      "id": "w3g",
+      "start": 85.32,
+      "visual": "La voiture !",
+      "end": 88.0
+    },
+    {
+      "id": "w3u",
+      "start": 88.0,
+      "visual": "The little car goes vroom, vroom!",
+      "end": 92.28
+    },
+    {
+      "id": "w4a",
+      "start": 92.28,
+      "visual": "Train.",
+      "end": 94.2
+    },
+    {
+      "id": "w4b",
+      "start": 94.2,
+      "visual": "Train!",
+      "end": 96.12
+    },
+    {
+      "id": "w4c",
+      "start": 96.12,
+      "visual": "Your turn! Train!",
+      "end": 99.54
+    },
+    {
+      "id": "w4f",
+      "start": 99.54,
+      "visual": "En français : le train.",
+      "end": 102.02
+    },
+    {
+      "id": "w4g",
+      "start": 102.02,
+      "visual": "Le train !",
+      "end": 104.49
+    },
+    {
+      "id": "w4u",
+      "start": 104.49,
+      "visual": "The train goes choo, choo!",
+      "end": 108.81
+    },
+    {
+      "id": "w5a",
+      "start": 108.81,
+      "visual": "Kite.",
+      "end": 110.64
+    },
+    {
+      "id": "w5b",
+      "start": 110.64,
+      "visual": "Kite!",
+      "end": 112.49
+    },
+    {
+      "id": "w5c",
+      "start": 112.49,
+      "visual": "Your turn! Kite!",
+      "end": 115.89
+    },
+    {
+      "id": "w5f",
+      "start": 115.89,
+      "visual": "En français : le cerf-volant.",
+      "end": 118.69
+    },
+    {
+      "id": "w5g",
+      "start": 118.69,
+      "visual": "Le cerf-volant !",
+      "end": 121.44
+    },
+    {
+      "id": "w5u",
+      "start": 121.44,
+      "visual": "The kite flies up high in the sky!",
+      "end": 126.21
+    },
+    {
+      "id": "q5",
+      "start": 126.21,
+      "visual": "Quiz time! Where is the kite?",
+      "end": 133.04
+    },
+    {
+      "id": "q5a",
+      "start": 133.04,
+      "visual": "Here! The kite!",
+      "end": 136.35
+    },
+    {
+      "id": "w6a",
+      "start": 136.35,
+      "visual": "Blocks.",
+      "end": 138.31
+    },
+    {
+      "id": "w6b",
+      "start": 138.31,
+      "visual": "Blocks!",
+      "end": 140.29
+    },
+    {
+      "id": "w6c",
+      "start": 140.29,
+      "visual": "Your turn! Blocks!",
+      "end": 143.78
+    },
+    {
+      "id": "w6f",
+      "start": 143.78,
+      "visual": "En français : les cubes.",
+      "end": 146.38
+    },
+    {
+      "id": "w6g",
+      "start": 146.38,
+      "visual": "Les cubes !",
+      "end": 148.96
+    },
+    {
+      "id": "w6u",
+      "start": 148.96,
+      "visual": "Bobo builds a tall tower with blocks!",
+      "end": 153.56
+    },
+    {
+      "id": "w7a",
+      "start": 153.56,
+      "visual": "Drum.",
+      "end": 155.39
+    },
+    {
+      "id": "w7b",
+      "start": 155.39,
+      "visual": "Drum!",
+      "end": 157.24
+    },
+    {
+      "id": "w7c",
+      "start": 157.24,
+      "visual": "Your turn! Drum!",
+      "end": 160.66
+    },
+    {
+      "id": "w7f",
+      "start": 160.66,
+      "visual": "En français : le tambour.",
+      "end": 163.37
+    },
+    {
+      "id": "w7g",
+      "start": 163.37,
+      "visual": "Le tambour !",
+      "end": 165.99
+    },
+    {
+      "id": "w7u",
+      "start": 165.99,
+      "visual": "Boom, boom, boom! Bobo plays the drum!",
+      "end": 170.83
+    },
+    {
+      "id": "w8a",
+      "start": 170.83,
+      "visual": "Robot.",
+      "end": 172.83
+    },
+    {
+      "id": "w8b",
+      "start": 172.83,
+      "visual": "Robot!",
+      "end": 174.83
+    },
+    {
+      "id": "w8c",
+      "start": 174.83,
+      "visual": "Your turn! Robot!",
+      "end": 178.36
+    },
+    {
+      "id": "w8f",
+      "start": 178.36,
+      "visual": "En français : le robot.",
+      "end": 180.9
+    },
+    {
+      "id": "w8g",
+      "start": 180.9,
+      "visual": "Le robot !",
+      "end": 183.43
+    },
+    {
+      "id": "w8u",
+      "start": 183.43,
+      "visual": "The robot says: beep, boop!",
+      "end": 188.03
+    },
+    {
+      "id": "q8",
+      "start": 188.03,
+      "visual": "Quiz time! Where is the blocks?",
+      "end": 194.97
+    },
+    {
+      "id": "q8a",
+      "start": 194.97,
+      "visual": "Here! The blocks!",
+      "end": 198.33
+    },
+    {
+      "id": "w9a",
+      "start": 198.33,
+      "visual": "Spinning top.",
+      "end": 200.54
+    },
+    {
+      "id": "w9b",
+      "start": 200.54,
+      "visual": "Spinning top!",
+      "end": 202.73
+    },
+    {
+      "id": "w9c",
+      "start": 202.73,
+      "visual": "Your turn! Spinning top!",
+      "end": 206.45
+    },
+    {
+      "id": "w9f",
+      "start": 206.45,
+      "visual": "En français : la toupie.",
+      "end": 209.01
+    },
+    {
+      "id": "w9g",
+      "start": 209.01,
+      "visual": "La toupie !",
+      "end": 211.61
+    },
+    {
+      "id": "w9u",
+      "start": 211.61,
+      "visual": "The spinning top goes round and round!",
+      "end": 216.47
+    },
+    {
+      "id": "fr_round",
+      "start": 216.47,
+      "visual": "Now let's say them all in French! Listen, and say it too!",
+      "end": 221.29
+    },
+    {
+      "id": "r0",
+      "start": 221.29,
+      "visual": "Le ballon.",
+      "end": 224.36
+    },
+    {
+      "id": "r1",
+      "start": 224.36,
+      "visual": "La poupée.",
+      "end": 227.49
+    },
+    {
+      "id": "r2",
+      "start": 227.49,
+      "visual": "Le nounours.",
+      "end": 230.65
+    },
+    {
+      "id": "r3",
+      "start": 230.65,
+      "visual": "La voiture.",
+      "end": 233.87
+    },
+    {
+      "id": "r4",
+      "start": 233.87,
+      "visual": "Le train.",
+      "end": 236.9
+    },
+    {
+      "id": "r5",
+      "start": 236.9,
+      "visual": "Le cerf-volant.",
+      "end": 240.21
+    },
+    {
+      "id": "r6",
+      "start": 240.21,
+      "visual": "Les cubes.",
+      "end": 243.32
+    },
+    {
+      "id": "r7",
+      "start": 243.32,
+      "visual": "Le tambour.",
+      "end": 246.54
+    },
+    {
+      "id": "r8",
+      "start": 246.54,
+      "visual": "Le robot.",
+      "end": 249.59
+    },
+    {
+      "id": "r9",
+      "start": 249.59,
+      "visual": "La toupie.",
+      "end": 252.77
+    },
+    {
+      "id": "great",
+      "start": 252.77,
+      "visual": "Great job, friends!",
+      "end": 256.18
+    },
+    {
+      "id": "frq",
+      "start": 256.18,
+      "visual": "French quiz! Listen...",
+      "end": 258.75
+    },
+    {
+      "id": "frq1",
+      "start": 258.75,
+      "visual": "Où est la poupée ?",
+      "end": 264.8
+    },
+    {
+      "id": "frq1a",
+      "start": 264.8,
+      "visual": "The doll! Yes!",
+      "end": 268.32
+    },
+    {
+      "id": "frq2",
+      "start": 268.32,
+      "visual": "Où est le train ?",
+      "end": 274.3
+    },
+    {
+      "id": "frq2a",
+      "start": 274.3,
+      "visual": "The train! Yes!",
+      "end": 277.68
+    },
+    {
+      "id": "fav",
+      "start": 277.68,
+      "visual": "What is YOUR favorite toy? Tell a grown-up!",
+      "end": 283.23
+    },
+    {
+      "id": "fav_b",
+      "start": 283.23,
+      "visual": "My favorite is the teddy bear, of course!",
+      "end": 286.85
+    },
+    {
+      "id": "fav_m",
+      "start": 286.85,
+      "visual": "And mine is the kite!",
+      "end": 290.88
+    },
+    {
+      "id": "bye",
+      "start": 290.88,
+      "visual": "Time to put the toys away. Bye-bye, friends!",
+      "end": 294.8
+    },
+    {
+      "id": "bye2",
+      "start": 294.8,
+      "visual": "Au revoir, les amis !",
+      "end": 301.4
+    }
+  ]
+}

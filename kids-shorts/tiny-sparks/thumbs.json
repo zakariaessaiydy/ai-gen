@@ -1,0 +1,321 @@
+[
+ {
+  "day": 3,
+  "comp": "KidsWords003",
+  "t": 110,
+  "z": 1.3,
+  "fx": 930,
+  "fy": 490,
+  "lines": [
+   "10 ANIMALS"
+  ],
+  "at": "bottom",
+  "size": 112,
+  "rot": -3,
+  "sticker": "EN\n+FR"
+ },
+ {
+  "day": 4,
+  "comp": "KidsAnimals004",
+  "t": 61,
+  "z": 1.9,
+  "fx": 1180,
+  "fy": 560,
+  "lines": [
+   "AFRAID OF",
+   "THE DARK?"
+  ],
+  "at": "right",
+  "size": 110
+ },
+ {
+  "day": 7,
+  "comp": "KidsSongs007",
+  "t": 24.5,
+  "z": 1.25,
+  "fx": 960,
+  "fy": 432,
+  "lines": [
+   "COUNT TO 10!"
+  ],
+  "at": "bottom",
+  "size": 120,
+  "rot": -3,
+  "ribbon": "tl"
+ },
+ {
+  "day": 8,
+  "comp": "KidsMorals008",
+  "t": 36,
+  "z": 1.35,
+  "fx": 620,
+  "fy": 520,
+  "lines": [
+   "WHO BROKE IT?"
+  ],
+  "at": "top",
+  "size": 112,
+  "ribbon": "bl"
+ },
+ {
+  "day": 10,
+  "comp": "KidsWords010",
+  "t": 340,
+  "z": 1.2,
+  "fx": 930,
+  "fy": 480,
+  "lines": [
+   "20 COLORS"
+  ],
+  "at": "bottom",
+  "size": 116,
+  "rot": -3,
+  "sticker": "EN\n+FR"
+ },
+ {
+  "day": 11,
+  "comp": "KidsAnimals011",
+  "t": 106,
+  "z": 1.5,
+  "fx": 990,
+  "fy": 450,
+  "lines": [
+   "THE LOST",
+   "CARROT!"
+  ],
+  "at": "right",
+  "size": 108
+ },
+ {
+  "day": 14,
+  "comp": "KidsSongs014",
+  "t": 57,
+  "z": 1.25,
+  "fx": 960,
+  "fy": 432,
+  "lines": [
+   "COUNT TO 20!"
+  ],
+  "at": "bottom",
+  "size": 120,
+  "rot": -3,
+  "ribbon": "tl"
+ },
+ {
+  "day": 15,
+  "comp": "KidsStories015",
+  "t": 90,
+  "z": 1.3,
+  "fx": 980,
+  "fy": 520,
+  "lines": [
+   "PLEASE & THANK YOU!"
+  ],
+  "at": "top",
+  "size": 92,
+  "rot": -3,
+  "ribbon": "bl"
+ },
+ {
+  "day": 17,
+  "comp": "KidsWords017",
+  "t": 330,
+  "z": 1.2,
+  "fx": 930,
+  "fy": 480,
+  "lines": [
+   "NUMBERS 1-20"
+  ],
+  "at": "bottom",
+  "size": 100,
+  "rot": -3,
+  "sticker": "EN\n+FR"
+ },
+ {
+  "day": 18,
+  "comp": "KidsAnimals018",
+  "t": 84,
+  "z": 1.5,
+  "fx": 1300,
+  "fy": 500,
+  "lines": [
+   "MANGO",
+   "MISSION!"
+  ],
+  "at": "left",
+  "size": 124
+ },
+ {
+  "day": 21,
+  "comp": "KidsSongs021",
+  "t": 172,
+  "z": 1.25,
+  "fx": 960,
+  "fy": 432,
+  "lines": [
+   "ABC SONG"
+  ],
+  "at": "bottom",
+  "size": 124,
+  "rot": -3
+ },
+ {
+  "day": 22,
+  "comp": "KidsMorals022",
+  "t": 49,
+  "z": 1.3,
+  "fx": 1060,
+  "fy": 520,
+  "lines": [
+   "WILL SHE",
+   "SHARE?"
+  ],
+  "at": "right",
+  "size": 118
+ },
+ {
+  "day": 25,
+  "comp": "KidsAnimals025",
+  "t": 96,
+  "z": 1.5,
+  "fx": 700,
+  "fy": 500,
+  "lines": [
+   "KIND",
+   "ELEPHANT"
+  ],
+  "at": "right",
+  "size": 118
+ },
+ {
+  "day": 28,
+  "comp": "KidsSongs028",
+  "t": 129,
+  "z": 1.25,
+  "fx": 960,
+  "fy": 432,
+  "lines": [
+   "COLORS SONG"
+  ],
+  "at": "bottom",
+  "size": 120,
+  "rot": -3
+ },
+ {
+  "day": 29,
+  "comp": "KidsStories029",
+  "t": 61,
+  "z": 1.25,
+  "fx": 960,
+  "fy": 560,
+  "lines": [
+   "MESSY ROOM!"
+  ],
+  "at": "top",
+  "size": 124,
+  "rot": -3,
+  "ribbon": "bl"
+ },
+ {
+  "day": 32,
+  "comp": "KidsAnimals032",
+  "t": 12,
+  "z": 1.6,
+  "fx": 1100,
+  "fy": 540,
+  "lines": [
+   "SAMMY THE TURTLE"
+  ],
+  "at": "top",
+  "size": 96,
+  "rot": -3,
+  "ribbon": "bl"
+ },
+ {
+  "day": 35,
+  "comp": "KidsSongs035",
+  "t": 126,
+  "z": 1.25,
+  "fx": 960,
+  "fy": 432,
+  "lines": [
+   "SHAPES SONG"
+  ],
+  "at": "bottom",
+  "size": 120,
+  "rot": -3
+ },
+ {
+  "day": 36,
+  "comp": "KidsMorals036",
+  "t": 48.6,
+  "z": 1.8,
+  "fx": 930,
+  "fy": 600,
+  "lines": [
+   "OH NO!",
+   "STUCK!"
+  ],
+  "at": "right",
+  "size": 128
+ },
+ {
+  "day": 37,
+  "comp": "KidsNumbers037",
+  "t": 113.0,
+  "z": 1.5,
+  "fx": 1180,
+  "fy": 720,
+  "lines": [
+   "COUNT TO 20!"
+  ],
+  "at": "top",
+  "size": 128,
+  "rot": -3,
+  "ribbon": "bl"
+ },
+ {
+  "day": 39,
+  "comp": "KidsAnimals039",
+  "t": 147.5,
+  "z": 1.6,
+  "fx": 1010,
+  "fy": 600,
+  "lines": [
+   "FIRST",
+   "FLIGHT!"
+  ],
+  "at": "right",
+  "size": 136
+ },
+ {
+  "day": 42,
+  "comp": "KidsSongs042",
+  "t": 6.5,
+  "z": 1.15,
+  "fx": 960,
+  "fy": 420,
+  "lines": [
+   "DAYS OF",
+   "THE WEEK!"
+  ],
+  "at": "bottom",
+  "size": 124,
+  "rot": -3
+ },
+ {
+  "day": 43,
+  "comp": "KidsStories043",
+  "t": 131.5,
+  "z": 1.25,
+  "fx": 1000,
+  "fy": 480,
+  "lines": [
+   "WAIT,",
+   "MILA!"
+  ],
+  "at": "right",
+  "size": 136,
+  "rot": -3
+ }
+]

@@ -1,0 +1,153 @@
+{
+ "title": "The Shapes Song (Tiny Sparks original)",
+ "bpm": 96,
+ "beatsPerBar": 4,
+ "introBars": 2,
+ "outroBars": 2,
+ "instruments": {
+  "lead": "xylophone",
+  "chords": "ukulele",
+  "bass": true,
+  "drums": "soft",
+  "leadWithVocal": true
+ },
+ "singer": "mila",
+ "vocal": {
+  "voice": "af_sky",
+  "pitch": 0,
+  "rate": "-4%"
+ },
+ "sections": {
+  "chorus": {
+   "chords": "C | Am | F | C | C | F | G | C",
+   "melody": "C4:1 C4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 E4:1 C4:2 | E4:1 E4:1 G4:1 G4:1 | A4:1 A4:1 G4:2 | F4:1 E4:1 D4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": "Shapes, shapes, all a-round the town! / Round and poin-ty, up and down! / Cir-cle, square, and tri-an-gle, / Let's find shapes, come sing a-long!"
+  },
+  "karaoke": {
+   "chords": "C | Am | F | C | C | F | G | C",
+   "melody": "C4:1 C4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 E4:1 C4:2 | E4:1 E4:1 G4:1 G4:1 | A4:1 A4:1 G4:2 | F4:1 E4:1 D4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": ""
+  },
+  "circle": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | E4:1 D4:1 E4:1 C4:1 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "Cir-cle, cir-cle! / Round like the sun!"
+  },
+  "square": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 G4:1 G4:1 R:1 | E4:1 E4:0.5 E4:0.5 D4:1 C4:1 | G4:1 G4:1 G4:1 R:1 | R:4",
+   "lyrics": "Square, square, square! / Four sides, all the same!"
+  },
+  "triangle": {
+   "chords": "C | G | C | G",
+   "melody": "G4:0.5 G4:0.5 E4:1 G4:0.5 G4:0.5 E4:1 | E4:1 E4:0.5 E4:0.5 D4:1 C4:1 | G4:0.5 G4:0.5 E4:1 G4:0.5 G4:0.5 E4:1 | R:4",
+   "lyrics": "Tri-an-gle, tri-an-gle! / Three sides, like a tent!"
+  },
+  "rectangle": {
+   "chords": "C | G | C | G",
+   "melody": "G4:0.5 G4:0.5 E4:1 G4:0.5 G4:0.5 E4:1 | E4:0.5 E4:0.5 E4:1 D4:0.5 D4:0.5 C4:1 | G4:0.5 G4:0.5 E4:1 G4:0.5 G4:0.5 E4:1 | R:4",
+   "lyrics": "Rec-tan-gle, rec-tan-gle! / Long and tall, like a door!"
+  },
+  "oval": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | E4:1 D4:1 E4:1 C4:1 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "O-val, o-val! / Just like an egg!"
+  },
+  "star": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 G4:1 G4:1 R:1 | E4:1 E4:0.5 E4:0.5 D4:1 C4:1 | G4:1 G4:1 G4:1 R:1 | R:4",
+   "lyrics": "Star, star, star! / Twin-kle in the sky!"
+  },
+  "heart": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 G4:1 G4:1 R:1 | E4:1 E4:0.5 E4:0.5 D4:1 C4:1 | G4:1 G4:1 G4:1 R:1 | R:4",
+   "lyrics": "Heart, heart, heart! / I love you, my friend!"
+  },
+  "diamond": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | E4:1 E4:0.5 E4:0.5 D4:1 C4:1 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "Dia-mond, dia-mond! / Like a shi-ny kite!"
+  },
+  "crescent": {
+   "chords": "C | G | C | G",
+   "melody": "G4:1 E4:1 G4:1 E4:1 | E4:1 E4:0.5 E4:0.5 D4:1 C4:1 | G4:1 E4:1 G4:1 E4:1 | R:4",
+   "lyrics": "Cres-cent, cres-cent! / Like the moon at night!"
+  },
+  "hexagon": {
+   "chords": "C | G | C | G",
+   "melody": "G4:0.5 G4:0.5 E4:1 G4:0.5 G4:0.5 E4:1 | E4:1 E4:0.5 E4:0.5 D4:1 C4:1 | G4:0.5 G4:0.5 E4:1 G4:0.5 G4:0.5 E4:1 | R:4",
+   "lyrics": "Hex-a-gon, hex-a-gon! / Like a hon-ey-comb!"
+  },
+  "build1": {
+   "chords": "C | G | F | C",
+   "melody": "E4:1 E4:1 G4:1 G4:1 | A4:1 A4:1 G4:2 | F4:1 E4:1 D4:1 E4:1 | C4:2 R:2",
+   "lyrics": "A tri-an-gle on a square, / Now we have a house!"
+  },
+  "build2": {
+   "chords": "C | G | F | C",
+   "melody": "E4:1 E4:1 G4:1 G4:1 | A4:1 A4:1 G4:1 G4:1 | F4:1 E4:1 D4:1 E4:1 | C4:2 R:2",
+   "lyrics": "A cir-cle on a tri-an-gle, / Now we have ice cream!"
+  },
+  "build3": {
+   "chords": "C | G | F | C",
+   "melody": "E4:1 E4:1 G4:1 G4:1 | A4:2 G4:2 | F4:1 E4:1 D4:1 E4:1 | C4:1 C4:1 R:2",
+   "lyrics": "Three cir-cles, big to small, / Now we have a snow-man!"
+  },
+  "q1": {
+   "chords": "C | F | G | C",
+   "melody": "G4:1 G4:1 E4:1 G4:1 | A4:2 R:2 | R:4 | E4:1 E4:1 C4:1 R:1",
+   "lyrics": "What shape is a clock? / A cir-cle!"
+  },
+  "q2": {
+   "chords": "C | F | G | C",
+   "melody": "G4:1 G4:1 E4:1 G4:1 | A4:0.5 A4:0.5 G4:1 R:2 | R:4 | E4:1 E4:1 D4:1 C4:1",
+   "lyrics": "What shape is a pi-zza slice? / A tri-an-gle!"
+  },
+  "q3": {
+   "chords": "C | F | G | C",
+   "melody": "G4:1 G4:1 E4:1 G4:1 | A4:1 G4:1 R:2 | R:4 | E4:1 C4:1 R:2",
+   "lyrics": "What shape is a win-dow? / A square!"
+  },
+  "q4": {
+   "chords": "C | F | G | C",
+   "melody": "G4:1 G4:1 E4:1 G4:1 | A4:2 R:2 | R:4 | E4:1 E4:1 D4:1 C4:1",
+   "lyrics": "What shape is a door? / A rec-tan-gle!"
+  },
+  "q5": {
+   "chords": "C | F | G | C",
+   "melody": "G4:1 G4:1 E4:1 G4:1 | A4:2 R:2 | R:4 | E4:1 E4:1 C4:1 R:1",
+   "lyrics": "What shape is an egg? / An o-val!"
+  },
+  "q6": {
+   "chords": "C | F | G | C",
+   "melody": "G4:1 G4:1 E4:1 G4:1 | A4:2 R:2 | R:4 | E4:1 E4:1 C4:1 R:1",
+   "lyrics": "What shape is a kite? / A dia-mond!"
+  }
+ },
+ "form": [
+  "chorus",
+  "circle",
+  "square",
+  "triangle",
+  "rectangle",
+  "oval",
+  "star",
+  "heart",
+  "diamond",
+  "crescent",
+  "hexagon",
+  "chorus",
+  "build1",
+  "build2",
+  "build3",
+  "chorus",
+  "q1",
+  "q2",
+  "q3",
+  "q4",
+  "q5",
+  "q6",
+  "karaoke",
+  "chorus"
+ ]
+}

@@ -1,0 +1,656 @@
+{
+  "id": "day-023",
+  "series": "tiny-sparks",
+  "episode": 23,
+  "title": "Count the Cute Puppies",
+  "composition": "KidsNumbers023",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 66.8
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "bobo",
+      "start": 1.4,
+      "end": 3.17,
+      "text": "Woof woof! Who is in the doghouse?",
+      "words": [
+        {
+          "w": "Woof",
+          "start": 1.43,
+          "end": 1.708
+        },
+        {
+          "w": "woof!",
+          "start": 1.708,
+          "end": 1.987
+        },
+        {
+          "w": "Who",
+          "start": 1.987,
+          "end": 2.209
+        },
+        {
+          "w": "is",
+          "start": 2.209,
+          "end": 2.321
+        },
+        {
+          "w": "in",
+          "start": 2.321,
+          "end": 2.488
+        },
+        {
+          "w": "the",
+          "start": 2.488,
+          "end": 2.599
+        },
+        {
+          "w": "doghouse?",
+          "start": 2.599,
+          "end": 3.1
+        }
+      ]
+    },
+    {
+      "beat": "go",
+      "speaker": "mila",
+      "start": 7.77,
+      "end": 9.71,
+      "text": "Puppies! Let's count them together!",
+      "words": [
+        {
+          "w": "Puppies!",
+          "start": 7.81,
+          "end": 8.189
+        },
+        {
+          "w": "Let's",
+          "start": 8.189,
+          "end": 8.505
+        },
+        {
+          "w": "count",
+          "start": 8.505,
+          "end": 8.885
+        },
+        {
+          "w": "them",
+          "start": 8.885,
+          "end": 9.137
+        },
+        {
+          "w": "together!",
+          "start": 9.137,
+          "end": 9.58
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 11.31,
+      "end": 12.12,
+      "text": "One!",
+      "words": [
+        {
+          "w": "One!",
+          "start": 11.39,
+          "end": 11.98
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 13.42,
+      "end": 14.23,
+      "text": "Two!",
+      "words": [
+        {
+          "w": "Two!",
+          "start": 13.47,
+          "end": 14.08
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 15.53,
+      "end": 16.4,
+      "text": "Three!",
+      "words": [
+        {
+          "w": "Three!",
+          "start": 15.6,
+          "end": 16.24
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 17.7,
+      "end": 18.62,
+      "text": "Four!",
+      "words": [
+        {
+          "w": "Four!",
+          "start": 17.79,
+          "end": 18.44
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 19.92,
+      "end": 20.84,
+      "text": "Five!",
+      "words": [
+        {
+          "w": "Five!",
+          "start": 20.0,
+          "end": 20.69
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "mila",
+      "start": 22.14,
+      "end": 22.93,
+      "text": "Six!",
+      "words": [
+        {
+          "w": "Six!",
+          "start": 22.22,
+          "end": 22.82
+        }
+      ]
+    },
+    {
+      "beat": "c7",
+      "speaker": "mila",
+      "start": 24.23,
+      "end": 25.08,
+      "text": "Seven!",
+      "words": [
+        {
+          "w": "Seven!",
+          "start": 24.28,
+          "end": 24.94
+        }
+      ]
+    },
+    {
+      "beat": "c8",
+      "speaker": "mila",
+      "start": 26.38,
+      "end": 27.18,
+      "text": "Eight!",
+      "words": [
+        {
+          "w": "Eight!",
+          "start": 26.45,
+          "end": 27.08
+        }
+      ]
+    },
+    {
+      "beat": "c9",
+      "speaker": "mila",
+      "start": 28.48,
+      "end": 29.37,
+      "text": "Nine!",
+      "words": [
+        {
+          "w": "Nine!",
+          "start": 28.56,
+          "end": 29.27
+        }
+      ]
+    },
+    {
+      "beat": "c10",
+      "speaker": "mila",
+      "start": 30.67,
+      "end": 31.48,
+      "text": "Ten!",
+      "words": [
+        {
+          "w": "Ten!",
+          "start": 30.72,
+          "end": 31.35
+        }
+      ]
+    },
+    {
+      "beat": "ten",
+      "speaker": "mila",
+      "start": 33.28,
+      "end": 34.66,
+      "text": "Ten cute puppies!",
+      "words": [
+        {
+          "w": "Ten",
+          "start": 33.31,
+          "end": 33.62
+        },
+        {
+          "w": "cute",
+          "start": 33.62,
+          "end": 34.085
+        },
+        {
+          "w": "puppies!",
+          "start": 34.085,
+          "end": 34.55
+        }
+      ]
+    },
+    {
+      "beat": "sleepy",
+      "speaker": "bobo",
+      "start": 37.06,
+      "end": 38.76,
+      "text": "Yawn... Two puppies are sleepy.",
+      "words": [
+        {
+          "w": "Yawn...",
+          "start": 37.09,
+          "end": 37.402
+        },
+        {
+          "w": "Two",
+          "start": 37.402,
+          "end": 37.652
+        },
+        {
+          "w": "puppies",
+          "start": 37.652,
+          "end": 38.026
+        },
+        {
+          "w": "are",
+          "start": 38.026,
+          "end": 38.213
+        },
+        {
+          "w": "sleepy.",
+          "start": 38.213,
+          "end": 38.65
+        }
+      ]
+    },
+    {
+      "beat": "sleep",
+      "speaker": "mila",
+      "start": 40.36,
+      "end": 43.06,
+      "text": "They go to sleep in the basket. Shh!",
+      "words": [
+        {
+          "w": "They",
+          "start": 40.52,
+          "end": 40.674
+        },
+        {
+          "w": "go",
+          "start": 40.674,
+          "end": 40.88
+        },
+        {
+          "w": "to",
+          "start": 40.88,
+          "end": 41.034
+        },
+        {
+          "w": "sleep",
+          "start": 41.034,
+          "end": 41.343
+        },
+        {
+          "w": "in",
+          "start": 41.343,
+          "end": 41.497
+        },
+        {
+          "w": "the",
+          "start": 41.497,
+          "end": 41.6
+        },
+        {
+          "w": "basket.",
+          "start": 41.6,
+          "end": 41.96
+        },
+        {
+          "w": "Shh!",
+          "start": 42.11,
+          "end": 42.88
+        }
+      ]
+    },
+    {
+      "beat": "howmany",
+      "speaker": "mila",
+      "start": 44.46,
+      "end": 46.42,
+      "text": "How many puppies are still awake?",
+      "words": [
+        {
+          "w": "How",
+          "start": 44.52,
+          "end": 44.767
+        },
+        {
+          "w": "many",
+          "start": 44.767,
+          "end": 45.076
+        },
+        {
+          "w": "puppies",
+          "start": 45.076,
+          "end": 45.446
+        },
+        {
+          "w": "are",
+          "start": 45.446,
+          "end": 45.631
+        },
+        {
+          "w": "still",
+          "start": 45.631,
+          "end": 45.94
+        },
+        {
+          "w": "awake?",
+          "start": 45.94,
+          "end": 46.31
+        }
+      ]
+    },
+    {
+      "beat": "ans",
+      "speaker": "mila",
+      "start": 51.42,
+      "end": 52.22,
+      "text": "Eight!",
+      "words": [
+        {
+          "w": "Eight!",
+          "start": 51.49,
+          "end": 52.12
+        }
+      ]
+    },
+    {
+      "beat": "eq",
+      "speaker": "mila",
+      "start": 53.82,
+      "end": 55.78,
+      "text": "Ten, take away two, is eight!",
+      "words": [
+        {
+          "w": "Ten,",
+          "start": 53.84,
+          "end": 54.135
+        },
+        {
+          "w": "take",
+          "start": 54.135,
+          "end": 54.504
+        },
+        {
+          "w": "away",
+          "start": 54.504,
+          "end": 54.872
+        },
+        {
+          "w": "two,",
+          "start": 54.872,
+          "end": 55.167
+        },
+        {
+          "w": "is",
+          "start": 55.167,
+          "end": 55.315
+        },
+        {
+          "w": "eight!",
+          "start": 55.315,
+          "end": 55.61
+        }
+      ]
+    },
+    {
+      "beat": "check",
+      "speaker": "mila",
+      "start": 57.78,
+      "end": 61.14,
+      "text": "Let's check! One, two, three, four, five, six, seven, eight!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 57.82,
+          "end": 58.142
+        },
+        {
+          "w": "check!",
+          "start": 58.142,
+          "end": 58.464
+        },
+        {
+          "w": "One,",
+          "start": 58.464,
+          "end": 58.721
+        },
+        {
+          "w": "two,",
+          "start": 58.721,
+          "end": 58.979
+        },
+        {
+          "w": "three,",
+          "start": 58.979,
+          "end": 59.301
+        },
+        {
+          "w": "four,",
+          "start": 59.301,
+          "end": 59.622
+        },
+        {
+          "w": "five,",
+          "start": 59.622,
+          "end": 59.944
+        },
+        {
+          "w": "six,",
+          "start": 59.944,
+          "end": 60.266
+        },
+        {
+          "w": "seven,",
+          "start": 60.266,
+          "end": 60.652
+        },
+        {
+          "w": "eight!",
+          "start": 60.652,
+          "end": 60.91
+        }
+      ]
+    },
+    {
+      "beat": "yay",
+      "speaker": "bobo",
+      "start": 62.94,
+      "end": 64.38,
+      "text": "Woof woof! Great counting!",
+      "words": [
+        {
+          "w": "Woof",
+          "start": 62.97,
+          "end": 63.247
+        },
+        {
+          "w": "woof!",
+          "start": 63.247,
+          "end": 63.524
+        },
+        {
+          "w": "Great",
+          "start": 63.524,
+          "end": 63.857
+        },
+        {
+          "w": "counting!",
+          "start": 63.857,
+          "end": 64.3
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "visual": "Woof woof! Who is in the doghouse?",
+      "end": 7.57
+    },
+    {
+      "id": "go",
+      "start": 7.57,
+      "visual": "Puppies! Let's count them together!",
+      "end": 11.11
+    },
+    {
+      "id": "c1",
+      "start": 11.11,
+      "visual": "One!",
+      "end": 13.22
+    },
+    {
+      "id": "c2",
+      "start": 13.22,
+      "visual": "Two!",
+      "end": 15.33
+    },
+    {
+      "id": "c3",
+      "start": 15.33,
+      "visual": "Three!",
+      "end": 17.5
+    },
+    {
+      "id": "c4",
+      "start": 17.5,
+      "visual": "Four!",
+      "end": 19.72
+    },
+    {
+      "id": "c5",
+      "start": 19.72,
+      "visual": "Five!",
+      "end": 21.94
+    },
+    {
+      "id": "c6",
+      "start": 21.94,
+      "visual": "Six!",
+      "end": 24.03
+    },
+    {
+      "id": "c7",
+      "start": 24.03,
+      "visual": "Seven!",
+      "end": 26.18
+    },
+    {
+      "id": "c8",
+      "start": 26.18,
+      "visual": "Eight!",
+      "end": 28.28
+    },
+    {
+      "id": "c9",
+      "start": 28.28,
+      "visual": "Nine!",
+      "end": 30.47
+    },
+    {
+      "id": "c10",
+      "start": 30.47,
+      "visual": "Ten!",
+      "end": 33.08
+    },
+    {
+      "id": "ten",
+      "start": 33.08,
+      "visual": "Ten cute puppies!",
+      "end": 36.86
+    },
+    {
+      "id": "sleepy",
+      "start": 36.86,
+      "visual": "Yawn... Two puppies are sleepy.",
+      "end": 40.16
+    },
+    {
+      "id": "sleep",
+      "start": 40.16,
+      "visual": "They go to sleep in the basket. Shh!",
+      "end": 44.26
+    },
+    {
+      "id": "howmany",
+      "start": 44.26,
+      "visual": "How many puppies are still awake?",
+      "end": 51.22
+    },
+    {
+      "id": "ans",
+      "start": 51.22,
+      "visual": "Eight!",
+      "end": 53.62
+    },
+    {
+      "id": "eq",
+      "start": 53.62,
+      "visual": "Ten, take away two, is eight!",
+      "end": 57.58
+    },
+    {
+      "id": "check",
+      "start": 57.58,
+      "visual": "Let's check! One, two, three, four, five, six, seven, eight!",
+      "end": 62.74
+    },
+    {
+      "id": "yay",
+      "start": 62.74,
+      "visual": "Woof woof! Great counting!",
+      "end": 66.8
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

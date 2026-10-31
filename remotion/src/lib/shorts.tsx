@@ -20,7 +20,8 @@ export const prog = (t: number, a: number, b: number) =>
   Math.max(0, Math.min(1, (t - a) / Math.max(0.0001, b - a)));
 
 export type TimedWord = { w: string; start: number; end: number };
-export type VoLine = { text: string; start: number; end: number; words?: TimedWord[] };
+// speaker: set on dialogue lines (toon series) — which cast member says it, for lip-sync + caption colour
+export type VoLine = { text: string; start: number; end: number; words?: TimedWord[]; speaker?: string };
 
 // Word timing for a line: use REAL alignment (from tools/gen_voice.py) when present;
 // otherwise estimate by distributing the window weighted by word length.

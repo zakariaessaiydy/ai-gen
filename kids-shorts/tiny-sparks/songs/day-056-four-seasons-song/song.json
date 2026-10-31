@@ -1,0 +1,100 @@
+{
+ "title": "Four Seasons Song (Tiny Sparks original)",
+ "bpm": 100,
+ "beatsPerBar": 4,
+ "introBars": 2,
+ "outroBars": 2,
+ "instruments": {
+  "lead": "xylophone",
+  "chords": "ukulele",
+  "bass": true,
+  "drums": "soft",
+  "leadWithVocal": true
+ },
+ "singer": "mila",
+ "vocal": {
+  "voice": "af_sky",
+  "pitch": 0,
+  "rate": "-4%"
+ },
+ "form": [
+  "chorus",
+  "winter",
+  "spring",
+  "chorus",
+  "summer",
+  "autumn",
+  "chorus",
+  "q1",
+  "q2",
+  "q3",
+  "q4",
+  "chorus",
+  "actions",
+  "karaoke",
+  "slow",
+  "chorus"
+ ],
+ "sections": {
+  "chorus": {
+   "chords": "C | G | F | C | Am | F | G | C",
+   "melody": "C4:1 C4:1 E4:2 | G4:1 G4:1 E4:2 | F4:1 A4:1 A4:2 | G4:1 F4:1 E4:1 D4:1 | E4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": "Win-ter, spring, sum-mer, fall, / four sea-sons, we love them all! / Round and round the year we go, / sun and rain and leaves and snow!"
+  },
+  "karaoke": {
+   "chords": "C | G | F | C | Am | F | G | C",
+   "melody": "C4:1 C4:1 E4:2 | G4:1 G4:1 E4:2 | F4:1 A4:1 A4:2 | G4:1 F4:1 E4:1 D4:1 | E4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": ""
+  },
+  "winter": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Win-ter, win-ter, snow-y and white! / Hats and mit-tens, cud-dle up tight! / Build a snow-man, slide down the hill, / Brrr, it's cold, but what a thrill!"
+  },
+  "spring": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:2 | F4:2 E4:2 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:2 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Spring, spring, flow-ers grow! / Bun-nies hop and soft winds blow! / Rain-drops fall and birds sing tweet, / Ba-by chicks go cheep, cheep, cheep!"
+  },
+  "summer": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:2 | F4:2 E4:2 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Sum-mer, sum-mer, sun-ny and hot! / Splash in the wa-ter, swim a lot! / Ice cream, sand-y toes, / Sun hats on, and off we go!"
+  },
+  "autumn": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:2 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:2 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Au-tumn, au-tumn, leaves fall down! / Red and yel-low, or-ange, brown! / Crunch-y leaves be-neath our feet, / Ap-ples, pump-kins, yum-my treat!"
+  },
+  "q1": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What comes af-ter win-ter? / Spring!"
+  },
+  "q2": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:2 E4:2 | R:4",
+   "lyrics": "What comes af-ter sum-mer? / Au-tumn!"
+  },
+  "q3": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:1 | R:4 | R:4 | R:4 | G4:2 E4:2 | R:4",
+   "lyrics": "When does snow fall down? / Win-ter!"
+  },
+  "q4": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:1 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "When do flow-ers grow? / Spring!"
+  },
+  "actions": {
+   "chords": "Am | F | C | G | Am | F | G | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:2 | E4:1 G4:1 G4:1 A4:1 | E4:1 D4:1 C4:2 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:2 | E4:1 G4:1 G4:1 A4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Shi-ver like it's win-ter, brrr! / Hop like spring-time bun-nies, hop! / Swim like it's sum-mer, splash, splash! / Float like au-tumn leaves, down, down!"
+  },
+  "slow": {
+   "chords": "C | G | C | G | C | G | C | G | C | G",
+   "melody": "G4:1 E4:1 G4:0.5 G4:0.5 E4:1 | R:4 | G4:2 E4:2 | R:4 | G4:3 R:1 | R:4 | G4:2 E4:2 | R:4 | G4:2 E4:2 | R:4",
+   "lyrics": "Let's say them slow-ly! / Win-ter / Spring / Sum-mer / Au-tumn"
+  }
+ }
+}

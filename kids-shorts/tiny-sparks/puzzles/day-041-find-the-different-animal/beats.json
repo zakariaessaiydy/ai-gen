@@ -1,0 +1,981 @@
+{
+  "id": "day-041",
+  "series": "tiny-sparks",
+  "episode": 41,
+  "title": "Find the Different Animal",
+  "composition": "KidsPuzzles041",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 92.2
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -7,
+    "duck": 8,
+    "start": 0,
+    "fade_in": 0.3
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "hoot",
+      "start": 0.4,
+      "end": 4.13,
+      "text": "Look closely! One animal is different. Can you find it?",
+      "words": [
+        {
+          "w": "Look",
+          "start": 0.44,
+          "end": 0.741
+        },
+        {
+          "w": "closely!",
+          "start": 0.741,
+          "end": 1.343
+        },
+        {
+          "w": "One",
+          "start": 1.343,
+          "end": 1.643
+        },
+        {
+          "w": "animal",
+          "start": 1.643,
+          "end": 2.17
+        },
+        {
+          "w": "is",
+          "start": 2.17,
+          "end": 2.32
+        },
+        {
+          "w": "different.",
+          "start": 2.32,
+          "end": 2.922
+        },
+        {
+          "w": "Can",
+          "start": 2.922,
+          "end": 3.223
+        },
+        {
+          "w": "you",
+          "start": 3.223,
+          "end": 3.448
+        },
+        {
+          "w": "find",
+          "start": 3.448,
+          "end": 3.9
+        },
+        {
+          "w": "it?",
+          "start": 3.9,
+          "end": 4.05
+        }
+      ]
+    },
+    {
+      "beat": "p1_intro",
+      "speaker": "hoot",
+      "start": 5.79,
+      "end": 7.83,
+      "text": "Puzzle one! Four kittens!",
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 5.83,
+          "end": 6.31
+        },
+        {
+          "w": "one!",
+          "start": 6.31,
+          "end": 6.63
+        },
+        {
+          "w": "Four",
+          "start": 6.77,
+          "end": 7.123
+        },
+        {
+          "w": "kittens!",
+          "start": 7.123,
+          "end": 7.74
+        }
+      ]
+    },
+    {
+      "beat": "p1_q",
+      "speaker": "hoot",
+      "start": 9.3,
+      "end": 11.24,
+      "text": "Which kitten is different?",
+      "words": [
+        {
+          "w": "Which",
+          "start": 9.32,
+          "end": 9.756
+        },
+        {
+          "w": "kitten",
+          "start": 9.756,
+          "end": 10.279
+        },
+        {
+          "w": "is",
+          "start": 10.279,
+          "end": 10.453
+        },
+        {
+          "w": "different?",
+          "start": 10.453,
+          "end": 11.15
+        }
+      ]
+    },
+    {
+      "beat": "p1_leo",
+      "speaker": "leo",
+      "start": 16.69,
+      "end": 18.39,
+      "text": "This one! I like this one!",
+      "words": [
+        {
+          "w": "This",
+          "start": 16.72,
+          "end": 16.953
+        },
+        {
+          "w": "one!",
+          "start": 16.953,
+          "end": 17.187
+        },
+        {
+          "w": "I",
+          "start": 17.187,
+          "end": 17.362
+        },
+        {
+          "w": "like",
+          "start": 17.362,
+          "end": 17.653
+        },
+        {
+          "w": "this",
+          "start": 17.653,
+          "end": 17.887
+        },
+        {
+          "w": "one!",
+          "start": 17.887,
+          "end": 18.12
+        }
+      ]
+    },
+    {
+      "beat": "p1_no",
+      "speaker": "hoot",
+      "start": 19.67,
+      "end": 22.08,
+      "text": "Hmm, not quite! Look at the colors!",
+      "words": [
+        {
+          "w": "Hmm,",
+          "start": 19.72,
+          "end": 19.971
+        },
+        {
+          "w": "not",
+          "start": 19.971,
+          "end": 20.306
+        },
+        {
+          "w": "quite!",
+          "start": 20.306,
+          "end": 20.808
+        },
+        {
+          "w": "Look",
+          "start": 20.808,
+          "end": 21.143
+        },
+        {
+          "w": "at",
+          "start": 21.143,
+          "end": 21.31
+        },
+        {
+          "w": "the",
+          "start": 21.31,
+          "end": 21.478
+        },
+        {
+          "w": "colors!",
+          "start": 21.478,
+          "end": 21.98
+        }
+      ]
+    },
+    {
+      "beat": "p1_ans",
+      "speaker": "hoot",
+      "start": 23.74,
+      "end": 26.94,
+      "text": "This kitten is orange! The others are gray!",
+      "words": [
+        {
+          "w": "This",
+          "start": 23.77,
+          "end": 24.098
+        },
+        {
+          "w": "kitten",
+          "start": 24.098,
+          "end": 24.591
+        },
+        {
+          "w": "is",
+          "start": 24.591,
+          "end": 24.755
+        },
+        {
+          "w": "orange!",
+          "start": 24.755,
+          "end": 25.33
+        },
+        {
+          "w": "The",
+          "start": 25.62,
+          "end": 25.799
+        },
+        {
+          "w": "others",
+          "start": 25.799,
+          "end": 26.245
+        },
+        {
+          "w": "are",
+          "start": 26.245,
+          "end": 26.424
+        },
+        {
+          "w": "gray!",
+          "start": 26.424,
+          "end": 26.87
+        }
+      ]
+    },
+    {
+      "beat": "p1_yay",
+      "speaker": "leo",
+      "start": 28.2,
+      "end": 29.8,
+      "text": "The orange one! Silly me!",
+      "words": [
+        {
+          "w": "The",
+          "start": 28.24,
+          "end": 28.355
+        },
+        {
+          "w": "orange",
+          "start": 28.355,
+          "end": 28.755
+        },
+        {
+          "w": "one!",
+          "start": 28.755,
+          "end": 28.985
+        },
+        {
+          "w": "Silly",
+          "start": 28.985,
+          "end": 29.271
+        },
+        {
+          "w": "me!",
+          "start": 29.271,
+          "end": 29.5
+        }
+      ]
+    },
+    {
+      "beat": "p2_intro",
+      "speaker": "hoot",
+      "start": 32.26,
+      "end": 34.24,
+      "text": "Puzzle two! Four bunnies!",
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 32.3,
+          "end": 32.792
+        },
+        {
+          "w": "two!",
+          "start": 32.792,
+          "end": 33.12
+        },
+        {
+          "w": "Four",
+          "start": 33.26,
+          "end": 33.62
+        },
+        {
+          "w": "bunnies!",
+          "start": 33.62,
+          "end": 34.16
+        }
+      ]
+    },
+    {
+      "beat": "p2_q",
+      "speaker": "hoot",
+      "start": 35.7,
+      "end": 37.57,
+      "text": "Which bunny is different?",
+      "words": [
+        {
+          "w": "Which",
+          "start": 35.73,
+          "end": 36.165
+        },
+        {
+          "w": "bunny",
+          "start": 36.165,
+          "end": 36.6
+        },
+        {
+          "w": "is",
+          "start": 36.6,
+          "end": 36.774
+        },
+        {
+          "w": "different?",
+          "start": 36.774,
+          "end": 37.47
+        }
+      ]
+    },
+    {
+      "beat": "p2_leo",
+      "speaker": "leo",
+      "start": 43.04,
+      "end": 44.87,
+      "text": "That one! It has long ears!",
+      "words": [
+        {
+          "w": "That",
+          "start": 43.08,
+          "end": 43.355
+        },
+        {
+          "w": "one!",
+          "start": 43.355,
+          "end": 43.629
+        },
+        {
+          "w": "It",
+          "start": 43.629,
+          "end": 43.766
+        },
+        {
+          "w": "has",
+          "start": 43.766,
+          "end": 44.041
+        },
+        {
+          "w": "long",
+          "start": 44.041,
+          "end": 44.315
+        },
+        {
+          "w": "ears!",
+          "start": 44.315,
+          "end": 44.59
+        }
+      ]
+    },
+    {
+      "beat": "p2_no",
+      "speaker": "hoot",
+      "start": 46.14,
+      "end": 49.85,
+      "text": "Ha ha! They ALL have long ears, Leo! Look at their heads!",
+      "words": [
+        {
+          "w": "Ha",
+          "start": 46.18,
+          "end": 46.485
+        },
+        {
+          "w": "ha!",
+          "start": 46.485,
+          "end": 46.789
+        },
+        {
+          "w": "They",
+          "start": 46.789,
+          "end": 47.018
+        },
+        {
+          "w": "ALL",
+          "start": 47.018,
+          "end": 47.323
+        },
+        {
+          "w": "have",
+          "start": 47.323,
+          "end": 47.627
+        },
+        {
+          "w": "long",
+          "start": 47.627,
+          "end": 47.932
+        },
+        {
+          "w": "ears,",
+          "start": 47.932,
+          "end": 48.237
+        },
+        {
+          "w": "Leo!",
+          "start": 48.237,
+          "end": 48.694
+        },
+        {
+          "w": "Look",
+          "start": 48.694,
+          "end": 48.998
+        },
+        {
+          "w": "at",
+          "start": 48.998,
+          "end": 49.151
+        },
+        {
+          "w": "their",
+          "start": 49.151,
+          "end": 49.379
+        },
+        {
+          "w": "heads!",
+          "start": 49.379,
+          "end": 49.76
+        }
+      ]
+    },
+    {
+      "beat": "p2_ans",
+      "speaker": "hoot",
+      "start": 51.51,
+      "end": 54.77,
+      "text": "This bunny has a crown! The others have bows!",
+      "words": [
+        {
+          "w": "This",
+          "start": 51.55,
+          "end": 51.832
+        },
+        {
+          "w": "bunny",
+          "start": 51.832,
+          "end": 52.184
+        },
+        {
+          "w": "has",
+          "start": 52.184,
+          "end": 52.466
+        },
+        {
+          "w": "a",
+          "start": 52.466,
+          "end": 52.677
+        },
+        {
+          "w": "crown!",
+          "start": 52.677,
+          "end": 53.1
+        },
+        {
+          "w": "The",
+          "start": 53.36,
+          "end": 53.526
+        },
+        {
+          "w": "others",
+          "start": 53.526,
+          "end": 53.942
+        },
+        {
+          "w": "have",
+          "start": 53.942,
+          "end": 54.274
+        },
+        {
+          "w": "bows!",
+          "start": 54.274,
+          "end": 54.69
+        }
+      ]
+    },
+    {
+      "beat": "p2_yay",
+      "speaker": "leo",
+      "start": 56.02,
+      "end": 57.45,
+      "text": "A crown! Silly me!",
+      "words": [
+        {
+          "w": "A",
+          "start": 56.04,
+          "end": 56.232
+        },
+        {
+          "w": "crown!",
+          "start": 56.232,
+          "end": 56.615
+        },
+        {
+          "w": "Silly",
+          "start": 56.615,
+          "end": 56.934
+        },
+        {
+          "w": "me!",
+          "start": 56.934,
+          "end": 57.19
+        }
+      ]
+    },
+    {
+      "beat": "p3_intro",
+      "speaker": "hoot",
+      "start": 59.91,
+      "end": 63.3,
+      "text": "Super puzzle! Four bears! Which bear is Bobo?",
+      "words": [
+        {
+          "w": "Super",
+          "start": 59.95,
+          "end": 60.355
+        },
+        {
+          "w": "puzzle!",
+          "start": 60.355,
+          "end": 60.76
+        },
+        {
+          "w": "Four",
+          "start": 60.96,
+          "end": 61.338
+        },
+        {
+          "w": "bears!",
+          "start": 61.338,
+          "end": 61.81
+        },
+        {
+          "w": "Which",
+          "start": 61.94,
+          "end": 62.298
+        },
+        {
+          "w": "bear",
+          "start": 62.298,
+          "end": 62.585
+        },
+        {
+          "w": "is",
+          "start": 62.585,
+          "end": 62.728
+        },
+        {
+          "w": "Bobo?",
+          "start": 62.728,
+          "end": 63.23
+        }
+      ]
+    },
+    {
+      "beat": "p3_q",
+      "speaker": "hoot",
+      "start": 64.57,
+      "end": 66.61,
+      "text": "Look very, very closely!",
+      "words": [
+        {
+          "w": "Look",
+          "start": 64.6,
+          "end": 64.933
+        },
+        {
+          "w": "very,",
+          "start": 64.933,
+          "end": 65.35
+        },
+        {
+          "w": "very",
+          "start": 65.49,
+          "end": 65.894
+        },
+        {
+          "w": "closely!",
+          "start": 65.894,
+          "end": 66.54
+        }
+      ]
+    },
+    {
+      "beat": "p3_leo",
+      "speaker": "leo",
+      "start": 72.08,
+      "end": 74.57,
+      "text": "I see a red scarf! That one is Bobo!",
+      "words": [
+        {
+          "w": "I",
+          "start": 72.12,
+          "end": 72.286
+        },
+        {
+          "w": "see",
+          "start": 72.286,
+          "end": 72.507
+        },
+        {
+          "w": "a",
+          "start": 72.507,
+          "end": 72.673
+        },
+        {
+          "w": "red",
+          "start": 72.673,
+          "end": 72.894
+        },
+        {
+          "w": "scarf!",
+          "start": 72.894,
+          "end": 73.281
+        },
+        {
+          "w": "That",
+          "start": 73.281,
+          "end": 73.502
+        },
+        {
+          "w": "one",
+          "start": 73.502,
+          "end": 73.723
+        },
+        {
+          "w": "is",
+          "start": 73.723,
+          "end": 73.833
+        },
+        {
+          "w": "Bobo!",
+          "start": 73.833,
+          "end": 74.22
+        }
+      ]
+    },
+    {
+      "beat": "p3_ans",
+      "speaker": "hoot",
+      "start": 75.82,
+      "end": 80.04,
+      "text": "Yes! Bobo always wears his red scarf! Great looking, Leo!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 75.84,
+          "end": 76.134
+        },
+        {
+          "w": "Bobo",
+          "start": 76.134,
+          "end": 76.649
+        },
+        {
+          "w": "always",
+          "start": 76.649,
+          "end": 77.238
+        },
+        {
+          "w": "wears",
+          "start": 77.238,
+          "end": 77.606
+        },
+        {
+          "w": "his",
+          "start": 77.606,
+          "end": 77.9
+        },
+        {
+          "w": "red",
+          "start": 77.9,
+          "end": 78.194
+        },
+        {
+          "w": "scarf!",
+          "start": 78.194,
+          "end": 78.636
+        },
+        {
+          "w": "Great",
+          "start": 78.636,
+          "end": 79.077
+        },
+        {
+          "w": "looking,",
+          "start": 79.077,
+          "end": 79.519
+        },
+        {
+          "w": "Leo!",
+          "start": 79.519,
+          "end": 79.96
+        }
+      ]
+    },
+    {
+      "beat": "p3_bobo",
+      "speaker": "bobo",
+      "start": 81.09,
+      "end": 82.24,
+      "text": "Hee hee! You found me!",
+      "words": [
+        {
+          "w": "Hee",
+          "start": 81.14,
+          "end": 81.317
+        },
+        {
+          "w": "hee!",
+          "start": 81.317,
+          "end": 81.494
+        },
+        {
+          "w": "You",
+          "start": 81.494,
+          "end": 81.627
+        },
+        {
+          "w": "found",
+          "start": 81.627,
+          "end": 81.893
+        },
+        {
+          "w": "me!",
+          "start": 81.893,
+          "end": 82.07
+        }
+      ]
+    },
+    {
+      "beat": "end",
+      "speaker": "hoot",
+      "start": 84.29,
+      "end": 86.59,
+      "text": "Hoo-hoo! You have super looking eyes!",
+      "words": [
+        {
+          "w": "Hoo-hoo!",
+          "start": 84.33,
+          "end": 84.88
+        },
+        {
+          "w": "You",
+          "start": 84.99,
+          "end": 85.187
+        },
+        {
+          "w": "have",
+          "start": 85.187,
+          "end": 85.45
+        },
+        {
+          "w": "super",
+          "start": 85.45,
+          "end": 85.843
+        },
+        {
+          "w": "looking",
+          "start": 85.843,
+          "end": 86.237
+        },
+        {
+          "w": "eyes!",
+          "start": 86.237,
+          "end": 86.5
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "leo",
+      "start": 88.04,
+      "end": 89.74,
+      "text": "Bye-bye, super finders!",
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 88.08,
+          "end": 88.624
+        },
+        {
+          "w": "super",
+          "start": 88.624,
+          "end": 88.987
+        },
+        {
+          "w": "finders!",
+          "start": 88.987,
+          "end": 89.47
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "visual": "Look closely! One animal is different. Can you find it?",
+      "end": 5.59
+    },
+    {
+      "id": "p1_intro",
+      "start": 5.59,
+      "visual": "Puzzle one! Four kittens!",
+      "end": 9.1
+    },
+    {
+      "id": "p1_q",
+      "start": 9.1,
+      "visual": "Which kitten is different?",
+      "end": 16.49
+    },
+    {
+      "id": "p1_leo",
+      "start": 16.49,
+      "visual": "This one! I like this one!",
+      "end": 19.47
+    },
+    {
+      "id": "p1_no",
+      "start": 19.47,
+      "visual": "Hmm, not quite! Look at the colors!",
+      "end": 23.54
+    },
+    {
+      "id": "p1_ans",
+      "start": 23.54,
+      "visual": "This kitten is orange! The others are gray!",
+      "end": 28.0
+    },
+    {
+      "id": "p1_yay",
+      "start": 28.0,
+      "visual": "The orange one! Silly me!",
+      "end": 32.06
+    },
+    {
+      "id": "p2_intro",
+      "start": 32.06,
+      "visual": "Puzzle two! Four bunnies!",
+      "end": 35.5
+    },
+    {
+      "id": "p2_q",
+      "start": 35.5,
+      "visual": "Which bunny is different?",
+      "end": 42.84
+    },
+    {
+      "id": "p2_leo",
+      "start": 42.84,
+      "visual": "That one! It has long ears!",
+      "end": 45.94
+    },
+    {
+      "id": "p2_no",
+      "start": 45.94,
+      "visual": "Ha ha! They ALL have long ears, Leo! Look at their heads!",
+      "end": 51.31
+    },
+    {
+      "id": "p2_ans",
+      "start": 51.31,
+      "visual": "This bunny has a crown! The others have bows!",
+      "end": 55.82
+    },
+    {
+      "id": "p2_yay",
+      "start": 55.82,
+      "visual": "A crown! Silly me!",
+      "end": 59.71
+    },
+    {
+      "id": "p3_intro",
+      "start": 59.71,
+      "visual": "Super puzzle! Four bears! Which bear is Bobo?",
+      "end": 64.37
+    },
+    {
+      "id": "p3_q",
+      "start": 64.37,
+      "visual": "Look very, very closely!",
+      "end": 71.88
+    },
+    {
+      "id": "p3_leo",
+      "start": 71.88,
+      "visual": "I see a red scarf! That one is Bobo!",
+      "end": 75.62
+    },
+    {
+      "id": "p3_ans",
+      "start": 75.62,
+      "visual": "Yes! Bobo always wears his red scarf! Great looking, Leo!",
+      "end": 80.89
+    },
+    {
+      "id": "p3_bobo",
+      "start": 80.89,
+      "visual": "Hee hee! You found me!",
+      "end": 84.09
+    },
+    {
+      "id": "end",
+      "start": 84.09,
+      "visual": "Hoo-hoo! You have super looking eyes!",
+      "end": 87.84
+    },
+    {
+      "id": "bye",
+      "start": 87.84,
+      "visual": "Bye-bye, super finders!",
+      "end": 92.2
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

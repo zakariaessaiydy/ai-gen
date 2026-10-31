@@ -1,0 +1,576 @@
+{
+  "master": "remotion/out/KidsWords059-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsWords059-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/words/day-059-clothes-english-french/output/day-059-sfx.mp4",
+    "end_s": 334.2,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0,
+      "sfx_id": "tiny-sparks-jingle",
+      "gain_db": -5,
+      "shot": "KidsWords059",
+      "cue": "ident"
+    },
+    {
+      "at_s": 7.61,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -9,
+      "shot": "KidsWords059",
+      "cue": "whip"
+    },
+    {
+      "at_s": 14.68,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "item 0"
+    },
+    {
+      "at_s": 20.37,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsWords059",
+      "cue": "your turn"
+    },
+    {
+      "at_s": 22.17,
+      "sfx_id": "chime-magic",
+      "gain_db": -16,
+      "shot": "KidsWords059",
+      "cue": "en fran\u00e7ais"
+    },
+    {
+      "at_s": 27.36,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -10,
+      "shot": "KidsWords059",
+      "cue": "use",
+      "dur_s": 1.4
+    },
+    {
+      "at_s": 31.47,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "item 1"
+    },
+    {
+      "at_s": 37.73,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsWords059",
+      "cue": "your turn"
+    },
+    {
+      "at_s": 39.53,
+      "sfx_id": "chime-magic",
+      "gain_db": -16,
+      "shot": "KidsWords059",
+      "cue": "en fran\u00e7ais"
+    },
+    {
+      "at_s": 45.82,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -10,
+      "shot": "KidsWords059",
+      "cue": "use",
+      "dur_s": 1.4
+    },
+    {
+      "at_s": 50.12,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "item 2"
+    },
+    {
+      "at_s": 56.08,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsWords059",
+      "cue": "your turn"
+    },
+    {
+      "at_s": 57.88,
+      "sfx_id": "chime-magic",
+      "gain_db": -16,
+      "shot": "KidsWords059",
+      "cue": "en fran\u00e7ais"
+    },
+    {
+      "at_s": 63.19,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -10,
+      "shot": "KidsWords059",
+      "cue": "use",
+      "dur_s": 1.4
+    },
+    {
+      "at_s": 70.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "think",
+      "dur_s": 4.48
+    },
+    {
+      "at_s": 75.23,
+      "sfx_id": "ding-correct",
+      "gain_db": -8,
+      "shot": "KidsWords059",
+      "cue": "answer"
+    },
+    {
+      "at_s": 75.58,
+      "sfx_id": "kids-yay",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "yay"
+    },
+    {
+      "at_s": 78.35,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "item 3"
+    },
+    {
+      "at_s": 84.28,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsWords059",
+      "cue": "your turn"
+    },
+    {
+      "at_s": 86.08,
+      "sfx_id": "chime-magic",
+      "gain_db": -16,
+      "shot": "KidsWords059",
+      "cue": "en fran\u00e7ais"
+    },
+    {
+      "at_s": 91.53,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -10,
+      "shot": "KidsWords059",
+      "cue": "use",
+      "dur_s": 1.4
+    },
+    {
+      "at_s": 93.625,
+      "sfx_id": "uh-oh",
+      "gain_db": -10,
+      "shot": "KidsWords059",
+      "cue": "backwards"
+    },
+    {
+      "at_s": 93.946,
+      "sfx_id": "kids-laugh",
+      "gain_db": -8,
+      "shot": "KidsWords059",
+      "cue": "laugh"
+    },
+    {
+      "at_s": 96.81,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "item 4"
+    },
+    {
+      "at_s": 102.8,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsWords059",
+      "cue": "your turn"
+    },
+    {
+      "at_s": 104.6,
+      "sfx_id": "chime-magic",
+      "gain_db": -16,
+      "shot": "KidsWords059",
+      "cue": "en fran\u00e7ais"
+    },
+    {
+      "at_s": 110.17,
+      "sfx_id": "rubber-stretch",
+      "gain_db": -10,
+      "shot": "KidsWords059",
+      "cue": "use",
+      "dur_s": 1.4
+    },
+    {
+      "at_s": 114.49,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "item 5"
+    },
+    {
+      "at_s": 120.46,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsWords059",
+      "cue": "your turn"
+    },
+    {
+      "at_s": 122.26,
+      "sfx_id": "chime-magic",
+      "gain_db": -16,
+      "shot": "KidsWords059",
+      "cue": "en fran\u00e7ais"
+    },
+    {
+      "at_s": 127.73,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -10,
+      "shot": "KidsWords059",
+      "cue": "use",
+      "dur_s": 1.4
+    },
+    {
+      "at_s": 134.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "think",
+      "dur_s": 4.62
+    },
+    {
+      "at_s": 139.37,
+      "sfx_id": "ding-correct",
+      "gain_db": -8,
+      "shot": "KidsWords059",
+      "cue": "answer"
+    },
+    {
+      "at_s": 139.72,
+      "sfx_id": "kids-yay",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "yay"
+    },
+    {
+      "at_s": 142.42,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "item 6"
+    },
+    {
+      "at_s": 148.08,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsWords059",
+      "cue": "your turn"
+    },
+    {
+      "at_s": 149.88,
+      "sfx_id": "chime-magic",
+      "gain_db": -16,
+      "shot": "KidsWords059",
+      "cue": "en fran\u00e7ais"
+    },
+    {
+      "at_s": 155.1,
+      "sfx_id": "chime-reward",
+      "gain_db": -10,
+      "shot": "KidsWords059",
+      "cue": "use",
+      "dur_s": 1.4
+    },
+    {
+      "at_s": 159.5,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "item 7"
+    },
+    {
+      "at_s": 165.45,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsWords059",
+      "cue": "your turn"
+    },
+    {
+      "at_s": 167.25,
+      "sfx_id": "chime-magic",
+      "gain_db": -16,
+      "shot": "KidsWords059",
+      "cue": "en fran\u00e7ais"
+    },
+    {
+      "at_s": 172.55,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -10,
+      "shot": "KidsWords059",
+      "cue": "use",
+      "dur_s": 1.4
+    },
+    {
+      "at_s": 176.99,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "item 8"
+    },
+    {
+      "at_s": 183.1,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsWords059",
+      "cue": "your turn"
+    },
+    {
+      "at_s": 184.9,
+      "sfx_id": "chime-magic",
+      "gain_db": -16,
+      "shot": "KidsWords059",
+      "cue": "en fran\u00e7ais"
+    },
+    {
+      "at_s": 189.86,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -10,
+      "shot": "KidsWords059",
+      "cue": "use",
+      "dur_s": 1.4
+    },
+    {
+      "at_s": 197.2,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "think",
+      "dur_s": 4.4
+    },
+    {
+      "at_s": 201.65,
+      "sfx_id": "ding-correct",
+      "gain_db": -8,
+      "shot": "KidsWords059",
+      "cue": "answer"
+    },
+    {
+      "at_s": 202.0,
+      "sfx_id": "kids-yay",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "yay"
+    },
+    {
+      "at_s": 204.66,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "item 9"
+    },
+    {
+      "at_s": 210.65,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsWords059",
+      "cue": "your turn"
+    },
+    {
+      "at_s": 212.45,
+      "sfx_id": "chime-magic",
+      "gain_db": -16,
+      "shot": "KidsWords059",
+      "cue": "en fran\u00e7ais"
+    },
+    {
+      "at_s": 217.58,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -10,
+      "shot": "KidsWords059",
+      "cue": "use",
+      "dur_s": 1.4
+    },
+    {
+      "at_s": 222.58,
+      "sfx_id": "chime-reward",
+      "gain_db": -10,
+      "shot": "KidsWords059",
+      "cue": "french round"
+    },
+    {
+      "at_s": 227.35,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsWords059",
+      "cue": "fr card"
+    },
+    {
+      "at_s": 230.45,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsWords059",
+      "cue": "fr card"
+    },
+    {
+      "at_s": 234.05,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsWords059",
+      "cue": "fr card"
+    },
+    {
+      "at_s": 237.12,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsWords059",
+      "cue": "fr card"
+    },
+    {
+      "at_s": 240.3,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsWords059",
+      "cue": "fr card"
+    },
+    {
+      "at_s": 243.54,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsWords059",
+      "cue": "fr card"
+    },
+    {
+      "at_s": 246.78,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsWords059",
+      "cue": "fr card"
+    },
+    {
+      "at_s": 249.91,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsWords059",
+      "cue": "fr card"
+    },
+    {
+      "at_s": 253.02,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsWords059",
+      "cue": "fr card"
+    },
+    {
+      "at_s": 256.03,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsWords059",
+      "cue": "fr card"
+    },
+    {
+      "at_s": 259.11,
+      "sfx_id": "kids-applause",
+      "gain_db": -5,
+      "shot": "KidsWords059",
+      "cue": "great"
+    },
+    {
+      "at_s": 266.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "think",
+      "dur_s": 4.56
+    },
+    {
+      "at_s": 271.31,
+      "sfx_id": "ding-correct",
+      "gain_db": -8,
+      "shot": "KidsWords059",
+      "cue": "answer"
+    },
+    {
+      "at_s": 271.66,
+      "sfx_id": "kids-yay",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "yay"
+    },
+    {
+      "at_s": 279.2,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "think",
+      "dur_s": 4.72
+    },
+    {
+      "at_s": 283.97,
+      "sfx_id": "ding-correct",
+      "gain_db": -8,
+      "shot": "KidsWords059",
+      "cue": "answer"
+    },
+    {
+      "at_s": 284.32,
+      "sfx_id": "kids-yay",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "yay"
+    },
+    {
+      "at_s": 292.2,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "think",
+      "dur_s": 4.76
+    },
+    {
+      "at_s": 297.01,
+      "sfx_id": "ding-correct",
+      "gain_db": -8,
+      "shot": "KidsWords059",
+      "cue": "answer"
+    },
+    {
+      "at_s": 297.36,
+      "sfx_id": "kids-yay",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "yay"
+    },
+    {
+      "at_s": 302.2,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "think",
+      "dur_s": 4.41
+    },
+    {
+      "at_s": 306.66,
+      "sfx_id": "ding-correct",
+      "gain_db": -8,
+      "shot": "KidsWords059",
+      "cue": "answer"
+    },
+    {
+      "at_s": 307.01,
+      "sfx_id": "kids-yay",
+      "gain_db": -6,
+      "shot": "KidsWords059",
+      "cue": "yay"
+    },
+    {
+      "at_s": 329.77,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsWords059",
+      "cue": "star iris"
+    }
+  ]
+}

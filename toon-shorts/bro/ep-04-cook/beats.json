@@ -1,0 +1,562 @@
+{
+  "id": "ep-04-cook",
+  "series": "bro",
+  "episode": 4,
+  "title": "Bro thinks he can cook",
+  "composition": "Bro04Cook",
+  "audience": "anyone who has ever 'cooked' and then ordered pizza",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 38.0
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "bro": {
+      "elevenlabs": "TX3LPaxmHKxFdv7VOQHJ",
+      "edge": "en-US-ChristopherNeural",
+      "rate": "+6%",
+      "kokoro": "am_puck"
+    },
+    "dee": {
+      "elevenlabs": "ErXwobaYiN019PkySvjV",
+      "edge": "en-US-EricNeural",
+      "rate": "+4%",
+      "kokoro": "am_michael"
+    },
+    "delivery": {
+      "kokoro": "am_fenrir",
+      "edge": "en-US-GuyNeural",
+      "rate": "+0%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "bro",
+      "start": 0.15,
+      "end": 2.03,
+      "text": "Tonight, I'm cooking a five-star dinner.",
+      "words": [
+        {
+          "w": "Tonight,",
+          "start": 0.19,
+          "end": 0.54
+        },
+        {
+          "w": "I'm",
+          "start": 0.54,
+          "end": 0.69
+        },
+        {
+          "w": "cooking",
+          "start": 0.69,
+          "end": 0.99
+        },
+        {
+          "w": "a",
+          "start": 0.99,
+          "end": 1.14
+        },
+        {
+          "w": "five-star",
+          "start": 1.14,
+          "end": 1.64
+        },
+        {
+          "w": "dinner.",
+          "start": 1.64,
+          "end": 1.89
+        }
+      ]
+    },
+    {
+      "beat": "hook",
+      "speaker": "dee",
+      "start": 2.23,
+      "end": 4.04,
+      "text": "You burned cereal last week.",
+      "words": [
+        {
+          "w": "You",
+          "start": 2.28,
+          "end": 2.462
+        },
+        {
+          "w": "burned",
+          "start": 2.462,
+          "end": 2.827
+        },
+        {
+          "w": "cereal",
+          "start": 2.827,
+          "end": 3.313
+        },
+        {
+          "w": "last",
+          "start": 3.313,
+          "end": 3.616
+        },
+        {
+          "w": "week.",
+          "start": 3.616,
+          "end": 3.92
+        }
+      ]
+    },
+    {
+      "beat": "hook",
+      "speaker": "bro",
+      "start": 4.34,
+      "end": 6.34,
+      "text": "Exactly. I'm experienced with fire.",
+      "words": [
+        {
+          "w": "Exactly.",
+          "start": 4.37,
+          "end": 4.839
+        },
+        {
+          "w": "I'm",
+          "start": 4.839,
+          "end": 4.995
+        },
+        {
+          "w": "experienced",
+          "start": 4.995,
+          "end": 5.673
+        },
+        {
+          "w": "with",
+          "start": 5.673,
+          "end": 5.829
+        },
+        {
+          "w": "fire.",
+          "start": 5.829,
+          "end": 6.09
+        }
+      ]
+    },
+    {
+      "beat": "catch",
+      "speaker": "bro",
+      "start": 6.74,
+      "end": 7.99,
+      "text": "Trust me. I got this.",
+      "words": [
+        {
+          "w": "Trust",
+          "start": 6.79,
+          "end": 7.079
+        },
+        {
+          "w": "me.",
+          "start": 7.079,
+          "end": 7.272
+        },
+        {
+          "w": "I",
+          "start": 7.272,
+          "end": 7.416
+        },
+        {
+          "w": "got",
+          "start": 7.416,
+          "end": 7.657
+        },
+        {
+          "w": "this.",
+          "start": 7.657,
+          "end": 7.85
+        }
+      ]
+    },
+    {
+      "beat": "plan",
+      "speaker": "bro",
+      "start": 8.24,
+      "end": 9.77,
+      "text": "Recipe says three hours...",
+      "words": [
+        {
+          "w": "Recipe",
+          "start": 8.27,
+          "end": 8.787
+        },
+        {
+          "w": "says",
+          "start": 8.787,
+          "end": 9.016
+        },
+        {
+          "w": "three",
+          "start": 9.016,
+          "end": 9.303
+        },
+        {
+          "w": "hours...",
+          "start": 9.303,
+          "end": 9.59
+        }
+      ]
+    },
+    {
+      "beat": "plan",
+      "speaker": "bro",
+      "start": 10.32,
+      "end": 11.42,
+      "text": "...I'll just turn it up.",
+      "words": [
+        {
+          "w": "...I'll",
+          "start": 10.35,
+          "end": 10.511
+        },
+        {
+          "w": "just",
+          "start": 10.511,
+          "end": 10.833
+        },
+        {
+          "w": "turn",
+          "start": 10.833,
+          "end": 11.102
+        },
+        {
+          "w": "it",
+          "start": 11.102,
+          "end": 11.209
+        },
+        {
+          "w": "up.",
+          "start": 11.209,
+          "end": 11.37
+        }
+      ]
+    },
+    {
+      "beat": "alarm",
+      "speaker": "dee",
+      "start": 14.32,
+      "end": 15.54,
+      "text": "Bro, the alarm!",
+      "words": [
+        {
+          "w": "Bro,",
+          "start": 14.35,
+          "end": 14.704
+        },
+        {
+          "w": "the",
+          "start": 14.704,
+          "end": 14.845
+        },
+        {
+          "w": "alarm!",
+          "start": 14.845,
+          "end": 15.34
+        }
+      ]
+    },
+    {
+      "beat": "alarm",
+      "speaker": "bro",
+      "start": 15.84,
+      "end": 17.35,
+      "text": "Relax. It's cheering for me.",
+      "words": [
+        {
+          "w": "Relax.",
+          "start": 15.87,
+          "end": 16.242
+        },
+        {
+          "w": "It's",
+          "start": 16.242,
+          "end": 16.402
+        },
+        {
+          "w": "cheering",
+          "start": 16.402,
+          "end": 16.774
+        },
+        {
+          "w": "for",
+          "start": 16.774,
+          "end": 16.987
+        },
+        {
+          "w": "me.",
+          "start": 16.987,
+          "end": 17.2
+        }
+      ]
+    },
+    {
+      "beat": "stare",
+      "speaker": "bro",
+      "start": 20.6,
+      "end": 21.59,
+      "text": "...Experienced.",
+      "words": [
+        {
+          "w": "...Experienced.",
+          "start": 20.63,
+          "end": 21.46
+        }
+      ]
+    },
+    {
+      "beat": "pizza",
+      "speaker": "delivery",
+      "start": 23.19,
+      "end": 24.21,
+      "text": "Pizza for Bro?",
+      "words": [
+        {
+          "w": "Pizza",
+          "start": 23.23,
+          "end": 23.619
+        },
+        {
+          "w": "for",
+          "start": 23.619,
+          "end": 23.842
+        },
+        {
+          "w": "Bro?",
+          "start": 23.842,
+          "end": 24.12
+        }
+      ]
+    },
+    {
+      "beat": "pizza",
+      "speaker": "dee",
+      "start": 24.51,
+      "end": 25.83,
+      "text": "You ordered pizza?",
+      "words": [
+        {
+          "w": "You",
+          "start": 24.57,
+          "end": 24.754
+        },
+        {
+          "w": "ordered",
+          "start": 24.754,
+          "end": 25.182
+        },
+        {
+          "w": "pizza?",
+          "start": 25.182,
+          "end": 25.61
+        }
+      ]
+    },
+    {
+      "beat": "pizza",
+      "speaker": "bro",
+      "start": 26.33,
+      "end": 27.36,
+      "text": "Before I started.",
+      "words": [
+        {
+          "w": "Before",
+          "start": 26.36,
+          "end": 26.699
+        },
+        {
+          "w": "I",
+          "start": 26.699,
+          "end": 26.844
+        },
+        {
+          "w": "started.",
+          "start": 26.844,
+          "end": 27.28
+        }
+      ]
+    },
+    {
+      "beat": "math",
+      "speaker": "bro",
+      "start": 27.86,
+      "end": 31.29,
+      "text": "Restaurant, eighty. Pizza, twenty. I saved sixty dollars.",
+      "words": [
+        {
+          "w": "Restaurant,",
+          "start": 27.89,
+          "end": 28.498
+        },
+        {
+          "w": "eighty.",
+          "start": 28.498,
+          "end": 28.802
+        },
+        {
+          "w": "Pizza,",
+          "start": 28.802,
+          "end": 29.227
+        },
+        {
+          "w": "twenty.",
+          "start": 29.227,
+          "end": 29.652
+        },
+        {
+          "w": "I",
+          "start": 29.652,
+          "end": 29.835
+        },
+        {
+          "w": "saved",
+          "start": 29.835,
+          "end": 30.199
+        },
+        {
+          "w": "sixty",
+          "start": 30.199,
+          "end": 30.625
+        },
+        {
+          "w": "dollars.",
+          "start": 30.625,
+          "end": 31.05
+        }
+      ]
+    },
+    {
+      "beat": "math",
+      "speaker": "dee",
+      "start": 31.59,
+      "end": 32.95,
+      "text": "You burned the kitchen.",
+      "words": [
+        {
+          "w": "You",
+          "start": 31.66,
+          "end": 31.84
+        },
+        {
+          "w": "burned",
+          "start": 31.84,
+          "end": 32.2
+        },
+        {
+          "w": "the",
+          "start": 32.2,
+          "end": 32.32
+        },
+        {
+          "w": "kitchen.",
+          "start": 32.32,
+          "end": 32.74
+        }
+      ]
+    },
+    {
+      "beat": "tag",
+      "speaker": "bro",
+      "start": 33.55,
+      "end": 34.5,
+      "text": "...Free sauna.",
+      "words": [
+        {
+          "w": "...Free",
+          "start": 33.59,
+          "end": 33.949
+        },
+        {
+          "w": "sauna.",
+          "start": 33.949,
+          "end": 34.38
+        }
+      ]
+    },
+    {
+      "beat": "signature",
+      "speaker": "bro",
+      "start": 35.6,
+      "end": 36.42,
+      "text": "I got this.",
+      "words": [
+        {
+          "w": "I",
+          "start": 35.63,
+          "end": 35.8
+        },
+        {
+          "w": "got",
+          "start": 35.8,
+          "end": 36.083
+        },
+        {
+          "w": "this.",
+          "start": 36.083,
+          "end": 36.31
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 6.64,
+      "visual": "Kitchen. Bro behind the stove, smug close-up: 'Tonight, I'm cooking a five-star dinner.' Dee (by the fridge): 'You burned cereal last week.' Bro: 'Exactly. I'm experienced with fire.'"
+    },
+    {
+      "id": "setup",
+      "start": 6.64,
+      "end": 11.52,
+      "visual": "Punch-in 'Trust me. I got this.' Reads his phone (RECIPE · 3 HRS): 'Recipe says three hours...' beat '...I'll just turn it up.'"
+    },
+    {
+      "id": "dial",
+      "start": 11.52,
+      "end": 12.82,
+      "visual": "INSERT close-up of the stove dial: OFF → LOW → HIGH → MAX → keeps forcing → the knob SNAPS OFF and flies."
+    },
+    {
+      "id": "smoke",
+      "start": 12.82,
+      "end": 17.75,
+      "visual": "Smoke pours from the pan, the SMOKE ALARM blinks and beeps. Dee: 'Bro, the alarm!' Bro, hands on hips: 'Relax. It's cheering for me.'"
+    },
+    {
+      "id": "fire",
+      "start": 17.75,
+      "end": 20.15,
+      "visual": "FWOOSH: the pan erupts in flames (flash, shake). SILENT action-movie shot: Bro slides his shades down and walks toward camera in slow-mo, fire roaring behind him."
+    },
+    {
+      "id": "stare",
+      "start": 20.15,
+      "end": 22.09,
+      "visual": "THE STARE with shades down, smoke drifting: '...Experienced.' (callback to line 2)"
+    },
+    {
+      "id": "pizza",
+      "start": 22.09,
+      "end": 27.66,
+      "visual": "Ding-dong. Smoky, scorched kitchen; the door opens: delivery guy 'Pizza for Bro?' Dee: 'You ordered pizza?' Bro takes the box: 'Before I started.'"
+    },
+    {
+      "id": "math",
+      "start": 27.66,
+      "end": 35.1,
+      "visual": "BRO MATH: RESTAURANT $80 · PIZZA $20 · SAVED $60. Dee: 'You burned the kitchen.' Tag, Bro in the smoke: '...Free sauna.'"
+    },
+    {
+      "id": "signature",
+      "start": 35.1,
+      "end": 38.0,
+      "visual": "Series signature: grey-out, letterbox, THE STARE, 'I got this.' + stamp"
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}
