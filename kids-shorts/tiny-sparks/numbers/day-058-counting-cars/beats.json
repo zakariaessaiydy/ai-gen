@@ -1,0 +1,3041 @@
+{
+  "id": "day-058",
+  "series": "tiny-sparks",
+  "episode": 58,
+  "title": "Counting Cars",
+  "composition": "KidsNumbers058",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 303.3
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-4%"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-8%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -6,
+    "duck": 8,
+    "start": 3.7,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "intro",
+      "speaker": "leo",
+      "text": "Hi, friends! Look at my big car parking lot!",
+      "gap": 1.0,
+      "start": 3.9,
+      "end": 6.88,
+      "words": [
+        {
+          "w": "Hi,",
+          "start": 3.94,
+          "end": 4.183
+        },
+        {
+          "w": "friends!",
+          "start": 4.183,
+          "end": 4.608
+        },
+        {
+          "w": "Look",
+          "start": 4.608,
+          "end": 4.85
+        },
+        {
+          "w": "at",
+          "start": 4.85,
+          "end": 4.972
+        },
+        {
+          "w": "my",
+          "start": 4.972,
+          "end": 5.215
+        },
+        {
+          "w": "big",
+          "start": 5.215,
+          "end": 5.457
+        },
+        {
+          "w": "car",
+          "start": 5.457,
+          "end": 5.761
+        },
+        {
+          "w": "parking",
+          "start": 5.761,
+          "end": 6.247
+        },
+        {
+          "w": "lot!",
+          "start": 6.247,
+          "end": 6.55
+        }
+      ]
+    },
+    {
+      "beat": "intro2",
+      "speaker": "bobo",
+      "text": "Vroom, vroom! Here come the cars! Let's count them together!",
+      "gap": 1.2,
+      "start": 7.88,
+      "end": 11.06,
+      "words": [
+        {
+          "w": "Vroom,",
+          "start": 7.92,
+          "end": 8.268
+        },
+        {
+          "w": "vroom!",
+          "start": 8.268,
+          "end": 8.616
+        },
+        {
+          "w": "Here",
+          "start": 8.616,
+          "end": 8.848
+        },
+        {
+          "w": "come",
+          "start": 8.848,
+          "end": 9.08
+        },
+        {
+          "w": "the",
+          "start": 9.08,
+          "end": 9.196
+        },
+        {
+          "w": "cars!",
+          "start": 9.196,
+          "end": 9.544
+        },
+        {
+          "w": "Let's",
+          "start": 9.544,
+          "end": 9.834
+        },
+        {
+          "w": "count",
+          "start": 9.834,
+          "end": 10.182
+        },
+        {
+          "w": "them",
+          "start": 10.182,
+          "end": 10.414
+        },
+        {
+          "w": "together!",
+          "start": 10.414,
+          "end": 10.82
+        }
+      ]
+    },
+    {
+      "beat": "how",
+      "speaker": "narrator",
+      "text": "Count with your fingers, like Leo!",
+      "gap": 2.0,
+      "start": 12.26,
+      "end": 14.11,
+      "words": [
+        {
+          "w": "Count",
+          "start": 12.3,
+          "end": 12.636
+        },
+        {
+          "w": "with",
+          "start": 12.636,
+          "end": 12.804
+        },
+        {
+          "w": "your",
+          "start": 12.804,
+          "end": 12.972
+        },
+        {
+          "w": "fingers,",
+          "start": 12.972,
+          "end": 13.364
+        },
+        {
+          "w": "like",
+          "start": 13.364,
+          "end": 13.644
+        },
+        {
+          "w": "Leo!",
+          "start": 13.644,
+          "end": 13.98
+        }
+      ]
+    },
+    {
+      "beat": "n1",
+      "speaker": "narrator",
+      "text": "One.",
+      "gap": 1.2,
+      "start": 16.11,
+      "end": 16.75,
+      "words": [
+        {
+          "w": "One.",
+          "start": 16.14,
+          "end": 16.58
+        }
+      ]
+    },
+    {
+      "beat": "m1",
+      "speaker": "leo",
+      "text": "One red car!",
+      "gap": 2.6,
+      "start": 17.95,
+      "end": 19.2,
+      "words": [
+        {
+          "w": "One",
+          "start": 17.98,
+          "end": 18.282
+        },
+        {
+          "w": "red",
+          "start": 18.282,
+          "end": 18.583
+        },
+        {
+          "w": "car!",
+          "start": 18.583,
+          "end": 18.96
+        }
+      ]
+    },
+    {
+      "beat": "n2",
+      "speaker": "narrator",
+      "text": "Two.",
+      "gap": 1.2,
+      "start": 21.8,
+      "end": 22.54,
+      "words": [
+        {
+          "w": "Two.",
+          "start": 21.84,
+          "end": 22.32
+        }
+      ]
+    },
+    {
+      "beat": "m2",
+      "speaker": "leo",
+      "text": "Two orange cars!",
+      "gap": 2.6,
+      "start": 23.74,
+      "end": 25.1,
+      "words": [
+        {
+          "w": "Two",
+          "start": 23.77,
+          "end": 24.031
+        },
+        {
+          "w": "orange",
+          "start": 24.031,
+          "end": 24.488
+        },
+        {
+          "w": "cars!",
+          "start": 24.488,
+          "end": 24.88
+        }
+      ]
+    },
+    {
+      "beat": "n3",
+      "speaker": "narrator",
+      "text": "Three.",
+      "gap": 1.2,
+      "start": 27.7,
+      "end": 28.46,
+      "words": [
+        {
+          "w": "Three.",
+          "start": 27.73,
+          "end": 28.27
+        }
+      ]
+    },
+    {
+      "beat": "m3",
+      "speaker": "leo",
+      "text": "Three yellow cars!",
+      "gap": 2.6,
+      "start": 29.66,
+      "end": 31.04,
+      "words": [
+        {
+          "w": "Three",
+          "start": 29.72,
+          "end": 30.038
+        },
+        {
+          "w": "yellow",
+          "start": 30.038,
+          "end": 30.419
+        },
+        {
+          "w": "cars!",
+          "start": 30.419,
+          "end": 30.8
+        }
+      ]
+    },
+    {
+      "beat": "gag1",
+      "speaker": "bobo",
+      "text": "Beep, beep! Oops... that was my tummy!",
+      "gap": 1.0,
+      "start": 33.64,
+      "end": 35.66,
+      "words": [
+        {
+          "w": "Beep,",
+          "start": 33.66,
+          "end": 33.957
+        },
+        {
+          "w": "beep!",
+          "start": 33.957,
+          "end": 34.254
+        },
+        {
+          "w": "Oops...",
+          "start": 34.254,
+          "end": 34.55
+        },
+        {
+          "w": "that",
+          "start": 34.55,
+          "end": 34.788
+        },
+        {
+          "w": "was",
+          "start": 34.788,
+          "end": 34.966
+        },
+        {
+          "w": "my",
+          "start": 34.966,
+          "end": 35.203
+        },
+        {
+          "w": "tummy!",
+          "start": 35.203,
+          "end": 35.5
+        }
+      ]
+    },
+    {
+      "beat": "gag1b",
+      "speaker": "leo",
+      "text": "Ha ha! Bobo, you are not a car!",
+      "gap": 2.4,
+      "start": 36.66,
+      "end": 38.77,
+      "words": [
+        {
+          "w": "Ha",
+          "start": 36.69,
+          "end": 36.892
+        },
+        {
+          "w": "ha!",
+          "start": 36.892,
+          "end": 37.095
+        },
+        {
+          "w": "Bobo,",
+          "start": 37.095,
+          "end": 37.449
+        },
+        {
+          "w": "you",
+          "start": 37.449,
+          "end": 37.601
+        },
+        {
+          "w": "are",
+          "start": 37.601,
+          "end": 37.752
+        },
+        {
+          "w": "not",
+          "start": 37.752,
+          "end": 38.005
+        },
+        {
+          "w": "a",
+          "start": 38.005,
+          "end": 38.157
+        },
+        {
+          "w": "car!",
+          "start": 38.157,
+          "end": 38.41
+        }
+      ]
+    },
+    {
+      "beat": "n4",
+      "speaker": "narrator",
+      "text": "Four.",
+      "gap": 1.2,
+      "start": 41.17,
+      "end": 41.92,
+      "words": [
+        {
+          "w": "Four.",
+          "start": 41.2,
+          "end": 41.72
+        }
+      ]
+    },
+    {
+      "beat": "m4",
+      "speaker": "leo",
+      "text": "Four green cars!",
+      "gap": 2.6,
+      "start": 43.12,
+      "end": 44.51,
+      "words": [
+        {
+          "w": "Four",
+          "start": 43.18,
+          "end": 43.498
+        },
+        {
+          "w": "green",
+          "start": 43.498,
+          "end": 43.879
+        },
+        {
+          "w": "cars!",
+          "start": 43.879,
+          "end": 44.26
+        }
+      ]
+    },
+    {
+      "beat": "n5",
+      "speaker": "narrator",
+      "text": "Five.",
+      "gap": 1.2,
+      "start": 47.11,
+      "end": 47.9,
+      "words": [
+        {
+          "w": "Five.",
+          "start": 47.15,
+          "end": 47.71
+        }
+      ]
+    },
+    {
+      "beat": "m5",
+      "speaker": "leo",
+      "text": "Five blue cars!",
+      "gap": 2.6,
+      "start": 49.1,
+      "end": 50.49,
+      "words": [
+        {
+          "w": "Five",
+          "start": 49.16,
+          "end": 49.501
+        },
+        {
+          "w": "blue",
+          "start": 49.501,
+          "end": 49.841
+        },
+        {
+          "w": "cars!",
+          "start": 49.841,
+          "end": 50.25
+        }
+      ]
+    },
+    {
+      "beat": "n6",
+      "speaker": "narrator",
+      "text": "Six.",
+      "gap": 1.2,
+      "start": 53.09,
+      "end": 53.88,
+      "words": [
+        {
+          "w": "Six.",
+          "start": 53.13,
+          "end": 53.68
+        }
+      ]
+    },
+    {
+      "beat": "m6",
+      "speaker": "leo",
+      "text": "Six purple cars!",
+      "gap": 2.6,
+      "start": 55.08,
+      "end": 56.56,
+      "words": [
+        {
+          "w": "Six",
+          "start": 55.11,
+          "end": 55.443
+        },
+        {
+          "w": "purple",
+          "start": 55.443,
+          "end": 55.91
+        },
+        {
+          "w": "cars!",
+          "start": 55.91,
+          "end": 56.31
+        }
+      ]
+    },
+    {
+      "beat": "gag2",
+      "speaker": "narrator",
+      "text": "Oh! Car number six wants to give Bobo a ride!",
+      "gap": 1.0,
+      "start": 59.16,
+      "end": 61.93,
+      "words": [
+        {
+          "w": "Oh!",
+          "start": 59.2,
+          "end": 59.55
+        },
+        {
+          "w": "Car",
+          "start": 59.73,
+          "end": 59.968
+        },
+        {
+          "w": "number",
+          "start": 59.968,
+          "end": 60.253
+        },
+        {
+          "w": "six",
+          "start": 60.253,
+          "end": 60.49
+        },
+        {
+          "w": "wants",
+          "start": 60.49,
+          "end": 60.775
+        },
+        {
+          "w": "to",
+          "start": 60.775,
+          "end": 60.918
+        },
+        {
+          "w": "give",
+          "start": 60.918,
+          "end": 61.108
+        },
+        {
+          "w": "Bobo",
+          "start": 61.108,
+          "end": 61.44
+        },
+        {
+          "w": "a",
+          "start": 61.44,
+          "end": 61.582
+        },
+        {
+          "w": "ride!",
+          "start": 61.582,
+          "end": 61.82
+        }
+      ]
+    },
+    {
+      "beat": "gag2b",
+      "speaker": "bobo",
+      "text": "Wheee! Beep beep! Back you go, little car!",
+      "gap": 2.4,
+      "start": 62.93,
+      "end": 65.08,
+      "words": [
+        {
+          "w": "Wheee!",
+          "start": 62.96,
+          "end": 63.178
+        },
+        {
+          "w": "Beep",
+          "start": 63.178,
+          "end": 63.45
+        },
+        {
+          "w": "beep!",
+          "start": 63.45,
+          "end": 63.722
+        },
+        {
+          "w": "Back",
+          "start": 63.722,
+          "end": 63.94
+        },
+        {
+          "w": "you",
+          "start": 63.94,
+          "end": 64.103
+        },
+        {
+          "w": "go,",
+          "start": 64.103,
+          "end": 64.321
+        },
+        {
+          "w": "little",
+          "start": 64.321,
+          "end": 64.648
+        },
+        {
+          "w": "car!",
+          "start": 64.648,
+          "end": 64.92
+        }
+      ]
+    },
+    {
+      "beat": "n7",
+      "speaker": "narrator",
+      "text": "Seven.",
+      "gap": 1.2,
+      "start": 67.48,
+      "end": 68.22,
+      "words": [
+        {
+          "w": "Seven.",
+          "start": 67.51,
+          "end": 68.04
+        }
+      ]
+    },
+    {
+      "beat": "m7",
+      "speaker": "leo",
+      "text": "Seven pink cars!",
+      "gap": 2.6,
+      "start": 69.42,
+      "end": 70.87,
+      "words": [
+        {
+          "w": "Seven",
+          "start": 69.45,
+          "end": 69.866
+        },
+        {
+          "w": "pink",
+          "start": 69.866,
+          "end": 70.214
+        },
+        {
+          "w": "cars!",
+          "start": 70.214,
+          "end": 70.63
+        }
+      ]
+    },
+    {
+      "beat": "n8",
+      "speaker": "narrator",
+      "text": "Eight.",
+      "gap": 1.2,
+      "start": 73.47,
+      "end": 74.21,
+      "words": [
+        {
+          "w": "Eight.",
+          "start": 73.49,
+          "end": 74.01
+        }
+      ]
+    },
+    {
+      "beat": "m8",
+      "speaker": "leo",
+      "text": "Eight sky blue cars!",
+      "gap": 2.6,
+      "start": 75.41,
+      "end": 76.98,
+      "words": [
+        {
+          "w": "Eight",
+          "start": 75.44,
+          "end": 75.698
+        },
+        {
+          "w": "sky",
+          "start": 75.698,
+          "end": 76.021
+        },
+        {
+          "w": "blue",
+          "start": 76.021,
+          "end": 76.343
+        },
+        {
+          "w": "cars!",
+          "start": 76.343,
+          "end": 76.73
+        }
+      ]
+    },
+    {
+      "beat": "n9",
+      "speaker": "narrator",
+      "text": "Nine.",
+      "gap": 1.2,
+      "start": 79.58,
+      "end": 80.39,
+      "words": [
+        {
+          "w": "Nine.",
+          "start": 79.61,
+          "end": 80.17
+        }
+      ]
+    },
+    {
+      "beat": "m9",
+      "speaker": "leo",
+      "text": "Nine leafy green cars!",
+      "gap": 2.6,
+      "start": 81.59,
+      "end": 83.36,
+      "words": [
+        {
+          "w": "Nine",
+          "start": 81.63,
+          "end": 81.945
+        },
+        {
+          "w": "leafy",
+          "start": 81.945,
+          "end": 82.323
+        },
+        {
+          "w": "green",
+          "start": 82.323,
+          "end": 82.702
+        },
+        {
+          "w": "cars!",
+          "start": 82.702,
+          "end": 83.08
+        }
+      ]
+    },
+    {
+      "beat": "gag3",
+      "speaker": "bobo",
+      "text": "Nine! Uh oh... I need more paws!",
+      "gap": 2.4,
+      "start": 85.96,
+      "end": 87.79,
+      "words": [
+        {
+          "w": "Nine!",
+          "start": 85.99,
+          "end": 86.286
+        },
+        {
+          "w": "Uh",
+          "start": 86.286,
+          "end": 86.405
+        },
+        {
+          "w": "oh...",
+          "start": 86.405,
+          "end": 86.583
+        },
+        {
+          "w": "I",
+          "start": 86.583,
+          "end": 86.761
+        },
+        {
+          "w": "need",
+          "start": 86.761,
+          "end": 87.057
+        },
+        {
+          "w": "more",
+          "start": 87.057,
+          "end": 87.354
+        },
+        {
+          "w": "paws!",
+          "start": 87.354,
+          "end": 87.65
+        }
+      ]
+    },
+    {
+      "beat": "n10",
+      "speaker": "narrator",
+      "text": "Ten.",
+      "gap": 1.2,
+      "start": 90.19,
+      "end": 90.96,
+      "words": [
+        {
+          "w": "Ten.",
+          "start": 90.22,
+          "end": 90.71
+        }
+      ]
+    },
+    {
+      "beat": "m10",
+      "speaker": "leo",
+      "text": "Ten magenta cars!",
+      "gap": 2.6,
+      "start": 92.16,
+      "end": 93.71,
+      "words": [
+        {
+          "w": "Ten",
+          "start": 92.2,
+          "end": 92.463
+        },
+        {
+          "w": "magenta",
+          "start": 92.463,
+          "end": 93.055
+        },
+        {
+          "w": "cars!",
+          "start": 93.055,
+          "end": 93.45
+        }
+      ]
+    },
+    {
+      "beat": "ten",
+      "speaker": "leo",
+      "text": "Ten cars! And ten fingers! Show me your ten fingers!",
+      "gap": 3.0,
+      "start": 96.31,
+      "end": 99.44,
+      "words": [
+        {
+          "w": "Ten",
+          "start": 96.35,
+          "end": 96.592
+        },
+        {
+          "w": "cars!",
+          "start": 96.592,
+          "end": 96.954
+        },
+        {
+          "w": "And",
+          "start": 96.954,
+          "end": 97.136
+        },
+        {
+          "w": "ten",
+          "start": 97.136,
+          "end": 97.377
+        },
+        {
+          "w": "fingers!",
+          "start": 97.377,
+          "end": 97.8
+        },
+        {
+          "w": "Show",
+          "start": 97.8,
+          "end": 98.042
+        },
+        {
+          "w": "me",
+          "start": 98.042,
+          "end": 98.284
+        },
+        {
+          "w": "your",
+          "start": 98.284,
+          "end": 98.465
+        },
+        {
+          "w": "ten",
+          "start": 98.465,
+          "end": 98.707
+        },
+        {
+          "w": "fingers!",
+          "start": 98.707,
+          "end": 99.13
+        }
+      ]
+    },
+    {
+      "beat": "you_count",
+      "speaker": "narrator",
+      "text": "Now it's your turn to count them all! Ready? Point and count!",
+      "gap": 1.4,
+      "start": 102.44,
+      "end": 105.95,
+      "words": [
+        {
+          "w": "Now",
+          "start": 102.5,
+          "end": 102.689
+        },
+        {
+          "w": "it's",
+          "start": 102.689,
+          "end": 102.83
+        },
+        {
+          "w": "your",
+          "start": 102.83,
+          "end": 102.972
+        },
+        {
+          "w": "turn",
+          "start": 102.972,
+          "end": 103.208
+        },
+        {
+          "w": "to",
+          "start": 103.208,
+          "end": 103.349
+        },
+        {
+          "w": "count",
+          "start": 103.349,
+          "end": 103.633
+        },
+        {
+          "w": "them",
+          "start": 103.633,
+          "end": 103.821
+        },
+        {
+          "w": "all!",
+          "start": 103.821,
+          "end": 104.01
+        },
+        {
+          "w": "Ready?",
+          "start": 104.33,
+          "end": 104.74
+        },
+        {
+          "w": "Point",
+          "start": 104.99,
+          "end": 105.342
+        },
+        {
+          "w": "and",
+          "start": 105.342,
+          "end": 105.518
+        },
+        {
+          "w": "count!",
+          "start": 105.518,
+          "end": 105.87
+        }
+      ]
+    },
+    {
+      "beat": "y1",
+      "speaker": "leo",
+      "text": "One!",
+      "gap": 1.4,
+      "start": 107.35,
+      "end": 108.03,
+      "words": [
+        {
+          "w": "One!",
+          "start": 107.38,
+          "end": 107.93
+        }
+      ]
+    },
+    {
+      "beat": "y2",
+      "speaker": "leo",
+      "text": "Two!",
+      "gap": 1.4,
+      "start": 109.43,
+      "end": 110.15,
+      "words": [
+        {
+          "w": "Two!",
+          "start": 109.47,
+          "end": 110.04
+        }
+      ]
+    },
+    {
+      "beat": "y3",
+      "speaker": "leo",
+      "text": "Three!",
+      "gap": 1.4,
+      "start": 111.55,
+      "end": 112.35,
+      "words": [
+        {
+          "w": "Three!",
+          "start": 111.6,
+          "end": 112.21
+        }
+      ]
+    },
+    {
+      "beat": "y4",
+      "speaker": "leo",
+      "text": "Four!",
+      "gap": 1.4,
+      "start": 113.75,
+      "end": 114.51,
+      "words": [
+        {
+          "w": "Four!",
+          "start": 113.79,
+          "end": 114.38
+        }
+      ]
+    },
+    {
+      "beat": "y5",
+      "speaker": "leo",
+      "text": "Five!",
+      "gap": 1.4,
+      "start": 115.91,
+      "end": 116.65,
+      "words": [
+        {
+          "w": "Five!",
+          "start": 115.96,
+          "end": 116.54
+        }
+      ]
+    },
+    {
+      "beat": "y6",
+      "speaker": "leo",
+      "text": "Six!",
+      "gap": 1.4,
+      "start": 118.05,
+      "end": 118.71,
+      "words": [
+        {
+          "w": "Six!",
+          "start": 118.08,
+          "end": 118.64
+        }
+      ]
+    },
+    {
+      "beat": "y7",
+      "speaker": "leo",
+      "text": "Seven!",
+      "gap": 1.4,
+      "start": 120.11,
+      "end": 120.89,
+      "words": [
+        {
+          "w": "Seven!",
+          "start": 120.15,
+          "end": 120.75
+        }
+      ]
+    },
+    {
+      "beat": "y8",
+      "speaker": "leo",
+      "text": "Eight!",
+      "gap": 1.4,
+      "start": 122.29,
+      "end": 122.95,
+      "words": [
+        {
+          "w": "Eight!",
+          "start": 122.32,
+          "end": 122.86
+        }
+      ]
+    },
+    {
+      "beat": "y9",
+      "speaker": "leo",
+      "text": "Nine!",
+      "gap": 1.4,
+      "start": 124.35,
+      "end": 125.11,
+      "words": [
+        {
+          "w": "Nine!",
+          "start": 124.38,
+          "end": 125.01
+        }
+      ]
+    },
+    {
+      "beat": "y10",
+      "speaker": "leo",
+      "text": "Ten!",
+      "gap": 1.4,
+      "start": 126.51,
+      "end": 127.21,
+      "words": [
+        {
+          "w": "Ten!",
+          "start": 126.55,
+          "end": 127.08
+        }
+      ]
+    },
+    {
+      "beat": "great",
+      "speaker": "bobo",
+      "text": "Great counting, friends!",
+      "gap": 2.2,
+      "start": 128.61,
+      "end": 129.89,
+      "words": [
+        {
+          "w": "Great",
+          "start": 128.64,
+          "end": 128.969
+        },
+        {
+          "w": "counting,",
+          "start": 128.969,
+          "end": 129.407
+        },
+        {
+          "w": "friends!",
+          "start": 129.407,
+          "end": 129.79
+        }
+      ]
+    },
+    {
+      "beat": "fact",
+      "speaker": "narrator",
+      "text": "Wow fact! Some cars run on electricity. They are very, very quiet!",
+      "gap": 1.4,
+      "start": 132.09,
+      "end": 136.54,
+      "words": [
+        {
+          "w": "Wow",
+          "start": 132.13,
+          "end": 132.415
+        },
+        {
+          "w": "fact!",
+          "start": 132.415,
+          "end": 132.77
+        },
+        {
+          "w": "Some",
+          "start": 132.77,
+          "end": 133.055
+        },
+        {
+          "w": "cars",
+          "start": 133.055,
+          "end": 133.482
+        },
+        {
+          "w": "run",
+          "start": 133.482,
+          "end": 133.766
+        },
+        {
+          "w": "on",
+          "start": 133.766,
+          "end": 133.98
+        },
+        {
+          "w": "electricity.",
+          "start": 133.98,
+          "end": 134.834
+        },
+        {
+          "w": "They",
+          "start": 134.834,
+          "end": 135.047
+        },
+        {
+          "w": "are",
+          "start": 135.047,
+          "end": 135.26
+        },
+        {
+          "w": "very,",
+          "start": 135.26,
+          "end": 135.616
+        },
+        {
+          "w": "very",
+          "start": 135.616,
+          "end": 135.972
+        },
+        {
+          "w": "quiet!",
+          "start": 135.972,
+          "end": 136.47
+        }
+      ]
+    },
+    {
+      "beat": "fact_b",
+      "speaker": "bobo",
+      "text": "Shhh... quiet car! Not like my tummy!",
+      "gap": 2.6,
+      "start": 137.94,
+      "end": 140.71,
+      "words": [
+        {
+          "w": "Shhh...",
+          "start": 137.97,
+          "end": 138.892
+        },
+        {
+          "w": "quiet",
+          "start": 138.892,
+          "end": 139.251
+        },
+        {
+          "w": "car!",
+          "start": 139.251,
+          "end": 139.507
+        },
+        {
+          "w": "Not",
+          "start": 139.507,
+          "end": 139.763
+        },
+        {
+          "w": "like",
+          "start": 139.763,
+          "end": 140.019
+        },
+        {
+          "w": "my",
+          "start": 140.019,
+          "end": 140.224
+        },
+        {
+          "w": "tummy!",
+          "start": 140.224,
+          "end": 140.48
+        }
+      ]
+    },
+    {
+      "beat": "legs_q",
+      "speaker": "narrator",
+      "text": "A car rolls on wheels! How many wheels? Let's count!",
+      "gap": 0.8,
+      "start": 143.31,
+      "end": 146.68,
+      "words": [
+        {
+          "w": "A",
+          "start": 143.4,
+          "end": 143.595
+        },
+        {
+          "w": "car",
+          "start": 143.595,
+          "end": 143.919
+        },
+        {
+          "w": "rolls",
+          "start": 143.919,
+          "end": 144.309
+        },
+        {
+          "w": "on",
+          "start": 144.309,
+          "end": 144.503
+        },
+        {
+          "w": "wheels!",
+          "start": 144.503,
+          "end": 144.893
+        },
+        {
+          "w": "How",
+          "start": 144.893,
+          "end": 145.152
+        },
+        {
+          "w": "many",
+          "start": 145.152,
+          "end": 145.477
+        },
+        {
+          "w": "wheels?",
+          "start": 145.477,
+          "end": 145.866
+        },
+        {
+          "w": "Let's",
+          "start": 145.866,
+          "end": 146.191
+        },
+        {
+          "w": "count!",
+          "start": 146.191,
+          "end": 146.58
+        }
+      ]
+    },
+    {
+      "beat": "legs_c",
+      "speaker": "leo",
+      "text": "One, two, three, four!",
+      "gap": 1.4,
+      "start": 147.48,
+      "end": 149.03,
+      "words": [
+        {
+          "w": "One,",
+          "start": 147.51,
+          "end": 147.79
+        },
+        {
+          "w": "two,",
+          "start": 147.79,
+          "end": 148.07
+        },
+        {
+          "w": "three,",
+          "start": 148.07,
+          "end": 148.42
+        },
+        {
+          "w": "four!",
+          "start": 148.42,
+          "end": 148.77
+        }
+      ]
+    },
+    {
+      "beat": "legs_a",
+      "speaker": "bobo",
+      "text": "Four wheels! Wow!",
+      "gap": 2.4,
+      "start": 150.43,
+      "end": 151.58,
+      "words": [
+        {
+          "w": "Four",
+          "start": 150.48,
+          "end": 150.803
+        },
+        {
+          "w": "wheels!",
+          "start": 150.803,
+          "end": 151.191
+        },
+        {
+          "w": "Wow!",
+          "start": 151.191,
+          "end": 151.45
+        }
+      ]
+    },
+    {
+      "beat": "honk",
+      "speaker": "leo",
+      "text": "And cars say beep, beep! Can you say it too? Beep, beep!",
+      "gap": 2.6,
+      "start": 153.98,
+      "end": 157.21,
+      "words": [
+        {
+          "w": "And",
+          "start": 154.01,
+          "end": 154.184
+        },
+        {
+          "w": "cars",
+          "start": 154.184,
+          "end": 154.532
+        },
+        {
+          "w": "say",
+          "start": 154.532,
+          "end": 154.764
+        },
+        {
+          "w": "beep,",
+          "start": 154.764,
+          "end": 155.054
+        },
+        {
+          "w": "beep!",
+          "start": 155.054,
+          "end": 155.344
+        },
+        {
+          "w": "Can",
+          "start": 155.344,
+          "end": 155.576
+        },
+        {
+          "w": "you",
+          "start": 155.576,
+          "end": 155.75
+        },
+        {
+          "w": "say",
+          "start": 155.75,
+          "end": 155.982
+        },
+        {
+          "w": "it",
+          "start": 155.982,
+          "end": 156.098
+        },
+        {
+          "w": "too?",
+          "start": 156.098,
+          "end": 156.33
+        },
+        {
+          "w": "Beep,",
+          "start": 156.33,
+          "end": 156.62
+        },
+        {
+          "w": "beep!",
+          "start": 156.62,
+          "end": 156.91
+        }
+      ]
+    },
+    {
+      "beat": "road",
+      "speaker": "bobo",
+      "text": "Now let's play car games on the road!",
+      "gap": 1.4,
+      "start": 159.81,
+      "end": 161.68,
+      "words": [
+        {
+          "w": "Now",
+          "start": 159.84,
+          "end": 160.03
+        },
+        {
+          "w": "let's",
+          "start": 160.03,
+          "end": 160.267
+        },
+        {
+          "w": "play",
+          "start": 160.267,
+          "end": 160.504
+        },
+        {
+          "w": "car",
+          "start": 160.504,
+          "end": 160.741
+        },
+        {
+          "w": "games",
+          "start": 160.741,
+          "end": 161.026
+        },
+        {
+          "w": "on",
+          "start": 161.026,
+          "end": 161.168
+        },
+        {
+          "w": "the",
+          "start": 161.168,
+          "end": 161.263
+        },
+        {
+          "w": "road!",
+          "start": 161.263,
+          "end": 161.5
+        }
+      ]
+    },
+    {
+      "beat": "more_q",
+      "speaker": "narrator",
+      "text": "Game time! Which road has more cars?",
+      "gap": 5.0,
+      "start": 163.08,
+      "end": 165.51,
+      "words": [
+        {
+          "w": "Game",
+          "start": 163.13,
+          "end": 163.485
+        },
+        {
+          "w": "time!",
+          "start": 163.485,
+          "end": 163.84
+        },
+        {
+          "w": "Which",
+          "start": 164.09,
+          "end": 164.362
+        },
+        {
+          "w": "road",
+          "start": 164.362,
+          "end": 164.634
+        },
+        {
+          "w": "has",
+          "start": 164.634,
+          "end": 164.852
+        },
+        {
+          "w": "more",
+          "start": 164.852,
+          "end": 165.124
+        },
+        {
+          "w": "cars?",
+          "start": 165.124,
+          "end": 165.45
+        }
+      ]
+    },
+    {
+      "beat": "more_a",
+      "speaker": "leo",
+      "text": "This one! Five is more than three!",
+      "gap": 2.4,
+      "start": 170.51,
+      "end": 172.64,
+      "words": [
+        {
+          "w": "This",
+          "start": 170.55,
+          "end": 170.801
+        },
+        {
+          "w": "one!",
+          "start": 170.801,
+          "end": 171.053
+        },
+        {
+          "w": "Five",
+          "start": 171.053,
+          "end": 171.367
+        },
+        {
+          "w": "is",
+          "start": 171.367,
+          "end": 171.493
+        },
+        {
+          "w": "more",
+          "start": 171.493,
+          "end": 171.807
+        },
+        {
+          "w": "than",
+          "start": 171.807,
+          "end": 171.996
+        },
+        {
+          "w": "three!",
+          "start": 171.996,
+          "end": 172.31
+        }
+      ]
+    },
+    {
+      "beat": "less_q",
+      "speaker": "narrator",
+      "text": "Now, which road has fewer cars?",
+      "gap": 5.0,
+      "start": 175.04,
+      "end": 177.1,
+      "words": [
+        {
+          "w": "Now,",
+          "start": 175.09,
+          "end": 175.347
+        },
+        {
+          "w": "which",
+          "start": 175.347,
+          "end": 175.669
+        },
+        {
+          "w": "road",
+          "start": 175.669,
+          "end": 175.991
+        },
+        {
+          "w": "has",
+          "start": 175.991,
+          "end": 176.248
+        },
+        {
+          "w": "fewer",
+          "start": 176.248,
+          "end": 176.634
+        },
+        {
+          "w": "cars?",
+          "start": 176.634,
+          "end": 177.02
+        }
+      ]
+    },
+    {
+      "beat": "less_a",
+      "speaker": "bobo",
+      "text": "This one! Two is less than four!",
+      "gap": 2.4,
+      "start": 182.1,
+      "end": 183.74,
+      "words": [
+        {
+          "w": "This",
+          "start": 182.13,
+          "end": 182.359
+        },
+        {
+          "w": "one!",
+          "start": 182.359,
+          "end": 182.588
+        },
+        {
+          "w": "Two",
+          "start": 182.588,
+          "end": 182.818
+        },
+        {
+          "w": "is",
+          "start": 182.818,
+          "end": 182.932
+        },
+        {
+          "w": "less",
+          "start": 182.932,
+          "end": 183.162
+        },
+        {
+          "w": "than",
+          "start": 183.162,
+          "end": 183.333
+        },
+        {
+          "w": "four!",
+          "start": 183.333,
+          "end": 183.62
+        }
+      ]
+    },
+    {
+      "beat": "add_q",
+      "speaker": "narrator",
+      "text": "Two cars are on the road. One more drives in. How many now?",
+      "gap": 5.0,
+      "start": 186.14,
+      "end": 189.94,
+      "words": [
+        {
+          "w": "Two",
+          "start": 186.18,
+          "end": 186.408
+        },
+        {
+          "w": "cars",
+          "start": 186.408,
+          "end": 186.75
+        },
+        {
+          "w": "are",
+          "start": 186.75,
+          "end": 186.92
+        },
+        {
+          "w": "on",
+          "start": 186.92,
+          "end": 187.091
+        },
+        {
+          "w": "the",
+          "start": 187.091,
+          "end": 187.205
+        },
+        {
+          "w": "road.",
+          "start": 187.205,
+          "end": 187.49
+        },
+        {
+          "w": "One",
+          "start": 187.89,
+          "end": 188.13
+        },
+        {
+          "w": "more",
+          "start": 188.13,
+          "end": 188.43
+        },
+        {
+          "w": "drives",
+          "start": 188.43,
+          "end": 188.85
+        },
+        {
+          "w": "in.",
+          "start": 188.85,
+          "end": 189.03
+        },
+        {
+          "w": "How",
+          "start": 189.2,
+          "end": 189.4
+        },
+        {
+          "w": "many",
+          "start": 189.4,
+          "end": 189.65
+        },
+        {
+          "w": "now?",
+          "start": 189.65,
+          "end": 189.85
+        }
+      ]
+    },
+    {
+      "beat": "add_a",
+      "speaker": "leo",
+      "text": "Three! Two and one make three!",
+      "gap": 2.4,
+      "start": 194.94,
+      "end": 196.73,
+      "words": [
+        {
+          "w": "Three!",
+          "start": 194.99,
+          "end": 195.273
+        },
+        {
+          "w": "Two",
+          "start": 195.273,
+          "end": 195.499
+        },
+        {
+          "w": "and",
+          "start": 195.499,
+          "end": 195.668
+        },
+        {
+          "w": "one",
+          "start": 195.668,
+          "end": 195.895
+        },
+        {
+          "w": "make",
+          "start": 195.895,
+          "end": 196.177
+        },
+        {
+          "w": "three!",
+          "start": 196.177,
+          "end": 196.46
+        }
+      ]
+    },
+    {
+      "beat": "add2_q",
+      "speaker": "narrator",
+      "text": "Three cars. Two more drive in. How many now?",
+      "gap": 5.0,
+      "start": 199.13,
+      "end": 201.98,
+      "words": [
+        {
+          "w": "Three",
+          "start": 199.19,
+          "end": 199.558
+        },
+        {
+          "w": "cars.",
+          "start": 199.558,
+          "end": 200.0
+        },
+        {
+          "w": "Two",
+          "start": 200.12,
+          "end": 200.311
+        },
+        {
+          "w": "more",
+          "start": 200.311,
+          "end": 200.55
+        },
+        {
+          "w": "drive",
+          "start": 200.55,
+          "end": 200.837
+        },
+        {
+          "w": "in.",
+          "start": 200.837,
+          "end": 200.98
+        },
+        {
+          "w": "How",
+          "start": 201.2,
+          "end": 201.406
+        },
+        {
+          "w": "many",
+          "start": 201.406,
+          "end": 201.664
+        },
+        {
+          "w": "now?",
+          "start": 201.664,
+          "end": 201.87
+        }
+      ]
+    },
+    {
+      "beat": "add2_a",
+      "speaker": "bobo",
+      "text": "Five! Three and two make five!",
+      "gap": 2.4,
+      "start": 206.98,
+      "end": 208.58,
+      "words": [
+        {
+          "w": "Five!",
+          "start": 207.02,
+          "end": 207.29
+        },
+        {
+          "w": "Three",
+          "start": 207.29,
+          "end": 207.561
+        },
+        {
+          "w": "and",
+          "start": 207.561,
+          "end": 207.723
+        },
+        {
+          "w": "two",
+          "start": 207.723,
+          "end": 207.939
+        },
+        {
+          "w": "make",
+          "start": 207.939,
+          "end": 208.21
+        },
+        {
+          "w": "five!",
+          "start": 208.21,
+          "end": 208.48
+        }
+      ]
+    },
+    {
+      "beat": "sub_q",
+      "speaker": "narrator",
+      "text": "Five cars. Oh! Two drive away. How many are left?",
+      "gap": 5.0,
+      "start": 210.98,
+      "end": 214.39,
+      "words": [
+        {
+          "w": "Five",
+          "start": 211.04,
+          "end": 211.395
+        },
+        {
+          "w": "cars.",
+          "start": 211.395,
+          "end": 211.822
+        },
+        {
+          "w": "Oh!",
+          "start": 211.822,
+          "end": 212.035
+        },
+        {
+          "w": "Two",
+          "start": 212.035,
+          "end": 212.32
+        },
+        {
+          "w": "drive",
+          "start": 212.32,
+          "end": 212.746
+        },
+        {
+          "w": "away.",
+          "start": 212.746,
+          "end": 213.102
+        },
+        {
+          "w": "How",
+          "start": 213.102,
+          "end": 213.386
+        },
+        {
+          "w": "many",
+          "start": 213.386,
+          "end": 213.741
+        },
+        {
+          "w": "are",
+          "start": 213.741,
+          "end": 213.955
+        },
+        {
+          "w": "left?",
+          "start": 213.955,
+          "end": 214.31
+        }
+      ]
+    },
+    {
+      "beat": "sub_a",
+      "speaker": "leo",
+      "text": "Three! Five take away two is three!",
+      "gap": 2.4,
+      "start": 219.39,
+      "end": 221.6,
+      "words": [
+        {
+          "w": "Three!",
+          "start": 219.44,
+          "end": 219.738
+        },
+        {
+          "w": "Five",
+          "start": 219.738,
+          "end": 220.037
+        },
+        {
+          "w": "take",
+          "start": 220.037,
+          "end": 220.335
+        },
+        {
+          "w": "away",
+          "start": 220.335,
+          "end": 220.634
+        },
+        {
+          "w": "two",
+          "start": 220.634,
+          "end": 220.872
+        },
+        {
+          "w": "is",
+          "start": 220.872,
+          "end": 220.992
+        },
+        {
+          "w": "three!",
+          "start": 220.992,
+          "end": 221.29
+        }
+      ]
+    },
+    {
+      "beat": "col_q",
+      "speaker": "narrator",
+      "text": "Color quiz! What color is car number one?",
+      "gap": 5.0,
+      "start": 224.0,
+      "end": 226.55,
+      "words": [
+        {
+          "w": "Color",
+          "start": 224.02,
+          "end": 224.4
+        },
+        {
+          "w": "quiz!",
+          "start": 224.4,
+          "end": 224.78
+        },
+        {
+          "w": "What",
+          "start": 225.01,
+          "end": 225.23
+        },
+        {
+          "w": "color",
+          "start": 225.23,
+          "end": 225.505
+        },
+        {
+          "w": "is",
+          "start": 225.505,
+          "end": 225.615
+        },
+        {
+          "w": "car",
+          "start": 225.615,
+          "end": 225.89
+        },
+        {
+          "w": "number",
+          "start": 225.89,
+          "end": 226.22
+        },
+        {
+          "w": "one?",
+          "start": 226.22,
+          "end": 226.44
+        }
+      ]
+    },
+    {
+      "beat": "col_a",
+      "speaker": "leo",
+      "text": "Red!",
+      "gap": 2.2,
+      "start": 231.55,
+      "end": 232.25,
+      "words": [
+        {
+          "w": "Red!",
+          "start": 231.58,
+          "end": 232.13
+        }
+      ]
+    },
+    {
+      "beat": "col2_q",
+      "speaker": "narrator",
+      "text": "And what color is car number five?",
+      "gap": 5.0,
+      "start": 234.45,
+      "end": 236.35,
+      "words": [
+        {
+          "w": "And",
+          "start": 234.53,
+          "end": 234.704
+        },
+        {
+          "w": "what",
+          "start": 234.704,
+          "end": 234.936
+        },
+        {
+          "w": "color",
+          "start": 234.936,
+          "end": 235.226
+        },
+        {
+          "w": "is",
+          "start": 235.226,
+          "end": 235.342
+        },
+        {
+          "w": "car",
+          "start": 235.342,
+          "end": 235.632
+        },
+        {
+          "w": "number",
+          "start": 235.632,
+          "end": 235.98
+        },
+        {
+          "w": "five?",
+          "start": 235.98,
+          "end": 236.27
+        }
+      ]
+    },
+    {
+      "beat": "col2_a",
+      "speaker": "bobo",
+      "text": "Blue!",
+      "gap": 2.4,
+      "start": 241.35,
+      "end": 241.91,
+      "words": [
+        {
+          "w": "Blue!",
+          "start": 241.37,
+          "end": 241.82
+        }
+      ]
+    },
+    {
+      "beat": "find_q",
+      "speaker": "narrator",
+      "text": "Where is the number seven?",
+      "gap": 5.0,
+      "start": 244.31,
+      "end": 245.74,
+      "words": [
+        {
+          "w": "Where",
+          "start": 244.35,
+          "end": 244.598
+        },
+        {
+          "w": "is",
+          "start": 244.598,
+          "end": 244.722
+        },
+        {
+          "w": "the",
+          "start": 244.722,
+          "end": 244.846
+        },
+        {
+          "w": "number",
+          "start": 244.846,
+          "end": 245.218
+        },
+        {
+          "w": "seven?",
+          "start": 245.218,
+          "end": 245.59
+        }
+      ]
+    },
+    {
+      "beat": "find_a",
+      "speaker": "leo",
+      "text": "Here! Seven!",
+      "gap": 2.2,
+      "start": 250.74,
+      "end": 251.85,
+      "words": [
+        {
+          "w": "Here!",
+          "start": 250.8,
+          "end": 251.132
+        },
+        {
+          "w": "Seven!",
+          "start": 251.132,
+          "end": 251.63
+        }
+      ]
+    },
+    {
+      "beat": "find2_q",
+      "speaker": "narrator",
+      "text": "And where is the number four?",
+      "gap": 5.0,
+      "start": 254.05,
+      "end": 255.56,
+      "words": [
+        {
+          "w": "And",
+          "start": 254.12,
+          "end": 254.301
+        },
+        {
+          "w": "where",
+          "start": 254.301,
+          "end": 254.543
+        },
+        {
+          "w": "is",
+          "start": 254.543,
+          "end": 254.664
+        },
+        {
+          "w": "the",
+          "start": 254.664,
+          "end": 254.785
+        },
+        {
+          "w": "number",
+          "start": 254.785,
+          "end": 255.148
+        },
+        {
+          "w": "four?",
+          "start": 255.148,
+          "end": 255.45
+        }
+      ]
+    },
+    {
+      "beat": "find2_a",
+      "speaker": "bobo",
+      "text": "Here! Four!",
+      "gap": 2.4,
+      "start": 260.56,
+      "end": 261.45,
+      "words": [
+        {
+          "w": "Here!",
+          "start": 260.61,
+          "end": 260.934
+        },
+        {
+          "w": "Four!",
+          "start": 260.934,
+          "end": 261.34
+        }
+      ]
+    },
+    {
+      "beat": "sun",
+      "speaker": "narrator",
+      "text": "It's getting dark. The cars drive home to the garage to sleep. Let's count down!",
+      "gap": 1.4,
+      "start": 263.85,
+      "end": 268.71,
+      "words": [
+        {
+          "w": "It's",
+          "start": 263.87,
+          "end": 264.056
+        },
+        {
+          "w": "getting",
+          "start": 264.056,
+          "end": 264.428
+        },
+        {
+          "w": "dark.",
+          "start": 264.428,
+          "end": 264.8
+        },
+        {
+          "w": "The",
+          "start": 265.07,
+          "end": 265.183
+        },
+        {
+          "w": "cars",
+          "start": 265.183,
+          "end": 265.52
+        },
+        {
+          "w": "drive",
+          "start": 265.52,
+          "end": 265.857
+        },
+        {
+          "w": "home",
+          "start": 265.857,
+          "end": 266.139
+        },
+        {
+          "w": "to",
+          "start": 266.139,
+          "end": 266.308
+        },
+        {
+          "w": "the",
+          "start": 266.308,
+          "end": 266.42
+        },
+        {
+          "w": "garage",
+          "start": 266.42,
+          "end": 266.814
+        },
+        {
+          "w": "to",
+          "start": 266.814,
+          "end": 266.982
+        },
+        {
+          "w": "sleep.",
+          "start": 266.982,
+          "end": 267.32
+        },
+        {
+          "w": "Let's",
+          "start": 267.66,
+          "end": 267.96
+        },
+        {
+          "w": "count",
+          "start": 267.96,
+          "end": 268.32
+        },
+        {
+          "w": "down!",
+          "start": 268.32,
+          "end": 268.62
+        }
+      ]
+    },
+    {
+      "beat": "d10",
+      "speaker": "leo",
+      "text": "Ten!",
+      "gap": 1.4,
+      "start": 270.11,
+      "end": 270.81,
+      "words": [
+        {
+          "w": "Ten!",
+          "start": 270.15,
+          "end": 270.68
+        }
+      ]
+    },
+    {
+      "beat": "d9",
+      "speaker": "bobo",
+      "text": "Nine!",
+      "gap": 1.4,
+      "start": 272.21,
+      "end": 272.82,
+      "words": [
+        {
+          "w": "Nine!",
+          "start": 272.24,
+          "end": 272.73
+        }
+      ]
+    },
+    {
+      "beat": "d8",
+      "speaker": "leo",
+      "text": "Eight!",
+      "gap": 1.4,
+      "start": 274.22,
+      "end": 274.88,
+      "words": [
+        {
+          "w": "Eight!",
+          "start": 274.25,
+          "end": 274.79
+        }
+      ]
+    },
+    {
+      "beat": "d7",
+      "speaker": "bobo",
+      "text": "Seven!",
+      "gap": 1.4,
+      "start": 276.28,
+      "end": 276.94,
+      "words": [
+        {
+          "w": "Seven!",
+          "start": 276.31,
+          "end": 276.83
+        }
+      ]
+    },
+    {
+      "beat": "d6",
+      "speaker": "leo",
+      "text": "Six!",
+      "gap": 1.4,
+      "start": 278.34,
+      "end": 279.0,
+      "words": [
+        {
+          "w": "Six!",
+          "start": 278.37,
+          "end": 278.93
+        }
+      ]
+    },
+    {
+      "beat": "d5",
+      "speaker": "bobo",
+      "text": "Five!",
+      "gap": 1.4,
+      "start": 280.4,
+      "end": 281.02,
+      "words": [
+        {
+          "w": "Five!",
+          "start": 280.46,
+          "end": 280.93
+        }
+      ]
+    },
+    {
+      "beat": "d4",
+      "speaker": "leo",
+      "text": "Four!",
+      "gap": 1.4,
+      "start": 282.42,
+      "end": 283.18,
+      "words": [
+        {
+          "w": "Four!",
+          "start": 282.46,
+          "end": 283.05
+        }
+      ]
+    },
+    {
+      "beat": "d3",
+      "speaker": "bobo",
+      "text": "Three!",
+      "gap": 1.4,
+      "start": 284.58,
+      "end": 285.19,
+      "words": [
+        {
+          "w": "Three!",
+          "start": 284.62,
+          "end": 285.1
+        }
+      ]
+    },
+    {
+      "beat": "d2",
+      "speaker": "leo",
+      "text": "Two!",
+      "gap": 1.4,
+      "start": 286.59,
+      "end": 287.31,
+      "words": [
+        {
+          "w": "Two!",
+          "start": 286.63,
+          "end": 287.2
+        }
+      ]
+    },
+    {
+      "beat": "d1",
+      "speaker": "bobo",
+      "text": "One!",
+      "gap": 1.4,
+      "start": 288.71,
+      "end": 289.25,
+      "words": [
+        {
+          "w": "One!",
+          "start": 288.74,
+          "end": 289.17
+        }
+      ]
+    },
+    {
+      "beat": "night",
+      "speaker": "leo",
+      "text": "Goodnight, cars!",
+      "gap": 2.0,
+      "start": 290.65,
+      "end": 291.88,
+      "words": [
+        {
+          "w": "Goodnight,",
+          "start": 290.68,
+          "end": 291.28
+        },
+        {
+          "w": "cars!",
+          "start": 291.28,
+          "end": 291.73
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "bobo",
+      "text": "Bye-bye, friends! Keep counting!",
+      "gap": 1.0,
+      "start": 293.88,
+      "end": 295.66,
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 293.9,
+          "end": 294.415
+        },
+        {
+          "w": "friends!",
+          "start": 294.415,
+          "end": 294.816
+        },
+        {
+          "w": "Keep",
+          "start": 294.816,
+          "end": 295.102
+        },
+        {
+          "w": "counting!",
+          "start": 295.102,
+          "end": 295.56
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "leo",
+      "text": "See you next time! Vroom!",
+      "gap": 1.0,
+      "start": 296.66,
+      "end": 298.32,
+      "words": [
+        {
+          "w": "See",
+          "start": 296.69,
+          "end": 296.908
+        },
+        {
+          "w": "you",
+          "start": 296.908,
+          "end": 297.072
+        },
+        {
+          "w": "next",
+          "start": 297.072,
+          "end": 297.4
+        },
+        {
+          "w": "time!",
+          "start": 297.4,
+          "end": 297.673
+        },
+        {
+          "w": "Vroom!",
+          "start": 297.673,
+          "end": 298.0
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast",
+  "beats": [
+    {
+      "id": "intro",
+      "start": 0,
+      "visual": "Hi, friends! Look at my big car parking lot!",
+      "end": 7.68
+    },
+    {
+      "id": "intro2",
+      "start": 7.68,
+      "visual": "Vroom, vroom! Here come the cars! Let's count them together!",
+      "end": 12.06
+    },
+    {
+      "id": "how",
+      "start": 12.06,
+      "visual": "Count with your fingers, like Leo!",
+      "end": 15.91
+    },
+    {
+      "id": "n1",
+      "start": 15.91,
+      "visual": "One.",
+      "end": 17.75
+    },
+    {
+      "id": "m1",
+      "start": 17.75,
+      "visual": "One red car!",
+      "end": 21.6
+    },
+    {
+      "id": "n2",
+      "start": 21.6,
+      "visual": "Two.",
+      "end": 23.54
+    },
+    {
+      "id": "m2",
+      "start": 23.54,
+      "visual": "Two orange cars!",
+      "end": 27.5
+    },
+    {
+      "id": "n3",
+      "start": 27.5,
+      "visual": "Three.",
+      "end": 29.46
+    },
+    {
+      "id": "m3",
+      "start": 29.46,
+      "visual": "Three yellow cars!",
+      "end": 33.44
+    },
+    {
+      "id": "gag1",
+      "start": 33.44,
+      "visual": "Beep, beep! Oops... that was my tummy!",
+      "end": 36.46
+    },
+    {
+      "id": "gag1b",
+      "start": 36.46,
+      "visual": "Ha ha! Bobo, you are not a car!",
+      "end": 40.97
+    },
+    {
+      "id": "n4",
+      "start": 40.97,
+      "visual": "Four.",
+      "end": 42.92
+    },
+    {
+      "id": "m4",
+      "start": 42.92,
+      "visual": "Four green cars!",
+      "end": 46.91
+    },
+    {
+      "id": "n5",
+      "start": 46.91,
+      "visual": "Five.",
+      "end": 48.9
+    },
+    {
+      "id": "m5",
+      "start": 48.9,
+      "visual": "Five blue cars!",
+      "end": 52.89
+    },
+    {
+      "id": "n6",
+      "start": 52.89,
+      "visual": "Six.",
+      "end": 54.88
+    },
+    {
+      "id": "m6",
+      "start": 54.88,
+      "visual": "Six purple cars!",
+      "end": 58.96
+    },
+    {
+      "id": "gag2",
+      "start": 58.96,
+      "visual": "Oh! Car number six wants to give Bobo a ride!",
+      "end": 62.73
+    },
+    {
+      "id": "gag2b",
+      "start": 62.73,
+      "visual": "Wheee! Beep beep! Back you go, little car!",
+      "end": 67.28
+    },
+    {
+      "id": "n7",
+      "start": 67.28,
+      "visual": "Seven.",
+      "end": 69.22
+    },
+    {
+      "id": "m7",
+      "start": 69.22,
+      "visual": "Seven pink cars!",
+      "end": 73.27
+    },
+    {
+      "id": "n8",
+      "start": 73.27,
+      "visual": "Eight.",
+      "end": 75.21
+    },
+    {
+      "id": "m8",
+      "start": 75.21,
+      "visual": "Eight sky blue cars!",
+      "end": 79.38
+    },
+    {
+      "id": "n9",
+      "start": 79.38,
+      "visual": "Nine.",
+      "end": 81.39
+    },
+    {
+      "id": "m9",
+      "start": 81.39,
+      "visual": "Nine leafy green cars!",
+      "end": 85.76
+    },
+    {
+      "id": "gag3",
+      "start": 85.76,
+      "visual": "Nine! Uh oh... I need more paws!",
+      "end": 89.99
+    },
+    {
+      "id": "n10",
+      "start": 89.99,
+      "visual": "Ten.",
+      "end": 91.96
+    },
+    {
+      "id": "m10",
+      "start": 91.96,
+      "visual": "Ten magenta cars!",
+      "end": 96.11
+    },
+    {
+      "id": "ten",
+      "start": 96.11,
+      "visual": "Ten cars! And ten fingers! Show me your ten fingers!",
+      "end": 102.24
+    },
+    {
+      "id": "you_count",
+      "start": 102.24,
+      "visual": "Now it's your turn to count them all! Ready? Point and count!",
+      "end": 107.15
+    },
+    {
+      "id": "y1",
+      "start": 107.15,
+      "visual": "One!",
+      "end": 109.23
+    },
+    {
+      "id": "y2",
+      "start": 109.23,
+      "visual": "Two!",
+      "end": 111.35
+    },
+    {
+      "id": "y3",
+      "start": 111.35,
+      "visual": "Three!",
+      "end": 113.55
+    },
+    {
+      "id": "y4",
+      "start": 113.55,
+      "visual": "Four!",
+      "end": 115.71
+    },
+    {
+      "id": "y5",
+      "start": 115.71,
+      "visual": "Five!",
+      "end": 117.85
+    },
+    {
+      "id": "y6",
+      "start": 117.85,
+      "visual": "Six!",
+      "end": 119.91
+    },
+    {
+      "id": "y7",
+      "start": 119.91,
+      "visual": "Seven!",
+      "end": 122.09
+    },
+    {
+      "id": "y8",
+      "start": 122.09,
+      "visual": "Eight!",
+      "end": 124.15
+    },
+    {
+      "id": "y9",
+      "start": 124.15,
+      "visual": "Nine!",
+      "end": 126.31
+    },
+    {
+      "id": "y10",
+      "start": 126.31,
+      "visual": "Ten!",
+      "end": 128.41
+    },
+    {
+      "id": "great",
+      "start": 128.41,
+      "visual": "Great counting, friends!",
+      "end": 131.89
+    },
+    {
+      "id": "fact",
+      "start": 131.89,
+      "visual": "Wow fact! Some cars run on electricity. They are very, very quiet!",
+      "end": 137.74
+    },
+    {
+      "id": "fact_b",
+      "start": 137.74,
+      "visual": "Shhh... quiet car! Not like my tummy!",
+      "end": 143.11
+    },
+    {
+      "id": "legs_q",
+      "start": 143.11,
+      "visual": "A car rolls on wheels! How many wheels? Let's count!",
+      "end": 147.28
+    },
+    {
+      "id": "legs_c",
+      "start": 147.28,
+      "visual": "One, two, three, four!",
+      "end": 150.23
+    },
+    {
+      "id": "legs_a",
+      "start": 150.23,
+      "visual": "Four wheels! Wow!",
+      "end": 153.78
+    },
+    {
+      "id": "honk",
+      "start": 153.78,
+      "visual": "And cars say beep, beep! Can you say it too? Beep, beep!",
+      "end": 159.61
+    },
+    {
+      "id": "road",
+      "start": 159.61,
+      "visual": "Now let's play car games on the road!",
+      "end": 162.88
+    },
+    {
+      "id": "more_q",
+      "start": 162.88,
+      "visual": "Game time! Which road has more cars?",
+      "end": 170.31
+    },
+    {
+      "id": "more_a",
+      "start": 170.31,
+      "visual": "This one! Five is more than three!",
+      "end": 174.84
+    },
+    {
+      "id": "less_q",
+      "start": 174.84,
+      "visual": "Now, which road has fewer cars?",
+      "end": 181.9
+    },
+    {
+      "id": "less_a",
+      "start": 181.9,
+      "visual": "This one! Two is less than four!",
+      "end": 185.94
+    },
+    {
+      "id": "add_q",
+      "start": 185.94,
+      "visual": "Two cars are on the road. One more drives in. How many now?",
+      "end": 194.74
+    },
+    {
+      "id": "add_a",
+      "start": 194.74,
+      "visual": "Three! Two and one make three!",
+      "end": 198.93
+    },
+    {
+      "id": "add2_q",
+      "start": 198.93,
+      "visual": "Three cars. Two more drive in. How many now?",
+      "end": 206.78
+    },
+    {
+      "id": "add2_a",
+      "start": 206.78,
+      "visual": "Five! Three and two make five!",
+      "end": 210.78
+    },
+    {
+      "id": "sub_q",
+      "start": 210.78,
+      "visual": "Five cars. Oh! Two drive away. How many are left?",
+      "end": 219.19
+    },
+    {
+      "id": "sub_a",
+      "start": 219.19,
+      "visual": "Three! Five take away two is three!",
+      "end": 223.8
+    },
+    {
+      "id": "col_q",
+      "start": 223.8,
+      "visual": "Color quiz! What color is car number one?",
+      "end": 231.35
+    },
+    {
+      "id": "col_a",
+      "start": 231.35,
+      "visual": "Red!",
+      "end": 234.25
+    },
+    {
+      "id": "col2_q",
+      "start": 234.25,
+      "visual": "And what color is car number five?",
+      "end": 241.15
+    },
+    {
+      "id": "col2_a",
+      "start": 241.15,
+      "visual": "Blue!",
+      "end": 244.11
+    },
+    {
+      "id": "find_q",
+      "start": 244.11,
+      "visual": "Where is the number seven?",
+      "end": 250.54
+    },
+    {
+      "id": "find_a",
+      "start": 250.54,
+      "visual": "Here! Seven!",
+      "end": 253.85
+    },
+    {
+      "id": "find2_q",
+      "start": 253.85,
+      "visual": "And where is the number four?",
+      "end": 260.36
+    },
+    {
+      "id": "find2_a",
+      "start": 260.36,
+      "visual": "Here! Four!",
+      "end": 263.65
+    },
+    {
+      "id": "sun",
+      "start": 263.65,
+      "visual": "It's getting dark. The cars drive home to the garage to sleep. Let's count down!",
+      "end": 269.91
+    },
+    {
+      "id": "d10",
+      "start": 269.91,
+      "visual": "Ten!",
+      "end": 272.01
+    },
+    {
+      "id": "d9",
+      "start": 272.01,
+      "visual": "Nine!",
+      "end": 274.02
+    },
+    {
+      "id": "d8",
+      "start": 274.02,
+      "visual": "Eight!",
+      "end": 276.08
+    },
+    {
+      "id": "d7",
+      "start": 276.08,
+      "visual": "Seven!",
+      "end": 278.14
+    },
+    {
+      "id": "d6",
+      "start": 278.14,
+      "visual": "Six!",
+      "end": 280.2
+    },
+    {
+      "id": "d5",
+      "start": 280.2,
+      "visual": "Five!",
+      "end": 282.22
+    },
+    {
+      "id": "d4",
+      "start": 282.22,
+      "visual": "Four!",
+      "end": 284.38
+    },
+    {
+      "id": "d3",
+      "start": 284.38,
+      "visual": "Three!",
+      "end": 286.39
+    },
+    {
+      "id": "d2",
+      "start": 286.39,
+      "visual": "Two!",
+      "end": 288.51
+    },
+    {
+      "id": "d1",
+      "start": 288.51,
+      "visual": "One!",
+      "end": 290.45
+    },
+    {
+      "id": "night",
+      "start": 290.45,
+      "visual": "Goodnight, cars!",
+      "end": 293.68
+    },
+    {
+      "id": "bye",
+      "start": 293.68,
+      "visual": "Bye-bye, friends! Keep counting!",
+      "end": 296.46
+    },
+    {
+      "id": "bye2",
+      "start": 296.46,
+      "visual": "See you next time! Vroom!",
+      "end": 303.3
+    }
+  ]
+}
