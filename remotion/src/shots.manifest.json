@@ -216,6 +216,14 @@
   "transparent": false
  },
  {
+  "id": "KidsMarathonIntroMega",
+  "durationInSeconds": 9,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "KidsMarathonIntroP2",
   "durationInSeconds": 9,
   "fps": 30,
