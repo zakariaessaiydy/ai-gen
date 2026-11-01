@@ -292,7 +292,7 @@ export const SHORTS: ShortCard[] = [
  },
  {
   "day": 54,
-  "w": 1440,
+  "w": 1080,
   "lines": [
    "A SNOWFLAKE",
    "HAS 6 ARMS!"
