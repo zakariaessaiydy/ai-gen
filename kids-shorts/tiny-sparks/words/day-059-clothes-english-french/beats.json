@@ -1,0 +1,3316 @@
+{
+  "id": "day-059",
+  "series": "tiny-sparks",
+  "episode": 59,
+  "title": "Clothes in English and French",
+  "composition": "KidsWords059",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 334.2
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-4%"
+    },
+    "narrator_fr": {
+      "kokoro": "ff_siwis",
+      "lang": "fr",
+      "rate": "-6%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -6,
+    "duck": 8,
+    "start": 3.7,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "intro",
+      "speaker": "mila",
+      "text": "Hi, friends! Look, it's our big clothes closet!",
+      "gap": 1.0,
+      "start": 3.9,
+      "end": 6.86,
+      "words": [
+        {
+          "w": "Hi,",
+          "start": 3.94,
+          "end": 4.203
+        },
+        {
+          "w": "friends!",
+          "start": 4.203,
+          "end": 4.664
+        },
+        {
+          "w": "Look,",
+          "start": 4.664,
+          "end": 4.928
+        },
+        {
+          "w": "it's",
+          "start": 4.928,
+          "end": 5.125
+        },
+        {
+          "w": "our",
+          "start": 5.125,
+          "end": 5.389
+        },
+        {
+          "w": "big",
+          "start": 5.389,
+          "end": 5.652
+        },
+        {
+          "w": "clothes",
+          "start": 5.652,
+          "end": 6.113
+        },
+        {
+          "w": "closet!",
+          "start": 6.113,
+          "end": 6.64
+        }
+      ]
+    },
+    {
+      "beat": "intro2",
+      "speaker": "leo",
+      "text": "Let's learn the clothes, in English, and in French!",
+      "gap": 1.2,
+      "start": 7.86,
+      "end": 10.56,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 7.89,
+          "end": 8.166
+        },
+        {
+          "w": "learn",
+          "start": 8.166,
+          "end": 8.442
+        },
+        {
+          "w": "the",
+          "start": 8.442,
+          "end": 8.553
+        },
+        {
+          "w": "clothes,",
+          "start": 8.553,
+          "end": 8.94
+        },
+        {
+          "w": "in",
+          "start": 8.94,
+          "end": 9.105
+        },
+        {
+          "w": "English,",
+          "start": 9.105,
+          "end": 9.492
+        },
+        {
+          "w": "and",
+          "start": 9.492,
+          "end": 9.658
+        },
+        {
+          "w": "in",
+          "start": 9.658,
+          "end": 9.823
+        },
+        {
+          "w": "French!",
+          "start": 9.823,
+          "end": 10.21
+        }
+      ]
+    },
+    {
+      "beat": "what",
+      "speaker": "mila",
+      "text": "What's inside? Let's see!",
+      "gap": 1.8,
+      "start": 11.76,
+      "end": 13.48,
+      "words": [
+        {
+          "w": "What's",
+          "start": 11.81,
+          "end": 12.186
+        },
+        {
+          "w": "inside?",
+          "start": 12.186,
+          "end": 12.713
+        },
+        {
+          "w": "Let's",
+          "start": 12.713,
+          "end": 13.089
+        },
+        {
+          "w": "see!",
+          "start": 13.089,
+          "end": 13.39
+        }
+      ]
+    },
+    {
+      "beat": "w0a",
+      "speaker": "mila",
+      "text": "Hat.",
+      "gap": 1.0,
+      "start": 15.28,
+      "end": 16.11,
+      "words": [
+        {
+          "w": "Hat.",
+          "start": 15.37,
+          "end": 15.99
+        }
+      ]
+    },
+    {
+      "beat": "w0b",
+      "speaker": "mila",
+      "text": "Hat!",
+      "gap": 1.0,
+      "start": 17.11,
+      "end": 17.93,
+      "words": [
+        {
+          "w": "Hat!",
+          "start": 17.2,
+          "end": 17.84
+        }
+      ]
+    },
+    {
+      "beat": "w0c",
+      "speaker": "mila",
+      "text": "Your turn! Hat!",
+      "gap": 2.0,
+      "start": 18.93,
+      "end": 20.27,
+      "words": [
+        {
+          "w": "Your",
+          "start": 19.03,
+          "end": 19.312
+        },
+        {
+          "w": "turn!",
+          "start": 19.312,
+          "end": 19.783
+        },
+        {
+          "w": "Hat!",
+          "start": 19.783,
+          "end": 20.16
+        }
+      ]
+    },
+    {
+      "beat": "w0f",
+      "speaker": "narrator_fr",
+      "text": "En français : le chapeau.",
+      "gap": 1.2,
+      "start": 22.27,
+      "end": 23.63,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 22.3,
+          "end": 22.452
+        },
+        {
+          "w": "français",
+          "start": 22.452,
+          "end": 22.91
+        },
+        {
+          "w": "le",
+          "start": 22.91,
+          "end": 23.139
+        },
+        {
+          "w": "chapeau.",
+          "start": 23.139,
+          "end": 23.52
+        }
+      ]
+    },
+    {
+      "beat": "w0g",
+      "speaker": "narrator_fr",
+      "text": "Le chapeau !",
+      "gap": 1.6,
+      "start": 24.83,
+      "end": 25.76,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 24.86,
+          "end": 25.164
+        },
+        {
+          "w": "chapeau",
+          "start": 25.164,
+          "end": 25.67
+        }
+      ]
+    },
+    {
+      "beat": "w0u",
+      "speaker": "leo",
+      "text": "Leo puts on his hat! So cool!",
+      "gap": 2.6,
+      "start": 27.36,
+      "end": 29.47,
+      "words": [
+        {
+          "w": "Leo",
+          "start": 27.39,
+          "end": 27.731
+        },
+        {
+          "w": "puts",
+          "start": 27.731,
+          "end": 28.015
+        },
+        {
+          "w": "on",
+          "start": 28.015,
+          "end": 28.185
+        },
+        {
+          "w": "his",
+          "start": 28.185,
+          "end": 28.412
+        },
+        {
+          "w": "hat!",
+          "start": 28.412,
+          "end": 28.639
+        },
+        {
+          "w": "So",
+          "start": 28.639,
+          "end": 28.866
+        },
+        {
+          "w": "cool!",
+          "start": 28.866,
+          "end": 29.15
+        }
+      ]
+    },
+    {
+      "beat": "w1a",
+      "speaker": "mila",
+      "text": "T-shirt.",
+      "gap": 1.0,
+      "start": 32.07,
+      "end": 33.04,
+      "words": [
+        {
+          "w": "T-shirt.",
+          "start": 32.12,
+          "end": 32.92
+        }
+      ]
+    },
+    {
+      "beat": "w1b",
+      "speaker": "mila",
+      "text": "T-shirt!",
+      "gap": 1.0,
+      "start": 34.04,
+      "end": 35.02,
+      "words": [
+        {
+          "w": "T-shirt!",
+          "start": 34.11,
+          "end": 34.89
+        }
+      ]
+    },
+    {
+      "beat": "w1c",
+      "speaker": "mila",
+      "text": "Your turn! T-shirt!",
+      "gap": 2.0,
+      "start": 36.02,
+      "end": 37.63,
+      "words": [
+        {
+          "w": "Your",
+          "start": 36.07,
+          "end": 36.322
+        },
+        {
+          "w": "turn!",
+          "start": 36.322,
+          "end": 36.743
+        },
+        {
+          "w": "T-shirt!",
+          "start": 36.743,
+          "end": 37.5
+        }
+      ]
+    },
+    {
+      "beat": "w1f",
+      "speaker": "narrator_fr",
+      "text": "En français : le tee-shirt.",
+      "gap": 1.2,
+      "start": 39.63,
+      "end": 41.63,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 39.67,
+          "end": 39.831
+        },
+        {
+          "w": "français",
+          "start": 39.831,
+          "end": 40.313
+        },
+        {
+          "w": "le",
+          "start": 40.313,
+          "end": 40.555
+        },
+        {
+          "w": "tee-shirt.",
+          "start": 40.555,
+          "end": 41.52
+        }
+      ]
+    },
+    {
+      "beat": "w1g",
+      "speaker": "narrator_fr",
+      "text": "Le tee-shirt !",
+      "gap": 1.6,
+      "start": 42.83,
+      "end": 44.22,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 42.86,
+          "end": 43.112
+        },
+        {
+          "w": "tee-shirt",
+          "start": 43.112,
+          "end": 44.12
+        }
+      ]
+    },
+    {
+      "beat": "w1u",
+      "speaker": "leo",
+      "text": "A T-shirt with a big yellow star!",
+      "gap": 2.6,
+      "start": 45.82,
+      "end": 48.12,
+      "words": [
+        {
+          "w": "A",
+          "start": 45.85,
+          "end": 46.022
+        },
+        {
+          "w": "T-shirt",
+          "start": 46.022,
+          "end": 46.538
+        },
+        {
+          "w": "with",
+          "start": 46.538,
+          "end": 46.71
+        },
+        {
+          "w": "a",
+          "start": 46.71,
+          "end": 46.882
+        },
+        {
+          "w": "big",
+          "start": 46.882,
+          "end": 47.112
+        },
+        {
+          "w": "yellow",
+          "start": 47.112,
+          "end": 47.456
+        },
+        {
+          "w": "star!",
+          "start": 47.456,
+          "end": 47.8
+        }
+      ]
+    },
+    {
+      "beat": "w2a",
+      "speaker": "mila",
+      "text": "Dress.",
+      "gap": 1.0,
+      "start": 50.72,
+      "end": 51.59,
+      "words": [
+        {
+          "w": "Dress.",
+          "start": 50.82,
+          "end": 51.48
+        }
+      ]
+    },
+    {
+      "beat": "w2b",
+      "speaker": "mila",
+      "text": "Dress!",
+      "gap": 1.0,
+      "start": 52.59,
+      "end": 53.49,
+      "words": [
+        {
+          "w": "Dress!",
+          "start": 52.7,
+          "end": 53.36
+        }
+      ]
+    },
+    {
+      "beat": "w2c",
+      "speaker": "mila",
+      "text": "Your turn! Dress!",
+      "gap": 2.0,
+      "start": 54.49,
+      "end": 55.98,
+      "words": [
+        {
+          "w": "Your",
+          "start": 54.62,
+          "end": 54.902
+        },
+        {
+          "w": "turn!",
+          "start": 54.902,
+          "end": 55.371
+        },
+        {
+          "w": "Dress!",
+          "start": 55.371,
+          "end": 55.84
+        }
+      ]
+    },
+    {
+      "beat": "w2f",
+      "speaker": "narrator_fr",
+      "text": "En français : la robe.",
+      "gap": 1.2,
+      "start": 57.98,
+      "end": 59.39,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 58.02,
+          "end": 58.184
+        },
+        {
+          "w": "français",
+          "start": 58.184,
+          "end": 58.676
+        },
+        {
+          "w": "la",
+          "start": 58.676,
+          "end": 58.922
+        },
+        {
+          "w": "robe.",
+          "start": 58.922,
+          "end": 59.25
+        }
+      ]
+    },
+    {
+      "beat": "w2g",
+      "speaker": "narrator_fr",
+      "text": "La robe !",
+      "gap": 1.6,
+      "start": 60.59,
+      "end": 61.59,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 60.62,
+          "end": 60.989
+        },
+        {
+          "w": "robe",
+          "start": 60.989,
+          "end": 61.48
+        }
+      ]
+    },
+    {
+      "beat": "w2u",
+      "speaker": "mila",
+      "text": "Mila twirls in her dress! Twirl, twirl!",
+      "gap": 2.6,
+      "start": 63.19,
+      "end": 65.66,
+      "words": [
+        {
+          "w": "Mila",
+          "start": 63.22,
+          "end": 63.607
+        },
+        {
+          "w": "twirls",
+          "start": 63.607,
+          "end": 64.058
+        },
+        {
+          "w": "in",
+          "start": 64.058,
+          "end": 64.251
+        },
+        {
+          "w": "her",
+          "start": 64.251,
+          "end": 64.444
+        },
+        {
+          "w": "dress!",
+          "start": 64.444,
+          "end": 64.767
+        },
+        {
+          "w": "Twirl,",
+          "start": 64.767,
+          "end": 65.153
+        },
+        {
+          "w": "twirl!",
+          "start": 65.153,
+          "end": 65.54
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "mila",
+      "text": "Quiz time! Where is the T-shirt?",
+      "gap": 5.0,
+      "start": 68.26,
+      "end": 70.28,
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 68.3,
+          "end": 68.648
+        },
+        {
+          "w": "time!",
+          "start": 68.648,
+          "end": 68.996
+        },
+        {
+          "w": "Where",
+          "start": 68.996,
+          "end": 69.275
+        },
+        {
+          "w": "is",
+          "start": 69.275,
+          "end": 69.414
+        },
+        {
+          "w": "the",
+          "start": 69.414,
+          "end": 69.553
+        },
+        {
+          "w": "T-shirt?",
+          "start": 69.553,
+          "end": 70.18
+        }
+      ]
+    },
+    {
+      "beat": "q2a",
+      "speaker": "leo",
+      "text": "Here! The T-shirt!",
+      "gap": 2.4,
+      "start": 75.28,
+      "end": 76.55,
+      "words": [
+        {
+          "w": "Here!",
+          "start": 75.33,
+          "end": 75.607
+        },
+        {
+          "w": "The",
+          "start": 75.607,
+          "end": 75.746
+        },
+        {
+          "w": "T-shirt!",
+          "start": 75.746,
+          "end": 76.37
+        }
+      ]
+    },
+    {
+      "beat": "w3a",
+      "speaker": "mila",
+      "text": "Pants.",
+      "gap": 1.0,
+      "start": 78.95,
+      "end": 79.84,
+      "words": [
+        {
+          "w": "Pants.",
+          "start": 79.07,
+          "end": 79.73
+        }
+      ]
+    },
+    {
+      "beat": "w3b",
+      "speaker": "mila",
+      "text": "Pants!",
+      "gap": 1.0,
+      "start": 80.84,
+      "end": 81.73,
+      "words": [
+        {
+          "w": "Pants!",
+          "start": 80.96,
+          "end": 81.62
+        }
+      ]
+    },
+    {
+      "beat": "w3c",
+      "speaker": "mila",
+      "text": "Your turn! Pants!",
+      "gap": 2.0,
+      "start": 82.73,
+      "end": 84.18,
+      "words": [
+        {
+          "w": "Your",
+          "start": 82.82,
+          "end": 83.086
+        },
+        {
+          "w": "turn!",
+          "start": 83.086,
+          "end": 83.529
+        },
+        {
+          "w": "Pants!",
+          "start": 83.529,
+          "end": 84.06
+        }
+      ]
+    },
+    {
+      "beat": "w3f",
+      "speaker": "narrator_fr",
+      "text": "En français : le pantalon.",
+      "gap": 1.2,
+      "start": 86.18,
+      "end": 87.71,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 86.21,
+          "end": 86.362
+        },
+        {
+          "w": "français",
+          "start": 86.362,
+          "end": 86.819
+        },
+        {
+          "w": "le",
+          "start": 86.819,
+          "end": 87.047
+        },
+        {
+          "w": "pantalon.",
+          "start": 87.047,
+          "end": 87.58
+        }
+      ]
+    },
+    {
+      "beat": "w3g",
+      "speaker": "narrator_fr",
+      "text": "Le pantalon !",
+      "gap": 1.6,
+      "start": 88.91,
+      "end": 89.93,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 88.94,
+          "end": 89.207
+        },
+        {
+          "w": "pantalon",
+          "start": 89.207,
+          "end": 89.83
+        }
+      ]
+    },
+    {
+      "beat": "w3u",
+      "speaker": "leo",
+      "text": "Leo puts his pants on... backwards! Oops! Ha ha!",
+      "gap": 2.6,
+      "start": 91.53,
+      "end": 94.81,
+      "words": [
+        {
+          "w": "Leo",
+          "start": 91.57,
+          "end": 91.955
+        },
+        {
+          "w": "puts",
+          "start": 91.955,
+          "end": 92.276
+        },
+        {
+          "w": "his",
+          "start": 92.276,
+          "end": 92.533
+        },
+        {
+          "w": "pants",
+          "start": 92.533,
+          "end": 92.919
+        },
+        {
+          "w": "on...",
+          "start": 92.919,
+          "end": 93.111
+        },
+        {
+          "w": "backwards!",
+          "start": 93.111,
+          "end": 93.625
+        },
+        {
+          "w": "Oops!",
+          "start": 93.625,
+          "end": 93.946
+        },
+        {
+          "w": "Ha",
+          "start": 93.946,
+          "end": 94.203
+        },
+        {
+          "w": "ha!",
+          "start": 94.203,
+          "end": 94.46
+        }
+      ]
+    },
+    {
+      "beat": "w4a",
+      "speaker": "mila",
+      "text": "Socks.",
+      "gap": 1.0,
+      "start": 97.41,
+      "end": 98.32,
+      "words": [
+        {
+          "w": "Socks.",
+          "start": 97.47,
+          "end": 98.21
+        }
+      ]
+    },
+    {
+      "beat": "w4b",
+      "speaker": "mila",
+      "text": "Socks!",
+      "gap": 1.0,
+      "start": 99.32,
+      "end": 100.23,
+      "words": [
+        {
+          "w": "Socks!",
+          "start": 99.38,
+          "end": 100.12
+        }
+      ]
+    },
+    {
+      "beat": "w4c",
+      "speaker": "mila",
+      "text": "Your turn! Socks!",
+      "gap": 2.0,
+      "start": 101.23,
+      "end": 102.7,
+      "words": [
+        {
+          "w": "Your",
+          "start": 101.28,
+          "end": 101.556
+        },
+        {
+          "w": "turn!",
+          "start": 101.556,
+          "end": 102.017
+        },
+        {
+          "w": "Socks!",
+          "start": 102.017,
+          "end": 102.57
+        }
+      ]
+    },
+    {
+      "beat": "w4f",
+      "speaker": "narrator_fr",
+      "text": "En français : les chaussettes.",
+      "gap": 1.2,
+      "start": 104.7,
+      "end": 106.26,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 104.74,
+          "end": 104.906
+        },
+        {
+          "w": "français",
+          "start": 104.906,
+          "end": 105.404
+        },
+        {
+          "w": "les",
+          "start": 105.404,
+          "end": 105.652
+        },
+        {
+          "w": "chaussettes.",
+          "start": 105.652,
+          "end": 106.15
+        }
+      ]
+    },
+    {
+      "beat": "w4g",
+      "speaker": "narrator_fr",
+      "text": "Les chaussettes !",
+      "gap": 1.6,
+      "start": 107.46,
+      "end": 108.57,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Les",
+          "start": 107.5,
+          "end": 107.82
+        },
+        {
+          "w": "chaussettes",
+          "start": 107.82,
+          "end": 108.46
+        }
+      ]
+    },
+    {
+      "beat": "w4u",
+      "speaker": "mila",
+      "text": "Socks on our feet! Wiggle your toes!",
+      "gap": 2.6,
+      "start": 110.17,
+      "end": 112.49,
+      "words": [
+        {
+          "w": "Socks",
+          "start": 110.21,
+          "end": 110.537
+        },
+        {
+          "w": "on",
+          "start": 110.537,
+          "end": 110.7
+        },
+        {
+          "w": "our",
+          "start": 110.7,
+          "end": 110.918
+        },
+        {
+          "w": "feet!",
+          "start": 110.918,
+          "end": 111.19
+        },
+        {
+          "w": "Wiggle",
+          "start": 111.3,
+          "end": 111.733
+        },
+        {
+          "w": "your",
+          "start": 111.733,
+          "end": 111.949
+        },
+        {
+          "w": "toes!",
+          "start": 111.949,
+          "end": 112.31
+        }
+      ]
+    },
+    {
+      "beat": "w5a",
+      "speaker": "mila",
+      "text": "Shoes.",
+      "gap": 1.0,
+      "start": 115.09,
+      "end": 116.01,
+      "words": [
+        {
+          "w": "Shoes.",
+          "start": 115.14,
+          "end": 115.86
+        }
+      ]
+    },
+    {
+      "beat": "w5b",
+      "speaker": "mila",
+      "text": "Shoes!",
+      "gap": 1.0,
+      "start": 117.01,
+      "end": 117.91,
+      "words": [
+        {
+          "w": "Shoes!",
+          "start": 117.07,
+          "end": 117.76
+        }
+      ]
+    },
+    {
+      "beat": "w5c",
+      "speaker": "mila",
+      "text": "Your turn! Shoes!",
+      "gap": 2.0,
+      "start": 118.91,
+      "end": 120.36,
+      "words": [
+        {
+          "w": "Your",
+          "start": 118.96,
+          "end": 119.246
+        },
+        {
+          "w": "turn!",
+          "start": 119.246,
+          "end": 119.723
+        },
+        {
+          "w": "Shoes!",
+          "start": 119.723,
+          "end": 120.2
+        }
+      ]
+    },
+    {
+      "beat": "w5f",
+      "speaker": "narrator_fr",
+      "text": "En français : les chaussures.",
+      "gap": 1.2,
+      "start": 122.36,
+      "end": 123.87,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 122.4,
+          "end": 122.559
+        },
+        {
+          "w": "français",
+          "start": 122.559,
+          "end": 123.035
+        },
+        {
+          "w": "les",
+          "start": 123.035,
+          "end": 123.274
+        },
+        {
+          "w": "chaussures.",
+          "start": 123.274,
+          "end": 123.75
+        }
+      ]
+    },
+    {
+      "beat": "w5g",
+      "speaker": "narrator_fr",
+      "text": "Les chaussures !",
+      "gap": 1.6,
+      "start": 125.07,
+      "end": 126.13,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Les",
+          "start": 125.11,
+          "end": 125.41
+        },
+        {
+          "w": "chaussures",
+          "start": 125.41,
+          "end": 126.01
+        }
+      ]
+    },
+    {
+      "beat": "w5u",
+      "speaker": "leo",
+      "text": "Shoes for running! Ready, set, go!",
+      "gap": 2.6,
+      "start": 127.73,
+      "end": 129.94,
+      "words": [
+        {
+          "w": "Shoes",
+          "start": 127.76,
+          "end": 128.092
+        },
+        {
+          "w": "for",
+          "start": 128.092,
+          "end": 128.358
+        },
+        {
+          "w": "running!",
+          "start": 128.358,
+          "end": 128.756
+        },
+        {
+          "w": "Ready,",
+          "start": 128.756,
+          "end": 129.089
+        },
+        {
+          "w": "set,",
+          "start": 129.089,
+          "end": 129.354
+        },
+        {
+          "w": "go!",
+          "start": 129.354,
+          "end": 129.62
+        }
+      ]
+    },
+    {
+      "beat": "q5",
+      "speaker": "mila",
+      "text": "Quiz time! Where are the shoes?",
+      "gap": 5.0,
+      "start": 132.54,
+      "end": 134.42,
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 132.58,
+          "end": 132.926
+        },
+        {
+          "w": "time!",
+          "start": 132.926,
+          "end": 133.272
+        },
+        {
+          "w": "Where",
+          "start": 133.272,
+          "end": 133.548
+        },
+        {
+          "w": "are",
+          "start": 133.548,
+          "end": 133.756
+        },
+        {
+          "w": "the",
+          "start": 133.756,
+          "end": 133.894
+        },
+        {
+          "w": "shoes?",
+          "start": 133.894,
+          "end": 134.24
+        }
+      ]
+    },
+    {
+      "beat": "q5a",
+      "speaker": "leo",
+      "text": "Here! The shoes!",
+      "gap": 2.4,
+      "start": 139.42,
+      "end": 140.62,
+      "words": [
+        {
+          "w": "Here!",
+          "start": 139.48,
+          "end": 139.818
+        },
+        {
+          "w": "The",
+          "start": 139.818,
+          "end": 139.987
+        },
+        {
+          "w": "shoes!",
+          "start": 139.987,
+          "end": 140.41
+        }
+      ]
+    },
+    {
+      "beat": "w6a",
+      "speaker": "mila",
+      "text": "Coat.",
+      "gap": 1.0,
+      "start": 143.02,
+      "end": 143.82,
+      "words": [
+        {
+          "w": "Coat.",
+          "start": 143.09,
+          "end": 143.71
+        }
+      ]
+    },
+    {
+      "beat": "w6b",
+      "speaker": "mila",
+      "text": "Coat!",
+      "gap": 1.0,
+      "start": 144.82,
+      "end": 145.6,
+      "words": [
+        {
+          "w": "Coat!",
+          "start": 144.87,
+          "end": 145.49
+        }
+      ]
+    },
+    {
+      "beat": "w6c",
+      "speaker": "mila",
+      "text": "Your turn! Coat!",
+      "gap": 2.0,
+      "start": 146.6,
+      "end": 147.98,
+      "words": [
+        {
+          "w": "Your",
+          "start": 146.7,
+          "end": 146.97
+        },
+        {
+          "w": "turn!",
+          "start": 146.97,
+          "end": 147.42
+        },
+        {
+          "w": "Coat!",
+          "start": 147.42,
+          "end": 147.87
+        }
+      ]
+    },
+    {
+      "beat": "w6f",
+      "speaker": "narrator_fr",
+      "text": "En français : le manteau.",
+      "gap": 1.2,
+      "start": 149.98,
+      "end": 151.34,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 150.01,
+          "end": 150.161
+        },
+        {
+          "w": "français",
+          "start": 150.161,
+          "end": 150.615
+        },
+        {
+          "w": "le",
+          "start": 150.615,
+          "end": 150.842
+        },
+        {
+          "w": "manteau.",
+          "start": 150.842,
+          "end": 151.22
+        }
+      ]
+    },
+    {
+      "beat": "w6g",
+      "speaker": "narrator_fr",
+      "text": "Le manteau !",
+      "gap": 1.6,
+      "start": 152.54,
+      "end": 153.5,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 152.57,
+          "end": 152.881
+        },
+        {
+          "w": "manteau",
+          "start": 152.881,
+          "end": 153.4
+        }
+      ]
+    },
+    {
+      "beat": "w6u",
+      "speaker": "mila",
+      "text": "A warm coat for a cold, cold day!",
+      "gap": 2.6,
+      "start": 155.1,
+      "end": 157.5,
+      "words": [
+        {
+          "w": "A",
+          "start": 155.13,
+          "end": 155.315
+        },
+        {
+          "w": "warm",
+          "start": 155.315,
+          "end": 155.685
+        },
+        {
+          "w": "coat",
+          "start": 155.685,
+          "end": 155.993
+        },
+        {
+          "w": "for",
+          "start": 155.993,
+          "end": 156.239
+        },
+        {
+          "w": "a",
+          "start": 156.239,
+          "end": 156.424
+        },
+        {
+          "w": "cold,",
+          "start": 156.424,
+          "end": 156.794
+        },
+        {
+          "w": "cold",
+          "start": 156.794,
+          "end": 157.164
+        },
+        {
+          "w": "day!",
+          "start": 157.164,
+          "end": 157.41
+        }
+      ]
+    },
+    {
+      "beat": "w7a",
+      "speaker": "mila",
+      "text": "Scarf.",
+      "gap": 1.0,
+      "start": 160.1,
+      "end": 161.01,
+      "words": [
+        {
+          "w": "Scarf.",
+          "start": 160.19,
+          "end": 160.86
+        }
+      ]
+    },
+    {
+      "beat": "w7b",
+      "speaker": "mila",
+      "text": "Scarf!",
+      "gap": 1.0,
+      "start": 162.01,
+      "end": 162.91,
+      "words": [
+        {
+          "w": "Scarf!",
+          "start": 162.08,
+          "end": 162.77
+        }
+      ]
+    },
+    {
+      "beat": "w7c",
+      "speaker": "mila",
+      "text": "Your turn! Scarf!",
+      "gap": 2.0,
+      "start": 163.91,
+      "end": 165.35,
+      "words": [
+        {
+          "w": "Your",
+          "start": 163.96,
+          "end": 164.216
+        },
+        {
+          "w": "turn!",
+          "start": 164.216,
+          "end": 164.643
+        },
+        {
+          "w": "Scarf!",
+          "start": 164.643,
+          "end": 165.24
+        }
+      ]
+    },
+    {
+      "beat": "w7f",
+      "speaker": "narrator_fr",
+      "text": "En français : l'écharpe.",
+      "gap": 1.2,
+      "start": 167.35,
+      "end": 168.8,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 167.38,
+          "end": 167.555
+        },
+        {
+          "w": "français",
+          "start": 167.555,
+          "end": 168.079
+        },
+        {
+          "w": "l'écharpe.",
+          "start": 168.079,
+          "end": 168.69
+        }
+      ]
+    },
+    {
+      "beat": "w7g",
+      "speaker": "narrator_fr",
+      "text": "L'écharpe !",
+      "gap": 1.6,
+      "start": 170.0,
+      "end": 170.95,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "L'écharpe",
+          "start": 170.03,
+          "end": 170.88
+        }
+      ]
+    },
+    {
+      "beat": "w7u",
+      "speaker": "mila",
+      "text": "The scarf goes round and round my neck!",
+      "gap": 2.6,
+      "start": 172.55,
+      "end": 174.99,
+      "words": [
+        {
+          "w": "The",
+          "start": 172.58,
+          "end": 172.705
+        },
+        {
+          "w": "scarf",
+          "start": 172.705,
+          "end": 173.142
+        },
+        {
+          "w": "goes",
+          "start": 173.142,
+          "end": 173.454
+        },
+        {
+          "w": "round",
+          "start": 173.454,
+          "end": 173.829
+        },
+        {
+          "w": "and",
+          "start": 173.829,
+          "end": 174.016
+        },
+        {
+          "w": "round",
+          "start": 174.016,
+          "end": 174.391
+        },
+        {
+          "w": "my",
+          "start": 174.391,
+          "end": 174.64
+        },
+        {
+          "w": "neck!",
+          "start": 174.64,
+          "end": 174.89
+        }
+      ]
+    },
+    {
+      "beat": "w8a",
+      "speaker": "mila",
+      "text": "Gloves.",
+      "gap": 1.0,
+      "start": 177.59,
+      "end": 178.57,
+      "words": [
+        {
+          "w": "Gloves.",
+          "start": 177.68,
+          "end": 178.42
+        }
+      ]
+    },
+    {
+      "beat": "w8b",
+      "speaker": "mila",
+      "text": "Gloves!",
+      "gap": 1.0,
+      "start": 179.57,
+      "end": 180.55,
+      "words": [
+        {
+          "w": "Gloves!",
+          "start": 179.66,
+          "end": 180.4
+        }
+      ]
+    },
+    {
+      "beat": "w8c",
+      "speaker": "mila",
+      "text": "Your turn! Gloves!",
+      "gap": 2.0,
+      "start": 181.55,
+      "end": 183.0,
+      "words": [
+        {
+          "w": "Your",
+          "start": 181.59,
+          "end": 181.864
+        },
+        {
+          "w": "turn!",
+          "start": 181.864,
+          "end": 182.321
+        },
+        {
+          "w": "Gloves!",
+          "start": 182.321,
+          "end": 182.87
+        }
+      ]
+    },
+    {
+      "beat": "w8f",
+      "speaker": "narrator_fr",
+      "text": "En français : les gants.",
+      "gap": 1.2,
+      "start": 185.0,
+      "end": 186.21,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 185.02,
+          "end": 185.171
+        },
+        {
+          "w": "français",
+          "start": 185.171,
+          "end": 185.626
+        },
+        {
+          "w": "les",
+          "start": 185.626,
+          "end": 185.853
+        },
+        {
+          "w": "gants.",
+          "start": 185.853,
+          "end": 186.08
+        }
+      ]
+    },
+    {
+      "beat": "w8g",
+      "speaker": "narrator_fr",
+      "text": "Les gants !",
+      "gap": 1.6,
+      "start": 187.41,
+      "end": 188.26,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Les",
+          "start": 187.45,
+          "end": 187.805
+        },
+        {
+          "w": "gants",
+          "start": 187.805,
+          "end": 188.16
+        }
+      ]
+    },
+    {
+      "beat": "w8u",
+      "speaker": "leo",
+      "text": "Gloves on our hands! Wiggle your fingers!",
+      "gap": 2.6,
+      "start": 189.86,
+      "end": 192.27,
+      "words": [
+        {
+          "w": "Gloves",
+          "start": 189.88,
+          "end": 190.237
+        },
+        {
+          "w": "on",
+          "start": 190.237,
+          "end": 190.415
+        },
+        {
+          "w": "our",
+          "start": 190.415,
+          "end": 190.653
+        },
+        {
+          "w": "hands!",
+          "start": 190.653,
+          "end": 191.009
+        },
+        {
+          "w": "Wiggle",
+          "start": 191.009,
+          "end": 191.366
+        },
+        {
+          "w": "your",
+          "start": 191.366,
+          "end": 191.544
+        },
+        {
+          "w": "fingers!",
+          "start": 191.544,
+          "end": 191.96
+        }
+      ]
+    },
+    {
+      "beat": "q8",
+      "speaker": "mila",
+      "text": "Quiz time! Where is the coat?",
+      "gap": 5.0,
+      "start": 194.87,
+      "end": 196.7,
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 194.91,
+          "end": 195.275
+        },
+        {
+          "w": "time!",
+          "start": 195.275,
+          "end": 195.64
+        },
+        {
+          "w": "Where",
+          "start": 195.64,
+          "end": 195.933
+        },
+        {
+          "w": "is",
+          "start": 195.933,
+          "end": 196.079
+        },
+        {
+          "w": "the",
+          "start": 196.079,
+          "end": 196.225
+        },
+        {
+          "w": "coat?",
+          "start": 196.225,
+          "end": 196.59
+        }
+      ]
+    },
+    {
+      "beat": "q8a",
+      "speaker": "leo",
+      "text": "Here! The coat!",
+      "gap": 2.4,
+      "start": 201.7,
+      "end": 202.86,
+      "words": [
+        {
+          "w": "Here!",
+          "start": 201.74,
+          "end": 202.078
+        },
+        {
+          "w": "The",
+          "start": 202.078,
+          "end": 202.247
+        },
+        {
+          "w": "coat!",
+          "start": 202.247,
+          "end": 202.67
+        }
+      ]
+    },
+    {
+      "beat": "w9a",
+      "speaker": "mila",
+      "text": "Boots.",
+      "gap": 1.0,
+      "start": 205.26,
+      "end": 206.15,
+      "words": [
+        {
+          "w": "Boots.",
+          "start": 205.37,
+          "end": 206.03
+        }
+      ]
+    },
+    {
+      "beat": "w9b",
+      "speaker": "mila",
+      "text": "Boots!",
+      "gap": 1.0,
+      "start": 207.15,
+      "end": 208.04,
+      "words": [
+        {
+          "w": "Boots!",
+          "start": 207.26,
+          "end": 207.92
+        }
+      ]
+    },
+    {
+      "beat": "w9c",
+      "speaker": "mila",
+      "text": "Your turn! Boots!",
+      "gap": 2.0,
+      "start": 209.04,
+      "end": 210.55,
+      "words": [
+        {
+          "w": "Your",
+          "start": 209.13,
+          "end": 209.404
+        },
+        {
+          "w": "turn!",
+          "start": 209.404,
+          "end": 209.861
+        },
+        {
+          "w": "Boots!",
+          "start": 209.861,
+          "end": 210.41
+        }
+      ]
+    },
+    {
+      "beat": "w9f",
+      "speaker": "narrator_fr",
+      "text": "En français : les bottes.",
+      "gap": 1.2,
+      "start": 212.55,
+      "end": 213.91,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "En",
+          "start": 212.58,
+          "end": 212.743
+        },
+        {
+          "w": "français",
+          "start": 212.743,
+          "end": 213.231
+        },
+        {
+          "w": "les",
+          "start": 213.231,
+          "end": 213.475
+        },
+        {
+          "w": "bottes.",
+          "start": 213.475,
+          "end": 213.8
+        }
+      ]
+    },
+    {
+      "beat": "w9g",
+      "speaker": "narrator_fr",
+      "text": "Les bottes !",
+      "gap": 1.6,
+      "start": 215.11,
+      "end": 215.98,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Les",
+          "start": 215.14,
+          "end": 215.457
+        },
+        {
+          "w": "bottes",
+          "start": 215.457,
+          "end": 215.88
+        }
+      ]
+    },
+    {
+      "beat": "w9u",
+      "speaker": "leo",
+      "text": "Boots for jumping in puddles! Splash!",
+      "gap": 2.6,
+      "start": 217.58,
+      "end": 219.98,
+      "words": [
+        {
+          "w": "Boots",
+          "start": 217.62,
+          "end": 217.987
+        },
+        {
+          "w": "for",
+          "start": 217.987,
+          "end": 218.232
+        },
+        {
+          "w": "jumping",
+          "start": 218.232,
+          "end": 218.721
+        },
+        {
+          "w": "in",
+          "start": 218.721,
+          "end": 218.905
+        },
+        {
+          "w": "puddles!",
+          "start": 218.905,
+          "end": 219.333
+        },
+        {
+          "w": "Splash!",
+          "start": 219.333,
+          "end": 219.7
+        }
+      ]
+    },
+    {
+      "beat": "fr_round",
+      "speaker": "mila",
+      "text": "Now let's say them all in French! Listen, and say it too!",
+      "gap": 1.2,
+      "start": 222.58,
+      "end": 226.2,
+      "words": [
+        {
+          "w": "Now",
+          "start": 222.76,
+          "end": 223.02
+        },
+        {
+          "w": "let's",
+          "start": 223.02,
+          "end": 223.345
+        },
+        {
+          "w": "say",
+          "start": 223.345,
+          "end": 223.605
+        },
+        {
+          "w": "them",
+          "start": 223.605,
+          "end": 223.865
+        },
+        {
+          "w": "all",
+          "start": 223.865,
+          "end": 224.125
+        },
+        {
+          "w": "in",
+          "start": 224.125,
+          "end": 224.32
+        },
+        {
+          "w": "French!",
+          "start": 224.32,
+          "end": 224.775
+        },
+        {
+          "w": "Listen,",
+          "start": 224.775,
+          "end": 225.165
+        },
+        {
+          "w": "and",
+          "start": 225.165,
+          "end": 225.36
+        },
+        {
+          "w": "say",
+          "start": 225.36,
+          "end": 225.62
+        },
+        {
+          "w": "it",
+          "start": 225.62,
+          "end": 225.75
+        },
+        {
+          "w": "too!",
+          "start": 225.75,
+          "end": 226.01
+        }
+      ]
+    },
+    {
+      "beat": "r0",
+      "speaker": "narrator_fr",
+      "text": "Le chapeau.",
+      "gap": 2.2,
+      "start": 227.4,
+      "end": 228.3,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 227.44,
+          "end": 227.725
+        },
+        {
+          "w": "chapeau.",
+          "start": 227.725,
+          "end": 228.2
+        }
+      ]
+    },
+    {
+      "beat": "r1",
+      "speaker": "narrator_fr",
+      "text": "Le tee-shirt.",
+      "gap": 2.2,
+      "start": 230.5,
+      "end": 231.9,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 230.53,
+          "end": 230.784
+        },
+        {
+          "w": "tee-shirt.",
+          "start": 230.784,
+          "end": 231.8
+        }
+      ]
+    },
+    {
+      "beat": "r2",
+      "speaker": "narrator_fr",
+      "text": "La robe.",
+      "gap": 2.2,
+      "start": 234.1,
+      "end": 234.97,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 234.14,
+          "end": 234.449
+        },
+        {
+          "w": "robe.",
+          "start": 234.449,
+          "end": 234.86
+        }
+      ]
+    },
+    {
+      "beat": "r3",
+      "speaker": "narrator_fr",
+      "text": "Le pantalon.",
+      "gap": 2.2,
+      "start": 237.17,
+      "end": 238.15,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 237.2,
+          "end": 237.452
+        },
+        {
+          "w": "pantalon.",
+          "start": 237.452,
+          "end": 238.04
+        }
+      ]
+    },
+    {
+      "beat": "r4",
+      "speaker": "narrator_fr",
+      "text": "Les chaussettes.",
+      "gap": 2.2,
+      "start": 240.35,
+      "end": 241.39,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Les",
+          "start": 240.37,
+          "end": 240.677
+        },
+        {
+          "w": "chaussettes.",
+          "start": 240.677,
+          "end": 241.29
+        }
+      ]
+    },
+    {
+      "beat": "r5",
+      "speaker": "narrator_fr",
+      "text": "Les chaussures.",
+      "gap": 2.2,
+      "start": 243.59,
+      "end": 244.63,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Les",
+          "start": 243.62,
+          "end": 243.917
+        },
+        {
+          "w": "chaussures.",
+          "start": 243.917,
+          "end": 244.51
+        }
+      ]
+    },
+    {
+      "beat": "r6",
+      "speaker": "narrator_fr",
+      "text": "Le manteau.",
+      "gap": 2.2,
+      "start": 246.83,
+      "end": 247.76,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 246.85,
+          "end": 247.146
+        },
+        {
+          "w": "manteau.",
+          "start": 247.146,
+          "end": 247.64
+        }
+      ]
+    },
+    {
+      "beat": "r7",
+      "speaker": "narrator_fr",
+      "text": "L'écharpe.",
+      "gap": 2.2,
+      "start": 249.96,
+      "end": 250.87,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "L'écharpe.",
+          "start": 249.98,
+          "end": 250.77
+        }
+      ]
+    },
+    {
+      "beat": "r8",
+      "speaker": "narrator_fr",
+      "text": "Les gants.",
+      "gap": 2.2,
+      "start": 253.07,
+      "end": 253.88,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Les",
+          "start": 253.11,
+          "end": 253.435
+        },
+        {
+          "w": "gants.",
+          "start": 253.435,
+          "end": 253.76
+        }
+      ]
+    },
+    {
+      "beat": "r9",
+      "speaker": "narrator_fr",
+      "text": "Les bottes.",
+      "gap": 2.2,
+      "start": 256.08,
+      "end": 256.91,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Les",
+          "start": 256.12,
+          "end": 256.416
+        },
+        {
+          "w": "bottes.",
+          "start": 256.416,
+          "end": 256.81
+        }
+      ]
+    },
+    {
+      "beat": "great",
+      "speaker": "leo",
+      "text": "Great job, friends!",
+      "gap": 2.2,
+      "start": 259.11,
+      "end": 260.64,
+      "words": [
+        {
+          "w": "Great",
+          "start": 259.15,
+          "end": 259.542
+        },
+        {
+          "w": "job,",
+          "start": 259.542,
+          "end": 259.933
+        },
+        {
+          "w": "friends!",
+          "start": 259.933,
+          "end": 260.39
+        }
+      ]
+    },
+    {
+      "beat": "cold_q",
+      "speaker": "mila",
+      "text": "Weather game! Brrr, it's snowing! What do we wear?",
+      "gap": 5.0,
+      "start": 262.84,
+      "end": 266.36,
+      "words": [
+        {
+          "w": "Weather",
+          "start": 263.05,
+          "end": 263.351
+        },
+        {
+          "w": "game!",
+          "start": 263.351,
+          "end": 263.652
+        },
+        {
+          "w": "Brrr,",
+          "start": 263.652,
+          "end": 264.735
+        },
+        {
+          "w": "it's",
+          "start": 264.735,
+          "end": 264.916
+        },
+        {
+          "w": "snowing!",
+          "start": 264.916,
+          "end": 265.337
+        },
+        {
+          "w": "What",
+          "start": 265.337,
+          "end": 265.578
+        },
+        {
+          "w": "do",
+          "start": 265.578,
+          "end": 265.819
+        },
+        {
+          "w": "we",
+          "start": 265.819,
+          "end": 265.999
+        },
+        {
+          "w": "wear?",
+          "start": 265.999,
+          "end": 266.24
+        }
+      ]
+    },
+    {
+      "beat": "cold_a",
+      "speaker": "leo",
+      "text": "A coat, a scarf, and gloves! Nice and warm!",
+      "gap": 2.4,
+      "start": 271.36,
+      "end": 274.19,
+      "words": [
+        {
+          "w": "A",
+          "start": 271.39,
+          "end": 271.569
+        },
+        {
+          "w": "coat,",
+          "start": 271.569,
+          "end": 271.866
+        },
+        {
+          "w": "a",
+          "start": 271.866,
+          "end": 272.045
+        },
+        {
+          "w": "scarf,",
+          "start": 272.045,
+          "end": 272.461
+        },
+        {
+          "w": "and",
+          "start": 272.461,
+          "end": 272.64
+        },
+        {
+          "w": "gloves!",
+          "start": 272.64,
+          "end": 272.997
+        },
+        {
+          "w": "Nice",
+          "start": 272.997,
+          "end": 273.294
+        },
+        {
+          "w": "and",
+          "start": 273.294,
+          "end": 273.473
+        },
+        {
+          "w": "warm!",
+          "start": 273.473,
+          "end": 273.83
+        }
+      ]
+    },
+    {
+      "beat": "rain_q",
+      "speaker": "mila",
+      "text": "Pitter patter, it's raining! What do we wear?",
+      "gap": 5.0,
+      "start": 276.59,
+      "end": 279.02,
+      "words": [
+        {
+          "w": "Pitter",
+          "start": 276.62,
+          "end": 276.944
+        },
+        {
+          "w": "patter,",
+          "start": 276.944,
+          "end": 277.269
+        },
+        {
+          "w": "it's",
+          "start": 277.269,
+          "end": 277.463
+        },
+        {
+          "w": "raining!",
+          "start": 277.463,
+          "end": 277.917
+        },
+        {
+          "w": "What",
+          "start": 277.917,
+          "end": 278.177
+        },
+        {
+          "w": "do",
+          "start": 278.177,
+          "end": 278.436
+        },
+        {
+          "w": "we",
+          "start": 278.436,
+          "end": 278.631
+        },
+        {
+          "w": "wear?",
+          "start": 278.631,
+          "end": 278.89
+        }
+      ]
+    },
+    {
+      "beat": "rain_a",
+      "speaker": "leo",
+      "text": "Boots! For splashing in puddles!",
+      "gap": 2.4,
+      "start": 284.02,
+      "end": 286.0,
+      "words": [
+        {
+          "w": "Boots!",
+          "start": 284.05,
+          "end": 284.406
+        },
+        {
+          "w": "For",
+          "start": 284.406,
+          "end": 284.643
+        },
+        {
+          "w": "splashing",
+          "start": 284.643,
+          "end": 285.117
+        },
+        {
+          "w": "in",
+          "start": 285.117,
+          "end": 285.295
+        },
+        {
+          "w": "puddles!",
+          "start": 285.295,
+          "end": 285.71
+        }
+      ]
+    },
+    {
+      "beat": "frq",
+      "speaker": "mila",
+      "text": "French quiz! Listen...",
+      "gap": 1.0,
+      "start": 288.4,
+      "end": 289.97,
+      "words": [
+        {
+          "w": "French",
+          "start": 288.47,
+          "end": 289.011
+        },
+        {
+          "w": "quiz!",
+          "start": 289.011,
+          "end": 289.397
+        },
+        {
+          "w": "Listen...",
+          "start": 289.397,
+          "end": 289.86
+        }
+      ]
+    },
+    {
+      "beat": "frq1",
+      "speaker": "narrator_fr",
+      "text": "Où est la robe ?",
+      "gap": 5.0,
+      "start": 290.97,
+      "end": 292.06,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Où",
+          "start": 291.0,
+          "end": 291.169
+        },
+        {
+          "w": "est",
+          "start": 291.169,
+          "end": 291.338
+        },
+        {
+          "w": "la",
+          "start": 291.338,
+          "end": 291.592
+        },
+        {
+          "w": "robe",
+          "start": 291.592,
+          "end": 291.93
+        }
+      ]
+    },
+    {
+      "beat": "frq1a",
+      "speaker": "mila",
+      "text": "The dress! Yes!",
+      "gap": 2.2,
+      "start": 297.06,
+      "end": 298.38,
+      "words": [
+        {
+          "w": "The",
+          "start": 297.15,
+          "end": 297.354
+        },
+        {
+          "w": "dress!",
+          "start": 297.354,
+          "end": 297.863
+        },
+        {
+          "w": "Yes!",
+          "start": 297.863,
+          "end": 298.27
+        }
+      ]
+    },
+    {
+      "beat": "frq2",
+      "speaker": "narrator_fr",
+      "text": "Où sont les bottes ?",
+      "gap": 5.0,
+      "start": 300.58,
+      "end": 301.71,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Où",
+          "start": 300.62,
+          "end": 300.785
+        },
+        {
+          "w": "sont",
+          "start": 300.785,
+          "end": 301.033
+        },
+        {
+          "w": "les",
+          "start": 301.033,
+          "end": 301.28
+        },
+        {
+          "w": "bottes",
+          "start": 301.28,
+          "end": 301.61
+        }
+      ]
+    },
+    {
+      "beat": "frq2a",
+      "speaker": "leo",
+      "text": "The boots! Yes!",
+      "gap": 2.4,
+      "start": 306.71,
+      "end": 307.88,
+      "words": [
+        {
+          "w": "The",
+          "start": 306.74,
+          "end": 306.895
+        },
+        {
+          "w": "boots!",
+          "start": 306.895,
+          "end": 307.36
+        },
+        {
+          "w": "Yes!",
+          "start": 307.36,
+          "end": 307.67
+        }
+      ]
+    },
+    {
+      "beat": "fav",
+      "speaker": "mila",
+      "text": "What do YOU like to wear? Tell a grown-up!",
+      "gap": 3.0,
+      "start": 310.28,
+      "end": 312.64,
+      "words": [
+        {
+          "w": "What",
+          "start": 310.46,
+          "end": 310.653
+        },
+        {
+          "w": "do",
+          "start": 310.653,
+          "end": 310.846
+        },
+        {
+          "w": "YOU",
+          "start": 310.846,
+          "end": 310.991
+        },
+        {
+          "w": "like",
+          "start": 310.991,
+          "end": 311.232
+        },
+        {
+          "w": "to",
+          "start": 311.232,
+          "end": 311.377
+        },
+        {
+          "w": "wear?",
+          "start": 311.377,
+          "end": 311.57
+        },
+        {
+          "w": "Tell",
+          "start": 311.69,
+          "end": 311.919
+        },
+        {
+          "w": "a",
+          "start": 311.919,
+          "end": 312.091
+        },
+        {
+          "w": "grown-up!",
+          "start": 312.091,
+          "end": 312.55
+        }
+      ]
+    },
+    {
+      "beat": "fav_b",
+      "speaker": "leo",
+      "text": "I love my boots, for big puddles!",
+      "gap": 1.6,
+      "start": 315.64,
+      "end": 317.85,
+      "words": [
+        {
+          "w": "I",
+          "start": 315.67,
+          "end": 315.846
+        },
+        {
+          "w": "love",
+          "start": 315.846,
+          "end": 316.081
+        },
+        {
+          "w": "my",
+          "start": 316.081,
+          "end": 316.316
+        },
+        {
+          "w": "boots,",
+          "start": 316.316,
+          "end": 316.669
+        },
+        {
+          "w": "for",
+          "start": 316.669,
+          "end": 316.904
+        },
+        {
+          "w": "big",
+          "start": 316.904,
+          "end": 317.139
+        },
+        {
+          "w": "puddles!",
+          "start": 317.139,
+          "end": 317.55
+        }
+      ]
+    },
+    {
+      "beat": "fav_m",
+      "speaker": "mila",
+      "text": "And I love my twirly dress!",
+      "gap": 2.4,
+      "start": 319.45,
+      "end": 321.45,
+      "words": [
+        {
+          "w": "And",
+          "start": 319.49,
+          "end": 319.709
+        },
+        {
+          "w": "I",
+          "start": 319.709,
+          "end": 319.928
+        },
+        {
+          "w": "love",
+          "start": 319.928,
+          "end": 320.221
+        },
+        {
+          "w": "my",
+          "start": 320.221,
+          "end": 320.513
+        },
+        {
+          "w": "twirly",
+          "start": 320.513,
+          "end": 321.025
+        },
+        {
+          "w": "dress!",
+          "start": 321.025,
+          "end": 321.39
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "text": "Time to put the clothes away. Bye-bye, friends!",
+      "gap": 1.0,
+      "start": 323.85,
+      "end": 326.81,
+      "words": [
+        {
+          "w": "Time",
+          "start": 323.88,
+          "end": 324.21
+        },
+        {
+          "w": "to",
+          "start": 324.21,
+          "end": 324.408
+        },
+        {
+          "w": "put",
+          "start": 324.408,
+          "end": 324.671
+        },
+        {
+          "w": "the",
+          "start": 324.671,
+          "end": 324.803
+        },
+        {
+          "w": "clothes",
+          "start": 324.803,
+          "end": 325.265
+        },
+        {
+          "w": "away.",
+          "start": 325.265,
+          "end": 325.595
+        },
+        {
+          "w": "Bye-bye,",
+          "start": 325.595,
+          "end": 326.188
+        },
+        {
+          "w": "friends!",
+          "start": 326.188,
+          "end": 326.65
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "narrator_fr",
+      "text": "Au revoir, les amis !",
+      "gap": 1.0,
+      "start": 327.81,
+      "end": 329.17,
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Au",
+          "start": 327.85,
+          "end": 327.927
+        },
+        {
+          "w": "revoir,",
+          "start": 327.927,
+          "end": 328.469
+        },
+        {
+          "w": "les",
+          "start": 328.469,
+          "end": 328.701
+        },
+        {
+          "w": "amis",
+          "start": 328.701,
+          "end": 329.01
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast",
+  "beats": [
+    {
+      "id": "intro",
+      "start": 0,
+      "visual": "Hi, friends! Look, it's our big clothes closet!",
+      "end": 7.66
+    },
+    {
+      "id": "intro2",
+      "start": 7.66,
+      "visual": "Let's learn the clothes, in English, and in French!",
+      "end": 11.56
+    },
+    {
+      "id": "what",
+      "start": 11.56,
+      "visual": "What's inside? Let's see!",
+      "end": 15.08
+    },
+    {
+      "id": "w0a",
+      "start": 15.08,
+      "visual": "Hat.",
+      "end": 16.91
+    },
+    {
+      "id": "w0b",
+      "start": 16.91,
+      "visual": "Hat!",
+      "end": 18.73
+    },
+    {
+      "id": "w0c",
+      "start": 18.73,
+      "visual": "Your turn! Hat!",
+      "end": 22.07
+    },
+    {
+      "id": "w0f",
+      "start": 22.07,
+      "visual": "En français : le chapeau.",
+      "end": 24.63
+    },
+    {
+      "id": "w0g",
+      "start": 24.63,
+      "visual": "Le chapeau !",
+      "end": 27.16
+    },
+    {
+      "id": "w0u",
+      "start": 27.16,
+      "visual": "Leo puts on his hat! So cool!",
+      "end": 31.87
+    },
+    {
+      "id": "w1a",
+      "start": 31.87,
+      "visual": "T-shirt.",
+      "end": 33.84
+    },
+    {
+      "id": "w1b",
+      "start": 33.84,
+      "visual": "T-shirt!",
+      "end": 35.82
+    },
+    {
+      "id": "w1c",
+      "start": 35.82,
+      "visual": "Your turn! T-shirt!",
+      "end": 39.43
+    },
+    {
+      "id": "w1f",
+      "start": 39.43,
+      "visual": "En français : le tee-shirt.",
+      "end": 42.63
+    },
+    {
+      "id": "w1g",
+      "start": 42.63,
+      "visual": "Le tee-shirt !",
+      "end": 45.62
+    },
+    {
+      "id": "w1u",
+      "start": 45.62,
+      "visual": "A T-shirt with a big yellow star!",
+      "end": 50.52
+    },
+    {
+      "id": "w2a",
+      "start": 50.52,
+      "visual": "Dress.",
+      "end": 52.39
+    },
+    {
+      "id": "w2b",
+      "start": 52.39,
+      "visual": "Dress!",
+      "end": 54.29
+    },
+    {
+      "id": "w2c",
+      "start": 54.29,
+      "visual": "Your turn! Dress!",
+      "end": 57.78
+    },
+    {
+      "id": "w2f",
+      "start": 57.78,
+      "visual": "En français : la robe.",
+      "end": 60.39
+    },
+    {
+      "id": "w2g",
+      "start": 60.39,
+      "visual": "La robe !",
+      "end": 62.99
+    },
+    {
+      "id": "w2u",
+      "start": 62.99,
+      "visual": "Mila twirls in her dress! Twirl, twirl!",
+      "end": 68.06
+    },
+    {
+      "id": "q2",
+      "start": 68.06,
+      "visual": "Quiz time! Where is the T-shirt?",
+      "end": 75.08
+    },
+    {
+      "id": "q2a",
+      "start": 75.08,
+      "visual": "Here! The T-shirt!",
+      "end": 78.75
+    },
+    {
+      "id": "w3a",
+      "start": 78.75,
+      "visual": "Pants.",
+      "end": 80.64
+    },
+    {
+      "id": "w3b",
+      "start": 80.64,
+      "visual": "Pants!",
+      "end": 82.53
+    },
+    {
+      "id": "w3c",
+      "start": 82.53,
+      "visual": "Your turn! Pants!",
+      "end": 85.98
+    },
+    {
+      "id": "w3f",
+      "start": 85.98,
+      "visual": "En français : le pantalon.",
+      "end": 88.71
+    },
+    {
+      "id": "w3g",
+      "start": 88.71,
+      "visual": "Le pantalon !",
+      "end": 91.33
+    },
+    {
+      "id": "w3u",
+      "start": 91.33,
+      "visual": "Leo puts his pants on... backwards! Oops! Ha ha!",
+      "end": 97.21
+    },
+    {
+      "id": "w4a",
+      "start": 97.21,
+      "visual": "Socks.",
+      "end": 99.12
+    },
+    {
+      "id": "w4b",
+      "start": 99.12,
+      "visual": "Socks!",
+      "end": 101.03
+    },
+    {
+      "id": "w4c",
+      "start": 101.03,
+      "visual": "Your turn! Socks!",
+      "end": 104.5
+    },
+    {
+      "id": "w4f",
+      "start": 104.5,
+      "visual": "En français : les chaussettes.",
+      "end": 107.26
+    },
+    {
+      "id": "w4g",
+      "start": 107.26,
+      "visual": "Les chaussettes !",
+      "end": 109.97
+    },
+    {
+      "id": "w4u",
+      "start": 109.97,
+      "visual": "Socks on our feet! Wiggle your toes!",
+      "end": 114.89
+    },
+    {
+      "id": "w5a",
+      "start": 114.89,
+      "visual": "Shoes.",
+      "end": 116.81
+    },
+    {
+      "id": "w5b",
+      "start": 116.81,
+      "visual": "Shoes!",
+      "end": 118.71
+    },
+    {
+      "id": "w5c",
+      "start": 118.71,
+      "visual": "Your turn! Shoes!",
+      "end": 122.16
+    },
+    {
+      "id": "w5f",
+      "start": 122.16,
+      "visual": "En français : les chaussures.",
+      "end": 124.87
+    },
+    {
+      "id": "w5g",
+      "start": 124.87,
+      "visual": "Les chaussures !",
+      "end": 127.53
+    },
+    {
+      "id": "w5u",
+      "start": 127.53,
+      "visual": "Shoes for running! Ready, set, go!",
+      "end": 132.34
+    },
+    {
+      "id": "q5",
+      "start": 132.34,
+      "visual": "Quiz time! Where are the shoes?",
+      "end": 139.22
+    },
+    {
+      "id": "q5a",
+      "start": 139.22,
+      "visual": "Here! The shoes!",
+      "end": 142.82
+    },
+    {
+      "id": "w6a",
+      "start": 142.82,
+      "visual": "Coat.",
+      "end": 144.62
+    },
+    {
+      "id": "w6b",
+      "start": 144.62,
+      "visual": "Coat!",
+      "end": 146.4
+    },
+    {
+      "id": "w6c",
+      "start": 146.4,
+      "visual": "Your turn! Coat!",
+      "end": 149.78
+    },
+    {
+      "id": "w6f",
+      "start": 149.78,
+      "visual": "En français : le manteau.",
+      "end": 152.34
+    },
+    {
+      "id": "w6g",
+      "start": 152.34,
+      "visual": "Le manteau !",
+      "end": 154.9
+    },
+    {
+      "id": "w6u",
+      "start": 154.9,
+      "visual": "A warm coat for a cold, cold day!",
+      "end": 159.9
+    },
+    {
+      "id": "w7a",
+      "start": 159.9,
+      "visual": "Scarf.",
+      "end": 161.81
+    },
+    {
+      "id": "w7b",
+      "start": 161.81,
+      "visual": "Scarf!",
+      "end": 163.71
+    },
+    {
+      "id": "w7c",
+      "start": 163.71,
+      "visual": "Your turn! Scarf!",
+      "end": 167.15
+    },
+    {
+      "id": "w7f",
+      "start": 167.15,
+      "visual": "En français : l'écharpe.",
+      "end": 169.8
+    },
+    {
+      "id": "w7g",
+      "start": 169.8,
+      "visual": "L'écharpe !",
+      "end": 172.35
+    },
+    {
+      "id": "w7u",
+      "start": 172.35,
+      "visual": "The scarf goes round and round my neck!",
+      "end": 177.39
+    },
+    {
+      "id": "w8a",
+      "start": 177.39,
+      "visual": "Gloves.",
+      "end": 179.37
+    },
+    {
+      "id": "w8b",
+      "start": 179.37,
+      "visual": "Gloves!",
+      "end": 181.35
+    },
+    {
+      "id": "w8c",
+      "start": 181.35,
+      "visual": "Your turn! Gloves!",
+      "end": 184.8
+    },
+    {
+      "id": "w8f",
+      "start": 184.8,
+      "visual": "En français : les gants.",
+      "end": 187.21
+    },
+    {
+      "id": "w8g",
+      "start": 187.21,
+      "visual": "Les gants !",
+      "end": 189.66
+    },
+    {
+      "id": "w8u",
+      "start": 189.66,
+      "visual": "Gloves on our hands! Wiggle your fingers!",
+      "end": 194.67
+    },
+    {
+      "id": "q8",
+      "start": 194.67,
+      "visual": "Quiz time! Where is the coat?",
+      "end": 201.5
+    },
+    {
+      "id": "q8a",
+      "start": 201.5,
+      "visual": "Here! The coat!",
+      "end": 205.06
+    },
+    {
+      "id": "w9a",
+      "start": 205.06,
+      "visual": "Boots.",
+      "end": 206.95
+    },
+    {
+      "id": "w9b",
+      "start": 206.95,
+      "visual": "Boots!",
+      "end": 208.84
+    },
+    {
+      "id": "w9c",
+      "start": 208.84,
+      "visual": "Your turn! Boots!",
+      "end": 212.35
+    },
+    {
+      "id": "w9f",
+      "start": 212.35,
+      "visual": "En français : les bottes.",
+      "end": 214.91
+    },
+    {
+      "id": "w9g",
+      "start": 214.91,
+      "visual": "Les bottes !",
+      "end": 217.38
+    },
+    {
+      "id": "w9u",
+      "start": 217.38,
+      "visual": "Boots for jumping in puddles! Splash!",
+      "end": 222.38
+    },
+    {
+      "id": "fr_round",
+      "start": 222.38,
+      "visual": "Now let's say them all in French! Listen, and say it too!",
+      "end": 227.2
+    },
+    {
+      "id": "r0",
+      "start": 227.2,
+      "visual": "Le chapeau.",
+      "end": 230.3
+    },
+    {
+      "id": "r1",
+      "start": 230.3,
+      "visual": "Le tee-shirt.",
+      "end": 233.9
+    },
+    {
+      "id": "r2",
+      "start": 233.9,
+      "visual": "La robe.",
+      "end": 236.97
+    },
+    {
+      "id": "r3",
+      "start": 236.97,
+      "visual": "Le pantalon.",
+      "end": 240.15
+    },
+    {
+      "id": "r4",
+      "start": 240.15,
+      "visual": "Les chaussettes.",
+      "end": 243.39
+    },
+    {
+      "id": "r5",
+      "start": 243.39,
+      "visual": "Les chaussures.",
+      "end": 246.63
+    },
+    {
+      "id": "r6",
+      "start": 246.63,
+      "visual": "Le manteau.",
+      "end": 249.76
+    },
+    {
+      "id": "r7",
+      "start": 249.76,
+      "visual": "L'écharpe.",
+      "end": 252.87
+    },
+    {
+      "id": "r8",
+      "start": 252.87,
+      "visual": "Les gants.",
+      "end": 255.88
+    },
+    {
+      "id": "r9",
+      "start": 255.88,
+      "visual": "Les bottes.",
+      "end": 258.91
+    },
+    {
+      "id": "great",
+      "start": 258.91,
+      "visual": "Great job, friends!",
+      "end": 262.64
+    },
+    {
+      "id": "cold_q",
+      "start": 262.64,
+      "visual": "Weather game! Brrr, it's snowing! What do we wear?",
+      "end": 271.16
+    },
+    {
+      "id": "cold_a",
+      "start": 271.16,
+      "visual": "A coat, a scarf, and gloves! Nice and warm!",
+      "end": 276.39
+    },
+    {
+      "id": "rain_q",
+      "start": 276.39,
+      "visual": "Pitter patter, it's raining! What do we wear?",
+      "end": 283.82
+    },
+    {
+      "id": "rain_a",
+      "start": 283.82,
+      "visual": "Boots! For splashing in puddles!",
+      "end": 288.2
+    },
+    {
+      "id": "frq",
+      "start": 288.2,
+      "visual": "French quiz! Listen...",
+      "end": 290.77
+    },
+    {
+      "id": "frq1",
+      "start": 290.77,
+      "visual": "Où est la robe ?",
+      "end": 296.86
+    },
+    {
+      "id": "frq1a",
+      "start": 296.86,
+      "visual": "The dress! Yes!",
+      "end": 300.38
+    },
+    {
+      "id": "frq2",
+      "start": 300.38,
+      "visual": "Où sont les bottes ?",
+      "end": 306.51
+    },
+    {
+      "id": "frq2a",
+      "start": 306.51,
+      "visual": "The boots! Yes!",
+      "end": 310.08
+    },
+    {
+      "id": "fav",
+      "start": 310.08,
+      "visual": "What do YOU like to wear? Tell a grown-up!",
+      "end": 315.44
+    },
+    {
+      "id": "fav_b",
+      "start": 315.44,
+      "visual": "I love my boots, for big puddles!",
+      "end": 319.25
+    },
+    {
+      "id": "fav_m",
+      "start": 319.25,
+      "visual": "And I love my twirly dress!",
+      "end": 323.65
+    },
+    {
+      "id": "bye",
+      "start": 323.65,
+      "visual": "Time to put the clothes away. Bye-bye, friends!",
+      "end": 327.61
+    },
+    {
+      "id": "bye2",
+      "start": 327.61,
+      "visual": "Au revoir, les amis !",
+      "end": 334.2
+    }
+  ]
+}

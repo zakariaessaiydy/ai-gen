@@ -69,10 +69,8 @@ def main():
         ep = episode_dir(e["day"])
         name = f"d{e['day']:03d}-{e['t']:.2f}.png"
         out = os.path.join(FRAMES, name)
-        if not os.path.exists(out) and i not in picked and not os.path.exists(os.path.join(ROOT, "remotion", "out", f"{e['comp']}.mp4")) \
-                and not glob.glob(os.path.join(ep, "output", "*final*.mp4")):
-            pass  # not rendered now, and its video isn't on this machine: keep the entry, skip the frame
-        elif not os.path.exists(out):
+        # only the picked days need their frame (and their render) — the others are listed, not drawn
+        if i in picked and not os.path.exists(out):
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{e['t']:.3f}", "-i", source_video(e, ep),
                             "-frames:v", "1", out], check=True)
         d = {"day": e["day"], "frame": name, "z": e.get("z", 1.0), "fx": e.get("fx", 960), "fy": e.get("fy", 540)}

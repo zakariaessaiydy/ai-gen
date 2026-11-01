@@ -1,0 +1,3574 @@
+{
+  "id": "day-061",
+  "series": "tiny-sparks",
+  "episode": 61,
+  "title": "How Do Rainbows Appear?",
+  "composition": "KidsScience061",
+  "audience": "ages 3-6 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 318.1
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    },
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-8%"
+    },
+    "drippy": {
+      "kokoro": "af_bella:0.5+af_sky:0.5",
+      "rate": "-2%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -6,
+    "duck": 8,
+    "start": 3.7,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "why",
+      "speaker": "mila",
+      "text": "Look! The rain stopped, and there is a rainbow! How does a rainbow get there?",
+      "gap": 1.4,
+      "start": 3.9,
+      "end": 8.08,
+      "words": [
+        {
+          "w": "Look!",
+          "start": 4.06,
+          "end": 4.301
+        },
+        {
+          "w": "The",
+          "start": 4.301,
+          "end": 4.422
+        },
+        {
+          "w": "rain",
+          "start": 4.422,
+          "end": 4.723
+        },
+        {
+          "w": "stopped,",
+          "start": 4.723,
+          "end": 5.146
+        },
+        {
+          "w": "and",
+          "start": 5.146,
+          "end": 5.326
+        },
+        {
+          "w": "there",
+          "start": 5.326,
+          "end": 5.568
+        },
+        {
+          "w": "is",
+          "start": 5.568,
+          "end": 5.688
+        },
+        {
+          "w": "a",
+          "start": 5.688,
+          "end": 5.869
+        },
+        {
+          "w": "rainbow!",
+          "start": 5.869,
+          "end": 6.352
+        },
+        {
+          "w": "How",
+          "start": 6.352,
+          "end": 6.593
+        },
+        {
+          "w": "does",
+          "start": 6.593,
+          "end": 6.834
+        },
+        {
+          "w": "a",
+          "start": 6.834,
+          "end": 7.015
+        },
+        {
+          "w": "rainbow",
+          "start": 7.015,
+          "end": 7.498
+        },
+        {
+          "w": "get",
+          "start": 7.498,
+          "end": 7.739
+        },
+        {
+          "w": "there?",
+          "start": 7.739,
+          "end": 7.98
+        }
+      ]
+    },
+    {
+      "beat": "guess",
+      "speaker": "leo",
+      "text": "I know! A giant painter in the sky, with a huge paintbrush! Swish, swish!",
+      "gap": 1.6,
+      "start": 9.48,
+      "end": 14.04,
+      "words": [
+        {
+          "w": "I",
+          "start": 9.51,
+          "end": 9.692
+        },
+        {
+          "w": "know!",
+          "start": 9.692,
+          "end": 9.935
+        },
+        {
+          "w": "A",
+          "start": 9.935,
+          "end": 10.117
+        },
+        {
+          "w": "giant",
+          "start": 10.117,
+          "end": 10.603
+        },
+        {
+          "w": "painter",
+          "start": 10.603,
+          "end": 11.028
+        },
+        {
+          "w": "in",
+          "start": 11.028,
+          "end": 11.211
+        },
+        {
+          "w": "the",
+          "start": 11.211,
+          "end": 11.332
+        },
+        {
+          "w": "sky,",
+          "start": 11.332,
+          "end": 11.636
+        },
+        {
+          "w": "with",
+          "start": 11.636,
+          "end": 11.818
+        },
+        {
+          "w": "a",
+          "start": 11.818,
+          "end": 12.0
+        },
+        {
+          "w": "huge",
+          "start": 12.0,
+          "end": 12.425
+        },
+        {
+          "w": "paintbrush!",
+          "start": 12.425,
+          "end": 13.033
+        },
+        {
+          "w": "Swish,",
+          "start": 13.033,
+          "end": 13.336
+        },
+        {
+          "w": "swish!",
+          "start": 13.336,
+          "end": 13.64
+        }
+      ]
+    },
+    {
+      "beat": "good",
+      "speaker": "hoot",
+      "text": "Ha ha! Good guess, Leo! But a rainbow is made by two things: sunlight, and raindrops!",
+      "gap": 1.4,
+      "start": 15.64,
+      "end": 21.55,
+      "words": [
+        {
+          "w": "Ha",
+          "start": 15.68,
+          "end": 15.976
+        },
+        {
+          "w": "ha!",
+          "start": 15.976,
+          "end": 16.273
+        },
+        {
+          "w": "Good",
+          "start": 16.273,
+          "end": 16.569
+        },
+        {
+          "w": "guess,",
+          "start": 16.569,
+          "end": 16.866
+        },
+        {
+          "w": "Leo!",
+          "start": 16.866,
+          "end": 17.31
+        },
+        {
+          "w": "But",
+          "start": 17.31,
+          "end": 17.607
+        },
+        {
+          "w": "a",
+          "start": 17.607,
+          "end": 17.829
+        },
+        {
+          "w": "rainbow",
+          "start": 17.829,
+          "end": 18.422
+        },
+        {
+          "w": "is",
+          "start": 18.422,
+          "end": 18.57
+        },
+        {
+          "w": "made",
+          "start": 18.57,
+          "end": 18.941
+        },
+        {
+          "w": "by",
+          "start": 18.941,
+          "end": 19.237
+        },
+        {
+          "w": "two",
+          "start": 19.237,
+          "end": 19.533
+        },
+        {
+          "w": "things:",
+          "start": 19.533,
+          "end": 19.904
+        },
+        {
+          "w": "sunlight,",
+          "start": 19.904,
+          "end": 20.497
+        },
+        {
+          "w": "and",
+          "start": 20.497,
+          "end": 20.719
+        },
+        {
+          "w": "raindrops!",
+          "start": 20.719,
+          "end": 21.46
+        }
+      ]
+    },
+    {
+      "beat": "how",
+      "speaker": "leo",
+      "text": "Sunlight and raindrops? How?",
+      "gap": 1.2,
+      "start": 22.95,
+      "end": 24.84,
+      "words": [
+        {
+          "w": "Sunlight",
+          "start": 22.97,
+          "end": 23.456
+        },
+        {
+          "w": "and",
+          "start": 23.456,
+          "end": 23.638
+        },
+        {
+          "w": "raindrops?",
+          "start": 23.638,
+          "end": 24.307
+        },
+        {
+          "w": "How?",
+          "start": 24.307,
+          "end": 24.55
+        }
+      ]
+    },
+    {
+      "beat": "meet",
+      "speaker": "hoot",
+      "text": "Let's ask a raindrop! Here comes our old friend, Drippy!",
+      "gap": 1.0,
+      "start": 26.04,
+      "end": 29.75,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 26.08,
+          "end": 26.434
+        },
+        {
+          "w": "ask",
+          "start": 26.434,
+          "end": 26.717
+        },
+        {
+          "w": "a",
+          "start": 26.717,
+          "end": 26.929
+        },
+        {
+          "w": "raindrop!",
+          "start": 26.929,
+          "end": 27.566
+        },
+        {
+          "w": "Here",
+          "start": 27.566,
+          "end": 27.85
+        },
+        {
+          "w": "comes",
+          "start": 27.85,
+          "end": 28.204
+        },
+        {
+          "w": "our",
+          "start": 28.204,
+          "end": 28.487
+        },
+        {
+          "w": "old",
+          "start": 28.487,
+          "end": 28.841
+        },
+        {
+          "w": "friend,",
+          "start": 28.841,
+          "end": 29.265
+        },
+        {
+          "w": "Drippy!",
+          "start": 29.265,
+          "end": 29.69
+        }
+      ]
+    },
+    {
+      "beat": "drippy_hi",
+      "speaker": "drippy",
+      "text": "Hi again! I'm Drippy! Today, I'm going to help make a rainbow!",
+      "gap": 1.8,
+      "start": 30.75,
+      "end": 34.58,
+      "words": [
+        {
+          "w": "Hi",
+          "start": 30.79,
+          "end": 31.045
+        },
+        {
+          "w": "again!",
+          "start": 31.045,
+          "end": 31.363
+        },
+        {
+          "w": "I'm",
+          "start": 31.363,
+          "end": 31.554
+        },
+        {
+          "w": "Drippy!",
+          "start": 31.554,
+          "end": 31.936
+        },
+        {
+          "w": "Today,",
+          "start": 31.936,
+          "end": 32.318
+        },
+        {
+          "w": "I'm",
+          "start": 32.318,
+          "end": 32.509
+        },
+        {
+          "w": "going",
+          "start": 32.509,
+          "end": 32.892
+        },
+        {
+          "w": "to",
+          "start": 32.892,
+          "end": 33.083
+        },
+        {
+          "w": "help",
+          "start": 33.083,
+          "end": 33.401
+        },
+        {
+          "w": "make",
+          "start": 33.401,
+          "end": 33.719
+        },
+        {
+          "w": "a",
+          "start": 33.719,
+          "end": 33.911
+        },
+        {
+          "w": "rainbow!",
+          "start": 33.911,
+          "end": 34.42
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "narrator",
+      "text": "Question one. What is sunlight made of?",
+      "gap": 1.4,
+      "start": 36.38,
+      "end": 38.83,
+      "words": [
+        {
+          "w": "Question",
+          "start": 36.41,
+          "end": 36.936
+        },
+        {
+          "w": "one.",
+          "start": 36.936,
+          "end": 37.17
+        },
+        {
+          "w": "What",
+          "start": 37.47,
+          "end": 37.716
+        },
+        {
+          "w": "is",
+          "start": 37.716,
+          "end": 37.839
+        },
+        {
+          "w": "sunlight",
+          "start": 37.839,
+          "end": 38.33
+        },
+        {
+          "w": "made",
+          "start": 38.33,
+          "end": 38.637
+        },
+        {
+          "w": "of?",
+          "start": 38.637,
+          "end": 38.76
+        }
+      ]
+    },
+    {
+      "beat": "white",
+      "speaker": "hoot",
+      "text": "Sunlight looks white. But it is really all the colors of the rainbow, mixed together!",
+      "gap": 1.4,
+      "start": 40.23,
+      "end": 45.43,
+      "words": [
+        {
+          "w": "Sunlight",
+          "start": 40.27,
+          "end": 40.83
+        },
+        {
+          "w": "looks",
+          "start": 40.83,
+          "end": 41.18
+        },
+        {
+          "w": "white.",
+          "start": 41.18,
+          "end": 41.53
+        },
+        {
+          "w": "But",
+          "start": 41.94,
+          "end": 42.191
+        },
+        {
+          "w": "it",
+          "start": 42.191,
+          "end": 42.316
+        },
+        {
+          "w": "is",
+          "start": 42.316,
+          "end": 42.441
+        },
+        {
+          "w": "really",
+          "start": 42.441,
+          "end": 42.817
+        },
+        {
+          "w": "all",
+          "start": 42.817,
+          "end": 43.067
+        },
+        {
+          "w": "the",
+          "start": 43.067,
+          "end": 43.193
+        },
+        {
+          "w": "colors",
+          "start": 43.193,
+          "end": 43.568
+        },
+        {
+          "w": "of",
+          "start": 43.568,
+          "end": 43.694
+        },
+        {
+          "w": "the",
+          "start": 43.694,
+          "end": 43.819
+        },
+        {
+          "w": "rainbow,",
+          "start": 43.819,
+          "end": 44.32
+        },
+        {
+          "w": "mixed",
+          "start": 44.51,
+          "end": 44.898
+        },
+        {
+          "w": "together!",
+          "start": 44.898,
+          "end": 45.35
+        }
+      ]
+    },
+    {
+      "beat": "prism",
+      "speaker": "hoot",
+      "text": "Look! When light goes through this glass shape, the colors spread out!",
+      "gap": 1.4,
+      "start": 46.83,
+      "end": 50.92,
+      "words": [
+        {
+          "w": "Look!",
+          "start": 46.85,
+          "end": 47.139
+        },
+        {
+          "w": "When",
+          "start": 47.139,
+          "end": 47.429
+        },
+        {
+          "w": "light",
+          "start": 47.429,
+          "end": 47.791
+        },
+        {
+          "w": "goes",
+          "start": 47.791,
+          "end": 48.153
+        },
+        {
+          "w": "through",
+          "start": 48.153,
+          "end": 48.514
+        },
+        {
+          "w": "this",
+          "start": 48.514,
+          "end": 48.804
+        },
+        {
+          "w": "glass",
+          "start": 48.804,
+          "end": 49.166
+        },
+        {
+          "w": "shape,",
+          "start": 49.166,
+          "end": 49.527
+        },
+        {
+          "w": "the",
+          "start": 49.527,
+          "end": 49.672
+        },
+        {
+          "w": "colors",
+          "start": 49.672,
+          "end": 50.106
+        },
+        {
+          "w": "spread",
+          "start": 50.106,
+          "end": 50.541
+        },
+        {
+          "w": "out!",
+          "start": 50.541,
+          "end": 50.83
+        }
+      ]
+    },
+    {
+      "beat": "count",
+      "speaker": "narrator",
+      "text": "Let's say the colors! Ready?",
+      "gap": 1.2,
+      "start": 52.32,
+      "end": 54.21,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 52.38,
+          "end": 52.686
+        },
+        {
+          "w": "say",
+          "start": 52.686,
+          "end": 52.931
+        },
+        {
+          "w": "the",
+          "start": 52.931,
+          "end": 53.053
+        },
+        {
+          "w": "colors!",
+          "start": 53.053,
+          "end": 53.42
+        },
+        {
+          "w": "Ready?",
+          "start": 53.62,
+          "end": 54.09
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "narrator",
+      "text": "Red!",
+      "gap": 1.0,
+      "start": 55.41,
+      "end": 56.15,
+      "words": [
+        {
+          "w": "Red!",
+          "start": 55.45,
+          "end": 55.93
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "narrator",
+      "text": "Orange!",
+      "gap": 1.0,
+      "start": 57.15,
+      "end": 57.98,
+      "words": [
+        {
+          "w": "Orange!",
+          "start": 57.2,
+          "end": 57.83
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "narrator",
+      "text": "Yellow!",
+      "gap": 1.0,
+      "start": 58.98,
+      "end": 59.75,
+      "words": [
+        {
+          "w": "Yellow!",
+          "start": 59.02,
+          "end": 59.54
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "narrator",
+      "text": "Green!",
+      "gap": 1.0,
+      "start": 60.75,
+      "end": 61.54,
+      "words": [
+        {
+          "w": "Green!",
+          "start": 60.79,
+          "end": 61.33
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "narrator",
+      "text": "Blue!",
+      "gap": 1.0,
+      "start": 62.54,
+      "end": 63.37,
+      "words": [
+        {
+          "w": "Blue!",
+          "start": 62.58,
+          "end": 63.1
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "narrator",
+      "text": "Indigo!",
+      "gap": 1.0,
+      "start": 64.37,
+      "end": 65.24,
+      "words": [
+        {
+          "w": "Indigo!",
+          "start": 64.39,
+          "end": 65.05
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "narrator",
+      "text": "Violet!",
+      "gap": 1.0,
+      "start": 66.24,
+      "end": 67.11,
+      "words": [
+        {
+          "w": "Violet!",
+          "start": 66.28,
+          "end": 66.92
+        }
+      ]
+    },
+    {
+      "beat": "seven",
+      "speaker": "mila",
+      "text": "Seven colors! Show me seven fingers! Five, and two more!",
+      "gap": 2.8,
+      "start": 68.11,
+      "end": 71.66,
+      "words": [
+        {
+          "w": "Seven",
+          "start": 68.14,
+          "end": 68.542
+        },
+        {
+          "w": "colors!",
+          "start": 68.542,
+          "end": 68.944
+        },
+        {
+          "w": "Show",
+          "start": 68.944,
+          "end": 69.212
+        },
+        {
+          "w": "me",
+          "start": 69.212,
+          "end": 69.48
+        },
+        {
+          "w": "seven",
+          "start": 69.48,
+          "end": 69.882
+        },
+        {
+          "w": "fingers!",
+          "start": 69.882,
+          "end": 70.351
+        },
+        {
+          "w": "Five,",
+          "start": 70.351,
+          "end": 70.686
+        },
+        {
+          "w": "and",
+          "start": 70.686,
+          "end": 70.887
+        },
+        {
+          "w": "two",
+          "start": 70.887,
+          "end": 71.155
+        },
+        {
+          "w": "more!",
+          "start": 71.155,
+          "end": 71.49
+        }
+      ]
+    },
+    {
+      "beat": "around",
+      "speaker": "leo",
+      "text": "Let's find rainbow colors all around us!",
+      "gap": 1.2,
+      "start": 74.46,
+      "end": 77.03,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 74.49,
+          "end": 74.778
+        },
+        {
+          "w": "find",
+          "start": 74.778,
+          "end": 75.125
+        },
+        {
+          "w": "rainbow",
+          "start": 75.125,
+          "end": 75.586
+        },
+        {
+          "w": "colors",
+          "start": 75.586,
+          "end": 75.932
+        },
+        {
+          "w": "all",
+          "start": 75.932,
+          "end": 76.163
+        },
+        {
+          "w": "around",
+          "start": 76.163,
+          "end": 76.567
+        },
+        {
+          "w": "us!",
+          "start": 76.567,
+          "end": 76.74
+        }
+      ]
+    },
+    {
+      "beat": "o0",
+      "speaker": "leo",
+      "text": "Red, like an apple!",
+      "gap": 1.4,
+      "start": 78.23,
+      "end": 79.57,
+      "words": [
+        {
+          "w": "Red,",
+          "start": 78.26,
+          "end": 78.535
+        },
+        {
+          "w": "like",
+          "start": 78.535,
+          "end": 78.879
+        },
+        {
+          "w": "an",
+          "start": 78.879,
+          "end": 79.016
+        },
+        {
+          "w": "apple!",
+          "start": 79.016,
+          "end": 79.36
+        }
+      ]
+    },
+    {
+      "beat": "o1",
+      "speaker": "mila",
+      "text": "Orange, like an orange!",
+      "gap": 1.4,
+      "start": 80.97,
+      "end": 82.82,
+      "words": [
+        {
+          "w": "Orange,",
+          "start": 81.18,
+          "end": 81.687
+        },
+        {
+          "w": "like",
+          "start": 81.687,
+          "end": 82.049
+        },
+        {
+          "w": "an",
+          "start": 82.049,
+          "end": 82.193
+        },
+        {
+          "w": "orange!",
+          "start": 82.193,
+          "end": 82.7
+        }
+      ]
+    },
+    {
+      "beat": "o2",
+      "speaker": "leo",
+      "text": "Yellow, like a banana!",
+      "gap": 1.4,
+      "start": 84.22,
+      "end": 85.68,
+      "words": [
+        {
+          "w": "Yellow,",
+          "start": 84.26,
+          "end": 84.597
+        },
+        {
+          "w": "like",
+          "start": 84.597,
+          "end": 84.878
+        },
+        {
+          "w": "a",
+          "start": 84.878,
+          "end": 85.047
+        },
+        {
+          "w": "banana!",
+          "start": 85.047,
+          "end": 85.44
+        }
+      ]
+    },
+    {
+      "beat": "o3",
+      "speaker": "mila",
+      "text": "Green, like a leaf!",
+      "gap": 1.4,
+      "start": 87.08,
+      "end": 88.63,
+      "words": [
+        {
+          "w": "Green,",
+          "start": 87.11,
+          "end": 87.558
+        },
+        {
+          "w": "like",
+          "start": 87.558,
+          "end": 87.932
+        },
+        {
+          "w": "a",
+          "start": 87.932,
+          "end": 88.156
+        },
+        {
+          "w": "leaf!",
+          "start": 88.156,
+          "end": 88.53
+        }
+      ]
+    },
+    {
+      "beat": "o4",
+      "speaker": "leo",
+      "text": "Blue, like the sky!",
+      "gap": 1.4,
+      "start": 90.03,
+      "end": 91.33,
+      "words": [
+        {
+          "w": "Blue,",
+          "start": 90.06,
+          "end": 90.363
+        },
+        {
+          "w": "like",
+          "start": 90.363,
+          "end": 90.666
+        },
+        {
+          "w": "the",
+          "start": 90.666,
+          "end": 90.787
+        },
+        {
+          "w": "sky!",
+          "start": 90.787,
+          "end": 91.09
+        }
+      ]
+    },
+    {
+      "beat": "o5",
+      "speaker": "mila",
+      "text": "Indigo, like the night sky!",
+      "gap": 1.4,
+      "start": 92.73,
+      "end": 94.66,
+      "words": [
+        {
+          "w": "Indigo,",
+          "start": 92.78,
+          "end": 93.389
+        },
+        {
+          "w": "like",
+          "start": 93.389,
+          "end": 93.728
+        },
+        {
+          "w": "the",
+          "start": 93.728,
+          "end": 93.863
+        },
+        {
+          "w": "night",
+          "start": 93.863,
+          "end": 94.202
+        },
+        {
+          "w": "sky!",
+          "start": 94.202,
+          "end": 94.54
+        }
+      ]
+    },
+    {
+      "beat": "o6",
+      "speaker": "leo",
+      "text": "And violet, like a little flower!",
+      "gap": 2.2,
+      "start": 96.06,
+      "end": 98.04,
+      "words": [
+        {
+          "w": "And",
+          "start": 96.1,
+          "end": 96.263
+        },
+        {
+          "w": "violet,",
+          "start": 96.263,
+          "end": 96.696
+        },
+        {
+          "w": "like",
+          "start": 96.696,
+          "end": 96.967
+        },
+        {
+          "w": "a",
+          "start": 96.967,
+          "end": 97.13
+        },
+        {
+          "w": "little",
+          "start": 97.13,
+          "end": 97.455
+        },
+        {
+          "w": "flower!",
+          "start": 97.455,
+          "end": 97.78
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "narrator",
+      "text": "Question two. How does a raindrop make a rainbow?",
+      "gap": 1.4,
+      "start": 100.24,
+      "end": 103.27,
+      "words": [
+        {
+          "w": "Question",
+          "start": 100.27,
+          "end": 100.858
+        },
+        {
+          "w": "two.",
+          "start": 100.858,
+          "end": 101.12
+        },
+        {
+          "w": "How",
+          "start": 101.45,
+          "end": 101.636
+        },
+        {
+          "w": "does",
+          "start": 101.636,
+          "end": 101.822
+        },
+        {
+          "w": "a",
+          "start": 101.822,
+          "end": 101.961
+        },
+        {
+          "w": "raindrop",
+          "start": 101.961,
+          "end": 102.426
+        },
+        {
+          "w": "make",
+          "start": 102.426,
+          "end": 102.659
+        },
+        {
+          "w": "a",
+          "start": 102.659,
+          "end": 102.798
+        },
+        {
+          "w": "rainbow?",
+          "start": 102.798,
+          "end": 103.17
+        }
+      ]
+    },
+    {
+      "beat": "in",
+      "speaker": "drippy",
+      "text": "The sunlight shines into me...",
+      "gap": 1.2,
+      "start": 104.67,
+      "end": 106.29,
+      "words": [
+        {
+          "w": "The",
+          "start": 104.7,
+          "end": 104.821
+        },
+        {
+          "w": "sunlight",
+          "start": 104.821,
+          "end": 105.304
+        },
+        {
+          "w": "shines",
+          "start": 105.304,
+          "end": 105.666
+        },
+        {
+          "w": "into",
+          "start": 105.666,
+          "end": 105.968
+        },
+        {
+          "w": "me...",
+          "start": 105.968,
+          "end": 106.21
+        }
+      ]
+    },
+    {
+      "beat": "bend",
+      "speaker": "drippy",
+      "text": "Inside me, the light bends, and bounces, and the colors spread out! Ta-da!",
+      "gap": 1.6,
+      "start": 107.49,
+      "end": 111.88,
+      "words": [
+        {
+          "w": "Inside",
+          "start": 107.53,
+          "end": 108.013
+        },
+        {
+          "w": "me,",
+          "start": 108.013,
+          "end": 108.289
+        },
+        {
+          "w": "the",
+          "start": 108.289,
+          "end": 108.427
+        },
+        {
+          "w": "light",
+          "start": 108.427,
+          "end": 108.773
+        },
+        {
+          "w": "bends,",
+          "start": 108.773,
+          "end": 109.187
+        },
+        {
+          "w": "and",
+          "start": 109.187,
+          "end": 109.394
+        },
+        {
+          "w": "bounces,",
+          "start": 109.394,
+          "end": 109.946
+        },
+        {
+          "w": "and",
+          "start": 109.946,
+          "end": 110.153
+        },
+        {
+          "w": "the",
+          "start": 110.153,
+          "end": 110.291
+        },
+        {
+          "w": "colors",
+          "start": 110.291,
+          "end": 110.705
+        },
+        {
+          "w": "spread",
+          "start": 110.705,
+          "end": 111.12
+        },
+        {
+          "w": "out!",
+          "start": 111.12,
+          "end": 111.396
+        },
+        {
+          "w": "Ta-da!",
+          "start": 111.396,
+          "end": 111.81
+        }
+      ]
+    },
+    {
+      "beat": "millions",
+      "speaker": "hoot",
+      "text": "Millions of raindrops do this all together, and we see one big, bright rainbow!",
+      "gap": 1.6,
+      "start": 113.48,
+      "end": 118.93,
+      "words": [
+        {
+          "w": "Millions",
+          "start": 113.5,
+          "end": 114.005
+        },
+        {
+          "w": "of",
+          "start": 114.005,
+          "end": 114.131
+        },
+        {
+          "w": "raindrops",
+          "start": 114.131,
+          "end": 114.762
+        },
+        {
+          "w": "do",
+          "start": 114.762,
+          "end": 115.014
+        },
+        {
+          "w": "this",
+          "start": 115.014,
+          "end": 115.266
+        },
+        {
+          "w": "all",
+          "start": 115.266,
+          "end": 115.518
+        },
+        {
+          "w": "together,",
+          "start": 115.518,
+          "end": 115.96
+        },
+        {
+          "w": "and",
+          "start": 116.36,
+          "end": 116.577
+        },
+        {
+          "w": "we",
+          "start": 116.577,
+          "end": 116.793
+        },
+        {
+          "w": "see",
+          "start": 116.793,
+          "end": 117.082
+        },
+        {
+          "w": "one",
+          "start": 117.082,
+          "end": 117.371
+        },
+        {
+          "w": "big,",
+          "start": 117.371,
+          "end": 117.66
+        },
+        {
+          "w": "bright",
+          "start": 117.91,
+          "end": 118.321
+        },
+        {
+          "w": "rainbow!",
+          "start": 118.321,
+          "end": 118.87
+        }
+      ]
+    },
+    {
+      "beat": "drippy_yay",
+      "speaker": "drippy",
+      "text": "Teamwork! We're a rainbow team!",
+      "gap": 2.2,
+      "start": 120.53,
+      "end": 122.43,
+      "words": [
+        {
+          "w": "Teamwork!",
+          "start": 120.56,
+          "end": 121.103
+        },
+        {
+          "w": "We're",
+          "start": 121.103,
+          "end": 121.284
+        },
+        {
+          "w": "a",
+          "start": 121.284,
+          "end": 121.465
+        },
+        {
+          "w": "rainbow",
+          "start": 121.465,
+          "end": 121.948
+        },
+        {
+          "w": "team!",
+          "start": 121.948,
+          "end": 122.25
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "narrator",
+      "text": "Question three. Where do we look to find a rainbow?",
+      "gap": 1.4,
+      "start": 124.63,
+      "end": 127.44,
+      "words": [
+        {
+          "w": "Question",
+          "start": 124.66,
+          "end": 125.194
+        },
+        {
+          "w": "three.",
+          "start": 125.194,
+          "end": 125.49
+        },
+        {
+          "w": "Where",
+          "start": 125.8,
+          "end": 125.977
+        },
+        {
+          "w": "do",
+          "start": 125.977,
+          "end": 126.154
+        },
+        {
+          "w": "we",
+          "start": 126.154,
+          "end": 126.287
+        },
+        {
+          "w": "look",
+          "start": 126.287,
+          "end": 126.464
+        },
+        {
+          "w": "to",
+          "start": 126.464,
+          "end": 126.597
+        },
+        {
+          "w": "find",
+          "start": 126.597,
+          "end": 126.863
+        },
+        {
+          "w": "a",
+          "start": 126.863,
+          "end": 126.996
+        },
+        {
+          "w": "rainbow?",
+          "start": 126.996,
+          "end": 127.35
+        }
+      ]
+    },
+    {
+      "beat": "behind",
+      "speaker": "hoot",
+      "text": "Stand with the sun behind you, and the rain in front of you. Then look up!",
+      "gap": 1.6,
+      "start": 128.84,
+      "end": 133.68,
+      "words": [
+        {
+          "w": "Stand",
+          "start": 128.87,
+          "end": 129.283
+        },
+        {
+          "w": "with",
+          "start": 129.283,
+          "end": 129.49
+        },
+        {
+          "w": "the",
+          "start": 129.49,
+          "end": 129.627
+        },
+        {
+          "w": "sun",
+          "start": 129.627,
+          "end": 129.903
+        },
+        {
+          "w": "behind",
+          "start": 129.903,
+          "end": 130.453
+        },
+        {
+          "w": "you,",
+          "start": 130.453,
+          "end": 130.66
+        },
+        {
+          "w": "and",
+          "start": 130.91,
+          "end": 131.09
+        },
+        {
+          "w": "the",
+          "start": 131.09,
+          "end": 131.21
+        },
+        {
+          "w": "rain",
+          "start": 131.21,
+          "end": 131.51
+        },
+        {
+          "w": "in",
+          "start": 131.51,
+          "end": 131.69
+        },
+        {
+          "w": "front",
+          "start": 131.69,
+          "end": 132.05
+        },
+        {
+          "w": "of",
+          "start": 132.05,
+          "end": 132.17
+        },
+        {
+          "w": "you.",
+          "start": 132.17,
+          "end": 132.35
+        },
+        {
+          "w": "Then",
+          "start": 132.74,
+          "end": 133.053
+        },
+        {
+          "w": "look",
+          "start": 133.053,
+          "end": 133.365
+        },
+        {
+          "w": "up!",
+          "start": 133.365,
+          "end": 133.6
+        }
+      ]
+    },
+    {
+      "beat": "sun_q",
+      "speaker": "mila",
+      "text": "Game time! Where should the sun be? In front of you, or behind you?",
+      "gap": 5.0,
+      "start": 135.28,
+      "end": 138.77,
+      "words": [
+        {
+          "w": "Game",
+          "start": 135.3,
+          "end": 135.602
+        },
+        {
+          "w": "time!",
+          "start": 135.602,
+          "end": 135.904
+        },
+        {
+          "w": "Where",
+          "start": 135.904,
+          "end": 136.145
+        },
+        {
+          "w": "should",
+          "start": 136.145,
+          "end": 136.386
+        },
+        {
+          "w": "the",
+          "start": 136.386,
+          "end": 136.507
+        },
+        {
+          "w": "sun",
+          "start": 136.507,
+          "end": 136.749
+        },
+        {
+          "w": "be?",
+          "start": 136.749,
+          "end": 136.99
+        },
+        {
+          "w": "In",
+          "start": 136.99,
+          "end": 137.171
+        },
+        {
+          "w": "front",
+          "start": 137.171,
+          "end": 137.533
+        },
+        {
+          "w": "of",
+          "start": 137.533,
+          "end": 137.654
+        },
+        {
+          "w": "you,",
+          "start": 137.654,
+          "end": 137.835
+        },
+        {
+          "w": "or",
+          "start": 137.835,
+          "end": 138.016
+        },
+        {
+          "w": "behind",
+          "start": 138.016,
+          "end": 138.499
+        },
+        {
+          "w": "you?",
+          "start": 138.499,
+          "end": 138.68
+        }
+      ]
+    },
+    {
+      "beat": "sun_a",
+      "speaker": "leo",
+      "text": "Behind me! And the rain in front!",
+      "gap": 2.4,
+      "start": 143.77,
+      "end": 145.85,
+      "words": [
+        {
+          "w": "Behind",
+          "start": 143.81,
+          "end": 144.285
+        },
+        {
+          "w": "me!",
+          "start": 144.285,
+          "end": 144.522
+        },
+        {
+          "w": "And",
+          "start": 144.522,
+          "end": 144.7
+        },
+        {
+          "w": "the",
+          "start": 144.7,
+          "end": 144.819
+        },
+        {
+          "w": "rain",
+          "start": 144.819,
+          "end": 145.116
+        },
+        {
+          "w": "in",
+          "start": 145.116,
+          "end": 145.294
+        },
+        {
+          "w": "front!",
+          "start": 145.294,
+          "end": 145.65
+        }
+      ]
+    },
+    {
+      "beat": "wow",
+      "speaker": "hoot",
+      "text": "Wow fact! A rainbow is really a whole circle! From an airplane, you can sometimes see the full circle!",
+      "gap": 1.4,
+      "start": 148.25,
+      "end": 155.12,
+      "words": [
+        {
+          "w": "Wow",
+          "start": 148.28,
+          "end": 148.604
+        },
+        {
+          "w": "fact!",
+          "start": 148.604,
+          "end": 149.01
+        },
+        {
+          "w": "A",
+          "start": 149.21,
+          "end": 149.403
+        },
+        {
+          "w": "rainbow",
+          "start": 149.403,
+          "end": 149.919
+        },
+        {
+          "w": "is",
+          "start": 149.919,
+          "end": 150.047
+        },
+        {
+          "w": "really",
+          "start": 150.047,
+          "end": 150.434
+        },
+        {
+          "w": "a",
+          "start": 150.434,
+          "end": 150.627
+        },
+        {
+          "w": "whole",
+          "start": 150.627,
+          "end": 150.949
+        },
+        {
+          "w": "circle!",
+          "start": 150.949,
+          "end": 151.4
+        },
+        {
+          "w": "From",
+          "start": 151.78,
+          "end": 152.017
+        },
+        {
+          "w": "an",
+          "start": 152.017,
+          "end": 152.136
+        },
+        {
+          "w": "airplane,",
+          "start": 152.136,
+          "end": 152.61
+        },
+        {
+          "w": "you",
+          "start": 152.91,
+          "end": 153.103
+        },
+        {
+          "w": "can",
+          "start": 153.103,
+          "end": 153.36
+        },
+        {
+          "w": "sometimes",
+          "start": 153.36,
+          "end": 153.938
+        },
+        {
+          "w": "see",
+          "start": 153.938,
+          "end": 154.195
+        },
+        {
+          "w": "the",
+          "start": 154.195,
+          "end": 154.323
+        },
+        {
+          "w": "full",
+          "start": 154.323,
+          "end": 154.58
+        },
+        {
+          "w": "circle!",
+          "start": 154.58,
+          "end": 155.03
+        }
+      ]
+    },
+    {
+      "beat": "wow_b",
+      "speaker": "leo",
+      "text": "A rainbow circle? Like a giant rainbow donut! Yum!",
+      "gap": 2.4,
+      "start": 156.52,
+      "end": 160.01,
+      "words": [
+        {
+          "w": "A",
+          "start": 156.56,
+          "end": 156.735
+        },
+        {
+          "w": "rainbow",
+          "start": 156.735,
+          "end": 157.201
+        },
+        {
+          "w": "circle?",
+          "start": 157.201,
+          "end": 157.609
+        },
+        {
+          "w": "Like",
+          "start": 157.609,
+          "end": 157.901
+        },
+        {
+          "w": "a",
+          "start": 157.901,
+          "end": 158.076
+        },
+        {
+          "w": "giant",
+          "start": 158.076,
+          "end": 158.542
+        },
+        {
+          "w": "rainbow",
+          "start": 158.542,
+          "end": 159.009
+        },
+        {
+          "w": "donut!",
+          "start": 159.009,
+          "end": 159.417
+        },
+        {
+          "w": "Yum!",
+          "start": 159.417,
+          "end": 159.65
+        }
+      ]
+    },
+    {
+      "beat": "double",
+      "speaker": "mila",
+      "text": "And sometimes you can see two rainbows! A double rainbow! In the second one, the colors are upside down!",
+      "gap": 2.4,
+      "start": 162.41,
+      "end": 168.27,
+      "words": [
+        {
+          "w": "And",
+          "start": 162.44,
+          "end": 162.628
+        },
+        {
+          "w": "sometimes",
+          "start": 162.628,
+          "end": 163.191
+        },
+        {
+          "w": "you",
+          "start": 163.191,
+          "end": 163.379
+        },
+        {
+          "w": "can",
+          "start": 163.379,
+          "end": 163.63
+        },
+        {
+          "w": "see",
+          "start": 163.63,
+          "end": 163.88
+        },
+        {
+          "w": "two",
+          "start": 163.88,
+          "end": 164.13
+        },
+        {
+          "w": "rainbows!",
+          "start": 164.13,
+          "end": 164.694
+        },
+        {
+          "w": "A",
+          "start": 164.694,
+          "end": 164.882
+        },
+        {
+          "w": "double",
+          "start": 164.882,
+          "end": 165.257
+        },
+        {
+          "w": "rainbow!",
+          "start": 165.257,
+          "end": 165.758
+        },
+        {
+          "w": "In",
+          "start": 165.758,
+          "end": 165.946
+        },
+        {
+          "w": "the",
+          "start": 165.946,
+          "end": 166.071
+        },
+        {
+          "w": "second",
+          "start": 166.071,
+          "end": 166.51
+        },
+        {
+          "w": "one,",
+          "start": 166.51,
+          "end": 166.76
+        },
+        {
+          "w": "the",
+          "start": 166.76,
+          "end": 166.885
+        },
+        {
+          "w": "colors",
+          "start": 166.885,
+          "end": 167.261
+        },
+        {
+          "w": "are",
+          "start": 167.261,
+          "end": 167.449
+        },
+        {
+          "w": "upside",
+          "start": 167.449,
+          "end": 167.887
+        },
+        {
+          "w": "down!",
+          "start": 167.887,
+          "end": 168.2
+        }
+      ]
+    },
+    {
+      "beat": "double_b",
+      "speaker": "leo",
+      "text": "Two rainbows? Double the fun!",
+      "gap": 2.0,
+      "start": 170.67,
+      "end": 172.65,
+      "words": [
+        {
+          "w": "Two",
+          "start": 170.7,
+          "end": 170.964
+        },
+        {
+          "w": "rainbows?",
+          "start": 170.964,
+          "end": 171.558
+        },
+        {
+          "w": "Double",
+          "start": 171.558,
+          "end": 171.954
+        },
+        {
+          "w": "the",
+          "start": 171.954,
+          "end": 172.086
+        },
+        {
+          "w": "fun!",
+          "start": 172.086,
+          "end": 172.35
+        }
+      ]
+    },
+    {
+      "beat": "night_q",
+      "speaker": "mila",
+      "text": "Hmm... can we see a rainbow at night, when there is no sun?",
+      "gap": 5.0,
+      "start": 174.65,
+      "end": 177.91,
+      "words": [
+        {
+          "w": "Hmm...",
+          "start": 174.78,
+          "end": 175.17
+        },
+        {
+          "w": "can",
+          "start": 175.3,
+          "end": 175.477
+        },
+        {
+          "w": "we",
+          "start": 175.477,
+          "end": 175.609
+        },
+        {
+          "w": "see",
+          "start": 175.609,
+          "end": 175.786
+        },
+        {
+          "w": "a",
+          "start": 175.786,
+          "end": 175.918
+        },
+        {
+          "w": "rainbow",
+          "start": 175.918,
+          "end": 176.271
+        },
+        {
+          "w": "at",
+          "start": 176.271,
+          "end": 176.359
+        },
+        {
+          "w": "night,",
+          "start": 176.359,
+          "end": 176.58
+        },
+        {
+          "w": "when",
+          "start": 176.7,
+          "end": 176.913
+        },
+        {
+          "w": "there",
+          "start": 176.913,
+          "end": 177.127
+        },
+        {
+          "w": "is",
+          "start": 177.127,
+          "end": 177.233
+        },
+        {
+          "w": "no",
+          "start": 177.233,
+          "end": 177.447
+        },
+        {
+          "w": "sun?",
+          "start": 177.447,
+          "end": 177.66
+        }
+      ]
+    },
+    {
+      "beat": "night_a",
+      "speaker": "hoot",
+      "text": "No! A rainbow needs sunlight. No sun, no rainbow!",
+      "gap": 2.4,
+      "start": 182.91,
+      "end": 186.66,
+      "words": [
+        {
+          "w": "No!",
+          "start": 182.93,
+          "end": 183.227
+        },
+        {
+          "w": "A",
+          "start": 183.227,
+          "end": 183.45
+        },
+        {
+          "w": "rainbow",
+          "start": 183.45,
+          "end": 184.044
+        },
+        {
+          "w": "needs",
+          "start": 184.044,
+          "end": 184.49
+        },
+        {
+          "w": "sunlight.",
+          "start": 184.49,
+          "end": 185.084
+        },
+        {
+          "w": "No",
+          "start": 185.084,
+          "end": 185.381
+        },
+        {
+          "w": "sun,",
+          "start": 185.381,
+          "end": 185.679
+        },
+        {
+          "w": "no",
+          "start": 185.679,
+          "end": 185.976
+        },
+        {
+          "w": "rainbow!",
+          "start": 185.976,
+          "end": 186.57
+        }
+      ]
+    },
+    {
+      "beat": "craft",
+      "speaker": "mila",
+      "text": "Let's make our own rainbow! Ask a grown-up to help.",
+      "gap": 1.4,
+      "start": 189.06,
+      "end": 192.09,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 189.11,
+          "end": 189.383
+        },
+        {
+          "w": "make",
+          "start": 189.383,
+          "end": 189.656
+        },
+        {
+          "w": "our",
+          "start": 189.656,
+          "end": 189.875
+        },
+        {
+          "w": "own",
+          "start": 189.875,
+          "end": 190.093
+        },
+        {
+          "w": "rainbow!",
+          "start": 190.093,
+          "end": 190.53
+        },
+        {
+          "w": "Ask",
+          "start": 190.73,
+          "end": 190.942
+        },
+        {
+          "w": "a",
+          "start": 190.942,
+          "end": 191.101
+        },
+        {
+          "w": "grown-up",
+          "start": 191.101,
+          "end": 191.526
+        },
+        {
+          "w": "to",
+          "start": 191.526,
+          "end": 191.685
+        },
+        {
+          "w": "help.",
+          "start": 191.685,
+          "end": 191.95
+        }
+      ]
+    },
+    {
+      "beat": "e1",
+      "speaker": "hoot",
+      "text": "Step one. Fill a clear glass with water.",
+      "gap": 1.8,
+      "start": 193.49,
+      "end": 196.37,
+      "words": [
+        {
+          "w": "Step",
+          "start": 193.52,
+          "end": 193.948
+        },
+        {
+          "w": "one.",
+          "start": 193.948,
+          "end": 194.29
+        },
+        {
+          "w": "Fill",
+          "start": 194.48,
+          "end": 194.758
+        },
+        {
+          "w": "a",
+          "start": 194.758,
+          "end": 194.967
+        },
+        {
+          "w": "clear",
+          "start": 194.967,
+          "end": 195.315
+        },
+        {
+          "w": "glass",
+          "start": 195.315,
+          "end": 195.663
+        },
+        {
+          "w": "with",
+          "start": 195.663,
+          "end": 195.872
+        },
+        {
+          "w": "water.",
+          "start": 195.872,
+          "end": 196.29
+        }
+      ]
+    },
+    {
+      "beat": "e2",
+      "speaker": "hoot",
+      "text": "Step two. Put the glass in a sunny window.",
+      "gap": 1.8,
+      "start": 198.17,
+      "end": 201.09,
+      "words": [
+        {
+          "w": "Step",
+          "start": 198.21,
+          "end": 198.627
+        },
+        {
+          "w": "two.",
+          "start": 198.627,
+          "end": 198.96
+        },
+        {
+          "w": "Put",
+          "start": 199.11,
+          "end": 199.372
+        },
+        {
+          "w": "the",
+          "start": 199.372,
+          "end": 199.503
+        },
+        {
+          "w": "glass",
+          "start": 199.503,
+          "end": 199.831
+        },
+        {
+          "w": "in",
+          "start": 199.831,
+          "end": 200.027
+        },
+        {
+          "w": "a",
+          "start": 200.027,
+          "end": 200.224
+        },
+        {
+          "w": "sunny",
+          "start": 200.224,
+          "end": 200.551
+        },
+        {
+          "w": "window.",
+          "start": 200.551,
+          "end": 201.01
+        }
+      ]
+    },
+    {
+      "beat": "e3",
+      "speaker": "hoot",
+      "text": "Step three. Hold a white paper on the floor, below the glass... and look!",
+      "gap": 2.0,
+      "start": 202.89,
+      "end": 207.58,
+      "words": [
+        {
+          "w": "Step",
+          "start": 202.92,
+          "end": 203.3
+        },
+        {
+          "w": "three.",
+          "start": 203.3,
+          "end": 203.68
+        },
+        {
+          "w": "Hold",
+          "start": 203.68,
+          "end": 204.136
+        },
+        {
+          "w": "a",
+          "start": 204.136,
+          "end": 204.364
+        },
+        {
+          "w": "white",
+          "start": 204.364,
+          "end": 204.744
+        },
+        {
+          "w": "paper",
+          "start": 204.744,
+          "end": 205.2
+        },
+        {
+          "w": "on",
+          "start": 205.2,
+          "end": 205.428
+        },
+        {
+          "w": "the",
+          "start": 205.428,
+          "end": 205.58
+        },
+        {
+          "w": "floor,",
+          "start": 205.58,
+          "end": 205.96
+        },
+        {
+          "w": "below",
+          "start": 205.96,
+          "end": 206.416
+        },
+        {
+          "w": "the",
+          "start": 206.416,
+          "end": 206.568
+        },
+        {
+          "w": "glass...",
+          "start": 206.568,
+          "end": 206.948
+        },
+        {
+          "w": "and",
+          "start": 206.948,
+          "end": 207.176
+        },
+        {
+          "w": "look!",
+          "start": 207.176,
+          "end": 207.48
+        }
+      ]
+    },
+    {
+      "beat": "e4",
+      "speaker": "mila",
+      "text": "Ta-da! A little rainbow on the paper!",
+      "gap": 2.6,
+      "start": 209.58,
+      "end": 211.88,
+      "words": [
+        {
+          "w": "Ta-da!",
+          "start": 209.61,
+          "end": 210.12
+        },
+        {
+          "w": "A",
+          "start": 210.27,
+          "end": 210.431
+        },
+        {
+          "w": "little",
+          "start": 210.431,
+          "end": 210.752
+        },
+        {
+          "w": "rainbow",
+          "start": 210.752,
+          "end": 211.181
+        },
+        {
+          "w": "on",
+          "start": 211.181,
+          "end": 211.341
+        },
+        {
+          "w": "the",
+          "start": 211.341,
+          "end": 211.449
+        },
+        {
+          "w": "paper!",
+          "start": 211.449,
+          "end": 211.77
+        }
+      ]
+    },
+    {
+      "beat": "game",
+      "speaker": "leo",
+      "text": "Color game! What color comes after yellow?",
+      "gap": 5.0,
+      "start": 214.48,
+      "end": 217.04,
+      "words": [
+        {
+          "w": "Color",
+          "start": 214.52,
+          "end": 214.833
+        },
+        {
+          "w": "game!",
+          "start": 214.833,
+          "end": 215.146
+        },
+        {
+          "w": "What",
+          "start": 215.146,
+          "end": 215.396
+        },
+        {
+          "w": "color",
+          "start": 215.396,
+          "end": 215.709
+        },
+        {
+          "w": "comes",
+          "start": 215.709,
+          "end": 216.022
+        },
+        {
+          "w": "after",
+          "start": 216.022,
+          "end": 216.335
+        },
+        {
+          "w": "yellow?",
+          "start": 216.335,
+          "end": 216.71
+        }
+      ]
+    },
+    {
+      "beat": "game_a",
+      "speaker": "mila",
+      "text": "Green!",
+      "gap": 2.2,
+      "start": 222.04,
+      "end": 222.95,
+      "words": [
+        {
+          "w": "Green!",
+          "start": 222.12,
+          "end": 222.79
+        }
+      ]
+    },
+    {
+      "beat": "game2",
+      "speaker": "leo",
+      "text": "What color is at the top of the rainbow?",
+      "gap": 5.0,
+      "start": 225.15,
+      "end": 227.49,
+      "words": [
+        {
+          "w": "What",
+          "start": 225.18,
+          "end": 225.426
+        },
+        {
+          "w": "color",
+          "start": 225.426,
+          "end": 225.734
+        },
+        {
+          "w": "is",
+          "start": 225.734,
+          "end": 225.857
+        },
+        {
+          "w": "at",
+          "start": 225.857,
+          "end": 225.98
+        },
+        {
+          "w": "the",
+          "start": 225.98,
+          "end": 226.103
+        },
+        {
+          "w": "top",
+          "start": 226.103,
+          "end": 226.411
+        },
+        {
+          "w": "of",
+          "start": 226.411,
+          "end": 226.534
+        },
+        {
+          "w": "the",
+          "start": 226.534,
+          "end": 226.657
+        },
+        {
+          "w": "rainbow?",
+          "start": 226.657,
+          "end": 227.15
+        }
+      ]
+    },
+    {
+      "beat": "game2_a",
+      "speaker": "hoot",
+      "text": "Red! Red is always on top!",
+      "gap": 2.4,
+      "start": 232.49,
+      "end": 234.72,
+      "words": [
+        {
+          "w": "Red!",
+          "start": 232.52,
+          "end": 232.93
+        },
+        {
+          "w": "Red",
+          "start": 233.05,
+          "end": 233.353
+        },
+        {
+          "w": "is",
+          "start": 233.353,
+          "end": 233.504
+        },
+        {
+          "w": "always",
+          "start": 233.504,
+          "end": 234.11
+        },
+        {
+          "w": "on",
+          "start": 234.11,
+          "end": 234.337
+        },
+        {
+          "w": "top!",
+          "start": 234.337,
+          "end": 234.64
+        }
+      ]
+    },
+    {
+      "beat": "rem",
+      "speaker": "mila",
+      "text": "Let's remember!",
+      "gap": 1.2,
+      "start": 237.12,
+      "end": 238.39,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 237.23,
+          "end": 237.63
+        },
+        {
+          "w": "remember!",
+          "start": 237.63,
+          "end": 238.27
+        }
+      ]
+    },
+    {
+      "beat": "rq1",
+      "speaker": "narrator",
+      "text": "What two things make a rainbow?",
+      "gap": 5.0,
+      "start": 239.59,
+      "end": 241.36,
+      "words": [
+        {
+          "w": "What",
+          "start": 239.65,
+          "end": 239.868
+        },
+        {
+          "w": "two",
+          "start": 239.868,
+          "end": 240.086
+        },
+        {
+          "w": "things",
+          "start": 240.086,
+          "end": 240.358
+        },
+        {
+          "w": "make",
+          "start": 240.358,
+          "end": 240.631
+        },
+        {
+          "w": "a",
+          "start": 240.631,
+          "end": 240.794
+        },
+        {
+          "w": "rainbow?",
+          "start": 240.794,
+          "end": 241.23
+        }
+      ]
+    },
+    {
+      "beat": "ra1",
+      "speaker": "leo",
+      "text": "Sunlight and raindrops!",
+      "gap": 2.0,
+      "start": 246.36,
+      "end": 248.02,
+      "words": [
+        {
+          "w": "Sunlight",
+          "start": 246.39,
+          "end": 246.895
+        },
+        {
+          "w": "and",
+          "start": 246.895,
+          "end": 247.085
+        },
+        {
+          "w": "raindrops!",
+          "start": 247.085,
+          "end": 247.78
+        }
+      ]
+    },
+    {
+      "beat": "rq2",
+      "speaker": "narrator",
+      "text": "How many colors are in the rainbow?",
+      "gap": 5.0,
+      "start": 250.02,
+      "end": 251.91,
+      "words": [
+        {
+          "w": "How",
+          "start": 250.08,
+          "end": 250.298
+        },
+        {
+          "w": "many",
+          "start": 250.298,
+          "end": 250.571
+        },
+        {
+          "w": "colors",
+          "start": 250.571,
+          "end": 250.898
+        },
+        {
+          "w": "are",
+          "start": 250.898,
+          "end": 251.061
+        },
+        {
+          "w": "in",
+          "start": 251.061,
+          "end": 251.225
+        },
+        {
+          "w": "the",
+          "start": 251.225,
+          "end": 251.334
+        },
+        {
+          "w": "rainbow?",
+          "start": 251.334,
+          "end": 251.77
+        }
+      ]
+    },
+    {
+      "beat": "ra2",
+      "speaker": "mila",
+      "text": "Seven!",
+      "gap": 2.0,
+      "start": 256.91,
+      "end": 257.76,
+      "words": [
+        {
+          "w": "Seven!",
+          "start": 256.96,
+          "end": 257.62
+        }
+      ]
+    },
+    {
+      "beat": "rq3",
+      "speaker": "narrator",
+      "text": "Where is the sun when you see a rainbow?",
+      "gap": 5.0,
+      "start": 259.76,
+      "end": 261.8,
+      "words": [
+        {
+          "w": "Where",
+          "start": 259.79,
+          "end": 260.01
+        },
+        {
+          "w": "is",
+          "start": 260.01,
+          "end": 260.12
+        },
+        {
+          "w": "the",
+          "start": 260.12,
+          "end": 260.23
+        },
+        {
+          "w": "sun",
+          "start": 260.23,
+          "end": 260.45
+        },
+        {
+          "w": "when",
+          "start": 260.45,
+          "end": 260.67
+        },
+        {
+          "w": "you",
+          "start": 260.67,
+          "end": 260.835
+        },
+        {
+          "w": "see",
+          "start": 260.835,
+          "end": 261.055
+        },
+        {
+          "w": "a",
+          "start": 261.055,
+          "end": 261.22
+        },
+        {
+          "w": "rainbow?",
+          "start": 261.22,
+          "end": 261.66
+        }
+      ]
+    },
+    {
+      "beat": "ra3",
+      "speaker": "drippy",
+      "text": "Behind you!",
+      "gap": 2.0,
+      "start": 266.8,
+      "end": 267.69,
+      "words": [
+        {
+          "w": "Behind",
+          "start": 266.83,
+          "end": 267.383
+        },
+        {
+          "w": "you!",
+          "start": 267.383,
+          "end": 267.59
+        }
+      ]
+    },
+    {
+      "beat": "rq4",
+      "speaker": "narrator",
+      "text": "What color is on top?",
+      "gap": 5.0,
+      "start": 269.69,
+      "end": 271.06,
+      "words": [
+        {
+          "w": "What",
+          "start": 269.74,
+          "end": 270.001
+        },
+        {
+          "w": "color",
+          "start": 270.001,
+          "end": 270.327
+        },
+        {
+          "w": "is",
+          "start": 270.327,
+          "end": 270.458
+        },
+        {
+          "w": "on",
+          "start": 270.458,
+          "end": 270.654
+        },
+        {
+          "w": "top?",
+          "start": 270.654,
+          "end": 270.98
+        }
+      ]
+    },
+    {
+      "beat": "ra4",
+      "speaker": "leo",
+      "text": "Red!",
+      "gap": 2.0,
+      "start": 276.06,
+      "end": 276.74,
+      "words": [
+        {
+          "w": "Red!",
+          "start": 276.09,
+          "end": 276.64
+        }
+      ]
+    },
+    {
+      "beat": "rq5",
+      "speaker": "narrator",
+      "text": "What shape is a rainbow, really?",
+      "gap": 5.0,
+      "start": 278.74,
+      "end": 280.57,
+      "words": [
+        {
+          "w": "What",
+          "start": 278.78,
+          "end": 279.014
+        },
+        {
+          "w": "shape",
+          "start": 279.014,
+          "end": 279.307
+        },
+        {
+          "w": "is",
+          "start": 279.307,
+          "end": 279.424
+        },
+        {
+          "w": "a",
+          "start": 279.424,
+          "end": 279.6
+        },
+        {
+          "w": "rainbow,",
+          "start": 279.6,
+          "end": 280.069
+        },
+        {
+          "w": "really?",
+          "start": 280.069,
+          "end": 280.42
+        }
+      ]
+    },
+    {
+      "beat": "ra5",
+      "speaker": "mila",
+      "text": "A circle!",
+      "gap": 2.2,
+      "start": 285.57,
+      "end": 286.63,
+      "words": [
+        {
+          "w": "A",
+          "start": 285.67,
+          "end": 285.91
+        },
+        {
+          "w": "circle!",
+          "start": 285.91,
+          "end": 286.47
+        }
+      ]
+    },
+    {
+      "beat": "chant",
+      "speaker": "hoot",
+      "text": "Let's say it together!",
+      "gap": 0.9,
+      "start": 288.83,
+      "end": 290.32,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 288.87,
+          "end": 289.253
+        },
+        {
+          "w": "say",
+          "start": 289.253,
+          "end": 289.56
+        },
+        {
+          "w": "it",
+          "start": 289.56,
+          "end": 289.713
+        },
+        {
+          "w": "together!",
+          "start": 289.713,
+          "end": 290.25
+        }
+      ]
+    },
+    {
+      "beat": "ch1",
+      "speaker": "mila",
+      "text": "Sun behind!",
+      "gap": 0.9,
+      "start": 291.22,
+      "end": 292.41,
+      "words": [
+        {
+          "w": "Sun",
+          "start": 291.27,
+          "end": 291.62
+        },
+        {
+          "w": "behind!",
+          "start": 291.62,
+          "end": 292.32
+        }
+      ]
+    },
+    {
+      "beat": "ch2",
+      "speaker": "leo",
+      "text": "Rain in front!",
+      "gap": 0.9,
+      "start": 293.31,
+      "end": 294.46,
+      "words": [
+        {
+          "w": "Rain",
+          "start": 293.34,
+          "end": 293.676
+        },
+        {
+          "w": "in",
+          "start": 293.676,
+          "end": 293.877
+        },
+        {
+          "w": "front!",
+          "start": 293.877,
+          "end": 294.28
+        }
+      ]
+    },
+    {
+      "beat": "ch3",
+      "speaker": "drippy",
+      "text": "Seven colors!",
+      "gap": 0.9,
+      "start": 295.36,
+      "end": 296.38,
+      "words": [
+        {
+          "w": "Seven",
+          "start": 295.38,
+          "end": 295.845
+        },
+        {
+          "w": "colors!",
+          "start": 295.845,
+          "end": 296.31
+        }
+      ]
+    },
+    {
+      "beat": "ch4",
+      "speaker": "hoot",
+      "text": "Rainbow bright!",
+      "gap": 1.6,
+      "start": 297.28,
+      "end": 298.66,
+      "words": [
+        {
+          "w": "Rainbow",
+          "start": 297.32,
+          "end": 298.029
+        },
+        {
+          "w": "bright!",
+          "start": 298.029,
+          "end": 298.56
+        }
+      ]
+    },
+    {
+      "beat": "ch_turn",
+      "speaker": "narrator",
+      "text": "Your turn! Sun behind! Rain in front! Seven colors! Rainbow bright!",
+      "gap": 3.0,
+      "start": 300.26,
+      "end": 304.65,
+      "words": [
+        {
+          "w": "Your",
+          "start": 300.3,
+          "end": 300.515
+        },
+        {
+          "w": "turn!",
+          "start": 300.515,
+          "end": 300.872
+        },
+        {
+          "w": "Sun",
+          "start": 300.872,
+          "end": 301.158
+        },
+        {
+          "w": "behind!",
+          "start": 301.158,
+          "end": 301.73
+        },
+        {
+          "w": "Rain",
+          "start": 301.73,
+          "end": 302.087
+        },
+        {
+          "w": "in",
+          "start": 302.087,
+          "end": 302.302
+        },
+        {
+          "w": "front!",
+          "start": 302.302,
+          "end": 302.731
+        },
+        {
+          "w": "Seven",
+          "start": 302.731,
+          "end": 303.16
+        },
+        {
+          "w": "colors!",
+          "start": 303.16,
+          "end": 303.589
+        },
+        {
+          "w": "Rainbow",
+          "start": 303.589,
+          "end": 304.161
+        },
+        {
+          "w": "bright!",
+          "start": 304.161,
+          "end": 304.59
+        }
+      ]
+    },
+    {
+      "beat": "bye_d",
+      "speaker": "drippy",
+      "text": "Thanks for making a rainbow with me! Bye-bye!",
+      "gap": 1.0,
+      "start": 307.65,
+      "end": 310.31,
+      "words": [
+        {
+          "w": "Thanks",
+          "start": 307.74,
+          "end": 308.007
+        },
+        {
+          "w": "for",
+          "start": 308.007,
+          "end": 308.186
+        },
+        {
+          "w": "making",
+          "start": 308.186,
+          "end": 308.498
+        },
+        {
+          "w": "a",
+          "start": 308.498,
+          "end": 308.631
+        },
+        {
+          "w": "rainbow",
+          "start": 308.631,
+          "end": 308.988
+        },
+        {
+          "w": "with",
+          "start": 308.988,
+          "end": 309.122
+        },
+        {
+          "w": "me!",
+          "start": 309.122,
+          "end": 309.3
+        },
+        {
+          "w": "Bye-bye!",
+          "start": 309.64,
+          "end": 310.23
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "text": "See you next time, friends!",
+      "gap": 1.0,
+      "start": 311.31,
+      "end": 313.06,
+      "words": [
+        {
+          "w": "See",
+          "start": 311.34,
+          "end": 311.591
+        },
+        {
+          "w": "you",
+          "start": 311.591,
+          "end": 311.78
+        },
+        {
+          "w": "next",
+          "start": 311.78,
+          "end": 312.156
+        },
+        {
+          "w": "time,",
+          "start": 312.156,
+          "end": 312.47
+        },
+        {
+          "w": "friends!",
+          "start": 312.47,
+          "end": 312.91
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast",
+  "beats": [
+    {
+      "id": "why",
+      "start": 0,
+      "visual": "Look! The rain stopped, and there is a rainbow! How does a rainbow get there?",
+      "end": 9.28
+    },
+    {
+      "id": "guess",
+      "start": 9.28,
+      "visual": "I know! A giant painter in the sky, with a huge paintbrush! Swish, swish!",
+      "end": 15.44
+    },
+    {
+      "id": "good",
+      "start": 15.44,
+      "visual": "Ha ha! Good guess, Leo! But a rainbow is made by two things: sunlight, and raindrops!",
+      "end": 22.75
+    },
+    {
+      "id": "how",
+      "start": 22.75,
+      "visual": "Sunlight and raindrops? How?",
+      "end": 25.84
+    },
+    {
+      "id": "meet",
+      "start": 25.84,
+      "visual": "Let's ask a raindrop! Here comes our old friend, Drippy!",
+      "end": 30.55
+    },
+    {
+      "id": "drippy_hi",
+      "start": 30.55,
+      "visual": "Hi again! I'm Drippy! Today, I'm going to help make a rainbow!",
+      "end": 36.18
+    },
+    {
+      "id": "q1",
+      "start": 36.18,
+      "visual": "Question one. What is sunlight made of?",
+      "end": 40.03
+    },
+    {
+      "id": "white",
+      "start": 40.03,
+      "visual": "Sunlight looks white. But it is really all the colors of the rainbow, mixed together!",
+      "end": 46.63
+    },
+    {
+      "id": "prism",
+      "start": 46.63,
+      "visual": "Look! When light goes through this glass shape, the colors spread out!",
+      "end": 52.12
+    },
+    {
+      "id": "count",
+      "start": 52.12,
+      "visual": "Let's say the colors! Ready?",
+      "end": 55.21
+    },
+    {
+      "id": "c0",
+      "start": 55.21,
+      "visual": "Red!",
+      "end": 56.95
+    },
+    {
+      "id": "c1",
+      "start": 56.95,
+      "visual": "Orange!",
+      "end": 58.78
+    },
+    {
+      "id": "c2",
+      "start": 58.78,
+      "visual": "Yellow!",
+      "end": 60.55
+    },
+    {
+      "id": "c3",
+      "start": 60.55,
+      "visual": "Green!",
+      "end": 62.34
+    },
+    {
+      "id": "c4",
+      "start": 62.34,
+      "visual": "Blue!",
+      "end": 64.17
+    },
+    {
+      "id": "c5",
+      "start": 64.17,
+      "visual": "Indigo!",
+      "end": 66.04
+    },
+    {
+      "id": "c6",
+      "start": 66.04,
+      "visual": "Violet!",
+      "end": 67.91
+    },
+    {
+      "id": "seven",
+      "start": 67.91,
+      "visual": "Seven colors! Show me seven fingers! Five, and two more!",
+      "end": 74.26
+    },
+    {
+      "id": "around",
+      "start": 74.26,
+      "visual": "Let's find rainbow colors all around us!",
+      "end": 78.03
+    },
+    {
+      "id": "o0",
+      "start": 78.03,
+      "visual": "Red, like an apple!",
+      "end": 80.77
+    },
+    {
+      "id": "o1",
+      "start": 80.77,
+      "visual": "Orange, like an orange!",
+      "end": 84.02
+    },
+    {
+      "id": "o2",
+      "start": 84.02,
+      "visual": "Yellow, like a banana!",
+      "end": 86.88
+    },
+    {
+      "id": "o3",
+      "start": 86.88,
+      "visual": "Green, like a leaf!",
+      "end": 89.83
+    },
+    {
+      "id": "o4",
+      "start": 89.83,
+      "visual": "Blue, like the sky!",
+      "end": 92.53
+    },
+    {
+      "id": "o5",
+      "start": 92.53,
+      "visual": "Indigo, like the night sky!",
+      "end": 95.86
+    },
+    {
+      "id": "o6",
+      "start": 95.86,
+      "visual": "And violet, like a little flower!",
+      "end": 100.04
+    },
+    {
+      "id": "q2",
+      "start": 100.04,
+      "visual": "Question two. How does a raindrop make a rainbow?",
+      "end": 104.47
+    },
+    {
+      "id": "in",
+      "start": 104.47,
+      "visual": "The sunlight shines into me...",
+      "end": 107.29
+    },
+    {
+      "id": "bend",
+      "start": 107.29,
+      "visual": "Inside me, the light bends, and bounces, and the colors spread out! Ta-da!",
+      "end": 113.28
+    },
+    {
+      "id": "millions",
+      "start": 113.28,
+      "visual": "Millions of raindrops do this all together, and we see one big, bright rainbow!",
+      "end": 120.33
+    },
+    {
+      "id": "drippy_yay",
+      "start": 120.33,
+      "visual": "Teamwork! We're a rainbow team!",
+      "end": 124.43
+    },
+    {
+      "id": "q3",
+      "start": 124.43,
+      "visual": "Question three. Where do we look to find a rainbow?",
+      "end": 128.64
+    },
+    {
+      "id": "behind",
+      "start": 128.64,
+      "visual": "Stand with the sun behind you, and the rain in front of you. Then look up!",
+      "end": 135.08
+    },
+    {
+      "id": "sun_q",
+      "start": 135.08,
+      "visual": "Game time! Where should the sun be? In front of you, or behind you?",
+      "end": 143.57
+    },
+    {
+      "id": "sun_a",
+      "start": 143.57,
+      "visual": "Behind me! And the rain in front!",
+      "end": 148.05
+    },
+    {
+      "id": "wow",
+      "start": 148.05,
+      "visual": "Wow fact! A rainbow is really a whole circle! From an airplane, you can sometimes see the full circle!",
+      "end": 156.32
+    },
+    {
+      "id": "wow_b",
+      "start": 156.32,
+      "visual": "A rainbow circle? Like a giant rainbow donut! Yum!",
+      "end": 162.21
+    },
+    {
+      "id": "double",
+      "start": 162.21,
+      "visual": "And sometimes you can see two rainbows! A double rainbow! In the second one, the colors are upside down!",
+      "end": 170.47
+    },
+    {
+      "id": "double_b",
+      "start": 170.47,
+      "visual": "Two rainbows? Double the fun!",
+      "end": 174.45
+    },
+    {
+      "id": "night_q",
+      "start": 174.45,
+      "visual": "Hmm... can we see a rainbow at night, when there is no sun?",
+      "end": 182.71
+    },
+    {
+      "id": "night_a",
+      "start": 182.71,
+      "visual": "No! A rainbow needs sunlight. No sun, no rainbow!",
+      "end": 188.86
+    },
+    {
+      "id": "craft",
+      "start": 188.86,
+      "visual": "Let's make our own rainbow! Ask a grown-up to help.",
+      "end": 193.29
+    },
+    {
+      "id": "e1",
+      "start": 193.29,
+      "visual": "Step one. Fill a clear glass with water.",
+      "end": 197.97
+    },
+    {
+      "id": "e2",
+      "start": 197.97,
+      "visual": "Step two. Put the glass in a sunny window.",
+      "end": 202.69
+    },
+    {
+      "id": "e3",
+      "start": 202.69,
+      "visual": "Step three. Hold a white paper on the floor, below the glass... and look!",
+      "end": 209.38
+    },
+    {
+      "id": "e4",
+      "start": 209.38,
+      "visual": "Ta-da! A little rainbow on the paper!",
+      "end": 214.28
+    },
+    {
+      "id": "game",
+      "start": 214.28,
+      "visual": "Color game! What color comes after yellow?",
+      "end": 221.84
+    },
+    {
+      "id": "game_a",
+      "start": 221.84,
+      "visual": "Green!",
+      "end": 224.95
+    },
+    {
+      "id": "game2",
+      "start": 224.95,
+      "visual": "What color is at the top of the rainbow?",
+      "end": 232.29
+    },
+    {
+      "id": "game2_a",
+      "start": 232.29,
+      "visual": "Red! Red is always on top!",
+      "end": 236.92
+    },
+    {
+      "id": "rem",
+      "start": 236.92,
+      "visual": "Let's remember!",
+      "end": 239.39
+    },
+    {
+      "id": "rq1",
+      "start": 239.39,
+      "visual": "What two things make a rainbow?",
+      "end": 246.16
+    },
+    {
+      "id": "ra1",
+      "start": 246.16,
+      "visual": "Sunlight and raindrops!",
+      "end": 249.82
+    },
+    {
+      "id": "rq2",
+      "start": 249.82,
+      "visual": "How many colors are in the rainbow?",
+      "end": 256.71
+    },
+    {
+      "id": "ra2",
+      "start": 256.71,
+      "visual": "Seven!",
+      "end": 259.56
+    },
+    {
+      "id": "rq3",
+      "start": 259.56,
+      "visual": "Where is the sun when you see a rainbow?",
+      "end": 266.6
+    },
+    {
+      "id": "ra3",
+      "start": 266.6,
+      "visual": "Behind you!",
+      "end": 269.49
+    },
+    {
+      "id": "rq4",
+      "start": 269.49,
+      "visual": "What color is on top?",
+      "end": 275.86
+    },
+    {
+      "id": "ra4",
+      "start": 275.86,
+      "visual": "Red!",
+      "end": 278.54
+    },
+    {
+      "id": "rq5",
+      "start": 278.54,
+      "visual": "What shape is a rainbow, really?",
+      "end": 285.37
+    },
+    {
+      "id": "ra5",
+      "start": 285.37,
+      "visual": "A circle!",
+      "end": 288.63
+    },
+    {
+      "id": "chant",
+      "start": 288.63,
+      "visual": "Let's say it together!",
+      "end": 291.02
+    },
+    {
+      "id": "ch1",
+      "start": 291.02,
+      "visual": "Sun behind!",
+      "end": 293.11
+    },
+    {
+      "id": "ch2",
+      "start": 293.11,
+      "visual": "Rain in front!",
+      "end": 295.16
+    },
+    {
+      "id": "ch3",
+      "start": 295.16,
+      "visual": "Seven colors!",
+      "end": 297.08
+    },
+    {
+      "id": "ch4",
+      "start": 297.08,
+      "visual": "Rainbow bright!",
+      "end": 300.06
+    },
+    {
+      "id": "ch_turn",
+      "start": 300.06,
+      "visual": "Your turn! Sun behind! Rain in front! Seven colors! Rainbow bright!",
+      "end": 307.45
+    },
+    {
+      "id": "bye_d",
+      "start": 307.45,
+      "visual": "Thanks for making a rainbow with me! Bye-bye!",
+      "end": 311.11
+    },
+    {
+      "id": "bye",
+      "start": 311.11,
+      "visual": "See you next time, friends!",
+      "end": 318.1
+    }
+  ]
+}
