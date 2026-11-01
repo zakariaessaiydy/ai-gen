@@ -302,6 +302,189 @@ export const THUMBS: Thumb[] = [
   "rot": -3
  },
  {
+  "day": 46,
+  "frame": "d046-97.11.png",
+  "z": 1.05,
+  "fx": 1000,
+  "fy": 540,
+  "lines": [
+   "NEW",
+   "FRIEND!"
+  ],
+  "size": 140,
+  "at": "left",
+  "rot": -3
+ },
+ {
+  "day": 47,
+  "frame": "d047-211.19.png",
+  "z": 1.15,
+  "fx": 1120,
+  "fy": 600,
+  "lines": [
+   "HOW DOES",
+   "RAIN FORM?"
+  ],
+  "size": 116,
+  "at": "top",
+  "rot": -2
+ },
+ {
+  "day": 48,
+  "frame": "d048-67.44.png",
+  "z": 1.15,
+  "fx": 860,
+  "fy": 420,
+  "lines": [
+   "SPOT THE",
+   "ODD ONE!"
+  ],
+  "size": 120,
+  "at": "bottom",
+  "rot": -2
+ },
+ {
+  "day": 49,
+  "frame": "d049-5.00.png",
+  "z": 1.25,
+  "fx": 720,
+  "fy": 440,
+  "lines": [
+   "12 MONTHS",
+   "SONG!"
+  ],
+  "size": 130,
+  "at": "right",
+  "rot": -3
+ },
+ {
+  "day": 50,
+  "frame": "d050-80.21.png",
+  "z": 1.4,
+  "fx": 700,
+  "fy": 520,
+  "lines": [
+   "SHARING",
+   "IS KIND!"
+  ],
+  "size": 136,
+  "at": "right",
+  "rot": -3
+ },
+ {
+  "day": 51,
+  "frame": "d051-135.56.png",
+  "z": 1.05,
+  "fx": 960,
+  "fy": 560,
+  "lines": [
+   "COUNT TO 10!"
+  ],
+  "size": 130,
+  "at": "top",
+  "rot": -2
+ },
+ {
+  "day": 52,
+  "frame": "d052-90.68.png",
+  "z": 1.25,
+  "fx": 860,
+  "fy": 520,
+  "lines": [
+   "LEARN",
+   "TOYS!"
+  ],
+  "size": 140,
+  "at": "right",
+  "sticker": "EN\n+FR",
+  "stickerAt": "tl"
+ },
+ {
+  "day": 53,
+  "frame": "d053-188.41.png",
+  "z": 1.3,
+  "fx": 900,
+  "fy": 620,
+  "lines": [
+   "MAX SAVES",
+   "THE DAY!"
+  ],
+  "size": 116,
+  "at": "top",
+  "rot": -2
+ },
+ {
+  "day": 54,
+  "frame": "d054-238.45.png",
+  "z": 1.3,
+  "fx": 1150,
+  "fy": 620,
+  "lines": [
+   "HOW DOES",
+   "SNOW FORM?"
+  ],
+  "size": 112,
+  "at": "top",
+  "rot": -2
+ },
+ {
+  "day": 55,
+  "frame": "d055-110.21.png",
+  "z": 1.15,
+  "fx": 760,
+  "fy": 400,
+  "lines": [
+   "WHICH ONE IS",
+   "DIFFERENT?"
+  ],
+  "size": 110,
+  "at": "bottom",
+  "rot": -2
+ },
+ {
+  "day": 56,
+  "frame": "d056-60.00.png",
+  "z": 1.3,
+  "fx": 880,
+  "fy": 430,
+  "lines": [
+   "FOUR",
+   "SEASONS",
+   "SONG!"
+  ],
+  "size": 120,
+  "at": "right",
+  "rot": -3
+ },
+ {
+  "day": 57,
+  "frame": "d057-137.16.png",
+  "z": 1.35,
+  "fx": 1000,
+  "fy": 640,
+  "lines": [
+   "LISTEN,",
+   "LEO!"
+  ],
+  "size": 130,
+  "at": "top",
+  "rot": -3
+ },
+ {
+  "day": 58,
+  "frame": "d058-130.69.png",
+  "z": 1.05,
+  "fx": 960,
+  "fy": 520,
+  "lines": [
+   "COUNT",
+   "10 CARS!"
+  ],
+  "size": 124,
+  "at": "bottom",
+  "rot": -2
+ },
+ {
   "day": 59,
   "frame": "d059-66.86.png",
   "z": 1.35,

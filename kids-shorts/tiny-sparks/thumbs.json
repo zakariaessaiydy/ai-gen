@@ -319,6 +319,202 @@
   "rot": -3
  },
  {
+  "day": 46,
+  "comp": "KidsAnimals046",
+  "t": 97.11,
+  "z": 1.05,
+  "fx": 1000,
+  "fy": 540,
+  "lines": [
+   "NEW",
+   "FRIEND!"
+  ],
+  "at": "left",
+  "size": 140,
+  "rot": -3
+ },
+ {
+  "day": 47,
+  "comp": "KidsScience047",
+  "t": 211.19,
+  "z": 1.15,
+  "fx": 1120,
+  "fy": 600,
+  "lines": [
+   "HOW DOES",
+   "RAIN FORM?"
+  ],
+  "at": "top",
+  "size": 116,
+  "rot": -2
+ },
+ {
+  "day": 48,
+  "comp": "KidsPuzzles048",
+  "t": 67.44,
+  "z": 1.15,
+  "fx": 860,
+  "fy": 420,
+  "lines": [
+   "SPOT THE",
+   "ODD ONE!"
+  ],
+  "at": "bottom",
+  "size": 120,
+  "rot": -2
+ },
+ {
+  "day": 49,
+  "comp": "KidsSongs049",
+  "t": 5.0,
+  "z": 1.25,
+  "fx": 720,
+  "fy": 440,
+  "lines": [
+   "12 MONTHS",
+   "SONG!"
+  ],
+  "at": "right",
+  "size": 130,
+  "rot": -3
+ },
+ {
+  "day": 50,
+  "comp": "KidsMorals050",
+  "t": 80.21,
+  "z": 1.4,
+  "fx": 700,
+  "fy": 520,
+  "lines": [
+   "SHARING",
+   "IS KIND!"
+  ],
+  "at": "right",
+  "size": 136,
+  "rot": -3
+ },
+ {
+  "day": 51,
+  "comp": "KidsNumbers051",
+  "t": 135.56,
+  "z": 1.05,
+  "fx": 960,
+  "fy": 560,
+  "lines": [
+   "COUNT TO 10!"
+  ],
+  "at": "top",
+  "size": 130,
+  "rot": -2
+ },
+ {
+  "day": 52,
+  "comp": "KidsWords052",
+  "t": 90.68,
+  "z": 1.25,
+  "fx": 860,
+  "fy": 520,
+  "lines": [
+   "LEARN",
+   "TOYS!"
+  ],
+  "at": "right",
+  "size": 140,
+  "sticker": "EN\n+FR",
+  "stickerAt": "tl"
+ },
+ {
+  "day": 53,
+  "comp": "KidsAnimals053",
+  "t": 188.41,
+  "z": 1.3,
+  "fx": 900,
+  "fy": 620,
+  "lines": [
+   "MAX SAVES",
+   "THE DAY!"
+  ],
+  "at": "top",
+  "size": 116,
+  "rot": -2
+ },
+ {
+  "day": 54,
+  "comp": "KidsScience054",
+  "t": 238.45,
+  "z": 1.3,
+  "fx": 1150,
+  "fy": 620,
+  "lines": [
+   "HOW DOES",
+   "SNOW FORM?"
+  ],
+  "at": "top",
+  "size": 112,
+  "rot": -2
+ },
+ {
+  "day": 55,
+  "comp": "KidsPuzzles055",
+  "t": 110.21,
+  "z": 1.15,
+  "fx": 760,
+  "fy": 400,
+  "lines": [
+   "WHICH ONE IS",
+   "DIFFERENT?"
+  ],
+  "at": "bottom",
+  "size": 110,
+  "rot": -2
+ },
+ {
+  "day": 56,
+  "comp": "KidsSongs056",
+  "t": 60.0,
+  "z": 1.3,
+  "fx": 880,
+  "fy": 430,
+  "lines": [
+   "FOUR",
+   "SEASONS",
+   "SONG!"
+  ],
+  "at": "right",
+  "size": 120,
+  "rot": -3
+ },
+ {
+  "day": 57,
+  "comp": "KidsStories057",
+  "t": 137.16,
+  "z": 1.35,
+  "fx": 1000,
+  "fy": 640,
+  "lines": [
+   "LISTEN,",
+   "LEO!"
+  ],
+  "at": "top",
+  "size": 130,
+  "rot": -3
+ },
+ {
+  "day": 58,
+  "comp": "KidsNumbers058",
+  "t": 130.69,
+  "z": 1.05,
+  "fx": 960,
+  "fy": 520,
+  "lines": [
+   "COUNT",
+   "10 CARS!"
+  ],
+  "at": "bottom",
+  "size": 124,
+  "rot": -2
+ },
+ {
   "day": 59,
   "comp": "KidsWords059",
   "t": 66.86,
