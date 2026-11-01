@@ -262,5 +262,356 @@
    "COUNT TO TEN",
    "WITH MILA!"
   ]
+ },
+ {
+  "day": 46,
+  "comp": "KidsAnimals046",
+  "a": 3.8,
+  "b": 57.0,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "GUESS WHO",
+   "LIVES HERE?"
+  ],
+  "slug": "guess-who"
+ },
+ {
+  "day": 46,
+  "comp": "KidsAnimals046",
+  "a": 169.54,
+  "b": 205.01,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "COCO SAVES",
+   "THE SCARF!"
+  ],
+  "slug": "scarf-rescue"
+ },
+ {
+  "day": 47,
+  "comp": "KidsScience047",
+  "a": 3.8,
+  "b": 32.77,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "WHERE DOES",
+   "RAIN COME FROM?"
+  ],
+  "slug": "where-rain"
+ },
+ {
+  "day": 47,
+  "comp": "KidsScience047",
+  "a": 173.63,
+  "b": 208.97,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "RAINDROPS ARE",
+   "NOT POINTY!"
+  ],
+  "slug": "raindrop-shape"
+ },
+ {
+  "day": 48,
+  "comp": "KidsPuzzles048",
+  "a": 20.52,
+  "b": 63.91,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "CAN YOU",
+   "SPOT IT?"
+  ],
+  "slug": "spot-it"
+ },
+ {
+  "day": 48,
+  "comp": "KidsPuzzles048",
+  "a": 215.23,
+  "b": 249.75,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "THE SUPER",
+   "PUZZLE!"
+  ],
+  "slug": "super-puzzle"
+ },
+ {
+  "day": 50,
+  "comp": "KidsMorals050",
+  "a": 30.71,
+  "b": 86.62,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "RUBY WAS",
+   "IN A HURRY..."
+  ],
+  "slug": "in-a-hurry"
+ },
+ {
+  "day": 50,
+  "comp": "KidsMorals050",
+  "a": 147.66,
+  "b": 181.0,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "THE BEST",
+   "SURPRISE!"
+  ],
+  "slug": "surprise"
+ },
+ {
+  "day": 51,
+  "comp": "KidsNumbers051",
+  "a": 136.56,
+  "b": 156.2,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "BUTTERFLIES TASTE",
+   "WITH THEIR FEET!"
+  ],
+  "slug": "taste-feet"
+ },
+ {
+  "day": 51,
+  "comp": "KidsNumbers051",
+  "a": 28.54,
+  "b": 48.63,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "BOBO",
+   "SNEEZES!"
+  ],
+  "slug": "achoo"
+ },
+ {
+  "day": 52,
+  "comp": "KidsWords052",
+  "a": 75.28,
+  "b": 126.11,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "CAR, TRAIN, KITE",
+   "IN FRENCH!"
+  ],
+  "slug": "toys-french"
+ },
+ {
+  "day": 53,
+  "comp": "KidsAnimals053",
+  "a": 3.8,
+  "b": 28.54,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "WHO HAS A",
+   "WET BLACK NOSE?"
+  ],
+  "slug": "guess-who"
+ },
+ {
+  "day": 53,
+  "comp": "KidsAnimals053",
+  "a": 148.45,
+  "b": 193.98,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "FIND KIKI",
+   "WITH MAX!"
+  ],
+  "slug": "find-kiki"
+ },
+ {
+  "day": 54,
+  "comp": "KidsScience054",
+  "a": 3.8,
+  "b": 35.01,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "WHERE DOES",
+   "SNOW COME FROM?"
+  ],
+  "slug": "where-snow"
+ },
+ {
+  "day": 54,
+  "comp": "KidsScience054",
+  "a": 75.39,
+  "b": 97.91,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "A SNOWFLAKE",
+   "HAS 6 ARMS!"
+  ],
+  "slug": "six-arms"
+ },
+ {
+  "day": 55,
+  "comp": "KidsPuzzles055",
+  "a": 20.34,
+  "b": 56.54,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "FIND THE",
+   "ODD NUMBER!"
+  ],
+  "slug": "spot-it"
+ },
+ {
+  "day": 55,
+  "comp": "KidsPuzzles055",
+  "a": 218.9,
+  "b": 253.35,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "THE SUPER",
+   "NUMBER PUZZLE!"
+  ],
+  "slug": "super-puzzle"
+ },
+ {
+  "day": 57,
+  "comp": "KidsStories057",
+  "a": 39.98,
+  "b": 92.84,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "OOPS!",
+   "SALTY COOKIES!"
+  ],
+  "slug": "salty-cookies"
+ },
+ {
+  "day": 57,
+  "comp": "KidsStories057",
+  "a": 137.96,
+  "b": 190.33,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "PLAY",
+   "HOOT SAYS!"
+  ],
+  "slug": "hoot-says"
+ },
+ {
+  "day": 58,
+  "comp": "KidsNumbers058",
+  "a": 27.3,
+  "b": 46.81,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "BOBO'S TUMMY",
+   "GOES BEEP!"
+  ],
+  "slug": "tummy-beep"
+ },
+ {
+  "day": 58,
+  "comp": "KidsNumbers058",
+  "a": 131.69,
+  "b": 162.78,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "ELECTRIC CARS",
+   "ARE QUIET!"
+  ],
+  "slug": "quiet-cars"
+ },
+ {
+  "day": 59,
+  "comp": "KidsWords059",
+  "a": 78.55,
+  "b": 104.4,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "PANTS ON",
+   "BACKWARDS!?"
+  ],
+  "slug": "backwards"
+ },
+ {
+  "day": 59,
+  "comp": "KidsWords059",
+  "a": 262.44,
+  "b": 288.1,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "WHAT DO WE",
+   "WEAR IN SNOW?"
+  ],
+  "slug": "weather-game"
+ },
+ {
+  "day": 60,
+  "comp": "KidsAnimals060",
+  "a": 3.8,
+  "b": 29.33,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "GUESS",
+   "WHO!"
+  ],
+  "slug": "guess-who"
+ },
+ {
+  "day": 60,
+  "comp": "KidsAnimals060",
+  "a": 161.57,
+  "b": 193.24,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "WHO HAS",
+   "LUNA'S BALL?"
+  ],
+  "slug": "who-has-ball"
+ },
+ {
+  "day": 61,
+  "comp": "KidsScience061",
+  "a": 3.8,
+  "b": 25.74,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "HOW DO",
+   "RAINBOWS APPEAR?"
+  ],
+  "slug": "rainbow-why"
+ },
+ {
+  "day": 61,
+  "comp": "KidsScience061",
+  "a": 147.85,
+  "b": 188.76,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "A RAINBOW IS",
+   "A CIRCLE!"
+  ],
+  "slug": "rainbow-circle"
  }
 ]

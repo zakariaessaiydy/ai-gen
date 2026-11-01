@@ -177,5 +177,221 @@ export const SHORTS: ShortCard[] = [
    "COUNT TO TEN",
    "WITH MILA!"
   ]
+ },
+ {
+  "day": 46,
+  "w": 1440,
+  "lines": [
+   "GUESS WHO",
+   "LIVES HERE?"
+  ]
+ },
+ {
+  "day": 46,
+  "w": 1440,
+  "lines": [
+   "COCO SAVES",
+   "THE SCARF!"
+  ]
+ },
+ {
+  "day": 47,
+  "w": 1440,
+  "lines": [
+   "WHERE DOES",
+   "RAIN COME FROM?"
+  ]
+ },
+ {
+  "day": 47,
+  "w": 1440,
+  "lines": [
+   "RAINDROPS ARE",
+   "NOT POINTY!"
+  ]
+ },
+ {
+  "day": 48,
+  "w": 1440,
+  "lines": [
+   "CAN YOU",
+   "SPOT IT?"
+  ]
+ },
+ {
+  "day": 48,
+  "w": 1440,
+  "lines": [
+   "THE SUPER",
+   "PUZZLE!"
+  ]
+ },
+ {
+  "day": 50,
+  "w": 1440,
+  "lines": [
+   "RUBY WAS",
+   "IN A HURRY..."
+  ]
+ },
+ {
+  "day": 50,
+  "w": 1440,
+  "lines": [
+   "THE BEST",
+   "SURPRISE!"
+  ]
+ },
+ {
+  "day": 51,
+  "w": 1440,
+  "lines": [
+   "BUTTERFLIES TASTE",
+   "WITH THEIR FEET!"
+  ]
+ },
+ {
+  "day": 51,
+  "w": 1440,
+  "lines": [
+   "BOBO",
+   "SNEEZES!"
+  ]
+ },
+ {
+  "day": 52,
+  "w": 1440,
+  "lines": [
+   "CAR, TRAIN, KITE",
+   "IN FRENCH!"
+  ]
+ },
+ {
+  "day": 53,
+  "w": 1440,
+  "lines": [
+   "WHO HAS A",
+   "WET BLACK NOSE?"
+  ]
+ },
+ {
+  "day": 53,
+  "w": 1440,
+  "lines": [
+   "FIND KIKI",
+   "WITH MAX!"
+  ]
+ },
+ {
+  "day": 54,
+  "w": 1440,
+  "lines": [
+   "WHERE DOES",
+   "SNOW COME FROM?"
+  ]
+ },
+ {
+  "day": 54,
+  "w": 1440,
+  "lines": [
+   "A SNOWFLAKE",
+   "HAS 6 ARMS!"
+  ]
+ },
+ {
+  "day": 55,
+  "w": 1440,
+  "lines": [
+   "FIND THE",
+   "ODD NUMBER!"
+  ]
+ },
+ {
+  "day": 55,
+  "w": 1440,
+  "lines": [
+   "THE SUPER",
+   "NUMBER PUZZLE!"
+  ]
+ },
+ {
+  "day": 57,
+  "w": 1440,
+  "lines": [
+   "OOPS!",
+   "SALTY COOKIES!"
+  ]
+ },
+ {
+  "day": 57,
+  "w": 1440,
+  "lines": [
+   "PLAY",
+   "HOOT SAYS!"
+  ]
+ },
+ {
+  "day": 58,
+  "w": 1440,
+  "lines": [
+   "BOBO'S TUMMY",
+   "GOES BEEP!"
+  ]
+ },
+ {
+  "day": 58,
+  "w": 1440,
+  "lines": [
+   "ELECTRIC CARS",
+   "ARE QUIET!"
+  ]
+ },
+ {
+  "day": 59,
+  "w": 1440,
+  "lines": [
+   "PANTS ON",
+   "BACKWARDS!?"
+  ]
+ },
+ {
+  "day": 59,
+  "w": 1440,
+  "lines": [
+   "WHAT DO WE",
+   "WEAR IN SNOW?"
+  ]
+ },
+ {
+  "day": 60,
+  "w": 1440,
+  "lines": [
+   "GUESS",
+   "WHO!"
+  ]
+ },
+ {
+  "day": 60,
+  "w": 1440,
+  "lines": [
+   "WHO HAS",
+   "LUNA'S BALL?"
+  ]
+ },
+ {
+  "day": 61,
+  "w": 1440,
+  "lines": [
+   "HOW DO",
+   "RAINBOWS APPEAR?"
+  ]
+ },
+ {
+  "day": 61,
+  "w": 1440,
+  "lines": [
+   "A RAINBOW IS",
+   "A CIRCLE!"
+  ]
  }
 ];

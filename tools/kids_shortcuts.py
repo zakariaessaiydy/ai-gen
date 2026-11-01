@@ -6,7 +6,8 @@ Reads kids-shorts/tiny-sparks/shortcuts.json — one entry per Short:
   {"day": 36, "comp": "KidsMorals036", "a": 25.6, "b": 67.6,  # the segment (s) of the long video
    "xc": 900, "w": 1080,                                       # the window: centre x + width in the 1920x1080
                                                                #   frame (1080 = square + sharp, 1440 = wider 4:3)
-   "lines": ["MOMO'S HAND", "IS STUCK!"]}                      # the 2-line hook title (+ colors, scales, size)
+   "lines": ["MOMO'S HAND", "IS STUCK!"],                      # the 2-line hook title (+ colors, scales, size)
+   "slug": "stuck"}                                            # optional: several Shorts per day (short-<slug>.mp4)
 For each Short: the window of the long video's render (remotion/out/<comp>.mp4, the sharp crf-18 master)
 over a blurred, zoomed copy of itself, the KidsShortCards overlay on top (channel ribbon + title + window
 edges), and the segment's audio from the PUBLISHED final (voice + SFX + music, short fades) →
@@ -65,7 +66,8 @@ def main():
         e = spec[i]
         ep = episode_dir(e["day"])
         master = os.path.join(ROOT, "remotion", "out", f"{e['comp']}.mp4")
-        finals = sorted(glob.glob(os.path.join(ep, "output", "*final*.mp4")))
+        finals = sorted(glob.glob(os.path.join(ep, "output", "*final*.mp4"))) or \
+            sorted(glob.glob(os.path.join(ep, "output", "day-*-sfx-*.mp4")))  # build_short's published name
         if not os.path.exists(master) or not finals:
             sys.exit(f"day {e['day']}: need remotion/out/{e['comp']}.mp4 and {ep}/output/*final*.mp4")
         a, b = float(e["a"]), float(e["b"])
@@ -81,7 +83,8 @@ def main():
                                  "-of", "csv=p=0", master], capture_output=True, text=True).stdout.strip().rstrip(","))
         k = mw / 1920
         card = os.path.join(ROOT, "remotion", "out", "qa", f"KidsShortCards-f{i:04d}.png")
-        out = os.path.join(ep, "output", "short-from-long.mp4")
+        slug = e.get("slug")
+        out = os.path.join(ep, "output", f"short-{slug}.mp4" if slug else "short-from-long.mp4")
         fc = (f"[0:v]split=2[s1][s2];"
               f"[s1]scale=-2:480,crop=270:480:{bx}:0,boxblur=10:2,scale=1080:1920,eq=brightness=-0.05:saturation=1.15[bg];"
               f"[s2]crop={round(w * k)}:{round(1080 * k)}:{round(x0 * k)}:0,scale=1080:{win_h}:flags=lanczos[fg];"
@@ -93,7 +96,7 @@ def main():
                         "-i", card, "-filter_complex", fc, "-map", "[v]", "-map", "[a]",
                         "-c:v", "libx264", "-preset", "medium", "-crf", str(args.crf), "-r", "30",
                         "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", "-t", f"{dur:.3f}", out], check=True)
-        shutil.copyfile(out, os.path.join(COLLECT, f"day-{e['day']:03d}-short.mp4"))
+        shutil.copyfile(out, os.path.join(COLLECT, f"day-{e['day']:03d}-{slug}.mp4" if slug else f"day-{e['day']:03d}-short.mp4"))
         mb = os.path.getsize(out) / 1e6
         print(f"  day {e['day']:3d}  {dur:5.1f}s  {mb:5.1f} MB -> {os.path.relpath(out, ROOT)}")
 
