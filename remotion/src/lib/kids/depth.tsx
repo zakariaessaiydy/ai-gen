@@ -13,30 +13,30 @@ import React from 'react';
 import { KINK } from './face';
 
 export const KIDS_3D = true;
-const OUTLINE = 0.62; // outline width multiplier inside <Vol> (CG-style thin silhouette line)
-const SH = '#24123a'; // core-shadow tint: a cool plum, so shade reads as colour, never as grey dirt
-const SH_SKIN = '#6e1f35'; // skin shades warm (light scatters red under skin) — tone="skin"
+const OUTLINE = 0.7; // outline width multiplier inside <Vol> (CG-style thin silhouette line)
+const SH = '#3a2418'; // core-shadow tint: a warm cocoa (storybook look), so shade reads as colour, never as grey dirt
+const SH_SKIN = '#7a2e22'; // skin shades warm (light scatters red under skin) — tone="skin"
 
 // ball + tube in one shadow tone (ids k3d-ball / k3d-tube, and k3d-ball-skin / k3d-tube-skin)
 const toneDefs = (sh: string, suffix: string) => (
   <>
     {/* a sphere lit from the top-left: hot spot → base colour → core shadow → bounce on the rim */}
     <radialGradient id={`k3d-ball${suffix}`} cx="0.42" cy="0.38" r="0.72" fx="0.3" fy="0.24">
-      <stop offset="0" stopColor="#ffffff" stopOpacity={0.62} />
-      <stop offset="0.12" stopColor="#ffffff" stopOpacity={0.26} />
+      <stop offset="0" stopColor="#ffffff" stopOpacity={0.2} />
+      <stop offset="0.12" stopColor="#ffffff" stopOpacity={0.1} />
       <stop offset="0.34" stopColor="#ffffff" stopOpacity={0} />
-      <stop offset="0.58" stopColor={sh} stopOpacity={0.07} />
-      <stop offset="0.88" stopColor={sh} stopOpacity={0.36} />
-      <stop offset="1" stopColor={sh} stopOpacity={0.26} />
+      <stop offset="0.6" stopColor={sh} stopOpacity={0.04} />
+      <stop offset="0.9" stopColor={sh} stopOpacity={0.2} />
+      <stop offset="1" stopColor={sh} stopOpacity={0.16} />
     </radialGradient>
     {/* a cylinder across its width (arms, legs, stems) — nearly symmetric, so mirrored or rotated
         limbs still read as lit from the front */}
     <linearGradient id={`k3d-tube${suffix}`} x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stopColor={sh} stopOpacity={0.28} />
-      <stop offset="0.3" stopColor="#ffffff" stopOpacity={0.26} />
-      <stop offset="0.5" stopColor="#ffffff" stopOpacity={0.04} />
-      <stop offset="0.82" stopColor={sh} stopOpacity={0.22} />
-      <stop offset="1" stopColor={sh} stopOpacity={0.38} />
+      <stop offset="0" stopColor={sh} stopOpacity={0.14} />
+      <stop offset="0.3" stopColor="#ffffff" stopOpacity={0.1} />
+      <stop offset="0.5" stopColor="#ffffff" stopOpacity={0} />
+      <stop offset="0.82" stopColor={sh} stopOpacity={0.12} />
+      <stop offset="1" stopColor={sh} stopOpacity={0.22} />
     </linearGradient>
   </>
 );
@@ -71,9 +71,9 @@ export const K3DDefs: React.FC = () =>
         <stop offset="1" stopColor={SH} stopOpacity={0.22} />
       </linearGradient>
       <radialGradient id="k3d-ground">
-        <stop offset="0" stopColor="#28143c" stopOpacity={0.4} />
-        <stop offset="0.55" stopColor="#28143c" stopOpacity={0.2} />
-        <stop offset="1" stopColor="#28143c" stopOpacity={0} />
+        <stop offset="0" stopColor="#3a2418" stopOpacity={0.4} />
+        <stop offset="0.55" stopColor="#3a2418" stopOpacity={0.2} />
+        <stop offset="1" stopColor="#3a2418" stopOpacity={0} />
       </radialGradient>
       <radialGradient id="k3d-ao">
         <stop offset="0" stopColor={SH} stopOpacity={0.34} />
@@ -149,7 +149,7 @@ export const Vol: React.FC<{ children: React.ReactNode; kind?: VolKind; tone?: '
 // soft contact shadow on the floor (origin = between the feet). `lift` = hop height in px.
 export const Ground: React.FC<{ rx: number; ry: number; lift?: number; cy?: number }> = ({ rx, ry, lift = 0, cy = 6 }) => {
   const k = 1 - Math.min(0.5, lift / 600);
-  if (!KIDS_3D) return <ellipse cx={0} cy={cy} rx={rx * k} ry={ry} fill="rgba(40,20,60,0.16)" />;
+  if (!KIDS_3D) return <ellipse cx={0} cy={cy} rx={rx * k} ry={ry} fill="rgba(58,36,24,0.16)" />;
   return <ellipse cx={0} cy={cy} rx={rx * 1.25 * k} ry={ry * 1.5 * k} fill="url(#k3d-ground)" opacity={0.6 + 0.4 * k} />;
 };
 

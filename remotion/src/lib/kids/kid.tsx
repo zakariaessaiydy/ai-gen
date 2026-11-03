@@ -11,7 +11,7 @@ import { AO, Ground, K3DDefs, Vol } from './depth';
 export type KidSpec = {
   id: string;
   skin: string;
-  hair: 'puffs' | 'curly' | 'short' | 'ponytail' | 'bob' | 'spiky';
+  hair: 'puffs' | 'curly' | 'short' | 'ponytail' | 'bob' | 'spiky' | 'tousled';
   hairColor: string;
   top: 'tee' | 'dress' | 'overalls' | 'stripes';
   topColor: string;
@@ -23,6 +23,7 @@ export type KidSpec = {
   glasses?: boolean;
   freckles?: boolean;
   lashes?: boolean;
+  knit?: boolean; // knitted-dress texture (Mila)
   hero?: HeroLook; // original superhero outfit (cape / mask / emblem / belt) — see hero.tsx
 };
 
@@ -152,6 +153,7 @@ const Arm: React.FC<{ spec: KidSpec; pose: KArm; mirror: boolean; frame: number;
       </Vol>
       <Vol>
         <path d={`M -24,-6 L 24,-6 L 22,${U * 0.55} L -22,${U * 0.55} Z`} fill={sleeve} {...kst(7)} />
+        {spec.top === 'stripes' && <rect x={-22} y={U * 0.22} width={44} height={14} fill={spec.topColor2 ?? '#ffffff'} />}
       </Vol>
       <g transform={`translate(0,${U}) rotate(${a2})`}>
         <Vol kind="tube" tone="skin">
@@ -172,8 +174,8 @@ const HairBack: React.FC<{ spec: KidSpec }> = ({ spec }) => {
     case 'puffs':
       return (
         <g>
-          <circle cx={-178} cy={-92} r={74} fill={c} {...kst()} />
-          <circle cx={178} cy={-92} r={74} fill={c} {...kst()} />
+          <circle cx={-150} cy={-138} r={80} fill={c} {...kst()} />
+          <circle cx={150} cy={-138} r={80} fill={c} {...kst()} />
         </g>
       );
     case 'curly':
@@ -200,6 +202,30 @@ const HairFront: React.FC<{ spec: KidSpec }> = ({ spec }) => {
   switch (spec.hair) {
     case 'short':
       return <path d="M -172,-30 Q -190,-178 -10,-176 Q 168,-176 176,-40 Q 120,-110 40,-104 Q -40,-150 -90,-84 Q -130,-60 -172,-30 Z" fill={c} {...kst()} />;
+    case 'tousled':
+      // soft swept tufts (Leo): a full cap, a forelock flicking over the brow, tufts at the crown
+      return (
+        <g>
+          <path
+            d="M -178,-10 Q -200,-120 -122,-172 Q -130,-206 -96,-222 Q -84,-196 -62,-190 Q -30,-238 24,-226 Q 6,-206 18,-196 Q 70,-230 120,-200 Q 100,-190 104,-176 Q 168,-170 184,-96 Q 196,-60 178,-16 Q 166,-80 120,-104 Q 104,-80 70,-82 Q 74,-104 52,-118 Q 20,-84 -30,-78 Q -8,-96 -10,-120 Q -50,-90 -100,-92 Q -136,-86 -160,-40 Z"
+            fill={c}
+            {...kst()}
+          />
+          <g fill="none" stroke={KINK} strokeWidth={4} strokeLinecap="round" opacity={0.35}>
+            <path d="M -110,-150 Q -70,-150 -40,-118" />
+            <path d="M 10,-180 Q 50,-160 70,-120" />
+            <path d="M 110,-160 Q 140,-130 150,-90" />
+          </g>
+        </g>
+      );
+    case 'puffs':
+      // smooth cap with a centre parting (Mila)
+      return (
+        <g>
+          <path d="M -176,-26 Q -180,-176 0,-174 Q 180,-176 176,-26 Q 156,-104 76,-118 Q 26,-124 0,-150 Q -26,-124 -76,-118 Q -156,-104 -176,-26 Z" fill={c} {...kst()} />
+          <path d="M 0,-170 L 0,-152" stroke={KINK} strokeWidth={4} strokeLinecap="round" opacity={0.5} />
+        </g>
+      );
     case 'spiky':
       return (
         <path d="M -176,-26 L -170,-120 L -120,-110 L -100,-200 L -40,-150 L 0,-226 L 40,-150 L 100,-200 L 120,-110 L 170,-120 L 176,-26 Q 100,-96 0,-92 Q -100,-96 -176,-26 Z" fill={c} {...kst()} />
@@ -283,6 +309,22 @@ export const Kid: React.FC<KidProps> = ({
         <>
           <Vol shape={<path d={DRESS} />}>
             <path d={DRESS} fill={spec.topColor} {...kst()} />
+            {spec.knit && (
+              <g clipPath={`url(#knit-${spec.id})`}>
+                <clipPath id={`knit-${spec.id}`}>
+                  <path d={DRESS} />
+                </clipPath>
+                <g fill="none" stroke="#000000" strokeOpacity={0.09} strokeWidth={3} strokeLinecap="round">
+                  {Array.from({ length: 10 }).map((_, r) =>
+                    Array.from({ length: 12 }).map((__, c) => {
+                      const cx = -165 + c * 30 + (r % 2) * 0;
+                      const cy = -384 + r * 24;
+                      return <path key={`${r}_${c}`} d={`M ${cx - 10},${cy} L ${cx},${cy + 10} L ${cx + 10},${cy}`} />;
+                    }),
+                  )}
+                </g>
+              </g>
+            )}
             <path d="M -146,-166 Q 0,-136 146,-166 L 150,-150 Q 0,-118 -150,-150 Z" fill={spec.topColor2 ?? '#ffffff'} {...kst(6)} />
           </Vol>
           {chinAO(DRESS)}
@@ -297,8 +339,8 @@ export const Kid: React.FC<KidProps> = ({
               <clipPath id={`torso-${spec.id}`}>
                 <path d={TEE} />
               </clipPath>
-              {[-370, -320, -270, -220].map((yy) => (
-                <rect key={yy} x={-120} y={yy} width={240} height={22} fill={spec.topColor2 ?? '#ffffff'} />
+              {[-384, -344, -304, -264, -224, -184].map((yy) => (
+                <rect key={yy} x={-120} y={yy} width={240} height={20} fill={spec.topColor2 ?? '#ffffff'} />
               ))}
             </g>
           )}
@@ -334,11 +376,11 @@ export const Kid: React.FC<KidProps> = ({
       </Vol>
       {spec.hero?.mask && <Mask color={spec.hero.mask} y={20} dx={68} r={42} />}
       <g transform="translate(0,26)">
-        <Face expr={expr} look={look} mouth={mouth} blink={closed} skin={spec.skin} iris={spec.iris ?? '#6b4226'} eyeR={42} eyeDX={68} eyeY={-6} mouthY={66} mouthW={48} brows={spec.hairColor} lashes={spec.lashes} freckles={spec.freckles} />
+        <Face expr={expr} look={look} mouth={mouth} blink={closed} skin={spec.skin} iris={spec.iris ?? '#6b4226'} eyeR={34} eyeDX={70} eyeY={0} mouthY={64} mouthW={46} brows={spec.hairColor} lashes={spec.lashes} freckles={spec.freckles} />
       </g>
       <Vol>{HairFront({ spec })}</Vol>
       {/* hair shine */}
-      <path d="M -120,-118 Q -70,-158 -10,-160" fill="none" stroke="#ffffff" strokeWidth={14} strokeLinecap="round" opacity={0.32} />
+      <path d="M -120,-118 Q -70,-158 -10,-160" fill="none" stroke="#ffffff" strokeWidth={12} strokeLinecap="round" opacity={spec.hair === 'puffs' ? 0 : 0.14} />
       <HeadSparkles frame={frame} r={178} on={expr === 'wow' || expr === 'proud'} />
       {spec.glasses && (
         <g fill="none" {...kst(8)}>
@@ -348,7 +390,7 @@ export const Kid: React.FC<KidProps> = ({
         </g>
       )}
       {spec.bow && (
-        <g transform="translate(-112,-150) rotate(-18)">
+        <g transform={spec.hair === 'puffs' ? 'translate(-136,-206) rotate(-14)' : 'translate(-112,-150) rotate(-18)'}>
           <Vol>
             <path d="M 0,0 L -56,-34 Q -70,0 -56,34 Z" fill={spec.bow} {...kst(7)} />
             <path d="M 0,0 L 56,-34 Q 70,0 56,34 Z" fill={spec.bow} {...kst(7)} />

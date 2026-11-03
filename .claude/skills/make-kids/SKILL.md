@@ -16,7 +16,7 @@ Run everything from the **repo root**.
 
 ```
 remotion/src/lib/kids/
-  face.tsx        shared FACE for every character: glossy eyes, rosy cheeks, soft plum ink (KINK)
+  face.tsx        shared FACE for every character: storybook eyes, pastel blush, warm cocoa ink (KINK)
                   expressions (KExpr): smile · happy · laugh · wow · think · sad · surprised ·
                   sleepy · wink · oops · proud
   kid.tsx         <Kid> chibi child rig (~760px tall at scale 1, big head, stubby body)
@@ -81,7 +81,7 @@ tools/gen_song.py     FREE local song maker (see "Music")
 | who | role in every niche | voice (Kokoro) |
 |---|---|---|
 | **Mila** (6, yellow dress, puffs, pink bow) | the curious asker ("Why?"), sings lead | `af_sky`, rate -4% |
-| **Leo** (6, blue stripes, ginger, freckles) | the brave/silly one who tries first and gets it WRONG — kids love correcting him | blend `am_puck:0.5+af_nova:0.5`, rate -2% |
+| **Leo** (6, blue stripes, tousled ginger hair, green eyes) | the brave/silly one who tries first and gets it WRONG — kids love correcting him | blend `am_puck:0.5+af_nova:0.5`, rate -2% |
 | **Bobo** (bear cub, red scarf) | the buddy: hungry, clumsy, funny, huge heart; the comic relief | blend `am_fenrir:0.5+am_puck:0.5`, rate -4% |
 | **Prof. Hoot** (owl, glasses, grad cap) | explains science, sets puzzles, never mocks a wrong answer | `bm_george` / `bm_fable`, pitch 0 |
 | **Narrator** | stories and bedtime | `af_heart` (EN) · `ff_siwis` (FR) |
@@ -117,10 +117,17 @@ demonetise or remove the channel. New heroes = new original emblems/colours.
 
 ## 3D LOOK — soft "vinyl toy" volumes (user request after Day 33: "make the kids videos 3D")
 
+> **STORYBOOK update (Nov 2026, from the user's four cast reference sheets):** the shading is now GENTLE
+> (hot spot ~0.2, core shadow ~0.2, warm cocoa tones instead of plum), the ink is cocoa brown `#5a3d2e`,
+> eyes are smaller and clear (no gloss crescent), mouths are smaller and cheeks are flat pastel ovals.
+> Cast tweaks: Leo `hair: 'tousled'`, muted blue stripes, no freckles; Mila darker skin, high puffs with a
+> centre part, knit yellow dress (`knit: true`), pink shoes; Bobo green eyes, warmer fur, deep red scarf;
+> Hoot grey-brown, ear tufts beside the cap, blue-grey eyes, gold tassel. The look target = those sheets.
+
 The channel's look is now 3D-shaded, done INSIDE the kit, so every episode (old and new) gets it with no
 episode changes and no extra render time (measured: 300 frames 32 s flat → 33 s 3D):
 - **`lib/kids/depth.tsx`**: `<Vol>` wraps solid shapes and draws them as lit volumes — a specular hot
-  spot top-left, the base colour, a cool plum core shadow bottom-right, a bounce on the rim — and thins
+  spot top-left, the base colour, a warm cocoa core shadow bottom-right, a bounce on the rim — and thins
   their ink outline to 62 % (CG has no thick line). `kind="tube"` for arms/legs/stems/trunks,
   `kind="slope"` for hills/belts/big flat things, `tone="skin"` for warm skin shadows, `shape={…}` when
   the group has inner details (stripes, a badge) that should sit under ONE shading of the silhouette.
@@ -142,8 +149,8 @@ episode changes and no extra render time (measured: 300 frames 32 s flat → 33 
 
 ## ALIVE BY DEFAULT — characters + sets animate themselves (user request after Day 25: "more attractive")
 The kit now does the "cute" work automatically — don't fight it, build on it:
-- **Characters (`Kid`, `Critter`):** glossy 3-highlight eyes, brighter blush with a shine dot, hair/fur
-  shine, auto double-blinks, a slow idle sway + head tilt, a head-bob while talking (from `mouth`), a happy
+- **Characters (`Kid`, `Critter`):** storybook eyes (white almond, coloured iris with a rim, one big + one small catch-light), soft pastel
+  blush, faint hair/fur shine, auto double-blinks, a slow idle sway + head tilt, a head-bob while talking (from `mouth`), a happy
   bounce on `expr="laugh"`, twinkles circling the head on `wow` / `proud`, faster tail wag when happy,
   ear perks every few seconds. `idle={false}` turns it off (a frozen pose for a still, a held prop that must
   not drift). `armL/armR="up"` is a cheering fist BESIDE the head (it used to cover the face).

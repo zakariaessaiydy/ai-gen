@@ -7,54 +7,56 @@ import type { CritterSpec } from '../critter';
 // MILA (6) — the curious one who asks "why?". Yellow dress, two hair puffs, pink bow.
 export const MILA: KidSpec = {
   id: 'mila',
-  skin: '#c98b62',
+  skin: '#9c6542',
   hair: 'puffs',
-  hairColor: '#3b2219',
+  hairColor: '#3a2419',
   top: 'dress',
-  topColor: '#ffca3a',
-  topColor2: '#ffffff',
-  pants: '#c98b62',
-  shoes: '#ff595e',
-  bow: '#ff6fa5',
+  topColor: '#f6c435',
+  topColor2: '#fbf3e4',
+  pants: '#9c6542',
+  shoes: '#e0607e',
+  bow: '#e8629c',
+  iris: '#6b4226',
   lashes: true,
+  knit: true,
 };
 
 // LEO (6) — the brave, silly one who tries first and gets it wrong (kids LOVE correcting him).
-// Blue stripes, ginger hair, freckles.
+// Blue stripes, tousled ginger hair, green eyes.
 export const LEO: KidSpec = {
   id: 'leo',
-  skin: '#f6d0b1',
-  hair: 'short',
-  hairColor: '#e07a3f',
+  skin: '#f4c9a8',
+  hair: 'tousled',
+  hairColor: '#e07a3a',
   top: 'stripes',
-  topColor: '#4cc9f0',
-  topColor2: '#ffffff',
-  pants: '#3a5a8c',
-  shoes: '#8ac926',
-  iris: '#3a7d44',
-  freckles: true,
+  topColor: '#5aa7d4',
+  topColor2: '#f7fbfd',
+  pants: '#3e5f8c',
+  shoes: '#7cc35a',
+  iris: '#4f9a4a',
 };
 
 // BOBO — the little bear buddy: hungry, clumsy, huge heart. Red scarf.
 export const BOBO: CritterSpec = {
   id: 'bobo',
   species: 'bear',
-  fur: '#b07947',
-  fur2: '#f1d1a8',
-  dark: '#6b4226',
-  scarf: '#ff595e',
+  fur: '#a8703f',
+  fur2: '#dcb286',
+  dark: '#5b3a22',
+  iris: '#4f9a4a',
+  scarf: '#c8373a',
 };
 
 // PROFESSOR HOOT — the wise owl who explains science and sets the puzzles. Glasses + grad cap.
 export const HOOT: CritterSpec = {
   id: 'hoot',
   species: 'owl',
-  fur: '#9c7a64',
-  fur2: '#f5e6d3',
-  dark: '#6d4c41',
+  fur: '#8b735f',
+  fur2: '#d2c1ad',
+  dark: '#6e5848',
   glasses: true,
   hat: 'grad',
-  iris: '#2b6cb0',
+  iris: '#5a86b4',
 };
 
 export const CAPTION_COLORS: Record<string, string> = {
