@@ -223,3 +223,65 @@ export const Backdrop: React.FC<{ place: Place; w?: number; h?: number; t?: numb
     </g>
   );
 };
+
+// ── SCENE LIGHT (user request, Nov 2026: "add the scene light to the characters") ──────────────────
+// Characters take the painting's light so they sit IN the place, not on top of it: a colour tint (cool at
+// night, golden on the beach, warm in a kitchen) + a soft rim of light on the side the light comes from.
+// Wrap the WORLD layer (characters + their props) — never captions, PopText or teaching cards:
+//   <Backdrop place="kitchen" w={W} h={H} t={t} />
+//   <PlaceLight place="kitchen">{…characters…}</PlaceLight>
+export type SceneLight = {
+  tint: [number, number, number]; // per-channel multiply, 1 = unchanged
+  rim: string; // rim-light colour
+  rimO: number; // rim strength 0..1
+  dir: [number, number]; // where the light comes FROM (screen direction); the rim is on that side
+};
+const L = (tint: [number, number, number], rim: string, rimO: number, dir: [number, number]): SceneLight => ({ tint, rim, rimO, dir });
+const SUN = L([1.04, 1.0, 0.92], '#fff3c4', 0.8, [0.6, -1]); // outdoor sunshine
+const SOFT_SUN = L([1.02, 1.0, 0.95], '#fff6d8', 0.65, [0.3, -1]); // open sky, gentler
+const LEAFY = L([1.0, 1.02, 0.92], '#f4ffc9', 0.7, [0.3, -1]); // sun through leaves
+const NIGHT = L([0.8, 0.85, 1.02], '#ffd59e', 0.7, [-1, -0.35]); // a warm lamp / fire in a cool night
+const WARM_IN = L([1.03, 0.99, 0.93], '#fff0d0', 0.65, [0, -1]); // cosy room, window/ceiling light
+const COOL_IN = L([0.98, 1.0, 1.04], '#eef6ff', 0.6, [0, -1]); // bright clinical / tech room
+const SPACE = L([0.86, 0.88, 1.04], '#c9e6ff', 0.75, [0.6, -1]);
+const WATER = L([0.88, 0.98, 1.05], '#d6fbff', 0.7, [0, -1]);
+export const PLACE_LIGHT: Record<Place, SceneLight> = {
+  meadow: SUN, farm: SUN, beach: SUN, 'tropical-island': SUN, park: SUN, zoo: SUN, schoolyard: SUN, 'dino-valley': SUN,
+  'construction-site': SUN, 'bus-station': SOFT_SUN, 'train-station': SOFT_SUN, airport: SOFT_SUN, market: SOFT_SUN, greenhouse: SOFT_SUN,
+  forest: LEAFY, jungle: LEAFY,
+  'rainy-street': L([0.9, 0.93, 1.03], '#eaf2ff', 0.55, [0, -1]),
+  'camp-night': L([0.8, 0.84, 1.0], '#ffc58a', 0.75, [1, -0.3]), bedroom: NIGHT, cave: L([0.94, 0.92, 1.04], '#e9d6ff', 0.65, [0, -1]),
+  'space-moon': SPACE, spaceship: SPACE, planetarium: SPACE,
+  underwater: WATER, aquarium: WATER,
+  kitchen: WARM_IN, bakery: WARM_IN, cafe: WARM_IN, classroom: WARM_IN, playroom: WARM_IN, library: WARM_IN, 'music-room': WARM_IN,
+  'art-room': WARM_IN, party: WARM_IN, 'ice-cream-shop': WARM_IN, 'sweet-shop': WARM_IN, 'flower-shop': WARM_IN, 'pet-shop': WARM_IN,
+  'post-office': WARM_IN, 'fire-station': WARM_IN, supermarket: WARM_IN,
+  clinic: COOL_IN, 'science-lab': COOL_IN, 'police-station': COOL_IN,
+};
+
+export const PlaceLight: React.FC<{ place: Place; children: React.ReactNode; on?: boolean; rimW?: number; light?: SceneLight }> = ({ place, children, on = true, rimW = 9, light }) => {
+  const l = light ?? PLACE_LIGHT[place];
+  if (!on || !l) return <>{children}</>;
+  const id = `plight-${place}`;
+  const [r, g, b] = l.tint;
+  return (
+    <g>
+      <defs>
+        <filter id={id} x="-15%" y="-15%" width="130%" height="130%" colorInterpolationFilters="sRGB">
+          <feColorMatrix in="SourceGraphic" type="matrix" values={`${r} 0 0 0 0  0 ${g} 0 0 0  0 0 ${b} 0 0  0 0 0 1 0`} result="tint" />
+          <feOffset in="SourceAlpha" dx={-l.dir[0] * rimW} dy={-l.dir[1] * rimW} result="off" />
+          <feComposite in="SourceAlpha" in2="off" operator="out" result="edge" />
+          <feGaussianBlur in="edge" stdDeviation={rimW * 0.45} result="edgeB" />
+          <feComposite in="edgeB" in2="SourceAlpha" operator="in" result="edgeIn" />
+          <feFlood floodColor={l.rim} floodOpacity={l.rimO} />
+          <feComposite in2="edgeIn" operator="in" result="rimC" />
+          <feMerge>
+            <feMergeNode in="tint" />
+            <feMergeNode in="rimC" />
+          </feMerge>
+        </filter>
+      </defs>
+      <g filter={`url(#${id})`}>{children}</g>
+    </g>
+  );
+};

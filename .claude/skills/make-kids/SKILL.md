@@ -64,6 +64,10 @@ remotion/src/lib/kids/
                   (catalog.json "floors") and drops the feet below counters / beds / plants in that part
                   of the room. Re-read it when a character walks (pass the moving x). A new painting
                   needs its floors entry measured, or standY falls back to FLOOR(h).
+                  **SCENE LIGHT (always, on a painted place):** wrap the world layer (characters + their
+                  props, NOT captions/cards) in <PlaceLight place="kitchen">…</PlaceLight> — the place's
+                  colour tint + a soft rim light (PLACE_LIGHT has one for every place) so the cast sits IN
+                  the painting. on={false} to switch it off for a beat.
   depth.tsx       the 3D LOOK: <Vol> (shades shapes as lit volumes + thins their outline), <Ground>
                   (soft contact shadow), <AO> (occlusion), K3DDefs (gradients) · KIDS_3D switch
   kit.tsx         KidsStage(any size camera) · KidsCaptions(word-by-word, big) · PopText(the ONE
@@ -73,6 +77,14 @@ remotion/src/lib/kids/
                   videos only) · Bubble · props Apple/Star/Balloon · RAINBOW palette
                   re-exports camAt/lipSync/talking/useT/Cut from the toon kit
   cast/tiny-sparks.ts   the LOCKED cast + CAPTION_COLORS + CHANNEL
+  cast/wardrobe.tsx     OUTFITS for the locked cast (Nov 2026): dress(who, outfit) → { spec, wear } for
+                  mila/leo/bobo/hoot × everyday · pajamas · rain · beach · chef · winter · party · builder
+                  (same faces/hair; only clothes + headwear). Pass BOTH: <Kid spec={d.spec} wear={d.wear}/>.
+                  Pick from the place/story: bedroom→pajamas, rainy-street→rain (Bobo: holdR={<Umbrella/>}),
+                  beach/tropical-island→beach, kitchen/bakery→chef, snow→winter, party→party,
+                  construction-site→builder; everything else → everyday. Hoot keeps cap+glasses (except
+                  pajamas). Sheet: KidsWardrobeSheet → kids-shorts/tiny-sparks/wardrobe.png. Rigs take any
+                  headwear via `wear` (head space, centre 0,0, head radius ~175).
 remotion/src/shots/kids-sheet/  KidsModelSheet (→ character.png), KidsStyleBoard (→ style-board.png)
 remotion/src/shots/kids-<niche>-NN/  one episode composition (+ vo.gen.ts, song.gen.ts)
 kids-shorts/tiny-sparks/

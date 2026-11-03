@@ -616,6 +616,14 @@
   "transparent": false
  },
  {
+  "id": "KidsWardrobeSheet",
+  "durationInSeconds": 2,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "transparent": false
+ },
+ {
   "id": "KidsShortCards",
   "durationInSeconds": 10,
   "fps": 30,
