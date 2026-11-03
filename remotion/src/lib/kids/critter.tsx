@@ -359,9 +359,20 @@ export const Critter: React.FC<CritterProps> = ({
           </Vol>
         ) : (
           <Vol kind="tube">
-            <rect x={-26.5} y={-26.5} width={53} height={173} rx={26.5} fill={s.species === 'panda' || s.species === 'sheep' ? s.dark : s.fur} stroke={KINK} strokeWidth={7} />
+            {polish ? (
+              // SOFT PAW (polish): a tapered arm that widens into a round paw with a pad
+              <path d="M -24,-14 Q -30,70 -30,118 Q -32,166 0,166 Q 32,166 30,118 Q 30,70 24,-14 Z" fill={s.species === 'panda' || s.species === 'sheep' ? s.dark : s.fur} stroke={KINK} strokeWidth={7} strokeLinejoin="round" />
+            ) : (
+              <rect x={-26.5} y={-26.5} width={53} height={173} rx={26.5} fill={s.species === 'panda' || s.species === 'sheep' ? s.dark : s.fur} stroke={KINK} strokeWidth={7} />
+            )}
             {s.species === 'cow' && <rect x={-26.5} y={108} width={53} height={38.5} rx={16} fill={s.dark} stroke={KINK} strokeWidth={7} />}
           </Vol>
+        )}
+        {polish && !(owl || bird) && (
+          <g>
+            <ellipse cx={0} cy={138} rx={17} ry={13} fill={s.fur2} opacity={0.9} />
+            {[-14, 0, 14].map((px) => <circle key={px} cx={px} cy={118} r={5.5} fill={s.fur2} opacity={0.9} />)}
+          </g>
         )}
         {hold && <g transform={`translate(0,140) rotate(${-a})`}>{hold}</g>}
       </g>

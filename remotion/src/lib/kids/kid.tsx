@@ -97,18 +97,37 @@ const ik = (dx: number, dy: number): [number, number] => {
 };
 
 // a smooth move: the upper arm overshoots and settles, the forearm trails it (follow-through)
-const armAnglesSmooth = (pose: KArm | Blend<KArm>, frame: number): [number, number] => {
-  if (!isBlend<KArm>(pose)) return armAngles(pose, frame);
+const armAnglesSmooth = (pose: KArm | Blend<KArm>, frame: number, soft = false): [number, number] => {
+  if (!isBlend<KArm>(pose)) return armAngles(pose, frame, soft);
   const [from, to, p] = pose.blend;
-  const a = armAngles(from, frame);
-  const b = armAngles(to, frame);
+  const a = armAngles(from, frame, soft);
+  const b = armAngles(to, frame, soft);
   const e1 = easeOutBack(p);
   const e2 = easeOutBack((p - 0.18) / 0.82);
   return [a[0] + (b[0] - a[0]) * e1, a[1] + (b[1] - a[1]) * e2];
 };
 
-const armAngles = (pose: KArm, frame: number): [number, number] => {
+const armAngles = (pose: KArm, frame: number, soft = false): [number, number] => {
   if (typeof pose === 'object') return 'to' in pose ? ik(pose.to[0], pose.to[1]) : [pose.a, pose.b];
+  if (soft) {
+    // SOFT ARMS (polish): a relaxed rest with a little bend, a wave BESIDE the head (not across the
+    // face) that swings from the elbow, palms that land on the cheeks / over the mouth
+    switch (pose) {
+      case 'down':
+        return [9, 10];
+      case 'wave':
+        return [112, 40 + Math.sin(frame / 3.6) * 22];
+      case 'cheeks':
+        return ik(-40, -92);
+      case 'cover':
+        // elbows OUT, each hand rising from its own side to the mouth (IK would cross the arms over the chest)
+        return [64, 146];
+      case 'thumbs':
+        return ik(-72, 26);
+      default:
+        break;
+    }
+  }
   switch (pose) {
     case 'wave':
       return [138, 28 + Math.sin(frame / 3.2) * 26];
@@ -186,7 +205,97 @@ const Hand: React.FC<{ skin: string; fingers: number; rot: number; polish?: bool
   </g>
 );
 
+// ── SOFT ARM (polish): ONE smooth curved arm through the elbow (no hinge), the sleeve following the curve,
+// and a real cartoon hand that points along the forearm, shaped by the pose
+type HandKind = 'mitten' | 'open' | 'point';
+const handKind = (p: KArm): HandKind => (p === 'point' ? 'point' : p === 'wave' || p === 'cheeks' || p === 'cover' || p === 'shrug' || p === 'present' || p === 'count' ? 'open' : 'mitten');
+
+// local frame: origin at the wrist, +y along the forearm; ts = which side the thumb is on (toward the body)
+const SoftHand: React.FC<{ skin: string; kind: HandKind; ts: number }> = ({ skin, kind, ts }) => {
+  const ink = kst(6);
+  const thumb = (cy: number, len: number, ang: number) => (
+    <rect x={-7} y={0} width={14} height={len} rx={7} fill={skin} {...ink} transform={`translate(${ts * 15},${cy}) rotate(${-ts * ang})`} />
+  );
+  if (kind === 'open')
+    return (
+      <g>
+        {[-26, -9, 8, 25].map((a, i) => (
+          <rect key={i} x={-7} y={0} width={14} height={i === 0 || i === 3 ? 26 : 31} rx={7} fill={skin} {...ink} transform={`translate(${a * 0.45},24) rotate(${-a * 0.9})`} />
+        ))}
+        {thumb(4, 24, 62)}
+        <ellipse cx={0} cy={16} rx={24} ry={22} fill={skin} {...ink} />
+      </g>
+    );
+  if (kind === 'point')
+    return (
+      <g>
+        <rect x={-7 - ts * 6} y={22} width={14} height={36} rx={7} fill={skin} {...ink} />
+        <ellipse cx={0} cy={16} rx={22} ry={20} fill={skin} {...ink} />
+        {thumb(6, 20, 40)}
+        <path d={`M ${ts * 2},30 Q ${ts * 10},34 ${ts * 16},28`} fill="none" stroke={KINK} strokeWidth={3.5} strokeLinecap="round" opacity={0.45} />
+      </g>
+    );
+  return (
+    <g>
+      {thumb(2, 22, 22)}
+      <ellipse cx={0} cy={20} rx={22} ry={27} fill={skin} {...ink} />
+      <path d={`M -6,36 L -6,46 M 6,36 L 6,46`} stroke={KINK} strokeWidth={3.5} strokeLinecap="round" opacity={0.4} />
+    </g>
+  );
+};
+
+const SoftArm: React.FC<{ spec: KidSpec; pose: KArm | Blend<KArm>; mirror: boolean; frame: number; fingers: number; hold?: React.ReactNode }> = ({ spec, pose, mirror, frame, fingers, hold }) => {
+  const p = settled(pose);
+  let [a1, a2] = armAnglesSmooth(pose, frame, true);
+  if (p === 'down') {
+    // resting arms are never frozen: a slow sway, out of step left / right
+    a1 += Math.sin(frame / 24 + (mirror ? 1.7 : 0)) * 3;
+    a2 += Math.sin(frame / 24 + (mirror ? 1.7 : 0) - 0.8) * 4;
+  }
+  const r = (d: number) => (d * Math.PI) / 180;
+  const E: [number, number] = [-U * Math.sin(r(a1)), U * Math.cos(r(a1))];
+  const th = a1 + a2;
+  const W: [number, number] = [E[0] - (F + 4) * Math.sin(r(th)), E[1] + (F + 4) * Math.cos(r(th))];
+  const C: [number, number] = [2 * E[0] - W[0] / 2, 2 * E[1] - W[1] / 2]; // the curve passes THROUGH the elbow
+  const arm = `M 0,0 Q ${C[0]},${C[1]} ${W[0]},${W[1]}`;
+  // the sleeve = the first part of the same curve (de Casteljau split)
+  const st = 0.36;
+  const s1: [number, number] = [C[0] * st, C[1] * st];
+  const bt = (k: number): [number, number] => [2 * (1 - k) * k * C[0] + k * k * W[0], 2 * (1 - k) * k * C[1] + k * k * W[1]];
+  const s2 = bt(st);
+  const sleeve = `M 0,0 Q ${s1[0]},${s1[1]} ${s2[0]},${s2[1]}`;
+  const tan = [s2[0] - s1[0], s2[1] - s1[1]];
+  const tl = Math.hypot(tan[0], tan[1]) || 1;
+  const nx = -tan[1] / tl;
+  const ny = tan[0] / tl;
+  // the hand's thumb goes toward the body: +x of the wrist frame, flipped when the arm is raised
+  const ts = Math.cos(r(th)) >= 0 ? 1 : -1;
+  const counting = fingers > 0 || p === 'thumbs';
+  return (
+    <g transform={`${mirror ? 'scale(-1,1) ' : ''}translate(${-SH_X},${SH_Y})`}>
+      <path d={arm} fill="none" stroke={KINK} strokeWidth={52} strokeLinecap="round" />
+      <path d={arm} fill="none" stroke={spec.skin} strokeWidth={40} strokeLinecap="round" />
+      <path d={arm} fill="none" stroke="#ffffff" strokeWidth={9} strokeLinecap="round" opacity={0.16} transform="translate(-7,-3)" />
+      <path d={sleeve} fill="none" stroke={KINK} strokeWidth={62} strokeLinecap="round" />
+      <path d={sleeve} fill="none" stroke={spec.topColor} strokeWidth={50} strokeLinecap="round" />
+      {spec.top === 'stripes' && <path d={sleeve} fill="none" stroke={spec.topColor2 ?? '#ffffff'} strokeWidth={50} strokeDasharray="12 22" strokeDashoffset={-14} />}
+      <path d={`M ${s2[0] - nx * 26},${s2[1] - ny * 26} L ${s2[0] + nx * 26},${s2[1] + ny * 26}`} stroke={KINK} strokeWidth={6} strokeLinecap="round" />
+      {counting ? (
+        <g transform={`translate(${W[0]},${W[1]}) rotate(${th}) translate(0,10)${mirror ? ' scale(-1,1)' : ''}`}>
+          <Hand skin={spec.skin} fingers={fingers} rot={(mirror ? -1 : 1) * th} polish thumb={p === 'thumbs'} />
+        </g>
+      ) : (
+        <g transform={`translate(${W[0]},${W[1]}) rotate(${th})`}>
+          <SoftHand skin={spec.skin} kind={handKind(p)} ts={ts} />
+        </g>
+      )}
+      {hold && <g transform={`translate(${W[0]},${W[1] + 6})${mirror ? ' scale(-1,1)' : ''}`}>{hold}</g>}
+    </g>
+  );
+};
+
 const Arm: React.FC<{ spec: KidSpec; pose: KArm | Blend<KArm>; mirror: boolean; frame: number; fingers: number; hold?: React.ReactNode; polish?: boolean }> = ({ spec, pose, mirror, frame, fingers, hold, polish }) => {
+  if (polish) return <SoftArm spec={spec} pose={pose} mirror={mirror} frame={frame} fingers={fingers} hold={hold} />;
   const [a1, a2] = armAnglesSmooth(pose, frame);
   const sleeve = spec.top === 'dress' || spec.top === 'overalls' || spec.top === 'stripes' ? spec.topColor : spec.topColor;
   const showFingers = fingers || (pose === 'count' ? 0 : 0);
