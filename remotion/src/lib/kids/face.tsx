@@ -35,10 +35,50 @@ const CFG: Record<KExpr, Cfg> = {
   proud: { lid: 0, happy: true, brow: -2, browTilt: 4 },
 };
 
-// mouth shape for an expression + lip-sync openness 0..1
-const Mouth: React.FC<{ expr: KExpr; open: number; y: number; w: number; tongue?: string }> = ({ expr, open, y, w, tongue = '#ff7aa2' }) => {
+// VISEMES (acting.ts speechAt): the mouth shape for the SOUND being said, so the lips match the words —
+// A (ah/i: open), E (ee/s/t: wide with teeth), O (oh: round), U (oo/w: small pucker), M (m/b/p: lips
+// pressed), F (f/v: teeth on the lip). Without a viseme the mouth just opens and closes (the old way).
+export type Viseme = 'A' | 'E' | 'O' | 'U' | 'M' | 'F';
+const MOUTH_IN = '#7a2d4a';
+const VisemeMouth: React.FC<{ v: Viseme; o: number; y: number; w: number; big: boolean; tongue: string }> = ({ v, o, y, w, big, tongue }) => {
+  if (v === 'M') return <path d={`M ${-w * 0.42},${y + 2} Q 0,${y + 10} ${w * 0.42},${y + 2}`} fill="none" {...kst(9)} />;
+  if (v === 'U') return <ellipse cx={0} cy={y + 8} rx={w * 0.2 + o * 3} ry={9 + o * 7} fill={MOUTH_IN} {...kst(6)} />;
+  if (v === 'O')
+    return (
+      <g>
+        <ellipse cx={0} cy={y + 10} rx={w * 0.34 + o * 4} ry={14 + o * 16} fill={MOUTH_IN} {...kst(7)} />
+        <ellipse cx={0} cy={y + 18 + o * 10} rx={w * 0.2} ry={6 + o * 4} fill={tongue} />
+      </g>
+    );
+  if (v === 'E' || v === 'F') {
+    const ww = w * (big ? 0.78 : 0.66);
+    const hh = v === 'F' ? 10 : 12 + o * 14;
+    const id = `ve${Math.round(ww)}${Math.round(hh)}`;
+    const d = `M ${-ww},${y} Q 0,${y - 8} ${ww},${y} Q ${ww * 0.85},${y + hh} 0,${y + hh + 4} Q ${-ww * 0.85},${y + hh} ${-ww},${y} Z`;
+    return (
+      <g>
+        <path d={d} fill={MOUTH_IN} {...kst(7)} />
+        <clipPath id={id}>
+          <path d={d} />
+        </clipPath>
+        <g clipPath={`url(#${id})`}>
+          <rect x={-ww} y={y - 10} width={ww * 2} height={v === 'F' ? 12 : 10} fill="#ffffff" />
+          {v === 'E' && <rect x={-ww} y={y + hh - 4} width={ww * 2} height={8} fill="#ffffff" opacity={0.9} />}
+        </g>
+      </g>
+    );
+  }
+  return null; // 'A' = the open D-smile below
+};
+
+// mouth shape for an expression + lip-sync openness 0..1 (+ an optional viseme)
+const Mouth: React.FC<{ expr: KExpr; open: number; y: number; w: number; tongue?: string; viseme?: Viseme }> = ({ expr, open, y, w, tongue = '#ff7aa2', viseme }) => {
   const o = Math.max(0, Math.min(1, open));
   const big = expr === 'laugh' || expr === 'happy';
+  if (viseme && viseme !== 'A' && (o >= 0.08 || viseme === 'M') && expr !== 'wow' && expr !== 'surprised' && expr !== 'sleepy') {
+    const vm = <VisemeMouth v={viseme} o={o} y={y} w={w} big={big} tongue={tongue} />;
+    if (vm) return vm;
+  }
   if (expr === 'wow' || expr === 'surprised') {
     const r = (expr === 'wow' ? 26 : 18) + o * 10;
     return <ellipse cx={0} cy={y + 6} rx={r * 0.8} ry={r} fill="#7a2d4a" {...kst(7)} />;
@@ -126,11 +166,13 @@ export type FaceProps = {
   freckles?: boolean;
   from?: KExpr; // smooth change (smooth.ts): the expression we are leaving…
   mix?: number; // …and how far into the change we are, 0..1
+  viseme?: Viseme; // the sound being said (acting.ts speechAt) — lips match the words
+  acting?: boolean; // brows lift with the voice (emphasis), a livelier talking face
 };
 
 export const Face: React.FC<FaceProps> = ({
   expr, look = [0, 0], mouth = 0, blink = false, skin, iris = '#6b4226', eyeR = 40, eyeDX = 66, eyeY = 0, mouthY = 70, mouthW = 50,
-  cheeks = true, brows = KINK, nose, lashes, freckles, from, mix = 1,
+  cheeks = true, brows = KINK, nose, lashes, freckles, from, mix = 1, viseme, acting,
 }) => {
   // a smooth change: numbers (lids, brows, eye size, gaze) glide; the eye shape (open ↔ ^^) swaps
   // behind a blink and the mouth swaps while it is squeezed small — the classic cartoon in-between
@@ -151,6 +193,7 @@ export const Face: React.FC<FaceProps> = ({
   const mouthExpr = changing && mix < 0.5 ? from! : expr;
   const mouthS = changing ? 1 - 0.65 * Math.sin(mix * Math.PI) : 1;
   blink = blink || blinkThrough;
+  if (acting && mouth > 0.08) c.brow -= 4 + mouth * 7; // eyebrows lift on the stressed sounds
   return (
     <g>
       {cheeks && (
@@ -191,7 +234,7 @@ export const Face: React.FC<FaceProps> = ({
       )}
       {nose ?? <path d={`M -8,${eyeY + 34} Q 0,${eyeY + 44} 8,${eyeY + 34}`} fill="none" {...kst(7)} />}
       <g transform={`translate(0,${mouthY}) scale(${0.5 + mouthS * 0.5},${mouthS}) translate(0,${-mouthY})`}>
-        <Mouth expr={mouthExpr} open={mouth} y={mouthY} w={mouthW} />
+        <Mouth expr={mouthExpr} open={mouth} y={mouthY} w={mouthW} viseme={viseme} />
       </g>
     </g>
   );

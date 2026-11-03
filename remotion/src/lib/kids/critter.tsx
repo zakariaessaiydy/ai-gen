@@ -4,7 +4,7 @@
 import React from 'react';
 import { Belt, Cape, ChestBadge, Mask, type HeroLook } from './hero';
 import { useCurrentFrame } from 'remotion';
-import { Face, HeadSparkles, KINK, idleMotion, kst, type KExpr } from './face';
+import { Face, HeadSparkles, KINK, idleMotion, kst, type KExpr, type Viseme } from './face';
 import { AO, Ground, K3DDefs, Vol } from './depth';
 import { easeOutBack, isBlend, settled, type Blend } from './smooth';
 
@@ -24,7 +24,8 @@ export type CritterSpec = {
   hero?: HeroLook; // original superhero outfit — see hero.tsx
 };
 
-export type CArm = 'down' | 'wave' | 'up' | 'hold' | 'point' | 'hug' | 'clap' | 'think' | { a: number };
+// 'cheeks' (paws on the cheeks, over the face) and 'cheer' (pumping paws beside the head) = ACTING poses (Nov 2026)
+export type CArm = 'down' | 'wave' | 'up' | 'hold' | 'point' | 'hug' | 'clap' | 'think' | 'cheeks' | 'cheer' | { a: number };
 
 export type CritterProps = {
   spec: CritterSpec;
@@ -48,6 +49,9 @@ export type CritterProps = {
   blink?: boolean;
   wear?: React.ReactNode; // headwear (hats, sunglasses…) drawn in HEAD space: centre (0,0), head radius ~175; moves with the head
   idle?: boolean; // auto idle behaviour (sway, head tilt, talk nod, laugh bounce, ear perk) — default on
+  viseme?: Viseme; // mouth shape for the sound being said — acting.ts speechAt()
+  acting?: boolean; // brows lift with the voice
+  polish?: boolean; // DETAIL POLISH (Nov 2026): crown tuft, toes, scarf knit + fringe, owl belly feathers
   tuck?: number; // 0..1 — pull the head (and paws) in, like a turtle hiding in its shell
 };
 
@@ -82,6 +86,10 @@ const armAngle = (p: CArm, frame: number): number => {
       return -62;
     case 'clap':
       return -40 - ((Math.sin(frame / 2.4) + 1) / 2) * 30;
+    case 'cheer':
+      return 128 + Math.sin(frame / 2.6) * 10;
+    case 'cheeks':
+      return 172;
     case 'think':
       return -150;
     default:
@@ -314,7 +322,7 @@ const Tail: React.FC<{ s: CritterSpec; frame: number; happy?: boolean }> = ({ s,
 
 export const Critter: React.FC<CritterProps> = ({
   spec, x, y, scale = 1, expr: exprIn = 'smile', look = [0, 0], mouth = 0, armL = 'down', armR = 'down', holdL, holdR,
-  walk = 0, walking = false, hop = 0, tilt = 0, squash = 0, facing = 1, shadow = true, blink = true, idle = true, wear, tuck = 0,
+  walk = 0, walking = false, hop = 0, tilt = 0, squash = 0, facing = 1, shadow = true, blink = true, idle = true, wear, tuck = 0, viseme, acting, polish,
 }) => {
   const frame = useCurrentFrame();
   const expr = settled(exprIn);
@@ -363,6 +371,8 @@ export const Critter: React.FC<CritterProps> = ({
     const p = settled(pIn);
     return p === 'hold' || p === 'hug' || p === 'clap';
   };
+  // paws on the cheeks go OVER the face (drawn after the head)
+  const layerOf = (pIn: CArm | Blend<CArm>): 'back' | 'front' | 'over' => (settled(pIn) === 'cheeks' ? 'over' : front(pIn) ? 'front' : 'back');
 
   const muzzle = () => {
     if (s.species === 'monkey')
@@ -486,6 +496,10 @@ export const Critter: React.FC<CritterProps> = ({
       <Vol>
         <ellipse cx={0} cy={0} rx={frog ? 190 : 172} ry={frog ? 140 : 160} fill={s.fur} {...kst(9)} />
       </Vol>
+      {polish && !frog && !turtle && s.species !== 'elephant' && s.species !== 'pig' && s.species !== 'lion' && (
+        // a little tuft of fur / feathers on the crown
+        <path d="M -30,-150 Q -26,-196 -6,-160 Q 4,-206 20,-158 Q 36,-190 36,-148 Z" fill={s.fur} {...kst(6)} />
+      )}
       {/* soft fur shine */}
       <ellipse cx={-92} cy={-92} rx={40} ry={20} fill="#ffffff" opacity={0.3} transform="rotate(-32 -92 -92)" />
       {s.species === 'tiger' && (
@@ -517,6 +531,8 @@ export const Critter: React.FC<CritterProps> = ({
           look={look}
           mouth={frog ? 0 : mouth}
           blink={closed}
+          viseme={frog ? undefined : viseme}
+          acting={acting}
           from={exprFrom}
           mix={exprMix}
           skin={s.fur}
@@ -585,8 +601,16 @@ export const Critter: React.FC<CritterProps> = ({
             <ellipse key={k} cx={k * 62} cy={-24 - (walking ? Math.max(0, k * step) * 26 : 0)} rx={58} ry={34} fill={owl || frog ? '#ffb703' : bird || hooves || s.species === 'panda' ? s.dark : s.fur} {...st} />
           ))}
         </Vol>
-        {tuck < 0.5 && !front(armL) && arm(armL, -1, holdL)}
-        {tuck < 0.5 && !front(armR) && arm(armR, 1, holdR)}
+        {polish && !bird && !hooves && !turtle && (
+          <g stroke={KINK} strokeWidth={4} strokeLinecap="round" opacity={0.45}>
+            {[-1, 1].map((k) => [-18, 0, 18].map((dx) => {
+              const fy = -24 - (walking ? Math.max(0, k * step) * 26 : 0);
+              return <path key={`${k}${dx}`} d={`M ${k * 62 + dx},${fy + 30} L ${k * 62 + dx * 0.9},${fy + 16}`} />;
+            }))}
+          </g>
+        )}
+        {tuck < 0.5 && layerOf(armL) === 'back' && arm(armL, -1, holdL)}
+        {tuck < 0.5 && layerOf(armR) === 'back' && arm(armR, 1, holdR)}
         {turtle && tuck > 0.02 && headEl}
         {/* body */}
         {turtle ? (
@@ -641,6 +665,13 @@ export const Critter: React.FC<CritterProps> = ({
                 <ellipse cx={0} cy={penguin ? -150 : -140} rx={penguin ? 108 : 84} ry={penguin ? 120 : 96} fill={s.fur2} />
               </Vol>
             )}
+            {polish && owl && (
+              <g fill="none" stroke={s.dark} strokeWidth={4} strokeLinecap="round" opacity={0.4}>
+                {([[-176, [-30, 30]], [-140, [-50, 0, 50]], [-104, [-30, 30]]] as [number, number[]][]).map(([fy, xs]) =>
+                  xs.map((fx) => <path key={`${fy}${fx}`} d={`M ${fx - 16},${fy} q 16,16 32,0`} />),
+                )}
+              </g>
+            )}
             {/* the chin's soft shadow on the tummy, clipped to the body */}
             <g clipPath={`url(#cao-${s.id})`}>
               <clipPath id={`cao-${s.id}`}>
@@ -663,9 +694,17 @@ export const Critter: React.FC<CritterProps> = ({
             <path d="M 40,-240 L 70,-150 L 30,-160 L 16,-236 Z" fill={s.scarf} {...kst(7)} />
           </Vol>
         )}
-        {tuck < 0.5 && front(armL) && arm(armL, -1, holdL)}
-        {tuck < 0.5 && front(armR) && arm(armR, 1, holdR)}
+        {s.scarf && polish && (
+          <g strokeLinecap="round">
+            <path d="M -104,-266 Q 0,-226 104,-266" fill="none" stroke="#000000" strokeWidth={5} opacity={0.14} />
+            {[34, 46, 58, 68].map((fx, i) => <path key={i} d={`M ${fx},${-156 + (fx - 30) * 0.15} l 2,16`} stroke={s.scarf} strokeWidth={6} />)}
+          </g>
+        )}
+        {tuck < 0.5 && layerOf(armL) === 'front' && arm(armL, -1, holdL)}
+        {tuck < 0.5 && layerOf(armR) === 'front' && arm(armR, 1, holdR)}
         {!(turtle && tuck > 0.02) && headEl}
+        {tuck < 0.5 && layerOf(armL) === 'over' && arm(armL, -1, holdL)}
+        {tuck < 0.5 && layerOf(armR) === 'over' && arm(armR, 1, holdR)}
       </g>
     </g>
   );

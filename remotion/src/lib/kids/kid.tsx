@@ -4,7 +4,7 @@
 // on purpose: a kids channel needs its own, softer silhouette.
 import React from 'react';
 import { useCurrentFrame } from 'remotion';
-import { Face, HeadSparkles, KINK, idleMotion, kst, type KExpr } from './face';
+import { Face, HeadSparkles, KINK, idleMotion, kst, type KExpr, type Viseme } from './face';
 import { Belt, Cape, ChestBadge, Mask, type HeroLook } from './hero';
 import { AO, Ground, K3DDefs, Vol } from './depth';
 import { easeOutBack, isBlend, settled, type Blend } from './smooth';
@@ -32,6 +32,7 @@ export type KidSpec = {
 // (negative dx = outward; for armR that means screen RIGHT).
 export type KArm =
   | 'down' | 'wave' | 'up' | 'point' | 'hip' | 'hold' | 'clap' | 'think' | 'count' | 'present' | 'hug' | 'shrug'
+  | 'cheeks' | 'cover' | 'cheer' | 'thumbs' // ACTING poses (Nov 2026): hands on cheeks · hands over the mouth (giggle / oops) · pumping fists · thumbs up
   | { a: number; b: number }
   | { to: [number, number] };
 
@@ -59,6 +60,9 @@ export type KidProps = {
   blink?: boolean;
   wear?: React.ReactNode; // headwear (hats, sunglasses…) drawn in HEAD space: centre (0,0), head radius ~175; moves with the head
   idle?: boolean; // auto idle behaviour (sway, head tilt, talk nod, laugh bounce) — default on
+  viseme?: Viseme; // mouth shape for the sound being said — acting.ts speechAt()
+  acting?: boolean; // brows lift with the voice
+  polish?: boolean; // DETAIL POLISH (Nov 2026): thumbs on the hands, hair strands, collars + cuffs, shoe laces, hems
 };
 
 const U = 100; // upper arm
@@ -130,14 +134,35 @@ const armAngles = (pose: KArm, frame: number): [number, number] => {
       return [-8, -98];
     case 'shrug':
       return [52, 96];
+    case 'cheeks':
+      return ik(-54, -108);
+    case 'cover':
+      return ik(50, -96);
+    case 'cheer':
+      return [128 + Math.sin(frame / 2.6) * 10, 16];
+    case 'thumbs':
+      return ik(-24, 66);
     default:
       return [12, 6];
   }
 };
 
 // a mitten hand, or a hand showing N raised fingers (always drawn upright in world space)
-const Hand: React.FC<{ skin: string; fingers: number; rot: number }> = ({ skin, fingers, rot }) => (
+const Hand: React.FC<{ skin: string; fingers: number; rot: number; polish?: boolean; thumb?: boolean }> = ({ skin, fingers, rot, polish, thumb }) => (
   <g transform={`rotate(${-rot})`}>
+    {thumb ? (
+      // thumbs up: a fist with the thumb standing up
+      <g>
+        <Vol kind="tube" tone="skin">
+          <rect x={-8} y={-64} width={19} height={48} rx={9.5} fill={skin} {...kst(6)} />
+        </Vol>
+        <Vol tone="skin">
+          <circle cx={0} cy={0} r={27} fill={skin} {...kst(7)} />
+        </Vol>
+        <path d="M -21,-6 L 9,-6 M -21,6 L 9,6 M -18,17 L 6,17" stroke={KINK} strokeWidth={3.5} strokeLinecap="round" opacity={0.5} />
+      </g>
+    ) : (
+      <>
     {fingers > 0 && (
       <Vol kind="tube" tone="skin">
         {Array.from({ length: Math.min(5, fingers) }).map((_, i) => {
@@ -147,13 +172,21 @@ const Hand: React.FC<{ skin: string; fingers: number; rot: number }> = ({ skin, 
         })}
       </Vol>
     )}
+    {polish && fingers === 0 && (
+      <Vol tone="skin">
+        <ellipse cx={21} cy={-12} rx={11} ry={17} transform="rotate(35 21 -12)" fill={skin} {...kst(6)} />
+      </Vol>
+    )}
     <Vol tone="skin">
       <circle cx={0} cy={0} r={28} fill={skin} {...kst(7)} />
     </Vol>
+    {polish && fingers === 0 && <path d="M -11,13 L -11,25 M 3,15 L 3,27" stroke={KINK} strokeWidth={3.5} strokeLinecap="round" opacity={0.45} />}
+      </>
+    )}
   </g>
 );
 
-const Arm: React.FC<{ spec: KidSpec; pose: KArm | Blend<KArm>; mirror: boolean; frame: number; fingers: number; hold?: React.ReactNode }> = ({ spec, pose, mirror, frame, fingers, hold }) => {
+const Arm: React.FC<{ spec: KidSpec; pose: KArm | Blend<KArm>; mirror: boolean; frame: number; fingers: number; hold?: React.ReactNode; polish?: boolean }> = ({ spec, pose, mirror, frame, fingers, hold, polish }) => {
   const [a1, a2] = armAnglesSmooth(pose, frame);
   const sleeve = spec.top === 'dress' || spec.top === 'overalls' || spec.top === 'stripes' ? spec.topColor : spec.topColor;
   const showFingers = fingers || (pose === 'count' ? 0 : 0);
@@ -166,12 +199,13 @@ const Arm: React.FC<{ spec: KidSpec; pose: KArm | Blend<KArm>; mirror: boolean; 
       <Vol>
         <path d={`M -24,-6 L 24,-6 L 22,${U * 0.55} L -22,${U * 0.55} Z`} fill={sleeve} {...kst(7)} />
       </Vol>
+      {polish && <rect x={-22} y={U * 0.55 - 13} width={44} height={11} fill="#000000" opacity={0.13} />}
       <g transform={`translate(0,${U}) rotate(${a2})`}>
         <Vol kind="tube" tone="skin">
           <rect x={-18.5} y={-18.5} width={37} height={F + 37} rx={18.5} fill={spec.skin} stroke={KINK} strokeWidth={7} />
         </Vol>
         <g transform={`translate(0,${F + 6})${mirror ? ' scale(-1,1)' : ''}`}>
-          <Hand skin={spec.skin} fingers={showFingers} rot={(mirror ? -1 : 1) * (a1 + a2)} />
+          <Hand skin={spec.skin} fingers={showFingers} rot={(mirror ? -1 : 1) * (a1 + a2)} polish={polish} thumb={settled(pose) === 'thumbs'} />
           {hold && <g transform={`rotate(${-(mirror ? -1 : 1) * (a1 + a2)})`}>{hold}</g>}
         </g>
       </g>
@@ -229,9 +263,26 @@ const HairFront: React.FC<{ spec: KidSpec }> = ({ spec }) => {
   }
 };
 
+// DETAIL POLISH: a few strands + a second shine on the hair, curls on the puffs
+const HairDetail: React.FC<{ spec: KidSpec }> = ({ spec }) => (
+  <g fill="none" strokeLinecap="round">
+    <g stroke={KINK} strokeWidth={5} opacity={0.24}>
+      {spec.hair === 'spiky' ? (
+        <path d="M -100,-150 L -80,-110 M 0,-180 L 0,-120 M 100,-150 L 80,-110" />
+      ) : (
+        <path d="M -116,-118 Q -70,-150 -24,-146 M 30,-146 Q 84,-146 126,-104 M -40,-112 Q 0,-132 46,-122" />
+      )}
+      {spec.hair === 'puffs' &&
+        [-1, 1].map((k) => <path key={k} d={`M ${k * 178 - 34},${-112} q 18,-26 42,-8 q 16,16 -6,30 M ${k * 178 + 4},${-50} q 22,-6 30,-28`} />)}
+    </g>
+    <path d="M 24,-162 Q 46,-164 64,-156" stroke="#ffffff" strokeWidth={10} opacity={0.3} />
+  </g>
+);
+
 export const Kid: React.FC<KidProps> = ({
   spec, x, y, scale = 1, expr: exprIn = 'smile', look = [0, 0], mouth = 0, armL = 'down', armR = 'down', fingersL = 0, fingersR = 0,
   holdL, holdR, legs = 'stand', walk = 0, hop = 0, tilt = 0, lean = 0, squash = 0, shadow = true, blink = true, idle = true, wear,
+  viseme, acting, polish,
 }) => {
   const frame = useCurrentFrame();
   const expr = settled(exprIn);
@@ -270,6 +321,12 @@ export const Kid: React.FC<KidProps> = ({
           <path d={`M ${-44 + side * 14},-4 Q ${-50 + side * 14},-62 ${side * 14},-62 Q ${50 + side * 14},-62 ${44 + side * 14},-4 Z`} fill={spec.shoes} {...kst()} />
         </Vol>
         <path d={`M ${-40 + side * 14},-14 L ${40 + side * 14},-14`} stroke="#ffffff" strokeWidth={10} strokeLinecap="round" opacity={0.85} />
+        {polish && (
+          <g stroke="#ffffff" strokeWidth={5} strokeLinecap="round" opacity={0.9}>
+            <path d={`M ${side * 14 - 13},-50 L ${side * 14 + 11},-38 M ${side * 14 + 11},-50 L ${side * 14 - 13},-38`} />
+          </g>
+        )}
+        {polish && spec.top !== 'dress' && <path d="M -32,-66 L 32,-66" stroke="#000000" strokeWidth={6} opacity={0.14} />}
       </g>
     );
   };
@@ -278,12 +335,12 @@ export const Kid: React.FC<KidProps> = ({
   // over the face (hand on chin / reaching up past the head)
   const layer = (pIn: KArm | Blend<KArm>): 'back' | 'front' | 'head' => {
     const p = settled(pIn);
-    if (p === 'think' || p === 'wave' || p === 'count' || p === 'up' || (typeof p === 'object' && 'to' in p && p.to[1] < -150)) return 'head';
-    if (p === 'hold' || p === 'clap' || p === 'hug' || (typeof p === 'object' && 'to' in p && p.to[0] > 20)) return 'front';
+    if (p === 'think' || p === 'wave' || p === 'count' || p === 'up' || p === 'cheeks' || p === 'cover' || p === 'cheer' || (typeof p === 'object' && 'to' in p && p.to[1] < -150)) return 'head';
+    if (p === 'hold' || p === 'clap' || p === 'hug' || p === 'thumbs' || (typeof p === 'object' && 'to' in p && p.to[0] > 20)) return 'front';
     return 'back';
   };
-  const aL = <Arm spec={spec} pose={armL} mirror={false} frame={frame} fingers={fingerL} hold={holdL} />;
-  const aR = <Arm spec={spec} pose={armR} mirror frame={frame} fingers={fingersR} hold={holdR} />;
+  const aL = <Arm spec={spec} pose={armL} mirror={false} frame={frame} fingers={fingerL} hold={holdL} polish={polish} />;
+  const aR = <Arm spec={spec} pose={armR} mirror frame={frame} fingers={fingersR} hold={holdR} polish={polish} />;
 
   // the chin's soft shadow on the chest (clipped to the top, so it never smudges the background)
   const chinAO = (d: string) => (
@@ -303,6 +360,13 @@ export const Kid: React.FC<KidProps> = ({
             <path d={DRESS} fill={spec.topColor} {...kst()} />
             <path d="M -146,-166 Q 0,-136 146,-166 L 150,-150 Q 0,-118 -150,-150 Z" fill={spec.topColor2 ?? '#ffffff'} {...kst(6)} />
           </Vol>
+          {polish && (
+            <g>
+              <ellipse cx={-30} cy={-396} rx={34} ry={17} transform="rotate(14 -30 -396)" fill={spec.topColor2 ?? '#ffffff'} {...kst(5)} />
+              <ellipse cx={30} cy={-396} rx={34} ry={17} transform="rotate(-14 30 -396)" fill={spec.topColor2 ?? '#ffffff'} {...kst(5)} />
+              {[-350, -318].map((by) => <circle key={by} cx={0} cy={by} r={7} fill={spec.topColor2 ?? '#ffffff'} {...kst(4)} />)}
+            </g>
+          )}
           {chinAO(DRESS)}
         </>
       );
@@ -337,6 +401,7 @@ export const Kid: React.FC<KidProps> = ({
           )}
           <path d="M -40,-404 Q 0,-378 40,-404" fill="none" {...kst(7)} />
         </Vol>
+        {polish && <path d="M -50,-405 Q 0,-362 50,-405 L 42,-398 Q 0,-374 -42,-398 Z" fill={spec.top === 'stripes' ? (spec.topColor2 ?? '#ffffff') : '#ffffff'} {...kst(5)} />}
         {chinAO(TEE)}
       </>
     );
@@ -352,11 +417,12 @@ export const Kid: React.FC<KidProps> = ({
       </Vol>
       {spec.hero?.mask && <Mask color={spec.hero.mask} y={20} dx={68} r={42} />}
       <g transform="translate(0,26)">
-        <Face expr={expr} look={look} mouth={mouth} blink={closed} from={exprFrom} mix={exprMix} skin={spec.skin} iris={spec.iris ?? '#6b4226'} eyeR={42} eyeDX={68} eyeY={-6} mouthY={66} mouthW={48} brows={spec.hairColor} lashes={spec.lashes} freckles={spec.freckles} />
+        <Face expr={expr} look={look} mouth={mouth} blink={closed} from={exprFrom} mix={exprMix} viseme={viseme} acting={acting} skin={spec.skin} iris={spec.iris ?? '#6b4226'} eyeR={42} eyeDX={68} eyeY={-6} mouthY={66} mouthW={48} brows={spec.hairColor} lashes={spec.lashes} freckles={spec.freckles} />
       </g>
       <Vol>{HairFront({ spec })}</Vol>
       {/* hair shine */}
       <path d="M -120,-118 Q -70,-158 -10,-160" fill="none" stroke="#ffffff" strokeWidth={14} strokeLinecap="round" opacity={0.32} />
+      {polish && <HairDetail spec={spec} />}
       <HeadSparkles frame={frame} r={178} on={expr === 'wow' || expr === 'proud'} />
       {spec.glasses && (
         <g fill="none" {...kst(8)}>

@@ -256,6 +256,14 @@
   "transparent": false
  },
  {
+  "id": "KidsActingDemo",
+  "durationInSeconds": 16.5,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "KidsEnergyCardAfter",
   "durationInSeconds": 2.6,
   "fps": 30,
