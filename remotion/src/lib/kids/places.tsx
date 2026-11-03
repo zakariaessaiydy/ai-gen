@@ -47,7 +47,8 @@ export const standY = (place: Place, x: number, w: number, h: number, o: { varia
   const u1 = toU(x + halfW);
   const zones: [number, number, number][] = [[-1, 0.3, fl[0]], [0.3, 0.7, fl[1]], [0.7, 2, fl[2]]];
   const top = Math.max(...zones.filter(([a, b]) => u1 > a && u0 < b).map(([, , v]) => v)); // the whole footprint on clear floor
-  const bottom = fl[3] ?? 0.97;
+  // the painting's usable bottom — and never below the visible frame (a crop can cut the painting's bottom off)
+  const bottom = Math.min(fl[3] ?? 0.97, (h * 0.985 - oy) / (ih * sc));
   const usual = (FLOOR(h) - oy) / (ih * sc);
   const v = Math.min(bottom, Math.max(usual, top + (o.margin ?? 0.02)));
   return Math.round(oy + v * ih * sc);

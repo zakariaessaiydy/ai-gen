@@ -57,6 +57,7 @@ export type KidProps = {
   squash?: number;
   shadow?: boolean;
   blink?: boolean;
+  wear?: React.ReactNode; // headwear (hats, sunglasses…) drawn in HEAD space: centre (0,0), head radius ~175; moves with the head
   idle?: boolean; // auto idle behaviour (sway, head tilt, talk nod, laugh bounce) — default on
 };
 
@@ -230,7 +231,7 @@ const HairFront: React.FC<{ spec: KidSpec }> = ({ spec }) => {
 
 export const Kid: React.FC<KidProps> = ({
   spec, x, y, scale = 1, expr: exprIn = 'smile', look = [0, 0], mouth = 0, armL = 'down', armR = 'down', fingersL = 0, fingersR = 0,
-  holdL, holdR, legs = 'stand', walk = 0, hop = 0, tilt = 0, lean = 0, squash = 0, shadow = true, blink = true, idle = true,
+  holdL, holdR, legs = 'stand', walk = 0, hop = 0, tilt = 0, lean = 0, squash = 0, shadow = true, blink = true, idle = true, wear,
 }) => {
   const frame = useCurrentFrame();
   const expr = settled(exprIn);
@@ -373,6 +374,7 @@ export const Kid: React.FC<KidProps> = ({
           </Vol>
         </g>
       )}
+      {wear}
     </g>
   );
 

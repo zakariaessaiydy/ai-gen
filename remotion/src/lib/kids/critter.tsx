@@ -46,6 +46,7 @@ export type CritterProps = {
   facing?: 1 | -1; // -1 mirrors the whole animal (tail side swaps)
   shadow?: boolean;
   blink?: boolean;
+  wear?: React.ReactNode; // headwear (hats, sunglasses…) drawn in HEAD space: centre (0,0), head radius ~175; moves with the head
   idle?: boolean; // auto idle behaviour (sway, head tilt, talk nod, laugh bounce, ear perk) — default on
   tuck?: number; // 0..1 — pull the head (and paws) in, like a turtle hiding in its shell
 };
@@ -313,7 +314,7 @@ const Tail: React.FC<{ s: CritterSpec; frame: number; happy?: boolean }> = ({ s,
 
 export const Critter: React.FC<CritterProps> = ({
   spec, x, y, scale = 1, expr: exprIn = 'smile', look = [0, 0], mouth = 0, armL = 'down', armR = 'down', holdL, holdR,
-  walk = 0, walking = false, hop = 0, tilt = 0, squash = 0, facing = 1, shadow = true, blink = true, idle = true, tuck = 0,
+  walk = 0, walking = false, hop = 0, tilt = 0, squash = 0, facing = 1, shadow = true, blink = true, idle = true, wear, tuck = 0,
 }) => {
   const frame = useCurrentFrame();
   const expr = settled(exprIn);
@@ -567,6 +568,7 @@ export const Critter: React.FC<CritterProps> = ({
           </Vol>
         </g>
       )}
+      {wear}
     </g>
   );
 
