@@ -176,6 +176,14 @@
   "transparent": false
  },
  {
+  "id": "KidsAnimals081",
+  "durationInSeconds": 359.6,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "KidsMarathonIntro",
   "durationInSeconds": 9,
   "fps": 30,
@@ -266,6 +274,14 @@
  {
   "id": "KidsEnergyDemo",
   "durationInSeconds": 41.4,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsSmoothDemo",
+  "durationInSeconds": 12.5,
   "fps": 30,
   "width": 1920,
   "height": 1080,
@@ -781,6 +797,14 @@
   "fps": 30,
   "width": 1920,
   "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "KidsWords080",
+  "durationInSeconds": 86.8,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
   "transparent": false
  },
  {
