@@ -59,6 +59,11 @@ remotion/src/lib/kids/
                   Meadow. fx={false} when counting things in the air; dim={0.3} behind busy cards;
                   variant={1} for an alt painting. QA board: KidsPlacesBoard / KidsPlacesBoardTall.
                   A place without a 9:16 file centre-crops its 16:9 one (check the frame).
+                  **FEET ON THE FLOOR (always, on a painted place):** y = standY(place, x, W, H,
+                  { halfW: 150 * scale }) instead of FLOOR(H) — it reads the painting's measured floor
+                  (catalog.json "floors") and drops the feet below counters / beds / plants in that part
+                  of the room. Re-read it when a character walks (pass the moving x). A new painting
+                  needs its floors entry measured, or standY falls back to FLOOR(h).
   depth.tsx       the 3D LOOK: <Vol> (shades shapes as lit volumes + thins their outline), <Ground>
                   (soft contact shadow), <AO> (occlusion), K3DDefs (gradients) · KIDS_3D switch
   kit.tsx         KidsStage(any size camera) · KidsCaptions(word-by-word, big) · PopText(the ONE
@@ -294,10 +299,10 @@ Kids need silent time to hear, look and repeat. Every episode's packing MUST use
 | opening | ON the action in frame 0 (a question, a surprise, a character waving) — no ident, no title card | the `SparksIntro` ident on the jingle (3.7 s), then the episode title as a PopText over the first shot |
 | ending | a reward + a soft loop back to frame 0 | goodbye song/wave + "see you next time!" (no CTA beg) |
 | captions | KidsCaptions at ~71% height | KidsCaptions at ~88% height |
-| characters | scale ~0.9–1.0, feet on FLOOR(1920) | scale ~0.55–0.65, feet on FLOOR(1080) |
+| characters | scale ~0.9–1.0, feet on FLOOR(1920) — standY(…) on a painted place | scale ~0.55–0.65, feet on FLOOR(1080) — standY(…) on a painted place |
 
 The SAME composition code runs at both sizes: read `useVideoConfig()` for (W,H), pass `w/h` to
-the set, place characters relative to W and FLOOR(H). Make the long version by changing
+the set, place characters relative to W and FLOOR(H) (or standY on a painted place). Make the long version by changing
 `compositionConfig` width/height (and the duration) in a sibling file that imports the scene.
 **Compilations** (the watch-time engine of every big kids channel): concatenate finished
 long episodes with ffmpeg + a 2 s branded transition; title "… + More Kids Songs | 30 min".

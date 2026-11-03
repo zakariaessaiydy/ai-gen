@@ -2,7 +2,7 @@
 // soft-3D backgrounds (media/library/backgrounds/, listed in its catalog.json) for the places the
 // calendar needs beyond the meadow and the classroom: beach, farm, jungle, rainy street, camp, cave,
 // space, kitchen, library, party… Same contract as a set: <Backdrop place="beach" w h t /> goes first
-// inside KidsStage, characters stand on FLOOR(h), and the place's ambient fx (rain, fireflies, birds…)
+// inside KidsStage, characters stand on standY(place, x, w, h) (the painting's measured floor), and the place's ambient fx (rain, fireflies, birds…)
 // are drawn on top in code, so a still painting never reads as a frozen frame.
 import React, { useEffect, useState } from 'react';
 import { cancelRender, continueRender, delayRender, staticFile } from 'remotion';
@@ -23,6 +23,34 @@ export const placeFile = (place: Place, w: number, h: number, variant = 0): stri
   const [want, other] = w > h ? [p.wide, p.tall] : [p.tall, p.wide];
   const list = want.length ? want : other;
   return list[Math.min(variant, list.length - 1)];
+};
+
+// ── STAND ON THE FLOOR (user request, Nov 2026: "put the characters always on the floor").
+// Every painting has a measured floor (catalog.json "floors": where the CLEAR floor starts in its left /
+// middle / right third, below counters, beds, plants…). standY() = the y a character's feet should go at
+// stage x: the usual FLOOR(h) when that is already on clear floor, lower when the painting has furniture
+// there (a counter coming down to 0.94 in the kitchen's corners), never below the usable bottom.
+// halfW = half the character's footprint in stage px (≈150 * scale for a Kid, 140 * scale for a Critter).
+//   <Kid x={x} y={standY('kitchen', x, W, H, { halfW: 150 * s })} scale={s} … />
+const FLOORS = (catalog as unknown as { floors: Record<string, number[]> }).floors;
+export const standY = (place: Place, x: number, w: number, h: number, o: { variant?: number; halfW?: number; margin?: number } = {}): number => {
+  const file = placeFile(place, w, h, o.variant ?? 0);
+  const fl = FLOORS[file];
+  if (!fl) return FLOOR(h);
+  const [iw, ih] = file.includes('-916') ? [768, 1376] : [1376, 768];
+  const sc = Math.max(w / iw, h / ih); // cover fit, centred (preserveAspectRatio slice)
+  const ox = (w - iw * sc) / 2;
+  const oy = (h - ih * sc) / 2;
+  const toU = (sx: number) => (sx - ox) / (iw * sc);
+  const halfW = o.halfW ?? 0;
+  const u0 = toU(x - halfW);
+  const u1 = toU(x + halfW);
+  const zones: [number, number, number][] = [[-1, 0.3, fl[0]], [0.3, 0.7, fl[1]], [0.7, 2, fl[2]]];
+  const top = Math.max(...zones.filter(([a, b]) => u1 > a && u0 < b).map(([, , v]) => v)); // the whole footprint on clear floor
+  const bottom = fl[3] ?? 0.97;
+  const usual = (FLOOR(h) - oy) / (ih * sc);
+  const v = Math.min(bottom, Math.max(usual, top + (o.margin ?? 0.02)));
+  return Math.round(oy + v * ih * sc);
 };
 
 // the painting must be decoded before the frame is captured (an SVG <image> is not awaited by
