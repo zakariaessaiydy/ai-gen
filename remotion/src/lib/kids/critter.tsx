@@ -185,7 +185,7 @@ const Ears: React.FC<{ s: CritterSpec; layer: 'back' | 'front' }> = ({ s, layer 
       return (
         <g>
           {[-1, 1].map((k) => (
-            <path key={k} d={`M ${k * 84},-140 Q ${k * 122},-170 ${k * 146},-212 Q ${k * 168},-160 ${k * 160},-100 Z`} fill={s.fur} {...st} />
+            <path key={k} d={`M ${k * 70},-150 L ${k * 130},-230 L ${k * 150},-110 Z`} fill={s.dark} {...st} />
           ))}
         </g>
       );
@@ -383,7 +383,7 @@ export const Critter: React.FC<CritterProps> = ({
   const nose = () => {
     switch (s.species) {
       case 'owl':
-        return <path d="M -22,30 Q 0,24 22,30 Q 12,58 0,72 Q -12,58 -22,30 Z" fill="#f2b632" {...kst(5)} />;
+        return <path d="M -20,34 L 20,34 L 0,70 Z" fill="#ffb703" {...kst(6)} />;
       case 'elephant':
         return (
           <g>
@@ -471,7 +471,7 @@ export const Critter: React.FC<CritterProps> = ({
         <ellipse cx={0} cy={0} rx={frog ? 190 : 172} ry={frog ? 140 : 160} fill={s.fur} {...kst(9)} />
       </Vol>
       {/* soft fur shine */}
-      <ellipse cx={-92} cy={-92} rx={40} ry={20} fill="#ffffff" opacity={0.14} transform="rotate(-32 -92 -92)" />
+      <ellipse cx={-92} cy={-92} rx={40} ry={20} fill="#ffffff" opacity={0.3} transform="rotate(-32 -92 -92)" />
       {s.species === 'tiger' && (
         // forehead + cheek stripes (drawn under the muzzle, inside the head)
         <g fill={s.dark}>
@@ -503,8 +503,8 @@ export const Critter: React.FC<CritterProps> = ({
           blink={closed}
           skin={s.fur}
           iris={s.iris ?? '#4a2c1a'}
-          eyeR={frog ? 40 : owl ? 36 : 33}
-          eyeDX={frog ? 70 : 66}
+          eyeR={frog ? 44 : 40}
+          eyeDX={frog ? 70 : 64}
           eyeY={-8}
           mouthY={frog ? 220 : s.species === 'cow' ? 104 : s.species === 'duck' ? 64 : penguin ? 94 : 78}
           mouthW={frog ? 80 : s.species === 'elephant' ? 74 : s.species === 'duck' ? 52 : 40}
@@ -515,21 +515,19 @@ export const Critter: React.FC<CritterProps> = ({
       </g>
       {frog && <path d={`M -110,60 Q 0,${100 + mouth * 60} 110,60`} fill={mouth > 0.1 ? '#7a2d4a' : 'none'} {...kst(8)} />}
       {s.glasses && (
-        <g fill="rgba(255,255,255,0.12)" {...kst(7)}>
-          <circle cx={-66} cy={-8} r={52} />
-          <circle cx={66} cy={-8} r={52} />
-          <path d="M -14,-12 Q 0,-22 14,-12" fill="none" />
+        <g fill="rgba(255,255,255,0.2)" {...kst(8)}>
+          <circle cx={-64} cy={-8} r={54} />
+          <circle cx={64} cy={-8} r={54} />
+          <path d="M -10,-12 Q 0,-20 10,-12" fill="none" />
         </g>
       )}
       {s.hat === 'grad' && (
         <g transform="translate(0,-150)">
           <Vol>
-            <path d="M -66,4 L 66,4 L 58,-50 L -58,-50 Z" fill="#363a4d" {...st} />
-            <path d="M -156,-52 L 0,-104 L 156,-52 L 0,-6 Z" fill="#3e4257" {...st} />
+            <path d="M -60,0 L 60,0 L 54,-50 L -54,-50 Z" fill="#2b2d42" {...st} />
+            <path d="M -150,-50 L 0,-100 L 150,-50 L 0,-10 Z" fill="#2b2d42" {...st} />
           </Vol>
-          <circle cx={0} cy={-56} r={9} fill="#e6b23a" {...kst(4)} />
-          <path d="M 0,-56 Q 70,-60 118,-48 Q 128,-20 124,14" fill="none" stroke="#e6b23a" strokeWidth={8} strokeLinecap="round" />
-          <path d="M 114,10 L 134,10 L 138,48 L 110,48 Z" fill="#e6b23a" {...kst(4)} />
+          <path d="M 100,-55 Q 130,-30 124,20" fill="none" stroke="#ffd166" strokeWidth={8} />
         </g>
       )}
       {s.hat === 'party' && (
@@ -565,7 +563,7 @@ export const Critter: React.FC<CritterProps> = ({
         {/* feet */}
         <Vol>
           {[-1, 1].map((k) => (
-            <ellipse key={k} cx={k * 62} cy={-24 - (walking ? Math.max(0, k * step) * 26 : 0)} rx={58} ry={34} fill={owl ? '#f2b632' : frog ? '#ffb703' : bird || hooves || s.species === 'panda' ? s.dark : s.fur} {...st} />
+            <ellipse key={k} cx={k * 62} cy={-24 - (walking ? Math.max(0, k * step) * 26 : 0)} rx={58} ry={34} fill={owl || frog ? '#ffb703' : bird || hooves || s.species === 'panda' ? s.dark : s.fur} {...st} />
           ))}
         </Vol>
         {tuck < 0.5 && !front(armL) && arm(armL, -1, holdL)}
@@ -633,7 +631,7 @@ export const Critter: React.FC<CritterProps> = ({
             </g>
           </g>
         )}
-        <ellipse cx={-70} cy={-232} rx={30} ry={14} fill="#ffffff" opacity={0.12} transform="rotate(-30 -70 -232)" />
+        <ellipse cx={-70} cy={-232} rx={30} ry={14} fill="#ffffff" opacity={0.25} transform="rotate(-30 -70 -232)" />
         {s.hero && (
           <g>
             {s.hero.belt && <Belt color={s.hero.belt} y={-70} half={118} />}
