@@ -124,15 +124,33 @@ export type FaceProps = {
   nose?: React.ReactNode; // species nose (critters) — default kid button nose
   lashes?: boolean;
   freckles?: boolean;
+  from?: KExpr; // smooth change (smooth.ts): the expression we are leaving…
+  mix?: number; // …and how far into the change we are, 0..1
 };
 
 export const Face: React.FC<FaceProps> = ({
   expr, look = [0, 0], mouth = 0, blink = false, skin, iris = '#6b4226', eyeR = 40, eyeDX = 66, eyeY = 0, mouthY = 70, mouthW = 50,
-  cheeks = true, brows = KINK, nose, lashes, freckles,
+  cheeks = true, brows = KINK, nose, lashes, freckles, from, mix = 1,
 }) => {
-  const c = CFG[expr];
-  const lk: [number, number] = expr === 'think' ? [0.7, -0.8] : look;
+  // a smooth change: numbers (lids, brows, eye size, gaze) glide; the eye shape (open ↔ ^^) swaps
+  // behind a blink and the mouth swaps while it is squeezed small — the classic cartoon in-between
+  const changing = from !== undefined && from !== expr && mix < 1;
+  const m = changing ? mix * mix * (3 - 2 * mix) : 1;
+  const c0 = CFG[changing ? from! : expr];
+  const c1 = CFG[expr];
+  const mixN = (a: number, b: number) => a + (b - a) * m;
+  const disc = changing && mix < 0.5 ? c0 : c1;
+  const c: Cfg = { ...disc, lid: mixN(c0.lid, c1.lid), brow: mixN(c0.brow, c1.brow), browTilt: mixN(c0.browTilt, c1.browTilt), wide: mixN(c0.wide ?? 1, c1.wide ?? 1) };
+  const shut = (k: Cfg) => !!k.happy;
+  const blinkThrough = changing && (shut(c0) !== shut(c1) || !!c0.wink !== !!c1.wink) && mix > 0.25 && mix < 0.75;
+  const gaze = (e: KExpr): [number, number] => (e === 'think' ? [0.7, -0.8] : look);
+  const g0 = gaze(changing ? from! : expr);
+  const g1 = gaze(expr);
+  const lk: [number, number] = [mixN(g0[0], g1[0]), mixN(g0[1], g1[1])];
   const wide = c.wide ?? 1;
+  const mouthExpr = changing && mix < 0.5 ? from! : expr;
+  const mouthS = changing ? 1 - 0.65 * Math.sin(mix * Math.PI) : 1;
+  blink = blink || blinkThrough;
   return (
     <g>
       {cheeks && (
@@ -172,7 +190,9 @@ export const Face: React.FC<FaceProps> = ({
         </g>
       )}
       {nose ?? <path d={`M -8,${eyeY + 34} Q 0,${eyeY + 44} 8,${eyeY + 34}`} fill="none" {...kst(7)} />}
-      <Mouth expr={expr} open={mouth} y={mouthY} w={mouthW} />
+      <g transform={`translate(0,${mouthY}) scale(${0.5 + mouthS * 0.5},${mouthS}) translate(0,${-mouthY})`}>
+        <Mouth expr={mouthExpr} open={mouth} y={mouthY} w={mouthW} />
+      </g>
     </g>
   );
 };

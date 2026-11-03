@@ -7,6 +7,7 @@ import { useCurrentFrame } from 'remotion';
 import { Face, HeadSparkles, KINK, idleMotion, kst, type KExpr } from './face';
 import { Belt, Cape, ChestBadge, Mask, type HeroLook } from './hero';
 import { AO, Ground, K3DDefs, Vol } from './depth';
+import { easeOutBack, isBlend, settled, type Blend } from './smooth';
 
 export type KidSpec = {
   id: string;
@@ -39,11 +40,11 @@ export type KidProps = {
   x: number;
   y: number;
   scale?: number;
-  expr?: KExpr;
+  expr?: KExpr | Blend<KExpr>; // a Blend (exprAt in smooth.ts) = a smooth change
   look?: [number, number];
   mouth?: number;
-  armL?: KArm;
-  armR?: KArm;
+  armL?: KArm | Blend<KArm>; // a Blend (poseAt in smooth.ts) = a smooth move with overshoot
+  armR?: KArm | Blend<KArm>;
   fingersL?: number; // 1..5 raised fingers (counting); 0 = mitten
   fingersR?: number;
   holdL?: React.ReactNode; // drawn at the hand, upright
@@ -88,6 +89,17 @@ const ik = (dx: number, dy: number): [number, number] => {
   const q = solve(phi - alpha);
   const best = p.ey > q.ey ? p : q;
   return [best.a1 / deg, best.a2 / deg];
+};
+
+// a smooth move: the upper arm overshoots and settles, the forearm trails it (follow-through)
+const armAnglesSmooth = (pose: KArm | Blend<KArm>, frame: number): [number, number] => {
+  if (!isBlend<KArm>(pose)) return armAngles(pose, frame);
+  const [from, to, p] = pose.blend;
+  const a = armAngles(from, frame);
+  const b = armAngles(to, frame);
+  const e1 = easeOutBack(p);
+  const e2 = easeOutBack((p - 0.18) / 0.82);
+  return [a[0] + (b[0] - a[0]) * e1, a[1] + (b[1] - a[1]) * e2];
 };
 
 const armAngles = (pose: KArm, frame: number): [number, number] => {
@@ -140,8 +152,8 @@ const Hand: React.FC<{ skin: string; fingers: number; rot: number }> = ({ skin, 
   </g>
 );
 
-const Arm: React.FC<{ spec: KidSpec; pose: KArm; mirror: boolean; frame: number; fingers: number; hold?: React.ReactNode }> = ({ spec, pose, mirror, frame, fingers, hold }) => {
-  const [a1, a2] = armAngles(pose, frame);
+const Arm: React.FC<{ spec: KidSpec; pose: KArm | Blend<KArm>; mirror: boolean; frame: number; fingers: number; hold?: React.ReactNode }> = ({ spec, pose, mirror, frame, fingers, hold }) => {
+  const [a1, a2] = armAnglesSmooth(pose, frame);
   const sleeve = spec.top === 'dress' || spec.top === 'overalls' || spec.top === 'stripes' ? spec.topColor : spec.topColor;
   const showFingers = fingers || (pose === 'count' ? 0 : 0);
   return (
@@ -217,10 +229,14 @@ const HairFront: React.FC<{ spec: KidSpec }> = ({ spec }) => {
 };
 
 export const Kid: React.FC<KidProps> = ({
-  spec, x, y, scale = 1, expr = 'smile', look = [0, 0], mouth = 0, armL = 'down', armR = 'down', fingersL = 0, fingersR = 0,
+  spec, x, y, scale = 1, expr: exprIn = 'smile', look = [0, 0], mouth = 0, armL = 'down', armR = 'down', fingersL = 0, fingersR = 0,
   holdL, holdR, legs = 'stand', walk = 0, hop = 0, tilt = 0, lean = 0, squash = 0, shadow = true, blink = true, idle = true,
 }) => {
   const frame = useCurrentFrame();
+  const expr = settled(exprIn);
+  const exprFrom = isBlend<KExpr>(exprIn) ? exprIn.blend[0] : undefined;
+  const exprMix = isBlend<KExpr>(exprIn) ? exprIn.blend[2] : 1;
+  squash += exprFrom !== undefined && exprFrom !== expr ? -0.1 * Math.sin(exprMix * Math.PI) : 0; // the expression "pop"
   const h = hashStr(spec.id);
   const breath = Math.sin((frame + h) / 13);
   const cyc = (frame + h * 7) % 96;
@@ -259,7 +275,8 @@ export const Kid: React.FC<KidProps> = ({
 
   // arm layer: behind the body (default), in front of the tummy (holding, clapping, hugging) or
   // over the face (hand on chin / reaching up past the head)
-  const layer = (p: KArm): 'back' | 'front' | 'head' => {
+  const layer = (pIn: KArm | Blend<KArm>): 'back' | 'front' | 'head' => {
+    const p = settled(pIn);
     if (p === 'think' || p === 'wave' || p === 'count' || p === 'up' || (typeof p === 'object' && 'to' in p && p.to[1] < -150)) return 'head';
     if (p === 'hold' || p === 'clap' || p === 'hug' || (typeof p === 'object' && 'to' in p && p.to[0] > 20)) return 'front';
     return 'back';
@@ -334,7 +351,7 @@ export const Kid: React.FC<KidProps> = ({
       </Vol>
       {spec.hero?.mask && <Mask color={spec.hero.mask} y={20} dx={68} r={42} />}
       <g transform="translate(0,26)">
-        <Face expr={expr} look={look} mouth={mouth} blink={closed} skin={spec.skin} iris={spec.iris ?? '#6b4226'} eyeR={42} eyeDX={68} eyeY={-6} mouthY={66} mouthW={48} brows={spec.hairColor} lashes={spec.lashes} freckles={spec.freckles} />
+        <Face expr={expr} look={look} mouth={mouth} blink={closed} from={exprFrom} mix={exprMix} skin={spec.skin} iris={spec.iris ?? '#6b4226'} eyeR={42} eyeDX={68} eyeY={-6} mouthY={66} mouthW={48} brows={spec.hairColor} lashes={spec.lashes} freckles={spec.freckles} />
       </g>
       <Vol>{HairFront({ spec })}</Vol>
       {/* hair shine */}

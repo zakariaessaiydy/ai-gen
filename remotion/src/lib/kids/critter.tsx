@@ -6,6 +6,7 @@ import { Belt, Cape, ChestBadge, Mask, type HeroLook } from './hero';
 import { useCurrentFrame } from 'remotion';
 import { Face, HeadSparkles, KINK, idleMotion, kst, type KExpr } from './face';
 import { AO, Ground, K3DDefs, Vol } from './depth';
+import { easeOutBack, isBlend, settled, type Blend } from './smooth';
 
 export type Species = 'bear' | 'bunny' | 'cat' | 'fox' | 'lion' | 'mouse' | 'panda' | 'pig' | 'owl' | 'frog' | 'monkey' | 'dog' | 'elephant' | 'turtle' | 'cow' | 'sheep' | 'chick' | 'duck' | 'penguin' | 'tiger';
 
@@ -30,11 +31,11 @@ export type CritterProps = {
   x: number;
   y: number;
   scale?: number;
-  expr?: KExpr;
+  expr?: KExpr | Blend<KExpr>; // a Blend (exprAt in smooth.ts) = a smooth change
   look?: [number, number];
   mouth?: number;
-  armL?: CArm;
-  armR?: CArm;
+  armL?: CArm | Blend<CArm>; // a Blend (poseAt in smooth.ts) = a smooth move with overshoot
+  armR?: CArm | Blend<CArm>;
   holdL?: React.ReactNode;
   holdR?: React.ReactNode;
   walk?: number; // walk phase (cycles) — waddle
@@ -56,6 +57,13 @@ const hashStr = (s: string) => {
   let h = 0;
   for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 997;
   return h;
+};
+
+const armAngleSmooth = (p: CArm | Blend<CArm>, frame: number): number => {
+  if (!isBlend<CArm>(p)) return armAngle(p, frame);
+  const [from, to, k] = p.blend;
+  const a = armAngle(from, frame);
+  return a + (armAngle(to, frame) - a) * easeOutBack(k);
 };
 
 const armAngle = (p: CArm, frame: number): number => {
@@ -304,10 +312,14 @@ const Tail: React.FC<{ s: CritterSpec; frame: number; happy?: boolean }> = ({ s,
 };
 
 export const Critter: React.FC<CritterProps> = ({
-  spec, x, y, scale = 1, expr = 'smile', look = [0, 0], mouth = 0, armL = 'down', armR = 'down', holdL, holdR,
+  spec, x, y, scale = 1, expr: exprIn = 'smile', look = [0, 0], mouth = 0, armL = 'down', armR = 'down', holdL, holdR,
   walk = 0, walking = false, hop = 0, tilt = 0, squash = 0, facing = 1, shadow = true, blink = true, idle = true, tuck = 0,
 }) => {
   const frame = useCurrentFrame();
+  const expr = settled(exprIn);
+  const exprFrom = isBlend<KExpr>(exprIn) ? exprIn.blend[0] : undefined;
+  const exprMix = isBlend<KExpr>(exprIn) ? exprIn.blend[2] : 1;
+  squash += exprFrom !== undefined && exprFrom !== expr ? -0.1 * Math.sin(exprMix * Math.PI) : 0; // the expression "pop"
   const s = spec;
   const hh = hashStr(s.id);
   const breath = Math.sin((frame + hh) / 12);
@@ -328,8 +340,8 @@ export const Critter: React.FC<CritterProps> = ({
   const bird = s.species === 'chick' || s.species === 'duck' || penguin; // wings + a beak/bill
   const hooves = s.species === 'cow' || s.species === 'sheep';
 
-  const arm = (p: CArm, side: -1 | 1, hold?: React.ReactNode) => {
-    const a = armAngle(p, frame) * -side; // outward-positive, mirrored for the right arm
+  const arm = (p: CArm | Blend<CArm>, side: -1 | 1, hold?: React.ReactNode) => {
+    const a = armAngleSmooth(p, frame) * -side; // outward-positive, mirrored for the right arm
     return (
       <g key={side} transform={`translate(${side * SH[0]},${SH[1]}) rotate(${a})`}>
         {owl || bird ? (
@@ -346,7 +358,10 @@ export const Critter: React.FC<CritterProps> = ({
       </g>
     );
   };
-  const front = (p: CArm) => p === 'hold' || p === 'hug' || p === 'clap';
+  const front = (pIn: CArm | Blend<CArm>) => {
+    const p = settled(pIn);
+    return p === 'hold' || p === 'hug' || p === 'clap';
+  };
 
   const muzzle = () => {
     if (s.species === 'monkey')
@@ -501,6 +516,8 @@ export const Critter: React.FC<CritterProps> = ({
           look={look}
           mouth={frog ? 0 : mouth}
           blink={closed}
+          from={exprFrom}
+          mix={exprMix}
           skin={s.fur}
           iris={s.iris ?? '#4a2c1a'}
           eyeR={frog ? 44 : 40}

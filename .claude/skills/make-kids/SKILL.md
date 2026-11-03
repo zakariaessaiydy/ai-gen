@@ -38,6 +38,9 @@ remotion/src/lib/kids/
                   props DinoEgg(crack, wobble) · EggNest(2×5 TEN-FRAME of egg cups, label) · Footprint ·
                   NumStone(hiFirst = the tens digit in yellow) · set DinoValley(volcano, palms) ·
                   model sheet = KidsDinoSheet
+  smooth.ts       SMOOTH MOTION (Nov 2026 standard, see below): poseAt · exprAt · lookAt · walkPath · settleAt
+                  — give the rigs a TIMELINE instead of a value that flips; arms overshoot + settle,
+                  faces blink/squeeze through a change, walks ease with locked steps. Demo: KidsSmoothDemo
   energy.tsx      the ENERGY LAYER (Day 37+ standard, see below): directorCam/ActionStage, hopAt,
                   Reaction, Dust, MotionLines, StrainLines, ImpactStar, StageWord, FocusLines, StarWipe,
                   SparksIntro, INTRO_S, onBeat
@@ -139,6 +142,28 @@ episode changes and no extra render time (measured: 300 frames 32 s flat → 33 
 - `KIDS_3D = false` in depth.tsx brings back the flat 2D look everywhere (one switch, nothing else).
 - Real 3D (three.js / `@remotion/three`) or AI-video 3D would mean rebuilding every rig + all 800
   calendar episodes — this kit-level shading was chosen because it keeps the whole pipeline.
+
+## SMOOTH MOTION — timelines, not flips (user request, Nov 2026: "move smoothly like the other cartoons")
+A frame is rendered on its own, so a rig can't remember the pose it had a moment ago: `armR={t > 2 ? 'wave' : 'down'}`
+SNAPS in one frame. **Every new episode passes TIMELINES through `lib/kids/smooth.ts`** — the rigs do the rest:
+```tsx
+import { exprAt, lookAt, poseAt, settleAt, walkPath } from '../../lib/kids/smooth';
+import { hopAt } from '../../lib/kids/energy';
+const w = walkPath(t, [[6.8, 8.0, 290, 470], [8.6, 9.8, 470, 290]], 120 * scale); // [t0, t1, x0, x1]
+const h = hopAt(t, [3.6]);
+<Kid spec={LEO} x={w.x} y={f} scale={scale}
+  armR={poseAt(t, [[0, 'down'], [1.0, 'wave'], [2.8, 'down']])}        // overshoot + settle, forearm trails
+  expr={exprAt(t, [[0, 'smile'], [1.0, 'happy'], [2.8, 'smile']])}     // blink + mouth squeeze + a little pop
+  look={lookAt(t, [[0, [0, 0]], [10, [1, 0]]])}                       // eyes glide
+  legs={w.walking ? 'walk' : 'stand'} walk={w.walk} lean={w.lean}     // ease in/out, no sliding feet, lean in
+  hop={h.hop} squash={h.squash} tilt={settleAt(t, 4.02, 5)} />        // crouch/stretch/squash + head wobble
+```
+- Same API on `<Critter>` (`armL/armR` CArm keys, `expr`). Plain values still work — use them for poses that
+  never change. Key times come from the VO (`S('key')`, word times), exactly like before.
+- A change takes `SMOOTH.arm` 0.34 s / `SMOOTH.expr` 0.24 s / `SMOOTH.look` 0.25 s (3rd argument overrides).
+  Don't put two keys closer than that, or the first move never lands.
+- Episodes made before Nov 2026 still flip — convert one by replacing its `cond ? 'a' : 'b'` props with keys.
+- Side-by-side reference: `KidsSmoothDemo` (lab, kids-shorts/tiny-sparks/lab/smooth-demo).
 
 ## ALIVE BY DEFAULT — characters + sets animate themselves (user request after Day 25: "more attractive")
 The kit now does the "cute" work automatically — don't fight it, build on it:
