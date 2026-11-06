@@ -25,7 +25,8 @@ WHAT IT MAKES (from a song.json):
 song.json:
   {
     "title": "Count With Bobo",
-    "bpm": 100, "beatsPerBar": 4, "introBars": 2, "outroBars": 2, "transpose": 0,
+    "bpm": 100, "beatsPerBar": 4, "introBars": 0, "outroBars": 2, "transpose": 0,
+    "leadIn": 0.25,                                        # seconds of silence before bar 1 (optional)
     "instruments": {"lead": "xylophone|musicbox|whistle|none", "chords": "ukulele|piano|none",
                     "bass": true, "drums": "soft|none", "leadWithVocal": true},
     "singer": "mila",
@@ -244,12 +245,12 @@ def build(song):
     tr = int(song.get("transpose", 0))
     secs = song["sections"]
     form = song.get("form") or list(secs.keys())
-    intro = int(song.get("introBars", 2))
+    intro = int(song.get("introBars", 2))  # kids channel: 0 — open on the chorus (make-kids THE FIRST 10 SECONDS)
     outro = int(song.get("outroBars", 2))
 
     chords = []  # (start_s, dur_s, symbol)
     notes = []  # (start_s, dur_s, midi, syllable or None, line_id, word_id, word_start)
-    t = 0.0
+    t = float(song.get("leadIn", 0.0))
     first = parse_chords(secs[form[0]]["chords"])
     for b in range(intro):
         bar = first[b % len(first)]

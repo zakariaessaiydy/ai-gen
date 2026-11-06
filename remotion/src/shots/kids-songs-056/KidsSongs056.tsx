@@ -17,16 +17,16 @@ import { Backdrop, type PlaceFx } from '../../lib/kids/places';
 import { Confetti, FONT_TOON, PopText, SingAlong, ThinkTimer, lipSync, useT } from '../../lib/kids/kit';
 import { KINK, kst } from '../../lib/kids/face';
 import { Vol } from '../../lib/kids/depth';
-import { ActionStage, INTRO_S, SparksIntro, StarWipe, directorCam, type Shot } from '../../lib/kids/energy';
+import { ActionStage, StarWipe, directorCam, type Shot } from '../../lib/kids/energy';
 import { EASE_INOUT, EASE_OUT, prog, timeWords, type VoLine } from '../../lib/shorts';
 import { SONG as SONG0, SONG_BEAT, SONG_DURATION } from './song.gen';
 
-export const compositionConfig = { id: 'KidsSongs056', durationInSeconds: 312.1, fps: 30, width: 1920, height: 1080 };
+export const compositionConfig = { id: 'KidsSongs056', durationInSeconds: 304.36, fps: 30, width: 1920, height: 1080 };
 
 const W = 1920;
 const H = 1080;
 const f = FLOOR(H);
-const OFF = INTRO_S;
+const OFF = 0; // songs open on the sung hook: no ident (make-kids THE FIRST 10 SECONDS)
 const shift = (l: VoLine, d: number): VoLine => ({ ...l, start: l.start + d, end: l.end + d, words: (l.words ?? []).map((w) => ({ ...w, start: w.start + d, end: w.end + d })) });
 const SONG: VoLine[] = SONG0.map((l) => shift(l, OFF));
 const S = (i: number) => SONG[i].start;
@@ -40,7 +40,7 @@ const CHORUS = [0, 12, 24, 36, 49];
 const VERSES = [4, 8, 16, 20]; // winter, spring, summer, autumn (4 lines each)
 const QUIZ0 = 28; // question k: 28 + 2k, answer 29 + 2k
 const ACT0 = 40; // shiver · hop · swim · float
-const KAR0 = S(ACT0) + 8 * BAR;
+const KAR0 = Math.max(E(ACT0 + 3) + 0.5, S(ACT0) + 8 * BAR); // karaoke chorus after the 4 actions, never over them
 const KARAOKE: VoLine[] = SONG.slice(0, 4).map((l) => shift(l, KAR0 - S(0)));
 const SLOW0 = 44; // 45..48 = Winter, Spring, Summer, Autumn
 const LAST = SONG.length - 1;
@@ -338,7 +338,6 @@ export default function KidsSongs056() {
       {Array.from({ length: 4 }, (_, k) => <Confetti key={k} t={t} at={S(QUIZ0 + k * 2 + 1) + 0.2} y={400} dur={1.1} />)}
       {end && <PopText t={t} at={E(LAST) + 0.2} until={END + 1.5} text="YOU KNOW THE 4 SEASONS!" y={540} size={96} color="#ffca3a" />}
       <SingAlong t={t} lines={karaoke ? KARAOKE : SONG} ball={karaoke ? '#ff6fa5' : '#ff595e'} />
-      <SparksIntro t={t} at={0} cast={{ kids: [MILA_HERO, LEO_HERO], buddy: BOBO_HERO }} />
       <StarWipe t={t} at={END + 1.4} dur={0.5} hold={5} color="#3b2a4a" x={W / 2} y={H * 0.45} />
     </>
   );

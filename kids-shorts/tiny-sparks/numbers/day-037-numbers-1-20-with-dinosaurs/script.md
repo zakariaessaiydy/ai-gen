@@ -1,4 +1,4 @@
-# Day 37 — Numbers 1–20 with Dinosaurs (LONG 16:9, 6 min 29 s)
+# Day 37 — Numbers 1–20 with Dinosaurs (LONG 16:9, 5 min 59 s)
 
 Niche: 🔢 Numbers & Math #6 · ages 6–8 (fine for 4+) · goal: count 1–20, the teen numbers as TEN + ones, count by
 twos, read 11–20, find the missing number · cast: narrator (af_heart −8 %), Spark Girl (Mila, hero outfit, counts on
@@ -8,8 +8,12 @@ an SFX on every action, the theme bed) — PACING gaps kept slow (user rule). **
 T-rex, triceratops, stegosaurus, long-neck, baby-in-egg + DinoEgg, EggNest ten-frame, Footprint, NumStone, the
 Dino Valley set; model sheet = KidsDinoSheet).
 
-Beats: ident (3.7 s) → STOMP… stomp… STOMP! (giant footprints, the bush shakes) "Who is coming? Can you guess?"
-(think timer) → Rexy jumps out: "Roar!" → his dino friends are hiding: count them → 1–10, each dino hops in (a
+**RE-CUT Nov 2026 (make-kids THE FIRST 10 SECONDS):** YouTube analytics showed 49 % of viewers gone by 11 s and
+74 % by 31 s, all before the first dino (43.8 s). Removed: the ident, "Who is coming?" + think timer, the three
+"Hi, I'm…" lines and the premise speech. Now: stomps at 0.3 s → Rexy jumps out at 2.9 s with ONE line "Roar! I'm
+Rexy! Help me count my dino friends!" → "Count with me!" → dino 1 on screen at 10.5 s, counted at 14 s. Everything
+after is unchanged, 29.85 s earlier.
+Beats: STOMP… stomp… STOMP! (giant footprints, the bush shakes) → Rexy jumps out: "Roar!" → count his friends → 1–10, each dino hops in (a
 gag every few: ACHOO!, YAAAWN, one runs in, the 10th hatches from an egg) — every number three ways: the dino +
 its rainbow badge, the big numeral + word, Spark Girl's fingers → "5 in the back + 5 in the front = 10" (each row
 hops) + "show me ten fingers, your turn" → Mama's nests (a 2×5 ten-frame): one FULL nest = one group of ten, then
@@ -35,16 +39,15 @@ Help Rexy find his dino friends and count them all the way to TWENTY!
 🪨 Find the number on the rocks, and spot the missing number
 🦶 Count to 20 together, then it's YOUR turn!
 
-0:00 Stomp, stomp! Who is coming?
-0:38 Count 10 dinosaurs
-1:54 5 + 5 = 10
-2:09 Mama's nests: 11 to 20
-3:36 The eggs hatch! Count by 2s
-4:06 Find the number on the rocks
-4:53 Which number is missing?
-5:25 Count to 20 together
-6:02 Your turn!
-6:20 Bye-bye!
+0:00 Stomp, stomp! Count 10 dinosaurs
+1:24 5 + 5 = 10
+1:39 Mama's nests: 11 to 20
+3:06 The eggs hatch! Count by 2s
+3:36 Find the number on the rocks
+4:23 Which number is missing?
+4:55 Count to 20 together
+5:32 Your turn!
+5:50 Bye-bye!
 
 Tiny Sparks makes short, gentle cartoons that help little ones learn numbers, words, kindness,
 science and songs — with Spark Girl, Captain Leo, Super Bobo and Professor Hoot. New video every day!

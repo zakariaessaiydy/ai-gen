@@ -13,7 +13,7 @@ Read `.claude/skills/make-kids/SKILL.md` first (especially **Music** — what is
   paws!").
 - **Simple melody**: stays within ~6 notes (C4–A4), mostly stepwise, repeats, ends on the home
   note (C). Range a child can sing. 4/4, **90–120 bpm** (lullabies 60–75).
-- **Structure**: intro (2 bars) → verse → chorus → verse 2 → chorus → (bridge with an action:
+- **Structure**: `"introBars": 0` and open on the CHORUS (the hook, at ≤ 0.5 s) → verse → chorus → verse 2 → chorus → (bridge with an action:
   "clap clap!") → chorus → outro. 45–75 s for a Short; a 16:9 long video is MIN 5 min — the song (2–3 min) + a 2nd round / karaoke "now you sing!" repeat / a slower learning verse until ≥ 5:00.
 - **Actions** in the lyrics (clap, jump, spin, touch your nose) — kids dance along; the cast
   does the action on the beat.
@@ -22,7 +22,46 @@ Read `.claude/skills/make-kids/SKILL.md` first (especially **Music** — what is
 - Never borrow a modern song's melody or lyrics. Public-domain melodies are fine with
   traditional or NEW lyrics (Twinkle Twinkle → our "Twinkle Twinkle Little Planet").
 
-## 2. Make it (free, local)
+## 2a. Sing it for real — ACE-Step on Kaggle (STANDARD from Nov 2026, free)
+
+The user rejected the chanted Kokoro vocal (it sounds robotic) and approved ACE-Step 1.5 takes
+("I love the voice, all of them"). Every published song now uses real AI vocals. The user's PC has no NVIDIA
+GPU, so the singing runs on a free Kaggle T4:
+```
+python tools/song_to_ace.py [<song dir> ...]       # → tools/notebooks/ace_step_songs.ipynb (all jobs inside)
+#   Kaggle: Import Notebook · GPU T4 x2 · Internet ON · Run All · download ace_songs.zip
+#   unzip ace_songs.zip at the REPO ROOT  → kids-shorts/tiny-sparks/songs/<song>/ace/<style>-seed<N>.wav
+python tools/align_song.py kids-shorts/tiny-sparks/songs/<song>   # best take → song.mp3 + song.gen.ts
+```
+- **One video per take (user rule, Nov 2026)** — 2–3 takes → 2–3 videos. Long takes do NOT follow song.json's form
+  (they skip verses, repeat choruses, add "ooh" bars), so use `python tools/align_sung.py <song dir>`: it maps the
+  sections in the order they were SUNG and writes `song.A/B/C.gen.ts` (SONG + SONG_FORM) + `song-A/B/C.mp3`. Build the
+  composition on `lib/kids/song-show.tsx` (shared routine: quiz, actions, karaoke in the take's longest gap, slow pass,
+  dance breaks) as `SongNNN.tsx` + wrappers `KidsSongsNNN{A,B,C}.tsx` (see kids-songs-063…084). Render `--scale=1`,
+  mux each with its `song-<L>.mp3` → `output/day-NNN-take-<L>.mp4`. Visuals must key on words/slots that exist
+  (`show.at(seg, k)` falls back when the take skipped a line).
+- Still write `song.json` exactly as below (form, sections, lyrics, bpm): it is the lyric source for ACE-Step
+  AND the line list the composition indexes. Run `gen_song.py` once too: it gives the beatmap/length and a
+  draft track for timing the animation while the Kaggle run happens.
+- **Style rotation, no picking:** `songs/ace-styles.json` holds the bank (nursery, kidspop = user-approved;
+  campfire, sunshine). Each new song gets the next style plus its seeds, written into its song.json `"ace"`. The user
+  wants the melody/style to VARY between songs. Two takes per song; align_song keeps the one whose
+  lyrics matched best (its score is in `ace/align.json`). Under 60 % = listen before using it.
+- align_song writes the same `SONG / SONG_BEAT / SONG_DURATION` module gen_song wrote, so the composition
+  doesn't change. Set `durationInSeconds` to the new `SONG_DURATION`, and re-check any cue computed in bars
+  (e.g. a karaoke window `S(i) - 8 * BAR`): the AI's instrumental breaks aren't exactly N bars.
+- What align_song already handles: ACE-Step plays a 4–10 s instrumental intro, so the tool CUTS it (the audio starts 0.25 s
+  before the first sung word; `--no-trim` keeps it). The AI repeats or reorders lines, so the matching is ordered
+  (a chorus can't jump to another chorus). It also handles UK spellings ('colour'), digits ('7' = seven), Whisper's
+  stray words in the intro, and caches transcripts (`ace/*.words.json`) so a re-run is instant.
+- Karaoke: the AI does NOT leave the instrumental bars song.json asked for. Compute the window from the take
+  (`KAR0 = max(E(prev) + 0.5, …)`) and guard it with `KAR_ON` (the gap must fit the whole chorus, else no karaoke);
+  anything else that reads KARAOKE (e.g. the 049 wheel keys) must respect KAR_ON too.
+- Weak take (a card shows before its line is sung, score < 75 %): re-run with `--model medium.en`.
+- The T4 gotchas are already handled in the notebook: float16 overflows → float32 patch; XL needs ~16 GB in
+  float32, so use the 2B `acestep-v15-turbo` (or `-sft`); cuDNN off; models in /kaggle/tmp.
+
+## 2. Make it (free, local) — the draft track + beatmap
 
 ```
 kids-shorts/tiny-sparks/songs/<slug>/song.json      # bpm, chords, melody, lyrics, instruments, vocal
@@ -41,9 +80,9 @@ python tools/gen_song.py kids-shorts/tiny-sparks/songs/<slug>/song.json --vocal 
 - Outputs: `song.mp3` (the track), `bed.mp3` (background for other videos), `beatmap.json`
   (chords, notes, syllable times), `song.gen.ts` (lyrics with word times).
 - Reuse: a channel song's `bed.mp3` can be the bed for a calm episode of its theme (`build_short.py
-  --music <bed.mp3>`). The channel ident is now `tiny-sparks-jingle` + `<SparksIntro>` (make-kids ENERGY
-  LAYER, standard from Day 37): long song videos open with it, so offset every song time by `INTRO_S`
-  (3.7 s) and delay the song audio by 3.7 s when muxing; Shorts start straight on the song.
+  --music <bed.mp3>`). Song videos (long AND Shorts) have NO ident and NO instrumental intro: the
+  chorus starts at ≤ 0.5 s (make-kids THE FIRST 10 SECONDS: the Colors Song lost 48 % of viewers at 9 s,
+  right before its first sung word).
 
 ## 3. Animate the sing-along
 

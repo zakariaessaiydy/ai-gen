@@ -205,13 +205,35 @@ Every episode from Day 37 on uses it. **Pacing stays SLOW**: the PACING rules be
 Reference: `remotion/src/shots/kids-lab-energy/KidsEnergyDemo.tsx` (the before/after demo).
 
 **Per format**
-- **Long 16:9:** open with `<SparksIntro t={t} at={0} cast={{ kids: [MILA_HERO, LEO_HERO], buddy: BOBO_HERO }} />`
-  (rendered AFTER the stage, before KidsCaptions) + the `tiny-sparks-jingle` SFX at 0 (`gain_db -5`). It
-  replaces the old opening TitleCard: the first VO line starts at ≥ `INTRO_S + 0.2` (3.9 s) and the episode
-  title is a PopText over the first shot (≤ 2 s). The theme bed enters at 3.7 s.
+- **Long 16:9:** COLD OPEN, exactly like a Short: the first VO line at ≤ 0.3 s, the bed from 0, the episode
+  title as a PopText over the action (≤ 2 s). **No `SparksIntro` at 0** (see THE FIRST 10 SECONDS below).
+  The ident is optional and may only play at a natural scene break AFTER the first payoff (≥ 15 s in), never
+  in the first 15 s. When used: `<SparksIntro t={t} at={X} …/>` + `tiny-sparks-jingle` SFX at X (`gain_db -5`).
 - **Shorts 9:16:** NO ident (start on the action in frame 0); everything else applies; bed from 0.
-- **Songs:** the song IS the music (no theme bed under it). Long song videos still open with the ident: offset
-  every song time by `INTRO_S` and delay the song audio by 3.7 s when muxing.
+- **Songs:** the song IS the music (no theme bed under it). No ident, no instrumental intro: `introBars: 0`,
+  the first sung word at ≤ 0.5 s, and open on the CHORUS (the hook) — never a verse.
+
+## THE FIRST 10 SECONDS — hard rule from YouTube analytics (Nov 2026)
+Data, 28 days to 1 Nov 2026: Shorts = 73.7 % viewed; long videos = **6.2 % viewed**. The long-video retention
+curves showed most viewers gone in the first seconds, ALWAYS just before the payoff:
+- *Numbers 1–20 with Dinosaurs*: 3.7 s ident → stomps → 18 s of "Hi, I'm Rexy / I'm Spark Girl / I'm Super
+  Bobo" + the premise → first dino counted at **43.8 s**. Retention 51 % at 11 s, 26 % at 31 s.
+- *The Colors Song*: title card + 2 instrumental bars → first sung word at ~5 s (8.8 s with an ident).
+  Retention **51.8 % at 9 s**, 29.7 % at 30 s.
+So, for EVERY long video (and Shorts already do this):
+1. **The payoff starts in the first 3 s**: the first thing counted / named / sung / asked. Frame 0 already
+   has motion and a question or action, never an empty set, a title card or a logo.
+2. **No self-introductions.** The cast is locked: kids learn who Mila, Leo, Bobo and Hoot are by watching
+   them. A guest gets ONE line with its name inside the premise ("Roar! I'm Rexy! Help me count my dino
+   friends!"). Never a round of "Hi, I'm…".
+3. **The premise is ONE line, ≤ 4 s**, then straight into item 1. The first item lands by ~10 s.
+4. **Songs open on the chorus at ≤ 0.5 s** (`introBars: 0`).
+5. **Something changes every 4–5 s** (a new item, a cut, a reaction, a pop): no static stretch longer than
+   that, even inside the slow PACING gaps (the picture stays, the camera pushes, a character reacts).
+6. **Chapter changes flow straight on**: no "Now let's play a new game! Here's how it works…". One line
+   ("Now, the nests!") and the next game is already on screen.
+QA: check the first 12 s of every long video on the contact sheet (`frames.mjs <Id> 0,1,2,3,5,8,10,12`).
+Don't render a long video whose first item lands after ~10 s.
 - **Calm beats** (bedtime, lullabies, a sad or tender moment): smooth moves + slow pushes only, no whips or
   shakes. Big action (surprise, a fall, a hop, a reveal) gets the full treatment.
 
@@ -308,7 +330,7 @@ Kids need silent time to hear, look and repeat. Every episode's packing MUST use
 | | Short (9:16, 1080x1920) | Long (16:9, 1920x1080) |
 |---|---|---|
 | length | 30–60 s (Shorts may run to ~90 s with the PACING gaps) | **MIN 5:00** (user rule) — episode 5–8 min · compilation 20–60 min |
-| opening | ON the action in frame 0 (a question, a surprise, a character waving) — no ident, no title card | the `SparksIntro` ident on the jingle (3.7 s), then the episode title as a PopText over the first shot |
+| opening | ON the action in frame 0 (a question, a surprise, a character waving) — no ident, no title card | the SAME cold open: the payoff in the first 3 s, first item by ~10 s, the title as a PopText over the action (THE FIRST 10 SECONDS) — no ident at 0 |
 | ending | a reward + a soft loop back to frame 0 | goodbye song/wave + "see you next time!" (no CTA beg) |
 | captions | KidsCaptions at ~71% height | KidsCaptions at ~88% height |
 | characters | scale ~0.9–1.0, feet on FLOOR(1920) — standY(…) on a painted place | scale ~0.55–0.65, feet on FLOOR(1080) — standY(…) on a painted place |
@@ -332,7 +354,7 @@ long episodes with ffmpeg + a 2 s branded transition; title "… + More Kids Son
    (`directorCam` — ENERGY LAYER above), scenes as `{t >= a && t < b && …}`. Root: `ActionStage`
    → set → characters → props, FX, reactions and StageWords in stage space; then screen-space
    overlays (PopText, ThinkTimer, FocusLines, Confetti, SingAlong), `KidsCaptions`, and on long
-   videos `SparksIntro` + the ending `StarWipe` last.
+   videos the ending `StarWipe` last (plus `SparksIntro` only if it's used at a later break).
 4. `cd remotion && node scripts/gen-registry.mjs`, `python tools/check_short.py <ep>`.
 5. QA (below), then `python tools/build_short.py <ep>` (voice → render → mux → sfx → music).
    The bed comes from beats.json `"music"` (standard: `tiny-sparks-bounce`, ENERGY LAYER above);

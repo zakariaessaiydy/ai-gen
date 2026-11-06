@@ -5,279 +5,250 @@
   "render": {
     "preview": "remotion/out/KidsNumbers037-voiced.mp4",
     "out": "kids-shorts/tiny-sparks/numbers/day-037-numbers-1-20-with-dinosaurs/output/day-037-sfx.mp4",
-    "end_s": 389.3,
+    "end_s": 359.45,
     "duck": true
   },
   "events": [
     {
-      "at_s": 0.0,
-      "sfx_id": "tiny-sparks-jingle",
-      "gain_db": -5,
-      "shot": "KidsNumbers037",
-      "cue": "channel ident"
-    },
-    {
-      "at_s": 3.92,
+      "at_s": 0.32,
       "sfx_id": "dino-stomp",
       "gain_db": -6,
       "shot": "KidsNumbers037",
       "cue": "hook stomp 1"
     },
     {
-      "at_s": 4.47,
+      "at_s": 0.87,
       "sfx_id": "dino-stomp",
       "gain_db": -3,
       "shot": "KidsNumbers037",
       "cue": "hook stomp 2"
     },
     {
-      "at_s": 5.02,
+      "at_s": 1.42,
       "sfx_id": "dino-stomp",
       "gain_db": 0,
       "shot": "KidsNumbers037",
       "cue": "hook stomp 3"
     },
     {
-      "at_s": 9.2,
-      "sfx_id": "think-tick",
-      "gain_db": -6,
-      "shot": "KidsNumbers037",
-      "cue": "who is coming? (think)",
-      "dur_s": 2.27
-    },
-    {
-      "at_s": 11.52,
+      "at_s": 2.15,
       "sfx_id": "slide-whistle-up",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "Rexy jumps out of the bush"
     },
     {
-      "at_s": 12.25,
+      "at_s": 2.88,
       "sfx_id": "dino-stomp",
       "gain_db": -2,
       "shot": "KidsNumbers037",
       "cue": "Rexy lands (ROAR)"
     },
     {
-      "at_s": 16.29,
-      "sfx_id": "whip-whoosh",
-      "gain_db": -9,
-      "shot": "KidsNumbers037",
-      "cue": "whip to the kids"
-    },
-    {
-      "at_s": 23.58,
-      "sfx_id": "whip-whoosh",
-      "gain_db": -9,
-      "shot": "KidsNumbers037",
-      "cue": "whip to Rexy"
-    },
-    {
-      "at_s": 32.63,
+      "at_s": 4.42,
       "sfx_id": "cartoon-pop",
       "gain_db": -10,
       "shot": "KidsNumbers037",
       "cue": "COUNT TO 20!"
     },
     {
-      "at_s": 40.35,
+      "at_s": 10.5,
       "sfx_id": "cartoon-boing",
       "gain_db": -9,
       "shot": "KidsNumbers037",
       "cue": "dino 1 hops in"
     },
     {
-      "at_s": 43.73,
+      "at_s": 13.88,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "count 1: badge"
     },
     {
-      "at_s": 47.508,
+      "at_s": 17.658,
       "sfx_id": "cartoon-boing",
       "gain_db": -9,
       "shot": "KidsNumbers037",
       "cue": "dino 2 hops in"
     },
     {
-      "at_s": 51.68,
+      "at_s": 21.83,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "count 2: badge"
     },
     {
-      "at_s": 55.213,
+      "at_s": 25.363,
       "sfx_id": "cartoon-boing",
       "gain_db": -9,
       "shot": "KidsNumbers037",
       "cue": "dino 3 hops in"
     },
     {
-      "at_s": 59.66,
+      "at_s": 29.81,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "count 3: badge"
     },
     {
-      "at_s": 63.1,
+      "at_s": 33.25,
       "sfx_id": "cartoon-boing",
       "gain_db": -9,
       "shot": "KidsNumbers037",
       "cue": "dino 4 hops in"
     },
     {
-      "at_s": 66.48,
+      "at_s": 36.63,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "count 4: badge"
     },
     {
-      "at_s": 69.93,
+      "at_s": 40.08,
       "sfx_id": "cartoon-boing",
       "gain_db": -9,
       "shot": "KidsNumbers037",
       "cue": "dino 5 hops in"
     },
     {
-      "at_s": 73.84,
+      "at_s": 43.99,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "count 5: badge"
     },
     {
-      "at_s": 78.88,
+      "at_s": 49.03,
       "sfx_id": "cartoon-boing",
       "gain_db": -9,
       "shot": "KidsNumbers037",
       "cue": "dino 6 hops in"
     },
     {
-      "at_s": 80.856,
+      "at_s": 51.006,
       "sfx_id": "whip-whoosh",
       "gain_db": -7,
       "shot": "KidsNumbers037",
       "cue": "ACHOO"
     },
     {
-      "at_s": 82.71,
+      "at_s": 52.86,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "count 6: badge"
     },
     {
-      "at_s": 86.06,
+      "at_s": 56.21,
       "sfx_id": "cartoon-boing",
       "gain_db": -9,
       "shot": "KidsNumbers037",
       "cue": "dino 7 hops in"
     },
     {
-      "at_s": 89.52,
+      "at_s": 59.67,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "count 7: badge"
     },
     {
-      "at_s": 92.91,
+      "at_s": 63.06,
       "sfx_id": "cartoon-boing",
       "gain_db": -9,
       "shot": "KidsNumbers037",
       "cue": "dino 8 hops in"
     },
     {
-      "at_s": 94.652,
+      "at_s": 64.802,
       "sfx_id": "slide-whistle-down",
       "gain_db": -11,
       "shot": "KidsNumbers037",
       "cue": "YAWN"
     },
     {
-      "at_s": 96.43,
+      "at_s": 66.58,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "count 8: badge"
     },
     {
-      "at_s": 99.76,
+      "at_s": 69.91,
       "sfx_id": "whip-whoosh",
       "gain_db": -6,
       "shot": "KidsNumbers037",
       "cue": "9: the sky-blue triceratops runs in"
     },
     {
-      "at_s": 103.5,
+      "at_s": 73.65,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "count 9: badge"
     },
     {
-      "at_s": 107.328,
+      "at_s": 77.478,
       "sfx_id": "cartoon-pop",
       "gain_db": -10,
       "shot": "KidsNumbers037",
       "cue": "the egg appears"
     },
     {
-      "at_s": 107.694,
+      "at_s": 77.844,
       "sfx_id": "egg-crack",
       "gain_db": -6,
       "shot": "KidsNumbers037",
       "cue": "egg cracks"
     },
     {
-      "at_s": 108.294,
+      "at_s": 78.444,
       "sfx_id": "egg-crack",
       "gain_db": -3,
       "shot": "KidsNumbers037",
       "cue": "egg hatches: baby dino"
     },
     {
-      "at_s": 111.02,
+      "at_s": 81.17,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "count 10: badge"
     },
     {
-      "at_s": 111.96,
+      "at_s": 82.11,
       "sfx_id": "kids-yay",
       "gain_db": -4,
       "shot": "KidsNumbers037",
       "cue": "TEN dinosaurs!"
     },
     {
-      "at_s": 115.132,
+      "at_s": 85.282,
       "sfx_id": "cartoon-boing",
       "gain_db": -9,
       "shot": "KidsNumbers037",
       "cue": "back row hops"
     },
     {
-      "at_s": 116.303,
+      "at_s": 86.453,
       "sfx_id": "cartoon-boing",
       "gain_db": -9,
       "shot": "KidsNumbers037",
       "cue": "front row hops"
     },
     {
-      "at_s": 118.35,
+      "at_s": 88.5,
       "sfx_id": "ding-correct",
       "gain_db": -7,
       "shot": "KidsNumbers037",
       "cue": "5 + 5 = 10"
     },
     {
-      "at_s": 123.2,
+      "at_s": 93.35,
       "sfx_id": "think-tick",
       "gain_db": -6,
       "shot": "KidsNumbers037",
@@ -285,294 +256,294 @@
       "dur_s": 2.13
     },
     {
-      "at_s": 127.401,
+      "at_s": 97.551,
       "sfx_id": "dino-stomp",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "stomp stomp"
     },
     {
-      "at_s": 127.831,
+      "at_s": 97.981,
       "sfx_id": "dino-stomp",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "stomp stomp"
     },
     {
-      "at_s": 128.75,
+      "at_s": 98.9,
       "sfx_id": "whip-whoosh",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "star wipe"
     },
     {
-      "at_s": 132.29,
+      "at_s": 102.44,
       "sfx_id": "sparkle-soft",
       "gain_db": -10,
       "shot": "KidsNumbers037",
       "cue": "one nest = TEN"
     },
     {
-      "at_s": 141.397,
+      "at_s": 111.547,
       "sfx_id": "slide-whistle-down",
       "gain_db": -15,
       "shot": "KidsNumbers037",
       "cue": "egg 11 falls"
     },
     {
-      "at_s": 141.897,
+      "at_s": 112.047,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "egg 11 lands"
     },
     {
-      "at_s": 148.001,
+      "at_s": 118.151,
       "sfx_id": "slide-whistle-down",
       "gain_db": -15,
       "shot": "KidsNumbers037",
       "cue": "egg 12 falls"
     },
     {
-      "at_s": 148.501,
+      "at_s": 118.651,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "egg 12 lands"
     },
     {
-      "at_s": 154.329,
+      "at_s": 124.479,
       "sfx_id": "slide-whistle-down",
       "gain_db": -15,
       "shot": "KidsNumbers037",
       "cue": "egg 13 falls"
     },
     {
-      "at_s": 154.829,
+      "at_s": 124.979,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "egg 13 lands"
     },
     {
-      "at_s": 160.97,
+      "at_s": 131.12,
       "sfx_id": "slide-whistle-down",
       "gain_db": -15,
       "shot": "KidsNumbers037",
       "cue": "egg 14 falls"
     },
     {
-      "at_s": 161.47,
+      "at_s": 131.62,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "egg 14 lands"
     },
     {
-      "at_s": 167.692,
+      "at_s": 137.842,
       "sfx_id": "slide-whistle-down",
       "gain_db": -15,
       "shot": "KidsNumbers037",
       "cue": "egg 15 falls"
     },
     {
-      "at_s": 168.192,
+      "at_s": 138.342,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "egg 15 lands"
     },
     {
-      "at_s": 174.352,
+      "at_s": 144.502,
       "sfx_id": "slide-whistle-down",
       "gain_db": -15,
       "shot": "KidsNumbers037",
       "cue": "egg 16 falls"
     },
     {
-      "at_s": 174.852,
+      "at_s": 145.002,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "egg 16 lands"
     },
     {
-      "at_s": 181.135,
+      "at_s": 151.285,
       "sfx_id": "slide-whistle-down",
       "gain_db": -15,
       "shot": "KidsNumbers037",
       "cue": "egg 17 falls"
     },
     {
-      "at_s": 181.635,
+      "at_s": 151.785,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "egg 17 lands"
     },
     {
-      "at_s": 188.261,
+      "at_s": 158.411,
       "sfx_id": "slide-whistle-down",
       "gain_db": -15,
       "shot": "KidsNumbers037",
       "cue": "egg 18 falls"
     },
     {
-      "at_s": 188.761,
+      "at_s": 158.911,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "egg 18 lands"
     },
     {
-      "at_s": 194.883,
+      "at_s": 165.033,
       "sfx_id": "slide-whistle-down",
       "gain_db": -15,
       "shot": "KidsNumbers037",
       "cue": "egg 19 falls"
     },
     {
-      "at_s": 195.383,
+      "at_s": 165.533,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "egg 19 lands"
     },
     {
-      "at_s": 201.774,
+      "at_s": 171.924,
       "sfx_id": "slide-whistle-down",
       "gain_db": -15,
       "shot": "KidsNumbers037",
       "cue": "egg 20 falls"
     },
     {
-      "at_s": 202.274,
+      "at_s": 172.424,
       "sfx_id": "cartoon-pop",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "egg 20 lands"
     },
     {
-      "at_s": 209.993,
+      "at_s": 180.143,
       "sfx_id": "ding-correct",
       "gain_db": -6,
       "shot": "KidsNumbers037",
       "cue": "10 + 10 = 20"
     },
     {
-      "at_s": 214.28,
+      "at_s": 184.43,
       "sfx_id": "kids-wow",
       "gain_db": -4,
       "shot": "KidsNumbers037",
       "cue": "twenty eggs!"
     },
     {
-      "at_s": 217.103,
+      "at_s": 187.253,
       "sfx_id": "egg-crack",
       "gain_db": -5,
       "shot": "KidsNumbers037",
       "cue": "crack..."
     },
     {
-      "at_s": 217.496,
+      "at_s": 187.646,
       "sfx_id": "egg-crack",
       "gain_db": -5,
       "shot": "KidsNumbers037",
       "cue": "crack..."
     },
     {
-      "at_s": 225.73,
+      "at_s": 195.88,
       "sfx_id": "egg-crack",
       "gain_db": -7,
       "shot": "KidsNumbers037",
       "cue": "pair 1 hatches"
     },
     {
-      "at_s": 227.29,
+      "at_s": 197.44,
       "sfx_id": "egg-crack",
       "gain_db": -7,
       "shot": "KidsNumbers037",
       "cue": "pair 2 hatches"
     },
     {
-      "at_s": 228.88,
+      "at_s": 199.03,
       "sfx_id": "egg-crack",
       "gain_db": -7,
       "shot": "KidsNumbers037",
       "cue": "pair 3 hatches"
     },
     {
-      "at_s": 230.49,
+      "at_s": 200.64,
       "sfx_id": "egg-crack",
       "gain_db": -7,
       "shot": "KidsNumbers037",
       "cue": "pair 4 hatches"
     },
     {
-      "at_s": 232.05,
+      "at_s": 202.2,
       "sfx_id": "egg-crack",
       "gain_db": -7,
       "shot": "KidsNumbers037",
       "cue": "pair 5 hatches"
     },
     {
-      "at_s": 233.61,
+      "at_s": 203.76,
       "sfx_id": "egg-crack",
       "gain_db": -7,
       "shot": "KidsNumbers037",
       "cue": "pair 6 hatches"
     },
     {
-      "at_s": 235.25,
+      "at_s": 205.4,
       "sfx_id": "egg-crack",
       "gain_db": -7,
       "shot": "KidsNumbers037",
       "cue": "pair 7 hatches"
     },
     {
-      "at_s": 237.03,
+      "at_s": 207.18,
       "sfx_id": "egg-crack",
       "gain_db": -7,
       "shot": "KidsNumbers037",
       "cue": "pair 8 hatches"
     },
     {
-      "at_s": 238.78,
+      "at_s": 208.93,
       "sfx_id": "egg-crack",
       "gain_db": -7,
       "shot": "KidsNumbers037",
       "cue": "pair 9 hatches"
     },
     {
-      "at_s": 240.5,
+      "at_s": 210.65,
       "sfx_id": "egg-crack",
       "gain_db": -7,
       "shot": "KidsNumbers037",
       "cue": "pair 10 hatches"
     },
     {
-      "at_s": 244.55,
+      "at_s": 214.7,
       "sfx_id": "kids-yay",
       "gain_db": -3,
       "shot": "KidsNumbers037",
       "cue": "20 baby dinos!"
     },
     {
-      "at_s": 244.75,
+      "at_s": 214.9,
       "sfx_id": "kids-applause",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "applause"
     },
     {
-      "at_s": 249.82,
+      "at_s": 219.97,
       "sfx_id": "whip-whoosh",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "star wipe"
     },
     {
-      "at_s": 253.2,
+      "at_s": 223.35,
       "sfx_id": "think-tick",
       "gain_db": -6,
       "shot": "KidsNumbers037",
@@ -580,14 +551,14 @@
       "dur_s": 4.58
     },
     {
-      "at_s": 258.13,
+      "at_s": 228.28,
       "sfx_id": "ding-correct",
       "gain_db": -6,
       "shot": "KidsNumbers037",
       "cue": "a1 correct"
     },
     {
-      "at_s": 264.7,
+      "at_s": 234.85,
       "sfx_id": "think-tick",
       "gain_db": -6,
       "shot": "KidsNumbers037",
@@ -595,14 +566,14 @@
       "dur_s": 4.72
     },
     {
-      "at_s": 269.77,
+      "at_s": 239.92,
       "sfx_id": "ding-correct",
       "gain_db": -6,
       "shot": "KidsNumbers037",
       "cue": "a2 correct"
     },
     {
-      "at_s": 276.2,
+      "at_s": 246.35,
       "sfx_id": "think-tick",
       "gain_db": -6,
       "shot": "KidsNumbers037",
@@ -610,35 +581,35 @@
       "dur_s": 4.45
     },
     {
-      "at_s": 281.0,
+      "at_s": 251.15,
       "sfx_id": "ding-correct",
       "gain_db": -6,
       "shot": "KidsNumbers037",
       "cue": "a3 correct"
     },
     {
-      "at_s": 289.049,
+      "at_s": 259.199,
       "sfx_id": "sparkle-soft",
       "gain_db": -10,
       "shot": "KidsNumbers037",
       "cue": "the ONE lights up"
     },
     {
-      "at_s": 290.136,
+      "at_s": 260.286,
       "sfx_id": "cartoon-pop",
       "gain_db": -10,
       "shot": "KidsNumbers037",
       "cue": "one nest of ten"
     },
     {
-      "at_s": 297.92,
+      "at_s": 268.07,
       "sfx_id": "whip-whoosh",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "star wipe"
     },
     {
-      "at_s": 304.2,
+      "at_s": 274.35,
       "sfx_id": "think-tick",
       "gain_db": -6,
       "shot": "KidsNumbers037",
@@ -646,14 +617,14 @@
       "dur_s": 4.49
     },
     {
-      "at_s": 309.04,
+      "at_s": 279.19,
       "sfx_id": "ding-correct",
       "gain_db": -6,
       "shot": "KidsNumbers037",
       "cue": "m1a correct"
     },
     {
-      "at_s": 317.2,
+      "at_s": 287.35,
       "sfx_id": "think-tick",
       "gain_db": -6,
       "shot": "KidsNumbers037",
@@ -661,189 +632,189 @@
       "dur_s": 4.77
     },
     {
-      "at_s": 322.32,
+      "at_s": 292.47,
       "sfx_id": "ding-correct",
       "gain_db": -6,
       "shot": "KidsNumbers037",
       "cue": "m2a correct"
     },
     {
-      "at_s": 323.5,
+      "at_s": 293.65,
       "sfx_id": "whip-whoosh",
       "gain_db": -8,
       "shot": "KidsNumbers037",
       "cue": "star wipe"
     },
     {
-      "at_s": 329.73,
+      "at_s": 299.88,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 1"
     },
     {
-      "at_s": 330.99,
+      "at_s": 301.14,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 2"
     },
     {
-      "at_s": 332.25,
+      "at_s": 302.4,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 3"
     },
     {
-      "at_s": 333.57,
+      "at_s": 303.72,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 4"
     },
     {
-      "at_s": 334.94,
+      "at_s": 305.09,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 5"
     },
     {
-      "at_s": 336.31,
+      "at_s": 306.46,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 6"
     },
     {
-      "at_s": 337.55,
+      "at_s": 307.7,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 7"
     },
     {
-      "at_s": 338.85,
+      "at_s": 309.0,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 8"
     },
     {
-      "at_s": 340.1,
+      "at_s": 310.25,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 9"
     },
     {
-      "at_s": 341.44,
+      "at_s": 311.59,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 10"
     },
     {
-      "at_s": 343.15,
+      "at_s": 313.3,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 11"
     },
     {
-      "at_s": 344.58,
+      "at_s": 314.73,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 12"
     },
     {
-      "at_s": 345.95,
+      "at_s": 316.1,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 13"
     },
     {
-      "at_s": 347.44,
+      "at_s": 317.59,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 14"
     },
     {
-      "at_s": 348.95,
+      "at_s": 319.1,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 15"
     },
     {
-      "at_s": 350.44,
+      "at_s": 320.59,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 16"
     },
     {
-      "at_s": 352.0,
+      "at_s": 322.15,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 17"
     },
     {
-      "at_s": 353.55,
+      "at_s": 323.7,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 18"
     },
     {
-      "at_s": 354.98,
+      "at_s": 325.13,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 19"
     },
     {
-      "at_s": 356.47,
+      "at_s": 326.62,
       "sfx_id": "cartoon-pop",
       "gain_db": -13,
       "shot": "KidsNumbers037",
       "cue": "Rexy hops to 20"
     },
     {
-      "at_s": 357.41,
+      "at_s": 327.56,
       "sfx_id": "cymbal-crash",
       "gain_db": -10,
       "shot": "KidsNumbers037",
       "cue": "TWENTY!"
     },
     {
-      "at_s": 359.76,
+      "at_s": 329.91,
       "sfx_id": "kids-applause",
       "gain_db": -7,
       "shot": "KidsNumbers037",
       "cue": "you did it"
     },
     {
-      "at_s": 366.7,
+      "at_s": 336.85,
       "sfx_id": "think-tick",
       "gain_db": -6,
       "shot": "KidsNumbers037",
       "cue": "your turn 1-8"
     },
     {
-      "at_s": 370.7,
+      "at_s": 340.85,
       "sfx_id": "think-tick",
       "gain_db": -6,
       "shot": "KidsNumbers037",
       "cue": "your turn 9-16"
     },
     {
-      "at_s": 374.7,
+      "at_s": 344.85,
       "sfx_id": "think-tick",
       "gain_db": -6,
       "shot": "KidsNumbers037",
@@ -851,14 +822,14 @@
       "dur_s": 2.0
     },
     {
-      "at_s": 379.69,
+      "at_s": 349.84,
       "sfx_id": "kids-yay",
       "gain_db": -4,
       "shot": "KidsNumbers037",
       "cue": "great counting!"
     },
     {
-      "at_s": 386.3,
+      "at_s": 356.45,
       "sfx_id": "whip-whoosh",
       "gain_db": -8,
       "shot": "KidsNumbers037",

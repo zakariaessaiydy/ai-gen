@@ -27,7 +27,7 @@ repeated as a tiny recap the child can copy.
 
 ## Long (16:9, MIN 5 min, 5–7 min)
 
-SparksIntro ident (3.7 s, long videos; make-kids ENERGY LAYER) → 2–3 scenes in different sets → the same loop but with a mid-story
+Cold open ON the problem in the first 3 s (make-kids THE FIRST 10 SECONDS: no ident, no "Hi, I'm…") → 2–3 scenes in different sets → the same loop but with a mid-story
 complication (the first fix almost works) → a short song or chant of the 3 steps
 (`kids-songs`) → recap → goodbye wave "See you next time, friends!".
 

@@ -135,22 +135,22 @@
         },
         {
           "w": "Let's",
-          "start": 9.97,
-          "end": 10.243
+          "start": 9.96,
+          "end": 10.235
         },
         {
           "w": "count",
-          "start": 10.243,
-          "end": 10.57
+          "start": 10.235,
+          "end": 10.565
         },
         {
           "w": "them",
-          "start": 10.57,
-          "end": 10.788
+          "start": 10.565,
+          "end": 10.785
         },
         {
           "w": "together!",
-          "start": 10.788,
+          "start": 10.785,
           "end": 11.17
         }
       ]
@@ -1321,7 +1321,7 @@
       "text": "Game time! Which flower has more butterflies?",
       "gap": 5.0,
       "start": 156.5,
-      "end": 159.27,
+      "end": 159.26,
       "words": [
         {
           "w": "Game",
@@ -2146,7 +2146,7 @@
       "text": "Nine!",
       "gap": 1.4,
       "start": 268.5,
-      "end": 269.11,
+      "end": 269.1,
       "words": [
         {
           "w": "Nine!",
@@ -2176,7 +2176,7 @@
       "text": "Seven!",
       "gap": 1.4,
       "start": 272.71,
-      "end": 273.37,
+      "end": 273.36,
       "words": [
         {
           "w": "Seven!",

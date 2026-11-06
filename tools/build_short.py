@@ -116,6 +116,7 @@ def main():
     ap.add_argument("--draft", action="store_true",
                     help="render at half scale / crf 30 into <Id>-draft.mp4 — a motion check, not a master")
     ap.add_argument("--scale", type=float, help="render scale (default 1 for shorts, 0.5 with --draft)")
+    ap.add_argument("--concurrency", type=int, help="render-all --concurrency: parallel Chrome tabs (lower = less RAM)")
     ap.add_argument("--engine", choices=("elevenlabs", "edge", "kokoro", "azure"))
     ap.add_argument("--voice")
     ap.add_argument("--rate", help="edge/kokoro, e.g. +12%%")
@@ -222,6 +223,8 @@ def main():
             t = time.time()
             cmd = ["node", "scripts/render-all.mjs", comp_id]
             cmd += ["--draft"] if args.draft else [f"--scale={scale}"]
+            if args.concurrency:
+                cmd.append(f"--concurrency={args.concurrency}")
             sh(cmd, cwd=REMOTION)
             open(stampf, "w").write(fp)
             timings.append(("render", time.time() - t))

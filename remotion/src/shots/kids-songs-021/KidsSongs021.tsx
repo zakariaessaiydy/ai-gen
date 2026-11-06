@@ -13,7 +13,7 @@ import { KINK, kst } from '../../lib/kids/face';
 import { EASE_OUT, prog, timeWords } from '../../lib/shorts';
 import { SONG, SONG_BEAT } from './song.gen';
 
-export const compositionConfig = { id: 'KidsSongs021', durationInSeconds: 184.4, fps: 30, width: 1920, height: 1080 };
+export const compositionConfig = { id: 'KidsSongs021', durationInSeconds: 184.40, fps: 30, width: 1920, height: 1080 };
 
 const W = 1920;
 const H = 1080;

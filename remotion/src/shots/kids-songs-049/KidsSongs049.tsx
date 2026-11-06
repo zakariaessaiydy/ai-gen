@@ -18,16 +18,16 @@ import { Backdrop, type PlaceFx } from '../../lib/kids/places';
 import { Confetti, FONT_TOON, PopText, SingAlong, ThinkTimer, lipSync, useT } from '../../lib/kids/kit';
 import { KINK, kst } from '../../lib/kids/face';
 import { Vol } from '../../lib/kids/depth';
-import { ActionStage, INTRO_S, SparksIntro, StarWipe, directorCam, type Shot } from '../../lib/kids/energy';
+import { ActionStage, StarWipe, directorCam, type Shot } from '../../lib/kids/energy';
 import { EASE_INOUT, EASE_OUT, prog, timeWords, type VoLine } from '../../lib/shorts';
 import { SONG as SONG0, SONG_BEAT, SONG_DURATION } from './song.gen';
 
-export const compositionConfig = { id: 'KidsSongs049', durationInSeconds: 346.6, fps: 30, width: 1920, height: 1080 };
+export const compositionConfig = { id: 'KidsSongs049', durationInSeconds: 334.35, fps: 30, width: 1920, height: 1080 };
 
 const W = 1920;
 const H = 1080;
 const f = FLOOR(H);
-const OFF = INTRO_S;
+const OFF = 0; // songs open on the sung hook: no ident (make-kids THE FIRST 10 SECONDS)
 const shift = (l: VoLine, d: number): VoLine => ({ ...l, start: l.start + d, end: l.end + d, words: (l.words ?? []).map((w) => ({ ...w, start: w.start + d, end: w.end + d })) });
 const SONG: VoLine[] = SONG0.map((l) => shift(l, OFF));
 const S = (i: number) => SONG[i].start;
@@ -41,9 +41,10 @@ const CHORUS = [0, 40, 52, 71];
 const VERSE0 = 4; // month i: lines 4 + 3i (name), 5 + 3i (name!), 6 + 3i (the picture line)
 const QUIZ0 = 44; // question k: lines 44 + 2k (question), 45 + 2k (answer)
 const BDAY0 = 56;
-const KAR0 = S(BDAY0) + 4 * BAR; // the karaoke chorus = the 8 instrumental bars after the birthday bridge
+const KAR0 = Math.max(E(BDAY0 + 1) + 0.5, S(BDAY0) + 4 * BAR); // karaoke chorus in the instrumental gap after the birthday bridge
 const KARAOKE: VoLine[] = SONG.slice(0, 4).map((l) => shift(l, KAR0 - S(0)));
 const SLOW0 = 58; // "Let's say them slowly!" then 59..70 = January..December
+const KAR_ON = S(SLOW0) - 0.4 - KAR0 >= E(3) - S(0) - 1; // the AI take must leave room for the whole karaoke chorus, else no karaoke
 const LAST = SONG.length - 1;
 
 const MONTHS = ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'];
@@ -221,7 +222,7 @@ const ROT_KEYS: [number, number][] = (() => {
   for (let i = 0; i < 12; i++) k.push([S(VERSE0 + i * 3) - 0.3, i], [S(SLOW0 + 1 + i) - 0.2, i]);
   QUIZ.forEach((q, i) => k.push([S(QUIZ0 + i * 2) - 0.3, q.known], [S(QUIZ0 + i * 2 + 1) - 0.05, q.ans]));
   const map: [number, number, number][] = [[0, 0, 0], [0, 1, 1], [0, 2, 2], [0, 4, 3], [1, 0, 4], [1, 2, 5], [1, 4, 6], [1, 5, 7], [2, 0, 8], [2, 1, 9], [2, 2, 10], [2, 3, 11]];
-  const bases: [VoLine[], number][] = [...CHORUS.map((c) => [SONG, c] as [VoLine[], number]), [KARAOKE, 0]];
+  const bases: [VoLine[], number][] = [...CHORUS.map((c) => [SONG, c] as [VoLine[], number]), ...(KAR_ON ? [[KARAOKE, 0] as [VoLine[], number]] : [])];
   for (const [lines, base] of bases) for (const [li, wi, m] of map) k.push([timeWords(lines[base + li])[wi].start, m]);
   return k.sort((x, y) => x[0] - y[0]);
 })();
@@ -258,7 +259,7 @@ export default function KidsSongs049() {
   let qi = -1;
   for (let k = 0; k < 4; k++) if (within(t, S(QUIZ0 + k * 2) - 0.3, (k < 3 ? S(QUIZ0 + (k + 1) * 2) : S(CHORUS[2])) - 0.3)) qi = k;
   const chorusIdx = CHORUS.findIndex((c) => within(t, S(c) - 0.4, E(c + 3) + 0.4));
-  const karaoke = within(t, KAR0 - 0.3, S(SLOW0) - 0.3);
+  const karaoke = KAR_ON && within(t, KAR0 - 0.3, S(SLOW0) - 0.3);
   const bday = within(t, S(BDAY0) - 0.3, KAR0 - 0.3);
   let si = -1;
   for (let i = 0; i < 12; i++) if (within(t, S(SLOW0 + 1 + i) - 0.2, (i < 11 ? S(SLOW0 + 2 + i) : S(CHORUS[3])) - 0.3)) si = i;
@@ -400,7 +401,6 @@ export default function KidsSongs049() {
       <Confetti t={t} at={E(BDAY0 + 1)} y={400} dur={1.4} />
       {end && <PopText t={t} at={E(LAST) + 0.2} until={END + 1.5} text="YOU KNOW THE 12 MONTHS!" y={540} size={96} color="#ffca3a" />}
       <SingAlong t={t} lines={karaoke ? KARAOKE : SONG} ball={karaoke ? '#ff6fa5' : '#ff595e'} />
-      <SparksIntro t={t} at={0} cast={{ kids: [MILA_HERO, LEO_HERO], buddy: BOBO_HERO }} />
       <StarWipe t={t} at={END + 1.4} dur={0.5} hold={5} color="#3b2a4a" x={W / 2} y={H * 0.45} />
     </>
   );

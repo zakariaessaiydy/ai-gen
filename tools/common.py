@@ -15,6 +15,7 @@ import re
 import shutil
 import subprocess
 import sys
+import time
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -60,7 +61,14 @@ def write_json(path, obj, **dump_kw):
     tmp = path + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(obj, f, **dump_kw)
-    os.replace(tmp, path)
+    for attempt in range(10):  # Windows: antivirus/indexer/editor can hold the target open for a moment
+        try:
+            os.replace(tmp, path)
+            return
+        except PermissionError:
+            if attempt == 9:
+                raise
+            time.sleep(0.5)
 
 
 def download(url, out, timeout=300):

@@ -149,5 +149,14 @@
   "q6",
   "karaoke",
   "chorus"
- ]
+ ],
+ "ace": {
+  "style": "nursery",
+  "seeds": [
+   101,
+   202,
+   303,
+   404
+  ]
+ }
 }

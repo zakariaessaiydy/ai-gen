@@ -48,47 +48,47 @@
       "words": [
         {
           "w": "Who",
-          "start": 3.94,
-          "end": 4.21
+          "start": 3.95,
+          "end": 4.219
         },
         {
           "w": "has",
-          "start": 4.21,
-          "end": 4.479
+          "start": 4.219,
+          "end": 4.487
         },
         {
           "w": "soft",
-          "start": 4.479,
-          "end": 4.816
+          "start": 4.487,
+          "end": 4.823
         },
         {
           "w": "fur,",
-          "start": 4.816,
-          "end": 5.085
+          "start": 4.823,
+          "end": 5.091
         },
         {
           "w": "pointy",
-          "start": 5.085,
-          "end": 5.557
+          "start": 5.091,
+          "end": 5.561
         },
         {
           "w": "ears,",
-          "start": 5.557,
-          "end": 5.827
+          "start": 5.561,
+          "end": 5.83
         },
         {
           "w": "and",
-          "start": 5.827,
-          "end": 6.029
+          "start": 5.83,
+          "end": 6.031
         },
         {
           "w": "long",
-          "start": 6.029,
-          "end": 6.298
+          "start": 6.031,
+          "end": 6.3
         },
         {
           "w": "whiskers?",
-          "start": 6.298,
+          "start": 6.3,
           "end": 6.77
         }
       ]
@@ -254,7 +254,7 @@
       "text": "It's my red ball! It has a little bell inside. Jingle, jingle!",
       "gap": 1.8,
       "start": 23.95,
-      "end": 27.83,
+      "end": 27.82,
       "words": [
         {
           "w": "It's",
@@ -1609,7 +1609,7 @@
       "text": "Tiptoe with Luna! Shhh... tiptoe, tiptoe!",
       "gap": 2.4,
       "start": 140.22,
-      "end": 143.56,
+      "end": 143.59,
       "words": [
         {
           "w": "Tiptoe",

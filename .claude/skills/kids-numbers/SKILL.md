@@ -28,7 +28,8 @@ word time of the number in vo.gen.ts.
 
 ## Long (16:9, MIN 5 min, 5–7 min)
 
-Count 1→10 (one object type per number, a mini-gag every 3 numbers), a counting song in the
+Cold open: the first object pops in and is counted in the first ~10 s; a guest gets ONE premise line, the
+cast never introduces itself (make-kids THE FIRST 10 SECONDS). Count 1→10 (one object type per number, a mini-gag every 3 numbers), a counting song in the
 middle (`kids-songs`: "Count With Bobo"), then a "find the number" game (3 numerals on cards,
 ThinkTimer, AnswerMark), then 10→1 rocket countdown blast-off in Space (`Space` set).
 

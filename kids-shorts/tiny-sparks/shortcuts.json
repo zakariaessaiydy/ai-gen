@@ -26,8 +26,8 @@
  {
   "day": 7,
   "comp": "KidsSongs007",
-  "a": 4.6,
-  "b": 51.4,
+  "a": 0.0,
+  "b": 42.3,
   "xc": 960,
   "w": 1440,
   "lines": [
@@ -74,8 +74,8 @@
  {
   "day": 14,
   "comp": "KidsSongs014",
-  "a": 4.6,
-  "b": 58.0,
+  "a": 0.0,
+  "b": 45.8,
   "xc": 960,
   "w": 1440,
   "lines": [
@@ -122,8 +122,8 @@
  {
   "day": 21,
   "comp": "KidsSongs021",
-  "a": 4.6,
-  "b": 51.4,
+  "a": 0.0,
+  "b": 48.0,
   "xc": 960,
   "w": 1440,
   "lines": [
@@ -158,8 +158,8 @@
  {
   "day": 28,
   "comp": "KidsSongs028",
-  "a": 4.9,
-  "b": 52.0,
+  "a": 0.0,
+  "b": 53.0,
   "xc": 960,
   "w": 1440,
   "lines": [
@@ -194,8 +194,8 @@
  {
   "day": 35,
   "comp": "KidsSongs035",
-  "a": 4.8,
-  "b": 51.0,
+  "a": 0.0,
+  "b": 56.6,
   "xc": 960,
   "w": 1440,
   "lines": [
@@ -218,8 +218,8 @@
  {
   "day": 37,
   "comp": "KidsNumbers037",
-  "a": 207.9,
-  "b": 246.3,
+  "a": 178.05,
+  "b": 216.45,
   "xc": 1100,
   "w": 1440,
   "lines": [
@@ -242,8 +242,8 @@
  {
   "day": 42,
   "comp": "KidsSongs042",
-  "a": 3.5,
-  "b": 51.8,
+  "a": 0.0,
+  "b": 52.4,
   "xc": 960,
   "w": 1440,
   "lines": [
@@ -292,19 +292,6 @@
  {
   "day": 47,
   "comp": "KidsScience047",
-  "a": 3.8,
-  "b": 32.77,
-  "xc": 960,
-  "w": 1440,
-  "lines": [
-   "WHERE DOES",
-   "RAIN COME FROM?"
-  ],
-  "slug": "where-rain"
- },
- {
-  "day": 47,
-  "comp": "KidsScience047",
   "a": 173.63,
   "b": 208.97,
   "xc": 960,
@@ -314,6 +301,19 @@
    "NOT POINTY!"
   ],
   "slug": "raindrop-shape"
+ },
+ {
+  "day": 47,
+  "comp": "KidsScience047",
+  "a": 3.8,
+  "b": 32.77,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "WHERE DOES",
+   "RAIN COME FROM?"
+  ],
+  "slug": "where-rain"
  },
  {
   "day": 48,
@@ -340,6 +340,18 @@
    "PUZZLE!"
   ],
   "slug": "super-puzzle"
+ },
+ {
+  "day": 49,
+  "comp": "KidsSongs049",
+  "a": 0.0,
+  "b": 52.9,
+  "xc": 900,
+  "w": 1600,
+  "lines": [
+   "12 MONTHS SONG",
+   "SING ALONG!"
+  ]
  },
  {
   "day": 50,
@@ -370,19 +382,6 @@
  {
   "day": 51,
   "comp": "KidsNumbers051",
-  "a": 136.56,
-  "b": 156.2,
-  "xc": 960,
-  "w": 1440,
-  "lines": [
-   "BUTTERFLIES TASTE",
-   "WITH THEIR FEET!"
-  ],
-  "slug": "taste-feet"
- },
- {
-  "day": 51,
-  "comp": "KidsNumbers051",
   "a": 28.54,
   "b": 48.63,
   "xc": 960,
@@ -392,6 +391,19 @@
    "SNEEZES!"
   ],
   "slug": "achoo"
+ },
+ {
+  "day": 51,
+  "comp": "KidsNumbers051",
+  "a": 136.56,
+  "b": 156.2,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "BUTTERFLIES TASTE",
+   "WITH THEIR FEET!"
+  ],
+  "slug": "taste-feet"
  },
  {
   "day": 52,
@@ -409,19 +421,6 @@
  {
   "day": 53,
   "comp": "KidsAnimals053",
-  "a": 3.8,
-  "b": 28.54,
-  "xc": 960,
-  "w": 1440,
-  "lines": [
-   "WHO HAS A",
-   "WET BLACK NOSE?"
-  ],
-  "slug": "guess-who"
- },
- {
-  "day": 53,
-  "comp": "KidsAnimals053",
   "a": 148.45,
   "b": 193.98,
   "xc": 960,
@@ -433,17 +432,17 @@
   "slug": "find-kiki"
  },
  {
-  "day": 54,
-  "comp": "KidsScience054",
+  "day": 53,
+  "comp": "KidsAnimals053",
   "a": 3.8,
-  "b": 35.01,
+  "b": 28.54,
   "xc": 960,
   "w": 1440,
   "lines": [
-   "WHERE DOES",
-   "SNOW COME FROM?"
+   "WHO HAS A",
+   "WET BLACK NOSE?"
   ],
-  "slug": "where-snow"
+  "slug": "guess-who"
  },
  {
   "day": 54,
@@ -457,6 +456,19 @@
    "HAS 6 ARMS!"
   ],
   "slug": "six-arms"
+ },
+ {
+  "day": 54,
+  "comp": "KidsScience054",
+  "a": 3.8,
+  "b": 35.01,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "WHERE DOES",
+   "SNOW COME FROM?"
+  ],
+  "slug": "where-snow"
  },
  {
   "day": 55,
@@ -485,17 +497,16 @@
   "slug": "super-puzzle"
  },
  {
-  "day": 57,
-  "comp": "KidsStories057",
-  "a": 39.98,
-  "b": 92.84,
-  "xc": 960,
-  "w": 1440,
+  "day": 56,
+  "comp": "KidsSongs056",
+  "a": 0.0,
+  "b": 56.9,
+  "xc": 900,
+  "w": 1600,
   "lines": [
-   "OOPS!",
-   "SALTY COOKIES!"
-  ],
-  "slug": "salty-cookies"
+   "4 SEASONS SONG",
+   "SING ALONG!"
+  ]
  },
  {
   "day": 57,
@@ -511,17 +522,17 @@
   "slug": "hoot-says"
  },
  {
-  "day": 58,
-  "comp": "KidsNumbers058",
-  "a": 27.3,
-  "b": 46.81,
+  "day": 57,
+  "comp": "KidsStories057",
+  "a": 39.98,
+  "b": 92.84,
   "xc": 960,
   "w": 1440,
   "lines": [
-   "BOBO'S TUMMY",
-   "GOES BEEP!"
+   "OOPS!",
+   "SALTY COOKIES!"
   ],
-  "slug": "tummy-beep"
+  "slug": "salty-cookies"
  },
  {
   "day": 58,
@@ -535,6 +546,19 @@
    "ARE QUIET!"
   ],
   "slug": "quiet-cars"
+ },
+ {
+  "day": 58,
+  "comp": "KidsNumbers058",
+  "a": 27.3,
+  "b": 46.81,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "BOBO'S TUMMY",
+   "GOES BEEP!"
+  ],
+  "slug": "tummy-beep"
  },
  {
   "day": 59,
@@ -591,19 +615,6 @@
  {
   "day": 61,
   "comp": "KidsScience061",
-  "a": 3.8,
-  "b": 25.74,
-  "xc": 960,
-  "w": 1440,
-  "lines": [
-   "HOW DO",
-   "RAINBOWS APPEAR?"
-  ],
-  "slug": "rainbow-why"
- },
- {
-  "day": 61,
-  "comp": "KidsScience061",
   "a": 147.85,
   "b": 188.76,
   "xc": 960,
@@ -613,6 +624,19 @@
    "A CIRCLE!"
   ],
   "slug": "rainbow-circle"
+ },
+ {
+  "day": 61,
+  "comp": "KidsScience061",
+  "a": 3.8,
+  "b": 25.74,
+  "xc": 960,
+  "w": 1440,
+  "lines": [
+   "HOW DO",
+   "RAINBOWS APPEAR?"
+  ],
+  "slug": "rainbow-why"
  },
  {
   "day": 81,

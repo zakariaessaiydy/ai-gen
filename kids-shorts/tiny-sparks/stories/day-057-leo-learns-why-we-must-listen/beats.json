@@ -49,7 +49,7 @@
       "text": "Today, the Tiny Sparks are baking cookies in Professor Hoot's kitchen!",
       "gap": 1.2,
       "start": 3.9,
-      "end": 8.23,
+      "end": 8.22,
       "words": [
         {
           "w": "Today,",
@@ -569,7 +569,7 @@
       "text": "Lots of salt! Shake, shake, shake!",
       "gap": 1.6,
       "start": 46.34,
-      "end": 48.42,
+      "end": 48.43,
       "words": [
         {
           "w": "Lots",
@@ -1054,7 +1054,7 @@
       "text": "I'm sorry, everyone. I should have listened.",
       "gap": 1.4,
       "start": 89.31,
-      "end": 91.74,
+      "end": 91.73,
       "words": [
         {
           "w": "I'm",
@@ -2179,22 +2179,22 @@
         {
           "w": "So",
           "start": 201.11,
-          "end": 201.332
+          "end": 201.334
         },
         {
           "w": "they",
-          "start": 201.332,
-          "end": 201.499
+          "start": 201.334,
+          "end": 201.503
         },
         {
           "w": "baked",
-          "start": 201.499,
-          "end": 201.832
+          "start": 201.503,
+          "end": 201.839
         },
         {
           "w": "again.",
-          "start": 201.832,
-          "end": 202.11
+          "start": 201.839,
+          "end": 202.12
         },
         {
           "w": "Leo",

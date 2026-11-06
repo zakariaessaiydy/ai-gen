@@ -15,16 +15,16 @@ import { FLOOR, Meadow, Sun } from '../../lib/kids/sets';
 import { Ball, Confetti, FONT_TOON, PopText, RAINBOW, SingAlong, Star, ThinkTimer, lipSync, useT } from '../../lib/kids/kit';
 import { KINK, kst } from '../../lib/kids/face';
 import { Vol } from '../../lib/kids/depth';
-import { ActionStage, INTRO_S, SparksIntro, StarWipe, directorCam, type Shot } from '../../lib/kids/energy';
+import { ActionStage, StarWipe, directorCam, type Shot } from '../../lib/kids/energy';
 import { EASE_OUT, prog, timeWords, type VoLine } from '../../lib/shorts';
 import { SONG as SONG0, SONG_BEAT, SONG_DURATION } from './song.gen';
 
-export const compositionConfig = { id: 'KidsSongs042', durationInSeconds: 308.1, fps: 30, width: 1920, height: 1080 };
+export const compositionConfig = { id: 'KidsSongs042', durationInSeconds: 298.85, fps: 30, width: 1920, height: 1080 };
 
 const W = 1920;
 const H = 1080;
 const f = FLOOR(H);
-const OFF = INTRO_S;
+const OFF = 0; // songs open on the sung hook: no ident (make-kids THE FIRST 10 SECONDS)
 const shift = (l: VoLine, d: number): VoLine => ({ ...l, start: l.start + d, end: l.end + d, words: (l.words ?? []).map((w) => ({ ...w, start: w.start + d, end: w.end + d })) });
 const SONG: VoLine[] = SONG0.map((l) => shift(l, OFF));
 const S = (i: number) => SONG[i].start;
@@ -371,7 +371,6 @@ export default function KidsSongs042() {
       {Array.from({ length: 5 }, (_, k) => <Confetti key={k} t={t} at={S(QUIZ0 + k * 2 + 1) + 0.2} y={560} dur={1.1} />)}
       {end && <PopText t={t} at={E(LAST) + 0.2} until={END + 1.5} text="YOU KNOW THE 7 DAYS!" y={620} size={100} color="#ffca3a" />}
       <SingAlong t={t} lines={karaoke ? KARAOKE : SONG} ball={karaoke ? '#ff6fa5' : '#ff595e'} />
-      <SparksIntro t={t} at={0} cast={{ kids: [MILA_HERO, LEO_HERO], buddy: BOBO_HERO }} />
       <StarWipe t={t} at={END + 1.4} dur={0.5} hold={5} color="#3b2a4a" x={W / 2} y={H * 0.45} />
     </>
   );

@@ -1,5 +1,5 @@
 {
- "title": "Alphabet A\u2013Z (Tiny Sparks original)",
+ "title": "Alphabet A–Z (Tiny Sparks original)",
  "bpm": 100,
  "beatsPerBar": 4,
  "introBars": 2,
@@ -183,5 +183,12 @@
   "Y",
   "Z",
   "chorus"
- ]
+ ],
+ "ace": {
+  "style": "campfire",
+  "seeds": [
+   14,
+   45
+  ]
+ }
 }

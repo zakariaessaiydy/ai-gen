@@ -1,0 +1,18 @@
+{
+ "kidspop-seed17.wav": {
+  "score": 0.769,
+  "matched": 133,
+  "words": 173,
+  "recognised": 186,
+  "duration": 304.36
+ },
+ "kidspop-seed48.wav": {
+  "score": 0.798,
+  "matched": 138,
+  "words": 173,
+  "recognised": 185,
+  "duration": 304.36
+ },
+ "_winner": "kidspop-seed48.wav",
+ "_intro_cut": 5.51
+}

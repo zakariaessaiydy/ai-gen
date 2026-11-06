@@ -18,7 +18,7 @@ import { Vol } from '../../lib/kids/depth';
 import { EASE_INOUT, EASE_OUT, prog, timeWords, type VoLine } from '../../lib/shorts';
 import { SONG, SONG_BEAT } from './song.gen';
 
-export const compositionConfig = { id: 'KidsSongs035', durationInSeconds: 302.0, fps: 30, width: 1920, height: 1080 };
+export const compositionConfig = { id: 'KidsSongs035', durationInSeconds: 302.00, fps: 30, width: 1920, height: 1080 };
 
 const W = 1920;
 const H = 1080;
@@ -33,7 +33,8 @@ const CHORUS = [0, 24, 34, 50];
 const verseLine = (i: number) => 4 + i * 2; // + 1 = "Round like the sun!"
 const BUILD0 = 28;
 const QUIZ0 = 38;
-const KAR0 = S(50) - 8 * BAR; // the karaoke chorus = 8 instrumental bars before the last chorus
+const KAR0 = Math.max(E(49) + 0.5, S(50) - 8 * BAR); // karaoke chorus in the instrumental gap before the last chorus
+const KAR_ON = S(50) - 0.4 - KAR0 >= E(3) - S(0) - 1; // the AI take must leave room for the whole karaoke chorus, else no karaoke
 const KAR_OFF = KAR0 - S(0);
 const KARAOKE: VoLine[] = SONG.slice(0, 4).map((l) => ({
   ...l, speaker: 'you', start: l.start + KAR_OFF, end: l.end + KAR_OFF,
@@ -292,7 +293,7 @@ export default function KidsSongs035() {
   }
   const yourTurn = vi >= 0 && within(t, E(verseLine(vi) + 1) + 0.15, (vi < 9 ? S(verseLine(vi + 1)) : S(CHORUS[1])) - 0.4);
   const chorusIdx = CHORUS.findIndex((c) => within(t, S(c) - 0.4, E(c + 3) + 0.4));
-  const karaoke = within(t, KAR0 - 0.4, S(50) - 0.4);
+  const karaoke = KAR_ON && within(t, KAR0 - 0.4, S(50) - 0.4);
   let bi = -1;
   for (let j = 0; j < 3; j++) if (within(t, S(BUILD0 + j * 2) - 0.3, (j < 2 ? S(BUILD0 + (j + 1) * 2) : S(CHORUS[2])) - 0.3)) bi = j;
   let qi = -1;

@@ -2,7 +2,8 @@
  "title": "The Colors Song (Tiny Sparks original)",
  "bpm": 94,
  "beatsPerBar": 4,
- "introBars": 2,
+ "introBars": 0,
+ "leadIn": 0.25,
  "outroBars": 2,
  "instruments": {
   "lead": "xylophone",
@@ -149,5 +150,12 @@
   "q6",
   "karaoke",
   "chorus"
- ]
+ ],
+ "ace": {
+  "style": "sunshine",
+  "seeds": [
+   15,
+   46
+  ]
+ }
 }

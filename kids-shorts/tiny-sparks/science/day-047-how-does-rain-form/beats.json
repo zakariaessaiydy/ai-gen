@@ -49,47 +49,47 @@
       "text": "Look, it's raining! Where does rain come from?",
       "gap": 1.4,
       "start": 3.9,
-      "end": 6.43,
+      "end": 6.44,
       "words": [
         {
           "w": "Look,",
           "start": 3.95,
-          "end": 4.223
+          "end": 4.222
         },
         {
           "w": "it's",
-          "start": 4.223,
-          "end": 4.428
+          "start": 4.222,
+          "end": 4.426
         },
         {
           "w": "raining!",
-          "start": 4.428,
-          "end": 4.906
+          "start": 4.426,
+          "end": 4.902
         },
         {
           "w": "Where",
-          "start": 4.906,
-          "end": 5.179
+          "start": 4.902,
+          "end": 5.174
         },
         {
           "w": "does",
-          "start": 5.179,
-          "end": 5.452
+          "start": 5.174,
+          "end": 5.446
         },
         {
           "w": "rain",
-          "start": 5.452,
-          "end": 5.794
+          "start": 5.446,
+          "end": 5.786
         },
         {
           "w": "come",
-          "start": 5.794,
-          "end": 6.067
+          "start": 5.786,
+          "end": 6.058
         },
         {
           "w": "from?",
-          "start": 6.067,
-          "end": 6.34
+          "start": 6.058,
+          "end": 6.33
         }
       ]
     },
@@ -1434,7 +1434,7 @@
       "text": "And then the sun warms the water again, and up, up, up it goes!",
       "gap": 1.4,
       "start": 112.63,
-      "end": 117.1,
+      "end": 117.11,
       "words": [
         {
           "w": "And",
@@ -2829,7 +2829,7 @@
       "text": "What do we call it, when water goes round and round?",
       "gap": 5.0,
       "start": 255.17,
-      "end": 258.09,
+      "end": 258.08,
       "words": [
         {
           "w": "What",

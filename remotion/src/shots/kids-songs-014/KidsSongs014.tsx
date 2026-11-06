@@ -14,7 +14,7 @@ import { KINK, kst } from '../../lib/kids/face';
 import { EASE_OUT, prog, timeWords } from '../../lib/shorts';
 import { SONG, SONG_BEAT } from './song.gen';
 
-export const compositionConfig = { id: 'KidsSongs014', durationInSeconds: 136.4, fps: 30, width: 1920, height: 1080 };
+export const compositionConfig = { id: 'KidsSongs014', durationInSeconds: 127.75, fps: 30, width: 1920, height: 1080 };
 
 const W = 1920;
 const H = 1080;

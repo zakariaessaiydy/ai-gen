@@ -190,7 +190,7 @@
  {
   "day": 28,
   "comp": "KidsSongs028",
-  "t": 129,
+  "t": 124.14,
   "z": 1.25,
   "fx": 960,
   "fy": 432,
@@ -262,7 +262,7 @@
  {
   "day": 37,
   "comp": "KidsNumbers037",
-  "t": 113.0,
+  "t": 83.15,
   "z": 1.5,
   "fx": 1180,
   "fy": 720,
@@ -574,6 +574,69 @@
   ],
   "at": "left",
   "size": 136,
+  "rot": -3
+ },
+ {
+  "day": 62,
+  "comp": "KidsPuzzles062",
+  "t": 129.05,
+  "z": 1.0,
+  "fx": 960,
+  "fy": 540,
+  "lines": [
+   "FIND THE",
+   "HIDDEN",
+   "STAR!"
+  ],
+  "at": "right",
+  "size": 112,
+  "rot": -3
+ },
+ {
+  "day": 65,
+  "comp": "KidsNumbers065",
+  "t": 93.98,
+  "z": 1.0,
+  "fx": 960,
+  "fy": 540,
+  "lines": [
+   "COUNT",
+   "THE STARS!"
+  ],
+  "at": "bottom",
+  "size": 120,
+  "rot": -3
+ },
+ {
+  "day": 66,
+  "comp": "KidsWords066",
+  "t": 24.47,
+  "z": 1.0,
+  "fx": 960,
+  "fy": 540,
+  "lines": [
+   "BODY",
+   "PARTS!"
+  ],
+  "at": "right",
+  "size": 130,
+  "rot": -3,
+  "sticker": "EN\n+FR",
+  "stickerAt": "tr"
+ },
+ {
+  "day": 68,
+  "comp": "KidsScience068",
+  "t": 22.68,
+  "z": 1.0,
+  "fx": 960,
+  "fy": 540,
+  "lines": [
+   "WHAT IS",
+   "LIGHTNING?"
+  ],
+  "at": "left",
+  "size": 116,
   "rot": -3
  }
 ]

@@ -413,6 +413,18 @@ def s_stomp():
     return rel((boom + thud + rumble) * np.minimum(1, t / 0.004), 40)
 
 
+def s_thunder():
+    """A soft, far-away thunder roll for kids (never a sharp crack): a muffled low boom that rolls on
+    in 3 slow swells, all under ~200 Hz, 2.6 s."""
+    t = T(2.6)
+    f = 30 + 30 * np.exp(-t / 0.12)
+    boom = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t / 0.5) * 0.6
+    roll = band(noise(len(t), 131), lo=25, hi=190)
+    swell = sum(np.exp(-((t - c) / w) ** 2) * a for c, w, a in [(0.18, 0.18, 1.0), (0.85, 0.35, 0.75), (1.6, 0.45, 0.5)])
+    grit = band(noise(len(t), 132), lo=180, hi=700) * np.exp(-t / 0.25) * 0.18
+    return rel((boom + roll * swell * 1.2 + grit) * np.minimum(1, t / 0.03) * np.minimum(1, (2.6 - t) / 0.5), 40)
+
+
 def s_egg_crack():
     """An egg cracking: three crisp shell crackles + tiny clicks, 0.45 s."""
     buf = np.zeros(int(SR * 0.45))
@@ -588,6 +600,7 @@ SFX = {
     "elephant-trumpet": (s_trumpet, "animal", ["elephant", "trumpet", "toot", "animal", "kids"], "an elephant trumpet: brassy glide up + wobble, 0.95 s", False),
     "monkey-ooh": (s_monkey, "animal", ["monkey", "ooh-ooh-ah-ah", "chimp", "animal", "funny", "kids", "voices"], "a cheeky monkey call 'Ooh ooh! Ah ah ah!'", True),
     "water-splash": (s_splash, "foley", ["splash", "water", "spray", "drops", "kids"], "a water splash + droplet blips, 0.75 s", False),
+    "thunder-soft": (s_thunder, "weather", ["thunder", "storm", "rumble", "boom", "weather", "kids"], "a soft far-away thunder roll (muffled boom + 3 slow swells, no sharp crack), 2.6 s", False),
     "egg-crack": (s_egg_crack, "foley", ["egg", "crack", "hatch", "shell", "kids"], "an egg cracking: three crisp shell crackles + tiny clicks, 0.45 s", False),
     "think-tick": (s_think_tick, "rhythm", ["tick-tock", "woodblock", "think", "pause", "your-turn", "120bpm", "kids"], "tick-tock woodblock + shakers at 120 bpm for 4 s — fills a 'your turn' pause (start on a theme-bed beat)", False),
     "kids-yay": (s_kids_yay, "crowd", ["yay", "cheer", "crowd", "kids", "celebrate", "voices"], "a group of kids cheering 'Yay!'", True),

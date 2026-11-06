@@ -1994,6 +1994,25 @@
    "source": "local synth (tools/gen_kids_sounds.py)",
    "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
    "used_in": []
+  },
+  {
+   "id": "thunder-soft",
+   "file": "clips/thunder-soft.mp3",
+   "category": "weather",
+   "tags": [
+    "thunder",
+    "storm",
+    "rumble",
+    "boom",
+    "weather",
+    "kids"
+   ],
+   "desc": "a soft far-away thunder roll (muffled boom + 3 slow swells, no sharp crack), 2.6 s",
+   "duration_s": 2.6,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
   }
  ]
 }

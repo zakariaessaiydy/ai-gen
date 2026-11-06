@@ -198,16 +198,16 @@ export const SHORTS: ShortCard[] = [
   "day": 47,
   "w": 1440,
   "lines": [
-   "WHERE DOES",
-   "RAIN COME FROM?"
+   "RAINDROPS ARE",
+   "NOT POINTY!"
   ]
  },
  {
   "day": 47,
   "w": 1440,
   "lines": [
-   "RAINDROPS ARE",
-   "NOT POINTY!"
+   "WHERE DOES",
+   "RAIN COME FROM?"
   ]
  },
  {
@@ -224,6 +224,14 @@ export const SHORTS: ShortCard[] = [
   "lines": [
    "THE SUPER",
    "PUZZLE!"
+  ]
+ },
+ {
+  "day": 49,
+  "w": 1600,
+  "lines": [
+   "12 MONTHS SONG",
+   "SING ALONG!"
   ]
  },
  {
@@ -246,16 +254,16 @@ export const SHORTS: ShortCard[] = [
   "day": 51,
   "w": 1440,
   "lines": [
-   "BUTTERFLIES TASTE",
-   "WITH THEIR FEET!"
+   "BOBO",
+   "SNEEZES!"
   ]
  },
  {
   "day": 51,
   "w": 1440,
   "lines": [
-   "BOBO",
-   "SNEEZES!"
+   "BUTTERFLIES TASTE",
+   "WITH THEIR FEET!"
   ]
  },
  {
@@ -270,24 +278,16 @@ export const SHORTS: ShortCard[] = [
   "day": 53,
   "w": 1440,
   "lines": [
-   "WHO HAS A",
-   "WET BLACK NOSE?"
+   "FIND KIKI",
+   "WITH MAX!"
   ]
  },
  {
   "day": 53,
   "w": 1440,
   "lines": [
-   "FIND KIKI",
-   "WITH MAX!"
-  ]
- },
- {
-  "day": 54,
-  "w": 1440,
-  "lines": [
-   "WHERE DOES",
-   "SNOW COME FROM?"
+   "WHO HAS A",
+   "WET BLACK NOSE?"
   ]
  },
  {
@@ -296,6 +296,14 @@ export const SHORTS: ShortCard[] = [
   "lines": [
    "A SNOWFLAKE",
    "HAS 6 ARMS!"
+  ]
+ },
+ {
+  "day": 54,
+  "w": 1440,
+  "lines": [
+   "WHERE DOES",
+   "SNOW COME FROM?"
   ]
  },
  {
@@ -315,11 +323,11 @@ export const SHORTS: ShortCard[] = [
   ]
  },
  {
-  "day": 57,
-  "w": 1440,
+  "day": 56,
+  "w": 1600,
   "lines": [
-   "OOPS!",
-   "SALTY COOKIES!"
+   "4 SEASONS SONG",
+   "SING ALONG!"
   ]
  },
  {
@@ -331,11 +339,11 @@ export const SHORTS: ShortCard[] = [
   ]
  },
  {
-  "day": 58,
+  "day": 57,
   "w": 1440,
   "lines": [
-   "BOBO'S TUMMY",
-   "GOES BEEP!"
+   "OOPS!",
+   "SALTY COOKIES!"
   ]
  },
  {
@@ -344,6 +352,14 @@ export const SHORTS: ShortCard[] = [
   "lines": [
    "ELECTRIC CARS",
    "ARE QUIET!"
+  ]
+ },
+ {
+  "day": 58,
+  "w": 1440,
+  "lines": [
+   "BOBO'S TUMMY",
+   "GOES BEEP!"
   ]
  },
  {
@@ -382,16 +398,16 @@ export const SHORTS: ShortCard[] = [
   "day": 61,
   "w": 1440,
   "lines": [
-   "HOW DO",
-   "RAINBOWS APPEAR?"
+   "A RAINBOW IS",
+   "A CIRCLE!"
   ]
  },
  {
   "day": 61,
   "w": 1440,
   "lines": [
-   "A RAINBOW IS",
-   "A CIRCLE!"
+   "HOW DO",
+   "RAINBOWS APPEAR?"
   ]
  },
  {

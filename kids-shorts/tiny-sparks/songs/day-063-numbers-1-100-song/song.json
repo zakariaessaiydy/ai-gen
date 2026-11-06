@@ -1,0 +1,150 @@
+{
+ "title": "Numbers 1–100 Song (Tiny Sparks original)",
+ "bpm": 104,
+ "beatsPerBar": 4,
+ "introBars": 2,
+ "outroBars": 2,
+ "instruments": {
+  "lead": "xylophone",
+  "chords": "ukulele",
+  "bass": true,
+  "drums": "soft",
+  "leadWithVocal": true
+ },
+ "singer": "mila",
+ "vocal": {
+  "voice": "af_sky",
+  "pitch": 0,
+  "rate": "-4%"
+ },
+ "form": [
+  "chorus",
+  "n1",
+  "n2",
+  "n3",
+  "chorus",
+  "n4",
+  "n5",
+  "n6",
+  "chorus",
+  "n7",
+  "n8",
+  "n9",
+  "n10",
+  "chorus",
+  "tens",
+  "q1",
+  "q2",
+  "q3",
+  "q4",
+  "actions",
+  "karaoke",
+  "slow",
+  "chorus"
+ ],
+ "sections": {
+  "chorus": {
+   "chords": "C | G | F | C | Am | F | G | C",
+   "melody": "C4:1 C4:1 E4:2 | G4:1 G4:1 E4:2 | F4:1 A4:1 A4:2 | G4:1 F4:1 E4:1 D4:1 | E4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": "Let's count to a hun-dred, you and me, / one, two, three, as fun as can be! / Step by step we climb up high, / one hun-dred num-bers to the sky!"
+  },
+  "n1": {
+   "chords": "C | G | F | C | G | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "one, two, three, four, five, / six, sev-en, eight, nine, ten! / Ten! Clap your hands!"
+  },
+  "n2": {
+   "chords": "C | G | F | C | G | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "e-lev-en, twelve, thir-teen, four-teen, fif-teen, / six-teen, sev-en-teen, eight-een, nine-teen, twen-ty! / Twen-ty! Stomp your feet!"
+  },
+  "n3": {
+   "chords": "C | G | F | C | G | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "twen-ty one, twen-ty two, twen-ty three, twen-ty four, twen-ty five, / twen-ty six, twen-ty sev-en, twen-ty eight, twen-ty nine, thir-ty! / Thir-ty! Jump up high!"
+  },
+  "n4": {
+   "chords": "C | G | F | C | G | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "thir-ty one, thir-ty two, thir-ty three, thir-ty four, thir-ty five, / thir-ty six, thir-ty sev-en, thir-ty eight, thir-ty nine, for-ty! / For-ty! Wig-gle, wig-gle!"
+  },
+  "n5": {
+   "chords": "C | G | F | C | G | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "for-ty one, for-ty two, for-ty three, for-ty four, for-ty five, / for-ty six, for-ty sev-en, for-ty eight, for-ty nine, fif-ty! / Fif-ty! Half-way there!"
+  },
+  "n6": {
+   "chords": "C | G | F | C | G | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "fif-ty one, fif-ty two, fif-ty three, fif-ty four, fif-ty five, / fif-ty six, fif-ty sev-en, fif-ty eight, fif-ty nine, six-ty! / Six-ty! Spin a-round!"
+  },
+  "n7": {
+   "chords": "C | G | F | C | G | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "six-ty one, six-ty two, six-ty three, six-ty four, six-ty five, / six-ty six, six-ty sev-en, six-ty eight, six-ty nine, sev-en-ty! / Sev-en-ty! Touch your nose!"
+  },
+  "n8": {
+   "chords": "C | G | F | C | G | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "sev-en-ty one, sev-en-ty two, sev-en-ty three, sev-en-ty four, sev-en-ty five, / sev-en-ty six, sev-en-ty sev-en, sev-en-ty eight, sev-en-ty nine, eigh-ty! / Eigh-ty! Wave hel-lo!"
+  },
+  "n9": {
+   "chords": "C | G | F | C | G | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "eigh-ty one, eigh-ty two, eigh-ty three, eigh-ty four, eigh-ty five, / eigh-ty six, eigh-ty sev-en, eigh-ty eight, eigh-ty nine, nine-ty! / Nine-ty! Al-most there!"
+  },
+  "n10": {
+   "chords": "C | G | F | C | G | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "nine-ty one, nine-ty two, nine-ty three, nine-ty four, nine-ty five, / nine-ty six, nine-ty sev-en, nine-ty eight, nine-ty nine, one hun-dred! / One hun-dred! Hoo-ray, we did it!"
+  },
+  "tens": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Now count by tens, it's quick and fun! / Ten, twen-ty, thir-ty, here we come! / For-ty, fif-ty, six-ty, sev-en-ty, / eigh-ty, nine-ty, one hun-dred, yay!"
+  },
+  "q1": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What comes af-ter nine-teen? / Twen-ty!"
+  },
+  "q2": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What comes af-ter thir-ty nine? / For-ty!"
+  },
+  "q3": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What comes af-ter fif-ty? / Fif-ty one!"
+  },
+  "q4": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What comes af-ter nine-ty nine? / One hun-dred!"
+  },
+  "actions": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Clap for ten and stomp for twen-ty, / jump for thir-ty, we've got plen-ty! / Spin for for-ty, wave for fif-ty, / one hun-dred, aren't we nif-ty!"
+  },
+  "karaoke": {
+   "chords": "C | G | F | C | Am | F | G | C",
+   "melody": "C4:1 C4:1 E4:2 | G4:1 G4:1 E4:2 | F4:1 A4:1 A4:2 | G4:1 F4:1 E4:1 D4:1 | E4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": ""
+  },
+  "slow": {
+   "chords": "C | G | C | G | C | G | C | G | C | G",
+   "melody": "G4:1 E4:1 G4:0.5 G4:0.5 E4:1 | R:4 | G4:2 E4:2 | R:4 | G4:3 R:1 | R:4 | G4:2 E4:2 | R:4 | G4:2 E4:2 | R:4",
+   "lyrics": "Let's count by tens slow-ly! / Ten, twen-ty / Thir-ty, for-ty / Fif-ty, six-ty / Sev-en-ty, eigh-ty, nine-ty, one hun-dred!"
+  }
+ },
+ "ace": {
+  "style": "nursery",
+  "seeds": [
+   20,
+   51,
+   2035
+  ]
+ }
+}

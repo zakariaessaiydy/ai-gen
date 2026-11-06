@@ -96,5 +96,12 @@
    "melody": "G4:1 E4:1 G4:0.5 G4:0.5 E4:1 | R:4 | G4:2 E4:2 | R:4 | G4:3 R:1 | R:4 | G4:2 E4:2 | R:4 | G4:2 E4:2 | R:4",
    "lyrics": "Let's say them slow-ly! / Win-ter / Spring / Sum-mer / Au-tumn"
   }
+ },
+ "ace": {
+  "style": "sunshine",
+  "seeds": [
+   19,
+   50
+  ]
  }
 }

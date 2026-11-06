@@ -1,7 +1,8 @@
 // TINY SPARKS · Day 37 · 🔢 Numbers & Math #6 — "Numbers 1–20 with Dinosaurs" (LONG 16:9, 6:30, ages 6–8)
 // kids-shorts/tiny-sparks/numbers/day-037-numbers-1-20-with-dinosaurs. Cues from VO via K (keys.gen.ts).
 // FIRST episode with the ENERGY LAYER as the standard (make-kids) and the new DINO rig (lib/kids/dino.tsx):
-// ident on the jingle → STOMP hook, Rexy the T-rex jumps out → count 10 dinosaurs (each pops in, rainbow badge,
+// COLD OPEN (make-kids THE FIRST 10 SECONDS, re-cut Nov 2026): STOMP hook at 0.3 s, Rexy jumps out with ONE
+// premise line, Spark Girl "count with me", dino 1 at ~10 s (was 43.8 s) → count 10 dinosaurs (each pops in, rainbow badge,
 // big numeral + word, Spark Girl's fingers; back row 5 + front row 5 = 10) → Mama's two nests = place value:
 // a full nest of TEN + one more egg per number ("ten and one make eleven") → 20 eggs hatch in pairs (count by
 // twos) → find the number on the rocks (×3, think timers) + "11–19 all start with a one = one ten" → missing
@@ -10,12 +11,12 @@
 import React from 'react';
 import { Kid } from '../../lib/kids/kid';
 import { Critter } from '../../lib/kids/critter';
-import { BOBO_HERO, CAPTION_COLORS, LEO_HERO, MILA_HERO } from '../../lib/kids/cast/tiny-sparks';
+import { BOBO_HERO, CAPTION_COLORS, MILA_HERO } from '../../lib/kids/cast/tiny-sparks';
 import { FLOOR } from '../../lib/kids/sets';
 import { AnswerMark, Confetti, FONT_TOON, KidsCaptions, PopText, RAINBOW, ThinkTimer, lipSync, useT } from '../../lib/kids/kit';
 import { KINK, kst, type KExpr } from '../../lib/kids/face';
 import {
-  ActionStage, Dust, FocusLines, ImpactStar, MotionLines, Reaction, SparksIntro, StageWord, StarWipe, directorCam, hopAt, onBeat, shakeOf,
+  ActionStage, Dust, FocusLines, ImpactStar, MotionLines, Reaction, StageWord, StarWipe, directorCam, hopAt, onBeat, shakeOf,
   type Hit, type Shot,
 } from '../../lib/kids/energy';
 import { Dino, DinoEgg, DinoValley, EggNest, Footprint, NumStone, type DinoSpec } from '../../lib/kids/dino';
@@ -23,7 +24,7 @@ import { EASE_INOUT, EASE_OUT, prog, timeWords } from '../../lib/shorts';
 import { VO } from './vo.gen';
 import { K } from './keys.gen';
 
-export const compositionConfig = { id: 'KidsNumbers037', durationInSeconds: 389.3, fps: 30, width: 1920, height: 1080 };
+export const compositionConfig = { id: 'KidsNumbers037', durationInSeconds: 359.45, fps: 30, width: 1920, height: 1080 };
 
 const W = 1920;
 const H = 1080;
@@ -67,7 +68,6 @@ const TALL: Record<string, number> = { rex: 520, tops: 380, stego: 400, neck: 60
 const BABY_COLORS = ['#ffb3c6', '#a0e7e5', '#ffd166', '#b4f8c8', '#cdb4db', '#ffc09f'];
 
 // ── timeline anchors (all from the real word times)
-const INTRO_END = 3.6;
 const STOMPS = [word('stomp', 0), word('stomp', 1), word('stomp', 2)];
 const REX_OUT = S('rex_hi') - 0.7; // Rexy jumps out from behind the big bush …
 const REX_AIR = 0.7; // … and lands on "Roar!"
@@ -122,11 +122,8 @@ const SHOTS: Shot[] = (() => {
   const s: Shot[] = [
     { t: 0, z: 1.12, x: 760, y: 600, move: 'cut', push: 0.004 },
     { t: STOMPS[0] - 0.2, z: 1.0, x: 960, y: 540, move: 'smooth', dur: 0.8 },
-    { t: S('who') - 0.2, z: 1.4, x: 1240, y: 640, move: 'smooth', dur: 1.6, push: 0.015 }, // looking at the big bush
-    { t: REX_OUT + REX_AIR - 0.05, z: 1.25, x: 600, y: 620, move: 'snap', push: 0.01 }, // Rexy lands by the kids
-    { t: S('mila_hi') - 0.2, z: 1.55, x: 300, y: 600, move: 'whip' }, // the kids
-    { t: S('rex_ask') - 0.25, z: 1.5, x: 650, y: 560, move: 'whip', push: 0.012 }, // Rexy asks
-    { t: S('goal') - 0.3, z: 1.0, x: 960, y: 540, move: 'smooth', dur: 1.0 },
+    { t: STOMPS[2] + 0.05, z: 1.4, x: 1240, y: 640, move: 'smooth', dur: 0.5, push: 0.015 }, // the big bush shakes
+    { t: REX_OUT + REX_AIR - 0.05, z: 1.25, x: 600, y: 620, move: 'snap', push: 0.012 }, // Rexy lands by the kids
     { t: S('fingers') - 0.2, z: 1.7, x: 300, y: 560, move: 'snap', push: 0.01 }, // Spark Girl's ten fingers
   ];
   for (let i = 0; i < 10; i++) {
@@ -259,8 +256,8 @@ export default function KidsNumbers037() {
   // cast placement per scene
   const castX = scene === 'path' ? { mila: 150, bobo: 1790 } : { mila: 170, bobo: 460 };
   const yay = within(t, S('babies'), S('game')) || within(t, S('cnt_yay'), S('turn')) || within(t, CNT[9], CNT[9] + 1.5) || t >= S('bye');
-  const milaExpr: KExpr = yay ? 'laugh' : within(t, STOMPS[0], REX_OUT + REX_AIR + 0.4) ? 'surprised' : talks('mila') ? 'happy' : within(t, S('who'), REX_OUT) ? 'think' : 'smile';
-  const boboExpr: KExpr = yay ? 'laugh' : within(t, S('bobo_hi'), E('bobo_hi')) || within(t, S('egg20_b'), E('egg20_b')) ? 'wow' : within(t, STOMPS[0], REX_OUT + REX_AIR + 0.4) ? 'surprised' : talks('bobo') ? 'happy' : 'smile';
+  const milaExpr: KExpr = yay ? 'laugh' : within(t, STOMPS[0], REX_OUT + REX_AIR + 0.4) ? 'surprised' : talks('mila') ? 'happy' : 'smile';
+  const boboExpr: KExpr = yay ? 'laugh' : within(t, S('egg20_b'), E('egg20_b')) ? 'wow' : within(t, STOMPS[0], REX_OUT + REX_AIR + 0.4) ? 'surprised' : talks('bobo') ? 'happy' : 'smile';
   const pointing = ROUNDS.some((r) => within(t, S(r.a as Key), E(r.a as Key) + 0.4) && r.by === 'mila');
   const boboPoint = ROUNDS.some((r) => within(t, S(r.a as Key), E(r.a as Key) + 0.4) && r.by === 'bobo');
   const boboHop = scene === 'nest' && within(t, HATCH[0] - 0.1, S('babies')) ? hopAt(t, HATCH, { h: 40, air: 0.3, pre: 0.05, land: 0.12 }) : yay ? { hop: Math.abs(Math.sin(t * 7)) * 26, squash: 0, inAir: false } : { hop: 0, squash: 0, inAir: false };
@@ -291,7 +288,7 @@ export default function KidsNumbers037() {
   })();
   const rexHop = (() => {
     if (scene === 'count' && within(t, REX_OUT - 0.1, REX_OUT + REX_AIR + 0.3)) return hopAt(t, [REX_OUT], { h: 300, air: REX_AIR, pre: 0.1, land: 0.25 });
-    if (scene === 'count' && t < REX_OUT) return { hop: within(t, S('who') + 1.4, REX_OUT) ? Math.max(0, Math.sin((t - S('who') - 1.4) * 4)) * 40 - 40 : -120, squash: 0, inAir: false };
+    if (scene === 'count' && t < REX_OUT) return { hop: within(t, STOMPS[2] + 0.1, REX_OUT) ? Math.max(0, Math.sin((t - STOMPS[2] - 0.1) * 4)) * 40 - 40 : -120, squash: 0, inAir: false };
     if (scene === 'count') return hopAt(t, EGG_STOMPS, { h: 50, air: 0.3, pre: 0.06, land: 0.14 });
     if (scene === 'path') {
       const steps = within(t, KS[0] - 0.4, S('turn')) ? KS : within(t, TURN[0] - 0.4, S('great')) ? TURN : [];
@@ -299,7 +296,7 @@ export default function KidsNumbers037() {
     }
     return { hop: 0, squash: 0, inAir: false };
   })();
-  const rexExpr: KExpr = within(t, S('rex_hi'), word('rex_hi', 1)) ? 'laugh' : within(t, S('rex_ask'), E('rex_ask')) ? 'happy' : talks('rexy') ? 'happy' : yay ? 'laugh' : 'smile';
+  const rexExpr: KExpr = within(t, S('rex_hi'), word('rex_hi', 1)) ? 'laugh' : talks('rexy') ? 'happy' : yay ? 'laugh' : 'smile';
   const rexMouth = within(t, word('rex_hi', 0), word('rex_hi', 1)) ? 0.95 : lipSync(VO, 'rexy', t);
 
   // stone + step rounds
@@ -323,7 +320,7 @@ export default function KidsNumbers037() {
             {STOMPS.map((s, i) => <Dust key={i} t={t} at={s} x={1500 - i * 220} y={f + 40} s={0.8 + i * 0.2} />)}
             {/* Rexy behind the big bush, then out */}
             {t < REX_OUT && (
-              <Dino spec={REXY} x={rexPos.x} y={rexPos.y} scale={rexPos.s} facing={rexPos.facing} expr={within(t, S('who') + 1.4, REX_OUT) ? 'wow' : 'happy'} look={[-0.6, 0]} hop={rexHop.hop} squash={rexHop.squash} />
+              <Dino spec={REXY} x={rexPos.x} y={rexPos.y} scale={rexPos.s} facing={rexPos.facing} expr={within(t, STOMPS[2] + 0.1, REX_OUT) ? 'wow' : 'happy'} look={[-0.6, 0]} hop={rexHop.hop} squash={rexHop.squash} />
             )}
             <BigBush x={BUSH_X} />
             {/* the ten dinosaurs */}
@@ -528,7 +525,7 @@ export default function KidsNumbers037() {
           hop={boboHop.hop} squash={boboHop.squash} />
 
         <Kid spec={MILA_HERO} x={castX.mila} y={f} scale={0.62} expr={milaExpr} look={[0.7, 0]} mouth={lipSync(VO, 'mila', t)}
-          armL={fingers > 0 ? 'count' : pointing ? 'point' : yay ? 'up' : within(t, S('mila_hi'), E('mila_hi')) ? 'wave' : 'down'}
+          armL={fingers > 0 ? 'count' : pointing ? 'point' : yay ? 'up' : within(t, S('rex_hi'), E('rex_hi')) ? 'wave' : 'down'}
           armR={fR > 0 ? 'count' : yay ? 'up' : 'hip'} fingersL={fL} fingersR={fR} hop={yay ? Math.abs(Math.sin(t * 7 + 1)) * 24 : 0} />
         {tenTag && fingers > 0 && (
           <g transform={`translate(${castX.mila},${f - 520}) scale(${popIn(t, scene === 'nest' ? LAND[0] : KS[10])})`}>
@@ -538,19 +535,17 @@ export default function KidsNumbers037() {
         )}
         {/* reactions on the kids */}
         <Reaction kind="!" t={t} at={STOMPS[0] + 0.05} until={STOMPS[2] + 0.8} x={castX.mila + 10} y={f - 520} s={0.6} />
-        <Reaction kind="?" t={t} at={E('who') + 0.1} until={REX_OUT} x={castX.bobo + 30} y={f - 420} s={0.6} />
-        <Reaction kind="heart" t={t} at={S('bobo_hi') + 0.6} until={E('bobo_hi') + 0.4} x={castX.bobo} y={f - 420} s={0.7} />
+        <Reaction kind="heart" t={t} at={word('rex_hi', 3)} until={E('rex_hi') + 0.4} x={castX.bobo} y={f - 420} s={0.7} />
         <Reaction kind="idea" t={t} at={word('egg20', 6)} until={E('egg20') + 0.6} x={castX.mila} y={f - 560} s={0.7} />
         <Reaction kind="?" t={t} at={E('m1q') + 0.1} until={S('m1a')} x={castX.mila + 20} y={f - 540} s={0.55} />
         <Reaction kind="?" t={t} at={E('m2q') + 0.1} until={S('m2a')} x={castX.bobo + 20} y={f - 420} s={0.55} />
       </ActionStage>
 
       {/* ── screen-space ─────────────────────────────────────────────────── */}
-      <PopText t={t} at={INTRO_END + 0.15} until={STOMPS[2] + 0.4} text="NUMBERS 1–20" y={150} size={120} color="#ffca3a" />
-      <PopText t={t} at={INTRO_END + 0.45} until={STOMPS[2] + 0.4} text="with DINOSAURS" y={270} size={70} color="#ffffff" rot={2} />
-      <ThinkTimer t={t} from={E('who') + 0.1} to={REX_OUT} x={1760} y={190} r={90} label="WHO?" />
+      <PopText t={t} at={0.05} until={REX_OUT + 0.2} text="NUMBERS 1–20" y={150} size={120} color="#ffca3a" />
+      <PopText t={t} at={0.3} until={REX_OUT + 0.2} text="with DINOSAURS" y={270} size={70} color="#ffffff" rot={2} />
       <FocusLines t={t} from={REX_OUT + REX_AIR - 0.05} to={REX_OUT + REX_AIR + 1.0} x={W * 0.35} y={H * 0.5} r={H * 0.36} />
-      <PopText t={t} at={word('goal', 6)} until={E('goal') + 0.8} text="COUNT TO 20!" y={170} size={120} color="#ffca3a" />
+      <PopText t={t} at={word('rex_hi', 5)} until={E('fingers') + 0.3} text="COUNT TO 20!" y={170} size={120} color="#ffca3a" />
       {/* 1–10: the big numeral + its word on each count */}
       {CNT.map((c, i) => (
         <React.Fragment key={i}>
@@ -606,7 +601,6 @@ export default function KidsNumbers037() {
       <Confetti t={t} at={S('babies')} y={420} />
       <Confetti t={t} at={S('cnt_yay')} y={420} />
       <KidsCaptions lines={VO} t={t} colors={COLORS} />
-      <SparksIntro t={t} at={0} cast={{ kids: [MILA_HERO, LEO_HERO], buddy: BOBO_HERO }} />
       {WIPES.map((w, i) => <StarWipe key={i} t={t} at={w} dur={0.45} hold={0.15} color={['#ffca3a', '#4cc9f0', '#ff6fa5', '#8ac926'][i]} />)}
       <StarWipe t={t} at={END_IRIS} dur={0.5} hold={5} color="#3b2a4a" x={W / 2} y={H * 0.5} />
     </>

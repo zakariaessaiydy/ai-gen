@@ -394,7 +394,7 @@
       "text": "Hi again! I'm Drippy! Today, I'm going to help make a rainbow!",
       "gap": 1.8,
       "start": 30.75,
-      "end": 34.58,
+      "end": 34.59,
       "words": [
         {
           "w": "Hi",
@@ -969,7 +969,7 @@
       "text": "Yellow, like a banana!",
       "gap": 1.4,
       "start": 84.22,
-      "end": 85.68,
+      "end": 85.69,
       "words": [
         {
           "w": "Yellow,",
@@ -1644,7 +1644,7 @@
       "text": "Behind me! And the rain in front!",
       "gap": 2.4,
       "start": 143.77,
-      "end": 145.85,
+      "end": 145.86,
       "words": [
         {
           "w": "Behind",
@@ -1989,72 +1989,72 @@
       "text": "Hmm... can we see a rainbow at night, when there is no sun?",
       "gap": 5.0,
       "start": 174.65,
-      "end": 177.91,
+      "end": 177.8,
       "words": [
         {
           "w": "Hmm...",
-          "start": 174.78,
-          "end": 175.17
+          "start": 174.67,
+          "end": 175.06
         },
         {
           "w": "can",
-          "start": 175.3,
-          "end": 175.477
+          "start": 175.2,
+          "end": 175.377
         },
         {
           "w": "we",
-          "start": 175.477,
-          "end": 175.609
+          "start": 175.377,
+          "end": 175.509
         },
         {
           "w": "see",
-          "start": 175.609,
-          "end": 175.786
+          "start": 175.509,
+          "end": 175.686
         },
         {
           "w": "a",
-          "start": 175.786,
-          "end": 175.918
+          "start": 175.686,
+          "end": 175.818
         },
         {
           "w": "rainbow",
-          "start": 175.918,
-          "end": 176.271
+          "start": 175.818,
+          "end": 176.171
         },
         {
           "w": "at",
-          "start": 176.271,
-          "end": 176.359
+          "start": 176.171,
+          "end": 176.259
         },
         {
           "w": "night,",
-          "start": 176.359,
-          "end": 176.58
+          "start": 176.259,
+          "end": 176.48
         },
         {
           "w": "when",
-          "start": 176.7,
-          "end": 176.913
+          "start": 176.59,
+          "end": 176.803
         },
         {
           "w": "there",
-          "start": 176.913,
-          "end": 177.127
+          "start": 176.803,
+          "end": 177.017
         },
         {
           "w": "is",
-          "start": 177.127,
-          "end": 177.233
+          "start": 177.017,
+          "end": 177.123
         },
         {
           "w": "no",
-          "start": 177.233,
-          "end": 177.447
+          "start": 177.123,
+          "end": 177.337
         },
         {
           "w": "sun?",
-          "start": 177.447,
-          "end": 177.66
+          "start": 177.337,
+          "end": 177.55
         }
       ]
     },
@@ -2284,7 +2284,7 @@
       "text": "Step three. Hold a white paper on the floor, below the glass... and look!",
       "gap": 2.0,
       "start": 202.89,
-      "end": 207.58,
+      "end": 207.57,
       "words": [
         {
           "w": "Step",
@@ -2409,7 +2409,7 @@
       "text": "Color game! What color comes after yellow?",
       "gap": 5.0,
       "start": 214.48,
-      "end": 217.04,
+      "end": 217.03,
       "words": [
         {
           "w": "Color",

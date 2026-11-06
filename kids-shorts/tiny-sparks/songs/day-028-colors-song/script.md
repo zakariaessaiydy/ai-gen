@@ -1,9 +1,12 @@
-# Day 28 — The Colors Song (LONG 16:9, 5 min 08 s · original song)
+# Day 28 — The Colors Song (LONG 16:9, 5 min 04 s · original song)
 
 Niche: 🎵 Educational Songs #4 · ages 3–5 · hero outfits: Spark Girl (Mila) sings (Kokoro af_sky chant on the
 beat), Captain Leo, Professor Hoot and Super Bobo dance. Song: `song.json` → `python tools/gen_song.py song.json
 --vocal chant --emit-ts remotion/src/shots/kids-songs-028/song.gen.ts` (94 bpm, xylophone + ukulele + bass + soft
-drums; 0 melody warnings; 308.4 s). Original melody + original lyrics → no Content-ID risk (deliberately NOT
+drums; 0 melody warnings; 303.5 s).
+**RE-CUT Nov 2026 (make-kids THE FIRST 10 SECONDS):** YouTube analytics showed retention 51.8 % at 9 s, just before
+the first sung word (a title card + 2 instrumental bars). Now `introBars: 0` + `leadIn: 0.25`: the chorus starts at
+0.25 s with the balloons, the title is a PopText over the dancing cast. The rest is unchanged, 4.86 s earlier. Original melody + original lyrics → no Content-ID risk (deliberately NOT
 "I Can Sing a Rainbow").
 Form (MIN 5:00 rule for 16:9): CHORUS → 10 colour verses ("Red, red, red! / Red like an apple!" + a 2-bar YOUR
 TURN echo; the paint-drop strip fills in) → CHORUS → MIXING bridge (red + yellow = orange · blue + yellow = green ·
@@ -30,15 +33,15 @@ I see colors, how about you?
 🎨 Red + yellow = orange · Blue + yellow = green · Red + blue = purple
 
 0:00 Colors chorus
-0:25 Red, orange, yellow
-0:56 Green, blue, purple
-1:26 Pink, brown, black, white
-2:07 Sing with me!
-2:28 Let's mix colors!
-2:58 Chorus
-3:19 Color quiz
-4:20 Now YOU sing!
-4:40 All together!
+0:20 Red, orange, yellow
+0:51 Green, blue, purple
+1:21 Pink, brown, black, white
+2:02 Sing with me!
+2:23 Let's mix colors!
+2:53 Chorus
+3:14 Color quiz
+4:15 Now YOU sing!
+4:35 All together!
 
 Original song by Tiny Sparks. For ages 2–5.
 

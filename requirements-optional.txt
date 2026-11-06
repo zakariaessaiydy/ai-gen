@@ -9,6 +9,9 @@
 kokoro-onnx
 numpy
 
+# Song lyric alignment for ACE-Step takes: tools/align_song.py (CPU, free; downloads a whisper model once)
+faster-whisper
+
 # Free online TTS: gen_voice --engine edge
 edge-tts
 

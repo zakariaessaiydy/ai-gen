@@ -119,5 +119,12 @@
   "karaoke",
   "slow",
   "chorus"
- ]
+ ],
+ "ace": {
+  "style": "kidspop",
+  "seeds": [
+   17,
+   48
+  ]
+ }
 }

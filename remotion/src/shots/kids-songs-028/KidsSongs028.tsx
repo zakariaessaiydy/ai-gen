@@ -5,18 +5,20 @@
 // with a 2-bar YOUR TURN echo → CHORUS → MIXING bridge (red+yellow=orange, blue+yellow=green, red+blue=purple:
 // two paint splats swirl together) → CHORUS → COLOUR QUIZ in the song (6 grey pictures + 3 paint choices, a
 // THINK bar, the answer colours the picture in) → KARAOKE chorus ("NOW YOU SING!", no vocal) → CHORUS → end.
+// COLD OPEN (make-kids THE FIRST 10 SECONDS, re-cut Nov 2026): introBars 0, the chorus at 0.25 s (was 5.1 s after
+// a title card), the title is a PopText over the dancing cast.
 // Hero outfits: Spark Girl sings, Captain Leo, Professor Hoot and Super Bobo dance.
 import React from 'react';
 import { Kid } from '../../lib/kids/kid';
 import { Critter, type CritterSpec } from '../../lib/kids/critter';
 import { BOBO, BOBO_HERO, HOOT_HERO, LEO_HERO, MILA_HERO } from '../../lib/kids/cast/tiny-sparks';
 import { FLOOR, Meadow, Sun } from '../../lib/kids/sets';
-import { AnswerMark, Apple, Confetti, FONT_TOON, KidsStage, PopText, SingAlong, ThinkTimer, TitleCard, camAt, lipSync, useT, type CamKey } from '../../lib/kids/kit';
+import { AnswerMark, Apple, Confetti, FONT_TOON, KidsStage, PopText, SingAlong, ThinkTimer, camAt, lipSync, useT, type CamKey } from '../../lib/kids/kit';
 import { KINK, kst } from '../../lib/kids/face';
 import { EASE_INOUT, EASE_OUT, prog, timeWords, type VoLine } from '../../lib/shorts';
 import { SONG, SONG_BEAT } from './song.gen';
 
-export const compositionConfig = { id: 'KidsSongs028', durationInSeconds: 308.4, fps: 30, width: 1920, height: 1080 };
+export const compositionConfig = { id: 'KidsSongs028', durationInSeconds: 293.57, fps: 30, width: 1920, height: 1080 };
 
 const W = 1920;
 const H = 1080;
@@ -25,6 +27,7 @@ const S = (i: number) => SONG[i].start;
 const E = (i: number) => SONG[i].end;
 const within = (t: number, a: number, b: number) => t >= a && t < b;
 const BAR = SONG_BEAT * 4;
+const LEAD = S(0); // song.json leadIn: bar 1 starts here, so the dance grid is (t - LEAD)
 const mixHex = (a: string, b: string, p: number) => {
   const ca = [1, 3, 5].map((i) => parseInt(a.slice(i, i + 2), 16));
   const cb = [1, 3, 5].map((i) => parseInt(b.slice(i, i + 2), 16));
@@ -36,7 +39,7 @@ const CHORUS = [0, 24, 34, 50];
 const verseLine = (i: number) => 4 + i * 2; // + 1 = "<colour> like a …"
 const MIX0 = 28;
 const QUIZ0 = 38;
-const KAR0 = S(50) - 8 * BAR; // the karaoke chorus = 8 instrumental bars before the last chorus
+const KAR0 = Math.max(E(49) + 0.5, S(50) - 8 * BAR); // karaoke chorus in the instrumental gap before the last chorus (never over the last answer)
 const KAR_OFF = KAR0 - S(0);
 const KARAOKE: VoLine[] = SONG.slice(0, 4).map((l) => ({
   ...l, speaker: 'you', start: l.start + KAR_OFF, end: l.end + KAR_OFF,
@@ -190,9 +193,10 @@ const CAM: CamKey[] = [{ t: 0, z: 1, x: W / 2, y: H / 2 }];
 export default function KidsSongs028() {
   const t = useT();
   const cam = camAt(t, CAM);
-  const beat = Math.abs(Math.sin((t / SONG_BEAT) * Math.PI));
-  const bar = Math.floor(t / BAR);
-  const dance = (phase: number, amp = 26) => Math.abs(Math.sin((t / SONG_BEAT) * Math.PI + phase)) * amp;
+  const tb = Math.max(0, t - LEAD);
+  const beat = Math.abs(Math.sin((tb / SONG_BEAT) * Math.PI));
+  const bar = Math.floor(tb / BAR);
+  const dance = (phase: number, amp = 26) => Math.abs(Math.sin((tb / SONG_BEAT) * Math.PI + phase)) * amp;
   const armSwap = bar % 2 === 0;
   const singing = SONG.some((l) => t >= l.start && t < l.end);
 
@@ -320,7 +324,7 @@ export default function KidsSongs028() {
             const at = (chorusIdx >= 0 ? S(CHORUS[chorusIdx]) : karaoke ? KAR0 : E(LAST)) + i * 0.08 - 0.3;
             const s = EASE_OUT(prog(t, at, at + 0.4)) * (lineLit === i ? 1.25 : 1);
             const x = W / 2 + (i - 4.5) * 150;
-            const y = 300 + Math.abs(i - 4.5) * 18 - Math.abs(Math.sin((t / SONG_BEAT) * Math.PI + i * 0.6)) * 26;
+            const y = 300 + Math.abs(i - 4.5) * 18 - Math.abs(Math.sin((tb / SONG_BEAT) * Math.PI + i * 0.6)) * 26;
             return (
               <g key={c.name} transform={`translate(${x},${y}) scale(${s}) rotate(${Math.sin(t * 2 + i) * 5})`}>
                 <Balloon c={c.hex} />
@@ -340,7 +344,7 @@ export default function KidsSongs028() {
           armL={beat > 0.5 ? 'clap' : 'up'} armR={beat > 0.5 ? 'clap' : 'up'} hop={dance(1.8, 22)} />
         {end && <g transform="translate(1720,180) scale(0.8)"><Sun x={0} y={0} t={t} /></g>}
       </KidsStage>
-      <TitleCard t={t} from={0} to={1.4} title="COLORS!" sub="the colors song" />
+      <PopText t={t} at={0.05} until={E(1) - 0.3} text="THE COLORS SONG!" y={110} size={96} color="#ffca3a" />
       {chorusIdx >= 0 && <PopText t={t} at={S(CHORUS[chorusIdx] + 3)} until={E(CHORUS[chorusIdx] + 3) + 0.4} text="SING WITH ME!" y={560} size={90} color="#ffca3a" />}
       {karaoke && <PopText t={t} at={KAR0 - 0.4} text="NOW YOU SING!" y={560} size={110} color="#ff6fa5" />}
       {yourTurn && vi >= 0 && (
