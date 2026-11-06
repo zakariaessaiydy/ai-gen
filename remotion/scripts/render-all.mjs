@@ -19,6 +19,8 @@ import { findFfmpeg } from './lib/ffmpeg.mjs';
 import path from 'path';
 import { getServeUrl, REMOTION_ROOT as root } from './lib/bundle-cache.mjs';
 import { generate } from './gen-registry.mjs';
+// a local Chrome/Chromium instead of Remotion's download (e.g. a locked-down network): REMOTION_BROWSER=/path/to/chrome
+const BROWSER = process.env.REMOTION_BROWSER || null;
 
 const args = process.argv.slice(2);
 const flag = (name, dflt) => {
@@ -108,12 +110,12 @@ const t0 = Date.now();
 for (const shot of manifest) {
   if (onlyIds.length && !onlyIds.includes(shot.id)) continue;
   try { // one broken shot must not abort a whole batch
-    const composition = await selectComposition({ serveUrl, id: shot.id });
+    const composition = await selectComposition({ browserExecutable: BROWSER, serveUrl, id: shot.id });
 
     if (stillMode) {
       const out = path.join(outDir, `${shot.id}.png`);
       await renderStill({
-        serveUrl, composition, output: out, scale: SCALE, overwrite: true,
+        browserExecutable: BROWSER, serveUrl, composition, output: out, scale: SCALE, overwrite: true,
         frame: Math.floor(composition.durationInFrames * 0.6),
         imageFormat: shot.transparent ? 'png' : 'jpeg',
       });
@@ -123,7 +125,7 @@ for (const shot of manifest) {
       const suffix = draft ? '-draft' : '';
       const out = path.join(outDir, `${shot.id}${suffix}.${transparent ? 'mov' : 'mp4'}`);
       const opts = {
-        serveUrl, composition, scale: SCALE, overwrite: true,
+        browserExecutable: BROWSER, serveUrl, composition, scale: SCALE, overwrite: true,
         codec: transparent ? 'prores' : 'h264',
         proResProfile: transparent ? '4444' : undefined,
         pixelFormat: transparent ? 'yuva444p10le' : 'yuv420p',

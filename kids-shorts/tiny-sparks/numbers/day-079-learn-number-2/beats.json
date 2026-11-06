@@ -1,0 +1,3663 @@
+{
+  "id": "day-079",
+  "series": "tiny-sparks",
+  "episode": 79,
+  "title": "Learn Number 2",
+  "composition": "KidsNumbers079",
+  "audience": "ages 3-6 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 339.7
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    },
+    "narrator_fr": {
+      "kokoro": "ff_siwis",
+      "lang": "fr",
+      "rate": "-6%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -7,
+    "duck": 8,
+    "start": 0,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "n2",
+      "speaker": "leo",
+      "text": "Look! Two fingers! Two!",
+      "gap": 1.2,
+      "start": 0.3,
+      "end": 1.87,
+      "words": [
+        {
+          "w": "Look!",
+          "start": 0.33,
+          "end": 0.604
+        },
+        {
+          "w": "Two",
+          "start": 0.604,
+          "end": 0.877
+        },
+        {
+          "w": "fingers!",
+          "start": 0.877,
+          "end": 1.356
+        },
+        {
+          "w": "Two!",
+          "start": 1.356,
+          "end": 1.63
+        }
+      ]
+    },
+    {
+      "beat": "n2b",
+      "speaker": "mila",
+      "text": "And this is how we write it. Number two!",
+      "gap": 1.2,
+      "start": 3.07,
+      "end": 5.35,
+      "words": [
+        {
+          "w": "And",
+          "start": 3.1,
+          "end": 3.272
+        },
+        {
+          "w": "this",
+          "start": 3.272,
+          "end": 3.502
+        },
+        {
+          "w": "is",
+          "start": 3.502,
+          "end": 3.617
+        },
+        {
+          "w": "how",
+          "start": 3.617,
+          "end": 3.846
+        },
+        {
+          "w": "we",
+          "start": 3.846,
+          "end": 4.018
+        },
+        {
+          "w": "write",
+          "start": 4.018,
+          "end": 4.305
+        },
+        {
+          "w": "it.",
+          "start": 4.305,
+          "end": 4.42
+        },
+        {
+          "w": "Number",
+          "start": 4.57,
+          "end": 4.978
+        },
+        {
+          "w": "two!",
+          "start": 4.978,
+          "end": 5.25
+        }
+      ]
+    },
+    {
+      "beat": "premise",
+      "speaker": "hoot",
+      "text": "Today, let's learn all about number two!",
+      "gap": 1.4,
+      "start": 6.55,
+      "end": 9.3,
+      "words": [
+        {
+          "w": "Today,",
+          "start": 6.59,
+          "end": 7.8
+        },
+        {
+          "w": "let's",
+          "start": 7.93,
+          "end": 8.145
+        },
+        {
+          "w": "learn",
+          "start": 8.145,
+          "end": 8.36
+        },
+        {
+          "w": "all",
+          "start": 8.36,
+          "end": 8.532
+        },
+        {
+          "w": "about",
+          "start": 8.532,
+          "end": 8.79
+        },
+        {
+          "w": "number",
+          "start": 8.79,
+          "end": 9.048
+        },
+        {
+          "w": "two!",
+          "start": 9.048,
+          "end": 9.22
+        }
+      ]
+    },
+    {
+      "beat": "look",
+      "speaker": "mila",
+      "text": "Number two has a round top, and a flat bottom.",
+      "gap": 1.2,
+      "start": 10.7,
+      "end": 13.54,
+      "words": [
+        {
+          "w": "Number",
+          "start": 10.73,
+          "end": 11.184
+        },
+        {
+          "w": "two",
+          "start": 11.184,
+          "end": 11.487
+        },
+        {
+          "w": "has",
+          "start": 11.487,
+          "end": 11.79
+        },
+        {
+          "w": "a",
+          "start": 11.79,
+          "end": 12.017
+        },
+        {
+          "w": "round",
+          "start": 12.017,
+          "end": 12.471
+        },
+        {
+          "w": "top,",
+          "start": 12.471,
+          "end": 12.85
+        },
+        {
+          "w": "and",
+          "start": 12.97,
+          "end": 13.047
+        },
+        {
+          "w": "a",
+          "start": 13.047,
+          "end": 13.123
+        },
+        {
+          "w": "flat",
+          "start": 13.123,
+          "end": 13.251
+        },
+        {
+          "w": "bottom.",
+          "start": 13.251,
+          "end": 13.43
+        }
+      ]
+    },
+    {
+      "beat": "swan",
+      "speaker": "hoot",
+      "text": "It looks like a swan, swimming on the water!",
+      "gap": 1.6,
+      "start": 14.74,
+      "end": 17.73,
+      "words": [
+        {
+          "w": "It",
+          "start": 14.78,
+          "end": 14.908
+        },
+        {
+          "w": "looks",
+          "start": 14.908,
+          "end": 15.228
+        },
+        {
+          "w": "like",
+          "start": 15.228,
+          "end": 15.548
+        },
+        {
+          "w": "a",
+          "start": 15.548,
+          "end": 15.74
+        },
+        {
+          "w": "swan,",
+          "start": 15.74,
+          "end": 16.06
+        },
+        {
+          "w": "swimming",
+          "start": 16.27,
+          "end": 16.803
+        },
+        {
+          "w": "on",
+          "start": 16.803,
+          "end": 17.031
+        },
+        {
+          "w": "the",
+          "start": 17.031,
+          "end": 17.183
+        },
+        {
+          "w": "water!",
+          "start": 17.183,
+          "end": 17.64
+        }
+      ]
+    },
+    {
+      "beat": "say1",
+      "speaker": "mila",
+      "text": "Two.",
+      "gap": 1.0,
+      "start": 19.33,
+      "end": 20.14,
+      "words": [
+        {
+          "w": "Two.",
+          "start": 19.38,
+          "end": 19.99
+        }
+      ]
+    },
+    {
+      "beat": "say2",
+      "speaker": "mila",
+      "text": "Two!",
+      "gap": 1.0,
+      "start": 21.14,
+      "end": 21.95,
+      "words": [
+        {
+          "w": "Two!",
+          "start": 21.19,
+          "end": 21.8
+        }
+      ]
+    },
+    {
+      "beat": "say_turn",
+      "speaker": "mila",
+      "text": "Your turn! Say two!",
+      "gap": 2.2,
+      "start": 22.95,
+      "end": 24.48,
+      "words": [
+        {
+          "w": "Your",
+          "start": 22.99,
+          "end": 23.241
+        },
+        {
+          "w": "turn!",
+          "start": 23.241,
+          "end": 23.66
+        },
+        {
+          "w": "Say",
+          "start": 23.66,
+          "end": 23.995
+        },
+        {
+          "w": "two!",
+          "start": 23.995,
+          "end": 24.33
+        }
+      ]
+    },
+    {
+      "beat": "fingers",
+      "speaker": "hoot",
+      "text": "Can you show me two fingers? Hold them up high!",
+      "gap": 2.8,
+      "start": 26.68,
+      "end": 29.66,
+      "words": [
+        {
+          "w": "Can",
+          "start": 26.7,
+          "end": 26.938
+        },
+        {
+          "w": "you",
+          "start": 26.938,
+          "end": 27.117
+        },
+        {
+          "w": "show",
+          "start": 27.117,
+          "end": 27.356
+        },
+        {
+          "w": "me",
+          "start": 27.356,
+          "end": 27.594
+        },
+        {
+          "w": "two",
+          "start": 27.594,
+          "end": 27.833
+        },
+        {
+          "w": "fingers?",
+          "start": 27.833,
+          "end": 28.25
+        },
+        {
+          "w": "Hold",
+          "start": 28.51,
+          "end": 28.891
+        },
+        {
+          "w": "them",
+          "start": 28.891,
+          "end": 29.145
+        },
+        {
+          "w": "up",
+          "start": 29.145,
+          "end": 29.336
+        },
+        {
+          "w": "high!",
+          "start": 29.336,
+          "end": 29.59
+        }
+      ]
+    },
+    {
+      "beat": "fingers_b",
+      "speaker": "bobo",
+      "text": "My paws are fluffy! But look. One, two!",
+      "gap": 1.6,
+      "start": 32.46,
+      "end": 34.59,
+      "words": [
+        {
+          "w": "My",
+          "start": 32.49,
+          "end": 32.725
+        },
+        {
+          "w": "paws",
+          "start": 32.725,
+          "end": 33.019
+        },
+        {
+          "w": "are",
+          "start": 33.019,
+          "end": 33.196
+        },
+        {
+          "w": "fluffy!",
+          "start": 33.196,
+          "end": 33.549
+        },
+        {
+          "w": "But",
+          "start": 33.549,
+          "end": 33.784
+        },
+        {
+          "w": "look.",
+          "start": 33.784,
+          "end": 34.019
+        },
+        {
+          "w": "One,",
+          "start": 34.019,
+          "end": 34.255
+        },
+        {
+          "w": "two!",
+          "start": 34.255,
+          "end": 34.49
+        }
+      ]
+    },
+    {
+      "beat": "draw",
+      "speaker": "hoot",
+      "text": "Let's write a two on the board! Start at the top, and curve around...",
+      "gap": 0.6,
+      "start": 36.19,
+      "end": 40.39,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 36.22,
+          "end": 36.516
+        },
+        {
+          "w": "write",
+          "start": 36.516,
+          "end": 36.813
+        },
+        {
+          "w": "a",
+          "start": 36.813,
+          "end": 36.99
+        },
+        {
+          "w": "two",
+          "start": 36.99,
+          "end": 37.227
+        },
+        {
+          "w": "on",
+          "start": 37.227,
+          "end": 37.405
+        },
+        {
+          "w": "the",
+          "start": 37.405,
+          "end": 37.524
+        },
+        {
+          "w": "board!",
+          "start": 37.524,
+          "end": 37.82
+        },
+        {
+          "w": "Start",
+          "start": 38.12,
+          "end": 38.531
+        },
+        {
+          "w": "at",
+          "start": 38.531,
+          "end": 38.669
+        },
+        {
+          "w": "the",
+          "start": 38.669,
+          "end": 38.806
+        },
+        {
+          "w": "top,",
+          "start": 38.806,
+          "end": 39.08
+        },
+        {
+          "w": "and",
+          "start": 39.26,
+          "end": 39.466
+        },
+        {
+          "w": "curve",
+          "start": 39.466,
+          "end": 39.809
+        },
+        {
+          "w": "around...",
+          "start": 39.809,
+          "end": 40.29
+        }
+      ]
+    },
+    {
+      "beat": "draw2",
+      "speaker": "hoot",
+      "text": "slide down to the corner, and go along the bottom. Two!",
+      "gap": 1.6,
+      "start": 40.99,
+      "end": 45.04,
+      "words": [
+        {
+          "w": "slide",
+          "start": 41.02,
+          "end": 41.415
+        },
+        {
+          "w": "down",
+          "start": 41.415,
+          "end": 41.745
+        },
+        {
+          "w": "to",
+          "start": 41.745,
+          "end": 41.943
+        },
+        {
+          "w": "the",
+          "start": 41.943,
+          "end": 42.075
+        },
+        {
+          "w": "corner,",
+          "start": 42.075,
+          "end": 42.47
+        },
+        {
+          "w": "and",
+          "start": 42.68,
+          "end": 42.885
+        },
+        {
+          "w": "go",
+          "start": 42.885,
+          "end": 43.16
+        },
+        {
+          "w": "along",
+          "start": 43.16,
+          "end": 43.502
+        },
+        {
+          "w": "the",
+          "start": 43.502,
+          "end": 43.639
+        },
+        {
+          "w": "bottom.",
+          "start": 43.639,
+          "end": 44.05
+        },
+        {
+          "w": "Two!",
+          "start": 44.45,
+          "end": 44.96
+        }
+      ]
+    },
+    {
+      "beat": "draw_turn",
+      "speaker": "mila",
+      "text": "Now you! Draw a two in the air. Around, down, and along!",
+      "gap": 2.8,
+      "start": 46.64,
+      "end": 49.84,
+      "words": [
+        {
+          "w": "Now",
+          "start": 46.68,
+          "end": 46.94
+        },
+        {
+          "w": "you!",
+          "start": 46.94,
+          "end": 47.136
+        },
+        {
+          "w": "Draw",
+          "start": 47.136,
+          "end": 47.461
+        },
+        {
+          "w": "a",
+          "start": 47.461,
+          "end": 47.657
+        },
+        {
+          "w": "two",
+          "start": 47.657,
+          "end": 47.917
+        },
+        {
+          "w": "in",
+          "start": 47.917,
+          "end": 48.112
+        },
+        {
+          "w": "the",
+          "start": 48.112,
+          "end": 48.243
+        },
+        {
+          "w": "air.",
+          "start": 48.243,
+          "end": 48.438
+        },
+        {
+          "w": "Around,",
+          "start": 48.438,
+          "end": 48.894
+        },
+        {
+          "w": "down,",
+          "start": 48.894,
+          "end": 49.219
+        },
+        {
+          "w": "and",
+          "start": 49.219,
+          "end": 49.414
+        },
+        {
+          "w": "along!",
+          "start": 49.414,
+          "end": 49.74
+        }
+      ]
+    },
+    {
+      "beat": "draw_again",
+      "speaker": "hoot",
+      "text": "Once more, slowly. Around...",
+      "gap": 0.6,
+      "start": 52.64,
+      "end": 54.98,
+      "words": [
+        {
+          "w": "Once",
+          "start": 52.67,
+          "end": 53.153
+        },
+        {
+          "w": "more,",
+          "start": 53.153,
+          "end": 53.539
+        },
+        {
+          "w": "slowly.",
+          "start": 53.539,
+          "end": 54.214
+        },
+        {
+          "w": "Around...",
+          "start": 54.214,
+          "end": 54.89
+        }
+      ]
+    },
+    {
+      "beat": "draw_again2",
+      "speaker": "mila",
+      "text": "down, and along the bottom. Two!",
+      "gap": 2.0,
+      "start": 55.58,
+      "end": 57.67,
+      "words": [
+        {
+          "w": "down,",
+          "start": 55.61,
+          "end": 55.985
+        },
+        {
+          "w": "and",
+          "start": 55.985,
+          "end": 56.21
+        },
+        {
+          "w": "along",
+          "start": 56.21,
+          "end": 56.585
+        },
+        {
+          "w": "the",
+          "start": 56.585,
+          "end": 56.735
+        },
+        {
+          "w": "bottom.",
+          "start": 56.735,
+          "end": 57.26
+        },
+        {
+          "w": "Two!",
+          "start": 57.26,
+          "end": 57.56
+        }
+      ]
+    },
+    {
+      "beat": "leo_draw",
+      "speaker": "leo",
+      "text": "My turn! I can do it! Look!",
+      "gap": 0.6,
+      "start": 59.67,
+      "end": 61.39,
+      "words": [
+        {
+          "w": "My",
+          "start": 59.7,
+          "end": 59.935
+        },
+        {
+          "w": "turn!",
+          "start": 59.935,
+          "end": 60.23
+        },
+        {
+          "w": "I",
+          "start": 60.23,
+          "end": 60.406
+        },
+        {
+          "w": "can",
+          "start": 60.406,
+          "end": 60.642
+        },
+        {
+          "w": "do",
+          "start": 60.642,
+          "end": 60.877
+        },
+        {
+          "w": "it!",
+          "start": 60.877,
+          "end": 60.995
+        },
+        {
+          "w": "Look!",
+          "start": 60.995,
+          "end": 61.23
+        }
+      ]
+    },
+    {
+      "beat": "leo_wig",
+      "speaker": "bobo",
+      "text": "Ha ha! Leo, your two is looking the other way!",
+      "gap": 0.8,
+      "start": 61.99,
+      "end": 64.44,
+      "words": [
+        {
+          "w": "Ha",
+          "start": 62.03,
+          "end": 62.256
+        },
+        {
+          "w": "ha!",
+          "start": 62.256,
+          "end": 62.481
+        },
+        {
+          "w": "Leo,",
+          "start": 62.481,
+          "end": 62.82
+        },
+        {
+          "w": "your",
+          "start": 62.82,
+          "end": 62.989
+        },
+        {
+          "w": "two",
+          "start": 62.989,
+          "end": 63.215
+        },
+        {
+          "w": "is",
+          "start": 63.215,
+          "end": 63.327
+        },
+        {
+          "w": "looking",
+          "start": 63.327,
+          "end": 63.666
+        },
+        {
+          "w": "the",
+          "start": 63.666,
+          "end": 63.779
+        },
+        {
+          "w": "other",
+          "start": 63.779,
+          "end": 64.004
+        },
+        {
+          "w": "way!",
+          "start": 64.004,
+          "end": 64.23
+        }
+      ]
+    },
+    {
+      "beat": "leo_fix",
+      "speaker": "leo",
+      "text": "Oops! Again. Around, down, and along. Two!",
+      "gap": 1.2,
+      "start": 65.24,
+      "end": 67.69,
+      "words": [
+        {
+          "w": "Oops!",
+          "start": 65.28,
+          "end": 65.587
+        },
+        {
+          "w": "Again.",
+          "start": 65.587,
+          "end": 65.895
+        },
+        {
+          "w": "Around,",
+          "start": 65.895,
+          "end": 66.325
+        },
+        {
+          "w": "down,",
+          "start": 66.325,
+          "end": 66.632
+        },
+        {
+          "w": "and",
+          "start": 66.632,
+          "end": 66.817
+        },
+        {
+          "w": "along.",
+          "start": 66.817,
+          "end": 67.124
+        },
+        {
+          "w": "Two!",
+          "start": 67.124,
+          "end": 67.37
+        }
+      ]
+    },
+    {
+      "beat": "leo_yay",
+      "speaker": "hoot",
+      "text": "Wonderful! A perfect number two!",
+      "gap": 1.6,
+      "start": 68.89,
+      "end": 71.38,
+      "words": [
+        {
+          "w": "Wonderful!",
+          "start": 68.93,
+          "end": 69.57
+        },
+        {
+          "w": "A",
+          "start": 69.72,
+          "end": 69.947
+        },
+        {
+          "w": "perfect",
+          "start": 69.947,
+          "end": 70.553
+        },
+        {
+          "w": "number",
+          "start": 70.553,
+          "end": 71.007
+        },
+        {
+          "w": "two!",
+          "start": 71.007,
+          "end": 71.31
+        }
+      ]
+    },
+    {
+      "beat": "twos",
+      "speaker": "mila",
+      "text": "Let's find things that come in two!",
+      "gap": 1.2,
+      "start": 72.98,
+      "end": 74.98,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 73.02,
+          "end": 73.32
+        },
+        {
+          "w": "find",
+          "start": 73.32,
+          "end": 73.68
+        },
+        {
+          "w": "things",
+          "start": 73.68,
+          "end": 73.98
+        },
+        {
+          "w": "that",
+          "start": 73.98,
+          "end": 74.22
+        },
+        {
+          "w": "come",
+          "start": 74.22,
+          "end": 74.46
+        },
+        {
+          "w": "in",
+          "start": 74.46,
+          "end": 74.64
+        },
+        {
+          "w": "two!",
+          "start": 74.64,
+          "end": 74.88
+        }
+      ]
+    },
+    {
+      "beat": "o_eyes",
+      "speaker": "hoot",
+      "text": "How many eyes do you have? Blink, blink!",
+      "gap": 4.6,
+      "start": 76.18,
+      "end": 79.12,
+      "words": [
+        {
+          "w": "How",
+          "start": 76.21,
+          "end": 76.523
+        },
+        {
+          "w": "many",
+          "start": 76.523,
+          "end": 76.915
+        },
+        {
+          "w": "eyes",
+          "start": 76.915,
+          "end": 77.228
+        },
+        {
+          "w": "do",
+          "start": 77.228,
+          "end": 77.542
+        },
+        {
+          "w": "you",
+          "start": 77.542,
+          "end": 77.777
+        },
+        {
+          "w": "have?",
+          "start": 77.777,
+          "end": 78.09
+        },
+        {
+          "w": "Blink,",
+          "start": 78.09,
+          "end": 78.56
+        },
+        {
+          "w": "blink!",
+          "start": 78.56,
+          "end": 79.03
+        }
+      ]
+    },
+    {
+      "beat": "o_eyes_a",
+      "speaker": "mila",
+      "text": "Two eyes! One, two!",
+      "gap": 2.2,
+      "start": 83.72,
+      "end": 85.28,
+      "words": [
+        {
+          "w": "Two",
+          "start": 83.75,
+          "end": 84.1
+        },
+        {
+          "w": "eyes!",
+          "start": 84.1,
+          "end": 84.45
+        },
+        {
+          "w": "One,",
+          "start": 84.45,
+          "end": 84.8
+        },
+        {
+          "w": "two!",
+          "start": 84.8,
+          "end": 85.15
+        }
+      ]
+    },
+    {
+      "beat": "o_ears",
+      "speaker": "hoot",
+      "text": "And how many ears are on Bobo's head?",
+      "gap": 4.6,
+      "start": 87.48,
+      "end": 90.31,
+      "words": [
+        {
+          "w": "And",
+          "start": 87.51,
+          "end": 87.755
+        },
+        {
+          "w": "how",
+          "start": 87.755,
+          "end": 88.083
+        },
+        {
+          "w": "many",
+          "start": 88.083,
+          "end": 88.492
+        },
+        {
+          "w": "ears",
+          "start": 88.492,
+          "end": 88.819
+        },
+        {
+          "w": "are",
+          "start": 88.819,
+          "end": 88.983
+        },
+        {
+          "w": "on",
+          "start": 88.983,
+          "end": 89.228
+        },
+        {
+          "w": "Bobo's",
+          "start": 89.228,
+          "end": 89.883
+        },
+        {
+          "w": "head?",
+          "start": 89.883,
+          "end": 90.21
+        }
+      ]
+    },
+    {
+      "beat": "o_ears_a",
+      "speaker": "bobo",
+      "text": "Two fluffy ears! They wiggle!",
+      "gap": 2.2,
+      "start": 94.91,
+      "end": 96.38,
+      "words": [
+        {
+          "w": "Two",
+          "start": 94.94,
+          "end": 95.175
+        },
+        {
+          "w": "fluffy",
+          "start": 95.175,
+          "end": 95.527
+        },
+        {
+          "w": "ears!",
+          "start": 95.527,
+          "end": 95.762
+        },
+        {
+          "w": "They",
+          "start": 95.762,
+          "end": 95.938
+        },
+        {
+          "w": "wiggle!",
+          "start": 95.938,
+          "end": 96.29
+        }
+      ]
+    },
+    {
+      "beat": "o_shoes",
+      "speaker": "hoot",
+      "text": "Shoes come in two. One for each foot.",
+      "gap": 1.0,
+      "start": 98.58,
+      "end": 101.3,
+      "words": [
+        {
+          "w": "Shoes",
+          "start": 98.62,
+          "end": 99.011
+        },
+        {
+          "w": "come",
+          "start": 99.011,
+          "end": 99.323
+        },
+        {
+          "w": "in",
+          "start": 99.323,
+          "end": 99.558
+        },
+        {
+          "w": "two.",
+          "start": 99.558,
+          "end": 99.87
+        },
+        {
+          "w": "One",
+          "start": 100.09,
+          "end": 100.368
+        },
+        {
+          "w": "for",
+          "start": 100.368,
+          "end": 100.576
+        },
+        {
+          "w": "each",
+          "start": 100.576,
+          "end": 100.923
+        },
+        {
+          "w": "foot.",
+          "start": 100.923,
+          "end": 101.2
+        }
+      ]
+    },
+    {
+      "beat": "o_shoes_a",
+      "speaker": "leo",
+      "text": "Two shoes! Left, and right!",
+      "gap": 2.2,
+      "start": 102.3,
+      "end": 104.06,
+      "words": [
+        {
+          "w": "Two",
+          "start": 102.34,
+          "end": 102.605
+        },
+        {
+          "w": "shoes!",
+          "start": 102.605,
+          "end": 102.937
+        },
+        {
+          "w": "Left,",
+          "start": 102.937,
+          "end": 103.269
+        },
+        {
+          "w": "and",
+          "start": 103.269,
+          "end": 103.468
+        },
+        {
+          "w": "right!",
+          "start": 103.468,
+          "end": 103.8
+        }
+      ]
+    },
+    {
+      "beat": "o_bike",
+      "speaker": "hoot",
+      "text": "A bike has wheels. How many wheels?",
+      "gap": 4.6,
+      "start": 106.26,
+      "end": 108.92,
+      "words": [
+        {
+          "w": "A",
+          "start": 106.29,
+          "end": 106.493
+        },
+        {
+          "w": "bike",
+          "start": 106.493,
+          "end": 106.832
+        },
+        {
+          "w": "has",
+          "start": 106.832,
+          "end": 107.103
+        },
+        {
+          "w": "wheels.",
+          "start": 107.103,
+          "end": 107.51
+        },
+        {
+          "w": "How",
+          "start": 107.75,
+          "end": 108.038
+        },
+        {
+          "w": "many",
+          "start": 108.038,
+          "end": 108.398
+        },
+        {
+          "w": "wheels?",
+          "start": 108.398,
+          "end": 108.83
+        }
+      ]
+    },
+    {
+      "beat": "o_bike_a",
+      "speaker": "mila",
+      "text": "Two wheels! Ring, ring!",
+      "gap": 2.2,
+      "start": 113.52,
+      "end": 115.12,
+      "words": [
+        {
+          "w": "Two",
+          "start": 113.54,
+          "end": 113.86
+        },
+        {
+          "w": "wheels!",
+          "start": 113.86,
+          "end": 114.34
+        },
+        {
+          "w": "Ring,",
+          "start": 114.34,
+          "end": 114.66
+        },
+        {
+          "w": "ring!",
+          "start": 114.66,
+          "end": 114.98
+        }
+      ]
+    },
+    {
+      "beat": "o_wings",
+      "speaker": "hoot",
+      "text": "And I have wings! How many wings do I have?",
+      "gap": 4.6,
+      "start": 117.32,
+      "end": 120.28,
+      "words": [
+        {
+          "w": "And",
+          "start": 117.36,
+          "end": 117.562
+        },
+        {
+          "w": "I",
+          "start": 117.562,
+          "end": 117.764
+        },
+        {
+          "w": "have",
+          "start": 117.764,
+          "end": 118.033
+        },
+        {
+          "w": "wings!",
+          "start": 118.033,
+          "end": 118.37
+        },
+        {
+          "w": "How",
+          "start": 118.62,
+          "end": 118.868
+        },
+        {
+          "w": "many",
+          "start": 118.868,
+          "end": 119.178
+        },
+        {
+          "w": "wings",
+          "start": 119.178,
+          "end": 119.488
+        },
+        {
+          "w": "do",
+          "start": 119.488,
+          "end": 119.736
+        },
+        {
+          "w": "I",
+          "start": 119.736,
+          "end": 119.922
+        },
+        {
+          "w": "have?",
+          "start": 119.922,
+          "end": 120.17
+        }
+      ]
+    },
+    {
+      "beat": "o_wings_a",
+      "speaker": "leo",
+      "text": "Two wings! Flap, flap, Professor Hoot!",
+      "gap": 2.4,
+      "start": 124.88,
+      "end": 127.31,
+      "words": [
+        {
+          "w": "Two",
+          "start": 124.92,
+          "end": 125.181
+        },
+        {
+          "w": "wings!",
+          "start": 125.181,
+          "end": 125.508
+        },
+        {
+          "w": "Flap,",
+          "start": 125.508,
+          "end": 125.834
+        },
+        {
+          "w": "flap,",
+          "start": 125.834,
+          "end": 126.161
+        },
+        {
+          "w": "Professor",
+          "start": 126.161,
+          "end": 126.683
+        },
+        {
+          "w": "Hoot!",
+          "start": 126.683,
+          "end": 127.01
+        }
+      ]
+    },
+    {
+      "beat": "add",
+      "speaker": "bobo",
+      "text": "I have one cookie.",
+      "gap": 0.8,
+      "start": 129.71,
+      "end": 130.83,
+      "words": [
+        {
+          "w": "I",
+          "start": 129.75,
+          "end": 129.932
+        },
+        {
+          "w": "have",
+          "start": 129.932,
+          "end": 130.174
+        },
+        {
+          "w": "one",
+          "start": 130.174,
+          "end": 130.417
+        },
+        {
+          "w": "cookie.",
+          "start": 130.417,
+          "end": 130.72
+        }
+      ]
+    },
+    {
+      "beat": "add2",
+      "speaker": "mila",
+      "text": "Here is one more cookie for you, Bobo!",
+      "gap": 1.0,
+      "start": 131.63,
+      "end": 133.89,
+      "words": [
+        {
+          "w": "Here",
+          "start": 131.67,
+          "end": 131.919
+        },
+        {
+          "w": "is",
+          "start": 131.919,
+          "end": 132.044
+        },
+        {
+          "w": "one",
+          "start": 132.044,
+          "end": 132.294
+        },
+        {
+          "w": "more",
+          "start": 132.294,
+          "end": 132.605
+        },
+        {
+          "w": "cookie",
+          "start": 132.605,
+          "end": 132.917
+        },
+        {
+          "w": "for",
+          "start": 132.917,
+          "end": 133.166
+        },
+        {
+          "w": "you,",
+          "start": 133.166,
+          "end": 133.354
+        },
+        {
+          "w": "Bobo!",
+          "start": 133.354,
+          "end": 133.79
+        }
+      ]
+    },
+    {
+      "beat": "add3",
+      "speaker": "hoot",
+      "text": "One, and one more, makes...",
+      "gap": 4.6,
+      "start": 134.89,
+      "end": 136.87,
+      "words": [
+        {
+          "w": "One,",
+          "start": 134.92,
+          "end": 135.272
+        },
+        {
+          "w": "and",
+          "start": 135.272,
+          "end": 135.537
+        },
+        {
+          "w": "one",
+          "start": 135.537,
+          "end": 135.889
+        },
+        {
+          "w": "more,",
+          "start": 135.889,
+          "end": 136.241
+        },
+        {
+          "w": "makes...",
+          "start": 136.241,
+          "end": 136.77
+        }
+      ]
+    },
+    {
+      "beat": "add_a",
+      "speaker": "bobo",
+      "text": "Two cookies! Yummy!",
+      "gap": 2.4,
+      "start": 141.47,
+      "end": 142.62,
+      "words": [
+        {
+          "w": "Two",
+          "start": 141.5,
+          "end": 141.767
+        },
+        {
+          "w": "cookies!",
+          "start": 141.767,
+          "end": 142.167
+        },
+        {
+          "w": "Yummy!",
+          "start": 142.167,
+          "end": 142.5
+        }
+      ]
+    },
+    {
+      "beat": "fr_q",
+      "speaker": "leo",
+      "text": "How do you say two, in French?",
+      "gap": 0.8,
+      "start": 145.02,
+      "end": 146.92,
+      "words": [
+        {
+          "w": "How",
+          "start": 145.07,
+          "end": 145.288
+        },
+        {
+          "w": "do",
+          "start": 145.288,
+          "end": 145.506
+        },
+        {
+          "w": "you",
+          "start": 145.506,
+          "end": 145.669
+        },
+        {
+          "w": "say",
+          "start": 145.669,
+          "end": 145.887
+        },
+        {
+          "w": "two,",
+          "start": 145.887,
+          "end": 146.105
+        },
+        {
+          "w": "in",
+          "start": 146.105,
+          "end": 146.269
+        },
+        {
+          "w": "French?",
+          "start": 146.269,
+          "end": 146.65
+        }
+      ]
+    },
+    {
+      "beat": "fr",
+      "speaker": "narrator_fr",
+      "text": "Deux !",
+      "gap": 1.0,
+      "start": 147.72,
+      "lang": "fr",
+      "end": 148.32,
+      "words": [
+        {
+          "w": "Deux",
+          "start": 147.75,
+          "end": 148.19
+        }
+      ]
+    },
+    {
+      "beat": "fr2",
+      "speaker": "narrator_fr",
+      "text": "Deux !",
+      "gap": 1.0,
+      "start": 149.32,
+      "lang": "fr",
+      "end": 149.92,
+      "words": [
+        {
+          "w": "Deux",
+          "start": 149.35,
+          "end": 149.79
+        }
+      ]
+    },
+    {
+      "beat": "fr_turn",
+      "speaker": "mila",
+      "text": "Your turn! Deux!",
+      "gap": 2.4,
+      "start": 150.92,
+      "end": 152.22,
+      "words": [
+        {
+          "w": "Your",
+          "start": 150.96,
+          "end": 151.223
+        },
+        {
+          "w": "turn!",
+          "start": 151.223,
+          "end": 151.662
+        },
+        {
+          "w": "Deux!",
+          "start": 151.662,
+          "end": 152.1
+        }
+      ]
+    },
+    {
+      "beat": "game",
+      "speaker": "hoot",
+      "text": "Game time! Find the number two!",
+      "gap": 1.2,
+      "start": 154.62,
+      "end": 157.11,
+      "words": [
+        {
+          "w": "Game",
+          "start": 154.65,
+          "end": 155.1
+        },
+        {
+          "w": "time!",
+          "start": 155.1,
+          "end": 155.55
+        },
+        {
+          "w": "Find",
+          "start": 155.74,
+          "end": 156.167
+        },
+        {
+          "w": "the",
+          "start": 156.167,
+          "end": 156.309
+        },
+        {
+          "w": "number",
+          "start": 156.309,
+          "end": 156.736
+        },
+        {
+          "w": "two!",
+          "start": 156.736,
+          "end": 157.02
+        }
+      ]
+    },
+    {
+      "beat": "gA",
+      "speaker": "hoot",
+      "text": "Where is the two?",
+      "gap": 4.6,
+      "start": 158.31,
+      "end": 159.8,
+      "words": [
+        {
+          "w": "Where",
+          "start": 158.35,
+          "end": 158.81
+        },
+        {
+          "w": "is",
+          "start": 158.81,
+          "end": 159.04
+        },
+        {
+          "w": "the",
+          "start": 159.04,
+          "end": 159.27
+        },
+        {
+          "w": "two?",
+          "start": 159.27,
+          "end": 159.73
+        }
+      ]
+    },
+    {
+      "beat": "gA_leo",
+      "speaker": "leo",
+      "text": "This one! The five!",
+      "gap": 1.0,
+      "start": 164.4,
+      "end": 165.78,
+      "words": [
+        {
+          "w": "This",
+          "start": 164.43,
+          "end": 164.737
+        },
+        {
+          "w": "one!",
+          "start": 164.737,
+          "end": 165.043
+        },
+        {
+          "w": "The",
+          "start": 165.043,
+          "end": 165.197
+        },
+        {
+          "w": "five!",
+          "start": 165.197,
+          "end": 165.58
+        }
+      ]
+    },
+    {
+      "beat": "gA_no",
+      "speaker": "mila",
+      "text": "Five has a hat and a round tummy. Two has a round top and a flat bottom. Here!",
+      "gap": 2.2,
+      "start": 166.78,
+      "end": 171.72,
+      "words": [
+        {
+          "w": "Five",
+          "start": 166.83,
+          "end": 167.142
+        },
+        {
+          "w": "has",
+          "start": 167.142,
+          "end": 167.391
+        },
+        {
+          "w": "a",
+          "start": 167.391,
+          "end": 167.578
+        },
+        {
+          "w": "hat",
+          "start": 167.578,
+          "end": 167.827
+        },
+        {
+          "w": "and",
+          "start": 167.827,
+          "end": 168.014
+        },
+        {
+          "w": "a",
+          "start": 168.014,
+          "end": 168.201
+        },
+        {
+          "w": "round",
+          "start": 168.201,
+          "end": 168.575
+        },
+        {
+          "w": "tummy.",
+          "start": 168.575,
+          "end": 168.887
+        },
+        {
+          "w": "Two",
+          "start": 168.887,
+          "end": 169.136
+        },
+        {
+          "w": "has",
+          "start": 169.136,
+          "end": 169.386
+        },
+        {
+          "w": "a",
+          "start": 169.386,
+          "end": 169.573
+        },
+        {
+          "w": "round",
+          "start": 169.573,
+          "end": 169.947
+        },
+        {
+          "w": "top",
+          "start": 169.947,
+          "end": 170.259
+        },
+        {
+          "w": "and",
+          "start": 170.259,
+          "end": 170.446
+        },
+        {
+          "w": "a",
+          "start": 170.446,
+          "end": 170.633
+        },
+        {
+          "w": "flat",
+          "start": 170.633,
+          "end": 170.944
+        },
+        {
+          "w": "bottom.",
+          "start": 170.944,
+          "end": 171.381
+        },
+        {
+          "w": "Here!",
+          "start": 171.381,
+          "end": 171.63
+        }
+      ]
+    },
+    {
+      "beat": "gB",
+      "speaker": "hoot",
+      "text": "Where is the two now?",
+      "gap": 4.6,
+      "start": 173.92,
+      "end": 175.66,
+      "words": [
+        {
+          "w": "Where",
+          "start": 173.94,
+          "end": 174.348
+        },
+        {
+          "w": "is",
+          "start": 174.348,
+          "end": 174.551
+        },
+        {
+          "w": "the",
+          "start": 174.551,
+          "end": 174.755
+        },
+        {
+          "w": "two",
+          "start": 174.755,
+          "end": 175.163
+        },
+        {
+          "w": "now?",
+          "start": 175.163,
+          "end": 175.57
+        }
+      ]
+    },
+    {
+      "beat": "gB_a",
+      "speaker": "bobo",
+      "text": "There! Round top, flat bottom!",
+      "gap": 2.2,
+      "start": 180.26,
+      "end": 181.94,
+      "words": [
+        {
+          "w": "There!",
+          "start": 180.3,
+          "end": 180.518
+        },
+        {
+          "w": "Round",
+          "start": 180.518,
+          "end": 180.844
+        },
+        {
+          "w": "top,",
+          "start": 180.844,
+          "end": 181.117
+        },
+        {
+          "w": "flat",
+          "start": 181.117,
+          "end": 181.389
+        },
+        {
+          "w": "bottom!",
+          "start": 181.389,
+          "end": 181.77
+        }
+      ]
+    },
+    {
+      "beat": "gB2",
+      "speaker": "hoot",
+      "text": "Look closely. Where is the two?",
+      "gap": 4.6,
+      "start": 184.14,
+      "end": 186.5,
+      "words": [
+        {
+          "w": "Look",
+          "start": 184.17,
+          "end": 184.48
+        },
+        {
+          "w": "closely.",
+          "start": 184.48,
+          "end": 185.1
+        },
+        {
+          "w": "Where",
+          "start": 185.28,
+          "end": 185.663
+        },
+        {
+          "w": "is",
+          "start": 185.663,
+          "end": 185.855
+        },
+        {
+          "w": "the",
+          "start": 185.855,
+          "end": 186.047
+        },
+        {
+          "w": "two?",
+          "start": 186.047,
+          "end": 186.43
+        }
+      ]
+    },
+    {
+      "beat": "gB2_a",
+      "speaker": "leo",
+      "text": "That one! It's swimming like a swan!",
+      "gap": 2.2,
+      "start": 191.1,
+      "end": 193.27,
+      "words": [
+        {
+          "w": "That",
+          "start": 191.14,
+          "end": 191.364
+        },
+        {
+          "w": "one!",
+          "start": 191.364,
+          "end": 191.587
+        },
+        {
+          "w": "It's",
+          "start": 191.587,
+          "end": 191.755
+        },
+        {
+          "w": "swimming",
+          "start": 191.755,
+          "end": 192.147
+        },
+        {
+          "w": "like",
+          "start": 192.147,
+          "end": 192.427
+        },
+        {
+          "w": "a",
+          "start": 192.427,
+          "end": 192.594
+        },
+        {
+          "w": "swan!",
+          "start": 192.594,
+          "end": 192.93
+        }
+      ]
+    },
+    {
+      "beat": "gC",
+      "speaker": "hoot",
+      "text": "Which nest has two eggs?",
+      "gap": 4.6,
+      "start": 195.47,
+      "end": 197.39,
+      "words": [
+        {
+          "w": "Which",
+          "start": 195.51,
+          "end": 195.919
+        },
+        {
+          "w": "nest",
+          "start": 195.919,
+          "end": 196.328
+        },
+        {
+          "w": "has",
+          "start": 196.328,
+          "end": 196.655
+        },
+        {
+          "w": "two",
+          "start": 196.655,
+          "end": 196.983
+        },
+        {
+          "w": "eggs?",
+          "start": 196.983,
+          "end": 197.31
+        }
+      ]
+    },
+    {
+      "beat": "gC_a",
+      "speaker": "mila",
+      "text": "This nest! One, two eggs!",
+      "gap": 2.2,
+      "start": 201.99,
+      "end": 203.86,
+      "words": [
+        {
+          "w": "This",
+          "start": 202.02,
+          "end": 202.35
+        },
+        {
+          "w": "nest!",
+          "start": 202.35,
+          "end": 202.761
+        },
+        {
+          "w": "One,",
+          "start": 202.761,
+          "end": 203.091
+        },
+        {
+          "w": "two",
+          "start": 203.091,
+          "end": 203.42
+        },
+        {
+          "w": "eggs!",
+          "start": 203.42,
+          "end": 203.75
+        }
+      ]
+    },
+    {
+      "beat": "gC2",
+      "speaker": "hoot",
+      "text": "Socks come in pairs. Which sock has no partner?",
+      "gap": 4.6,
+      "start": 206.06,
+      "end": 209.43,
+      "words": [
+        {
+          "w": "Socks",
+          "start": 206.1,
+          "end": 206.503
+        },
+        {
+          "w": "come",
+          "start": 206.503,
+          "end": 206.825
+        },
+        {
+          "w": "in",
+          "start": 206.825,
+          "end": 207.067
+        },
+        {
+          "w": "pairs.",
+          "start": 207.067,
+          "end": 207.47
+        },
+        {
+          "w": "Which",
+          "start": 207.76,
+          "end": 208.091
+        },
+        {
+          "w": "sock",
+          "start": 208.091,
+          "end": 208.356
+        },
+        {
+          "w": "has",
+          "start": 208.356,
+          "end": 208.621
+        },
+        {
+          "w": "no",
+          "start": 208.621,
+          "end": 208.886
+        },
+        {
+          "w": "partner?",
+          "start": 208.886,
+          "end": 209.35
+        }
+      ]
+    },
+    {
+      "beat": "gC2_a",
+      "speaker": "bobo",
+      "text": "That one! The stripy sock is all alone!",
+      "gap": 2.2,
+      "start": 214.03,
+      "end": 216.2,
+      "words": [
+        {
+          "w": "That",
+          "start": 214.07,
+          "end": 214.293
+        },
+        {
+          "w": "one!",
+          "start": 214.293,
+          "end": 214.516
+        },
+        {
+          "w": "The",
+          "start": 214.516,
+          "end": 214.627
+        },
+        {
+          "w": "stripy",
+          "start": 214.627,
+          "end": 215.073
+        },
+        {
+          "w": "sock",
+          "start": 215.073,
+          "end": 215.351
+        },
+        {
+          "w": "is",
+          "start": 215.351,
+          "end": 215.463
+        },
+        {
+          "w": "all",
+          "start": 215.463,
+          "end": 215.686
+        },
+        {
+          "w": "alone!",
+          "start": 215.686,
+          "end": 216.02
+        }
+      ]
+    },
+    {
+      "beat": "gD",
+      "speaker": "hoot",
+      "text": "How many ducks are swimming in the pond?",
+      "gap": 4.6,
+      "start": 218.4,
+      "end": 221.06,
+      "words": [
+        {
+          "w": "How",
+          "start": 218.43,
+          "end": 218.738
+        },
+        {
+          "w": "many",
+          "start": 218.738,
+          "end": 219.123
+        },
+        {
+          "w": "ducks",
+          "start": 219.123,
+          "end": 219.508
+        },
+        {
+          "w": "are",
+          "start": 219.508,
+          "end": 219.662
+        },
+        {
+          "w": "swimming",
+          "start": 219.662,
+          "end": 220.2
+        },
+        {
+          "w": "in",
+          "start": 220.2,
+          "end": 220.431
+        },
+        {
+          "w": "the",
+          "start": 220.431,
+          "end": 220.585
+        },
+        {
+          "w": "pond?",
+          "start": 220.585,
+          "end": 220.97
+        }
+      ]
+    },
+    {
+      "beat": "gD_leo",
+      "speaker": "leo",
+      "text": "Three!",
+      "gap": 1.0,
+      "start": 225.66,
+      "end": 226.44,
+      "words": [
+        {
+          "w": "Three!",
+          "start": 225.71,
+          "end": 226.31
+        }
+      ]
+    },
+    {
+      "beat": "gD_no",
+      "speaker": "hoot",
+      "text": "Let's count. One, two!",
+      "gap": 1.0,
+      "start": 227.44,
+      "end": 229.38,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 227.48,
+          "end": 227.959
+        },
+        {
+          "w": "count.",
+          "start": 227.959,
+          "end": 228.534
+        },
+        {
+          "w": "One,",
+          "start": 228.534,
+          "end": 228.917
+        },
+        {
+          "w": "two!",
+          "start": 228.917,
+          "end": 229.3
+        }
+      ]
+    },
+    {
+      "beat": "gD_b",
+      "speaker": "leo",
+      "text": "Oh! Two ducks! Quack, quack!",
+      "gap": 2.0,
+      "start": 230.38,
+      "end": 232.1,
+      "words": [
+        {
+          "w": "Oh!",
+          "start": 230.41,
+          "end": 230.609
+        },
+        {
+          "w": "Two",
+          "start": 230.609,
+          "end": 230.875
+        },
+        {
+          "w": "ducks!",
+          "start": 230.875,
+          "end": 231.206
+        },
+        {
+          "w": "Quack,",
+          "start": 231.206,
+          "end": 231.538
+        },
+        {
+          "w": "quack!",
+          "start": 231.538,
+          "end": 231.87
+        }
+      ]
+    },
+    {
+      "beat": "gE",
+      "speaker": "bobo",
+      "text": "I have two cookies again. If I eat one...",
+      "gap": 0.6,
+      "start": 234.1,
+      "end": 236.34,
+      "words": [
+        {
+          "w": "I",
+          "start": 234.13,
+          "end": 234.305
+        },
+        {
+          "w": "have",
+          "start": 234.305,
+          "end": 234.538
+        },
+        {
+          "w": "two",
+          "start": 234.538,
+          "end": 234.771
+        },
+        {
+          "w": "cookies",
+          "start": 234.771,
+          "end": 235.121
+        },
+        {
+          "w": "again.",
+          "start": 235.121,
+          "end": 235.412
+        },
+        {
+          "w": "If",
+          "start": 235.412,
+          "end": 235.529
+        },
+        {
+          "w": "I",
+          "start": 235.529,
+          "end": 235.704
+        },
+        {
+          "w": "eat",
+          "start": 235.704,
+          "end": 235.937
+        },
+        {
+          "w": "one...",
+          "start": 235.937,
+          "end": 236.17
+        }
+      ]
+    },
+    {
+      "beat": "gE_crunch",
+      "speaker": "bobo",
+      "text": "Crunch!",
+      "gap": 1.0,
+      "start": 236.94,
+      "end": 237.6,
+      "words": [
+        {
+          "w": "Crunch!",
+          "start": 236.96,
+          "end": 237.5
+        }
+      ]
+    },
+    {
+      "beat": "gE_q",
+      "speaker": "hoot",
+      "text": "How many cookies are left?",
+      "gap": 4.6,
+      "start": 238.6,
+      "end": 240.49,
+      "words": [
+        {
+          "w": "How",
+          "start": 238.64,
+          "end": 238.965
+        },
+        {
+          "w": "many",
+          "start": 238.965,
+          "end": 239.372
+        },
+        {
+          "w": "cookies",
+          "start": 239.372,
+          "end": 239.86
+        },
+        {
+          "w": "are",
+          "start": 239.86,
+          "end": 240.023
+        },
+        {
+          "w": "left?",
+          "start": 240.023,
+          "end": 240.43
+        }
+      ]
+    },
+    {
+      "beat": "gE_a",
+      "speaker": "mila",
+      "text": "One cookie left! Ha ha, Bobo!",
+      "gap": 2.2,
+      "start": 245.09,
+      "end": 247.17,
+      "words": [
+        {
+          "w": "One",
+          "start": 245.11,
+          "end": 245.382
+        },
+        {
+          "w": "cookie",
+          "start": 245.382,
+          "end": 245.721
+        },
+        {
+          "w": "left!",
+          "start": 245.721,
+          "end": 246.061
+        },
+        {
+          "w": "Ha",
+          "start": 246.061,
+          "end": 246.333
+        },
+        {
+          "w": "ha,",
+          "start": 246.333,
+          "end": 246.604
+        },
+        {
+          "w": "Bobo!",
+          "start": 246.604,
+          "end": 247.08
+        }
+      ]
+    },
+    {
+      "beat": "rem",
+      "speaker": "mila",
+      "text": "Let's remember!",
+      "gap": 1.0,
+      "start": 249.37,
+      "end": 250.64,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 249.48,
+          "end": 249.88
+        },
+        {
+          "w": "remember!",
+          "start": 249.88,
+          "end": 250.52
+        }
+      ]
+    },
+    {
+      "beat": "rq1",
+      "speaker": "hoot",
+      "text": "How do we write a two?",
+      "gap": 4.6,
+      "start": 251.64,
+      "end": 253.17,
+      "words": [
+        {
+          "w": "How",
+          "start": 251.68,
+          "end": 251.927
+        },
+        {
+          "w": "do",
+          "start": 251.927,
+          "end": 252.174
+        },
+        {
+          "w": "we",
+          "start": 252.174,
+          "end": 252.359
+        },
+        {
+          "w": "write",
+          "start": 252.359,
+          "end": 252.668
+        },
+        {
+          "w": "a",
+          "start": 252.668,
+          "end": 252.853
+        },
+        {
+          "w": "two?",
+          "start": 252.853,
+          "end": 253.1
+        }
+      ]
+    },
+    {
+      "beat": "ra1",
+      "speaker": "leo",
+      "text": "Around, down, and along the bottom!",
+      "gap": 2.0,
+      "start": 257.77,
+      "end": 259.92,
+      "words": [
+        {
+          "w": "Around,",
+          "start": 257.8,
+          "end": 258.242
+        },
+        {
+          "w": "down,",
+          "start": 258.242,
+          "end": 258.557
+        },
+        {
+          "w": "and",
+          "start": 258.557,
+          "end": 258.747
+        },
+        {
+          "w": "along",
+          "start": 258.747,
+          "end": 259.062
+        },
+        {
+          "w": "the",
+          "start": 259.062,
+          "end": 259.188
+        },
+        {
+          "w": "bottom!",
+          "start": 259.188,
+          "end": 259.63
+        }
+      ]
+    },
+    {
+      "beat": "rq2",
+      "speaker": "hoot",
+      "text": "How many eyes do you have?",
+      "gap": 4.6,
+      "start": 261.92,
+      "end": 263.79,
+      "words": [
+        {
+          "w": "How",
+          "start": 261.96,
+          "end": 262.252
+        },
+        {
+          "w": "many",
+          "start": 262.252,
+          "end": 262.616
+        },
+        {
+          "w": "eyes",
+          "start": 262.616,
+          "end": 262.908
+        },
+        {
+          "w": "do",
+          "start": 262.908,
+          "end": 263.2
+        },
+        {
+          "w": "you",
+          "start": 263.2,
+          "end": 263.418
+        },
+        {
+          "w": "have?",
+          "start": 263.418,
+          "end": 263.71
+        }
+      ]
+    },
+    {
+      "beat": "ra2",
+      "speaker": "mila",
+      "text": "Two eyes!",
+      "gap": 1.8,
+      "start": 268.39,
+      "end": 269.44,
+      "words": [
+        {
+          "w": "Two",
+          "start": 268.44,
+          "end": 268.865
+        },
+        {
+          "w": "eyes!",
+          "start": 268.865,
+          "end": 269.29
+        }
+      ]
+    },
+    {
+      "beat": "rq3",
+      "speaker": "hoot",
+      "text": "How many wheels does a bike have?",
+      "gap": 4.6,
+      "start": 271.24,
+      "end": 273.62,
+      "words": [
+        {
+          "w": "How",
+          "start": 271.29,
+          "end": 271.58
+        },
+        {
+          "w": "many",
+          "start": 271.58,
+          "end": 271.943
+        },
+        {
+          "w": "wheels",
+          "start": 271.943,
+          "end": 272.379
+        },
+        {
+          "w": "does",
+          "start": 272.379,
+          "end": 272.669
+        },
+        {
+          "w": "a",
+          "start": 272.669,
+          "end": 272.887
+        },
+        {
+          "w": "bike",
+          "start": 272.887,
+          "end": 273.25
+        },
+        {
+          "w": "have?",
+          "start": 273.25,
+          "end": 273.54
+        }
+      ]
+    },
+    {
+      "beat": "ra3",
+      "speaker": "bobo",
+      "text": "Two wheels!",
+      "gap": 1.8,
+      "start": 278.22,
+      "end": 279.0,
+      "words": [
+        {
+          "w": "Two",
+          "start": 278.24,
+          "end": 278.504
+        },
+        {
+          "w": "wheels!",
+          "start": 278.504,
+          "end": 278.9
+        }
+      ]
+    },
+    {
+      "beat": "rq4",
+      "speaker": "hoot",
+      "text": "How do you say two, in French?",
+      "gap": 4.6,
+      "start": 280.8,
+      "end": 283.1,
+      "words": [
+        {
+          "w": "How",
+          "start": 280.84,
+          "end": 281.103
+        },
+        {
+          "w": "do",
+          "start": 281.103,
+          "end": 281.366
+        },
+        {
+          "w": "you",
+          "start": 281.366,
+          "end": 281.564
+        },
+        {
+          "w": "say",
+          "start": 281.564,
+          "end": 281.827
+        },
+        {
+          "w": "two,",
+          "start": 281.827,
+          "end": 282.09
+        },
+        {
+          "w": "in",
+          "start": 282.26,
+          "end": 282.488
+        },
+        {
+          "w": "French?",
+          "start": 282.488,
+          "end": 283.02
+        }
+      ]
+    },
+    {
+      "beat": "ra4",
+      "speaker": "narrator_fr",
+      "text": "Deux !",
+      "gap": 1.8,
+      "start": 287.7,
+      "lang": "fr",
+      "end": 288.3,
+      "words": [
+        {
+          "w": "Deux",
+          "start": 287.73,
+          "end": 288.17
+        }
+      ]
+    },
+    {
+      "beat": "rq6",
+      "speaker": "hoot",
+      "text": "What does number two look like?",
+      "gap": 4.6,
+      "start": 290.1,
+      "end": 291.89,
+      "words": [
+        {
+          "w": "What",
+          "start": 290.14,
+          "end": 290.386
+        },
+        {
+          "w": "does",
+          "start": 290.386,
+          "end": 290.632
+        },
+        {
+          "w": "number",
+          "start": 290.632,
+          "end": 291.001
+        },
+        {
+          "w": "two",
+          "start": 291.001,
+          "end": 291.247
+        },
+        {
+          "w": "look",
+          "start": 291.247,
+          "end": 291.493
+        },
+        {
+          "w": "like?",
+          "start": 291.493,
+          "end": 291.8
+        }
+      ]
+    },
+    {
+      "beat": "ra6",
+      "speaker": "mila",
+      "text": "A swan, swimming on the water!",
+      "gap": 1.8,
+      "start": 296.49,
+      "end": 298.43,
+      "words": [
+        {
+          "w": "A",
+          "start": 296.52,
+          "end": 296.72
+        },
+        {
+          "w": "swan,",
+          "start": 296.72,
+          "end": 297.12
+        },
+        {
+          "w": "swimming",
+          "start": 297.12,
+          "end": 297.587
+        },
+        {
+          "w": "on",
+          "start": 297.587,
+          "end": 297.787
+        },
+        {
+          "w": "the",
+          "start": 297.787,
+          "end": 297.92
+        },
+        {
+          "w": "water!",
+          "start": 297.92,
+          "end": 298.32
+        }
+      ]
+    },
+    {
+      "beat": "rq5",
+      "speaker": "hoot",
+      "text": "Now, show me two fingers!",
+      "gap": 3.2,
+      "start": 300.23,
+      "end": 302.1,
+      "words": [
+        {
+          "w": "Now,",
+          "start": 300.26,
+          "end": 300.563
+        },
+        {
+          "w": "show",
+          "start": 300.563,
+          "end": 300.865
+        },
+        {
+          "w": "me",
+          "start": 300.865,
+          "end": 301.168
+        },
+        {
+          "w": "two",
+          "start": 301.168,
+          "end": 301.47
+        },
+        {
+          "w": "fingers!",
+          "start": 301.47,
+          "end": 302.0
+        }
+      ]
+    },
+    {
+      "beat": "ra5",
+      "speaker": "leo",
+      "text": "Two fingers! Great job!",
+      "gap": 1.8,
+      "start": 305.3,
+      "end": 307.09,
+      "words": [
+        {
+          "w": "Two",
+          "start": 305.34,
+          "end": 305.597
+        },
+        {
+          "w": "fingers!",
+          "start": 305.597,
+          "end": 306.048
+        },
+        {
+          "w": "Great",
+          "start": 306.048,
+          "end": 306.434
+        },
+        {
+          "w": "job!",
+          "start": 306.434,
+          "end": 306.82
+        }
+      ]
+    },
+    {
+      "beat": "chant",
+      "speaker": "mila",
+      "text": "Let's say the number two rhyme!",
+      "gap": 1.0,
+      "start": 308.89,
+      "end": 310.78,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 308.93,
+          "end": 309.259
+        },
+        {
+          "w": "say",
+          "start": 309.259,
+          "end": 309.522
+        },
+        {
+          "w": "the",
+          "start": 309.522,
+          "end": 309.653
+        },
+        {
+          "w": "number",
+          "start": 309.653,
+          "end": 310.048
+        },
+        {
+          "w": "two",
+          "start": 310.048,
+          "end": 310.311
+        },
+        {
+          "w": "rhyme!",
+          "start": 310.311,
+          "end": 310.64
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "text": "Two, two, number two!",
+      "gap": 0.6,
+      "start": 311.78,
+      "end": 313.42,
+      "words": [
+        {
+          "w": "Two,",
+          "start": 311.82,
+          "end": 312.136
+        },
+        {
+          "w": "two,",
+          "start": 312.136,
+          "end": 312.451
+        },
+        {
+          "w": "number",
+          "start": 312.451,
+          "end": 312.924
+        },
+        {
+          "w": "two!",
+          "start": 312.924,
+          "end": 313.24
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "leo",
+      "text": "Round the top, like a swan would do!",
+      "gap": 0.6,
+      "start": 314.02,
+      "end": 316.25,
+      "words": [
+        {
+          "w": "Round",
+          "start": 314.05,
+          "end": 314.377
+        },
+        {
+          "w": "the",
+          "start": 314.377,
+          "end": 314.487
+        },
+        {
+          "w": "top,",
+          "start": 314.487,
+          "end": 314.759
+        },
+        {
+          "w": "like",
+          "start": 314.759,
+          "end": 315.032
+        },
+        {
+          "w": "a",
+          "start": 315.032,
+          "end": 315.196
+        },
+        {
+          "w": "swan",
+          "start": 315.196,
+          "end": 315.523
+        },
+        {
+          "w": "would",
+          "start": 315.523,
+          "end": 315.742
+        },
+        {
+          "w": "do!",
+          "start": 315.742,
+          "end": 315.96
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "bobo",
+      "text": "Flat along the bottom, woo-hoo!",
+      "gap": 1.2,
+      "start": 316.85,
+      "end": 318.38,
+      "words": [
+        {
+          "w": "Flat",
+          "start": 316.9,
+          "end": 317.16
+        },
+        {
+          "w": "along",
+          "start": 317.16,
+          "end": 317.419
+        },
+        {
+          "w": "the",
+          "start": 317.419,
+          "end": 317.523
+        },
+        {
+          "w": "bottom,",
+          "start": 317.523,
+          "end": 317.887
+        },
+        {
+          "w": "woo-hoo!",
+          "start": 317.887,
+          "end": 318.25
+        }
+      ]
+    },
+    {
+      "beat": "c_turn",
+      "speaker": "hoot",
+      "text": "Your turn! Two, two, number two!",
+      "gap": 3.4,
+      "start": 319.58,
+      "end": 321.86,
+      "words": [
+        {
+          "w": "Your",
+          "start": 319.61,
+          "end": 319.859
+        },
+        {
+          "w": "turn!",
+          "start": 319.859,
+          "end": 320.275
+        },
+        {
+          "w": "Two,",
+          "start": 320.275,
+          "end": 320.607
+        },
+        {
+          "w": "two,",
+          "start": 320.607,
+          "end": 320.939
+        },
+        {
+          "w": "number",
+          "start": 320.939,
+          "end": 321.438
+        },
+        {
+          "w": "two!",
+          "start": 321.438,
+          "end": 321.77
+        }
+      ]
+    },
+    {
+      "beat": "next",
+      "speaker": "hoot",
+      "text": "Next time, we'll learn number three!",
+      "gap": 1.0,
+      "start": 325.26,
+      "end": 327.73,
+      "words": [
+        {
+          "w": "Next",
+          "start": 325.29,
+          "end": 325.726
+        },
+        {
+          "w": "time,",
+          "start": 325.726,
+          "end": 326.09
+        },
+        {
+          "w": "we'll",
+          "start": 326.26,
+          "end": 326.54
+        },
+        {
+          "w": "learn",
+          "start": 326.54,
+          "end": 326.89
+        },
+        {
+          "w": "number",
+          "start": 326.89,
+          "end": 327.31
+        },
+        {
+          "w": "three!",
+          "start": 327.31,
+          "end": 327.66
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "text": "Bye bye, friends!",
+      "gap": 0.5,
+      "start": 328.73,
+      "end": 330.26,
+      "words": [
+        {
+          "w": "Bye",
+          "start": 328.83,
+          "end": 329.174
+        },
+        {
+          "w": "bye,",
+          "start": 329.174,
+          "end": 329.518
+        },
+        {
+          "w": "friends!",
+          "start": 329.518,
+          "end": 330.12
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "bobo",
+      "text": "See you next time, on Tiny Sparks!",
+      "gap": 0.5,
+      "start": 330.76,
+      "end": 332.74,
+      "words": [
+        {
+          "w": "See",
+          "start": 330.8,
+          "end": 331.008
+        },
+        {
+          "w": "you",
+          "start": 331.008,
+          "end": 331.164
+        },
+        {
+          "w": "next",
+          "start": 331.164,
+          "end": 331.476
+        },
+        {
+          "w": "time,",
+          "start": 331.476,
+          "end": 331.736
+        },
+        {
+          "w": "on",
+          "start": 331.736,
+          "end": 331.892
+        },
+        {
+          "w": "Tiny",
+          "start": 331.892,
+          "end": 332.204
+        },
+        {
+          "w": "Sparks!",
+          "start": 332.204,
+          "end": 332.62
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast",
+  "beats": [
+    {
+      "id": "n2",
+      "start": 0.3,
+      "visual": "Look! Two fingers! Two!",
+      "end": 3.07
+    },
+    {
+      "id": "n2b",
+      "start": 3.07,
+      "visual": "And this is how we write it. Number two!",
+      "end": 6.55
+    },
+    {
+      "id": "premise",
+      "start": 6.55,
+      "visual": "Today, let's learn all about number two!",
+      "end": 10.7
+    },
+    {
+      "id": "look",
+      "start": 10.7,
+      "visual": "Number two has a round top, and a flat bottom.",
+      "end": 14.74
+    },
+    {
+      "id": "swan",
+      "start": 14.74,
+      "visual": "It looks like a swan, swimming on the water!",
+      "end": 19.33
+    },
+    {
+      "id": "say1",
+      "start": 19.33,
+      "visual": "Two.",
+      "end": 21.14
+    },
+    {
+      "id": "say2",
+      "start": 21.14,
+      "visual": "Two!",
+      "end": 22.95
+    },
+    {
+      "id": "say_turn",
+      "start": 22.95,
+      "visual": "Your turn! Say two!",
+      "end": 26.68
+    },
+    {
+      "id": "fingers",
+      "start": 26.68,
+      "visual": "Can you show me two fingers? Hold them up high!",
+      "end": 32.46
+    },
+    {
+      "id": "fingers_b",
+      "start": 32.46,
+      "visual": "My paws are fluffy! But look. One, two!",
+      "end": 36.19
+    },
+    {
+      "id": "draw",
+      "start": 36.19,
+      "visual": "Let's write a two on the board! Start at the top, and curve around...",
+      "end": 40.99
+    },
+    {
+      "id": "draw2",
+      "start": 40.99,
+      "visual": "slide down to the corner, and go along the bottom. Two!",
+      "end": 46.64
+    },
+    {
+      "id": "draw_turn",
+      "start": 46.64,
+      "visual": "Now you! Draw a two in the air. Around, down, and along!",
+      "end": 52.64
+    },
+    {
+      "id": "draw_again",
+      "start": 52.64,
+      "visual": "Once more, slowly. Around...",
+      "end": 55.58
+    },
+    {
+      "id": "draw_again2",
+      "start": 55.58,
+      "visual": "down, and along the bottom. Two!",
+      "end": 59.67
+    },
+    {
+      "id": "leo_draw",
+      "start": 59.67,
+      "visual": "My turn! I can do it! Look!",
+      "end": 61.99
+    },
+    {
+      "id": "leo_wig",
+      "start": 61.99,
+      "visual": "Ha ha! Leo, your two is looking the other way!",
+      "end": 65.24
+    },
+    {
+      "id": "leo_fix",
+      "start": 65.24,
+      "visual": "Oops! Again. Around, down, and along. Two!",
+      "end": 68.89
+    },
+    {
+      "id": "leo_yay",
+      "start": 68.89,
+      "visual": "Wonderful! A perfect number two!",
+      "end": 72.98
+    },
+    {
+      "id": "twos",
+      "start": 72.98,
+      "visual": "Let's find things that come in two!",
+      "end": 76.18
+    },
+    {
+      "id": "o_eyes",
+      "start": 76.18,
+      "visual": "How many eyes do you have? Blink, blink!",
+      "end": 83.72
+    },
+    {
+      "id": "o_eyes_a",
+      "start": 83.72,
+      "visual": "Two eyes! One, two!",
+      "end": 87.48
+    },
+    {
+      "id": "o_ears",
+      "start": 87.48,
+      "visual": "And how many ears are on Bobo's head?",
+      "end": 94.91
+    },
+    {
+      "id": "o_ears_a",
+      "start": 94.91,
+      "visual": "Two fluffy ears! They wiggle!",
+      "end": 98.58
+    },
+    {
+      "id": "o_shoes",
+      "start": 98.58,
+      "visual": "Shoes come in two. One for each foot.",
+      "end": 102.3
+    },
+    {
+      "id": "o_shoes_a",
+      "start": 102.3,
+      "visual": "Two shoes! Left, and right!",
+      "end": 106.26
+    },
+    {
+      "id": "o_bike",
+      "start": 106.26,
+      "visual": "A bike has wheels. How many wheels?",
+      "end": 113.52
+    },
+    {
+      "id": "o_bike_a",
+      "start": 113.52,
+      "visual": "Two wheels! Ring, ring!",
+      "end": 117.32
+    },
+    {
+      "id": "o_wings",
+      "start": 117.32,
+      "visual": "And I have wings! How many wings do I have?",
+      "end": 124.88
+    },
+    {
+      "id": "o_wings_a",
+      "start": 124.88,
+      "visual": "Two wings! Flap, flap, Professor Hoot!",
+      "end": 129.71
+    },
+    {
+      "id": "add",
+      "start": 129.71,
+      "visual": "I have one cookie.",
+      "end": 131.63
+    },
+    {
+      "id": "add2",
+      "start": 131.63,
+      "visual": "Here is one more cookie for you, Bobo!",
+      "end": 134.89
+    },
+    {
+      "id": "add3",
+      "start": 134.89,
+      "visual": "One, and one more, makes...",
+      "end": 141.47
+    },
+    {
+      "id": "add_a",
+      "start": 141.47,
+      "visual": "Two cookies! Yummy!",
+      "end": 145.02
+    },
+    {
+      "id": "fr_q",
+      "start": 145.02,
+      "visual": "How do you say two, in French?",
+      "end": 147.72
+    },
+    {
+      "id": "fr",
+      "start": 147.72,
+      "visual": "Deux !",
+      "end": 149.32
+    },
+    {
+      "id": "fr2",
+      "start": 149.32,
+      "visual": "Deux !",
+      "end": 150.92
+    },
+    {
+      "id": "fr_turn",
+      "start": 150.92,
+      "visual": "Your turn! Deux!",
+      "end": 154.62
+    },
+    {
+      "id": "game",
+      "start": 154.62,
+      "visual": "Game time! Find the number two!",
+      "end": 158.31
+    },
+    {
+      "id": "gA",
+      "start": 158.31,
+      "visual": "Where is the two?",
+      "end": 164.4
+    },
+    {
+      "id": "gA_leo",
+      "start": 164.4,
+      "visual": "This one! The five!",
+      "end": 166.78
+    },
+    {
+      "id": "gA_no",
+      "start": 166.78,
+      "visual": "Five has a hat and a round tummy. Two has a round top and a flat bottom. Here!",
+      "end": 173.92
+    },
+    {
+      "id": "gB",
+      "start": 173.92,
+      "visual": "Where is the two now?",
+      "end": 180.26
+    },
+    {
+      "id": "gB_a",
+      "start": 180.26,
+      "visual": "There! Round top, flat bottom!",
+      "end": 184.14
+    },
+    {
+      "id": "gB2",
+      "start": 184.14,
+      "visual": "Look closely. Where is the two?",
+      "end": 191.1
+    },
+    {
+      "id": "gB2_a",
+      "start": 191.1,
+      "visual": "That one! It's swimming like a swan!",
+      "end": 195.47
+    },
+    {
+      "id": "gC",
+      "start": 195.47,
+      "visual": "Which nest has two eggs?",
+      "end": 201.99
+    },
+    {
+      "id": "gC_a",
+      "start": 201.99,
+      "visual": "This nest! One, two eggs!",
+      "end": 206.06
+    },
+    {
+      "id": "gC2",
+      "start": 206.06,
+      "visual": "Socks come in pairs. Which sock has no partner?",
+      "end": 214.03
+    },
+    {
+      "id": "gC2_a",
+      "start": 214.03,
+      "visual": "That one! The stripy sock is all alone!",
+      "end": 218.4
+    },
+    {
+      "id": "gD",
+      "start": 218.4,
+      "visual": "How many ducks are swimming in the pond?",
+      "end": 225.66
+    },
+    {
+      "id": "gD_leo",
+      "start": 225.66,
+      "visual": "Three!",
+      "end": 227.44
+    },
+    {
+      "id": "gD_no",
+      "start": 227.44,
+      "visual": "Let's count. One, two!",
+      "end": 230.38
+    },
+    {
+      "id": "gD_b",
+      "start": 230.38,
+      "visual": "Oh! Two ducks! Quack, quack!",
+      "end": 234.1
+    },
+    {
+      "id": "gE",
+      "start": 234.1,
+      "visual": "I have two cookies again. If I eat one...",
+      "end": 236.94
+    },
+    {
+      "id": "gE_crunch",
+      "start": 236.94,
+      "visual": "Crunch!",
+      "end": 238.6
+    },
+    {
+      "id": "gE_q",
+      "start": 238.6,
+      "visual": "How many cookies are left?",
+      "end": 245.09
+    },
+    {
+      "id": "gE_a",
+      "start": 245.09,
+      "visual": "One cookie left! Ha ha, Bobo!",
+      "end": 249.37
+    },
+    {
+      "id": "rem",
+      "start": 249.37,
+      "visual": "Let's remember!",
+      "end": 251.64
+    },
+    {
+      "id": "rq1",
+      "start": 251.64,
+      "visual": "How do we write a two?",
+      "end": 257.77
+    },
+    {
+      "id": "ra1",
+      "start": 257.77,
+      "visual": "Around, down, and along the bottom!",
+      "end": 261.92
+    },
+    {
+      "id": "rq2",
+      "start": 261.92,
+      "visual": "How many eyes do you have?",
+      "end": 268.39
+    },
+    {
+      "id": "ra2",
+      "start": 268.39,
+      "visual": "Two eyes!",
+      "end": 271.24
+    },
+    {
+      "id": "rq3",
+      "start": 271.24,
+      "visual": "How many wheels does a bike have?",
+      "end": 278.22
+    },
+    {
+      "id": "ra3",
+      "start": 278.22,
+      "visual": "Two wheels!",
+      "end": 280.8
+    },
+    {
+      "id": "rq4",
+      "start": 280.8,
+      "visual": "How do you say two, in French?",
+      "end": 287.7
+    },
+    {
+      "id": "ra4",
+      "start": 287.7,
+      "visual": "Deux !",
+      "end": 290.1
+    },
+    {
+      "id": "rq6",
+      "start": 290.1,
+      "visual": "What does number two look like?",
+      "end": 296.49
+    },
+    {
+      "id": "ra6",
+      "start": 296.49,
+      "visual": "A swan, swimming on the water!",
+      "end": 300.23
+    },
+    {
+      "id": "rq5",
+      "start": 300.23,
+      "visual": "Now, show me two fingers!",
+      "end": 305.3
+    },
+    {
+      "id": "ra5",
+      "start": 305.3,
+      "visual": "Two fingers! Great job!",
+      "end": 308.89
+    },
+    {
+      "id": "chant",
+      "start": 308.89,
+      "visual": "Let's say the number two rhyme!",
+      "end": 311.78
+    },
+    {
+      "id": "c1",
+      "start": 311.78,
+      "visual": "Two, two, number two!",
+      "end": 314.02
+    },
+    {
+      "id": "c2",
+      "start": 314.02,
+      "visual": "Round the top, like a swan would do!",
+      "end": 316.85
+    },
+    {
+      "id": "c3",
+      "start": 316.85,
+      "visual": "Flat along the bottom, woo-hoo!",
+      "end": 319.58
+    },
+    {
+      "id": "c_turn",
+      "start": 319.58,
+      "visual": "Your turn! Two, two, number two!",
+      "end": 325.26
+    },
+    {
+      "id": "next",
+      "start": 325.26,
+      "visual": "Next time, we'll learn number three!",
+      "end": 328.73
+    },
+    {
+      "id": "bye",
+      "start": 328.73,
+      "visual": "Bye bye, friends!",
+      "end": 330.76
+    },
+    {
+      "id": "bye2",
+      "start": 330.76,
+      "visual": "See you next time, on Tiny Sparks!",
+      "end": 339.7
+    }
+  ]
+}

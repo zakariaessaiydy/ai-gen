@@ -21,6 +21,8 @@ import path from 'path';
 import { getServeUrl, REMOTION_ROOT as root } from './lib/bundle-cache.mjs';
 import { findFfmpeg } from './lib/ffmpeg.mjs';
 import { generate } from './gen-registry.mjs';
+// a local Chrome/Chromium instead of Remotion's download (e.g. a locked-down network): REMOTION_BROWSER=/path/to/chrome
+const BROWSER = process.env.REMOTION_BROWSER || null;
 
 const args = process.argv.slice(2);
 const flag = (name, dflt) => {
@@ -116,7 +118,7 @@ if (!shots.some((s) => s.id === id)) {
   process.exit(1);
 }
 const serveUrl = await getServeUrl({ force: has('force-bundle') });
-const composition = await selectComposition({ serveUrl, id });
+const composition = await selectComposition({ browserExecutable: BROWSER, serveUrl, id });
 const fps = composition.fps;
 
 let frames;
@@ -140,7 +142,7 @@ if (beatsFlag || has('auto') || !framesArg) {
 }
 frames = frames.map((f) => Math.max(0, Math.min(composition.durationInFrames - 1, f)));
 
-const browser = await openBrowser('chrome', { shouldDumpIo: false });
+const browser = await openBrowser('chrome', { shouldDumpIo: false, browserExecutable: BROWSER });
 
 const results = new Array(frames.length);
 let next = 0;
@@ -150,7 +152,7 @@ async function worker() {
     const f = frames[i];
     const out = path.join(outDir, `${id}-f${String(f).padStart(4, '0')}.png`);
     await renderStill({
-      serveUrl, composition, output: out, frame: f, scale: SCALE,
+      browserExecutable: BROWSER, serveUrl, composition, output: out, frame: f, scale: SCALE,
       overwrite: true, imageFormat: 'png', puppeteerInstance: browser,
     });
     results[i] = { frame: f, out };
