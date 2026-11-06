@@ -1,0 +1,419 @@
+{
+ "master": "remotion/out/KidsScience075-voiced.mp4",
+ "master_fps": 30,
+ "catalog": "media/library/sfx/catalog.json",
+ "render": {
+  "preview": "remotion/out/KidsScience075-voiced.mp4",
+  "out": "kids-shorts/tiny-sparks/science/day-075-what-is-thunder/output/day-075-sfx.mp4",
+  "end_s": 335.2,
+  "duck": true
+ },
+ "events": [
+  {
+   "at_s": 0.1,
+   "sfx_id": "thunder-soft",
+   "gain_db": -2,
+   "shot": "KidsScience075",
+   "cue": "the cold-open boom"
+  },
+  {
+   "at_s": 2.06,
+   "sfx_id": "cartoon-boing",
+   "gain_db": -12,
+   "shot": "KidsScience075",
+   "cue": "jump"
+  },
+  {
+   "at_s": 6.98,
+   "sfx_id": "bonk",
+   "gain_db": -10,
+   "shot": "KidsScience075",
+   "cue": "bonk"
+  },
+  {
+   "at_s": 10.14,
+   "sfx_id": "drum-roll",
+   "gain_db": -12,
+   "shot": "KidsScience075",
+   "cue": "drum",
+   "dur_s": 1.0
+  },
+  {
+   "at_s": 12.18,
+   "sfx_id": "cartoon-pop",
+   "gain_db": -12,
+   "shot": "KidsScience075",
+   "cue": "soft"
+  },
+  {
+   "at_s": 17.72,
+   "sfx_id": "chime-magic",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "the answer"
+  },
+  {
+   "at_s": 31.32,
+   "sfx_id": "thunder-soft",
+   "gain_db": -12,
+   "shot": "KidsScience075",
+   "cue": "rumble far"
+  },
+  {
+   "at_s": 36.34,
+   "sfx_id": "riser-soft",
+   "gain_db": -12,
+   "shot": "KidsScience075",
+   "cue": "hot"
+  },
+  {
+   "at_s": 45.33,
+   "sfx_id": "whoosh-soft",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "whoosh"
+  },
+  {
+   "at_s": 49.38,
+   "sfx_id": "impact-deep-soft",
+   "gain_db": -6,
+   "shot": "KidsScience075",
+   "cue": "boom"
+  },
+  {
+   "at_s": 60.37,
+   "sfx_id": "rubber-stretch",
+   "gain_db": -12,
+   "shot": "KidsScience075",
+   "cue": "squeeze"
+  },
+  {
+   "at_s": 63.0,
+   "sfx_id": "cartoon-pop",
+   "gain_db": -2,
+   "shot": "KidsScience075",
+   "cue": "POP"
+  },
+  {
+   "at_s": 63.56,
+   "sfx_id": "kids-laugh",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "laugh"
+  },
+  {
+   "at_s": 85.34,
+   "sfx_id": "stamp-hit",
+   "gain_db": -12,
+   "shot": "KidsScience075",
+   "cue": "clap"
+  },
+  {
+   "at_s": 94.51,
+   "sfx_id": "knock-solid",
+   "gain_db": -12,
+   "shot": "KidsScience075",
+   "cue": "tap"
+  },
+  {
+   "at_s": 94.8,
+   "sfx_id": "knock-solid",
+   "gain_db": -12,
+   "shot": "KidsScience075",
+   "cue": "tap"
+  },
+  {
+   "at_s": 108.31,
+   "sfx_id": "kids-laugh",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "tickles"
+  },
+  {
+   "at_s": 117.19,
+   "sfx_id": "trap-snap",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "CRACK"
+  },
+  {
+   "at_s": 117.24,
+   "sfx_id": "thunder-soft",
+   "gain_db": -6,
+   "shot": "KidsScience075",
+   "cue": "crack"
+  },
+  {
+   "at_s": 121.37,
+   "sfx_id": "thunder-soft",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "rumble",
+   "dur_s": 3.0
+  },
+  {
+   "at_s": 133.13,
+   "sfx_id": "thunder-soft",
+   "gain_db": -14,
+   "shot": "KidsScience075",
+   "cue": "train",
+   "dur_s": 2.0
+  },
+  {
+   "at_s": 137.49,
+   "sfx_id": "thunder-soft",
+   "gain_db": -14,
+   "shot": "KidsScience075",
+   "cue": "far"
+  },
+  {
+   "at_s": 141.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsScience075",
+   "cue": "think",
+   "dur_s": 4.0
+  },
+  {
+   "at_s": 145.98,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "right"
+  },
+  {
+   "at_s": 150.52,
+   "sfx_id": "trap-snap",
+   "gain_db": -12,
+   "shot": "KidsScience075",
+   "cue": "near"
+  },
+  {
+   "at_s": 153.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsScience075",
+   "cue": "think",
+   "dur_s": 4.0
+  },
+  {
+   "at_s": 157.97,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "right"
+  },
+  {
+   "at_s": 163.93,
+   "sfx_id": "uh-oh",
+   "gain_db": -14,
+   "shot": "KidsScience075",
+   "cue": "scared"
+  },
+  {
+   "at_s": 179.73,
+   "sfx_id": "chime-reward",
+   "gain_db": -10,
+   "shot": "KidsScience075",
+   "cue": "better"
+  },
+  {
+   "at_s": 191.52,
+   "sfx_id": "cartoon-pop",
+   "gain_db": -6,
+   "shot": "KidsScience075",
+   "cue": "bag pop"
+  },
+  {
+   "at_s": 195.26,
+   "sfx_id": "pop-reveal",
+   "gain_db": -10,
+   "shot": "KidsScience075",
+   "cue": "wow"
+  },
+  {
+   "at_s": 210.51,
+   "sfx_id": "kids-wow",
+   "gain_db": -6,
+   "shot": "KidsScience075",
+   "cue": "wow"
+  },
+  {
+   "at_s": 212.91,
+   "sfx_id": "drum-roll",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "game",
+   "dur_s": 1.4
+  },
+  {
+   "at_s": 218.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsScience075",
+   "cue": "think",
+   "dur_s": 4.0
+  },
+  {
+   "at_s": 224.02,
+   "sfx_id": "uh-oh",
+   "gain_db": -10,
+   "shot": "KidsScience075",
+   "cue": "wrong"
+  },
+  {
+   "at_s": 225.02,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "right"
+  },
+  {
+   "at_s": 234.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsScience075",
+   "cue": "think",
+   "dur_s": 4.0
+  },
+  {
+   "at_s": 238.69,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "right"
+  },
+  {
+   "at_s": 245.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsScience075",
+   "cue": "think",
+   "dur_s": 4.0
+  },
+  {
+   "at_s": 249.96,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "right"
+  },
+  {
+   "at_s": 251.51,
+   "sfx_id": "kids-yay",
+   "gain_db": -4,
+   "shot": "KidsScience075",
+   "cue": "yay"
+  },
+  {
+   "at_s": 257.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsScience075",
+   "cue": "think",
+   "dur_s": 4.0
+  },
+  {
+   "at_s": 261.98,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "right"
+  },
+  {
+   "at_s": 267.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsScience075",
+   "cue": "think",
+   "dur_s": 4.0
+  },
+  {
+   "at_s": 271.99,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "right"
+  },
+  {
+   "at_s": 277.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsScience075",
+   "cue": "think",
+   "dur_s": 4.0
+  },
+  {
+   "at_s": 281.61,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "right"
+  },
+  {
+   "at_s": 288.0,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsScience075",
+   "cue": "think",
+   "dur_s": 4.0
+  },
+  {
+   "at_s": 292.34,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "right"
+  },
+  {
+   "at_s": 295.1,
+   "sfx_id": "think-tick",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "think",
+   "dur_s": 2.5
+  },
+  {
+   "at_s": 299.8,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "right"
+  },
+  {
+   "at_s": 305.62,
+   "sfx_id": "cartoon-pop",
+   "gain_db": -12,
+   "shot": "KidsScience075",
+   "cue": "rhyme"
+  },
+  {
+   "at_s": 308.63,
+   "sfx_id": "trap-snap",
+   "gain_db": -14,
+   "shot": "KidsScience075",
+   "cue": "rhyme"
+  },
+  {
+   "at_s": 313.1,
+   "sfx_id": "kids-yay",
+   "gain_db": -4,
+   "shot": "KidsScience075",
+   "cue": "yay"
+  },
+  {
+   "at_s": 320.35,
+   "sfx_id": "chime-magic",
+   "gain_db": -10,
+   "shot": "KidsScience075",
+   "cue": "storm over"
+  },
+  {
+   "at_s": 328.8,
+   "sfx_id": "chime-magic",
+   "gain_db": -8,
+   "shot": "KidsScience075",
+   "cue": "star iris"
+  }
+ ]
+}
