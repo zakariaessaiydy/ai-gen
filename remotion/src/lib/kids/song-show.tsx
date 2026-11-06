@@ -296,7 +296,7 @@ export const SongOverlays: React.FC<{ t: number; show: Show; endText: string; ba
         </React.Fragment>
       ))}
       {slow && sk === 0 && <PopText t={t} at={S(slow.lines[0])} until={show.at(slow, 1) - 0.2} text="NICE AND SLOW..." x={CARD[0]} y={380} size={86} color="#ffffff" />}
-      {slow && sk >= 1 && t >= show.endOf(slow, sk) + 0.1 && t < show.at(slow, sk + 1) - 0.2 &&
+      {slow && sk >= 1 && t >= show.endOf(slow, sk) + 0.1 && t < show.at(slow, sk + 1) - 0.2 && t < lastEnd + 0.2 &&
         <PopText t={t} at={show.endOf(slow, sk) + 0.1} until={seg.t1} text="YOUR TURN!" x={CARD[0]} y={590} size={76} color="#ffca3a" />}
       {t >= lastEnd + 0.2 && <PopText t={t} at={lastEnd + 0.2} until={show.end + 1.5} text={endText} y={540} size={96} color="#ffca3a" />}
       <SingAlong t={t} lines={kar ? show.karaoke : show.song} ball={kar ? '#ff6fa5' : ball} />
@@ -308,7 +308,8 @@ export const SongOverlays: React.FC<{ t: number; show: Show; endText: string; ba
 /** the slow pass card: item k is shown while its line (k+1) is sung and through the YOUR TURN gap */
 export const SlowCard: React.FC<{ t: number; show: Show; items: string[]; color?: string }> = ({ t, show, items, color = '#4cc9f0' }) => {
   const seg = show.segAt(t);
-  if (seg.name !== 'slow') return null;
+  // a take that ENDS on the slow pass: the card leaves when the end line pops (no pile-up with it)
+  if (seg.name !== 'slow' || t >= show.E(show.last) + 0.2) return null;
   const k = lineIn(show, seg, t) - 1;
   if (k < 0) return null;
   const s = items[Math.min(k, items.length - 1)];
