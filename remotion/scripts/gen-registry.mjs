@@ -59,7 +59,9 @@ export function generate({ write = true, quiet = false } = {}) {
   const files = walk(shotsDir);
   const shots = [];
   const seen = new Set();
-  for (const file of files.sort()) {
+  // sort on '/' paths: Windows '\\' sorts differently, so the two OSes kept rewriting the registry in another order
+  const key = (f) => f.replace(/\\/g, '/');
+  for (const file of files.sort((a, b) => (key(a) < key(b) ? -1 : key(a) > key(b) ? 1 : 0))) {
     const cfg = parseConfig(readFileSync(file, 'utf8'));
     if (!cfg) { if (!quiet) console.warn('  skip (no compositionConfig):', path.relative(root, file)); continue; }
     if (seen.has(cfg.id)) { console.warn('  DUPLICATE id, skipping:', cfg.id, path.relative(root, file)); continue; }
