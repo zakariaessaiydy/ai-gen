@@ -1,0 +1,3036 @@
+{
+  "id": "day-076",
+  "series": "tiny-sparks",
+  "episode": 76,
+  "title": "Find 5 Differences",
+  "composition": "KidsPuzzles076",
+  "audience": "ages 3-6 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 316.6
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    },
+    "narrator_fr": {
+      "kokoro": "ff_siwis",
+      "lang": "fr",
+      "rate": "-6%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -7,
+    "duck": 8,
+    "start": 0,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "open",
+      "speaker": "mila",
+      "text": "Look! Two picnic pictures. But this sun has sunglasses!",
+      "gap": 1.2,
+      "start": 0.3,
+      "end": 3.79,
+      "words": [
+        {
+          "w": "Look!",
+          "start": 0.35,
+          "end": 0.618
+        },
+        {
+          "w": "Two",
+          "start": 0.618,
+          "end": 0.886
+        },
+        {
+          "w": "picnic",
+          "start": 0.886,
+          "end": 1.354
+        },
+        {
+          "w": "pictures.",
+          "start": 1.354,
+          "end": 1.89
+        },
+        {
+          "w": "But",
+          "start": 1.89,
+          "end": 2.157
+        },
+        {
+          "w": "this",
+          "start": 2.157,
+          "end": 2.425
+        },
+        {
+          "w": "sun",
+          "start": 2.425,
+          "end": 2.693
+        },
+        {
+          "w": "has",
+          "start": 2.693,
+          "end": 2.961
+        },
+        {
+          "w": "sunglasses!",
+          "start": 2.961,
+          "end": 3.63
+        }
+      ]
+    },
+    {
+      "beat": "premise",
+      "speaker": "hoot",
+      "text": "Five things are different. Let's find them all!",
+      "gap": 1.0,
+      "start": 4.99,
+      "end": 8.04,
+      "words": [
+        {
+          "w": "Five",
+          "start": 5.04,
+          "end": 5.417
+        },
+        {
+          "w": "things",
+          "start": 5.417,
+          "end": 5.795
+        },
+        {
+          "w": "are",
+          "start": 5.795,
+          "end": 5.946
+        },
+        {
+          "w": "different.",
+          "start": 5.946,
+          "end": 6.55
+        },
+        {
+          "w": "Let's",
+          "start": 6.81,
+          "end": 7.113
+        },
+        {
+          "w": "find",
+          "start": 7.113,
+          "end": 7.476
+        },
+        {
+          "w": "them",
+          "start": 7.476,
+          "end": 7.718
+        },
+        {
+          "w": "all!",
+          "start": 7.718,
+          "end": 7.96
+        }
+      ]
+    },
+    {
+      "beat": "p1_q",
+      "speaker": "hoot",
+      "text": "Can you find four more?",
+      "gap": 7.0,
+      "start": 9.04,
+      "end": 10.79,
+      "words": [
+        {
+          "w": "Can",
+          "start": 9.08,
+          "end": 9.39
+        },
+        {
+          "w": "you",
+          "start": 9.39,
+          "end": 9.623
+        },
+        {
+          "w": "find",
+          "start": 9.623,
+          "end": 10.089
+        },
+        {
+          "w": "four",
+          "start": 10.089,
+          "end": 10.4
+        },
+        {
+          "w": "more?",
+          "start": 10.4,
+          "end": 10.71
+        }
+      ]
+    },
+    {
+      "beat": "p1_leo",
+      "speaker": "leo",
+      "text": "I see one! The cloud!",
+      "gap": 0.8,
+      "start": 17.79,
+      "end": 19.29,
+      "words": [
+        {
+          "w": "I",
+          "start": 17.82,
+          "end": 18.021
+        },
+        {
+          "w": "see",
+          "start": 18.021,
+          "end": 18.288
+        },
+        {
+          "w": "one!",
+          "start": 18.288,
+          "end": 18.555
+        },
+        {
+          "w": "The",
+          "start": 18.555,
+          "end": 18.689
+        },
+        {
+          "w": "cloud!",
+          "start": 18.689,
+          "end": 19.09
+        }
+      ]
+    },
+    {
+      "beat": "p1_no",
+      "speaker": "mila",
+      "text": "Hmm, look again, Leo. The clouds are the same.",
+      "gap": 1.4,
+      "start": 20.09,
+      "end": 23.01,
+      "words": [
+        {
+          "w": "Hmm,",
+          "start": 20.13,
+          "end": 20.347
+        },
+        {
+          "w": "look",
+          "start": 20.347,
+          "end": 20.637
+        },
+        {
+          "w": "again,",
+          "start": 20.637,
+          "end": 20.999
+        },
+        {
+          "w": "Leo.",
+          "start": 20.999,
+          "end": 21.434
+        },
+        {
+          "w": "The",
+          "start": 21.434,
+          "end": 21.579
+        },
+        {
+          "w": "clouds",
+          "start": 21.579,
+          "end": 22.086
+        },
+        {
+          "w": "are",
+          "start": 22.086,
+          "end": 22.303
+        },
+        {
+          "w": "the",
+          "start": 22.303,
+          "end": 22.448
+        },
+        {
+          "w": "same.",
+          "start": 22.448,
+          "end": 22.81
+        }
+      ]
+    },
+    {
+      "beat": "p1_d2",
+      "speaker": "bobo",
+      "text": "The butterfly! It flew away!",
+      "gap": 2.6,
+      "start": 24.41,
+      "end": 25.96,
+      "words": [
+        {
+          "w": "The",
+          "start": 24.44,
+          "end": 24.556
+        },
+        {
+          "w": "butterfly!",
+          "start": 24.556,
+          "end": 25.135
+        },
+        {
+          "w": "It",
+          "start": 25.135,
+          "end": 25.251
+        },
+        {
+          "w": "flew",
+          "start": 25.251,
+          "end": 25.54
+        },
+        {
+          "w": "away!",
+          "start": 25.54,
+          "end": 25.83
+        }
+      ]
+    },
+    {
+      "beat": "p1_d3",
+      "speaker": "leo",
+      "text": "The blanket! Red here, and blue there!",
+      "gap": 2.6,
+      "start": 28.56,
+      "end": 30.69,
+      "words": [
+        {
+          "w": "The",
+          "start": 28.59,
+          "end": 28.709
+        },
+        {
+          "w": "blanket!",
+          "start": 28.709,
+          "end": 29.187
+        },
+        {
+          "w": "Red",
+          "start": 29.187,
+          "end": 29.425
+        },
+        {
+          "w": "here,",
+          "start": 29.425,
+          "end": 29.664
+        },
+        {
+          "w": "and",
+          "start": 29.664,
+          "end": 29.843
+        },
+        {
+          "w": "blue",
+          "start": 29.843,
+          "end": 30.141
+        },
+        {
+          "w": "there!",
+          "start": 30.141,
+          "end": 30.38
+        }
+      ]
+    },
+    {
+      "beat": "p1_d4",
+      "speaker": "mila",
+      "text": "The tree has apples. And this tree has none!",
+      "gap": 2.6,
+      "start": 33.29,
+      "end": 35.8,
+      "words": [
+        {
+          "w": "The",
+          "start": 33.33,
+          "end": 33.453
+        },
+        {
+          "w": "tree",
+          "start": 33.453,
+          "end": 33.759
+        },
+        {
+          "w": "has",
+          "start": 33.759,
+          "end": 34.005
+        },
+        {
+          "w": "apples.",
+          "start": 34.005,
+          "end": 34.373
+        },
+        {
+          "w": "And",
+          "start": 34.373,
+          "end": 34.557
+        },
+        {
+          "w": "this",
+          "start": 34.557,
+          "end": 34.802
+        },
+        {
+          "w": "tree",
+          "start": 34.802,
+          "end": 35.109
+        },
+        {
+          "w": "has",
+          "start": 35.109,
+          "end": 35.355
+        },
+        {
+          "w": "none!",
+          "start": 35.355,
+          "end": 35.6
+        }
+      ]
+    },
+    {
+      "beat": "p1_d5",
+      "speaker": "bobo",
+      "text": "My honey pot! It's gone! Oh no!",
+      "gap": 2.6,
+      "start": 38.4,
+      "end": 40.18,
+      "words": [
+        {
+          "w": "My",
+          "start": 38.43,
+          "end": 38.659
+        },
+        {
+          "w": "honey",
+          "start": 38.659,
+          "end": 38.944
+        },
+        {
+          "w": "pot!",
+          "start": 38.944,
+          "end": 39.23
+        },
+        {
+          "w": "It's",
+          "start": 39.23,
+          "end": 39.401
+        },
+        {
+          "w": "gone!",
+          "start": 39.401,
+          "end": 39.63
+        },
+        {
+          "w": "Oh",
+          "start": 39.63,
+          "end": 39.801
+        },
+        {
+          "w": "no!",
+          "start": 39.801,
+          "end": 40.03
+        }
+      ]
+    },
+    {
+      "beat": "p1_done",
+      "speaker": "hoot",
+      "text": "Five differences! Well done!",
+      "gap": 2.4,
+      "start": 42.78,
+      "end": 45.12,
+      "words": [
+        {
+          "w": "Five",
+          "start": 42.82,
+          "end": 43.22
+        },
+        {
+          "w": "differences!",
+          "start": 43.22,
+          "end": 44.02
+        },
+        {
+          "w": "Well",
+          "start": 44.25,
+          "end": 44.645
+        },
+        {
+          "w": "done!",
+          "start": 44.645,
+          "end": 45.04
+        }
+      ]
+    },
+    {
+      "beat": "p2",
+      "speaker": "mila",
+      "text": "Now, the toy room!",
+      "gap": 0.8,
+      "start": 47.52,
+      "end": 49.03,
+      "words": [
+        {
+          "w": "Now,",
+          "start": 47.56,
+          "end": 47.917
+        },
+        {
+          "w": "the",
+          "start": 47.917,
+          "end": 48.096
+        },
+        {
+          "w": "toy",
+          "start": 48.096,
+          "end": 48.453
+        },
+        {
+          "w": "room!",
+          "start": 48.453,
+          "end": 48.9
+        }
+      ]
+    },
+    {
+      "beat": "p2_q",
+      "speaker": "hoot",
+      "text": "Find five differences!",
+      "gap": 7.0,
+      "start": 49.83,
+      "end": 51.7,
+      "words": [
+        {
+          "w": "Find",
+          "start": 49.87,
+          "end": 50.37
+        },
+        {
+          "w": "five",
+          "start": 50.37,
+          "end": 50.787
+        },
+        {
+          "w": "differences!",
+          "start": 50.787,
+          "end": 51.62
+        }
+      ]
+    },
+    {
+      "beat": "p2_leo",
+      "speaker": "leo",
+      "text": "The teddy has no eyes!",
+      "gap": 0.8,
+      "start": 58.7,
+      "end": 60.27,
+      "words": [
+        {
+          "w": "The",
+          "start": 58.73,
+          "end": 58.866
+        },
+        {
+          "w": "teddy",
+          "start": 58.866,
+          "end": 59.205
+        },
+        {
+          "w": "has",
+          "start": 59.205,
+          "end": 59.477
+        },
+        {
+          "w": "no",
+          "start": 59.477,
+          "end": 59.748
+        },
+        {
+          "w": "eyes!",
+          "start": 59.748,
+          "end": 60.02
+        }
+      ]
+    },
+    {
+      "beat": "p2_no",
+      "speaker": "bobo",
+      "text": "Ha ha! Look closely, Leo. He has two eyes, see?",
+      "gap": 1.4,
+      "start": 61.07,
+      "end": 63.8,
+      "words": [
+        {
+          "w": "Ha",
+          "start": 61.1,
+          "end": 61.319
+        },
+        {
+          "w": "ha!",
+          "start": 61.319,
+          "end": 61.537
+        },
+        {
+          "w": "Look",
+          "start": 61.537,
+          "end": 61.756
+        },
+        {
+          "w": "closely,",
+          "start": 61.756,
+          "end": 62.193
+        },
+        {
+          "w": "Leo.",
+          "start": 62.193,
+          "end": 62.521
+        },
+        {
+          "w": "He",
+          "start": 62.521,
+          "end": 62.685
+        },
+        {
+          "w": "has",
+          "start": 62.685,
+          "end": 62.904
+        },
+        {
+          "w": "two",
+          "start": 62.904,
+          "end": 63.123
+        },
+        {
+          "w": "eyes,",
+          "start": 63.123,
+          "end": 63.341
+        },
+        {
+          "w": "see?",
+          "start": 63.341,
+          "end": 63.56
+        }
+      ]
+    },
+    {
+      "beat": "p2_d1",
+      "speaker": "leo",
+      "text": "Oh! But his bow is a different color!",
+      "gap": 2.6,
+      "start": 65.2,
+      "end": 67.33,
+      "words": [
+        {
+          "w": "Oh!",
+          "start": 65.23,
+          "end": 65.395
+        },
+        {
+          "w": "But",
+          "start": 65.395,
+          "end": 65.616
+        },
+        {
+          "w": "his",
+          "start": 65.616,
+          "end": 65.837
+        },
+        {
+          "w": "bow",
+          "start": 65.837,
+          "end": 66.057
+        },
+        {
+          "w": "is",
+          "start": 66.057,
+          "end": 66.168
+        },
+        {
+          "w": "a",
+          "start": 66.168,
+          "end": 66.333
+        },
+        {
+          "w": "different",
+          "start": 66.333,
+          "end": 66.774
+        },
+        {
+          "w": "color!",
+          "start": 66.774,
+          "end": 67.05
+        }
+      ]
+    },
+    {
+      "beat": "p2_d2",
+      "speaker": "mila",
+      "text": "The window! Daytime here, and nighttime there!",
+      "gap": 2.6,
+      "start": 69.93,
+      "end": 72.61,
+      "words": [
+        {
+          "w": "The",
+          "start": 69.97,
+          "end": 70.107
+        },
+        {
+          "w": "window!",
+          "start": 70.107,
+          "end": 70.585
+        },
+        {
+          "w": "Daytime",
+          "start": 70.585,
+          "end": 71.132
+        },
+        {
+          "w": "here,",
+          "start": 71.132,
+          "end": 71.406
+        },
+        {
+          "w": "and",
+          "start": 71.406,
+          "end": 71.611
+        },
+        {
+          "w": "nighttime",
+          "start": 71.611,
+          "end": 72.226
+        },
+        {
+          "w": "there!",
+          "start": 72.226,
+          "end": 72.5
+        }
+      ]
+    },
+    {
+      "beat": "p2_d3",
+      "speaker": "bobo",
+      "text": "The ball is missing!",
+      "gap": 2.6,
+      "start": 75.21,
+      "end": 76.29,
+      "words": [
+        {
+          "w": "The",
+          "start": 75.25,
+          "end": 75.373
+        },
+        {
+          "w": "ball",
+          "start": 75.373,
+          "end": 75.679
+        },
+        {
+          "w": "is",
+          "start": 75.679,
+          "end": 75.802
+        },
+        {
+          "w": "missing!",
+          "start": 75.802,
+          "end": 76.17
+        }
+      ]
+    },
+    {
+      "beat": "p2_d4",
+      "speaker": "leo",
+      "text": "The rocket! Red, and green!",
+      "gap": 2.6,
+      "start": 78.89,
+      "end": 80.61,
+      "words": [
+        {
+          "w": "The",
+          "start": 78.92,
+          "end": 79.047
+        },
+        {
+          "w": "rocket!",
+          "start": 79.047,
+          "end": 79.493
+        },
+        {
+          "w": "Red,",
+          "start": 79.493,
+          "end": 79.747
+        },
+        {
+          "w": "and",
+          "start": 79.747,
+          "end": 79.938
+        },
+        {
+          "w": "green!",
+          "start": 79.938,
+          "end": 80.32
+        }
+      ]
+    },
+    {
+      "beat": "p2_d5",
+      "speaker": "mila",
+      "text": "The lamp is on, and the lamp is off!",
+      "gap": 2.6,
+      "start": 83.21,
+      "end": 85.57,
+      "words": [
+        {
+          "w": "The",
+          "start": 83.39,
+          "end": 83.544
+        },
+        {
+          "w": "lamp",
+          "start": 83.544,
+          "end": 83.929
+        },
+        {
+          "w": "is",
+          "start": 83.929,
+          "end": 84.083
+        },
+        {
+          "w": "on,",
+          "start": 84.083,
+          "end": 84.314
+        },
+        {
+          "w": "and",
+          "start": 84.314,
+          "end": 84.546
+        },
+        {
+          "w": "the",
+          "start": 84.546,
+          "end": 84.7
+        },
+        {
+          "w": "lamp",
+          "start": 84.7,
+          "end": 85.085
+        },
+        {
+          "w": "is",
+          "start": 85.085,
+          "end": 85.239
+        },
+        {
+          "w": "off!",
+          "start": 85.239,
+          "end": 85.47
+        }
+      ]
+    },
+    {
+      "beat": "p2_done",
+      "speaker": "hoot",
+      "text": "Five! You have super eyes!",
+      "gap": 2.4,
+      "start": 88.17,
+      "end": 90.19,
+      "words": [
+        {
+          "w": "Five!",
+          "start": 88.2,
+          "end": 88.632
+        },
+        {
+          "w": "You",
+          "start": 88.632,
+          "end": 88.891
+        },
+        {
+          "w": "have",
+          "start": 88.891,
+          "end": 89.236
+        },
+        {
+          "w": "super",
+          "start": 89.236,
+          "end": 89.755
+        },
+        {
+          "w": "eyes!",
+          "start": 89.755,
+          "end": 90.1
+        }
+      ]
+    },
+    {
+      "beat": "p3",
+      "speaker": "hoot",
+      "text": "Let's dive under the sea!",
+      "gap": 0.8,
+      "start": 92.59,
+      "end": 94.68,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 92.61,
+          "end": 93.084
+        },
+        {
+          "w": "dive",
+          "start": 93.084,
+          "end": 93.558
+        },
+        {
+          "w": "under",
+          "start": 93.558,
+          "end": 94.031
+        },
+        {
+          "w": "the",
+          "start": 94.031,
+          "end": 94.221
+        },
+        {
+          "w": "sea!",
+          "start": 94.221,
+          "end": 94.6
+        }
+      ]
+    },
+    {
+      "beat": "p3_q",
+      "speaker": "hoot",
+      "text": "Can you find five differences?",
+      "gap": 7.0,
+      "start": 95.48,
+      "end": 97.65,
+      "words": [
+        {
+          "w": "Can",
+          "start": 95.5,
+          "end": 95.794
+        },
+        {
+          "w": "you",
+          "start": 95.794,
+          "end": 96.015
+        },
+        {
+          "w": "find",
+          "start": 96.015,
+          "end": 96.456
+        },
+        {
+          "w": "five",
+          "start": 96.456,
+          "end": 96.824
+        },
+        {
+          "w": "differences?",
+          "start": 96.824,
+          "end": 97.56
+        }
+      ]
+    },
+    {
+      "beat": "p3_d1",
+      "speaker": "mila",
+      "text": "The fish! Orange here, purple there!",
+      "gap": 2.6,
+      "start": 104.65,
+      "end": 106.87,
+      "words": [
+        {
+          "w": "The",
+          "start": 104.7,
+          "end": 104.845
+        },
+        {
+          "w": "fish!",
+          "start": 104.845,
+          "end": 105.135
+        },
+        {
+          "w": "Orange",
+          "start": 105.135,
+          "end": 105.643
+        },
+        {
+          "w": "here,",
+          "start": 105.643,
+          "end": 105.933
+        },
+        {
+          "w": "purple",
+          "start": 105.933,
+          "end": 106.44
+        },
+        {
+          "w": "there!",
+          "start": 106.44,
+          "end": 106.73
+        }
+      ]
+    },
+    {
+      "beat": "p3_d2",
+      "speaker": "bobo",
+      "text": "The starfish is gone!",
+      "gap": 2.6,
+      "start": 109.47,
+      "end": 110.66,
+      "words": [
+        {
+          "w": "The",
+          "start": 109.5,
+          "end": 109.626
+        },
+        {
+          "w": "starfish",
+          "start": 109.626,
+          "end": 110.192
+        },
+        {
+          "w": "is",
+          "start": 110.192,
+          "end": 110.318
+        },
+        {
+          "w": "gone!",
+          "start": 110.318,
+          "end": 110.57
+        }
+      ]
+    },
+    {
+      "beat": "p3_d3",
+      "speaker": "leo",
+      "text": "The bubbles! Pop, pop, pop! No bubbles here!",
+      "gap": 2.6,
+      "start": 113.26,
+      "end": 115.94,
+      "words": [
+        {
+          "w": "The",
+          "start": 113.29,
+          "end": 113.409
+        },
+        {
+          "w": "bubbles!",
+          "start": 113.409,
+          "end": 113.828
+        },
+        {
+          "w": "Pop,",
+          "start": 113.828,
+          "end": 114.126
+        },
+        {
+          "w": "pop,",
+          "start": 114.126,
+          "end": 114.425
+        },
+        {
+          "w": "pop!",
+          "start": 114.425,
+          "end": 114.724
+        },
+        {
+          "w": "No",
+          "start": 114.724,
+          "end": 114.963
+        },
+        {
+          "w": "bubbles",
+          "start": 114.963,
+          "end": 115.381
+        },
+        {
+          "w": "here!",
+          "start": 115.381,
+          "end": 115.62
+        }
+      ]
+    },
+    {
+      "beat": "p3_d4",
+      "speaker": "mila",
+      "text": "The crab became a seashell!",
+      "gap": 2.6,
+      "start": 118.54,
+      "end": 120.41,
+      "words": [
+        {
+          "w": "The",
+          "start": 118.59,
+          "end": 118.732
+        },
+        {
+          "w": "crab",
+          "start": 118.732,
+          "end": 119.086
+        },
+        {
+          "w": "became",
+          "start": 119.086,
+          "end": 119.582
+        },
+        {
+          "w": "a",
+          "start": 119.582,
+          "end": 119.794
+        },
+        {
+          "w": "seashell!",
+          "start": 119.794,
+          "end": 120.29
+        }
+      ]
+    },
+    {
+      "beat": "p3_d5",
+      "speaker": "bobo",
+      "text": "And the jellyfish swam away!",
+      "gap": 2.6,
+      "start": 123.01,
+      "end": 124.44,
+      "words": [
+        {
+          "w": "And",
+          "start": 123.04,
+          "end": 123.198
+        },
+        {
+          "w": "the",
+          "start": 123.198,
+          "end": 123.302
+        },
+        {
+          "w": "jellyfish",
+          "start": 123.302,
+          "end": 123.775
+        },
+        {
+          "w": "swam",
+          "start": 123.775,
+          "end": 124.037
+        },
+        {
+          "w": "away!",
+          "start": 124.037,
+          "end": 124.3
+        }
+      ]
+    },
+    {
+      "beat": "p3_done",
+      "speaker": "hoot",
+      "text": "Five differences! Splash!",
+      "gap": 2.4,
+      "start": 127.04,
+      "end": 129.11,
+      "words": [
+        {
+          "w": "Five",
+          "start": 127.08,
+          "end": 127.44
+        },
+        {
+          "w": "differences!",
+          "start": 127.44,
+          "end": 128.16
+        },
+        {
+          "w": "Splash!",
+          "start": 128.31,
+          "end": 129.03
+        }
+      ]
+    },
+    {
+      "beat": "p4",
+      "speaker": "mila",
+      "text": "Brrr! A snowy day!",
+      "gap": 0.8,
+      "start": 131.51,
+      "end": 133.64,
+      "words": [
+        {
+          "w": "Brrr!",
+          "start": 131.55,
+          "end": 132.682
+        },
+        {
+          "w": "A",
+          "start": 132.682,
+          "end": 132.871
+        },
+        {
+          "w": "snowy",
+          "start": 132.871,
+          "end": 133.248
+        },
+        {
+          "w": "day!",
+          "start": 133.248,
+          "end": 133.5
+        }
+      ]
+    },
+    {
+      "beat": "p4_q",
+      "speaker": "hoot",
+      "text": "Find five differences on the snowmen!",
+      "gap": 7.0,
+      "start": 134.44,
+      "end": 137.38,
+      "words": [
+        {
+          "w": "Find",
+          "start": 134.48,
+          "end": 134.979
+        },
+        {
+          "w": "five",
+          "start": 134.979,
+          "end": 135.396
+        },
+        {
+          "w": "differences",
+          "start": 135.396,
+          "end": 136.228
+        },
+        {
+          "w": "on",
+          "start": 136.228,
+          "end": 136.478
+        },
+        {
+          "w": "the",
+          "start": 136.478,
+          "end": 136.644
+        },
+        {
+          "w": "snowmen!",
+          "start": 136.644,
+          "end": 137.31
+        }
+      ]
+    },
+    {
+      "beat": "p4_d1",
+      "speaker": "leo",
+      "text": "His hat! Black, and red!",
+      "gap": 2.6,
+      "start": 144.38,
+      "end": 145.95,
+      "words": [
+        {
+          "w": "His",
+          "start": 144.42,
+          "end": 144.676
+        },
+        {
+          "w": "hat!",
+          "start": 144.676,
+          "end": 144.932
+        },
+        {
+          "w": "Black,",
+          "start": 144.932,
+          "end": 145.252
+        },
+        {
+          "w": "and",
+          "start": 145.252,
+          "end": 145.444
+        },
+        {
+          "w": "red!",
+          "start": 145.444,
+          "end": 145.7
+        }
+      ]
+    },
+    {
+      "beat": "p4_d2",
+      "speaker": "bobo",
+      "text": "This snowman lost his carrot nose!",
+      "gap": 2.6,
+      "start": 148.55,
+      "end": 150.44,
+      "words": [
+        {
+          "w": "This",
+          "start": 148.59,
+          "end": 148.81
+        },
+        {
+          "w": "snowman",
+          "start": 148.81,
+          "end": 149.25
+        },
+        {
+          "w": "lost",
+          "start": 149.25,
+          "end": 149.525
+        },
+        {
+          "w": "his",
+          "start": 149.525,
+          "end": 149.745
+        },
+        {
+          "w": "carrot",
+          "start": 149.745,
+          "end": 150.075
+        },
+        {
+          "w": "nose!",
+          "start": 150.075,
+          "end": 150.35
+        }
+      ]
+    },
+    {
+      "beat": "p4_d3",
+      "speaker": "mila",
+      "text": "Count the buttons. Three here... and two there!",
+      "gap": 2.6,
+      "start": 153.04,
+      "end": 155.53,
+      "words": [
+        {
+          "w": "Count",
+          "start": 153.07,
+          "end": 153.478
+        },
+        {
+          "w": "the",
+          "start": 153.478,
+          "end": 153.614
+        },
+        {
+          "w": "buttons.",
+          "start": 153.614,
+          "end": 154.021
+        },
+        {
+          "w": "Three",
+          "start": 154.021,
+          "end": 154.361
+        },
+        {
+          "w": "here...",
+          "start": 154.361,
+          "end": 154.633
+        },
+        {
+          "w": "and",
+          "start": 154.633,
+          "end": 154.836
+        },
+        {
+          "w": "two",
+          "start": 154.836,
+          "end": 155.108
+        },
+        {
+          "w": "there!",
+          "start": 155.108,
+          "end": 155.38
+        }
+      ]
+    },
+    {
+      "beat": "p4_d4",
+      "speaker": "leo",
+      "text": "The scarf has stripes, and this one has no stripes!",
+      "gap": 2.6,
+      "start": 158.13,
+      "end": 161.07,
+      "words": [
+        {
+          "w": "The",
+          "start": 158.16,
+          "end": 158.268
+        },
+        {
+          "w": "scarf",
+          "start": 158.268,
+          "end": 158.644
+        },
+        {
+          "w": "has",
+          "start": 158.644,
+          "end": 158.859
+        },
+        {
+          "w": "stripes,",
+          "start": 158.859,
+          "end": 159.289
+        },
+        {
+          "w": "and",
+          "start": 159.289,
+          "end": 159.45
+        },
+        {
+          "w": "this",
+          "start": 159.45,
+          "end": 159.665
+        },
+        {
+          "w": "one",
+          "start": 159.665,
+          "end": 159.88
+        },
+        {
+          "w": "has",
+          "start": 159.88,
+          "end": 160.095
+        },
+        {
+          "w": "no",
+          "start": 160.095,
+          "end": 160.31
+        },
+        {
+          "w": "stripes!",
+          "start": 160.31,
+          "end": 160.74
+        }
+      ]
+    },
+    {
+      "beat": "p4_d5",
+      "speaker": "bobo",
+      "text": "The little bird flew away!",
+      "gap": 2.6,
+      "start": 163.67,
+      "end": 164.97,
+      "words": [
+        {
+          "w": "The",
+          "start": 163.71,
+          "end": 163.808
+        },
+        {
+          "w": "little",
+          "start": 163.808,
+          "end": 164.103
+        },
+        {
+          "w": "bird",
+          "start": 164.103,
+          "end": 164.349
+        },
+        {
+          "w": "flew",
+          "start": 164.349,
+          "end": 164.594
+        },
+        {
+          "w": "away!",
+          "start": 164.594,
+          "end": 164.84
+        }
+      ]
+    },
+    {
+      "beat": "p4_done",
+      "speaker": "hoot",
+      "text": "Five! Hooray for you!",
+      "gap": 2.4,
+      "start": 167.57,
+      "end": 169.32,
+      "words": [
+        {
+          "w": "Five!",
+          "start": 167.61,
+          "end": 168.066
+        },
+        {
+          "w": "Hooray",
+          "start": 168.066,
+          "end": 168.703
+        },
+        {
+          "w": "for",
+          "start": 168.703,
+          "end": 168.977
+        },
+        {
+          "w": "you!",
+          "start": 168.977,
+          "end": 169.25
+        }
+      ]
+    },
+    {
+      "beat": "p5",
+      "speaker": "hoot",
+      "text": "Super puzzle! Look. Two Bobos!",
+      "gap": 1.0,
+      "start": 171.72,
+      "end": 174.15,
+      "words": [
+        {
+          "w": "Super",
+          "start": 171.76,
+          "end": 172.253
+        },
+        {
+          "w": "puzzle!",
+          "start": 172.253,
+          "end": 172.746
+        },
+        {
+          "w": "Look.",
+          "start": 172.746,
+          "end": 173.074
+        },
+        {
+          "w": "Two",
+          "start": 173.074,
+          "end": 173.403
+        },
+        {
+          "w": "Bobos!",
+          "start": 173.403,
+          "end": 174.06
+        }
+      ]
+    },
+    {
+      "beat": "p5_bobo",
+      "speaker": "bobo",
+      "text": "Two of me? Which one is the real me?",
+      "gap": 1.0,
+      "start": 175.15,
+      "end": 177.13,
+      "words": [
+        {
+          "w": "Two",
+          "start": 175.17,
+          "end": 175.389
+        },
+        {
+          "w": "of",
+          "start": 175.389,
+          "end": 175.499
+        },
+        {
+          "w": "me?",
+          "start": 175.499,
+          "end": 175.718
+        },
+        {
+          "w": "Which",
+          "start": 175.718,
+          "end": 175.993
+        },
+        {
+          "w": "one",
+          "start": 175.993,
+          "end": 176.212
+        },
+        {
+          "w": "is",
+          "start": 176.212,
+          "end": 176.322
+        },
+        {
+          "w": "the",
+          "start": 176.322,
+          "end": 176.432
+        },
+        {
+          "w": "real",
+          "start": 176.432,
+          "end": 176.761
+        },
+        {
+          "w": "me?",
+          "start": 176.761,
+          "end": 176.98
+        }
+      ]
+    },
+    {
+      "beat": "p5_q",
+      "speaker": "hoot",
+      "text": "Find five differences on Bobo!",
+      "gap": 7.0,
+      "start": 178.13,
+      "end": 180.9,
+      "words": [
+        {
+          "w": "Find",
+          "start": 178.18,
+          "end": 178.691
+        },
+        {
+          "w": "five",
+          "start": 178.691,
+          "end": 179.117
+        },
+        {
+          "w": "differences",
+          "start": 179.117,
+          "end": 179.968
+        },
+        {
+          "w": "on",
+          "start": 179.968,
+          "end": 180.224
+        },
+        {
+          "w": "Bobo!",
+          "start": 180.224,
+          "end": 180.82
+        }
+      ]
+    },
+    {
+      "beat": "p5_d1",
+      "speaker": "mila",
+      "text": "The scarf! Red here, and blue there!",
+      "gap": 2.6,
+      "start": 187.9,
+      "end": 189.96,
+      "words": [
+        {
+          "w": "The",
+          "start": 187.94,
+          "end": 188.072
+        },
+        {
+          "w": "scarf!",
+          "start": 188.072,
+          "end": 188.533
+        },
+        {
+          "w": "Red",
+          "start": 188.533,
+          "end": 188.796
+        },
+        {
+          "w": "here,",
+          "start": 188.796,
+          "end": 189.06
+        },
+        {
+          "w": "and",
+          "start": 189.06,
+          "end": 189.257
+        },
+        {
+          "w": "blue",
+          "start": 189.257,
+          "end": 189.587
+        },
+        {
+          "w": "there!",
+          "start": 189.587,
+          "end": 189.85
+        }
+      ]
+    },
+    {
+      "beat": "p5_d2",
+      "speaker": "leo",
+      "text": "This Bobo has a party hat!",
+      "gap": 2.6,
+      "start": 192.56,
+      "end": 194.51,
+      "words": [
+        {
+          "w": "This",
+          "start": 192.6,
+          "end": 192.828
+        },
+        {
+          "w": "Bobo",
+          "start": 192.828,
+          "end": 193.226
+        },
+        {
+          "w": "has",
+          "start": 193.226,
+          "end": 193.453
+        },
+        {
+          "w": "a",
+          "start": 193.453,
+          "end": 193.624
+        },
+        {
+          "w": "party",
+          "start": 193.624,
+          "end": 194.022
+        },
+        {
+          "w": "hat!",
+          "start": 194.022,
+          "end": 194.25
+        }
+      ]
+    },
+    {
+      "beat": "p5_d3",
+      "speaker": "mila",
+      "text": "This Bobo is holding an apple!",
+      "gap": 2.6,
+      "start": 197.11,
+      "end": 199.2,
+      "words": [
+        {
+          "w": "This",
+          "start": 197.14,
+          "end": 197.419
+        },
+        {
+          "w": "Bobo",
+          "start": 197.419,
+          "end": 197.906
+        },
+        {
+          "w": "is",
+          "start": 197.906,
+          "end": 198.045
+        },
+        {
+          "w": "holding",
+          "start": 198.045,
+          "end": 198.602
+        },
+        {
+          "w": "an",
+          "start": 198.602,
+          "end": 198.742
+        },
+        {
+          "w": "apple!",
+          "start": 198.742,
+          "end": 199.09
+        }
+      ]
+    },
+    {
+      "beat": "p5_d4",
+      "speaker": "leo",
+      "text": "One Bobo is standing on a little rug!",
+      "gap": 2.6,
+      "start": 201.8,
+      "end": 204.16,
+      "words": [
+        {
+          "w": "One",
+          "start": 201.84,
+          "end": 202.057
+        },
+        {
+          "w": "Bobo",
+          "start": 202.057,
+          "end": 202.438
+        },
+        {
+          "w": "is",
+          "start": 202.438,
+          "end": 202.546
+        },
+        {
+          "w": "standing",
+          "start": 202.546,
+          "end": 202.981
+        },
+        {
+          "w": "on",
+          "start": 202.981,
+          "end": 203.144
+        },
+        {
+          "w": "a",
+          "start": 203.144,
+          "end": 203.307
+        },
+        {
+          "w": "little",
+          "start": 203.307,
+          "end": 203.633
+        },
+        {
+          "w": "rug!",
+          "start": 203.633,
+          "end": 203.85
+        }
+      ]
+    },
+    {
+      "beat": "p5_d5",
+      "speaker": "hoot",
+      "text": "And one Bobo has a balloon!",
+      "gap": 2.6,
+      "start": 206.76,
+      "end": 209.25,
+      "words": [
+        {
+          "w": "And",
+          "start": 206.79,
+          "end": 207.046
+        },
+        {
+          "w": "one",
+          "start": 207.046,
+          "end": 207.387
+        },
+        {
+          "w": "Bobo",
+          "start": 207.387,
+          "end": 207.985
+        },
+        {
+          "w": "has",
+          "start": 207.985,
+          "end": 208.326
+        },
+        {
+          "w": "a",
+          "start": 208.326,
+          "end": 208.583
+        },
+        {
+          "w": "balloon!",
+          "start": 208.583,
+          "end": 209.18
+        }
+      ]
+    },
+    {
+      "beat": "p5_bobo2",
+      "speaker": "bobo",
+      "text": "Ha ha! I like the one with the party hat and the balloon!",
+      "gap": 1.4,
+      "start": 211.85,
+      "end": 214.98,
+      "words": [
+        {
+          "w": "Ha",
+          "start": 211.89,
+          "end": 212.117
+        },
+        {
+          "w": "ha!",
+          "start": 212.117,
+          "end": 212.344
+        },
+        {
+          "w": "I",
+          "start": 212.344,
+          "end": 212.515
+        },
+        {
+          "w": "like",
+          "start": 212.515,
+          "end": 212.799
+        },
+        {
+          "w": "the",
+          "start": 212.799,
+          "end": 212.912
+        },
+        {
+          "w": "one",
+          "start": 212.912,
+          "end": 213.14
+        },
+        {
+          "w": "with",
+          "start": 213.14,
+          "end": 213.31
+        },
+        {
+          "w": "the",
+          "start": 213.31,
+          "end": 213.424
+        },
+        {
+          "w": "party",
+          "start": 213.424,
+          "end": 213.821
+        },
+        {
+          "w": "hat",
+          "start": 213.821,
+          "end": 214.048
+        },
+        {
+          "w": "and",
+          "start": 214.048,
+          "end": 214.219
+        },
+        {
+          "w": "the",
+          "start": 214.219,
+          "end": 214.332
+        },
+        {
+          "w": "balloon!",
+          "start": 214.332,
+          "end": 214.73
+        }
+      ]
+    },
+    {
+      "beat": "p5_done",
+      "speaker": "hoot",
+      "text": "Twenty-five differences! You did it!",
+      "gap": 2.6,
+      "start": 216.38,
+      "end": 219.04,
+      "words": [
+        {
+          "w": "Twenty-five",
+          "start": 216.4,
+          "end": 217.251
+        },
+        {
+          "w": "differences!",
+          "start": 217.251,
+          "end": 217.96
+        },
+        {
+          "w": "You",
+          "start": 218.23,
+          "end": 218.473
+        },
+        {
+          "w": "did",
+          "start": 218.473,
+          "end": 218.798
+        },
+        {
+          "w": "it!",
+          "start": 218.798,
+          "end": 218.96
+        }
+      ]
+    },
+    {
+      "beat": "rem",
+      "speaker": "mila",
+      "text": "Let's remember!",
+      "gap": 1.0,
+      "start": 221.64,
+      "end": 222.91,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 221.75,
+          "end": 222.15
+        },
+        {
+          "w": "remember!",
+          "start": 222.15,
+          "end": 222.79
+        }
+      ]
+    },
+    {
+      "beat": "rq1",
+      "speaker": "hoot",
+      "text": "What was the sun wearing?",
+      "gap": 4.6,
+      "start": 223.91,
+      "end": 225.68,
+      "words": [
+        {
+          "w": "What",
+          "start": 223.93,
+          "end": 224.264
+        },
+        {
+          "w": "was",
+          "start": 224.264,
+          "end": 224.515
+        },
+        {
+          "w": "the",
+          "start": 224.515,
+          "end": 224.682
+        },
+        {
+          "w": "sun",
+          "start": 224.682,
+          "end": 225.016
+        },
+        {
+          "w": "wearing?",
+          "start": 225.016,
+          "end": 225.6
+        }
+      ]
+    },
+    {
+      "beat": "ra1",
+      "speaker": "leo",
+      "text": "Sunglasses!",
+      "gap": 1.8,
+      "start": 230.28,
+      "end": 231.36,
+      "words": [
+        {
+          "w": "Sunglasses!",
+          "start": 230.32,
+          "end": 231.17
+        }
+      ]
+    },
+    {
+      "beat": "rq2",
+      "speaker": "hoot",
+      "text": "How many buttons did the second snowman have?",
+      "gap": 4.6,
+      "start": 233.16,
+      "end": 236.27,
+      "words": [
+        {
+          "w": "How",
+          "start": 233.19,
+          "end": 233.48
+        },
+        {
+          "w": "many",
+          "start": 233.48,
+          "end": 233.842
+        },
+        {
+          "w": "buttons",
+          "start": 233.842,
+          "end": 234.349
+        },
+        {
+          "w": "did",
+          "start": 234.349,
+          "end": 234.639
+        },
+        {
+          "w": "the",
+          "start": 234.639,
+          "end": 234.784
+        },
+        {
+          "w": "second",
+          "start": 234.784,
+          "end": 235.291
+        },
+        {
+          "w": "snowman",
+          "start": 235.291,
+          "end": 235.87
+        },
+        {
+          "w": "have?",
+          "start": 235.87,
+          "end": 236.16
+        }
+      ]
+    },
+    {
+      "beat": "ra2",
+      "speaker": "mila",
+      "text": "Two buttons!",
+      "gap": 1.8,
+      "start": 240.87,
+      "end": 241.93,
+      "words": [
+        {
+          "w": "Two",
+          "start": 240.91,
+          "end": 241.274
+        },
+        {
+          "w": "buttons!",
+          "start": 241.274,
+          "end": 241.82
+        }
+      ]
+    },
+    {
+      "beat": "rq3",
+      "speaker": "hoot",
+      "text": "What did the crab turn into?",
+      "gap": 4.6,
+      "start": 243.73,
+      "end": 245.64,
+      "words": [
+        {
+          "w": "What",
+          "start": 243.76,
+          "end": 244.05
+        },
+        {
+          "w": "did",
+          "start": 244.05,
+          "end": 244.339
+        },
+        {
+          "w": "the",
+          "start": 244.339,
+          "end": 244.484
+        },
+        {
+          "w": "crab",
+          "start": 244.484,
+          "end": 244.846
+        },
+        {
+          "w": "turn",
+          "start": 244.846,
+          "end": 245.208
+        },
+        {
+          "w": "into?",
+          "start": 245.208,
+          "end": 245.57
+        }
+      ]
+    },
+    {
+      "beat": "ra3",
+      "speaker": "bobo",
+      "text": "A seashell!",
+      "gap": 1.8,
+      "start": 250.24,
+      "end": 251.07,
+      "words": [
+        {
+          "w": "A",
+          "start": 250.27,
+          "end": 250.483
+        },
+        {
+          "w": "seashell!",
+          "start": 250.483,
+          "end": 250.98
+        }
+      ]
+    },
+    {
+      "beat": "rq4",
+      "speaker": "hoot",
+      "text": "What was missing from the picnic?",
+      "gap": 4.6,
+      "start": 252.87,
+      "end": 254.96,
+      "words": [
+        {
+          "w": "What",
+          "start": 252.89,
+          "end": 253.198
+        },
+        {
+          "w": "was",
+          "start": 253.198,
+          "end": 253.428
+        },
+        {
+          "w": "missing",
+          "start": 253.428,
+          "end": 253.89
+        },
+        {
+          "w": "from",
+          "start": 253.89,
+          "end": 254.198
+        },
+        {
+          "w": "the",
+          "start": 254.198,
+          "end": 254.352
+        },
+        {
+          "w": "picnic?",
+          "start": 254.352,
+          "end": 254.89
+        }
+      ]
+    },
+    {
+      "beat": "ra4",
+      "speaker": "bobo",
+      "text": "My honey pot! Yum!",
+      "gap": 1.8,
+      "start": 259.56,
+      "end": 260.79,
+      "words": [
+        {
+          "w": "My",
+          "start": 259.59,
+          "end": 259.83
+        },
+        {
+          "w": "honey",
+          "start": 259.83,
+          "end": 260.13
+        },
+        {
+          "w": "pot!",
+          "start": 260.13,
+          "end": 260.43
+        },
+        {
+          "w": "Yum!",
+          "start": 260.43,
+          "end": 260.67
+        }
+      ]
+    },
+    {
+      "beat": "rq5",
+      "speaker": "hoot",
+      "text": "And what color was the other Bobo's scarf?",
+      "gap": 4.6,
+      "start": 262.59,
+      "end": 265.57,
+      "words": [
+        {
+          "w": "And",
+          "start": 262.63,
+          "end": 262.875
+        },
+        {
+          "w": "what",
+          "start": 262.875,
+          "end": 263.202
+        },
+        {
+          "w": "color",
+          "start": 263.202,
+          "end": 263.611
+        },
+        {
+          "w": "was",
+          "start": 263.611,
+          "end": 263.856
+        },
+        {
+          "w": "the",
+          "start": 263.856,
+          "end": 264.019
+        },
+        {
+          "w": "other",
+          "start": 264.019,
+          "end": 264.346
+        },
+        {
+          "w": "Bobo's",
+          "start": 264.346,
+          "end": 265.0
+        },
+        {
+          "w": "scarf?",
+          "start": 265.0,
+          "end": 265.49
+        }
+      ]
+    },
+    {
+      "beat": "ra5",
+      "speaker": "mila",
+      "text": "Blue!",
+      "gap": 1.8,
+      "start": 270.17,
+      "end": 271.04,
+      "words": [
+        {
+          "w": "Blue!",
+          "start": 270.29,
+          "end": 270.89
+        }
+      ]
+    },
+    {
+      "beat": "rq6",
+      "speaker": "hoot",
+      "text": "In the toy room, what was different about the window?",
+      "gap": 4.6,
+      "start": 272.84,
+      "end": 276.0,
+      "words": [
+        {
+          "w": "In",
+          "start": 272.87,
+          "end": 273.084
+        },
+        {
+          "w": "the",
+          "start": 273.084,
+          "end": 273.227
+        },
+        {
+          "w": "toy",
+          "start": 273.227,
+          "end": 273.513
+        },
+        {
+          "w": "room,",
+          "start": 273.513,
+          "end": 273.87
+        },
+        {
+          "w": "what",
+          "start": 274.14,
+          "end": 274.377
+        },
+        {
+          "w": "was",
+          "start": 274.377,
+          "end": 274.555
+        },
+        {
+          "w": "different",
+          "start": 274.555,
+          "end": 275.03
+        },
+        {
+          "w": "about",
+          "start": 275.03,
+          "end": 275.386
+        },
+        {
+          "w": "the",
+          "start": 275.386,
+          "end": 275.505
+        },
+        {
+          "w": "window?",
+          "start": 275.505,
+          "end": 275.92
+        }
+      ]
+    },
+    {
+      "beat": "ra6",
+      "speaker": "leo",
+      "text": "Daytime, and nighttime!",
+      "gap": 1.8,
+      "start": 280.6,
+      "end": 282.26,
+      "words": [
+        {
+          "w": "Daytime,",
+          "start": 280.64,
+          "end": 281.176
+        },
+        {
+          "w": "and",
+          "start": 281.176,
+          "end": 281.377
+        },
+        {
+          "w": "nighttime!",
+          "start": 281.377,
+          "end": 281.98
+        }
+      ]
+    },
+    {
+      "beat": "rq7",
+      "speaker": "hoot",
+      "text": "Which sea animal swam away?",
+      "gap": 4.6,
+      "start": 284.06,
+      "end": 286.1,
+      "words": [
+        {
+          "w": "Which",
+          "start": 284.09,
+          "end": 284.463
+        },
+        {
+          "w": "sea",
+          "start": 284.463,
+          "end": 284.762
+        },
+        {
+          "w": "animal",
+          "start": 284.762,
+          "end": 285.284
+        },
+        {
+          "w": "swam",
+          "start": 285.284,
+          "end": 285.657
+        },
+        {
+          "w": "away?",
+          "start": 285.657,
+          "end": 286.03
+        }
+      ]
+    },
+    {
+      "beat": "ra7",
+      "speaker": "bobo",
+      "text": "The jellyfish! Bye, jellyfish!",
+      "gap": 1.8,
+      "start": 290.7,
+      "end": 292.46,
+      "words": [
+        {
+          "w": "The",
+          "start": 290.73,
+          "end": 290.867
+        },
+        {
+          "w": "jellyfish!",
+          "start": 290.867,
+          "end": 291.486
+        },
+        {
+          "w": "Bye,",
+          "start": 291.486,
+          "end": 291.761
+        },
+        {
+          "w": "jellyfish!",
+          "start": 291.761,
+          "end": 292.38
+        }
+      ]
+    },
+    {
+      "beat": "trick",
+      "speaker": "hoot",
+      "text": "Here is the trick. Look at one thing, then look at the same place in the other picture.",
+      "gap": 1.2,
+      "start": 294.26,
+      "end": 299.78,
+      "words": [
+        {
+          "w": "Here",
+          "start": 294.31,
+          "end": 294.67
+        },
+        {
+          "w": "is",
+          "start": 294.67,
+          "end": 294.85
+        },
+        {
+          "w": "the",
+          "start": 294.85,
+          "end": 295.03
+        },
+        {
+          "w": "trick.",
+          "start": 295.03,
+          "end": 295.48
+        },
+        {
+          "w": "Look",
+          "start": 295.84,
+          "end": 296.149
+        },
+        {
+          "w": "at",
+          "start": 296.149,
+          "end": 296.303
+        },
+        {
+          "w": "one",
+          "start": 296.303,
+          "end": 296.611
+        },
+        {
+          "w": "thing,",
+          "start": 296.611,
+          "end": 296.92
+        },
+        {
+          "w": "then",
+          "start": 297.16,
+          "end": 297.422
+        },
+        {
+          "w": "look",
+          "start": 297.422,
+          "end": 297.683
+        },
+        {
+          "w": "at",
+          "start": 297.683,
+          "end": 297.814
+        },
+        {
+          "w": "the",
+          "start": 297.814,
+          "end": 297.945
+        },
+        {
+          "w": "same",
+          "start": 297.945,
+          "end": 298.272
+        },
+        {
+          "w": "place",
+          "start": 298.272,
+          "end": 298.664
+        },
+        {
+          "w": "in",
+          "start": 298.664,
+          "end": 298.86
+        },
+        {
+          "w": "the",
+          "start": 298.86,
+          "end": 298.991
+        },
+        {
+          "w": "other",
+          "start": 298.991,
+          "end": 299.252
+        },
+        {
+          "w": "picture.",
+          "start": 299.252,
+          "end": 299.71
+        }
+      ]
+    },
+    {
+      "beat": "trick_turn",
+      "speaker": "mila",
+      "text": "Look here, then look there! Your turn!",
+      "gap": 2.4,
+      "start": 300.98,
+      "end": 303.17,
+      "words": [
+        {
+          "w": "Look",
+          "start": 301.02,
+          "end": 301.307
+        },
+        {
+          "w": "here,",
+          "start": 301.307,
+          "end": 301.594
+        },
+        {
+          "w": "then",
+          "start": 301.594,
+          "end": 301.881
+        },
+        {
+          "w": "look",
+          "start": 301.881,
+          "end": 302.169
+        },
+        {
+          "w": "there!",
+          "start": 302.169,
+          "end": 302.456
+        },
+        {
+          "w": "Your",
+          "start": 302.456,
+          "end": 302.671
+        },
+        {
+          "w": "turn!",
+          "start": 302.671,
+          "end": 303.03
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "text": "Bye bye, friends!",
+      "gap": 0.5,
+      "start": 305.57,
+      "end": 307.1,
+      "words": [
+        {
+          "w": "Bye",
+          "start": 305.67,
+          "end": 306.014
+        },
+        {
+          "w": "bye,",
+          "start": 306.014,
+          "end": 306.358
+        },
+        {
+          "w": "friends!",
+          "start": 306.358,
+          "end": 306.96
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "bobo",
+      "text": "See you next time, on Tiny Sparks!",
+      "gap": 0.5,
+      "start": 307.6,
+      "end": 309.58,
+      "words": [
+        {
+          "w": "See",
+          "start": 307.64,
+          "end": 307.848
+        },
+        {
+          "w": "you",
+          "start": 307.848,
+          "end": 308.004
+        },
+        {
+          "w": "next",
+          "start": 308.004,
+          "end": 308.316
+        },
+        {
+          "w": "time,",
+          "start": 308.316,
+          "end": 308.576
+        },
+        {
+          "w": "on",
+          "start": 308.576,
+          "end": 308.732
+        },
+        {
+          "w": "Tiny",
+          "start": 308.732,
+          "end": 309.044
+        },
+        {
+          "w": "Sparks!",
+          "start": 309.044,
+          "end": 309.46
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast",
+  "beats": [
+    {
+      "id": "open",
+      "start": 0.3,
+      "visual": "Look! Two picnic pictures. But this sun has sunglasses!",
+      "end": 4.99
+    },
+    {
+      "id": "premise",
+      "start": 4.99,
+      "visual": "Five things are different. Let's find them all!",
+      "end": 9.04
+    },
+    {
+      "id": "p1_q",
+      "start": 9.04,
+      "visual": "Can you find four more?",
+      "end": 17.79
+    },
+    {
+      "id": "p1_leo",
+      "start": 17.79,
+      "visual": "I see one! The cloud!",
+      "end": 20.09
+    },
+    {
+      "id": "p1_no",
+      "start": 20.09,
+      "visual": "Hmm, look again, Leo. The clouds are the same.",
+      "end": 24.41
+    },
+    {
+      "id": "p1_d2",
+      "start": 24.41,
+      "visual": "The butterfly! It flew away!",
+      "end": 28.56
+    },
+    {
+      "id": "p1_d3",
+      "start": 28.56,
+      "visual": "The blanket! Red here, and blue there!",
+      "end": 33.29
+    },
+    {
+      "id": "p1_d4",
+      "start": 33.29,
+      "visual": "The tree has apples. And this tree has none!",
+      "end": 38.4
+    },
+    {
+      "id": "p1_d5",
+      "start": 38.4,
+      "visual": "My honey pot! It's gone! Oh no!",
+      "end": 42.78
+    },
+    {
+      "id": "p1_done",
+      "start": 42.78,
+      "visual": "Five differences! Well done!",
+      "end": 47.52
+    },
+    {
+      "id": "p2",
+      "start": 47.52,
+      "visual": "Now, the toy room!",
+      "end": 49.83
+    },
+    {
+      "id": "p2_q",
+      "start": 49.83,
+      "visual": "Find five differences!",
+      "end": 58.7
+    },
+    {
+      "id": "p2_leo",
+      "start": 58.7,
+      "visual": "The teddy has no eyes!",
+      "end": 61.07
+    },
+    {
+      "id": "p2_no",
+      "start": 61.07,
+      "visual": "Ha ha! Look closely, Leo. He has two eyes, see?",
+      "end": 65.2
+    },
+    {
+      "id": "p2_d1",
+      "start": 65.2,
+      "visual": "Oh! But his bow is a different color!",
+      "end": 69.93
+    },
+    {
+      "id": "p2_d2",
+      "start": 69.93,
+      "visual": "The window! Daytime here, and nighttime there!",
+      "end": 75.21
+    },
+    {
+      "id": "p2_d3",
+      "start": 75.21,
+      "visual": "The ball is missing!",
+      "end": 78.89
+    },
+    {
+      "id": "p2_d4",
+      "start": 78.89,
+      "visual": "The rocket! Red, and green!",
+      "end": 83.21
+    },
+    {
+      "id": "p2_d5",
+      "start": 83.21,
+      "visual": "The lamp is on, and the lamp is off!",
+      "end": 88.17
+    },
+    {
+      "id": "p2_done",
+      "start": 88.17,
+      "visual": "Five! You have super eyes!",
+      "end": 92.59
+    },
+    {
+      "id": "p3",
+      "start": 92.59,
+      "visual": "Let's dive under the sea!",
+      "end": 95.48
+    },
+    {
+      "id": "p3_q",
+      "start": 95.48,
+      "visual": "Can you find five differences?",
+      "end": 104.65
+    },
+    {
+      "id": "p3_d1",
+      "start": 104.65,
+      "visual": "The fish! Orange here, purple there!",
+      "end": 109.47
+    },
+    {
+      "id": "p3_d2",
+      "start": 109.47,
+      "visual": "The starfish is gone!",
+      "end": 113.26
+    },
+    {
+      "id": "p3_d3",
+      "start": 113.26,
+      "visual": "The bubbles! Pop, pop, pop! No bubbles here!",
+      "end": 118.54
+    },
+    {
+      "id": "p3_d4",
+      "start": 118.54,
+      "visual": "The crab became a seashell!",
+      "end": 123.01
+    },
+    {
+      "id": "p3_d5",
+      "start": 123.01,
+      "visual": "And the jellyfish swam away!",
+      "end": 127.04
+    },
+    {
+      "id": "p3_done",
+      "start": 127.04,
+      "visual": "Five differences! Splash!",
+      "end": 131.51
+    },
+    {
+      "id": "p4",
+      "start": 131.51,
+      "visual": "Brrr! A snowy day!",
+      "end": 134.44
+    },
+    {
+      "id": "p4_q",
+      "start": 134.44,
+      "visual": "Find five differences on the snowmen!",
+      "end": 144.38
+    },
+    {
+      "id": "p4_d1",
+      "start": 144.38,
+      "visual": "His hat! Black, and red!",
+      "end": 148.55
+    },
+    {
+      "id": "p4_d2",
+      "start": 148.55,
+      "visual": "This snowman lost his carrot nose!",
+      "end": 153.04
+    },
+    {
+      "id": "p4_d3",
+      "start": 153.04,
+      "visual": "Count the buttons. Three here... and two there!",
+      "end": 158.13
+    },
+    {
+      "id": "p4_d4",
+      "start": 158.13,
+      "visual": "The scarf has stripes, and this one has no stripes!",
+      "end": 163.67
+    },
+    {
+      "id": "p4_d5",
+      "start": 163.67,
+      "visual": "The little bird flew away!",
+      "end": 167.57
+    },
+    {
+      "id": "p4_done",
+      "start": 167.57,
+      "visual": "Five! Hooray for you!",
+      "end": 171.72
+    },
+    {
+      "id": "p5",
+      "start": 171.72,
+      "visual": "Super puzzle! Look. Two Bobos!",
+      "end": 175.15
+    },
+    {
+      "id": "p5_bobo",
+      "start": 175.15,
+      "visual": "Two of me? Which one is the real me?",
+      "end": 178.13
+    },
+    {
+      "id": "p5_q",
+      "start": 178.13,
+      "visual": "Find five differences on Bobo!",
+      "end": 187.9
+    },
+    {
+      "id": "p5_d1",
+      "start": 187.9,
+      "visual": "The scarf! Red here, and blue there!",
+      "end": 192.56
+    },
+    {
+      "id": "p5_d2",
+      "start": 192.56,
+      "visual": "This Bobo has a party hat!",
+      "end": 197.11
+    },
+    {
+      "id": "p5_d3",
+      "start": 197.11,
+      "visual": "This Bobo is holding an apple!",
+      "end": 201.8
+    },
+    {
+      "id": "p5_d4",
+      "start": 201.8,
+      "visual": "One Bobo is standing on a little rug!",
+      "end": 206.76
+    },
+    {
+      "id": "p5_d5",
+      "start": 206.76,
+      "visual": "And one Bobo has a balloon!",
+      "end": 211.85
+    },
+    {
+      "id": "p5_bobo2",
+      "start": 211.85,
+      "visual": "Ha ha! I like the one with the party hat and the balloon!",
+      "end": 216.38
+    },
+    {
+      "id": "p5_done",
+      "start": 216.38,
+      "visual": "Twenty-five differences! You did it!",
+      "end": 221.64
+    },
+    {
+      "id": "rem",
+      "start": 221.64,
+      "visual": "Let's remember!",
+      "end": 223.91
+    },
+    {
+      "id": "rq1",
+      "start": 223.91,
+      "visual": "What was the sun wearing?",
+      "end": 230.28
+    },
+    {
+      "id": "ra1",
+      "start": 230.28,
+      "visual": "Sunglasses!",
+      "end": 233.16
+    },
+    {
+      "id": "rq2",
+      "start": 233.16,
+      "visual": "How many buttons did the second snowman have?",
+      "end": 240.87
+    },
+    {
+      "id": "ra2",
+      "start": 240.87,
+      "visual": "Two buttons!",
+      "end": 243.73
+    },
+    {
+      "id": "rq3",
+      "start": 243.73,
+      "visual": "What did the crab turn into?",
+      "end": 250.24
+    },
+    {
+      "id": "ra3",
+      "start": 250.24,
+      "visual": "A seashell!",
+      "end": 252.87
+    },
+    {
+      "id": "rq4",
+      "start": 252.87,
+      "visual": "What was missing from the picnic?",
+      "end": 259.56
+    },
+    {
+      "id": "ra4",
+      "start": 259.56,
+      "visual": "My honey pot! Yum!",
+      "end": 262.59
+    },
+    {
+      "id": "rq5",
+      "start": 262.59,
+      "visual": "And what color was the other Bobo's scarf?",
+      "end": 270.17
+    },
+    {
+      "id": "ra5",
+      "start": 270.17,
+      "visual": "Blue!",
+      "end": 272.84
+    },
+    {
+      "id": "rq6",
+      "start": 272.84,
+      "visual": "In the toy room, what was different about the window?",
+      "end": 280.6
+    },
+    {
+      "id": "ra6",
+      "start": 280.6,
+      "visual": "Daytime, and nighttime!",
+      "end": 284.06
+    },
+    {
+      "id": "rq7",
+      "start": 284.06,
+      "visual": "Which sea animal swam away?",
+      "end": 290.7
+    },
+    {
+      "id": "ra7",
+      "start": 290.7,
+      "visual": "The jellyfish! Bye, jellyfish!",
+      "end": 294.26
+    },
+    {
+      "id": "trick",
+      "start": 294.26,
+      "visual": "Here is the trick. Look at one thing, then look at the same place in the other picture.",
+      "end": 300.98
+    },
+    {
+      "id": "trick_turn",
+      "start": 300.98,
+      "visual": "Look here, then look there! Your turn!",
+      "end": 305.57
+    },
+    {
+      "id": "bye",
+      "start": 305.57,
+      "visual": "Bye bye, friends!",
+      "end": 307.6
+    },
+    {
+      "id": "bye2",
+      "start": 307.6,
+      "visual": "See you next time, on Tiny Sparks!",
+      "end": 316.6
+    }
+  ]
+}
