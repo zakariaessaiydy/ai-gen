@@ -152,7 +152,7 @@ export const makeSong063 = (SONG: VoLine[], BEAT: number, DUR: number, FORM: For
           {qi >= 0 && <QuizCard t={t} show={show} seg={seg} title="WHAT COMES NEXT?" parts={QUIZ[qi].parts} answer={QUIZ[qi].a} />}
           <SlowCard t={t} show={show} items={['10, 20', '30, 40', '50, 60', '70 … 100']} />
 
-          <Cast t={t} show={show} move={move} present={b >= 0 && !cheer} xs={[230, 830, 1290, 1700]} />
+          <Cast t={t} show={show} move={move} present={b >= 0 && !cheer} xs={[230, 830, 1290, 1700]} place="playroom" />
         </SongStage>
         <SongOverlays t={t} show={show} endText="YOU CAN COUNT TO 100!" />
         {cheers.map((sg, i) => <Confetti key={i} t={t} at={show.at(sg, 2)} y={360} dur={1.2} />)}

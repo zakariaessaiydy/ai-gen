@@ -1,0 +1,114 @@
+{
+ "title": "Greater or Less Song (Tiny Sparks original)",
+ "bpm": 108,
+ "beatsPerBar": 4,
+ "introBars": 0,
+ "outroBars": 2,
+ "instruments": {
+  "lead": "xylophone",
+  "chords": "ukulele",
+  "bass": true,
+  "drums": "soft",
+  "leadWithVocal": true
+ },
+ "singer": "mila",
+ "vocal": {
+  "voice": "af_sky",
+  "pitch": 0,
+  "rate": "-4%"
+ },
+ "form": [
+  "chorus",
+  "v1",
+  "v2",
+  "chorus",
+  "v3",
+  "v4",
+  "chorus",
+  "v5",
+  "chorus",
+  "q1",
+  "q2",
+  "q3",
+  "q4",
+  "actions",
+  "karaoke",
+  "slow",
+  "chorus"
+ ],
+ "sections": {
+  "chorus": {
+   "chords": "C | G | F | C | Am | F | G | C",
+   "melody": "C4:1 C4:1 E4:2 | G4:1 G4:1 E4:2 | F4:1 A4:1 A4:2 | G4:1 F4:1 E4:1 D4:1 | E4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": "Which is big-ger, which is more? / Count them up, then you'll be sure! / Which is small-er, which is less? / Count and make your best guess!"
+  },
+  "v1": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Three red ap-ples, five green pears, / count them up, the fruit's all there. / Five is more and three is less, / five is great-er, yes, yes, yes!"
+  },
+  "v2": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Two lit-tle duck-lings, four lit-tle frogs, / hop-ping and swim-ming by the logs. / Two is less and four is more, / four is great-er, that's the score!"
+  },
+  "v3": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Gator's mouth is o-pen wide, / hun-gry for the big-ger side! / Snap, snap, snap, he eats the most, / he likes the big-ger num-ber most!"
+  },
+  "v4": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Six lit-tle stars and six lit-tle moons, / count them all, they're like bal-loons. / Not more, not less, they're just the same, / e-qual is the num-ber name!"
+  },
+  "v5": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "One lit-tle ant and ten lit-tle bees, / which is more? Count, if you please! / One is less and ten is more, / ten is great-er, hear it roar!"
+  },
+  "q1": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:0.5 E4:0.5 G4:0.5 G4:0.5 A4:0.5 A4:0.5 G4:1 | R:4 | R:4 | R:4 | G4:1 G4:3 | R:4",
+   "lyrics": "Which is more, two or sev-en? / Sev-en!"
+  },
+  "q2": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:0.5 E4:0.5 G4:0.5 G4:0.5 A4:0.5 A4:1.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "Which is less, nine or four? / Four!"
+  },
+  "q3": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:0.5 E4:0.5 G4:0.5 G4:0.5 A4:0.5 A4:1.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "Which is more, eight or three? / Eight!"
+  },
+  "q4": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:0.5 E4:0.5 G4:0.5 G4:0.5 A4:0.5 A4:1.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "Five and five, more or less? / Same!"
+  },
+  "actions": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Make your arms a ga-tor mouth, / o-pen wide from north to south! / Chomp the big-ger, chomp, chomp, chomp, / now jump up and stomp, stomp, stomp!"
+  },
+  "karaoke": {
+   "chords": "C | G | F | C | Am | F | G | C",
+   "melody": "C4:1 C4:1 E4:2 | G4:1 G4:1 E4:2 | F4:1 A4:1 A4:2 | G4:1 F4:1 E4:1 D4:1 | E4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": ""
+  },
+  "slow": {
+   "chords": "C | G | C | G | C | G | C | G | C | G",
+   "melody": "C4:0.5 E4:0.5 G4:0.5 G4:0.5 A4:2 | R:4 | E4:0.5 G4:0.5 G4:0.5 A4:0.5 A4:0.5 G4:1.5 | R:4 | G4:3 R:1 | R:4 | G4:0.5 A4:0.5 A4:0.5 G4:0.5 E4:0.5 C4:1.5 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "Let's think it slow-ly! / Which is more, three or one? / Three! / Which is less, five or two? / Two!"
+  }
+ },
+ "ace": {
+  "style": "kidspop",
+  "seeds": [
+   25,
+   56,
+   2040
+  ]
+ }
+}

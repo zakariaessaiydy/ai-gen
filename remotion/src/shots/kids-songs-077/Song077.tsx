@@ -158,7 +158,7 @@ export const makeSong077 = (SONG: VoLine[], BEAT: number, DUR: number, FORM: For
           )}
           <SlowCard t={t} show={show} items={['1 + 1', '1 + 1 = 2', '2 + 2', '2 + 2 = 4']} color="#ff595e" />
 
-          <Cast t={t} show={show} move={move} present={!!vd && k < 3} xs={[230, 860, 1290, 1700]} />
+          <Cast t={t} show={show} move={move} present={!!vd && k < 3} xs={[230, 860, 1290, 1700]} place="kitchen" />
         </SongStage>
         <SongOverlays t={t} show={show} endText="YOU CAN ADD!" />
         {[...V.entries()].filter(([g]) => show.has(g, 3)).map(([g], i) => <Confetti key={i} t={t} at={show.endOf(g, 3)} y={360} dur={1.2} />)}
