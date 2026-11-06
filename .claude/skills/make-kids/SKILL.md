@@ -243,6 +243,11 @@ Don't render a long video whose first item lands after ~10 s.
   smooth | whip` (whip = motion blur + `whip-whoosh`); `push` = slow zoom while a shot holds, so the camera is
   never dead still; punches = zoom kicks on impacts; shakes ≤ 16 px, ≤ 0.4 s, only on real impacts. A new
   framing at least every line or two: wide → two-shot → close-up on the speaker or the key object.
+- **Lips + detail (STANDARD from Nov 2026, user-approved KidsActingDemo):** every `<Kid>` / `<Critter>` gets `polish acting`
+  (soft curved arms, real cartoon hands, hair/collar/lace details, brows that lift with the voice) and its mouth from
+  `{...speechAt(VO, 'who', t)}` (`lib/kids/acting.ts` — mouth + viseme) instead of `mouth={lipSync(VO, 'who', t)}`.
+  A custom mouth (chewing, whispering) keeps its expression and adds `viseme={speechAt(VO, 'who', t).viseme}`. Use the
+  acting poses where they fit: `thumbs` (praise), `cheeks` (aww / surprise), `cover` (giggle / oops), `cheer`.
 - **Acting:** hops with `hopAt` (crouch → stretch → squash landing) + `<Dust>` on landings, `<MotionLines>`
   behind fast moves, `<StrainLines>` on effort, `<ImpactStar>` behind a big reveal.
 - **Reactions** over heads on every emotional beat: `<Reaction kind="! ? sweat heart stars cloud steam idea">`

@@ -16,6 +16,7 @@ import { Critter, critterFaceAt, type CArm, type CritterSpec } from '../../lib/k
 import { BOBO_HERO, CAPTION_COLORS, LEO_HERO, MILA_HERO } from '../../lib/kids/cast/tiny-sparks';
 import { Backdrop, PlaceLight, standY } from '../../lib/kids/places';
 import { Confetti, FONT_TOON, KidsCaptions, PopText, ThinkTimer, lipSync, useT } from '../../lib/kids/kit';
+import { speechAt } from '../../lib/kids/acting';
 import { kst, type KExpr } from '../../lib/kids/face';
 import { Vol } from '../../lib/kids/depth';
 import { ActionStage, ImpactStar, MotionLines, Reaction, StageWord, StarWipe, directorCam, hopAt, onBeat, shakeOf, type Hit, type Shot } from '../../lib/kids/energy';
@@ -265,7 +266,7 @@ export default function KidsAnimals074() {
             const xx = LX + dx;
             return (
               <g key={k} transform={`translate(${xx},${yAt(xx, s)}) scale(${popIn(t, S('f4') + 0.6 + k * 0.15)}) translate(${-xx},${-yAt(xx, s)})`}>
-                <Critter spec={spec} x={xx} y={yAt(xx, s)} scale={s} expr="happy" facing={dx < 0 ? 1 : -1} hop={k > 1 ? Math.abs(Math.sin(t * 5 + k)) * 16 : 0} />
+                <Critter polish acting spec={spec} x={xx} y={yAt(xx, s)} scale={s} expr="happy" facing={dx < 0 ? 1 : -1} hop={k > 1 ? Math.abs(Math.sin(t * 5 + k)) * 16 : 0} />
               </g>
             );
           })}
@@ -273,36 +274,36 @@ export default function KidsAnimals074() {
           {story && [0, 1, 2].map((k) => {
             const [bx, by] = babyAt(k);
             return (
-              <Critter key={k} spec={BABY} x={bx} y={by} scale={0.11} expr={crying ? 'sad' : sleeping ? 'sleepy' : onHead ? 'laugh' : 'smile'}
+              <Critter polish acting key={k} spec={BABY} x={bx} y={by} scale={0.11} expr={crying ? 'sad' : sleeping ? 'sleepy' : onHead ? 'laugh' : 'smile'}
                 mouth={crying ? 0.6 + 0.4 * Math.sin(t * 14 + k) : 0} tilt={stir ? Math.sin(t * 16 + k) * 10 : 0} idle={!sleeping} shadow={false}
                 hop={onHead && riding ? Math.abs(Math.sin(t * 6 + k)) * 10 : 0} armL={onHead && t < S('lesson') ? 'up' : 'down'} />
             );
           })}
           {story && <g transform={`translate(${NEST_X},${yAt(NEST_X, PS)})`}><Nest front /></g>}
           {leonOn && (
-            <Critter spec={LEON} x={leonX} y={leonY} scale={LS} expr={exprAt(t, LEON_E)}
+            <Critter polish acting spec={LEON} x={leonX} y={leonY} scale={LS} expr={exprAt(t, LEON_E)}
               look={onHead ? [0, -1] : whisper ? [0.8, 0.5] : t >= S('s2') && t < S('q') ? [0.6, 0.2] : [-0.3, 0]}
-              mouth={within(t, S('l_whisper'), E('l_whisper')) ? lipSync(VO, 'leon', t) * 0.35 : lipSync(VO, 'leon', t)} armL={poseAt(t, LEON_A)} armR={poseAt(t, LEON_A)}
+              mouth={within(t, S('l_whisper'), E('l_whisper')) ? lipSync(VO, 'leon', t) * 0.35 : lipSync(VO, 'leon', t)} viseme={speechAt(VO, 'leon', t).viseme} armL={poseAt(t, LEON_A)} armR={poseAt(t, LEON_A)}
               walking={lw.walking} walk={lw.walk} facing={facingL} tilt={whisper ? 8 : 0} />
           )}
           {cub && (
             <g transform={`translate(${LX + 260},${yAt(LX + 260, 0.36)}) scale(${popIn(t, word('f3', 6))}) translate(${-(LX + 260)},${-yAt(LX + 260, 0.36)})`}>
-              <Critter spec={CUB} x={LX + 260} y={yAt(LX + 260, 0.36)} scale={0.36} expr="happy" facing={-1} hop={Math.abs(Math.sin(t * 5)) * 14} />
+              <Critter polish acting spec={CUB} x={LX + 260} y={yAt(LX + 260, 0.36)} scale={0.36} expr="happy" facing={-1} hop={Math.abs(Math.sin(t * 5)) * 14} />
             </g>
           )}
           {pipShown && (
             <g transform={`translate(${pipX},${pipY}) scale(${pipPop}) translate(${-pipX},${-pipY})`}>
-              <Critter spec={PIP} x={pipX} y={pipY} scale={PS} expr={exprAt(t, PIP_E)} look={onHead ? [0, 0] : story ? [0.6, 0.3] : [-0.4, -0.6]}
-                mouth={lipSync(VO, 'pip', t)} armL={poseAt(t, PIP_A)} armR={poseAt(t, PIP_A)} walking={pw.walking} walk={pw.walk * 1.6} facing={pw.walking ? -1 : 1}
+              <Critter polish acting spec={PIP} x={pipX} y={pipY} scale={PS} expr={exprAt(t, PIP_E)} look={onHead ? [0, 0] : story ? [0.6, 0.3] : [-0.4, -0.6]}
+                {...speechAt(VO, 'pip', t)} armL={poseAt(t, PIP_A)} armR={poseAt(t, PIP_A)} walking={pw.walking} walk={pw.walk * 1.6} facing={pw.walking ? -1 : 1}
                 hop={(within(t, S('m_fact_b'), E('m_fact_b')) ? Math.abs(Math.sin(t * 12)) * 10 : 0) + (onHead && riding ? Math.abs(Math.sin(t * 6)) * 12 : 0)} />
             </g>
           )}
           {/* the kids, watching */}
-          <Critter spec={BOBO_HERO} x={X.bobo} y={yAt(X.bobo, BS)} scale={BS} expr={exprAt(t, BOBO_E)} look={[0.7, -0.1]} mouth={lipSync(VO, 'bobo', t)}
+          <Critter polish acting spec={BOBO_HERO} x={X.bobo} y={yAt(X.bobo, BS)} scale={BS} expr={exprAt(t, BOBO_E)} look={[0.7, -0.1]} {...speechAt(VO, 'bobo', t)}
             armL={poseAt(t, BOBO_A)} armR={poseAt(t, BOBO_A)} hop={hop.hop} squash={hop.squash} />
-          <Kid spec={MILA_HERO} x={X.mila} y={yAt(X.mila, KS)} scale={KS} expr={exprAt(t, MILA_E)} look={[0.7, -0.1]} mouth={lipSync(VO, 'mila', t)}
+          <Kid polish acting spec={MILA_HERO} x={X.mila} y={yAt(X.mila, KS)} scale={KS} expr={exprAt(t, MILA_E)} look={[0.7, -0.1]} {...speechAt(VO, 'mila', t)}
             armL={poseAt(t, MILA_L)} armR={poseAt(t, MILA_R)} hop={hop.hop} squash={hop.squash} />
-          <Kid spec={LEO_HERO} x={X.leo} y={yAt(X.leo, KS)} scale={KS} expr={exprAt(t, LEO_E)} look={[0.7, -0.1]} mouth={lipSync(VO, 'leo', t)}
+          <Kid polish acting spec={LEO_HERO} x={X.leo} y={yAt(X.leo, KS)} scale={KS} expr={exprAt(t, LEO_E)} look={[0.7, -0.1]} {...speechAt(VO, 'leo', t)}
             armL={poseAt(t, LEO_L)} armR={poseAt(t, LEO_R)} hop={hop.hop} squash={hop.squash} />
         </PlaceLight>
         {leonOn && <SoundRings t={t} x={leonX} y={leonFaceNow[1] + 40} />}

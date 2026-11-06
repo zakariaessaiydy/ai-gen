@@ -14,6 +14,7 @@ import { BOBO_HERO, CAPTION_COLORS, HOOT_HERO, LEO_HERO, MILA_HERO } from '../..
 import { COW, DUCK, HEN, PIG, SHEEP } from '../../lib/kids/farm';
 import { Backdrop, PlaceLight, standY } from '../../lib/kids/places';
 import { Bubble, Confetti, FONT_TOON, KidsCaptions, PopText, ThinkTimer, WordCard, lipSync, useT } from '../../lib/kids/kit';
+import { speechAt } from '../../lib/kids/acting';
 import { KINK, kst, type KExpr } from '../../lib/kids/face';
 import { Vol } from '../../lib/kids/depth';
 import { ActionStage, Dust, Reaction, StageWord, StarWipe, directorCam, hopAt, onBeat, type Shot } from '../../lib/kids/energy';
@@ -160,7 +161,7 @@ const Nest: React.FC = () => (
   <Vol kind="slope"><path d="M -110,0 Q -100,60 0,64 Q 100,60 110,0 Q 60,24 0,24 Q -60,24 -110,0 Z" fill="#d4a373" {...kst(5)} /></Vol>
 );
 const Mini: React.FC<{ a: Animal; t: number; s?: number; expr?: KExpr }> = ({ a, s = 1, expr = 'happy' }) => (
-  <Critter spec={a.spec} x={0} y={170 * s * (a.k === 'mouse' ? 0.9 : 1)} scale={0.3 * s * (0.8 / Math.max(0.6, a.s))} expr={expr} idle={false} shadow={false} />
+  <Critter polish acting spec={a.spec} x={0} y={170 * s * (a.k === 'mouse' ? 0.9 : 1)} scale={0.3 * s * (0.8 / Math.max(0.6, a.s))} expr={expr} idle={false} shadow={false} />
 );
 
 export default function KidsWords073() {
@@ -198,9 +199,9 @@ export default function KidsWords073() {
         <PlaceLight place={PLACE}>
           {/* the animal of the moment */}
           {a && (
-            <Critter spec={a.spec} x={AX} y={yAt(AX, a.s) + (a.k === 'cat' && using ? -30 : 0)} scale={a.s}
+            <Critter polish acting spec={a.spec} x={AX} y={yAt(AX, a.s) + (a.k === 'cat' && using ? -30 : 0)} scale={a.s}
               expr={sleepy ? 'sleepy' : talk > 0.05 ? 'happy' : within(t, S(kk(`${a.k}_use`)), E(kk(`${a.k}_use`))) ? 'laugh' : 'smile'}
-              look={[0.3, -0.1]} mouth={talk} armL={talk > 0.05 ? 'wave' : 'down'} armR={a.k === 'cow' && using ? 'hold' : 'down'}
+              look={[0.3, -0.1]} mouth={talk} viseme={a ? speechAt(VO, a.k, t).viseme : undefined} armL={talk > 0.05 ? 'wave' : 'down'} armR={a.k === 'cow' && using ? 'hold' : 'down'}
               holdR={a.k === 'cow' && using ? <g transform="scale(0.7)"><MilkBottle /></g> : undefined}
               hop={inHop.hop + (a.k === 'dog' && using ? Math.abs(Math.sin(t * 8)) * 40 : 0) + (a.k === 'pig' && using ? Math.abs(Math.sin(t * 6)) * 20 : 0)}
               squash={inHop.squash} walking={a.k === 'duck' && using} walk={t * 2} facing={1} />
@@ -214,7 +215,7 @@ export default function KidsWords073() {
               const hit = t >= S(kk(`quiz_${q}_a`)) && x.k === QUIZ[q];
               return (
                 <g key={x.k} transform={`translate(${xx},${yAt(xx, 0.5)}) scale(${popIn(t, quizSpan(q)[0] + i * 0.08)}) translate(${-xx},${-yAt(xx, 0.5)})`}>
-                  <Critter spec={x.spec} x={xx} y={yAt(xx, 0.5)} scale={x.s * 0.62} expr={hit ? 'laugh' : 'smile'} hop={hit ? Math.abs(Math.sin(t * 7)) * 30 : 0}
+                  <Critter polish acting spec={x.spec} x={xx} y={yAt(xx, 0.5)} scale={x.s * 0.62} expr={hit ? 'laugh' : 'smile'} hop={hit ? Math.abs(Math.sin(t * 7)) * 30 : 0}
                     mouth={hit && within(t, S(kk(`quiz_${q}_a`)), E(kk(`quiz_${q}_a`)) + 0.6) ? 0.5 + 0.5 * Math.sin(t * 14) : 0} />
                 </g>
               );
@@ -228,7 +229,7 @@ export default function KidsWords073() {
             const x = byK(ans.k);
             return (
               <g transform={`translate(${AX},${yAt(AX, x.s)}) scale(${popIn(t, at)}) translate(${-AX},${-yAt(AX, x.s)})`}>
-                <Critter spec={x.spec} x={AX} y={yAt(AX, x.s)} scale={x.s} expr="laugh" hop={Math.abs(Math.sin((t - at) * 6)) * 24} />
+                <Critter polish acting spec={x.spec} x={AX} y={yAt(AX, x.s)} scale={x.s} expr="laugh" hop={Math.abs(Math.sin((t - at) * 6)) * 24} />
               </g>
             );
           })()}
@@ -237,19 +238,19 @@ export default function KidsWords073() {
             const xx = 470 + i * 98;
             const talking = (x.k === 'cow' && within(t, S('all'), E('all'))) || (x.k === 'duck' && within(t, S('all2'), E('all2'))) || (x.k === 'dog' && within(t, S('all3'), E('all3')));
             return (
-              <Critter key={x.k} spec={x.spec} x={xx} y={yAt(xx, 0.4) + 10} scale={x.s * 0.5} expr={talking ? 'laugh' : 'happy'} mouth={talking ? lipSync(VO, x.k, t) : 0}
+              <Critter polish acting key={x.k} spec={x.spec} x={xx} y={yAt(xx, 0.4) + 10} scale={x.s * 0.5} expr={talking ? 'laugh' : 'happy'} mouth={talking ? lipSync(VO, x.k, t) : 0} viseme={talking ? speechAt(VO, x.k, t).viseme : undefined}
                 hop={Math.abs(Math.sin(t * 5 + i)) * 18} armL={t >= S('bye') ? 'wave' : 'down'} />
             );
           })}
           {hootOn(t) && (
-            <Critter spec={HOOT_HERO} x={X.hoot} y={yAt(X.hoot, 0.56)} scale={0.56} expr={lipSync(VO, 'hoot', t) > 0.05 ? 'happy' : 'smile'} look={[0.6, -0.2]} mouth={lipSync(VO, 'hoot', t)}
+            <Critter polish acting spec={HOOT_HERO} x={X.hoot} y={yAt(X.hoot, 0.56)} scale={0.56} expr={lipSync(VO, 'hoot', t) > 0.05 ? 'happy' : 'smile'} look={[0.6, -0.2]} {...speechAt(VO, 'hoot', t)}
               armL={poseAt(t, HOOT_A)} armR={poseAt(t, HOOT_A)} hop={popHop(t)} />
           )}
-          <Critter spec={BOBO_HERO} x={X.bobo} y={yAt(X.bobo, CS)} scale={CS} expr={exprAt(t, BOBO_E)} look={[-0.6, -0.1]} mouth={lipSync(VO, 'bobo', t)}
+          <Critter polish acting spec={BOBO_HERO} x={X.bobo} y={yAt(X.bobo, CS)} scale={CS} expr={exprAt(t, BOBO_E)} look={[-0.6, -0.1]} {...speechAt(VO, 'bobo', t)}
             armL={poseAt(t, BOBO_A)} armR={poseAt(t, BOBO_A)} facing={-1} hop={hop.hop} squash={hop.squash} />
-          <Kid spec={LEO_HERO} x={X.leo} y={yAt(X.leo, KS)} scale={KS} expr={exprAt(t, LEO_E)} look={[-0.6, -0.1]} mouth={lipSync(VO, 'leo', t)}
+          <Kid polish acting spec={LEO_HERO} x={X.leo} y={yAt(X.leo, KS)} scale={KS} expr={exprAt(t, LEO_E)} look={[-0.6, -0.1]} {...speechAt(VO, 'leo', t)}
             armL={poseAt(t, LEO_L)} armR={poseAt(t, LEO_R)} hop={hop.hop} squash={hop.squash} />
-          <Kid spec={MILA_HERO} x={X.mila} y={yAt(X.mila, KS)} scale={KS} expr={exprAt(t, MILA_E)} look={[-0.6, -0.1]} mouth={lipSync(VO, 'mila', t)}
+          <Kid polish acting spec={MILA_HERO} x={X.mila} y={yAt(X.mila, KS)} scale={KS} expr={exprAt(t, MILA_E)} look={[-0.6, -0.1]} {...speechAt(VO, 'mila', t)}
             armL={poseAt(t, MILA_L)} armR={poseAt(t, MILA_R)} hop={hop.hop} squash={hop.squash} />
         </PlaceLight>
         {a && ai > 0 && <Dust t={t} at={S(kk(`${a.k}_snd`)) - 0.02} x={AX} y={yAt(AX, a.s)} s={0.8} />}

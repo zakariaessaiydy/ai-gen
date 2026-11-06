@@ -12,6 +12,7 @@ import { Critter, critterFaceAt, type CArm } from '../../lib/kids/critter';
 import { BOBO_HERO, CAPTION_COLORS, HOOT_HERO, LEO_HERO, MILA_HERO } from '../../lib/kids/cast/tiny-sparks';
 import { Backdrop, PlaceLight, standY } from '../../lib/kids/places';
 import { Apple, Confetti, FONT_TOON, KidsCaptions, PopText, ThinkTimer, WordCard, lipSync, useT } from '../../lib/kids/kit';
+import { speechAt } from '../../lib/kids/acting';
 import { KINK, kst, type KExpr } from '../../lib/kids/face';
 import { Vol } from '../../lib/kids/depth';
 import { ActionStage, Reaction, StageWord, StarWipe, directorCam, hopAt, onBeat, type Shot } from '../../lib/kids/energy';
@@ -216,16 +217,16 @@ export default function KidsWords066() {
         )}
         <PlaceLight place={PLACE}>
           {hootOn(t) && (
-            <Critter spec={HOOT_HERO} x={X.hoot} y={yAt(X.hoot, 0.6)} scale={0.6} expr={talksHoot(t) ? 'happy' : 'smile'} look={[0.6, -0.2]} mouth={lipSync(VO, 'hoot', t)}
+            <Critter polish acting spec={HOOT_HERO} x={X.hoot} y={yAt(X.hoot, 0.6)} scale={0.6} expr={talksHoot(t) ? 'happy' : 'smile'} look={[0.6, -0.2]} {...speechAt(VO, 'hoot', t)}
               armL={poseAt(t, HOOT_A)} armR={poseAt(t, HOOT_A)} hop={popHop(t)} />
           )}
-          <Critter spec={BOBO_HERO} x={X.bobo} y={yAt(X.bobo, BS)} scale={BS} expr={exprAt(t, BOBO_E)} look={[-0.6, -0.1]} mouth={chew ? 0.5 + 0.5 * Math.sin(t * 16) : lipSync(VO, 'bobo', t)}
+          <Critter polish acting spec={BOBO_HERO} x={X.bobo} y={yAt(X.bobo, BS)} scale={BS} expr={exprAt(t, BOBO_E)} look={[-0.6, -0.1]} mouth={chew ? 0.5 + 0.5 * Math.sin(t * 16) : lipSync(VO, 'bobo', t)} viseme={chew ? undefined : speechAt(VO, 'bobo', t).viseme}
             armL={poseAt(t, BOBO_A)} armR={poseAt(t, BOBO_A)} facing={-1} hop={hop.hop + (wiggleFeet ? Math.abs(Math.sin(t * 10)) * 14 : 0)} squash={hop.squash} tilt={nod + wiggle}
             holdR={within(t, S('mouth_use'), word('mouth_use', 6)) ? <g transform="scale(0.7)"><Apple /></g> : undefined} />
-          <Kid spec={LEO_HERO} x={X.leo} y={yAt(X.leo, LS)} scale={LS} expr={exprAt(t, LEO_E)} look={[-0.6, -0.1]} mouth={lipSync(VO, 'leo', t)}
+          <Kid polish acting spec={LEO_HERO} x={X.leo} y={yAt(X.leo, LS)} scale={LS} expr={exprAt(t, LEO_E)} look={[-0.6, -0.1]} {...speechAt(VO, 'leo', t)}
             armL={poseAt(t, LEO_L)} armR={poseAt(t, LEO_R)} legs={stomp || wiggleFeet ? 'walk' : 'stand'} walk={t * 3}
             holdR={within(t, S('nose_use'), E('nose_use')) ? <Flower /> : undefined} hop={hop.hop} squash={hop.squash + (stomp ? Math.abs(Math.sin(t * 9)) * 0.3 : 0)} />
-          <Kid spec={MILA_HERO} x={MX} y={MY} scale={MS} expr={exprAt(t, MILA_E)} look={[0, 0]} mouth={lipSync(VO, 'mila', t)}
+          <Kid polish acting spec={MILA_HERO} x={MX} y={MY} scale={MS} expr={exprAt(t, MILA_E)} look={[0, 0]} {...speechAt(VO, 'mila', t)}
             armL={poseAt(t, MILA_L)} armR={poseAt(t, MILA_R)} legs={wiggleFeet ? 'walk' : 'stand'} walk={t * 3} hop={hop.hop} squash={hop.squash} />
         </PlaceLight>
         {/* rings on Mila's body */}

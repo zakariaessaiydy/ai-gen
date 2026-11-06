@@ -12,7 +12,8 @@ import { Kid, kidFaceAt, type KArm } from '../../lib/kids/kid';
 import { Critter, critterFaceAt, type CArm } from '../../lib/kids/critter';
 import { BOBO_HERO, CAPTION_COLORS, HOOT_HERO, LEO_HERO, MILA_HERO } from '../../lib/kids/cast/tiny-sparks';
 import { Backdrop, PlaceLight, standY } from '../../lib/kids/places';
-import { AnswerMark, Apple, Confetti, FONT_TOON, KidsCaptions, PopText, ThinkTimer, lipSync, useT } from '../../lib/kids/kit';
+import { AnswerMark, Apple, Confetti, FONT_TOON, KidsCaptions, PopText, ThinkTimer, useT } from '../../lib/kids/kit';
+import { speechAt } from '../../lib/kids/acting';
 import { KINK, kst, type KExpr } from '../../lib/kids/face';
 import { Vol } from '../../lib/kids/depth';
 import { ActionStage, Reaction, StageWord, StarWipe, directorCam, hopAt, onBeat, type Shot } from '../../lib/kids/energy';
@@ -511,14 +512,14 @@ export default function KidsPuzzles062() {
           </g>
         )}
         <PlaceLight place={PLACE}>
-          <Critter spec={HOOT_HERO} x={X.hoot} y={yAt(X.hoot, CS)} scale={CS} expr={exprAt(t, HOOT_E)} look={lookAt(t, LOOK_R)} mouth={lipSync(VO, 'hoot', t)}
+          <Critter polish acting spec={HOOT_HERO} x={X.hoot} y={yAt(X.hoot, CS)} scale={CS} expr={exprAt(t, HOOT_E)} look={lookAt(t, LOOK_R)} {...speechAt(VO, 'hoot', t)}
             armL={poseAt(t, HOOT_A)} armR={poseAt(t, HOOT_R)} facing={-1} hop={hop.hop + yay(3)} squash={hop.squash} />
-          <Critter spec={BOBO_HERO} x={X.bobo} y={yAt(X.bobo, CS)} scale={CS} expr={exprAt(t, BOBO_E)} look={lookAt(t, LOOK_R)} mouth={lipSync(VO, 'bobo', t)}
+          <Critter polish acting spec={BOBO_HERO} x={X.bobo} y={yAt(X.bobo, CS)} scale={CS} expr={exprAt(t, BOBO_E)} look={lookAt(t, LOOK_R)} {...speechAt(VO, 'bobo', t)}
             armL={poseAt(t, BOBO_A)} armR={poseAt(t, BOBO_A)} facing={-1} hop={hop.hop + yay(2)} squash={hop.squash}
             holdR={within(t, S('p10_bobo'), E('p10_bobo')) ? <g transform="scale(0.6)"><Cookie /></g> : undefined} />
-          <Kid spec={LEO_HERO} x={X.leo} y={yAt(X.leo, KS)} scale={KS} expr={exprAt(t, LEO_E)} look={lookAt(t, LOOK_L)} mouth={lipSync(VO, 'leo', t)}
+          <Kid polish acting spec={LEO_HERO} x={X.leo} y={yAt(X.leo, KS)} scale={KS} expr={exprAt(t, LEO_E)} look={lookAt(t, LOOK_L)} {...speechAt(VO, 'leo', t)}
             armL={poseAt(t, LEO_L)} armR={poseAt(t, LEO_R)} hop={hop.hop + yay(1)} squash={hop.squash} />
-          <Kid spec={MILA_HERO} x={X.mila} y={yAt(X.mila, KS)} scale={KS} expr={exprAt(t, MILA_E)} look={lookAt(t, LOOK_L)} mouth={lipSync(VO, 'mila', t)}
+          <Kid polish acting spec={MILA_HERO} x={X.mila} y={yAt(X.mila, KS)} scale={KS} expr={exprAt(t, MILA_E)} look={lookAt(t, LOOK_L)} {...speechAt(VO, 'mila', t)}
             armL={poseAt(t, MILA_L)} armR={poseAt(t, MILA_R)} hop={hop.hop + yay(0)} squash={hop.squash} />
         </PlaceLight>
         <StageWord t={t} at={word('p10_bobo', 7)} until={E('p10_bobo') + 0.2} text="MUNCH, MUNCH!" x={X.bobo - 120} y={yAt(X.bobo, CS) - 500} size={70} color="#d4a373" rot={-5} />

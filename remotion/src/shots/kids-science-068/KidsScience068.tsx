@@ -17,7 +17,8 @@ import { Kid, kidFaceAt, type KArm } from '../../lib/kids/kid';
 import { Critter, critterFaceAt, type CArm } from '../../lib/kids/critter';
 import { BOBO_HERO, CAPTION_COLORS, HOOT_HERO, LEO_HERO, MILA_HERO } from '../../lib/kids/cast/tiny-sparks';
 import { Backdrop, PlaceLight, standY, type Place } from '../../lib/kids/places';
-import { AnswerMark, Balloon, Bubble, Confetti, FONT_TOON, KidsCaptions, PopText, ThinkTimer, lipSync, useT } from '../../lib/kids/kit';
+import { AnswerMark, Balloon, Bubble, Confetti, FONT_TOON, KidsCaptions, PopText, ThinkTimer, useT } from '../../lib/kids/kit';
+import { speechAt } from '../../lib/kids/acting';
 import { KINK, kst, type KExpr } from '../../lib/kids/face';
 import { Vol } from '../../lib/kids/depth';
 import { ActionStage, ImpactStar, MotionLines, Reaction, StageWord, StarWipe, directorCam, hopAt, onBeat, shakeOf, type Hit, type Shot } from '../../lib/kids/energy';
@@ -621,14 +622,14 @@ export default function KidsScience068() {
         <PlaceLight place={place}>
           {/* Hoot */}
           {hW.x < W + 200 && (
-            <Critter spec={HOOT_HERO} x={hW.x} y={yK(hW.x, inLab ? LS + 0.05 : HS)} scale={inLab ? LS + 0.05 : HS} expr={exprAt(t, HOOT_E)} look={inLab ? [-0.6, -0.2] : [-0.3, -0.3]}
-              mouth={lipSync(VO, 'hoot', t)} armL={poseAt(t, HOOT_A)} armR={poseAt(t, HOOT_R)}
+            <Critter polish acting spec={HOOT_HERO} x={hW.x} y={yK(hW.x, inLab ? LS + 0.05 : HS)} scale={inLab ? LS + 0.05 : HS} expr={exprAt(t, HOOT_E)} look={inLab ? [-0.6, -0.2] : [-0.3, -0.3]}
+              {...speechAt(VO, 'hoot', t)} armL={poseAt(t, HOOT_A)} armR={poseAt(t, HOOT_R)}
               facing={-1} walking={hW.walking} walk={hW.walk} hop={hop.hop} squash={hop.squash} />
           )}
           {/* Bobo */}
           {bW.x < W + 200 && (
-            <Critter spec={BOBO_HERO} x={bW.x} y={bY} scale={sb} expr={exprAt(t, BOBO_E)} look={inLab ? (bW.walking ? [-0.8, 0] : [-0.5, -0.2]) : [-0.2, -0.4]}
-              mouth={lipSync(VO, 'bobo', t)} armL={boboArms} armR={rubbing ? { a: 30 } : boboArms} walking={bW.walking} walk={bW.walk}
+            <Critter polish acting spec={BOBO_HERO} x={bW.x} y={bY} scale={sb} expr={exprAt(t, BOBO_E)} look={inLab ? (bW.walking ? [-0.8, 0] : [-0.5, -0.2]) : [-0.2, -0.4]}
+              {...speechAt(VO, 'bobo', t)} armL={boboArms} armR={rubbing ? { a: 30 } : boboArms} walking={bW.walking} walk={bW.walk}
               facing={inLab && bW.walking && t > S('q3') - 0.3 ? 1 : -1} hop={hop.hop} squash={hop.squash} />
           )}
           {poofOn && (
@@ -644,13 +645,13 @@ export default function KidsScience068() {
           )}
           {/* Leo */}
           {lW.x < W + 200 && (
-            <Kid spec={LEO_HERO} x={lW.x} y={yK(lW.x, s)} scale={s} expr={exprAt(t, LEO_E)} look={kidsLook} mouth={lipSync(VO, 'leo', t)}
+            <Kid polish acting spec={LEO_HERO} x={lW.x} y={yK(lW.x, s)} scale={s} expr={exprAt(t, LEO_E)} look={kidsLook} {...speechAt(VO, 'leo', t)}
               armL={poseAt(t, LEO_L)} armR={poseAt(t, LEO_R)} legs={lW.walking ? 'walk' : 'stand'} walk={lW.walk} lean={lW.lean}
               hop={hop.hop} squash={hop.squash} />
           )}
           {/* Mila */}
           {mW.x < W + 200 && (
-            <Kid spec={MILA_HERO} x={mW.x} y={yK(mW.x, s)} scale={s} expr={exprAt(t, MILA_E)} look={mW.walking ? [0.8, 0] : kidsLook} mouth={lipSync(VO, 'mila', t)}
+            <Kid polish acting spec={MILA_HERO} x={mW.x} y={yK(mW.x, s)} scale={s} expr={exprAt(t, MILA_E)} look={mW.walking ? [0.8, 0] : kidsLook} {...speechAt(VO, 'mila', t)}
               armL={poseAt(t, MILA_L)} armR={poseAt(t, MILA_R)} fingersR={within(t, S('c1'), S('far') + 2) ? (t >= S('c3') ? 3 : t >= S('c2') ? 2 : 1) : 0}
               legs={mW.walking ? 'walk' : 'stand'} walk={mW.walk} lean={mW.lean} hop={hop.hop} squash={hop.squash} />
           )}

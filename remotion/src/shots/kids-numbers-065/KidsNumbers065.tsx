@@ -13,7 +13,8 @@ import { Kid, kidFaceAt, type KArm } from '../../lib/kids/kid';
 import { Critter, critterFaceAt, type CArm } from '../../lib/kids/critter';
 import { BOBO_HERO, CAPTION_COLORS, HOOT_HERO, MILA_HERO } from '../../lib/kids/cast/tiny-sparks';
 import { Backdrop, PlaceLight, standY } from '../../lib/kids/places';
-import { AnswerMark, Bubble, Confetti, FONT_TOON, KidsCaptions, PopText, ThinkTimer, lipSync, useT } from '../../lib/kids/kit';
+import { AnswerMark, Bubble, Confetti, FONT_TOON, KidsCaptions, PopText, ThinkTimer, useT } from '../../lib/kids/kit';
+import { speechAt } from '../../lib/kids/acting';
 import { KINK, kst, type KExpr } from '../../lib/kids/face';
 import { Vol } from '../../lib/kids/depth';
 import { ActionStage, Reaction, StageWord, StarWipe, directorCam, hopAt, onBeat, type Shot } from '../../lib/kids/energy';
@@ -387,11 +388,11 @@ export default function KidsNumbers065() {
         <Stickers t={t} />
         <RemPic t={t} />
         <PlaceLight place={PLACE}>
-          <Critter spec={HOOT_HERO} x={X.hoot} y={yAt(X.hoot, HS)} scale={HS} expr={exprAt(t, HOOT_E)} look={[-0.6, -0.4]} mouth={lipSync(VO, 'hoot', t)}
+          <Critter polish acting spec={HOOT_HERO} x={X.hoot} y={yAt(X.hoot, HS)} scale={HS} expr={exprAt(t, HOOT_E)} look={[-0.6, -0.4]} {...speechAt(VO, 'hoot', t)}
             armL={poseAt(t, HOOT_A)} armR="down" facing={-1} />
-          <Critter spec={BOBO_HERO} x={X.bobo} y={yAt(X.bobo, BS)} scale={BS} expr={exprAt(t, BOBO_E)} look={lookAt(t, LOOK_B)} mouth={lipSync(VO, 'bobo', t)}
+          <Critter polish acting spec={BOBO_HERO} x={X.bobo} y={yAt(X.bobo, BS)} scale={BS} expr={exprAt(t, BOBO_E)} look={lookAt(t, LOOK_B)} {...speechAt(VO, 'bobo', t)}
             armL={poseAt(t, BOBO_A)} armR={poseAt(t, BOBO_A)} facing={-1} hop={hop.hop + grab.hop} squash={hop.squash + grab.squash} />
-          <Kid spec={MILA_HERO} x={X.mila} y={yAt(X.mila, KS)} scale={KS} expr={exprAt(t, MILA_E)} look={lookAt(t, LOOK_M)} mouth={lipSync(VO, 'mila', t)}
+          <Kid polish acting spec={MILA_HERO} x={X.mila} y={yAt(X.mila, KS)} scale={KS} expr={exprAt(t, MILA_E)} look={lookAt(t, LOOK_M)} {...speechAt(VO, 'mila', t)}
             armL={poseAt(t, MILA_L)} armR={poseAt(t, MILA_R)} fingersR={fingersR(t)} fingersL={fingersL(t)} hop={hop.hop} squash={hop.squash} />
         </PlaceLight>
         {/* Hoot's "the Sun is a star" bubble */}

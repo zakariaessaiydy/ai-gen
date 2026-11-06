@@ -33,6 +33,11 @@ python tools/song_to_ace.py [<song dir> ...]       # → tools/notebooks/ace_ste
 #   unzip ace_songs.zip at the REPO ROOT  → kids-shorts/tiny-sparks/songs/<song>/ace/<style>-seed<N>.wav
 python tools/align_song.py kids-shorts/tiny-sparks/songs/<song>   # best take → song.mp3 + song.gen.ts
 ```
+- **When a video needs a song, hand the user ONLY the notebook (user rule, Nov 2026):** write song.json, run
+  `song_to_ace.py` for just the song(s) needed, commit + push the `.ipynb`, and tell the user its path (one line: import on
+  Kaggle, GPU T4, Run All, send back `ace_songs.zip`). Don't explain ACE-Step, don't ask them to pick styles or seeds. Build
+  everything that doesn't need the song meanwhile; when the zip arrives, unzip it at the repo root and continue with
+  align_song / align_sung below.
 - **One video per take (user rule, Nov 2026)** — 2–3 takes → 2–3 videos. Long takes do NOT follow song.json's form
   (they skip verses, repeat choruses, add "ooh" bars), so use `python tools/align_sung.py <song dir>`: it maps the
   sections in the order they were SUNG and writes `song.A/B/C.gen.ts` (SONG + SONG_FORM) + `song-A/B/C.mp3`. Build the
