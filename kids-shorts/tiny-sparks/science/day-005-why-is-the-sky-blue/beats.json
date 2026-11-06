@@ -1,0 +1,855 @@
+{
+  "id": "day-005",
+  "series": "tiny-sparks",
+  "episode": 5,
+  "title": "Why Is the Sky Blue?",
+  "composition": "KidsScience005",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 75.1
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "why",
+      "speaker": "mila",
+      "start": 1.4,
+      "end": 2.97,
+      "text": "Why is the sky blue?",
+      "words": [
+        {
+          "w": "Why",
+          "start": 1.43,
+          "end": 1.754
+        },
+        {
+          "w": "is",
+          "start": 1.754,
+          "end": 1.917
+        },
+        {
+          "w": "the",
+          "start": 1.917,
+          "end": 2.079
+        },
+        {
+          "w": "sky",
+          "start": 2.079,
+          "end": 2.484
+        },
+        {
+          "w": "blue?",
+          "start": 2.484,
+          "end": 2.89
+        }
+      ]
+    },
+    {
+      "beat": "guess",
+      "speaker": "leo",
+      "start": 4.17,
+      "end": 6.96,
+      "text": "I know! Someone painted it, with a giant brush!",
+      "words": [
+        {
+          "w": "I",
+          "start": 4.21,
+          "end": 4.38
+        },
+        {
+          "w": "know!",
+          "start": 4.38,
+          "end": 4.607
+        },
+        {
+          "w": "Someone",
+          "start": 4.607,
+          "end": 5.004
+        },
+        {
+          "w": "painted",
+          "start": 5.004,
+          "end": 5.458
+        },
+        {
+          "w": "it,",
+          "start": 5.458,
+          "end": 5.572
+        },
+        {
+          "w": "with",
+          "start": 5.572,
+          "end": 5.742
+        },
+        {
+          "w": "a",
+          "start": 5.742,
+          "end": 5.912
+        },
+        {
+          "w": "giant",
+          "start": 5.912,
+          "end": 6.366
+        },
+        {
+          "w": "brush!",
+          "start": 6.366,
+          "end": 6.65
+        }
+      ]
+    },
+    {
+      "beat": "good",
+      "speaker": "hoot",
+      "start": 8.36,
+      "end": 10.75,
+      "text": "Good guess, Leo! Let's find out.",
+      "words": [
+        {
+          "w": "Good",
+          "start": 8.4,
+          "end": 8.709
+        },
+        {
+          "w": "guess,",
+          "start": 8.709,
+          "end": 9.018
+        },
+        {
+          "w": "Leo!",
+          "start": 9.018,
+          "end": 9.481
+        },
+        {
+          "w": "Let's",
+          "start": 9.481,
+          "end": 9.868
+        },
+        {
+          "w": "find",
+          "start": 9.868,
+          "end": 10.331
+        },
+        {
+          "w": "out.",
+          "start": 10.331,
+          "end": 10.64
+        }
+      ]
+    },
+    {
+      "beat": "white",
+      "speaker": "hoot",
+      "start": 12.35,
+      "end": 13.86,
+      "text": "Sunlight looks white...",
+      "words": [
+        {
+          "w": "Sunlight",
+          "start": 12.38,
+          "end": 13.002
+        },
+        {
+          "w": "looks",
+          "start": 13.002,
+          "end": 13.391
+        },
+        {
+          "w": "white...",
+          "start": 13.391,
+          "end": 13.78
+        }
+      ]
+    },
+    {
+      "beat": "rainbow",
+      "speaker": "hoot",
+      "start": 14.66,
+      "end": 18.31,
+      "text": "but it is really made of all the colors of the rainbow!",
+      "words": [
+        {
+          "w": "but",
+          "start": 14.69,
+          "end": 15.004
+        },
+        {
+          "w": "it",
+          "start": 15.004,
+          "end": 15.161
+        },
+        {
+          "w": "is",
+          "start": 15.161,
+          "end": 15.318
+        },
+        {
+          "w": "really",
+          "start": 15.318,
+          "end": 15.788
+        },
+        {
+          "w": "made",
+          "start": 15.788,
+          "end": 16.18
+        },
+        {
+          "w": "of",
+          "start": 16.18,
+          "end": 16.337
+        },
+        {
+          "w": "all",
+          "start": 16.337,
+          "end": 16.651
+        },
+        {
+          "w": "the",
+          "start": 16.651,
+          "end": 16.808
+        },
+        {
+          "w": "colors",
+          "start": 16.808,
+          "end": 17.279
+        },
+        {
+          "w": "of",
+          "start": 17.279,
+          "end": 17.436
+        },
+        {
+          "w": "the",
+          "start": 17.436,
+          "end": 17.592
+        },
+        {
+          "w": "rainbow!",
+          "start": 17.592,
+          "end": 18.22
+        }
+      ]
+    },
+    {
+      "beat": "air",
+      "speaker": "hoot",
+      "start": 20.71,
+      "end": 25.61,
+      "text": "Sunlight shines into the air, and bumps into tiny, tiny bits of air.",
+      "words": [
+        {
+          "w": "Sunlight",
+          "start": 20.73,
+          "end": 21.33
+        },
+        {
+          "w": "shines",
+          "start": 21.33,
+          "end": 21.78
+        },
+        {
+          "w": "into",
+          "start": 21.78,
+          "end": 22.155
+        },
+        {
+          "w": "the",
+          "start": 22.155,
+          "end": 22.305
+        },
+        {
+          "w": "air,",
+          "start": 22.305,
+          "end": 22.53
+        },
+        {
+          "w": "and",
+          "start": 22.9,
+          "end": 23.093
+        },
+        {
+          "w": "bumps",
+          "start": 23.093,
+          "end": 23.48
+        },
+        {
+          "w": "into",
+          "start": 23.48,
+          "end": 23.803
+        },
+        {
+          "w": "tiny,",
+          "start": 23.803,
+          "end": 24.19
+        },
+        {
+          "w": "tiny",
+          "start": 24.32,
+          "end": 24.777
+        },
+        {
+          "w": "bits",
+          "start": 24.777,
+          "end": 25.159
+        },
+        {
+          "w": "of",
+          "start": 25.159,
+          "end": 25.311
+        },
+        {
+          "w": "air.",
+          "start": 25.311,
+          "end": 25.54
+        }
+      ]
+    },
+    {
+      "beat": "bounce",
+      "speaker": "hoot",
+      "start": 27.2,
+      "end": 31.74,
+      "text": "Blue light bounces all around the sky, much more than the other colors.",
+      "words": [
+        {
+          "w": "Blue",
+          "start": 27.24,
+          "end": 27.609
+        },
+        {
+          "w": "light",
+          "start": 27.609,
+          "end": 27.978
+        },
+        {
+          "w": "bounces",
+          "start": 27.978,
+          "end": 28.569
+        },
+        {
+          "w": "all",
+          "start": 28.569,
+          "end": 28.864
+        },
+        {
+          "w": "around",
+          "start": 28.864,
+          "end": 29.381
+        },
+        {
+          "w": "the",
+          "start": 29.381,
+          "end": 29.529
+        },
+        {
+          "w": "sky,",
+          "start": 29.529,
+          "end": 29.898
+        },
+        {
+          "w": "much",
+          "start": 29.898,
+          "end": 30.267
+        },
+        {
+          "w": "more",
+          "start": 30.267,
+          "end": 30.563
+        },
+        {
+          "w": "than",
+          "start": 30.563,
+          "end": 30.784
+        },
+        {
+          "w": "the",
+          "start": 30.784,
+          "end": 30.932
+        },
+        {
+          "w": "other",
+          "start": 30.932,
+          "end": 31.227
+        },
+        {
+          "w": "colors.",
+          "start": 31.227,
+          "end": 31.67
+        }
+      ]
+    },
+    {
+      "beat": "eyes",
+      "speaker": "hoot",
+      "start": 33.34,
+      "end": 36.54,
+      "text": "So blue light comes to our eyes, from everywhere!",
+      "words": [
+        {
+          "w": "So",
+          "start": 33.36,
+          "end": 33.615
+        },
+        {
+          "w": "blue",
+          "start": 33.615,
+          "end": 33.933
+        },
+        {
+          "w": "light",
+          "start": 33.933,
+          "end": 34.251
+        },
+        {
+          "w": "comes",
+          "start": 34.251,
+          "end": 34.57
+        },
+        {
+          "w": "to",
+          "start": 34.57,
+          "end": 34.761
+        },
+        {
+          "w": "our",
+          "start": 34.761,
+          "end": 35.015
+        },
+        {
+          "w": "eyes,",
+          "start": 35.015,
+          "end": 35.27
+        },
+        {
+          "w": "from",
+          "start": 35.51,
+          "end": 35.802
+        },
+        {
+          "w": "everywhere!",
+          "start": 35.802,
+          "end": 36.46
+        }
+      ]
+    },
+    {
+      "beat": "word",
+      "speaker": "hoot",
+      "start": 38.94,
+      "end": 41.58,
+      "text": "That bouncing has a name. Scatter!",
+      "words": [
+        {
+          "w": "That",
+          "start": 38.97,
+          "end": 39.237
+        },
+        {
+          "w": "bouncing",
+          "start": 39.237,
+          "end": 39.77
+        },
+        {
+          "w": "has",
+          "start": 39.77,
+          "end": 40.037
+        },
+        {
+          "w": "a",
+          "start": 40.037,
+          "end": 40.237
+        },
+        {
+          "w": "name.",
+          "start": 40.237,
+          "end": 40.57
+        },
+        {
+          "w": "Scatter!",
+          "start": 40.8,
+          "end": 41.51
+        }
+      ]
+    },
+    {
+      "beat": "mila_say",
+      "speaker": "mila",
+      "start": 42.98,
+      "end": 43.88,
+      "text": "Scatter!",
+      "words": [
+        {
+          "w": "Scatter!",
+          "start": 43.06,
+          "end": 43.7
+        }
+      ]
+    },
+    {
+      "beat": "leo_say",
+      "speaker": "leo",
+      "start": 45.88,
+      "end": 46.65,
+      "text": "Scatter!",
+      "words": [
+        {
+          "w": "Scatter!",
+          "start": 45.91,
+          "end": 46.51
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 49.25,
+      "end": 50.52,
+      "text": "Let's remember!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 49.36,
+          "end": 49.76
+        },
+        {
+          "w": "remember!",
+          "start": 49.76,
+          "end": 50.4
+        }
+      ]
+    },
+    {
+      "beat": "r1",
+      "speaker": "mila",
+      "start": 51.52,
+      "end": 53.33,
+      "text": "Sunlight has every color.",
+      "words": [
+        {
+          "w": "Sunlight",
+          "start": 51.56,
+          "end": 52.164
+        },
+        {
+          "w": "has",
+          "start": 52.164,
+          "end": 52.465
+        },
+        {
+          "w": "every",
+          "start": 52.465,
+          "end": 52.843
+        },
+        {
+          "w": "color.",
+          "start": 52.843,
+          "end": 53.22
+        }
+      ]
+    },
+    {
+      "beat": "r2",
+      "speaker": "mila",
+      "start": 55.33,
+      "end": 56.86,
+      "text": "It bumps into the air.",
+      "words": [
+        {
+          "w": "It",
+          "start": 55.37,
+          "end": 55.523
+        },
+        {
+          "w": "bumps",
+          "start": 55.523,
+          "end": 55.983
+        },
+        {
+          "w": "into",
+          "start": 55.983,
+          "end": 56.367
+        },
+        {
+          "w": "the",
+          "start": 56.367,
+          "end": 56.52
+        },
+        {
+          "w": "air.",
+          "start": 56.52,
+          "end": 56.75
+        }
+      ]
+    },
+    {
+      "beat": "r3",
+      "speaker": "mila",
+      "start": 58.86,
+      "end": 60.54,
+      "text": "Blue bounces everywhere!",
+      "words": [
+        {
+          "w": "Blue",
+          "start": 58.9,
+          "end": 59.252
+        },
+        {
+          "w": "bounces",
+          "start": 59.252,
+          "end": 59.816
+        },
+        {
+          "w": "everywhere!",
+          "start": 59.816,
+          "end": 60.45
+        }
+      ]
+    },
+    {
+      "beat": "leo_wow",
+      "speaker": "leo",
+      "start": 62.14,
+      "end": 64.08,
+      "text": "So that's why the sky is blue!",
+      "words": [
+        {
+          "w": "So",
+          "start": 62.18,
+          "end": 62.419
+        },
+        {
+          "w": "that's",
+          "start": 62.419,
+          "end": 62.717
+        },
+        {
+          "w": "why",
+          "start": 62.717,
+          "end": 62.955
+        },
+        {
+          "w": "the",
+          "start": 62.955,
+          "end": 63.074
+        },
+        {
+          "w": "sky",
+          "start": 63.074,
+          "end": 63.373
+        },
+        {
+          "w": "is",
+          "start": 63.373,
+          "end": 63.492
+        },
+        {
+          "w": "blue!",
+          "start": 63.492,
+          "end": 63.79
+        }
+      ]
+    },
+    {
+      "beat": "wow",
+      "speaker": "hoot",
+      "start": 66.28,
+      "end": 69.54,
+      "text": "Wow fact! On Mars, the sunsets are blue!",
+      "words": [
+        {
+          "w": "Wow",
+          "start": 66.31,
+          "end": 66.652
+        },
+        {
+          "w": "fact!",
+          "start": 66.652,
+          "end": 67.08
+        },
+        {
+          "w": "On",
+          "start": 67.26,
+          "end": 67.515
+        },
+        {
+          "w": "Mars,",
+          "start": 67.515,
+          "end": 67.94
+        },
+        {
+          "w": "the",
+          "start": 68.17,
+          "end": 68.323
+        },
+        {
+          "w": "sunsets",
+          "start": 68.323,
+          "end": 68.935
+        },
+        {
+          "w": "are",
+          "start": 68.935,
+          "end": 69.088
+        },
+        {
+          "w": "blue!",
+          "start": 69.088,
+          "end": 69.47
+        }
+      ]
+    },
+    {
+      "beat": "end",
+      "speaker": "mila",
+      "start": 71.34,
+      "end": 72.72,
+      "text": "Keep asking why!",
+      "words": [
+        {
+          "w": "Keep",
+          "start": 71.37,
+          "end": 71.773
+        },
+        {
+          "w": "asking",
+          "start": 71.773,
+          "end": 72.257
+        },
+        {
+          "w": "why!",
+          "start": 72.257,
+          "end": 72.58
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "why",
+      "start": 0,
+      "visual": "Why is the sky blue?",
+      "end": 3.97
+    },
+    {
+      "id": "guess",
+      "start": 3.97,
+      "visual": "I know! Someone painted it, with a giant brush!",
+      "end": 8.16
+    },
+    {
+      "id": "good",
+      "start": 8.16,
+      "visual": "Good guess, Leo! Let's find out.",
+      "end": 12.15
+    },
+    {
+      "id": "white",
+      "start": 12.15,
+      "visual": "Sunlight looks white...",
+      "end": 14.46
+    },
+    {
+      "id": "rainbow",
+      "start": 14.46,
+      "visual": "but it is really made of all the colors of the rainbow!",
+      "end": 20.51
+    },
+    {
+      "id": "air",
+      "start": 20.51,
+      "visual": "Sunlight shines into the air, and bumps into tiny, tiny bits of air.",
+      "end": 27.0
+    },
+    {
+      "id": "bounce",
+      "start": 27.0,
+      "visual": "Blue light bounces all around the sky, much more than the other colors.",
+      "end": 33.14
+    },
+    {
+      "id": "eyes",
+      "start": 33.14,
+      "visual": "So blue light comes to our eyes, from everywhere!",
+      "end": 38.74
+    },
+    {
+      "id": "word",
+      "start": 38.74,
+      "visual": "That bouncing has a name. Scatter!",
+      "end": 42.78
+    },
+    {
+      "id": "mila_say",
+      "start": 42.78,
+      "visual": "Scatter!",
+      "end": 45.68
+    },
+    {
+      "id": "leo_say",
+      "start": 45.68,
+      "visual": "Scatter!",
+      "end": 49.05
+    },
+    {
+      "id": "recap",
+      "start": 49.05,
+      "visual": "Let's remember!",
+      "end": 51.32
+    },
+    {
+      "id": "r1",
+      "start": 51.32,
+      "visual": "Sunlight has every color.",
+      "end": 55.13
+    },
+    {
+      "id": "r2",
+      "start": 55.13,
+      "visual": "It bumps into the air.",
+      "end": 58.66
+    },
+    {
+      "id": "r3",
+      "start": 58.66,
+      "visual": "Blue bounces everywhere!",
+      "end": 61.94
+    },
+    {
+      "id": "leo_wow",
+      "start": 61.94,
+      "visual": "So that's why the sky is blue!",
+      "end": 66.08
+    },
+    {
+      "id": "wow",
+      "start": 66.08,
+      "visual": "Wow fact! On Mars, the sunsets are blue!",
+      "end": 71.14
+    },
+    {
+      "id": "end",
+      "start": 71.14,
+      "visual": "Keep asking why!",
+      "end": 75.1
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

@@ -21,9 +21,7 @@ Usage:
 
 Reads the engine/voice/rate from beats.json ("voicePlan": "edge:en-US-Andrew... --rate +12%")
 unless overridden. Skips a render when nothing that feeds it changed (--force to override).
-Works for shorts/, ai-shorts/, vox-shorts/ and kids-stories/ projects alike. For kids-stories
-the gen stage also re-emits shots.gen.ts from beats.json, and a final `short` stage renders the
-vertical teaser (beats.json "shortCut") and muxes the matching slice of the best audio.
+Works for shorts/, ai-shorts/ and vox-shorts/ projects alike.
 """
 import argparse
 import hashlib
@@ -36,7 +34,6 @@ import sys
 import time
 
 from ffmpeg_path import ensure_on_path
-from kids_lib import emit_estimated_vo, emit_shots_ts, is_kids
 
 ensure_on_path()
 
@@ -46,7 +43,7 @@ if hasattr(sys.stdout, "reconfigure"):
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REMOTION = os.path.join(ROOT, "remotion")
-ALL_STAGES = ["gen", "voice", "render", "mux", "sfx", "music", "short"]
+ALL_STAGES = ["gen", "voice", "render", "mux", "sfx", "music"]
 
 
 def sh(cmd, cwd=None, quiet=False):
@@ -80,10 +77,14 @@ def parse_voice_plan(beats, args):
     engine, voice, rate = args.engine, args.voice, args.rate
     plan = beats.get("voicePlan") or beats.get("voiceStatus") or ""
     if not engine or not voice:
-        m = re.match(r"\s*(elevenlabs|edge)\s*:\s*([^\s]+)", plan)
+        # "edge:<voice> --rate +12%", or a bare "edge" / "elevenlabs" for a cast episode
+        # whose voices come from beats.json's per-speaker "cast" map
+        m = re.match(r"\s*(elevenlabs|edge|kokoro|azure)\b(?:\s*:\s*([^\s]+))?", plan)
         if m:
             engine = engine or m.group(1)
-            voice = voice or m.group(2)
+            # voiceStatus records a cast episode as "kokoro:cast" — that is not a voice name
+            if m.group(2) != "cast":
+                voice = voice or m.group(2)
     if not rate:
         m = re.search(r"--rate\s+(\S+)", plan)
         rate = m.group(1) if m else None
@@ -115,11 +116,18 @@ def main():
     ap.add_argument("--draft", action="store_true",
                     help="render at half scale / crf 30 into <Id>-draft.mp4 — a motion check, not a master")
     ap.add_argument("--scale", type=float, help="render scale (default 1 for shorts, 0.5 with --draft)")
-    ap.add_argument("--engine", choices=("elevenlabs", "edge"))
+    ap.add_argument("--concurrency", type=int, help="render-all --concurrency: parallel Chrome tabs (lower = less RAM)")
+    ap.add_argument("--engine", choices=("elevenlabs", "edge", "kokoro", "azure"))
     ap.add_argument("--voice")
-    ap.add_argument("--rate", help="edge only, e.g. +12%%")
+    ap.add_argument("--rate", help="edge/kokoro, e.g. +12%%")
     ap.add_argument("--jobs", type=int, default=4, help="parallel TTS lines (default 4)")
     ap.add_argument("--music", help="bed id, or 'all' to audition every bed")
+    ap.add_argument("--bed-gain", help="mix_music --bed-gain (dB, default -7)")
+    ap.add_argument("--duck", help="mix_music --duck (dB, default 9)")
+    ap.add_argument("--bed-start", help="mix_music --start: the bed enters at N s (e.g. after the jingle)")
+    ap.add_argument("--bed-stop", help="mix_music --stop: the bed fades out ending at N s")
+    ap.add_argument("--bed-fade-in", help="mix_music --fade-in (s)")
+    ap.add_argument("--bed-fade", help="mix_music --fade: fade-out (and default fade-in) seconds")
     ap.add_argument("--force", action="store_true", help="re-render even when nothing changed")
     ap.add_argument("--force-voice", action="store_true", help="re-bill every TTS line")
     ap.add_argument("--no-check", action="store_true", help="skip the preflight (check_short.py)")
@@ -130,6 +138,15 @@ def main():
     if not os.path.exists(beats_path):
         sys.exit(f"no beats.json in {args.project}")
     beats = json.load(open(beats_path, encoding="utf-8"))
+    # the episode's own music settings — beats.json "music": {"bed", "gain", "duck", "start", "stop",
+    # "fade_in", "fade"} (the kids channel's standard bed lives there); command-line flags win
+    mcfg = beats.get("music") if isinstance(beats.get("music"), dict) else {}
+    if mcfg.get("bed") and not args.music:
+        args.music = mcfg["bed"]
+    for key, attr in (("gain", "bed_gain"), ("duck", "duck"), ("start", "bed_start"), ("stop", "bed_stop"),
+                      ("fade_in", "bed_fade_in"), ("fade", "bed_fade")):
+        if getattr(args, attr) is None and mcfg.get(key) is not None:
+            setattr(args, attr, mcfg[key])
     comp_id = beats.get("composition")
     if not comp_id:
         sys.exit("beats.json has no \"composition\" id")
@@ -145,8 +162,6 @@ def main():
             stages.remove("sfx")
         if not args.music:
             stages.remove("music")
-        if not beats.get("shortCut"):
-            stages.remove("short")
     for s in (args.skip or "").split(","):
         if s.strip() in stages:
             stages.remove(s.strip())
@@ -166,19 +181,11 @@ def main():
 
     t_all = time.time()
 
-    # kids-stories: beats.json is the source of the shot list — emit it BEFORE the preflight so
-    # the check (and the render) see the current shots, not the last build's
-    if stage("gen") and is_kids(beats, proj) and beats.get("shots"):
-        changed = emit_shots_ts(beats, os.path.join(shot_dir, "shots.gen.ts"))
-        print(f"shots.gen.ts {'re-emitted from beats.json' if changed else 'up to date'}")
-        if emit_estimated_vo(beats, os.path.join(shot_dir, "vo.gen.ts")):
-            print("vo.gen.ts re-emitted from the script (estimated timings — voice stage makes them exact)")
-
     # Preflight first: a banned hook or a non-monotonic interpolate range is a crash 45s into
     # the render, and a duration mismatch is a re-render. Both are a one-second check.
     if not args.no_check:
         print("\npreflight:")
-        r = subprocess.run(["python", os.path.join(ROOT, "tools", "check_short.py"), proj], cwd=ROOT)
+        r = subprocess.run([sys.executable, os.path.join(ROOT, "tools", "check_short.py"), proj], cwd=ROOT)
         if r.returncode != 0:
             sys.exit("preflight found errors — fix them (or pass --no-check) before building")
 
@@ -190,13 +197,13 @@ def main():
     if stage("voice"):
         t = time.time()
         engine, voice, rate = parse_voice_plan(beats, args)
-        cmd = ["python", os.path.join(ROOT, "tools", "gen_voice.py"),
+        cmd = [sys.executable, os.path.join(ROOT, "tools", "gen_voice.py"),
                "--beats", beats_path, "--engine", engine, "--jobs", str(args.jobs),
                "--emit-ts", os.path.join(shot_dir, "vo.gen.ts")]
         if voice:
             cmd += ["--voice", voice]
-        if rate and engine == "edge":
-            cmd += [f"--rate={rate}"]  # = form: a negative rate ("-4%") would parse as a flag
+        if rate and engine in ("edge", "kokoro"):
+            cmd += ["--rate", rate]
         if args.force_voice:
             cmd += ["--force"]
         sh(cmd, cwd=ROOT)
@@ -216,6 +223,8 @@ def main():
             t = time.time()
             cmd = ["node", "scripts/render-all.mjs", comp_id]
             cmd += ["--draft"] if args.draft else [f"--scale={scale}"]
+            if args.concurrency:
+                cmd.append(f"--concurrency={args.concurrency}")
             sh(cmd, cwd=REMOTION)
             open(stampf, "w").write(fp)
             timings.append(("render", time.time() - t))
@@ -238,7 +247,7 @@ def main():
         else:
             t = time.time()
             env = dict(os.environ, PYTHONIOENCODING="utf-8")
-            subprocess.run(["python", os.path.join(ROOT, "tools", "mix_sfx.py"), plan],
+            subprocess.run([sys.executable, os.path.join(ROOT, "tools", "mix_sfx.py"), plan],
                            cwd=ROOT, env=env, check=True)
             timings.append(("sfx", time.time() - t))
 
@@ -246,48 +255,21 @@ def main():
         t = time.time()
         base = os.path.join(proj, "output", f"{beats.get('id', comp_id)}-sfx.mp4")
         base = base if os.path.exists(base) else voiced
-        cmd = ["python", os.path.join(ROOT, "tools", "mix_music.py"), "--base", base]
+        cmd = [sys.executable, os.path.join(ROOT, "tools", "mix_music.py"), "--base", base]
         cmd += ["--all"] if args.music == "all" else ["--bed", args.music]
+        for opt, val in (("--bed-gain", args.bed_gain), ("--duck", args.duck), ("--start", args.bed_start),
+                         ("--stop", args.bed_stop), ("--fade-in", args.bed_fade_in), ("--fade", args.bed_fade)):
+            if val is not None:
+                cmd += [opt, str(val)]
         sh(cmd, cwd=ROOT)
         timings.append(("music", time.time() - t))
-
-    vertical = None
-    if stage("short") and beats.get("shortCut"):
-        t = time.time()
-        cut = beats["shortCut"]
-        vid = f"{comp_id}Vertical"
-        vraw = os.path.join(REMOTION, "out", f"{vid}{suffix}.mp4")
-        cmd = ["node", "scripts/render-all.mjs", vid]
-        cmd += ["--draft"] if args.draft else [f"--scale={scale}"]
-        sh(cmd, cwd=REMOTION)
-        # the richest audio that exists: music mix > sfx mix > voice; sliced to the cut window
-        out_dir = os.path.join(proj, "output")
-        sfx_mix = os.path.join(out_dir, f"{beats.get('id', comp_id)}-sfx.mp4")
-        music = sorted(f for f in (os.listdir(out_dir) if os.path.isdir(out_dir) else [])
-                       if f.startswith(f"{beats.get('id', comp_id)}-sfx-") and f.endswith(".mp4"))
-        audio = (os.path.join(out_dir, music[0]) if music else
-                 sfx_mix if os.path.exists(sfx_mix) else
-                 voice_wav if os.path.exists(voice_wav) else None)
-        os.makedirs(out_dir, exist_ok=True)
-        vertical = os.path.join(out_dir, f"{beats.get('id', comp_id)}-vertical{suffix}.mp4")
-        dur = float(cut["end"]) - float(cut["start"])
-        if audio:
-            sh(["ffmpeg", "-y", "-v", "error", "-i", vraw, "-ss", str(cut["start"]), "-t", str(dur),
-                "-i", audio, "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
-                "-af", "afade=t=in:d=0.15,afade=t=out:st=%.2f:d=0.6" % max(0, dur - 0.6),
-                "-t", str(dur), vertical], cwd=ROOT)
-            print(f"vertical -> {os.path.relpath(vertical, ROOT)}  (audio: {os.path.relpath(audio, ROOT)})")
-        else:
-            sh(["ffmpeg", "-y", "-v", "error", "-i", vraw, "-c", "copy", vertical], cwd=ROOT)
-            print(f"vertical -> {os.path.relpath(vertical, ROOT)}  (silent — no voice yet)")
-        timings.append(("short", time.time() - t))
 
     print("\n" + "-" * 46)
     for name, secs in timings:
         print(f"  {name:8s} {secs:6.1f}s" + ("   (cached)" if secs == 0.0 else ""))
     print(f"  {'TOTAL':8s} {time.time() - t_all:6.1f}s")
     print("-" * 46)
-    for label, p in (("video", video), ("voiced", voiced), ("vertical", vertical or "")):
+    for label, p in (("video", video), ("voiced", voiced)):
         if os.path.exists(p):
             print(f"  {label:8s} {os.path.relpath(p, ROOT)}")
 

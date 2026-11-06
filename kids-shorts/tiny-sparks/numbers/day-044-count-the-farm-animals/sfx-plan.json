@@ -1,0 +1,275 @@
+{
+  "master": "remotion/out/KidsNumbers044-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsNumbers044-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/numbers/day-044-count-the-farm-animals/output/day-044-sfx.mp4",
+    "end_s": 88.6,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0.43,
+      "sfx_id": "knock-solid",
+      "gain_db": -9,
+      "shot": "KidsNumbers044",
+      "cue": "knock"
+    },
+    {
+      "at_s": 0.699,
+      "sfx_id": "knock-solid",
+      "gain_db": -9,
+      "shot": "KidsNumbers044",
+      "cue": "knock"
+    },
+    {
+      "at_s": 7.67,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -10,
+      "shot": "KidsNumbers044",
+      "cue": "barn doors open"
+    },
+    {
+      "at_s": 9.49,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -11,
+      "shot": "KidsNumbers044",
+      "cue": "cow hops into its place"
+    },
+    {
+      "at_s": 11.2,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -1,
+      "shot": "KidsNumbers044",
+      "cue": "badge 1"
+    },
+    {
+      "at_s": 14.93,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -11,
+      "shot": "KidsNumbers044",
+      "cue": "pig hops into its place"
+    },
+    {
+      "at_s": 16.73,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -1,
+      "shot": "KidsNumbers044",
+      "cue": "badge 2"
+    },
+    {
+      "at_s": 20.13,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -11,
+      "shot": "KidsNumbers044",
+      "cue": "sheep hops into its place"
+    },
+    {
+      "at_s": 21.73,
+      "sfx_id": "cartoon-pop",
+      "gain_db": 0,
+      "shot": "KidsNumbers044",
+      "cue": "badge 3"
+    },
+    {
+      "at_s": 25.95,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -11,
+      "shot": "KidsNumbers044",
+      "cue": "duck hops into its place"
+    },
+    {
+      "at_s": 27.87,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -1,
+      "shot": "KidsNumbers044",
+      "cue": "badge 4"
+    },
+    {
+      "at_s": 31.24,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -11,
+      "shot": "KidsNumbers044",
+      "cue": "chick hops into its place"
+    },
+    {
+      "at_s": 33.18,
+      "sfx_id": "cartoon-pop",
+      "gain_db": 0,
+      "shot": "KidsNumbers044",
+      "cue": "badge 5"
+    },
+    {
+      "at_s": 40.0,
+      "sfx_id": "think-tick",
+      "gain_db": -9,
+      "shot": "KidsNumbers044",
+      "cue": "how many? (think)",
+      "dur_s": 4.3
+    },
+    {
+      "at_s": 44.74,
+      "sfx_id": "ding-correct",
+      "gain_db": -6,
+      "shot": "KidsNumbers044",
+      "cue": "FIVE"
+    },
+    {
+      "at_s": 46.62,
+      "sfx_id": "kids-yay",
+      "gain_db": -12,
+      "shot": "KidsNumbers044",
+      "cue": "five farm animals!"
+    },
+    {
+      "at_s": 50.15,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -1,
+      "shot": "KidsNumbers044",
+      "cue": "recount 1"
+    },
+    {
+      "at_s": 50.454,
+      "sfx_id": "cartoon-pop",
+      "gain_db": 0,
+      "shot": "KidsNumbers044",
+      "cue": "recount 2"
+    },
+    {
+      "at_s": 50.759,
+      "sfx_id": "cartoon-pop",
+      "gain_db": 0,
+      "shot": "KidsNumbers044",
+      "cue": "recount 3"
+    },
+    {
+      "at_s": 51.139,
+      "sfx_id": "cartoon-pop",
+      "gain_db": 0,
+      "shot": "KidsNumbers044",
+      "cue": "recount 4"
+    },
+    {
+      "at_s": 51.52,
+      "sfx_id": "cartoon-pop",
+      "gain_db": 0,
+      "shot": "KidsNumbers044",
+      "cue": "recount 5"
+    },
+    {
+      "at_s": 55.49,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -4,
+      "shot": "KidsNumbers044",
+      "cue": "camera follows the duck"
+    },
+    {
+      "at_s": 56.49,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -12,
+      "shot": "KidsNumbers044",
+      "cue": "the chick closes the gap"
+    },
+    {
+      "at_s": 56.89,
+      "sfx_id": "water-pour-glass",
+      "gain_db": -8,
+      "shot": "KidsNumbers044",
+      "cue": "SPLASH",
+      "dur_s": 0.8
+    },
+    {
+      "at_s": 61.5,
+      "sfx_id": "think-tick",
+      "gain_db": -9,
+      "shot": "KidsNumbers044",
+      "cue": "now how many? (think)",
+      "dur_s": 4.65
+    },
+    {
+      "at_s": 66.26,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -1,
+      "shot": "KidsNumbers044",
+      "cue": "count 1"
+    },
+    {
+      "at_s": 66.565,
+      "sfx_id": "cartoon-pop",
+      "gain_db": 0,
+      "shot": "KidsNumbers044",
+      "cue": "count 2"
+    },
+    {
+      "at_s": 66.869,
+      "sfx_id": "cartoon-pop",
+      "gain_db": 0,
+      "shot": "KidsNumbers044",
+      "cue": "count 3"
+    },
+    {
+      "at_s": 67.25,
+      "sfx_id": "cartoon-pop",
+      "gain_db": 0,
+      "shot": "KidsNumbers044",
+      "cue": "count 4"
+    },
+    {
+      "at_s": 70.14,
+      "sfx_id": "ding-correct",
+      "gain_db": -6,
+      "shot": "KidsNumbers044",
+      "cue": "5 - 1 = 4"
+    },
+    {
+      "at_s": 72.87,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsNumbers044",
+      "cue": "here comes the duck"
+    },
+    {
+      "at_s": 74.07,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -5,
+      "shot": "KidsNumbers044",
+      "cue": "the duck is back"
+    },
+    {
+      "at_s": 77.395,
+      "sfx_id": "ding-correct",
+      "gain_db": -6,
+      "shot": "KidsNumbers044",
+      "cue": "4 + 1 = 5"
+    },
+    {
+      "at_s": 78.0,
+      "sfx_id": "kids-yay",
+      "gain_db": -12,
+      "shot": "KidsNumbers044",
+      "cue": "five again!"
+    },
+    {
+      "at_s": 81.81,
+      "sfx_id": "kids-applause",
+      "gain_db": -10,
+      "shot": "KidsNumbers044",
+      "cue": "great counting"
+    },
+    {
+      "at_s": 84.23,
+      "sfx_id": "slide-whistle-down",
+      "gain_db": -6,
+      "shot": "KidsNumbers044",
+      "cue": "back into the barn"
+    },
+    {
+      "at_s": 87.16,
+      "sfx_id": "knock-solid",
+      "gain_db": -12,
+      "shot": "KidsNumbers044",
+      "cue": "doors shut"
+    }
+  ]
+}

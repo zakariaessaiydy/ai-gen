@@ -20,7 +20,7 @@ export const prog = (t: number, a: number, b: number) =>
   Math.max(0, Math.min(1, (t - a) / Math.max(0.0001, b - a)));
 
 export type TimedWord = { w: string; start: number; end: number };
-// speaker: optional cast id (kids-stories) — who is talking, so their mouth moves. Narration omits it.
+// speaker: set on dialogue lines (toon series) — which cast member says it, for lip-sync + caption colour
 export type VoLine = { text: string; start: number; end: number; words?: TimedWord[]; speaker?: string };
 
 // Word timing for a line: use REAL alignment (from tools/gen_voice.py) when present;
@@ -70,9 +70,7 @@ export const Captions: React.FC<{
   accent?: string;
   maxWords?: number;
   plate?: boolean; // dark pill behind the words — for compositions with light scenes
-  upper?: boolean; // UPPERCASE words (default) — kids-stories passes false: sentence case reads easier
-  font?: string; //   defaults to FONT_DISPLAY
-}> = ({ lines, y = 1280, size = 58, accent = '#f5d76e', maxWords = 4, plate = false, upper = true, font }) => {
+}> = ({ lines, y = 1280, size = 58, accent = '#f5d76e', maxWords = 4, plate = false }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const t = frame / fps;
@@ -119,11 +117,11 @@ export const Captions: React.FC<{
           <span
             key={i}
             style={{
-              fontFamily: font ?? FONT_DISPLAY,
+              fontFamily: FONT_DISPLAY,
               fontWeight: 700,
               fontSize: size,
               lineHeight: 1.15,
-              textTransform: upper ? 'uppercase' : 'none',
+              textTransform: 'uppercase',
               letterSpacing: 0.5,
               color: isActive ? accent : '#ffffff',
               opacity: 0.3 + 0.7 * started,

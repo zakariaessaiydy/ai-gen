@@ -21,13 +21,12 @@ Needs ELEVENLABS_API_KEY in .env (see .env.example). ffmpeg/ffprobe on PATH.
 """
 import json
 import os
-import re
-import subprocess
 import sys
 import urllib.request
 import urllib.error
 
 from ffmpeg_path import ensure_on_path
+from common import load_env, normalize_clip, probe_duration
 
 ensure_on_path()
 
@@ -40,82 +39,6 @@ API_URL = "https://api.elevenlabs.io/v1/sound-generation"
 LICENSE = ("ElevenLabs generated (text-to-sfx); owner: the generating account, commercial use per "
            "the account's ElevenLabs plan")
 SOURCE = "elevenlabs:sound-generation"
-
-
-def load_env():
-    """Minimal .env reader so we don't depend on python-dotenv."""
-    env = {}
-    p = os.path.join(ROOT, ".env")
-    if os.path.exists(p):
-        for line in open(p, encoding="utf-8"):
-            line = line.strip()
-            if not line or line.startswith("#") or "=" not in line:
-                continue
-            k, v = line.split("=", 1)
-            env[k.strip()] = v.strip().strip('"').strip("'")
-    return {**env, **os.environ}
-
-
-def run_capture(cmd):
-    return subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True).stdout
-
-
-def probe_duration(path):
-    out = run_capture(["ffprobe", "-v", "error", "-show_entries", "format=duration",
-                       "-of", "default=nw=1:nk=1", path]).strip()
-    try:
-        return round(float(out), 3)
-    except ValueError:
-        return None
-
-
-def measure_peak_db(path):
-    out = run_capture(["ffmpeg", "-hide_banner", "-i", path, "-af", "volumedetect",
-                       "-f", "null", os.devnull])
-    m = re.search(r"max_volume:\s*(-?[\d.]+) dB", out)
-    return float(m.group(1)) if m else None
-
-
-def measure_lufs(path):
-    """Best-effort integrated loudness (ebur128). Unreliable for <1s transients; informational."""
-    out = run_capture(["ffmpeg", "-hide_banner", "-i", path, "-af", "ebur128", "-f", "null", os.devnull])
-    ms = re.findall(r"I:\s*(-?[\d.]+)\s*LUFS", out)
-    try:
-        return float(ms[-1]) if ms else None
-    except ValueError:
-        return None
-
-
-def apply_gain(path, gain_db):
-    if abs(gain_db) < 0.1:
-        return True
-    tmp = path + ".norm.mp3"
-    run_capture(["ffmpeg", "-y", "-hide_banner", "-i", path, "-af", f"volume={gain_db:.2f}dB",
-                 "-c:a", "libmp3lame", "-q:a", "2", tmp])
-    if os.path.exists(tmp) and os.path.getsize(tmp) > 0:
-        os.replace(tmp, path)
-        return True
-    if os.path.exists(tmp):
-        os.remove(tmp)
-    return False
-
-
-def normalize_clip(path, target_lufs, ceiling_db):
-    """Loudness-normalize to target_lufs so gain_db in a plan is perceptually meaningful,
-    but never let the peak exceed ceiling_db (single re-encode). Falls back to a plain
-    peak-to-ceiling normalize for transients too short for a reliable ebur128 reading."""
-    lufs = measure_lufs(path)
-    peak = measure_peak_db(path)
-    if peak is None:
-        return None, None
-    if lufs is None or lufs < -50:  # ebur128 gated the clip — peak-normalize instead
-        apply_gain(path, ceiling_db - peak)
-    else:
-        gain = target_lufs - lufs
-        if peak + gain > ceiling_db:      # would clip -> clamp to the ceiling
-            gain = ceiling_db - peak
-        apply_gain(path, gain)
-    return measure_lufs(path), measure_peak_db(path)
 
 
 def generate(api_key, prompt, duration_s, prompt_influence, model):
@@ -227,17 +150,20 @@ def main():
     if todo and not api_key:
         sys.exit("ELEVENLABS_API_KEY not set in .env — cannot generate. (Add it, or use --dry-run.)")
 
-    for s, rel, path in todo:
-        print(f"\n-> {s['id']}  ({s['duration_s']}s)")
-        try:
-            audio = generate(api_key, s["prompt"], s["duration_s"], pinf, model)
-        except urllib.error.HTTPError as e:
-            sys.exit(f"ElevenLabs HTTP {e.code}: {e.read().decode('utf-8', 'ignore')[:400]}")
-        with open(path, "wb") as f:
-            f.write(audio)
-        by_id[s["id"]] = entry(s, rel, path)
-
-    write_catalog()
+    try:  # a failure mid-batch must not orphan the clips already generated (and billed)
+        for s, rel, path in todo:
+            print(f"\n-> {s['id']}  ({s['duration_s']}s)")
+            try:
+                audio = generate(api_key, s["prompt"], s["duration_s"], pinf, model)
+            except urllib.error.HTTPError as e:
+                sys.exit(f"ElevenLabs HTTP {e.code}: {e.read().decode('utf-8', 'ignore')[:400]}")
+            except urllib.error.URLError as e:
+                sys.exit(f"ElevenLabs unreachable: {e.reason}")
+            with open(path, "wb") as f:
+                f.write(audio)
+            by_id[s["id"]] = entry(s, rel, path)
+    finally:
+        write_catalog()
 
 
 if __name__ == "__main__":

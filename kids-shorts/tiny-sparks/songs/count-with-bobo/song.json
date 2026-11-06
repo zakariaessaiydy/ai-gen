@@ -1,0 +1,18 @@
+{
+  "title": "Count With Bobo (original)",
+  "bpm": 100,
+  "beatsPerBar": 4,
+  "introBars": 2,
+  "outroBars": 2,
+  "instruments": { "lead": "xylophone", "chords": "ukulele", "bass": true, "drums": "soft", "leadWithVocal": true },
+  "singer": "mila",
+  "vocal": { "voice": "af_bella", "pitch": 4, "rate": "-6%" },
+  "sections": {
+    "verse": {
+      "chords": "C | C | F | C | G | C | G | C",
+      "melody": "C4:1 D4:1 E4:1 F4:1 | G4:2 R:2 | A4:1 A4:1 G4:1 E4:1 | G4:2 R:2 | G4:1 F4:0.5 F4:0.5 E4:1 D4:1 | C4:2 R:2 | E4:0.5 E4:0.5 D4:1 D4:1 E4:1 | C4:2 R:2",
+      "lyrics": "One, two, three, four, five! / Count them all with me! / Six, sev-en, eight, nine, ten! / Let's count a-gain, my friend!"
+    }
+  },
+  "form": ["verse", "verse"]
+}

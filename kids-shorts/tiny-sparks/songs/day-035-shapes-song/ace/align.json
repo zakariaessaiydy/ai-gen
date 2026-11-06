@@ -1,0 +1,11 @@
+{
+ "nursery-seed101.wav": {
+  "score": 0.886,
+  "matched": 203,
+  "words": 229,
+  "recognised": 233,
+  "duration": 302.0
+ },
+ "_winner": "nursery-seed101.wav",
+ "_intro_cut": 0.0
+}

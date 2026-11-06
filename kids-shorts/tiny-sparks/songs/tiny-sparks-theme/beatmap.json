@@ -1,0 +1,903 @@
+{
+ "title": "Tiny Sparks Theme — Bounce (bed, Tiny Sparks original)",
+ "bpm": 120.0,
+ "beatsPerBar": 4,
+ "secondsPerBeat": 0.5,
+ "durationSec": 66.0,
+ "introBars": 0,
+ "chords": [
+  {
+   "t": 0.0,
+   "dur": 2.0,
+   "chord": "C"
+  },
+  {
+   "t": 2.0,
+   "dur": 2.0,
+   "chord": "G"
+  },
+  {
+   "t": 4.0,
+   "dur": 2.0,
+   "chord": "Am"
+  },
+  {
+   "t": 6.0,
+   "dur": 2.0,
+   "chord": "F"
+  },
+  {
+   "t": 8.0,
+   "dur": 2.0,
+   "chord": "C"
+  },
+  {
+   "t": 10.0,
+   "dur": 2.0,
+   "chord": "G"
+  },
+  {
+   "t": 12.0,
+   "dur": 1.0,
+   "chord": "F"
+  },
+  {
+   "t": 13.0,
+   "dur": 1.0,
+   "chord": "G"
+  },
+  {
+   "t": 14.0,
+   "dur": 2.0,
+   "chord": "C"
+  },
+  {
+   "t": 16.0,
+   "dur": 2.0,
+   "chord": "Am"
+  },
+  {
+   "t": 18.0,
+   "dur": 2.0,
+   "chord": "F"
+  },
+  {
+   "t": 20.0,
+   "dur": 2.0,
+   "chord": "C"
+  },
+  {
+   "t": 22.0,
+   "dur": 2.0,
+   "chord": "G"
+  },
+  {
+   "t": 24.0,
+   "dur": 2.0,
+   "chord": "Am"
+  },
+  {
+   "t": 26.0,
+   "dur": 2.0,
+   "chord": "F"
+  },
+  {
+   "t": 28.0,
+   "dur": 2.0,
+   "chord": "G"
+  },
+  {
+   "t": 30.0,
+   "dur": 2.0,
+   "chord": "G"
+  },
+  {
+   "t": 32.0,
+   "dur": 2.0,
+   "chord": "C"
+  },
+  {
+   "t": 34.0,
+   "dur": 2.0,
+   "chord": "G"
+  },
+  {
+   "t": 36.0,
+   "dur": 2.0,
+   "chord": "Am"
+  },
+  {
+   "t": 38.0,
+   "dur": 2.0,
+   "chord": "F"
+  },
+  {
+   "t": 40.0,
+   "dur": 2.0,
+   "chord": "C"
+  },
+  {
+   "t": 42.0,
+   "dur": 2.0,
+   "chord": "G"
+  },
+  {
+   "t": 44.0,
+   "dur": 1.0,
+   "chord": "F"
+  },
+  {
+   "t": 45.0,
+   "dur": 1.0,
+   "chord": "G"
+  },
+  {
+   "t": 46.0,
+   "dur": 2.0,
+   "chord": "C"
+  },
+  {
+   "t": 48.0,
+   "dur": 2.0,
+   "chord": "Am"
+  },
+  {
+   "t": 50.0,
+   "dur": 2.0,
+   "chord": "F"
+  },
+  {
+   "t": 52.0,
+   "dur": 2.0,
+   "chord": "C"
+  },
+  {
+   "t": 54.0,
+   "dur": 2.0,
+   "chord": "G"
+  },
+  {
+   "t": 56.0,
+   "dur": 2.0,
+   "chord": "Am"
+  },
+  {
+   "t": 58.0,
+   "dur": 2.0,
+   "chord": "F"
+  },
+  {
+   "t": 60.0,
+   "dur": 2.0,
+   "chord": "G"
+  },
+  {
+   "t": 62.0,
+   "dur": 2.0,
+   "chord": "G"
+  }
+ ],
+ "notes": [
+  {
+   "t": 0.0,
+   "dur": 0.5,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 0.5,
+   "dur": 0.25,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 0.75,
+   "dur": 0.25,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 1.0,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 1.5,
+   "dur": 0.5,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 2.0,
+   "dur": 0.5,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 2.5,
+   "dur": 0.25,
+   "midi": 71,
+   "syllable": null
+  },
+  {
+   "t": 2.75,
+   "dur": 0.25,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 3.0,
+   "dur": 1.0,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 4.0,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 4.5,
+   "dur": 0.25,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 4.75,
+   "dur": 0.25,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 5.0,
+   "dur": 0.5,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 5.5,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 6.0,
+   "dur": 0.25,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 6.25,
+   "dur": 0.25,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 6.5,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 7.0,
+   "dur": 1.0,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 8.0,
+   "dur": 0.5,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 8.5,
+   "dur": 0.25,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 8.75,
+   "dur": 0.25,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 9.0,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 9.5,
+   "dur": 0.5,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 10.0,
+   "dur": 0.25,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 10.25,
+   "dur": 0.25,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 10.5,
+   "dur": 0.25,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 10.75,
+   "dur": 0.25,
+   "midi": 71,
+   "syllable": null
+  },
+  {
+   "t": 11.0,
+   "dur": 1.0,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 12.0,
+   "dur": 0.25,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 12.25,
+   "dur": 0.25,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 12.5,
+   "dur": 0.5,
+   "midi": 77,
+   "syllable": null
+  },
+  {
+   "t": 13.0,
+   "dur": 0.25,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 13.25,
+   "dur": 0.25,
+   "midi": 71,
+   "syllable": null
+  },
+  {
+   "t": 13.5,
+   "dur": 0.5,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 14.0,
+   "dur": 1.0,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 16.0,
+   "dur": 0.5,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 16.5,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 17.0,
+   "dur": 1.0,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 18.0,
+   "dur": 0.5,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 18.5,
+   "dur": 0.5,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 19.0,
+   "dur": 1.0,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 20.0,
+   "dur": 0.25,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 20.25,
+   "dur": 0.25,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 20.5,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 21.0,
+   "dur": 1.0,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 22.0,
+   "dur": 0.5,
+   "midi": 71,
+   "syllable": null
+  },
+  {
+   "t": 22.5,
+   "dur": 0.5,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 23.0,
+   "dur": 1.0,
+   "midi": 79,
+   "syllable": null
+  },
+  {
+   "t": 24.0,
+   "dur": 0.5,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 24.5,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 25.0,
+   "dur": 0.5,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 25.5,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 26.0,
+   "dur": 0.5,
+   "midi": 77,
+   "syllable": null
+  },
+  {
+   "t": 26.5,
+   "dur": 0.5,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 27.0,
+   "dur": 1.0,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 28.0,
+   "dur": 0.5,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 28.5,
+   "dur": 0.5,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 29.0,
+   "dur": 0.5,
+   "midi": 77,
+   "syllable": null
+  },
+  {
+   "t": 29.5,
+   "dur": 0.5,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 30.0,
+   "dur": 1.0,
+   "midi": 79,
+   "syllable": null
+  },
+  {
+   "t": 32.0,
+   "dur": 0.5,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 32.5,
+   "dur": 0.25,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 32.75,
+   "dur": 0.25,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 33.0,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 33.5,
+   "dur": 0.5,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 34.0,
+   "dur": 0.5,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 34.5,
+   "dur": 0.25,
+   "midi": 71,
+   "syllable": null
+  },
+  {
+   "t": 34.75,
+   "dur": 0.25,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 35.0,
+   "dur": 1.0,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 36.0,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 36.5,
+   "dur": 0.25,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 36.75,
+   "dur": 0.25,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 37.0,
+   "dur": 0.5,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 37.5,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 38.0,
+   "dur": 0.25,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 38.25,
+   "dur": 0.25,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 38.5,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 39.0,
+   "dur": 1.0,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 40.0,
+   "dur": 0.5,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 40.5,
+   "dur": 0.25,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 40.75,
+   "dur": 0.25,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 41.0,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 41.5,
+   "dur": 0.5,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 42.0,
+   "dur": 0.25,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 42.25,
+   "dur": 0.25,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 42.5,
+   "dur": 0.25,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 42.75,
+   "dur": 0.25,
+   "midi": 71,
+   "syllable": null
+  },
+  {
+   "t": 43.0,
+   "dur": 1.0,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 44.0,
+   "dur": 0.25,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 44.25,
+   "dur": 0.25,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 44.5,
+   "dur": 0.5,
+   "midi": 77,
+   "syllable": null
+  },
+  {
+   "t": 45.0,
+   "dur": 0.25,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 45.25,
+   "dur": 0.25,
+   "midi": 71,
+   "syllable": null
+  },
+  {
+   "t": 45.5,
+   "dur": 0.5,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 46.0,
+   "dur": 1.0,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 48.0,
+   "dur": 0.5,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 48.5,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 49.0,
+   "dur": 1.0,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 50.0,
+   "dur": 0.5,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 50.5,
+   "dur": 0.5,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 51.0,
+   "dur": 1.0,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 52.0,
+   "dur": 0.25,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 52.25,
+   "dur": 0.25,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 52.5,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 53.0,
+   "dur": 1.0,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 54.0,
+   "dur": 0.5,
+   "midi": 71,
+   "syllable": null
+  },
+  {
+   "t": 54.5,
+   "dur": 0.5,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 55.0,
+   "dur": 1.0,
+   "midi": 79,
+   "syllable": null
+  },
+  {
+   "t": 56.0,
+   "dur": 0.5,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 56.5,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 57.0,
+   "dur": 0.5,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 57.5,
+   "dur": 0.5,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 58.0,
+   "dur": 0.5,
+   "midi": 77,
+   "syllable": null
+  },
+  {
+   "t": 58.5,
+   "dur": 0.5,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 59.0,
+   "dur": 1.0,
+   "midi": 72,
+   "syllable": null
+  },
+  {
+   "t": 60.0,
+   "dur": 0.5,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 60.5,
+   "dur": 0.5,
+   "midi": 76,
+   "syllable": null
+  },
+  {
+   "t": 61.0,
+   "dur": 0.5,
+   "midi": 77,
+   "syllable": null
+  },
+  {
+   "t": 61.5,
+   "dur": 0.5,
+   "midi": 74,
+   "syllable": null
+  },
+  {
+   "t": 62.0,
+   "dur": 1.0,
+   "midi": 79,
+   "syllable": null
+  }
+ ],
+ "lines": []
+}

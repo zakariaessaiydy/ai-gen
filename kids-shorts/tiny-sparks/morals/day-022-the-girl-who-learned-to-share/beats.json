@@ -1,0 +1,1644 @@
+{
+  "id": "day-022",
+  "series": "tiny-sparks",
+  "episode": 22,
+  "title": "The Girl Who Learned to Share",
+  "composition": "KidsMorals022",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 156.9
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-10%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "s1",
+      "speaker": "narrator",
+      "start": 1.8,
+      "end": 6.03,
+      "text": "This is Mila. Today, Mila got a big box of building blocks!",
+      "words": [
+        {
+          "w": "This",
+          "start": 1.85,
+          "end": 2.13
+        },
+        {
+          "w": "is",
+          "start": 2.13,
+          "end": 2.27
+        },
+        {
+          "w": "Mila.",
+          "start": 2.27,
+          "end": 2.69
+        },
+        {
+          "w": "Today,",
+          "start": 3.12,
+          "end": 3.6
+        },
+        {
+          "w": "Mila",
+          "start": 3.75,
+          "end": 4.086
+        },
+        {
+          "w": "got",
+          "start": 4.086,
+          "end": 4.366
+        },
+        {
+          "w": "a",
+          "start": 4.366,
+          "end": 4.534
+        },
+        {
+          "w": "big",
+          "start": 4.534,
+          "end": 4.758
+        },
+        {
+          "w": "box",
+          "start": 4.758,
+          "end": 5.094
+        },
+        {
+          "w": "of",
+          "start": 5.094,
+          "end": 5.206
+        },
+        {
+          "w": "building",
+          "start": 5.206,
+          "end": 5.598
+        },
+        {
+          "w": "blocks!",
+          "start": 5.598,
+          "end": 5.99
+        }
+      ]
+    },
+    {
+      "beat": "m_wow",
+      "speaker": "mila",
+      "start": 7.23,
+      "end": 10.72,
+      "text": "Wow! Red, yellow, and blue blocks! I'm going to build a castle!",
+      "words": [
+        {
+          "w": "Wow!",
+          "start": 7.26,
+          "end": 7.507
+        },
+        {
+          "w": "Red,",
+          "start": 7.507,
+          "end": 7.753
+        },
+        {
+          "w": "yellow,",
+          "start": 7.753,
+          "end": 8.123
+        },
+        {
+          "w": "and",
+          "start": 8.123,
+          "end": 8.308
+        },
+        {
+          "w": "blue",
+          "start": 8.308,
+          "end": 8.616
+        },
+        {
+          "w": "blocks!",
+          "start": 8.616,
+          "end": 9.047
+        },
+        {
+          "w": "I'm",
+          "start": 9.047,
+          "end": 9.232
+        },
+        {
+          "w": "going",
+          "start": 9.232,
+          "end": 9.602
+        },
+        {
+          "w": "to",
+          "start": 9.602,
+          "end": 9.787
+        },
+        {
+          "w": "build",
+          "start": 9.787,
+          "end": 10.095
+        },
+        {
+          "w": "a",
+          "start": 10.095,
+          "end": 10.28
+        },
+        {
+          "w": "castle!",
+          "start": 10.28,
+          "end": 10.65
+        }
+      ]
+    },
+    {
+      "beat": "leo_ask",
+      "speaker": "leo",
+      "start": 12.72,
+      "end": 14.48,
+      "text": "Ooh! Mila, can I play too?",
+      "words": [
+        {
+          "w": "Ooh!",
+          "start": 12.76,
+          "end": 12.932
+        },
+        {
+          "w": "Mila,",
+          "start": 12.932,
+          "end": 13.275
+        },
+        {
+          "w": "can",
+          "start": 13.275,
+          "end": 13.504
+        },
+        {
+          "w": "I",
+          "start": 13.504,
+          "end": 13.675
+        },
+        {
+          "w": "play",
+          "start": 13.675,
+          "end": 13.961
+        },
+        {
+          "w": "too?",
+          "start": 13.961,
+          "end": 14.19
+        }
+      ]
+    },
+    {
+      "beat": "bobo_ask",
+      "speaker": "bobo",
+      "start": 15.28,
+      "end": 16.23,
+      "text": "Me too, please?",
+      "words": [
+        {
+          "w": "Me",
+          "start": 15.31,
+          "end": 15.547
+        },
+        {
+          "w": "too,",
+          "start": 15.547,
+          "end": 15.784
+        },
+        {
+          "w": "please?",
+          "start": 15.784,
+          "end": 16.14
+        }
+      ]
+    },
+    {
+      "beat": "m_no",
+      "speaker": "mila",
+      "start": 17.63,
+      "end": 20.29,
+      "text": "No! These are MY blocks. I want to play alone.",
+      "words": [
+        {
+          "w": "No!",
+          "start": 17.67,
+          "end": 17.895
+        },
+        {
+          "w": "These",
+          "start": 17.895,
+          "end": 18.176
+        },
+        {
+          "w": "are",
+          "start": 18.176,
+          "end": 18.345
+        },
+        {
+          "w": "MY",
+          "start": 18.345,
+          "end": 18.57
+        },
+        {
+          "w": "blocks.",
+          "start": 18.57,
+          "end": 18.963
+        },
+        {
+          "w": "I",
+          "start": 18.963,
+          "end": 19.132
+        },
+        {
+          "w": "want",
+          "start": 19.132,
+          "end": 19.413
+        },
+        {
+          "w": "to",
+          "start": 19.413,
+          "end": 19.582
+        },
+        {
+          "w": "play",
+          "start": 19.582,
+          "end": 19.863
+        },
+        {
+          "w": "alone.",
+          "start": 19.863,
+          "end": 20.2
+        }
+      ]
+    },
+    {
+      "beat": "sad",
+      "speaker": "narrator",
+      "start": 22.49,
+      "end": 26.03,
+      "text": "Leo and Bobo feel sad. They sit down, far away.",
+      "words": [
+        {
+          "w": "Leo",
+          "start": 22.58,
+          "end": 23.009
+        },
+        {
+          "w": "and",
+          "start": 23.009,
+          "end": 23.223
+        },
+        {
+          "w": "Bobo",
+          "start": 23.223,
+          "end": 23.724
+        },
+        {
+          "w": "feel",
+          "start": 23.724,
+          "end": 24.081
+        },
+        {
+          "w": "sad.",
+          "start": 24.081,
+          "end": 24.367
+        },
+        {
+          "w": "They",
+          "start": 24.367,
+          "end": 24.582
+        },
+        {
+          "w": "sit",
+          "start": 24.582,
+          "end": 24.868
+        },
+        {
+          "w": "down,",
+          "start": 24.868,
+          "end": 25.225
+        },
+        {
+          "w": "far",
+          "start": 25.225,
+          "end": 25.583
+        },
+        {
+          "w": "away.",
+          "start": 25.583,
+          "end": 25.94
+        }
+      ]
+    },
+    {
+      "beat": "build",
+      "speaker": "narrator",
+      "start": 28.43,
+      "end": 31.22,
+      "text": "Mila builds, and builds... higher, and higher...",
+      "words": [
+        {
+          "w": "Mila",
+          "start": 28.5,
+          "end": 28.966
+        },
+        {
+          "w": "builds,",
+          "start": 28.966,
+          "end": 29.432
+        },
+        {
+          "w": "and",
+          "start": 29.432,
+          "end": 29.665
+        },
+        {
+          "w": "builds...",
+          "start": 29.665,
+          "end": 30.131
+        },
+        {
+          "w": "higher,",
+          "start": 30.131,
+          "end": 30.519
+        },
+        {
+          "w": "and",
+          "start": 30.519,
+          "end": 30.752
+        },
+        {
+          "w": "higher...",
+          "start": 30.752,
+          "end": 31.14
+        }
+      ]
+    },
+    {
+      "beat": "crash",
+      "speaker": "narrator",
+      "start": 34.02,
+      "end": 36.02,
+      "text": "Oh no! The tower falls down!",
+      "words": [
+        {
+          "w": "Oh",
+          "start": 34.12,
+          "end": 34.339
+        },
+        {
+          "w": "no!",
+          "start": 34.339,
+          "end": 34.63
+        },
+        {
+          "w": "The",
+          "start": 34.77,
+          "end": 34.897
+        },
+        {
+          "w": "tower",
+          "start": 34.897,
+          "end": 35.213
+        },
+        {
+          "w": "falls",
+          "start": 35.213,
+          "end": 35.593
+        },
+        {
+          "w": "down!",
+          "start": 35.593,
+          "end": 35.91
+        }
+      ]
+    },
+    {
+      "beat": "m_oh",
+      "speaker": "mila",
+      "start": 38.02,
+      "end": 40.34,
+      "text": "Oh no... It's too hard to build alone.",
+      "words": [
+        {
+          "w": "Oh",
+          "start": 38.05,
+          "end": 38.299
+        },
+        {
+          "w": "no...",
+          "start": 38.299,
+          "end": 38.63
+        },
+        {
+          "w": "It's",
+          "start": 38.76,
+          "end": 38.914
+        },
+        {
+          "w": "too",
+          "start": 38.914,
+          "end": 39.12
+        },
+        {
+          "w": "hard",
+          "start": 39.12,
+          "end": 39.429
+        },
+        {
+          "w": "to",
+          "start": 39.429,
+          "end": 39.584
+        },
+        {
+          "w": "build",
+          "start": 39.584,
+          "end": 39.841
+        },
+        {
+          "w": "alone.",
+          "start": 39.841,
+          "end": 40.15
+        }
+      ]
+    },
+    {
+      "beat": "lonely",
+      "speaker": "narrator",
+      "start": 42.74,
+      "end": 47.84,
+      "text": "Mila looks at her friends. Playing alone is not much fun. Mila feels lonely.",
+      "words": [
+        {
+          "w": "Mila",
+          "start": 42.8,
+          "end": 43.129
+        },
+        {
+          "w": "looks",
+          "start": 43.129,
+          "end": 43.403
+        },
+        {
+          "w": "at",
+          "start": 43.403,
+          "end": 43.512
+        },
+        {
+          "w": "her",
+          "start": 43.512,
+          "end": 43.677
+        },
+        {
+          "w": "friends.",
+          "start": 43.677,
+          "end": 44.06
+        },
+        {
+          "w": "Playing",
+          "start": 44.43,
+          "end": 44.845
+        },
+        {
+          "w": "alone",
+          "start": 44.845,
+          "end": 45.201
+        },
+        {
+          "w": "is",
+          "start": 45.201,
+          "end": 45.32
+        },
+        {
+          "w": "not",
+          "start": 45.32,
+          "end": 45.616
+        },
+        {
+          "w": "much",
+          "start": 45.616,
+          "end": 45.913
+        },
+        {
+          "w": "fun.",
+          "start": 45.913,
+          "end": 46.15
+        },
+        {
+          "w": "Mila",
+          "start": 46.55,
+          "end": 46.923
+        },
+        {
+          "w": "feels",
+          "start": 46.923,
+          "end": 47.295
+        },
+        {
+          "w": "lonely.",
+          "start": 47.295,
+          "end": 47.73
+        }
+      ]
+    },
+    {
+      "beat": "word",
+      "speaker": "narrator",
+      "start": 49.04,
+      "end": 51.55,
+      "text": "Lonely means, sad to be by yourself.",
+      "words": [
+        {
+          "w": "Lonely",
+          "start": 49.08,
+          "end": 49.559
+        },
+        {
+          "w": "means,",
+          "start": 49.559,
+          "end": 49.97
+        },
+        {
+          "w": "sad",
+          "start": 50.18,
+          "end": 50.397
+        },
+        {
+          "w": "to",
+          "start": 50.397,
+          "end": 50.559
+        },
+        {
+          "w": "be",
+          "start": 50.559,
+          "end": 50.776
+        },
+        {
+          "w": "by",
+          "start": 50.776,
+          "end": 50.992
+        },
+        {
+          "w": "yourself.",
+          "start": 50.992,
+          "end": 51.48
+        }
+      ]
+    },
+    {
+      "beat": "choice",
+      "speaker": "narrator",
+      "start": 53.95,
+      "end": 55.22,
+      "text": "What could Mila do?",
+      "words": [
+        {
+          "w": "What",
+          "start": 53.99,
+          "end": 54.241
+        },
+        {
+          "w": "could",
+          "start": 54.241,
+          "end": 54.492
+        },
+        {
+          "w": "Mila",
+          "start": 54.492,
+          "end": 54.869
+        },
+        {
+          "w": "do?",
+          "start": 54.869,
+          "end": 55.12
+        }
+      ]
+    },
+    {
+      "beat": "m_share",
+      "speaker": "mila",
+      "start": 60.22,
+      "end": 63.96,
+      "text": "Leo! Bobo! Do you want to build with me? Let's share the blocks!",
+      "words": [
+        {
+          "w": "Leo!",
+          "start": 60.41,
+          "end": 60.77
+        },
+        {
+          "w": "Bobo!",
+          "start": 60.77,
+          "end": 61.19
+        },
+        {
+          "w": "Do",
+          "start": 61.19,
+          "end": 61.43
+        },
+        {
+          "w": "you",
+          "start": 61.43,
+          "end": 61.61
+        },
+        {
+          "w": "want",
+          "start": 61.61,
+          "end": 61.91
+        },
+        {
+          "w": "to",
+          "start": 61.91,
+          "end": 62.09
+        },
+        {
+          "w": "build",
+          "start": 62.09,
+          "end": 62.39
+        },
+        {
+          "w": "with",
+          "start": 62.39,
+          "end": 62.57
+        },
+        {
+          "w": "me?",
+          "start": 62.57,
+          "end": 62.81
+        },
+        {
+          "w": "Let's",
+          "start": 62.81,
+          "end": 63.11
+        },
+        {
+          "w": "share",
+          "start": 63.11,
+          "end": 63.35
+        },
+        {
+          "w": "the",
+          "start": 63.35,
+          "end": 63.47
+        },
+        {
+          "w": "blocks!",
+          "start": 63.47,
+          "end": 63.89
+        }
+      ]
+    },
+    {
+      "beat": "leo_yay",
+      "speaker": "leo",
+      "start": 65.16,
+      "end": 66.54,
+      "text": "Yes! Thank you, Mila!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 65.19,
+          "end": 65.437
+        },
+        {
+          "w": "Thank",
+          "start": 65.437,
+          "end": 65.745
+        },
+        {
+          "w": "you,",
+          "start": 65.745,
+          "end": 65.93
+        },
+        {
+          "w": "Mila!",
+          "start": 65.93,
+          "end": 66.3
+        }
+      ]
+    },
+    {
+      "beat": "bobo_yay",
+      "speaker": "bobo",
+      "start": 67.34,
+      "end": 68.81,
+      "text": "Hooray! I'll hold the bottom!",
+      "words": [
+        {
+          "w": "Hooray!",
+          "start": 67.38,
+          "end": 67.741
+        },
+        {
+          "w": "I'll",
+          "start": 67.741,
+          "end": 67.896
+        },
+        {
+          "w": "hold",
+          "start": 67.896,
+          "end": 68.206
+        },
+        {
+          "w": "the",
+          "start": 68.206,
+          "end": 68.309
+        },
+        {
+          "w": "bottom!",
+          "start": 68.309,
+          "end": 68.67
+        }
+      ]
+    },
+    {
+      "beat": "together",
+      "speaker": "narrator",
+      "start": 71.21,
+      "end": 77.27,
+      "text": "Leo stacks the red blocks. Bobo holds the tower steady. Mila puts the blue blocks on top.",
+      "words": [
+        {
+          "w": "Leo",
+          "start": 71.27,
+          "end": 71.659
+        },
+        {
+          "w": "stacks",
+          "start": 71.659,
+          "end": 72.048
+        },
+        {
+          "w": "the",
+          "start": 72.048,
+          "end": 72.177
+        },
+        {
+          "w": "red",
+          "start": 72.177,
+          "end": 72.436
+        },
+        {
+          "w": "blocks.",
+          "start": 72.436,
+          "end": 72.89
+        },
+        {
+          "w": "Bobo",
+          "start": 73.26,
+          "end": 73.696
+        },
+        {
+          "w": "holds",
+          "start": 73.696,
+          "end": 74.131
+        },
+        {
+          "w": "the",
+          "start": 74.131,
+          "end": 74.256
+        },
+        {
+          "w": "tower",
+          "start": 74.256,
+          "end": 74.567
+        },
+        {
+          "w": "steady.",
+          "start": 74.567,
+          "end": 74.94
+        },
+        {
+          "w": "Mila",
+          "start": 75.32,
+          "end": 75.66
+        },
+        {
+          "w": "puts",
+          "start": 75.66,
+          "end": 75.943
+        },
+        {
+          "w": "the",
+          "start": 75.943,
+          "end": 76.057
+        },
+        {
+          "w": "blue",
+          "start": 76.057,
+          "end": 76.34
+        },
+        {
+          "w": "blocks",
+          "start": 76.34,
+          "end": 76.737
+        },
+        {
+          "w": "on",
+          "start": 76.737,
+          "end": 76.907
+        },
+        {
+          "w": "top.",
+          "start": 76.907,
+          "end": 77.19
+        }
+      ]
+    },
+    {
+      "beat": "tall",
+      "speaker": "narrator",
+      "start": 78.32,
+      "end": 80.75,
+      "text": "Up, up, up! The tallest castle ever!",
+      "words": [
+        {
+          "w": "Up,",
+          "start": 78.37,
+          "end": 78.604
+        },
+        {
+          "w": "up,",
+          "start": 78.604,
+          "end": 78.838
+        },
+        {
+          "w": "up!",
+          "start": 78.838,
+          "end": 79.071
+        },
+        {
+          "w": "The",
+          "start": 79.071,
+          "end": 79.227
+        },
+        {
+          "w": "tallest",
+          "start": 79.227,
+          "end": 79.851
+        },
+        {
+          "w": "castle",
+          "start": 79.851,
+          "end": 80.318
+        },
+        {
+          "w": "ever!",
+          "start": 80.318,
+          "end": 80.63
+        }
+      ]
+    },
+    {
+      "beat": "m_happy",
+      "speaker": "mila",
+      "start": 83.35,
+      "end": 85.75,
+      "text": "Sharing makes playing so much more fun!",
+      "words": [
+        {
+          "w": "Sharing",
+          "start": 83.39,
+          "end": 83.744
+        },
+        {
+          "w": "makes",
+          "start": 83.744,
+          "end": 84.097
+        },
+        {
+          "w": "playing",
+          "start": 84.097,
+          "end": 84.509
+        },
+        {
+          "w": "so",
+          "start": 84.509,
+          "end": 84.745
+        },
+        {
+          "w": "much",
+          "start": 84.745,
+          "end": 85.04
+        },
+        {
+          "w": "more",
+          "start": 85.04,
+          "end": 85.334
+        },
+        {
+          "w": "fun!",
+          "start": 85.334,
+          "end": 85.57
+        }
+      ]
+    },
+    {
+      "beat": "moral",
+      "speaker": "narrator",
+      "start": 88.35,
+      "end": 90.16,
+      "text": "Sharing makes everyone happy.",
+      "words": [
+        {
+          "w": "Sharing",
+          "start": 88.39,
+          "end": 88.764
+        },
+        {
+          "w": "makes",
+          "start": 88.764,
+          "end": 89.138
+        },
+        {
+          "w": "everyone",
+          "start": 89.138,
+          "end": 89.698
+        },
+        {
+          "w": "happy.",
+          "start": 89.698,
+          "end": 90.01
+        }
+      ]
+    },
+    {
+      "beat": "rem",
+      "speaker": "narrator",
+      "start": 93.36,
+      "end": 94.87,
+      "text": "Let's remember the story!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 93.41,
+          "end": 93.712
+        },
+        {
+          "w": "remember",
+          "start": 93.712,
+          "end": 94.196
+        },
+        {
+          "w": "the",
+          "start": 94.196,
+          "end": 94.317
+        },
+        {
+          "w": "story!",
+          "start": 94.317,
+          "end": 94.74
+        }
+      ]
+    },
+    {
+      "beat": "rem1",
+      "speaker": "narrator",
+      "start": 96.47,
+      "end": 98.11,
+      "text": "First, Mila played alone.",
+      "words": [
+        {
+          "w": "First,",
+          "start": 96.51,
+          "end": 96.882
+        },
+        {
+          "w": "Mila",
+          "start": 96.882,
+          "end": 97.255
+        },
+        {
+          "w": "played",
+          "start": 97.255,
+          "end": 97.627
+        },
+        {
+          "w": "alone.",
+          "start": 97.627,
+          "end": 98.0
+        }
+      ]
+    },
+    {
+      "beat": "rem2",
+      "speaker": "narrator",
+      "start": 100.71,
+      "end": 102.54,
+      "text": "Then, Mila shared her blocks.",
+      "words": [
+        {
+          "w": "Then,",
+          "start": 100.75,
+          "end": 101.025
+        },
+        {
+          "w": "Mila",
+          "start": 101.025,
+          "end": 101.438
+        },
+        {
+          "w": "shared",
+          "start": 101.438,
+          "end": 101.782
+        },
+        {
+          "w": "her",
+          "start": 101.782,
+          "end": 101.988
+        },
+        {
+          "w": "blocks.",
+          "start": 101.988,
+          "end": 102.47
+        }
+      ]
+    },
+    {
+      "beat": "rem3",
+      "speaker": "narrator",
+      "start": 105.14,
+      "end": 107.18,
+      "text": "And they built a big castle, together!",
+      "words": [
+        {
+          "w": "And",
+          "start": 105.22,
+          "end": 105.399
+        },
+        {
+          "w": "they",
+          "start": 105.399,
+          "end": 105.578
+        },
+        {
+          "w": "built",
+          "start": 105.578,
+          "end": 105.876
+        },
+        {
+          "w": "a",
+          "start": 105.876,
+          "end": 106.055
+        },
+        {
+          "w": "big",
+          "start": 106.055,
+          "end": 106.294
+        },
+        {
+          "w": "castle,",
+          "start": 106.294,
+          "end": 106.652
+        },
+        {
+          "w": "together!",
+          "start": 106.652,
+          "end": 107.07
+        }
+      ]
+    },
+    {
+      "beat": "quiz1",
+      "speaker": "narrator",
+      "start": 110.18,
+      "end": 112.67,
+      "text": "How did Mila feel, when she played alone?",
+      "words": [
+        {
+          "w": "How",
+          "start": 110.21,
+          "end": 110.456
+        },
+        {
+          "w": "did",
+          "start": 110.456,
+          "end": 110.703
+        },
+        {
+          "w": "Mila",
+          "start": 110.703,
+          "end": 111.072
+        },
+        {
+          "w": "feel,",
+          "start": 111.072,
+          "end": 111.38
+        },
+        {
+          "w": "when",
+          "start": 111.63,
+          "end": 111.826
+        },
+        {
+          "w": "she",
+          "start": 111.826,
+          "end": 111.973
+        },
+        {
+          "w": "played",
+          "start": 111.973,
+          "end": 112.266
+        },
+        {
+          "w": "alone?",
+          "start": 112.266,
+          "end": 112.56
+        }
+      ]
+    },
+    {
+      "beat": "quiz1_a",
+      "speaker": "narrator",
+      "start": 117.67,
+      "end": 118.52,
+      "text": "Lonely!",
+      "words": [
+        {
+          "w": "Lonely!",
+          "start": 117.69,
+          "end": 118.34
+        }
+      ]
+    },
+    {
+      "beat": "quiz2",
+      "speaker": "narrator",
+      "start": 121.12,
+      "end": 123.46,
+      "text": "How did everyone feel, when Mila shared?",
+      "words": [
+        {
+          "w": "How",
+          "start": 121.17,
+          "end": 121.374
+        },
+        {
+          "w": "did",
+          "start": 121.374,
+          "end": 121.577
+        },
+        {
+          "w": "everyone",
+          "start": 121.577,
+          "end": 122.035
+        },
+        {
+          "w": "feel,",
+          "start": 122.035,
+          "end": 122.29
+        },
+        {
+          "w": "when",
+          "start": 122.51,
+          "end": 122.737
+        },
+        {
+          "w": "Mila",
+          "start": 122.737,
+          "end": 123.077
+        },
+        {
+          "w": "shared?",
+          "start": 123.077,
+          "end": 123.36
+        }
+      ]
+    },
+    {
+      "beat": "quiz2_a",
+      "speaker": "narrator",
+      "start": 128.46,
+      "end": 129.29,
+      "text": "Happy!",
+      "words": [
+        {
+          "w": "Happy!",
+          "start": 128.5,
+          "end": 129.09
+        }
+      ]
+    },
+    {
+      "beat": "say",
+      "speaker": "narrator",
+      "start": 132.09,
+      "end": 133.54,
+      "text": "Now, say it with me!",
+      "words": [
+        {
+          "w": "Now,",
+          "start": 132.14,
+          "end": 132.439
+        },
+        {
+          "w": "say",
+          "start": 132.439,
+          "end": 132.738
+        },
+        {
+          "w": "it",
+          "start": 132.738,
+          "end": 132.887
+        },
+        {
+          "w": "with",
+          "start": 132.887,
+          "end": 133.111
+        },
+        {
+          "w": "me!",
+          "start": 133.111,
+          "end": 133.41
+        }
+      ]
+    },
+    {
+      "beat": "say1",
+      "speaker": "narrator",
+      "start": 134.74,
+      "end": 136.5,
+      "text": "Sharing makes everyone happy!",
+      "words": [
+        {
+          "w": "Sharing",
+          "start": 134.78,
+          "end": 135.142
+        },
+        {
+          "w": "makes",
+          "start": 135.142,
+          "end": 135.505
+        },
+        {
+          "w": "everyone",
+          "start": 135.505,
+          "end": 136.048
+        },
+        {
+          "w": "happy!",
+          "start": 136.048,
+          "end": 136.35
+        }
+      ]
+    },
+    {
+      "beat": "turn",
+      "speaker": "narrator",
+      "start": 138.1,
+      "end": 139.06,
+      "text": "Your turn!",
+      "words": [
+        {
+          "w": "Your",
+          "start": 138.14,
+          "end": 138.417
+        },
+        {
+          "w": "turn!",
+          "start": 138.417,
+          "end": 138.88
+        }
+      ]
+    },
+    {
+      "beat": "say2",
+      "speaker": "leo",
+      "start": 142.46,
+      "end": 144.33,
+      "text": "Sharing makes everyone happy!",
+      "words": [
+        {
+          "w": "Sharing",
+          "start": 142.48,
+          "end": 142.838
+        },
+        {
+          "w": "makes",
+          "start": 142.838,
+          "end": 143.195
+        },
+        {
+          "w": "everyone",
+          "start": 143.195,
+          "end": 143.732
+        },
+        {
+          "w": "happy!",
+          "start": 143.732,
+          "end": 144.03
+        }
+      ]
+    },
+    {
+      "beat": "ask_you",
+      "speaker": "narrator",
+      "start": 146.93,
+      "end": 148.72,
+      "text": "What can YOU share with a friend today?",
+      "words": [
+        {
+          "w": "What",
+          "start": 146.98,
+          "end": 147.172
+        },
+        {
+          "w": "can",
+          "start": 147.172,
+          "end": 147.363
+        },
+        {
+          "w": "YOU",
+          "start": 147.363,
+          "end": 147.507
+        },
+        {
+          "w": "share",
+          "start": 147.507,
+          "end": 147.698
+        },
+        {
+          "w": "with",
+          "start": 147.698,
+          "end": 147.842
+        },
+        {
+          "w": "a",
+          "start": 147.842,
+          "end": 147.985
+        },
+        {
+          "w": "friend",
+          "start": 147.985,
+          "end": 148.273
+        },
+        {
+          "w": "today?",
+          "start": 148.273,
+          "end": 148.56
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "start": 151.12,
+      "end": 152.57,
+      "text": "Bye-bye, friends!",
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 151.15,
+          "end": 151.87
+        },
+        {
+          "w": "friends!",
+          "start": 151.87,
+          "end": 152.43
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "bobo",
+      "start": 153.17,
+      "end": 153.89,
+      "text": "Bye-bye!",
+      "words": [
+        {
+          "w": "Bye-bye!",
+          "start": 153.2,
+          "end": 153.76
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "s1",
+      "start": 0,
+      "visual": "This is Mila. Today, Mila got a big box of building blocks!",
+      "end": 7.03
+    },
+    {
+      "id": "m_wow",
+      "start": 7.03,
+      "visual": "Wow! Red, yellow, and blue blocks! I'm going to build a castle!",
+      "end": 12.52
+    },
+    {
+      "id": "leo_ask",
+      "start": 12.52,
+      "visual": "Ooh! Mila, can I play too?",
+      "end": 15.08
+    },
+    {
+      "id": "bobo_ask",
+      "start": 15.08,
+      "visual": "Me too, please?",
+      "end": 17.43
+    },
+    {
+      "id": "m_no",
+      "start": 17.43,
+      "visual": "No! These are MY blocks. I want to play alone.",
+      "end": 22.29
+    },
+    {
+      "id": "sad",
+      "start": 22.29,
+      "visual": "Leo and Bobo feel sad. They sit down, far away.",
+      "end": 28.23
+    },
+    {
+      "id": "build",
+      "start": 28.23,
+      "visual": "Mila builds, and builds... higher, and higher...",
+      "end": 33.82
+    },
+    {
+      "id": "crash",
+      "start": 33.82,
+      "visual": "Oh no! The tower falls down!",
+      "end": 37.82
+    },
+    {
+      "id": "m_oh",
+      "start": 37.82,
+      "visual": "Oh no... It's too hard to build alone.",
+      "end": 42.54
+    },
+    {
+      "id": "lonely",
+      "start": 42.54,
+      "visual": "Mila looks at her friends. Playing alone is not much fun. Mila feels lonely.",
+      "end": 48.84
+    },
+    {
+      "id": "word",
+      "start": 48.84,
+      "visual": "Lonely means, sad to be by yourself.",
+      "end": 53.75
+    },
+    {
+      "id": "choice",
+      "start": 53.75,
+      "visual": "What could Mila do?",
+      "end": 60.02
+    },
+    {
+      "id": "m_share",
+      "start": 60.02,
+      "visual": "Leo! Bobo! Do you want to build with me? Let's share the blocks!",
+      "end": 64.96
+    },
+    {
+      "id": "leo_yay",
+      "start": 64.96,
+      "visual": "Yes! Thank you, Mila!",
+      "end": 67.14
+    },
+    {
+      "id": "bobo_yay",
+      "start": 67.14,
+      "visual": "Hooray! I'll hold the bottom!",
+      "end": 71.01
+    },
+    {
+      "id": "together",
+      "start": 71.01,
+      "visual": "Leo stacks the red blocks. Bobo holds the tower steady. Mila puts the blue blocks on top.",
+      "end": 78.12
+    },
+    {
+      "id": "tall",
+      "start": 78.12,
+      "visual": "Up, up, up! The tallest castle ever!",
+      "end": 83.15
+    },
+    {
+      "id": "m_happy",
+      "start": 83.15,
+      "visual": "Sharing makes playing so much more fun!",
+      "end": 88.15
+    },
+    {
+      "id": "moral",
+      "start": 88.15,
+      "visual": "Sharing makes everyone happy.",
+      "end": 93.16
+    },
+    {
+      "id": "rem",
+      "start": 93.16,
+      "visual": "Let's remember the story!",
+      "end": 96.27
+    },
+    {
+      "id": "rem1",
+      "start": 96.27,
+      "visual": "First, Mila played alone.",
+      "end": 100.51
+    },
+    {
+      "id": "rem2",
+      "start": 100.51,
+      "visual": "Then, Mila shared her blocks.",
+      "end": 104.94
+    },
+    {
+      "id": "rem3",
+      "start": 104.94,
+      "visual": "And they built a big castle, together!",
+      "end": 109.98
+    },
+    {
+      "id": "quiz1",
+      "start": 109.98,
+      "visual": "How did Mila feel, when she played alone?",
+      "end": 117.47
+    },
+    {
+      "id": "quiz1_a",
+      "start": 117.47,
+      "visual": "Lonely!",
+      "end": 120.92
+    },
+    {
+      "id": "quiz2",
+      "start": 120.92,
+      "visual": "How did everyone feel, when Mila shared?",
+      "end": 128.26
+    },
+    {
+      "id": "quiz2_a",
+      "start": 128.26,
+      "visual": "Happy!",
+      "end": 131.89
+    },
+    {
+      "id": "say",
+      "start": 131.89,
+      "visual": "Now, say it with me!",
+      "end": 134.54
+    },
+    {
+      "id": "say1",
+      "start": 134.54,
+      "visual": "Sharing makes everyone happy!",
+      "end": 137.9
+    },
+    {
+      "id": "turn",
+      "start": 137.9,
+      "visual": "Your turn!",
+      "end": 142.26
+    },
+    {
+      "id": "say2",
+      "start": 142.26,
+      "visual": "Sharing makes everyone happy!",
+      "end": 146.73
+    },
+    {
+      "id": "ask_you",
+      "start": 146.73,
+      "visual": "What can YOU share with a friend today?",
+      "end": 150.92
+    },
+    {
+      "id": "bye",
+      "start": 150.92,
+      "visual": "Bye-bye, friends!",
+      "end": 152.97
+    },
+    {
+      "id": "bye2",
+      "start": 152.97,
+      "visual": "Bye-bye!",
+      "end": 156.9
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

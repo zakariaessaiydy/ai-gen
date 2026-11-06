@@ -1,0 +1,4058 @@
+{
+  "id": "day-073",
+  "series": "tiny-sparks",
+  "episode": 73,
+  "title": "Farm Animals in English and French",
+  "composition": "KidsWords073",
+  "audience": "ages 3-6 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 342.4
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    },
+    "narrator_fr": {
+      "kokoro": "ff_siwis",
+      "lang": "fr",
+      "rate": "-6%"
+    },
+    "cow": {
+      "kokoro": "am_santa",
+      "rate": "-10%"
+    },
+    "pig": {
+      "kokoro": "am_puck",
+      "rate": "-4%"
+    },
+    "sheep": {
+      "kokoro": "af_bella",
+      "rate": "-6%"
+    },
+    "duck": {
+      "kokoro": "af_nicole:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "hen": {
+      "kokoro": "bf_lily",
+      "rate": "-4%"
+    },
+    "dog": {
+      "kokoro": "am_echo",
+      "rate": "-2%"
+    },
+    "cat": {
+      "kokoro": "af_kore",
+      "rate": "-6%"
+    },
+    "mouse": {
+      "kokoro": "af_nova:0.5+af_jessica:0.5",
+      "rate": "+0%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -7,
+    "duck": 8,
+    "start": 0,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "cow_snd",
+      "speaker": "cow",
+      "text": "Moo! Moo!",
+      "gap": 0.8,
+      "start": 0.3,
+      "end": 1.43,
+      "words": [
+        {
+          "w": "Moo!",
+          "start": 0.33,
+          "end": 0.86
+        },
+        {
+          "w": "Moo!",
+          "start": 0.86,
+          "end": 1.39
+        }
+      ]
+    },
+    {
+      "beat": "cow_q",
+      "speaker": "mila",
+      "text": "Listen! Who says moo? A cow!",
+      "gap": 1.2,
+      "start": 2.25,
+      "end": 4.34,
+      "words": [
+        {
+          "w": "Listen!",
+          "start": 2.29,
+          "end": 2.756
+        },
+        {
+          "w": "Who",
+          "start": 2.756,
+          "end": 3.066
+        },
+        {
+          "w": "says",
+          "start": 3.066,
+          "end": 3.376
+        },
+        {
+          "w": "moo?",
+          "start": 3.376,
+          "end": 3.687
+        },
+        {
+          "w": "A",
+          "start": 3.687,
+          "end": 3.92
+        },
+        {
+          "w": "cow!",
+          "start": 3.92,
+          "end": 4.23
+        }
+      ]
+    },
+    {
+      "beat": "premise",
+      "speaker": "leo",
+      "text": "Let's meet the farm animals, in English, and in French!",
+      "gap": 1.0,
+      "start": 5.56,
+      "end": 8.75,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 5.59,
+          "end": 5.878
+        },
+        {
+          "w": "meet",
+          "start": 5.878,
+          "end": 6.166
+        },
+        {
+          "w": "the",
+          "start": 6.166,
+          "end": 6.281
+        },
+        {
+          "w": "farm",
+          "start": 6.281,
+          "end": 6.626
+        },
+        {
+          "w": "animals,",
+          "start": 6.626,
+          "end": 7.086
+        },
+        {
+          "w": "in",
+          "start": 7.086,
+          "end": 7.259
+        },
+        {
+          "w": "English,",
+          "start": 7.259,
+          "end": 7.662
+        },
+        {
+          "w": "and",
+          "start": 7.662,
+          "end": 7.834
+        },
+        {
+          "w": "in",
+          "start": 7.834,
+          "end": 8.007
+        },
+        {
+          "w": "French!",
+          "start": 8.007,
+          "end": 8.41
+        }
+      ]
+    },
+    {
+      "beat": "cow_2",
+      "speaker": "mila",
+      "text": "Cow!",
+      "gap": 1.0,
+      "start": 9.77,
+      "end": 10.62,
+      "words": [
+        {
+          "w": "Cow!",
+          "start": 9.85,
+          "end": 10.46
+        }
+      ]
+    },
+    {
+      "beat": "cow_turn",
+      "speaker": "mila",
+      "text": "Your turn! Cow!",
+      "gap": 2.2,
+      "start": 11.64,
+      "end": 12.95,
+      "words": [
+        {
+          "w": "Your",
+          "start": 11.69,
+          "end": 11.975
+        },
+        {
+          "w": "turn!",
+          "start": 11.975,
+          "end": 12.45
+        },
+        {
+          "w": "Cow!",
+          "start": 12.45,
+          "end": 12.83
+        }
+      ]
+    },
+    {
+      "beat": "cow_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : la vache.",
+      "gap": 1.2,
+      "start": 15.17,
+      "lang": "fr",
+      "end": 16.58,
+      "words": [
+        {
+          "w": "En",
+          "start": 15.21,
+          "end": 15.377
+        },
+        {
+          "w": "français",
+          "start": 15.377,
+          "end": 15.877
+        },
+        {
+          "w": "la",
+          "start": 15.877,
+          "end": 16.127
+        },
+        {
+          "w": "vache.",
+          "start": 16.127,
+          "end": 16.46
+        }
+      ]
+    },
+    {
+      "beat": "cow_fr2",
+      "speaker": "narrator_fr",
+      "text": "La vache !",
+      "gap": 1.2,
+      "start": 17.8,
+      "lang": "fr",
+      "end": 18.72,
+      "words": [
+        {
+          "w": "La",
+          "start": 17.83,
+          "end": 18.173
+        },
+        {
+          "w": "vache",
+          "start": 18.173,
+          "end": 18.63
+        }
+      ]
+    },
+    {
+      "beat": "cow_frs_q",
+      "speaker": "leo",
+      "text": "And what does a French cow say?",
+      "gap": 0.6,
+      "start": 19.94,
+      "end": 21.73,
+      "words": [
+        {
+          "w": "And",
+          "start": 19.97,
+          "end": 20.121
+        },
+        {
+          "w": "what",
+          "start": 20.121,
+          "end": 20.322
+        },
+        {
+          "w": "does",
+          "start": 20.322,
+          "end": 20.524
+        },
+        {
+          "w": "a",
+          "start": 20.524,
+          "end": 20.675
+        },
+        {
+          "w": "French",
+          "start": 20.675,
+          "end": 21.027
+        },
+        {
+          "w": "cow",
+          "start": 21.027,
+          "end": 21.229
+        },
+        {
+          "w": "say?",
+          "start": 21.229,
+          "end": 21.43
+        }
+      ]
+    },
+    {
+      "beat": "cow_frs",
+      "speaker": "narrator_fr",
+      "text": "Meuh ! Meuh !",
+      "gap": 1.0,
+      "start": 22.35,
+      "lang": "fr",
+      "end": 23.22,
+      "words": [
+        {
+          "w": "Meuh",
+          "start": 22.38,
+          "end": 22.75
+        },
+        {
+          "w": "Meuh",
+          "start": 22.75,
+          "end": 23.12
+        }
+      ]
+    },
+    {
+      "beat": "cow_use",
+      "speaker": "leo",
+      "text": "The cow gives us milk. Yum!",
+      "gap": 2.6,
+      "start": 24.24,
+      "end": 26.3,
+      "words": [
+        {
+          "w": "The",
+          "start": 24.27,
+          "end": 24.423
+        },
+        {
+          "w": "cow",
+          "start": 24.423,
+          "end": 24.729
+        },
+        {
+          "w": "gives",
+          "start": 24.729,
+          "end": 25.112
+        },
+        {
+          "w": "us",
+          "start": 25.112,
+          "end": 25.341
+        },
+        {
+          "w": "milk.",
+          "start": 25.341,
+          "end": 25.724
+        },
+        {
+          "w": "Yum!",
+          "start": 25.724,
+          "end": 26.03
+        }
+      ]
+    },
+    {
+      "beat": "pig_snd",
+      "speaker": "pig",
+      "text": "Oink! Oink!",
+      "gap": 0.8,
+      "start": 28.92,
+      "end": 29.76,
+      "words": [
+        {
+          "w": "Oink!",
+          "start": 28.95,
+          "end": 29.315
+        },
+        {
+          "w": "Oink!",
+          "start": 29.315,
+          "end": 29.68
+        }
+      ]
+    },
+    {
+      "beat": "pig_q",
+      "speaker": "mila",
+      "text": "Who says oink? A pig!",
+      "gap": 1.2,
+      "start": 30.58,
+      "end": 32.2,
+      "words": [
+        {
+          "w": "Who",
+          "start": 30.62,
+          "end": 30.916
+        },
+        {
+          "w": "says",
+          "start": 30.916,
+          "end": 31.212
+        },
+        {
+          "w": "oink?",
+          "start": 31.212,
+          "end": 31.582
+        },
+        {
+          "w": "A",
+          "start": 31.582,
+          "end": 31.804
+        },
+        {
+          "w": "pig!",
+          "start": 31.804,
+          "end": 32.1
+        }
+      ]
+    },
+    {
+      "beat": "pig_2",
+      "speaker": "mila",
+      "text": "Pig!",
+      "gap": 1.0,
+      "start": 33.42,
+      "end": 34.25,
+      "words": [
+        {
+          "w": "Pig!",
+          "start": 33.47,
+          "end": 34.11
+        }
+      ]
+    },
+    {
+      "beat": "pig_turn",
+      "speaker": "mila",
+      "text": "Your turn! Pig!",
+      "gap": 2.2,
+      "start": 35.27,
+      "end": 36.56,
+      "words": [
+        {
+          "w": "Your",
+          "start": 35.31,
+          "end": 35.595
+        },
+        {
+          "w": "turn!",
+          "start": 35.595,
+          "end": 36.07
+        },
+        {
+          "w": "Pig!",
+          "start": 36.07,
+          "end": 36.45
+        }
+      ]
+    },
+    {
+      "beat": "pig_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : le cochon.",
+      "gap": 1.2,
+      "start": 38.78,
+      "lang": "fr",
+      "end": 40.18,
+      "words": [
+        {
+          "w": "En",
+          "start": 38.81,
+          "end": 38.968
+        },
+        {
+          "w": "français",
+          "start": 38.968,
+          "end": 39.44
+        },
+        {
+          "w": "le",
+          "start": 39.44,
+          "end": 39.676
+        },
+        {
+          "w": "cochon.",
+          "start": 39.676,
+          "end": 40.07
+        }
+      ]
+    },
+    {
+      "beat": "pig_fr2",
+      "speaker": "narrator_fr",
+      "text": "Le cochon !",
+      "gap": 1.2,
+      "start": 41.4,
+      "lang": "fr",
+      "end": 42.38,
+      "words": [
+        {
+          "w": "Le",
+          "start": 41.44,
+          "end": 41.755
+        },
+        {
+          "w": "cochon",
+          "start": 41.755,
+          "end": 42.28
+        }
+      ]
+    },
+    {
+      "beat": "pig_frs_q",
+      "speaker": "bobo",
+      "text": "And what does a French pig say?",
+      "gap": 0.6,
+      "start": 43.6,
+      "end": 45.09,
+      "words": [
+        {
+          "w": "And",
+          "start": 43.63,
+          "end": 43.768
+        },
+        {
+          "w": "what",
+          "start": 43.768,
+          "end": 43.951
+        },
+        {
+          "w": "does",
+          "start": 43.951,
+          "end": 44.134
+        },
+        {
+          "w": "a",
+          "start": 44.134,
+          "end": 44.272
+        },
+        {
+          "w": "French",
+          "start": 44.272,
+          "end": 44.593
+        },
+        {
+          "w": "pig",
+          "start": 44.593,
+          "end": 44.777
+        },
+        {
+          "w": "say?",
+          "start": 44.777,
+          "end": 44.96
+        }
+      ]
+    },
+    {
+      "beat": "pig_frs",
+      "speaker": "narrator_fr",
+      "text": "Groin, groin !",
+      "gap": 1.0,
+      "start": 45.71,
+      "lang": "fr",
+      "end": 46.79,
+      "words": [
+        {
+          "w": "Groin,",
+          "start": 45.75,
+          "end": 46.22
+        },
+        {
+          "w": "groin",
+          "start": 46.22,
+          "end": 46.69
+        }
+      ]
+    },
+    {
+      "beat": "pig_use",
+      "speaker": "bobo",
+      "text": "The pig loves to roll in the mud. Splash!",
+      "gap": 2.6,
+      "start": 47.81,
+      "end": 50.15,
+      "words": [
+        {
+          "w": "The",
+          "start": 47.84,
+          "end": 47.944
+        },
+        {
+          "w": "pig",
+          "start": 47.944,
+          "end": 48.153
+        },
+        {
+          "w": "loves",
+          "start": 48.153,
+          "end": 48.414
+        },
+        {
+          "w": "to",
+          "start": 48.414,
+          "end": 48.57
+        },
+        {
+          "w": "roll",
+          "start": 48.57,
+          "end": 48.831
+        },
+        {
+          "w": "in",
+          "start": 48.831,
+          "end": 48.987
+        },
+        {
+          "w": "the",
+          "start": 48.987,
+          "end": 49.091
+        },
+        {
+          "w": "mud.",
+          "start": 49.091,
+          "end": 49.3
+        },
+        {
+          "w": "Splash!",
+          "start": 49.47,
+          "end": 50.07
+        }
+      ]
+    },
+    {
+      "beat": "sheep_snd",
+      "speaker": "sheep",
+      "text": "Baa! Baa!",
+      "gap": 0.8,
+      "start": 52.77,
+      "end": 53.6,
+      "words": [
+        {
+          "w": "Baa!",
+          "start": 52.79,
+          "end": 53.155
+        },
+        {
+          "w": "Baa!",
+          "start": 53.155,
+          "end": 53.52
+        }
+      ]
+    },
+    {
+      "beat": "sheep_q",
+      "speaker": "mila",
+      "text": "Who says baa? A sheep!",
+      "gap": 1.2,
+      "start": 54.42,
+      "end": 56.12,
+      "words": [
+        {
+          "w": "Who",
+          "start": 54.52,
+          "end": 54.814
+        },
+        {
+          "w": "says",
+          "start": 54.814,
+          "end": 55.108
+        },
+        {
+          "w": "baa?",
+          "start": 55.108,
+          "end": 55.402
+        },
+        {
+          "w": "A",
+          "start": 55.402,
+          "end": 55.622
+        },
+        {
+          "w": "sheep!",
+          "start": 55.622,
+          "end": 55.99
+        }
+      ]
+    },
+    {
+      "beat": "sheep_2",
+      "speaker": "mila",
+      "text": "Sheep!",
+      "gap": 1.0,
+      "start": 57.34,
+      "end": 58.12,
+      "words": [
+        {
+          "w": "Sheep!",
+          "start": 57.39,
+          "end": 58.07
+        }
+      ]
+    },
+    {
+      "beat": "sheep_turn",
+      "speaker": "mila",
+      "text": "Your turn! Sheep!",
+      "gap": 2.2,
+      "start": 59.14,
+      "end": 60.58,
+      "words": [
+        {
+          "w": "Your",
+          "start": 59.24,
+          "end": 59.522
+        },
+        {
+          "w": "turn!",
+          "start": 59.522,
+          "end": 59.991
+        },
+        {
+          "w": "Sheep!",
+          "start": 59.991,
+          "end": 60.46
+        }
+      ]
+    },
+    {
+      "beat": "sheep_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : le mouton.",
+      "gap": 1.2,
+      "start": 62.8,
+      "lang": "fr",
+      "end": 64.12,
+      "words": [
+        {
+          "w": "En",
+          "start": 62.82,
+          "end": 62.967
+        },
+        {
+          "w": "français",
+          "start": 62.967,
+          "end": 63.41
+        },
+        {
+          "w": "le",
+          "start": 63.41,
+          "end": 63.631
+        },
+        {
+          "w": "mouton.",
+          "start": 63.631,
+          "end": 64.0
+        }
+      ]
+    },
+    {
+      "beat": "sheep_fr2",
+      "speaker": "narrator_fr",
+      "text": "Le mouton !",
+      "gap": 1.2,
+      "start": 65.34,
+      "lang": "fr",
+      "end": 66.3,
+      "words": [
+        {
+          "w": "Le",
+          "start": 65.37,
+          "end": 65.678
+        },
+        {
+          "w": "mouton",
+          "start": 65.678,
+          "end": 66.19
+        }
+      ]
+    },
+    {
+      "beat": "sheep_frs_q",
+      "speaker": "leo",
+      "text": "And what does a French sheep say?",
+      "gap": 0.6,
+      "start": 67.52,
+      "end": 69.29,
+      "words": [
+        {
+          "w": "And",
+          "start": 67.55,
+          "end": 67.696
+        },
+        {
+          "w": "what",
+          "start": 67.696,
+          "end": 67.891
+        },
+        {
+          "w": "does",
+          "start": 67.891,
+          "end": 68.085
+        },
+        {
+          "w": "a",
+          "start": 68.085,
+          "end": 68.231
+        },
+        {
+          "w": "French",
+          "start": 68.231,
+          "end": 68.572
+        },
+        {
+          "w": "sheep",
+          "start": 68.572,
+          "end": 68.815
+        },
+        {
+          "w": "say?",
+          "start": 68.815,
+          "end": 69.01
+        }
+      ]
+    },
+    {
+      "beat": "sheep_frs",
+      "speaker": "narrator_fr",
+      "text": "Bêê ! Bêê !",
+      "gap": 1.0,
+      "start": 69.91,
+      "lang": "fr",
+      "end": 70.95,
+      "words": [
+        {
+          "w": "Bêê",
+          "start": 69.95,
+          "end": 70.38
+        },
+        {
+          "w": "Bêê",
+          "start": 70.38,
+          "end": 70.81
+        }
+      ]
+    },
+    {
+      "beat": "sheep_use",
+      "speaker": "leo",
+      "text": "The sheep has soft, fluffy wool.",
+      "gap": 2.6,
+      "start": 71.97,
+      "end": 73.95,
+      "words": [
+        {
+          "w": "The",
+          "start": 72.0,
+          "end": 72.128
+        },
+        {
+          "w": "sheep",
+          "start": 72.128,
+          "end": 72.447
+        },
+        {
+          "w": "has",
+          "start": 72.447,
+          "end": 72.702
+        },
+        {
+          "w": "soft,",
+          "start": 72.702,
+          "end": 73.022
+        },
+        {
+          "w": "fluffy",
+          "start": 73.022,
+          "end": 73.405
+        },
+        {
+          "w": "wool.",
+          "start": 73.405,
+          "end": 73.66
+        }
+      ]
+    },
+    {
+      "beat": "quiz_sheep",
+      "speaker": "hoot",
+      "text": "Quiz time! Who says moo?",
+      "gap": 4.6,
+      "start": 76.57,
+      "end": 78.53,
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 76.6,
+          "end": 76.995
+        },
+        {
+          "w": "time!",
+          "start": 76.995,
+          "end": 77.39
+        },
+        {
+          "w": "Who",
+          "start": 77.51,
+          "end": 77.827
+        },
+        {
+          "w": "says",
+          "start": 77.827,
+          "end": 78.143
+        },
+        {
+          "w": "moo?",
+          "start": 78.143,
+          "end": 78.46
+        }
+      ]
+    },
+    {
+      "beat": "quiz_sheep_a",
+      "speaker": "mila",
+      "text": "The cow!",
+      "gap": 2.2,
+      "start": 83.15,
+      "end": 84.17,
+      "words": [
+        {
+          "w": "The",
+          "start": 83.25,
+          "end": 83.507
+        },
+        {
+          "w": "cow!",
+          "start": 83.507,
+          "end": 84.02
+        }
+      ]
+    },
+    {
+      "beat": "duck_snd",
+      "speaker": "duck",
+      "text": "Quack! Quack!",
+      "gap": 0.8,
+      "start": 86.39,
+      "end": 87.68,
+      "words": [
+        {
+          "w": "Quack!",
+          "start": 86.45,
+          "end": 86.92
+        },
+        {
+          "w": "Quack!",
+          "start": 86.92,
+          "end": 87.39
+        }
+      ]
+    },
+    {
+      "beat": "duck_q",
+      "speaker": "mila",
+      "text": "Who says quack? A duck!",
+      "gap": 1.2,
+      "start": 88.5,
+      "end": 90.14,
+      "words": [
+        {
+          "w": "Who",
+          "start": 88.56,
+          "end": 88.854
+        },
+        {
+          "w": "says",
+          "start": 88.854,
+          "end": 89.148
+        },
+        {
+          "w": "quack?",
+          "start": 89.148,
+          "end": 89.515
+        },
+        {
+          "w": "A",
+          "start": 89.515,
+          "end": 89.736
+        },
+        {
+          "w": "duck!",
+          "start": 89.736,
+          "end": 90.03
+        }
+      ]
+    },
+    {
+      "beat": "duck_2",
+      "speaker": "mila",
+      "text": "Duck!",
+      "gap": 1.0,
+      "start": 91.36,
+      "end": 92.1,
+      "words": [
+        {
+          "w": "Duck!",
+          "start": 91.4,
+          "end": 92.0
+        }
+      ]
+    },
+    {
+      "beat": "duck_turn",
+      "speaker": "mila",
+      "text": "Your turn! Duck!",
+      "gap": 2.2,
+      "start": 93.12,
+      "end": 94.48,
+      "words": [
+        {
+          "w": "Your",
+          "start": 93.2,
+          "end": 93.495
+        },
+        {
+          "w": "turn!",
+          "start": 93.495,
+          "end": 93.987
+        },
+        {
+          "w": "Duck!",
+          "start": 93.987,
+          "end": 94.38
+        }
+      ]
+    },
+    {
+      "beat": "duck_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : le canard.",
+      "gap": 1.2,
+      "start": 96.7,
+      "lang": "fr",
+      "end": 98.15,
+      "words": [
+        {
+          "w": "En",
+          "start": 96.73,
+          "end": 96.879
+        },
+        {
+          "w": "français",
+          "start": 96.879,
+          "end": 97.328
+        },
+        {
+          "w": "le",
+          "start": 97.328,
+          "end": 97.552
+        },
+        {
+          "w": "canard.",
+          "start": 97.552,
+          "end": 98.0
+        }
+      ]
+    },
+    {
+      "beat": "duck_fr2",
+      "speaker": "narrator_fr",
+      "text": "Le canard !",
+      "gap": 1.2,
+      "start": 99.37,
+      "lang": "fr",
+      "end": 100.35,
+      "words": [
+        {
+          "w": "Le",
+          "start": 99.41,
+          "end": 99.68
+        },
+        {
+          "w": "canard",
+          "start": 99.68,
+          "end": 100.22
+        }
+      ]
+    },
+    {
+      "beat": "duck_frs_q",
+      "speaker": "bobo",
+      "text": "And what does a French duck say?",
+      "gap": 0.6,
+      "start": 101.57,
+      "end": 103.05,
+      "words": [
+        {
+          "w": "And",
+          "start": 101.6,
+          "end": 101.738
+        },
+        {
+          "w": "what",
+          "start": 101.738,
+          "end": 101.921
+        },
+        {
+          "w": "does",
+          "start": 101.921,
+          "end": 102.104
+        },
+        {
+          "w": "a",
+          "start": 102.104,
+          "end": 102.242
+        },
+        {
+          "w": "French",
+          "start": 102.242,
+          "end": 102.563
+        },
+        {
+          "w": "duck",
+          "start": 102.563,
+          "end": 102.747
+        },
+        {
+          "w": "say?",
+          "start": 102.747,
+          "end": 102.93
+        }
+      ]
+    },
+    {
+      "beat": "duck_frs",
+      "speaker": "narrator_fr",
+      "text": "Coin-coin !",
+      "gap": 1.0,
+      "start": 103.67,
+      "lang": "fr",
+      "end": 104.52,
+      "words": [
+        {
+          "w": "Coin-coin",
+          "start": 103.7,
+          "end": 104.41
+        }
+      ]
+    },
+    {
+      "beat": "duck_use",
+      "speaker": "bobo",
+      "text": "The duck swims in the pond. Paddle, paddle!",
+      "gap": 2.6,
+      "start": 105.54,
+      "end": 107.94,
+      "words": [
+        {
+          "w": "The",
+          "start": 105.57,
+          "end": 105.7
+        },
+        {
+          "w": "duck",
+          "start": 105.7,
+          "end": 105.961
+        },
+        {
+          "w": "swims",
+          "start": 105.961,
+          "end": 106.352
+        },
+        {
+          "w": "in",
+          "start": 106.352,
+          "end": 106.547
+        },
+        {
+          "w": "the",
+          "start": 106.547,
+          "end": 106.677
+        },
+        {
+          "w": "pond.",
+          "start": 106.677,
+          "end": 107.068
+        },
+        {
+          "w": "Paddle,",
+          "start": 107.068,
+          "end": 107.459
+        },
+        {
+          "w": "paddle!",
+          "start": 107.459,
+          "end": 107.85
+        }
+      ]
+    },
+    {
+      "beat": "hen_snd",
+      "speaker": "hen",
+      "text": "Cluck! Cluck!",
+      "gap": 0.8,
+      "start": 110.56,
+      "end": 111.78,
+      "words": [
+        {
+          "w": "Cluck!",
+          "start": 110.61,
+          "end": 111.15
+        },
+        {
+          "w": "Cluck!",
+          "start": 111.15,
+          "end": 111.69
+        }
+      ]
+    },
+    {
+      "beat": "hen_q",
+      "speaker": "mila",
+      "text": "Who says cluck? A hen!",
+      "gap": 1.2,
+      "start": 112.6,
+      "end": 114.22,
+      "words": [
+        {
+          "w": "Who",
+          "start": 112.64,
+          "end": 112.928
+        },
+        {
+          "w": "says",
+          "start": 112.928,
+          "end": 113.216
+        },
+        {
+          "w": "cluck?",
+          "start": 113.216,
+          "end": 113.576
+        },
+        {
+          "w": "A",
+          "start": 113.576,
+          "end": 113.792
+        },
+        {
+          "w": "hen!",
+          "start": 113.792,
+          "end": 114.08
+        }
+      ]
+    },
+    {
+      "beat": "hen_2",
+      "speaker": "mila",
+      "text": "Hen!",
+      "gap": 1.0,
+      "start": 115.44,
+      "end": 116.29,
+      "words": [
+        {
+          "w": "Hen!",
+          "start": 115.49,
+          "end": 116.14
+        }
+      ]
+    },
+    {
+      "beat": "hen_turn",
+      "speaker": "mila",
+      "text": "Your turn! Hen!",
+      "gap": 2.2,
+      "start": 117.31,
+      "end": 118.63,
+      "words": [
+        {
+          "w": "Your",
+          "start": 117.36,
+          "end": 117.65
+        },
+        {
+          "w": "turn!",
+          "start": 117.65,
+          "end": 118.133
+        },
+        {
+          "w": "Hen!",
+          "start": 118.133,
+          "end": 118.52
+        }
+      ]
+    },
+    {
+      "beat": "hen_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : la poule.",
+      "gap": 1.2,
+      "start": 120.85,
+      "lang": "fr",
+      "end": 122.23,
+      "words": [
+        {
+          "w": "En",
+          "start": 120.88,
+          "end": 121.044
+        },
+        {
+          "w": "français",
+          "start": 121.044,
+          "end": 121.536
+        },
+        {
+          "w": "la",
+          "start": 121.536,
+          "end": 121.782
+        },
+        {
+          "w": "poule.",
+          "start": 121.782,
+          "end": 122.11
+        }
+      ]
+    },
+    {
+      "beat": "hen_fr2",
+      "speaker": "narrator_fr",
+      "text": "La poule !",
+      "gap": 1.2,
+      "start": 123.45,
+      "lang": "fr",
+      "end": 124.47,
+      "words": [
+        {
+          "w": "La",
+          "start": 123.49,
+          "end": 123.859
+        },
+        {
+          "w": "poule",
+          "start": 123.859,
+          "end": 124.35
+        }
+      ]
+    },
+    {
+      "beat": "hen_frs_q",
+      "speaker": "leo",
+      "text": "And what does a French hen say?",
+      "gap": 0.6,
+      "start": 125.69,
+      "end": 127.5,
+      "words": [
+        {
+          "w": "And",
+          "start": 125.72,
+          "end": 125.874
+        },
+        {
+          "w": "what",
+          "start": 125.874,
+          "end": 126.08
+        },
+        {
+          "w": "does",
+          "start": 126.08,
+          "end": 126.285
+        },
+        {
+          "w": "a",
+          "start": 126.285,
+          "end": 126.439
+        },
+        {
+          "w": "French",
+          "start": 126.439,
+          "end": 126.799
+        },
+        {
+          "w": "hen",
+          "start": 126.799,
+          "end": 127.004
+        },
+        {
+          "w": "say?",
+          "start": 127.004,
+          "end": 127.21
+        }
+      ]
+    },
+    {
+      "beat": "hen_frs",
+      "speaker": "narrator_fr",
+      "text": "Cot, cot, codet !",
+      "gap": 1.0,
+      "start": 128.12,
+      "lang": "fr",
+      "end": 129.27,
+      "words": [
+        {
+          "w": "Cot,",
+          "start": 128.15,
+          "end": 128.425
+        },
+        {
+          "w": "cot,",
+          "start": 128.425,
+          "end": 128.701
+        },
+        {
+          "w": "codet",
+          "start": 128.701,
+          "end": 129.16
+        }
+      ]
+    },
+    {
+      "beat": "hen_use",
+      "speaker": "leo",
+      "text": "The hen lays eggs in her nest. Look, an egg!",
+      "gap": 2.6,
+      "start": 130.29,
+      "end": 132.88,
+      "words": [
+        {
+          "w": "The",
+          "start": 130.32,
+          "end": 130.451
+        },
+        {
+          "w": "hen",
+          "start": 130.451,
+          "end": 130.714
+        },
+        {
+          "w": "lays",
+          "start": 130.714,
+          "end": 131.043
+        },
+        {
+          "w": "eggs",
+          "start": 131.043,
+          "end": 131.306
+        },
+        {
+          "w": "in",
+          "start": 131.306,
+          "end": 131.503
+        },
+        {
+          "w": "her",
+          "start": 131.503,
+          "end": 131.7
+        },
+        {
+          "w": "nest.",
+          "start": 131.7,
+          "end": 132.029
+        },
+        {
+          "w": "Look,",
+          "start": 132.029,
+          "end": 132.291
+        },
+        {
+          "w": "an",
+          "start": 132.291,
+          "end": 132.423
+        },
+        {
+          "w": "egg!",
+          "start": 132.423,
+          "end": 132.62
+        }
+      ]
+    },
+    {
+      "beat": "quiz_hen",
+      "speaker": "hoot",
+      "text": "Quiz time! Who says quack?",
+      "gap": 4.6,
+      "start": 135.5,
+      "end": 137.52,
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 135.53,
+          "end": 135.945
+        },
+        {
+          "w": "time!",
+          "start": 135.945,
+          "end": 136.36
+        },
+        {
+          "w": "Who",
+          "start": 136.36,
+          "end": 136.693
+        },
+        {
+          "w": "says",
+          "start": 136.693,
+          "end": 137.025
+        },
+        {
+          "w": "quack?",
+          "start": 137.025,
+          "end": 137.44
+        }
+      ]
+    },
+    {
+      "beat": "quiz_hen_a",
+      "speaker": "mila",
+      "text": "The duck!",
+      "gap": 2.2,
+      "start": 142.14,
+      "end": 143.03,
+      "words": [
+        {
+          "w": "The",
+          "start": 142.19,
+          "end": 142.44
+        },
+        {
+          "w": "duck!",
+          "start": 142.44,
+          "end": 142.94
+        }
+      ]
+    },
+    {
+      "beat": "dog_snd",
+      "speaker": "dog",
+      "text": "Woof! Woof!",
+      "gap": 0.8,
+      "start": 145.25,
+      "end": 146.59,
+      "words": [
+        {
+          "w": "Woof!",
+          "start": 145.28,
+          "end": 145.82
+        },
+        {
+          "w": "Woof!",
+          "start": 145.82,
+          "end": 146.36
+        }
+      ]
+    },
+    {
+      "beat": "dog_q",
+      "speaker": "mila",
+      "text": "Who says woof? A dog!",
+      "gap": 1.2,
+      "start": 147.41,
+      "end": 149.05,
+      "words": [
+        {
+          "w": "Who",
+          "start": 147.45,
+          "end": 147.728
+        },
+        {
+          "w": "says",
+          "start": 147.728,
+          "end": 148.006
+        },
+        {
+          "w": "woof?",
+          "start": 148.006,
+          "end": 148.354
+        },
+        {
+          "w": "A",
+          "start": 148.354,
+          "end": 148.562
+        },
+        {
+          "w": "dog!",
+          "start": 148.562,
+          "end": 148.91
+        }
+      ]
+    },
+    {
+      "beat": "dog_2",
+      "speaker": "mila",
+      "text": "Dog!",
+      "gap": 1.0,
+      "start": 150.27,
+      "end": 151.12,
+      "words": [
+        {
+          "w": "Dog!",
+          "start": 150.33,
+          "end": 151.03
+        }
+      ]
+    },
+    {
+      "beat": "dog_turn",
+      "speaker": "mila",
+      "text": "Your turn! Dog!",
+      "gap": 2.2,
+      "start": 152.14,
+      "end": 153.5,
+      "words": [
+        {
+          "w": "Your",
+          "start": 152.19,
+          "end": 152.467
+        },
+        {
+          "w": "turn!",
+          "start": 152.467,
+          "end": 152.928
+        },
+        {
+          "w": "Dog!",
+          "start": 152.928,
+          "end": 153.39
+        }
+      ]
+    },
+    {
+      "beat": "dog_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : le chien.",
+      "gap": 1.2,
+      "start": 155.72,
+      "lang": "fr",
+      "end": 157.04,
+      "words": [
+        {
+          "w": "En",
+          "start": 155.75,
+          "end": 155.906
+        },
+        {
+          "w": "français",
+          "start": 155.906,
+          "end": 156.374
+        },
+        {
+          "w": "le",
+          "start": 156.374,
+          "end": 156.608
+        },
+        {
+          "w": "chien.",
+          "start": 156.608,
+          "end": 156.92
+        }
+      ]
+    },
+    {
+      "beat": "dog_fr2",
+      "speaker": "narrator_fr",
+      "text": "Le chien !",
+      "gap": 1.2,
+      "start": 158.26,
+      "lang": "fr",
+      "end": 159.11,
+      "words": [
+        {
+          "w": "Le",
+          "start": 158.29,
+          "end": 158.603
+        },
+        {
+          "w": "chien",
+          "start": 158.603,
+          "end": 159.02
+        }
+      ]
+    },
+    {
+      "beat": "dog_frs_q",
+      "speaker": "bobo",
+      "text": "And what does a French dog say?",
+      "gap": 0.6,
+      "start": 160.33,
+      "end": 161.9,
+      "words": [
+        {
+          "w": "And",
+          "start": 160.36,
+          "end": 160.498
+        },
+        {
+          "w": "what",
+          "start": 160.498,
+          "end": 160.682
+        },
+        {
+          "w": "does",
+          "start": 160.682,
+          "end": 160.866
+        },
+        {
+          "w": "a",
+          "start": 160.866,
+          "end": 161.004
+        },
+        {
+          "w": "French",
+          "start": 161.004,
+          "end": 161.326
+        },
+        {
+          "w": "dog",
+          "start": 161.326,
+          "end": 161.556
+        },
+        {
+          "w": "say?",
+          "start": 161.556,
+          "end": 161.74
+        }
+      ]
+    },
+    {
+      "beat": "dog_frs",
+      "speaker": "narrator_fr",
+      "text": "Ouaf ! Ouaf !",
+      "gap": 1.0,
+      "start": 162.52,
+      "lang": "fr",
+      "end": 163.54,
+      "words": [
+        {
+          "w": "Ouaf",
+          "start": 162.56,
+          "end": 163.0
+        },
+        {
+          "w": "Ouaf",
+          "start": 163.0,
+          "end": 163.44
+        }
+      ]
+    },
+    {
+      "beat": "dog_use",
+      "speaker": "bobo",
+      "text": "The dog helps the farmer. Good dog!",
+      "gap": 2.6,
+      "start": 164.56,
+      "end": 166.65,
+      "words": [
+        {
+          "w": "The",
+          "start": 164.59,
+          "end": 164.696
+        },
+        {
+          "w": "dog",
+          "start": 164.696,
+          "end": 164.962
+        },
+        {
+          "w": "helps",
+          "start": 164.962,
+          "end": 165.281
+        },
+        {
+          "w": "the",
+          "start": 165.281,
+          "end": 165.388
+        },
+        {
+          "w": "farmer.",
+          "start": 165.388,
+          "end": 165.76
+        },
+        {
+          "w": "Good",
+          "start": 165.93,
+          "end": 166.201
+        },
+        {
+          "w": "dog!",
+          "start": 166.201,
+          "end": 166.54
+        }
+      ]
+    },
+    {
+      "beat": "cat_snd",
+      "speaker": "cat",
+      "text": "Meow! Meow!",
+      "gap": 0.8,
+      "start": 169.27,
+      "end": 170.23,
+      "words": [
+        {
+          "w": "Meow!",
+          "start": 169.31,
+          "end": 169.7
+        },
+        {
+          "w": "Meow!",
+          "start": 169.7,
+          "end": 170.09
+        }
+      ]
+    },
+    {
+      "beat": "cat_q",
+      "speaker": "mila",
+      "text": "Who says meow? A cat!",
+      "gap": 1.2,
+      "start": 171.05,
+      "end": 172.79,
+      "words": [
+        {
+          "w": "Who",
+          "start": 171.15,
+          "end": 171.454
+        },
+        {
+          "w": "says",
+          "start": 171.454,
+          "end": 171.758
+        },
+        {
+          "w": "meow?",
+          "start": 171.758,
+          "end": 172.138
+        },
+        {
+          "w": "A",
+          "start": 172.138,
+          "end": 172.366
+        },
+        {
+          "w": "cat!",
+          "start": 172.366,
+          "end": 172.67
+        }
+      ]
+    },
+    {
+      "beat": "cat_2",
+      "speaker": "mila",
+      "text": "Cat!",
+      "gap": 1.0,
+      "start": 174.01,
+      "end": 174.82,
+      "words": [
+        {
+          "w": "Cat!",
+          "start": 174.11,
+          "end": 174.71
+        }
+      ]
+    },
+    {
+      "beat": "cat_turn",
+      "speaker": "mila",
+      "text": "Your turn! Cat!",
+      "gap": 2.2,
+      "start": 175.84,
+      "end": 177.14,
+      "words": [
+        {
+          "w": "Your",
+          "start": 175.88,
+          "end": 176.17
+        },
+        {
+          "w": "turn!",
+          "start": 176.17,
+          "end": 176.653
+        },
+        {
+          "w": "Cat!",
+          "start": 176.653,
+          "end": 177.04
+        }
+      ]
+    },
+    {
+      "beat": "cat_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : le chat.",
+      "gap": 1.2,
+      "start": 179.36,
+      "lang": "fr",
+      "end": 180.59,
+      "words": [
+        {
+          "w": "En",
+          "start": 179.39,
+          "end": 179.543
+        },
+        {
+          "w": "français",
+          "start": 179.543,
+          "end": 180.001
+        },
+        {
+          "w": "le",
+          "start": 180.001,
+          "end": 180.231
+        },
+        {
+          "w": "chat.",
+          "start": 180.231,
+          "end": 180.46
+        }
+      ]
+    },
+    {
+      "beat": "cat_fr2",
+      "speaker": "narrator_fr",
+      "text": "Le chat !",
+      "gap": 1.2,
+      "start": 181.81,
+      "lang": "fr",
+      "end": 182.64,
+      "words": [
+        {
+          "w": "Le",
+          "start": 181.84,
+          "end": 182.185
+        },
+        {
+          "w": "chat",
+          "start": 182.185,
+          "end": 182.53
+        }
+      ]
+    },
+    {
+      "beat": "cat_frs_q",
+      "speaker": "leo",
+      "text": "And what does a French cat say?",
+      "gap": 0.6,
+      "start": 183.86,
+      "end": 185.61,
+      "words": [
+        {
+          "w": "And",
+          "start": 183.89,
+          "end": 184.039
+        },
+        {
+          "w": "what",
+          "start": 184.039,
+          "end": 184.238
+        },
+        {
+          "w": "does",
+          "start": 184.238,
+          "end": 184.436
+        },
+        {
+          "w": "a",
+          "start": 184.436,
+          "end": 184.585
+        },
+        {
+          "w": "French",
+          "start": 184.585,
+          "end": 184.933
+        },
+        {
+          "w": "cat",
+          "start": 184.933,
+          "end": 185.131
+        },
+        {
+          "w": "say?",
+          "start": 185.131,
+          "end": 185.33
+        }
+      ]
+    },
+    {
+      "beat": "cat_frs",
+      "speaker": "narrator_fr",
+      "text": "Miaou !",
+      "gap": 1.0,
+      "start": 186.23,
+      "lang": "fr",
+      "end": 187.06,
+      "words": [
+        {
+          "w": "Miaou",
+          "start": 186.27,
+          "end": 186.93
+        }
+      ]
+    },
+    {
+      "beat": "cat_use",
+      "speaker": "leo",
+      "text": "The cat naps in the warm hay. Shh!",
+      "gap": 2.6,
+      "start": 188.08,
+      "end": 190.76,
+      "words": [
+        {
+          "w": "The",
+          "start": 188.11,
+          "end": 188.22
+        },
+        {
+          "w": "cat",
+          "start": 188.22,
+          "end": 188.44
+        },
+        {
+          "w": "naps",
+          "start": 188.44,
+          "end": 188.715
+        },
+        {
+          "w": "in",
+          "start": 188.715,
+          "end": 188.88
+        },
+        {
+          "w": "the",
+          "start": 188.88,
+          "end": 188.99
+        },
+        {
+          "w": "warm",
+          "start": 188.99,
+          "end": 189.32
+        },
+        {
+          "w": "hay.",
+          "start": 189.32,
+          "end": 189.54
+        },
+        {
+          "w": "Shh!",
+          "start": 189.67,
+          "end": 190.48
+        }
+      ]
+    },
+    {
+      "beat": "mouse_snd",
+      "speaker": "mouse",
+      "text": "Squeak! Squeak!",
+      "gap": 0.8,
+      "start": 193.38,
+      "end": 194.55,
+      "words": [
+        {
+          "w": "Squeak!",
+          "start": 193.41,
+          "end": 193.93
+        },
+        {
+          "w": "Squeak!",
+          "start": 193.93,
+          "end": 194.45
+        }
+      ]
+    },
+    {
+      "beat": "mouse_q",
+      "speaker": "mila",
+      "text": "Who says squeak? A mouse!",
+      "gap": 1.2,
+      "start": 195.37,
+      "end": 197.24,
+      "words": [
+        {
+          "w": "Who",
+          "start": 195.51,
+          "end": 195.783
+        },
+        {
+          "w": "says",
+          "start": 195.783,
+          "end": 196.056
+        },
+        {
+          "w": "squeak?",
+          "start": 196.056,
+          "end": 196.534
+        },
+        {
+          "w": "A",
+          "start": 196.534,
+          "end": 196.739
+        },
+        {
+          "w": "mouse!",
+          "start": 196.739,
+          "end": 197.08
+        }
+      ]
+    },
+    {
+      "beat": "mouse_2",
+      "speaker": "mila",
+      "text": "Mouse!",
+      "gap": 1.0,
+      "start": 198.46,
+      "end": 199.42,
+      "words": [
+        {
+          "w": "Mouse!",
+          "start": 198.59,
+          "end": 199.3
+        }
+      ]
+    },
+    {
+      "beat": "mouse_turn",
+      "speaker": "mila",
+      "text": "Your turn! Mouse!",
+      "gap": 2.2,
+      "start": 200.44,
+      "end": 201.8,
+      "words": [
+        {
+          "w": "Your",
+          "start": 200.49,
+          "end": 200.762
+        },
+        {
+          "w": "turn!",
+          "start": 200.762,
+          "end": 201.216
+        },
+        {
+          "w": "Mouse!",
+          "start": 201.216,
+          "end": 201.67
+        }
+      ]
+    },
+    {
+      "beat": "mouse_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : la souris.",
+      "gap": 1.2,
+      "start": 204.02,
+      "lang": "fr",
+      "end": 205.39,
+      "words": [
+        {
+          "w": "En",
+          "start": 204.05,
+          "end": 204.197
+        },
+        {
+          "w": "français",
+          "start": 204.197,
+          "end": 204.64
+        },
+        {
+          "w": "la",
+          "start": 204.64,
+          "end": 204.861
+        },
+        {
+          "w": "souris.",
+          "start": 204.861,
+          "end": 205.23
+        }
+      ]
+    },
+    {
+      "beat": "mouse_fr2",
+      "speaker": "narrator_fr",
+      "text": "La souris !",
+      "gap": 1.2,
+      "start": 206.61,
+      "lang": "fr",
+      "end": 207.57,
+      "words": [
+        {
+          "w": "La",
+          "start": 206.64,
+          "end": 206.951
+        },
+        {
+          "w": "souris",
+          "start": 206.951,
+          "end": 207.47
+        }
+      ]
+    },
+    {
+      "beat": "mouse_frs_q",
+      "speaker": "bobo",
+      "text": "And what does a French mouse say?",
+      "gap": 0.6,
+      "start": 208.79,
+      "end": 210.37,
+      "words": [
+        {
+          "w": "And",
+          "start": 208.82,
+          "end": 208.958
+        },
+        {
+          "w": "what",
+          "start": 208.958,
+          "end": 209.142
+        },
+        {
+          "w": "does",
+          "start": 209.142,
+          "end": 209.326
+        },
+        {
+          "w": "a",
+          "start": 209.326,
+          "end": 209.464
+        },
+        {
+          "w": "French",
+          "start": 209.464,
+          "end": 209.786
+        },
+        {
+          "w": "mouse",
+          "start": 209.786,
+          "end": 210.016
+        },
+        {
+          "w": "say?",
+          "start": 210.016,
+          "end": 210.2
+        }
+      ]
+    },
+    {
+      "beat": "mouse_frs",
+      "speaker": "narrator_fr",
+      "text": "Couic, couic !",
+      "gap": 1.0,
+      "start": 210.99,
+      "lang": "fr",
+      "end": 211.9,
+      "words": [
+        {
+          "w": "Couic,",
+          "start": 211.02,
+          "end": 211.415
+        },
+        {
+          "w": "couic",
+          "start": 211.415,
+          "end": 211.81
+        }
+      ]
+    },
+    {
+      "beat": "mouse_use",
+      "speaker": "bobo",
+      "text": "The little mouse lives in the barn. Hello, little mouse!",
+      "gap": 2.6,
+      "start": 212.92,
+      "end": 215.84,
+      "words": [
+        {
+          "w": "The",
+          "start": 212.96,
+          "end": 213.076
+        },
+        {
+          "w": "little",
+          "start": 213.076,
+          "end": 213.423
+        },
+        {
+          "w": "mouse",
+          "start": 213.423,
+          "end": 213.712
+        },
+        {
+          "w": "lives",
+          "start": 213.712,
+          "end": 214.06
+        },
+        {
+          "w": "in",
+          "start": 214.06,
+          "end": 214.233
+        },
+        {
+          "w": "the",
+          "start": 214.233,
+          "end": 214.349
+        },
+        {
+          "w": "barn.",
+          "start": 214.349,
+          "end": 214.696
+        },
+        {
+          "w": "Hello,",
+          "start": 214.696,
+          "end": 215.043
+        },
+        {
+          "w": "little",
+          "start": 215.043,
+          "end": 215.391
+        },
+        {
+          "w": "mouse!",
+          "start": 215.391,
+          "end": 215.68
+        }
+      ]
+    },
+    {
+      "beat": "quiz_mouse",
+      "speaker": "hoot",
+      "text": "Quiz time! Who says woof?",
+      "gap": 4.6,
+      "start": 218.46,
+      "end": 220.48,
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 218.49,
+          "end": 218.875
+        },
+        {
+          "w": "time!",
+          "start": 218.875,
+          "end": 219.26
+        },
+        {
+          "w": "Who",
+          "start": 219.38,
+          "end": 219.691
+        },
+        {
+          "w": "says",
+          "start": 219.691,
+          "end": 220.002
+        },
+        {
+          "w": "woof?",
+          "start": 220.002,
+          "end": 220.39
+        }
+      ]
+    },
+    {
+      "beat": "quiz_mouse_a",
+      "speaker": "mila",
+      "text": "The dog!",
+      "gap": 2.2,
+      "start": 225.1,
+      "end": 226.1,
+      "words": [
+        {
+          "w": "The",
+          "start": 225.15,
+          "end": 225.39
+        },
+        {
+          "w": "dog!",
+          "start": 225.39,
+          "end": 225.99
+        }
+      ]
+    },
+    {
+      "beat": "fr_round",
+      "speaker": "mila",
+      "text": "Now, let's say them all in French!",
+      "gap": 1.2,
+      "start": 228.32,
+      "end": 230.45,
+      "words": [
+        {
+          "w": "Now,",
+          "start": 228.35,
+          "end": 228.608
+        },
+        {
+          "w": "let's",
+          "start": 228.608,
+          "end": 228.931
+        },
+        {
+          "w": "say",
+          "start": 228.931,
+          "end": 229.189
+        },
+        {
+          "w": "them",
+          "start": 229.189,
+          "end": 229.447
+        },
+        {
+          "w": "all",
+          "start": 229.447,
+          "end": 229.705
+        },
+        {
+          "w": "in",
+          "start": 229.705,
+          "end": 229.898
+        },
+        {
+          "w": "French!",
+          "start": 229.898,
+          "end": 230.35
+        }
+      ]
+    },
+    {
+      "beat": "frr_cow",
+      "speaker": "narrator_fr",
+      "text": "La vache.",
+      "gap": 1.1,
+      "start": 231.67,
+      "lang": "fr",
+      "end": 232.56,
+      "words": [
+        {
+          "w": "La",
+          "start": 231.7,
+          "end": 232.021
+        },
+        {
+          "w": "vache.",
+          "start": 232.021,
+          "end": 232.45
+        }
+      ]
+    },
+    {
+      "beat": "frr_pig",
+      "speaker": "narrator_fr",
+      "text": "Le cochon.",
+      "gap": 1.1,
+      "start": 233.68,
+      "lang": "fr",
+      "end": 234.63,
+      "words": [
+        {
+          "w": "Le",
+          "start": 233.72,
+          "end": 234.024
+        },
+        {
+          "w": "cochon.",
+          "start": 234.024,
+          "end": 234.53
+        }
+      ]
+    },
+    {
+      "beat": "frr_sheep",
+      "speaker": "narrator_fr",
+      "text": "Le mouton.",
+      "gap": 1.1,
+      "start": 235.75,
+      "lang": "fr",
+      "end": 236.69,
+      "words": [
+        {
+          "w": "Le",
+          "start": 235.79,
+          "end": 236.086
+        },
+        {
+          "w": "mouton.",
+          "start": 236.086,
+          "end": 236.58
+        }
+      ]
+    },
+    {
+      "beat": "frr_duck",
+      "speaker": "narrator_fr",
+      "text": "Le canard.",
+      "gap": 1.1,
+      "start": 237.81,
+      "lang": "fr",
+      "end": 238.77,
+      "words": [
+        {
+          "w": "Le",
+          "start": 237.85,
+          "end": 238.11
+        },
+        {
+          "w": "canard.",
+          "start": 238.11,
+          "end": 238.63
+        }
+      ]
+    },
+    {
+      "beat": "frr_hen",
+      "speaker": "narrator_fr",
+      "text": "La poule.",
+      "gap": 1.1,
+      "start": 239.89,
+      "lang": "fr",
+      "end": 240.83,
+      "words": [
+        {
+          "w": "La",
+          "start": 239.92,
+          "end": 240.267
+        },
+        {
+          "w": "poule.",
+          "start": 240.267,
+          "end": 240.73
+        }
+      ]
+    },
+    {
+      "beat": "frr_dog",
+      "speaker": "narrator_fr",
+      "text": "Le chien.",
+      "gap": 1.1,
+      "start": 241.95,
+      "lang": "fr",
+      "end": 242.8,
+      "words": [
+        {
+          "w": "Le",
+          "start": 241.99,
+          "end": 242.299
+        },
+        {
+          "w": "chien.",
+          "start": 242.299,
+          "end": 242.71
+        }
+      ]
+    },
+    {
+      "beat": "frr_cat",
+      "speaker": "narrator_fr",
+      "text": "Le chat.",
+      "gap": 1.1,
+      "start": 243.92,
+      "lang": "fr",
+      "end": 244.7,
+      "words": [
+        {
+          "w": "Le",
+          "start": 243.95,
+          "end": 244.27
+        },
+        {
+          "w": "chat.",
+          "start": 244.27,
+          "end": 244.59
+        }
+      ]
+    },
+    {
+      "beat": "frr_mouse",
+      "speaker": "narrator_fr",
+      "text": "La souris.",
+      "gap": 1.1,
+      "start": 245.82,
+      "lang": "fr",
+      "end": 246.73,
+      "words": [
+        {
+          "w": "La",
+          "start": 245.84,
+          "end": 246.125
+        },
+        {
+          "w": "souris.",
+          "start": 246.125,
+          "end": 246.6
+        }
+      ]
+    },
+    {
+      "beat": "fr_yay",
+      "speaker": "leo",
+      "text": "Wow! You speak French! Bravo!",
+      "gap": 2.0,
+      "start": 247.85,
+      "end": 249.8,
+      "words": [
+        {
+          "w": "Wow!",
+          "start": 247.88,
+          "end": 248.114
+        },
+        {
+          "w": "You",
+          "start": 248.114,
+          "end": 248.29
+        },
+        {
+          "w": "speak",
+          "start": 248.29,
+          "end": 248.641
+        },
+        {
+          "w": "French!",
+          "start": 248.641,
+          "end": 249.051
+        },
+        {
+          "w": "Bravo!",
+          "start": 249.051,
+          "end": 249.52
+        }
+      ]
+    },
+    {
+      "beat": "game",
+      "speaker": "hoot",
+      "text": "French animal sounds! Who is it?",
+      "gap": 1.0,
+      "start": 251.82,
+      "end": 254.31,
+      "words": [
+        {
+          "w": "French",
+          "start": 251.87,
+          "end": 252.34
+        },
+        {
+          "w": "animal",
+          "start": 252.34,
+          "end": 252.81
+        },
+        {
+          "w": "sounds!",
+          "start": 252.81,
+          "end": 253.28
+        },
+        {
+          "w": "Who",
+          "start": 253.5,
+          "end": 253.86
+        },
+        {
+          "w": "is",
+          "start": 253.86,
+          "end": 254.04
+        },
+        {
+          "w": "it?",
+          "start": 254.04,
+          "end": 254.22
+        }
+      ]
+    },
+    {
+      "beat": "gA_s",
+      "speaker": "narrator_fr",
+      "text": "Coin-coin !",
+      "gap": 0.6,
+      "start": 255.33,
+      "lang": "fr",
+      "end": 256.18,
+      "words": [
+        {
+          "w": "Coin-coin",
+          "start": 255.36,
+          "end": 256.07
+        }
+      ]
+    },
+    {
+      "beat": "gA",
+      "speaker": "hoot",
+      "text": "Who says coin, coin?",
+      "gap": 4.6,
+      "start": 256.8,
+      "tts": "Who says, kwan, kwan?",
+      "end": 258.63,
+      "words": [
+        {
+          "w": "Who",
+          "start": 256.83,
+          "end": 257.212
+        },
+        {
+          "w": "says",
+          "start": 257.212,
+          "end": 257.594
+        },
+        {
+          "w": "coin,",
+          "start": 257.594,
+          "end": 258.072
+        },
+        {
+          "w": "coin?",
+          "start": 258.072,
+          "end": 258.55
+        }
+      ]
+    },
+    {
+      "beat": "gA_leo",
+      "speaker": "leo",
+      "text": "The cat!",
+      "gap": 0.8,
+      "start": 263.25,
+      "end": 264.02,
+      "words": [
+        {
+          "w": "The",
+          "start": 263.28,
+          "end": 263.497
+        },
+        {
+          "w": "cat!",
+          "start": 263.497,
+          "end": 263.93
+        }
+      ]
+    },
+    {
+      "beat": "gA_a",
+      "speaker": "mila",
+      "text": "No! The duck! Le canard!",
+      "gap": 2.2,
+      "start": 264.84,
+      "end": 266.61,
+      "words": [
+        {
+          "w": "No!",
+          "start": 264.88,
+          "end": 265.2
+        },
+        {
+          "w": "The",
+          "start": 265.2,
+          "end": 265.36
+        },
+        {
+          "w": "duck!",
+          "start": 265.36,
+          "end": 265.68
+        },
+        {
+          "w": "Le",
+          "start": 265.68,
+          "end": 265.84
+        },
+        {
+          "w": "canard!",
+          "start": 265.84,
+          "end": 266.48
+        }
+      ]
+    },
+    {
+      "beat": "gB_s",
+      "speaker": "narrator_fr",
+      "text": "Meuh !",
+      "gap": 0.6,
+      "start": 268.83,
+      "lang": "fr",
+      "end": 269.43,
+      "words": [
+        {
+          "w": "Meuh",
+          "start": 268.86,
+          "end": 269.32
+        }
+      ]
+    },
+    {
+      "beat": "gB",
+      "speaker": "hoot",
+      "text": "Who says meuh?",
+      "gap": 4.6,
+      "start": 270.05,
+      "tts": "Who says, meuh?",
+      "end": 271.45,
+      "words": [
+        {
+          "w": "Who",
+          "start": 270.07,
+          "end": 270.47
+        },
+        {
+          "w": "says",
+          "start": 270.47,
+          "end": 270.87
+        },
+        {
+          "w": "meuh?",
+          "start": 270.87,
+          "end": 271.37
+        }
+      ]
+    },
+    {
+      "beat": "gB_a",
+      "speaker": "bobo",
+      "text": "The cow! La vache!",
+      "gap": 2.2,
+      "start": 276.07,
+      "end": 277.18,
+      "words": [
+        {
+          "w": "The",
+          "start": 276.1,
+          "end": 276.252
+        },
+        {
+          "w": "cow!",
+          "start": 276.252,
+          "end": 276.557
+        },
+        {
+          "w": "La",
+          "start": 276.557,
+          "end": 276.785
+        },
+        {
+          "w": "vache!",
+          "start": 276.785,
+          "end": 277.09
+        }
+      ]
+    },
+    {
+      "beat": "gC_s",
+      "speaker": "narrator_fr",
+      "text": "Miaou !",
+      "gap": 0.6,
+      "start": 279.4,
+      "lang": "fr",
+      "end": 280.23,
+      "words": [
+        {
+          "w": "Miaou",
+          "start": 279.44,
+          "end": 280.1
+        }
+      ]
+    },
+    {
+      "beat": "gC",
+      "speaker": "hoot",
+      "text": "And who says miaou?",
+      "gap": 4.6,
+      "start": 280.85,
+      "tts": "And who says, mee-ow?",
+      "end": 282.77,
+      "words": [
+        {
+          "w": "And",
+          "start": 280.87,
+          "end": 281.118
+        },
+        {
+          "w": "who",
+          "start": 281.118,
+          "end": 281.449
+        },
+        {
+          "w": "says",
+          "start": 281.449,
+          "end": 281.78
+        },
+        {
+          "w": "miaou?",
+          "start": 281.97,
+          "end": 282.68
+        }
+      ]
+    },
+    {
+      "beat": "gC_a",
+      "speaker": "leo",
+      "text": "The cat! Le chat! I got it!",
+      "gap": 2.2,
+      "start": 287.39,
+      "end": 289.2,
+      "words": [
+        {
+          "w": "The",
+          "start": 287.42,
+          "end": 287.552
+        },
+        {
+          "w": "cat!",
+          "start": 287.552,
+          "end": 287.817
+        },
+        {
+          "w": "Le",
+          "start": 287.817,
+          "end": 287.949
+        },
+        {
+          "w": "chat!",
+          "start": 287.949,
+          "end": 288.279
+        },
+        {
+          "w": "I",
+          "start": 288.279,
+          "end": 288.477
+        },
+        {
+          "w": "got",
+          "start": 288.477,
+          "end": 288.808
+        },
+        {
+          "w": "it!",
+          "start": 288.808,
+          "end": 288.94
+        }
+      ]
+    },
+    {
+      "beat": "rem",
+      "speaker": "mila",
+      "text": "Let's remember!",
+      "gap": 1.0,
+      "start": 291.42,
+      "end": 292.69,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 291.53,
+          "end": 291.93
+        },
+        {
+          "w": "remember!",
+          "start": 291.93,
+          "end": 292.57
+        }
+      ]
+    },
+    {
+      "beat": "rq1",
+      "speaker": "hoot",
+      "text": "Which animal gives us milk?",
+      "gap": 4.6,
+      "start": 293.71,
+      "end": 295.71,
+      "words": [
+        {
+          "w": "Which",
+          "start": 293.73,
+          "end": 294.11
+        },
+        {
+          "w": "animal",
+          "start": 294.11,
+          "end": 294.642
+        },
+        {
+          "w": "gives",
+          "start": 294.642,
+          "end": 295.022
+        },
+        {
+          "w": "us",
+          "start": 295.022,
+          "end": 295.25
+        },
+        {
+          "w": "milk?",
+          "start": 295.25,
+          "end": 295.63
+        }
+      ]
+    },
+    {
+      "beat": "ra1",
+      "speaker": "leo",
+      "text": "The cow!",
+      "gap": 1.8,
+      "start": 300.33,
+      "end": 301.18,
+      "words": [
+        {
+          "w": "The",
+          "start": 300.36,
+          "end": 300.583
+        },
+        {
+          "w": "cow!",
+          "start": 300.583,
+          "end": 301.03
+        }
+      ]
+    },
+    {
+      "beat": "rq2",
+      "speaker": "hoot",
+      "text": "Who has soft, fluffy wool?",
+      "gap": 4.6,
+      "start": 303.0,
+      "end": 304.98,
+      "words": [
+        {
+          "w": "Who",
+          "start": 303.03,
+          "end": 303.261
+        },
+        {
+          "w": "has",
+          "start": 303.261,
+          "end": 303.492
+        },
+        {
+          "w": "soft,",
+          "start": 303.492,
+          "end": 303.78
+        },
+        {
+          "w": "fluffy",
+          "start": 303.94,
+          "end": 304.516
+        },
+        {
+          "w": "wool?",
+          "start": 304.516,
+          "end": 304.9
+        }
+      ]
+    },
+    {
+      "beat": "ra2",
+      "speaker": "bobo",
+      "text": "The sheep!",
+      "gap": 1.8,
+      "start": 309.6,
+      "end": 310.3,
+      "words": [
+        {
+          "w": "The",
+          "start": 309.63,
+          "end": 309.801
+        },
+        {
+          "w": "sheep!",
+          "start": 309.801,
+          "end": 310.23
+        }
+      ]
+    },
+    {
+      "beat": "rq3",
+      "speaker": "hoot",
+      "text": "How do you say dog, in French?",
+      "gap": 4.6,
+      "start": 312.12,
+      "end": 314.36,
+      "words": [
+        {
+          "w": "How",
+          "start": 312.16,
+          "end": 312.408
+        },
+        {
+          "w": "do",
+          "start": 312.408,
+          "end": 312.657
+        },
+        {
+          "w": "you",
+          "start": 312.657,
+          "end": 312.843
+        },
+        {
+          "w": "say",
+          "start": 312.843,
+          "end": 313.092
+        },
+        {
+          "w": "dog,",
+          "start": 313.092,
+          "end": 313.34
+        },
+        {
+          "w": "in",
+          "start": 313.52,
+          "end": 313.742
+        },
+        {
+          "w": "French?",
+          "start": 313.742,
+          "end": 314.26
+        }
+      ]
+    },
+    {
+      "beat": "ra3",
+      "speaker": "narrator_fr",
+      "text": "Le chien !",
+      "gap": 1.8,
+      "start": 318.98,
+      "lang": "fr",
+      "end": 319.83,
+      "words": [
+        {
+          "w": "Le",
+          "start": 319.01,
+          "end": 319.323
+        },
+        {
+          "w": "chien",
+          "start": 319.323,
+          "end": 319.74
+        }
+      ]
+    },
+    {
+      "beat": "chant",
+      "speaker": "mila",
+      "text": "Cow, pig, sheep, and duck!",
+      "gap": 0.6,
+      "start": 321.65,
+      "end": 323.46,
+      "words": [
+        {
+          "w": "Cow,",
+          "start": 321.69,
+          "end": 322.012
+        },
+        {
+          "w": "pig,",
+          "start": 322.012,
+          "end": 322.334
+        },
+        {
+          "w": "sheep,",
+          "start": 322.334,
+          "end": 322.737
+        },
+        {
+          "w": "and",
+          "start": 322.737,
+          "end": 322.978
+        },
+        {
+          "w": "duck!",
+          "start": 322.978,
+          "end": 323.3
+        }
+      ]
+    },
+    {
+      "beat": "chant2",
+      "speaker": "leo",
+      "text": "Hen, dog, cat, and mouse!",
+      "gap": 1.0,
+      "start": 324.08,
+      "end": 325.82,
+      "words": [
+        {
+          "w": "Hen,",
+          "start": 324.11,
+          "end": 324.386
+        },
+        {
+          "w": "dog,",
+          "start": 324.386,
+          "end": 324.731
+        },
+        {
+          "w": "cat,",
+          "start": 324.731,
+          "end": 325.008
+        },
+        {
+          "w": "and",
+          "start": 325.008,
+          "end": 325.215
+        },
+        {
+          "w": "mouse!",
+          "start": 325.215,
+          "end": 325.56
+        }
+      ]
+    },
+    {
+      "beat": "all",
+      "speaker": "cow",
+      "text": "Moo!",
+      "gap": 0.2,
+      "start": 326.84,
+      "end": 327.52,
+      "words": [
+        {
+          "w": "Moo!",
+          "start": 326.88,
+          "end": 327.47
+        }
+      ]
+    },
+    {
+      "beat": "all2",
+      "speaker": "duck",
+      "text": "Quack!",
+      "gap": 0.2,
+      "start": 327.74,
+      "end": 328.59,
+      "words": [
+        {
+          "w": "Quack!",
+          "start": 327.8,
+          "end": 328.38
+        }
+      ]
+    },
+    {
+      "beat": "all3",
+      "speaker": "dog",
+      "text": "Woof!",
+      "gap": 1.0,
+      "start": 328.81,
+      "end": 329.75,
+      "words": [
+        {
+          "w": "Woof!",
+          "start": 328.85,
+          "end": 329.51
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "text": "Bye bye, friends!",
+      "gap": 0.3,
+      "start": 330.77,
+      "end": 332.3,
+      "words": [
+        {
+          "w": "Bye",
+          "start": 330.87,
+          "end": 331.214
+        },
+        {
+          "w": "bye,",
+          "start": 331.214,
+          "end": 331.558
+        },
+        {
+          "w": "friends!",
+          "start": 331.558,
+          "end": 332.16
+        }
+      ]
+    },
+    {
+      "beat": "bye_fr",
+      "speaker": "mila",
+      "text": "Au revoir !",
+      "gap": 0.5,
+      "start": 332.62,
+      "lang": "fr",
+      "end": 333.55,
+      "words": [
+        {
+          "w": "Au",
+          "start": 332.65,
+          "end": 332.744
+        },
+        {
+          "w": "revoir",
+          "start": 332.744,
+          "end": 333.4
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "bobo",
+      "text": "See you next time, on Tiny Sparks!",
+      "gap": 0.5,
+      "start": 334.07,
+      "end": 336.05,
+      "words": [
+        {
+          "w": "See",
+          "start": 334.11,
+          "end": 334.318
+        },
+        {
+          "w": "you",
+          "start": 334.318,
+          "end": 334.474
+        },
+        {
+          "w": "next",
+          "start": 334.474,
+          "end": 334.786
+        },
+        {
+          "w": "time,",
+          "start": 334.786,
+          "end": 335.046
+        },
+        {
+          "w": "on",
+          "start": 335.046,
+          "end": 335.202
+        },
+        {
+          "w": "Tiny",
+          "start": 335.202,
+          "end": 335.514
+        },
+        {
+          "w": "Sparks!",
+          "start": 335.514,
+          "end": 335.93
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "cow_snd",
+      "start": 0.3,
+      "visual": "Moo! Moo!",
+      "end": 2.25
+    },
+    {
+      "id": "cow_q",
+      "start": 2.25,
+      "visual": "Listen! Who says moo? A cow!",
+      "end": 5.56
+    },
+    {
+      "id": "premise",
+      "start": 5.56,
+      "visual": "Let's meet the farm animals, in English, and in French!",
+      "end": 9.77
+    },
+    {
+      "id": "cow_2",
+      "start": 9.77,
+      "visual": "Cow!",
+      "end": 11.64
+    },
+    {
+      "id": "cow_turn",
+      "start": 11.64,
+      "visual": "Your turn! Cow!",
+      "end": 15.17
+    },
+    {
+      "id": "cow_fr",
+      "start": 15.17,
+      "visual": "En français : la vache.",
+      "end": 17.8
+    },
+    {
+      "id": "cow_fr2",
+      "start": 17.8,
+      "visual": "La vache !",
+      "end": 19.94
+    },
+    {
+      "id": "cow_frs_q",
+      "start": 19.94,
+      "visual": "And what does a French cow say?",
+      "end": 22.35
+    },
+    {
+      "id": "cow_frs",
+      "start": 22.35,
+      "visual": "Meuh ! Meuh !",
+      "end": 24.24
+    },
+    {
+      "id": "cow_use",
+      "start": 24.24,
+      "visual": "The cow gives us milk. Yum!",
+      "end": 28.92
+    },
+    {
+      "id": "pig_snd",
+      "start": 28.92,
+      "visual": "Oink! Oink!",
+      "end": 30.58
+    },
+    {
+      "id": "pig_q",
+      "start": 30.58,
+      "visual": "Who says oink? A pig!",
+      "end": 33.42
+    },
+    {
+      "id": "pig_2",
+      "start": 33.42,
+      "visual": "Pig!",
+      "end": 35.27
+    },
+    {
+      "id": "pig_turn",
+      "start": 35.27,
+      "visual": "Your turn! Pig!",
+      "end": 38.78
+    },
+    {
+      "id": "pig_fr",
+      "start": 38.78,
+      "visual": "En français : le cochon.",
+      "end": 41.4
+    },
+    {
+      "id": "pig_fr2",
+      "start": 41.4,
+      "visual": "Le cochon !",
+      "end": 43.6
+    },
+    {
+      "id": "pig_frs_q",
+      "start": 43.6,
+      "visual": "And what does a French pig say?",
+      "end": 45.71
+    },
+    {
+      "id": "pig_frs",
+      "start": 45.71,
+      "visual": "Groin, groin !",
+      "end": 47.81
+    },
+    {
+      "id": "pig_use",
+      "start": 47.81,
+      "visual": "The pig loves to roll in the mud. Splash!",
+      "end": 52.77
+    },
+    {
+      "id": "sheep_snd",
+      "start": 52.77,
+      "visual": "Baa! Baa!",
+      "end": 54.42
+    },
+    {
+      "id": "sheep_q",
+      "start": 54.42,
+      "visual": "Who says baa? A sheep!",
+      "end": 57.34
+    },
+    {
+      "id": "sheep_2",
+      "start": 57.34,
+      "visual": "Sheep!",
+      "end": 59.14
+    },
+    {
+      "id": "sheep_turn",
+      "start": 59.14,
+      "visual": "Your turn! Sheep!",
+      "end": 62.8
+    },
+    {
+      "id": "sheep_fr",
+      "start": 62.8,
+      "visual": "En français : le mouton.",
+      "end": 65.34
+    },
+    {
+      "id": "sheep_fr2",
+      "start": 65.34,
+      "visual": "Le mouton !",
+      "end": 67.52
+    },
+    {
+      "id": "sheep_frs_q",
+      "start": 67.52,
+      "visual": "And what does a French sheep say?",
+      "end": 69.91
+    },
+    {
+      "id": "sheep_frs",
+      "start": 69.91,
+      "visual": "Bêê ! Bêê !",
+      "end": 71.97
+    },
+    {
+      "id": "sheep_use",
+      "start": 71.97,
+      "visual": "The sheep has soft, fluffy wool.",
+      "end": 76.57
+    },
+    {
+      "id": "quiz_sheep",
+      "start": 76.57,
+      "visual": "Quiz time! Who says moo?",
+      "end": 83.15
+    },
+    {
+      "id": "quiz_sheep_a",
+      "start": 83.15,
+      "visual": "The cow!",
+      "end": 86.39
+    },
+    {
+      "id": "duck_snd",
+      "start": 86.39,
+      "visual": "Quack! Quack!",
+      "end": 88.5
+    },
+    {
+      "id": "duck_q",
+      "start": 88.5,
+      "visual": "Who says quack? A duck!",
+      "end": 91.36
+    },
+    {
+      "id": "duck_2",
+      "start": 91.36,
+      "visual": "Duck!",
+      "end": 93.12
+    },
+    {
+      "id": "duck_turn",
+      "start": 93.12,
+      "visual": "Your turn! Duck!",
+      "end": 96.7
+    },
+    {
+      "id": "duck_fr",
+      "start": 96.7,
+      "visual": "En français : le canard.",
+      "end": 99.37
+    },
+    {
+      "id": "duck_fr2",
+      "start": 99.37,
+      "visual": "Le canard !",
+      "end": 101.57
+    },
+    {
+      "id": "duck_frs_q",
+      "start": 101.57,
+      "visual": "And what does a French duck say?",
+      "end": 103.67
+    },
+    {
+      "id": "duck_frs",
+      "start": 103.67,
+      "visual": "Coin-coin !",
+      "end": 105.54
+    },
+    {
+      "id": "duck_use",
+      "start": 105.54,
+      "visual": "The duck swims in the pond. Paddle, paddle!",
+      "end": 110.56
+    },
+    {
+      "id": "hen_snd",
+      "start": 110.56,
+      "visual": "Cluck! Cluck!",
+      "end": 112.6
+    },
+    {
+      "id": "hen_q",
+      "start": 112.6,
+      "visual": "Who says cluck? A hen!",
+      "end": 115.44
+    },
+    {
+      "id": "hen_2",
+      "start": 115.44,
+      "visual": "Hen!",
+      "end": 117.31
+    },
+    {
+      "id": "hen_turn",
+      "start": 117.31,
+      "visual": "Your turn! Hen!",
+      "end": 120.85
+    },
+    {
+      "id": "hen_fr",
+      "start": 120.85,
+      "visual": "En français : la poule.",
+      "end": 123.45
+    },
+    {
+      "id": "hen_fr2",
+      "start": 123.45,
+      "visual": "La poule !",
+      "end": 125.69
+    },
+    {
+      "id": "hen_frs_q",
+      "start": 125.69,
+      "visual": "And what does a French hen say?",
+      "end": 128.12
+    },
+    {
+      "id": "hen_frs",
+      "start": 128.12,
+      "visual": "Cot, cot, codet !",
+      "end": 130.29
+    },
+    {
+      "id": "hen_use",
+      "start": 130.29,
+      "visual": "The hen lays eggs in her nest. Look, an egg!",
+      "end": 135.5
+    },
+    {
+      "id": "quiz_hen",
+      "start": 135.5,
+      "visual": "Quiz time! Who says quack?",
+      "end": 142.14
+    },
+    {
+      "id": "quiz_hen_a",
+      "start": 142.14,
+      "visual": "The duck!",
+      "end": 145.25
+    },
+    {
+      "id": "dog_snd",
+      "start": 145.25,
+      "visual": "Woof! Woof!",
+      "end": 147.41
+    },
+    {
+      "id": "dog_q",
+      "start": 147.41,
+      "visual": "Who says woof? A dog!",
+      "end": 150.27
+    },
+    {
+      "id": "dog_2",
+      "start": 150.27,
+      "visual": "Dog!",
+      "end": 152.14
+    },
+    {
+      "id": "dog_turn",
+      "start": 152.14,
+      "visual": "Your turn! Dog!",
+      "end": 155.72
+    },
+    {
+      "id": "dog_fr",
+      "start": 155.72,
+      "visual": "En français : le chien.",
+      "end": 158.26
+    },
+    {
+      "id": "dog_fr2",
+      "start": 158.26,
+      "visual": "Le chien !",
+      "end": 160.33
+    },
+    {
+      "id": "dog_frs_q",
+      "start": 160.33,
+      "visual": "And what does a French dog say?",
+      "end": 162.52
+    },
+    {
+      "id": "dog_frs",
+      "start": 162.52,
+      "visual": "Ouaf ! Ouaf !",
+      "end": 164.56
+    },
+    {
+      "id": "dog_use",
+      "start": 164.56,
+      "visual": "The dog helps the farmer. Good dog!",
+      "end": 169.27
+    },
+    {
+      "id": "cat_snd",
+      "start": 169.27,
+      "visual": "Meow! Meow!",
+      "end": 171.05
+    },
+    {
+      "id": "cat_q",
+      "start": 171.05,
+      "visual": "Who says meow? A cat!",
+      "end": 174.01
+    },
+    {
+      "id": "cat_2",
+      "start": 174.01,
+      "visual": "Cat!",
+      "end": 175.84
+    },
+    {
+      "id": "cat_turn",
+      "start": 175.84,
+      "visual": "Your turn! Cat!",
+      "end": 179.36
+    },
+    {
+      "id": "cat_fr",
+      "start": 179.36,
+      "visual": "En français : le chat.",
+      "end": 181.81
+    },
+    {
+      "id": "cat_fr2",
+      "start": 181.81,
+      "visual": "Le chat !",
+      "end": 183.86
+    },
+    {
+      "id": "cat_frs_q",
+      "start": 183.86,
+      "visual": "And what does a French cat say?",
+      "end": 186.23
+    },
+    {
+      "id": "cat_frs",
+      "start": 186.23,
+      "visual": "Miaou !",
+      "end": 188.08
+    },
+    {
+      "id": "cat_use",
+      "start": 188.08,
+      "visual": "The cat naps in the warm hay. Shh!",
+      "end": 193.38
+    },
+    {
+      "id": "mouse_snd",
+      "start": 193.38,
+      "visual": "Squeak! Squeak!",
+      "end": 195.37
+    },
+    {
+      "id": "mouse_q",
+      "start": 195.37,
+      "visual": "Who says squeak? A mouse!",
+      "end": 198.46
+    },
+    {
+      "id": "mouse_2",
+      "start": 198.46,
+      "visual": "Mouse!",
+      "end": 200.44
+    },
+    {
+      "id": "mouse_turn",
+      "start": 200.44,
+      "visual": "Your turn! Mouse!",
+      "end": 204.02
+    },
+    {
+      "id": "mouse_fr",
+      "start": 204.02,
+      "visual": "En français : la souris.",
+      "end": 206.61
+    },
+    {
+      "id": "mouse_fr2",
+      "start": 206.61,
+      "visual": "La souris !",
+      "end": 208.79
+    },
+    {
+      "id": "mouse_frs_q",
+      "start": 208.79,
+      "visual": "And what does a French mouse say?",
+      "end": 210.99
+    },
+    {
+      "id": "mouse_frs",
+      "start": 210.99,
+      "visual": "Couic, couic !",
+      "end": 212.92
+    },
+    {
+      "id": "mouse_use",
+      "start": 212.92,
+      "visual": "The little mouse lives in the barn. Hello, little mouse!",
+      "end": 218.46
+    },
+    {
+      "id": "quiz_mouse",
+      "start": 218.46,
+      "visual": "Quiz time! Who says woof?",
+      "end": 225.1
+    },
+    {
+      "id": "quiz_mouse_a",
+      "start": 225.1,
+      "visual": "The dog!",
+      "end": 228.32
+    },
+    {
+      "id": "fr_round",
+      "start": 228.32,
+      "visual": "Now, let's say them all in French!",
+      "end": 231.67
+    },
+    {
+      "id": "frr_cow",
+      "start": 231.67,
+      "visual": "La vache.",
+      "end": 233.68
+    },
+    {
+      "id": "frr_pig",
+      "start": 233.68,
+      "visual": "Le cochon.",
+      "end": 235.75
+    },
+    {
+      "id": "frr_sheep",
+      "start": 235.75,
+      "visual": "Le mouton.",
+      "end": 237.81
+    },
+    {
+      "id": "frr_duck",
+      "start": 237.81,
+      "visual": "Le canard.",
+      "end": 239.89
+    },
+    {
+      "id": "frr_hen",
+      "start": 239.89,
+      "visual": "La poule.",
+      "end": 241.95
+    },
+    {
+      "id": "frr_dog",
+      "start": 241.95,
+      "visual": "Le chien.",
+      "end": 243.92
+    },
+    {
+      "id": "frr_cat",
+      "start": 243.92,
+      "visual": "Le chat.",
+      "end": 245.82
+    },
+    {
+      "id": "frr_mouse",
+      "start": 245.82,
+      "visual": "La souris.",
+      "end": 247.85
+    },
+    {
+      "id": "fr_yay",
+      "start": 247.85,
+      "visual": "Wow! You speak French! Bravo!",
+      "end": 251.82
+    },
+    {
+      "id": "game",
+      "start": 251.82,
+      "visual": "French animal sounds! Who is it?",
+      "end": 255.33
+    },
+    {
+      "id": "gA_s",
+      "start": 255.33,
+      "visual": "Coin-coin !",
+      "end": 256.8
+    },
+    {
+      "id": "gA",
+      "start": 256.8,
+      "visual": "Who says coin, coin?",
+      "end": 263.25
+    },
+    {
+      "id": "gA_leo",
+      "start": 263.25,
+      "visual": "The cat!",
+      "end": 264.84
+    },
+    {
+      "id": "gA_a",
+      "start": 264.84,
+      "visual": "No! The duck! Le canard!",
+      "end": 268.83
+    },
+    {
+      "id": "gB_s",
+      "start": 268.83,
+      "visual": "Meuh !",
+      "end": 270.05
+    },
+    {
+      "id": "gB",
+      "start": 270.05,
+      "visual": "Who says meuh?",
+      "end": 276.07
+    },
+    {
+      "id": "gB_a",
+      "start": 276.07,
+      "visual": "The cow! La vache!",
+      "end": 279.4
+    },
+    {
+      "id": "gC_s",
+      "start": 279.4,
+      "visual": "Miaou !",
+      "end": 280.85
+    },
+    {
+      "id": "gC",
+      "start": 280.85,
+      "visual": "And who says miaou?",
+      "end": 287.39
+    },
+    {
+      "id": "gC_a",
+      "start": 287.39,
+      "visual": "The cat! Le chat! I got it!",
+      "end": 291.42
+    },
+    {
+      "id": "rem",
+      "start": 291.42,
+      "visual": "Let's remember!",
+      "end": 293.71
+    },
+    {
+      "id": "rq1",
+      "start": 293.71,
+      "visual": "Which animal gives us milk?",
+      "end": 300.33
+    },
+    {
+      "id": "ra1",
+      "start": 300.33,
+      "visual": "The cow!",
+      "end": 303.0
+    },
+    {
+      "id": "rq2",
+      "start": 303.0,
+      "visual": "Who has soft, fluffy wool?",
+      "end": 309.6
+    },
+    {
+      "id": "ra2",
+      "start": 309.6,
+      "visual": "The sheep!",
+      "end": 312.12
+    },
+    {
+      "id": "rq3",
+      "start": 312.12,
+      "visual": "How do you say dog, in French?",
+      "end": 318.98
+    },
+    {
+      "id": "ra3",
+      "start": 318.98,
+      "visual": "Le chien !",
+      "end": 321.65
+    },
+    {
+      "id": "chant",
+      "start": 321.65,
+      "visual": "Cow, pig, sheep, and duck!",
+      "end": 324.08
+    },
+    {
+      "id": "chant2",
+      "start": 324.08,
+      "visual": "Hen, dog, cat, and mouse!",
+      "end": 326.84
+    },
+    {
+      "id": "all",
+      "start": 326.84,
+      "visual": "Moo!",
+      "end": 327.74
+    },
+    {
+      "id": "all2",
+      "start": 327.74,
+      "visual": "Quack!",
+      "end": 328.81
+    },
+    {
+      "id": "all3",
+      "start": 328.81,
+      "visual": "Woof!",
+      "end": 330.77
+    },
+    {
+      "id": "bye",
+      "start": 330.77,
+      "visual": "Bye bye, friends!",
+      "end": 332.62
+    },
+    {
+      "id": "bye_fr",
+      "start": 332.62,
+      "visual": "Au revoir !",
+      "end": 334.07
+    },
+    {
+      "id": "bye2",
+      "start": 334.07,
+      "visual": "See you next time, on Tiny Sparks!",
+      "end": 342.4
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

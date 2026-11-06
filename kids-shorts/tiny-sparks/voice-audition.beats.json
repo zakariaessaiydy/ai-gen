@@ -1,0 +1,753 @@
+{
+  "id": "voice-audition",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 68.5
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "A": {
+      "kokoro": "af_bella",
+      "pitch": 4,
+      "formant": false,
+      "rate": "-4%"
+    },
+    "B": {
+      "kokoro": "af_heart",
+      "pitch": 4,
+      "formant": false,
+      "rate": "-4%"
+    },
+    "C": {
+      "kokoro": "af_nova",
+      "pitch": 3,
+      "formant": false,
+      "rate": "-4%"
+    },
+    "D": {
+      "kokoro": "am_puck",
+      "pitch": 4,
+      "formant": false,
+      "rate": "-4%"
+    },
+    "E": {
+      "kokoro": "am_echo",
+      "pitch": 4,
+      "formant": false,
+      "rate": "-4%"
+    },
+    "F": {
+      "kokoro": "am_fenrir",
+      "pitch": 2,
+      "formant": true,
+      "rate": "-4%"
+    },
+    "G": {
+      "kokoro": "am_puck",
+      "pitch": -2,
+      "formant": true,
+      "rate": "-4%"
+    },
+    "H": {
+      "kokoro": "af_heart",
+      "pitch": 0,
+      "formant": false,
+      "rate": "-4%"
+    },
+    "I": {
+      "kokoro": "bf_emma",
+      "pitch": 0,
+      "formant": false,
+      "rate": "-4%"
+    },
+    "J": {
+      "kokoro": "ff_siwis",
+      "pitch": 0,
+      "formant": false,
+      "rate": "-4%"
+    },
+    "K": {
+      "kokoro": "ff_siwis",
+      "pitch": 4,
+      "formant": false,
+      "rate": "-4%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "a",
+      "speaker": "A",
+      "start": 0.3,
+      "end": 3.56,
+      "text": "Hi! I'm Mila. Let's count to five! One, two, three!",
+      "words": [
+        {
+          "w": "Hi!",
+          "start": 0.34,
+          "end": 0.611
+        },
+        {
+          "w": "I'm",
+          "start": 0.611,
+          "end": 0.814
+        },
+        {
+          "w": "Mila.",
+          "start": 0.814,
+          "end": 1.221
+        },
+        {
+          "w": "Let's",
+          "start": 1.221,
+          "end": 1.56
+        },
+        {
+          "w": "count",
+          "start": 1.56,
+          "end": 1.967
+        },
+        {
+          "w": "to",
+          "start": 1.967,
+          "end": 2.17
+        },
+        {
+          "w": "five!",
+          "start": 2.17,
+          "end": 2.509
+        },
+        {
+          "w": "One,",
+          "start": 2.509,
+          "end": 2.78
+        },
+        {
+          "w": "two,",
+          "start": 2.78,
+          "end": 3.051
+        },
+        {
+          "w": "three!",
+          "start": 3.051,
+          "end": 3.39
+        }
+      ]
+    },
+    {
+      "beat": "a",
+      "speaker": "B",
+      "start": 6.3,
+      "end": 9.43,
+      "text": "Hi! I'm Mila. Let's count to five! One, two, three!",
+      "words": [
+        {
+          "w": "Hi!",
+          "start": 6.35,
+          "end": 6.614
+        },
+        {
+          "w": "I'm",
+          "start": 6.614,
+          "end": 6.812
+        },
+        {
+          "w": "Mila.",
+          "start": 6.812,
+          "end": 7.208
+        },
+        {
+          "w": "Let's",
+          "start": 7.208,
+          "end": 7.538
+        },
+        {
+          "w": "count",
+          "start": 7.538,
+          "end": 7.934
+        },
+        {
+          "w": "to",
+          "start": 7.934,
+          "end": 8.132
+        },
+        {
+          "w": "five!",
+          "start": 8.132,
+          "end": 8.462
+        },
+        {
+          "w": "One,",
+          "start": 8.462,
+          "end": 8.726
+        },
+        {
+          "w": "two,",
+          "start": 8.726,
+          "end": 8.99
+        },
+        {
+          "w": "three!",
+          "start": 8.99,
+          "end": 9.32
+        }
+      ]
+    },
+    {
+      "beat": "a",
+      "speaker": "C",
+      "start": 12.3,
+      "end": 15.71,
+      "text": "Hi! I'm Mila. Let's count to five! One, two, three!",
+      "words": [
+        {
+          "w": "Hi!",
+          "start": 12.35,
+          "end": 12.598
+        },
+        {
+          "w": "I'm",
+          "start": 12.598,
+          "end": 12.784
+        },
+        {
+          "w": "Mila.",
+          "start": 12.784,
+          "end": 13.156
+        },
+        {
+          "w": "Let's",
+          "start": 13.156,
+          "end": 13.466
+        },
+        {
+          "w": "count",
+          "start": 13.466,
+          "end": 13.838
+        },
+        {
+          "w": "to",
+          "start": 13.838,
+          "end": 14.024
+        },
+        {
+          "w": "five!",
+          "start": 14.024,
+          "end": 14.334
+        },
+        {
+          "w": "One,",
+          "start": 14.334,
+          "end": 14.582
+        },
+        {
+          "w": "two,",
+          "start": 14.582,
+          "end": 14.83
+        },
+        {
+          "w": "three!",
+          "start": 14.83,
+          "end": 15.14
+        }
+      ]
+    },
+    {
+      "beat": "a",
+      "speaker": "D",
+      "start": 18.3,
+      "end": 20.47,
+      "text": "Hey! I'm Leo! Wow, look at that rocket!",
+      "words": [
+        {
+          "w": "Hey!",
+          "start": 18.34,
+          "end": 18.562
+        },
+        {
+          "w": "I'm",
+          "start": 18.562,
+          "end": 18.729
+        },
+        {
+          "w": "Leo!",
+          "start": 18.729,
+          "end": 19.063
+        },
+        {
+          "w": "Wow,",
+          "start": 19.063,
+          "end": 19.285
+        },
+        {
+          "w": "look",
+          "start": 19.285,
+          "end": 19.507
+        },
+        {
+          "w": "at",
+          "start": 19.507,
+          "end": 19.619
+        },
+        {
+          "w": "that",
+          "start": 19.619,
+          "end": 19.841
+        },
+        {
+          "w": "rocket!",
+          "start": 19.841,
+          "end": 20.23
+        }
+      ]
+    },
+    {
+      "beat": "a",
+      "speaker": "E",
+      "start": 23.46,
+      "end": 26.33,
+      "text": "Hey! I'm Leo! Wow, look at that rocket!",
+      "words": [
+        {
+          "w": "Hey!",
+          "start": 23.51,
+          "end": 23.81
+        },
+        {
+          "w": "I'm",
+          "start": 23.81,
+          "end": 24.035
+        },
+        {
+          "w": "Leo!",
+          "start": 24.035,
+          "end": 24.485
+        },
+        {
+          "w": "Wow,",
+          "start": 24.485,
+          "end": 24.785
+        },
+        {
+          "w": "look",
+          "start": 24.785,
+          "end": 25.085
+        },
+        {
+          "w": "at",
+          "start": 25.085,
+          "end": 25.235
+        },
+        {
+          "w": "that",
+          "start": 25.235,
+          "end": 25.535
+        },
+        {
+          "w": "rocket!",
+          "start": 25.535,
+          "end": 26.06
+        }
+      ]
+    },
+    {
+      "beat": "a",
+      "speaker": "F",
+      "start": 28.62,
+      "end": 30.47,
+      "text": "Bobo is hungry! Honey, please!",
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 28.65,
+          "end": 29.106
+        },
+        {
+          "w": "is",
+          "start": 29.106,
+          "end": 29.237
+        },
+        {
+          "w": "hungry!",
+          "start": 29.237,
+          "end": 29.693
+        },
+        {
+          "w": "Honey,",
+          "start": 29.693,
+          "end": 30.019
+        },
+        {
+          "w": "please!",
+          "start": 30.019,
+          "end": 30.41
+        }
+      ]
+    },
+    {
+      "beat": "a",
+      "speaker": "G",
+      "start": 32.52,
+      "end": 34.36,
+      "text": "Bobo is hungry! Honey, please!",
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 32.56,
+          "end": 32.988
+        },
+        {
+          "w": "is",
+          "start": 32.988,
+          "end": 33.11
+        },
+        {
+          "w": "hungry!",
+          "start": 33.11,
+          "end": 33.538
+        },
+        {
+          "w": "Honey,",
+          "start": 33.538,
+          "end": 33.843
+        },
+        {
+          "w": "please!",
+          "start": 33.843,
+          "end": 34.21
+        }
+      ]
+    },
+    {
+      "beat": "a",
+      "speaker": "H",
+      "start": 36.42,
+      "end": 41.1,
+      "text": "Once upon a time, in a green and sunny meadow, lived a little bear named Bobo.",
+      "words": [
+        {
+          "w": "Once",
+          "start": 36.46,
+          "end": 36.718
+        },
+        {
+          "w": "upon",
+          "start": 36.718,
+          "end": 37.027
+        },
+        {
+          "w": "a",
+          "start": 37.027,
+          "end": 37.182
+        },
+        {
+          "w": "time,",
+          "start": 37.182,
+          "end": 37.44
+        },
+        {
+          "w": "in",
+          "start": 37.71,
+          "end": 37.873
+        },
+        {
+          "w": "a",
+          "start": 37.873,
+          "end": 38.035
+        },
+        {
+          "w": "green",
+          "start": 38.035,
+          "end": 38.361
+        },
+        {
+          "w": "and",
+          "start": 38.361,
+          "end": 38.523
+        },
+        {
+          "w": "sunny",
+          "start": 38.523,
+          "end": 38.795
+        },
+        {
+          "w": "meadow,",
+          "start": 38.795,
+          "end": 39.12
+        },
+        {
+          "w": "lived",
+          "start": 39.44,
+          "end": 39.698
+        },
+        {
+          "w": "a",
+          "start": 39.698,
+          "end": 39.853
+        },
+        {
+          "w": "little",
+          "start": 39.853,
+          "end": 40.163
+        },
+        {
+          "w": "bear",
+          "start": 40.163,
+          "end": 40.369
+        },
+        {
+          "w": "named",
+          "start": 40.369,
+          "end": 40.679
+        },
+        {
+          "w": "Bobo.",
+          "start": 40.679,
+          "end": 41.04
+        }
+      ]
+    },
+    {
+      "beat": "a",
+      "speaker": "I",
+      "start": 44.94,
+      "end": 49.35,
+      "text": "Once upon a time, in a green and sunny meadow, lived a little bear named Bobo.",
+      "words": [
+        {
+          "w": "Once",
+          "start": 44.98,
+          "end": 45.266
+        },
+        {
+          "w": "upon",
+          "start": 45.266,
+          "end": 45.552
+        },
+        {
+          "w": "a",
+          "start": 45.552,
+          "end": 45.724
+        },
+        {
+          "w": "time,",
+          "start": 45.724,
+          "end": 46.01
+        },
+        {
+          "w": "in",
+          "start": 46.01,
+          "end": 46.181
+        },
+        {
+          "w": "a",
+          "start": 46.181,
+          "end": 46.353
+        },
+        {
+          "w": "green",
+          "start": 46.353,
+          "end": 46.696
+        },
+        {
+          "w": "and",
+          "start": 46.696,
+          "end": 46.868
+        },
+        {
+          "w": "sunny",
+          "start": 46.868,
+          "end": 47.154
+        },
+        {
+          "w": "meadow,",
+          "start": 47.154,
+          "end": 47.497
+        },
+        {
+          "w": "lived",
+          "start": 47.497,
+          "end": 47.783
+        },
+        {
+          "w": "a",
+          "start": 47.783,
+          "end": 47.954
+        },
+        {
+          "w": "little",
+          "start": 47.954,
+          "end": 48.298
+        },
+        {
+          "w": "bear",
+          "start": 48.298,
+          "end": 48.526
+        },
+        {
+          "w": "named",
+          "start": 48.526,
+          "end": 48.87
+        },
+        {
+          "w": "Bobo.",
+          "start": 48.87,
+          "end": 49.27
+        }
+      ]
+    },
+    {
+      "beat": "a",
+      "speaker": "J",
+      "start": 53.46,
+      "end": 58.25,
+      "text": "Il était une fois, dans une prairie verte et ensoleillée, un petit ours nommé Bobo.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Il",
+          "start": 53.5,
+          "end": 53.714
+        },
+        {
+          "w": "était",
+          "start": 53.714,
+          "end": 54.0
+        },
+        {
+          "w": "une",
+          "start": 54.0,
+          "end": 54.214
+        },
+        {
+          "w": "fois,",
+          "start": 54.214,
+          "end": 54.5
+        },
+        {
+          "w": "dans",
+          "start": 54.62,
+          "end": 54.821
+        },
+        {
+          "w": "une",
+          "start": 54.821,
+          "end": 55.022
+        },
+        {
+          "w": "prairie",
+          "start": 55.022,
+          "end": 55.424
+        },
+        {
+          "w": "verte",
+          "start": 55.424,
+          "end": 55.76
+        },
+        {
+          "w": "et",
+          "start": 55.76,
+          "end": 55.894
+        },
+        {
+          "w": "ensoleillée,",
+          "start": 55.894,
+          "end": 56.43
+        },
+        {
+          "w": "un",
+          "start": 56.67,
+          "end": 56.81
+        },
+        {
+          "w": "petit",
+          "start": 56.81,
+          "end": 57.16
+        },
+        {
+          "w": "ours",
+          "start": 57.16,
+          "end": 57.44
+        },
+        {
+          "w": "nommé",
+          "start": 57.44,
+          "end": 57.79
+        },
+        {
+          "w": "Bobo.",
+          "start": 57.79,
+          "end": 58.14
+        }
+      ]
+    },
+    {
+      "beat": "a",
+      "speaker": "K",
+      "start": 61.56,
+      "end": 65.23,
+      "text": "Bonjour! Je m'appelle Mila. On compte jusqu'à cinq! Un, deux, trois!",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Bonjour!",
+          "start": 61.59,
+          "end": 62.057
+        },
+        {
+          "w": "Je",
+          "start": 62.057,
+          "end": 62.212
+        },
+        {
+          "w": "m'appelle",
+          "start": 62.212,
+          "end": 62.679
+        },
+        {
+          "w": "Mila.",
+          "start": 62.679,
+          "end": 63.068
+        },
+        {
+          "w": "On",
+          "start": 63.068,
+          "end": 63.223
+        },
+        {
+          "w": "compte",
+          "start": 63.223,
+          "end": 63.534
+        },
+        {
+          "w": "jusqu'à",
+          "start": 63.534,
+          "end": 64.001
+        },
+        {
+          "w": "cinq!",
+          "start": 64.001,
+          "end": 64.312
+        },
+        {
+          "w": "Un,",
+          "start": 64.312,
+          "end": 64.468
+        },
+        {
+          "w": "deux,",
+          "start": 64.468,
+          "end": 64.701
+        },
+        {
+          "w": "trois!",
+          "start": 64.701,
+          "end": 65.09
+        }
+      ]
+    }
+  ],
+  "beats": [],
+  "voiceStatus": "kokoro:cast"
+}

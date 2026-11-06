@@ -7,7 +7,8 @@ import { interpolate, useCurrentFrame } from 'remotion';
 import { ArrowLeft, ArrowRight, RotateCw, Lock, Star, MoreVertical, Plus, X } from 'lucide-react';
 import { COLORS, EASINGS, SHADOW } from '../brand';
 import { FONT_BODY, FONT_MONO } from '../fonts';
-import { CLAMP } from './kit';
+
+const CLAMP = { extrapolateLeft: 'clamp' as const, extrapolateRight: 'clamp' as const };
 
 const BR = {
   chrome: '#dee1e6', chromeDark: '#202124', tabActive: '#f7f8fa', urlBar: '#eff1f4',

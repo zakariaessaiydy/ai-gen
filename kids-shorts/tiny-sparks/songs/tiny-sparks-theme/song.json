@@ -1,0 +1,29 @@
+{
+ "title": "Tiny Sparks Theme \u2014 Bounce (bed, Tiny Sparks original)",
+ "bpm": 120,
+ "beatsPerBar": 4,
+ "introBars": 0,
+ "outroBars": 0,
+ "instruments": {
+  "lead": "xylophone",
+  "chords": "ukulele",
+  "bass": true,
+  "drums": "soft"
+ },
+ "sections": {
+  "A": {
+   "chords": "C | G | Am | F | C | G | F G | C",
+   "melody": "G4:1 E4:0.5 G4:0.5 C5:1 E5:1 | D5:1 B4:0.5 G4:0.5 D5:2 | C5:1 A4:0.5 C5:0.5 E5:1 C5:1 | F4:0.5 A4:0.5 C5:1 A4:2 | G4:1 E4:0.5 G4:0.5 C5:1 E5:1 | D5:0.5 E5:0.5 D5:0.5 B4:0.5 G4:2 | A4:0.5 C5:0.5 F5:1 G4:0.5 B4:0.5 D5:1 | C5:2 R:2"
+  },
+  "B": {
+   "chords": "Am | F | C | G | Am | F | G | G",
+   "melody": "E5:1 C5:1 A4:2 | F4:1 A4:1 C5:2 | E5:0.5 D5:0.5 C5:1 G4:2 | B4:1 D5:1 G5:2 | E5:1 C5:1 A4:1 C5:1 | F5:1 E5:1 C5:2 | D5:1 E5:1 F5:1 D5:1 | G5:2 R:2"
+  }
+ },
+ "form": [
+  "A",
+  "B",
+  "A",
+  "B"
+ ]
+}

@@ -1,0 +1,1337 @@
+{
+  "id": "day-040",
+  "series": "tiny-sparks",
+  "episode": 40,
+  "title": "What Are Clouds?",
+  "composition": "KidsScience040",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 102.5
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -6,
+    "duck": 8,
+    "start": 0,
+    "fade_in": 0.3
+  },
+  "vo": [
+    {
+      "beat": "why",
+      "speaker": "mila",
+      "start": 0.4,
+      "end": 2.85,
+      "text": "Look at the clouds! What ARE clouds made of?",
+      "words": [
+        {
+          "w": "Look",
+          "start": 0.45,
+          "end": 0.703
+        },
+        {
+          "w": "at",
+          "start": 0.703,
+          "end": 0.83
+        },
+        {
+          "w": "the",
+          "start": 0.83,
+          "end": 0.957
+        },
+        {
+          "w": "clouds!",
+          "start": 0.957,
+          "end": 1.4
+        },
+        {
+          "w": "What",
+          "start": 1.4,
+          "end": 1.653
+        },
+        {
+          "w": "ARE",
+          "start": 1.653,
+          "end": 1.843
+        },
+        {
+          "w": "clouds",
+          "start": 1.843,
+          "end": 2.287
+        },
+        {
+          "w": "made",
+          "start": 2.287,
+          "end": 2.603
+        },
+        {
+          "w": "of?",
+          "start": 2.603,
+          "end": 2.73
+        }
+      ]
+    },
+    {
+      "beat": "guess",
+      "speaker": "leo",
+      "start": 4.12,
+      "end": 6.93,
+      "text": "I know! Clouds are made of cotton candy! Yum!",
+      "words": [
+        {
+          "w": "I",
+          "start": 4.16,
+          "end": 4.342
+        },
+        {
+          "w": "know!",
+          "start": 4.342,
+          "end": 4.584
+        },
+        {
+          "w": "Clouds",
+          "start": 4.584,
+          "end": 5.007
+        },
+        {
+          "w": "are",
+          "start": 5.007,
+          "end": 5.189
+        },
+        {
+          "w": "made",
+          "start": 5.189,
+          "end": 5.491
+        },
+        {
+          "w": "of",
+          "start": 5.491,
+          "end": 5.612
+        },
+        {
+          "w": "cotton",
+          "start": 5.612,
+          "end": 5.975
+        },
+        {
+          "w": "candy!",
+          "start": 5.975,
+          "end": 6.338
+        },
+        {
+          "w": "Yum!",
+          "start": 6.338,
+          "end": 6.58
+        }
+      ]
+    },
+    {
+      "beat": "good",
+      "speaker": "hoot",
+      "start": 8.4,
+      "end": 13.56,
+      "text": "Good guess, Leo! They do look soft and fluffy. But clouds are made of... water!",
+      "words": [
+        {
+          "w": "Good",
+          "start": 8.44,
+          "end": 8.75
+        },
+        {
+          "w": "guess,",
+          "start": 8.75,
+          "end": 9.06
+        },
+        {
+          "w": "Leo!",
+          "start": 9.06,
+          "end": 9.526
+        },
+        {
+          "w": "They",
+          "start": 9.526,
+          "end": 9.758
+        },
+        {
+          "w": "do",
+          "start": 9.758,
+          "end": 10.068
+        },
+        {
+          "w": "look",
+          "start": 10.068,
+          "end": 10.378
+        },
+        {
+          "w": "soft",
+          "start": 10.378,
+          "end": 10.766
+        },
+        {
+          "w": "and",
+          "start": 10.766,
+          "end": 10.999
+        },
+        {
+          "w": "fluffy.",
+          "start": 10.999,
+          "end": 11.464
+        },
+        {
+          "w": "But",
+          "start": 11.464,
+          "end": 11.774
+        },
+        {
+          "w": "clouds",
+          "start": 11.774,
+          "end": 12.317
+        },
+        {
+          "w": "are",
+          "start": 12.317,
+          "end": 12.472
+        },
+        {
+          "w": "made",
+          "start": 12.472,
+          "end": 12.86
+        },
+        {
+          "w": "of...",
+          "start": 12.86,
+          "end": 13.015
+        },
+        {
+          "w": "water!",
+          "start": 13.015,
+          "end": 13.48
+        }
+      ]
+    },
+    {
+      "beat": "water",
+      "speaker": "leo",
+      "start": 14.63,
+      "end": 17.53,
+      "text": "Water? But water is wet, and clouds are fluffy!",
+      "words": [
+        {
+          "w": "Water?",
+          "start": 14.66,
+          "end": 15.029
+        },
+        {
+          "w": "But",
+          "start": 15.029,
+          "end": 15.275
+        },
+        {
+          "w": "water",
+          "start": 15.275,
+          "end": 15.643
+        },
+        {
+          "w": "is",
+          "start": 15.643,
+          "end": 15.766
+        },
+        {
+          "w": "wet,",
+          "start": 15.766,
+          "end": 16.012
+        },
+        {
+          "w": "and",
+          "start": 16.012,
+          "end": 16.197
+        },
+        {
+          "w": "clouds",
+          "start": 16.197,
+          "end": 16.627
+        },
+        {
+          "w": "are",
+          "start": 16.627,
+          "end": 16.811
+        },
+        {
+          "w": "fluffy!",
+          "start": 16.811,
+          "end": 17.18
+        }
+      ]
+    },
+    {
+      "beat": "step1",
+      "speaker": "hoot",
+      "start": 19.18,
+      "end": 22.12,
+      "text": "Let's see! The warm sun shines on the sea.",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 19.2,
+          "end": 19.539
+        },
+        {
+          "w": "see!",
+          "start": 19.539,
+          "end": 19.81
+        },
+        {
+          "w": "The",
+          "start": 19.98,
+          "end": 20.138
+        },
+        {
+          "w": "warm",
+          "start": 20.138,
+          "end": 20.535
+        },
+        {
+          "w": "sun",
+          "start": 20.535,
+          "end": 20.852
+        },
+        {
+          "w": "shines",
+          "start": 20.852,
+          "end": 21.327
+        },
+        {
+          "w": "on",
+          "start": 21.327,
+          "end": 21.565
+        },
+        {
+          "w": "the",
+          "start": 21.565,
+          "end": 21.723
+        },
+        {
+          "w": "sea.",
+          "start": 21.723,
+          "end": 22.04
+        }
+      ]
+    },
+    {
+      "beat": "step2",
+      "speaker": "hoot",
+      "start": 23.18,
+      "end": 29.02,
+      "text": "A tiny bit of water goes up, up, up into the sky. It's invisible! You can't see it!",
+      "words": [
+        {
+          "w": "A",
+          "start": 23.22,
+          "end": 23.394
+        },
+        {
+          "w": "tiny",
+          "start": 23.394,
+          "end": 23.741
+        },
+        {
+          "w": "bit",
+          "start": 23.741,
+          "end": 23.973
+        },
+        {
+          "w": "of",
+          "start": 23.973,
+          "end": 24.089
+        },
+        {
+          "w": "water",
+          "start": 24.089,
+          "end": 24.437
+        },
+        {
+          "w": "goes",
+          "start": 24.437,
+          "end": 24.726
+        },
+        {
+          "w": "up,",
+          "start": 24.726,
+          "end": 24.9
+        },
+        {
+          "w": "up,",
+          "start": 25.1,
+          "end": 25.35
+        },
+        {
+          "w": "up",
+          "start": 25.5,
+          "end": 25.716
+        },
+        {
+          "w": "into",
+          "start": 25.716,
+          "end": 26.076
+        },
+        {
+          "w": "the",
+          "start": 26.076,
+          "end": 26.22
+        },
+        {
+          "w": "sky.",
+          "start": 26.22,
+          "end": 26.58
+        },
+        {
+          "w": "It's",
+          "start": 26.99,
+          "end": 27.195
+        },
+        {
+          "w": "invisible!",
+          "start": 27.195,
+          "end": 27.88
+        },
+        {
+          "w": "You",
+          "start": 28.0,
+          "end": 28.19
+        },
+        {
+          "w": "can't",
+          "start": 28.19,
+          "end": 28.57
+        },
+        {
+          "w": "see",
+          "start": 28.57,
+          "end": 28.823
+        },
+        {
+          "w": "it!",
+          "start": 28.823,
+          "end": 28.95
+        }
+      ]
+    },
+    {
+      "beat": "word",
+      "speaker": "hoot",
+      "start": 30.48,
+      "end": 33.85,
+      "text": "This is called evaporation. Water goes up!",
+      "words": [
+        {
+          "w": "This",
+          "start": 30.51,
+          "end": 30.843
+        },
+        {
+          "w": "is",
+          "start": 30.843,
+          "end": 31.01
+        },
+        {
+          "w": "called",
+          "start": 31.01,
+          "end": 31.51
+        },
+        {
+          "w": "evaporation.",
+          "start": 31.51,
+          "end": 32.593
+        },
+        {
+          "w": "Water",
+          "start": 32.593,
+          "end": 33.093
+        },
+        {
+          "w": "goes",
+          "start": 33.093,
+          "end": 33.51
+        },
+        {
+          "w": "up!",
+          "start": 33.51,
+          "end": 33.76
+        }
+      ]
+    },
+    {
+      "beat": "word_turn",
+      "speaker": "mila",
+      "start": 34.91,
+      "end": 36.83,
+      "text": "E-va-po-ra-tion! Your turn!",
+      "words": [
+        {
+          "w": "E-va-po-ra-tion!",
+          "start": 34.95,
+          "end": 36.052
+        },
+        {
+          "w": "Your",
+          "start": 36.052,
+          "end": 36.306
+        },
+        {
+          "w": "turn!",
+          "start": 36.306,
+          "end": 36.73
+        }
+      ]
+    },
+    {
+      "beat": "step3",
+      "speaker": "hoot",
+      "start": 39.28,
+      "end": 44.55,
+      "text": "High in the sky, it is cold. The water turns into tiny, tiny drops.",
+      "words": [
+        {
+          "w": "High",
+          "start": 39.32,
+          "end": 39.658
+        },
+        {
+          "w": "in",
+          "start": 39.658,
+          "end": 39.912
+        },
+        {
+          "w": "the",
+          "start": 39.912,
+          "end": 40.081
+        },
+        {
+          "w": "sky,",
+          "start": 40.081,
+          "end": 40.504
+        },
+        {
+          "w": "it",
+          "start": 40.504,
+          "end": 40.673
+        },
+        {
+          "w": "is",
+          "start": 40.673,
+          "end": 40.843
+        },
+        {
+          "w": "cold.",
+          "start": 40.843,
+          "end": 41.35
+        },
+        {
+          "w": "The",
+          "start": 41.35,
+          "end": 41.519
+        },
+        {
+          "w": "water",
+          "start": 41.519,
+          "end": 42.027
+        },
+        {
+          "w": "turns",
+          "start": 42.027,
+          "end": 42.534
+        },
+        {
+          "w": "into",
+          "start": 42.534,
+          "end": 42.957
+        },
+        {
+          "w": "tiny,",
+          "start": 42.957,
+          "end": 43.465
+        },
+        {
+          "w": "tiny",
+          "start": 43.465,
+          "end": 43.972
+        },
+        {
+          "w": "drops.",
+          "start": 43.972,
+          "end": 44.48
+        }
+      ]
+    },
+    {
+      "beat": "step4",
+      "speaker": "hoot",
+      "start": 45.81,
+      "end": 49.75,
+      "text": "Millions of tiny drops stick together... and make a cloud!",
+      "words": [
+        {
+          "w": "Millions",
+          "start": 45.84,
+          "end": 46.407
+        },
+        {
+          "w": "of",
+          "start": 46.407,
+          "end": 46.549
+        },
+        {
+          "w": "tiny",
+          "start": 46.549,
+          "end": 46.974
+        },
+        {
+          "w": "drops",
+          "start": 46.974,
+          "end": 47.399
+        },
+        {
+          "w": "stick",
+          "start": 47.399,
+          "end": 47.754
+        },
+        {
+          "w": "together...",
+          "start": 47.754,
+          "end": 48.25
+        },
+        {
+          "w": "and",
+          "start": 48.6,
+          "end": 48.785
+        },
+        {
+          "w": "make",
+          "start": 48.785,
+          "end": 49.094
+        },
+        {
+          "w": "a",
+          "start": 49.094,
+          "end": 49.279
+        },
+        {
+          "w": "cloud!",
+          "start": 49.279,
+          "end": 49.65
+        }
+      ]
+    },
+    {
+      "beat": "wow",
+      "speaker": "leo",
+      "start": 51.02,
+      "end": 54.21,
+      "text": "Whoa! A cloud is a big bunch of tiny water drops!",
+      "words": [
+        {
+          "w": "Whoa!",
+          "start": 51.05,
+          "end": 51.283
+        },
+        {
+          "w": "A",
+          "start": 51.283,
+          "end": 51.459
+        },
+        {
+          "w": "cloud",
+          "start": 51.459,
+          "end": 51.809
+        },
+        {
+          "w": "is",
+          "start": 51.809,
+          "end": 51.926
+        },
+        {
+          "w": "a",
+          "start": 51.926,
+          "end": 52.101
+        },
+        {
+          "w": "big",
+          "start": 52.101,
+          "end": 52.334
+        },
+        {
+          "w": "bunch",
+          "start": 52.334,
+          "end": 52.684
+        },
+        {
+          "w": "of",
+          "start": 52.684,
+          "end": 52.801
+        },
+        {
+          "w": "tiny",
+          "start": 52.801,
+          "end": 53.151
+        },
+        {
+          "w": "water",
+          "start": 53.151,
+          "end": 53.501
+        },
+        {
+          "w": "drops!",
+          "start": 53.501,
+          "end": 53.91
+        }
+      ]
+    },
+    {
+      "beat": "rain",
+      "speaker": "hoot",
+      "start": 55.88,
+      "end": 59.87,
+      "text": "When the drops get big and heavy, they fall down. That's rain!",
+      "words": [
+        {
+          "w": "When",
+          "start": 55.9,
+          "end": 56.126
+        },
+        {
+          "w": "the",
+          "start": 56.126,
+          "end": 56.239
+        },
+        {
+          "w": "drops",
+          "start": 56.239,
+          "end": 56.577
+        },
+        {
+          "w": "get",
+          "start": 56.577,
+          "end": 56.803
+        },
+        {
+          "w": "big",
+          "start": 56.803,
+          "end": 57.029
+        },
+        {
+          "w": "and",
+          "start": 57.029,
+          "end": 57.198
+        },
+        {
+          "w": "heavy,",
+          "start": 57.198,
+          "end": 57.48
+        },
+        {
+          "w": "they",
+          "start": 57.66,
+          "end": 57.891
+        },
+        {
+          "w": "fall",
+          "start": 57.891,
+          "end": 58.275
+        },
+        {
+          "w": "down.",
+          "start": 58.275,
+          "end": 58.66
+        },
+        {
+          "w": "That's",
+          "start": 58.99,
+          "end": 59.39
+        },
+        {
+          "w": "rain!",
+          "start": 59.39,
+          "end": 59.79
+        }
+      ]
+    },
+    {
+      "beat": "splash",
+      "speaker": "mila",
+      "start": 60.94,
+      "end": 62.24,
+      "text": "Splash! Rain!",
+      "words": [
+        {
+          "w": "Splash!",
+          "start": 60.99,
+          "end": 61.579
+        },
+        {
+          "w": "Rain!",
+          "start": 61.579,
+          "end": 62.07
+        }
+      ]
+    },
+    {
+      "beat": "see",
+      "speaker": "mila",
+      "start": 64.31,
+      "end": 67.1,
+      "text": "You can see it at home! Ask a grown-up to help.",
+      "words": [
+        {
+          "w": "You",
+          "start": 64.34,
+          "end": 64.523
+        },
+        {
+          "w": "can",
+          "start": 64.523,
+          "end": 64.768
+        },
+        {
+          "w": "see",
+          "start": 64.768,
+          "end": 65.013
+        },
+        {
+          "w": "it",
+          "start": 65.013,
+          "end": 65.135
+        },
+        {
+          "w": "at",
+          "start": 65.135,
+          "end": 65.257
+        },
+        {
+          "w": "home!",
+          "start": 65.257,
+          "end": 65.563
+        },
+        {
+          "w": "Ask",
+          "start": 65.563,
+          "end": 65.808
+        },
+        {
+          "w": "a",
+          "start": 65.808,
+          "end": 65.991
+        },
+        {
+          "w": "grown-up",
+          "start": 65.991,
+          "end": 66.481
+        },
+        {
+          "w": "to",
+          "start": 66.481,
+          "end": 66.664
+        },
+        {
+          "w": "help.",
+          "start": 66.664,
+          "end": 66.97
+        }
+      ]
+    },
+    {
+      "beat": "mirror",
+      "speaker": "hoot",
+      "start": 68.17,
+      "end": 73.19,
+      "text": "Breathe on a cold mirror. Haaa! See the tiny cloud? Tiny water drops!",
+      "words": [
+        {
+          "w": "Breathe",
+          "start": 68.21,
+          "end": 68.669
+        },
+        {
+          "w": "on",
+          "start": 68.669,
+          "end": 68.899
+        },
+        {
+          "w": "a",
+          "start": 68.899,
+          "end": 69.129
+        },
+        {
+          "w": "cold",
+          "start": 69.129,
+          "end": 69.588
+        },
+        {
+          "w": "mirror.",
+          "start": 69.588,
+          "end": 69.971
+        },
+        {
+          "w": "Haaa!",
+          "start": 69.971,
+          "end": 70.354
+        },
+        {
+          "w": "See",
+          "start": 70.354,
+          "end": 70.66
+        },
+        {
+          "w": "the",
+          "start": 70.66,
+          "end": 70.813
+        },
+        {
+          "w": "tiny",
+          "start": 70.813,
+          "end": 71.273
+        },
+        {
+          "w": "cloud?",
+          "start": 71.273,
+          "end": 71.732
+        },
+        {
+          "w": "Tiny",
+          "start": 71.732,
+          "end": 72.191
+        },
+        {
+          "w": "water",
+          "start": 72.191,
+          "end": 72.651
+        },
+        {
+          "w": "drops!",
+          "start": 72.651,
+          "end": 73.11
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 75.46,
+      "end": 76.73,
+      "text": "Let's remember!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 75.57,
+          "end": 75.97
+        },
+        {
+          "w": "remember!",
+          "start": 75.97,
+          "end": 76.61
+        }
+      ]
+    },
+    {
+      "beat": "r1",
+      "speaker": "mila",
+      "start": 77.8,
+      "end": 79.61,
+      "text": "The sun warms the water.",
+      "words": [
+        {
+          "w": "The",
+          "start": 77.84,
+          "end": 77.999
+        },
+        {
+          "w": "sun",
+          "start": 77.999,
+          "end": 78.317
+        },
+        {
+          "w": "warms",
+          "start": 78.317,
+          "end": 78.874
+        },
+        {
+          "w": "the",
+          "start": 78.874,
+          "end": 79.033
+        },
+        {
+          "w": "water.",
+          "start": 79.033,
+          "end": 79.51
+        }
+      ]
+    },
+    {
+      "beat": "r2",
+      "speaker": "leo",
+      "start": 80.67,
+      "end": 81.95,
+      "text": "The water goes up.",
+      "words": [
+        {
+          "w": "The",
+          "start": 80.7,
+          "end": 80.834
+        },
+        {
+          "w": "water",
+          "start": 80.834,
+          "end": 81.235
+        },
+        {
+          "w": "goes",
+          "start": 81.235,
+          "end": 81.569
+        },
+        {
+          "w": "up.",
+          "start": 81.569,
+          "end": 81.77
+        }
+      ]
+    },
+    {
+      "beat": "r3",
+      "speaker": "hoot",
+      "start": 83.01,
+      "end": 85.07,
+      "text": "Tiny drops make a cloud.",
+      "words": [
+        {
+          "w": "Tiny",
+          "start": 83.05,
+          "end": 83.495
+        },
+        {
+          "w": "drops",
+          "start": 83.495,
+          "end": 83.941
+        },
+        {
+          "w": "make",
+          "start": 83.941,
+          "end": 84.312
+        },
+        {
+          "w": "a",
+          "start": 84.312,
+          "end": 84.535
+        },
+        {
+          "w": "cloud.",
+          "start": 84.535,
+          "end": 84.98
+        }
+      ]
+    },
+    {
+      "beat": "r4",
+      "speaker": "mila",
+      "start": 86.15,
+      "end": 87.53,
+      "text": "And then... rain!",
+      "words": [
+        {
+          "w": "And",
+          "start": 86.21,
+          "end": 86.507
+        },
+        {
+          "w": "then...",
+          "start": 86.507,
+          "end": 86.904
+        },
+        {
+          "w": "rain!",
+          "start": 86.904,
+          "end": 87.4
+        }
+      ]
+    },
+    {
+      "beat": "fact",
+      "speaker": "hoot",
+      "start": 89.99,
+      "end": 94.81,
+      "text": "Wow fact! One big fluffy cloud can weigh as much as eighty elephants!",
+      "words": [
+        {
+          "w": "Wow",
+          "start": 90.01,
+          "end": 90.325
+        },
+        {
+          "w": "fact!",
+          "start": 90.325,
+          "end": 90.72
+        },
+        {
+          "w": "One",
+          "start": 90.72,
+          "end": 91.035
+        },
+        {
+          "w": "big",
+          "start": 91.035,
+          "end": 91.35
+        },
+        {
+          "w": "fluffy",
+          "start": 91.35,
+          "end": 91.823
+        },
+        {
+          "w": "cloud",
+          "start": 91.823,
+          "end": 92.296
+        },
+        {
+          "w": "can",
+          "start": 92.296,
+          "end": 92.612
+        },
+        {
+          "w": "weigh",
+          "start": 92.612,
+          "end": 92.927
+        },
+        {
+          "w": "as",
+          "start": 92.927,
+          "end": 93.085
+        },
+        {
+          "w": "much",
+          "start": 93.085,
+          "end": 93.479
+        },
+        {
+          "w": "as",
+          "start": 93.479,
+          "end": 93.636
+        },
+        {
+          "w": "eighty",
+          "start": 93.636,
+          "end": 94.03
+        },
+        {
+          "w": "elephants!",
+          "start": 94.03,
+          "end": 94.74
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "leo",
+      "start": 96.46,
+      "end": 100.02,
+      "text": "No cotton candy... but clouds are still awesome! Bye-bye!",
+      "words": [
+        {
+          "w": "No",
+          "start": 96.49,
+          "end": 96.743
+        },
+        {
+          "w": "cotton",
+          "start": 96.743,
+          "end": 97.122
+        },
+        {
+          "w": "candy...",
+          "start": 97.122,
+          "end": 97.501
+        },
+        {
+          "w": "but",
+          "start": 97.501,
+          "end": 97.754
+        },
+        {
+          "w": "clouds",
+          "start": 97.754,
+          "end": 98.196
+        },
+        {
+          "w": "are",
+          "start": 98.196,
+          "end": 98.386
+        },
+        {
+          "w": "still",
+          "start": 98.386,
+          "end": 98.702
+        },
+        {
+          "w": "awesome!",
+          "start": 98.702,
+          "end": 99.081
+        },
+        {
+          "w": "Bye-bye!",
+          "start": 99.081,
+          "end": 99.65
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "why",
+      "start": 0,
+      "visual": "Look at the clouds! What ARE clouds made of?",
+      "end": 3.92
+    },
+    {
+      "id": "guess",
+      "start": 3.92,
+      "visual": "I know! Clouds are made of cotton candy! Yum!",
+      "end": 8.2
+    },
+    {
+      "id": "good",
+      "start": 8.2,
+      "visual": "Good guess, Leo! They do look soft and fluffy. But clouds are made of... water!",
+      "end": 14.43
+    },
+    {
+      "id": "water",
+      "start": 14.43,
+      "visual": "Water? But water is wet, and clouds are fluffy!",
+      "end": 18.98
+    },
+    {
+      "id": "step1",
+      "start": 18.98,
+      "visual": "Let's see! The warm sun shines on the sea.",
+      "end": 22.98
+    },
+    {
+      "id": "step2",
+      "start": 22.98,
+      "visual": "A tiny bit of water goes up, up, up into the sky. It's invisible! You can't see it!",
+      "end": 30.28
+    },
+    {
+      "id": "word",
+      "start": 30.28,
+      "visual": "This is called evaporation. Water goes up!",
+      "end": 34.71
+    },
+    {
+      "id": "word_turn",
+      "start": 34.71,
+      "visual": "E-va-po-ra-tion! Your turn!",
+      "end": 39.08
+    },
+    {
+      "id": "step3",
+      "start": 39.08,
+      "visual": "High in the sky, it is cold. The water turns into tiny, tiny drops.",
+      "end": 45.61
+    },
+    {
+      "id": "step4",
+      "start": 45.61,
+      "visual": "Millions of tiny drops stick together... and make a cloud!",
+      "end": 50.82
+    },
+    {
+      "id": "wow",
+      "start": 50.82,
+      "visual": "Whoa! A cloud is a big bunch of tiny water drops!",
+      "end": 55.68
+    },
+    {
+      "id": "rain",
+      "start": 55.68,
+      "visual": "When the drops get big and heavy, they fall down. That's rain!",
+      "end": 60.74
+    },
+    {
+      "id": "splash",
+      "start": 60.74,
+      "visual": "Splash! Rain!",
+      "end": 64.11
+    },
+    {
+      "id": "see",
+      "start": 64.11,
+      "visual": "You can see it at home! Ask a grown-up to help.",
+      "end": 67.97
+    },
+    {
+      "id": "mirror",
+      "start": 67.97,
+      "visual": "Breathe on a cold mirror. Haaa! See the tiny cloud? Tiny water drops!",
+      "end": 75.26
+    },
+    {
+      "id": "recap",
+      "start": 75.26,
+      "visual": "Let's remember!",
+      "end": 77.6
+    },
+    {
+      "id": "r1",
+      "start": 77.6,
+      "visual": "The sun warms the water.",
+      "end": 80.47
+    },
+    {
+      "id": "r2",
+      "start": 80.47,
+      "visual": "The water goes up.",
+      "end": 82.81
+    },
+    {
+      "id": "r3",
+      "start": 82.81,
+      "visual": "Tiny drops make a cloud.",
+      "end": 85.95
+    },
+    {
+      "id": "r4",
+      "start": 85.95,
+      "visual": "And then... rain!",
+      "end": 89.79
+    },
+    {
+      "id": "fact",
+      "start": 89.79,
+      "visual": "Wow fact! One big fluffy cloud can weigh as much as eighty elephants!",
+      "end": 96.26
+    },
+    {
+      "id": "bye",
+      "start": 96.26,
+      "visual": "No cotton candy... but clouds are still awesome! Bye-bye!",
+      "end": 102.5
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

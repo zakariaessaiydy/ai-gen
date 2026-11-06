@@ -1,0 +1,3163 @@
+{
+  "id": "day-025",
+  "series": "tiny-sparks",
+  "episode": 25,
+  "title": "Emma the Elephant Helps Her Friend",
+  "composition": "KidsAnimals025",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 309.3
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-10%"
+    },
+    "emma": {
+      "kokoro": "af_bella:0.6+af_heart:0.4",
+      "rate": "-6%"
+    },
+    "pip": {
+      "kokoro": "af_nicole",
+      "rate": "-4%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "guess",
+      "speaker": "narrator",
+      "start": 1.8,
+      "end": 5.0,
+      "text": "Who has big, flappy ears, and a long, long nose?",
+      "words": [
+        {
+          "w": "Who",
+          "start": 1.86,
+          "end": 2.16
+        },
+        {
+          "w": "has",
+          "start": 2.16,
+          "end": 2.459
+        },
+        {
+          "w": "big,",
+          "start": 2.459,
+          "end": 2.759
+        },
+        {
+          "w": "flappy",
+          "start": 2.759,
+          "end": 3.208
+        },
+        {
+          "w": "ears,",
+          "start": 3.208,
+          "end": 3.507
+        },
+        {
+          "w": "and",
+          "start": 3.507,
+          "end": 3.732
+        },
+        {
+          "w": "a",
+          "start": 3.732,
+          "end": 3.957
+        },
+        {
+          "w": "long,",
+          "start": 3.957,
+          "end": 4.256
+        },
+        {
+          "w": "long",
+          "start": 4.256,
+          "end": 4.556
+        },
+        {
+          "w": "nose?",
+          "start": 4.556,
+          "end": 4.93
+        }
+      ]
+    },
+    {
+      "beat": "guess2",
+      "speaker": "narrator",
+      "start": 6.2,
+      "end": 7.18,
+      "text": "Can you guess?",
+      "words": [
+        {
+          "w": "Can",
+          "start": 6.24,
+          "end": 6.524
+        },
+        {
+          "w": "you",
+          "start": 6.524,
+          "end": 6.736
+        },
+        {
+          "w": "guess?",
+          "start": 6.736,
+          "end": 7.02
+        }
+      ]
+    },
+    {
+      "beat": "reveal",
+      "speaker": "narrator",
+      "start": 11.78,
+      "end": 13.07,
+      "text": "It's... an elephant!",
+      "words": [
+        {
+          "w": "It's...",
+          "start": 11.81,
+          "end": 12.066
+        },
+        {
+          "w": "an",
+          "start": 12.066,
+          "end": 12.237
+        },
+        {
+          "w": "elephant!",
+          "start": 12.237,
+          "end": 12.92
+        }
+      ]
+    },
+    {
+      "beat": "hello",
+      "speaker": "emma",
+      "start": 14.47,
+      "end": 16.28,
+      "text": "Hello! I'm Emma the elephant!",
+      "words": [
+        {
+          "w": "Hello!",
+          "start": 14.5,
+          "end": 14.94
+        },
+        {
+          "w": "I'm",
+          "start": 15.14,
+          "end": 15.329
+        },
+        {
+          "w": "Emma",
+          "start": 15.329,
+          "end": 15.581
+        },
+        {
+          "w": "the",
+          "start": 15.581,
+          "end": 15.706
+        },
+        {
+          "w": "elephant!",
+          "start": 15.706,
+          "end": 16.21
+        }
+      ]
+    },
+    {
+      "beat": "bobo_hi",
+      "speaker": "bobo",
+      "start": 17.08,
+      "end": 18.74,
+      "text": "Hi, Emma! I'm Super Bobo!",
+      "words": [
+        {
+          "w": "Hi,",
+          "start": 17.11,
+          "end": 17.362
+        },
+        {
+          "w": "Emma!",
+          "start": 17.362,
+          "end": 17.613
+        },
+        {
+          "w": "I'm",
+          "start": 17.613,
+          "end": 17.802
+        },
+        {
+          "w": "Super",
+          "start": 17.802,
+          "end": 18.18
+        },
+        {
+          "w": "Bobo!",
+          "start": 18.18,
+          "end": 18.62
+        }
+      ]
+    },
+    {
+      "beat": "pip_hi",
+      "speaker": "pip",
+      "start": 19.54,
+      "end": 20.88,
+      "text": "And I'm Pip!",
+      "words": [
+        {
+          "w": "And",
+          "start": 19.57,
+          "end": 19.864
+        },
+        {
+          "w": "I'm",
+          "start": 19.864,
+          "end": 20.158
+        },
+        {
+          "w": "Pip!",
+          "start": 20.158,
+          "end": 20.55
+        }
+      ]
+    },
+    {
+      "beat": "sound_q",
+      "speaker": "narrator",
+      "start": 22.48,
+      "end": 24.28,
+      "text": "What sound does an elephant make?",
+      "words": [
+        {
+          "w": "What",
+          "start": 22.53,
+          "end": 22.758
+        },
+        {
+          "w": "sound",
+          "start": 22.758,
+          "end": 23.099
+        },
+        {
+          "w": "does",
+          "start": 23.099,
+          "end": 23.327
+        },
+        {
+          "w": "an",
+          "start": 23.327,
+          "end": 23.44
+        },
+        {
+          "w": "elephant",
+          "start": 23.44,
+          "end": 23.896
+        },
+        {
+          "w": "make?",
+          "start": 23.896,
+          "end": 24.18
+        }
+      ]
+    },
+    {
+      "beat": "sound1",
+      "speaker": "emma",
+      "start": 25.68,
+      "end": 26.38,
+      "text": "Pa-woo!",
+      "words": [
+        {
+          "w": "Pa-woo!",
+          "start": 25.72,
+          "end": 26.23
+        }
+      ]
+    },
+    {
+      "beat": "your_turn",
+      "speaker": "narrator",
+      "start": 27.98,
+      "end": 31.92,
+      "text": "Can you trumpet like Emma? Lift your arm, like a trunk. Your turn!",
+      "words": [
+        {
+          "w": "Can",
+          "start": 28.0,
+          "end": 28.26
+        },
+        {
+          "w": "you",
+          "start": 28.26,
+          "end": 28.456
+        },
+        {
+          "w": "trumpet",
+          "start": 28.456,
+          "end": 28.976
+        },
+        {
+          "w": "like",
+          "start": 28.976,
+          "end": 29.302
+        },
+        {
+          "w": "Emma?",
+          "start": 29.302,
+          "end": 29.562
+        },
+        {
+          "w": "Lift",
+          "start": 29.562,
+          "end": 29.887
+        },
+        {
+          "w": "your",
+          "start": 29.887,
+          "end": 30.083
+        },
+        {
+          "w": "arm,",
+          "start": 30.083,
+          "end": 30.408
+        },
+        {
+          "w": "like",
+          "start": 30.408,
+          "end": 30.734
+        },
+        {
+          "w": "a",
+          "start": 30.734,
+          "end": 30.929
+        },
+        {
+          "w": "trunk.",
+          "start": 30.929,
+          "end": 31.319
+        },
+        {
+          "w": "Your",
+          "start": 31.319,
+          "end": 31.515
+        },
+        {
+          "w": "turn!",
+          "start": 31.515,
+          "end": 31.84
+        }
+      ]
+    },
+    {
+      "beat": "sound2",
+      "speaker": "emma",
+      "start": 35.32,
+      "end": 36.02,
+      "text": "Pa-woo!",
+      "words": [
+        {
+          "w": "Pa-woo!",
+          "start": 35.36,
+          "end": 35.87
+        }
+      ]
+    },
+    {
+      "beat": "facts",
+      "speaker": "narrator",
+      "start": 37.62,
+      "end": 39.62,
+      "text": "Let's learn three elephant facts!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 37.67,
+          "end": 37.992
+        },
+        {
+          "w": "learn",
+          "start": 37.992,
+          "end": 38.315
+        },
+        {
+          "w": "three",
+          "start": 38.315,
+          "end": 38.637
+        },
+        {
+          "w": "elephant",
+          "start": 38.637,
+          "end": 39.153
+        },
+        {
+          "w": "facts!",
+          "start": 39.153,
+          "end": 39.54
+        }
+      ]
+    },
+    {
+      "beat": "fact1",
+      "speaker": "narrator",
+      "start": 41.22,
+      "end": 47.19,
+      "text": "Fact one. An elephant's trunk is a nose, and a hand! It can smell, grab, and drink water.",
+      "words": [
+        {
+          "w": "Fact",
+          "start": 41.27,
+          "end": 41.644
+        },
+        {
+          "w": "one.",
+          "start": 41.644,
+          "end": 41.943
+        },
+        {
+          "w": "An",
+          "start": 41.943,
+          "end": 42.092
+        },
+        {
+          "w": "elephant's",
+          "start": 42.092,
+          "end": 42.765
+        },
+        {
+          "w": "trunk",
+          "start": 42.765,
+          "end": 43.213
+        },
+        {
+          "w": "is",
+          "start": 43.213,
+          "end": 43.363
+        },
+        {
+          "w": "a",
+          "start": 43.363,
+          "end": 43.587
+        },
+        {
+          "w": "nose,",
+          "start": 43.587,
+          "end": 43.961
+        },
+        {
+          "w": "and",
+          "start": 43.961,
+          "end": 44.185
+        },
+        {
+          "w": "a",
+          "start": 44.185,
+          "end": 44.409
+        },
+        {
+          "w": "hand!",
+          "start": 44.409,
+          "end": 44.783
+        },
+        {
+          "w": "It",
+          "start": 44.783,
+          "end": 44.932
+        },
+        {
+          "w": "can",
+          "start": 44.932,
+          "end": 45.231
+        },
+        {
+          "w": "smell,",
+          "start": 45.231,
+          "end": 45.605
+        },
+        {
+          "w": "grab,",
+          "start": 45.605,
+          "end": 45.979
+        },
+        {
+          "w": "and",
+          "start": 45.979,
+          "end": 46.203
+        },
+        {
+          "w": "drink",
+          "start": 46.203,
+          "end": 46.652
+        },
+        {
+          "w": "water.",
+          "start": 46.652,
+          "end": 47.1
+        }
+      ]
+    },
+    {
+      "beat": "fact2",
+      "speaker": "narrator",
+      "start": 48.94,
+      "end": 52.91,
+      "text": "Fact two. Elephants are the biggest animals that live on land!",
+      "words": [
+        {
+          "w": "Fact",
+          "start": 49.0,
+          "end": 49.378
+        },
+        {
+          "w": "two.",
+          "start": 49.378,
+          "end": 49.68
+        },
+        {
+          "w": "Elephants",
+          "start": 50.04,
+          "end": 50.582
+        },
+        {
+          "w": "are",
+          "start": 50.582,
+          "end": 50.763
+        },
+        {
+          "w": "the",
+          "start": 50.763,
+          "end": 50.883
+        },
+        {
+          "w": "biggest",
+          "start": 50.883,
+          "end": 51.305
+        },
+        {
+          "w": "animals",
+          "start": 51.305,
+          "end": 51.786
+        },
+        {
+          "w": "that",
+          "start": 51.786,
+          "end": 52.027
+        },
+        {
+          "w": "live",
+          "start": 52.027,
+          "end": 52.328
+        },
+        {
+          "w": "on",
+          "start": 52.328,
+          "end": 52.509
+        },
+        {
+          "w": "land!",
+          "start": 52.509,
+          "end": 52.81
+        }
+      ]
+    },
+    {
+      "beat": "fact3",
+      "speaker": "narrator",
+      "start": 55.71,
+      "end": 60.23,
+      "text": "Fact three. Elephants flap their big ears, to cool down on hot days.",
+      "words": [
+        {
+          "w": "Fact",
+          "start": 55.77,
+          "end": 56.135
+        },
+        {
+          "w": "three.",
+          "start": 56.135,
+          "end": 56.5
+        },
+        {
+          "w": "Elephants",
+          "start": 56.86,
+          "end": 57.447
+        },
+        {
+          "w": "flap",
+          "start": 57.447,
+          "end": 57.773
+        },
+        {
+          "w": "their",
+          "start": 57.773,
+          "end": 57.968
+        },
+        {
+          "w": "big",
+          "start": 57.968,
+          "end": 58.229
+        },
+        {
+          "w": "ears,",
+          "start": 58.229,
+          "end": 58.49
+        },
+        {
+          "w": "to",
+          "start": 58.62,
+          "end": 58.798
+        },
+        {
+          "w": "cool",
+          "start": 58.798,
+          "end": 59.094
+        },
+        {
+          "w": "down",
+          "start": 59.094,
+          "end": 59.39
+        },
+        {
+          "w": "on",
+          "start": 59.39,
+          "end": 59.568
+        },
+        {
+          "w": "hot",
+          "start": 59.568,
+          "end": 59.864
+        },
+        {
+          "w": "days.",
+          "start": 59.864,
+          "end": 60.16
+        }
+      ]
+    },
+    {
+      "beat": "flap",
+      "speaker": "emma",
+      "start": 61.43,
+      "end": 63.64,
+      "text": "Flap, flap! Ahh, nice and cool!",
+      "words": [
+        {
+          "w": "Flap,",
+          "start": 61.46,
+          "end": 61.85
+        },
+        {
+          "w": "flap!",
+          "start": 61.85,
+          "end": 62.241
+        },
+        {
+          "w": "Ahh,",
+          "start": 62.241,
+          "end": 62.475
+        },
+        {
+          "w": "nice",
+          "start": 62.475,
+          "end": 62.865
+        },
+        {
+          "w": "and",
+          "start": 62.865,
+          "end": 63.1
+        },
+        {
+          "w": "cool!",
+          "start": 63.1,
+          "end": 63.49
+        }
+      ]
+    },
+    {
+      "beat": "big_q",
+      "speaker": "narrator",
+      "start": 66.04,
+      "end": 68.89,
+      "text": "Emma is big. Pip is small. Who is bigger?",
+      "words": [
+        {
+          "w": "Emma",
+          "start": 66.12,
+          "end": 66.448
+        },
+        {
+          "w": "is",
+          "start": 66.448,
+          "end": 66.612
+        },
+        {
+          "w": "big.",
+          "start": 66.612,
+          "end": 66.94
+        },
+        {
+          "w": "Pip",
+          "start": 67.11,
+          "end": 67.357
+        },
+        {
+          "w": "is",
+          "start": 67.357,
+          "end": 67.48
+        },
+        {
+          "w": "small.",
+          "start": 67.48,
+          "end": 67.85
+        },
+        {
+          "w": "Who",
+          "start": 68.08,
+          "end": 68.335
+        },
+        {
+          "w": "is",
+          "start": 68.335,
+          "end": 68.462
+        },
+        {
+          "w": "bigger?",
+          "start": 68.462,
+          "end": 68.78
+        }
+      ]
+    },
+    {
+      "beat": "big_a",
+      "speaker": "pip",
+      "start": 73.89,
+      "end": 76.78,
+      "text": "Emma is bigger! I'm the smallest!",
+      "words": [
+        {
+          "w": "Emma",
+          "start": 73.93,
+          "end": 74.305
+        },
+        {
+          "w": "is",
+          "start": 74.305,
+          "end": 74.492
+        },
+        {
+          "w": "bigger!",
+          "start": 74.492,
+          "end": 74.96
+        },
+        {
+          "w": "I'm",
+          "start": 75.64,
+          "end": 75.874
+        },
+        {
+          "w": "the",
+          "start": 75.874,
+          "end": 76.029
+        },
+        {
+          "w": "smallest!",
+          "start": 76.029,
+          "end": 76.73
+        }
+      ]
+    },
+    {
+      "beat": "story",
+      "speaker": "narrator",
+      "start": 79.78,
+      "end": 82.4,
+      "text": "Today, Pip the mouse is flying his new kite.",
+      "words": [
+        {
+          "w": "Today,",
+          "start": 79.81,
+          "end": 80.25
+        },
+        {
+          "w": "Pip",
+          "start": 80.41,
+          "end": 80.642
+        },
+        {
+          "w": "the",
+          "start": 80.642,
+          "end": 80.757
+        },
+        {
+          "w": "mouse",
+          "start": 80.757,
+          "end": 81.047
+        },
+        {
+          "w": "is",
+          "start": 81.047,
+          "end": 81.162
+        },
+        {
+          "w": "flying",
+          "start": 81.162,
+          "end": 81.568
+        },
+        {
+          "w": "his",
+          "start": 81.568,
+          "end": 81.799
+        },
+        {
+          "w": "new",
+          "start": 81.799,
+          "end": 82.031
+        },
+        {
+          "w": "kite.",
+          "start": 82.031,
+          "end": 82.32
+        }
+      ]
+    },
+    {
+      "beat": "pip_fly",
+      "speaker": "pip",
+      "start": 83.6,
+      "end": 85.49,
+      "text": "Wheee! Look how high it goes!",
+      "words": [
+        {
+          "w": "Wheee!",
+          "start": 83.66,
+          "end": 83.95
+        },
+        {
+          "w": "Look",
+          "start": 84.11,
+          "end": 84.388
+        },
+        {
+          "w": "how",
+          "start": 84.388,
+          "end": 84.666
+        },
+        {
+          "w": "high",
+          "start": 84.666,
+          "end": 84.944
+        },
+        {
+          "w": "it",
+          "start": 84.944,
+          "end": 85.083
+        },
+        {
+          "w": "goes!",
+          "start": 85.083,
+          "end": 85.43
+        }
+      ]
+    },
+    {
+      "beat": "stuck",
+      "speaker": "narrator",
+      "start": 87.09,
+      "end": 90.35,
+      "text": "Oh no! The wind blows the kite, into the tall tree!",
+      "words": [
+        {
+          "w": "Oh",
+          "start": 87.16,
+          "end": 87.391
+        },
+        {
+          "w": "no!",
+          "start": 87.391,
+          "end": 87.7
+        },
+        {
+          "w": "The",
+          "start": 87.91,
+          "end": 88.038
+        },
+        {
+          "w": "wind",
+          "start": 88.038,
+          "end": 88.358
+        },
+        {
+          "w": "blows",
+          "start": 88.358,
+          "end": 88.742
+        },
+        {
+          "w": "the",
+          "start": 88.742,
+          "end": 88.87
+        },
+        {
+          "w": "kite,",
+          "start": 88.87,
+          "end": 89.19
+        },
+        {
+          "w": "into",
+          "start": 89.35,
+          "end": 89.621
+        },
+        {
+          "w": "the",
+          "start": 89.621,
+          "end": 89.729
+        },
+        {
+          "w": "tall",
+          "start": 89.729,
+          "end": 89.999
+        },
+        {
+          "w": "tree!",
+          "start": 89.999,
+          "end": 90.27
+        }
+      ]
+    },
+    {
+      "beat": "pip_sad",
+      "speaker": "pip",
+      "start": 91.95,
+      "end": 96.08,
+      "text": "My kite! It's stuck! I'm too little to reach it.",
+      "words": [
+        {
+          "w": "My",
+          "start": 92.0,
+          "end": 92.311
+        },
+        {
+          "w": "kite!",
+          "start": 92.311,
+          "end": 92.7
+        },
+        {
+          "w": "It's",
+          "start": 92.91,
+          "end": 93.169
+        },
+        {
+          "w": "stuck!",
+          "start": 93.169,
+          "end": 93.6
+        },
+        {
+          "w": "I'm",
+          "start": 94.6,
+          "end": 94.775
+        },
+        {
+          "w": "too",
+          "start": 94.775,
+          "end": 95.008
+        },
+        {
+          "w": "little",
+          "start": 95.008,
+          "end": 95.358
+        },
+        {
+          "w": "to",
+          "start": 95.358,
+          "end": 95.533
+        },
+        {
+          "w": "reach",
+          "start": 95.533,
+          "end": 95.883
+        },
+        {
+          "w": "it.",
+          "start": 95.883,
+          "end": 96.0
+        }
+      ]
+    },
+    {
+      "beat": "sad",
+      "speaker": "narrator",
+      "start": 97.48,
+      "end": 98.71,
+      "text": "Pip feels sad.",
+      "words": [
+        {
+          "w": "Pip",
+          "start": 97.52,
+          "end": 97.811
+        },
+        {
+          "w": "feels",
+          "start": 97.811,
+          "end": 98.249
+        },
+        {
+          "w": "sad.",
+          "start": 98.249,
+          "end": 98.54
+        }
+      ]
+    },
+    {
+      "beat": "think",
+      "speaker": "narrator",
+      "start": 100.71,
+      "end": 101.88,
+      "text": "What could Pip do?",
+      "words": [
+        {
+          "w": "What",
+          "start": 100.76,
+          "end": 101.007
+        },
+        {
+          "w": "could",
+          "start": 101.007,
+          "end": 101.255
+        },
+        {
+          "w": "Pip",
+          "start": 101.255,
+          "end": 101.502
+        },
+        {
+          "w": "do?",
+          "start": 101.502,
+          "end": 101.75
+        }
+      ]
+    },
+    {
+      "beat": "bobo_try",
+      "speaker": "bobo",
+      "start": 106.28,
+      "end": 108.98,
+      "text": "Super Bobo to the rescue! I'll jump! Hup! Hup!",
+      "words": [
+        {
+          "w": "Super",
+          "start": 106.32,
+          "end": 106.67
+        },
+        {
+          "w": "Bobo",
+          "start": 106.67,
+          "end": 107.079
+        },
+        {
+          "w": "to",
+          "start": 107.079,
+          "end": 107.254
+        },
+        {
+          "w": "the",
+          "start": 107.254,
+          "end": 107.371
+        },
+        {
+          "w": "rescue!",
+          "start": 107.371,
+          "end": 107.838
+        },
+        {
+          "w": "I'll",
+          "start": 107.838,
+          "end": 108.013
+        },
+        {
+          "w": "jump!",
+          "start": 108.013,
+          "end": 108.363
+        },
+        {
+          "w": "Hup!",
+          "start": 108.363,
+          "end": 108.597
+        },
+        {
+          "w": "Hup!",
+          "start": 108.597,
+          "end": 108.83
+        }
+      ]
+    },
+    {
+      "beat": "bobo_no",
+      "speaker": "bobo",
+      "start": 110.58,
+      "end": 112.64,
+      "text": "Oh. The tree is too tall, even for me.",
+      "words": [
+        {
+          "w": "Oh.",
+          "start": 110.61,
+          "end": 110.768
+        },
+        {
+          "w": "The",
+          "start": 110.768,
+          "end": 110.873
+        },
+        {
+          "w": "tree",
+          "start": 110.873,
+          "end": 111.136
+        },
+        {
+          "w": "is",
+          "start": 111.136,
+          "end": 111.241
+        },
+        {
+          "w": "too",
+          "start": 111.241,
+          "end": 111.451
+        },
+        {
+          "w": "tall,",
+          "start": 111.451,
+          "end": 111.714
+        },
+        {
+          "w": "even",
+          "start": 111.714,
+          "end": 112.029
+        },
+        {
+          "w": "for",
+          "start": 112.029,
+          "end": 112.24
+        },
+        {
+          "w": "me.",
+          "start": 112.24,
+          "end": 112.45
+        }
+      ]
+    },
+    {
+      "beat": "emma_help",
+      "speaker": "emma",
+      "start": 114.64,
+      "end": 117.36,
+      "text": "Don't worry, Pip! I can help. My trunk is long!",
+      "words": [
+        {
+          "w": "Don't",
+          "start": 114.67,
+          "end": 115.038
+        },
+        {
+          "w": "worry,",
+          "start": 115.038,
+          "end": 115.345
+        },
+        {
+          "w": "Pip!",
+          "start": 115.345,
+          "end": 115.591
+        },
+        {
+          "w": "I",
+          "start": 115.591,
+          "end": 115.775
+        },
+        {
+          "w": "can",
+          "start": 115.775,
+          "end": 116.021
+        },
+        {
+          "w": "help.",
+          "start": 116.021,
+          "end": 116.328
+        },
+        {
+          "w": "My",
+          "start": 116.328,
+          "end": 116.573
+        },
+        {
+          "w": "trunk",
+          "start": 116.573,
+          "end": 116.942
+        },
+        {
+          "w": "is",
+          "start": 116.942,
+          "end": 117.064
+        },
+        {
+          "w": "long!",
+          "start": 117.064,
+          "end": 117.31
+        }
+      ]
+    },
+    {
+      "beat": "reach",
+      "speaker": "narrator",
+      "start": 118.96,
+      "end": 122.73,
+      "text": "Emma stretches her trunk up, up, up... and gently takes the kite.",
+      "words": [
+        {
+          "w": "Emma",
+          "start": 119.01,
+          "end": 119.274
+        },
+        {
+          "w": "stretches",
+          "start": 119.274,
+          "end": 119.868
+        },
+        {
+          "w": "her",
+          "start": 119.868,
+          "end": 120.066
+        },
+        {
+          "w": "trunk",
+          "start": 120.066,
+          "end": 120.462
+        },
+        {
+          "w": "up,",
+          "start": 120.462,
+          "end": 120.66
+        },
+        {
+          "w": "up,",
+          "start": 120.66,
+          "end": 120.858
+        },
+        {
+          "w": "up...",
+          "start": 120.858,
+          "end": 121.056
+        },
+        {
+          "w": "and",
+          "start": 121.056,
+          "end": 121.254
+        },
+        {
+          "w": "gently",
+          "start": 121.254,
+          "end": 121.782
+        },
+        {
+          "w": "takes",
+          "start": 121.782,
+          "end": 122.178
+        },
+        {
+          "w": "the",
+          "start": 122.178,
+          "end": 122.31
+        },
+        {
+          "w": "kite.",
+          "start": 122.31,
+          "end": 122.64
+        }
+      ]
+    },
+    {
+      "beat": "got",
+      "speaker": "emma",
+      "start": 124.93,
+      "end": 126.06,
+      "text": "Here's your kite, Pip!",
+      "words": [
+        {
+          "w": "Here's",
+          "start": 124.98,
+          "end": 125.274
+        },
+        {
+          "w": "your",
+          "start": 125.274,
+          "end": 125.451
+        },
+        {
+          "w": "kite,",
+          "start": 125.451,
+          "end": 125.745
+        },
+        {
+          "w": "Pip!",
+          "start": 125.745,
+          "end": 125.98
+        }
+      ]
+    },
+    {
+      "beat": "stretch",
+      "speaker": "narrator",
+      "start": 128.06,
+      "end": 132.09,
+      "text": "Can you stretch up high, like Emma's trunk? Up, up, up! Your turn!",
+      "words": [
+        {
+          "w": "Can",
+          "start": 128.11,
+          "end": 128.397
+        },
+        {
+          "w": "you",
+          "start": 128.397,
+          "end": 128.613
+        },
+        {
+          "w": "stretch",
+          "start": 128.613,
+          "end": 129.116
+        },
+        {
+          "w": "up",
+          "start": 129.116,
+          "end": 129.331
+        },
+        {
+          "w": "high,",
+          "start": 129.331,
+          "end": 129.619
+        },
+        {
+          "w": "like",
+          "start": 129.619,
+          "end": 129.978
+        },
+        {
+          "w": "Emma's",
+          "start": 129.978,
+          "end": 130.337
+        },
+        {
+          "w": "trunk?",
+          "start": 130.337,
+          "end": 130.769
+        },
+        {
+          "w": "Up,",
+          "start": 130.769,
+          "end": 130.984
+        },
+        {
+          "w": "up,",
+          "start": 130.984,
+          "end": 131.2
+        },
+        {
+          "w": "up!",
+          "start": 131.2,
+          "end": 131.415
+        },
+        {
+          "w": "Your",
+          "start": 131.415,
+          "end": 131.631
+        },
+        {
+          "w": "turn!",
+          "start": 131.631,
+          "end": 131.99
+        }
+      ]
+    },
+    {
+      "beat": "stretch_go",
+      "speaker": "emma",
+      "start": 135.69,
+      "end": 136.54,
+      "text": "Up, up, up!",
+      "words": [
+        {
+          "w": "Up,",
+          "start": 135.73,
+          "end": 135.973
+        },
+        {
+          "w": "up,",
+          "start": 135.973,
+          "end": 136.217
+        },
+        {
+          "w": "up!",
+          "start": 136.217,
+          "end": 136.46
+        }
+      ]
+    },
+    {
+      "beat": "pip_thanks",
+      "speaker": "pip",
+      "start": 137.74,
+      "end": 140.83,
+      "text": "Thank you, Emma! You're the best friend!",
+      "words": [
+        {
+          "w": "Thank",
+          "start": 137.79,
+          "end": 138.32
+        },
+        {
+          "w": "you,",
+          "start": 138.32,
+          "end": 138.639
+        },
+        {
+          "w": "Emma!",
+          "start": 138.639,
+          "end": 139.063
+        },
+        {
+          "w": "You're",
+          "start": 139.063,
+          "end": 139.381
+        },
+        {
+          "w": "the",
+          "start": 139.381,
+          "end": 139.593
+        },
+        {
+          "w": "best",
+          "start": 139.593,
+          "end": 140.124
+        },
+        {
+          "w": "friend!",
+          "start": 140.124,
+          "end": 140.76
+        }
+      ]
+    },
+    {
+      "beat": "story2",
+      "speaker": "narrator",
+      "start": 143.83,
+      "end": 147.92,
+      "text": "Then, Pip looks at his garden. The flowers are droopy, and thirsty.",
+      "words": [
+        {
+          "w": "Then,",
+          "start": 143.87,
+          "end": 144.153
+        },
+        {
+          "w": "Pip",
+          "start": 144.153,
+          "end": 144.436
+        },
+        {
+          "w": "looks",
+          "start": 144.436,
+          "end": 144.789
+        },
+        {
+          "w": "at",
+          "start": 144.789,
+          "end": 144.931
+        },
+        {
+          "w": "his",
+          "start": 144.931,
+          "end": 145.214
+        },
+        {
+          "w": "garden.",
+          "start": 145.214,
+          "end": 145.779
+        },
+        {
+          "w": "The",
+          "start": 145.779,
+          "end": 145.921
+        },
+        {
+          "w": "flowers",
+          "start": 145.921,
+          "end": 146.416
+        },
+        {
+          "w": "are",
+          "start": 146.416,
+          "end": 146.628
+        },
+        {
+          "w": "droopy,",
+          "start": 146.628,
+          "end": 147.123
+        },
+        {
+          "w": "and",
+          "start": 147.123,
+          "end": 147.335
+        },
+        {
+          "w": "thirsty.",
+          "start": 147.335,
+          "end": 147.83
+        }
+      ]
+    },
+    {
+      "beat": "pip_flowers",
+      "speaker": "pip",
+      "start": 149.32,
+      "end": 155.5,
+      "text": "Oh no. My flowers need water. But the pond is so far away!",
+      "words": [
+        {
+          "w": "Oh",
+          "start": 149.37,
+          "end": 149.606
+        },
+        {
+          "w": "no.",
+          "start": 149.606,
+          "end": 149.92
+        },
+        {
+          "w": "My",
+          "start": 150.6,
+          "end": 150.876
+        },
+        {
+          "w": "flowers",
+          "start": 150.876,
+          "end": 151.36
+        },
+        {
+          "w": "need",
+          "start": 151.36,
+          "end": 151.705
+        },
+        {
+          "w": "water.",
+          "start": 151.705,
+          "end": 152.12
+        },
+        {
+          "w": "But",
+          "start": 153.15,
+          "end": 153.47
+        },
+        {
+          "w": "the",
+          "start": 153.47,
+          "end": 153.63
+        },
+        {
+          "w": "pond",
+          "start": 153.63,
+          "end": 154.11
+        },
+        {
+          "w": "is",
+          "start": 154.11,
+          "end": 154.27
+        },
+        {
+          "w": "so",
+          "start": 154.27,
+          "end": 154.59
+        },
+        {
+          "w": "far",
+          "start": 154.59,
+          "end": 154.99
+        },
+        {
+          "w": "away!",
+          "start": 154.99,
+          "end": 155.39
+        }
+      ]
+    },
+    {
+      "beat": "emma_help2",
+      "speaker": "emma",
+      "start": 155.84,
+      "end": 158.44,
+      "text": "I can help again! My trunk can carry water!",
+      "words": [
+        {
+          "w": "I",
+          "start": 155.88,
+          "end": 156.021
+        },
+        {
+          "w": "can",
+          "start": 156.021,
+          "end": 156.209
+        },
+        {
+          "w": "help",
+          "start": 156.209,
+          "end": 156.445
+        },
+        {
+          "w": "again!",
+          "start": 156.445,
+          "end": 156.68
+        },
+        {
+          "w": "My",
+          "start": 157.01,
+          "end": 157.226
+        },
+        {
+          "w": "trunk",
+          "start": 157.226,
+          "end": 157.55
+        },
+        {
+          "w": "can",
+          "start": 157.55,
+          "end": 157.766
+        },
+        {
+          "w": "carry",
+          "start": 157.766,
+          "end": 158.036
+        },
+        {
+          "w": "water!",
+          "start": 158.036,
+          "end": 158.36
+        }
+      ]
+    },
+    {
+      "beat": "drink",
+      "speaker": "narrator",
+      "start": 160.04,
+      "end": 164.37,
+      "text": "Emma fills her trunk at the pond... and sprays the flowers. Splash!",
+      "words": [
+        {
+          "w": "Emma",
+          "start": 160.14,
+          "end": 160.36
+        },
+        {
+          "w": "fills",
+          "start": 160.36,
+          "end": 160.635
+        },
+        {
+          "w": "her",
+          "start": 160.635,
+          "end": 160.8
+        },
+        {
+          "w": "trunk",
+          "start": 160.8,
+          "end": 161.13
+        },
+        {
+          "w": "at",
+          "start": 161.13,
+          "end": 161.24
+        },
+        {
+          "w": "the",
+          "start": 161.24,
+          "end": 161.35
+        },
+        {
+          "w": "pond...",
+          "start": 161.35,
+          "end": 161.68
+        },
+        {
+          "w": "and",
+          "start": 162.0,
+          "end": 162.196
+        },
+        {
+          "w": "sprays",
+          "start": 162.196,
+          "end": 162.653
+        },
+        {
+          "w": "the",
+          "start": 162.653,
+          "end": 162.783
+        },
+        {
+          "w": "flowers.",
+          "start": 162.783,
+          "end": 163.24
+        },
+        {
+          "w": "Splash!",
+          "start": 163.62,
+          "end": 164.29
+        }
+      ]
+    },
+    {
+      "beat": "bloom",
+      "speaker": "narrator",
+      "start": 166.37,
+      "end": 168.88,
+      "text": "Look! The flowers stand up tall, and happy!",
+      "words": [
+        {
+          "w": "Look!",
+          "start": 166.42,
+          "end": 166.689
+        },
+        {
+          "w": "The",
+          "start": 166.689,
+          "end": 166.823
+        },
+        {
+          "w": "flowers",
+          "start": 166.823,
+          "end": 167.293
+        },
+        {
+          "w": "stand",
+          "start": 167.293,
+          "end": 167.696
+        },
+        {
+          "w": "up",
+          "start": 167.696,
+          "end": 167.897
+        },
+        {
+          "w": "tall,",
+          "start": 167.897,
+          "end": 168.233
+        },
+        {
+          "w": "and",
+          "start": 168.233,
+          "end": 168.434
+        },
+        {
+          "w": "happy!",
+          "start": 168.434,
+          "end": 168.77
+        }
+      ]
+    },
+    {
+      "beat": "pip_yay",
+      "speaker": "pip",
+      "start": 170.28,
+      "end": 171.96,
+      "text": "Hooray! Thank you, Emma!",
+      "words": [
+        {
+          "w": "Hooray!",
+          "start": 170.32,
+          "end": 170.895
+        },
+        {
+          "w": "Thank",
+          "start": 170.895,
+          "end": 171.305
+        },
+        {
+          "w": "you,",
+          "start": 171.305,
+          "end": 171.552
+        },
+        {
+          "w": "Emma!",
+          "start": 171.552,
+          "end": 171.88
+        }
+      ]
+    },
+    {
+      "beat": "emma_happy",
+      "speaker": "emma",
+      "start": 173.36,
+      "end": 175.38,
+      "text": "Helping my friends makes me happy!",
+      "words": [
+        {
+          "w": "Helping",
+          "start": 173.4,
+          "end": 173.786
+        },
+        {
+          "w": "my",
+          "start": 173.786,
+          "end": 174.007
+        },
+        {
+          "w": "friends",
+          "start": 174.007,
+          "end": 174.393
+        },
+        {
+          "w": "makes",
+          "start": 174.393,
+          "end": 174.724
+        },
+        {
+          "w": "me",
+          "start": 174.724,
+          "end": 174.944
+        },
+        {
+          "w": "happy!",
+          "start": 174.944,
+          "end": 175.22
+        }
+      ]
+    },
+    {
+      "beat": "lesson",
+      "speaker": "narrator",
+      "start": 177.78,
+      "end": 180.63,
+      "text": "When we help our friends, everyone feels happy.",
+      "words": [
+        {
+          "w": "When",
+          "start": 177.84,
+          "end": 178.037
+        },
+        {
+          "w": "we",
+          "start": 178.037,
+          "end": 178.184
+        },
+        {
+          "w": "help",
+          "start": 178.184,
+          "end": 178.43
+        },
+        {
+          "w": "our",
+          "start": 178.43,
+          "end": 178.626
+        },
+        {
+          "w": "friends,",
+          "start": 178.626,
+          "end": 178.97
+        },
+        {
+          "w": "everyone",
+          "start": 179.25,
+          "end": 179.817
+        },
+        {
+          "w": "feels",
+          "start": 179.817,
+          "end": 180.195
+        },
+        {
+          "w": "happy.",
+          "start": 180.195,
+          "end": 180.51
+        }
+      ]
+    },
+    {
+      "beat": "again",
+      "speaker": "narrator",
+      "start": 183.63,
+      "end": 185.89,
+      "text": "Now, let's play and remember, with Emma!",
+      "words": [
+        {
+          "w": "Now,",
+          "start": 183.69,
+          "end": 183.948
+        },
+        {
+          "w": "let's",
+          "start": 183.948,
+          "end": 184.269
+        },
+        {
+          "w": "play",
+          "start": 184.269,
+          "end": 184.591
+        },
+        {
+          "w": "and",
+          "start": 184.591,
+          "end": 184.784
+        },
+        {
+          "w": "remember,",
+          "start": 184.784,
+          "end": 185.299
+        },
+        {
+          "w": "with",
+          "start": 185.299,
+          "end": 185.493
+        },
+        {
+          "w": "Emma!",
+          "start": 185.493,
+          "end": 185.75
+        }
+      ]
+    },
+    {
+      "beat": "s_q",
+      "speaker": "narrator",
+      "start": 188.29,
+      "end": 190.09,
+      "text": "What sound does an elephant make?",
+      "words": [
+        {
+          "w": "What",
+          "start": 188.34,
+          "end": 188.568
+        },
+        {
+          "w": "sound",
+          "start": 188.568,
+          "end": 188.909
+        },
+        {
+          "w": "does",
+          "start": 188.909,
+          "end": 189.137
+        },
+        {
+          "w": "an",
+          "start": 189.137,
+          "end": 189.25
+        },
+        {
+          "w": "elephant",
+          "start": 189.25,
+          "end": 189.706
+        },
+        {
+          "w": "make?",
+          "start": 189.706,
+          "end": 189.99
+        }
+      ]
+    },
+    {
+      "beat": "s_a",
+      "speaker": "emma",
+      "start": 195.09,
+      "end": 195.79,
+      "text": "Pa-woo!",
+      "words": [
+        {
+          "w": "Pa-woo!",
+          "start": 195.13,
+          "end": 195.64
+        }
+      ]
+    },
+    {
+      "beat": "s_turn",
+      "speaker": "narrator",
+      "start": 197.59,
+      "end": 199.95,
+      "text": "Your turn! Lift your trunk, and trumpet!",
+      "words": [
+        {
+          "w": "Your",
+          "start": 197.64,
+          "end": 197.843
+        },
+        {
+          "w": "turn!",
+          "start": 197.843,
+          "end": 198.181
+        },
+        {
+          "w": "Lift",
+          "start": 198.181,
+          "end": 198.518
+        },
+        {
+          "w": "your",
+          "start": 198.518,
+          "end": 198.721
+        },
+        {
+          "w": "trunk,",
+          "start": 198.721,
+          "end": 199.127
+        },
+        {
+          "w": "and",
+          "start": 199.127,
+          "end": 199.329
+        },
+        {
+          "w": "trumpet!",
+          "start": 199.329,
+          "end": 199.87
+        }
+      ]
+    },
+    {
+      "beat": "s_b",
+      "speaker": "emma",
+      "start": 203.35,
+      "end": 204.05,
+      "text": "Pa-woo!",
+      "words": [
+        {
+          "w": "Pa-woo!",
+          "start": 203.39,
+          "end": 203.9
+        }
+      ]
+    },
+    {
+      "beat": "s_more",
+      "speaker": "narrator",
+      "start": 206.25,
+      "end": 208.21,
+      "text": "One more time, all together!",
+      "words": [
+        {
+          "w": "One",
+          "start": 206.31,
+          "end": 206.57
+        },
+        {
+          "w": "more",
+          "start": 206.57,
+          "end": 206.895
+        },
+        {
+          "w": "time,",
+          "start": 206.895,
+          "end": 207.22
+        },
+        {
+          "w": "all",
+          "start": 207.38,
+          "end": 207.627
+        },
+        {
+          "w": "together!",
+          "start": 207.627,
+          "end": 208.06
+        }
+      ]
+    },
+    {
+      "beat": "s_c",
+      "speaker": "emma",
+      "start": 211.41,
+      "end": 212.11,
+      "text": "Pa-woo!",
+      "words": [
+        {
+          "w": "Pa-woo!",
+          "start": 211.45,
+          "end": 211.96
+        }
+      ]
+    },
+    {
+      "beat": "q_intro",
+      "speaker": "narrator",
+      "start": 214.91,
+      "end": 216.85,
+      "text": "Do you remember the elephant facts?",
+      "words": [
+        {
+          "w": "Do",
+          "start": 214.98,
+          "end": 215.206
+        },
+        {
+          "w": "you",
+          "start": 215.206,
+          "end": 215.375
+        },
+        {
+          "w": "remember",
+          "start": 215.375,
+          "end": 215.827
+        },
+        {
+          "w": "the",
+          "start": 215.827,
+          "end": 215.94
+        },
+        {
+          "w": "elephant",
+          "start": 215.94,
+          "end": 216.391
+        },
+        {
+          "w": "facts?",
+          "start": 216.391,
+          "end": 216.73
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "narrator",
+      "start": 219.05,
+      "end": 220.84,
+      "text": "What can an elephant's trunk do?",
+      "words": [
+        {
+          "w": "What",
+          "start": 219.12,
+          "end": 219.337
+        },
+        {
+          "w": "can",
+          "start": 219.337,
+          "end": 219.553
+        },
+        {
+          "w": "an",
+          "start": 219.553,
+          "end": 219.661
+        },
+        {
+          "w": "elephant's",
+          "start": 219.661,
+          "end": 220.149
+        },
+        {
+          "w": "trunk",
+          "start": 220.149,
+          "end": 220.473
+        },
+        {
+          "w": "do?",
+          "start": 220.473,
+          "end": 220.69
+        }
+      ]
+    },
+    {
+      "beat": "a1",
+      "speaker": "narrator",
+      "start": 226.84,
+      "end": 228.35,
+      "text": "Smell, grab, and drink!",
+      "words": [
+        {
+          "w": "Smell,",
+          "start": 226.88,
+          "end": 227.235
+        },
+        {
+          "w": "grab,",
+          "start": 227.235,
+          "end": 227.591
+        },
+        {
+          "w": "and",
+          "start": 227.591,
+          "end": 227.804
+        },
+        {
+          "w": "drink!",
+          "start": 227.804,
+          "end": 228.23
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "narrator",
+      "start": 231.35,
+      "end": 233.41,
+      "text": "What are the biggest animals on land?",
+      "words": [
+        {
+          "w": "What",
+          "start": 231.44,
+          "end": 231.673
+        },
+        {
+          "w": "are",
+          "start": 231.673,
+          "end": 231.847
+        },
+        {
+          "w": "the",
+          "start": 231.847,
+          "end": 231.963
+        },
+        {
+          "w": "biggest",
+          "start": 231.963,
+          "end": 232.37
+        },
+        {
+          "w": "animals",
+          "start": 232.37,
+          "end": 232.835
+        },
+        {
+          "w": "on",
+          "start": 232.835,
+          "end": 233.009
+        },
+        {
+          "w": "land?",
+          "start": 233.009,
+          "end": 233.3
+        }
+      ]
+    },
+    {
+      "beat": "a2",
+      "speaker": "narrator",
+      "start": 239.41,
+      "end": 240.39,
+      "text": "Elephants!",
+      "words": [
+        {
+          "w": "Elephants!",
+          "start": 239.45,
+          "end": 240.18
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "narrator",
+      "start": 243.39,
+      "end": 245.41,
+      "text": "Why do elephants flap their ears?",
+      "words": [
+        {
+          "w": "Why",
+          "start": 243.44,
+          "end": 243.692
+        },
+        {
+          "w": "do",
+          "start": 243.692,
+          "end": 243.945
+        },
+        {
+          "w": "elephants",
+          "start": 243.945,
+          "end": 244.513
+        },
+        {
+          "w": "flap",
+          "start": 244.513,
+          "end": 244.828
+        },
+        {
+          "w": "their",
+          "start": 244.828,
+          "end": 245.018
+        },
+        {
+          "w": "ears?",
+          "start": 245.018,
+          "end": 245.27
+        }
+      ]
+    },
+    {
+      "beat": "a3",
+      "speaker": "narrator",
+      "start": 251.41,
+      "end": 252.52,
+      "text": "To cool down!",
+      "words": [
+        {
+          "w": "To",
+          "start": 251.43,
+          "end": 251.635
+        },
+        {
+          "w": "cool",
+          "start": 251.635,
+          "end": 251.978
+        },
+        {
+          "w": "down!",
+          "start": 251.978,
+          "end": 252.32
+        }
+      ]
+    },
+    {
+      "beat": "f_turn",
+      "speaker": "narrator",
+      "start": 254.12,
+      "end": 257.8,
+      "text": "Can you flap your arms, like big elephant ears? Your turn!",
+      "words": [
+        {
+          "w": "Can",
+          "start": 254.15,
+          "end": 254.436
+        },
+        {
+          "w": "you",
+          "start": 254.436,
+          "end": 254.65
+        },
+        {
+          "w": "flap",
+          "start": 254.65,
+          "end": 255.007
+        },
+        {
+          "w": "your",
+          "start": 255.007,
+          "end": 255.221
+        },
+        {
+          "w": "arms,",
+          "start": 255.221,
+          "end": 255.649
+        },
+        {
+          "w": "like",
+          "start": 255.649,
+          "end": 256.006
+        },
+        {
+          "w": "big",
+          "start": 256.006,
+          "end": 256.292
+        },
+        {
+          "w": "elephant",
+          "start": 256.292,
+          "end": 256.863
+        },
+        {
+          "w": "ears?",
+          "start": 256.863,
+          "end": 257.149
+        },
+        {
+          "w": "Your",
+          "start": 257.149,
+          "end": 257.363
+        },
+        {
+          "w": "turn!",
+          "start": 257.363,
+          "end": 257.72
+        }
+      ]
+    },
+    {
+      "beat": "f_go",
+      "speaker": "emma",
+      "start": 261.2,
+      "end": 262.39,
+      "text": "Flap, flap, flap!",
+      "words": [
+        {
+          "w": "Flap,",
+          "start": 261.22,
+          "end": 261.583
+        },
+        {
+          "w": "flap,",
+          "start": 261.583,
+          "end": 261.947
+        },
+        {
+          "w": "flap!",
+          "start": 261.947,
+          "end": 262.31
+        }
+      ]
+    },
+    {
+      "beat": "h_q",
+      "speaker": "narrator",
+      "start": 265.39,
+      "end": 266.85,
+      "text": "How did Emma help Pip?",
+      "words": [
+        {
+          "w": "How",
+          "start": 265.46,
+          "end": 265.706
+        },
+        {
+          "w": "did",
+          "start": 265.706,
+          "end": 265.951
+        },
+        {
+          "w": "Emma",
+          "start": 265.951,
+          "end": 266.197
+        },
+        {
+          "w": "help",
+          "start": 266.197,
+          "end": 266.504
+        },
+        {
+          "w": "Pip?",
+          "start": 266.504,
+          "end": 266.75
+        }
+      ]
+    },
+    {
+      "beat": "h_a1",
+      "speaker": "narrator",
+      "start": 272.85,
+      "end": 274.08,
+      "text": "She reached the kite,",
+      "words": [
+        {
+          "w": "She",
+          "start": 272.92,
+          "end": 273.1
+        },
+        {
+          "w": "reached",
+          "start": 273.1,
+          "end": 273.52
+        },
+        {
+          "w": "the",
+          "start": 273.52,
+          "end": 273.64
+        },
+        {
+          "w": "kite,",
+          "start": 273.64,
+          "end": 273.94
+        }
+      ]
+    },
+    {
+      "beat": "h_a2",
+      "speaker": "narrator",
+      "start": 274.88,
+      "end": 276.48,
+      "text": "and she watered the flowers!",
+      "words": [
+        {
+          "w": "and",
+          "start": 274.97,
+          "end": 275.164
+        },
+        {
+          "w": "she",
+          "start": 275.164,
+          "end": 275.357
+        },
+        {
+          "w": "watered",
+          "start": 275.357,
+          "end": 275.809
+        },
+        {
+          "w": "the",
+          "start": 275.809,
+          "end": 275.938
+        },
+        {
+          "w": "flowers!",
+          "start": 275.938,
+          "end": 276.39
+        }
+      ]
+    },
+    {
+      "beat": "l_intro",
+      "speaker": "bobo",
+      "start": 279.48,
+      "end": 280.65,
+      "text": "Let's say it together!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 279.51,
+          "end": 279.791
+        },
+        {
+          "w": "say",
+          "start": 279.791,
+          "end": 280.015
+        },
+        {
+          "w": "it",
+          "start": 280.015,
+          "end": 280.127
+        },
+        {
+          "w": "together!",
+          "start": 280.127,
+          "end": 280.52
+        }
+      ]
+    },
+    {
+      "beat": "l1",
+      "speaker": "emma",
+      "start": 282.05,
+      "end": 283.43,
+      "text": "I can help my friends!",
+      "words": [
+        {
+          "w": "I",
+          "start": 282.09,
+          "end": 282.245
+        },
+        {
+          "w": "can",
+          "start": 282.245,
+          "end": 282.452
+        },
+        {
+          "w": "help",
+          "start": 282.452,
+          "end": 282.711
+        },
+        {
+          "w": "my",
+          "start": 282.711,
+          "end": 282.918
+        },
+        {
+          "w": "friends!",
+          "start": 282.918,
+          "end": 283.28
+        }
+      ]
+    },
+    {
+      "beat": "l_turn",
+      "speaker": "narrator",
+      "start": 285.43,
+      "end": 286.39,
+      "text": "Your turn!",
+      "words": [
+        {
+          "w": "Your",
+          "start": 285.47,
+          "end": 285.747
+        },
+        {
+          "w": "turn!",
+          "start": 285.747,
+          "end": 286.21
+        }
+      ]
+    },
+    {
+      "beat": "l2",
+      "speaker": "emma",
+      "start": 289.99,
+      "end": 291.37,
+      "text": "I can help my friends!",
+      "words": [
+        {
+          "w": "I",
+          "start": 290.03,
+          "end": 290.185
+        },
+        {
+          "w": "can",
+          "start": 290.185,
+          "end": 290.392
+        },
+        {
+          "w": "help",
+          "start": 290.392,
+          "end": 290.651
+        },
+        {
+          "w": "my",
+          "start": 290.651,
+          "end": 290.858
+        },
+        {
+          "w": "friends!",
+          "start": 290.858,
+          "end": 291.22
+        }
+      ]
+    },
+    {
+      "beat": "l_more",
+      "speaker": "narrator",
+      "start": 293.57,
+      "end": 294.74,
+      "text": "One more time!",
+      "words": [
+        {
+          "w": "One",
+          "start": 293.61,
+          "end": 293.893
+        },
+        {
+          "w": "more",
+          "start": 293.893,
+          "end": 294.246
+        },
+        {
+          "w": "time!",
+          "start": 294.246,
+          "end": 294.6
+        }
+      ]
+    },
+    {
+      "beat": "l3",
+      "speaker": "emma",
+      "start": 295.74,
+      "end": 297.12,
+      "text": "I can help my friends!",
+      "words": [
+        {
+          "w": "I",
+          "start": 295.78,
+          "end": 295.935
+        },
+        {
+          "w": "can",
+          "start": 295.935,
+          "end": 296.142
+        },
+        {
+          "w": "help",
+          "start": 296.142,
+          "end": 296.401
+        },
+        {
+          "w": "my",
+          "start": 296.401,
+          "end": 296.608
+        },
+        {
+          "w": "friends!",
+          "start": 296.608,
+          "end": 296.97
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "emma",
+      "start": 299.72,
+      "end": 301.62,
+      "text": "Bye-bye, friends! Pa-woo!",
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 299.74,
+          "end": 300.431
+        },
+        {
+          "w": "friends!",
+          "start": 300.431,
+          "end": 300.969
+        },
+        {
+          "w": "Pa-woo!",
+          "start": 300.969,
+          "end": 301.43
+        }
+      ]
+    },
+    {
+      "beat": "bye_b",
+      "speaker": "pip",
+      "start": 302.22,
+      "end": 303.41,
+      "text": "Bye-bye!",
+      "words": [
+        {
+          "w": "Bye-bye!",
+          "start": 302.27,
+          "end": 303.05
+        }
+      ]
+    },
+    {
+      "beat": "ask",
+      "speaker": "narrator",
+      "start": 304.61,
+      "end": 306.29,
+      "text": "How can YOU help a friend today?",
+      "words": [
+        {
+          "w": "How",
+          "start": 304.66,
+          "end": 304.854
+        },
+        {
+          "w": "can",
+          "start": 304.854,
+          "end": 305.047
+        },
+        {
+          "w": "YOU",
+          "start": 305.047,
+          "end": 305.192
+        },
+        {
+          "w": "help",
+          "start": 305.192,
+          "end": 305.434
+        },
+        {
+          "w": "a",
+          "start": 305.434,
+          "end": 305.579
+        },
+        {
+          "w": "friend",
+          "start": 305.579,
+          "end": 305.87
+        },
+        {
+          "w": "today?",
+          "start": 305.87,
+          "end": 306.16
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "guess",
+      "start": 0,
+      "visual": "Who has big, flappy ears, and a long, long nose?",
+      "end": 6.0
+    },
+    {
+      "id": "guess2",
+      "start": 6.0,
+      "visual": "Can you guess?",
+      "end": 11.58
+    },
+    {
+      "id": "reveal",
+      "start": 11.58,
+      "visual": "It's... an elephant!",
+      "end": 14.27
+    },
+    {
+      "id": "hello",
+      "start": 14.27,
+      "visual": "Hello! I'm Emma the elephant!",
+      "end": 16.88
+    },
+    {
+      "id": "bobo_hi",
+      "start": 16.88,
+      "visual": "Hi, Emma! I'm Super Bobo!",
+      "end": 19.34
+    },
+    {
+      "id": "pip_hi",
+      "start": 19.34,
+      "visual": "And I'm Pip!",
+      "end": 22.28
+    },
+    {
+      "id": "sound_q",
+      "start": 22.28,
+      "visual": "What sound does an elephant make?",
+      "end": 25.48
+    },
+    {
+      "id": "sound1",
+      "start": 25.48,
+      "visual": "Pa-woo!",
+      "end": 27.78
+    },
+    {
+      "id": "your_turn",
+      "start": 27.78,
+      "visual": "Can you trumpet like Emma? Lift your arm, like a trunk. Your turn!",
+      "end": 35.12
+    },
+    {
+      "id": "sound2",
+      "start": 35.12,
+      "visual": "Pa-woo!",
+      "end": 37.42
+    },
+    {
+      "id": "facts",
+      "start": 37.42,
+      "visual": "Let's learn three elephant facts!",
+      "end": 41.02
+    },
+    {
+      "id": "fact1",
+      "start": 41.02,
+      "visual": "Fact one. An elephant's trunk is a nose, and a hand! It can smell, grab, and drink water.",
+      "end": 48.74
+    },
+    {
+      "id": "fact2",
+      "start": 48.74,
+      "visual": "Fact two. Elephants are the biggest animals that live on land!",
+      "end": 55.51
+    },
+    {
+      "id": "fact3",
+      "start": 55.51,
+      "visual": "Fact three. Elephants flap their big ears, to cool down on hot days.",
+      "end": 61.23
+    },
+    {
+      "id": "flap",
+      "start": 61.23,
+      "visual": "Flap, flap! Ahh, nice and cool!",
+      "end": 65.84
+    },
+    {
+      "id": "big_q",
+      "start": 65.84,
+      "visual": "Emma is big. Pip is small. Who is bigger?",
+      "end": 73.69
+    },
+    {
+      "id": "big_a",
+      "start": 73.69,
+      "visual": "Emma is bigger! I'm the smallest!",
+      "end": 79.58
+    },
+    {
+      "id": "story",
+      "start": 79.58,
+      "visual": "Today, Pip the mouse is flying his new kite.",
+      "end": 83.4
+    },
+    {
+      "id": "pip_fly",
+      "start": 83.4,
+      "visual": "Wheee! Look how high it goes!",
+      "end": 86.89
+    },
+    {
+      "id": "stuck",
+      "start": 86.89,
+      "visual": "Oh no! The wind blows the kite, into the tall tree!",
+      "end": 91.75
+    },
+    {
+      "id": "pip_sad",
+      "start": 91.75,
+      "visual": "My kite! It's stuck! I'm too little to reach it.",
+      "end": 97.28
+    },
+    {
+      "id": "sad",
+      "start": 97.28,
+      "visual": "Pip feels sad.",
+      "end": 100.51
+    },
+    {
+      "id": "think",
+      "start": 100.51,
+      "visual": "What could Pip do?",
+      "end": 106.08
+    },
+    {
+      "id": "bobo_try",
+      "start": 106.08,
+      "visual": "Super Bobo to the rescue! I'll jump! Hup! Hup!",
+      "end": 110.38
+    },
+    {
+      "id": "bobo_no",
+      "start": 110.38,
+      "visual": "Oh. The tree is too tall, even for me.",
+      "end": 114.44
+    },
+    {
+      "id": "emma_help",
+      "start": 114.44,
+      "visual": "Don't worry, Pip! I can help. My trunk is long!",
+      "end": 118.76
+    },
+    {
+      "id": "reach",
+      "start": 118.76,
+      "visual": "Emma stretches her trunk up, up, up... and gently takes the kite.",
+      "end": 124.73
+    },
+    {
+      "id": "got",
+      "start": 124.73,
+      "visual": "Here's your kite, Pip!",
+      "end": 127.86
+    },
+    {
+      "id": "stretch",
+      "start": 127.86,
+      "visual": "Can you stretch up high, like Emma's trunk? Up, up, up! Your turn!",
+      "end": 135.49
+    },
+    {
+      "id": "stretch_go",
+      "start": 135.49,
+      "visual": "Up, up, up!",
+      "end": 137.54
+    },
+    {
+      "id": "pip_thanks",
+      "start": 137.54,
+      "visual": "Thank you, Emma! You're the best friend!",
+      "end": 143.63
+    },
+    {
+      "id": "story2",
+      "start": 143.63,
+      "visual": "Then, Pip looks at his garden. The flowers are droopy, and thirsty.",
+      "end": 149.12
+    },
+    {
+      "id": "pip_flowers",
+      "start": 149.12,
+      "visual": "Oh no. My flowers need water. But the pond is so far away!",
+      "end": 155.64
+    },
+    {
+      "id": "emma_help2",
+      "start": 155.64,
+      "visual": "I can help again! My trunk can carry water!",
+      "end": 159.84
+    },
+    {
+      "id": "drink",
+      "start": 159.84,
+      "visual": "Emma fills her trunk at the pond... and sprays the flowers. Splash!",
+      "end": 166.17
+    },
+    {
+      "id": "bloom",
+      "start": 166.17,
+      "visual": "Look! The flowers stand up tall, and happy!",
+      "end": 170.08
+    },
+    {
+      "id": "pip_yay",
+      "start": 170.08,
+      "visual": "Hooray! Thank you, Emma!",
+      "end": 173.16
+    },
+    {
+      "id": "emma_happy",
+      "start": 173.16,
+      "visual": "Helping my friends makes me happy!",
+      "end": 177.58
+    },
+    {
+      "id": "lesson",
+      "start": 177.58,
+      "visual": "When we help our friends, everyone feels happy.",
+      "end": 183.43
+    },
+    {
+      "id": "again",
+      "start": 183.43,
+      "visual": "Now, let's play and remember, with Emma!",
+      "end": 188.09
+    },
+    {
+      "id": "s_q",
+      "start": 188.09,
+      "visual": "What sound does an elephant make?",
+      "end": 194.89
+    },
+    {
+      "id": "s_a",
+      "start": 194.89,
+      "visual": "Pa-woo!",
+      "end": 197.39
+    },
+    {
+      "id": "s_turn",
+      "start": 197.39,
+      "visual": "Your turn! Lift your trunk, and trumpet!",
+      "end": 203.15
+    },
+    {
+      "id": "s_b",
+      "start": 203.15,
+      "visual": "Pa-woo!",
+      "end": 206.05
+    },
+    {
+      "id": "s_more",
+      "start": 206.05,
+      "visual": "One more time, all together!",
+      "end": 211.21
+    },
+    {
+      "id": "s_c",
+      "start": 211.21,
+      "visual": "Pa-woo!",
+      "end": 214.71
+    },
+    {
+      "id": "q_intro",
+      "start": 214.71,
+      "visual": "Do you remember the elephant facts?",
+      "end": 218.85
+    },
+    {
+      "id": "q1",
+      "start": 218.85,
+      "visual": "What can an elephant's trunk do?",
+      "end": 226.64
+    },
+    {
+      "id": "a1",
+      "start": 226.64,
+      "visual": "Smell, grab, and drink!",
+      "end": 231.15
+    },
+    {
+      "id": "q2",
+      "start": 231.15,
+      "visual": "What are the biggest animals on land?",
+      "end": 239.21
+    },
+    {
+      "id": "a2",
+      "start": 239.21,
+      "visual": "Elephants!",
+      "end": 243.19
+    },
+    {
+      "id": "q3",
+      "start": 243.19,
+      "visual": "Why do elephants flap their ears?",
+      "end": 251.21
+    },
+    {
+      "id": "a3",
+      "start": 251.21,
+      "visual": "To cool down!",
+      "end": 253.92
+    },
+    {
+      "id": "f_turn",
+      "start": 253.92,
+      "visual": "Can you flap your arms, like big elephant ears? Your turn!",
+      "end": 261.0
+    },
+    {
+      "id": "f_go",
+      "start": 261.0,
+      "visual": "Flap, flap, flap!",
+      "end": 265.19
+    },
+    {
+      "id": "h_q",
+      "start": 265.19,
+      "visual": "How did Emma help Pip?",
+      "end": 272.65
+    },
+    {
+      "id": "h_a1",
+      "start": 272.65,
+      "visual": "She reached the kite,",
+      "end": 274.68
+    },
+    {
+      "id": "h_a2",
+      "start": 274.68,
+      "visual": "and she watered the flowers!",
+      "end": 279.28
+    },
+    {
+      "id": "l_intro",
+      "start": 279.28,
+      "visual": "Let's say it together!",
+      "end": 281.85
+    },
+    {
+      "id": "l1",
+      "start": 281.85,
+      "visual": "I can help my friends!",
+      "end": 285.23
+    },
+    {
+      "id": "l_turn",
+      "start": 285.23,
+      "visual": "Your turn!",
+      "end": 289.79
+    },
+    {
+      "id": "l2",
+      "start": 289.79,
+      "visual": "I can help my friends!",
+      "end": 293.37
+    },
+    {
+      "id": "l_more",
+      "start": 293.37,
+      "visual": "One more time!",
+      "end": 295.54
+    },
+    {
+      "id": "l3",
+      "start": 295.54,
+      "visual": "I can help my friends!",
+      "end": 299.52
+    },
+    {
+      "id": "bye",
+      "start": 299.52,
+      "visual": "Bye-bye, friends! Pa-woo!",
+      "end": 302.02
+    },
+    {
+      "id": "bye_b",
+      "start": 302.02,
+      "visual": "Bye-bye!",
+      "end": 304.41
+    },
+    {
+      "id": "ask",
+      "start": 304.41,
+      "visual": "How can YOU help a friend today?",
+      "end": 309.3
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

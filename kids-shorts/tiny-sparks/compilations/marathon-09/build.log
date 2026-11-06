@@ -1,0 +1,677 @@
+  . composition: remotion\src\shots\kids-puzzles-069\KidsPuzzles069.tsx
+  . vo: 71 lines with REAL word times (captions are word-exact)
+  . sfx: 89 cues
+  ! beats.json: format is 1920x1080, not 1080x1920
+
+0 error(s), 1 warning(s)
+build day-069  [KidsPuzzles069]  325.1s  scale=1
+stages: gen -> voice -> render -> mux -> sfx -> music
+
+preflight:
+
+$ node scripts/gen-registry.mjs
+gen-registry: 180 shot(s) -> registry.gen.tsx (unchanged)
+  - Ai1Door  1080x1920@30 36.4s
+  - Bro01Business  1080x1920@30 39.4s
+  - Bro025am  1080x1920@30 39.8s
+  - Bro03Gym  1080x1920@30 34.4s
+  - Bro04Cook  1080x1920@30 38s
+  - Bro05Crypto  1080x1920@30 34.7s
+  - Bro06Wifi  1080x1920@30 36.7s
+  - Bro07Diet  1080x1920@30 35.8s
+  - Bro08Gps  1080x1920@30 38.2s
+  - Bro09Dj  1080x1920@30 34.7s
+  - Bro10Pigeon  1080x1920@30 29.8s
+  - Bro11Coach  1080x1920@30 36.6s
+  - Bro12Receipt  1080x1920@30 34.8s
+  - KidsAnimals004  1920x1080@30 299.9s
+  - KidsAnimals011  1920x1080@30 253.6s
+  - KidsAnimals018  1920x1080@30 215.9s
+  - KidsAnimals025  1920x1080@30 309.3s
+  - KidsAnimals032  1920x1080@30 307.3s
+  - KidsAnimals039  1920x1080@30 301.2s
+  - KidsAnimals046  1920x1080@30 306.9s
+  - KidsAnimals053  1920x1080@30 303.3s
+  - KidsAnimals060  1920x1080@30 300.6s
+  - KidsAnimals067  1920x1080@30 350s
+  - KidsAnimals074  1920x1080@30 304.5s
+  - KidsAnimals081  1920x1080@30 359.6s
+  - KidsMarathonIntro  1920x1080@30 9s
+  - KidsMarathonIntro02  1920x1080@30 9s
+  - KidsMarathonIntro02P3  1920x1080@30 9s
+  - KidsMarathonIntro03  1920x1080@30 9s
+  - KidsMarathonIntro04  1920x1080@30 9s
+  - KidsMarathonIntro05  1920x1080@30 9s
+  - KidsMarathonIntro06  1920x1080@30 9s
+  - KidsMarathonIntro07  1920x1080@30 9s
+  - KidsMarathonIntro08  1920x1080@30 9s
+  - KidsMarathonIntro09  1920x1080@30 9s
+  - KidsMarathonIntroMega  1920x1080@30 9s
+  - KidsMarathonIntroP2  1920x1080@30 9s
+  - KidsMarathonIntroP3  1920x1080@30 9s
+  - KidsHeroesSheet  1920x1080@30 2s
+  - KidsActingDemo  1920x1080@30 16.5s
+  - KidsEnergyCardAfter  1920x1080@30 2.6s
+  - KidsEnergyCardBefore  1920x1080@30 2.2s
+  - KidsEnergyDemo  1920x1080@30 41.4s
+  - KidsLooksDemo  1920x1080@30 18s
+  - KidsSmoothDemo  1920x1080@30 12.5s
+  - KidsMorals008  1920x1080@30 177.3s
+  - KidsMorals022  1920x1080@30 156.9s
+  - KidsMorals036  1920x1080@30 306.6s
+  - KidsMorals050  1920x1080@30 303.8s
+  - KidsMorals064  1920x1080@30 308.1s
+  - KidsNumbers002  1080x1920@30 47.2s
+  - KidsNumbers009  1080x1920@30 77.4s
+  - KidsNumbers016  1080x1920@30 63s
+  - KidsNumbers023  1080x1920@30 66.8s
+  - KidsNumbers030  1080x1920@30 85.6s
+  - KidsNumbers037  1920x1080@30 359.45s
+  - KidsNumbers044  1080x1920@30 88.6s
+  - KidsNumbers051  1920x1080@30 300.3s
+  - KidsNumbers058  1920x1080@30 303.3s
+  - KidsNumbers065  1920x1080@30 317.9s
+  - KidsNumbers072  1920x1080@30 314.1s
+  - KidsPuzzles006  1080x1920@30 84.6s
+  - KidsPuzzles013  1080x1920@30 88.1s
+  - KidsPuzzles020  1080x1920@30 90s
+  - KidsPuzzles027  1080x1920@30 98.2s
+  - KidsPuzzles034  1080x1920@30 101.3s
+  - KidsPuzzles041  1080x1920@30 92.2s
+  - KidsPuzzles048  1920x1080@30 313.9s
+  - KidsPuzzles055  1920x1080@30 326.8s
+  - KidsPuzzles062  1920x1080@30 338.3s
+  - KidsPuzzles069  1920x1080@30 325.1s
+  - KidsScience005  1080x1920@30 75.1s
+  - KidsScience012  1080x1920@30 79.8s
+  - KidsScience019  1080x1920@30 75.5s
+  - KidsScience026  1080x1920@30 112s
+  - KidsScience033  1080x1920@30 110.5s
+  - KidsScience040  1080x1920@30 102.5s
+  - KidsScience047  1920x1080@30 305s
+  - KidsScience054  1920x1080@30 302.4s
+  - KidsScience061  1920x1080@30 318.1s
+  - KidsScience068  1920x1080@30 350.9s
+  - KidsChannelBanner  2560x1440@30 1s
+  - KidsChannelLogo  800x800@30 1s
+  - KidsDinoSheet  1920x1080@30 2s
+  - KidsFarmSheet  1920x1080@30 2s
+  - KidsKitDemo  1080x1920@30 12s
+  - KidsModelSheet  1080x1920@30 2s
+  - KidsPlacesBoard  1920x1080@30 4s
+  - KidsPlacesBoardTall  1920x1080@30 4s
+  - KidsStyleBoard  1920x1080@30 2s
+  - KidsStyleBoardTall  1920x1080@30 4s
+  - KidsWardrobeSheet  1080x1920@30 2s
+  - KidsShortCards  1080x1920@30 10s
+  - KidsSongs007  1920x1080@30 154.86s
+  - KidsSongs014  1920x1080@30 127.75s
+  - KidsSongs021  1920x1080@30 184.4s
+  - KidsSongs028  1920x1080@30 293.57s
+  - KidsSongs035  1920x1080@30 302s
+  - KidsSongs042  1920x1080@30 298.85s
+  - KidsSongs049  1920x1080@30 334.35s
+  - KidsSongs056  1920x1080@30 304.36s
+  - KidsStories001  1080x1920@30 42s
+  - KidsStories015  1920x1080@30 171.4s
+  - KidsStories029  1920x1080@30 303.5s
+  - KidsStories043  1920x1080@30 306.8s
+  - KidsStories057  1920x1080@30 304.8s
+  - KidsStories071  1920x1080@30 336.6s
+  - KidsThumbs  1280x720@30 10s
+  - KidsWords003  1920x1080@30 118.7s
+  - KidsWords010  1920x1080@30 359s
+  - KidsWords017  1920x1080@30 351.2s
+  - KidsWords024  1080x1920@30 113s
+  - KidsWords031  1080x1920@30 131.7s
+  - KidsWords038  1080x1920@30 135.7s
+  - KidsWords045  1080x1920@30 139s
+  - KidsWords052  1920x1080@30 301.4s
+  - KidsWords059  1920x1080@30 334.2s
+  - KidsWords066  1920x1080@30 336.2s
+  - KidsWords073  1920x1080@30 342.4s
+  - KidsWords080  1080x1920@30 86.8s
+  - Short10Fees  1080x1920@30 42s
+  - Short11Map  1080x1920@30 42s
+  - Short12Orbit  1080x1920@30 42s
+  - Short13Water  1080x1920@30 42.5s
+  - Short14Seed  1080x1920@30 42.5s
+  - Short15Sun  1080x1920@30 43s
+  - Short16Room  1080x1920@30 43s
+  - Short17Screen  1080x1920@30 43s
+  - Short18Blink  1080x1920@30 43s
+  - Short19Play  1080x1920@30 44.5s
+  - Short1Chess  1080x1920@30 42s
+  - Short20Sleep  1080x1920@30 45.5s
+  - Short21School  1080x1920@30 42s
+  - Short22Homework  1080x1920@30 43s
+  - Short23Bones  1080x1920@30 43.5s
+  - Short24Reading  1080x1920@30 43s
+  - Short25Together  1080x1920@30 43s
+  - Short26Talk  1080x1920@30 45s
+  - Short27Pairs  1080x1920@30 45s
+  - Short28Morning  1080x1920@30 42s
+  - Short29Mind  1080x1920@30 44s
+  - Short2Math  1080x1920@30 42s
+  - Short30Drink  1080x1920@30 36.5s
+  - Short31Start  1080x1920@30 42s
+  - Short32Identity  1080x1920@30 37s
+  - Short33Spend  1080x1920@30 40.5s
+  - Short34Clutter  1080x1920@30 43.5s
+  - Short35Batch  1080x1920@30 44.1s
+  - Short36Cool  1080x1920@30 44.2s
+  - Short37Reset  1080x1920@30 44.5s
+  - Short38Baskets  1080x1920@30 38.6s
+  - Short39Doorway  1080x1920@30 40.6s
+  - Short3Algo  1080x1920@30 42s
+  - Short40Launch  1080x1920@30 42s
+  - Short41Once  1080x1920@30 43.3s
+  - Short42Money  1080x1920@30 42.5s
+  - Short43Peruse  1080x1920@30 43.3s
+  - Short44Wake  1080x1920@30 44s
+  - Short45Page  1080x1920@30 43.5s
+  - Short46Shower  1080x1920@30 45s
+  - Short47Autopilot  1080x1920@30 41.6s
+  - Short48Gills  1080x1920@30 40.3s
+  - Short49Life  1080x1920@30 37.6s
+  - Short4Reflog  1080x1920@30 34s
+  - Short50Thunder  1080x1920@30 48s
+  - Short51Talk  1080x1920@30 43.5s
+  - Short52Suns  1080x1920@30 42s
+  - Short53Borders  1080x1920@30 42s
+  - Short54Fall  1080x1920@30 42s
+  - Short55Memory  1080x1920@30 40.3s
+  - Short56Freeze  1080x1920@30 47s
+  - Short5Monty  1080x1920@30 43s
+  - Short6Sheet  1080x1920@30 38s
+  - Short7Kids  1080x1920@30 55s
+  - Short8Phish  1080x1920@30 43s
+  - Short9Chords  1080x1920@30 42s
+  - BroChannelBanner  2560x1440@30 1s
+  - BroChannelLogo  800x800@30 1s
+  - BroModelSheet  1080x1920@30 2s
+  - Vox1Coffee  1080x1920@30 40.5s
+
+$ 'C:\Users\Z.ESSAIYDY\AppData\Local\Programs\Python\Python312\python.exe' 'D:\Nouveau dossier (2)\ai-gen\tools\gen_voice.py' --beats 'D:\Nouveau dossier (2)\ai-gen\kids-shorts\tiny-sparks\puzzles\day-069-find-the-hidden-heart\beats.json' --engine kokoro --jobs 4 --emit-ts 'D:\Nouveau dossier (2)\ai-gen\remotion\src\shots\kids-puzzles-069\vo.gen.ts'
+line  start window   clip tempo  text
+   0   0.30   8.25   3.68  1.00  Oh no! The wind blew away our heart stickers! Can you find one?
+   1   8.60   2.50   1.53  1.00  Easy! The red balloon!
+   2  11.15   3.62   2.85  1.00  Hmm, that one is round, Leo. Look again!
+   3  14.82   2.81   1.64  1.00  There! The heart balloon!
+   4  17.68   4.13   2.96  1.00  Yes! Heart number one goes on our friendship card!
+   5  21.86   3.92   2.95  1.00  Twelve little hearts are hiding. Let's find them all!
+   6  25.83   6.19   5.22  1.00  Here's a heart trick: two round bumps on top, and one little point at the bottom!
+   7  32.07   3.49   1.92  1.00  Bump, bump, point! Bump, bump, point!
+   8  35.61   8.49   3.92  1.00  Puzzle two. Look up at the clouds. Which cloud is a heart?
+   9  44.15   2.15   1.38  1.00  The big fluffy one!
+  10  46.35   2.73   1.96  1.00  That one looks like a sheep, Leo! Baa!
+  11  49.13   3.04   1.87  1.00  This one! Bump, bump, point!
+  12  52.22   3.22   1.85  1.00  Oops! Ha ha! A sheep cloud!
+  13  55.49   8.47   3.90  1.00  Puzzle three. Pretty butterflies! Which one has heart wings?
+  14  64.01   3.49   2.32  1.00  The pink one! Its wings make a heart!
+  15  67.55   5.11   3.54  1.00  Did you know? Butterflies taste with their feet! Hoo hoo!
+  16  72.71   7.40   2.83  1.00  Puzzle four! My yummy sandwiches! One is a heart.
+  17  80.16   2.81   1.84  1.00  That one! Bump, bump, point!
+  18  83.02   2.75   2.38  1.00  Ooh, a heart sandwich. Just one little bite...
+  19  85.82   3.03   2.26  1.00  No, Bobo! We need it for our card!
+  20  88.90   4.15   2.58  1.00  Oops! Okay. I'll eat the round one. Munch, munch!
+  21  93.10   9.15   4.58  1.00  Puzzle five. Red shapes! Circles, triangles, and one heart.
+  22 102.30   2.76   1.79  1.00  The triangle! It has a point!
+  23 105.11   4.88   4.11  1.00  Good looking, Leo! But a heart has a point, and two round bumps.
+  24 110.04   2.99   1.42  1.00  So it's this one!
+  25 113.08   9.17   4.60  1.00  Puzzle six. The pond! A little frog is sitting on a heart. Where?
+  26 122.30   3.65   2.68  1.00  On that lily pad! I found it! I found it!
+  27 126.00   4.45   2.88  1.00  Well done, Leo! Ribbit, says the frog!
+  28 130.50   8.45   3.88  1.00  Puzzle seven. A tricky one! One heart is upside down.
+  29 139.00   2.96   2.19  1.00  Upside down? Then it's not a heart!
+  30 142.01   4.07   2.90  1.00  It is! Let's turn it around. Bump, bump, point!
+  31 146.13   5.38   3.81  1.00  Right side up, or upside down, a heart is still a heart!
+  32 151.56   8.21   3.64  1.00  Puzzle eight. Kites in the sky! Which kite is a heart?
+  33 159.82   3.27   1.70  1.00  The purple kite! Whoosh!
+  34 163.14   8.51   3.94  1.00  Puzzle nine. Find the tiny, tiny heart. Look closely!
+  35 171.70   3.33   2.36  1.00  On the ladybug! A tiny heart spot!
+  36 175.08   3.76   2.19  1.00  Tiny ladybug, tiny heart! So cute!
+  37 178.89   8.77   4.20  1.00  Puzzle ten. Look at the little houses. One window is a heart.
+  38 187.71   3.59   2.02  1.00  The yellow house! The heart window!
+  39 191.35   9.51   4.94  1.00  Puzzle eleven. Teddy's toy box. Look up, look down, look all around!
+  40 200.91   2.82   1.85  1.00  Teddy is holding it! A heart!
+  41 203.78   3.29   1.72  1.00  Teddy loves hugs, just like me!
+  42 207.12   8.28   3.71  1.00  Puzzle twelve. Everything is pink! So look at the shape.
+  43 215.45   3.04   1.87  1.00  There! Next to the pink piggy!
+  44 218.54   3.78   2.81  1.00  Twelve hearts! Our card is almost full!
+  45 222.37   3.59   2.42  1.00  Almost? Look, there are three empty spots!
+  46 226.01   8.86   4.29  1.00  Super puzzle! Three hearts at the picnic. Can you find all three?
+  47 234.92   2.30   1.33  1.00  One! On the cake!
+  48 237.27   2.09   1.12  1.00  Two! On the cup!
+  49 239.41   2.32   1.15  1.00  Three! On the blanket!
+  50 241.78   4.15   2.98  1.00  Fifteen hearts! You are super heart finders!
+  51 245.98   3.56   2.59  1.00  Our friendship card is full! And it's for you!
+  52 249.59   4.03   2.06  1.00  Because you are our friend! Big bear hug!
+  53 253.67   2.24   1.27  1.00  Let's remember!
+  54 255.96   6.72   2.15  1.00  What does a heart have on top?
+  55 262.73   2.96   1.19  1.00  Two round bumps!
+  56 265.74   5.95   1.38  1.00  And at the bottom?
+  57 271.74   3.13   1.36  1.00  One little point!
+  58 274.92   6.57   2.00  1.00  Where was the very first heart?
+  59 281.54   2.68   0.91  1.00  On a balloon!
+  60 284.27   7.11   2.54  1.00  Is an upside-down heart still a heart?
+  61 291.43   3.59   2.02  1.00  Yes! A heart is still a heart!
+  62 295.07   3.70   2.73  1.00  Now, let's draw a heart in the air, together!
+  63 298.82   1.35   0.78  1.00  Bump!
+  64 300.22   1.18   0.61  1.00  Bump!
+  65 301.45   1.15   0.58  1.00  Point!
+  66 302.65   2.19   1.02  1.00  A heart!
+  67 304.89   6.94   3.97  1.00  Your turn! Draw a heart with your finger. Bump, bump, point!
+  68 311.88   2.36   1.19  1.00  What a beautiful heart!
+  69 314.29   2.34   1.87  1.00  Bye bye, friends! We love you!
+  70 316.68   8.07   1.98  1.00  See you next time, on Tiny Sparks!
+voice track -> kids-shorts\tiny-sparks\puzzles\day-069-find-the-hidden-heart\voice\voice.wav
+actual line timings + word maps written back -> kids-shorts\tiny-sparks\puzzles\day-069-find-the-hidden-heart\beats.json
+VO TS module -> remotion\src\shots\kids-puzzles-069\vo.gen.ts  (unchanged)
+
+$ node scripts/render-all.mjs KidsPuzzles069 --scale=1 --concurrency=4
+bundling (93e3bb4ef687)...
+  bundled in 7.2s
+  KidsPuzzles069: 0%     KidsPuzzles069: 5%     KidsPuzzles069: 10%     KidsPuzzles069: 15%     KidsPuzzles069: 20%     KidsPuzzles069: 25%     KidsPuzzles069: 30%     KidsPuzzles069: 35%     KidsPuzzles069: 40%     KidsPuzzles069: 45%     KidsPuzzles069: 50%     KidsPuzzles069: 55%     KidsPuzzles069: 60%     KidsPuzzles069: 65%     KidsPuzzles069: 70%     KidsPuzzles069: 75%     KidsPuzzles069: 80%     KidsPuzzles069: 85%     KidsPuzzles069: 90%     KidsPuzzles069: 100%   
+  -> out\KidsPuzzles069.mp4
+done: 1 shot(s) in 1071.5s -> out/
+
+$ ffmpeg -y -v error -i 'D:\Nouveau dossier (2)\ai-gen\remotion\out\KidsPuzzles069.mp4' -i 'D:\Nouveau dossier (2)\ai-gen\kids-shorts\tiny-sparks\puzzles\day-069-find-the-hidden-heart\voice\voice.wav' -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -t 325.1 'D:\Nouveau dossier (2)\ai-gen\remotion\out\KidsPuzzles069-voiced.mp4'
+plan: kids-shorts\tiny-sparks\puzzles\day-069-find-the-hidden-heart\sfx-plan.json   catalog: 67 clips
+preview: remotion\out\KidsPuzzles069-voiced.mp4   end: 325.1s   duck: True
+events: 89
+     at_s  sfx_id          gain  cue
+     0.30  pop-reveal      -10dB  puzzle card
+     0.60  whoosh-wind     -10dB  wind
+     4.50  think-tick       -6dB  think
+    10.23  uh-oh           -10dB  wrong
+    14.82  ding-correct     -8dB  found it
+    15.72  sparkle-soft    -10dB  heart flies to the card
+    20.74  kids-yay         -4dB  yay
+    32.11  cartoon-boing   -12dB  bump
+    32.39  cartoon-boing   -12dB  bump
+    32.67  cartoon-pop     -10dB  point
+    35.61  pop-reveal      -10dB  puzzle card
+    40.00  think-tick       -6dB  think
+    45.63  uh-oh           -10dB  wrong
+    48.31  kids-laugh       -6dB  laugh
+    49.13  ding-correct     -8dB  found it
+    50.03  sparkle-soft    -10dB  heart flies to the card
+    55.49  pop-reveal      -10dB  puzzle card
+    59.50  think-tick       -6dB  think
+    64.01  ding-correct     -8dB  found it
+    64.91  sparkle-soft    -10dB  heart flies to the card
+    71.09  kids-wow         -6dB  wow
+    72.71  pop-reveal      -10dB  puzzle card
+    76.00  think-tick       -6dB  think
+    80.16  ding-correct     -8dB  found it
+    81.06  sparkle-soft    -10dB  heart flies to the card
+    85.82  bonk            -10dB  stop
+    90.88  cartoon-pop     -10dB  munch
+    93.10  pop-reveal      -10dB  puzzle card
+    98.00  think-tick       -6dB  think
+   104.19  uh-oh           -10dB  wrong
+   110.04  ding-correct     -8dB  found it
+   110.94  sparkle-soft    -10dB  heart flies to the card
+   113.08  pop-reveal      -10dB  puzzle card
+   118.00  think-tick       -6dB  think
+   122.30  ding-correct     -8dB  found it
+   123.20  sparkle-soft    -10dB  heart flies to the card
+   126.00  kids-applause    -6dB  applause
+   130.50  pop-reveal      -10dB  puzzle card
+   134.50  think-tick       -6dB  think
+   142.66  rubber-stretch  -10dB  turn it
+   143.15  ding-correct     -8dB  found it
+   144.05  sparkle-soft    -10dB  fly
+   151.56  pop-reveal      -10dB  puzzle card
+   155.50  think-tick       -6dB  think
+   159.82  ding-correct     -8dB  found it
+   160.72  sparkle-soft    -10dB  heart flies to the card
+   161.01  whoosh-soft     -10dB  whoosh
+   163.14  pop-reveal      -10dB  puzzle card
+   167.50  think-tick       -6dB  think
+   171.70  ding-correct     -8dB  found it
+   172.60  sparkle-soft    -10dB  heart flies to the card
+   178.89  pop-reveal      -10dB  puzzle card
+   183.50  think-tick       -6dB  think
+   187.71  ding-correct     -8dB  found it
+   188.61  sparkle-soft    -10dB  heart flies to the card
+   191.35  pop-reveal      -10dB  puzzle card
+   196.50  think-tick       -6dB  think
+   200.91  ding-correct     -8dB  found it
+   201.81  sparkle-soft    -10dB  heart flies to the card
+   207.12  pop-reveal      -10dB  puzzle card
+   211.00  think-tick       -6dB  think
+   215.45  ding-correct     -8dB  found it
+   216.35  sparkle-soft    -10dB  heart flies to the card
+   218.54  kids-yay         -4dB  yay
+   226.01  drum-roll        -8dB  super
+   230.50  think-tick       -6dB  think
+   234.92  ding-correct     -8dB  found it
+   235.82  sparkle-soft    -10dB  heart flies to the card
+   237.27  ding-correct     -8dB  found it
+   238.17  sparkle-soft    -10dB  heart flies to the card
+   239.41  ding-correct     -8dB  found it
+   240.31  sparkle-soft    -10dB  heart flies to the card
+   241.78  cymbal-crash    -10dB  super
+   242.08  kids-applause    -4dB  applause
+   247.12  chime-magic      -8dB  card
+   251.65  kids-wow         -6dB  aww
+   258.50  think-tick       -6dB  think
+   262.73  ding-correct     -9dB  answer
+   267.50  think-tick       -6dB  think
+   271.74  ding-correct     -9dB  answer
+   277.50  think-tick       -6dB  think
+   281.54  ding-correct     -9dB  answer
+   287.00  think-tick       -6dB  think
+   291.43  ding-correct     -9dB  answer
+   298.82  cartoon-boing   -12dB  bump
+   300.22  cartoon-boing   -12dB  bump
+   301.45  cartoon-pop     -10dB  point
+   302.65  kids-yay         -4dB  yay
+   319.26  chime-magic      -8dB  star iris
+
+rendering -> kids-shorts\tiny-sparks\puzzles\day-069-find-the-hidden-heart\output\day-069-sfx.mp4
+done -> kids-shorts\tiny-sparks\puzzles\day-069-find-the-hidden-heart\output\day-069-sfx.mp4  (325.100000s, 89 cues)
+voiced -> remotion\out\KidsPuzzles069-voiced.mp4
+
+$ 'C:\Users\Z.ESSAIYDY\AppData\Local\Programs\Python\Python312\python.exe' 'D:\Nouveau dossier (2)\ai-gen\tools\mix_music.py' --base 'D:\Nouveau dossier (2)\ai-gen\kids-shorts\tiny-sparks\puzzles\day-069-find-the-hidden-heart\output\day-069-sfx.mp4' --bed tiny-sparks-bounce --bed-gain -6 --duck 8 --start 0 --fade-in 0.25
+base: kids-shorts\tiny-sparks\puzzles\day-069-find-the-hidden-heart\output\day-069-sfx.mp4   bed-gain: -6.0dB   duck: 8.0dB   fade: 1.5s   fade-in: 0.25s
+beds: tiny-sparks-bounce
+  rendering -> kids-shorts\tiny-sparks\puzzles\day-069-find-the-hidden-heart\output\day-069-sfx-tiny-sparks-bounce.mp4
+
+done:
+  kids-shorts\tiny-sparks\puzzles\day-069-find-the-hidden-heart\output\day-069-sfx-tiny-sparks-bounce.mp4  (325.1s)
+
+----------------------------------------------
+  gen         0.3s
+  voice      16.1s
+  render   1079.6s
+  mux         7.2s
+  sfx        10.7s
+  music      13.5s
+  TOTAL    1127.6s
+----------------------------------------------
+  video    remotion\out\KidsPuzzles069.mp4
+  voiced   remotion\out\KidsPuzzles069-voiced.mp4
+  . composition: remotion\src\shots\kids-numbers-072\KidsNumbers072.tsx
+  . vo: 76 lines with REAL word times (captions are word-exact)
+  . sfx: 72 cues
+  ! beats.json: format is 1920x1080, not 1080x1920
+
+0 error(s), 1 warning(s)
+build day-072  [KidsNumbers072]  314.1s  scale=1
+stages: gen -> voice -> render -> mux -> sfx -> music
+
+preflight:
+
+$ node scripts/gen-registry.mjs
+gen-registry: 180 shot(s) -> registry.gen.tsx (unchanged)
+  - Ai1Door  1080x1920@30 36.4s
+  - Bro01Business  1080x1920@30 39.4s
+  - Bro025am  1080x1920@30 39.8s
+  - Bro03Gym  1080x1920@30 34.4s
+  - Bro04Cook  1080x1920@30 38s
+  - Bro05Crypto  1080x1920@30 34.7s
+  - Bro06Wifi  1080x1920@30 36.7s
+  - Bro07Diet  1080x1920@30 35.8s
+  - Bro08Gps  1080x1920@30 38.2s
+  - Bro09Dj  1080x1920@30 34.7s
+  - Bro10Pigeon  1080x1920@30 29.8s
+  - Bro11Coach  1080x1920@30 36.6s
+  - Bro12Receipt  1080x1920@30 34.8s
+  - KidsAnimals004  1920x1080@30 299.9s
+  - KidsAnimals011  1920x1080@30 253.6s
+  - KidsAnimals018  1920x1080@30 215.9s
+  - KidsAnimals025  1920x1080@30 309.3s
+  - KidsAnimals032  1920x1080@30 307.3s
+  - KidsAnimals039  1920x1080@30 301.2s
+  - KidsAnimals046  1920x1080@30 306.9s
+  - KidsAnimals053  1920x1080@30 303.3s
+  - KidsAnimals060  1920x1080@30 300.6s
+  - KidsAnimals067  1920x1080@30 350s
+  - KidsAnimals074  1920x1080@30 304.5s
+  - KidsAnimals081  1920x1080@30 359.6s
+  - KidsMarathonIntro  1920x1080@30 9s
+  - KidsMarathonIntro02  1920x1080@30 9s
+  - KidsMarathonIntro02P3  1920x1080@30 9s
+  - KidsMarathonIntro03  1920x1080@30 9s
+  - KidsMarathonIntro04  1920x1080@30 9s
+  - KidsMarathonIntro05  1920x1080@30 9s
+  - KidsMarathonIntro06  1920x1080@30 9s
+  - KidsMarathonIntro07  1920x1080@30 9s
+  - KidsMarathonIntro08  1920x1080@30 9s
+  - KidsMarathonIntro09  1920x1080@30 9s
+  - KidsMarathonIntroMega  1920x1080@30 9s
+  - KidsMarathonIntroP2  1920x1080@30 9s
+  - KidsMarathonIntroP3  1920x1080@30 9s
+  - KidsHeroesSheet  1920x1080@30 2s
+  - KidsActingDemo  1920x1080@30 16.5s
+  - KidsEnergyCardAfter  1920x1080@30 2.6s
+  - KidsEnergyCardBefore  1920x1080@30 2.2s
+  - KidsEnergyDemo  1920x1080@30 41.4s
+  - KidsLooksDemo  1920x1080@30 18s
+  - KidsSmoothDemo  1920x1080@30 12.5s
+  - KidsMorals008  1920x1080@30 177.3s
+  - KidsMorals022  1920x1080@30 156.9s
+  - KidsMorals036  1920x1080@30 306.6s
+  - KidsMorals050  1920x1080@30 303.8s
+  - KidsMorals064  1920x1080@30 308.1s
+  - KidsNumbers002  1080x1920@30 47.2s
+  - KidsNumbers009  1080x1920@30 77.4s
+  - KidsNumbers016  1080x1920@30 63s
+  - KidsNumbers023  1080x1920@30 66.8s
+  - KidsNumbers030  1080x1920@30 85.6s
+  - KidsNumbers037  1920x1080@30 359.45s
+  - KidsNumbers044  1080x1920@30 88.6s
+  - KidsNumbers051  1920x1080@30 300.3s
+  - KidsNumbers058  1920x1080@30 303.3s
+  - KidsNumbers065  1920x1080@30 317.9s
+  - KidsNumbers072  1920x1080@30 314.1s
+  - KidsPuzzles006  1080x1920@30 84.6s
+  - KidsPuzzles013  1080x1920@30 88.1s
+  - KidsPuzzles020  1080x1920@30 90s
+  - KidsPuzzles027  1080x1920@30 98.2s
+  - KidsPuzzles034  1080x1920@30 101.3s
+  - KidsPuzzles041  1080x1920@30 92.2s
+  - KidsPuzzles048  1920x1080@30 313.9s
+  - KidsPuzzles055  1920x1080@30 326.8s
+  - KidsPuzzles062  1920x1080@30 338.3s
+  - KidsPuzzles069  1920x1080@30 325.1s
+  - KidsScience005  1080x1920@30 75.1s
+  - KidsScience012  1080x1920@30 79.8s
+  - KidsScience019  1080x1920@30 75.5s
+  - KidsScience026  1080x1920@30 112s
+  - KidsScience033  1080x1920@30 110.5s
+  - KidsScience040  1080x1920@30 102.5s
+  - KidsScience047  1920x1080@30 305s
+  - KidsScience054  1920x1080@30 302.4s
+  - KidsScience061  1920x1080@30 318.1s
+  - KidsScience068  1920x1080@30 350.9s
+  - KidsChannelBanner  2560x1440@30 1s
+  - KidsChannelLogo  800x800@30 1s
+  - KidsDinoSheet  1920x1080@30 2s
+  - KidsFarmSheet  1920x1080@30 2s
+  - KidsKitDemo  1080x1920@30 12s
+  - KidsModelSheet  1080x1920@30 2s
+  - KidsPlacesBoard  1920x1080@30 4s
+  - KidsPlacesBoardTall  1920x1080@30 4s
+  - KidsStyleBoard  1920x1080@30 2s
+  - KidsStyleBoardTall  1920x1080@30 4s
+  - KidsWardrobeSheet  1080x1920@30 2s
+  - KidsShortCards  1080x1920@30 10s
+  - KidsSongs007  1920x1080@30 154.86s
+  - KidsSongs014  1920x1080@30 127.75s
+  - KidsSongs021  1920x1080@30 184.4s
+  - KidsSongs028  1920x1080@30 293.57s
+  - KidsSongs035  1920x1080@30 302s
+  - KidsSongs042  1920x1080@30 298.85s
+  - KidsSongs049  1920x1080@30 334.35s
+  - KidsSongs056  1920x1080@30 304.36s
+  - KidsStories001  1080x1920@30 42s
+  - KidsStories015  1920x1080@30 171.4s
+  - KidsStories029  1920x1080@30 303.5s
+  - KidsStories043  1920x1080@30 306.8s
+  - KidsStories057  1920x1080@30 304.8s
+  - KidsStories071  1920x1080@30 336.6s
+  - KidsThumbs  1280x720@30 10s
+  - KidsWords003  1920x1080@30 118.7s
+  - KidsWords010  1920x1080@30 359s
+  - KidsWords017  1920x1080@30 351.2s
+  - KidsWords024  1080x1920@30 113s
+  - KidsWords031  1080x1920@30 131.7s
+  - KidsWords038  1080x1920@30 135.7s
+  - KidsWords045  1080x1920@30 139s
+  - KidsWords052  1920x1080@30 301.4s
+  - KidsWords059  1920x1080@30 334.2s
+  - KidsWords066  1920x1080@30 336.2s
+  - KidsWords073  1920x1080@30 342.4s
+  - KidsWords080  1080x1920@30 86.8s
+  - Short10Fees  1080x1920@30 42s
+  - Short11Map  1080x1920@30 42s
+  - Short12Orbit  1080x1920@30 42s
+  - Short13Water  1080x1920@30 42.5s
+  - Short14Seed  1080x1920@30 42.5s
+  - Short15Sun  1080x1920@30 43s
+  - Short16Room  1080x1920@30 43s
+  - Short17Screen  1080x1920@30 43s
+  - Short18Blink  1080x1920@30 43s
+  - Short19Play  1080x1920@30 44.5s
+  - Short1Chess  1080x1920@30 42s
+  - Short20Sleep  1080x1920@30 45.5s
+  - Short21School  1080x1920@30 42s
+  - Short22Homework  1080x1920@30 43s
+  - Short23Bones  1080x1920@30 43.5s
+  - Short24Reading  1080x1920@30 43s
+  - Short25Together  1080x1920@30 43s
+  - Short26Talk  1080x1920@30 45s
+  - Short27Pairs  1080x1920@30 45s
+  - Short28Morning  1080x1920@30 42s
+  - Short29Mind  1080x1920@30 44s
+  - Short2Math  1080x1920@30 42s
+  - Short30Drink  1080x1920@30 36.5s
+  - Short31Start  1080x1920@30 42s
+  - Short32Identity  1080x1920@30 37s
+  - Short33Spend  1080x1920@30 40.5s
+  - Short34Clutter  1080x1920@30 43.5s
+  - Short35Batch  1080x1920@30 44.1s
+  - Short36Cool  1080x1920@30 44.2s
+  - Short37Reset  1080x1920@30 44.5s
+  - Short38Baskets  1080x1920@30 38.6s
+  - Short39Doorway  1080x1920@30 40.6s
+  - Short3Algo  1080x1920@30 42s
+  - Short40Launch  1080x1920@30 42s
+  - Short41Once  1080x1920@30 43.3s
+  - Short42Money  1080x1920@30 42.5s
+  - Short43Peruse  1080x1920@30 43.3s
+  - Short44Wake  1080x1920@30 44s
+  - Short45Page  1080x1920@30 43.5s
+  - Short46Shower  1080x1920@30 45s
+  - Short47Autopilot  1080x1920@30 41.6s
+  - Short48Gills  1080x1920@30 40.3s
+  - Short49Life  1080x1920@30 37.6s
+  - Short4Reflog  1080x1920@30 34s
+  - Short50Thunder  1080x1920@30 48s
+  - Short51Talk  1080x1920@30 43.5s
+  - Short52Suns  1080x1920@30 42s
+  - Short53Borders  1080x1920@30 42s
+  - Short54Fall  1080x1920@30 42s
+  - Short55Memory  1080x1920@30 40.3s
+  - Short56Freeze  1080x1920@30 47s
+  - Short5Monty  1080x1920@30 43s
+  - Short6Sheet  1080x1920@30 38s
+  - Short7Kids  1080x1920@30 55s
+  - Short8Phish  1080x1920@30 43s
+  - Short9Chords  1080x1920@30 42s
+  - BroChannelBanner  2560x1440@30 1s
+  - BroChannelLogo  800x800@30 1s
+  - BroModelSheet  1080x1920@30 2s
+  - Vox1Coffee  1080x1920@30 40.5s
+
+$ 'C:\Users\Z.ESSAIYDY\AppData\Local\Programs\Python\Python312\python.exe' 'D:\Nouveau dossier (2)\ai-gen\tools\gen_voice.py' --beats 'D:\Nouveau dossier (2)\ai-gen\kids-shorts\tiny-sparks\numbers\day-072-learn-number-1\beats.json' --engine kokoro --jobs 4 --emit-ts 'D:\Nouveau dossier (2)\ai-gen\remotion\src\shots\kids-numbers-072\vo.gen.ts'
+line  start window   clip tempo  text
+   0   0.30   2.79   1.62  1.00  Look! One finger! One!
+   1   3.14   3.23   2.06  1.00  And this is how we write it. Number one!
+   2   6.42   4.18   2.81  1.00  Today, let's learn all about number one!
+   3  10.65   4.35   2.98  1.00  Number one is tall and straight, like a little stick.
+   4  15.05   1.76   0.79  1.00  One.
+   5  16.86   1.78   0.81  1.00  One!
+   6  18.69   3.64   1.47  1.00  Your turn! Say one!
+   7  22.38   5.64   2.87  1.00  Can you show me one finger? Hold it up high!
+   8  28.07   3.08   1.51  1.00  One finger! Like this!
+   9  31.20   3.02   2.45  1.00  Let's paint a one! Start at the top...
+  10  34.27   3.72   2.15  1.00  and go straight down. One!
+  11  38.04   6.69   3.92  1.00  Now you! Draw a one in the air with your finger. Top... straight down!
+  12  44.78   3.88   2.71  1.00  Once more, slowly. Start at the top...
+  13  48.71   3.70   1.53  1.00  and straight down. One!
+  14  52.46   1.88   1.31  1.00  I can do it! Look!
+  15  54.39   3.33   2.56  1.00  Ha ha! Leo, that one is wiggly, like a worm!
+  16  57.77   3.53   2.36  1.00  Oops! Again. Top, and straight down. One!
+  17  61.35   4.27   2.70  1.00  Perfect! A tall, straight number one!
+  18  65.67   3.13   1.96  1.00  Let's find things that come in one!
+  19  68.85   3.44   2.47  1.00  Up in the sky, there is one sun.
+  20  72.34   3.41   1.04  1.00  One sun!
+  21  75.80   3.23   2.26  1.00  And at night, there is one moon.
+  22  79.08   3.81   1.44  1.00  One moon! Goodnight, moon!
+  23  82.94   7.62   3.05  1.00  Touch your face. How many noses do you have?
+  24  90.61   3.78   1.61  1.00  One nose! Beep, beep!
+  25  94.44   4.48   2.11  1.00  And one mouth, for one big smile!
+  26  98.97   7.51   2.94  1.00  Look at Bobo. How many tails does he have?
+  27 106.53   3.85   1.68  1.00  One little tail! Wiggle, wiggle!
+  28 110.43   4.40   3.63  1.00  This baby is one year old today. So the cake has...
+  29 114.88   2.32   1.15  1.00  One candle!
+  30 117.25   4.09   1.72  1.00  Happy birthday! Make a wish! Whoo!
+  31 121.39   2.66   1.89  1.00  How do you say one, in French?
+  32 124.10   1.50   0.53  1.00  Un !
+  33 125.65   1.50   0.53  1.00  Un !
+  34 127.20   3.75   1.38  1.00  Your turn! Un!
+  35 131.00   3.56   2.39  1.00  Game time! Find the number one!
+  36 134.61   6.10   1.53  1.00  Where is the one?
+  37 140.76   2.34   1.37  1.00  This one! The seven!
+  38 143.15   5.60   3.43  1.00  Seven has a little hat on top. One is just straight. Here!
+  39 148.80   6.19   1.62  1.00  Where is the one now?
+  40 155.04   3.36   1.19  1.00  There! Tall and straight!
+  41 158.45   6.85   2.28  1.00  Where is the one? Look closely!
+  42 165.35   4.12   1.95  1.00  That one! No hat. Just straight!
+  43 169.52   7.06   2.49  1.00  How many ducks? One, or many?
+  44 176.63   3.79   1.62  1.00  One duck! Quack, quack!
+  45 180.47   7.14   2.57  1.00  Stars! One star, or many stars?
+  46 187.66   3.87   1.70  1.00  Many stars! Twinkle, twinkle!
+  47 191.58   7.49   2.92  1.00  And here? One balloon, or many balloons?
+  48 199.12   1.62   0.65  1.00  One!
+  49 200.79   3.76   2.79  1.00  Let's count. One, two, three, four, five!
+  50 204.60   3.33   1.36  1.00  Oh! Many balloons!
+  51 207.98   6.47   1.90  1.00  Which plate has one apple?
+  52 214.50   2.49   1.72  1.00  That one! One apple! Can I eat it?
+  53 217.04   3.66   2.69  1.00  Ha ha! Okay, Bobo. One apple for you!
+  54 220.75   3.45   1.28  1.00  Crunch! One yummy apple!
+  55 224.25   2.24   1.27  1.00  Let's remember!
+  56 226.54   6.11   1.54  1.00  How do we draw a one?
+  57 232.70   4.27   2.30  1.00  Start at the top, and go straight down!
+  58 237.02   7.04   2.47  1.00  How many suns are in the sky?
+  59 244.11   2.81   1.04  1.00  One sun!
+  60 246.97   6.61   2.04  1.00  How many noses do you have?
+  61 253.63   2.60   0.83  1.00  One nose!
+  62 256.28   6.76   2.19  1.00  How do you say one, in French?
+  63 263.09   2.30   0.53  1.00  Un !
+  64 265.44   6.85   2.28  1.00  What had one candle on top?
+  65 272.34   3.09   1.32  1.00  The birthday cake!
+  66 275.48   5.02   1.85  1.00  Now, show me one finger!
+  67 280.55   3.54   1.77  1.00  One finger! Great job!
+  68 284.14   2.82   1.85  1.00  Let's say the number one rhyme!
+  69 287.01   2.25   1.68  1.00  One, one, number one!
+  70 289.31   2.46   1.89  1.00  Top to bottom, now it's done!
+  71 291.82   2.40   1.23  1.00  One, one, number one!
+  72 294.27   5.90   2.53  1.00  Your turn! One, one, number one!
+  73 300.22   3.42   2.45  1.00  Next time, we'll learn number two!
+  74 303.69   2.00   1.53  1.00  Bye bye, friends!
+  75 305.74   8.01   1.98  1.00  See you next time, on Tiny Sparks!
+voice track -> kids-shorts\tiny-sparks\numbers\day-072-learn-number-1\voice\voice.wav
+actual line timings + word maps written back -> kids-shorts\tiny-sparks\numbers\day-072-learn-number-1\beats.json
+VO TS module -> remotion\src\shots\kids-numbers-072\vo.gen.ts  (unchanged)
+
+$ node scripts/render-all.mjs KidsNumbers072 --scale=1 --concurrency=4
+bundling (dcab71e6fe42)...
+  bundled in 5.7s
+  KidsNumbers072: 0%     KidsNumbers072: 5%     KidsNumbers072: 10%     KidsNumbers072: 15%     KidsNumbers072: 20%     KidsNumbers072: 25%     KidsNumbers072: 30%     KidsNumbers072: 35%     KidsNumbers072: 40%     KidsNumbers072: 45%     KidsNumbers072: 50%     KidsNumbers072: 55%     KidsNumbers072: 60%     KidsNumbers072: 65%     KidsNumbers072: 70%   
+FAILED (4294967295): node scripts/render-all.mjs KidsNumbers072 --scale=1 --concurrency=4

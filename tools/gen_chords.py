@@ -39,6 +39,7 @@ import sys
 import tempfile
 import wave
 
+from common import write_json
 from ffmpeg_path import ensure_on_path
 
 ensure_on_path()
@@ -195,7 +196,7 @@ def main():
         made += 1
 
     if not args.dry_run and made:
-        json.dump(catalog, open(CATALOG, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+        write_json(CATALOG, catalog, indent=2)
         print(f"\ncatalog updated -> {CATALOG}  ({made} chord clip(s))")
 
 

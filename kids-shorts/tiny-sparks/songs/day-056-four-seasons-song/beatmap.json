@@ -1,0 +1,4373 @@
+{
+ "title": "Four Seasons Song (Tiny Sparks original)",
+ "bpm": 100.0,
+ "beatsPerBar": 4,
+ "secondsPerBeat": 0.6,
+ "durationSec": 304.4,
+ "introBars": 2,
+ "chords": [
+  {
+   "t": 0.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 2.4,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 4.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 7.2,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 9.6,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 12.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 14.4,
+   "dur": 2.4,
+   "chord": "Am"
+  },
+  {
+   "t": 16.8,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 19.2,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 21.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 24.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 26.4,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 28.8,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 31.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 33.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 36.0,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 38.4,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 40.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 43.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 45.6,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 48.0,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 50.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 52.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 55.2,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 57.6,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 60.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 62.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 64.8,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 67.2,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 69.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 72.0,
+   "dur": 2.4,
+   "chord": "Am"
+  },
+  {
+   "t": 74.4,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 76.8,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 79.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 81.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 84.0,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 86.4,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 88.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 91.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 93.6,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 96.0,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 98.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 100.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 103.2,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 105.6,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 108.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 110.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 112.8,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 115.2,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 117.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 120.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 122.4,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 124.8,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 127.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 129.6,
+   "dur": 2.4,
+   "chord": "Am"
+  },
+  {
+   "t": 132.0,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 134.4,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 136.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 139.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 141.6,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 144.0,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 146.4,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 148.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 151.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 153.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 156.0,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 158.4,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 160.8,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 163.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 165.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 168.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 170.4,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 172.8,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 175.2,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 177.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 180.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 182.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 184.8,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 187.2,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 189.6,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 192.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 194.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 196.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 199.2,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 201.6,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 204.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 206.4,
+   "dur": 2.4,
+   "chord": "Am"
+  },
+  {
+   "t": 208.8,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 211.2,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 213.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 216.0,
+   "dur": 2.4,
+   "chord": "Am"
+  },
+  {
+   "t": 218.4,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 220.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 223.2,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 225.6,
+   "dur": 2.4,
+   "chord": "Am"
+  },
+  {
+   "t": 228.0,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 230.4,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 232.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 235.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 237.6,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 240.0,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 242.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 244.8,
+   "dur": 2.4,
+   "chord": "Am"
+  },
+  {
+   "t": 247.2,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 249.6,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 252.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 254.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 256.8,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 259.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 261.6,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 264.0,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 266.4,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 268.8,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 271.2,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 273.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 276.0,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 278.4,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 280.8,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 283.2,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 285.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 288.0,
+   "dur": 2.4,
+   "chord": "Am"
+  },
+  {
+   "t": 290.4,
+   "dur": 2.4,
+   "chord": "F"
+  },
+  {
+   "t": 292.8,
+   "dur": 2.4,
+   "chord": "G"
+  },
+  {
+   "t": 295.2,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 297.6,
+   "dur": 2.4,
+   "chord": "C"
+  },
+  {
+   "t": 300.0,
+   "dur": 2.4,
+   "chord": "C"
+  }
+ ],
+ "notes": [
+  {
+   "t": 4.8,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Win"
+  },
+  {
+   "t": 5.4,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "ter,"
+  },
+  {
+   "t": 6.0,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "spring,"
+  },
+  {
+   "t": 7.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "sum"
+  },
+  {
+   "t": 7.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "mer,"
+  },
+  {
+   "t": 8.4,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "fall,"
+  },
+  {
+   "t": 9.6,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "four"
+  },
+  {
+   "t": 10.2,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "sea"
+  },
+  {
+   "t": 10.8,
+   "dur": 1.2,
+   "midi": 69,
+   "syllable": "sons,"
+  },
+  {
+   "t": 12.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "we"
+  },
+  {
+   "t": 12.6,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "love"
+  },
+  {
+   "t": 13.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "them"
+  },
+  {
+   "t": 13.8,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "all!"
+  },
+  {
+   "t": 14.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Round"
+  },
+  {
+   "t": 15.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 15.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "round"
+  },
+  {
+   "t": 16.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 16.8,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "year"
+  },
+  {
+   "t": 17.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "we"
+  },
+  {
+   "t": 18.0,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "go,"
+  },
+  {
+   "t": 19.2,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "sun"
+  },
+  {
+   "t": 19.8,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 20.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "rain"
+  },
+  {
+   "t": 21.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 21.6,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "leaves"
+  },
+  {
+   "t": 22.2,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "and"
+  },
+  {
+   "t": 22.8,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "snow!"
+  },
+  {
+   "t": 24.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Win"
+  },
+  {
+   "t": 24.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "ter,"
+  },
+  {
+   "t": 25.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "win"
+  },
+  {
+   "t": 25.8,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "ter,"
+  },
+  {
+   "t": 26.4,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "snow"
+  },
+  {
+   "t": 27.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "y"
+  },
+  {
+   "t": 27.6,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "and"
+  },
+  {
+   "t": 28.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "white!"
+  },
+  {
+   "t": 28.8,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Hats"
+  },
+  {
+   "t": 29.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 30.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "mit"
+  },
+  {
+   "t": 30.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "tens,"
+  },
+  {
+   "t": 31.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "cud"
+  },
+  {
+   "t": 31.8,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "dle"
+  },
+  {
+   "t": 32.4,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "up"
+  },
+  {
+   "t": 33.0,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "tight!"
+  },
+  {
+   "t": 33.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Build"
+  },
+  {
+   "t": 34.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 34.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "snow"
+  },
+  {
+   "t": 35.4,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "man,"
+  },
+  {
+   "t": 36.0,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "slide"
+  },
+  {
+   "t": 36.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "down"
+  },
+  {
+   "t": 37.2,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "the"
+  },
+  {
+   "t": 37.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "hill,"
+  },
+  {
+   "t": 38.4,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Brrr,"
+  },
+  {
+   "t": 39.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "it's"
+  },
+  {
+   "t": 39.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "cold,"
+  },
+  {
+   "t": 40.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "but"
+  },
+  {
+   "t": 40.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "what"
+  },
+  {
+   "t": 41.4,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "a"
+  },
+  {
+   "t": 42.0,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "thrill!"
+  },
+  {
+   "t": 43.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Spring,"
+  },
+  {
+   "t": 43.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "spring,"
+  },
+  {
+   "t": 44.4,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "flow"
+  },
+  {
+   "t": 45.6,
+   "dur": 1.2,
+   "midi": 65,
+   "syllable": "ers"
+  },
+  {
+   "t": 46.8,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "grow!"
+  },
+  {
+   "t": 48.0,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Bun"
+  },
+  {
+   "t": 48.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "nies"
+  },
+  {
+   "t": 49.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "hop"
+  },
+  {
+   "t": 49.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "and"
+  },
+  {
+   "t": 50.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "soft"
+  },
+  {
+   "t": 51.0,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "winds"
+  },
+  {
+   "t": 51.6,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "blow!"
+  },
+  {
+   "t": 52.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Rain"
+  },
+  {
+   "t": 53.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "drops"
+  },
+  {
+   "t": 54.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "fall"
+  },
+  {
+   "t": 54.6,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "and"
+  },
+  {
+   "t": 55.2,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "birds"
+  },
+  {
+   "t": 55.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "sing"
+  },
+  {
+   "t": 56.4,
+   "dur": 1.2,
+   "midi": 62,
+   "syllable": "tweet,"
+  },
+  {
+   "t": 57.6,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Ba"
+  },
+  {
+   "t": 58.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "by"
+  },
+  {
+   "t": 58.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "chicks"
+  },
+  {
+   "t": 59.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "go"
+  },
+  {
+   "t": 60.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "cheep,"
+  },
+  {
+   "t": 60.6,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "cheep,"
+  },
+  {
+   "t": 61.2,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "cheep!"
+  },
+  {
+   "t": 62.4,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Win"
+  },
+  {
+   "t": 63.0,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "ter,"
+  },
+  {
+   "t": 63.6,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "spring,"
+  },
+  {
+   "t": 64.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "sum"
+  },
+  {
+   "t": 65.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "mer,"
+  },
+  {
+   "t": 66.0,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "fall,"
+  },
+  {
+   "t": 67.2,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "four"
+  },
+  {
+   "t": 67.8,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "sea"
+  },
+  {
+   "t": 68.4,
+   "dur": 1.2,
+   "midi": 69,
+   "syllable": "sons,"
+  },
+  {
+   "t": 69.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "we"
+  },
+  {
+   "t": 70.2,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "love"
+  },
+  {
+   "t": 70.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "them"
+  },
+  {
+   "t": 71.4,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "all!"
+  },
+  {
+   "t": 72.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Round"
+  },
+  {
+   "t": 72.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 73.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "round"
+  },
+  {
+   "t": 73.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 74.4,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "year"
+  },
+  {
+   "t": 75.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "we"
+  },
+  {
+   "t": 75.6,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "go,"
+  },
+  {
+   "t": 76.8,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "sun"
+  },
+  {
+   "t": 77.4,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 78.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "rain"
+  },
+  {
+   "t": 78.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 79.2,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "leaves"
+  },
+  {
+   "t": 79.8,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "and"
+  },
+  {
+   "t": 80.4,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "snow!"
+  },
+  {
+   "t": 81.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Sum"
+  },
+  {
+   "t": 82.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "mer,"
+  },
+  {
+   "t": 82.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "sum"
+  },
+  {
+   "t": 83.4,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "mer,"
+  },
+  {
+   "t": 84.0,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "sun"
+  },
+  {
+   "t": 84.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "ny"
+  },
+  {
+   "t": 85.2,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "and"
+  },
+  {
+   "t": 85.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "hot!"
+  },
+  {
+   "t": 86.4,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Splash"
+  },
+  {
+   "t": 87.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "in"
+  },
+  {
+   "t": 87.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 88.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "wa"
+  },
+  {
+   "t": 88.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "ter,"
+  },
+  {
+   "t": 89.4,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "swim"
+  },
+  {
+   "t": 90.0,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "a"
+  },
+  {
+   "t": 90.6,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "lot!"
+  },
+  {
+   "t": 91.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Ice"
+  },
+  {
+   "t": 91.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "cream,"
+  },
+  {
+   "t": 92.4,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "sand"
+  },
+  {
+   "t": 93.6,
+   "dur": 1.2,
+   "midi": 65,
+   "syllable": "y"
+  },
+  {
+   "t": 94.8,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "toes,"
+  },
+  {
+   "t": 96.0,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Sun"
+  },
+  {
+   "t": 96.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "hats"
+  },
+  {
+   "t": 97.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "on,"
+  },
+  {
+   "t": 97.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "and"
+  },
+  {
+   "t": 98.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "off"
+  },
+  {
+   "t": 99.0,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "we"
+  },
+  {
+   "t": 99.6,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "go!"
+  },
+  {
+   "t": 100.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Au"
+  },
+  {
+   "t": 101.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "tumn,"
+  },
+  {
+   "t": 102.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "au"
+  },
+  {
+   "t": 102.6,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "tumn,"
+  },
+  {
+   "t": 103.2,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "leaves"
+  },
+  {
+   "t": 103.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "fall"
+  },
+  {
+   "t": 104.4,
+   "dur": 1.2,
+   "midi": 62,
+   "syllable": "down!"
+  },
+  {
+   "t": 105.6,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Red"
+  },
+  {
+   "t": 106.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 106.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "yel"
+  },
+  {
+   "t": 107.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "low,"
+  },
+  {
+   "t": 108.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "or"
+  },
+  {
+   "t": 108.6,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "ange,"
+  },
+  {
+   "t": 109.2,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "brown!"
+  },
+  {
+   "t": 110.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Crunch"
+  },
+  {
+   "t": 111.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "y"
+  },
+  {
+   "t": 111.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "leaves"
+  },
+  {
+   "t": 112.2,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "be"
+  },
+  {
+   "t": 112.8,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "neath"
+  },
+  {
+   "t": 113.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "our"
+  },
+  {
+   "t": 114.0,
+   "dur": 1.2,
+   "midi": 62,
+   "syllable": "feet,"
+  },
+  {
+   "t": 115.2,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Ap"
+  },
+  {
+   "t": 115.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "ples,"
+  },
+  {
+   "t": 116.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "pump"
+  },
+  {
+   "t": 117.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "kins,"
+  },
+  {
+   "t": 117.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "yum"
+  },
+  {
+   "t": 118.2,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "my"
+  },
+  {
+   "t": 118.8,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "treat!"
+  },
+  {
+   "t": 120.0,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Win"
+  },
+  {
+   "t": 120.6,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "ter,"
+  },
+  {
+   "t": 121.2,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "spring,"
+  },
+  {
+   "t": 122.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "sum"
+  },
+  {
+   "t": 123.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "mer,"
+  },
+  {
+   "t": 123.6,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "fall,"
+  },
+  {
+   "t": 124.8,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "four"
+  },
+  {
+   "t": 125.4,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "sea"
+  },
+  {
+   "t": 126.0,
+   "dur": 1.2,
+   "midi": 69,
+   "syllable": "sons,"
+  },
+  {
+   "t": 127.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "we"
+  },
+  {
+   "t": 127.8,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "love"
+  },
+  {
+   "t": 128.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "them"
+  },
+  {
+   "t": 129.0,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "all!"
+  },
+  {
+   "t": 129.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Round"
+  },
+  {
+   "t": 130.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 130.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "round"
+  },
+  {
+   "t": 131.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 132.0,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "year"
+  },
+  {
+   "t": 132.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "we"
+  },
+  {
+   "t": 133.2,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "go,"
+  },
+  {
+   "t": 134.4,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "sun"
+  },
+  {
+   "t": 135.0,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 135.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "rain"
+  },
+  {
+   "t": 136.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 136.8,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "leaves"
+  },
+  {
+   "t": 137.4,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "and"
+  },
+  {
+   "t": 138.0,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "snow!"
+  },
+  {
+   "t": 139.2,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "What"
+  },
+  {
+   "t": 139.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "comes"
+  },
+  {
+   "t": 140.4,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "af"
+  },
+  {
+   "t": 140.7,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "ter"
+  },
+  {
+   "t": 141.0,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "win"
+  },
+  {
+   "t": 141.3,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "ter?"
+  },
+  {
+   "t": 148.8,
+   "dur": 1.8,
+   "midi": 67,
+   "syllable": "Spring!"
+  },
+  {
+   "t": 153.6,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "What"
+  },
+  {
+   "t": 154.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "comes"
+  },
+  {
+   "t": 154.8,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "af"
+  },
+  {
+   "t": 155.1,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "ter"
+  },
+  {
+   "t": 155.4,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "sum"
+  },
+  {
+   "t": 155.7,
+   "dur": 0.3,
+   "midi": 69,
+   "syllable": "mer?"
+  },
+  {
+   "t": 163.2,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "Au"
+  },
+  {
+   "t": 164.4,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "tumn!"
+  },
+  {
+   "t": 168.0,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "When"
+  },
+  {
+   "t": 168.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "does"
+  },
+  {
+   "t": 169.2,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "snow"
+  },
+  {
+   "t": 169.5,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "fall"
+  },
+  {
+   "t": 169.8,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "down?"
+  },
+  {
+   "t": 177.6,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "Win"
+  },
+  {
+   "t": 178.8,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "ter!"
+  },
+  {
+   "t": 182.4,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "When"
+  },
+  {
+   "t": 183.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "do"
+  },
+  {
+   "t": 183.6,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "flow"
+  },
+  {
+   "t": 183.9,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "ers"
+  },
+  {
+   "t": 184.2,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "grow?"
+  },
+  {
+   "t": 192.0,
+   "dur": 1.8,
+   "midi": 67,
+   "syllable": "Spring!"
+  },
+  {
+   "t": 196.8,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Win"
+  },
+  {
+   "t": 197.4,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "ter,"
+  },
+  {
+   "t": 198.0,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "spring,"
+  },
+  {
+   "t": 199.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "sum"
+  },
+  {
+   "t": 199.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "mer,"
+  },
+  {
+   "t": 200.4,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "fall,"
+  },
+  {
+   "t": 201.6,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "four"
+  },
+  {
+   "t": 202.2,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "sea"
+  },
+  {
+   "t": 202.8,
+   "dur": 1.2,
+   "midi": 69,
+   "syllable": "sons,"
+  },
+  {
+   "t": 204.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "we"
+  },
+  {
+   "t": 204.6,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "love"
+  },
+  {
+   "t": 205.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "them"
+  },
+  {
+   "t": 205.8,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "all!"
+  },
+  {
+   "t": 206.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Round"
+  },
+  {
+   "t": 207.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 207.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "round"
+  },
+  {
+   "t": 208.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 208.8,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "year"
+  },
+  {
+   "t": 209.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "we"
+  },
+  {
+   "t": 210.0,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "go,"
+  },
+  {
+   "t": 211.2,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "sun"
+  },
+  {
+   "t": 211.8,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 212.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "rain"
+  },
+  {
+   "t": 213.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 213.6,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "leaves"
+  },
+  {
+   "t": 214.2,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "and"
+  },
+  {
+   "t": 214.8,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "snow!"
+  },
+  {
+   "t": 216.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Shi"
+  },
+  {
+   "t": 216.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "ver"
+  },
+  {
+   "t": 217.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "like"
+  },
+  {
+   "t": 217.8,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "it's"
+  },
+  {
+   "t": 218.4,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "win"
+  },
+  {
+   "t": 219.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "ter,"
+  },
+  {
+   "t": 219.6,
+   "dur": 1.2,
+   "midi": 62,
+   "syllable": "brrr!"
+  },
+  {
+   "t": 220.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Hop"
+  },
+  {
+   "t": 221.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "like"
+  },
+  {
+   "t": 222.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "spring"
+  },
+  {
+   "t": 222.6,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "time"
+  },
+  {
+   "t": 223.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "bun"
+  },
+  {
+   "t": 223.8,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "nies,"
+  },
+  {
+   "t": 224.4,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "hop!"
+  },
+  {
+   "t": 225.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Swim"
+  },
+  {
+   "t": 226.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "like"
+  },
+  {
+   "t": 226.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "it's"
+  },
+  {
+   "t": 227.4,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "sum"
+  },
+  {
+   "t": 228.0,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "mer,"
+  },
+  {
+   "t": 228.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "splash,"
+  },
+  {
+   "t": 229.2,
+   "dur": 1.2,
+   "midi": 62,
+   "syllable": "splash!"
+  },
+  {
+   "t": 230.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Float"
+  },
+  {
+   "t": 231.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "like"
+  },
+  {
+   "t": 231.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "au"
+  },
+  {
+   "t": 232.2,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "tumn"
+  },
+  {
+   "t": 232.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "leaves,"
+  },
+  {
+   "t": 233.4,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "down,"
+  },
+  {
+   "t": 234.0,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "down!"
+  },
+  {
+   "t": 235.2,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 235.8,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 236.4,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 237.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 238.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 238.8,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 240.0,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 240.6,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 241.2,
+   "dur": 1.2,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 242.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 243.0,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 243.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 244.2,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 244.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 245.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 246.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 246.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 247.2,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 247.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 248.4,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 249.6,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 250.2,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 250.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 251.4,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 252.0,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 252.6,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 253.2,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 254.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "Let's"
+  },
+  {
+   "t": 255.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "say"
+  },
+  {
+   "t": 255.6,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "them"
+  },
+  {
+   "t": 255.9,
+   "dur": 0.3,
+   "midi": 67,
+   "syllable": "slow"
+  },
+  {
+   "t": 256.2,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "ly!"
+  },
+  {
+   "t": 259.2,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "Win"
+  },
+  {
+   "t": 260.4,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "ter"
+  },
+  {
+   "t": 264.0,
+   "dur": 1.8,
+   "midi": 67,
+   "syllable": "Spring"
+  },
+  {
+   "t": 268.8,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "Sum"
+  },
+  {
+   "t": 270.0,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "mer"
+  },
+  {
+   "t": 273.6,
+   "dur": 1.2,
+   "midi": 67,
+   "syllable": "Au"
+  },
+  {
+   "t": 274.8,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "tumn"
+  },
+  {
+   "t": 278.4,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "Win"
+  },
+  {
+   "t": 279.0,
+   "dur": 0.6,
+   "midi": 60,
+   "syllable": "ter,"
+  },
+  {
+   "t": 279.6,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "spring,"
+  },
+  {
+   "t": 280.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "sum"
+  },
+  {
+   "t": 281.4,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "mer,"
+  },
+  {
+   "t": 282.0,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "fall,"
+  },
+  {
+   "t": 283.2,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "four"
+  },
+  {
+   "t": 283.8,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "sea"
+  },
+  {
+   "t": 284.4,
+   "dur": 1.2,
+   "midi": 69,
+   "syllable": "sons,"
+  },
+  {
+   "t": 285.6,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "we"
+  },
+  {
+   "t": 286.2,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "love"
+  },
+  {
+   "t": 286.8,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "them"
+  },
+  {
+   "t": 287.4,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "all!"
+  },
+  {
+   "t": 288.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "Round"
+  },
+  {
+   "t": 288.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 289.2,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "round"
+  },
+  {
+   "t": 289.8,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 290.4,
+   "dur": 0.6,
+   "midi": 69,
+   "syllable": "year"
+  },
+  {
+   "t": 291.0,
+   "dur": 0.6,
+   "midi": 67,
+   "syllable": "we"
+  },
+  {
+   "t": 291.6,
+   "dur": 1.2,
+   "midi": 64,
+   "syllable": "go,"
+  },
+  {
+   "t": 292.8,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "sun"
+  },
+  {
+   "t": 293.4,
+   "dur": 0.6,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 294.0,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "rain"
+  },
+  {
+   "t": 294.6,
+   "dur": 0.6,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 295.2,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "leaves"
+  },
+  {
+   "t": 295.8,
+   "dur": 0.6,
+   "midi": 62,
+   "syllable": "and"
+  },
+  {
+   "t": 296.4,
+   "dur": 1.2,
+   "midi": 60,
+   "syllable": "snow!"
+  }
+ ],
+ "lines": [
+  {
+   "text": "Winter, spring, summer, fall,",
+   "start": 4.8,
+   "end": 9.6,
+   "words": [
+    {
+     "w": "Winter,",
+     "start": 4.8,
+     "end": 6.0
+    },
+    {
+     "w": "spring,",
+     "start": 6.0,
+     "end": 7.2
+    },
+    {
+     "w": "summer,",
+     "start": 7.2,
+     "end": 8.4
+    },
+    {
+     "w": "fall,",
+     "start": 8.4,
+     "end": 9.6
+    }
+   ]
+  },
+  {
+   "text": "four seasons, we love them all!",
+   "start": 9.6,
+   "end": 14.4,
+   "words": [
+    {
+     "w": "four",
+     "start": 9.6,
+     "end": 10.2
+    },
+    {
+     "w": "seasons,",
+     "start": 10.2,
+     "end": 12.0
+    },
+    {
+     "w": "we",
+     "start": 12.0,
+     "end": 12.6
+    },
+    {
+     "w": "love",
+     "start": 12.6,
+     "end": 13.2
+    },
+    {
+     "w": "them",
+     "start": 13.2,
+     "end": 13.8
+    },
+    {
+     "w": "all!",
+     "start": 13.8,
+     "end": 14.4
+    }
+   ]
+  },
+  {
+   "text": "Round and round the year we go,",
+   "start": 14.4,
+   "end": 19.2,
+   "words": [
+    {
+     "w": "Round",
+     "start": 14.4,
+     "end": 15.0
+    },
+    {
+     "w": "and",
+     "start": 15.0,
+     "end": 15.6
+    },
+    {
+     "w": "round",
+     "start": 15.6,
+     "end": 16.2
+    },
+    {
+     "w": "the",
+     "start": 16.2,
+     "end": 16.8
+    },
+    {
+     "w": "year",
+     "start": 16.8,
+     "end": 17.4
+    },
+    {
+     "w": "we",
+     "start": 17.4,
+     "end": 18.0
+    },
+    {
+     "w": "go,",
+     "start": 18.0,
+     "end": 19.2
+    }
+   ]
+  },
+  {
+   "text": "sun and rain and leaves and snow!",
+   "start": 19.2,
+   "end": 24.0,
+   "words": [
+    {
+     "w": "sun",
+     "start": 19.2,
+     "end": 19.8
+    },
+    {
+     "w": "and",
+     "start": 19.8,
+     "end": 20.4
+    },
+    {
+     "w": "rain",
+     "start": 20.4,
+     "end": 21.0
+    },
+    {
+     "w": "and",
+     "start": 21.0,
+     "end": 21.6
+    },
+    {
+     "w": "leaves",
+     "start": 21.6,
+     "end": 22.2
+    },
+    {
+     "w": "and",
+     "start": 22.2,
+     "end": 22.8
+    },
+    {
+     "w": "snow!",
+     "start": 22.8,
+     "end": 24.0
+    }
+   ]
+  },
+  {
+   "text": "Winter, winter, snowy and white!",
+   "start": 24.0,
+   "end": 28.8,
+   "words": [
+    {
+     "w": "Winter,",
+     "start": 24.0,
+     "end": 25.2
+    },
+    {
+     "w": "winter,",
+     "start": 25.2,
+     "end": 26.4
+    },
+    {
+     "w": "snowy",
+     "start": 26.4,
+     "end": 27.6
+    },
+    {
+     "w": "and",
+     "start": 27.6,
+     "end": 28.2
+    },
+    {
+     "w": "white!",
+     "start": 28.2,
+     "end": 28.8
+    }
+   ]
+  },
+  {
+   "text": "Hats and mittens, cuddle up tight!",
+   "start": 28.8,
+   "end": 33.6,
+   "words": [
+    {
+     "w": "Hats",
+     "start": 28.8,
+     "end": 29.4
+    },
+    {
+     "w": "and",
+     "start": 29.4,
+     "end": 30.0
+    },
+    {
+     "w": "mittens,",
+     "start": 30.0,
+     "end": 31.2
+    },
+    {
+     "w": "cuddle",
+     "start": 31.2,
+     "end": 32.4
+    },
+    {
+     "w": "up",
+     "start": 32.4,
+     "end": 33.0
+    },
+    {
+     "w": "tight!",
+     "start": 33.0,
+     "end": 33.6
+    }
+   ]
+  },
+  {
+   "text": "Build a snowman, slide down the hill,",
+   "start": 33.6,
+   "end": 38.4,
+   "words": [
+    {
+     "w": "Build",
+     "start": 33.6,
+     "end": 34.2
+    },
+    {
+     "w": "a",
+     "start": 34.2,
+     "end": 34.8
+    },
+    {
+     "w": "snowman,",
+     "start": 34.8,
+     "end": 36.0
+    },
+    {
+     "w": "slide",
+     "start": 36.0,
+     "end": 36.6
+    },
+    {
+     "w": "down",
+     "start": 36.6,
+     "end": 37.2
+    },
+    {
+     "w": "the",
+     "start": 37.2,
+     "end": 37.8
+    },
+    {
+     "w": "hill,",
+     "start": 37.8,
+     "end": 38.4
+    }
+   ]
+  },
+  {
+   "text": "Brrr, it's cold, but what a thrill!",
+   "start": 38.4,
+   "end": 43.2,
+   "words": [
+    {
+     "w": "Brrr,",
+     "start": 38.4,
+     "end": 39.0
+    },
+    {
+     "w": "it's",
+     "start": 39.0,
+     "end": 39.6
+    },
+    {
+     "w": "cold,",
+     "start": 39.6,
+     "end": 40.2
+    },
+    {
+     "w": "but",
+     "start": 40.2,
+     "end": 40.8
+    },
+    {
+     "w": "what",
+     "start": 40.8,
+     "end": 41.4
+    },
+    {
+     "w": "a",
+     "start": 41.4,
+     "end": 42.0
+    },
+    {
+     "w": "thrill!",
+     "start": 42.0,
+     "end": 43.2
+    }
+   ]
+  },
+  {
+   "text": "Spring, spring, flowers grow!",
+   "start": 43.2,
+   "end": 48.0,
+   "words": [
+    {
+     "w": "Spring,",
+     "start": 43.2,
+     "end": 43.8
+    },
+    {
+     "w": "spring,",
+     "start": 43.8,
+     "end": 44.4
+    },
+    {
+     "w": "flowers",
+     "start": 44.4,
+     "end": 46.8
+    },
+    {
+     "w": "grow!",
+     "start": 46.8,
+     "end": 48.0
+    }
+   ]
+  },
+  {
+   "text": "Bunnies hop and soft winds blow!",
+   "start": 48.0,
+   "end": 52.8,
+   "words": [
+    {
+     "w": "Bunnies",
+     "start": 48.0,
+     "end": 49.2
+    },
+    {
+     "w": "hop",
+     "start": 49.2,
+     "end": 49.8
+    },
+    {
+     "w": "and",
+     "start": 49.8,
+     "end": 50.4
+    },
+    {
+     "w": "soft",
+     "start": 50.4,
+     "end": 51.0
+    },
+    {
+     "w": "winds",
+     "start": 51.0,
+     "end": 51.6
+    },
+    {
+     "w": "blow!",
+     "start": 51.6,
+     "end": 52.8
+    }
+   ]
+  },
+  {
+   "text": "Raindrops fall and birds sing tweet,",
+   "start": 52.8,
+   "end": 57.6,
+   "words": [
+    {
+     "w": "Raindrops",
+     "start": 52.8,
+     "end": 54.0
+    },
+    {
+     "w": "fall",
+     "start": 54.0,
+     "end": 54.6
+    },
+    {
+     "w": "and",
+     "start": 54.6,
+     "end": 55.2
+    },
+    {
+     "w": "birds",
+     "start": 55.2,
+     "end": 55.8
+    },
+    {
+     "w": "sing",
+     "start": 55.8,
+     "end": 56.4
+    },
+    {
+     "w": "tweet,",
+     "start": 56.4,
+     "end": 57.6
+    }
+   ]
+  },
+  {
+   "text": "Baby chicks go cheep, cheep, cheep!",
+   "start": 57.6,
+   "end": 62.4,
+   "words": [
+    {
+     "w": "Baby",
+     "start": 57.6,
+     "end": 58.8
+    },
+    {
+     "w": "chicks",
+     "start": 58.8,
+     "end": 59.4
+    },
+    {
+     "w": "go",
+     "start": 59.4,
+     "end": 60.0
+    },
+    {
+     "w": "cheep,",
+     "start": 60.0,
+     "end": 60.6
+    },
+    {
+     "w": "cheep,",
+     "start": 60.6,
+     "end": 61.2
+    },
+    {
+     "w": "cheep!",
+     "start": 61.2,
+     "end": 62.4
+    }
+   ]
+  },
+  {
+   "text": "Winter, spring, summer, fall,",
+   "start": 62.4,
+   "end": 67.2,
+   "words": [
+    {
+     "w": "Winter,",
+     "start": 62.4,
+     "end": 63.6
+    },
+    {
+     "w": "spring,",
+     "start": 63.6,
+     "end": 64.8
+    },
+    {
+     "w": "summer,",
+     "start": 64.8,
+     "end": 66.0
+    },
+    {
+     "w": "fall,",
+     "start": 66.0,
+     "end": 67.2
+    }
+   ]
+  },
+  {
+   "text": "four seasons, we love them all!",
+   "start": 67.2,
+   "end": 72.0,
+   "words": [
+    {
+     "w": "four",
+     "start": 67.2,
+     "end": 67.8
+    },
+    {
+     "w": "seasons,",
+     "start": 67.8,
+     "end": 69.6
+    },
+    {
+     "w": "we",
+     "start": 69.6,
+     "end": 70.2
+    },
+    {
+     "w": "love",
+     "start": 70.2,
+     "end": 70.8
+    },
+    {
+     "w": "them",
+     "start": 70.8,
+     "end": 71.4
+    },
+    {
+     "w": "all!",
+     "start": 71.4,
+     "end": 72.0
+    }
+   ]
+  },
+  {
+   "text": "Round and round the year we go,",
+   "start": 72.0,
+   "end": 76.8,
+   "words": [
+    {
+     "w": "Round",
+     "start": 72.0,
+     "end": 72.6
+    },
+    {
+     "w": "and",
+     "start": 72.6,
+     "end": 73.2
+    },
+    {
+     "w": "round",
+     "start": 73.2,
+     "end": 73.8
+    },
+    {
+     "w": "the",
+     "start": 73.8,
+     "end": 74.4
+    },
+    {
+     "w": "year",
+     "start": 74.4,
+     "end": 75.0
+    },
+    {
+     "w": "we",
+     "start": 75.0,
+     "end": 75.6
+    },
+    {
+     "w": "go,",
+     "start": 75.6,
+     "end": 76.8
+    }
+   ]
+  },
+  {
+   "text": "sun and rain and leaves and snow!",
+   "start": 76.8,
+   "end": 81.6,
+   "words": [
+    {
+     "w": "sun",
+     "start": 76.8,
+     "end": 77.4
+    },
+    {
+     "w": "and",
+     "start": 77.4,
+     "end": 78.0
+    },
+    {
+     "w": "rain",
+     "start": 78.0,
+     "end": 78.6
+    },
+    {
+     "w": "and",
+     "start": 78.6,
+     "end": 79.2
+    },
+    {
+     "w": "leaves",
+     "start": 79.2,
+     "end": 79.8
+    },
+    {
+     "w": "and",
+     "start": 79.8,
+     "end": 80.4
+    },
+    {
+     "w": "snow!",
+     "start": 80.4,
+     "end": 81.6
+    }
+   ]
+  },
+  {
+   "text": "Summer, summer, sunny and hot!",
+   "start": 81.6,
+   "end": 86.4,
+   "words": [
+    {
+     "w": "Summer,",
+     "start": 81.6,
+     "end": 82.8
+    },
+    {
+     "w": "summer,",
+     "start": 82.8,
+     "end": 84.0
+    },
+    {
+     "w": "sunny",
+     "start": 84.0,
+     "end": 85.2
+    },
+    {
+     "w": "and",
+     "start": 85.2,
+     "end": 85.8
+    },
+    {
+     "w": "hot!",
+     "start": 85.8,
+     "end": 86.4
+    }
+   ]
+  },
+  {
+   "text": "Splash in the water, swim a lot!",
+   "start": 86.4,
+   "end": 91.2,
+   "words": [
+    {
+     "w": "Splash",
+     "start": 86.4,
+     "end": 87.0
+    },
+    {
+     "w": "in",
+     "start": 87.0,
+     "end": 87.6
+    },
+    {
+     "w": "the",
+     "start": 87.6,
+     "end": 88.2
+    },
+    {
+     "w": "water,",
+     "start": 88.2,
+     "end": 89.4
+    },
+    {
+     "w": "swim",
+     "start": 89.4,
+     "end": 90.0
+    },
+    {
+     "w": "a",
+     "start": 90.0,
+     "end": 90.6
+    },
+    {
+     "w": "lot!",
+     "start": 90.6,
+     "end": 91.2
+    }
+   ]
+  },
+  {
+   "text": "Ice cream, sandy toes,",
+   "start": 91.2,
+   "end": 96.0,
+   "words": [
+    {
+     "w": "Ice",
+     "start": 91.2,
+     "end": 91.8
+    },
+    {
+     "w": "cream,",
+     "start": 91.8,
+     "end": 92.4
+    },
+    {
+     "w": "sandy",
+     "start": 92.4,
+     "end": 94.8
+    },
+    {
+     "w": "toes,",
+     "start": 94.8,
+     "end": 96.0
+    }
+   ]
+  },
+  {
+   "text": "Sun hats on, and off we go!",
+   "start": 96.0,
+   "end": 100.8,
+   "words": [
+    {
+     "w": "Sun",
+     "start": 96.0,
+     "end": 96.6
+    },
+    {
+     "w": "hats",
+     "start": 96.6,
+     "end": 97.2
+    },
+    {
+     "w": "on,",
+     "start": 97.2,
+     "end": 97.8
+    },
+    {
+     "w": "and",
+     "start": 97.8,
+     "end": 98.4
+    },
+    {
+     "w": "off",
+     "start": 98.4,
+     "end": 99.0
+    },
+    {
+     "w": "we",
+     "start": 99.0,
+     "end": 99.6
+    },
+    {
+     "w": "go!",
+     "start": 99.6,
+     "end": 100.8
+    }
+   ]
+  },
+  {
+   "text": "Autumn, autumn, leaves fall down!",
+   "start": 100.8,
+   "end": 105.6,
+   "words": [
+    {
+     "w": "Autumn,",
+     "start": 100.8,
+     "end": 102.0
+    },
+    {
+     "w": "autumn,",
+     "start": 102.0,
+     "end": 103.2
+    },
+    {
+     "w": "leaves",
+     "start": 103.2,
+     "end": 103.8
+    },
+    {
+     "w": "fall",
+     "start": 103.8,
+     "end": 104.4
+    },
+    {
+     "w": "down!",
+     "start": 104.4,
+     "end": 105.6
+    }
+   ]
+  },
+  {
+   "text": "Red and yellow, orange, brown!",
+   "start": 105.6,
+   "end": 110.4,
+   "words": [
+    {
+     "w": "Red",
+     "start": 105.6,
+     "end": 106.2
+    },
+    {
+     "w": "and",
+     "start": 106.2,
+     "end": 106.8
+    },
+    {
+     "w": "yellow,",
+     "start": 106.8,
+     "end": 108.0
+    },
+    {
+     "w": "orange,",
+     "start": 108.0,
+     "end": 109.2
+    },
+    {
+     "w": "brown!",
+     "start": 109.2,
+     "end": 110.4
+    }
+   ]
+  },
+  {
+   "text": "Crunchy leaves beneath our feet,",
+   "start": 110.4,
+   "end": 115.2,
+   "words": [
+    {
+     "w": "Crunchy",
+     "start": 110.4,
+     "end": 111.6
+    },
+    {
+     "w": "leaves",
+     "start": 111.6,
+     "end": 112.2
+    },
+    {
+     "w": "beneath",
+     "start": 112.2,
+     "end": 113.4
+    },
+    {
+     "w": "our",
+     "start": 113.4,
+     "end": 114.0
+    },
+    {
+     "w": "feet,",
+     "start": 114.0,
+     "end": 115.2
+    }
+   ]
+  },
+  {
+   "text": "Apples, pumpkins, yummy treat!",
+   "start": 115.2,
+   "end": 120.0,
+   "words": [
+    {
+     "w": "Apples,",
+     "start": 115.2,
+     "end": 116.4
+    },
+    {
+     "w": "pumpkins,",
+     "start": 116.4,
+     "end": 117.6
+    },
+    {
+     "w": "yummy",
+     "start": 117.6,
+     "end": 118.8
+    },
+    {
+     "w": "treat!",
+     "start": 118.8,
+     "end": 120.0
+    }
+   ]
+  },
+  {
+   "text": "Winter, spring, summer, fall,",
+   "start": 120.0,
+   "end": 124.8,
+   "words": [
+    {
+     "w": "Winter,",
+     "start": 120.0,
+     "end": 121.2
+    },
+    {
+     "w": "spring,",
+     "start": 121.2,
+     "end": 122.4
+    },
+    {
+     "w": "summer,",
+     "start": 122.4,
+     "end": 123.6
+    },
+    {
+     "w": "fall,",
+     "start": 123.6,
+     "end": 124.8
+    }
+   ]
+  },
+  {
+   "text": "four seasons, we love them all!",
+   "start": 124.8,
+   "end": 129.6,
+   "words": [
+    {
+     "w": "four",
+     "start": 124.8,
+     "end": 125.4
+    },
+    {
+     "w": "seasons,",
+     "start": 125.4,
+     "end": 127.2
+    },
+    {
+     "w": "we",
+     "start": 127.2,
+     "end": 127.8
+    },
+    {
+     "w": "love",
+     "start": 127.8,
+     "end": 128.4
+    },
+    {
+     "w": "them",
+     "start": 128.4,
+     "end": 129.0
+    },
+    {
+     "w": "all!",
+     "start": 129.0,
+     "end": 129.6
+    }
+   ]
+  },
+  {
+   "text": "Round and round the year we go,",
+   "start": 129.6,
+   "end": 134.4,
+   "words": [
+    {
+     "w": "Round",
+     "start": 129.6,
+     "end": 130.2
+    },
+    {
+     "w": "and",
+     "start": 130.2,
+     "end": 130.8
+    },
+    {
+     "w": "round",
+     "start": 130.8,
+     "end": 131.4
+    },
+    {
+     "w": "the",
+     "start": 131.4,
+     "end": 132.0
+    },
+    {
+     "w": "year",
+     "start": 132.0,
+     "end": 132.6
+    },
+    {
+     "w": "we",
+     "start": 132.6,
+     "end": 133.2
+    },
+    {
+     "w": "go,",
+     "start": 133.2,
+     "end": 134.4
+    }
+   ]
+  },
+  {
+   "text": "sun and rain and leaves and snow!",
+   "start": 134.4,
+   "end": 139.2,
+   "words": [
+    {
+     "w": "sun",
+     "start": 134.4,
+     "end": 135.0
+    },
+    {
+     "w": "and",
+     "start": 135.0,
+     "end": 135.6
+    },
+    {
+     "w": "rain",
+     "start": 135.6,
+     "end": 136.2
+    },
+    {
+     "w": "and",
+     "start": 136.2,
+     "end": 136.8
+    },
+    {
+     "w": "leaves",
+     "start": 136.8,
+     "end": 137.4
+    },
+    {
+     "w": "and",
+     "start": 137.4,
+     "end": 138.0
+    },
+    {
+     "w": "snow!",
+     "start": 138.0,
+     "end": 139.2
+    }
+   ]
+  },
+  {
+   "text": "What comes after winter?",
+   "start": 139.2,
+   "end": 141.6,
+   "words": [
+    {
+     "w": "What",
+     "start": 139.2,
+     "end": 139.8
+    },
+    {
+     "w": "comes",
+     "start": 139.8,
+     "end": 140.4
+    },
+    {
+     "w": "after",
+     "start": 140.4,
+     "end": 141.0
+    },
+    {
+     "w": "winter?",
+     "start": 141.0,
+     "end": 141.6
+    }
+   ]
+  },
+  {
+   "text": "Spring!",
+   "start": 148.8,
+   "end": 150.6,
+   "words": [
+    {
+     "w": "Spring!",
+     "start": 148.8,
+     "end": 150.6
+    }
+   ]
+  },
+  {
+   "text": "What comes after summer?",
+   "start": 153.6,
+   "end": 156.0,
+   "words": [
+    {
+     "w": "What",
+     "start": 153.6,
+     "end": 154.2
+    },
+    {
+     "w": "comes",
+     "start": 154.2,
+     "end": 154.8
+    },
+    {
+     "w": "after",
+     "start": 154.8,
+     "end": 155.4
+    },
+    {
+     "w": "summer?",
+     "start": 155.4,
+     "end": 156.0
+    }
+   ]
+  },
+  {
+   "text": "Autumn!",
+   "start": 163.2,
+   "end": 165.6,
+   "words": [
+    {
+     "w": "Autumn!",
+     "start": 163.2,
+     "end": 165.6
+    }
+   ]
+  },
+  {
+   "text": "When does snow fall down?",
+   "start": 168.0,
+   "end": 170.4,
+   "words": [
+    {
+     "w": "When",
+     "start": 168.0,
+     "end": 168.6
+    },
+    {
+     "w": "does",
+     "start": 168.6,
+     "end": 169.2
+    },
+    {
+     "w": "snow",
+     "start": 169.2,
+     "end": 169.5
+    },
+    {
+     "w": "fall",
+     "start": 169.5,
+     "end": 169.8
+    },
+    {
+     "w": "down?",
+     "start": 169.8,
+     "end": 170.4
+    }
+   ]
+  },
+  {
+   "text": "Winter!",
+   "start": 177.6,
+   "end": 180.0,
+   "words": [
+    {
+     "w": "Winter!",
+     "start": 177.6,
+     "end": 180.0
+    }
+   ]
+  },
+  {
+   "text": "When do flowers grow?",
+   "start": 182.4,
+   "end": 184.8,
+   "words": [
+    {
+     "w": "When",
+     "start": 182.4,
+     "end": 183.0
+    },
+    {
+     "w": "do",
+     "start": 183.0,
+     "end": 183.6
+    },
+    {
+     "w": "flowers",
+     "start": 183.6,
+     "end": 184.2
+    },
+    {
+     "w": "grow?",
+     "start": 184.2,
+     "end": 184.8
+    }
+   ]
+  },
+  {
+   "text": "Spring!",
+   "start": 192.0,
+   "end": 193.8,
+   "words": [
+    {
+     "w": "Spring!",
+     "start": 192.0,
+     "end": 193.8
+    }
+   ]
+  },
+  {
+   "text": "Winter, spring, summer, fall,",
+   "start": 196.8,
+   "end": 201.6,
+   "words": [
+    {
+     "w": "Winter,",
+     "start": 196.8,
+     "end": 198.0
+    },
+    {
+     "w": "spring,",
+     "start": 198.0,
+     "end": 199.2
+    },
+    {
+     "w": "summer,",
+     "start": 199.2,
+     "end": 200.4
+    },
+    {
+     "w": "fall,",
+     "start": 200.4,
+     "end": 201.6
+    }
+   ]
+  },
+  {
+   "text": "four seasons, we love them all!",
+   "start": 201.6,
+   "end": 206.4,
+   "words": [
+    {
+     "w": "four",
+     "start": 201.6,
+     "end": 202.2
+    },
+    {
+     "w": "seasons,",
+     "start": 202.2,
+     "end": 204.0
+    },
+    {
+     "w": "we",
+     "start": 204.0,
+     "end": 204.6
+    },
+    {
+     "w": "love",
+     "start": 204.6,
+     "end": 205.2
+    },
+    {
+     "w": "them",
+     "start": 205.2,
+     "end": 205.8
+    },
+    {
+     "w": "all!",
+     "start": 205.8,
+     "end": 206.4
+    }
+   ]
+  },
+  {
+   "text": "Round and round the year we go,",
+   "start": 206.4,
+   "end": 211.2,
+   "words": [
+    {
+     "w": "Round",
+     "start": 206.4,
+     "end": 207.0
+    },
+    {
+     "w": "and",
+     "start": 207.0,
+     "end": 207.6
+    },
+    {
+     "w": "round",
+     "start": 207.6,
+     "end": 208.2
+    },
+    {
+     "w": "the",
+     "start": 208.2,
+     "end": 208.8
+    },
+    {
+     "w": "year",
+     "start": 208.8,
+     "end": 209.4
+    },
+    {
+     "w": "we",
+     "start": 209.4,
+     "end": 210.0
+    },
+    {
+     "w": "go,",
+     "start": 210.0,
+     "end": 211.2
+    }
+   ]
+  },
+  {
+   "text": "sun and rain and leaves and snow!",
+   "start": 211.2,
+   "end": 216.0,
+   "words": [
+    {
+     "w": "sun",
+     "start": 211.2,
+     "end": 211.8
+    },
+    {
+     "w": "and",
+     "start": 211.8,
+     "end": 212.4
+    },
+    {
+     "w": "rain",
+     "start": 212.4,
+     "end": 213.0
+    },
+    {
+     "w": "and",
+     "start": 213.0,
+     "end": 213.6
+    },
+    {
+     "w": "leaves",
+     "start": 213.6,
+     "end": 214.2
+    },
+    {
+     "w": "and",
+     "start": 214.2,
+     "end": 214.8
+    },
+    {
+     "w": "snow!",
+     "start": 214.8,
+     "end": 216.0
+    }
+   ]
+  },
+  {
+   "text": "Shiver like it's winter, brrr!",
+   "start": 216.0,
+   "end": 220.8,
+   "words": [
+    {
+     "w": "Shiver",
+     "start": 216.0,
+     "end": 217.2
+    },
+    {
+     "w": "like",
+     "start": 217.2,
+     "end": 217.8
+    },
+    {
+     "w": "it's",
+     "start": 217.8,
+     "end": 218.4
+    },
+    {
+     "w": "winter,",
+     "start": 218.4,
+     "end": 219.6
+    },
+    {
+     "w": "brrr!",
+     "start": 219.6,
+     "end": 220.8
+    }
+   ]
+  },
+  {
+   "text": "Hop like springtime bunnies, hop!",
+   "start": 220.8,
+   "end": 225.6,
+   "words": [
+    {
+     "w": "Hop",
+     "start": 220.8,
+     "end": 221.4
+    },
+    {
+     "w": "like",
+     "start": 221.4,
+     "end": 222.0
+    },
+    {
+     "w": "springtime",
+     "start": 222.0,
+     "end": 223.2
+    },
+    {
+     "w": "bunnies,",
+     "start": 223.2,
+     "end": 224.4
+    },
+    {
+     "w": "hop!",
+     "start": 224.4,
+     "end": 225.6
+    }
+   ]
+  },
+  {
+   "text": "Swim like it's summer, splash, splash!",
+   "start": 225.6,
+   "end": 230.4,
+   "words": [
+    {
+     "w": "Swim",
+     "start": 225.6,
+     "end": 226.2
+    },
+    {
+     "w": "like",
+     "start": 226.2,
+     "end": 226.8
+    },
+    {
+     "w": "it's",
+     "start": 226.8,
+     "end": 227.4
+    },
+    {
+     "w": "summer,",
+     "start": 227.4,
+     "end": 228.6
+    },
+    {
+     "w": "splash,",
+     "start": 228.6,
+     "end": 229.2
+    },
+    {
+     "w": "splash!",
+     "start": 229.2,
+     "end": 230.4
+    }
+   ]
+  },
+  {
+   "text": "Float like autumn leaves, down, down!",
+   "start": 230.4,
+   "end": 235.2,
+   "words": [
+    {
+     "w": "Float",
+     "start": 230.4,
+     "end": 231.0
+    },
+    {
+     "w": "like",
+     "start": 231.0,
+     "end": 231.6
+    },
+    {
+     "w": "autumn",
+     "start": 231.6,
+     "end": 232.8
+    },
+    {
+     "w": "leaves,",
+     "start": 232.8,
+     "end": 233.4
+    },
+    {
+     "w": "down,",
+     "start": 233.4,
+     "end": 234.0
+    },
+    {
+     "w": "down!",
+     "start": 234.0,
+     "end": 235.2
+    }
+   ]
+  },
+  {
+   "text": "Let's say them slowly!",
+   "start": 254.4,
+   "end": 256.8,
+   "words": [
+    {
+     "w": "Let's",
+     "start": 254.4,
+     "end": 255.0
+    },
+    {
+     "w": "say",
+     "start": 255.0,
+     "end": 255.6
+    },
+    {
+     "w": "them",
+     "start": 255.6,
+     "end": 255.9
+    },
+    {
+     "w": "slowly!",
+     "start": 255.9,
+     "end": 256.8
+    }
+   ]
+  },
+  {
+   "text": "Winter",
+   "start": 259.2,
+   "end": 261.6,
+   "words": [
+    {
+     "w": "Winter",
+     "start": 259.2,
+     "end": 261.6
+    }
+   ]
+  },
+  {
+   "text": "Spring",
+   "start": 264.0,
+   "end": 265.8,
+   "words": [
+    {
+     "w": "Spring",
+     "start": 264.0,
+     "end": 265.8
+    }
+   ]
+  },
+  {
+   "text": "Summer",
+   "start": 268.8,
+   "end": 271.2,
+   "words": [
+    {
+     "w": "Summer",
+     "start": 268.8,
+     "end": 271.2
+    }
+   ]
+  },
+  {
+   "text": "Autumn",
+   "start": 273.6,
+   "end": 276.0,
+   "words": [
+    {
+     "w": "Autumn",
+     "start": 273.6,
+     "end": 276.0
+    }
+   ]
+  },
+  {
+   "text": "Winter, spring, summer, fall,",
+   "start": 278.4,
+   "end": 283.2,
+   "words": [
+    {
+     "w": "Winter,",
+     "start": 278.4,
+     "end": 279.6
+    },
+    {
+     "w": "spring,",
+     "start": 279.6,
+     "end": 280.8
+    },
+    {
+     "w": "summer,",
+     "start": 280.8,
+     "end": 282.0
+    },
+    {
+     "w": "fall,",
+     "start": 282.0,
+     "end": 283.2
+    }
+   ]
+  },
+  {
+   "text": "four seasons, we love them all!",
+   "start": 283.2,
+   "end": 288.0,
+   "words": [
+    {
+     "w": "four",
+     "start": 283.2,
+     "end": 283.8
+    },
+    {
+     "w": "seasons,",
+     "start": 283.8,
+     "end": 285.6
+    },
+    {
+     "w": "we",
+     "start": 285.6,
+     "end": 286.2
+    },
+    {
+     "w": "love",
+     "start": 286.2,
+     "end": 286.8
+    },
+    {
+     "w": "them",
+     "start": 286.8,
+     "end": 287.4
+    },
+    {
+     "w": "all!",
+     "start": 287.4,
+     "end": 288.0
+    }
+   ]
+  },
+  {
+   "text": "Round and round the year we go,",
+   "start": 288.0,
+   "end": 292.8,
+   "words": [
+    {
+     "w": "Round",
+     "start": 288.0,
+     "end": 288.6
+    },
+    {
+     "w": "and",
+     "start": 288.6,
+     "end": 289.2
+    },
+    {
+     "w": "round",
+     "start": 289.2,
+     "end": 289.8
+    },
+    {
+     "w": "the",
+     "start": 289.8,
+     "end": 290.4
+    },
+    {
+     "w": "year",
+     "start": 290.4,
+     "end": 291.0
+    },
+    {
+     "w": "we",
+     "start": 291.0,
+     "end": 291.6
+    },
+    {
+     "w": "go,",
+     "start": 291.6,
+     "end": 292.8
+    }
+   ]
+  },
+  {
+   "text": "sun and rain and leaves and snow!",
+   "start": 292.8,
+   "end": 297.6,
+   "words": [
+    {
+     "w": "sun",
+     "start": 292.8,
+     "end": 293.4
+    },
+    {
+     "w": "and",
+     "start": 293.4,
+     "end": 294.0
+    },
+    {
+     "w": "rain",
+     "start": 294.0,
+     "end": 294.6
+    },
+    {
+     "w": "and",
+     "start": 294.6,
+     "end": 295.2
+    },
+    {
+     "w": "leaves",
+     "start": 295.2,
+     "end": 295.8
+    },
+    {
+     "w": "and",
+     "start": 295.8,
+     "end": 296.4
+    },
+    {
+     "w": "snow!",
+     "start": 296.4,
+     "end": 297.6
+    }
+   ]
+  }
+ ]
+}

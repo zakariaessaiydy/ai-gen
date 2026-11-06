@@ -1,0 +1,18 @@
+{
+ "campfire-seed18.wav": {
+  "score": 0.866,
+  "matched": 201,
+  "words": 232,
+  "recognised": 262,
+  "duration": 338.88
+ },
+ "campfire-seed49.wav": {
+  "score": 0.797,
+  "matched": 185,
+  "words": 232,
+  "recognised": 277,
+  "duration": 338.88
+ },
+ "_winner": "campfire-seed18.wav",
+ "_intro_cut": 4.53
+}

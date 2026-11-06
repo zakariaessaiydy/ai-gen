@@ -1,0 +1,153 @@
+{
+  "master": "remotion/out/KidsPuzzles027-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsPuzzles027-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/puzzles/day-027-which-animal-doesn-t-belong/output/day-027-sfx.mp4",
+    "end_s": 98.2,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0.05,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsPuzzles027",
+      "cue": "title"
+    },
+    {
+      "at_s": 6.25,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsPuzzles027",
+      "cue": "p1 tiles"
+    },
+    {
+      "at_s": 14.29,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsPuzzles027",
+      "cue": "p1 think"
+    },
+    {
+      "at_s": 19.34,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsPuzzles027",
+      "cue": "p1 guess bubble"
+    },
+    {
+      "at_s": 19.94,
+      "sfx_id": "impact-soft",
+      "gain_db": -16,
+      "shot": "KidsPuzzles027",
+      "cue": "p1 wrong"
+    },
+    {
+      "at_s": 25.75,
+      "sfx_id": "chime-reward",
+      "gain_db": -12,
+      "shot": "KidsPuzzles027",
+      "cue": "p1 answer"
+    },
+    {
+      "at_s": 25.9,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsPuzzles027",
+      "cue": "p1 star"
+    },
+    {
+      "at_s": 35.23,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsPuzzles027",
+      "cue": "p2 tiles"
+    },
+    {
+      "at_s": 43.03,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsPuzzles027",
+      "cue": "p2 think"
+    },
+    {
+      "at_s": 48.08,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsPuzzles027",
+      "cue": "p2 guess bubble"
+    },
+    {
+      "at_s": 48.68,
+      "sfx_id": "impact-soft",
+      "gain_db": -16,
+      "shot": "KidsPuzzles027",
+      "cue": "p2 wrong"
+    },
+    {
+      "at_s": 55.35,
+      "sfx_id": "chime-reward",
+      "gain_db": -12,
+      "shot": "KidsPuzzles027",
+      "cue": "p2 answer"
+    },
+    {
+      "at_s": 55.5,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsPuzzles027",
+      "cue": "p2 star"
+    },
+    {
+      "at_s": 65.5,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsPuzzles027",
+      "cue": "p3 tiles"
+    },
+    {
+      "at_s": 74.65,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsPuzzles027",
+      "cue": "p3 think"
+    },
+    {
+      "at_s": 79.7,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsPuzzles027",
+      "cue": "p3 guess bubble"
+    },
+    {
+      "at_s": 83.8,
+      "sfx_id": "chime-reward",
+      "gain_db": -12,
+      "shot": "KidsPuzzles027",
+      "cue": "p3 answer"
+    },
+    {
+      "at_s": 83.95,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsPuzzles027",
+      "cue": "p3 star"
+    },
+    {
+      "at_s": 90.09,
+      "sfx_id": "chime-magic",
+      "gain_db": -12,
+      "shot": "KidsPuzzles027",
+      "cue": "great job"
+    },
+    {
+      "at_s": 94.47,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsPuzzles027",
+      "cue": "bye"
+    }
+  ]
+}
