@@ -1,0 +1,4321 @@
+{
+  "id": "day-078",
+  "series": "tiny-sparks",
+  "episode": 78,
+  "title": "The Turtle Who Never Gave Up",
+  "composition": "KidsMorals078",
+  "audience": "ages 3-6 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 311.9
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    },
+    "narrator_fr": {
+      "kokoro": "ff_siwis",
+      "lang": "fr",
+      "rate": "-6%"
+    },
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-10%"
+    },
+    "tilly": {
+      "kokoro": "af_nova:0.5+af_kore:0.5",
+      "rate": "-4%"
+    },
+    "zip": {
+      "kokoro": "am_puck:0.6+am_echo:0.4",
+      "rate": "-2%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -8,
+    "duck": 8,
+    "start": 0,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "want",
+      "speaker": "tilly",
+      "text": "Look! Kites, at the top of Rainbow Hill! I want to fly my kite up there!",
+      "gap": 0.8,
+      "start": 0.3,
+      "end": 4.64,
+      "words": [
+        {
+          "w": "Look!",
+          "start": 0.33,
+          "end": 0.571
+        },
+        {
+          "w": "Kites,",
+          "start": 0.571,
+          "end": 0.933
+        },
+        {
+          "w": "at",
+          "start": 0.933,
+          "end": 1.054
+        },
+        {
+          "w": "the",
+          "start": 1.054,
+          "end": 1.174
+        },
+        {
+          "w": "top",
+          "start": 1.174,
+          "end": 1.476
+        },
+        {
+          "w": "of",
+          "start": 1.476,
+          "end": 1.596
+        },
+        {
+          "w": "Rainbow",
+          "start": 1.596,
+          "end": 2.079
+        },
+        {
+          "w": "Hill!",
+          "start": 2.079,
+          "end": 2.32
+        },
+        {
+          "w": "I",
+          "start": 2.32,
+          "end": 2.501
+        },
+        {
+          "w": "want",
+          "start": 2.501,
+          "end": 2.803
+        },
+        {
+          "w": "to",
+          "start": 2.803,
+          "end": 2.984
+        },
+        {
+          "w": "fly",
+          "start": 2.984,
+          "end": 3.285
+        },
+        {
+          "w": "my",
+          "start": 3.285,
+          "end": 3.526
+        },
+        {
+          "w": "kite",
+          "start": 3.526,
+          "end": 3.828
+        },
+        {
+          "w": "up",
+          "start": 3.828,
+          "end": 4.009
+        },
+        {
+          "w": "there!",
+          "start": 4.009,
+          "end": 4.25
+        }
+      ]
+    },
+    {
+      "beat": "intro",
+      "speaker": "narrator",
+      "text": "Tilly the turtle was small, and slow. But she had a big dream.",
+      "gap": 1.0,
+      "start": 5.44,
+      "end": 9.06,
+      "words": [
+        {
+          "w": "Tilly",
+          "start": 5.53,
+          "end": 5.84
+        },
+        {
+          "w": "the",
+          "start": 5.84,
+          "end": 5.964
+        },
+        {
+          "w": "turtle",
+          "start": 5.964,
+          "end": 6.398
+        },
+        {
+          "w": "was",
+          "start": 6.398,
+          "end": 6.584
+        },
+        {
+          "w": "small,",
+          "start": 6.584,
+          "end": 6.956
+        },
+        {
+          "w": "and",
+          "start": 6.956,
+          "end": 7.142
+        },
+        {
+          "w": "slow.",
+          "start": 7.142,
+          "end": 7.452
+        },
+        {
+          "w": "But",
+          "start": 7.452,
+          "end": 7.7
+        },
+        {
+          "w": "she",
+          "start": 7.7,
+          "end": 7.886
+        },
+        {
+          "w": "had",
+          "start": 7.886,
+          "end": 8.134
+        },
+        {
+          "w": "a",
+          "start": 8.134,
+          "end": 8.32
+        },
+        {
+          "w": "big",
+          "start": 8.32,
+          "end": 8.568
+        },
+        {
+          "w": "dream.",
+          "start": 8.568,
+          "end": 8.94
+        }
+      ]
+    },
+    {
+      "beat": "zip",
+      "speaker": "zip",
+      "text": "Race you to the top, Tilly! Zoom!",
+      "gap": 0.8,
+      "start": 10.06,
+      "end": 12.04,
+      "words": [
+        {
+          "w": "Race",
+          "start": 10.09,
+          "end": 10.394
+        },
+        {
+          "w": "you",
+          "start": 10.394,
+          "end": 10.576
+        },
+        {
+          "w": "to",
+          "start": 10.576,
+          "end": 10.758
+        },
+        {
+          "w": "the",
+          "start": 10.758,
+          "end": 10.879
+        },
+        {
+          "w": "top,",
+          "start": 10.879,
+          "end": 11.183
+        },
+        {
+          "w": "Tilly!",
+          "start": 11.183,
+          "end": 11.486
+        },
+        {
+          "w": "Zoom!",
+          "start": 11.486,
+          "end": 11.79
+        }
+      ]
+    },
+    {
+      "beat": "zip_b",
+      "speaker": "tilly",
+      "text": "Wait for me! Here I go!",
+      "gap": 1.0,
+      "start": 12.84,
+      "end": 14.56,
+      "words": [
+        {
+          "w": "Wait",
+          "start": 12.87,
+          "end": 13.168
+        },
+        {
+          "w": "for",
+          "start": 13.168,
+          "end": 13.406
+        },
+        {
+          "w": "me!",
+          "start": 13.406,
+          "end": 13.645
+        },
+        {
+          "w": "Here",
+          "start": 13.645,
+          "end": 13.883
+        },
+        {
+          "w": "I",
+          "start": 13.883,
+          "end": 14.062
+        },
+        {
+          "w": "go!",
+          "start": 14.062,
+          "end": 14.3
+        }
+      ]
+    },
+    {
+      "beat": "try1",
+      "speaker": "narrator",
+      "text": "Step... step... step. Count Tilly's steps with me!",
+      "gap": 0.6,
+      "start": 15.56,
+      "end": 18.79,
+      "words": [
+        {
+          "w": "Step...",
+          "start": 15.6,
+          "end": 15.989
+        },
+        {
+          "w": "step...",
+          "start": 15.989,
+          "end": 16.377
+        },
+        {
+          "w": "step.",
+          "start": 16.377,
+          "end": 16.766
+        },
+        {
+          "w": "Count",
+          "start": 16.766,
+          "end": 17.233
+        },
+        {
+          "w": "Tilly's",
+          "start": 17.233,
+          "end": 17.699
+        },
+        {
+          "w": "steps",
+          "start": 17.699,
+          "end": 18.166
+        },
+        {
+          "w": "with",
+          "start": 18.166,
+          "end": 18.399
+        },
+        {
+          "w": "me!",
+          "start": 18.399,
+          "end": 18.71
+        }
+      ]
+    },
+    {
+      "beat": "s1",
+      "speaker": "narrator",
+      "text": "One.",
+      "gap": 0.7,
+      "start": 19.39,
+      "end": 20.05,
+      "words": [
+        {
+          "w": "One.",
+          "start": 19.43,
+          "end": 19.89
+        }
+      ]
+    },
+    {
+      "beat": "s2",
+      "speaker": "narrator",
+      "text": "Two.",
+      "gap": 0.7,
+      "start": 20.75,
+      "end": 21.49,
+      "words": [
+        {
+          "w": "Two.",
+          "start": 20.79,
+          "end": 21.28
+        }
+      ]
+    },
+    {
+      "beat": "s3",
+      "speaker": "narrator",
+      "text": "Three.",
+      "gap": 0.7,
+      "start": 22.19,
+      "end": 22.97,
+      "words": [
+        {
+          "w": "Three.",
+          "start": 22.23,
+          "end": 22.77
+        }
+      ]
+    },
+    {
+      "beat": "s4",
+      "speaker": "narrator",
+      "text": "Four.",
+      "gap": 0.7,
+      "start": 23.67,
+      "end": 24.44,
+      "words": [
+        {
+          "w": "Four.",
+          "start": 23.7,
+          "end": 24.23
+        }
+      ]
+    },
+    {
+      "beat": "s5",
+      "speaker": "narrator",
+      "text": "Five!",
+      "gap": 1.0,
+      "start": 25.14,
+      "end": 25.97,
+      "words": [
+        {
+          "w": "Five!",
+          "start": 25.17,
+          "end": 25.77
+        }
+      ]
+    },
+    {
+      "beat": "pebble",
+      "speaker": "tilly",
+      "text": "Oops! A pebble!",
+      "gap": 0.4,
+      "start": 26.97,
+      "end": 28.25,
+      "words": [
+        {
+          "w": "Oops!",
+          "start": 27.0,
+          "end": 27.368
+        },
+        {
+          "w": "A",
+          "start": 27.368,
+          "end": 27.589
+        },
+        {
+          "w": "pebble!",
+          "start": 27.589,
+          "end": 28.03
+        }
+      ]
+    },
+    {
+      "beat": "roll",
+      "speaker": "narrator",
+      "text": "Tilly tripped, and rolled all the way down the hill. Roll, roll, roll!",
+      "gap": 1.0,
+      "start": 28.65,
+      "end": 33.02,
+      "words": [
+        {
+          "w": "Tilly",
+          "start": 28.69,
+          "end": 29.069
+        },
+        {
+          "w": "tripped,",
+          "start": 29.069,
+          "end": 29.525
+        },
+        {
+          "w": "and",
+          "start": 29.525,
+          "end": 29.753
+        },
+        {
+          "w": "rolled",
+          "start": 29.753,
+          "end": 30.208
+        },
+        {
+          "w": "all",
+          "start": 30.208,
+          "end": 30.511
+        },
+        {
+          "w": "the",
+          "start": 30.511,
+          "end": 30.663
+        },
+        {
+          "w": "way",
+          "start": 30.663,
+          "end": 30.967
+        },
+        {
+          "w": "down",
+          "start": 30.967,
+          "end": 31.346
+        },
+        {
+          "w": "the",
+          "start": 31.346,
+          "end": 31.498
+        },
+        {
+          "w": "hill.",
+          "start": 31.498,
+          "end": 31.802
+        },
+        {
+          "w": "Roll,",
+          "start": 31.802,
+          "end": 32.181
+        },
+        {
+          "w": "roll,",
+          "start": 32.181,
+          "end": 32.561
+        },
+        {
+          "w": "roll!",
+          "start": 32.561,
+          "end": 32.94
+        }
+      ]
+    },
+    {
+      "beat": "roll_b",
+      "speaker": "tilly",
+      "text": "Oh no! I'm back at the bottom!",
+      "gap": 1.4,
+      "start": 34.02,
+      "end": 35.98,
+      "words": [
+        {
+          "w": "Oh",
+          "start": 34.06,
+          "end": 34.26
+        },
+        {
+          "w": "no!",
+          "start": 34.26,
+          "end": 34.528
+        },
+        {
+          "w": "I'm",
+          "start": 34.528,
+          "end": 34.728
+        },
+        {
+          "w": "back",
+          "start": 34.728,
+          "end": 34.995
+        },
+        {
+          "w": "at",
+          "start": 34.995,
+          "end": 35.129
+        },
+        {
+          "w": "the",
+          "start": 35.129,
+          "end": 35.262
+        },
+        {
+          "w": "bottom!",
+          "start": 35.262,
+          "end": 35.73
+        }
+      ]
+    },
+    {
+      "beat": "bobo1",
+      "speaker": "bobo",
+      "text": "Are you okay, Tilly?",
+      "gap": 0.8,
+      "start": 37.38,
+      "end": 38.5,
+      "words": [
+        {
+          "w": "Are",
+          "start": 37.41,
+          "end": 37.585
+        },
+        {
+          "w": "you",
+          "start": 37.585,
+          "end": 37.759
+        },
+        {
+          "w": "okay,",
+          "start": 37.759,
+          "end": 38.109
+        },
+        {
+          "w": "Tilly?",
+          "start": 38.109,
+          "end": 38.4
+        }
+      ]
+    },
+    {
+      "beat": "bobo1_b",
+      "speaker": "tilly",
+      "text": "I'm okay. I'll try again!",
+      "gap": 1.2,
+      "start": 39.3,
+      "end": 41.17,
+      "words": [
+        {
+          "w": "I'm",
+          "start": 39.34,
+          "end": 39.549
+        },
+        {
+          "w": "okay.",
+          "start": 39.549,
+          "end": 39.966
+        },
+        {
+          "w": "I'll",
+          "start": 39.966,
+          "end": 40.175
+        },
+        {
+          "w": "try",
+          "start": 40.175,
+          "end": 40.522
+        },
+        {
+          "w": "again!",
+          "start": 40.522,
+          "end": 40.87
+        }
+      ]
+    },
+    {
+      "beat": "try2",
+      "speaker": "narrator",
+      "text": "Tilly climbed again. Step, step, step. Then...",
+      "gap": 0.6,
+      "start": 42.37,
+      "end": 45.29,
+      "words": [
+        {
+          "w": "Tilly",
+          "start": 42.39,
+          "end": 42.777
+        },
+        {
+          "w": "climbed",
+          "start": 42.777,
+          "end": 43.32
+        },
+        {
+          "w": "again.",
+          "start": 43.32,
+          "end": 43.707
+        },
+        {
+          "w": "Step,",
+          "start": 43.707,
+          "end": 44.095
+        },
+        {
+          "w": "step,",
+          "start": 44.095,
+          "end": 44.482
+        },
+        {
+          "w": "step.",
+          "start": 44.482,
+          "end": 44.87
+        },
+        {
+          "w": "Then...",
+          "start": 44.87,
+          "end": 45.18
+        }
+      ]
+    },
+    {
+      "beat": "mud",
+      "speaker": "tilly",
+      "text": "Uh oh. It's muddy here! It's slippery!",
+      "gap": 0.4,
+      "start": 45.89,
+      "end": 48.04,
+      "words": [
+        {
+          "w": "Uh",
+          "start": 45.92,
+          "end": 46.049
+        },
+        {
+          "w": "oh.",
+          "start": 46.049,
+          "end": 46.241
+        },
+        {
+          "w": "It's",
+          "start": 46.241,
+          "end": 46.434
+        },
+        {
+          "w": "muddy",
+          "start": 46.434,
+          "end": 46.756
+        },
+        {
+          "w": "here!",
+          "start": 46.756,
+          "end": 47.013
+        },
+        {
+          "w": "It's",
+          "start": 47.013,
+          "end": 47.206
+        },
+        {
+          "w": "slippery!",
+          "start": 47.206,
+          "end": 47.72
+        }
+      ]
+    },
+    {
+      "beat": "slide",
+      "speaker": "narrator",
+      "text": "Whee! Tilly slid all the way down again.",
+      "gap": 1.4,
+      "start": 48.44,
+      "end": 50.72,
+      "words": [
+        {
+          "w": "Whee!",
+          "start": 48.49,
+          "end": 48.86
+        },
+        {
+          "w": "Tilly",
+          "start": 49.03,
+          "end": 49.292
+        },
+        {
+          "w": "slid",
+          "start": 49.292,
+          "end": 49.553
+        },
+        {
+          "w": "all",
+          "start": 49.553,
+          "end": 49.763
+        },
+        {
+          "w": "the",
+          "start": 49.763,
+          "end": 49.867
+        },
+        {
+          "w": "way",
+          "start": 49.867,
+          "end": 50.077
+        },
+        {
+          "w": "down",
+          "start": 50.077,
+          "end": 50.338
+        },
+        {
+          "w": "again.",
+          "start": 50.338,
+          "end": 50.6
+        }
+      ]
+    },
+    {
+      "beat": "giveup",
+      "speaker": "tilly",
+      "text": "I can't do it! I'm too small, and too slow. I give up!",
+      "gap": 0.8,
+      "start": 52.12,
+      "end": 55.5,
+      "words": [
+        {
+          "w": "I",
+          "start": 52.16,
+          "end": 52.346
+        },
+        {
+          "w": "can't",
+          "start": 52.346,
+          "end": 52.655
+        },
+        {
+          "w": "do",
+          "start": 52.655,
+          "end": 52.902
+        },
+        {
+          "w": "it!",
+          "start": 52.902,
+          "end": 53.026
+        },
+        {
+          "w": "I'm",
+          "start": 53.026,
+          "end": 53.211
+        },
+        {
+          "w": "too",
+          "start": 53.211,
+          "end": 53.459
+        },
+        {
+          "w": "small,",
+          "start": 53.459,
+          "end": 53.83
+        },
+        {
+          "w": "and",
+          "start": 53.83,
+          "end": 54.015
+        },
+        {
+          "w": "too",
+          "start": 54.015,
+          "end": 54.262
+        },
+        {
+          "w": "slow.",
+          "start": 54.262,
+          "end": 54.572
+        },
+        {
+          "w": "I",
+          "start": 54.572,
+          "end": 54.757
+        },
+        {
+          "w": "give",
+          "start": 54.757,
+          "end": 55.004
+        },
+        {
+          "w": "up!",
+          "start": 55.004,
+          "end": 55.19
+        }
+      ]
+    },
+    {
+      "beat": "hide",
+      "speaker": "narrator",
+      "text": "And Tilly hid inside her shell.",
+      "gap": 1.4,
+      "start": 56.3,
+      "end": 58.13,
+      "words": [
+        {
+          "w": "And",
+          "start": 56.37,
+          "end": 56.56
+        },
+        {
+          "w": "Tilly",
+          "start": 56.56,
+          "end": 56.878
+        },
+        {
+          "w": "hid",
+          "start": 56.878,
+          "end": 57.132
+        },
+        {
+          "w": "inside",
+          "start": 57.132,
+          "end": 57.576
+        },
+        {
+          "w": "her",
+          "start": 57.576,
+          "end": 57.766
+        },
+        {
+          "w": "shell.",
+          "start": 57.766,
+          "end": 58.02
+        }
+      ]
+    },
+    {
+      "beat": "feel",
+      "speaker": "narrator",
+      "text": "Tilly felt frustrated. Frustrated is when something is hard, and you want to stop.",
+      "gap": 1.2,
+      "start": 59.53,
+      "end": 64.78,
+      "words": [
+        {
+          "w": "Tilly",
+          "start": 59.55,
+          "end": 59.857
+        },
+        {
+          "w": "felt",
+          "start": 59.857,
+          "end": 60.164
+        },
+        {
+          "w": "frustrated.",
+          "start": 60.164,
+          "end": 60.9
+        },
+        {
+          "w": "Frustrated",
+          "start": 61.38,
+          "end": 62.151
+        },
+        {
+          "w": "is",
+          "start": 62.151,
+          "end": 62.279
+        },
+        {
+          "w": "when",
+          "start": 62.279,
+          "end": 62.536
+        },
+        {
+          "w": "something",
+          "start": 62.536,
+          "end": 62.986
+        },
+        {
+          "w": "is",
+          "start": 62.986,
+          "end": 63.115
+        },
+        {
+          "w": "hard,",
+          "start": 63.115,
+          "end": 63.5
+        },
+        {
+          "w": "and",
+          "start": 63.78,
+          "end": 63.921
+        },
+        {
+          "w": "you",
+          "start": 63.921,
+          "end": 64.062
+        },
+        {
+          "w": "want",
+          "start": 64.062,
+          "end": 64.297
+        },
+        {
+          "w": "to",
+          "start": 64.297,
+          "end": 64.438
+        },
+        {
+          "w": "stop.",
+          "start": 64.438,
+          "end": 64.72
+        }
+      ]
+    },
+    {
+      "beat": "feel_q",
+      "speaker": "narrator",
+      "text": "Have you ever felt frustrated? What could Tilly do?",
+      "gap": 4.6,
+      "start": 65.98,
+      "end": 69.07,
+      "words": [
+        {
+          "w": "Have",
+          "start": 66.03,
+          "end": 66.251
+        },
+        {
+          "w": "you",
+          "start": 66.251,
+          "end": 66.418
+        },
+        {
+          "w": "ever",
+          "start": 66.418,
+          "end": 66.639
+        },
+        {
+          "w": "felt",
+          "start": 66.639,
+          "end": 66.916
+        },
+        {
+          "w": "frustrated?",
+          "start": 66.916,
+          "end": 67.58
+        },
+        {
+          "w": "What",
+          "start": 67.91,
+          "end": 68.159
+        },
+        {
+          "w": "could",
+          "start": 68.159,
+          "end": 68.409
+        },
+        {
+          "w": "Tilly",
+          "start": 68.409,
+          "end": 68.721
+        },
+        {
+          "w": "do?",
+          "start": 68.721,
+          "end": 68.97
+        }
+      ]
+    },
+    {
+      "beat": "knock",
+      "speaker": "bobo",
+      "text": "Knock, knock. Tilly? Can I tell you a secret?",
+      "gap": 1.0,
+      "start": 73.67,
+      "end": 76.1,
+      "words": [
+        {
+          "w": "Knock,",
+          "start": 73.7,
+          "end": 73.976
+        },
+        {
+          "w": "knock.",
+          "start": 73.976,
+          "end": 74.253
+        },
+        {
+          "w": "Tilly?",
+          "start": 74.253,
+          "end": 74.529
+        },
+        {
+          "w": "Can",
+          "start": 74.529,
+          "end": 74.75
+        },
+        {
+          "w": "I",
+          "start": 74.75,
+          "end": 74.916
+        },
+        {
+          "w": "tell",
+          "start": 74.916,
+          "end": 75.137
+        },
+        {
+          "w": "you",
+          "start": 75.137,
+          "end": 75.302
+        },
+        {
+          "w": "a",
+          "start": 75.302,
+          "end": 75.468
+        },
+        {
+          "w": "secret?",
+          "start": 75.468,
+          "end": 75.91
+        }
+      ]
+    },
+    {
+      "beat": "secret",
+      "speaker": "bobo",
+      "text": "When I learned to ride my bike, I fell down lots and lots of times!",
+      "gap": 1.0,
+      "start": 77.1,
+      "end": 81.36,
+      "words": [
+        {
+          "w": "When",
+          "start": 77.14,
+          "end": 77.384
+        },
+        {
+          "w": "I",
+          "start": 77.384,
+          "end": 77.566
+        },
+        {
+          "w": "learned",
+          "start": 77.566,
+          "end": 77.932
+        },
+        {
+          "w": "to",
+          "start": 77.932,
+          "end": 78.115
+        },
+        {
+          "w": "ride",
+          "start": 78.115,
+          "end": 78.419
+        },
+        {
+          "w": "my",
+          "start": 78.419,
+          "end": 78.663
+        },
+        {
+          "w": "bike,",
+          "start": 78.663,
+          "end": 78.968
+        },
+        {
+          "w": "I",
+          "start": 78.968,
+          "end": 79.15
+        },
+        {
+          "w": "fell",
+          "start": 79.15,
+          "end": 79.394
+        },
+        {
+          "w": "down",
+          "start": 79.394,
+          "end": 79.699
+        },
+        {
+          "w": "lots",
+          "start": 79.699,
+          "end": 80.064
+        },
+        {
+          "w": "and",
+          "start": 80.064,
+          "end": 80.247
+        },
+        {
+          "w": "lots",
+          "start": 80.247,
+          "end": 80.613
+        },
+        {
+          "w": "of",
+          "start": 80.613,
+          "end": 80.734
+        },
+        {
+          "w": "times!",
+          "start": 80.734,
+          "end": 81.1
+        }
+      ]
+    },
+    {
+      "beat": "secret_b",
+      "speaker": "tilly",
+      "text": "You did? But you ride so well!",
+      "gap": 1.0,
+      "start": 82.36,
+      "end": 84.36,
+      "words": [
+        {
+          "w": "You",
+          "start": 82.4,
+          "end": 82.586
+        },
+        {
+          "w": "did?",
+          "start": 82.586,
+          "end": 82.833
+        },
+        {
+          "w": "But",
+          "start": 82.833,
+          "end": 83.08
+        },
+        {
+          "w": "you",
+          "start": 83.08,
+          "end": 83.266
+        },
+        {
+          "w": "ride",
+          "start": 83.266,
+          "end": 83.575
+        },
+        {
+          "w": "so",
+          "start": 83.575,
+          "end": 83.823
+        },
+        {
+          "w": "well!",
+          "start": 83.823,
+          "end": 84.07
+        }
+      ]
+    },
+    {
+      "beat": "secret_c",
+      "speaker": "bobo",
+      "text": "Because I kept trying! Here are my three tricks.",
+      "gap": 1.4,
+      "start": 85.36,
+      "end": 87.81,
+      "words": [
+        {
+          "w": "Because",
+          "start": 85.4,
+          "end": 85.718
+        },
+        {
+          "w": "I",
+          "start": 85.718,
+          "end": 85.877
+        },
+        {
+          "w": "kept",
+          "start": 85.877,
+          "end": 86.142
+        },
+        {
+          "w": "trying!",
+          "start": 86.142,
+          "end": 86.513
+        },
+        {
+          "w": "Here",
+          "start": 86.513,
+          "end": 86.726
+        },
+        {
+          "w": "are",
+          "start": 86.726,
+          "end": 86.885
+        },
+        {
+          "w": "my",
+          "start": 86.885,
+          "end": 87.097
+        },
+        {
+          "w": "three",
+          "start": 87.097,
+          "end": 87.362
+        },
+        {
+          "w": "tricks.",
+          "start": 87.362,
+          "end": 87.68
+        }
+      ]
+    },
+    {
+      "beat": "t1",
+      "speaker": "bobo",
+      "text": "Trick one. Don't say, I can't do it. Say, I can't do it... yet!",
+      "gap": 1.0,
+      "start": 89.21,
+      "end": 92.77,
+      "words": [
+        {
+          "w": "Trick",
+          "start": 89.24,
+          "end": 89.538
+        },
+        {
+          "w": "one.",
+          "start": 89.538,
+          "end": 89.777
+        },
+        {
+          "w": "Don't",
+          "start": 89.777,
+          "end": 90.135
+        },
+        {
+          "w": "say,",
+          "start": 90.135,
+          "end": 90.373
+        },
+        {
+          "w": "I",
+          "start": 90.373,
+          "end": 90.552
+        },
+        {
+          "w": "can't",
+          "start": 90.552,
+          "end": 90.85
+        },
+        {
+          "w": "do",
+          "start": 90.85,
+          "end": 91.089
+        },
+        {
+          "w": "it.",
+          "start": 91.089,
+          "end": 91.208
+        },
+        {
+          "w": "Say,",
+          "start": 91.208,
+          "end": 91.447
+        },
+        {
+          "w": "I",
+          "start": 91.447,
+          "end": 91.625
+        },
+        {
+          "w": "can't",
+          "start": 91.625,
+          "end": 91.924
+        },
+        {
+          "w": "do",
+          "start": 91.924,
+          "end": 92.162
+        },
+        {
+          "w": "it...",
+          "start": 92.162,
+          "end": 92.281
+        },
+        {
+          "w": "yet!",
+          "start": 92.281,
+          "end": 92.52
+        }
+      ]
+    },
+    {
+      "beat": "t1_turn",
+      "speaker": "bobo",
+      "text": "Say it with me! I can't do it... yet!",
+      "gap": 2.4,
+      "start": 93.77,
+      "end": 95.79,
+      "words": [
+        {
+          "w": "Say",
+          "start": 93.8,
+          "end": 94.04
+        },
+        {
+          "w": "it",
+          "start": 94.04,
+          "end": 94.16
+        },
+        {
+          "w": "with",
+          "start": 94.16,
+          "end": 94.34
+        },
+        {
+          "w": "me!",
+          "start": 94.34,
+          "end": 94.58
+        },
+        {
+          "w": "I",
+          "start": 94.58,
+          "end": 94.76
+        },
+        {
+          "w": "can't",
+          "start": 94.76,
+          "end": 95.06
+        },
+        {
+          "w": "do",
+          "start": 95.06,
+          "end": 95.3
+        },
+        {
+          "w": "it...",
+          "start": 95.3,
+          "end": 95.42
+        },
+        {
+          "w": "yet!",
+          "start": 95.42,
+          "end": 95.66
+        }
+      ]
+    },
+    {
+      "beat": "t2",
+      "speaker": "bobo",
+      "text": "Trick two. When you're tired, rest, and take a big breath.",
+      "gap": 1.0,
+      "start": 98.19,
+      "end": 101.04,
+      "words": [
+        {
+          "w": "Trick",
+          "start": 98.22,
+          "end": 98.501
+        },
+        {
+          "w": "two.",
+          "start": 98.501,
+          "end": 98.726
+        },
+        {
+          "w": "When",
+          "start": 98.726,
+          "end": 98.95
+        },
+        {
+          "w": "you're",
+          "start": 98.95,
+          "end": 99.119
+        },
+        {
+          "w": "tired,",
+          "start": 99.119,
+          "end": 99.456
+        },
+        {
+          "w": "rest,",
+          "start": 99.456,
+          "end": 99.737
+        },
+        {
+          "w": "and",
+          "start": 99.737,
+          "end": 99.905
+        },
+        {
+          "w": "take",
+          "start": 99.905,
+          "end": 100.186
+        },
+        {
+          "w": "a",
+          "start": 100.186,
+          "end": 100.354
+        },
+        {
+          "w": "big",
+          "start": 100.354,
+          "end": 100.579
+        },
+        {
+          "w": "breath.",
+          "start": 100.579,
+          "end": 100.86
+        }
+      ]
+    },
+    {
+      "beat": "t2_b",
+      "speaker": "bobo",
+      "text": "Breathe in... and out.",
+      "gap": 2.6,
+      "start": 102.04,
+      "end": 103.25,
+      "words": [
+        {
+          "w": "Breathe",
+          "start": 102.08,
+          "end": 102.478
+        },
+        {
+          "w": "in...",
+          "start": 102.478,
+          "end": 102.676
+        },
+        {
+          "w": "and",
+          "start": 102.676,
+          "end": 102.875
+        },
+        {
+          "w": "out.",
+          "start": 102.875,
+          "end": 103.14
+        }
+      ]
+    },
+    {
+      "beat": "t3",
+      "speaker": "bobo",
+      "text": "Trick three. Don't look at the whole hill. Just look at the next flower!",
+      "gap": 1.0,
+      "start": 105.85,
+      "end": 109.4,
+      "words": [
+        {
+          "w": "Trick",
+          "start": 105.88,
+          "end": 106.155
+        },
+        {
+          "w": "three.",
+          "start": 106.155,
+          "end": 106.429
+        },
+        {
+          "w": "Don't",
+          "start": 106.429,
+          "end": 106.759
+        },
+        {
+          "w": "look",
+          "start": 106.759,
+          "end": 106.978
+        },
+        {
+          "w": "at",
+          "start": 106.978,
+          "end": 107.088
+        },
+        {
+          "w": "the",
+          "start": 107.088,
+          "end": 107.198
+        },
+        {
+          "w": "whole",
+          "start": 107.198,
+          "end": 107.473
+        },
+        {
+          "w": "hill.",
+          "start": 107.473,
+          "end": 107.692
+        },
+        {
+          "w": "Just",
+          "start": 107.692,
+          "end": 108.022
+        },
+        {
+          "w": "look",
+          "start": 108.022,
+          "end": 108.241
+        },
+        {
+          "w": "at",
+          "start": 108.241,
+          "end": 108.351
+        },
+        {
+          "w": "the",
+          "start": 108.351,
+          "end": 108.461
+        },
+        {
+          "w": "next",
+          "start": 108.461,
+          "end": 108.791
+        },
+        {
+          "w": "flower!",
+          "start": 108.791,
+          "end": 109.12
+        }
+      ]
+    },
+    {
+      "beat": "t3_b",
+      "speaker": "bobo",
+      "text": "One small step at a time.",
+      "gap": 1.6,
+      "start": 110.4,
+      "end": 111.91,
+      "words": [
+        {
+          "w": "One",
+          "start": 110.43,
+          "end": 110.649
+        },
+        {
+          "w": "small",
+          "start": 110.649,
+          "end": 110.978
+        },
+        {
+          "w": "step",
+          "start": 110.978,
+          "end": 111.252
+        },
+        {
+          "w": "at",
+          "start": 111.252,
+          "end": 111.362
+        },
+        {
+          "w": "a",
+          "start": 111.362,
+          "end": 111.526
+        },
+        {
+          "w": "time.",
+          "start": 111.526,
+          "end": 111.8
+        }
+      ]
+    },
+    {
+      "beat": "out",
+      "speaker": "tilly",
+      "text": "I can't do it... yet! But I will try again!",
+      "gap": 1.4,
+      "start": 113.51,
+      "end": 116.13,
+      "words": [
+        {
+          "w": "I",
+          "start": 113.55,
+          "end": 113.722
+        },
+        {
+          "w": "can't",
+          "start": 113.722,
+          "end": 114.007
+        },
+        {
+          "w": "do",
+          "start": 114.007,
+          "end": 114.236
+        },
+        {
+          "w": "it...",
+          "start": 114.236,
+          "end": 114.351
+        },
+        {
+          "w": "yet!",
+          "start": 114.351,
+          "end": 114.579
+        },
+        {
+          "w": "But",
+          "start": 114.579,
+          "end": 114.808
+        },
+        {
+          "w": "I",
+          "start": 114.808,
+          "end": 114.979
+        },
+        {
+          "w": "will",
+          "start": 114.979,
+          "end": 115.208
+        },
+        {
+          "w": "try",
+          "start": 115.208,
+          "end": 115.494
+        },
+        {
+          "w": "again!",
+          "start": 115.494,
+          "end": 115.78
+        }
+      ]
+    },
+    {
+      "beat": "try3",
+      "speaker": "narrator",
+      "text": "So Tilly looked at the first flower. Step, step, step.",
+      "gap": 1.0,
+      "start": 117.53,
+      "end": 120.91,
+      "words": [
+        {
+          "w": "So",
+          "start": 117.56,
+          "end": 117.852
+        },
+        {
+          "w": "Tilly",
+          "start": 117.852,
+          "end": 118.216
+        },
+        {
+          "w": "looked",
+          "start": 118.216,
+          "end": 118.58
+        },
+        {
+          "w": "at",
+          "start": 118.58,
+          "end": 118.726
+        },
+        {
+          "w": "the",
+          "start": 118.726,
+          "end": 118.872
+        },
+        {
+          "w": "first",
+          "start": 118.872,
+          "end": 119.309
+        },
+        {
+          "w": "flower.",
+          "start": 119.309,
+          "end": 119.747
+        },
+        {
+          "w": "Step,",
+          "start": 119.747,
+          "end": 120.111
+        },
+        {
+          "w": "step,",
+          "start": 120.111,
+          "end": 120.476
+        },
+        {
+          "w": "step.",
+          "start": 120.476,
+          "end": 120.84
+        }
+      ]
+    },
+    {
+      "beat": "f1",
+      "speaker": "tilly",
+      "text": "I made it to the first flower!",
+      "gap": 1.2,
+      "start": 121.91,
+      "end": 123.8,
+      "words": [
+        {
+          "w": "I",
+          "start": 121.94,
+          "end": 122.114
+        },
+        {
+          "w": "made",
+          "start": 122.114,
+          "end": 122.405
+        },
+        {
+          "w": "it",
+          "start": 122.405,
+          "end": 122.521
+        },
+        {
+          "w": "to",
+          "start": 122.521,
+          "end": 122.696
+        },
+        {
+          "w": "the",
+          "start": 122.696,
+          "end": 122.812
+        },
+        {
+          "w": "first",
+          "start": 122.812,
+          "end": 123.161
+        },
+        {
+          "w": "flower!",
+          "start": 123.161,
+          "end": 123.51
+        }
+      ]
+    },
+    {
+      "beat": "rest",
+      "speaker": "tilly",
+      "text": "I'm tired. Rest... and breathe.",
+      "gap": 1.6,
+      "start": 125.0,
+      "end": 127.02,
+      "words": [
+        {
+          "w": "I'm",
+          "start": 125.04,
+          "end": 125.263
+        },
+        {
+          "w": "tired.",
+          "start": 125.263,
+          "end": 125.709
+        },
+        {
+          "w": "Rest...",
+          "start": 125.709,
+          "end": 126.081
+        },
+        {
+          "w": "and",
+          "start": 126.081,
+          "end": 126.304
+        },
+        {
+          "w": "breathe.",
+          "start": 126.304,
+          "end": 126.75
+        }
+      ]
+    },
+    {
+      "beat": "f2",
+      "speaker": "narrator",
+      "text": "Then the next flower. Step, step, step.",
+      "gap": 1.0,
+      "start": 128.62,
+      "end": 131.13,
+      "words": [
+        {
+          "w": "Then",
+          "start": 128.67,
+          "end": 128.96
+        },
+        {
+          "w": "the",
+          "start": 128.96,
+          "end": 129.105
+        },
+        {
+          "w": "next",
+          "start": 129.105,
+          "end": 129.539
+        },
+        {
+          "w": "flower.",
+          "start": 129.539,
+          "end": 129.974
+        },
+        {
+          "w": "Step,",
+          "start": 129.974,
+          "end": 130.336
+        },
+        {
+          "w": "step,",
+          "start": 130.336,
+          "end": 130.698
+        },
+        {
+          "w": "step.",
+          "start": 130.698,
+          "end": 131.06
+        }
+      ]
+    },
+    {
+      "beat": "f2_b",
+      "speaker": "tilly",
+      "text": "Flower number two!",
+      "gap": 1.2,
+      "start": 132.13,
+      "end": 133.58,
+      "words": [
+        {
+          "w": "Flower",
+          "start": 132.16,
+          "end": 132.606
+        },
+        {
+          "w": "number",
+          "start": 132.606,
+          "end": 133.052
+        },
+        {
+          "w": "two!",
+          "start": 133.052,
+          "end": 133.35
+        }
+      ]
+    },
+    {
+      "beat": "mud2",
+      "speaker": "tilly",
+      "text": "The muddy spot! Hmm... I'll go around it, the long way!",
+      "gap": 1.0,
+      "start": 134.78,
+      "end": 137.74,
+      "words": [
+        {
+          "w": "The",
+          "start": 134.81,
+          "end": 134.932
+        },
+        {
+          "w": "muddy",
+          "start": 134.932,
+          "end": 135.237
+        },
+        {
+          "w": "spot!",
+          "start": 135.237,
+          "end": 135.602
+        },
+        {
+          "w": "Hmm...",
+          "start": 135.602,
+          "end": 135.785
+        },
+        {
+          "w": "I'll",
+          "start": 135.785,
+          "end": 135.968
+        },
+        {
+          "w": "go",
+          "start": 135.968,
+          "end": 136.212
+        },
+        {
+          "w": "around",
+          "start": 136.212,
+          "end": 136.639
+        },
+        {
+          "w": "it,",
+          "start": 136.639,
+          "end": 136.76
+        },
+        {
+          "w": "the",
+          "start": 136.76,
+          "end": 136.882
+        },
+        {
+          "w": "long",
+          "start": 136.882,
+          "end": 137.126
+        },
+        {
+          "w": "way!",
+          "start": 137.126,
+          "end": 137.37
+        }
+      ]
+    },
+    {
+      "beat": "cheer",
+      "speaker": "mila",
+      "text": "You can do it, Tilly!",
+      "gap": 0.6,
+      "start": 138.74,
+      "end": 140.15,
+      "words": [
+        {
+          "w": "You",
+          "start": 138.78,
+          "end": 138.99
+        },
+        {
+          "w": "can",
+          "start": 138.99,
+          "end": 139.27
+        },
+        {
+          "w": "do",
+          "start": 139.27,
+          "end": 139.55
+        },
+        {
+          "w": "it,",
+          "start": 139.55,
+          "end": 139.69
+        },
+        {
+          "w": "Tilly!",
+          "start": 139.69,
+          "end": 140.04
+        }
+      ]
+    },
+    {
+      "beat": "cheer_b",
+      "speaker": "leo",
+      "text": "Go, Tilly, go!",
+      "gap": 0.6,
+      "start": 140.75,
+      "end": 142.03,
+      "words": [
+        {
+          "w": "Go,",
+          "start": 140.79,
+          "end": 141.101
+        },
+        {
+          "w": "Tilly,",
+          "start": 141.101,
+          "end": 141.489
+        },
+        {
+          "w": "go!",
+          "start": 141.489,
+          "end": 141.8
+        }
+      ]
+    },
+    {
+      "beat": "cheer_turn",
+      "speaker": "narrator",
+      "text": "Let's cheer for Tilly too! Go, Tilly, go!",
+      "gap": 2.4,
+      "start": 142.63,
+      "end": 145.46,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 142.68,
+          "end": 143.051
+        },
+        {
+          "w": "cheer",
+          "start": 143.051,
+          "end": 143.422
+        },
+        {
+          "w": "for",
+          "start": 143.422,
+          "end": 143.718
+        },
+        {
+          "w": "Tilly",
+          "start": 143.718,
+          "end": 144.089
+        },
+        {
+          "w": "too!",
+          "start": 144.089,
+          "end": 144.386
+        },
+        {
+          "w": "Go,",
+          "start": 144.386,
+          "end": 144.683
+        },
+        {
+          "w": "Tilly,",
+          "start": 144.683,
+          "end": 145.053
+        },
+        {
+          "w": "go!",
+          "start": 145.053,
+          "end": 145.35
+        }
+      ]
+    },
+    {
+      "beat": "f3",
+      "speaker": "narrator",
+      "text": "The third flower. And now... just one more step.",
+      "gap": 1.0,
+      "start": 147.86,
+      "end": 150.95,
+      "words": [
+        {
+          "w": "The",
+          "start": 147.92,
+          "end": 148.067
+        },
+        {
+          "w": "third",
+          "start": 148.067,
+          "end": 148.435
+        },
+        {
+          "w": "flower.",
+          "start": 148.435,
+          "end": 148.876
+        },
+        {
+          "w": "And",
+          "start": 148.876,
+          "end": 149.096
+        },
+        {
+          "w": "now...",
+          "start": 149.096,
+          "end": 149.39
+        },
+        {
+          "w": "just",
+          "start": 149.39,
+          "end": 149.831
+        },
+        {
+          "w": "one",
+          "start": 149.831,
+          "end": 150.125
+        },
+        {
+          "w": "more",
+          "start": 150.125,
+          "end": 150.493
+        },
+        {
+          "w": "step.",
+          "start": 150.493,
+          "end": 150.86
+        }
+      ]
+    },
+    {
+      "beat": "top",
+      "speaker": "tilly",
+      "text": "I did it! I'm at the top!",
+      "gap": 1.2,
+      "start": 151.95,
+      "end": 153.65,
+      "words": [
+        {
+          "w": "I",
+          "start": 151.98,
+          "end": 152.189
+        },
+        {
+          "w": "did",
+          "start": 152.189,
+          "end": 152.467
+        },
+        {
+          "w": "it!",
+          "start": 152.467,
+          "end": 152.606
+        },
+        {
+          "w": "I'm",
+          "start": 152.606,
+          "end": 152.814
+        },
+        {
+          "w": "at",
+          "start": 152.814,
+          "end": 152.953
+        },
+        {
+          "w": "the",
+          "start": 152.953,
+          "end": 153.092
+        },
+        {
+          "w": "top!",
+          "start": 153.092,
+          "end": 153.44
+        }
+      ]
+    },
+    {
+      "beat": "happy",
+      "speaker": "zip",
+      "text": "Wow, Tilly! You fell down two times, and you never gave up!",
+      "gap": 1.0,
+      "start": 154.85,
+      "end": 158.3,
+      "words": [
+        {
+          "w": "Wow,",
+          "start": 154.89,
+          "end": 155.141
+        },
+        {
+          "w": "Tilly!",
+          "start": 155.141,
+          "end": 155.455
+        },
+        {
+          "w": "You",
+          "start": 155.455,
+          "end": 155.644
+        },
+        {
+          "w": "fell",
+          "start": 155.644,
+          "end": 155.895
+        },
+        {
+          "w": "down",
+          "start": 155.895,
+          "end": 156.209
+        },
+        {
+          "w": "two",
+          "start": 156.209,
+          "end": 156.46
+        },
+        {
+          "w": "times,",
+          "start": 156.46,
+          "end": 156.837
+        },
+        {
+          "w": "and",
+          "start": 156.837,
+          "end": 157.025
+        },
+        {
+          "w": "you",
+          "start": 157.025,
+          "end": 157.214
+        },
+        {
+          "w": "never",
+          "start": 157.214,
+          "end": 157.528
+        },
+        {
+          "w": "gave",
+          "start": 157.528,
+          "end": 157.842
+        },
+        {
+          "w": "up!",
+          "start": 157.842,
+          "end": 158.03
+        }
+      ]
+    },
+    {
+      "beat": "happy_b",
+      "speaker": "mila",
+      "text": "Here, Tilly! Fly your kite!",
+      "gap": 1.0,
+      "start": 159.3,
+      "end": 161.19,
+      "words": [
+        {
+          "w": "Here,",
+          "start": 159.36,
+          "end": 159.665
+        },
+        {
+          "w": "Tilly!",
+          "start": 159.665,
+          "end": 160.047
+        },
+        {
+          "w": "Fly",
+          "start": 160.047,
+          "end": 160.429
+        },
+        {
+          "w": "your",
+          "start": 160.429,
+          "end": 160.658
+        },
+        {
+          "w": "kite!",
+          "start": 160.658,
+          "end": 161.04
+        }
+      ]
+    },
+    {
+      "beat": "kite",
+      "speaker": "narrator",
+      "text": "Tilly's kite flew up, up, up. Higher than all the other kites!",
+      "gap": 1.2,
+      "start": 162.19,
+      "end": 165.7,
+      "words": [
+        {
+          "w": "Tilly's",
+          "start": 162.23,
+          "end": 162.648
+        },
+        {
+          "w": "kite",
+          "start": 162.648,
+          "end": 162.996
+        },
+        {
+          "w": "flew",
+          "start": 162.996,
+          "end": 163.343
+        },
+        {
+          "w": "up,",
+          "start": 163.343,
+          "end": 163.552
+        },
+        {
+          "w": "up,",
+          "start": 163.552,
+          "end": 163.761
+        },
+        {
+          "w": "up.",
+          "start": 163.761,
+          "end": 163.97
+        },
+        {
+          "w": "Higher",
+          "start": 163.97,
+          "end": 164.318
+        },
+        {
+          "w": "than",
+          "start": 164.318,
+          "end": 164.527
+        },
+        {
+          "w": "all",
+          "start": 164.527,
+          "end": 164.805
+        },
+        {
+          "w": "the",
+          "start": 164.805,
+          "end": 164.944
+        },
+        {
+          "w": "other",
+          "start": 164.944,
+          "end": 165.222
+        },
+        {
+          "w": "kites!",
+          "start": 165.222,
+          "end": 165.64
+        }
+      ]
+    },
+    {
+      "beat": "proud",
+      "speaker": "tilly",
+      "text": "I feel so proud! I kept trying, one step at a time!",
+      "gap": 1.6,
+      "start": 166.9,
+      "end": 170.38,
+      "words": [
+        {
+          "w": "I",
+          "start": 166.94,
+          "end": 167.118
+        },
+        {
+          "w": "feel",
+          "start": 167.118,
+          "end": 167.414
+        },
+        {
+          "w": "so",
+          "start": 167.414,
+          "end": 167.651
+        },
+        {
+          "w": "proud!",
+          "start": 167.651,
+          "end": 168.006
+        },
+        {
+          "w": "I",
+          "start": 168.006,
+          "end": 168.184
+        },
+        {
+          "w": "kept",
+          "start": 168.184,
+          "end": 168.48
+        },
+        {
+          "w": "trying,",
+          "start": 168.48,
+          "end": 168.895
+        },
+        {
+          "w": "one",
+          "start": 168.895,
+          "end": 169.132
+        },
+        {
+          "w": "step",
+          "start": 169.132,
+          "end": 169.428
+        },
+        {
+          "w": "at",
+          "start": 169.428,
+          "end": 169.546
+        },
+        {
+          "w": "a",
+          "start": 169.546,
+          "end": 169.724
+        },
+        {
+          "w": "time!",
+          "start": 169.724,
+          "end": 170.02
+        }
+      ]
+    },
+    {
+      "beat": "zstuck",
+      "speaker": "zip",
+      "text": "Oh no! My kite is stuck in the tree! I pulled, and pulled. I give up!",
+      "gap": 1.0,
+      "start": 171.98,
+      "end": 176.03,
+      "words": [
+        {
+          "w": "Oh",
+          "start": 172.02,
+          "end": 172.208
+        },
+        {
+          "w": "no!",
+          "start": 172.208,
+          "end": 172.458
+        },
+        {
+          "w": "My",
+          "start": 172.458,
+          "end": 172.708
+        },
+        {
+          "w": "kite",
+          "start": 172.708,
+          "end": 173.021
+        },
+        {
+          "w": "is",
+          "start": 173.021,
+          "end": 173.146
+        },
+        {
+          "w": "stuck",
+          "start": 173.146,
+          "end": 173.458
+        },
+        {
+          "w": "in",
+          "start": 173.458,
+          "end": 173.646
+        },
+        {
+          "w": "the",
+          "start": 173.646,
+          "end": 173.771
+        },
+        {
+          "w": "tree!",
+          "start": 173.771,
+          "end": 174.084
+        },
+        {
+          "w": "I",
+          "start": 174.084,
+          "end": 174.272
+        },
+        {
+          "w": "pulled,",
+          "start": 174.272,
+          "end": 174.584
+        },
+        {
+          "w": "and",
+          "start": 174.584,
+          "end": 174.772
+        },
+        {
+          "w": "pulled.",
+          "start": 174.772,
+          "end": 175.085
+        },
+        {
+          "w": "I",
+          "start": 175.085,
+          "end": 175.272
+        },
+        {
+          "w": "give",
+          "start": 175.272,
+          "end": 175.522
+        },
+        {
+          "w": "up!",
+          "start": 175.522,
+          "end": 175.71
+        }
+      ]
+    },
+    {
+      "beat": "zhelp",
+      "speaker": "tilly",
+      "text": "Don't say, I give up, Zip. Say... I can't do it yet!",
+      "gap": 0.8,
+      "start": 177.03,
+      "end": 180.18,
+      "words": [
+        {
+          "w": "Don't",
+          "start": 177.07,
+          "end": 177.433
+        },
+        {
+          "w": "say,",
+          "start": 177.433,
+          "end": 177.674
+        },
+        {
+          "w": "I",
+          "start": 177.674,
+          "end": 177.856
+        },
+        {
+          "w": "give",
+          "start": 177.856,
+          "end": 178.097
+        },
+        {
+          "w": "up,",
+          "start": 178.097,
+          "end": 178.279
+        },
+        {
+          "w": "Zip.",
+          "start": 178.279,
+          "end": 178.52
+        },
+        {
+          "w": "Say...",
+          "start": 178.52,
+          "end": 178.762
+        },
+        {
+          "w": "I",
+          "start": 178.762,
+          "end": 178.943
+        },
+        {
+          "w": "can't",
+          "start": 178.943,
+          "end": 179.246
+        },
+        {
+          "w": "do",
+          "start": 179.246,
+          "end": 179.487
+        },
+        {
+          "w": "it",
+          "start": 179.487,
+          "end": 179.608
+        },
+        {
+          "w": "yet!",
+          "start": 179.608,
+          "end": 179.85
+        }
+      ]
+    },
+    {
+      "beat": "zturn",
+      "speaker": "narrator",
+      "text": "Can you help Zip? Say it with Tilly! I can't do it... yet!",
+      "gap": 2.4,
+      "start": 180.98,
+      "end": 184.39,
+      "words": [
+        {
+          "w": "Can",
+          "start": 181.03,
+          "end": 181.303
+        },
+        {
+          "w": "you",
+          "start": 181.303,
+          "end": 181.508
+        },
+        {
+          "w": "help",
+          "start": 181.508,
+          "end": 181.85
+        },
+        {
+          "w": "Zip?",
+          "start": 181.85,
+          "end": 182.123
+        },
+        {
+          "w": "Say",
+          "start": 182.123,
+          "end": 182.397
+        },
+        {
+          "w": "it",
+          "start": 182.397,
+          "end": 182.533
+        },
+        {
+          "w": "with",
+          "start": 182.533,
+          "end": 182.738
+        },
+        {
+          "w": "Tilly!",
+          "start": 182.738,
+          "end": 183.08
+        },
+        {
+          "w": "I",
+          "start": 183.08,
+          "end": 183.285
+        },
+        {
+          "w": "can't",
+          "start": 183.285,
+          "end": 183.627
+        },
+        {
+          "w": "do",
+          "start": 183.627,
+          "end": 183.9
+        },
+        {
+          "w": "it...",
+          "start": 183.9,
+          "end": 184.037
+        },
+        {
+          "w": "yet!",
+          "start": 184.037,
+          "end": 184.31
+        }
+      ]
+    },
+    {
+      "beat": "zbreathe",
+      "speaker": "tilly",
+      "text": "Now take a big breath. And try one small step. Pull gently!",
+      "gap": 1.0,
+      "start": 186.79,
+      "end": 190.67,
+      "words": [
+        {
+          "w": "Now",
+          "start": 186.83,
+          "end": 187.079
+        },
+        {
+          "w": "take",
+          "start": 187.079,
+          "end": 187.389
+        },
+        {
+          "w": "a",
+          "start": 187.389,
+          "end": 187.576
+        },
+        {
+          "w": "big",
+          "start": 187.576,
+          "end": 187.824
+        },
+        {
+          "w": "breath.",
+          "start": 187.824,
+          "end": 188.135
+        },
+        {
+          "w": "And",
+          "start": 188.135,
+          "end": 188.321
+        },
+        {
+          "w": "try",
+          "start": 188.321,
+          "end": 188.632
+        },
+        {
+          "w": "one",
+          "start": 188.632,
+          "end": 188.881
+        },
+        {
+          "w": "small",
+          "start": 188.881,
+          "end": 189.254
+        },
+        {
+          "w": "step.",
+          "start": 189.254,
+          "end": 189.564
+        },
+        {
+          "w": "Pull",
+          "start": 189.564,
+          "end": 189.813
+        },
+        {
+          "w": "gently!",
+          "start": 189.813,
+          "end": 190.31
+        }
+      ]
+    },
+    {
+      "beat": "zfree",
+      "speaker": "zip",
+      "text": "Gently... gently... It's free! Thank you, Tilly!",
+      "gap": 1.0,
+      "start": 191.67,
+      "end": 194.39,
+      "words": [
+        {
+          "w": "Gently...",
+          "start": 191.71,
+          "end": 192.227
+        },
+        {
+          "w": "gently...",
+          "start": 192.227,
+          "end": 192.744
+        },
+        {
+          "w": "It's",
+          "start": 192.744,
+          "end": 192.937
+        },
+        {
+          "w": "free!",
+          "start": 192.937,
+          "end": 193.26
+        },
+        {
+          "w": "Thank",
+          "start": 193.26,
+          "end": 193.583
+        },
+        {
+          "w": "you,",
+          "start": 193.583,
+          "end": 193.777
+        },
+        {
+          "w": "Tilly!",
+          "start": 193.777,
+          "end": 194.1
+        }
+      ]
+    },
+    {
+      "beat": "zall",
+      "speaker": "narrator",
+      "text": "And everyone flew their kites together, all afternoon.",
+      "gap": 1.6,
+      "start": 195.39,
+      "end": 198.56,
+      "words": [
+        {
+          "w": "And",
+          "start": 195.48,
+          "end": 195.645
+        },
+        {
+          "w": "everyone",
+          "start": 195.645,
+          "end": 196.138
+        },
+        {
+          "w": "flew",
+          "start": 196.138,
+          "end": 196.412
+        },
+        {
+          "w": "their",
+          "start": 196.412,
+          "end": 196.577
+        },
+        {
+          "w": "kites",
+          "start": 196.577,
+          "end": 196.906
+        },
+        {
+          "w": "together,",
+          "start": 196.906,
+          "end": 197.29
+        },
+        {
+          "w": "all",
+          "start": 197.58,
+          "end": 197.834
+        },
+        {
+          "w": "afternoon.",
+          "start": 197.834,
+          "end": 198.47
+        }
+      ]
+    },
+    {
+      "beat": "moral",
+      "speaker": "narrator",
+      "text": "Keep trying, one step at a time.",
+      "gap": 2.0,
+      "start": 200.16,
+      "end": 202.27,
+      "words": [
+        {
+          "w": "Keep",
+          "start": 200.19,
+          "end": 200.508
+        },
+        {
+          "w": "trying,",
+          "start": 200.508,
+          "end": 200.953
+        },
+        {
+          "w": "one",
+          "start": 200.953,
+          "end": 201.207
+        },
+        {
+          "w": "step",
+          "start": 201.207,
+          "end": 201.525
+        },
+        {
+          "w": "at",
+          "start": 201.525,
+          "end": 201.652
+        },
+        {
+          "w": "a",
+          "start": 201.652,
+          "end": 201.842
+        },
+        {
+          "w": "time.",
+          "start": 201.842,
+          "end": 202.16
+        }
+      ]
+    },
+    {
+      "beat": "moral_q",
+      "speaker": "narrator",
+      "text": "What is something hard that YOU kept trying?",
+      "gap": 3.4,
+      "start": 204.27,
+      "end": 206.48,
+      "words": [
+        {
+          "w": "What",
+          "start": 204.3,
+          "end": 204.519
+        },
+        {
+          "w": "is",
+          "start": 204.519,
+          "end": 204.628
+        },
+        {
+          "w": "something",
+          "start": 204.628,
+          "end": 205.012
+        },
+        {
+          "w": "hard",
+          "start": 205.012,
+          "end": 205.34
+        },
+        {
+          "w": "that",
+          "start": 205.34,
+          "end": 205.559
+        },
+        {
+          "w": "YOU",
+          "start": 205.559,
+          "end": 205.723
+        },
+        {
+          "w": "kept",
+          "start": 205.723,
+          "end": 205.997
+        },
+        {
+          "w": "trying?",
+          "start": 205.997,
+          "end": 206.38
+        }
+      ]
+    },
+    {
+      "beat": "rem",
+      "speaker": "mila",
+      "text": "Let's remember!",
+      "gap": 1.0,
+      "start": 209.88,
+      "end": 211.15,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 209.99,
+          "end": 210.39
+        },
+        {
+          "w": "remember!",
+          "start": 210.39,
+          "end": 211.03
+        }
+      ]
+    },
+    {
+      "beat": "rq1",
+      "speaker": "narrator",
+      "text": "What did Tilly want to do?",
+      "gap": 4.6,
+      "start": 212.15,
+      "end": 213.68,
+      "words": [
+        {
+          "w": "What",
+          "start": 212.24,
+          "end": 212.451
+        },
+        {
+          "w": "did",
+          "start": 212.451,
+          "end": 212.662
+        },
+        {
+          "w": "Tilly",
+          "start": 212.662,
+          "end": 212.926
+        },
+        {
+          "w": "want",
+          "start": 212.926,
+          "end": 213.19
+        },
+        {
+          "w": "to",
+          "start": 213.19,
+          "end": 213.349
+        },
+        {
+          "w": "do?",
+          "start": 213.349,
+          "end": 213.56
+        }
+      ]
+    },
+    {
+      "beat": "ra1",
+      "speaker": "leo",
+      "text": "Fly her kite at the top of the hill!",
+      "gap": 1.8,
+      "start": 218.28,
+      "end": 220.38,
+      "words": [
+        {
+          "w": "Fly",
+          "start": 218.31,
+          "end": 218.603
+        },
+        {
+          "w": "her",
+          "start": 218.603,
+          "end": 218.779
+        },
+        {
+          "w": "kite",
+          "start": 218.779,
+          "end": 219.073
+        },
+        {
+          "w": "at",
+          "start": 219.073,
+          "end": 219.19
+        },
+        {
+          "w": "the",
+          "start": 219.19,
+          "end": 219.307
+        },
+        {
+          "w": "top",
+          "start": 219.307,
+          "end": 219.601
+        },
+        {
+          "w": "of",
+          "start": 219.601,
+          "end": 219.718
+        },
+        {
+          "w": "the",
+          "start": 219.718,
+          "end": 219.835
+        },
+        {
+          "w": "hill!",
+          "start": 219.835,
+          "end": 220.07
+        }
+      ]
+    },
+    {
+      "beat": "rq2",
+      "speaker": "narrator",
+      "text": "What happened the first time?",
+      "gap": 4.6,
+      "start": 222.18,
+      "end": 223.75,
+      "words": [
+        {
+          "w": "What",
+          "start": 222.23,
+          "end": 222.465
+        },
+        {
+          "w": "happened",
+          "start": 222.465,
+          "end": 222.876
+        },
+        {
+          "w": "the",
+          "start": 222.876,
+          "end": 222.994
+        },
+        {
+          "w": "first",
+          "start": 222.994,
+          "end": 223.346
+        },
+        {
+          "w": "time?",
+          "start": 223.346,
+          "end": 223.64
+        }
+      ]
+    },
+    {
+      "beat": "ra2",
+      "speaker": "bobo",
+      "text": "She tripped on a pebble, and rolled down!",
+      "gap": 1.8,
+      "start": 228.35,
+      "end": 230.35,
+      "words": [
+        {
+          "w": "She",
+          "start": 228.38,
+          "end": 228.533
+        },
+        {
+          "w": "tripped",
+          "start": 228.533,
+          "end": 228.84
+        },
+        {
+          "w": "on",
+          "start": 228.84,
+          "end": 228.994
+        },
+        {
+          "w": "a",
+          "start": 228.994,
+          "end": 229.147
+        },
+        {
+          "w": "pebble,",
+          "start": 229.147,
+          "end": 229.454
+        },
+        {
+          "w": "and",
+          "start": 229.454,
+          "end": 229.607
+        },
+        {
+          "w": "rolled",
+          "start": 229.607,
+          "end": 229.914
+        },
+        {
+          "w": "down!",
+          "start": 229.914,
+          "end": 230.17
+        }
+      ]
+    },
+    {
+      "beat": "rq3",
+      "speaker": "narrator",
+      "text": "How did Tilly feel when she wanted to stop?",
+      "gap": 4.6,
+      "start": 232.15,
+      "end": 234.47,
+      "words": [
+        {
+          "w": "How",
+          "start": 232.2,
+          "end": 232.413
+        },
+        {
+          "w": "did",
+          "start": 232.413,
+          "end": 232.625
+        },
+        {
+          "w": "Tilly",
+          "start": 232.625,
+          "end": 232.891
+        },
+        {
+          "w": "feel",
+          "start": 232.891,
+          "end": 233.157
+        },
+        {
+          "w": "when",
+          "start": 233.157,
+          "end": 233.37
+        },
+        {
+          "w": "she",
+          "start": 233.37,
+          "end": 233.529
+        },
+        {
+          "w": "wanted",
+          "start": 233.529,
+          "end": 233.901
+        },
+        {
+          "w": "to",
+          "start": 233.901,
+          "end": 234.061
+        },
+        {
+          "w": "stop?",
+          "start": 234.061,
+          "end": 234.38
+        }
+      ]
+    },
+    {
+      "beat": "ra3",
+      "speaker": "mila",
+      "text": "Frustrated!",
+      "gap": 1.8,
+      "start": 239.07,
+      "end": 240.24,
+      "words": [
+        {
+          "w": "Frustrated!",
+          "start": 239.15,
+          "end": 240.09
+        }
+      ]
+    },
+    {
+      "beat": "rq4",
+      "speaker": "narrator",
+      "text": "What is the magic little word? I can't do it...",
+      "gap": 4.6,
+      "start": 242.04,
+      "end": 244.81,
+      "words": [
+        {
+          "w": "What",
+          "start": 242.11,
+          "end": 242.335
+        },
+        {
+          "w": "is",
+          "start": 242.335,
+          "end": 242.447
+        },
+        {
+          "w": "the",
+          "start": 242.447,
+          "end": 242.559
+        },
+        {
+          "w": "magic",
+          "start": 242.559,
+          "end": 242.952
+        },
+        {
+          "w": "little",
+          "start": 242.952,
+          "end": 243.289
+        },
+        {
+          "w": "word?",
+          "start": 243.289,
+          "end": 243.57
+        },
+        {
+          "w": "I",
+          "start": 243.85,
+          "end": 244.036
+        },
+        {
+          "w": "can't",
+          "start": 244.036,
+          "end": 244.347
+        },
+        {
+          "w": "do",
+          "start": 244.347,
+          "end": 244.596
+        },
+        {
+          "w": "it...",
+          "start": 244.596,
+          "end": 244.72
+        }
+      ]
+    },
+    {
+      "beat": "ra4",
+      "speaker": "bobo",
+      "text": "Yet!",
+      "gap": 1.8,
+      "start": 249.41,
+      "end": 249.97,
+      "words": [
+        {
+          "w": "Yet!",
+          "start": 249.45,
+          "end": 249.89
+        }
+      ]
+    },
+    {
+      "beat": "rq5",
+      "speaker": "narrator",
+      "text": "How did Tilly climb the big hill?",
+      "gap": 4.6,
+      "start": 251.77,
+      "end": 253.64,
+      "words": [
+        {
+          "w": "How",
+          "start": 251.81,
+          "end": 252.049
+        },
+        {
+          "w": "did",
+          "start": 252.049,
+          "end": 252.287
+        },
+        {
+          "w": "Tilly",
+          "start": 252.287,
+          "end": 252.586
+        },
+        {
+          "w": "climb",
+          "start": 252.586,
+          "end": 252.943
+        },
+        {
+          "w": "the",
+          "start": 252.943,
+          "end": 253.063
+        },
+        {
+          "w": "big",
+          "start": 253.063,
+          "end": 253.301
+        },
+        {
+          "w": "hill?",
+          "start": 253.301,
+          "end": 253.54
+        }
+      ]
+    },
+    {
+      "beat": "ra5",
+      "speaker": "tilly",
+      "text": "One small step at a time!",
+      "gap": 1.8,
+      "start": 258.24,
+      "end": 260.17,
+      "words": [
+        {
+          "w": "One",
+          "start": 258.27,
+          "end": 258.528
+        },
+        {
+          "w": "small",
+          "start": 258.528,
+          "end": 258.914
+        },
+        {
+          "w": "step",
+          "start": 258.914,
+          "end": 259.236
+        },
+        {
+          "w": "at",
+          "start": 259.236,
+          "end": 259.365
+        },
+        {
+          "w": "a",
+          "start": 259.365,
+          "end": 259.558
+        },
+        {
+          "w": "time!",
+          "start": 259.558,
+          "end": 259.88
+        }
+      ]
+    },
+    {
+      "beat": "rq6",
+      "speaker": "narrator",
+      "text": "Bobo fell down lots of times, when he was learning to ride a...",
+      "gap": 4.6,
+      "start": 261.97,
+      "end": 265.83,
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 262.02,
+          "end": 262.482
+        },
+        {
+          "w": "fell",
+          "start": 262.482,
+          "end": 262.746
+        },
+        {
+          "w": "down",
+          "start": 262.746,
+          "end": 263.076
+        },
+        {
+          "w": "lots",
+          "start": 263.076,
+          "end": 263.472
+        },
+        {
+          "w": "of",
+          "start": 263.472,
+          "end": 263.604
+        },
+        {
+          "w": "times,",
+          "start": 263.604,
+          "end": 264.0
+        },
+        {
+          "w": "when",
+          "start": 264.32,
+          "end": 264.524
+        },
+        {
+          "w": "he",
+          "start": 264.524,
+          "end": 264.678
+        },
+        {
+          "w": "was",
+          "start": 264.678,
+          "end": 264.831
+        },
+        {
+          "w": "learning",
+          "start": 264.831,
+          "end": 265.188
+        },
+        {
+          "w": "to",
+          "start": 265.188,
+          "end": 265.341
+        },
+        {
+          "w": "ride",
+          "start": 265.341,
+          "end": 265.597
+        },
+        {
+          "w": "a...",
+          "start": 265.597,
+          "end": 265.75
+        }
+      ]
+    },
+    {
+      "beat": "ra6",
+      "speaker": "bobo",
+      "text": "A bike! And I kept trying!",
+      "gap": 1.8,
+      "start": 270.43,
+      "end": 271.88,
+      "words": [
+        {
+          "w": "A",
+          "start": 270.46,
+          "end": 270.61
+        },
+        {
+          "w": "bike!",
+          "start": 270.61,
+          "end": 270.86
+        },
+        {
+          "w": "And",
+          "start": 270.86,
+          "end": 271.01
+        },
+        {
+          "w": "I",
+          "start": 271.01,
+          "end": 271.16
+        },
+        {
+          "w": "kept",
+          "start": 271.16,
+          "end": 271.41
+        },
+        {
+          "w": "trying!",
+          "start": 271.41,
+          "end": 271.76
+        }
+      ]
+    },
+    {
+      "beat": "rq7",
+      "speaker": "narrator",
+      "text": "What did Tilly do at the muddy spot?",
+      "gap": 4.6,
+      "start": 273.68,
+      "end": 275.72,
+      "words": [
+        {
+          "w": "What",
+          "start": 273.73,
+          "end": 273.966
+        },
+        {
+          "w": "did",
+          "start": 273.966,
+          "end": 274.202
+        },
+        {
+          "w": "Tilly",
+          "start": 274.202,
+          "end": 274.498
+        },
+        {
+          "w": "do",
+          "start": 274.498,
+          "end": 274.734
+        },
+        {
+          "w": "at",
+          "start": 274.734,
+          "end": 274.852
+        },
+        {
+          "w": "the",
+          "start": 274.852,
+          "end": 274.97
+        },
+        {
+          "w": "muddy",
+          "start": 274.97,
+          "end": 275.266
+        },
+        {
+          "w": "spot?",
+          "start": 275.266,
+          "end": 275.62
+        }
+      ]
+    },
+    {
+      "beat": "ra7",
+      "speaker": "mila",
+      "text": "She went around it, the long way!",
+      "gap": 1.8,
+      "start": 280.32,
+      "end": 282.28,
+      "words": [
+        {
+          "w": "She",
+          "start": 280.35,
+          "end": 280.5
+        },
+        {
+          "w": "went",
+          "start": 280.5,
+          "end": 280.75
+        },
+        {
+          "w": "around",
+          "start": 280.75,
+          "end": 281.1
+        },
+        {
+          "w": "it,",
+          "start": 281.1,
+          "end": 281.2
+        },
+        {
+          "w": "the",
+          "start": 281.32,
+          "end": 281.482
+        },
+        {
+          "w": "long",
+          "start": 281.482,
+          "end": 281.806
+        },
+        {
+          "w": "way!",
+          "start": 281.806,
+          "end": 282.13
+        }
+      ]
+    },
+    {
+      "beat": "chant",
+      "speaker": "mila",
+      "text": "Let's say Tilly's rhyme!",
+      "gap": 1.0,
+      "start": 284.08,
+      "end": 285.72,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 284.11,
+          "end": 284.48
+        },
+        {
+          "w": "say",
+          "start": 284.48,
+          "end": 284.776
+        },
+        {
+          "w": "Tilly's",
+          "start": 284.776,
+          "end": 285.22
+        },
+        {
+          "w": "rhyme!",
+          "start": 285.22,
+          "end": 285.59
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "tilly",
+      "text": "Step by step, I climb the hill!",
+      "gap": 0.6,
+      "start": 286.72,
+      "end": 288.87,
+      "words": [
+        {
+          "w": "Step",
+          "start": 286.76,
+          "end": 287.072
+        },
+        {
+          "w": "by",
+          "start": 287.072,
+          "end": 287.322
+        },
+        {
+          "w": "step,",
+          "start": 287.322,
+          "end": 287.634
+        },
+        {
+          "w": "I",
+          "start": 287.634,
+          "end": 287.821
+        },
+        {
+          "w": "climb",
+          "start": 287.821,
+          "end": 288.196
+        },
+        {
+          "w": "the",
+          "start": 288.196,
+          "end": 288.32
+        },
+        {
+          "w": "hill!",
+          "start": 288.32,
+          "end": 288.57
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "leo",
+      "text": "If I fall, I try again!",
+      "gap": 0.6,
+      "start": 289.47,
+      "end": 291.3,
+      "words": [
+        {
+          "w": "If",
+          "start": 289.5,
+          "end": 289.632
+        },
+        {
+          "w": "I",
+          "start": 289.632,
+          "end": 289.83
+        },
+        {
+          "w": "fall,",
+          "start": 289.83,
+          "end": 290.161
+        },
+        {
+          "w": "I",
+          "start": 290.161,
+          "end": 290.359
+        },
+        {
+          "w": "try",
+          "start": 290.359,
+          "end": 290.69
+        },
+        {
+          "w": "again!",
+          "start": 290.69,
+          "end": 291.02
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "bobo",
+      "text": "I can't do it yet, but I will!",
+      "gap": 1.2,
+      "start": 291.9,
+      "end": 293.52,
+      "words": [
+        {
+          "w": "I",
+          "start": 291.93,
+          "end": 292.08
+        },
+        {
+          "w": "can't",
+          "start": 292.08,
+          "end": 292.33
+        },
+        {
+          "w": "do",
+          "start": 292.33,
+          "end": 292.53
+        },
+        {
+          "w": "it",
+          "start": 292.53,
+          "end": 292.63
+        },
+        {
+          "w": "yet,",
+          "start": 292.63,
+          "end": 292.83
+        },
+        {
+          "w": "but",
+          "start": 292.83,
+          "end": 293.03
+        },
+        {
+          "w": "I",
+          "start": 293.03,
+          "end": 293.18
+        },
+        {
+          "w": "will!",
+          "start": 293.18,
+          "end": 293.38
+        }
+      ]
+    },
+    {
+      "beat": "c_turn",
+      "speaker": "narrator",
+      "text": "Your turn! Step by step, I climb the hill!",
+      "gap": 3.0,
+      "start": 294.72,
+      "end": 297.34,
+      "words": [
+        {
+          "w": "Your",
+          "start": 294.77,
+          "end": 294.968
+        },
+        {
+          "w": "turn!",
+          "start": 294.968,
+          "end": 295.298
+        },
+        {
+          "w": "Step",
+          "start": 295.298,
+          "end": 295.627
+        },
+        {
+          "w": "by",
+          "start": 295.627,
+          "end": 295.891
+        },
+        {
+          "w": "step,",
+          "start": 295.891,
+          "end": 296.221
+        },
+        {
+          "w": "I",
+          "start": 296.221,
+          "end": 296.419
+        },
+        {
+          "w": "climb",
+          "start": 296.419,
+          "end": 296.814
+        },
+        {
+          "w": "the",
+          "start": 296.814,
+          "end": 296.946
+        },
+        {
+          "w": "hill!",
+          "start": 296.946,
+          "end": 297.21
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "tilly",
+      "text": "Bye bye, friends! Keep trying!",
+      "gap": 0.5,
+      "start": 300.34,
+      "end": 302.43,
+      "words": [
+        {
+          "w": "Bye",
+          "start": 300.36,
+          "end": 300.621
+        },
+        {
+          "w": "bye,",
+          "start": 300.621,
+          "end": 300.881
+        },
+        {
+          "w": "friends!",
+          "start": 300.881,
+          "end": 301.338
+        },
+        {
+          "w": "Keep",
+          "start": 301.338,
+          "end": 301.664
+        },
+        {
+          "w": "trying!",
+          "start": 301.664,
+          "end": 302.12
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "bobo",
+      "text": "See you next time, on Tiny Sparks!",
+      "gap": 0.5,
+      "start": 302.93,
+      "end": 304.91,
+      "words": [
+        {
+          "w": "See",
+          "start": 302.97,
+          "end": 303.178
+        },
+        {
+          "w": "you",
+          "start": 303.178,
+          "end": 303.334
+        },
+        {
+          "w": "next",
+          "start": 303.334,
+          "end": 303.646
+        },
+        {
+          "w": "time,",
+          "start": 303.646,
+          "end": 303.906
+        },
+        {
+          "w": "on",
+          "start": 303.906,
+          "end": 304.062
+        },
+        {
+          "w": "Tiny",
+          "start": 304.062,
+          "end": 304.374
+        },
+        {
+          "w": "Sparks!",
+          "start": 304.374,
+          "end": 304.79
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast",
+  "beats": [
+    {
+      "id": "want",
+      "start": 0.3,
+      "visual": "Look! Kites, at the top of Rainbow Hill! I want to fly my kite up there!",
+      "end": 5.44
+    },
+    {
+      "id": "intro",
+      "start": 5.44,
+      "visual": "Tilly the turtle was small, and slow. But she had a big dream.",
+      "end": 10.06
+    },
+    {
+      "id": "zip",
+      "start": 10.06,
+      "visual": "Race you to the top, Tilly! Zoom!",
+      "end": 12.84
+    },
+    {
+      "id": "zip_b",
+      "start": 12.84,
+      "visual": "Wait for me! Here I go!",
+      "end": 15.56
+    },
+    {
+      "id": "try1",
+      "start": 15.56,
+      "visual": "Step... step... step. Count Tilly's steps with me!",
+      "end": 19.39
+    },
+    {
+      "id": "s1",
+      "start": 19.39,
+      "visual": "One.",
+      "end": 20.75
+    },
+    {
+      "id": "s2",
+      "start": 20.75,
+      "visual": "Two.",
+      "end": 22.19
+    },
+    {
+      "id": "s3",
+      "start": 22.19,
+      "visual": "Three.",
+      "end": 23.67
+    },
+    {
+      "id": "s4",
+      "start": 23.67,
+      "visual": "Four.",
+      "end": 25.14
+    },
+    {
+      "id": "s5",
+      "start": 25.14,
+      "visual": "Five!",
+      "end": 26.97
+    },
+    {
+      "id": "pebble",
+      "start": 26.97,
+      "visual": "Oops! A pebble!",
+      "end": 28.65
+    },
+    {
+      "id": "roll",
+      "start": 28.65,
+      "visual": "Tilly tripped, and rolled all the way down the hill. Roll, roll, roll!",
+      "end": 34.02
+    },
+    {
+      "id": "roll_b",
+      "start": 34.02,
+      "visual": "Oh no! I'm back at the bottom!",
+      "end": 37.38
+    },
+    {
+      "id": "bobo1",
+      "start": 37.38,
+      "visual": "Are you okay, Tilly?",
+      "end": 39.3
+    },
+    {
+      "id": "bobo1_b",
+      "start": 39.3,
+      "visual": "I'm okay. I'll try again!",
+      "end": 42.37
+    },
+    {
+      "id": "try2",
+      "start": 42.37,
+      "visual": "Tilly climbed again. Step, step, step. Then...",
+      "end": 45.89
+    },
+    {
+      "id": "mud",
+      "start": 45.89,
+      "visual": "Uh oh. It's muddy here! It's slippery!",
+      "end": 48.44
+    },
+    {
+      "id": "slide",
+      "start": 48.44,
+      "visual": "Whee! Tilly slid all the way down again.",
+      "end": 52.12
+    },
+    {
+      "id": "giveup",
+      "start": 52.12,
+      "visual": "I can't do it! I'm too small, and too slow. I give up!",
+      "end": 56.3
+    },
+    {
+      "id": "hide",
+      "start": 56.3,
+      "visual": "And Tilly hid inside her shell.",
+      "end": 59.53
+    },
+    {
+      "id": "feel",
+      "start": 59.53,
+      "visual": "Tilly felt frustrated. Frustrated is when something is hard, and you want to stop.",
+      "end": 65.98
+    },
+    {
+      "id": "feel_q",
+      "start": 65.98,
+      "visual": "Have you ever felt frustrated? What could Tilly do?",
+      "end": 73.67
+    },
+    {
+      "id": "knock",
+      "start": 73.67,
+      "visual": "Knock, knock. Tilly? Can I tell you a secret?",
+      "end": 77.1
+    },
+    {
+      "id": "secret",
+      "start": 77.1,
+      "visual": "When I learned to ride my bike, I fell down lots and lots of times!",
+      "end": 82.36
+    },
+    {
+      "id": "secret_b",
+      "start": 82.36,
+      "visual": "You did? But you ride so well!",
+      "end": 85.36
+    },
+    {
+      "id": "secret_c",
+      "start": 85.36,
+      "visual": "Because I kept trying! Here are my three tricks.",
+      "end": 89.21
+    },
+    {
+      "id": "t1",
+      "start": 89.21,
+      "visual": "Trick one. Don't say, I can't do it. Say, I can't do it... yet!",
+      "end": 93.77
+    },
+    {
+      "id": "t1_turn",
+      "start": 93.77,
+      "visual": "Say it with me! I can't do it... yet!",
+      "end": 98.19
+    },
+    {
+      "id": "t2",
+      "start": 98.19,
+      "visual": "Trick two. When you're tired, rest, and take a big breath.",
+      "end": 102.04
+    },
+    {
+      "id": "t2_b",
+      "start": 102.04,
+      "visual": "Breathe in... and out.",
+      "end": 105.85
+    },
+    {
+      "id": "t3",
+      "start": 105.85,
+      "visual": "Trick three. Don't look at the whole hill. Just look at the next flower!",
+      "end": 110.4
+    },
+    {
+      "id": "t3_b",
+      "start": 110.4,
+      "visual": "One small step at a time.",
+      "end": 113.51
+    },
+    {
+      "id": "out",
+      "start": 113.51,
+      "visual": "I can't do it... yet! But I will try again!",
+      "end": 117.53
+    },
+    {
+      "id": "try3",
+      "start": 117.53,
+      "visual": "So Tilly looked at the first flower. Step, step, step.",
+      "end": 121.91
+    },
+    {
+      "id": "f1",
+      "start": 121.91,
+      "visual": "I made it to the first flower!",
+      "end": 125.0
+    },
+    {
+      "id": "rest",
+      "start": 125.0,
+      "visual": "I'm tired. Rest... and breathe.",
+      "end": 128.62
+    },
+    {
+      "id": "f2",
+      "start": 128.62,
+      "visual": "Then the next flower. Step, step, step.",
+      "end": 132.13
+    },
+    {
+      "id": "f2_b",
+      "start": 132.13,
+      "visual": "Flower number two!",
+      "end": 134.78
+    },
+    {
+      "id": "mud2",
+      "start": 134.78,
+      "visual": "The muddy spot! Hmm... I'll go around it, the long way!",
+      "end": 138.74
+    },
+    {
+      "id": "cheer",
+      "start": 138.74,
+      "visual": "You can do it, Tilly!",
+      "end": 140.75
+    },
+    {
+      "id": "cheer_b",
+      "start": 140.75,
+      "visual": "Go, Tilly, go!",
+      "end": 142.63
+    },
+    {
+      "id": "cheer_turn",
+      "start": 142.63,
+      "visual": "Let's cheer for Tilly too! Go, Tilly, go!",
+      "end": 147.86
+    },
+    {
+      "id": "f3",
+      "start": 147.86,
+      "visual": "The third flower. And now... just one more step.",
+      "end": 151.95
+    },
+    {
+      "id": "top",
+      "start": 151.95,
+      "visual": "I did it! I'm at the top!",
+      "end": 154.85
+    },
+    {
+      "id": "happy",
+      "start": 154.85,
+      "visual": "Wow, Tilly! You fell down two times, and you never gave up!",
+      "end": 159.3
+    },
+    {
+      "id": "happy_b",
+      "start": 159.3,
+      "visual": "Here, Tilly! Fly your kite!",
+      "end": 162.19
+    },
+    {
+      "id": "kite",
+      "start": 162.19,
+      "visual": "Tilly's kite flew up, up, up. Higher than all the other kites!",
+      "end": 166.9
+    },
+    {
+      "id": "proud",
+      "start": 166.9,
+      "visual": "I feel so proud! I kept trying, one step at a time!",
+      "end": 171.98
+    },
+    {
+      "id": "zstuck",
+      "start": 171.98,
+      "visual": "Oh no! My kite is stuck in the tree! I pulled, and pulled. I give up!",
+      "end": 177.03
+    },
+    {
+      "id": "zhelp",
+      "start": 177.03,
+      "visual": "Don't say, I give up, Zip. Say... I can't do it yet!",
+      "end": 180.98
+    },
+    {
+      "id": "zturn",
+      "start": 180.98,
+      "visual": "Can you help Zip? Say it with Tilly! I can't do it... yet!",
+      "end": 186.79
+    },
+    {
+      "id": "zbreathe",
+      "start": 186.79,
+      "visual": "Now take a big breath. And try one small step. Pull gently!",
+      "end": 191.67
+    },
+    {
+      "id": "zfree",
+      "start": 191.67,
+      "visual": "Gently... gently... It's free! Thank you, Tilly!",
+      "end": 195.39
+    },
+    {
+      "id": "zall",
+      "start": 195.39,
+      "visual": "And everyone flew their kites together, all afternoon.",
+      "end": 200.16
+    },
+    {
+      "id": "moral",
+      "start": 200.16,
+      "visual": "Keep trying, one step at a time.",
+      "end": 204.27
+    },
+    {
+      "id": "moral_q",
+      "start": 204.27,
+      "visual": "What is something hard that YOU kept trying?",
+      "end": 209.88
+    },
+    {
+      "id": "rem",
+      "start": 209.88,
+      "visual": "Let's remember!",
+      "end": 212.15
+    },
+    {
+      "id": "rq1",
+      "start": 212.15,
+      "visual": "What did Tilly want to do?",
+      "end": 218.28
+    },
+    {
+      "id": "ra1",
+      "start": 218.28,
+      "visual": "Fly her kite at the top of the hill!",
+      "end": 222.18
+    },
+    {
+      "id": "rq2",
+      "start": 222.18,
+      "visual": "What happened the first time?",
+      "end": 228.35
+    },
+    {
+      "id": "ra2",
+      "start": 228.35,
+      "visual": "She tripped on a pebble, and rolled down!",
+      "end": 232.15
+    },
+    {
+      "id": "rq3",
+      "start": 232.15,
+      "visual": "How did Tilly feel when she wanted to stop?",
+      "end": 239.07
+    },
+    {
+      "id": "ra3",
+      "start": 239.07,
+      "visual": "Frustrated!",
+      "end": 242.04
+    },
+    {
+      "id": "rq4",
+      "start": 242.04,
+      "visual": "What is the magic little word? I can't do it...",
+      "end": 249.41
+    },
+    {
+      "id": "ra4",
+      "start": 249.41,
+      "visual": "Yet!",
+      "end": 251.77
+    },
+    {
+      "id": "rq5",
+      "start": 251.77,
+      "visual": "How did Tilly climb the big hill?",
+      "end": 258.24
+    },
+    {
+      "id": "ra5",
+      "start": 258.24,
+      "visual": "One small step at a time!",
+      "end": 261.97
+    },
+    {
+      "id": "rq6",
+      "start": 261.97,
+      "visual": "Bobo fell down lots of times, when he was learning to ride a...",
+      "end": 270.43
+    },
+    {
+      "id": "ra6",
+      "start": 270.43,
+      "visual": "A bike! And I kept trying!",
+      "end": 273.68
+    },
+    {
+      "id": "rq7",
+      "start": 273.68,
+      "visual": "What did Tilly do at the muddy spot?",
+      "end": 280.32
+    },
+    {
+      "id": "ra7",
+      "start": 280.32,
+      "visual": "She went around it, the long way!",
+      "end": 284.08
+    },
+    {
+      "id": "chant",
+      "start": 284.08,
+      "visual": "Let's say Tilly's rhyme!",
+      "end": 286.72
+    },
+    {
+      "id": "c1",
+      "start": 286.72,
+      "visual": "Step by step, I climb the hill!",
+      "end": 289.47
+    },
+    {
+      "id": "c2",
+      "start": 289.47,
+      "visual": "If I fall, I try again!",
+      "end": 291.9
+    },
+    {
+      "id": "c3",
+      "start": 291.9,
+      "visual": "I can't do it yet, but I will!",
+      "end": 294.72
+    },
+    {
+      "id": "c_turn",
+      "start": 294.72,
+      "visual": "Your turn! Step by step, I climb the hill!",
+      "end": 300.34
+    },
+    {
+      "id": "bye",
+      "start": 300.34,
+      "visual": "Bye bye, friends! Keep trying!",
+      "end": 302.93
+    },
+    {
+      "id": "bye2",
+      "start": 302.93,
+      "visual": "See you next time, on Tiny Sparks!",
+      "end": 311.9
+    }
+  ]
+}
