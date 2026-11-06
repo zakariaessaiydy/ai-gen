@@ -185,7 +185,7 @@ export const makeSong070 = (SONG: VoLine[], BEAT: number, DUR: number, FORM: For
           {qi >= 0 && <QuizCard t={t} show={show} seg={seg} title="WHAT COMES BEFORE?" parts={QUIZ[qi].parts} answer={QUIZ[qi].a} color="#ff924c" />}
           <SlowCard t={t} show={show} items={['5', '4', '3, 2', '1, BLAST OFF!']} color="#ff924c" />
 
-          <Cast t={t} show={show} move={move} xs={[230, 830, 1290, 1700]} />
+          <Cast t={t} show={show} move={move} xs={[230, 830, 1290, 1700]} place={space ? 'space-moon' : 'park'} />
         </SongStage>
         <SongOverlays t={t} show={show} endText="3, 2, 1… YOU DID IT!" />
       </>

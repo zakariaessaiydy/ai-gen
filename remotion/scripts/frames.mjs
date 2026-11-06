@@ -116,7 +116,9 @@ if (!shots.some((s) => s.id === id)) {
   process.exit(1);
 }
 const serveUrl = await getServeUrl({ force: has('force-bundle') });
-const composition = await selectComposition({ serveUrl, id });
+// REMOTION_BROWSER: use an installed Chrome/Chromium instead of letting Remotion download its own
+const browserExecutable = process.env.REMOTION_BROWSER || null;
+const composition = await selectComposition({ serveUrl, id, browserExecutable });
 const fps = composition.fps;
 
 let frames;
@@ -140,7 +142,7 @@ if (beatsFlag || has('auto') || !framesArg) {
 }
 frames = frames.map((f) => Math.max(0, Math.min(composition.durationInFrames - 1, f)));
 
-const browser = await openBrowser('chrome', { shouldDumpIo: false });
+const browser = await openBrowser('chrome', { shouldDumpIo: false, browserExecutable });
 
 const results = new Array(frames.length);
 let next = 0;

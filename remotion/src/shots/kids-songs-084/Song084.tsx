@@ -166,7 +166,7 @@ export const makeSong084 = (SONG: VoLine[], BEAT: number, DUR: number, FORM: For
           )}
           <SlowCard t={t} show={show} items={['3 - 1', '3 - 1 = 2', '2 - 1', '2 - 1 = 1']} color="#1982c4" />
 
-          <Cast t={t} show={show} move={seg.name === 'actions' ? 'fingers' : vd && k === 3 ? 'cheer' : 'dance'} fingers={fingers} present={!!vd && k < 3} xs={[230, 860, 1290, 1700]} />
+          <Cast t={t} show={show} move={seg.name === 'actions' ? 'fingers' : vd && k === 3 ? 'cheer' : 'dance'} fingers={fingers} present={!!vd && k < 3} xs={[230, 860, 1290, 1700]} place="party" />
         </SongStage>
         <SongOverlays t={t} show={show} endText="YOU CAN TAKE AWAY!" />
         {[...V.entries()].filter(([g]) => show.has(g, 3)).map(([g], i) => <Confetti key={i} t={t} at={show.endOf(g, 3)} y={360} dur={1.2} />)}

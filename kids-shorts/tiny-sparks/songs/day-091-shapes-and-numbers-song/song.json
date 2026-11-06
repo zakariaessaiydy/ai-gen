@@ -1,0 +1,114 @@
+{
+ "title": "Shapes and Numbers Song (Tiny Sparks original)",
+ "bpm": 104,
+ "beatsPerBar": 4,
+ "introBars": 0,
+ "outroBars": 2,
+ "instruments": {
+  "lead": "xylophone",
+  "chords": "ukulele",
+  "bass": true,
+  "drums": "soft",
+  "leadWithVocal": true
+ },
+ "singer": "mila",
+ "vocal": {
+  "voice": "af_sky",
+  "pitch": 0,
+  "rate": "-4%"
+ },
+ "form": [
+  "chorus",
+  "v1",
+  "v2",
+  "chorus",
+  "v3",
+  "v4",
+  "chorus",
+  "v5",
+  "chorus",
+  "q1",
+  "q2",
+  "q3",
+  "q4",
+  "actions",
+  "karaoke",
+  "slow",
+  "chorus"
+ ],
+ "sections": {
+  "chorus": {
+   "chords": "C | G | F | C | Am | F | G | C",
+   "melody": "C4:1 C4:1 E4:2 | G4:1 G4:1 E4:2 | F4:1 A4:1 A4:2 | G4:1 F4:1 E4:1 D4:1 | E4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": "Count the sides, count the sides, / shapes have num-bers, yes it's true! / Count the cor-ners, one by one, / shapes and num-bers, so much fun!"
+  },
+  "v1": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "A tri-an-gle has three straight sides, / three lit-tle cor-ners side by side. / Let's count the sides, one, two, and three, / so a tri-an-gle has three!"
+  },
+  "v2": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "A square has four sides, all the same, / four lit-tle cor-ners like a frame. / Let's count the sides, one, two, three, four, / so a square has four, yes four!"
+  },
+  "v3": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "A pen-ta-gon has five sides, look! / Like a lit-tle house in a book. / Count the sides, one, two, three, four, five, / so a pen-ta-gon has five!"
+  },
+  "v4": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "A hex-a-gon has six sides too, / bus-y bees build them, yes it's true! / Count them, one, two, three, four, five, six, / so a hex-a-gon has six!"
+  },
+  "v5": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "A cir-cle rolls a-round and round, / it has no sides, no cor-ners found. / Let's count the cor-ners, there are none, / the cir-cle has ze-ro, fun!"
+  },
+  "q1": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:0.5 E4:0.5 G4:0.5 G4:0.5 A4:0.5 A4:0.5 G4:1 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "How ma-ny sides on a square? / Four!"
+  },
+  "q2": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:0.5 E4:0.5 G4:0.5 G4:0.5 A4:0.5 A4:0.5 G4:1 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "How ma-ny sides, tri-an-gle? / Three!"
+  },
+  "q3": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:0.5 E4:0.5 G4:0.5 G4:0.5 A4:0.5 A4:0.5 G4:1 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "How ma-ny sides, hex-a-gon? / Six!"
+  },
+  "q4": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:0.5 E4:0.5 G4:0.5 G4:0.5 A4:0.5 A4:0.5 G4:0.5 E4:0.5 | R:4 | R:4 | R:4 | G4:1 G4:3 | R:4",
+   "lyrics": "How ma-ny sides on a cir-cle? / Ze-ro!"
+  },
+  "actions": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Make a tri-an-gle with your hands, / now draw a square up in the air, / spin a-round just like a cir-cle, / jump like a star, one, two, three!"
+  },
+  "karaoke": {
+   "chords": "C | G | F | C | Am | F | G | C",
+   "melody": "C4:1 C4:1 E4:2 | G4:1 G4:1 E4:2 | F4:1 A4:1 A4:2 | G4:1 F4:1 E4:1 D4:1 | E4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": ""
+  },
+  "slow": {
+   "chords": "C | G | C | G | C | G | C | G | C | G",
+   "melody": "C4:0.5 E4:0.5 G4:0.5 G4:0.5 A4:0.5 A4:1.5 | R:4 | E4:1 G4:1 G4:1 A4:1 | R:4 | G4:3 R:1 | R:4 | G4:1 A4:1 A4:1 G4:1 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "Let's count the sides slow-ly! / Tri-an-gle sides / Three! / Square has four sides / Four!"
+  }
+ },
+ "ace": {
+  "style": "nursery",
+  "seeds": [
+   24,
+   55,
+   2039
+  ]
+ }
+}

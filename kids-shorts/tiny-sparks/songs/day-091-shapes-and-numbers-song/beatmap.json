@@ -1,0 +1,5036 @@
+{
+ "title": "Shapes and Numbers Song (Tiny Sparks original)",
+ "bpm": 104.0,
+ "beatsPerBar": 4,
+ "secondsPerBeat": 0.5769230769230769,
+ "durationSec": 306.62,
+ "introBars": 0,
+ "chords": [
+  {
+   "t": 0.0,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 2.308,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 4.615,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 6.923,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 9.231,
+   "dur": 2.308,
+   "chord": "Am"
+  },
+  {
+   "t": 11.538,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 13.846,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 16.154,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 18.462,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 20.769,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 23.077,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 25.385,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 27.692,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 30.0,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 32.308,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 34.615,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 36.923,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 39.231,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 41.538,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 43.846,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 46.154,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 48.462,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 50.769,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 53.077,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 55.385,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 57.692,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 60.0,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 62.308,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 64.615,
+   "dur": 2.308,
+   "chord": "Am"
+  },
+  {
+   "t": 66.923,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 69.231,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 71.538,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 73.846,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 76.154,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 78.462,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 80.769,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 83.077,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 85.385,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 87.692,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 90.0,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 92.308,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 94.615,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 96.923,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 99.231,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 101.538,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 103.846,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 106.154,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 108.462,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 110.769,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 113.077,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 115.385,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 117.692,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 120.0,
+   "dur": 2.308,
+   "chord": "Am"
+  },
+  {
+   "t": 122.308,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 124.615,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 126.923,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 129.231,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 131.538,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 133.846,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 136.154,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 138.462,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 140.769,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 143.077,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 145.385,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 147.692,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 150.0,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 152.308,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 154.615,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 156.923,
+   "dur": 2.308,
+   "chord": "Am"
+  },
+  {
+   "t": 159.231,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 161.538,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 163.846,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 166.154,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 168.462,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 170.769,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 173.077,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 175.385,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 177.692,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 180.0,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 182.308,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 184.615,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 186.923,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 189.231,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 191.538,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 193.846,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 196.154,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 198.462,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 200.769,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 203.077,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 205.385,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 207.692,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 210.0,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 212.308,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 214.615,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 216.923,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 219.231,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 221.538,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 223.846,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 226.154,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 228.462,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 230.769,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 233.077,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 235.385,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 237.692,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 240.0,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 242.308,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 244.615,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 246.923,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 249.231,
+   "dur": 2.308,
+   "chord": "Am"
+  },
+  {
+   "t": 251.538,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 253.846,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 256.154,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 258.462,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 260.769,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 263.077,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 265.385,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 267.692,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 270.0,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 272.308,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 274.615,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 276.923,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 279.231,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 281.538,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 283.846,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 286.154,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 288.462,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 290.769,
+   "dur": 2.308,
+   "chord": "Am"
+  },
+  {
+   "t": 293.077,
+   "dur": 2.308,
+   "chord": "F"
+  },
+  {
+   "t": 295.385,
+   "dur": 2.308,
+   "chord": "G"
+  },
+  {
+   "t": 297.692,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 300.0,
+   "dur": 2.308,
+   "chord": "C"
+  },
+  {
+   "t": 302.308,
+   "dur": 2.308,
+   "chord": "C"
+  }
+ ],
+ "notes": [
+  {
+   "t": 0.0,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "Count"
+  },
+  {
+   "t": 0.577,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "the"
+  },
+  {
+   "t": 1.154,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "sides,"
+  },
+  {
+   "t": 2.308,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "count"
+  },
+  {
+   "t": 2.885,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 3.462,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "sides,"
+  },
+  {
+   "t": 4.615,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "shapes"
+  },
+  {
+   "t": 5.192,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "have"
+  },
+  {
+   "t": 5.769,
+   "dur": 1.154,
+   "midi": 69,
+   "syllable": "num"
+  },
+  {
+   "t": 6.923,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "bers,"
+  },
+  {
+   "t": 7.5,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "yes"
+  },
+  {
+   "t": 8.077,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "it's"
+  },
+  {
+   "t": 8.654,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "true!"
+  },
+  {
+   "t": 9.231,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Count"
+  },
+  {
+   "t": 9.808,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "the"
+  },
+  {
+   "t": 10.385,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "cor"
+  },
+  {
+   "t": 10.962,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "ners,"
+  },
+  {
+   "t": 11.538,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "one"
+  },
+  {
+   "t": 12.115,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "by"
+  },
+  {
+   "t": 12.692,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "one,"
+  },
+  {
+   "t": 13.846,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "shapes"
+  },
+  {
+   "t": 14.423,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 15.0,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "num"
+  },
+  {
+   "t": 15.577,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "bers,"
+  },
+  {
+   "t": 16.154,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "so"
+  },
+  {
+   "t": 16.731,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "much"
+  },
+  {
+   "t": 17.308,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "fun!"
+  },
+  {
+   "t": 18.462,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "A"
+  },
+  {
+   "t": 19.038,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "tri"
+  },
+  {
+   "t": 19.615,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "an"
+  },
+  {
+   "t": 20.192,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "gle"
+  },
+  {
+   "t": 20.769,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "has"
+  },
+  {
+   "t": 21.346,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "three"
+  },
+  {
+   "t": 21.923,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "straight"
+  },
+  {
+   "t": 22.5,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "sides,"
+  },
+  {
+   "t": 23.077,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "three"
+  },
+  {
+   "t": 23.654,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "lit"
+  },
+  {
+   "t": 24.231,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "tle"
+  },
+  {
+   "t": 24.808,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "cor"
+  },
+  {
+   "t": 25.385,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ners"
+  },
+  {
+   "t": 25.962,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "side"
+  },
+  {
+   "t": 26.538,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "by"
+  },
+  {
+   "t": 27.115,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "side."
+  },
+  {
+   "t": 27.692,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Let's"
+  },
+  {
+   "t": 28.269,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "count"
+  },
+  {
+   "t": 28.846,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 29.423,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "sides,"
+  },
+  {
+   "t": 30.0,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "one,"
+  },
+  {
+   "t": 30.577,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "two,"
+  },
+  {
+   "t": 31.154,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "and"
+  },
+  {
+   "t": 31.731,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "three,"
+  },
+  {
+   "t": 32.308,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "so"
+  },
+  {
+   "t": 32.885,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 33.462,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "tri"
+  },
+  {
+   "t": 34.038,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "an"
+  },
+  {
+   "t": 34.615,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "gle"
+  },
+  {
+   "t": 35.192,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "has"
+  },
+  {
+   "t": 35.769,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "three!"
+  },
+  {
+   "t": 36.923,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "A"
+  },
+  {
+   "t": 37.5,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "square"
+  },
+  {
+   "t": 38.077,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "has"
+  },
+  {
+   "t": 38.654,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "four"
+  },
+  {
+   "t": 39.231,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "sides,"
+  },
+  {
+   "t": 39.808,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "all"
+  },
+  {
+   "t": 40.385,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "the"
+  },
+  {
+   "t": 40.962,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "same,"
+  },
+  {
+   "t": 41.538,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "four"
+  },
+  {
+   "t": 42.115,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "lit"
+  },
+  {
+   "t": 42.692,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "tle"
+  },
+  {
+   "t": 43.269,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "cor"
+  },
+  {
+   "t": 43.846,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ners"
+  },
+  {
+   "t": 44.423,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "like"
+  },
+  {
+   "t": 45.0,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "a"
+  },
+  {
+   "t": 45.577,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "frame."
+  },
+  {
+   "t": 46.154,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Let's"
+  },
+  {
+   "t": 46.731,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "count"
+  },
+  {
+   "t": 47.308,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 47.885,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "sides,"
+  },
+  {
+   "t": 48.462,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "one,"
+  },
+  {
+   "t": 49.038,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "two,"
+  },
+  {
+   "t": 49.615,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "three,"
+  },
+  {
+   "t": 50.192,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "four,"
+  },
+  {
+   "t": 50.769,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "so"
+  },
+  {
+   "t": 51.346,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 51.923,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "square"
+  },
+  {
+   "t": 52.5,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "has"
+  },
+  {
+   "t": 53.077,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "four,"
+  },
+  {
+   "t": 53.654,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "yes"
+  },
+  {
+   "t": 54.231,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "four!"
+  },
+  {
+   "t": 55.385,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "Count"
+  },
+  {
+   "t": 55.962,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "the"
+  },
+  {
+   "t": 56.538,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "sides,"
+  },
+  {
+   "t": 57.692,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "count"
+  },
+  {
+   "t": 58.269,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 58.846,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "sides,"
+  },
+  {
+   "t": 60.0,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "shapes"
+  },
+  {
+   "t": 60.577,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "have"
+  },
+  {
+   "t": 61.154,
+   "dur": 1.154,
+   "midi": 69,
+   "syllable": "num"
+  },
+  {
+   "t": 62.308,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "bers,"
+  },
+  {
+   "t": 62.885,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "yes"
+  },
+  {
+   "t": 63.462,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "it's"
+  },
+  {
+   "t": 64.038,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "true!"
+  },
+  {
+   "t": 64.615,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Count"
+  },
+  {
+   "t": 65.192,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "the"
+  },
+  {
+   "t": 65.769,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "cor"
+  },
+  {
+   "t": 66.346,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "ners,"
+  },
+  {
+   "t": 66.923,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "one"
+  },
+  {
+   "t": 67.5,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "by"
+  },
+  {
+   "t": 68.077,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "one,"
+  },
+  {
+   "t": 69.231,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "shapes"
+  },
+  {
+   "t": 69.808,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 70.385,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "num"
+  },
+  {
+   "t": 70.962,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "bers,"
+  },
+  {
+   "t": 71.538,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "so"
+  },
+  {
+   "t": 72.115,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "much"
+  },
+  {
+   "t": 72.692,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "fun!"
+  },
+  {
+   "t": 73.846,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "A"
+  },
+  {
+   "t": 74.423,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "pen"
+  },
+  {
+   "t": 75.0,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "ta"
+  },
+  {
+   "t": 75.577,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "gon"
+  },
+  {
+   "t": 76.154,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "has"
+  },
+  {
+   "t": 76.731,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "five"
+  },
+  {
+   "t": 77.308,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "sides,"
+  },
+  {
+   "t": 77.885,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "look!"
+  },
+  {
+   "t": 78.462,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "Like"
+  },
+  {
+   "t": 79.038,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 79.615,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "lit"
+  },
+  {
+   "t": 80.192,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "tle"
+  },
+  {
+   "t": 80.769,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "house"
+  },
+  {
+   "t": 81.346,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "in"
+  },
+  {
+   "t": 81.923,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "a"
+  },
+  {
+   "t": 82.5,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "book."
+  },
+  {
+   "t": 83.077,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Count"
+  },
+  {
+   "t": 83.654,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 84.231,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "sides,"
+  },
+  {
+   "t": 84.808,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "one,"
+  },
+  {
+   "t": 85.385,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "two,"
+  },
+  {
+   "t": 85.962,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "three,"
+  },
+  {
+   "t": 86.538,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "four,"
+  },
+  {
+   "t": 87.115,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "five,"
+  },
+  {
+   "t": 87.692,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "so"
+  },
+  {
+   "t": 88.269,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 88.846,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "pen"
+  },
+  {
+   "t": 89.423,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "ta"
+  },
+  {
+   "t": 90.0,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "gon"
+  },
+  {
+   "t": 90.577,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "has"
+  },
+  {
+   "t": 91.154,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "five!"
+  },
+  {
+   "t": 92.308,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "A"
+  },
+  {
+   "t": 92.885,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "hex"
+  },
+  {
+   "t": 93.462,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 94.038,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "gon"
+  },
+  {
+   "t": 94.615,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "has"
+  },
+  {
+   "t": 95.192,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "six"
+  },
+  {
+   "t": 95.769,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "sides"
+  },
+  {
+   "t": 96.346,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "too,"
+  },
+  {
+   "t": 96.923,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "bus"
+  },
+  {
+   "t": 97.5,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "y"
+  },
+  {
+   "t": 98.077,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "bees"
+  },
+  {
+   "t": 98.654,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "build"
+  },
+  {
+   "t": 99.231,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "them,"
+  },
+  {
+   "t": 99.808,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "yes"
+  },
+  {
+   "t": 100.385,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "it's"
+  },
+  {
+   "t": 100.962,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "true!"
+  },
+  {
+   "t": 101.538,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Count"
+  },
+  {
+   "t": 102.115,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "them,"
+  },
+  {
+   "t": 102.692,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "one,"
+  },
+  {
+   "t": 103.269,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "two,"
+  },
+  {
+   "t": 103.846,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "three,"
+  },
+  {
+   "t": 104.423,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "four,"
+  },
+  {
+   "t": 105.0,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "five,"
+  },
+  {
+   "t": 105.577,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "six,"
+  },
+  {
+   "t": 106.154,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "so"
+  },
+  {
+   "t": 106.731,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 107.308,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "hex"
+  },
+  {
+   "t": 107.885,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 108.462,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "gon"
+  },
+  {
+   "t": 109.038,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "has"
+  },
+  {
+   "t": 109.615,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "six!"
+  },
+  {
+   "t": 110.769,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "Count"
+  },
+  {
+   "t": 111.346,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "the"
+  },
+  {
+   "t": 111.923,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "sides,"
+  },
+  {
+   "t": 113.077,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "count"
+  },
+  {
+   "t": 113.654,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 114.231,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "sides,"
+  },
+  {
+   "t": 115.385,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "shapes"
+  },
+  {
+   "t": 115.962,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "have"
+  },
+  {
+   "t": 116.538,
+   "dur": 1.154,
+   "midi": 69,
+   "syllable": "num"
+  },
+  {
+   "t": 117.692,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "bers,"
+  },
+  {
+   "t": 118.269,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "yes"
+  },
+  {
+   "t": 118.846,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "it's"
+  },
+  {
+   "t": 119.423,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "true!"
+  },
+  {
+   "t": 120.0,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Count"
+  },
+  {
+   "t": 120.577,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "the"
+  },
+  {
+   "t": 121.154,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "cor"
+  },
+  {
+   "t": 121.731,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "ners,"
+  },
+  {
+   "t": 122.308,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "one"
+  },
+  {
+   "t": 122.885,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "by"
+  },
+  {
+   "t": 123.462,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "one,"
+  },
+  {
+   "t": 124.615,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "shapes"
+  },
+  {
+   "t": 125.192,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 125.769,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "num"
+  },
+  {
+   "t": 126.346,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "bers,"
+  },
+  {
+   "t": 126.923,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "so"
+  },
+  {
+   "t": 127.5,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "much"
+  },
+  {
+   "t": 128.077,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "fun!"
+  },
+  {
+   "t": 129.231,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "A"
+  },
+  {
+   "t": 129.808,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "cir"
+  },
+  {
+   "t": 130.385,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "cle"
+  },
+  {
+   "t": 130.962,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "rolls"
+  },
+  {
+   "t": 131.538,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "a"
+  },
+  {
+   "t": 132.115,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "round"
+  },
+  {
+   "t": 132.692,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "and"
+  },
+  {
+   "t": 133.269,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "round,"
+  },
+  {
+   "t": 133.846,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "it"
+  },
+  {
+   "t": 134.423,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "has"
+  },
+  {
+   "t": 135.0,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "no"
+  },
+  {
+   "t": 135.577,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "sides,"
+  },
+  {
+   "t": 136.154,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "no"
+  },
+  {
+   "t": 136.731,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "cor"
+  },
+  {
+   "t": 137.308,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "ners"
+  },
+  {
+   "t": 137.885,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "found."
+  },
+  {
+   "t": 138.462,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Let's"
+  },
+  {
+   "t": 139.038,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "count"
+  },
+  {
+   "t": 139.615,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 140.192,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "cor"
+  },
+  {
+   "t": 140.769,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "ners,"
+  },
+  {
+   "t": 141.346,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "there"
+  },
+  {
+   "t": 141.923,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "are"
+  },
+  {
+   "t": 142.5,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "none,"
+  },
+  {
+   "t": 143.077,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "the"
+  },
+  {
+   "t": 143.654,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "cir"
+  },
+  {
+   "t": 144.231,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "cle"
+  },
+  {
+   "t": 144.808,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "has"
+  },
+  {
+   "t": 145.385,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "ze"
+  },
+  {
+   "t": 145.962,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "ro,"
+  },
+  {
+   "t": 146.538,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "fun!"
+  },
+  {
+   "t": 147.692,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "Count"
+  },
+  {
+   "t": 148.269,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "the"
+  },
+  {
+   "t": 148.846,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "sides,"
+  },
+  {
+   "t": 150.0,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "count"
+  },
+  {
+   "t": 150.577,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 151.154,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "sides,"
+  },
+  {
+   "t": 152.308,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "shapes"
+  },
+  {
+   "t": 152.885,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "have"
+  },
+  {
+   "t": 153.462,
+   "dur": 1.154,
+   "midi": 69,
+   "syllable": "num"
+  },
+  {
+   "t": 154.615,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "bers,"
+  },
+  {
+   "t": 155.192,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "yes"
+  },
+  {
+   "t": 155.769,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "it's"
+  },
+  {
+   "t": 156.346,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "true!"
+  },
+  {
+   "t": 156.923,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Count"
+  },
+  {
+   "t": 157.5,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "the"
+  },
+  {
+   "t": 158.077,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "cor"
+  },
+  {
+   "t": 158.654,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "ners,"
+  },
+  {
+   "t": 159.231,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "one"
+  },
+  {
+   "t": 159.808,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "by"
+  },
+  {
+   "t": 160.385,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "one,"
+  },
+  {
+   "t": 161.538,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "shapes"
+  },
+  {
+   "t": 162.115,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 162.692,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "num"
+  },
+  {
+   "t": 163.269,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "bers,"
+  },
+  {
+   "t": 163.846,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "so"
+  },
+  {
+   "t": 164.423,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "much"
+  },
+  {
+   "t": 165.0,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "fun!"
+  },
+  {
+   "t": 166.154,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": "How"
+  },
+  {
+   "t": 166.442,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "ma"
+  },
+  {
+   "t": 166.731,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "ny"
+  },
+  {
+   "t": 167.019,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "sides"
+  },
+  {
+   "t": 167.308,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "on"
+  },
+  {
+   "t": 167.596,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "a"
+  },
+  {
+   "t": 167.885,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "square?"
+  },
+  {
+   "t": 175.385,
+   "dur": 1.731,
+   "midi": 67,
+   "syllable": "Four!"
+  },
+  {
+   "t": 180.0,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": "How"
+  },
+  {
+   "t": 180.288,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "ma"
+  },
+  {
+   "t": 180.577,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "ny"
+  },
+  {
+   "t": 180.865,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "sides,"
+  },
+  {
+   "t": 181.154,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "tri"
+  },
+  {
+   "t": 181.442,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "an"
+  },
+  {
+   "t": 181.731,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "gle?"
+  },
+  {
+   "t": 189.231,
+   "dur": 1.731,
+   "midi": 67,
+   "syllable": "Three!"
+  },
+  {
+   "t": 193.846,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": "How"
+  },
+  {
+   "t": 194.135,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "ma"
+  },
+  {
+   "t": 194.423,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "ny"
+  },
+  {
+   "t": 194.712,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "sides,"
+  },
+  {
+   "t": 195.0,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "hex"
+  },
+  {
+   "t": 195.288,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "a"
+  },
+  {
+   "t": 195.577,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "gon?"
+  },
+  {
+   "t": 203.077,
+   "dur": 1.731,
+   "midi": 67,
+   "syllable": "Six!"
+  },
+  {
+   "t": 207.692,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": "How"
+  },
+  {
+   "t": 207.981,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "ma"
+  },
+  {
+   "t": 208.269,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "ny"
+  },
+  {
+   "t": 208.558,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "sides"
+  },
+  {
+   "t": 208.846,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "on"
+  },
+  {
+   "t": 209.135,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "a"
+  },
+  {
+   "t": 209.423,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "cir"
+  },
+  {
+   "t": 209.712,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "cle?"
+  },
+  {
+   "t": 216.923,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Ze"
+  },
+  {
+   "t": 217.5,
+   "dur": 1.731,
+   "midi": 67,
+   "syllable": "ro!"
+  },
+  {
+   "t": 221.538,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Make"
+  },
+  {
+   "t": 222.115,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 222.692,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "tri"
+  },
+  {
+   "t": 223.269,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "an"
+  },
+  {
+   "t": 223.846,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "gle"
+  },
+  {
+   "t": 224.423,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "with"
+  },
+  {
+   "t": 225.0,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "your"
+  },
+  {
+   "t": 225.577,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "hands,"
+  },
+  {
+   "t": 226.154,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "now"
+  },
+  {
+   "t": 226.731,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "draw"
+  },
+  {
+   "t": 227.308,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 227.885,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "square"
+  },
+  {
+   "t": 228.462,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "up"
+  },
+  {
+   "t": 229.038,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "in"
+  },
+  {
+   "t": 229.615,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "the"
+  },
+  {
+   "t": 230.192,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "air,"
+  },
+  {
+   "t": 230.769,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "spin"
+  },
+  {
+   "t": 231.346,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 231.923,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "round"
+  },
+  {
+   "t": 232.5,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "just"
+  },
+  {
+   "t": 233.077,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "like"
+  },
+  {
+   "t": 233.654,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 234.231,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "cir"
+  },
+  {
+   "t": 234.808,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "cle,"
+  },
+  {
+   "t": 235.385,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "jump"
+  },
+  {
+   "t": 235.962,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "like"
+  },
+  {
+   "t": 236.538,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 237.115,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "star,"
+  },
+  {
+   "t": 237.692,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "one,"
+  },
+  {
+   "t": 238.269,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "two,"
+  },
+  {
+   "t": 238.846,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "three!"
+  },
+  {
+   "t": 240.0,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 240.577,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 241.154,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 242.308,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 242.885,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 243.462,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 244.615,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 245.192,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 245.769,
+   "dur": 1.154,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 246.923,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 247.5,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 248.077,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 248.654,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 249.231,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 249.808,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 250.385,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 250.962,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 251.538,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 252.115,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 252.692,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 253.846,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 254.423,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 255.0,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 255.577,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 256.154,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 256.731,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 257.308,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 258.462,
+   "dur": 0.288,
+   "midi": 60,
+   "syllable": "Let's"
+  },
+  {
+   "t": 258.75,
+   "dur": 0.288,
+   "midi": 64,
+   "syllable": "count"
+  },
+  {
+   "t": 259.038,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 259.327,
+   "dur": 0.288,
+   "midi": 67,
+   "syllable": "sides"
+  },
+  {
+   "t": 259.615,
+   "dur": 0.288,
+   "midi": 69,
+   "syllable": "slow"
+  },
+  {
+   "t": 259.904,
+   "dur": 0.865,
+   "midi": 69,
+   "syllable": "ly!"
+  },
+  {
+   "t": 263.077,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Tri"
+  },
+  {
+   "t": 263.654,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "an"
+  },
+  {
+   "t": 264.231,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "gle"
+  },
+  {
+   "t": 264.808,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "sides"
+  },
+  {
+   "t": 267.692,
+   "dur": 1.731,
+   "midi": 67,
+   "syllable": "Three!"
+  },
+  {
+   "t": 272.308,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "Square"
+  },
+  {
+   "t": 272.885,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "has"
+  },
+  {
+   "t": 273.462,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "four"
+  },
+  {
+   "t": 274.038,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "sides"
+  },
+  {
+   "t": 276.923,
+   "dur": 1.731,
+   "midi": 67,
+   "syllable": "Four!"
+  },
+  {
+   "t": 281.538,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "Count"
+  },
+  {
+   "t": 282.115,
+   "dur": 0.577,
+   "midi": 60,
+   "syllable": "the"
+  },
+  {
+   "t": 282.692,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "sides,"
+  },
+  {
+   "t": 283.846,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "count"
+  },
+  {
+   "t": 284.423,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 285.0,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "sides,"
+  },
+  {
+   "t": 286.154,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "shapes"
+  },
+  {
+   "t": 286.731,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "have"
+  },
+  {
+   "t": 287.308,
+   "dur": 1.154,
+   "midi": 69,
+   "syllable": "num"
+  },
+  {
+   "t": 288.462,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "bers,"
+  },
+  {
+   "t": 289.038,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "yes"
+  },
+  {
+   "t": 289.615,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "it's"
+  },
+  {
+   "t": 290.192,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "true!"
+  },
+  {
+   "t": 290.769,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "Count"
+  },
+  {
+   "t": 291.346,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "the"
+  },
+  {
+   "t": 291.923,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "cor"
+  },
+  {
+   "t": 292.5,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "ners,"
+  },
+  {
+   "t": 293.077,
+   "dur": 0.577,
+   "midi": 69,
+   "syllable": "one"
+  },
+  {
+   "t": 293.654,
+   "dur": 0.577,
+   "midi": 67,
+   "syllable": "by"
+  },
+  {
+   "t": 294.231,
+   "dur": 1.154,
+   "midi": 64,
+   "syllable": "one,"
+  },
+  {
+   "t": 295.385,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "shapes"
+  },
+  {
+   "t": 295.962,
+   "dur": 0.577,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 296.538,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "num"
+  },
+  {
+   "t": 297.115,
+   "dur": 0.577,
+   "midi": 64,
+   "syllable": "bers,"
+  },
+  {
+   "t": 297.692,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "so"
+  },
+  {
+   "t": 298.269,
+   "dur": 0.577,
+   "midi": 62,
+   "syllable": "much"
+  },
+  {
+   "t": 298.846,
+   "dur": 1.154,
+   "midi": 60,
+   "syllable": "fun!"
+  }
+ ],
+ "lines": [
+  {
+   "text": "Count the sides, count the sides,",
+   "start": 0.0,
+   "end": 4.615,
+   "words": [
+    {
+     "w": "Count",
+     "start": 0.0,
+     "end": 0.577
+    },
+    {
+     "w": "the",
+     "start": 0.577,
+     "end": 1.154
+    },
+    {
+     "w": "sides,",
+     "start": 1.154,
+     "end": 2.308
+    },
+    {
+     "w": "count",
+     "start": 2.308,
+     "end": 2.885
+    },
+    {
+     "w": "the",
+     "start": 2.885,
+     "end": 3.462
+    },
+    {
+     "w": "sides,",
+     "start": 3.462,
+     "end": 4.615
+    }
+   ]
+  },
+  {
+   "text": "shapes have numbers, yes it's true!",
+   "start": 4.615,
+   "end": 9.231,
+   "words": [
+    {
+     "w": "shapes",
+     "start": 4.615,
+     "end": 5.192
+    },
+    {
+     "w": "have",
+     "start": 5.192,
+     "end": 5.769
+    },
+    {
+     "w": "numbers,",
+     "start": 5.769,
+     "end": 7.5
+    },
+    {
+     "w": "yes",
+     "start": 7.5,
+     "end": 8.077
+    },
+    {
+     "w": "it's",
+     "start": 8.077,
+     "end": 8.654
+    },
+    {
+     "w": "true!",
+     "start": 8.654,
+     "end": 9.231
+    }
+   ]
+  },
+  {
+   "text": "Count the corners, one by one,",
+   "start": 9.231,
+   "end": 13.846,
+   "words": [
+    {
+     "w": "Count",
+     "start": 9.231,
+     "end": 9.808
+    },
+    {
+     "w": "the",
+     "start": 9.808,
+     "end": 10.385
+    },
+    {
+     "w": "corners,",
+     "start": 10.385,
+     "end": 11.538
+    },
+    {
+     "w": "one",
+     "start": 11.538,
+     "end": 12.115
+    },
+    {
+     "w": "by",
+     "start": 12.115,
+     "end": 12.692
+    },
+    {
+     "w": "one,",
+     "start": 12.692,
+     "end": 13.846
+    }
+   ]
+  },
+  {
+   "text": "shapes and numbers, so much fun!",
+   "start": 13.846,
+   "end": 18.462,
+   "words": [
+    {
+     "w": "shapes",
+     "start": 13.846,
+     "end": 14.423
+    },
+    {
+     "w": "and",
+     "start": 14.423,
+     "end": 15.0
+    },
+    {
+     "w": "numbers,",
+     "start": 15.0,
+     "end": 16.154
+    },
+    {
+     "w": "so",
+     "start": 16.154,
+     "end": 16.731
+    },
+    {
+     "w": "much",
+     "start": 16.731,
+     "end": 17.308
+    },
+    {
+     "w": "fun!",
+     "start": 17.308,
+     "end": 18.462
+    }
+   ]
+  },
+  {
+   "text": "A triangle has three straight sides,",
+   "start": 18.462,
+   "end": 23.077,
+   "words": [
+    {
+     "w": "A",
+     "start": 18.462,
+     "end": 19.038
+    },
+    {
+     "w": "triangle",
+     "start": 19.038,
+     "end": 20.769
+    },
+    {
+     "w": "has",
+     "start": 20.769,
+     "end": 21.346
+    },
+    {
+     "w": "three",
+     "start": 21.346,
+     "end": 21.923
+    },
+    {
+     "w": "straight",
+     "start": 21.923,
+     "end": 22.5
+    },
+    {
+     "w": "sides,",
+     "start": 22.5,
+     "end": 23.077
+    }
+   ]
+  },
+  {
+   "text": "three little corners side by side.",
+   "start": 23.077,
+   "end": 27.692,
+   "words": [
+    {
+     "w": "three",
+     "start": 23.077,
+     "end": 23.654
+    },
+    {
+     "w": "little",
+     "start": 23.654,
+     "end": 24.808
+    },
+    {
+     "w": "corners",
+     "start": 24.808,
+     "end": 25.962
+    },
+    {
+     "w": "side",
+     "start": 25.962,
+     "end": 26.538
+    },
+    {
+     "w": "by",
+     "start": 26.538,
+     "end": 27.115
+    },
+    {
+     "w": "side.",
+     "start": 27.115,
+     "end": 27.692
+    }
+   ]
+  },
+  {
+   "text": "Let's count the sides, one, two, and three,",
+   "start": 27.692,
+   "end": 32.308,
+   "words": [
+    {
+     "w": "Let's",
+     "start": 27.692,
+     "end": 28.269
+    },
+    {
+     "w": "count",
+     "start": 28.269,
+     "end": 28.846
+    },
+    {
+     "w": "the",
+     "start": 28.846,
+     "end": 29.423
+    },
+    {
+     "w": "sides,",
+     "start": 29.423,
+     "end": 30.0
+    },
+    {
+     "w": "one,",
+     "start": 30.0,
+     "end": 30.577
+    },
+    {
+     "w": "two,",
+     "start": 30.577,
+     "end": 31.154
+    },
+    {
+     "w": "and",
+     "start": 31.154,
+     "end": 31.731
+    },
+    {
+     "w": "three,",
+     "start": 31.731,
+     "end": 32.308
+    }
+   ]
+  },
+  {
+   "text": "so a triangle has three!",
+   "start": 32.308,
+   "end": 36.923,
+   "words": [
+    {
+     "w": "so",
+     "start": 32.308,
+     "end": 32.885
+    },
+    {
+     "w": "a",
+     "start": 32.885,
+     "end": 33.462
+    },
+    {
+     "w": "triangle",
+     "start": 33.462,
+     "end": 35.192
+    },
+    {
+     "w": "has",
+     "start": 35.192,
+     "end": 35.769
+    },
+    {
+     "w": "three!",
+     "start": 35.769,
+     "end": 36.923
+    }
+   ]
+  },
+  {
+   "text": "A square has four sides, all the same,",
+   "start": 36.923,
+   "end": 41.538,
+   "words": [
+    {
+     "w": "A",
+     "start": 36.923,
+     "end": 37.5
+    },
+    {
+     "w": "square",
+     "start": 37.5,
+     "end": 38.077
+    },
+    {
+     "w": "has",
+     "start": 38.077,
+     "end": 38.654
+    },
+    {
+     "w": "four",
+     "start": 38.654,
+     "end": 39.231
+    },
+    {
+     "w": "sides,",
+     "start": 39.231,
+     "end": 39.808
+    },
+    {
+     "w": "all",
+     "start": 39.808,
+     "end": 40.385
+    },
+    {
+     "w": "the",
+     "start": 40.385,
+     "end": 40.962
+    },
+    {
+     "w": "same,",
+     "start": 40.962,
+     "end": 41.538
+    }
+   ]
+  },
+  {
+   "text": "four little corners like a frame.",
+   "start": 41.538,
+   "end": 46.154,
+   "words": [
+    {
+     "w": "four",
+     "start": 41.538,
+     "end": 42.115
+    },
+    {
+     "w": "little",
+     "start": 42.115,
+     "end": 43.269
+    },
+    {
+     "w": "corners",
+     "start": 43.269,
+     "end": 44.423
+    },
+    {
+     "w": "like",
+     "start": 44.423,
+     "end": 45.0
+    },
+    {
+     "w": "a",
+     "start": 45.0,
+     "end": 45.577
+    },
+    {
+     "w": "frame.",
+     "start": 45.577,
+     "end": 46.154
+    }
+   ]
+  },
+  {
+   "text": "Let's count the sides, one, two, three, four,",
+   "start": 46.154,
+   "end": 50.769,
+   "words": [
+    {
+     "w": "Let's",
+     "start": 46.154,
+     "end": 46.731
+    },
+    {
+     "w": "count",
+     "start": 46.731,
+     "end": 47.308
+    },
+    {
+     "w": "the",
+     "start": 47.308,
+     "end": 47.885
+    },
+    {
+     "w": "sides,",
+     "start": 47.885,
+     "end": 48.462
+    },
+    {
+     "w": "one,",
+     "start": 48.462,
+     "end": 49.038
+    },
+    {
+     "w": "two,",
+     "start": 49.038,
+     "end": 49.615
+    },
+    {
+     "w": "three,",
+     "start": 49.615,
+     "end": 50.192
+    },
+    {
+     "w": "four,",
+     "start": 50.192,
+     "end": 50.769
+    }
+   ]
+  },
+  {
+   "text": "so a square has four, yes four!",
+   "start": 50.769,
+   "end": 55.385,
+   "words": [
+    {
+     "w": "so",
+     "start": 50.769,
+     "end": 51.346
+    },
+    {
+     "w": "a",
+     "start": 51.346,
+     "end": 51.923
+    },
+    {
+     "w": "square",
+     "start": 51.923,
+     "end": 52.5
+    },
+    {
+     "w": "has",
+     "start": 52.5,
+     "end": 53.077
+    },
+    {
+     "w": "four,",
+     "start": 53.077,
+     "end": 53.654
+    },
+    {
+     "w": "yes",
+     "start": 53.654,
+     "end": 54.231
+    },
+    {
+     "w": "four!",
+     "start": 54.231,
+     "end": 55.385
+    }
+   ]
+  },
+  {
+   "text": "Count the sides, count the sides,",
+   "start": 55.385,
+   "end": 60.0,
+   "words": [
+    {
+     "w": "Count",
+     "start": 55.385,
+     "end": 55.962
+    },
+    {
+     "w": "the",
+     "start": 55.962,
+     "end": 56.538
+    },
+    {
+     "w": "sides,",
+     "start": 56.538,
+     "end": 57.692
+    },
+    {
+     "w": "count",
+     "start": 57.692,
+     "end": 58.269
+    },
+    {
+     "w": "the",
+     "start": 58.269,
+     "end": 58.846
+    },
+    {
+     "w": "sides,",
+     "start": 58.846,
+     "end": 60.0
+    }
+   ]
+  },
+  {
+   "text": "shapes have numbers, yes it's true!",
+   "start": 60.0,
+   "end": 64.615,
+   "words": [
+    {
+     "w": "shapes",
+     "start": 60.0,
+     "end": 60.577
+    },
+    {
+     "w": "have",
+     "start": 60.577,
+     "end": 61.154
+    },
+    {
+     "w": "numbers,",
+     "start": 61.154,
+     "end": 62.885
+    },
+    {
+     "w": "yes",
+     "start": 62.885,
+     "end": 63.462
+    },
+    {
+     "w": "it's",
+     "start": 63.462,
+     "end": 64.038
+    },
+    {
+     "w": "true!",
+     "start": 64.038,
+     "end": 64.615
+    }
+   ]
+  },
+  {
+   "text": "Count the corners, one by one,",
+   "start": 64.615,
+   "end": 69.231,
+   "words": [
+    {
+     "w": "Count",
+     "start": 64.615,
+     "end": 65.192
+    },
+    {
+     "w": "the",
+     "start": 65.192,
+     "end": 65.769
+    },
+    {
+     "w": "corners,",
+     "start": 65.769,
+     "end": 66.923
+    },
+    {
+     "w": "one",
+     "start": 66.923,
+     "end": 67.5
+    },
+    {
+     "w": "by",
+     "start": 67.5,
+     "end": 68.077
+    },
+    {
+     "w": "one,",
+     "start": 68.077,
+     "end": 69.231
+    }
+   ]
+  },
+  {
+   "text": "shapes and numbers, so much fun!",
+   "start": 69.231,
+   "end": 73.846,
+   "words": [
+    {
+     "w": "shapes",
+     "start": 69.231,
+     "end": 69.808
+    },
+    {
+     "w": "and",
+     "start": 69.808,
+     "end": 70.385
+    },
+    {
+     "w": "numbers,",
+     "start": 70.385,
+     "end": 71.538
+    },
+    {
+     "w": "so",
+     "start": 71.538,
+     "end": 72.115
+    },
+    {
+     "w": "much",
+     "start": 72.115,
+     "end": 72.692
+    },
+    {
+     "w": "fun!",
+     "start": 72.692,
+     "end": 73.846
+    }
+   ]
+  },
+  {
+   "text": "A pentagon has five sides, look!",
+   "start": 73.846,
+   "end": 78.462,
+   "words": [
+    {
+     "w": "A",
+     "start": 73.846,
+     "end": 74.423
+    },
+    {
+     "w": "pentagon",
+     "start": 74.423,
+     "end": 76.154
+    },
+    {
+     "w": "has",
+     "start": 76.154,
+     "end": 76.731
+    },
+    {
+     "w": "five",
+     "start": 76.731,
+     "end": 77.308
+    },
+    {
+     "w": "sides,",
+     "start": 77.308,
+     "end": 77.885
+    },
+    {
+     "w": "look!",
+     "start": 77.885,
+     "end": 78.462
+    }
+   ]
+  },
+  {
+   "text": "Like a little house in a book.",
+   "start": 78.462,
+   "end": 83.077,
+   "words": [
+    {
+     "w": "Like",
+     "start": 78.462,
+     "end": 79.038
+    },
+    {
+     "w": "a",
+     "start": 79.038,
+     "end": 79.615
+    },
+    {
+     "w": "little",
+     "start": 79.615,
+     "end": 80.769
+    },
+    {
+     "w": "house",
+     "start": 80.769,
+     "end": 81.346
+    },
+    {
+     "w": "in",
+     "start": 81.346,
+     "end": 81.923
+    },
+    {
+     "w": "a",
+     "start": 81.923,
+     "end": 82.5
+    },
+    {
+     "w": "book.",
+     "start": 82.5,
+     "end": 83.077
+    }
+   ]
+  },
+  {
+   "text": "Count the sides, one, two, three, four, five,",
+   "start": 83.077,
+   "end": 87.692,
+   "words": [
+    {
+     "w": "Count",
+     "start": 83.077,
+     "end": 83.654
+    },
+    {
+     "w": "the",
+     "start": 83.654,
+     "end": 84.231
+    },
+    {
+     "w": "sides,",
+     "start": 84.231,
+     "end": 84.808
+    },
+    {
+     "w": "one,",
+     "start": 84.808,
+     "end": 85.385
+    },
+    {
+     "w": "two,",
+     "start": 85.385,
+     "end": 85.962
+    },
+    {
+     "w": "three,",
+     "start": 85.962,
+     "end": 86.538
+    },
+    {
+     "w": "four,",
+     "start": 86.538,
+     "end": 87.115
+    },
+    {
+     "w": "five,",
+     "start": 87.115,
+     "end": 87.692
+    }
+   ]
+  },
+  {
+   "text": "so a pentagon has five!",
+   "start": 87.692,
+   "end": 92.308,
+   "words": [
+    {
+     "w": "so",
+     "start": 87.692,
+     "end": 88.269
+    },
+    {
+     "w": "a",
+     "start": 88.269,
+     "end": 88.846
+    },
+    {
+     "w": "pentagon",
+     "start": 88.846,
+     "end": 90.577
+    },
+    {
+     "w": "has",
+     "start": 90.577,
+     "end": 91.154
+    },
+    {
+     "w": "five!",
+     "start": 91.154,
+     "end": 92.308
+    }
+   ]
+  },
+  {
+   "text": "A hexagon has six sides too,",
+   "start": 92.308,
+   "end": 96.923,
+   "words": [
+    {
+     "w": "A",
+     "start": 92.308,
+     "end": 92.885
+    },
+    {
+     "w": "hexagon",
+     "start": 92.885,
+     "end": 94.615
+    },
+    {
+     "w": "has",
+     "start": 94.615,
+     "end": 95.192
+    },
+    {
+     "w": "six",
+     "start": 95.192,
+     "end": 95.769
+    },
+    {
+     "w": "sides",
+     "start": 95.769,
+     "end": 96.346
+    },
+    {
+     "w": "too,",
+     "start": 96.346,
+     "end": 96.923
+    }
+   ]
+  },
+  {
+   "text": "busy bees build them, yes it's true!",
+   "start": 96.923,
+   "end": 101.538,
+   "words": [
+    {
+     "w": "busy",
+     "start": 96.923,
+     "end": 98.077
+    },
+    {
+     "w": "bees",
+     "start": 98.077,
+     "end": 98.654
+    },
+    {
+     "w": "build",
+     "start": 98.654,
+     "end": 99.231
+    },
+    {
+     "w": "them,",
+     "start": 99.231,
+     "end": 99.808
+    },
+    {
+     "w": "yes",
+     "start": 99.808,
+     "end": 100.385
+    },
+    {
+     "w": "it's",
+     "start": 100.385,
+     "end": 100.962
+    },
+    {
+     "w": "true!",
+     "start": 100.962,
+     "end": 101.538
+    }
+   ]
+  },
+  {
+   "text": "Count them, one, two, three, four, five, six,",
+   "start": 101.538,
+   "end": 106.154,
+   "words": [
+    {
+     "w": "Count",
+     "start": 101.538,
+     "end": 102.115
+    },
+    {
+     "w": "them,",
+     "start": 102.115,
+     "end": 102.692
+    },
+    {
+     "w": "one,",
+     "start": 102.692,
+     "end": 103.269
+    },
+    {
+     "w": "two,",
+     "start": 103.269,
+     "end": 103.846
+    },
+    {
+     "w": "three,",
+     "start": 103.846,
+     "end": 104.423
+    },
+    {
+     "w": "four,",
+     "start": 104.423,
+     "end": 105.0
+    },
+    {
+     "w": "five,",
+     "start": 105.0,
+     "end": 105.577
+    },
+    {
+     "w": "six,",
+     "start": 105.577,
+     "end": 106.154
+    }
+   ]
+  },
+  {
+   "text": "so a hexagon has six!",
+   "start": 106.154,
+   "end": 110.769,
+   "words": [
+    {
+     "w": "so",
+     "start": 106.154,
+     "end": 106.731
+    },
+    {
+     "w": "a",
+     "start": 106.731,
+     "end": 107.308
+    },
+    {
+     "w": "hexagon",
+     "start": 107.308,
+     "end": 109.038
+    },
+    {
+     "w": "has",
+     "start": 109.038,
+     "end": 109.615
+    },
+    {
+     "w": "six!",
+     "start": 109.615,
+     "end": 110.769
+    }
+   ]
+  },
+  {
+   "text": "Count the sides, count the sides,",
+   "start": 110.769,
+   "end": 115.385,
+   "words": [
+    {
+     "w": "Count",
+     "start": 110.769,
+     "end": 111.346
+    },
+    {
+     "w": "the",
+     "start": 111.346,
+     "end": 111.923
+    },
+    {
+     "w": "sides,",
+     "start": 111.923,
+     "end": 113.077
+    },
+    {
+     "w": "count",
+     "start": 113.077,
+     "end": 113.654
+    },
+    {
+     "w": "the",
+     "start": 113.654,
+     "end": 114.231
+    },
+    {
+     "w": "sides,",
+     "start": 114.231,
+     "end": 115.385
+    }
+   ]
+  },
+  {
+   "text": "shapes have numbers, yes it's true!",
+   "start": 115.385,
+   "end": 120.0,
+   "words": [
+    {
+     "w": "shapes",
+     "start": 115.385,
+     "end": 115.962
+    },
+    {
+     "w": "have",
+     "start": 115.962,
+     "end": 116.538
+    },
+    {
+     "w": "numbers,",
+     "start": 116.538,
+     "end": 118.269
+    },
+    {
+     "w": "yes",
+     "start": 118.269,
+     "end": 118.846
+    },
+    {
+     "w": "it's",
+     "start": 118.846,
+     "end": 119.423
+    },
+    {
+     "w": "true!",
+     "start": 119.423,
+     "end": 120.0
+    }
+   ]
+  },
+  {
+   "text": "Count the corners, one by one,",
+   "start": 120.0,
+   "end": 124.615,
+   "words": [
+    {
+     "w": "Count",
+     "start": 120.0,
+     "end": 120.577
+    },
+    {
+     "w": "the",
+     "start": 120.577,
+     "end": 121.154
+    },
+    {
+     "w": "corners,",
+     "start": 121.154,
+     "end": 122.308
+    },
+    {
+     "w": "one",
+     "start": 122.308,
+     "end": 122.885
+    },
+    {
+     "w": "by",
+     "start": 122.885,
+     "end": 123.462
+    },
+    {
+     "w": "one,",
+     "start": 123.462,
+     "end": 124.615
+    }
+   ]
+  },
+  {
+   "text": "shapes and numbers, so much fun!",
+   "start": 124.615,
+   "end": 129.231,
+   "words": [
+    {
+     "w": "shapes",
+     "start": 124.615,
+     "end": 125.192
+    },
+    {
+     "w": "and",
+     "start": 125.192,
+     "end": 125.769
+    },
+    {
+     "w": "numbers,",
+     "start": 125.769,
+     "end": 126.923
+    },
+    {
+     "w": "so",
+     "start": 126.923,
+     "end": 127.5
+    },
+    {
+     "w": "much",
+     "start": 127.5,
+     "end": 128.077
+    },
+    {
+     "w": "fun!",
+     "start": 128.077,
+     "end": 129.231
+    }
+   ]
+  },
+  {
+   "text": "A circle rolls around and round,",
+   "start": 129.231,
+   "end": 133.846,
+   "words": [
+    {
+     "w": "A",
+     "start": 129.231,
+     "end": 129.808
+    },
+    {
+     "w": "circle",
+     "start": 129.808,
+     "end": 130.962
+    },
+    {
+     "w": "rolls",
+     "start": 130.962,
+     "end": 131.538
+    },
+    {
+     "w": "around",
+     "start": 131.538,
+     "end": 132.692
+    },
+    {
+     "w": "and",
+     "start": 132.692,
+     "end": 133.269
+    },
+    {
+     "w": "round,",
+     "start": 133.269,
+     "end": 133.846
+    }
+   ]
+  },
+  {
+   "text": "it has no sides, no corners found.",
+   "start": 133.846,
+   "end": 138.462,
+   "words": [
+    {
+     "w": "it",
+     "start": 133.846,
+     "end": 134.423
+    },
+    {
+     "w": "has",
+     "start": 134.423,
+     "end": 135.0
+    },
+    {
+     "w": "no",
+     "start": 135.0,
+     "end": 135.577
+    },
+    {
+     "w": "sides,",
+     "start": 135.577,
+     "end": 136.154
+    },
+    {
+     "w": "no",
+     "start": 136.154,
+     "end": 136.731
+    },
+    {
+     "w": "corners",
+     "start": 136.731,
+     "end": 137.885
+    },
+    {
+     "w": "found.",
+     "start": 137.885,
+     "end": 138.462
+    }
+   ]
+  },
+  {
+   "text": "Let's count the corners, there are none,",
+   "start": 138.462,
+   "end": 143.077,
+   "words": [
+    {
+     "w": "Let's",
+     "start": 138.462,
+     "end": 139.038
+    },
+    {
+     "w": "count",
+     "start": 139.038,
+     "end": 139.615
+    },
+    {
+     "w": "the",
+     "start": 139.615,
+     "end": 140.192
+    },
+    {
+     "w": "corners,",
+     "start": 140.192,
+     "end": 141.346
+    },
+    {
+     "w": "there",
+     "start": 141.346,
+     "end": 141.923
+    },
+    {
+     "w": "are",
+     "start": 141.923,
+     "end": 142.5
+    },
+    {
+     "w": "none,",
+     "start": 142.5,
+     "end": 143.077
+    }
+   ]
+  },
+  {
+   "text": "the circle has zero, fun!",
+   "start": 143.077,
+   "end": 147.692,
+   "words": [
+    {
+     "w": "the",
+     "start": 143.077,
+     "end": 143.654
+    },
+    {
+     "w": "circle",
+     "start": 143.654,
+     "end": 144.808
+    },
+    {
+     "w": "has",
+     "start": 144.808,
+     "end": 145.385
+    },
+    {
+     "w": "zero,",
+     "start": 145.385,
+     "end": 146.538
+    },
+    {
+     "w": "fun!",
+     "start": 146.538,
+     "end": 147.692
+    }
+   ]
+  },
+  {
+   "text": "Count the sides, count the sides,",
+   "start": 147.692,
+   "end": 152.308,
+   "words": [
+    {
+     "w": "Count",
+     "start": 147.692,
+     "end": 148.269
+    },
+    {
+     "w": "the",
+     "start": 148.269,
+     "end": 148.846
+    },
+    {
+     "w": "sides,",
+     "start": 148.846,
+     "end": 150.0
+    },
+    {
+     "w": "count",
+     "start": 150.0,
+     "end": 150.577
+    },
+    {
+     "w": "the",
+     "start": 150.577,
+     "end": 151.154
+    },
+    {
+     "w": "sides,",
+     "start": 151.154,
+     "end": 152.308
+    }
+   ]
+  },
+  {
+   "text": "shapes have numbers, yes it's true!",
+   "start": 152.308,
+   "end": 156.923,
+   "words": [
+    {
+     "w": "shapes",
+     "start": 152.308,
+     "end": 152.885
+    },
+    {
+     "w": "have",
+     "start": 152.885,
+     "end": 153.462
+    },
+    {
+     "w": "numbers,",
+     "start": 153.462,
+     "end": 155.192
+    },
+    {
+     "w": "yes",
+     "start": 155.192,
+     "end": 155.769
+    },
+    {
+     "w": "it's",
+     "start": 155.769,
+     "end": 156.346
+    },
+    {
+     "w": "true!",
+     "start": 156.346,
+     "end": 156.923
+    }
+   ]
+  },
+  {
+   "text": "Count the corners, one by one,",
+   "start": 156.923,
+   "end": 161.538,
+   "words": [
+    {
+     "w": "Count",
+     "start": 156.923,
+     "end": 157.5
+    },
+    {
+     "w": "the",
+     "start": 157.5,
+     "end": 158.077
+    },
+    {
+     "w": "corners,",
+     "start": 158.077,
+     "end": 159.231
+    },
+    {
+     "w": "one",
+     "start": 159.231,
+     "end": 159.808
+    },
+    {
+     "w": "by",
+     "start": 159.808,
+     "end": 160.385
+    },
+    {
+     "w": "one,",
+     "start": 160.385,
+     "end": 161.538
+    }
+   ]
+  },
+  {
+   "text": "shapes and numbers, so much fun!",
+   "start": 161.538,
+   "end": 166.154,
+   "words": [
+    {
+     "w": "shapes",
+     "start": 161.538,
+     "end": 162.115
+    },
+    {
+     "w": "and",
+     "start": 162.115,
+     "end": 162.692
+    },
+    {
+     "w": "numbers,",
+     "start": 162.692,
+     "end": 163.846
+    },
+    {
+     "w": "so",
+     "start": 163.846,
+     "end": 164.423
+    },
+    {
+     "w": "much",
+     "start": 164.423,
+     "end": 165.0
+    },
+    {
+     "w": "fun!",
+     "start": 165.0,
+     "end": 166.154
+    }
+   ]
+  },
+  {
+   "text": "How many sides on a square?",
+   "start": 166.154,
+   "end": 168.462,
+   "words": [
+    {
+     "w": "How",
+     "start": 166.154,
+     "end": 166.442
+    },
+    {
+     "w": "many",
+     "start": 166.442,
+     "end": 167.019
+    },
+    {
+     "w": "sides",
+     "start": 167.019,
+     "end": 167.308
+    },
+    {
+     "w": "on",
+     "start": 167.308,
+     "end": 167.596
+    },
+    {
+     "w": "a",
+     "start": 167.596,
+     "end": 167.885
+    },
+    {
+     "w": "square?",
+     "start": 167.885,
+     "end": 168.462
+    }
+   ]
+  },
+  {
+   "text": "Four!",
+   "start": 175.385,
+   "end": 177.115,
+   "words": [
+    {
+     "w": "Four!",
+     "start": 175.385,
+     "end": 177.115
+    }
+   ]
+  },
+  {
+   "text": "How many sides, triangle?",
+   "start": 180.0,
+   "end": 182.308,
+   "words": [
+    {
+     "w": "How",
+     "start": 180.0,
+     "end": 180.288
+    },
+    {
+     "w": "many",
+     "start": 180.288,
+     "end": 180.865
+    },
+    {
+     "w": "sides,",
+     "start": 180.865,
+     "end": 181.154
+    },
+    {
+     "w": "triangle?",
+     "start": 181.154,
+     "end": 182.308
+    }
+   ]
+  },
+  {
+   "text": "Three!",
+   "start": 189.231,
+   "end": 190.962,
+   "words": [
+    {
+     "w": "Three!",
+     "start": 189.231,
+     "end": 190.962
+    }
+   ]
+  },
+  {
+   "text": "How many sides, hexagon?",
+   "start": 193.846,
+   "end": 196.154,
+   "words": [
+    {
+     "w": "How",
+     "start": 193.846,
+     "end": 194.135
+    },
+    {
+     "w": "many",
+     "start": 194.135,
+     "end": 194.712
+    },
+    {
+     "w": "sides,",
+     "start": 194.712,
+     "end": 195.0
+    },
+    {
+     "w": "hexagon?",
+     "start": 195.0,
+     "end": 196.154
+    }
+   ]
+  },
+  {
+   "text": "Six!",
+   "start": 203.077,
+   "end": 204.808,
+   "words": [
+    {
+     "w": "Six!",
+     "start": 203.077,
+     "end": 204.808
+    }
+   ]
+  },
+  {
+   "text": "How many sides on a circle?",
+   "start": 207.692,
+   "end": 210.0,
+   "words": [
+    {
+     "w": "How",
+     "start": 207.692,
+     "end": 207.981
+    },
+    {
+     "w": "many",
+     "start": 207.981,
+     "end": 208.558
+    },
+    {
+     "w": "sides",
+     "start": 208.558,
+     "end": 208.846
+    },
+    {
+     "w": "on",
+     "start": 208.846,
+     "end": 209.135
+    },
+    {
+     "w": "a",
+     "start": 209.135,
+     "end": 209.423
+    },
+    {
+     "w": "circle?",
+     "start": 209.423,
+     "end": 210.0
+    }
+   ]
+  },
+  {
+   "text": "Zero!",
+   "start": 216.923,
+   "end": 219.231,
+   "words": [
+    {
+     "w": "Zero!",
+     "start": 216.923,
+     "end": 219.231
+    }
+   ]
+  },
+  {
+   "text": "Make a triangle with your hands,",
+   "start": 221.538,
+   "end": 226.154,
+   "words": [
+    {
+     "w": "Make",
+     "start": 221.538,
+     "end": 222.115
+    },
+    {
+     "w": "a",
+     "start": 222.115,
+     "end": 222.692
+    },
+    {
+     "w": "triangle",
+     "start": 222.692,
+     "end": 224.423
+    },
+    {
+     "w": "with",
+     "start": 224.423,
+     "end": 225.0
+    },
+    {
+     "w": "your",
+     "start": 225.0,
+     "end": 225.577
+    },
+    {
+     "w": "hands,",
+     "start": 225.577,
+     "end": 226.154
+    }
+   ]
+  },
+  {
+   "text": "now draw a square up in the air,",
+   "start": 226.154,
+   "end": 230.769,
+   "words": [
+    {
+     "w": "now",
+     "start": 226.154,
+     "end": 226.731
+    },
+    {
+     "w": "draw",
+     "start": 226.731,
+     "end": 227.308
+    },
+    {
+     "w": "a",
+     "start": 227.308,
+     "end": 227.885
+    },
+    {
+     "w": "square",
+     "start": 227.885,
+     "end": 228.462
+    },
+    {
+     "w": "up",
+     "start": 228.462,
+     "end": 229.038
+    },
+    {
+     "w": "in",
+     "start": 229.038,
+     "end": 229.615
+    },
+    {
+     "w": "the",
+     "start": 229.615,
+     "end": 230.192
+    },
+    {
+     "w": "air,",
+     "start": 230.192,
+     "end": 230.769
+    }
+   ]
+  },
+  {
+   "text": "spin around just like a circle,",
+   "start": 230.769,
+   "end": 235.385,
+   "words": [
+    {
+     "w": "spin",
+     "start": 230.769,
+     "end": 231.346
+    },
+    {
+     "w": "around",
+     "start": 231.346,
+     "end": 232.5
+    },
+    {
+     "w": "just",
+     "start": 232.5,
+     "end": 233.077
+    },
+    {
+     "w": "like",
+     "start": 233.077,
+     "end": 233.654
+    },
+    {
+     "w": "a",
+     "start": 233.654,
+     "end": 234.231
+    },
+    {
+     "w": "circle,",
+     "start": 234.231,
+     "end": 235.385
+    }
+   ]
+  },
+  {
+   "text": "jump like a star, one, two, three!",
+   "start": 235.385,
+   "end": 240.0,
+   "words": [
+    {
+     "w": "jump",
+     "start": 235.385,
+     "end": 235.962
+    },
+    {
+     "w": "like",
+     "start": 235.962,
+     "end": 236.538
+    },
+    {
+     "w": "a",
+     "start": 236.538,
+     "end": 237.115
+    },
+    {
+     "w": "star,",
+     "start": 237.115,
+     "end": 237.692
+    },
+    {
+     "w": "one,",
+     "start": 237.692,
+     "end": 238.269
+    },
+    {
+     "w": "two,",
+     "start": 238.269,
+     "end": 238.846
+    },
+    {
+     "w": "three!",
+     "start": 238.846,
+     "end": 240.0
+    }
+   ]
+  },
+  {
+   "text": "Let's count the sides slowly!",
+   "start": 258.462,
+   "end": 260.769,
+   "words": [
+    {
+     "w": "Let's",
+     "start": 258.462,
+     "end": 258.75
+    },
+    {
+     "w": "count",
+     "start": 258.75,
+     "end": 259.038
+    },
+    {
+     "w": "the",
+     "start": 259.038,
+     "end": 259.327
+    },
+    {
+     "w": "sides",
+     "start": 259.327,
+     "end": 259.615
+    },
+    {
+     "w": "slowly!",
+     "start": 259.615,
+     "end": 260.769
+    }
+   ]
+  },
+  {
+   "text": "Triangle sides",
+   "start": 263.077,
+   "end": 265.385,
+   "words": [
+    {
+     "w": "Triangle",
+     "start": 263.077,
+     "end": 264.808
+    },
+    {
+     "w": "sides",
+     "start": 264.808,
+     "end": 265.385
+    }
+   ]
+  },
+  {
+   "text": "Three!",
+   "start": 267.692,
+   "end": 269.423,
+   "words": [
+    {
+     "w": "Three!",
+     "start": 267.692,
+     "end": 269.423
+    }
+   ]
+  },
+  {
+   "text": "Square has four sides",
+   "start": 272.308,
+   "end": 274.615,
+   "words": [
+    {
+     "w": "Square",
+     "start": 272.308,
+     "end": 272.885
+    },
+    {
+     "w": "has",
+     "start": 272.885,
+     "end": 273.462
+    },
+    {
+     "w": "four",
+     "start": 273.462,
+     "end": 274.038
+    },
+    {
+     "w": "sides",
+     "start": 274.038,
+     "end": 274.615
+    }
+   ]
+  },
+  {
+   "text": "Four!",
+   "start": 276.923,
+   "end": 278.654,
+   "words": [
+    {
+     "w": "Four!",
+     "start": 276.923,
+     "end": 278.654
+    }
+   ]
+  },
+  {
+   "text": "Count the sides, count the sides,",
+   "start": 281.538,
+   "end": 286.154,
+   "words": [
+    {
+     "w": "Count",
+     "start": 281.538,
+     "end": 282.115
+    },
+    {
+     "w": "the",
+     "start": 282.115,
+     "end": 282.692
+    },
+    {
+     "w": "sides,",
+     "start": 282.692,
+     "end": 283.846
+    },
+    {
+     "w": "count",
+     "start": 283.846,
+     "end": 284.423
+    },
+    {
+     "w": "the",
+     "start": 284.423,
+     "end": 285.0
+    },
+    {
+     "w": "sides,",
+     "start": 285.0,
+     "end": 286.154
+    }
+   ]
+  },
+  {
+   "text": "shapes have numbers, yes it's true!",
+   "start": 286.154,
+   "end": 290.769,
+   "words": [
+    {
+     "w": "shapes",
+     "start": 286.154,
+     "end": 286.731
+    },
+    {
+     "w": "have",
+     "start": 286.731,
+     "end": 287.308
+    },
+    {
+     "w": "numbers,",
+     "start": 287.308,
+     "end": 289.038
+    },
+    {
+     "w": "yes",
+     "start": 289.038,
+     "end": 289.615
+    },
+    {
+     "w": "it's",
+     "start": 289.615,
+     "end": 290.192
+    },
+    {
+     "w": "true!",
+     "start": 290.192,
+     "end": 290.769
+    }
+   ]
+  },
+  {
+   "text": "Count the corners, one by one,",
+   "start": 290.769,
+   "end": 295.385,
+   "words": [
+    {
+     "w": "Count",
+     "start": 290.769,
+     "end": 291.346
+    },
+    {
+     "w": "the",
+     "start": 291.346,
+     "end": 291.923
+    },
+    {
+     "w": "corners,",
+     "start": 291.923,
+     "end": 293.077
+    },
+    {
+     "w": "one",
+     "start": 293.077,
+     "end": 293.654
+    },
+    {
+     "w": "by",
+     "start": 293.654,
+     "end": 294.231
+    },
+    {
+     "w": "one,",
+     "start": 294.231,
+     "end": 295.385
+    }
+   ]
+  },
+  {
+   "text": "shapes and numbers, so much fun!",
+   "start": 295.385,
+   "end": 300.0,
+   "words": [
+    {
+     "w": "shapes",
+     "start": 295.385,
+     "end": 295.962
+    },
+    {
+     "w": "and",
+     "start": 295.962,
+     "end": 296.538
+    },
+    {
+     "w": "numbers,",
+     "start": 296.538,
+     "end": 297.692
+    },
+    {
+     "w": "so",
+     "start": 297.692,
+     "end": 298.269
+    },
+    {
+     "w": "much",
+     "start": 298.269,
+     "end": 298.846
+    },
+    {
+     "w": "fun!",
+     "start": 298.846,
+     "end": 300.0
+    }
+   ]
+  }
+ ]
+}

@@ -19,6 +19,8 @@ import { findFfmpeg } from './lib/ffmpeg.mjs';
 import path from 'path';
 import { getServeUrl, REMOTION_ROOT as root } from './lib/bundle-cache.mjs';
 import { generate } from './gen-registry.mjs';
+// REMOTION_BROWSER: use an installed Chrome/Chromium instead of letting Remotion download its own
+const browserExecutable = process.env.REMOTION_BROWSER || null;
 
 const args = process.argv.slice(2);
 const flag = (name, dflt) => {
@@ -76,7 +78,7 @@ async function renderChunked(id, opts, total, chunk, out, transparent) {
       const tmp = file.replace(`.${ext}`, `.tmp.${ext}`);
       try {
         let last = -1;
-        await renderMedia({
+        await renderMedia({ browserExecutable,
           ...opts, outputLocation: tmp, frameRange: [a, b],
           onProgress: ({ progress }) => {
             const pct = Math.floor(((done + progress * (b - a + 1)) / total) * 20) * 5;
@@ -108,11 +110,11 @@ const t0 = Date.now();
 for (const shot of manifest) {
   if (onlyIds.length && !onlyIds.includes(shot.id)) continue;
   try { // one broken shot must not abort a whole batch
-    const composition = await selectComposition({ serveUrl, id: shot.id });
+    const composition = await selectComposition({ serveUrl, id: shot.id, browserExecutable });
 
     if (stillMode) {
       const out = path.join(outDir, `${shot.id}.png`);
-      await renderStill({
+      await renderStill({ browserExecutable,
         serveUrl, composition, output: out, scale: SCALE, overwrite: true,
         frame: Math.floor(composition.durationInFrames * 0.6),
         imageFormat: shot.transparent ? 'png' : 'jpeg',
@@ -135,7 +137,7 @@ for (const shot of manifest) {
       const chunk = CHUNK_FLAG !== null ? Number(CHUNK_FLAG) : total > 3600 ? 1800 : 0;
       if (frameRange || stillMode || !chunk || chunk >= total) {
         let last = -1;
-        await renderMedia({
+        await renderMedia({ browserExecutable,
           ...opts, outputLocation: out, frameRange,
           // one line per 5% instead of one per frame — the old progress spam was thousands of
           // lines in a log a human or an agent then has to scroll through

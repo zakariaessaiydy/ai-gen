@@ -10,8 +10,9 @@ import { Kid, type KArm } from './kid';
 import { Critter, type CArm } from './critter';
 import { BOBO_HERO, HOOT_HERO, LEO_HERO, MILA_HERO } from './cast/tiny-sparks';
 import { FLOOR } from './sets';
-import { Backdrop, type Place, type PlaceFx } from './places';
-import { Confetti, FONT_TOON, PopText, SingAlong, ThinkTimer, lipSync } from './kit';
+import { Backdrop, PlaceLight, standY, type Place, type PlaceFx } from './places';
+import { Confetti, FONT_TOON, PopText, SingAlong, ThinkTimer } from './kit';
+import { speechAt } from './acting';
 import { KINK, kst } from './face';
 import { ActionStage, StarWipe, directorCam, type Shot } from './energy';
 import { EASE_OUT, prog, timeWords, type VoLine } from '../shorts';
@@ -189,8 +190,11 @@ export const QuizCard: React.FC<{ t: number; show: Show; seg: Seg; title: string
 export type Move = 'dance' | 'clap' | 'stomp' | 'jump' | 'wiggle' | 'spin' | 'nose' | 'wave' | 'crouch' | 'cheer' | 'fingers';
 const XS = [220, 640, 1290, 1700];
 
-export const Cast: React.FC<{ t: number; show: Show; move?: Move; fingers?: number; present?: boolean; happy?: boolean; lift?: number; xs?: number[] }> = ({
-  t, show, move = 'dance', fingers = 5, present = false, happy = false, lift = 0, xs = XS,
+// The cast is the ENHANCED cast (Nov 2026 standard): `polish acting` (soft arms, cartoon hands, details,
+// brows that lift with the voice), lips from speechAt (visemes), and on every CHORUS the whole gang sings
+// along (kids choir). Pass `place` to light them like the set (PlaceLight) and stand them on its painted floor.
+export const Cast: React.FC<{ t: number; show: Show; move?: Move; fingers?: number; present?: boolean; happy?: boolean; lift?: number; xs?: number[]; place?: Place }> = ({
+  t, show, move = 'dance', fingers = 5, present = false, happy = false, lift = 0, xs = XS, place,
 }) => {
   const ph = (t / show.beat) * Math.PI;
   const bar = Math.floor(t / show.bar);
@@ -223,16 +227,23 @@ export const Cast: React.FC<{ t: number; show: Show; move?: Move; fingers?: numb
   const expr = happy ? 'laugh' : 'happy';
   const p0 = pose(0, false), p1 = pose(1, true), p2 = pose(2, false), p3 = pose(3, true);
   const milaR = present && move === 'dance' ? 'present' : p1.armR;
-  return (
+  const lead = speechAt(show.song, 'mila', t);
+  const choir = show.segAt(t).name === 'chorus' && lead.mouth > 0.05;
+  // the friends sing a touch smaller than Mila (backing voices), same sound shape
+  const back = choir ? { mouth: lead.mouth * 0.8, viseme: lead.viseme } : {};
+  // the painted floor may RAISE a dancer, never sink one under the lyric bar (songs always have it)
+  const fy = (k: number, s: number) => (place ? Math.min(SF, standY(place, xs[k], SW, SH, { halfW: 150 * s })) : SF);
+  const cast = (
     <g>
-      {wrap(0, p0.sx, <Critter spec={BOBO_HERO} x={xs[0] + p0.dx} y={SF} scale={0.44} expr="laugh" look={[0.4, -0.2]} armL={p0.armL as CArm} armR={p0.armR as CArm} hop={p0.hop} tilt={p0.lean} squash={p0.squash} />)}
-      {wrap(1, p1.sx, <Kid spec={MILA_HERO} x={xs[1] + p1.dx} y={SF} scale={0.52} expr={expr} look={[0.3, -0.2]} mouth={lipSync(show.song, 'mila', t)}
+      {wrap(0, p0.sx, <Critter polish acting spec={BOBO_HERO} x={xs[0] + p0.dx} y={fy(0, 0.44)} scale={0.44} expr={choir ? 'happy' : 'laugh'} look={[0.4, -0.2]} {...back} armL={p0.armL as CArm} armR={p0.armR as CArm} hop={p0.hop} tilt={p0.lean} squash={p0.squash} />)}
+      {wrap(1, p1.sx, <Kid polish acting spec={MILA_HERO} x={xs[1] + p1.dx} y={fy(1, 0.52)} scale={0.52} expr={expr} look={[0.3, -0.2]} {...lead}
         armL={p1.armL as KArm} armR={milaR as KArm} fingersL={move === 'fingers' ? fingers : 0} hop={p1.hop} lean={p1.lean} squash={p1.squash} />)}
-      {wrap(2, p2.sx, <Critter spec={HOOT_HERO} x={xs[2] + p2.dx} y={SF} scale={0.4} expr={happy ? 'happy' : 'laugh'} look={[-0.2, -0.2]} armL={p2.armL as CArm} armR={p2.armR as CArm} hop={p2.hop} tilt={p2.lean} squash={p2.squash} />)}
-      {wrap(3, p3.sx, <Kid spec={LEO_HERO} x={xs[3] + p3.dx} y={SF} scale={0.52} expr="laugh" look={[-0.4, -0.2]}
+      {wrap(2, p2.sx, <Critter polish acting spec={HOOT_HERO} x={xs[2] + p2.dx} y={fy(2, 0.4)} scale={0.4} expr={happy || choir ? 'happy' : 'laugh'} look={[-0.2, -0.2]} {...back} armL={p2.armL as CArm} armR={p2.armR as CArm} hop={p2.hop} tilt={p2.lean} squash={p2.squash} />)}
+      {wrap(3, p3.sx, <Kid polish acting spec={LEO_HERO} x={xs[3] + p3.dx} y={fy(3, 0.52)} scale={0.52} expr={choir ? 'happy' : 'laugh'} look={[-0.4, -0.2]} {...back}
         armL={p3.armL as KArm} armR={p3.armR as KArm} fingersL={move === 'fingers' ? fingers : 0} hop={p3.hop} lean={p3.lean} squash={p3.squash} />)}
     </g>
   );
+  return place ? <PlaceLight place={place}>{cast}</PlaceLight> : cast;
 };
 
 // ── the stage + the shared overlays ─────────────────────────────────────────────────────────────
