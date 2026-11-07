@@ -2013,6 +2013,44 @@
    "source": "local synth (tools/gen_kids_sounds.py)",
    "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
    "used_in": []
+  },
+  {
+   "id": "hand-clap",
+   "file": "clips/hand-clap.mp3",
+   "category": "foley",
+   "tags": [
+    "clap",
+    "hands",
+    "clapping",
+    "beat",
+    "kids"
+   ],
+   "desc": "one hand clap with a tiny room tail, 0.35 s",
+   "duration_s": 0.5,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
+  },
+  {
+   "id": "thunder-crack",
+   "file": "clips/thunder-crack.mp3",
+   "category": "weather",
+   "tags": [
+    "thunder",
+    "crack",
+    "close",
+    "storm",
+    "boom",
+    "weather",
+    "kids"
+   ],
+   "desc": "CLOSE thunder for kids: a soft crackle into a round boom + one roll (gentle, not scary), 2.2 s",
+   "duration_s": 2.2,
+   "loudness_lufs": -20.0,
+   "source": "local synth (tools/gen_kids_sounds.py)",
+   "license": "original — synthesized locally by tools/gen_kids_sounds.py (no third-party samples)",
+   "used_in": []
   }
  ]
 }

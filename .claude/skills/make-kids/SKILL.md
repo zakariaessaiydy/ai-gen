@@ -264,7 +264,7 @@ Don't render a long video whose first item lands after ~10 s.
 **Sound pack (FREE, local):** `python tools/gen_kids_sounds.py [--only id,id] [--list]` (numpy synth + Kokoro
 kid crowds) → `cartoon-boing` `slide-whistle-up/down` `drum-roll` `cymbal-crash` `ding-correct` `sad-trombone`
 `uh-oh` `cartoon-pop` `rubber-stretch` `whip-whoosh` `bonk` `zip-up` `kids-applause` `think-tick`
-`kids-yay/ohno/wow/laugh` `tiny-sparks-jingle` (3.7 s) + the theme bed `tiny-sparks-bounce` (music catalog,
+`kids-yay/ohno/wow/laugh` `hand-clap` `thunder-crack` (close, gentle) `thunder-soft` (far) `tiny-sparks-jingle` (3.7 s) + the theme bed `tiny-sparks-bounce` (music catalog,
 120 bpm, 64 s, seamless loop).
 
 **Mix:** mix_sfx gives the SFX bus +6 dB makeup when nobody talks, so set `gain_db` ~6 dB under the level you

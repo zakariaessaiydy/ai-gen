@@ -425,6 +425,27 @@ def s_thunder():
     return rel((boom + roll * swell * 1.2 + grit) * np.minimum(1, t / 0.03) * np.minimum(1, (2.6 - t) / 0.5), 40)
 
 
+def s_clap():
+    """One hand clap: a short bright noise burst with a tiny room tail, 0.35 s."""
+    t = T(0.35)
+    burst = band(noise(len(t), 141), lo=900, hi=6000) * np.exp(-t / 0.018)
+    body = band(noise(len(t), 142), lo=400, hi=1400) * np.exp(-t / 0.035) * 0.45
+    return reverb(rel(burst + body, 8), size=0.15, mix=0.15, seed=143)
+
+
+def s_thunder_crack():
+    """CLOSE thunder for kids: a short soft crackle (no harsh hiss) into a rounder boom + one roll, 2.2 s.
+    Brighter than thunder-soft so 'close' reads as different, but still gentle — never a jump-scare."""
+    t = T(2.2)
+    crackle = band(noise(len(t), 151), lo=500, hi=2600) * np.exp(-t / 0.07) * 0.5
+    snaps = sum(band(noise(len(t), 152 + i), lo=700, hi=3000) * np.exp(-np.maximum(0, t - d) / 0.025) * (t >= d) * 0.4
+                for i, d in enumerate((0.03, 0.08, 0.14)))
+    f = 38 + 50 * np.exp(-t / 0.08)
+    boom = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-np.maximum(0, t - 0.04) / 0.45) * 0.75
+    roll = band(noise(len(t), 153), lo=25, hi=220) * (np.exp(-((t - 0.25) / 0.2) ** 2) + 0.6 * np.exp(-((t - 1.0) / 0.4) ** 2))
+    return rel((crackle + snaps + boom + roll * 1.1) * np.minimum(1, t / 0.004) * np.minimum(1, (2.2 - t) / 0.5), 30)
+
+
 def s_egg_crack():
     """An egg cracking: three crisp shell crackles + tiny clicks, 0.45 s."""
     buf = np.zeros(int(SR * 0.45))
@@ -601,6 +622,8 @@ SFX = {
     "monkey-ooh": (s_monkey, "animal", ["monkey", "ooh-ooh-ah-ah", "chimp", "animal", "funny", "kids", "voices"], "a cheeky monkey call 'Ooh ooh! Ah ah ah!'", True),
     "water-splash": (s_splash, "foley", ["splash", "water", "spray", "drops", "kids"], "a water splash + droplet blips, 0.75 s", False),
     "thunder-soft": (s_thunder, "weather", ["thunder", "storm", "rumble", "boom", "weather", "kids"], "a soft far-away thunder roll (muffled boom + 3 slow swells, no sharp crack), 2.6 s", False),
+    "hand-clap": (s_clap, "foley", ["clap", "hands", "clapping", "beat", "kids"], "one hand clap with a tiny room tail, 0.35 s", False),
+    "thunder-crack": (s_thunder_crack, "weather", ["thunder", "crack", "close", "storm", "boom", "weather", "kids"], "CLOSE thunder for kids: a soft crackle into a round boom + one roll (gentle, not scary), 2.2 s", False),
     "egg-crack": (s_egg_crack, "foley", ["egg", "crack", "hatch", "shell", "kids"], "an egg cracking: three crisp shell crackles + tiny clicks, 0.45 s", False),
     "think-tick": (s_think_tick, "rhythm", ["tick-tock", "woodblock", "think", "pause", "your-turn", "120bpm", "kids"], "tick-tock woodblock + shakers at 120 bpm for 4 s — fills a 'your turn' pause (start on a theme-bed beat)", False),
     "kids-yay": (s_kids_yay, "crowd", ["yay", "cheer", "crowd", "kids", "celebrate", "voices"], "a group of kids cheering 'Yay!'", True),
