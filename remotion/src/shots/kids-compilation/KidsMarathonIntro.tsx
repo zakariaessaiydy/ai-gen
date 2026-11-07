@@ -20,7 +20,7 @@ const SHOTS: Shot[] = [
   { t: T0, z: 1.12, x: 960, y: 600, move: 'cut', push: 0.012 },
 ];
 
-export const MarathonIntro: React.FC<{ title?: string; sub?: string }> = ({ title = 'KIDS CARTOON MARATHON!', sub = '22 episodes · 1.5 hours of fun' }) => {
+export const MarathonIntro: React.FC<{ title?: string; sub?: string; titleSize?: number }> = ({ title = 'KIDS CARTOON MARATHON!', sub = '22 episodes · 1.5 hours of fun', titleSize = 120 }) => {
   const t = useT();
   const cam = directorCam(t, SHOTS, [T0 + 0.6]);
   const hop = (k: number) => hopAt(t, [T0 + 0.5 + k * 0.15, T0 + 2.6 + k * 0.15], { h: 70, air: 0.36, pre: 0.06, land: 0.2 });
@@ -37,7 +37,7 @@ export const MarathonIntro: React.FC<{ title?: string; sub?: string }> = ({ titl
           </g>
         )}
       </ActionStage>
-      <PopText t={t} at={T0 + 0.25} text={title} y={170} size={120} color="#ffca3a" />
+      <PopText t={t} at={T0 + 0.25} text={title} y={170} size={titleSize} color="#ffca3a" />
       <PopText t={t} at={T0 + 0.9} text={sub} y={300} size={66} color="#ffffff" rot={2} />
       <Confetti t={t} at={T0 + 0.6} y={300} />
       <SparksIntro t={t} at={0} cast={{ kids: [MILA_HERO, LEO_HERO], buddy: BOBO_HERO }} />

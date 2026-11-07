@@ -28,3 +28,6 @@ ffmpeg -v error -y -i remotion/out/KidsMarathonIntro08.mp4 -i media/library/sfx/
 python "$M/assemble.py"
 python -c "import json,subprocess;subprocess.run(json.load(open('$M/cmd.json',encoding='utf-8')),check=True)"
 echo "DONE -> $M/output/tiny-sparks-marathon-08.mp4"
+
+# 4. each episode on its own, with its own intro -> $M/output/singles/ (add --send for copies under 30 MB)
+python tools/kids_singles.py "$M"
