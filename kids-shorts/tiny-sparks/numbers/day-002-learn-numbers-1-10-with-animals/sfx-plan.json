@@ -1,0 +1,552 @@
+{
+  "master": "remotion/out/KidsNumbers002-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsNumbers002-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/numbers/day-002-learn-numbers-1-10-with-animals/output/day-002-sfx.mp4",
+    "end_s": 47.2,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0.3,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -16,
+      "shot": "KidsNumbers002",
+      "cue": "1→10 title"
+    },
+    {
+      "at_s": 2.97,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsNumbers002",
+      "cue": "numeral 1"
+    },
+    {
+      "at_s": 3.17,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "1: animal 1"
+    },
+    {
+      "at_s": 6.07,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsNumbers002",
+      "cue": "numeral 2"
+    },
+    {
+      "at_s": 6.27,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "2: animal 1"
+    },
+    {
+      "at_s": 6.59,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "2: animal 2"
+    },
+    {
+      "at_s": 8.92,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsNumbers002",
+      "cue": "numeral 3"
+    },
+    {
+      "at_s": 9.12,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "3: animal 1"
+    },
+    {
+      "at_s": 9.44,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "3: animal 2"
+    },
+    {
+      "at_s": 9.76,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "3: animal 3"
+    },
+    {
+      "at_s": 12.23,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsNumbers002",
+      "cue": "numeral 4"
+    },
+    {
+      "at_s": 12.43,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "4: animal 1"
+    },
+    {
+      "at_s": 12.75,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "4: animal 2"
+    },
+    {
+      "at_s": 13.07,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "4: animal 3"
+    },
+    {
+      "at_s": 13.39,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "4: animal 4"
+    },
+    {
+      "at_s": 15.45,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsNumbers002",
+      "cue": "numeral 5"
+    },
+    {
+      "at_s": 15.65,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "5: animal 1"
+    },
+    {
+      "at_s": 15.97,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "5: animal 2"
+    },
+    {
+      "at_s": 16.29,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "5: animal 3"
+    },
+    {
+      "at_s": 16.61,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "5: animal 4"
+    },
+    {
+      "at_s": 16.93,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "5: animal 5"
+    },
+    {
+      "at_s": 19.03,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsNumbers002",
+      "cue": "numeral 6"
+    },
+    {
+      "at_s": 19.23,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "6: animal 1"
+    },
+    {
+      "at_s": 19.51,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "6: animal 2"
+    },
+    {
+      "at_s": 19.8,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "6: animal 3"
+    },
+    {
+      "at_s": 20.08,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "6: animal 4"
+    },
+    {
+      "at_s": 20.36,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "6: animal 5"
+    },
+    {
+      "at_s": 20.65,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "6: animal 6"
+    },
+    {
+      "at_s": 22.47,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsNumbers002",
+      "cue": "numeral 7"
+    },
+    {
+      "at_s": 22.67,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "7: animal 1"
+    },
+    {
+      "at_s": 22.91,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "7: animal 2"
+    },
+    {
+      "at_s": 23.16,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "7: animal 3"
+    },
+    {
+      "at_s": 23.4,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "7: animal 4"
+    },
+    {
+      "at_s": 23.64,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "7: animal 5"
+    },
+    {
+      "at_s": 23.88,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "7: animal 6"
+    },
+    {
+      "at_s": 24.13,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "7: animal 7"
+    },
+    {
+      "at_s": 26.23,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsNumbers002",
+      "cue": "numeral 8"
+    },
+    {
+      "at_s": 26.43,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "8: animal 1"
+    },
+    {
+      "at_s": 26.64,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "8: animal 2"
+    },
+    {
+      "at_s": 26.86,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "8: animal 3"
+    },
+    {
+      "at_s": 27.07,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "8: animal 4"
+    },
+    {
+      "at_s": 27.28,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "8: animal 5"
+    },
+    {
+      "at_s": 27.49,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "8: animal 6"
+    },
+    {
+      "at_s": 27.7,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "8: animal 7"
+    },
+    {
+      "at_s": 27.92,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "8: animal 8"
+    },
+    {
+      "at_s": 29.58,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsNumbers002",
+      "cue": "numeral 9"
+    },
+    {
+      "at_s": 29.78,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "9: animal 1"
+    },
+    {
+      "at_s": 29.97,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "9: animal 2"
+    },
+    {
+      "at_s": 30.16,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "9: animal 3"
+    },
+    {
+      "at_s": 30.35,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "9: animal 4"
+    },
+    {
+      "at_s": 30.54,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "9: animal 5"
+    },
+    {
+      "at_s": 30.72,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "9: animal 6"
+    },
+    {
+      "at_s": 30.91,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "9: animal 7"
+    },
+    {
+      "at_s": 31.1,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "9: animal 8"
+    },
+    {
+      "at_s": 31.29,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "9: animal 9"
+    },
+    {
+      "at_s": 33.49,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsNumbers002",
+      "cue": "numeral 10"
+    },
+    {
+      "at_s": 33.69,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "10: animal 1"
+    },
+    {
+      "at_s": 33.86,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "10: animal 2"
+    },
+    {
+      "at_s": 34.03,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "10: animal 3"
+    },
+    {
+      "at_s": 34.2,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "10: animal 4"
+    },
+    {
+      "at_s": 34.37,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "10: animal 5"
+    },
+    {
+      "at_s": 34.54,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "10: animal 6"
+    },
+    {
+      "at_s": 34.71,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "10: animal 7"
+    },
+    {
+      "at_s": 34.88,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "10: animal 8"
+    },
+    {
+      "at_s": 35.05,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "10: animal 9"
+    },
+    {
+      "at_s": 35.22,
+      "sfx_id": "ui-click-soft",
+      "gain_db": -21,
+      "shot": "KidsNumbers002",
+      "cue": "10: animal 10"
+    },
+    {
+      "at_s": 38.89,
+      "sfx_id": "pop-reveal",
+      "gain_db": -18,
+      "shot": "KidsNumbers002",
+      "cue": "recap 1"
+    },
+    {
+      "at_s": 39.16,
+      "sfx_id": "pop-reveal",
+      "gain_db": -18,
+      "shot": "KidsNumbers002",
+      "cue": "recap 2"
+    },
+    {
+      "at_s": 39.43,
+      "sfx_id": "pop-reveal",
+      "gain_db": -18,
+      "shot": "KidsNumbers002",
+      "cue": "recap 3"
+    },
+    {
+      "at_s": 39.77,
+      "sfx_id": "pop-reveal",
+      "gain_db": -18,
+      "shot": "KidsNumbers002",
+      "cue": "recap 4"
+    },
+    {
+      "at_s": 40.11,
+      "sfx_id": "pop-reveal",
+      "gain_db": -18,
+      "shot": "KidsNumbers002",
+      "cue": "recap 5"
+    },
+    {
+      "at_s": 40.45,
+      "sfx_id": "pop-reveal",
+      "gain_db": -18,
+      "shot": "KidsNumbers002",
+      "cue": "recap 6"
+    },
+    {
+      "at_s": 40.78,
+      "sfx_id": "pop-reveal",
+      "gain_db": -18,
+      "shot": "KidsNumbers002",
+      "cue": "recap 7"
+    },
+    {
+      "at_s": 41.19,
+      "sfx_id": "pop-reveal",
+      "gain_db": -18,
+      "shot": "KidsNumbers002",
+      "cue": "recap 8"
+    },
+    {
+      "at_s": 41.46,
+      "sfx_id": "pop-reveal",
+      "gain_db": -18,
+      "shot": "KidsNumbers002",
+      "cue": "recap 9"
+    },
+    {
+      "at_s": 41.8,
+      "sfx_id": "pop-reveal",
+      "gain_db": -18,
+      "shot": "KidsNumbers002",
+      "cue": "recap 10"
+    },
+    {
+      "at_s": 42.96,
+      "sfx_id": "chime-reward",
+      "gain_db": -13,
+      "shot": "KidsNumbers002",
+      "cue": "confetti"
+    }
+  ]
+}

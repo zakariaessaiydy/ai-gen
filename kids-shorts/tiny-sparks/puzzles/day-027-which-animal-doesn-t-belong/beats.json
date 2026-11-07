@@ -1,0 +1,1010 @@
+{
+  "id": "day-027",
+  "series": "tiny-sparks",
+  "episode": 27,
+  "title": "Which Animal Doesn't Belong?",
+  "composition": "KidsPuzzles027",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 98.2
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "hoot",
+      "start": 1.4,
+      "end": 4.25,
+      "text": "Which animal doesn't belong? Let's play!",
+      "words": [
+        {
+          "w": "Which",
+          "start": 1.43,
+          "end": 1.758
+        },
+        {
+          "w": "animal",
+          "start": 1.758,
+          "end": 2.217
+        },
+        {
+          "w": "doesn't",
+          "start": 2.217,
+          "end": 2.676
+        },
+        {
+          "w": "belong?",
+          "start": 2.676,
+          "end": 3.07
+        },
+        {
+          "w": "Let's",
+          "start": 3.32,
+          "end": 3.74
+        },
+        {
+          "w": "play!",
+          "start": 3.74,
+          "end": 4.16
+        }
+      ]
+    },
+    {
+      "beat": "p1_intro",
+      "speaker": "hoot",
+      "start": 5.85,
+      "end": 6.93,
+      "text": "Puzzle one!",
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 5.88,
+          "end": 6.462
+        },
+        {
+          "w": "one!",
+          "start": 6.462,
+          "end": 6.85
+        }
+      ]
+    },
+    {
+      "beat": "p1_read",
+      "speaker": "hoot",
+      "start": 8.13,
+      "end": 11.35,
+      "text": "Listen! Meow... meow... woof... meow...",
+      "words": [
+        {
+          "w": "Listen!",
+          "start": 8.17,
+          "end": 8.885
+        },
+        {
+          "w": "Meow...",
+          "start": 8.885,
+          "end": 9.482
+        },
+        {
+          "w": "meow...",
+          "start": 9.482,
+          "end": 10.078
+        },
+        {
+          "w": "woof...",
+          "start": 10.078,
+          "end": 10.674
+        },
+        {
+          "w": "meow...",
+          "start": 10.674,
+          "end": 11.27
+        }
+      ]
+    },
+    {
+      "beat": "p1_q",
+      "speaker": "hoot",
+      "start": 12.55,
+      "end": 14.19,
+      "text": "Which one doesn't belong?",
+      "words": [
+        {
+          "w": "Which",
+          "start": 12.57,
+          "end": 12.918
+        },
+        {
+          "w": "one",
+          "start": 12.918,
+          "end": 13.196
+        },
+        {
+          "w": "doesn't",
+          "start": 13.196,
+          "end": 13.683
+        },
+        {
+          "w": "belong?",
+          "start": 13.683,
+          "end": 14.1
+        }
+      ]
+    },
+    {
+      "beat": "p1_leo",
+      "speaker": "leo",
+      "start": 19.39,
+      "end": 20.41,
+      "text": "The white one!",
+      "words": [
+        {
+          "w": "The",
+          "start": 19.42,
+          "end": 19.564
+        },
+        {
+          "w": "white",
+          "start": 19.564,
+          "end": 19.923
+        },
+        {
+          "w": "one!",
+          "start": 19.923,
+          "end": 20.21
+        }
+      ]
+    },
+    {
+      "beat": "p1_no",
+      "speaker": "hoot",
+      "start": 21.61,
+      "end": 24.15,
+      "text": "Hmm, not quite, Leo. Listen again.",
+      "words": [
+        {
+          "w": "Hmm,",
+          "start": 21.64,
+          "end": 21.88
+        },
+        {
+          "w": "not",
+          "start": 21.88,
+          "end": 22.2
+        },
+        {
+          "w": "quite,",
+          "start": 22.2,
+          "end": 22.68
+        },
+        {
+          "w": "Leo.",
+          "start": 22.68,
+          "end": 23.16
+        },
+        {
+          "w": "Listen",
+          "start": 23.16,
+          "end": 23.64
+        },
+        {
+          "w": "again.",
+          "start": 23.64,
+          "end": 24.04
+        }
+      ]
+    },
+    {
+      "beat": "p1_ans",
+      "speaker": "hoot",
+      "start": 25.55,
+      "end": 29.45,
+      "text": "Three cats say meow. The dog says woof! It's the dog!",
+      "words": [
+        {
+          "w": "Three",
+          "start": 25.6,
+          "end": 25.974
+        },
+        {
+          "w": "cats",
+          "start": 25.974,
+          "end": 26.347
+        },
+        {
+          "w": "say",
+          "start": 26.347,
+          "end": 26.646
+        },
+        {
+          "w": "meow.",
+          "start": 26.646,
+          "end": 27.02
+        },
+        {
+          "w": "The",
+          "start": 27.21,
+          "end": 27.355
+        },
+        {
+          "w": "dog",
+          "start": 27.355,
+          "end": 27.646
+        },
+        {
+          "w": "says",
+          "start": 27.646,
+          "end": 27.937
+        },
+        {
+          "w": "woof!",
+          "start": 27.937,
+          "end": 28.3
+        },
+        {
+          "w": "It's",
+          "start": 28.55,
+          "end": 28.827
+        },
+        {
+          "w": "the",
+          "start": 28.827,
+          "end": 29.011
+        },
+        {
+          "w": "dog!",
+          "start": 29.011,
+          "end": 29.38
+        }
+      ]
+    },
+    {
+      "beat": "p1_yay",
+      "speaker": "leo",
+      "start": 30.85,
+      "end": 32.23,
+      "text": "The dog! Silly me!",
+      "words": [
+        {
+          "w": "The",
+          "start": 30.88,
+          "end": 31.015
+        },
+        {
+          "w": "dog!",
+          "start": 31.015,
+          "end": 31.353
+        },
+        {
+          "w": "Silly",
+          "start": 31.353,
+          "end": 31.69
+        },
+        {
+          "w": "me!",
+          "start": 31.69,
+          "end": 31.96
+        }
+      ]
+    },
+    {
+      "beat": "p2_intro",
+      "speaker": "hoot",
+      "start": 34.83,
+      "end": 36.02,
+      "text": "Puzzle two!",
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 34.87,
+          "end": 35.506
+        },
+        {
+          "w": "two!",
+          "start": 35.506,
+          "end": 35.93
+        }
+      ]
+    },
+    {
+      "beat": "p2_read",
+      "speaker": "hoot",
+      "start": 37.22,
+      "end": 40.09,
+      "text": "A bear... an owl... a pig... a bunny...",
+      "words": [
+        {
+          "w": "A",
+          "start": 37.25,
+          "end": 37.547
+        },
+        {
+          "w": "bear...",
+          "start": 37.547,
+          "end": 37.943
+        },
+        {
+          "w": "an",
+          "start": 37.943,
+          "end": 38.14
+        },
+        {
+          "w": "owl...",
+          "start": 38.14,
+          "end": 38.536
+        },
+        {
+          "w": "a",
+          "start": 38.536,
+          "end": 38.833
+        },
+        {
+          "w": "pig...",
+          "start": 38.833,
+          "end": 39.229
+        },
+        {
+          "w": "a",
+          "start": 39.229,
+          "end": 39.525
+        },
+        {
+          "w": "bunny...",
+          "start": 39.525,
+          "end": 40.02
+        }
+      ]
+    },
+    {
+      "beat": "p2_q",
+      "speaker": "hoot",
+      "start": 41.29,
+      "end": 42.93,
+      "text": "Which one doesn't belong?",
+      "words": [
+        {
+          "w": "Which",
+          "start": 41.31,
+          "end": 41.658
+        },
+        {
+          "w": "one",
+          "start": 41.658,
+          "end": 41.936
+        },
+        {
+          "w": "doesn't",
+          "start": 41.936,
+          "end": 42.423
+        },
+        {
+          "w": "belong?",
+          "start": 42.423,
+          "end": 42.84
+        }
+      ]
+    },
+    {
+      "beat": "p2_leo",
+      "speaker": "leo",
+      "start": 48.13,
+      "end": 49.45,
+      "text": "The pig! It's pink!",
+      "words": [
+        {
+          "w": "The",
+          "start": 48.16,
+          "end": 48.317
+        },
+        {
+          "w": "pig!",
+          "start": 48.317,
+          "end": 48.631
+        },
+        {
+          "w": "It's",
+          "start": 48.631,
+          "end": 48.867
+        },
+        {
+          "w": "pink!",
+          "start": 48.867,
+          "end": 49.26
+        }
+      ]
+    },
+    {
+      "beat": "p2_no",
+      "speaker": "hoot",
+      "start": 50.65,
+      "end": 53.55,
+      "text": "Not quite! Here's a clue. Who has wings?",
+      "words": [
+        {
+          "w": "Not",
+          "start": 50.68,
+          "end": 50.99
+        },
+        {
+          "w": "quite!",
+          "start": 50.99,
+          "end": 51.455
+        },
+        {
+          "w": "Here's",
+          "start": 51.455,
+          "end": 51.842
+        },
+        {
+          "w": "a",
+          "start": 51.842,
+          "end": 52.075
+        },
+        {
+          "w": "clue.",
+          "start": 52.075,
+          "end": 52.462
+        },
+        {
+          "w": "Who",
+          "start": 52.462,
+          "end": 52.772
+        },
+        {
+          "w": "has",
+          "start": 52.772,
+          "end": 53.082
+        },
+        {
+          "w": "wings?",
+          "start": 53.082,
+          "end": 53.47
+        }
+      ]
+    },
+    {
+      "beat": "p2_ans",
+      "speaker": "hoot",
+      "start": 55.15,
+      "end": 58.86,
+      "text": "The owl! It has feathers and wings. The others have fur!",
+      "words": [
+        {
+          "w": "The",
+          "start": 55.17,
+          "end": 55.346
+        },
+        {
+          "w": "owl!",
+          "start": 55.346,
+          "end": 55.697
+        },
+        {
+          "w": "It",
+          "start": 55.697,
+          "end": 55.872
+        },
+        {
+          "w": "has",
+          "start": 55.872,
+          "end": 56.224
+        },
+        {
+          "w": "feathers",
+          "start": 56.224,
+          "end": 56.75
+        },
+        {
+          "w": "and",
+          "start": 56.75,
+          "end": 57.014
+        },
+        {
+          "w": "wings.",
+          "start": 57.014,
+          "end": 57.453
+        },
+        {
+          "w": "The",
+          "start": 57.453,
+          "end": 57.629
+        },
+        {
+          "w": "others",
+          "start": 57.629,
+          "end": 58.068
+        },
+        {
+          "w": "have",
+          "start": 58.068,
+          "end": 58.419
+        },
+        {
+          "w": "fur!",
+          "start": 58.419,
+          "end": 58.77
+        }
+      ]
+    },
+    {
+      "beat": "p2_yay",
+      "speaker": "leo",
+      "start": 60.26,
+      "end": 62.5,
+      "text": "An owl, just like you, Professor Hoot!",
+      "words": [
+        {
+          "w": "An",
+          "start": 60.3,
+          "end": 60.415
+        },
+        {
+          "w": "owl,",
+          "start": 60.415,
+          "end": 60.645
+        },
+        {
+          "w": "just",
+          "start": 60.645,
+          "end": 60.991
+        },
+        {
+          "w": "like",
+          "start": 60.991,
+          "end": 61.279
+        },
+        {
+          "w": "you,",
+          "start": 61.279,
+          "end": 61.452
+        },
+        {
+          "w": "Professor",
+          "start": 61.452,
+          "end": 61.912
+        },
+        {
+          "w": "Hoot!",
+          "start": 61.912,
+          "end": 62.2
+        }
+      ]
+    },
+    {
+      "beat": "p3_intro",
+      "speaker": "hoot",
+      "start": 65.1,
+      "end": 67.36,
+      "text": "Super puzzle! Under the sea!",
+      "words": [
+        {
+          "w": "Super",
+          "start": 65.14,
+          "end": 65.605
+        },
+        {
+          "w": "puzzle!",
+          "start": 65.605,
+          "end": 66.07
+        },
+        {
+          "w": "Under",
+          "start": 66.27,
+          "end": 66.725
+        },
+        {
+          "w": "the",
+          "start": 66.725,
+          "end": 66.906
+        },
+        {
+          "w": "sea!",
+          "start": 66.906,
+          "end": 67.27
+        }
+      ]
+    },
+    {
+      "beat": "p3_read",
+      "speaker": "hoot",
+      "start": 68.56,
+      "end": 71.71,
+      "text": "A fish... a lion... a fish... a fish...",
+      "words": [
+        {
+          "w": "A",
+          "start": 68.58,
+          "end": 68.885
+        },
+        {
+          "w": "fish...",
+          "start": 68.885,
+          "end": 69.292
+        },
+        {
+          "w": "a",
+          "start": 69.292,
+          "end": 69.597
+        },
+        {
+          "w": "lion...",
+          "start": 69.597,
+          "end": 70.207
+        },
+        {
+          "w": "a",
+          "start": 70.207,
+          "end": 70.512
+        },
+        {
+          "w": "fish...",
+          "start": 70.512,
+          "end": 70.918
+        },
+        {
+          "w": "a",
+          "start": 70.918,
+          "end": 71.223
+        },
+        {
+          "w": "fish...",
+          "start": 71.223,
+          "end": 71.63
+        }
+      ]
+    },
+    {
+      "beat": "p3_q",
+      "speaker": "hoot",
+      "start": 72.91,
+      "end": 74.55,
+      "text": "Which one doesn't belong?",
+      "words": [
+        {
+          "w": "Which",
+          "start": 72.93,
+          "end": 73.278
+        },
+        {
+          "w": "one",
+          "start": 73.278,
+          "end": 73.556
+        },
+        {
+          "w": "doesn't",
+          "start": 73.556,
+          "end": 74.043
+        },
+        {
+          "w": "belong?",
+          "start": 74.043,
+          "end": 74.46
+        }
+      ]
+    },
+    {
+      "beat": "p3_leo",
+      "speaker": "leo",
+      "start": 79.75,
+      "end": 82.2,
+      "text": "I know! The lion! Lions live on land!",
+      "words": [
+        {
+          "w": "I",
+          "start": 79.79,
+          "end": 79.972
+        },
+        {
+          "w": "know!",
+          "start": 79.972,
+          "end": 80.214
+        },
+        {
+          "w": "The",
+          "start": 80.214,
+          "end": 80.335
+        },
+        {
+          "w": "lion!",
+          "start": 80.335,
+          "end": 80.699
+        },
+        {
+          "w": "Lions",
+          "start": 80.699,
+          "end": 81.123
+        },
+        {
+          "w": "live",
+          "start": 81.123,
+          "end": 81.425
+        },
+        {
+          "w": "on",
+          "start": 81.425,
+          "end": 81.607
+        },
+        {
+          "w": "land!",
+          "start": 81.607,
+          "end": 81.91
+        }
+      ]
+    },
+    {
+      "beat": "p3_ans",
+      "speaker": "hoot",
+      "start": 83.6,
+      "end": 87.69,
+      "text": "Yes! The lion! Fish live in the water. Great job, Leo!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 83.64,
+          "end": 83.965
+        },
+        {
+          "w": "The",
+          "start": 83.965,
+          "end": 84.127
+        },
+        {
+          "w": "lion!",
+          "start": 84.127,
+          "end": 84.615
+        },
+        {
+          "w": "Fish",
+          "start": 84.615,
+          "end": 84.94
+        },
+        {
+          "w": "live",
+          "start": 84.94,
+          "end": 85.346
+        },
+        {
+          "w": "in",
+          "start": 85.346,
+          "end": 85.589
+        },
+        {
+          "w": "the",
+          "start": 85.589,
+          "end": 85.752
+        },
+        {
+          "w": "water.",
+          "start": 85.752,
+          "end": 86.239
+        },
+        {
+          "w": "Great",
+          "start": 86.239,
+          "end": 86.727
+        },
+        {
+          "w": "job,",
+          "start": 86.727,
+          "end": 87.133
+        },
+        {
+          "w": "Leo!",
+          "start": 87.133,
+          "end": 87.62
+        }
+      ]
+    },
+    {
+      "beat": "end",
+      "speaker": "hoot",
+      "start": 90.09,
+      "end": 93.07,
+      "text": "You found every animal that doesn't belong!",
+      "words": [
+        {
+          "w": "You",
+          "start": 90.13,
+          "end": 90.356
+        },
+        {
+          "w": "found",
+          "start": 90.356,
+          "end": 90.807
+        },
+        {
+          "w": "every",
+          "start": 90.807,
+          "end": 91.184
+        },
+        {
+          "w": "animal",
+          "start": 91.184,
+          "end": 91.711
+        },
+        {
+          "w": "that",
+          "start": 91.711,
+          "end": 92.012
+        },
+        {
+          "w": "doesn't",
+          "start": 92.012,
+          "end": 92.538
+        },
+        {
+          "w": "belong!",
+          "start": 92.538,
+          "end": 92.99
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "leo",
+      "start": 94.47,
+      "end": 95.77,
+      "text": "Bye-bye, friends!",
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 94.51,
+          "end": 95.084
+        },
+        {
+          "w": "friends!",
+          "start": 95.084,
+          "end": 95.53
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "visual": "Which animal doesn't belong? Let's play!",
+      "end": 5.65
+    },
+    {
+      "id": "p1_intro",
+      "start": 5.65,
+      "visual": "Puzzle one!",
+      "end": 7.93
+    },
+    {
+      "id": "p1_read",
+      "start": 7.93,
+      "visual": "Listen! Meow... meow... woof... meow...",
+      "end": 12.35
+    },
+    {
+      "id": "p1_q",
+      "start": 12.35,
+      "visual": "Which one doesn't belong?",
+      "end": 19.19
+    },
+    {
+      "id": "p1_leo",
+      "start": 19.19,
+      "visual": "The white one!",
+      "end": 21.41
+    },
+    {
+      "id": "p1_no",
+      "start": 21.41,
+      "visual": "Hmm, not quite, Leo. Listen again.",
+      "end": 25.35
+    },
+    {
+      "id": "p1_ans",
+      "start": 25.35,
+      "visual": "Three cats say meow. The dog says woof! It's the dog!",
+      "end": 30.65
+    },
+    {
+      "id": "p1_yay",
+      "start": 30.65,
+      "visual": "The dog! Silly me!",
+      "end": 34.63
+    },
+    {
+      "id": "p2_intro",
+      "start": 34.63,
+      "visual": "Puzzle two!",
+      "end": 37.02
+    },
+    {
+      "id": "p2_read",
+      "start": 37.02,
+      "visual": "A bear... an owl... a pig... a bunny...",
+      "end": 41.09
+    },
+    {
+      "id": "p2_q",
+      "start": 41.09,
+      "visual": "Which one doesn't belong?",
+      "end": 47.93
+    },
+    {
+      "id": "p2_leo",
+      "start": 47.93,
+      "visual": "The pig! It's pink!",
+      "end": 50.45
+    },
+    {
+      "id": "p2_no",
+      "start": 50.45,
+      "visual": "Not quite! Here's a clue. Who has wings?",
+      "end": 54.95
+    },
+    {
+      "id": "p2_ans",
+      "start": 54.95,
+      "visual": "The owl! It has feathers and wings. The others have fur!",
+      "end": 60.06
+    },
+    {
+      "id": "p2_yay",
+      "start": 60.06,
+      "visual": "An owl, just like you, Professor Hoot!",
+      "end": 64.9
+    },
+    {
+      "id": "p3_intro",
+      "start": 64.9,
+      "visual": "Super puzzle! Under the sea!",
+      "end": 68.36
+    },
+    {
+      "id": "p3_read",
+      "start": 68.36,
+      "visual": "A fish... a lion... a fish... a fish...",
+      "end": 72.71
+    },
+    {
+      "id": "p3_q",
+      "start": 72.71,
+      "visual": "Which one doesn't belong?",
+      "end": 79.55
+    },
+    {
+      "id": "p3_leo",
+      "start": 79.55,
+      "visual": "I know! The lion! Lions live on land!",
+      "end": 83.4
+    },
+    {
+      "id": "p3_ans",
+      "start": 83.4,
+      "visual": "Yes! The lion! Fish live in the water. Great job, Leo!",
+      "end": 89.89
+    },
+    {
+      "id": "end",
+      "start": 89.89,
+      "visual": "You found every animal that doesn't belong!",
+      "end": 94.27
+    },
+    {
+      "id": "bye",
+      "start": 94.27,
+      "visual": "Bye-bye, friends!",
+      "end": 98.2
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

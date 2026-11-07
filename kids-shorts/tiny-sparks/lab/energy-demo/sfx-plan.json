@@ -1,0 +1,182 @@
+{
+  "master": "remotion/out/KidsEnergyDemo-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsEnergyDemo-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/lab/energy-demo/output/energy-demo-sfx.mp4",
+    "end_s": 41.4,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0.0,
+      "sfx_id": "tiny-sparks-jingle",
+      "gain_db": -5,
+      "shot": "KidsEnergyDemo",
+      "cue": "channel ident (SparksIntro is frame-synced to it)"
+    },
+    {
+      "at_s": 3.7,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -8,
+      "shot": "KidsEnergyDemo",
+      "cue": "Momo's big hop over the jar (\"No!\")"
+    },
+    {
+      "at_s": 4.84,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsEnergyDemo",
+      "cue": "stomp: Mine"
+    },
+    {
+      "at_s": 5.16,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsEnergyDemo",
+      "cue": "stomp: mine"
+    },
+    {
+      "at_s": 5.48,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -11,
+      "shot": "KidsEnergyDemo",
+      "cue": "stomp: mine!"
+    },
+    {
+      "at_s": 6.12,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -6,
+      "shot": "KidsEnergyDemo",
+      "cue": "whip pan to the friends"
+    },
+    {
+      "at_s": 8.27,
+      "sfx_id": "slide-whistle-down",
+      "gain_db": -7,
+      "shot": "KidsEnergyDemo",
+      "cue": "\"sad.\" the friends deflate, rain clouds"
+    },
+    {
+      "at_s": 13.2,
+      "sfx_id": "think-tick",
+      "gain_db": -4,
+      "shot": "KidsEnergyDemo",
+      "cue": "your-turn pause (on the bed beat grid: 3.7 + 19 x 0.5)",
+      "dur_s": 3.1
+    },
+    {
+      "at_s": 16.33,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -6,
+      "shot": "KidsEnergyDemo",
+      "cue": "whip back to Momo + the jar"
+    },
+    {
+      "at_s": 18.99,
+      "sfx_id": "zip-up",
+      "gain_db": -6,
+      "shot": "KidsEnergyDemo",
+      "cue": "\"grabs\" snap zoom"
+    },
+    {
+      "at_s": 21.5,
+      "sfx_id": "uh-oh",
+      "gain_db": -4,
+      "shot": "KidsEnergyDemo",
+      "cue": "he tries to take his hand out - the jar comes too"
+    },
+    {
+      "at_s": 23.65,
+      "sfx_id": "bonk",
+      "gain_db": -3,
+      "shot": "KidsEnergyDemo",
+      "cue": "\"stuck!\" snap zoom + shake + focus lines"
+    },
+    {
+      "at_s": 24.3,
+      "sfx_id": "kids-ohno",
+      "gain_db": -2,
+      "shot": "KidsEnergyDemo",
+      "cue": "the kids react: Oh no!"
+    },
+    {
+      "at_s": 26.22,
+      "sfx_id": "rubber-stretch",
+      "gain_db": -5,
+      "shot": "KidsEnergyDemo",
+      "cue": "pull 1"
+    },
+    {
+      "at_s": 26.78,
+      "sfx_id": "rubber-stretch",
+      "gain_db": -5,
+      "shot": "KidsEnergyDemo",
+      "cue": "pull 2"
+    },
+    {
+      "at_s": 27.33,
+      "sfx_id": "rubber-stretch",
+      "gain_db": -4,
+      "shot": "KidsEnergyDemo",
+      "cue": "pull 3"
+    },
+    {
+      "at_s": 31.28,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -5,
+      "shot": "KidsEnergyDemo",
+      "cue": "travel hop 1"
+    },
+    {
+      "at_s": 32.03,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -5,
+      "shot": "KidsEnergyDemo",
+      "cue": "travel hop 2"
+    },
+    {
+      "at_s": 32.78,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -5,
+      "shot": "KidsEnergyDemo",
+      "cue": "travel hop 3"
+    },
+    {
+      "at_s": 33.78,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -11,
+      "shot": "KidsEnergyDemo",
+      "cue": "Boing! (voice)"
+    },
+    {
+      "at_s": 34.13,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -11,
+      "shot": "KidsEnergyDemo",
+      "cue": "Boing! (voice)"
+    },
+    {
+      "at_s": 34.48,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -10,
+      "shot": "KidsEnergyDemo",
+      "cue": "Boing! (voice)"
+    },
+    {
+      "at_s": 35.9,
+      "sfx_id": "zip-up",
+      "gain_db": -7,
+      "shot": "KidsEnergyDemo",
+      "cue": "\"Help!\" snap zoom"
+    },
+    {
+      "at_s": 38.28,
+      "sfx_id": "sad-trombone",
+      "gain_db": -2,
+      "shot": "KidsEnergyDemo",
+      "cue": "wah-wah-wah-waaah: Momo slumps (the bed has stopped)"
+    }
+  ]
+}

@@ -1,0 +1,576 @@
+{
+  "master": "remotion/out/KidsNumbers058-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsNumbers058-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/numbers/day-058-counting-cars/output/day-058-sfx.mp4",
+    "end_s": 303.3,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0,
+      "sfx_id": "tiny-sparks-jingle",
+      "gain_db": -5,
+      "shot": "KidsNumbers058",
+      "cue": "ident"
+    },
+    {
+      "at_s": 15.51,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drive in"
+    },
+    {
+      "at_s": 16.11,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsNumbers058",
+      "cue": "count 1"
+    },
+    {
+      "at_s": 21.2,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drive in"
+    },
+    {
+      "at_s": 21.8,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsNumbers058",
+      "cue": "count 2"
+    },
+    {
+      "at_s": 27.1,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drive in"
+    },
+    {
+      "at_s": 27.7,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsNumbers058",
+      "cue": "count 3"
+    },
+    {
+      "at_s": 33.74,
+      "sfx_id": "bonk",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "tummy beep"
+    },
+    {
+      "at_s": 37.06,
+      "sfx_id": "kids-laugh",
+      "gain_db": -6,
+      "shot": "KidsNumbers058",
+      "cue": "laugh"
+    },
+    {
+      "at_s": 40.57,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drive in"
+    },
+    {
+      "at_s": 41.17,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsNumbers058",
+      "cue": "count 4"
+    },
+    {
+      "at_s": 46.51,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drive in"
+    },
+    {
+      "at_s": 47.11,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsNumbers058",
+      "cue": "count 5"
+    },
+    {
+      "at_s": 52.49,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drive in"
+    },
+    {
+      "at_s": 53.09,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsNumbers058",
+      "cue": "count 6"
+    },
+    {
+      "at_s": 59.76,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -12,
+      "shot": "KidsNumbers058",
+      "cue": "ride"
+    },
+    {
+      "at_s": 62.93,
+      "sfx_id": "kids-laugh",
+      "gain_db": -6,
+      "shot": "KidsNumbers058",
+      "cue": "wheee"
+    },
+    {
+      "at_s": 66.88,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drive in"
+    },
+    {
+      "at_s": 67.48,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsNumbers058",
+      "cue": "count 7"
+    },
+    {
+      "at_s": 72.87,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drive in"
+    },
+    {
+      "at_s": 73.47,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsNumbers058",
+      "cue": "count 8"
+    },
+    {
+      "at_s": 78.98,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drive in"
+    },
+    {
+      "at_s": 79.58,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsNumbers058",
+      "cue": "count 9"
+    },
+    {
+      "at_s": 86.46,
+      "sfx_id": "uh-oh",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "more paws"
+    },
+    {
+      "at_s": 89.59,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drive in"
+    },
+    {
+      "at_s": 90.19,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsNumbers058",
+      "cue": "count 10"
+    },
+    {
+      "at_s": 96.31,
+      "sfx_id": "kids-applause",
+      "gain_db": -4,
+      "shot": "KidsNumbers058",
+      "cue": "ten"
+    },
+    {
+      "at_s": 107.35,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsNumbers058",
+      "cue": "your count 1"
+    },
+    {
+      "at_s": 109.43,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsNumbers058",
+      "cue": "your count 2"
+    },
+    {
+      "at_s": 111.55,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsNumbers058",
+      "cue": "your count 3"
+    },
+    {
+      "at_s": 113.75,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsNumbers058",
+      "cue": "your count 4"
+    },
+    {
+      "at_s": 115.91,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsNumbers058",
+      "cue": "your count 5"
+    },
+    {
+      "at_s": 118.05,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsNumbers058",
+      "cue": "your count 6"
+    },
+    {
+      "at_s": 120.11,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsNumbers058",
+      "cue": "your count 7"
+    },
+    {
+      "at_s": 122.29,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsNumbers058",
+      "cue": "your count 8"
+    },
+    {
+      "at_s": 124.35,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsNumbers058",
+      "cue": "your count 9"
+    },
+    {
+      "at_s": 126.51,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsNumbers058",
+      "cue": "your count 10"
+    },
+    {
+      "at_s": 128.61,
+      "sfx_id": "kids-yay",
+      "gain_db": -5,
+      "shot": "KidsNumbers058",
+      "cue": "great"
+    },
+    {
+      "at_s": 131.79,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsNumbers058",
+      "cue": "cut"
+    },
+    {
+      "at_s": 133.98,
+      "sfx_id": "chime-magic",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "wow fact"
+    },
+    {
+      "at_s": 137.94,
+      "sfx_id": "kids-wow",
+      "gain_db": -6,
+      "shot": "KidsNumbers058",
+      "cue": "shh"
+    },
+    {
+      "at_s": 147.48,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsNumbers058",
+      "cue": "wheel"
+    },
+    {
+      "at_s": 150.43,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "four wheels"
+    },
+    {
+      "at_s": 155.054,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -12,
+      "shot": "KidsNumbers058",
+      "cue": "beep beep"
+    },
+    {
+      "at_s": 162.78,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsNumbers058",
+      "cue": "games"
+    },
+    {
+      "at_s": 165.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsNumbers058",
+      "cue": "think",
+      "dur_s": 4.71
+    },
+    {
+      "at_s": 170.46,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "answer"
+    },
+    {
+      "at_s": 177.2,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsNumbers058",
+      "cue": "think",
+      "dur_s": 4.8
+    },
+    {
+      "at_s": 182.05,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "answer"
+    },
+    {
+      "at_s": 188.85,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "one drives in"
+    },
+    {
+      "at_s": 190.2,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsNumbers058",
+      "cue": "think",
+      "dur_s": 4.64
+    },
+    {
+      "at_s": 194.89,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "answer"
+    },
+    {
+      "at_s": 200.311,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "two drive in"
+    },
+    {
+      "at_s": 202.2,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsNumbers058",
+      "cue": "think",
+      "dur_s": 4.68
+    },
+    {
+      "at_s": 206.93,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "answer"
+    },
+    {
+      "at_s": 212.32,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "two drive away"
+    },
+    {
+      "at_s": 214.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsNumbers058",
+      "cue": "think",
+      "dur_s": 4.59
+    },
+    {
+      "at_s": 219.34,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "answer"
+    },
+    {
+      "at_s": 226.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsNumbers058",
+      "cue": "think",
+      "dur_s": 4.75
+    },
+    {
+      "at_s": 231.5,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "answer"
+    },
+    {
+      "at_s": 236.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsNumbers058",
+      "cue": "think",
+      "dur_s": 4.55
+    },
+    {
+      "at_s": 241.3,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "answer"
+    },
+    {
+      "at_s": 246.2,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsNumbers058",
+      "cue": "think",
+      "dur_s": 4.44
+    },
+    {
+      "at_s": 250.69,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "answer"
+    },
+    {
+      "at_s": 255.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsNumbers058",
+      "cue": "think",
+      "dur_s": 4.76
+    },
+    {
+      "at_s": 260.51,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "answer"
+    },
+    {
+      "at_s": 263.55,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -12,
+      "shot": "KidsNumbers058",
+      "cue": "dusk",
+      "dur_s": 2.0
+    },
+    {
+      "at_s": 271.06,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drives home 10"
+    },
+    {
+      "at_s": 273.07,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drives home 9"
+    },
+    {
+      "at_s": 275.13,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drives home 8"
+    },
+    {
+      "at_s": 277.19,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drives home 7"
+    },
+    {
+      "at_s": 279.25,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drives home 6"
+    },
+    {
+      "at_s": 281.27,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drives home 5"
+    },
+    {
+      "at_s": 283.43,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drives home 4"
+    },
+    {
+      "at_s": 285.44,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drives home 3"
+    },
+    {
+      "at_s": 287.56,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drives home 2"
+    },
+    {
+      "at_s": 289.5,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -14,
+      "shot": "KidsNumbers058",
+      "cue": "drives home 1"
+    },
+    {
+      "at_s": 290.65,
+      "sfx_id": "chime-reward",
+      "gain_db": -10,
+      "shot": "KidsNumbers058",
+      "cue": "goodnight"
+    },
+    {
+      "at_s": 298.92,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsNumbers058",
+      "cue": "star iris"
+    }
+  ]
+}

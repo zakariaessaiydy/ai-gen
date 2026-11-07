@@ -87,7 +87,7 @@ const TITLE_WORDS = [{ t: 'How' }, { t: 'coffee', hl: true }, { t: 'conquered' }
 // Fades a whole scene's layers out over its last `dur` local frames.
 const SceneFade: React.FC<{ out: number; dur?: number; children: React.ReactNode }> = ({ out, dur = 14, children }) => {
   const frame = useCurrentFrame();
-  const op = interpolate(frame, [out - dur, out], [1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
+  const op = interpolate(frame, [out - Math.max(1, dur), out], [1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
   return <div style={{ opacity: op }}>{children}</div>;
 };
 

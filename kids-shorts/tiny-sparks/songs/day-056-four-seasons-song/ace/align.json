@@ -1,0 +1,18 @@
+{
+ "sunshine-seed19.wav": {
+  "score": 0.727,
+  "matched": 189,
+  "words": 260,
+  "recognised": 276,
+  "duration": 304.36
+ },
+ "sunshine-seed50.wav": {
+  "score": 0.831,
+  "matched": 216,
+  "words": 260,
+  "recognised": 269,
+  "duration": 304.36
+ },
+ "_winner": "sunshine-seed50.wav",
+ "_intro_cut": 0.0
+}

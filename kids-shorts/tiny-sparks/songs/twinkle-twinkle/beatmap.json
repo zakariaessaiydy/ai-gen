@@ -1,0 +1,593 @@
+{
+ "title": "Twinkle Twinkle Little Star (traditional — public-domain melody, our arrangement)",
+ "bpm": 92.0,
+ "beatsPerBar": 4,
+ "secondsPerBeat": 0.6521739130434783,
+ "durationSec": 41.13,
+ "introBars": 1,
+ "chords": [
+  {
+   "t": 0.0,
+   "dur": 2.609,
+   "chord": "C"
+  },
+  {
+   "t": 2.609,
+   "dur": 2.609,
+   "chord": "C"
+  },
+  {
+   "t": 5.217,
+   "dur": 1.304,
+   "chord": "F"
+  },
+  {
+   "t": 6.522,
+   "dur": 1.304,
+   "chord": "C"
+  },
+  {
+   "t": 7.826,
+   "dur": 1.304,
+   "chord": "F"
+  },
+  {
+   "t": 9.13,
+   "dur": 1.304,
+   "chord": "C"
+  },
+  {
+   "t": 10.435,
+   "dur": 1.304,
+   "chord": "G"
+  },
+  {
+   "t": 11.739,
+   "dur": 1.304,
+   "chord": "C"
+  },
+  {
+   "t": 13.043,
+   "dur": 1.304,
+   "chord": "C"
+  },
+  {
+   "t": 14.348,
+   "dur": 1.304,
+   "chord": "G"
+  },
+  {
+   "t": 15.652,
+   "dur": 1.304,
+   "chord": "C"
+  },
+  {
+   "t": 16.957,
+   "dur": 1.304,
+   "chord": "G"
+  },
+  {
+   "t": 18.261,
+   "dur": 1.304,
+   "chord": "C"
+  },
+  {
+   "t": 19.565,
+   "dur": 1.304,
+   "chord": "G"
+  },
+  {
+   "t": 20.87,
+   "dur": 1.304,
+   "chord": "C"
+  },
+  {
+   "t": 22.174,
+   "dur": 1.304,
+   "chord": "G"
+  },
+  {
+   "t": 23.478,
+   "dur": 2.609,
+   "chord": "C"
+  },
+  {
+   "t": 26.087,
+   "dur": 1.304,
+   "chord": "F"
+  },
+  {
+   "t": 27.391,
+   "dur": 1.304,
+   "chord": "C"
+  },
+  {
+   "t": 28.696,
+   "dur": 1.304,
+   "chord": "F"
+  },
+  {
+   "t": 30.0,
+   "dur": 1.304,
+   "chord": "C"
+  },
+  {
+   "t": 31.304,
+   "dur": 1.304,
+   "chord": "G"
+  },
+  {
+   "t": 32.609,
+   "dur": 1.304,
+   "chord": "C"
+  },
+  {
+   "t": 33.913,
+   "dur": 2.609,
+   "chord": "C"
+  },
+  {
+   "t": 36.522,
+   "dur": 2.609,
+   "chord": "C"
+  }
+ ],
+ "notes": [
+  {
+   "t": 2.609,
+   "dur": 0.652,
+   "midi": 60,
+   "syllable": "Twin"
+  },
+  {
+   "t": 3.261,
+   "dur": 0.652,
+   "midi": 60,
+   "syllable": "kle,"
+  },
+  {
+   "t": 3.913,
+   "dur": 0.652,
+   "midi": 67,
+   "syllable": "twin"
+  },
+  {
+   "t": 4.565,
+   "dur": 0.652,
+   "midi": 67,
+   "syllable": "kle,"
+  },
+  {
+   "t": 5.217,
+   "dur": 0.652,
+   "midi": 69,
+   "syllable": "lit"
+  },
+  {
+   "t": 5.87,
+   "dur": 0.652,
+   "midi": 69,
+   "syllable": "tle"
+  },
+  {
+   "t": 6.522,
+   "dur": 1.304,
+   "midi": 67,
+   "syllable": "star,"
+  },
+  {
+   "t": 7.826,
+   "dur": 0.652,
+   "midi": 65,
+   "syllable": "how"
+  },
+  {
+   "t": 8.478,
+   "dur": 0.652,
+   "midi": 65,
+   "syllable": "I"
+  },
+  {
+   "t": 9.13,
+   "dur": 0.652,
+   "midi": 64,
+   "syllable": "won"
+  },
+  {
+   "t": 9.783,
+   "dur": 0.652,
+   "midi": 64,
+   "syllable": "der"
+  },
+  {
+   "t": 10.435,
+   "dur": 0.652,
+   "midi": 62,
+   "syllable": "what"
+  },
+  {
+   "t": 11.087,
+   "dur": 0.652,
+   "midi": 62,
+   "syllable": "you"
+  },
+  {
+   "t": 11.739,
+   "dur": 1.304,
+   "midi": 60,
+   "syllable": "are!"
+  },
+  {
+   "t": 13.043,
+   "dur": 0.652,
+   "midi": 67,
+   "syllable": "Up"
+  },
+  {
+   "t": 13.696,
+   "dur": 0.652,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 14.348,
+   "dur": 0.652,
+   "midi": 65,
+   "syllable": "bove"
+  },
+  {
+   "t": 15.0,
+   "dur": 0.652,
+   "midi": 65,
+   "syllable": "the"
+  },
+  {
+   "t": 15.652,
+   "dur": 0.652,
+   "midi": 64,
+   "syllable": "world"
+  },
+  {
+   "t": 16.304,
+   "dur": 0.652,
+   "midi": 64,
+   "syllable": "so"
+  },
+  {
+   "t": 16.957,
+   "dur": 1.304,
+   "midi": 62,
+   "syllable": "high,"
+  },
+  {
+   "t": 18.261,
+   "dur": 0.652,
+   "midi": 67,
+   "syllable": "like"
+  },
+  {
+   "t": 18.913,
+   "dur": 0.652,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 19.565,
+   "dur": 0.652,
+   "midi": 65,
+   "syllable": "dia"
+  },
+  {
+   "t": 20.217,
+   "dur": 0.652,
+   "midi": 65,
+   "syllable": "mond"
+  },
+  {
+   "t": 20.87,
+   "dur": 0.652,
+   "midi": 64,
+   "syllable": "in"
+  },
+  {
+   "t": 21.522,
+   "dur": 0.652,
+   "midi": 64,
+   "syllable": "the"
+  },
+  {
+   "t": 22.174,
+   "dur": 1.304,
+   "midi": 62,
+   "syllable": "sky!"
+  },
+  {
+   "t": 23.478,
+   "dur": 0.652,
+   "midi": 60,
+   "syllable": "Twin"
+  },
+  {
+   "t": 24.13,
+   "dur": 0.652,
+   "midi": 60,
+   "syllable": "kle,"
+  },
+  {
+   "t": 24.783,
+   "dur": 0.652,
+   "midi": 67,
+   "syllable": "twin"
+  },
+  {
+   "t": 25.435,
+   "dur": 0.652,
+   "midi": 67,
+   "syllable": "kle,"
+  },
+  {
+   "t": 26.087,
+   "dur": 0.652,
+   "midi": 69,
+   "syllable": "lit"
+  },
+  {
+   "t": 26.739,
+   "dur": 0.652,
+   "midi": 69,
+   "syllable": "tle"
+  },
+  {
+   "t": 27.391,
+   "dur": 1.304,
+   "midi": 67,
+   "syllable": "star,"
+  },
+  {
+   "t": 28.696,
+   "dur": 0.652,
+   "midi": 65,
+   "syllable": "how"
+  },
+  {
+   "t": 29.348,
+   "dur": 0.652,
+   "midi": 65,
+   "syllable": "I"
+  },
+  {
+   "t": 30.0,
+   "dur": 0.652,
+   "midi": 64,
+   "syllable": "won"
+  },
+  {
+   "t": 30.652,
+   "dur": 0.652,
+   "midi": 64,
+   "syllable": "der"
+  },
+  {
+   "t": 31.304,
+   "dur": 0.652,
+   "midi": 62,
+   "syllable": "what"
+  },
+  {
+   "t": 31.957,
+   "dur": 0.652,
+   "midi": 62,
+   "syllable": "you"
+  },
+  {
+   "t": 32.609,
+   "dur": 1.304,
+   "midi": 60,
+   "syllable": "are!"
+  }
+ ],
+ "lines": [
+  {
+   "text": "Twinkle, twinkle, little star,",
+   "start": 2.609,
+   "end": 7.826,
+   "words": [
+    {
+     "w": "Twinkle,",
+     "start": 2.609,
+     "end": 3.913
+    },
+    {
+     "w": "twinkle,",
+     "start": 3.913,
+     "end": 5.217
+    },
+    {
+     "w": "little",
+     "start": 5.217,
+     "end": 6.522
+    },
+    {
+     "w": "star,",
+     "start": 6.522,
+     "end": 7.826
+    }
+   ]
+  },
+  {
+   "text": "how I wonder what you are!",
+   "start": 7.826,
+   "end": 13.043,
+   "words": [
+    {
+     "w": "how",
+     "start": 7.826,
+     "end": 8.478
+    },
+    {
+     "w": "I",
+     "start": 8.478,
+     "end": 9.13
+    },
+    {
+     "w": "wonder",
+     "start": 9.13,
+     "end": 10.435
+    },
+    {
+     "w": "what",
+     "start": 10.435,
+     "end": 11.087
+    },
+    {
+     "w": "you",
+     "start": 11.087,
+     "end": 11.739
+    },
+    {
+     "w": "are!",
+     "start": 11.739,
+     "end": 13.043
+    }
+   ]
+  },
+  {
+   "text": "Up above the world so high,",
+   "start": 13.043,
+   "end": 18.261,
+   "words": [
+    {
+     "w": "Up",
+     "start": 13.043,
+     "end": 13.696
+    },
+    {
+     "w": "above",
+     "start": 13.696,
+     "end": 15.0
+    },
+    {
+     "w": "the",
+     "start": 15.0,
+     "end": 15.652
+    },
+    {
+     "w": "world",
+     "start": 15.652,
+     "end": 16.304
+    },
+    {
+     "w": "so",
+     "start": 16.304,
+     "end": 16.957
+    },
+    {
+     "w": "high,",
+     "start": 16.957,
+     "end": 18.261
+    }
+   ]
+  },
+  {
+   "text": "like a diamond in the sky!",
+   "start": 18.261,
+   "end": 23.478,
+   "words": [
+    {
+     "w": "like",
+     "start": 18.261,
+     "end": 18.913
+    },
+    {
+     "w": "a",
+     "start": 18.913,
+     "end": 19.565
+    },
+    {
+     "w": "diamond",
+     "start": 19.565,
+     "end": 20.87
+    },
+    {
+     "w": "in",
+     "start": 20.87,
+     "end": 21.522
+    },
+    {
+     "w": "the",
+     "start": 21.522,
+     "end": 22.174
+    },
+    {
+     "w": "sky!",
+     "start": 22.174,
+     "end": 23.478
+    }
+   ]
+  },
+  {
+   "text": "Twinkle, twinkle, little star,",
+   "start": 23.478,
+   "end": 28.696,
+   "words": [
+    {
+     "w": "Twinkle,",
+     "start": 23.478,
+     "end": 24.783
+    },
+    {
+     "w": "twinkle,",
+     "start": 24.783,
+     "end": 26.087
+    },
+    {
+     "w": "little",
+     "start": 26.087,
+     "end": 27.391
+    },
+    {
+     "w": "star,",
+     "start": 27.391,
+     "end": 28.696
+    }
+   ]
+  },
+  {
+   "text": "how I wonder what you are!",
+   "start": 28.696,
+   "end": 33.913,
+   "words": [
+    {
+     "w": "how",
+     "start": 28.696,
+     "end": 29.348
+    },
+    {
+     "w": "I",
+     "start": 29.348,
+     "end": 30.0
+    },
+    {
+     "w": "wonder",
+     "start": 30.0,
+     "end": 31.304
+    },
+    {
+     "w": "what",
+     "start": 31.304,
+     "end": 31.957
+    },
+    {
+     "w": "you",
+     "start": 31.957,
+     "end": 32.609
+    },
+    {
+     "w": "are!",
+     "start": 32.609,
+     "end": 33.913
+    }
+   ]
+  }
+ ]
+}

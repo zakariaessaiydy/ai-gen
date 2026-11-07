@@ -1,0 +1,3366 @@
+{
+  "id": "day-057",
+  "series": "tiny-sparks",
+  "episode": 57,
+  "title": "Max Learns Why We Must Listen",
+  "composition": "KidsStories057",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 309.9
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-10%"
+    },
+    "max": {
+      "kokoro": "am_michael:0.5+am_puck:0.5",
+      "rate": "-2%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    },
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%"
+    },
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -7,
+    "duck": 8,
+    "start": 3.7,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "open",
+      "speaker": "narrator",
+      "text": "It's a sunny day at the Tiny Sparks school yard!",
+      "gap": 1.0,
+      "start": 3.9,
+      "end": 6.76,
+      "words": [
+        {
+          "w": "It's",
+          "start": 3.94,
+          "end": 4.119
+        },
+        {
+          "w": "a",
+          "start": 4.119,
+          "end": 4.297
+        },
+        {
+          "w": "sunny",
+          "start": 4.297,
+          "end": 4.595
+        },
+        {
+          "w": "day",
+          "start": 4.595,
+          "end": 4.833
+        },
+        {
+          "w": "at",
+          "start": 4.833,
+          "end": 4.952
+        },
+        {
+          "w": "the",
+          "start": 4.952,
+          "end": 5.072
+        },
+        {
+          "w": "Tiny",
+          "start": 5.072,
+          "end": 5.429
+        },
+        {
+          "w": "Sparks",
+          "start": 5.429,
+          "end": 5.905
+        },
+        {
+          "w": "school",
+          "start": 5.905,
+          "end": 6.263
+        },
+        {
+          "w": "yard!",
+          "start": 6.263,
+          "end": 6.62
+        }
+      ]
+    },
+    {
+      "beat": "max_hi",
+      "speaker": "max",
+      "text": "Woof! Hi, friends! It's me, Max! Today is a special day!",
+      "gap": 0.8,
+      "start": 7.76,
+      "end": 11.34,
+      "words": [
+        {
+          "w": "Woof!",
+          "start": 7.81,
+          "end": 8.132
+        },
+        {
+          "w": "Hi,",
+          "start": 8.132,
+          "end": 8.39
+        },
+        {
+          "w": "friends!",
+          "start": 8.39,
+          "end": 8.84
+        },
+        {
+          "w": "It's",
+          "start": 8.84,
+          "end": 9.034
+        },
+        {
+          "w": "me,",
+          "start": 9.034,
+          "end": 9.291
+        },
+        {
+          "w": "Max!",
+          "start": 9.291,
+          "end": 9.613
+        },
+        {
+          "w": "Today",
+          "start": 9.613,
+          "end": 10.0
+        },
+        {
+          "w": "is",
+          "start": 10.0,
+          "end": 10.128
+        },
+        {
+          "w": "a",
+          "start": 10.128,
+          "end": 10.322
+        },
+        {
+          "w": "special",
+          "start": 10.322,
+          "end": 10.772
+        },
+        {
+          "w": "day!",
+          "start": 10.772,
+          "end": 11.03
+        }
+      ]
+    },
+    {
+      "beat": "max_hunt",
+      "speaker": "max",
+      "text": "Professor Hoot has a treasure hunt for us!",
+      "gap": 1.2,
+      "start": 12.14,
+      "end": 14.44,
+      "words": [
+        {
+          "w": "Professor",
+          "start": 12.16,
+          "end": 12.594
+        },
+        {
+          "w": "Hoot",
+          "start": 12.594,
+          "end": 12.865
+        },
+        {
+          "w": "has",
+          "start": 12.865,
+          "end": 13.082
+        },
+        {
+          "w": "a",
+          "start": 13.082,
+          "end": 13.244
+        },
+        {
+          "w": "treasure",
+          "start": 13.244,
+          "end": 13.569
+        },
+        {
+          "w": "hunt",
+          "start": 13.569,
+          "end": 13.841
+        },
+        {
+          "w": "for",
+          "start": 13.841,
+          "end": 14.057
+        },
+        {
+          "w": "us!",
+          "start": 14.057,
+          "end": 14.22
+        }
+      ]
+    },
+    {
+      "beat": "hoot_hi",
+      "speaker": "hoot",
+      "text": "Hello, everyone! Somewhere in the yard, I hid a treasure box.",
+      "gap": 0.8,
+      "start": 15.64,
+      "end": 19.82,
+      "words": [
+        {
+          "w": "Hello,",
+          "start": 15.68,
+          "end": 16.14
+        },
+        {
+          "w": "everyone!",
+          "start": 16.14,
+          "end": 16.829
+        },
+        {
+          "w": "Somewhere",
+          "start": 16.829,
+          "end": 17.365
+        },
+        {
+          "w": "in",
+          "start": 17.365,
+          "end": 17.595
+        },
+        {
+          "w": "the",
+          "start": 17.595,
+          "end": 17.748
+        },
+        {
+          "w": "yard,",
+          "start": 17.748,
+          "end": 18.131
+        },
+        {
+          "w": "I",
+          "start": 18.131,
+          "end": 18.361
+        },
+        {
+          "w": "hid",
+          "start": 18.361,
+          "end": 18.668
+        },
+        {
+          "w": "a",
+          "start": 18.668,
+          "end": 18.897
+        },
+        {
+          "w": "treasure",
+          "start": 18.897,
+          "end": 19.357
+        },
+        {
+          "w": "box.",
+          "start": 19.357,
+          "end": 19.74
+        }
+      ]
+    },
+    {
+      "beat": "hoot_rules",
+      "speaker": "hoot",
+      "text": "To find it, you must listen carefully to my three clues.",
+      "gap": 1.0,
+      "start": 20.62,
+      "end": 24.58,
+      "words": [
+        {
+          "w": "To",
+          "start": 20.64,
+          "end": 20.867
+        },
+        {
+          "w": "find",
+          "start": 20.867,
+          "end": 21.321
+        },
+        {
+          "w": "it,",
+          "start": 21.321,
+          "end": 21.473
+        },
+        {
+          "w": "you",
+          "start": 21.473,
+          "end": 21.7
+        },
+        {
+          "w": "must",
+          "start": 21.7,
+          "end": 22.078
+        },
+        {
+          "w": "listen",
+          "start": 22.078,
+          "end": 22.532
+        },
+        {
+          "w": "carefully",
+          "start": 22.532,
+          "end": 23.138
+        },
+        {
+          "w": "to",
+          "start": 23.138,
+          "end": 23.365
+        },
+        {
+          "w": "my",
+          "start": 23.365,
+          "end": 23.667
+        },
+        {
+          "w": "three",
+          "start": 23.667,
+          "end": 24.046
+        },
+        {
+          "w": "clues.",
+          "start": 24.046,
+          "end": 24.5
+        }
+      ]
+    },
+    {
+      "beat": "mila_ready",
+      "speaker": "mila",
+      "text": "We're ready, Professor Hoot!",
+      "gap": 0.6,
+      "start": 25.58,
+      "end": 27.28,
+      "words": [
+        {
+          "w": "We're",
+          "start": 25.61,
+          "end": 25.837
+        },
+        {
+          "w": "ready,",
+          "start": 25.837,
+          "end": 26.216
+        },
+        {
+          "w": "Professor",
+          "start": 26.216,
+          "end": 26.821
+        },
+        {
+          "w": "Hoot!",
+          "start": 26.821,
+          "end": 27.2
+        }
+      ]
+    },
+    {
+      "beat": "leo_ready",
+      "speaker": "leo",
+      "text": "Ready, steady, go!",
+      "gap": 1.0,
+      "start": 27.88,
+      "end": 29.3,
+      "words": [
+        {
+          "w": "Ready,",
+          "start": 27.91,
+          "end": 28.29
+        },
+        {
+          "w": "steady,",
+          "start": 28.29,
+          "end": 28.746
+        },
+        {
+          "w": "go!",
+          "start": 28.746,
+          "end": 29.05
+        }
+      ]
+    },
+    {
+      "beat": "clue1",
+      "speaker": "hoot",
+      "text": "Clue number one: go to the yellow slide...",
+      "gap": 0.4,
+      "start": 30.3,
+      "end": 33.07,
+      "words": [
+        {
+          "w": "Clue",
+          "start": 30.34,
+          "end": 30.66
+        },
+        {
+          "w": "number",
+          "start": 30.66,
+          "end": 31.044
+        },
+        {
+          "w": "one:",
+          "start": 31.044,
+          "end": 31.3
+        },
+        {
+          "w": "go",
+          "start": 31.54,
+          "end": 31.812
+        },
+        {
+          "w": "to",
+          "start": 31.812,
+          "end": 32.017
+        },
+        {
+          "w": "the",
+          "start": 32.017,
+          "end": 32.153
+        },
+        {
+          "w": "yellow",
+          "start": 32.153,
+          "end": 32.561
+        },
+        {
+          "w": "slide...",
+          "start": 32.561,
+          "end": 32.97
+        }
+      ]
+    },
+    {
+      "beat": "butterfly",
+      "speaker": "narrator",
+      "text": "But look! A butterfly flies by... and Max stops listening.",
+      "gap": 0.8,
+      "start": 33.47,
+      "end": 37.15,
+      "words": [
+        {
+          "w": "But",
+          "start": 33.54,
+          "end": 33.802
+        },
+        {
+          "w": "look!",
+          "start": 33.802,
+          "end": 34.064
+        },
+        {
+          "w": "A",
+          "start": 34.064,
+          "end": 34.261
+        },
+        {
+          "w": "butterfly",
+          "start": 34.261,
+          "end": 34.917
+        },
+        {
+          "w": "flies",
+          "start": 34.917,
+          "end": 35.31
+        },
+        {
+          "w": "by...",
+          "start": 35.31,
+          "end": 35.572
+        },
+        {
+          "w": "and",
+          "start": 35.572,
+          "end": 35.769
+        },
+        {
+          "w": "Max",
+          "start": 35.769,
+          "end": 36.097
+        },
+        {
+          "w": "stops",
+          "start": 36.097,
+          "end": 36.556
+        },
+        {
+          "w": "listening.",
+          "start": 36.556,
+          "end": 37.08
+        }
+      ]
+    },
+    {
+      "beat": "max_chase",
+      "speaker": "max",
+      "text": "Ooh! A butterfly! Come back, butterfly!",
+      "gap": 1.0,
+      "start": 37.95,
+      "end": 40.22,
+      "words": [
+        {
+          "w": "Ooh!",
+          "start": 37.98,
+          "end": 38.154
+        },
+        {
+          "w": "A",
+          "start": 38.154,
+          "end": 38.328
+        },
+        {
+          "w": "butterfly!",
+          "start": 38.328,
+          "end": 38.907
+        },
+        {
+          "w": "Come",
+          "start": 38.907,
+          "end": 39.139
+        },
+        {
+          "w": "back,",
+          "start": 39.139,
+          "end": 39.371
+        },
+        {
+          "w": "butterfly!",
+          "start": 39.371,
+          "end": 39.95
+        }
+      ]
+    },
+    {
+      "beat": "clue2",
+      "speaker": "hoot",
+      "text": "Clue number two: then hop three times, and...",
+      "gap": 0.6,
+      "start": 41.22,
+      "end": 44.23,
+      "words": [
+        {
+          "w": "Clue",
+          "start": 41.26,
+          "end": 41.649
+        },
+        {
+          "w": "number",
+          "start": 41.649,
+          "end": 42.116
+        },
+        {
+          "w": "two:",
+          "start": 42.116,
+          "end": 42.428
+        },
+        {
+          "w": "then",
+          "start": 42.428,
+          "end": 42.739
+        },
+        {
+          "w": "hop",
+          "start": 42.739,
+          "end": 43.05
+        },
+        {
+          "w": "three",
+          "start": 43.05,
+          "end": 43.439
+        },
+        {
+          "w": "times,",
+          "start": 43.439,
+          "end": 43.906
+        },
+        {
+          "w": "and...",
+          "start": 43.906,
+          "end": 44.14
+        }
+      ]
+    },
+    {
+      "beat": "max_run",
+      "speaker": "narrator",
+      "text": "Max runs, and runs, and runs... the wrong way!",
+      "gap": 1.0,
+      "start": 44.83,
+      "end": 47.9,
+      "words": [
+        {
+          "w": "Max",
+          "start": 44.93,
+          "end": 45.329
+        },
+        {
+          "w": "runs,",
+          "start": 45.329,
+          "end": 45.727
+        },
+        {
+          "w": "and",
+          "start": 45.727,
+          "end": 45.966
+        },
+        {
+          "w": "runs,",
+          "start": 45.966,
+          "end": 46.365
+        },
+        {
+          "w": "and",
+          "start": 46.365,
+          "end": 46.604
+        },
+        {
+          "w": "runs...",
+          "start": 46.604,
+          "end": 47.003
+        },
+        {
+          "w": "the",
+          "start": 47.003,
+          "end": 47.162
+        },
+        {
+          "w": "wrong",
+          "start": 47.162,
+          "end": 47.481
+        },
+        {
+          "w": "way!",
+          "start": 47.481,
+          "end": 47.8
+        }
+      ]
+    },
+    {
+      "beat": "bonk",
+      "speaker": "narrator",
+      "text": "Oops! Max bumps into the swing. Bonk!",
+      "gap": 1.2,
+      "start": 48.9,
+      "end": 51.58,
+      "words": [
+        {
+          "w": "Oops!",
+          "start": 48.94,
+          "end": 49.323
+        },
+        {
+          "w": "Max",
+          "start": 49.323,
+          "end": 49.707
+        },
+        {
+          "w": "bumps",
+          "start": 49.707,
+          "end": 50.167
+        },
+        {
+          "w": "into",
+          "start": 50.167,
+          "end": 50.55
+        },
+        {
+          "w": "the",
+          "start": 50.55,
+          "end": 50.703
+        },
+        {
+          "w": "swing.",
+          "start": 50.703,
+          "end": 51.087
+        },
+        {
+          "w": "Bonk!",
+          "start": 51.087,
+          "end": 51.47
+        }
+      ]
+    },
+    {
+      "beat": "max_where",
+      "speaker": "max",
+      "text": "Uh-oh. Where's the slide? What were the clues?",
+      "gap": 1.0,
+      "start": 52.78,
+      "end": 55.19,
+      "words": [
+        {
+          "w": "Uh-oh.",
+          "start": 52.8,
+          "end": 53.228
+        },
+        {
+          "w": "Where's",
+          "start": 53.228,
+          "end": 53.534
+        },
+        {
+          "w": "the",
+          "start": 53.534,
+          "end": 53.656
+        },
+        {
+          "w": "slide?",
+          "start": 53.656,
+          "end": 54.023
+        },
+        {
+          "w": "What",
+          "start": 54.023,
+          "end": 54.267
+        },
+        {
+          "w": "were",
+          "start": 54.267,
+          "end": 54.451
+        },
+        {
+          "w": "the",
+          "start": 54.451,
+          "end": 54.573
+        },
+        {
+          "w": "clues?",
+          "start": 54.573,
+          "end": 54.94
+        }
+      ]
+    },
+    {
+      "beat": "max_sad",
+      "speaker": "max",
+      "text": "I didn't hear them. I was chasing the butterfly.",
+      "gap": 1.2,
+      "start": 56.19,
+      "end": 59.0,
+      "words": [
+        {
+          "w": "I",
+          "start": 56.24,
+          "end": 56.378
+        },
+        {
+          "w": "didn't",
+          "start": 56.378,
+          "end": 56.653
+        },
+        {
+          "w": "hear",
+          "start": 56.653,
+          "end": 56.836
+        },
+        {
+          "w": "them.",
+          "start": 56.836,
+          "end": 57.02
+        },
+        {
+          "w": "I",
+          "start": 57.23,
+          "end": 57.401
+        },
+        {
+          "w": "was",
+          "start": 57.401,
+          "end": 57.572
+        },
+        {
+          "w": "chasing",
+          "start": 57.572,
+          "end": 58.027
+        },
+        {
+          "w": "the",
+          "start": 58.027,
+          "end": 58.141
+        },
+        {
+          "w": "butterfly.",
+          "start": 58.141,
+          "end": 58.71
+        }
+      ]
+    },
+    {
+      "beat": "feel",
+      "speaker": "narrator",
+      "text": "Max feels confused, and a little bit sad.",
+      "gap": 1.5,
+      "start": 60.2,
+      "end": 62.99,
+      "words": [
+        {
+          "w": "Max",
+          "start": 60.23,
+          "end": 60.568
+        },
+        {
+          "w": "feels",
+          "start": 60.568,
+          "end": 60.974
+        },
+        {
+          "w": "confused,",
+          "start": 60.974,
+          "end": 61.65
+        },
+        {
+          "w": "and",
+          "start": 61.88,
+          "end": 62.035
+        },
+        {
+          "w": "a",
+          "start": 62.035,
+          "end": 62.189
+        },
+        {
+          "w": "little",
+          "start": 62.189,
+          "end": 62.498
+        },
+        {
+          "w": "bit",
+          "start": 62.498,
+          "end": 62.704
+        },
+        {
+          "w": "sad.",
+          "start": 62.704,
+          "end": 62.91
+        }
+      ]
+    },
+    {
+      "beat": "q_what",
+      "speaker": "narrator",
+      "text": "Hmm. What did Max forget to do?",
+      "gap": 4.6,
+      "start": 64.49,
+      "end": 66.51,
+      "words": [
+        {
+          "w": "Hmm.",
+          "start": 64.54,
+          "end": 64.93
+        },
+        {
+          "w": "What",
+          "start": 65.05,
+          "end": 65.256
+        },
+        {
+          "w": "did",
+          "start": 65.256,
+          "end": 65.462
+        },
+        {
+          "w": "Max",
+          "start": 65.462,
+          "end": 65.72
+        },
+        {
+          "w": "forget",
+          "start": 65.72,
+          "end": 66.029
+        },
+        {
+          "w": "to",
+          "start": 66.029,
+          "end": 66.184
+        },
+        {
+          "w": "do?",
+          "start": 66.184,
+          "end": 66.39
+        }
+      ]
+    },
+    {
+      "beat": "mila_listen",
+      "speaker": "mila",
+      "text": "He forgot to listen!",
+      "gap": 1.2,
+      "start": 71.11,
+      "end": 72.62,
+      "words": [
+        {
+          "w": "He",
+          "start": 71.16,
+          "end": 71.372
+        },
+        {
+          "w": "forgot",
+          "start": 71.372,
+          "end": 71.865
+        },
+        {
+          "w": "to",
+          "start": 71.865,
+          "end": 72.077
+        },
+        {
+          "w": "listen!",
+          "start": 72.077,
+          "end": 72.5
+        }
+      ]
+    },
+    {
+      "beat": "leo_wrong",
+      "speaker": "leo",
+      "text": "I know! Max needs bigger ears!",
+      "gap": 0.8,
+      "start": 73.82,
+      "end": 75.86,
+      "words": [
+        {
+          "w": "I",
+          "start": 73.85,
+          "end": 74.042
+        },
+        {
+          "w": "know!",
+          "start": 74.042,
+          "end": 74.299
+        },
+        {
+          "w": "Max",
+          "start": 74.299,
+          "end": 74.619
+        },
+        {
+          "w": "needs",
+          "start": 74.619,
+          "end": 75.003
+        },
+        {
+          "w": "bigger",
+          "start": 75.003,
+          "end": 75.324
+        },
+        {
+          "w": "ears!",
+          "start": 75.324,
+          "end": 75.58
+        }
+      ]
+    },
+    {
+      "beat": "bobo_laugh",
+      "speaker": "bobo",
+      "text": "Hee hee! No, Leo! His ears are big already!",
+      "gap": 1.0,
+      "start": 76.66,
+      "end": 79.17,
+      "words": [
+        {
+          "w": "Hee",
+          "start": 76.7,
+          "end": 76.919
+        },
+        {
+          "w": "hee!",
+          "start": 76.919,
+          "end": 77.137
+        },
+        {
+          "w": "No,",
+          "start": 77.137,
+          "end": 77.356
+        },
+        {
+          "w": "Leo!",
+          "start": 77.356,
+          "end": 77.683
+        },
+        {
+          "w": "His",
+          "start": 77.683,
+          "end": 77.902
+        },
+        {
+          "w": "ears",
+          "start": 77.902,
+          "end": 78.12
+        },
+        {
+          "w": "are",
+          "start": 78.12,
+          "end": 78.284
+        },
+        {
+          "w": "big",
+          "start": 78.284,
+          "end": 78.503
+        },
+        {
+          "w": "already!",
+          "start": 78.503,
+          "end": 78.94
+        }
+      ]
+    },
+    {
+      "beat": "hoot_learn",
+      "speaker": "hoot",
+      "text": "Max, listening is a super power. Let me show you how, in three easy steps.",
+      "gap": 1.2,
+      "start": 80.17,
+      "end": 85.56,
+      "words": [
+        {
+          "w": "Max,",
+          "start": 80.21,
+          "end": 80.603
+        },
+        {
+          "w": "listening",
+          "start": 80.603,
+          "end": 81.231
+        },
+        {
+          "w": "is",
+          "start": 81.231,
+          "end": 81.388
+        },
+        {
+          "w": "a",
+          "start": 81.388,
+          "end": 81.623
+        },
+        {
+          "w": "super",
+          "start": 81.623,
+          "end": 82.094
+        },
+        {
+          "w": "power.",
+          "start": 82.094,
+          "end": 82.487
+        },
+        {
+          "w": "Let",
+          "start": 82.487,
+          "end": 82.801
+        },
+        {
+          "w": "me",
+          "start": 82.801,
+          "end": 83.115
+        },
+        {
+          "w": "show",
+          "start": 83.115,
+          "end": 83.429
+        },
+        {
+          "w": "you",
+          "start": 83.429,
+          "end": 83.664
+        },
+        {
+          "w": "how,",
+          "start": 83.664,
+          "end": 83.978
+        },
+        {
+          "w": "in",
+          "start": 83.978,
+          "end": 84.214
+        },
+        {
+          "w": "three",
+          "start": 84.214,
+          "end": 84.606
+        },
+        {
+          "w": "easy",
+          "start": 84.606,
+          "end": 84.999
+        },
+        {
+          "w": "steps.",
+          "start": 84.999,
+          "end": 85.47
+        }
+      ]
+    },
+    {
+      "beat": "step1",
+      "speaker": "hoot",
+      "text": "Step one: Stop. Keep your body still, like a statue.",
+      "gap": 1.0,
+      "start": 86.76,
+      "end": 90.4,
+      "words": [
+        {
+          "w": "Step",
+          "start": 86.79,
+          "end": 87.158
+        },
+        {
+          "w": "one:",
+          "start": 87.158,
+          "end": 87.452
+        },
+        {
+          "w": "Stop.",
+          "start": 87.452,
+          "end": 87.82
+        },
+        {
+          "w": "Keep",
+          "start": 87.82,
+          "end": 88.187
+        },
+        {
+          "w": "your",
+          "start": 88.187,
+          "end": 88.408
+        },
+        {
+          "w": "body",
+          "start": 88.408,
+          "end": 88.776
+        },
+        {
+          "w": "still,",
+          "start": 88.776,
+          "end": 89.143
+        },
+        {
+          "w": "like",
+          "start": 89.143,
+          "end": 89.511
+        },
+        {
+          "w": "a",
+          "start": 89.511,
+          "end": 89.732
+        },
+        {
+          "w": "statue.",
+          "start": 89.732,
+          "end": 90.32
+        }
+      ]
+    },
+    {
+      "beat": "step1_turn",
+      "speaker": "narrator",
+      "text": "Can you stop like a statue? Freeze!",
+      "gap": 3.0,
+      "start": 91.4,
+      "end": 93.81,
+      "words": [
+        {
+          "w": "Can",
+          "start": 91.45,
+          "end": 91.643
+        },
+        {
+          "w": "you",
+          "start": 91.643,
+          "end": 91.788
+        },
+        {
+          "w": "stop",
+          "start": 91.788,
+          "end": 92.078
+        },
+        {
+          "w": "like",
+          "start": 92.078,
+          "end": 92.319
+        },
+        {
+          "w": "a",
+          "start": 92.319,
+          "end": 92.464
+        },
+        {
+          "w": "statue?",
+          "start": 92.464,
+          "end": 92.85
+        },
+        {
+          "w": "Freeze!",
+          "start": 93.11,
+          "end": 93.72
+        }
+      ]
+    },
+    {
+      "beat": "step2",
+      "speaker": "hoot",
+      "text": "Step two: Look. Look at the friend who is talking.",
+      "gap": 1.0,
+      "start": 96.81,
+      "end": 100.09,
+      "words": [
+        {
+          "w": "Step",
+          "start": 96.84,
+          "end": 97.236
+        },
+        {
+          "w": "two:",
+          "start": 97.236,
+          "end": 97.553
+        },
+        {
+          "w": "Look.",
+          "start": 97.553,
+          "end": 97.87
+        },
+        {
+          "w": "Look",
+          "start": 97.87,
+          "end": 98.187
+        },
+        {
+          "w": "at",
+          "start": 98.187,
+          "end": 98.346
+        },
+        {
+          "w": "the",
+          "start": 98.346,
+          "end": 98.504
+        },
+        {
+          "w": "friend",
+          "start": 98.504,
+          "end": 98.98
+        },
+        {
+          "w": "who",
+          "start": 98.98,
+          "end": 99.297
+        },
+        {
+          "w": "is",
+          "start": 99.297,
+          "end": 99.455
+        },
+        {
+          "w": "talking.",
+          "start": 99.455,
+          "end": 100.01
+        }
+      ]
+    },
+    {
+      "beat": "step2_turn",
+      "speaker": "narrator",
+      "text": "Can you look at me? Big eyes!",
+      "gap": 3.0,
+      "start": 101.09,
+      "end": 103.0,
+      "words": [
+        {
+          "w": "Can",
+          "start": 101.15,
+          "end": 101.338
+        },
+        {
+          "w": "you",
+          "start": 101.338,
+          "end": 101.479
+        },
+        {
+          "w": "look",
+          "start": 101.479,
+          "end": 101.668
+        },
+        {
+          "w": "at",
+          "start": 101.668,
+          "end": 101.762
+        },
+        {
+          "w": "me?",
+          "start": 101.762,
+          "end": 101.95
+        },
+        {
+          "w": "Big",
+          "start": 102.25,
+          "end": 102.595
+        },
+        {
+          "w": "eyes!",
+          "start": 102.595,
+          "end": 102.94
+        }
+      ]
+    },
+    {
+      "beat": "step3",
+      "speaker": "hoot",
+      "text": "Step three: Listen. Open your ears, and hear every word.",
+      "gap": 1.0,
+      "start": 106.0,
+      "end": 110.24,
+      "words": [
+        {
+          "w": "Step",
+          "start": 106.03,
+          "end": 106.478
+        },
+        {
+          "w": "three:",
+          "start": 106.478,
+          "end": 106.926
+        },
+        {
+          "w": "Listen.",
+          "start": 106.926,
+          "end": 107.463
+        },
+        {
+          "w": "Open",
+          "start": 107.463,
+          "end": 108.0
+        },
+        {
+          "w": "your",
+          "start": 108.0,
+          "end": 108.269
+        },
+        {
+          "w": "ears,",
+          "start": 108.269,
+          "end": 108.627
+        },
+        {
+          "w": "and",
+          "start": 108.627,
+          "end": 108.896
+        },
+        {
+          "w": "hear",
+          "start": 108.896,
+          "end": 109.254
+        },
+        {
+          "w": "every",
+          "start": 109.254,
+          "end": 109.702
+        },
+        {
+          "w": "word.",
+          "start": 109.702,
+          "end": 110.15
+        }
+      ]
+    },
+    {
+      "beat": "step3_turn",
+      "speaker": "narrator",
+      "text": "Can you cup your ears? Ready to listen!",
+      "gap": 3.0,
+      "start": 111.24,
+      "end": 113.51,
+      "words": [
+        {
+          "w": "Can",
+          "start": 111.26,
+          "end": 111.502
+        },
+        {
+          "w": "you",
+          "start": 111.502,
+          "end": 111.684
+        },
+        {
+          "w": "cup",
+          "start": 111.684,
+          "end": 111.926
+        },
+        {
+          "w": "your",
+          "start": 111.926,
+          "end": 112.108
+        },
+        {
+          "w": "ears?",
+          "start": 112.108,
+          "end": 112.35
+        },
+        {
+          "w": "Ready",
+          "start": 112.57,
+          "end": 112.866
+        },
+        {
+          "w": "to",
+          "start": 112.866,
+          "end": 113.044
+        },
+        {
+          "w": "listen!",
+          "start": 113.044,
+          "end": 113.4
+        }
+      ]
+    },
+    {
+      "beat": "max_repeat",
+      "speaker": "max",
+      "text": "Stop. Look. Listen. I can do it!",
+      "gap": 1.5,
+      "start": 116.51,
+      "end": 118.58,
+      "words": [
+        {
+          "w": "Stop.",
+          "start": 116.54,
+          "end": 116.9
+        },
+        {
+          "w": "Look.",
+          "start": 116.9,
+          "end": 117.14
+        },
+        {
+          "w": "Listen.",
+          "start": 117.14,
+          "end": 117.5
+        },
+        {
+          "w": "I",
+          "start": 117.5,
+          "end": 117.68
+        },
+        {
+          "w": "can",
+          "start": 117.68,
+          "end": 117.92
+        },
+        {
+          "w": "do",
+          "start": 117.92,
+          "end": 118.16
+        },
+        {
+          "w": "it!",
+          "start": 118.16,
+          "end": 118.28
+        }
+      ]
+    },
+    {
+      "beat": "game",
+      "speaker": "narrator",
+      "text": "Let's practise with a listening game! Listen to Professor Hoot!",
+      "gap": 1.0,
+      "start": 120.08,
+      "end": 123.73,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 120.13,
+          "end": 120.414
+        },
+        {
+          "w": "practise",
+          "start": 120.414,
+          "end": 120.869
+        },
+        {
+          "w": "with",
+          "start": 120.869,
+          "end": 121.04
+        },
+        {
+          "w": "a",
+          "start": 121.04,
+          "end": 121.211
+        },
+        {
+          "w": "listening",
+          "start": 121.211,
+          "end": 121.666
+        },
+        {
+          "w": "game!",
+          "start": 121.666,
+          "end": 121.95
+        },
+        {
+          "w": "Listen",
+          "start": 122.33,
+          "end": 122.69
+        },
+        {
+          "w": "to",
+          "start": 122.69,
+          "end": 122.87
+        },
+        {
+          "w": "Professor",
+          "start": 122.87,
+          "end": 123.35
+        },
+        {
+          "w": "Hoot!",
+          "start": 123.35,
+          "end": 123.65
+        }
+      ]
+    },
+    {
+      "beat": "g1",
+      "speaker": "hoot",
+      "text": "Touch your nose!",
+      "gap": 3.0,
+      "start": 124.73,
+      "end": 126.07,
+      "words": [
+        {
+          "w": "Touch",
+          "start": 124.75,
+          "end": 125.223
+        },
+        {
+          "w": "your",
+          "start": 125.223,
+          "end": 125.507
+        },
+        {
+          "w": "nose!",
+          "start": 125.507,
+          "end": 125.98
+        }
+      ]
+    },
+    {
+      "beat": "g1a",
+      "speaker": "narrator",
+      "text": "Great listening!",
+      "gap": 1.0,
+      "start": 129.07,
+      "end": 130.18,
+      "words": [
+        {
+          "w": "Great",
+          "start": 129.1,
+          "end": 129.494
+        },
+        {
+          "w": "listening!",
+          "start": 129.494,
+          "end": 130.02
+        }
+      ]
+    },
+    {
+      "beat": "g2",
+      "speaker": "hoot",
+      "text": "Clap two times!",
+      "gap": 3.0,
+      "start": 131.18,
+      "end": 132.65,
+      "words": [
+        {
+          "w": "Clap",
+          "start": 131.21,
+          "end": 131.653
+        },
+        {
+          "w": "two",
+          "start": 131.653,
+          "end": 132.008
+        },
+        {
+          "w": "times!",
+          "start": 132.008,
+          "end": 132.54
+        }
+      ]
+    },
+    {
+      "beat": "g2a",
+      "speaker": "narrator",
+      "text": "Clap, clap! Well done!",
+      "gap": 1.0,
+      "start": 135.65,
+      "end": 137.16,
+      "words": [
+        {
+          "w": "Clap,",
+          "start": 135.69,
+          "end": 136.062
+        },
+        {
+          "w": "clap!",
+          "start": 136.062,
+          "end": 136.434
+        },
+        {
+          "w": "Well",
+          "start": 136.434,
+          "end": 136.732
+        },
+        {
+          "w": "done!",
+          "start": 136.732,
+          "end": 137.03
+        }
+      ]
+    },
+    {
+      "beat": "g3",
+      "speaker": "hoot",
+      "text": "Jump like a bunny!",
+      "gap": 3.0,
+      "start": 138.16,
+      "end": 139.67,
+      "words": [
+        {
+          "w": "Jump",
+          "start": 138.2,
+          "end": 138.642
+        },
+        {
+          "w": "like",
+          "start": 138.642,
+          "end": 139.011
+        },
+        {
+          "w": "a",
+          "start": 139.011,
+          "end": 139.232
+        },
+        {
+          "w": "bunny!",
+          "start": 139.232,
+          "end": 139.6
+        }
+      ]
+    },
+    {
+      "beat": "g3a",
+      "speaker": "leo",
+      "text": "Boing, boing! I can do it!",
+      "gap": 1.2,
+      "start": 142.67,
+      "end": 144.33,
+      "words": [
+        {
+          "w": "Boing,",
+          "start": 142.71,
+          "end": 143.012
+        },
+        {
+          "w": "boing!",
+          "start": 143.012,
+          "end": 143.314
+        },
+        {
+          "w": "I",
+          "start": 143.314,
+          "end": 143.496
+        },
+        {
+          "w": "can",
+          "start": 143.496,
+          "end": 143.737
+        },
+        {
+          "w": "do",
+          "start": 143.737,
+          "end": 143.979
+        },
+        {
+          "w": "it!",
+          "start": 143.979,
+          "end": 144.1
+        }
+      ]
+    },
+    {
+      "beat": "g4",
+      "speaker": "hoot",
+      "text": "Now pat your head, and rub your tummy!",
+      "gap": 3.5,
+      "start": 145.53,
+      "end": 148.28,
+      "words": [
+        {
+          "w": "Now",
+          "start": 145.56,
+          "end": 145.888
+        },
+        {
+          "w": "pat",
+          "start": 145.888,
+          "end": 146.216
+        },
+        {
+          "w": "your",
+          "start": 146.216,
+          "end": 146.462
+        },
+        {
+          "w": "head,",
+          "start": 146.462,
+          "end": 146.79
+        },
+        {
+          "w": "and",
+          "start": 147.05,
+          "end": 147.282
+        },
+        {
+          "w": "rub",
+          "start": 147.282,
+          "end": 147.591
+        },
+        {
+          "w": "your",
+          "start": 147.591,
+          "end": 147.823
+        },
+        {
+          "w": "tummy!",
+          "start": 147.823,
+          "end": 148.21
+        }
+      ]
+    },
+    {
+      "beat": "g4a",
+      "speaker": "bobo",
+      "text": "Oops! I'm patting my tummy! Hee hee!",
+      "gap": 1.5,
+      "start": 151.78,
+      "end": 153.59,
+      "words": [
+        {
+          "w": "Oops!",
+          "start": 151.81,
+          "end": 152.073
+        },
+        {
+          "w": "I'm",
+          "start": 152.073,
+          "end": 152.231
+        },
+        {
+          "w": "patting",
+          "start": 152.231,
+          "end": 152.546
+        },
+        {
+          "w": "my",
+          "start": 152.546,
+          "end": 152.756
+        },
+        {
+          "w": "tummy!",
+          "start": 152.756,
+          "end": 153.019
+        },
+        {
+          "w": "Hee",
+          "start": 153.019,
+          "end": 153.23
+        },
+        {
+          "w": "hee!",
+          "start": 153.23,
+          "end": 153.44
+        }
+      ]
+    },
+    {
+      "beat": "g5",
+      "speaker": "hoot",
+      "text": "Wiggle your fingers! Wiggle, wiggle!",
+      "gap": 3.0,
+      "start": 155.09,
+      "end": 157.63,
+      "words": [
+        {
+          "w": "Wiggle",
+          "start": 155.12,
+          "end": 155.639
+        },
+        {
+          "w": "your",
+          "start": 155.639,
+          "end": 155.898
+        },
+        {
+          "w": "fingers!",
+          "start": 155.898,
+          "end": 156.503
+        },
+        {
+          "w": "Wiggle,",
+          "start": 156.503,
+          "end": 157.021
+        },
+        {
+          "w": "wiggle!",
+          "start": 157.021,
+          "end": 157.54
+        }
+      ]
+    },
+    {
+      "beat": "g5a",
+      "speaker": "narrator",
+      "text": "Wiggly fingers! Great job!",
+      "gap": 1.0,
+      "start": 160.63,
+      "end": 162.63,
+      "words": [
+        {
+          "w": "Wiggly",
+          "start": 160.68,
+          "end": 161.118
+        },
+        {
+          "w": "fingers!",
+          "start": 161.118,
+          "end": 161.63
+        },
+        {
+          "w": "Great",
+          "start": 161.78,
+          "end": 162.14
+        },
+        {
+          "w": "job!",
+          "start": 162.14,
+          "end": 162.5
+        }
+      ]
+    },
+    {
+      "beat": "g6",
+      "speaker": "hoot",
+      "text": "And now... freeze like a statue!",
+      "gap": 3.5,
+      "start": 163.63,
+      "end": 165.8,
+      "words": [
+        {
+          "w": "And",
+          "start": 163.66,
+          "end": 163.873
+        },
+        {
+          "w": "now...",
+          "start": 163.873,
+          "end": 164.157
+        },
+        {
+          "w": "freeze",
+          "start": 164.157,
+          "end": 164.583
+        },
+        {
+          "w": "like",
+          "start": 164.583,
+          "end": 164.939
+        },
+        {
+          "w": "a",
+          "start": 164.939,
+          "end": 165.152
+        },
+        {
+          "w": "statue!",
+          "start": 165.152,
+          "end": 165.72
+        }
+      ]
+    },
+    {
+      "beat": "g6a",
+      "speaker": "max",
+      "text": "I'm a statue! I'm listening!",
+      "gap": 1.5,
+      "start": 169.3,
+      "end": 170.94,
+      "words": [
+        {
+          "w": "I'm",
+          "start": 169.33,
+          "end": 169.494
+        },
+        {
+          "w": "a",
+          "start": 169.494,
+          "end": 169.659
+        },
+        {
+          "w": "statue!",
+          "start": 169.659,
+          "end": 170.097
+        },
+        {
+          "w": "I'm",
+          "start": 170.097,
+          "end": 170.262
+        },
+        {
+          "w": "listening!",
+          "start": 170.262,
+          "end": 170.7
+        }
+      ]
+    },
+    {
+      "beat": "try2",
+      "speaker": "hoot",
+      "text": "Now, let's try the treasure hunt again!",
+      "gap": 0.8,
+      "start": 172.44,
+      "end": 175.0,
+      "words": [
+        {
+          "w": "Now,",
+          "start": 172.48,
+          "end": 172.786
+        },
+        {
+          "w": "let's",
+          "start": 172.786,
+          "end": 173.169
+        },
+        {
+          "w": "try",
+          "start": 173.169,
+          "end": 173.552
+        },
+        {
+          "w": "the",
+          "start": 173.552,
+          "end": 173.705
+        },
+        {
+          "w": "treasure",
+          "start": 173.705,
+          "end": 174.164
+        },
+        {
+          "w": "hunt",
+          "start": 174.164,
+          "end": 174.547
+        },
+        {
+          "w": "again!",
+          "start": 174.547,
+          "end": 174.93
+        }
+      ]
+    },
+    {
+      "beat": "max_stop",
+      "speaker": "max",
+      "text": "Stop. Look. Listen. I'm ready!",
+      "gap": 1.2,
+      "start": 175.8,
+      "end": 177.61,
+      "words": [
+        {
+          "w": "Stop.",
+          "start": 175.83,
+          "end": 176.21
+        },
+        {
+          "w": "Look.",
+          "start": 176.21,
+          "end": 176.463
+        },
+        {
+          "w": "Listen.",
+          "start": 176.463,
+          "end": 176.843
+        },
+        {
+          "w": "I'm",
+          "start": 176.843,
+          "end": 177.033
+        },
+        {
+          "w": "ready!",
+          "start": 177.033,
+          "end": 177.35
+        }
+      ]
+    },
+    {
+      "beat": "again1",
+      "speaker": "hoot",
+      "text": "Clue number one: go to the yellow slide.",
+      "gap": 1.0,
+      "start": 178.81,
+      "end": 181.58,
+      "words": [
+        {
+          "w": "Clue",
+          "start": 178.85,
+          "end": 179.167
+        },
+        {
+          "w": "number",
+          "start": 179.167,
+          "end": 179.547
+        },
+        {
+          "w": "one:",
+          "start": 179.547,
+          "end": 179.8
+        },
+        {
+          "w": "go",
+          "start": 180.04,
+          "end": 180.312
+        },
+        {
+          "w": "to",
+          "start": 180.312,
+          "end": 180.517
+        },
+        {
+          "w": "the",
+          "start": 180.517,
+          "end": 180.653
+        },
+        {
+          "w": "yellow",
+          "start": 180.653,
+          "end": 181.061
+        },
+        {
+          "w": "slide.",
+          "start": 181.061,
+          "end": 181.47
+        }
+      ]
+    },
+    {
+      "beat": "butterfly2",
+      "speaker": "narrator",
+      "text": "Oh! Here comes the butterfly again!",
+      "gap": 1.0,
+      "start": 182.58,
+      "end": 184.75,
+      "words": [
+        {
+          "w": "Oh!",
+          "start": 182.64,
+          "end": 182.847
+        },
+        {
+          "w": "Here",
+          "start": 182.847,
+          "end": 183.123
+        },
+        {
+          "w": "comes",
+          "start": 183.123,
+          "end": 183.468
+        },
+        {
+          "w": "the",
+          "start": 183.468,
+          "end": 183.606
+        },
+        {
+          "w": "butterfly",
+          "start": 183.606,
+          "end": 184.295
+        },
+        {
+          "w": "again!",
+          "start": 184.295,
+          "end": 184.64
+        }
+      ]
+    },
+    {
+      "beat": "max_stay",
+      "speaker": "max",
+      "text": "Bye, butterfly! I'm listening now!",
+      "gap": 1.0,
+      "start": 185.75,
+      "end": 187.79,
+      "words": [
+        {
+          "w": "Bye,",
+          "start": 185.78,
+          "end": 186.02
+        },
+        {
+          "w": "butterfly!",
+          "start": 186.02,
+          "end": 186.62
+        },
+        {
+          "w": "I'm",
+          "start": 186.62,
+          "end": 186.8
+        },
+        {
+          "w": "listening",
+          "start": 186.8,
+          "end": 187.28
+        },
+        {
+          "w": "now!",
+          "start": 187.28,
+          "end": 187.52
+        }
+      ]
+    },
+    {
+      "beat": "slide",
+      "speaker": "narrator",
+      "text": "Max goes to the yellow slide. Wheee!",
+      "gap": 1.2,
+      "start": 188.79,
+      "end": 191.31,
+      "words": [
+        {
+          "w": "Max",
+          "start": 188.84,
+          "end": 189.147
+        },
+        {
+          "w": "goes",
+          "start": 189.147,
+          "end": 189.455
+        },
+        {
+          "w": "to",
+          "start": 189.455,
+          "end": 189.639
+        },
+        {
+          "w": "the",
+          "start": 189.639,
+          "end": 189.762
+        },
+        {
+          "w": "yellow",
+          "start": 189.762,
+          "end": 190.131
+        },
+        {
+          "w": "slide.",
+          "start": 190.131,
+          "end": 190.5
+        },
+        {
+          "w": "Wheee!",
+          "start": 190.82,
+          "end": 191.21
+        }
+      ]
+    },
+    {
+      "beat": "again2",
+      "speaker": "hoot",
+      "text": "Clue number two: hop three times.",
+      "gap": 0.8,
+      "start": 192.51,
+      "end": 194.98,
+      "words": [
+        {
+          "w": "Clue",
+          "start": 192.55,
+          "end": 192.863
+        },
+        {
+          "w": "number",
+          "start": 192.863,
+          "end": 193.239
+        },
+        {
+          "w": "two:",
+          "start": 193.239,
+          "end": 193.49
+        },
+        {
+          "w": "hop",
+          "start": 193.69,
+          "end": 194.013
+        },
+        {
+          "w": "three",
+          "start": 194.013,
+          "end": 194.416
+        },
+        {
+          "w": "times.",
+          "start": 194.416,
+          "end": 194.9
+        }
+      ]
+    },
+    {
+      "beat": "hops",
+      "speaker": "max",
+      "text": "One! Two! Three!",
+      "gap": 1.0,
+      "start": 195.78,
+      "end": 196.89,
+      "words": [
+        {
+          "w": "One!",
+          "start": 195.81,
+          "end": 196.087
+        },
+        {
+          "w": "Two!",
+          "start": 196.087,
+          "end": 196.364
+        },
+        {
+          "w": "Three!",
+          "start": 196.364,
+          "end": 196.71
+        }
+      ]
+    },
+    {
+      "beat": "again3",
+      "speaker": "hoot",
+      "text": "Clue number three: look under the red bucket.",
+      "gap": 1.0,
+      "start": 197.89,
+      "end": 200.89,
+      "words": [
+        {
+          "w": "Clue",
+          "start": 197.93,
+          "end": 198.233
+        },
+        {
+          "w": "number",
+          "start": 198.233,
+          "end": 198.597
+        },
+        {
+          "w": "three:",
+          "start": 198.597,
+          "end": 198.9
+        },
+        {
+          "w": "look",
+          "start": 199.13,
+          "end": 199.45
+        },
+        {
+          "w": "under",
+          "start": 199.45,
+          "end": 199.85
+        },
+        {
+          "w": "the",
+          "start": 199.85,
+          "end": 200.01
+        },
+        {
+          "w": "red",
+          "start": 200.01,
+          "end": 200.33
+        },
+        {
+          "w": "bucket.",
+          "start": 200.33,
+          "end": 200.81
+        }
+      ]
+    },
+    {
+      "beat": "bucket_q",
+      "speaker": "narrator",
+      "text": "Where is the red bucket? Can you find it?",
+      "gap": 4.6,
+      "start": 201.89,
+      "end": 204.35,
+      "words": [
+        {
+          "w": "Where",
+          "start": 201.93,
+          "end": 202.212
+        },
+        {
+          "w": "is",
+          "start": 202.212,
+          "end": 202.353
+        },
+        {
+          "w": "the",
+          "start": 202.353,
+          "end": 202.494
+        },
+        {
+          "w": "red",
+          "start": 202.494,
+          "end": 202.777
+        },
+        {
+          "w": "bucket?",
+          "start": 202.777,
+          "end": 203.2
+        },
+        {
+          "w": "Can",
+          "start": 203.42,
+          "end": 203.647
+        },
+        {
+          "w": "you",
+          "start": 203.647,
+          "end": 203.817
+        },
+        {
+          "w": "find",
+          "start": 203.817,
+          "end": 204.157
+        },
+        {
+          "w": "it?",
+          "start": 204.157,
+          "end": 204.27
+        }
+      ]
+    },
+    {
+      "beat": "lift",
+      "speaker": "max",
+      "text": "Here it is! I lift the bucket... and...",
+      "gap": 0.6,
+      "start": 208.95,
+      "end": 211.36,
+      "words": [
+        {
+          "w": "Here",
+          "start": 209.0,
+          "end": 209.317
+        },
+        {
+          "w": "it",
+          "start": 209.317,
+          "end": 209.476
+        },
+        {
+          "w": "is!",
+          "start": 209.476,
+          "end": 209.634
+        },
+        {
+          "w": "I",
+          "start": 209.634,
+          "end": 209.872
+        },
+        {
+          "w": "lift",
+          "start": 209.872,
+          "end": 210.268
+        },
+        {
+          "w": "the",
+          "start": 210.268,
+          "end": 210.427
+        },
+        {
+          "w": "bucket...",
+          "start": 210.427,
+          "end": 210.902
+        },
+        {
+          "w": "and...",
+          "start": 210.902,
+          "end": 211.14
+        }
+      ]
+    },
+    {
+      "beat": "treasure",
+      "speaker": "max",
+      "text": "The treasure box! Woof, woof!",
+      "gap": 1.0,
+      "start": 211.96,
+      "end": 213.69,
+      "words": [
+        {
+          "w": "The",
+          "start": 212.0,
+          "end": 212.121
+        },
+        {
+          "w": "treasure",
+          "start": 212.121,
+          "end": 212.483
+        },
+        {
+          "w": "box!",
+          "start": 212.483,
+          "end": 212.846
+        },
+        {
+          "w": "Woof,",
+          "start": 212.846,
+          "end": 213.148
+        },
+        {
+          "w": "woof!",
+          "start": 213.148,
+          "end": 213.45
+        }
+      ]
+    },
+    {
+      "beat": "open_box",
+      "speaker": "narrator",
+      "text": "Inside the box... shiny stickers for everyone!",
+      "gap": 1.0,
+      "start": 214.69,
+      "end": 217.7,
+      "words": [
+        {
+          "w": "Inside",
+          "start": 214.73,
+          "end": 215.215
+        },
+        {
+          "w": "the",
+          "start": 215.215,
+          "end": 215.354
+        },
+        {
+          "w": "box...",
+          "start": 215.354,
+          "end": 215.77
+        },
+        {
+          "w": "shiny",
+          "start": 216.06,
+          "end": 216.415
+        },
+        {
+          "w": "stickers",
+          "start": 216.415,
+          "end": 216.83
+        },
+        {
+          "w": "for",
+          "start": 216.83,
+          "end": 217.067
+        },
+        {
+          "w": "everyone!",
+          "start": 217.067,
+          "end": 217.6
+        }
+      ]
+    },
+    {
+      "beat": "mila_yay",
+      "speaker": "mila",
+      "text": "Hooray! A star sticker for me!",
+      "gap": 0.6,
+      "start": 218.7,
+      "end": 220.83,
+      "words": [
+        {
+          "w": "Hooray!",
+          "start": 218.82,
+          "end": 219.254
+        },
+        {
+          "w": "A",
+          "start": 219.254,
+          "end": 219.44
+        },
+        {
+          "w": "star",
+          "start": 219.44,
+          "end": 219.812
+        },
+        {
+          "w": "sticker",
+          "start": 219.812,
+          "end": 220.184
+        },
+        {
+          "w": "for",
+          "start": 220.184,
+          "end": 220.432
+        },
+        {
+          "w": "me!",
+          "start": 220.432,
+          "end": 220.68
+        }
+      ]
+    },
+    {
+      "beat": "leo_yay",
+      "speaker": "leo",
+      "text": "And a rocket sticker for me!",
+      "gap": 0.6,
+      "start": 221.43,
+      "end": 223.17,
+      "words": [
+        {
+          "w": "And",
+          "start": 221.46,
+          "end": 221.618
+        },
+        {
+          "w": "a",
+          "start": 221.618,
+          "end": 221.776
+        },
+        {
+          "w": "rocket",
+          "start": 221.776,
+          "end": 222.144
+        },
+        {
+          "w": "sticker",
+          "start": 222.144,
+          "end": 222.459
+        },
+        {
+          "w": "for",
+          "start": 222.459,
+          "end": 222.67
+        },
+        {
+          "w": "me!",
+          "start": 222.67,
+          "end": 222.88
+        }
+      ]
+    },
+    {
+      "beat": "bobo_yay",
+      "speaker": "bobo",
+      "text": "A honey pot sticker! Yum!",
+      "gap": 1.2,
+      "start": 223.77,
+      "end": 225.19,
+      "words": [
+        {
+          "w": "A",
+          "start": 223.8,
+          "end": 223.97
+        },
+        {
+          "w": "honey",
+          "start": 223.97,
+          "end": 224.252
+        },
+        {
+          "w": "pot",
+          "start": 224.252,
+          "end": 224.535
+        },
+        {
+          "w": "sticker!",
+          "start": 224.535,
+          "end": 224.874
+        },
+        {
+          "w": "Yum!",
+          "start": 224.874,
+          "end": 225.1
+        }
+      ]
+    },
+    {
+      "beat": "max_proud",
+      "speaker": "max",
+      "text": "I found it, because I listened!",
+      "gap": 1.0,
+      "start": 226.39,
+      "end": 228.14,
+      "words": [
+        {
+          "w": "I",
+          "start": 226.43,
+          "end": 226.59
+        },
+        {
+          "w": "found",
+          "start": 226.59,
+          "end": 226.91
+        },
+        {
+          "w": "it,",
+          "start": 226.91,
+          "end": 227.017
+        },
+        {
+          "w": "because",
+          "start": 227.017,
+          "end": 227.337
+        },
+        {
+          "w": "I",
+          "start": 227.337,
+          "end": 227.497
+        },
+        {
+          "w": "listened!",
+          "start": 227.497,
+          "end": 227.87
+        }
+      ]
+    },
+    {
+      "beat": "hoot_proud",
+      "speaker": "hoot",
+      "text": "Well done, Max! Listening helps us learn, and play, and stay safe.",
+      "gap": 1.5,
+      "start": 229.14,
+      "end": 233.8,
+      "words": [
+        {
+          "w": "Well",
+          "start": 229.16,
+          "end": 229.484
+        },
+        {
+          "w": "done,",
+          "start": 229.484,
+          "end": 229.809
+        },
+        {
+          "w": "Max!",
+          "start": 229.809,
+          "end": 230.214
+        },
+        {
+          "w": "Listening",
+          "start": 230.214,
+          "end": 230.863
+        },
+        {
+          "w": "helps",
+          "start": 230.863,
+          "end": 231.349
+        },
+        {
+          "w": "us",
+          "start": 231.349,
+          "end": 231.592
+        },
+        {
+          "w": "learn,",
+          "start": 231.592,
+          "end": 231.998
+        },
+        {
+          "w": "and",
+          "start": 231.998,
+          "end": 232.241
+        },
+        {
+          "w": "play,",
+          "start": 232.241,
+          "end": 232.646
+        },
+        {
+          "w": "and",
+          "start": 232.646,
+          "end": 232.889
+        },
+        {
+          "w": "stay",
+          "start": 232.889,
+          "end": 233.295
+        },
+        {
+          "w": "safe.",
+          "start": 233.295,
+          "end": 233.7
+        }
+      ]
+    },
+    {
+      "beat": "lesson",
+      "speaker": "narrator",
+      "text": "When we listen, we know what to do!",
+      "gap": 1.5,
+      "start": 235.3,
+      "end": 237.32,
+      "words": [
+        {
+          "w": "When",
+          "start": 235.4,
+          "end": 235.618
+        },
+        {
+          "w": "we",
+          "start": 235.618,
+          "end": 235.782
+        },
+        {
+          "w": "listen,",
+          "start": 235.782,
+          "end": 236.11
+        },
+        {
+          "w": "we",
+          "start": 236.29,
+          "end": 236.443
+        },
+        {
+          "w": "know",
+          "start": 236.443,
+          "end": 236.648
+        },
+        {
+          "w": "what",
+          "start": 236.648,
+          "end": 236.852
+        },
+        {
+          "w": "to",
+          "start": 236.852,
+          "end": 237.006
+        },
+        {
+          "w": "do!",
+          "start": 237.006,
+          "end": 237.21
+        }
+      ]
+    },
+    {
+      "beat": "your_q",
+      "speaker": "narrator",
+      "text": "Who do YOU listen to? Your mum? Your dad? Your teacher?",
+      "gap": 3.0,
+      "start": 238.82,
+      "end": 242.16,
+      "words": [
+        {
+          "w": "Who",
+          "start": 238.86,
+          "end": 239.153
+        },
+        {
+          "w": "do",
+          "start": 239.153,
+          "end": 239.445
+        },
+        {
+          "w": "YOU",
+          "start": 239.445,
+          "end": 239.665
+        },
+        {
+          "w": "listen",
+          "start": 239.665,
+          "end": 240.104
+        },
+        {
+          "w": "to?",
+          "start": 240.104,
+          "end": 240.324
+        },
+        {
+          "w": "Your",
+          "start": 240.324,
+          "end": 240.543
+        },
+        {
+          "w": "mum?",
+          "start": 240.543,
+          "end": 240.836
+        },
+        {
+          "w": "Your",
+          "start": 240.836,
+          "end": 241.055
+        },
+        {
+          "w": "dad?",
+          "start": 241.055,
+          "end": 241.348
+        },
+        {
+          "w": "Your",
+          "start": 241.348,
+          "end": 241.568
+        },
+        {
+          "w": "teacher?",
+          "start": 241.568,
+          "end": 242.08
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "narrator",
+      "text": "Let's remember the three listening steps!",
+      "gap": 1.0,
+      "start": 245.16,
+      "end": 247.28,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 245.22,
+          "end": 245.513
+        },
+        {
+          "w": "remember",
+          "start": 245.513,
+          "end": 245.981
+        },
+        {
+          "w": "the",
+          "start": 245.981,
+          "end": 246.098
+        },
+        {
+          "w": "three",
+          "start": 246.098,
+          "end": 246.391
+        },
+        {
+          "w": "listening",
+          "start": 246.391,
+          "end": 246.859
+        },
+        {
+          "w": "steps!",
+          "start": 246.859,
+          "end": 247.21
+        }
+      ]
+    },
+    {
+      "beat": "r1",
+      "speaker": "max",
+      "text": "Stop!",
+      "gap": 1.2,
+      "start": 248.28,
+      "end": 248.94,
+      "words": [
+        {
+          "w": "Stop!",
+          "start": 248.31,
+          "end": 248.85
+        }
+      ]
+    },
+    {
+      "beat": "r2",
+      "speaker": "max",
+      "text": "Look!",
+      "gap": 1.2,
+      "start": 250.14,
+      "end": 250.71,
+      "words": [
+        {
+          "w": "Look!",
+          "start": 250.17,
+          "end": 250.62
+        }
+      ]
+    },
+    {
+      "beat": "r3",
+      "speaker": "max",
+      "text": "Listen!",
+      "gap": 1.5,
+      "start": 251.91,
+      "end": 252.63,
+      "words": [
+        {
+          "w": "Listen!",
+          "start": 251.95,
+          "end": 252.48
+        }
+      ]
+    },
+    {
+      "beat": "r_turn",
+      "speaker": "narrator",
+      "text": "Your turn! Stop! Look! Listen!",
+      "gap": 3.0,
+      "start": 254.13,
+      "end": 256.22,
+      "words": [
+        {
+          "w": "Your",
+          "start": 254.17,
+          "end": 254.41
+        },
+        {
+          "w": "turn!",
+          "start": 254.41,
+          "end": 254.81
+        },
+        {
+          "w": "Stop!",
+          "start": 254.81,
+          "end": 255.29
+        },
+        {
+          "w": "Look!",
+          "start": 255.29,
+          "end": 255.61
+        },
+        {
+          "w": "Listen!",
+          "start": 255.61,
+          "end": 256.09
+        }
+      ]
+    },
+    {
+      "beat": "quiz",
+      "speaker": "narrator",
+      "text": "Quiz time! Are you ready?",
+      "gap": 1.0,
+      "start": 259.22,
+      "end": 260.92,
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 259.29,
+          "end": 259.62
+        },
+        {
+          "w": "time!",
+          "start": 259.62,
+          "end": 259.95
+        },
+        {
+          "w": "Are",
+          "start": 260.09,
+          "end": 260.281
+        },
+        {
+          "w": "you",
+          "start": 260.281,
+          "end": 260.472
+        },
+        {
+          "w": "ready?",
+          "start": 260.472,
+          "end": 260.79
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "narrator",
+      "text": "Why did Max get lost?",
+      "gap": 4.5,
+      "start": 261.92,
+      "end": 263.47,
+      "words": [
+        {
+          "w": "Why",
+          "start": 261.97,
+          "end": 262.219
+        },
+        {
+          "w": "did",
+          "start": 262.219,
+          "end": 262.468
+        },
+        {
+          "w": "Max",
+          "start": 262.468,
+          "end": 262.78
+        },
+        {
+          "w": "get",
+          "start": 262.78,
+          "end": 263.029
+        },
+        {
+          "w": "lost?",
+          "start": 263.029,
+          "end": 263.34
+        }
+      ]
+    },
+    {
+      "beat": "a1",
+      "speaker": "mila",
+      "text": "He chased the butterfly, and didn't listen!",
+      "gap": 1.5,
+      "start": 267.97,
+      "end": 270.42,
+      "words": [
+        {
+          "w": "He",
+          "start": 268.02,
+          "end": 268.201
+        },
+        {
+          "w": "chased",
+          "start": 268.201,
+          "end": 268.623
+        },
+        {
+          "w": "the",
+          "start": 268.623,
+          "end": 268.743
+        },
+        {
+          "w": "butterfly,",
+          "start": 268.743,
+          "end": 269.346
+        },
+        {
+          "w": "and",
+          "start": 269.346,
+          "end": 269.527
+        },
+        {
+          "w": "didn't",
+          "start": 269.527,
+          "end": 269.888
+        },
+        {
+          "w": "listen!",
+          "start": 269.888,
+          "end": 270.25
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "narrator",
+      "text": "What is step one?",
+      "gap": 4.5,
+      "start": 271.92,
+      "end": 273.07,
+      "words": [
+        {
+          "w": "What",
+          "start": 271.95,
+          "end": 272.209
+        },
+        {
+          "w": "is",
+          "start": 272.209,
+          "end": 272.338
+        },
+        {
+          "w": "step",
+          "start": 272.338,
+          "end": 272.661
+        },
+        {
+          "w": "one?",
+          "start": 272.661,
+          "end": 272.92
+        }
+      ]
+    },
+    {
+      "beat": "a2",
+      "speaker": "hoot",
+      "text": "Stop! Keep your body still.",
+      "gap": 1.5,
+      "start": 277.57,
+      "end": 279.48,
+      "words": [
+        {
+          "w": "Stop!",
+          "start": 277.61,
+          "end": 278.001
+        },
+        {
+          "w": "Keep",
+          "start": 278.001,
+          "end": 278.393
+        },
+        {
+          "w": "your",
+          "start": 278.393,
+          "end": 278.627
+        },
+        {
+          "w": "body",
+          "start": 278.627,
+          "end": 279.019
+        },
+        {
+          "w": "still.",
+          "start": 279.019,
+          "end": 279.41
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "narrator",
+      "text": "Where was the treasure?",
+      "gap": 4.5,
+      "start": 280.98,
+      "end": 282.21,
+      "words": [
+        {
+          "w": "Where",
+          "start": 281.01,
+          "end": 281.287
+        },
+        {
+          "w": "was",
+          "start": 281.287,
+          "end": 281.495
+        },
+        {
+          "w": "the",
+          "start": 281.495,
+          "end": 281.634
+        },
+        {
+          "w": "treasure?",
+          "start": 281.634,
+          "end": 282.05
+        }
+      ]
+    },
+    {
+      "beat": "a3",
+      "speaker": "max",
+      "text": "Under the red bucket!",
+      "gap": 1.5,
+      "start": 286.71,
+      "end": 287.94,
+      "words": [
+        {
+          "w": "Under",
+          "start": 286.73,
+          "end": 287.042
+        },
+        {
+          "w": "the",
+          "start": 287.042,
+          "end": 287.166
+        },
+        {
+          "w": "red",
+          "start": 287.166,
+          "end": 287.416
+        },
+        {
+          "w": "bucket!",
+          "start": 287.416,
+          "end": 287.79
+        }
+      ]
+    },
+    {
+      "beat": "q4",
+      "speaker": "narrator",
+      "text": "Does Max need bigger ears?",
+      "gap": 4.5,
+      "start": 289.44,
+      "end": 291.14,
+      "words": [
+        {
+          "w": "Does",
+          "start": 289.51,
+          "end": 289.778
+        },
+        {
+          "w": "Max",
+          "start": 289.778,
+          "end": 290.113
+        },
+        {
+          "w": "need",
+          "start": 290.113,
+          "end": 290.447
+        },
+        {
+          "w": "bigger",
+          "start": 290.447,
+          "end": 290.782
+        },
+        {
+          "w": "ears?",
+          "start": 290.782,
+          "end": 291.05
+        }
+      ]
+    },
+    {
+      "beat": "a4",
+      "speaker": "leo",
+      "text": "No! He just needs to listen! Silly me!",
+      "gap": 1.5,
+      "start": 295.64,
+      "end": 298.13,
+      "words": [
+        {
+          "w": "No!",
+          "start": 295.68,
+          "end": 295.908
+        },
+        {
+          "w": "He",
+          "start": 295.908,
+          "end": 296.079
+        },
+        {
+          "w": "just",
+          "start": 296.079,
+          "end": 296.421
+        },
+        {
+          "w": "needs",
+          "start": 296.421,
+          "end": 296.764
+        },
+        {
+          "w": "to",
+          "start": 296.764,
+          "end": 296.935
+        },
+        {
+          "w": "listen!",
+          "start": 296.935,
+          "end": 297.277
+        },
+        {
+          "w": "Silly",
+          "start": 297.277,
+          "end": 297.562
+        },
+        {
+          "w": "me!",
+          "start": 297.562,
+          "end": 297.79
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "max",
+      "text": "Thanks for listening, friends! Woof!",
+      "gap": 0.6,
+      "start": 299.63,
+      "end": 301.7,
+      "words": [
+        {
+          "w": "Thanks",
+          "start": 299.72,
+          "end": 300.066
+        },
+        {
+          "w": "for",
+          "start": 300.066,
+          "end": 300.297
+        },
+        {
+          "w": "listening,",
+          "start": 300.297,
+          "end": 300.758
+        },
+        {
+          "w": "friends!",
+          "start": 300.758,
+          "end": 301.162
+        },
+        {
+          "w": "Woof!",
+          "start": 301.162,
+          "end": 301.45
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "narrator",
+      "text": "See you next time, on Tiny Sparks!",
+      "gap": 1.0,
+      "start": 302.3,
+      "end": 304.42,
+      "words": [
+        {
+          "w": "See",
+          "start": 302.35,
+          "end": 302.575
+        },
+        {
+          "w": "you",
+          "start": 302.575,
+          "end": 302.744
+        },
+        {
+          "w": "next",
+          "start": 302.744,
+          "end": 303.082
+        },
+        {
+          "w": "time,",
+          "start": 303.082,
+          "end": 303.363
+        },
+        {
+          "w": "on",
+          "start": 303.363,
+          "end": 303.532
+        },
+        {
+          "w": "Tiny",
+          "start": 303.532,
+          "end": 303.87
+        },
+        {
+          "w": "Sparks!",
+          "start": 303.87,
+          "end": 304.32
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

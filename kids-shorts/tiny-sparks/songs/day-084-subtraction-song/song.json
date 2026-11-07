@@ -1,0 +1,114 @@
+{
+ "title": "Subtraction Song (Tiny Sparks original)",
+ "bpm": 100,
+ "beatsPerBar": 4,
+ "introBars": 2,
+ "outroBars": 2,
+ "instruments": {
+  "lead": "xylophone",
+  "chords": "ukulele",
+  "bass": true,
+  "drums": "soft",
+  "leadWithVocal": true
+ },
+ "singer": "mila",
+ "vocal": {
+  "voice": "af_sky",
+  "pitch": 0,
+  "rate": "-4%"
+ },
+ "form": [
+  "chorus",
+  "v1",
+  "v2",
+  "chorus",
+  "v3",
+  "v4",
+  "chorus",
+  "v5",
+  "chorus",
+  "q1",
+  "q2",
+  "q3",
+  "q4",
+  "actions",
+  "karaoke",
+  "slow",
+  "chorus"
+ ],
+ "sections": {
+  "chorus": {
+   "chords": "C | G | F | C | Am | F | G | C",
+   "melody": "C4:1 C4:1 E4:2 | G4:1 G4:1 E4:2 | F4:1 A4:1 A4:2 | G4:1 F4:1 E4:1 D4:1 | E4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": "Take a-way, take a-way, / take one off, what do we say? / Count what's left, one by one, / take a-way is so much fun!"
+  },
+  "v1": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Five lit-tle cup-cakes, pink and sweet, / a bun-ny ate one, what a treat! / Count what's left, one, two, three, four, / five take a-way one is four!"
+  },
+  "v2": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Four lit-tle frogs up-on a log, / one jumped in, splash, in the bog! / Count what's left, one, two, three, / four take a-way one is three!"
+  },
+  "v3": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Three red bal-loons up in the air, / pop goes one, now two are there! / Count what's left, one, two, / three take a-way one is two!"
+  },
+  "v4": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Two lit-tle birds up in a tree, / one flew a-way, so sing with me! / Count what's left, just one, / two take a-way one is one!"
+  },
+  "v5": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "One lit-tle cook-ie on the plate, / I ate it up, it tast-ed great! / Count what's left, oh no, there's none, / one take a-way one is ze-ro!"
+  },
+  "q1": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What is three take a-way one? / Two!"
+  },
+  "q2": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What is five take a-way two? / Three!"
+  },
+  "q3": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What is four take a-way four? / Ze-ro!"
+  },
+  "q4": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What is two take a-way one? / One!"
+  },
+  "actions": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Hold up five fin-gers, wig-gle them all, / fold one down, now four stand tall! / Fold one more, now three, then two, / one, then ze-ro, peek-a-boo!"
+  },
+  "karaoke": {
+   "chords": "C | G | F | C | Am | F | G | C",
+   "melody": "C4:1 C4:1 E4:2 | G4:1 G4:1 E4:2 | F4:1 A4:1 A4:2 | G4:1 F4:1 E4:1 D4:1 | E4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": ""
+  },
+  "slow": {
+   "chords": "C | G | C | G | C | G | C | G | C | G",
+   "melody": "G4:1 E4:1 G4:0.5 G4:0.5 E4:1 | R:4 | G4:2 E4:2 | R:4 | G4:3 R:1 | R:4 | G4:2 E4:2 | R:4 | G4:2 E4:2 | R:4",
+   "lyrics": "Let's take a-way slow-ly! / Three take a-way one / Two! / Two take a-way one / One!"
+  }
+ },
+ "ace": {
+  "style": "sunshine",
+  "seeds": [
+   23,
+   54,
+   2038
+  ]
+ }
+}

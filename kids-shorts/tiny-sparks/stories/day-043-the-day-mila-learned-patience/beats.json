@@ -1,0 +1,3671 @@
+{
+  "id": "day-043",
+  "series": "tiny-sparks",
+  "episode": 43,
+  "title": "The Day Mila Learned Patience",
+  "composition": "KidsStories043",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 306.8
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-8%"
+    },
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -7,
+    "duck": 8,
+    "start": 3.7,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "intro",
+      "speaker": "narrator",
+      "start": 3.9,
+      "end": 5.77,
+      "text": "It's a sunny day at the playground!",
+      "words": [
+        {
+          "w": "It's",
+          "start": 3.95,
+          "end": 4.118
+        },
+        {
+          "w": "a",
+          "start": 4.118,
+          "end": 4.286
+        },
+        {
+          "w": "sunny",
+          "start": 4.286,
+          "end": 4.566
+        },
+        {
+          "w": "day",
+          "start": 4.566,
+          "end": 4.79
+        },
+        {
+          "w": "at",
+          "start": 4.79,
+          "end": 4.902
+        },
+        {
+          "w": "the",
+          "start": 4.902,
+          "end": 5.014
+        },
+        {
+          "w": "playground!",
+          "start": 5.014,
+          "end": 5.63
+        }
+      ]
+    },
+    {
+      "beat": "mila_hi",
+      "speaker": "mila",
+      "start": 7.04,
+      "end": 10.02,
+      "text": "Hi, friends! I'm Spark Girl! I love the swing!",
+      "words": [
+        {
+          "w": "Hi,",
+          "start": 7.08,
+          "end": 7.351
+        },
+        {
+          "w": "friends!",
+          "start": 7.351,
+          "end": 7.825
+        },
+        {
+          "w": "I'm",
+          "start": 7.825,
+          "end": 8.028
+        },
+        {
+          "w": "Spark",
+          "start": 8.028,
+          "end": 8.503
+        },
+        {
+          "w": "Girl!",
+          "start": 8.503,
+          "end": 8.841
+        },
+        {
+          "w": "I",
+          "start": 8.841,
+          "end": 9.045
+        },
+        {
+          "w": "love",
+          "start": 9.045,
+          "end": 9.316
+        },
+        {
+          "w": "the",
+          "start": 9.316,
+          "end": 9.451
+        },
+        {
+          "w": "swing!",
+          "start": 9.451,
+          "end": 9.79
+        }
+      ]
+    },
+    {
+      "beat": "see",
+      "speaker": "narrator",
+      "start": 11.49,
+      "end": 13.4,
+      "text": "But look! Leo is on the swing.",
+      "words": [
+        {
+          "w": "But",
+          "start": 11.58,
+          "end": 11.805
+        },
+        {
+          "w": "look!",
+          "start": 11.805,
+          "end": 12.03
+        },
+        {
+          "w": "Leo",
+          "start": 12.15,
+          "end": 12.533
+        },
+        {
+          "w": "is",
+          "start": 12.533,
+          "end": 12.661
+        },
+        {
+          "w": "on",
+          "start": 12.661,
+          "end": 12.853
+        },
+        {
+          "w": "the",
+          "start": 12.853,
+          "end": 12.981
+        },
+        {
+          "w": "swing.",
+          "start": 12.981,
+          "end": 13.3
+        }
+      ]
+    },
+    {
+      "beat": "leo_wee",
+      "speaker": "leo",
+      "start": 14.46,
+      "end": 15.91,
+      "text": "Wheee! Higher and higher!",
+      "words": [
+        {
+          "w": "Wheee!",
+          "start": 14.49,
+          "end": 14.758
+        },
+        {
+          "w": "Higher",
+          "start": 14.758,
+          "end": 15.094
+        },
+        {
+          "w": "and",
+          "start": 15.094,
+          "end": 15.295
+        },
+        {
+          "w": "higher!",
+          "start": 15.295,
+          "end": 15.63
+        }
+      ]
+    },
+    {
+      "beat": "want",
+      "speaker": "mila",
+      "start": 17.17,
+      "end": 19.81,
+      "text": "My turn! My turn! I want the swing NOW!",
+      "words": [
+        {
+          "w": "My",
+          "start": 17.2,
+          "end": 17.47
+        },
+        {
+          "w": "turn!",
+          "start": 17.47,
+          "end": 17.808
+        },
+        {
+          "w": "My",
+          "start": 17.808,
+          "end": 18.078
+        },
+        {
+          "w": "turn!",
+          "start": 18.078,
+          "end": 18.416
+        },
+        {
+          "w": "I",
+          "start": 18.416,
+          "end": 18.619
+        },
+        {
+          "w": "want",
+          "start": 18.619,
+          "end": 18.957
+        },
+        {
+          "w": "the",
+          "start": 18.957,
+          "end": 19.092
+        },
+        {
+          "w": "swing",
+          "start": 19.092,
+          "end": 19.43
+        },
+        {
+          "w": "NOW!",
+          "start": 19.43,
+          "end": 19.7
+        }
+      ]
+    },
+    {
+      "beat": "hurry",
+      "speaker": "mila",
+      "start": 21.08,
+      "end": 23.3,
+      "text": "Hurry up, Leo! Hurry, hurry, hurry!",
+      "words": [
+        {
+          "w": "Hurry",
+          "start": 21.12,
+          "end": 21.495
+        },
+        {
+          "w": "up,",
+          "start": 21.495,
+          "end": 21.682
+        },
+        {
+          "w": "Leo!",
+          "start": 21.682,
+          "end": 22.056
+        },
+        {
+          "w": "Hurry,",
+          "start": 22.056,
+          "end": 22.431
+        },
+        {
+          "w": "hurry,",
+          "start": 22.431,
+          "end": 22.805
+        },
+        {
+          "w": "hurry!",
+          "start": 22.805,
+          "end": 23.18
+        }
+      ]
+    },
+    {
+      "beat": "leo_sad",
+      "speaker": "leo",
+      "start": 24.76,
+      "end": 26.23,
+      "text": "But I just got on...",
+      "words": [
+        {
+          "w": "But",
+          "start": 24.8,
+          "end": 25.013
+        },
+        {
+          "w": "I",
+          "start": 25.013,
+          "end": 25.173
+        },
+        {
+          "w": "just",
+          "start": 25.173,
+          "end": 25.493
+        },
+        {
+          "w": "got",
+          "start": 25.493,
+          "end": 25.76
+        },
+        {
+          "w": "on...",
+          "start": 25.76,
+          "end": 25.92
+        }
+      ]
+    },
+    {
+      "beat": "feel",
+      "speaker": "narrator",
+      "start": 27.9,
+      "end": 33.23,
+      "text": "Leo feels rushed. And Mila feels impatient. Her feet go stomp, stomp, stomp!",
+      "words": [
+        {
+          "w": "Leo",
+          "start": 27.95,
+          "end": 28.365
+        },
+        {
+          "w": "feels",
+          "start": 28.365,
+          "end": 28.78
+        },
+        {
+          "w": "rushed.",
+          "start": 28.78,
+          "end": 29.126
+        },
+        {
+          "w": "And",
+          "start": 29.126,
+          "end": 29.334
+        },
+        {
+          "w": "Mila",
+          "start": 29.334,
+          "end": 29.749
+        },
+        {
+          "w": "feels",
+          "start": 29.749,
+          "end": 30.164
+        },
+        {
+          "w": "impatient.",
+          "start": 30.164,
+          "end": 30.856
+        },
+        {
+          "w": "Her",
+          "start": 30.856,
+          "end": 31.064
+        },
+        {
+          "w": "feet",
+          "start": 31.064,
+          "end": 31.41
+        },
+        {
+          "w": "go",
+          "start": 31.41,
+          "end": 31.687
+        },
+        {
+          "w": "stomp,",
+          "start": 31.687,
+          "end": 32.171
+        },
+        {
+          "w": "stomp,",
+          "start": 32.171,
+          "end": 32.656
+        },
+        {
+          "w": "stomp!",
+          "start": 32.656,
+          "end": 33.14
+        }
+      ]
+    },
+    {
+      "beat": "word",
+      "speaker": "narrator",
+      "start": 34.9,
+      "end": 37.2,
+      "text": "Impatient means, it's hard to wait.",
+      "words": [
+        {
+          "w": "Impatient",
+          "start": 34.93,
+          "end": 35.58
+        },
+        {
+          "w": "means,",
+          "start": 35.58,
+          "end": 35.97
+        },
+        {
+          "w": "it's",
+          "start": 36.18,
+          "end": 36.346
+        },
+        {
+          "w": "hard",
+          "start": 36.346,
+          "end": 36.678
+        },
+        {
+          "w": "to",
+          "start": 36.678,
+          "end": 36.844
+        },
+        {
+          "w": "wait.",
+          "start": 36.844,
+          "end": 37.12
+        }
+      ]
+    },
+    {
+      "beat": "ask",
+      "speaker": "narrator",
+      "start": 39.05,
+      "end": 42.2,
+      "text": "Waiting is hard! Can you help Mila? What can she do?",
+      "words": [
+        {
+          "w": "Waiting",
+          "start": 39.1,
+          "end": 39.548
+        },
+        {
+          "w": "is",
+          "start": 39.548,
+          "end": 39.676
+        },
+        {
+          "w": "hard!",
+          "start": 39.676,
+          "end": 40.06
+        },
+        {
+          "w": "Can",
+          "start": 40.21,
+          "end": 40.394
+        },
+        {
+          "w": "you",
+          "start": 40.394,
+          "end": 40.533
+        },
+        {
+          "w": "help",
+          "start": 40.533,
+          "end": 40.763
+        },
+        {
+          "w": "Mila?",
+          "start": 40.763,
+          "end": 41.04
+        },
+        {
+          "w": "What",
+          "start": 41.33,
+          "end": 41.538
+        },
+        {
+          "w": "can",
+          "start": 41.538,
+          "end": 41.746
+        },
+        {
+          "w": "she",
+          "start": 41.746,
+          "end": 41.902
+        },
+        {
+          "w": "do?",
+          "start": 41.902,
+          "end": 42.11
+        }
+      ]
+    },
+    {
+      "beat": "bobo_hi",
+      "speaker": "bobo",
+      "start": 46.27,
+      "end": 49.18,
+      "text": "Hi, Mila! I know a waiting game. It has three steps!",
+      "words": [
+        {
+          "w": "Hi,",
+          "start": 46.31,
+          "end": 46.529
+        },
+        {
+          "w": "Mila!",
+          "start": 46.529,
+          "end": 46.857
+        },
+        {
+          "w": "I",
+          "start": 46.857,
+          "end": 47.021
+        },
+        {
+          "w": "know",
+          "start": 47.021,
+          "end": 47.24
+        },
+        {
+          "w": "a",
+          "start": 47.24,
+          "end": 47.404
+        },
+        {
+          "w": "waiting",
+          "start": 47.404,
+          "end": 47.787
+        },
+        {
+          "w": "game.",
+          "start": 47.787,
+          "end": 48.06
+        },
+        {
+          "w": "It",
+          "start": 48.06,
+          "end": 48.17
+        },
+        {
+          "w": "has",
+          "start": 48.17,
+          "end": 48.388
+        },
+        {
+          "w": "three",
+          "start": 48.388,
+          "end": 48.662
+        },
+        {
+          "w": "steps!",
+          "start": 48.662,
+          "end": 48.99
+        }
+      ]
+    },
+    {
+      "beat": "s1",
+      "speaker": "bobo",
+      "start": 50.85,
+      "end": 54.53,
+      "text": "Step one. Ask nicely. Say: Can I have the next turn, please?",
+      "words": [
+        {
+          "w": "Step",
+          "start": 50.9,
+          "end": 51.216
+        },
+        {
+          "w": "one.",
+          "start": 51.216,
+          "end": 51.468
+        },
+        {
+          "w": "Ask",
+          "start": 51.468,
+          "end": 51.721
+        },
+        {
+          "w": "nicely.",
+          "start": 51.721,
+          "end": 52.163
+        },
+        {
+          "w": "Say:",
+          "start": 52.163,
+          "end": 52.416
+        },
+        {
+          "w": "Can",
+          "start": 52.416,
+          "end": 52.668
+        },
+        {
+          "w": "I",
+          "start": 52.668,
+          "end": 52.858
+        },
+        {
+          "w": "have",
+          "start": 52.858,
+          "end": 53.11
+        },
+        {
+          "w": "the",
+          "start": 53.11,
+          "end": 53.236
+        },
+        {
+          "w": "next",
+          "start": 53.236,
+          "end": 53.615
+        },
+        {
+          "w": "turn,",
+          "start": 53.615,
+          "end": 53.931
+        },
+        {
+          "w": "please?",
+          "start": 53.931,
+          "end": 54.31
+        }
+      ]
+    },
+    {
+      "beat": "s1_mila",
+      "speaker": "mila",
+      "start": 55.99,
+      "end": 58.4,
+      "text": "Leo, can I have the next turn, please?",
+      "words": [
+        {
+          "w": "Leo,",
+          "start": 56.02,
+          "end": 56.39
+        },
+        {
+          "w": "can",
+          "start": 56.39,
+          "end": 56.637
+        },
+        {
+          "w": "I",
+          "start": 56.637,
+          "end": 56.822
+        },
+        {
+          "w": "have",
+          "start": 56.822,
+          "end": 57.068
+        },
+        {
+          "w": "the",
+          "start": 57.068,
+          "end": 57.192
+        },
+        {
+          "w": "next",
+          "start": 57.192,
+          "end": 57.562
+        },
+        {
+          "w": "turn,",
+          "start": 57.562,
+          "end": 57.87
+        },
+        {
+          "w": "please?",
+          "start": 57.87,
+          "end": 58.24
+        }
+      ]
+    },
+    {
+      "beat": "s1_leo",
+      "speaker": "leo",
+      "start": 59.46,
+      "end": 60.9,
+      "text": "Sure, Mila! You're next!",
+      "words": [
+        {
+          "w": "Sure,",
+          "start": 59.5,
+          "end": 59.748
+        },
+        {
+          "w": "Mila!",
+          "start": 59.748,
+          "end": 60.121
+        },
+        {
+          "w": "You're",
+          "start": 60.121,
+          "end": 60.307
+        },
+        {
+          "w": "next!",
+          "start": 60.307,
+          "end": 60.68
+        }
+      ]
+    },
+    {
+      "beat": "s1_turn",
+      "speaker": "narrator",
+      "start": 62.57,
+      "end": 66.66,
+      "text": "Can you say it with Mila? Can I have the next turn, please? Your turn!",
+      "words": [
+        {
+          "w": "Can",
+          "start": 62.6,
+          "end": 62.866
+        },
+        {
+          "w": "you",
+          "start": 62.866,
+          "end": 63.066
+        },
+        {
+          "w": "say",
+          "start": 63.066,
+          "end": 63.332
+        },
+        {
+          "w": "it",
+          "start": 63.332,
+          "end": 63.465
+        },
+        {
+          "w": "with",
+          "start": 63.465,
+          "end": 63.664
+        },
+        {
+          "w": "Mila?",
+          "start": 63.664,
+          "end": 64.063
+        },
+        {
+          "w": "Can",
+          "start": 64.063,
+          "end": 64.329
+        },
+        {
+          "w": "I",
+          "start": 64.329,
+          "end": 64.529
+        },
+        {
+          "w": "have",
+          "start": 64.529,
+          "end": 64.795
+        },
+        {
+          "w": "the",
+          "start": 64.795,
+          "end": 64.928
+        },
+        {
+          "w": "next",
+          "start": 64.928,
+          "end": 65.327
+        },
+        {
+          "w": "turn,",
+          "start": 65.327,
+          "end": 65.659
+        },
+        {
+          "w": "please?",
+          "start": 65.659,
+          "end": 66.058
+        },
+        {
+          "w": "Your",
+          "start": 66.058,
+          "end": 66.258
+        },
+        {
+          "w": "turn!",
+          "start": 66.258,
+          "end": 66.59
+        }
+      ]
+    },
+    {
+      "beat": "s2",
+      "speaker": "bobo",
+      "start": 70.32,
+      "end": 73.96,
+      "text": "Step two. Count to ten. When the sand runs out, it's your turn!",
+      "words": [
+        {
+          "w": "Step",
+          "start": 70.36,
+          "end": 70.676
+        },
+        {
+          "w": "two.",
+          "start": 70.676,
+          "end": 70.929
+        },
+        {
+          "w": "Count",
+          "start": 70.929,
+          "end": 71.308
+        },
+        {
+          "w": "to",
+          "start": 71.308,
+          "end": 71.498
+        },
+        {
+          "w": "ten.",
+          "start": 71.498,
+          "end": 71.751
+        },
+        {
+          "w": "When",
+          "start": 71.751,
+          "end": 72.003
+        },
+        {
+          "w": "the",
+          "start": 72.003,
+          "end": 72.13
+        },
+        {
+          "w": "sand",
+          "start": 72.13,
+          "end": 72.446
+        },
+        {
+          "w": "runs",
+          "start": 72.446,
+          "end": 72.762
+        },
+        {
+          "w": "out,",
+          "start": 72.762,
+          "end": 73.015
+        },
+        {
+          "w": "it's",
+          "start": 73.015,
+          "end": 73.204
+        },
+        {
+          "w": "your",
+          "start": 73.204,
+          "end": 73.394
+        },
+        {
+          "w": "turn!",
+          "start": 73.394,
+          "end": 73.71
+        }
+      ]
+    },
+    {
+      "beat": "timer",
+      "speaker": "narrator",
+      "start": 75.42,
+      "end": 78.72,
+      "text": "Bobo turns over his sand timer. Let's count together!",
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 75.46,
+          "end": 75.833
+        },
+        {
+          "w": "turns",
+          "start": 75.833,
+          "end": 76.153
+        },
+        {
+          "w": "over",
+          "start": 76.153,
+          "end": 76.42
+        },
+        {
+          "w": "his",
+          "start": 76.42,
+          "end": 76.633
+        },
+        {
+          "w": "sand",
+          "start": 76.633,
+          "end": 76.9
+        },
+        {
+          "w": "timer.",
+          "start": 76.9,
+          "end": 77.22
+        },
+        {
+          "w": "Let's",
+          "start": 77.61,
+          "end": 77.888
+        },
+        {
+          "w": "count",
+          "start": 77.888,
+          "end": 78.221
+        },
+        {
+          "w": "together!",
+          "start": 78.221,
+          "end": 78.61
+        }
+      ]
+    },
+    {
+      "beat": "k1",
+      "speaker": "mila",
+      "start": 80.38,
+      "end": 81.19,
+      "text": "One!",
+      "words": [
+        {
+          "w": "One!",
+          "start": 80.46,
+          "end": 81.05
+        }
+      ]
+    },
+    {
+      "beat": "k2",
+      "speaker": "bobo",
+      "start": 81.84,
+      "end": 82.4,
+      "text": "Two!",
+      "words": [
+        {
+          "w": "Two!",
+          "start": 81.86,
+          "end": 82.32
+        }
+      ]
+    },
+    {
+      "beat": "k3",
+      "speaker": "mila",
+      "start": 83.06,
+      "end": 83.93,
+      "text": "Three!",
+      "words": [
+        {
+          "w": "Three!",
+          "start": 83.13,
+          "end": 83.77
+        }
+      ]
+    },
+    {
+      "beat": "k4",
+      "speaker": "bobo",
+      "start": 84.6,
+      "end": 85.19,
+      "text": "Four!",
+      "words": [
+        {
+          "w": "Four!",
+          "start": 84.64,
+          "end": 85.1
+        }
+      ]
+    },
+    {
+      "beat": "k5",
+      "speaker": "mila",
+      "start": 85.85,
+      "end": 86.77,
+      "text": "Five!",
+      "words": [
+        {
+          "w": "Five!",
+          "start": 85.93,
+          "end": 86.62
+        }
+      ]
+    },
+    {
+      "beat": "k6",
+      "speaker": "bobo",
+      "start": 87.43,
+      "end": 88.04,
+      "text": "Six!",
+      "words": [
+        {
+          "w": "Six!",
+          "start": 87.47,
+          "end": 87.97
+        }
+      ]
+    },
+    {
+      "beat": "k7",
+      "speaker": "mila",
+      "start": 88.7,
+      "end": 89.55,
+      "text": "Seven!",
+      "words": [
+        {
+          "w": "Seven!",
+          "start": 88.75,
+          "end": 89.41
+        }
+      ]
+    },
+    {
+      "beat": "k8",
+      "speaker": "bobo",
+      "start": 90.21,
+      "end": 90.77,
+      "text": "Eight!",
+      "words": [
+        {
+          "w": "Eight!",
+          "start": 90.25,
+          "end": 90.7
+        }
+      ]
+    },
+    {
+      "beat": "k9",
+      "speaker": "mila",
+      "start": 91.43,
+      "end": 92.32,
+      "text": "Nine!",
+      "words": [
+        {
+          "w": "Nine!",
+          "start": 91.51,
+          "end": 92.22
+        }
+      ]
+    },
+    {
+      "beat": "k10",
+      "speaker": "bobo",
+      "start": 92.99,
+      "end": 93.55,
+      "text": "Ten!",
+      "words": [
+        {
+          "w": "Ten!",
+          "start": 93.02,
+          "end": 93.47
+        }
+      ]
+    },
+    {
+      "beat": "s2_done",
+      "speaker": "mila",
+      "start": 95.01,
+      "end": 96.92,
+      "text": "Ten! The sand is all gone!",
+      "words": [
+        {
+          "w": "Ten!",
+          "start": 95.03,
+          "end": 95.36
+        },
+        {
+          "w": "The",
+          "start": 95.36,
+          "end": 95.524
+        },
+        {
+          "w": "sand",
+          "start": 95.524,
+          "end": 95.936
+        },
+        {
+          "w": "is",
+          "start": 95.936,
+          "end": 96.101
+        },
+        {
+          "w": "all",
+          "start": 96.101,
+          "end": 96.43
+        },
+        {
+          "w": "gone!",
+          "start": 96.43,
+          "end": 96.76
+        }
+      ]
+    },
+    {
+      "beat": "leo_off",
+      "speaker": "leo",
+      "start": 97.98,
+      "end": 99.85,
+      "text": "Here you go, Mila! Your turn!",
+      "words": [
+        {
+          "w": "Here",
+          "start": 98.01,
+          "end": 98.252
+        },
+        {
+          "w": "you",
+          "start": 98.252,
+          "end": 98.433
+        },
+        {
+          "w": "go,",
+          "start": 98.433,
+          "end": 98.674
+        },
+        {
+          "w": "Mila!",
+          "start": 98.674,
+          "end": 99.037
+        },
+        {
+          "w": "Your",
+          "start": 99.037,
+          "end": 99.218
+        },
+        {
+          "w": "turn!",
+          "start": 99.218,
+          "end": 99.52
+        }
+      ]
+    },
+    {
+      "beat": "swing",
+      "speaker": "mila",
+      "start": 100.92,
+      "end": 102.41,
+      "text": "Thank you, Leo! Wheee!",
+      "words": [
+        {
+          "w": "Thank",
+          "start": 100.99,
+          "end": 101.357
+        },
+        {
+          "w": "you,",
+          "start": 101.357,
+          "end": 101.577
+        },
+        {
+          "w": "Leo!",
+          "start": 101.577,
+          "end": 102.017
+        },
+        {
+          "w": "Wheee!",
+          "start": 102.017,
+          "end": 102.31
+        }
+      ]
+    },
+    {
+      "beat": "happy",
+      "speaker": "narrator",
+      "start": 104.28,
+      "end": 108.58,
+      "text": "Waiting was hard. But Mila did it! And the swing feels even better now!",
+      "words": [
+        {
+          "w": "Waiting",
+          "start": 104.31,
+          "end": 104.761
+        },
+        {
+          "w": "was",
+          "start": 104.761,
+          "end": 104.954
+        },
+        {
+          "w": "hard.",
+          "start": 104.954,
+          "end": 105.34
+        },
+        {
+          "w": "But",
+          "start": 105.61,
+          "end": 105.822
+        },
+        {
+          "w": "Mila",
+          "start": 105.822,
+          "end": 106.141
+        },
+        {
+          "w": "did",
+          "start": 106.141,
+          "end": 106.354
+        },
+        {
+          "w": "it!",
+          "start": 106.354,
+          "end": 106.46
+        },
+        {
+          "w": "And",
+          "start": 106.76,
+          "end": 106.928
+        },
+        {
+          "w": "the",
+          "start": 106.928,
+          "end": 107.041
+        },
+        {
+          "w": "swing",
+          "start": 107.041,
+          "end": 107.321
+        },
+        {
+          "w": "feels",
+          "start": 107.321,
+          "end": 107.658
+        },
+        {
+          "w": "even",
+          "start": 107.658,
+          "end": 107.995
+        },
+        {
+          "w": "better",
+          "start": 107.995,
+          "end": 108.275
+        },
+        {
+          "w": "now!",
+          "start": 108.275,
+          "end": 108.5
+        }
+      ]
+    },
+    {
+      "beat": "next",
+      "speaker": "narrator",
+      "start": 111.25,
+      "end": 114.06,
+      "text": "Later, the friends paint pictures in the classroom.",
+      "words": [
+        {
+          "w": "Later,",
+          "start": 111.3,
+          "end": 111.71
+        },
+        {
+          "w": "the",
+          "start": 111.85,
+          "end": 111.964
+        },
+        {
+          "w": "friends",
+          "start": 111.964,
+          "end": 112.363
+        },
+        {
+          "w": "paint",
+          "start": 112.363,
+          "end": 112.705
+        },
+        {
+          "w": "pictures",
+          "start": 112.705,
+          "end": 113.162
+        },
+        {
+          "w": "in",
+          "start": 113.162,
+          "end": 113.333
+        },
+        {
+          "w": "the",
+          "start": 113.333,
+          "end": 113.447
+        },
+        {
+          "w": "classroom.",
+          "start": 113.447,
+          "end": 113.96
+        }
+      ]
+    },
+    {
+      "beat": "paint",
+      "speaker": "mila",
+      "start": 115.53,
+      "end": 119.26,
+      "text": "Look! I painted a big rainbow! I want to hang it up right now!",
+      "words": [
+        {
+          "w": "Look!",
+          "start": 115.56,
+          "end": 115.803
+        },
+        {
+          "w": "I",
+          "start": 115.803,
+          "end": 115.985
+        },
+        {
+          "w": "painted",
+          "start": 115.985,
+          "end": 116.47
+        },
+        {
+          "w": "a",
+          "start": 116.47,
+          "end": 116.652
+        },
+        {
+          "w": "big",
+          "start": 116.652,
+          "end": 116.895
+        },
+        {
+          "w": "rainbow!",
+          "start": 116.895,
+          "end": 117.38
+        },
+        {
+          "w": "I",
+          "start": 117.38,
+          "end": 117.562
+        },
+        {
+          "w": "want",
+          "start": 117.562,
+          "end": 117.866
+        },
+        {
+          "w": "to",
+          "start": 117.866,
+          "end": 118.048
+        },
+        {
+          "w": "hang",
+          "start": 118.048,
+          "end": 118.291
+        },
+        {
+          "w": "it",
+          "start": 118.291,
+          "end": 118.412
+        },
+        {
+          "w": "up",
+          "start": 118.412,
+          "end": 118.594
+        },
+        {
+          "w": "right",
+          "start": 118.594,
+          "end": 118.897
+        },
+        {
+          "w": "now!",
+          "start": 118.897,
+          "end": 119.14
+        }
+      ]
+    },
+    {
+      "beat": "bobo_wait",
+      "speaker": "bobo",
+      "start": 120.32,
+      "end": 122.11,
+      "text": "Wait, Mila! The paint is still wet!",
+      "words": [
+        {
+          "w": "Wait,",
+          "start": 120.35,
+          "end": 120.63
+        },
+        {
+          "w": "Mila!",
+          "start": 120.63,
+          "end": 120.966
+        },
+        {
+          "w": "The",
+          "start": 120.966,
+          "end": 121.078
+        },
+        {
+          "w": "paint",
+          "start": 121.078,
+          "end": 121.414
+        },
+        {
+          "w": "is",
+          "start": 121.414,
+          "end": 121.526
+        },
+        {
+          "w": "still",
+          "start": 121.526,
+          "end": 121.806
+        },
+        {
+          "w": "wet!",
+          "start": 121.806,
+          "end": 122.03
+        }
+      ]
+    },
+    {
+      "beat": "oops",
+      "speaker": "narrator",
+      "start": 123.57,
+      "end": 127.41,
+      "text": "Uh-oh! Mila lifts it too fast. Drip, drip! The colors run.",
+      "words": [
+        {
+          "w": "Uh-oh!",
+          "start": 123.63,
+          "end": 124.125
+        },
+        {
+          "w": "Mila",
+          "start": 124.125,
+          "end": 124.55
+        },
+        {
+          "w": "lifts",
+          "start": 124.55,
+          "end": 124.975
+        },
+        {
+          "w": "it",
+          "start": 124.975,
+          "end": 125.116
+        },
+        {
+          "w": "too",
+          "start": 125.116,
+          "end": 125.399
+        },
+        {
+          "w": "fast.",
+          "start": 125.399,
+          "end": 125.753
+        },
+        {
+          "w": "Drip,",
+          "start": 125.753,
+          "end": 126.107
+        },
+        {
+          "w": "drip!",
+          "start": 126.107,
+          "end": 126.461
+        },
+        {
+          "w": "The",
+          "start": 126.461,
+          "end": 126.602
+        },
+        {
+          "w": "colors",
+          "start": 126.602,
+          "end": 127.027
+        },
+        {
+          "w": "run.",
+          "start": 127.027,
+          "end": 127.31
+        }
+      ]
+    },
+    {
+      "beat": "sad2",
+      "speaker": "mila",
+      "start": 128.66,
+      "end": 130.85,
+      "text": "Oh no! My rainbow is all drippy!",
+      "words": [
+        {
+          "w": "Oh",
+          "start": 128.68,
+          "end": 128.907
+        },
+        {
+          "w": "no!",
+          "start": 128.907,
+          "end": 129.21
+        },
+        {
+          "w": "My",
+          "start": 129.32,
+          "end": 129.557
+        },
+        {
+          "w": "rainbow",
+          "start": 129.557,
+          "end": 130.03
+        },
+        {
+          "w": "is",
+          "start": 130.03,
+          "end": 130.148
+        },
+        {
+          "w": "all",
+          "start": 130.148,
+          "end": 130.385
+        },
+        {
+          "w": "drippy!",
+          "start": 130.385,
+          "end": 130.74
+        }
+      ]
+    },
+    {
+      "beat": "try_again",
+      "speaker": "bobo",
+      "start": 132.52,
+      "end": 135.14,
+      "text": "Don't worry! Let's paint a new one, and use step three!",
+      "words": [
+        {
+          "w": "Don't",
+          "start": 132.55,
+          "end": 132.828
+        },
+        {
+          "w": "worry!",
+          "start": 132.828,
+          "end": 133.059
+        },
+        {
+          "w": "Let's",
+          "start": 133.059,
+          "end": 133.29
+        },
+        {
+          "w": "paint",
+          "start": 133.29,
+          "end": 133.568
+        },
+        {
+          "w": "a",
+          "start": 133.568,
+          "end": 133.707
+        },
+        {
+          "w": "new",
+          "start": 133.707,
+          "end": 133.892
+        },
+        {
+          "w": "one,",
+          "start": 133.892,
+          "end": 134.077
+        },
+        {
+          "w": "and",
+          "start": 134.077,
+          "end": 134.216
+        },
+        {
+          "w": "use",
+          "start": 134.216,
+          "end": 134.447
+        },
+        {
+          "w": "step",
+          "start": 134.447,
+          "end": 134.679
+        },
+        {
+          "w": "three!",
+          "start": 134.679,
+          "end": 134.91
+        }
+      ]
+    },
+    {
+      "beat": "s3",
+      "speaker": "bobo",
+      "start": 136.81,
+      "end": 139.55,
+      "text": "Step three. Find something fun to do while you wait!",
+      "words": [
+        {
+          "w": "Step",
+          "start": 136.85,
+          "end": 137.117
+        },
+        {
+          "w": "three.",
+          "start": 137.117,
+          "end": 137.384
+        },
+        {
+          "w": "Find",
+          "start": 137.384,
+          "end": 137.704
+        },
+        {
+          "w": "something",
+          "start": 137.704,
+          "end": 138.078
+        },
+        {
+          "w": "fun",
+          "start": 138.078,
+          "end": 138.292
+        },
+        {
+          "w": "to",
+          "start": 138.292,
+          "end": 138.452
+        },
+        {
+          "w": "do",
+          "start": 138.452,
+          "end": 138.666
+        },
+        {
+          "w": "while",
+          "start": 138.666,
+          "end": 138.933
+        },
+        {
+          "w": "you",
+          "start": 138.933,
+          "end": 139.093
+        },
+        {
+          "w": "wait!",
+          "start": 139.093,
+          "end": 139.36
+        }
+      ]
+    },
+    {
+      "beat": "s3_turn",
+      "speaker": "narrator",
+      "start": 141.22,
+      "end": 144.67,
+      "text": "What can Mila do while the paint dries? Can you think of something?",
+      "words": [
+        {
+          "w": "What",
+          "start": 141.25,
+          "end": 141.459
+        },
+        {
+          "w": "can",
+          "start": 141.459,
+          "end": 141.667
+        },
+        {
+          "w": "Mila",
+          "start": 141.667,
+          "end": 141.98
+        },
+        {
+          "w": "do",
+          "start": 141.98,
+          "end": 142.189
+        },
+        {
+          "w": "while",
+          "start": 142.189,
+          "end": 142.45
+        },
+        {
+          "w": "the",
+          "start": 142.45,
+          "end": 142.554
+        },
+        {
+          "w": "paint",
+          "start": 142.554,
+          "end": 142.867
+        },
+        {
+          "w": "dries?",
+          "start": 142.867,
+          "end": 143.18
+        },
+        {
+          "w": "Can",
+          "start": 143.53,
+          "end": 143.726
+        },
+        {
+          "w": "you",
+          "start": 143.726,
+          "end": 143.873
+        },
+        {
+          "w": "think",
+          "start": 143.873,
+          "end": 144.119
+        },
+        {
+          "w": "of",
+          "start": 144.119,
+          "end": 144.217
+        },
+        {
+          "w": "something?",
+          "start": 144.217,
+          "end": 144.56
+        }
+      ]
+    },
+    {
+      "beat": "s3_mila",
+      "speaker": "mila",
+      "start": 149.32,
+      "end": 151.79,
+      "text": "I know! I can sing a song while it dries!",
+      "words": [
+        {
+          "w": "I",
+          "start": 149.35,
+          "end": 149.577
+        },
+        {
+          "w": "know!",
+          "start": 149.577,
+          "end": 149.88
+        },
+        {
+          "w": "I",
+          "start": 149.99,
+          "end": 150.155
+        },
+        {
+          "w": "can",
+          "start": 150.155,
+          "end": 150.376
+        },
+        {
+          "w": "sing",
+          "start": 150.376,
+          "end": 150.597
+        },
+        {
+          "w": "a",
+          "start": 150.597,
+          "end": 150.762
+        },
+        {
+          "w": "song",
+          "start": 150.762,
+          "end": 150.983
+        },
+        {
+          "w": "while",
+          "start": 150.983,
+          "end": 151.259
+        },
+        {
+          "w": "it",
+          "start": 151.259,
+          "end": 151.369
+        },
+        {
+          "w": "dries!",
+          "start": 151.369,
+          "end": 151.7
+        }
+      ]
+    },
+    {
+      "beat": "sing",
+      "speaker": "mila",
+      "start": 152.86,
+      "end": 155.44,
+      "text": "La la la, the paint is drying, la la la!",
+      "words": [
+        {
+          "w": "La",
+          "start": 152.9,
+          "end": 153.107
+        },
+        {
+          "w": "la",
+          "start": 153.107,
+          "end": 153.313
+        },
+        {
+          "w": "la,",
+          "start": 153.313,
+          "end": 153.52
+        },
+        {
+          "w": "the",
+          "start": 153.52,
+          "end": 153.657
+        },
+        {
+          "w": "paint",
+          "start": 153.657,
+          "end": 154.071
+        },
+        {
+          "w": "is",
+          "start": 154.071,
+          "end": 154.208
+        },
+        {
+          "w": "drying,",
+          "start": 154.208,
+          "end": 154.69
+        },
+        {
+          "w": "la",
+          "start": 154.69,
+          "end": 154.897
+        },
+        {
+          "w": "la",
+          "start": 154.897,
+          "end": 155.103
+        },
+        {
+          "w": "la!",
+          "start": 155.103,
+          "end": 155.31
+        }
+      ]
+    },
+    {
+      "beat": "s3_leo",
+      "speaker": "leo",
+      "start": 156.9,
+      "end": 160.71,
+      "text": "And I can build a tower! One block, two blocks, three blocks!",
+      "words": [
+        {
+          "w": "And",
+          "start": 156.94,
+          "end": 157.124
+        },
+        {
+          "w": "I",
+          "start": 157.124,
+          "end": 157.309
+        },
+        {
+          "w": "can",
+          "start": 157.309,
+          "end": 157.554
+        },
+        {
+          "w": "build",
+          "start": 157.554,
+          "end": 157.861
+        },
+        {
+          "w": "a",
+          "start": 157.861,
+          "end": 158.046
+        },
+        {
+          "w": "tower!",
+          "start": 158.046,
+          "end": 158.353
+        },
+        {
+          "w": "One",
+          "start": 158.353,
+          "end": 158.599
+        },
+        {
+          "w": "block,",
+          "start": 158.599,
+          "end": 158.967
+        },
+        {
+          "w": "two",
+          "start": 158.967,
+          "end": 159.213
+        },
+        {
+          "w": "blocks,",
+          "start": 159.213,
+          "end": 159.643
+        },
+        {
+          "w": "three",
+          "start": 159.643,
+          "end": 159.95
+        },
+        {
+          "w": "blocks!",
+          "start": 159.95,
+          "end": 160.38
+        }
+      ]
+    },
+    {
+      "beat": "dry",
+      "speaker": "narrator",
+      "start": 162.79,
+      "end": 165.8,
+      "text": "The sun shines through the window, and the paint dries.",
+      "words": [
+        {
+          "w": "The",
+          "start": 162.85,
+          "end": 162.965
+        },
+        {
+          "w": "sun",
+          "start": 162.965,
+          "end": 163.194
+        },
+        {
+          "w": "shines",
+          "start": 163.194,
+          "end": 163.538
+        },
+        {
+          "w": "through",
+          "start": 163.538,
+          "end": 163.824
+        },
+        {
+          "w": "the",
+          "start": 163.824,
+          "end": 163.939
+        },
+        {
+          "w": "window,",
+          "start": 163.939,
+          "end": 164.34
+        },
+        {
+          "w": "and",
+          "start": 164.64,
+          "end": 164.831
+        },
+        {
+          "w": "the",
+          "start": 164.831,
+          "end": 164.958
+        },
+        {
+          "w": "paint",
+          "start": 164.958,
+          "end": 165.339
+        },
+        {
+          "w": "dries.",
+          "start": 165.339,
+          "end": 165.72
+        }
+      ]
+    },
+    {
+      "beat": "touch",
+      "speaker": "mila",
+      "start": 167.46,
+      "end": 169.45,
+      "text": "It's dry! Now I can hang it up!",
+      "words": [
+        {
+          "w": "It's",
+          "start": 167.49,
+          "end": 167.686
+        },
+        {
+          "w": "dry!",
+          "start": 167.686,
+          "end": 168.013
+        },
+        {
+          "w": "Now",
+          "start": 168.013,
+          "end": 168.274
+        },
+        {
+          "w": "I",
+          "start": 168.274,
+          "end": 168.47
+        },
+        {
+          "w": "can",
+          "start": 168.47,
+          "end": 168.732
+        },
+        {
+          "w": "hang",
+          "start": 168.732,
+          "end": 168.993
+        },
+        {
+          "w": "it",
+          "start": 168.993,
+          "end": 169.124
+        },
+        {
+          "w": "up!",
+          "start": 169.124,
+          "end": 169.32
+        }
+      ]
+    },
+    {
+      "beat": "wow",
+      "speaker": "leo",
+      "start": 170.52,
+      "end": 172.78,
+      "text": "Wow! Your rainbow is beautiful, Mila!",
+      "words": [
+        {
+          "w": "Wow!",
+          "start": 170.56,
+          "end": 170.79
+        },
+        {
+          "w": "Your",
+          "start": 170.79,
+          "end": 170.963
+        },
+        {
+          "w": "rainbow",
+          "start": 170.963,
+          "end": 171.424
+        },
+        {
+          "w": "is",
+          "start": 171.424,
+          "end": 171.539
+        },
+        {
+          "w": "beautiful,",
+          "start": 171.539,
+          "end": 172.115
+        },
+        {
+          "w": "Mila!",
+          "start": 172.115,
+          "end": 172.46
+        }
+      ]
+    },
+    {
+      "beat": "proud",
+      "speaker": "mila",
+      "start": 174.05,
+      "end": 175.96,
+      "text": "Waiting made it even better!",
+      "words": [
+        {
+          "w": "Waiting",
+          "start": 174.09,
+          "end": 174.586
+        },
+        {
+          "w": "made",
+          "start": 174.586,
+          "end": 174.94
+        },
+        {
+          "w": "it",
+          "start": 174.94,
+          "end": 175.081
+        },
+        {
+          "w": "even",
+          "start": 175.081,
+          "end": 175.506
+        },
+        {
+          "w": "better!",
+          "start": 175.506,
+          "end": 175.86
+        }
+      ]
+    },
+    {
+      "beat": "lesson",
+      "speaker": "narrator",
+      "start": 178.02,
+      "end": 180.4,
+      "text": "When it's hard to wait, play the waiting game!",
+      "words": [
+        {
+          "w": "When",
+          "start": 178.11,
+          "end": 178.304
+        },
+        {
+          "w": "it's",
+          "start": 178.304,
+          "end": 178.45
+        },
+        {
+          "w": "hard",
+          "start": 178.45,
+          "end": 178.741
+        },
+        {
+          "w": "to",
+          "start": 178.741,
+          "end": 178.887
+        },
+        {
+          "w": "wait,",
+          "start": 178.887,
+          "end": 179.13
+        },
+        {
+          "w": "play",
+          "start": 179.31,
+          "end": 179.568
+        },
+        {
+          "w": "the",
+          "start": 179.568,
+          "end": 179.671
+        },
+        {
+          "w": "waiting",
+          "start": 179.671,
+          "end": 180.032
+        },
+        {
+          "w": "game!",
+          "start": 180.032,
+          "end": 180.29
+        }
+      ]
+    },
+    {
+      "beat": "again",
+      "speaker": "narrator",
+      "start": 183.07,
+      "end": 184.84,
+      "text": "Let's remember the waiting game!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 183.12,
+          "end": 183.42
+        },
+        {
+          "w": "remember",
+          "start": 183.42,
+          "end": 183.9
+        },
+        {
+          "w": "the",
+          "start": 183.9,
+          "end": 184.02
+        },
+        {
+          "w": "waiting",
+          "start": 184.02,
+          "end": 184.44
+        },
+        {
+          "w": "game!",
+          "start": 184.44,
+          "end": 184.74
+        }
+      ]
+    },
+    {
+      "beat": "r1",
+      "speaker": "mila",
+      "start": 186.49,
+      "end": 188.34,
+      "text": "Step one. Ask nicely!",
+      "words": [
+        {
+          "w": "Step",
+          "start": 186.53,
+          "end": 186.947
+        },
+        {
+          "w": "one.",
+          "start": 186.947,
+          "end": 187.281
+        },
+        {
+          "w": "Ask",
+          "start": 187.281,
+          "end": 187.615
+        },
+        {
+          "w": "nicely!",
+          "start": 187.615,
+          "end": 188.2
+        }
+      ]
+    },
+    {
+      "beat": "r2",
+      "speaker": "leo",
+      "start": 190.01,
+      "end": 191.71,
+      "text": "Step two. Count to ten!",
+      "words": [
+        {
+          "w": "Step",
+          "start": 190.05,
+          "end": 190.368
+        },
+        {
+          "w": "two.",
+          "start": 190.368,
+          "end": 190.623
+        },
+        {
+          "w": "Count",
+          "start": 190.623,
+          "end": 191.005
+        },
+        {
+          "w": "to",
+          "start": 191.005,
+          "end": 191.195
+        },
+        {
+          "w": "ten!",
+          "start": 191.195,
+          "end": 191.45
+        }
+      ]
+    },
+    {
+      "beat": "r3",
+      "speaker": "bobo",
+      "start": 193.39,
+      "end": 195.43,
+      "text": "Step three. Find something fun to do!",
+      "words": [
+        {
+          "w": "Step",
+          "start": 193.42,
+          "end": 193.702
+        },
+        {
+          "w": "three.",
+          "start": 193.702,
+          "end": 193.985
+        },
+        {
+          "w": "Find",
+          "start": 193.985,
+          "end": 194.324
+        },
+        {
+          "w": "something",
+          "start": 194.324,
+          "end": 194.719
+        },
+        {
+          "w": "fun",
+          "start": 194.719,
+          "end": 194.945
+        },
+        {
+          "w": "to",
+          "start": 194.945,
+          "end": 195.114
+        },
+        {
+          "w": "do!",
+          "start": 195.114,
+          "end": 195.34
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "narrator",
+      "start": 197.7,
+      "end": 199.19,
+      "text": "What does impatient mean?",
+      "words": [
+        {
+          "w": "What",
+          "start": 197.74,
+          "end": 197.973
+        },
+        {
+          "w": "does",
+          "start": 197.973,
+          "end": 198.206
+        },
+        {
+          "w": "impatient",
+          "start": 198.206,
+          "end": 198.789
+        },
+        {
+          "w": "mean?",
+          "start": 198.789,
+          "end": 199.08
+        }
+      ]
+    },
+    {
+      "beat": "a1",
+      "speaker": "mila",
+      "start": 203.86,
+      "end": 205.37,
+      "text": "It's hard to wait!",
+      "words": [
+        {
+          "w": "It's",
+          "start": 203.99,
+          "end": 204.204
+        },
+        {
+          "w": "hard",
+          "start": 204.204,
+          "end": 204.631
+        },
+        {
+          "w": "to",
+          "start": 204.631,
+          "end": 204.844
+        },
+        {
+          "w": "wait!",
+          "start": 204.844,
+          "end": 205.2
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "narrator",
+      "start": 207.44,
+      "end": 209.97,
+      "text": "What did Mila say to Leo? Can you say it?",
+      "words": [
+        {
+          "w": "What",
+          "start": 207.5,
+          "end": 207.694
+        },
+        {
+          "w": "did",
+          "start": 207.694,
+          "end": 207.888
+        },
+        {
+          "w": "Mila",
+          "start": 207.888,
+          "end": 208.179
+        },
+        {
+          "w": "say",
+          "start": 208.179,
+          "end": 208.373
+        },
+        {
+          "w": "to",
+          "start": 208.373,
+          "end": 208.519
+        },
+        {
+          "w": "Leo?",
+          "start": 208.519,
+          "end": 208.81
+        },
+        {
+          "w": "Can",
+          "start": 209.12,
+          "end": 209.351
+        },
+        {
+          "w": "you",
+          "start": 209.351,
+          "end": 209.524
+        },
+        {
+          "w": "say",
+          "start": 209.524,
+          "end": 209.755
+        },
+        {
+          "w": "it?",
+          "start": 209.755,
+          "end": 209.87
+        }
+      ]
+    },
+    {
+      "beat": "a2",
+      "speaker": "mila",
+      "start": 214.63,
+      "end": 216.61,
+      "text": "Can I have the next turn, please?",
+      "words": [
+        {
+          "w": "Can",
+          "start": 214.67,
+          "end": 214.907
+        },
+        {
+          "w": "I",
+          "start": 214.907,
+          "end": 215.085
+        },
+        {
+          "w": "have",
+          "start": 215.085,
+          "end": 215.323
+        },
+        {
+          "w": "the",
+          "start": 215.323,
+          "end": 215.441
+        },
+        {
+          "w": "next",
+          "start": 215.441,
+          "end": 215.797
+        },
+        {
+          "w": "turn,",
+          "start": 215.797,
+          "end": 216.094
+        },
+        {
+          "w": "please?",
+          "start": 216.094,
+          "end": 216.45
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "narrator",
+      "start": 218.67,
+      "end": 221.09,
+      "text": "Why did Mila's first rainbow get drippy?",
+      "words": [
+        {
+          "w": "Why",
+          "start": 218.7,
+          "end": 218.932
+        },
+        {
+          "w": "did",
+          "start": 218.932,
+          "end": 219.164
+        },
+        {
+          "w": "Mila's",
+          "start": 219.164,
+          "end": 219.569
+        },
+        {
+          "w": "first",
+          "start": 219.569,
+          "end": 219.917
+        },
+        {
+          "w": "rainbow",
+          "start": 219.917,
+          "end": 220.381
+        },
+        {
+          "w": "get",
+          "start": 220.381,
+          "end": 220.612
+        },
+        {
+          "w": "drippy?",
+          "start": 220.612,
+          "end": 220.96
+        }
+      ]
+    },
+    {
+      "beat": "a3",
+      "speaker": "bobo",
+      "start": 225.77,
+      "end": 226.95,
+      "text": "The paint was still wet!",
+      "words": [
+        {
+          "w": "The",
+          "start": 225.8,
+          "end": 225.906
+        },
+        {
+          "w": "paint",
+          "start": 225.906,
+          "end": 226.224
+        },
+        {
+          "w": "was",
+          "start": 226.224,
+          "end": 226.383
+        },
+        {
+          "w": "still",
+          "start": 226.383,
+          "end": 226.648
+        },
+        {
+          "w": "wet!",
+          "start": 226.648,
+          "end": 226.86
+        }
+      ]
+    },
+    {
+      "beat": "q4",
+      "speaker": "narrator",
+      "start": 229.02,
+      "end": 230.57,
+      "text": "What can YOU do while you wait?",
+      "words": [
+        {
+          "w": "What",
+          "start": 229.1,
+          "end": 229.296
+        },
+        {
+          "w": "can",
+          "start": 229.296,
+          "end": 229.491
+        },
+        {
+          "w": "YOU",
+          "start": 229.491,
+          "end": 229.638
+        },
+        {
+          "w": "do",
+          "start": 229.638,
+          "end": 229.834
+        },
+        {
+          "w": "while",
+          "start": 229.834,
+          "end": 230.079
+        },
+        {
+          "w": "you",
+          "start": 230.079,
+          "end": 230.225
+        },
+        {
+          "w": "wait?",
+          "start": 230.225,
+          "end": 230.47
+        }
+      ]
+    },
+    {
+      "beat": "a4",
+      "speaker": "leo",
+      "start": 235.63,
+      "end": 238.17,
+      "text": "Sing a song, build a tower, or read a book!",
+      "words": [
+        {
+          "w": "Sing",
+          "start": 235.66,
+          "end": 235.888
+        },
+        {
+          "w": "a",
+          "start": 235.888,
+          "end": 236.058
+        },
+        {
+          "w": "song,",
+          "start": 236.058,
+          "end": 236.286
+        },
+        {
+          "w": "build",
+          "start": 236.286,
+          "end": 236.571
+        },
+        {
+          "w": "a",
+          "start": 236.571,
+          "end": 236.742
+        },
+        {
+          "w": "tower,",
+          "start": 236.742,
+          "end": 237.026
+        },
+        {
+          "w": "or",
+          "start": 237.026,
+          "end": 237.197
+        },
+        {
+          "w": "read",
+          "start": 237.197,
+          "end": 237.482
+        },
+        {
+          "w": "a",
+          "start": 237.482,
+          "end": 237.652
+        },
+        {
+          "w": "book!",
+          "start": 237.652,
+          "end": 237.88
+        }
+      ]
+    },
+    {
+      "beat": "q5",
+      "speaker": "narrator",
+      "start": 240.22,
+      "end": 245.12,
+      "text": "How long did Mila wait for the swing? Until the sand ran out, and she counted to...",
+      "words": [
+        {
+          "w": "How",
+          "start": 240.25,
+          "end": 240.481
+        },
+        {
+          "w": "long",
+          "start": 240.481,
+          "end": 240.711
+        },
+        {
+          "w": "did",
+          "start": 240.711,
+          "end": 240.942
+        },
+        {
+          "w": "Mila",
+          "start": 240.942,
+          "end": 241.288
+        },
+        {
+          "w": "wait",
+          "start": 241.288,
+          "end": 241.576
+        },
+        {
+          "w": "for",
+          "start": 241.576,
+          "end": 241.806
+        },
+        {
+          "w": "the",
+          "start": 241.806,
+          "end": 241.922
+        },
+        {
+          "w": "swing?",
+          "start": 241.922,
+          "end": 242.21
+        },
+        {
+          "w": "Until",
+          "start": 242.7,
+          "end": 243.054
+        },
+        {
+          "w": "the",
+          "start": 243.054,
+          "end": 243.172
+        },
+        {
+          "w": "sand",
+          "start": 243.172,
+          "end": 243.468
+        },
+        {
+          "w": "ran",
+          "start": 243.468,
+          "end": 243.704
+        },
+        {
+          "w": "out,",
+          "start": 243.704,
+          "end": 243.94
+        },
+        {
+          "w": "and",
+          "start": 244.07,
+          "end": 244.239
+        },
+        {
+          "w": "she",
+          "start": 244.239,
+          "end": 244.409
+        },
+        {
+          "w": "counted",
+          "start": 244.409,
+          "end": 244.861
+        },
+        {
+          "w": "to...",
+          "start": 244.861,
+          "end": 245.03
+        }
+      ]
+    },
+    {
+      "beat": "a5",
+      "speaker": "bobo",
+      "start": 249.79,
+      "end": 250.35,
+      "text": "Ten!",
+      "words": [
+        {
+          "w": "Ten!",
+          "start": 249.82,
+          "end": 250.27
+        }
+      ]
+    },
+    {
+      "beat": "chant",
+      "speaker": "narrator",
+      "start": 252.61,
+      "end": 254.46,
+      "text": "Let's say the waiting game together!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 252.66,
+          "end": 252.943
+        },
+        {
+          "w": "say",
+          "start": 252.943,
+          "end": 253.17
+        },
+        {
+          "w": "the",
+          "start": 253.17,
+          "end": 253.283
+        },
+        {
+          "w": "waiting",
+          "start": 253.283,
+          "end": 253.68
+        },
+        {
+          "w": "game",
+          "start": 253.68,
+          "end": 253.963
+        },
+        {
+          "w": "together!",
+          "start": 253.963,
+          "end": 254.36
+        }
+      ]
+    },
+    {
+      "beat": "ch1",
+      "speaker": "mila",
+      "start": 255.53,
+      "end": 258.58,
+      "text": "Ask nicely, count to ten, find something fun!",
+      "words": [
+        {
+          "w": "Ask",
+          "start": 255.56,
+          "end": 255.835
+        },
+        {
+          "w": "nicely,",
+          "start": 255.835,
+          "end": 256.317
+        },
+        {
+          "w": "count",
+          "start": 256.317,
+          "end": 256.729
+        },
+        {
+          "w": "to",
+          "start": 256.729,
+          "end": 256.936
+        },
+        {
+          "w": "ten,",
+          "start": 256.936,
+          "end": 257.211
+        },
+        {
+          "w": "find",
+          "start": 257.211,
+          "end": 257.623
+        },
+        {
+          "w": "something",
+          "start": 257.623,
+          "end": 258.105
+        },
+        {
+          "w": "fun!",
+          "start": 258.105,
+          "end": 258.38
+        }
+      ]
+    },
+    {
+      "beat": "ch_turn",
+      "speaker": "narrator",
+      "start": 260.05,
+      "end": 261.01,
+      "text": "Your turn!",
+      "words": [
+        {
+          "w": "Your",
+          "start": 260.09,
+          "end": 260.367
+        },
+        {
+          "w": "turn!",
+          "start": 260.367,
+          "end": 260.83
+        }
+      ]
+    },
+    {
+      "beat": "ch2",
+      "speaker": "mila",
+      "start": 265.06,
+      "end": 268.11,
+      "text": "Ask nicely, count to ten, find something fun!",
+      "words": [
+        {
+          "w": "Ask",
+          "start": 265.09,
+          "end": 265.365
+        },
+        {
+          "w": "nicely,",
+          "start": 265.365,
+          "end": 265.847
+        },
+        {
+          "w": "count",
+          "start": 265.847,
+          "end": 266.259
+        },
+        {
+          "w": "to",
+          "start": 266.259,
+          "end": 266.466
+        },
+        {
+          "w": "ten,",
+          "start": 266.466,
+          "end": 266.741
+        },
+        {
+          "w": "find",
+          "start": 266.741,
+          "end": 267.153
+        },
+        {
+          "w": "something",
+          "start": 267.153,
+          "end": 267.635
+        },
+        {
+          "w": "fun!",
+          "start": 267.635,
+          "end": 267.91
+        }
+      ]
+    },
+    {
+      "beat": "ch_more",
+      "speaker": "narrator",
+      "start": 269.78,
+      "end": 271.7,
+      "text": "One more time, all together!",
+      "words": [
+        {
+          "w": "One",
+          "start": 269.83,
+          "end": 270.079
+        },
+        {
+          "w": "more",
+          "start": 270.079,
+          "end": 270.389
+        },
+        {
+          "w": "time,",
+          "start": 270.389,
+          "end": 270.7
+        },
+        {
+          "w": "all",
+          "start": 270.86,
+          "end": 271.111
+        },
+        {
+          "w": "together!",
+          "start": 271.111,
+          "end": 271.55
+        }
+      ]
+    },
+    {
+      "beat": "ch3",
+      "speaker": "bobo",
+      "start": 272.75,
+      "end": 275.32,
+      "text": "Ask nicely, count to ten, find something fun!",
+      "words": [
+        {
+          "w": "Ask",
+          "start": 272.78,
+          "end": 273.008
+        },
+        {
+          "w": "nicely,",
+          "start": 273.008,
+          "end": 273.408
+        },
+        {
+          "w": "count",
+          "start": 273.408,
+          "end": 273.75
+        },
+        {
+          "w": "to",
+          "start": 273.75,
+          "end": 273.921
+        },
+        {
+          "w": "ten,",
+          "start": 273.921,
+          "end": 274.15
+        },
+        {
+          "w": "find",
+          "start": 274.15,
+          "end": 274.492
+        },
+        {
+          "w": "something",
+          "start": 274.492,
+          "end": 274.892
+        },
+        {
+          "w": "fun!",
+          "start": 274.892,
+          "end": 275.12
+        }
+      ]
+    },
+    {
+      "beat": "count_turn",
+      "speaker": "narrator",
+      "start": 277.39,
+      "end": 281.67,
+      "text": "Now you count to ten, all by yourself! Watch the sand. Ready? Go!",
+      "words": [
+        {
+          "w": "Now",
+          "start": 277.43,
+          "end": 277.71
+        },
+        {
+          "w": "you",
+          "start": 277.71,
+          "end": 277.92
+        },
+        {
+          "w": "count",
+          "start": 277.92,
+          "end": 278.34
+        },
+        {
+          "w": "to",
+          "start": 278.34,
+          "end": 278.55
+        },
+        {
+          "w": "ten,",
+          "start": 278.55,
+          "end": 278.83
+        },
+        {
+          "w": "all",
+          "start": 278.83,
+          "end": 279.11
+        },
+        {
+          "w": "by",
+          "start": 279.11,
+          "end": 279.39
+        },
+        {
+          "w": "yourself!",
+          "start": 279.39,
+          "end": 280.02
+        },
+        {
+          "w": "Watch",
+          "start": 280.02,
+          "end": 280.44
+        },
+        {
+          "w": "the",
+          "start": 280.44,
+          "end": 280.58
+        },
+        {
+          "w": "sand.",
+          "start": 280.58,
+          "end": 280.93
+        },
+        {
+          "w": "Ready?",
+          "start": 280.93,
+          "end": 281.28
+        },
+        {
+          "w": "Go!",
+          "start": 281.28,
+          "end": 281.56
+        }
+      ]
+    },
+    {
+      "beat": "great",
+      "speaker": "bobo",
+      "start": 292.73,
+      "end": 294.01,
+      "text": "You did it! You can wait!",
+      "words": [
+        {
+          "w": "You",
+          "start": 292.76,
+          "end": 292.926
+        },
+        {
+          "w": "did",
+          "start": 292.926,
+          "end": 293.147
+        },
+        {
+          "w": "it!",
+          "start": 293.147,
+          "end": 293.257
+        },
+        {
+          "w": "You",
+          "start": 293.257,
+          "end": 293.423
+        },
+        {
+          "w": "can",
+          "start": 293.423,
+          "end": 293.644
+        },
+        {
+          "w": "wait!",
+          "start": 293.644,
+          "end": 293.92
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "start": 295.67,
+      "end": 298.27,
+      "text": "Bye-bye, friends! Thank you for waiting with me!",
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 295.7,
+          "end": 296.225
+        },
+        {
+          "w": "friends!",
+          "start": 296.225,
+          "end": 296.633
+        },
+        {
+          "w": "Thank",
+          "start": 296.633,
+          "end": 296.925
+        },
+        {
+          "w": "you",
+          "start": 296.925,
+          "end": 297.1
+        },
+        {
+          "w": "for",
+          "start": 297.1,
+          "end": 297.333
+        },
+        {
+          "w": "waiting",
+          "start": 297.333,
+          "end": 297.742
+        },
+        {
+          "w": "with",
+          "start": 297.742,
+          "end": 297.917
+        },
+        {
+          "w": "me!",
+          "start": 297.917,
+          "end": 298.15
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "leo",
+      "start": 298.93,
+      "end": 299.8,
+      "text": "Bye-bye!",
+      "words": [
+        {
+          "w": "Bye-bye!",
+          "start": 298.97,
+          "end": 299.69
+        }
+      ]
+    },
+    {
+      "beat": "ask_end",
+      "speaker": "narrator",
+      "start": 301.27,
+      "end": 303.78,
+      "text": "What will YOU do, the next time you have to wait?",
+      "words": [
+        {
+          "w": "What",
+          "start": 301.3,
+          "end": 301.5
+        },
+        {
+          "w": "will",
+          "start": 301.5,
+          "end": 301.7
+        },
+        {
+          "w": "YOU",
+          "start": 301.7,
+          "end": 301.85
+        },
+        {
+          "w": "do,",
+          "start": 301.85,
+          "end": 302.05
+        },
+        {
+          "w": "the",
+          "start": 302.3,
+          "end": 302.399
+        },
+        {
+          "w": "next",
+          "start": 302.399,
+          "end": 302.697
+        },
+        {
+          "w": "time",
+          "start": 302.697,
+          "end": 302.945
+        },
+        {
+          "w": "you",
+          "start": 302.945,
+          "end": 303.094
+        },
+        {
+          "w": "have",
+          "start": 303.094,
+          "end": 303.293
+        },
+        {
+          "w": "to",
+          "start": 303.293,
+          "end": 303.442
+        },
+        {
+          "w": "wait?",
+          "start": 303.442,
+          "end": 303.69
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "intro",
+      "start": 0,
+      "visual": "It's a sunny day at the playground!",
+      "end": 6.84
+    },
+    {
+      "id": "mila_hi",
+      "start": 6.84,
+      "visual": "Hi, friends! I'm Spark Girl! I love the swing!",
+      "end": 11.29
+    },
+    {
+      "id": "see",
+      "start": 11.29,
+      "visual": "But look! Leo is on the swing.",
+      "end": 14.26
+    },
+    {
+      "id": "leo_wee",
+      "start": 14.26,
+      "visual": "Wheee! Higher and higher!",
+      "end": 16.97
+    },
+    {
+      "id": "want",
+      "start": 16.97,
+      "visual": "My turn! My turn! I want the swing NOW!",
+      "end": 20.88
+    },
+    {
+      "id": "hurry",
+      "start": 20.88,
+      "visual": "Hurry up, Leo! Hurry, hurry, hurry!",
+      "end": 24.56
+    },
+    {
+      "id": "leo_sad",
+      "start": 24.56,
+      "visual": "But I just got on...",
+      "end": 27.7
+    },
+    {
+      "id": "feel",
+      "start": 27.7,
+      "visual": "Leo feels rushed. And Mila feels impatient. Her feet go stomp, stomp, stomp!",
+      "end": 34.7
+    },
+    {
+      "id": "word",
+      "start": 34.7,
+      "visual": "Impatient means, it's hard to wait.",
+      "end": 38.85
+    },
+    {
+      "id": "ask",
+      "start": 38.85,
+      "visual": "Waiting is hard! Can you help Mila? What can she do?",
+      "end": 46.07
+    },
+    {
+      "id": "bobo_hi",
+      "start": 46.07,
+      "visual": "Hi, Mila! I know a waiting game. It has three steps!",
+      "end": 50.65
+    },
+    {
+      "id": "s1",
+      "start": 50.65,
+      "visual": "Step one. Ask nicely. Say: Can I have the next turn, please?",
+      "end": 55.79
+    },
+    {
+      "id": "s1_mila",
+      "start": 55.79,
+      "visual": "Leo, can I have the next turn, please?",
+      "end": 59.26
+    },
+    {
+      "id": "s1_leo",
+      "start": 59.26,
+      "visual": "Sure, Mila! You're next!",
+      "end": 62.37
+    },
+    {
+      "id": "s1_turn",
+      "start": 62.37,
+      "visual": "Can you say it with Mila? Can I have the next turn, please? Your turn!",
+      "end": 70.12
+    },
+    {
+      "id": "s2",
+      "start": 70.12,
+      "visual": "Step two. Count to ten. When the sand runs out, it's your turn!",
+      "end": 75.22
+    },
+    {
+      "id": "timer",
+      "start": 75.22,
+      "visual": "Bobo turns over his sand timer. Let's count together!",
+      "end": 80.18
+    },
+    {
+      "id": "k1",
+      "start": 80.18,
+      "visual": "One!",
+      "end": 81.64
+    },
+    {
+      "id": "k2",
+      "start": 81.64,
+      "visual": "Two!",
+      "end": 82.86
+    },
+    {
+      "id": "k3",
+      "start": 82.86,
+      "visual": "Three!",
+      "end": 84.4
+    },
+    {
+      "id": "k4",
+      "start": 84.4,
+      "visual": "Four!",
+      "end": 85.65
+    },
+    {
+      "id": "k5",
+      "start": 85.65,
+      "visual": "Five!",
+      "end": 87.23
+    },
+    {
+      "id": "k6",
+      "start": 87.23,
+      "visual": "Six!",
+      "end": 88.5
+    },
+    {
+      "id": "k7",
+      "start": 88.5,
+      "visual": "Seven!",
+      "end": 90.01
+    },
+    {
+      "id": "k8",
+      "start": 90.01,
+      "visual": "Eight!",
+      "end": 91.23
+    },
+    {
+      "id": "k9",
+      "start": 91.23,
+      "visual": "Nine!",
+      "end": 92.79
+    },
+    {
+      "id": "k10",
+      "start": 92.79,
+      "visual": "Ten!",
+      "end": 94.81
+    },
+    {
+      "id": "s2_done",
+      "start": 94.81,
+      "visual": "Ten! The sand is all gone!",
+      "end": 97.78
+    },
+    {
+      "id": "leo_off",
+      "start": 97.78,
+      "visual": "Here you go, Mila! Your turn!",
+      "end": 100.72
+    },
+    {
+      "id": "swing",
+      "start": 100.72,
+      "visual": "Thank you, Leo! Wheee!",
+      "end": 104.08
+    },
+    {
+      "id": "happy",
+      "start": 104.08,
+      "visual": "Waiting was hard. But Mila did it! And the swing feels even better now!",
+      "end": 111.05
+    },
+    {
+      "id": "next",
+      "start": 111.05,
+      "visual": "Later, the friends paint pictures in the classroom.",
+      "end": 115.33
+    },
+    {
+      "id": "paint",
+      "start": 115.33,
+      "visual": "Look! I painted a big rainbow! I want to hang it up right now!",
+      "end": 120.12
+    },
+    {
+      "id": "bobo_wait",
+      "start": 120.12,
+      "visual": "Wait, Mila! The paint is still wet!",
+      "end": 123.37
+    },
+    {
+      "id": "oops",
+      "start": 123.37,
+      "visual": "Uh-oh! Mila lifts it too fast. Drip, drip! The colors run.",
+      "end": 128.46
+    },
+    {
+      "id": "sad2",
+      "start": 128.46,
+      "visual": "Oh no! My rainbow is all drippy!",
+      "end": 132.32
+    },
+    {
+      "id": "try_again",
+      "start": 132.32,
+      "visual": "Don't worry! Let's paint a new one, and use step three!",
+      "end": 136.61
+    },
+    {
+      "id": "s3",
+      "start": 136.61,
+      "visual": "Step three. Find something fun to do while you wait!",
+      "end": 141.02
+    },
+    {
+      "id": "s3_turn",
+      "start": 141.02,
+      "visual": "What can Mila do while the paint dries? Can you think of something?",
+      "end": 149.12
+    },
+    {
+      "id": "s3_mila",
+      "start": 149.12,
+      "visual": "I know! I can sing a song while it dries!",
+      "end": 152.66
+    },
+    {
+      "id": "sing",
+      "start": 152.66,
+      "visual": "La la la, the paint is drying, la la la!",
+      "end": 156.7
+    },
+    {
+      "id": "s3_leo",
+      "start": 156.7,
+      "visual": "And I can build a tower! One block, two blocks, three blocks!",
+      "end": 162.59
+    },
+    {
+      "id": "dry",
+      "start": 162.59,
+      "visual": "The sun shines through the window, and the paint dries.",
+      "end": 167.26
+    },
+    {
+      "id": "touch",
+      "start": 167.26,
+      "visual": "It's dry! Now I can hang it up!",
+      "end": 170.32
+    },
+    {
+      "id": "wow",
+      "start": 170.32,
+      "visual": "Wow! Your rainbow is beautiful, Mila!",
+      "end": 173.85
+    },
+    {
+      "id": "proud",
+      "start": 173.85,
+      "visual": "Waiting made it even better!",
+      "end": 177.82
+    },
+    {
+      "id": "lesson",
+      "start": 177.82,
+      "visual": "When it's hard to wait, play the waiting game!",
+      "end": 182.87
+    },
+    {
+      "id": "again",
+      "start": 182.87,
+      "visual": "Let's remember the waiting game!",
+      "end": 186.29
+    },
+    {
+      "id": "r1",
+      "start": 186.29,
+      "visual": "Step one. Ask nicely!",
+      "end": 189.81
+    },
+    {
+      "id": "r2",
+      "start": 189.81,
+      "visual": "Step two. Count to ten!",
+      "end": 193.19
+    },
+    {
+      "id": "r3",
+      "start": 193.19,
+      "visual": "Step three. Find something fun to do!",
+      "end": 197.5
+    },
+    {
+      "id": "q1",
+      "start": 197.5,
+      "visual": "What does impatient mean?",
+      "end": 203.66
+    },
+    {
+      "id": "a1",
+      "start": 203.66,
+      "visual": "It's hard to wait!",
+      "end": 207.24
+    },
+    {
+      "id": "q2",
+      "start": 207.24,
+      "visual": "What did Mila say to Leo? Can you say it?",
+      "end": 214.43
+    },
+    {
+      "id": "a2",
+      "start": 214.43,
+      "visual": "Can I have the next turn, please?",
+      "end": 218.47
+    },
+    {
+      "id": "q3",
+      "start": 218.47,
+      "visual": "Why did Mila's first rainbow get drippy?",
+      "end": 225.57
+    },
+    {
+      "id": "a3",
+      "start": 225.57,
+      "visual": "The paint was still wet!",
+      "end": 228.82
+    },
+    {
+      "id": "q4",
+      "start": 228.82,
+      "visual": "What can YOU do while you wait?",
+      "end": 235.43
+    },
+    {
+      "id": "a4",
+      "start": 235.43,
+      "visual": "Sing a song, build a tower, or read a book!",
+      "end": 240.02
+    },
+    {
+      "id": "q5",
+      "start": 240.02,
+      "visual": "How long did Mila wait for the swing? Until the sand ran out, and she counted to...",
+      "end": 249.59
+    },
+    {
+      "id": "a5",
+      "start": 249.59,
+      "visual": "Ten!",
+      "end": 252.41
+    },
+    {
+      "id": "chant",
+      "start": 252.41,
+      "visual": "Let's say the waiting game together!",
+      "end": 255.33
+    },
+    {
+      "id": "ch1",
+      "start": 255.33,
+      "visual": "Ask nicely, count to ten, find something fun!",
+      "end": 259.85
+    },
+    {
+      "id": "ch_turn",
+      "start": 259.85,
+      "visual": "Your turn!",
+      "end": 264.86
+    },
+    {
+      "id": "ch2",
+      "start": 264.86,
+      "visual": "Ask nicely, count to ten, find something fun!",
+      "end": 269.58
+    },
+    {
+      "id": "ch_more",
+      "start": 269.58,
+      "visual": "One more time, all together!",
+      "end": 272.55
+    },
+    {
+      "id": "ch3",
+      "start": 272.55,
+      "visual": "Ask nicely, count to ten, find something fun!",
+      "end": 277.19
+    },
+    {
+      "id": "count_turn",
+      "start": 277.19,
+      "visual": "Now you count to ten, all by yourself! Watch the sand. Ready? Go!",
+      "end": 292.53
+    },
+    {
+      "id": "great",
+      "start": 292.53,
+      "visual": "You did it! You can wait!",
+      "end": 295.47
+    },
+    {
+      "id": "bye",
+      "start": 295.47,
+      "visual": "Bye-bye, friends! Thank you for waiting with me!",
+      "end": 298.73
+    },
+    {
+      "id": "bye2",
+      "start": 298.73,
+      "visual": "Bye-bye!",
+      "end": 301.07
+    },
+    {
+      "id": "ask_end",
+      "start": 301.07,
+      "visual": "What will YOU do, the next time you have to wait?",
+      "end": 306.8
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

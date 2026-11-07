@@ -1,0 +1,3498 @@
+{
+  "id": "day-036",
+  "series": "tiny-sparks",
+  "episode": 36,
+  "title": "The Greedy Little Monkey",
+  "composition": "KidsMorals036",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 306.6
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-10%"
+    },
+    "momo": {
+      "kokoro": "am_echo:0.5+af_jessica:0.5",
+      "rate": "-2%"
+    },
+    "bella": {
+      "kokoro": "bf_lily",
+      "rate": "-4%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "intro",
+      "speaker": "narrator",
+      "start": 1.8,
+      "end": 5.0,
+      "text": "Deep in the jungle, lives a little monkey called Momo.",
+      "words": [
+        {
+          "w": "Deep",
+          "start": 1.85,
+          "end": 2.125
+        },
+        {
+          "w": "in",
+          "start": 2.125,
+          "end": 2.29
+        },
+        {
+          "w": "the",
+          "start": 2.29,
+          "end": 2.4
+        },
+        {
+          "w": "jungle,",
+          "start": 2.4,
+          "end": 2.84
+        },
+        {
+          "w": "lives",
+          "start": 3.17,
+          "end": 3.479
+        },
+        {
+          "w": "a",
+          "start": 3.479,
+          "end": 3.633
+        },
+        {
+          "w": "little",
+          "start": 3.633,
+          "end": 3.942
+        },
+        {
+          "w": "monkey",
+          "start": 3.942,
+          "end": 4.251
+        },
+        {
+          "w": "called",
+          "start": 4.251,
+          "end": 4.56
+        },
+        {
+          "w": "Momo.",
+          "start": 4.56,
+          "end": 4.92
+        }
+      ]
+    },
+    {
+      "beat": "hi",
+      "speaker": "momo",
+      "start": 6.2,
+      "end": 8.42,
+      "text": "Hi! I'm Momo! Ooh ooh, ah ah!",
+      "words": [
+        {
+          "w": "Hi!",
+          "start": 6.24,
+          "end": 6.542
+        },
+        {
+          "w": "I'm",
+          "start": 6.542,
+          "end": 6.768
+        },
+        {
+          "w": "Momo!",
+          "start": 6.768,
+          "end": 7.295
+        },
+        {
+          "w": "Ooh",
+          "start": 7.295,
+          "end": 7.522
+        },
+        {
+          "w": "ooh,",
+          "start": 7.522,
+          "end": 7.748
+        },
+        {
+          "w": "ah",
+          "start": 7.748,
+          "end": 7.974
+        },
+        {
+          "w": "ah!",
+          "start": 7.974,
+          "end": 8.2
+        }
+      ]
+    },
+    {
+      "beat": "jar",
+      "speaker": "narrator",
+      "start": 10.42,
+      "end": 14.07,
+      "text": "Look! Under the big tree, there is a jar, full of yummy nuts!",
+      "words": [
+        {
+          "w": "Look!",
+          "start": 10.45,
+          "end": 10.729
+        },
+        {
+          "w": "Under",
+          "start": 10.729,
+          "end": 11.078
+        },
+        {
+          "w": "the",
+          "start": 11.078,
+          "end": 11.218
+        },
+        {
+          "w": "big",
+          "start": 11.218,
+          "end": 11.497
+        },
+        {
+          "w": "tree,",
+          "start": 11.497,
+          "end": 11.846
+        },
+        {
+          "w": "there",
+          "start": 11.846,
+          "end": 12.125
+        },
+        {
+          "w": "is",
+          "start": 12.125,
+          "end": 12.265
+        },
+        {
+          "w": "a",
+          "start": 12.265,
+          "end": 12.474
+        },
+        {
+          "w": "jar,",
+          "start": 12.474,
+          "end": 12.893
+        },
+        {
+          "w": "full",
+          "start": 12.893,
+          "end": 13.172
+        },
+        {
+          "w": "of",
+          "start": 13.172,
+          "end": 13.312
+        },
+        {
+          "w": "yummy",
+          "start": 13.312,
+          "end": 13.661
+        },
+        {
+          "w": "nuts!",
+          "start": 13.661,
+          "end": 14.01
+        }
+      ]
+    },
+    {
+      "beat": "want",
+      "speaker": "momo",
+      "start": 15.47,
+      "end": 17.85,
+      "text": "Nuts! I love nuts! I want them all!",
+      "words": [
+        {
+          "w": "Nuts!",
+          "start": 15.51,
+          "end": 15.824
+        },
+        {
+          "w": "I",
+          "start": 15.824,
+          "end": 16.012
+        },
+        {
+          "w": "love",
+          "start": 16.012,
+          "end": 16.263
+        },
+        {
+          "w": "nuts!",
+          "start": 16.263,
+          "end": 16.576
+        },
+        {
+          "w": "I",
+          "start": 16.576,
+          "end": 16.765
+        },
+        {
+          "w": "want",
+          "start": 16.765,
+          "end": 17.078
+        },
+        {
+          "w": "them",
+          "start": 17.078,
+          "end": 17.329
+        },
+        {
+          "w": "all!",
+          "start": 17.329,
+          "end": 17.58
+        }
+      ]
+    },
+    {
+      "beat": "bella",
+      "speaker": "bella",
+      "start": 20.05,
+      "end": 22.75,
+      "text": "Hi, Momo! Ooh, nuts! Can we have some too?",
+      "words": [
+        {
+          "w": "Hi,",
+          "start": 20.09,
+          "end": 20.359
+        },
+        {
+          "w": "Momo!",
+          "start": 20.359,
+          "end": 20.831
+        },
+        {
+          "w": "Ooh,",
+          "start": 20.831,
+          "end": 21.033
+        },
+        {
+          "w": "nuts!",
+          "start": 21.033,
+          "end": 21.37
+        },
+        {
+          "w": "Can",
+          "start": 21.37,
+          "end": 21.639
+        },
+        {
+          "w": "we",
+          "start": 21.639,
+          "end": 21.842
+        },
+        {
+          "w": "have",
+          "start": 21.842,
+          "end": 22.111
+        },
+        {
+          "w": "some",
+          "start": 22.111,
+          "end": 22.381
+        },
+        {
+          "w": "too?",
+          "start": 22.381,
+          "end": 22.65
+        }
+      ]
+    },
+    {
+      "beat": "bobo",
+      "speaker": "bobo",
+      "start": 23.55,
+      "end": 24.68,
+      "text": "Yum! Let's share them!",
+      "words": [
+        {
+          "w": "Yum!",
+          "start": 23.58,
+          "end": 23.799
+        },
+        {
+          "w": "Let's",
+          "start": 23.799,
+          "end": 24.072
+        },
+        {
+          "w": "share",
+          "start": 24.072,
+          "end": 24.291
+        },
+        {
+          "w": "them!",
+          "start": 24.291,
+          "end": 24.51
+        }
+      ]
+    },
+    {
+      "beat": "no",
+      "speaker": "momo",
+      "start": 26.08,
+      "end": 28.51,
+      "text": "No! They're all mine! Mine, mine, mine!",
+      "words": [
+        {
+          "w": "No!",
+          "start": 26.11,
+          "end": 26.379
+        },
+        {
+          "w": "They're",
+          "start": 26.379,
+          "end": 26.648
+        },
+        {
+          "w": "all",
+          "start": 26.648,
+          "end": 26.916
+        },
+        {
+          "w": "mine!",
+          "start": 26.916,
+          "end": 27.252
+        },
+        {
+          "w": "Mine,",
+          "start": 27.252,
+          "end": 27.588
+        },
+        {
+          "w": "mine,",
+          "start": 27.588,
+          "end": 27.924
+        },
+        {
+          "w": "mine!",
+          "start": 27.924,
+          "end": 28.26
+        }
+      ]
+    },
+    {
+      "beat": "sad",
+      "speaker": "narrator",
+      "start": 30.71,
+      "end": 34.18,
+      "text": "Bella and Bobo feel sad. They sit down under the tree.",
+      "words": [
+        {
+          "w": "Bella",
+          "start": 30.74,
+          "end": 31.078
+        },
+        {
+          "w": "and",
+          "start": 31.078,
+          "end": 31.28
+        },
+        {
+          "w": "Bobo",
+          "start": 31.28,
+          "end": 31.752
+        },
+        {
+          "w": "feel",
+          "start": 31.752,
+          "end": 32.09
+        },
+        {
+          "w": "sad.",
+          "start": 32.09,
+          "end": 32.36
+        },
+        {
+          "w": "They",
+          "start": 32.73,
+          "end": 32.899
+        },
+        {
+          "w": "sit",
+          "start": 32.899,
+          "end": 33.124
+        },
+        {
+          "w": "down",
+          "start": 33.124,
+          "end": 33.405
+        },
+        {
+          "w": "under",
+          "start": 33.405,
+          "end": 33.686
+        },
+        {
+          "w": "the",
+          "start": 33.686,
+          "end": 33.799
+        },
+        {
+          "w": "tree.",
+          "start": 33.799,
+          "end": 34.08
+        }
+      ]
+    },
+    {
+      "beat": "sad_q",
+      "speaker": "narrator",
+      "start": 36.18,
+      "end": 38.48,
+      "text": "How would YOU feel, if a friend said no?",
+      "words": [
+        {
+          "w": "How",
+          "start": 36.21,
+          "end": 36.442
+        },
+        {
+          "w": "would",
+          "start": 36.442,
+          "end": 36.675
+        },
+        {
+          "w": "YOU",
+          "start": 36.675,
+          "end": 36.849
+        },
+        {
+          "w": "feel,",
+          "start": 36.849,
+          "end": 37.14
+        },
+        {
+          "w": "if",
+          "start": 37.35,
+          "end": 37.455
+        },
+        {
+          "w": "a",
+          "start": 37.455,
+          "end": 37.613
+        },
+        {
+          "w": "friend",
+          "start": 37.613,
+          "end": 37.929
+        },
+        {
+          "w": "said",
+          "start": 37.929,
+          "end": 38.139
+        },
+        {
+          "w": "no?",
+          "start": 38.139,
+          "end": 38.35
+        }
+      ]
+    },
+    {
+      "beat": "grab",
+      "speaker": "narrator",
+      "start": 42.48,
+      "end": 47.34,
+      "text": "Momo pushes his hand into the jar, and grabs a big, big handful of nuts.",
+      "words": [
+        {
+          "w": "Momo",
+          "start": 42.53,
+          "end": 42.916
+        },
+        {
+          "w": "pushes",
+          "start": 42.916,
+          "end": 43.247
+        },
+        {
+          "w": "his",
+          "start": 43.247,
+          "end": 43.467
+        },
+        {
+          "w": "hand",
+          "start": 43.467,
+          "end": 43.743
+        },
+        {
+          "w": "into",
+          "start": 43.743,
+          "end": 44.019
+        },
+        {
+          "w": "the",
+          "start": 44.019,
+          "end": 44.129
+        },
+        {
+          "w": "jar,",
+          "start": 44.129,
+          "end": 44.46
+        },
+        {
+          "w": "and",
+          "start": 44.88,
+          "end": 45.073
+        },
+        {
+          "w": "grabs",
+          "start": 45.073,
+          "end": 45.459
+        },
+        {
+          "w": "a",
+          "start": 45.459,
+          "end": 45.653
+        },
+        {
+          "w": "big,",
+          "start": 45.653,
+          "end": 45.91
+        },
+        {
+          "w": "big",
+          "start": 46.15,
+          "end": 46.388
+        },
+        {
+          "w": "handful",
+          "start": 46.388,
+          "end": 46.864
+        },
+        {
+          "w": "of",
+          "start": 46.864,
+          "end": 46.983
+        },
+        {
+          "w": "nuts.",
+          "start": 46.983,
+          "end": 47.28
+        }
+      ]
+    },
+    {
+      "beat": "stuck",
+      "speaker": "momo",
+      "start": 49.74,
+      "end": 51.57,
+      "text": "Huh? My hand! It's stuck!",
+      "words": [
+        {
+          "w": "Huh?",
+          "start": 49.78,
+          "end": 50.019
+        },
+        {
+          "w": "My",
+          "start": 50.019,
+          "end": 50.337
+        },
+        {
+          "w": "hand!",
+          "start": 50.337,
+          "end": 50.734
+        },
+        {
+          "w": "It's",
+          "start": 50.734,
+          "end": 50.972
+        },
+        {
+          "w": "stuck!",
+          "start": 50.972,
+          "end": 51.37
+        }
+      ]
+    },
+    {
+      "beat": "pull",
+      "speaker": "narrator",
+      "start": 53.17,
+      "end": 57.24,
+      "text": "Momo pulls, and pulls, and pulls... but his hand won't come out!",
+      "words": [
+        {
+          "w": "Momo",
+          "start": 53.21,
+          "end": 53.714
+        },
+        {
+          "w": "pulls,",
+          "start": 53.714,
+          "end": 54.074
+        },
+        {
+          "w": "and",
+          "start": 54.074,
+          "end": 54.29
+        },
+        {
+          "w": "pulls,",
+          "start": 54.29,
+          "end": 54.65
+        },
+        {
+          "w": "and",
+          "start": 54.65,
+          "end": 54.866
+        },
+        {
+          "w": "pulls...",
+          "start": 54.866,
+          "end": 55.226
+        },
+        {
+          "w": "but",
+          "start": 55.226,
+          "end": 55.514
+        },
+        {
+          "w": "his",
+          "start": 55.514,
+          "end": 55.802
+        },
+        {
+          "w": "hand",
+          "start": 55.802,
+          "end": 56.162
+        },
+        {
+          "w": "won't",
+          "start": 56.162,
+          "end": 56.594
+        },
+        {
+          "w": "come",
+          "start": 56.594,
+          "end": 56.882
+        },
+        {
+          "w": "out!",
+          "start": 56.882,
+          "end": 57.17
+        }
+      ]
+    },
+    {
+      "beat": "hop",
+      "speaker": "narrator",
+      "start": 58.84,
+      "end": 62.76,
+      "text": "He hops around with the jar on his hand. Boing, boing, boing!",
+      "words": [
+        {
+          "w": "He",
+          "start": 58.88,
+          "end": 59.09
+        },
+        {
+          "w": "hops",
+          "start": 59.09,
+          "end": 59.51
+        },
+        {
+          "w": "around",
+          "start": 59.51,
+          "end": 60.0
+        },
+        {
+          "w": "with",
+          "start": 60.0,
+          "end": 60.21
+        },
+        {
+          "w": "the",
+          "start": 60.21,
+          "end": 60.35
+        },
+        {
+          "w": "jar",
+          "start": 60.35,
+          "end": 60.77
+        },
+        {
+          "w": "on",
+          "start": 60.77,
+          "end": 60.98
+        },
+        {
+          "w": "his",
+          "start": 60.98,
+          "end": 61.26
+        },
+        {
+          "w": "hand.",
+          "start": 61.26,
+          "end": 61.61
+        },
+        {
+          "w": "Boing,",
+          "start": 61.61,
+          "end": 61.96
+        },
+        {
+          "w": "boing,",
+          "start": 61.96,
+          "end": 62.31
+        },
+        {
+          "w": "boing!",
+          "start": 62.31,
+          "end": 62.66
+        }
+      ]
+    },
+    {
+      "beat": "upset",
+      "speaker": "momo",
+      "start": 64.76,
+      "end": 66.87,
+      "text": "Help! I can't get my hand out!",
+      "words": [
+        {
+          "w": "Help!",
+          "start": 64.8,
+          "end": 65.11
+        },
+        {
+          "w": "I",
+          "start": 65.11,
+          "end": 65.296
+        },
+        {
+          "w": "can't",
+          "start": 65.296,
+          "end": 65.606
+        },
+        {
+          "w": "get",
+          "start": 65.606,
+          "end": 65.854
+        },
+        {
+          "w": "my",
+          "start": 65.854,
+          "end": 66.102
+        },
+        {
+          "w": "hand",
+          "start": 66.102,
+          "end": 66.412
+        },
+        {
+          "w": "out!",
+          "start": 66.412,
+          "end": 66.66
+        }
+      ]
+    },
+    {
+      "beat": "feel",
+      "speaker": "narrator",
+      "start": 68.67,
+      "end": 72.14,
+      "text": "Momo feels upset. And he feels a little bit sorry, too.",
+      "words": [
+        {
+          "w": "Momo",
+          "start": 68.72,
+          "end": 69.152
+        },
+        {
+          "w": "feels",
+          "start": 69.152,
+          "end": 69.522
+        },
+        {
+          "w": "upset.",
+          "start": 69.522,
+          "end": 69.892
+        },
+        {
+          "w": "And",
+          "start": 69.892,
+          "end": 70.077
+        },
+        {
+          "w": "he",
+          "start": 70.077,
+          "end": 70.262
+        },
+        {
+          "w": "feels",
+          "start": 70.262,
+          "end": 70.632
+        },
+        {
+          "w": "a",
+          "start": 70.632,
+          "end": 70.817
+        },
+        {
+          "w": "little",
+          "start": 70.817,
+          "end": 71.187
+        },
+        {
+          "w": "bit",
+          "start": 71.187,
+          "end": 71.433
+        },
+        {
+          "w": "sorry,",
+          "start": 71.433,
+          "end": 71.803
+        },
+        {
+          "w": "too.",
+          "start": 71.803,
+          "end": 72.05
+        }
+      ]
+    },
+    {
+      "beat": "word",
+      "speaker": "narrator",
+      "start": 74.34,
+      "end": 78.84,
+      "text": "Momo was greedy. Greedy means, wanting everything just for yourself.",
+      "words": [
+        {
+          "w": "Momo",
+          "start": 74.38,
+          "end": 74.821
+        },
+        {
+          "w": "was",
+          "start": 74.821,
+          "end": 75.009
+        },
+        {
+          "w": "greedy.",
+          "start": 75.009,
+          "end": 75.45
+        },
+        {
+          "w": "Greedy",
+          "start": 75.92,
+          "end": 76.335
+        },
+        {
+          "w": "means,",
+          "start": 76.335,
+          "end": 76.69
+        },
+        {
+          "w": "wanting",
+          "start": 76.88,
+          "end": 77.26
+        },
+        {
+          "w": "everything",
+          "start": 77.26,
+          "end": 77.749
+        },
+        {
+          "w": "just",
+          "start": 77.749,
+          "end": 78.074
+        },
+        {
+          "w": "for",
+          "start": 78.074,
+          "end": 78.291
+        },
+        {
+          "w": "yourself.",
+          "start": 78.291,
+          "end": 78.78
+        }
+      ]
+    },
+    {
+      "beat": "ask",
+      "speaker": "narrator",
+      "start": 80.84,
+      "end": 83.03,
+      "text": "Can you help Momo? What should he do?",
+      "words": [
+        {
+          "w": "Can",
+          "start": 80.91,
+          "end": 81.114
+        },
+        {
+          "w": "you",
+          "start": 81.114,
+          "end": 81.267
+        },
+        {
+          "w": "help",
+          "start": 81.267,
+          "end": 81.523
+        },
+        {
+          "w": "Momo?",
+          "start": 81.523,
+          "end": 81.88
+        },
+        {
+          "w": "What",
+          "start": 82.15,
+          "end": 82.361
+        },
+        {
+          "w": "should",
+          "start": 82.361,
+          "end": 82.571
+        },
+        {
+          "w": "he",
+          "start": 82.571,
+          "end": 82.729
+        },
+        {
+          "w": "do?",
+          "start": 82.729,
+          "end": 82.94
+        }
+      ]
+    },
+    {
+      "beat": "kind",
+      "speaker": "bobo",
+      "start": 87.63,
+      "end": 89.5,
+      "text": "Momo, don't worry. I can help you!",
+      "words": [
+        {
+          "w": "Momo,",
+          "start": 87.66,
+          "end": 88.018
+        },
+        {
+          "w": "don't",
+          "start": 88.018,
+          "end": 88.326
+        },
+        {
+          "w": "worry.",
+          "start": 88.326,
+          "end": 88.582
+        },
+        {
+          "w": "I",
+          "start": 88.582,
+          "end": 88.735
+        },
+        {
+          "w": "can",
+          "start": 88.735,
+          "end": 88.94
+        },
+        {
+          "w": "help",
+          "start": 88.94,
+          "end": 89.196
+        },
+        {
+          "w": "you!",
+          "start": 89.196,
+          "end": 89.35
+        }
+      ]
+    },
+    {
+      "beat": "tip",
+      "speaker": "bobo",
+      "start": 90.9,
+      "end": 95.33,
+      "text": "Your hand is full of too many nuts. Let go of some, and take just a few!",
+      "words": [
+        {
+          "w": "Your",
+          "start": 90.93,
+          "end": 91.118
+        },
+        {
+          "w": "hand",
+          "start": 91.118,
+          "end": 91.431
+        },
+        {
+          "w": "is",
+          "start": 91.431,
+          "end": 91.556
+        },
+        {
+          "w": "full",
+          "start": 91.556,
+          "end": 91.806
+        },
+        {
+          "w": "of",
+          "start": 91.806,
+          "end": 91.931
+        },
+        {
+          "w": "too",
+          "start": 91.931,
+          "end": 92.182
+        },
+        {
+          "w": "many",
+          "start": 92.182,
+          "end": 92.494
+        },
+        {
+          "w": "nuts.",
+          "start": 92.494,
+          "end": 92.807
+        },
+        {
+          "w": "Let",
+          "start": 92.807,
+          "end": 93.058
+        },
+        {
+          "w": "go",
+          "start": 93.058,
+          "end": 93.308
+        },
+        {
+          "w": "of",
+          "start": 93.308,
+          "end": 93.433
+        },
+        {
+          "w": "some,",
+          "start": 93.433,
+          "end": 93.683
+        },
+        {
+          "w": "and",
+          "start": 93.683,
+          "end": 93.871
+        },
+        {
+          "w": "take",
+          "start": 93.871,
+          "end": 94.184
+        },
+        {
+          "w": "just",
+          "start": 94.184,
+          "end": 94.559
+        },
+        {
+          "w": "a",
+          "start": 94.559,
+          "end": 94.747
+        },
+        {
+          "w": "few!",
+          "start": 94.747,
+          "end": 95.06
+        }
+      ]
+    },
+    {
+      "beat": "but",
+      "speaker": "momo",
+      "start": 96.93,
+      "end": 98.59,
+      "text": "But... I want them all!",
+      "words": [
+        {
+          "w": "But...",
+          "start": 96.98,
+          "end": 97.264
+        },
+        {
+          "w": "I",
+          "start": 97.264,
+          "end": 97.477
+        },
+        {
+          "w": "want",
+          "start": 97.477,
+          "end": 97.832
+        },
+        {
+          "w": "them",
+          "start": 97.832,
+          "end": 98.116
+        },
+        {
+          "w": "all!",
+          "start": 98.116,
+          "end": 98.4
+        }
+      ]
+    },
+    {
+      "beat": "bella_tip",
+      "speaker": "bella",
+      "start": 99.99,
+      "end": 102.48,
+      "text": "If you hold too many, you can't get any!",
+      "words": [
+        {
+          "w": "If",
+          "start": 100.03,
+          "end": 100.158
+        },
+        {
+          "w": "you",
+          "start": 100.158,
+          "end": 100.35
+        },
+        {
+          "w": "hold",
+          "start": 100.35,
+          "end": 100.735
+        },
+        {
+          "w": "too",
+          "start": 100.735,
+          "end": 100.991
+        },
+        {
+          "w": "many,",
+          "start": 100.991,
+          "end": 101.311
+        },
+        {
+          "w": "you",
+          "start": 101.311,
+          "end": 101.503
+        },
+        {
+          "w": "can't",
+          "start": 101.503,
+          "end": 101.888
+        },
+        {
+          "w": "get",
+          "start": 101.888,
+          "end": 102.144
+        },
+        {
+          "w": "any!",
+          "start": 102.144,
+          "end": 102.4
+        }
+      ]
+    },
+    {
+      "beat": "try",
+      "speaker": "narrator",
+      "start": 104.48,
+      "end": 108.64,
+      "text": "Momo opens his hand, lets go of the nuts, and keeps just a few.",
+      "words": [
+        {
+          "w": "Momo",
+          "start": 104.51,
+          "end": 104.952
+        },
+        {
+          "w": "opens",
+          "start": 104.952,
+          "end": 105.394
+        },
+        {
+          "w": "his",
+          "start": 105.394,
+          "end": 105.646
+        },
+        {
+          "w": "hand,",
+          "start": 105.646,
+          "end": 105.962
+        },
+        {
+          "w": "lets",
+          "start": 105.962,
+          "end": 106.278
+        },
+        {
+          "w": "go",
+          "start": 106.278,
+          "end": 106.53
+        },
+        {
+          "w": "of",
+          "start": 106.53,
+          "end": 106.656
+        },
+        {
+          "w": "the",
+          "start": 106.656,
+          "end": 106.783
+        },
+        {
+          "w": "nuts,",
+          "start": 106.783,
+          "end": 107.098
+        },
+        {
+          "w": "and",
+          "start": 107.098,
+          "end": 107.288
+        },
+        {
+          "w": "keeps",
+          "start": 107.288,
+          "end": 107.666
+        },
+        {
+          "w": "just",
+          "start": 107.666,
+          "end": 108.045
+        },
+        {
+          "w": "a",
+          "start": 108.045,
+          "end": 108.234
+        },
+        {
+          "w": "few.",
+          "start": 108.234,
+          "end": 108.55
+        }
+      ]
+    },
+    {
+      "beat": "out",
+      "speaker": "momo",
+      "start": 110.64,
+      "end": 113.09,
+      "text": "Pop! My hand is free! Thank you, Bobo!",
+      "words": [
+        {
+          "w": "Pop!",
+          "start": 110.66,
+          "end": 110.964
+        },
+        {
+          "w": "My",
+          "start": 110.964,
+          "end": 111.208
+        },
+        {
+          "w": "hand",
+          "start": 111.208,
+          "end": 111.512
+        },
+        {
+          "w": "is",
+          "start": 111.512,
+          "end": 111.633
+        },
+        {
+          "w": "free!",
+          "start": 111.633,
+          "end": 111.937
+        },
+        {
+          "w": "Thank",
+          "start": 111.937,
+          "end": 112.242
+        },
+        {
+          "w": "you,",
+          "start": 112.242,
+          "end": 112.424
+        },
+        {
+          "w": "Bobo!",
+          "start": 112.424,
+          "end": 112.85
+        }
+      ]
+    },
+    {
+      "beat": "think",
+      "speaker": "narrator",
+      "start": 115.09,
+      "end": 118.14,
+      "text": "Momo looks at his friends. They were so kind to him.",
+      "words": [
+        {
+          "w": "Momo",
+          "start": 115.12,
+          "end": 115.512
+        },
+        {
+          "w": "looks",
+          "start": 115.512,
+          "end": 115.792
+        },
+        {
+          "w": "at",
+          "start": 115.792,
+          "end": 115.904
+        },
+        {
+          "w": "his",
+          "start": 115.904,
+          "end": 116.128
+        },
+        {
+          "w": "friends.",
+          "start": 116.128,
+          "end": 116.52
+        },
+        {
+          "w": "They",
+          "start": 116.84,
+          "end": 116.997
+        },
+        {
+          "w": "were",
+          "start": 116.997,
+          "end": 117.153
+        },
+        {
+          "w": "so",
+          "start": 117.153,
+          "end": 117.362
+        },
+        {
+          "w": "kind",
+          "start": 117.362,
+          "end": 117.675
+        },
+        {
+          "w": "to",
+          "start": 117.675,
+          "end": 117.831
+        },
+        {
+          "w": "him.",
+          "start": 117.831,
+          "end": 118.04
+        }
+      ]
+    },
+    {
+      "beat": "sorry",
+      "speaker": "momo",
+      "start": 119.74,
+      "end": 123.57,
+      "text": "I'm sorry I was greedy. There are lots of nuts. Let's share them!",
+      "words": [
+        {
+          "w": "I'm",
+          "start": 119.78,
+          "end": 119.97
+        },
+        {
+          "w": "sorry",
+          "start": 119.97,
+          "end": 120.349
+        },
+        {
+          "w": "I",
+          "start": 120.349,
+          "end": 120.539
+        },
+        {
+          "w": "was",
+          "start": 120.539,
+          "end": 120.729
+        },
+        {
+          "w": "greedy.",
+          "start": 120.729,
+          "end": 121.172
+        },
+        {
+          "w": "There",
+          "start": 121.172,
+          "end": 121.425
+        },
+        {
+          "w": "are",
+          "start": 121.425,
+          "end": 121.615
+        },
+        {
+          "w": "lots",
+          "start": 121.615,
+          "end": 121.995
+        },
+        {
+          "w": "of",
+          "start": 121.995,
+          "end": 122.121
+        },
+        {
+          "w": "nuts.",
+          "start": 122.121,
+          "end": 122.437
+        },
+        {
+          "w": "Let's",
+          "start": 122.437,
+          "end": 122.754
+        },
+        {
+          "w": "share",
+          "start": 122.754,
+          "end": 123.007
+        },
+        {
+          "w": "them!",
+          "start": 123.007,
+          "end": 123.26
+        }
+      ]
+    },
+    {
+      "beat": "yay",
+      "speaker": "bella",
+      "start": 124.77,
+      "end": 126.43,
+      "text": "Yay! Thank you, Momo!",
+      "words": [
+        {
+          "w": "Yay!",
+          "start": 124.79,
+          "end": 125.114
+        },
+        {
+          "w": "Thank",
+          "start": 125.114,
+          "end": 125.519
+        },
+        {
+          "w": "you,",
+          "start": 125.519,
+          "end": 125.763
+        },
+        {
+          "w": "Momo!",
+          "start": 125.763,
+          "end": 126.33
+        }
+      ]
+    },
+    {
+      "beat": "count_go",
+      "speaker": "narrator",
+      "start": 128.43,
+      "end": 131.22,
+      "text": "Momo shares the nuts. Let's count together!",
+      "words": [
+        {
+          "w": "Momo",
+          "start": 128.48,
+          "end": 128.955
+        },
+        {
+          "w": "shares",
+          "start": 128.955,
+          "end": 129.295
+        },
+        {
+          "w": "the",
+          "start": 129.295,
+          "end": 129.431
+        },
+        {
+          "w": "nuts.",
+          "start": 129.431,
+          "end": 129.77
+        },
+        {
+          "w": "Let's",
+          "start": 130.08,
+          "end": 130.366
+        },
+        {
+          "w": "count",
+          "start": 130.366,
+          "end": 130.709
+        },
+        {
+          "w": "together!",
+          "start": 130.709,
+          "end": 131.11
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "momo",
+      "start": 132.62,
+      "end": 135.26,
+      "text": "One for Bella, one for Bobo, one for me!",
+      "words": [
+        {
+          "w": "One",
+          "start": 132.65,
+          "end": 132.883
+        },
+        {
+          "w": "for",
+          "start": 132.883,
+          "end": 133.116
+        },
+        {
+          "w": "Bella,",
+          "start": 133.116,
+          "end": 133.407
+        },
+        {
+          "w": "one",
+          "start": 133.407,
+          "end": 133.64
+        },
+        {
+          "w": "for",
+          "start": 133.64,
+          "end": 133.873
+        },
+        {
+          "w": "Bobo,",
+          "start": 133.873,
+          "end": 134.281
+        },
+        {
+          "w": "one",
+          "start": 134.281,
+          "end": 134.514
+        },
+        {
+          "w": "for",
+          "start": 134.514,
+          "end": 134.747
+        },
+        {
+          "w": "me!",
+          "start": 134.747,
+          "end": 134.98
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "momo",
+      "start": 136.86,
+      "end": 139.54,
+      "text": "Two for Bella, two for Bobo, two for me!",
+      "words": [
+        {
+          "w": "Two",
+          "start": 136.89,
+          "end": 137.128
+        },
+        {
+          "w": "for",
+          "start": 137.128,
+          "end": 137.366
+        },
+        {
+          "w": "Bella,",
+          "start": 137.366,
+          "end": 137.664
+        },
+        {
+          "w": "two",
+          "start": 137.664,
+          "end": 137.902
+        },
+        {
+          "w": "for",
+          "start": 137.902,
+          "end": 138.14
+        },
+        {
+          "w": "Bobo,",
+          "start": 138.14,
+          "end": 138.556
+        },
+        {
+          "w": "two",
+          "start": 138.556,
+          "end": 138.794
+        },
+        {
+          "w": "for",
+          "start": 138.794,
+          "end": 139.032
+        },
+        {
+          "w": "me!",
+          "start": 139.032,
+          "end": 139.27
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "momo",
+      "start": 141.14,
+      "end": 143.84,
+      "text": "Three for Bella, three for Bobo, three for me!",
+      "words": [
+        {
+          "w": "Three",
+          "start": 141.18,
+          "end": 141.458
+        },
+        {
+          "w": "for",
+          "start": 141.458,
+          "end": 141.68
+        },
+        {
+          "w": "Bella,",
+          "start": 141.68,
+          "end": 141.958
+        },
+        {
+          "w": "three",
+          "start": 141.958,
+          "end": 142.236
+        },
+        {
+          "w": "for",
+          "start": 142.236,
+          "end": 142.458
+        },
+        {
+          "w": "Bobo,",
+          "start": 142.458,
+          "end": 142.847
+        },
+        {
+          "w": "three",
+          "start": 142.847,
+          "end": 143.125
+        },
+        {
+          "w": "for",
+          "start": 143.125,
+          "end": 143.348
+        },
+        {
+          "w": "me!",
+          "start": 143.348,
+          "end": 143.57
+        }
+      ]
+    },
+    {
+      "beat": "c_turn",
+      "speaker": "narrator",
+      "start": 145.84,
+      "end": 148.61,
+      "text": "Can you count Momo's nuts? One, two, three!",
+      "words": [
+        {
+          "w": "Can",
+          "start": 145.89,
+          "end": 146.158
+        },
+        {
+          "w": "you",
+          "start": 146.158,
+          "end": 146.358
+        },
+        {
+          "w": "count",
+          "start": 146.358,
+          "end": 146.76
+        },
+        {
+          "w": "Momo's",
+          "start": 146.76,
+          "end": 147.295
+        },
+        {
+          "w": "nuts?",
+          "start": 147.295,
+          "end": 147.63
+        },
+        {
+          "w": "One,",
+          "start": 147.63,
+          "end": 147.898
+        },
+        {
+          "w": "two,",
+          "start": 147.898,
+          "end": 148.165
+        },
+        {
+          "w": "three!",
+          "start": 148.165,
+          "end": 148.5
+        }
+      ]
+    },
+    {
+      "beat": "even",
+      "speaker": "bobo",
+      "start": 150.61,
+      "end": 152.91,
+      "text": "Three nuts each! Everybody has the same!",
+      "words": [
+        {
+          "w": "Three",
+          "start": 150.66,
+          "end": 150.945
+        },
+        {
+          "w": "nuts",
+          "start": 150.945,
+          "end": 151.23
+        },
+        {
+          "w": "each!",
+          "start": 151.23,
+          "end": 151.515
+        },
+        {
+          "w": "Everybody",
+          "start": 151.515,
+          "end": 152.143
+        },
+        {
+          "w": "has",
+          "start": 152.143,
+          "end": 152.371
+        },
+        {
+          "w": "the",
+          "start": 152.371,
+          "end": 152.485
+        },
+        {
+          "w": "same!",
+          "start": 152.485,
+          "end": 152.77
+        }
+      ]
+    },
+    {
+      "beat": "picnic",
+      "speaker": "narrator",
+      "start": 155.31,
+      "end": 160.68,
+      "text": "Then Bella brings her carrots, and Bobo brings his honey. A big picnic, for everyone!",
+      "words": [
+        {
+          "w": "Then",
+          "start": 155.36,
+          "end": 155.631
+        },
+        {
+          "w": "Bella",
+          "start": 155.631,
+          "end": 155.969
+        },
+        {
+          "w": "brings",
+          "start": 155.969,
+          "end": 156.375
+        },
+        {
+          "w": "her",
+          "start": 156.375,
+          "end": 156.578
+        },
+        {
+          "w": "carrots,",
+          "start": 156.578,
+          "end": 157.052
+        },
+        {
+          "w": "and",
+          "start": 157.052,
+          "end": 157.255
+        },
+        {
+          "w": "Bobo",
+          "start": 157.255,
+          "end": 157.728
+        },
+        {
+          "w": "brings",
+          "start": 157.728,
+          "end": 158.134
+        },
+        {
+          "w": "his",
+          "start": 158.134,
+          "end": 158.405
+        },
+        {
+          "w": "honey.",
+          "start": 158.405,
+          "end": 158.743
+        },
+        {
+          "w": "A",
+          "start": 158.743,
+          "end": 158.946
+        },
+        {
+          "w": "big",
+          "start": 158.946,
+          "end": 159.217
+        },
+        {
+          "w": "picnic,",
+          "start": 159.217,
+          "end": 159.69
+        },
+        {
+          "w": "for",
+          "start": 159.69,
+          "end": 159.961
+        },
+        {
+          "w": "everyone!",
+          "start": 159.961,
+          "end": 160.57
+        }
+      ]
+    },
+    {
+      "beat": "happy",
+      "speaker": "momo",
+      "start": 162.23,
+      "end": 164.77,
+      "text": "Sharing is so much better than being stuck!",
+      "words": [
+        {
+          "w": "Sharing",
+          "start": 162.27,
+          "end": 162.643
+        },
+        {
+          "w": "is",
+          "start": 162.643,
+          "end": 162.768
+        },
+        {
+          "w": "so",
+          "start": 162.768,
+          "end": 163.017
+        },
+        {
+          "w": "much",
+          "start": 163.017,
+          "end": 163.328
+        },
+        {
+          "w": "better",
+          "start": 163.328,
+          "end": 163.639
+        },
+        {
+          "w": "than",
+          "start": 163.639,
+          "end": 163.826
+        },
+        {
+          "w": "being",
+          "start": 163.826,
+          "end": 164.199
+        },
+        {
+          "w": "stuck!",
+          "start": 164.199,
+          "end": 164.51
+        }
+      ]
+    },
+    {
+      "beat": "share_q",
+      "speaker": "narrator",
+      "start": 166.97,
+      "end": 168.86,
+      "text": "What else can we share with our friends?",
+      "words": [
+        {
+          "w": "What",
+          "start": 167.02,
+          "end": 167.225
+        },
+        {
+          "w": "else",
+          "start": 167.225,
+          "end": 167.43
+        },
+        {
+          "w": "can",
+          "start": 167.43,
+          "end": 167.635
+        },
+        {
+          "w": "we",
+          "start": 167.635,
+          "end": 167.788
+        },
+        {
+          "w": "share",
+          "start": 167.788,
+          "end": 167.993
+        },
+        {
+          "w": "with",
+          "start": 167.993,
+          "end": 168.147
+        },
+        {
+          "w": "our",
+          "start": 168.147,
+          "end": 168.352
+        },
+        {
+          "w": "friends?",
+          "start": 168.352,
+          "end": 168.71
+        }
+      ]
+    },
+    {
+      "beat": "s1",
+      "speaker": "bella",
+      "start": 171.86,
+      "end": 172.88,
+      "text": "Toys!",
+      "words": [
+        {
+          "w": "Toys!",
+          "start": 171.91,
+          "end": 172.78
+        }
+      ]
+    },
+    {
+      "beat": "s2",
+      "speaker": "bobo",
+      "start": 174.08,
+      "end": 174.85,
+      "text": "Crayons!",
+      "words": [
+        {
+          "w": "Crayons!",
+          "start": 174.1,
+          "end": 174.74
+        }
+      ]
+    },
+    {
+      "beat": "s3",
+      "speaker": "momo",
+      "start": 176.05,
+      "end": 177.73,
+      "text": "And hugs! Big hugs!",
+      "words": [
+        {
+          "w": "And",
+          "start": 176.07,
+          "end": 176.329
+        },
+        {
+          "w": "hugs!",
+          "start": 176.329,
+          "end": 176.762
+        },
+        {
+          "w": "Big",
+          "start": 176.762,
+          "end": 177.108
+        },
+        {
+          "w": "hugs!",
+          "start": 177.108,
+          "end": 177.54
+        }
+      ]
+    },
+    {
+      "beat": "moral",
+      "speaker": "narrator",
+      "start": 180.33,
+      "end": 181.93,
+      "text": "Take a little, share a lot!",
+      "words": [
+        {
+          "w": "Take",
+          "start": 180.42,
+          "end": 180.683
+        },
+        {
+          "w": "a",
+          "start": 180.683,
+          "end": 180.842
+        },
+        {
+          "w": "little,",
+          "start": 180.842,
+          "end": 181.158
+        },
+        {
+          "w": "share",
+          "start": 181.158,
+          "end": 181.368
+        },
+        {
+          "w": "a",
+          "start": 181.368,
+          "end": 181.527
+        },
+        {
+          "w": "lot!",
+          "start": 181.527,
+          "end": 181.79
+        }
+      ]
+    },
+    {
+      "beat": "rem",
+      "speaker": "narrator",
+      "start": 185.13,
+      "end": 186.64,
+      "text": "Let's remember the story!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 185.18,
+          "end": 185.482
+        },
+        {
+          "w": "remember",
+          "start": 185.482,
+          "end": 185.966
+        },
+        {
+          "w": "the",
+          "start": 185.966,
+          "end": 186.087
+        },
+        {
+          "w": "story!",
+          "start": 186.087,
+          "end": 186.51
+        }
+      ]
+    },
+    {
+      "beat": "rem1",
+      "speaker": "narrator",
+      "start": 188.24,
+      "end": 190.35,
+      "text": "First, Momo wanted all the nuts.",
+      "words": [
+        {
+          "w": "First,",
+          "start": 188.3,
+          "end": 188.685
+        },
+        {
+          "w": "Momo",
+          "start": 188.685,
+          "end": 189.135
+        },
+        {
+          "w": "wanted",
+          "start": 189.135,
+          "end": 189.584
+        },
+        {
+          "w": "all",
+          "start": 189.584,
+          "end": 189.841
+        },
+        {
+          "w": "the",
+          "start": 189.841,
+          "end": 189.969
+        },
+        {
+          "w": "nuts.",
+          "start": 189.969,
+          "end": 190.29
+        }
+      ]
+    },
+    {
+      "beat": "rem2",
+      "speaker": "narrator",
+      "start": 192.95,
+      "end": 195.41,
+      "text": "He took too many, and his hand got stuck.",
+      "words": [
+        {
+          "w": "He",
+          "start": 193.01,
+          "end": 193.179
+        },
+        {
+          "w": "took",
+          "start": 193.179,
+          "end": 193.404
+        },
+        {
+          "w": "too",
+          "start": 193.404,
+          "end": 193.629
+        },
+        {
+          "w": "many,",
+          "start": 193.629,
+          "end": 193.91
+        },
+        {
+          "w": "and",
+          "start": 194.11,
+          "end": 194.275
+        },
+        {
+          "w": "his",
+          "start": 194.275,
+          "end": 194.495
+        },
+        {
+          "w": "hand",
+          "start": 194.495,
+          "end": 194.77
+        },
+        {
+          "w": "got",
+          "start": 194.77,
+          "end": 195.045
+        },
+        {
+          "w": "stuck.",
+          "start": 195.045,
+          "end": 195.32
+        }
+      ]
+    },
+    {
+      "beat": "rem3",
+      "speaker": "narrator",
+      "start": 198.01,
+      "end": 200.99,
+      "text": "Then, Momo said sorry, and shared with his friends!",
+      "words": [
+        {
+          "w": "Then,",
+          "start": 198.05,
+          "end": 198.317
+        },
+        {
+          "w": "Momo",
+          "start": 198.317,
+          "end": 198.784
+        },
+        {
+          "w": "said",
+          "start": 198.784,
+          "end": 199.051
+        },
+        {
+          "w": "sorry,",
+          "start": 199.051,
+          "end": 199.452
+        },
+        {
+          "w": "and",
+          "start": 199.452,
+          "end": 199.652
+        },
+        {
+          "w": "shared",
+          "start": 199.652,
+          "end": 199.986
+        },
+        {
+          "w": "with",
+          "start": 199.986,
+          "end": 200.186
+        },
+        {
+          "w": "his",
+          "start": 200.186,
+          "end": 200.453
+        },
+        {
+          "w": "friends!",
+          "start": 200.453,
+          "end": 200.92
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "narrator",
+      "start": 203.99,
+      "end": 205.69,
+      "text": "Why was Momo's hand stuck?",
+      "words": [
+        {
+          "w": "Why",
+          "start": 204.04,
+          "end": 204.288
+        },
+        {
+          "w": "was",
+          "start": 204.288,
+          "end": 204.474
+        },
+        {
+          "w": "Momo's",
+          "start": 204.474,
+          "end": 204.97
+        },
+        {
+          "w": "hand",
+          "start": 204.97,
+          "end": 205.28
+        },
+        {
+          "w": "stuck?",
+          "start": 205.28,
+          "end": 205.59
+        }
+      ]
+    },
+    {
+      "beat": "a1",
+      "speaker": "bobo",
+      "start": 210.69,
+      "end": 211.92,
+      "text": "He held too many nuts!",
+      "words": [
+        {
+          "w": "He",
+          "start": 210.73,
+          "end": 210.88
+        },
+        {
+          "w": "held",
+          "start": 210.88,
+          "end": 211.13
+        },
+        {
+          "w": "too",
+          "start": 211.13,
+          "end": 211.33
+        },
+        {
+          "w": "many",
+          "start": 211.33,
+          "end": 211.58
+        },
+        {
+          "w": "nuts!",
+          "start": 211.58,
+          "end": 211.83
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "narrator",
+      "start": 214.52,
+      "end": 217.74,
+      "text": "How did Bella and Bobo feel, when Momo said no?",
+      "words": [
+        {
+          "w": "How",
+          "start": 214.55,
+          "end": 214.791
+        },
+        {
+          "w": "did",
+          "start": 214.791,
+          "end": 215.033
+        },
+        {
+          "w": "Bella",
+          "start": 215.033,
+          "end": 215.335
+        },
+        {
+          "w": "and",
+          "start": 215.335,
+          "end": 215.516
+        },
+        {
+          "w": "Bobo",
+          "start": 215.516,
+          "end": 215.938
+        },
+        {
+          "w": "feel,",
+          "start": 215.938,
+          "end": 216.24
+        },
+        {
+          "w": "when",
+          "start": 216.56,
+          "end": 216.787
+        },
+        {
+          "w": "Momo",
+          "start": 216.787,
+          "end": 217.185
+        },
+        {
+          "w": "said",
+          "start": 217.185,
+          "end": 217.413
+        },
+        {
+          "w": "no?",
+          "start": 217.413,
+          "end": 217.64
+        }
+      ]
+    },
+    {
+      "beat": "a2",
+      "speaker": "bella",
+      "start": 222.74,
+      "end": 223.64,
+      "text": "Sad!",
+      "words": [
+        {
+          "w": "Sad!",
+          "start": 222.79,
+          "end": 223.52
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "narrator",
+      "start": 226.24,
+      "end": 228.92,
+      "text": "And how did everyone feel, when Momo shared?",
+      "words": [
+        {
+          "w": "And",
+          "start": 226.35,
+          "end": 226.501
+        },
+        {
+          "w": "how",
+          "start": 226.501,
+          "end": 226.703
+        },
+        {
+          "w": "did",
+          "start": 226.703,
+          "end": 226.904
+        },
+        {
+          "w": "everyone",
+          "start": 226.904,
+          "end": 227.358
+        },
+        {
+          "w": "feel,",
+          "start": 227.358,
+          "end": 227.61
+        },
+        {
+          "w": "when",
+          "start": 227.87,
+          "end": 228.108
+        },
+        {
+          "w": "Momo",
+          "start": 228.108,
+          "end": 228.523
+        },
+        {
+          "w": "shared?",
+          "start": 228.523,
+          "end": 228.82
+        }
+      ]
+    },
+    {
+      "beat": "a3",
+      "speaker": "momo",
+      "start": 233.92,
+      "end": 234.74,
+      "text": "Happy!",
+      "words": [
+        {
+          "w": "Happy!",
+          "start": 233.96,
+          "end": 234.69
+        }
+      ]
+    },
+    {
+      "beat": "q4",
+      "speaker": "narrator",
+      "start": 237.34,
+      "end": 239.55,
+      "text": "What do we say, when we make a mistake?",
+      "words": [
+        {
+          "w": "What",
+          "start": 237.42,
+          "end": 237.623
+        },
+        {
+          "w": "do",
+          "start": 237.623,
+          "end": 237.825
+        },
+        {
+          "w": "we",
+          "start": 237.825,
+          "end": 237.977
+        },
+        {
+          "w": "say,",
+          "start": 237.977,
+          "end": 238.18
+        },
+        {
+          "w": "when",
+          "start": 238.39,
+          "end": 238.573
+        },
+        {
+          "w": "we",
+          "start": 238.573,
+          "end": 238.71
+        },
+        {
+          "w": "make",
+          "start": 238.71,
+          "end": 238.938
+        },
+        {
+          "w": "a",
+          "start": 238.938,
+          "end": 239.075
+        },
+        {
+          "w": "mistake?",
+          "start": 239.075,
+          "end": 239.44
+        }
+      ]
+    },
+    {
+      "beat": "a4",
+      "speaker": "momo",
+      "start": 244.55,
+      "end": 245.85,
+      "text": "I'm sorry!",
+      "words": [
+        {
+          "w": "I'm",
+          "start": 244.57,
+          "end": 244.933
+        },
+        {
+          "w": "sorry!",
+          "start": 244.933,
+          "end": 245.66
+        }
+      ]
+    },
+    {
+      "beat": "ban_go",
+      "speaker": "narrator",
+      "start": 248.45,
+      "end": 253.4,
+      "text": "Now it's your turn! Momo has six bananas. Let's share them with Bella and Bobo.",
+      "words": [
+        {
+          "w": "Now",
+          "start": 248.51,
+          "end": 248.774
+        },
+        {
+          "w": "it's",
+          "start": 248.774,
+          "end": 248.972
+        },
+        {
+          "w": "your",
+          "start": 248.972,
+          "end": 249.17
+        },
+        {
+          "w": "turn!",
+          "start": 249.17,
+          "end": 249.5
+        },
+        {
+          "w": "Momo",
+          "start": 249.79,
+          "end": 250.207
+        },
+        {
+          "w": "has",
+          "start": 250.207,
+          "end": 250.445
+        },
+        {
+          "w": "six",
+          "start": 250.445,
+          "end": 250.743
+        },
+        {
+          "w": "bananas.",
+          "start": 250.743,
+          "end": 251.22
+        },
+        {
+          "w": "Let's",
+          "start": 251.56,
+          "end": 251.842
+        },
+        {
+          "w": "share",
+          "start": 251.842,
+          "end": 252.068
+        },
+        {
+          "w": "them",
+          "start": 252.068,
+          "end": 252.294
+        },
+        {
+          "w": "with",
+          "start": 252.294,
+          "end": 252.463
+        },
+        {
+          "w": "Bella",
+          "start": 252.463,
+          "end": 252.745
+        },
+        {
+          "w": "and",
+          "start": 252.745,
+          "end": 252.915
+        },
+        {
+          "w": "Bobo.",
+          "start": 252.915,
+          "end": 253.31
+        }
+      ]
+    },
+    {
+      "beat": "b1",
+      "speaker": "narrator",
+      "start": 255.34,
+      "end": 258.54,
+      "text": "One for Bella... one for Bobo... one for Momo.",
+      "words": [
+        {
+          "w": "One",
+          "start": 255.39,
+          "end": 255.636
+        },
+        {
+          "w": "for",
+          "start": 255.636,
+          "end": 255.882
+        },
+        {
+          "w": "Bella...",
+          "start": 255.882,
+          "end": 256.19
+        },
+        {
+          "w": "one",
+          "start": 256.4,
+          "end": 256.64
+        },
+        {
+          "w": "for",
+          "start": 256.64,
+          "end": 256.88
+        },
+        {
+          "w": "Bobo...",
+          "start": 256.88,
+          "end": 257.3
+        },
+        {
+          "w": "one",
+          "start": 257.58,
+          "end": 257.807
+        },
+        {
+          "w": "for",
+          "start": 257.807,
+          "end": 258.033
+        },
+        {
+          "w": "Momo.",
+          "start": 258.033,
+          "end": 258.43
+        }
+      ]
+    },
+    {
+      "beat": "b2",
+      "speaker": "narrator",
+      "start": 260.34,
+      "end": 263.49,
+      "text": "Two for Bella... two for Bobo... two for Momo.",
+      "words": [
+        {
+          "w": "Two",
+          "start": 260.4,
+          "end": 260.637
+        },
+        {
+          "w": "for",
+          "start": 260.637,
+          "end": 260.874
+        },
+        {
+          "w": "Bella...",
+          "start": 260.874,
+          "end": 261.17
+        },
+        {
+          "w": "two",
+          "start": 261.37,
+          "end": 261.605
+        },
+        {
+          "w": "for",
+          "start": 261.605,
+          "end": 261.839
+        },
+        {
+          "w": "Bobo...",
+          "start": 261.839,
+          "end": 262.25
+        },
+        {
+          "w": "two",
+          "start": 262.52,
+          "end": 262.744
+        },
+        {
+          "w": "for",
+          "start": 262.744,
+          "end": 262.968
+        },
+        {
+          "w": "Momo.",
+          "start": 262.968,
+          "end": 263.36
+        }
+      ]
+    },
+    {
+      "beat": "ban_ask",
+      "speaker": "narrator",
+      "start": 265.49,
+      "end": 267.6,
+      "text": "How many bananas does each friend have?",
+      "words": [
+        {
+          "w": "How",
+          "start": 265.53,
+          "end": 265.75
+        },
+        {
+          "w": "many",
+          "start": 265.75,
+          "end": 266.025
+        },
+        {
+          "w": "bananas",
+          "start": 266.025,
+          "end": 266.465
+        },
+        {
+          "w": "does",
+          "start": 266.465,
+          "end": 266.685
+        },
+        {
+          "w": "each",
+          "start": 266.685,
+          "end": 266.96
+        },
+        {
+          "w": "friend",
+          "start": 266.96,
+          "end": 267.29
+        },
+        {
+          "w": "have?",
+          "start": 267.29,
+          "end": 267.51
+        }
+      ]
+    },
+    {
+      "beat": "ban_a",
+      "speaker": "momo",
+      "start": 272.6,
+      "end": 274.6,
+      "text": "Two each! Thank you for sharing!",
+      "words": [
+        {
+          "w": "Two",
+          "start": 272.63,
+          "end": 272.885
+        },
+        {
+          "w": "each!",
+          "start": 272.885,
+          "end": 273.203
+        },
+        {
+          "w": "Thank",
+          "start": 273.203,
+          "end": 273.522
+        },
+        {
+          "w": "you",
+          "start": 273.522,
+          "end": 273.713
+        },
+        {
+          "w": "for",
+          "start": 273.713,
+          "end": 273.968
+        },
+        {
+          "w": "sharing!",
+          "start": 273.968,
+          "end": 274.35
+        }
+      ]
+    },
+    {
+      "beat": "chant",
+      "speaker": "narrator",
+      "start": 276.8,
+      "end": 278.16,
+      "text": "Let's say it together!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 276.87,
+          "end": 277.189
+        },
+        {
+          "w": "say",
+          "start": 277.189,
+          "end": 277.445
+        },
+        {
+          "w": "it",
+          "start": 277.445,
+          "end": 277.573
+        },
+        {
+          "w": "together!",
+          "start": 277.573,
+          "end": 278.02
+        }
+      ]
+    },
+    {
+      "beat": "ch1",
+      "speaker": "momo",
+      "start": 279.16,
+      "end": 281.06,
+      "text": "Take a little, share a lot!",
+      "words": [
+        {
+          "w": "Take",
+          "start": 279.2,
+          "end": 279.513
+        },
+        {
+          "w": "a",
+          "start": 279.513,
+          "end": 279.702
+        },
+        {
+          "w": "little,",
+          "start": 279.702,
+          "end": 280.078
+        },
+        {
+          "w": "share",
+          "start": 280.078,
+          "end": 280.328
+        },
+        {
+          "w": "a",
+          "start": 280.328,
+          "end": 280.517
+        },
+        {
+          "w": "lot!",
+          "start": 280.517,
+          "end": 280.83
+        }
+      ]
+    },
+    {
+      "beat": "ch_turn",
+      "speaker": "narrator",
+      "start": 282.46,
+      "end": 283.42,
+      "text": "Your turn!",
+      "words": [
+        {
+          "w": "Your",
+          "start": 282.5,
+          "end": 282.777
+        },
+        {
+          "w": "turn!",
+          "start": 282.777,
+          "end": 283.24
+        }
+      ]
+    },
+    {
+      "beat": "ch2",
+      "speaker": "momo",
+      "start": 286.62,
+      "end": 288.52,
+      "text": "Take a little, share a lot!",
+      "words": [
+        {
+          "w": "Take",
+          "start": 286.66,
+          "end": 286.973
+        },
+        {
+          "w": "a",
+          "start": 286.973,
+          "end": 287.162
+        },
+        {
+          "w": "little,",
+          "start": 287.162,
+          "end": 287.538
+        },
+        {
+          "w": "share",
+          "start": 287.538,
+          "end": 287.788
+        },
+        {
+          "w": "a",
+          "start": 287.788,
+          "end": 287.977
+        },
+        {
+          "w": "lot!",
+          "start": 287.977,
+          "end": 288.29
+        }
+      ]
+    },
+    {
+      "beat": "ch_more",
+      "speaker": "narrator",
+      "start": 290.12,
+      "end": 292.08,
+      "text": "One more time, all together!",
+      "words": [
+        {
+          "w": "One",
+          "start": 290.18,
+          "end": 290.44
+        },
+        {
+          "w": "more",
+          "start": 290.44,
+          "end": 290.765
+        },
+        {
+          "w": "time,",
+          "start": 290.765,
+          "end": 291.09
+        },
+        {
+          "w": "all",
+          "start": 291.25,
+          "end": 291.497
+        },
+        {
+          "w": "together!",
+          "start": 291.497,
+          "end": 291.93
+        }
+      ]
+    },
+    {
+      "beat": "ch3",
+      "speaker": "bobo",
+      "start": 293.08,
+      "end": 294.42,
+      "text": "Take a little, share a lot!",
+      "words": [
+        {
+          "w": "Take",
+          "start": 293.11,
+          "end": 293.335
+        },
+        {
+          "w": "a",
+          "start": 293.335,
+          "end": 293.47
+        },
+        {
+          "w": "little,",
+          "start": 293.47,
+          "end": 293.74
+        },
+        {
+          "w": "share",
+          "start": 293.74,
+          "end": 293.92
+        },
+        {
+          "w": "a",
+          "start": 293.92,
+          "end": 294.055
+        },
+        {
+          "w": "lot!",
+          "start": 294.055,
+          "end": 294.28
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "momo",
+      "start": 297.02,
+      "end": 299.26,
+      "text": "Bye-bye, friends! Ooh ooh, ah ah!",
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 297.07,
+          "end": 297.69
+        },
+        {
+          "w": "friends!",
+          "start": 297.69,
+          "end": 298.173
+        },
+        {
+          "w": "Ooh",
+          "start": 298.173,
+          "end": 298.38
+        },
+        {
+          "w": "ooh,",
+          "start": 298.38,
+          "end": 298.586
+        },
+        {
+          "w": "ah",
+          "start": 298.586,
+          "end": 298.793
+        },
+        {
+          "w": "ah!",
+          "start": 298.793,
+          "end": 299.0
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "bella",
+      "start": 299.86,
+      "end": 300.99,
+      "text": "Bye-bye!",
+      "words": [
+        {
+          "w": "Bye-bye!",
+          "start": 299.9,
+          "end": 300.86
+        }
+      ]
+    },
+    {
+      "beat": "ask_end",
+      "speaker": "narrator",
+      "start": 302.39,
+      "end": 304.18,
+      "text": "What can YOU share with a friend today?",
+      "words": [
+        {
+          "w": "What",
+          "start": 302.44,
+          "end": 302.632
+        },
+        {
+          "w": "can",
+          "start": 302.632,
+          "end": 302.823
+        },
+        {
+          "w": "YOU",
+          "start": 302.823,
+          "end": 302.967
+        },
+        {
+          "w": "share",
+          "start": 302.967,
+          "end": 303.158
+        },
+        {
+          "w": "with",
+          "start": 303.158,
+          "end": 303.302
+        },
+        {
+          "w": "a",
+          "start": 303.302,
+          "end": 303.445
+        },
+        {
+          "w": "friend",
+          "start": 303.445,
+          "end": 303.733
+        },
+        {
+          "w": "today?",
+          "start": 303.733,
+          "end": 304.02
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "intro",
+      "start": 0,
+      "visual": "Deep in the jungle, lives a little monkey called Momo.",
+      "end": 6.0
+    },
+    {
+      "id": "hi",
+      "start": 6.0,
+      "visual": "Hi! I'm Momo! Ooh ooh, ah ah!",
+      "end": 10.22
+    },
+    {
+      "id": "jar",
+      "start": 10.22,
+      "visual": "Look! Under the big tree, there is a jar, full of yummy nuts!",
+      "end": 15.27
+    },
+    {
+      "id": "want",
+      "start": 15.27,
+      "visual": "Nuts! I love nuts! I want them all!",
+      "end": 19.85
+    },
+    {
+      "id": "bella",
+      "start": 19.85,
+      "visual": "Hi, Momo! Ooh, nuts! Can we have some too?",
+      "end": 23.35
+    },
+    {
+      "id": "bobo",
+      "start": 23.35,
+      "visual": "Yum! Let's share them!",
+      "end": 25.88
+    },
+    {
+      "id": "no",
+      "start": 25.88,
+      "visual": "No! They're all mine! Mine, mine, mine!",
+      "end": 30.51
+    },
+    {
+      "id": "sad",
+      "start": 30.51,
+      "visual": "Bella and Bobo feel sad. They sit down under the tree.",
+      "end": 35.98
+    },
+    {
+      "id": "sad_q",
+      "start": 35.98,
+      "visual": "How would YOU feel, if a friend said no?",
+      "end": 42.28
+    },
+    {
+      "id": "grab",
+      "start": 42.28,
+      "visual": "Momo pushes his hand into the jar, and grabs a big, big handful of nuts.",
+      "end": 49.54
+    },
+    {
+      "id": "stuck",
+      "start": 49.54,
+      "visual": "Huh? My hand! It's stuck!",
+      "end": 52.97
+    },
+    {
+      "id": "pull",
+      "start": 52.97,
+      "visual": "Momo pulls, and pulls, and pulls... but his hand won't come out!",
+      "end": 58.64
+    },
+    {
+      "id": "hop",
+      "start": 58.64,
+      "visual": "He hops around with the jar on his hand. Boing, boing, boing!",
+      "end": 64.56
+    },
+    {
+      "id": "upset",
+      "start": 64.56,
+      "visual": "Help! I can't get my hand out!",
+      "end": 68.47
+    },
+    {
+      "id": "feel",
+      "start": 68.47,
+      "visual": "Momo feels upset. And he feels a little bit sorry, too.",
+      "end": 74.14
+    },
+    {
+      "id": "word",
+      "start": 74.14,
+      "visual": "Momo was greedy. Greedy means, wanting everything just for yourself.",
+      "end": 80.64
+    },
+    {
+      "id": "ask",
+      "start": 80.64,
+      "visual": "Can you help Momo? What should he do?",
+      "end": 87.43
+    },
+    {
+      "id": "kind",
+      "start": 87.43,
+      "visual": "Momo, don't worry. I can help you!",
+      "end": 90.7
+    },
+    {
+      "id": "tip",
+      "start": 90.7,
+      "visual": "Your hand is full of too many nuts. Let go of some, and take just a few!",
+      "end": 96.73
+    },
+    {
+      "id": "but",
+      "start": 96.73,
+      "visual": "But... I want them all!",
+      "end": 99.79
+    },
+    {
+      "id": "bella_tip",
+      "start": 99.79,
+      "visual": "If you hold too many, you can't get any!",
+      "end": 104.28
+    },
+    {
+      "id": "try",
+      "start": 104.28,
+      "visual": "Momo opens his hand, lets go of the nuts, and keeps just a few.",
+      "end": 110.44
+    },
+    {
+      "id": "out",
+      "start": 110.44,
+      "visual": "Pop! My hand is free! Thank you, Bobo!",
+      "end": 114.89
+    },
+    {
+      "id": "think",
+      "start": 114.89,
+      "visual": "Momo looks at his friends. They were so kind to him.",
+      "end": 119.54
+    },
+    {
+      "id": "sorry",
+      "start": 119.54,
+      "visual": "I'm sorry I was greedy. There are lots of nuts. Let's share them!",
+      "end": 124.57
+    },
+    {
+      "id": "yay",
+      "start": 124.57,
+      "visual": "Yay! Thank you, Momo!",
+      "end": 128.23
+    },
+    {
+      "id": "count_go",
+      "start": 128.23,
+      "visual": "Momo shares the nuts. Let's count together!",
+      "end": 132.42
+    },
+    {
+      "id": "c1",
+      "start": 132.42,
+      "visual": "One for Bella, one for Bobo, one for me!",
+      "end": 136.66
+    },
+    {
+      "id": "c2",
+      "start": 136.66,
+      "visual": "Two for Bella, two for Bobo, two for me!",
+      "end": 140.94
+    },
+    {
+      "id": "c3",
+      "start": 140.94,
+      "visual": "Three for Bella, three for Bobo, three for me!",
+      "end": 145.64
+    },
+    {
+      "id": "c_turn",
+      "start": 145.64,
+      "visual": "Can you count Momo's nuts? One, two, three!",
+      "end": 150.41
+    },
+    {
+      "id": "even",
+      "start": 150.41,
+      "visual": "Three nuts each! Everybody has the same!",
+      "end": 155.11
+    },
+    {
+      "id": "picnic",
+      "start": 155.11,
+      "visual": "Then Bella brings her carrots, and Bobo brings his honey. A big picnic, for everyone!",
+      "end": 162.03
+    },
+    {
+      "id": "happy",
+      "start": 162.03,
+      "visual": "Sharing is so much better than being stuck!",
+      "end": 166.77
+    },
+    {
+      "id": "share_q",
+      "start": 166.77,
+      "visual": "What else can we share with our friends?",
+      "end": 171.66
+    },
+    {
+      "id": "s1",
+      "start": 171.66,
+      "visual": "Toys!",
+      "end": 173.88
+    },
+    {
+      "id": "s2",
+      "start": 173.88,
+      "visual": "Crayons!",
+      "end": 175.85
+    },
+    {
+      "id": "s3",
+      "start": 175.85,
+      "visual": "And hugs! Big hugs!",
+      "end": 180.13
+    },
+    {
+      "id": "moral",
+      "start": 180.13,
+      "visual": "Take a little, share a lot!",
+      "end": 184.93
+    },
+    {
+      "id": "rem",
+      "start": 184.93,
+      "visual": "Let's remember the story!",
+      "end": 188.04
+    },
+    {
+      "id": "rem1",
+      "start": 188.04,
+      "visual": "First, Momo wanted all the nuts.",
+      "end": 192.75
+    },
+    {
+      "id": "rem2",
+      "start": 192.75,
+      "visual": "He took too many, and his hand got stuck.",
+      "end": 197.81
+    },
+    {
+      "id": "rem3",
+      "start": 197.81,
+      "visual": "Then, Momo said sorry, and shared with his friends!",
+      "end": 203.79
+    },
+    {
+      "id": "q1",
+      "start": 203.79,
+      "visual": "Why was Momo's hand stuck?",
+      "end": 210.49
+    },
+    {
+      "id": "a1",
+      "start": 210.49,
+      "visual": "He held too many nuts!",
+      "end": 214.32
+    },
+    {
+      "id": "q2",
+      "start": 214.32,
+      "visual": "How did Bella and Bobo feel, when Momo said no?",
+      "end": 222.54
+    },
+    {
+      "id": "a2",
+      "start": 222.54,
+      "visual": "Sad!",
+      "end": 226.04
+    },
+    {
+      "id": "q3",
+      "start": 226.04,
+      "visual": "And how did everyone feel, when Momo shared?",
+      "end": 233.72
+    },
+    {
+      "id": "a3",
+      "start": 233.72,
+      "visual": "Happy!",
+      "end": 237.14
+    },
+    {
+      "id": "q4",
+      "start": 237.14,
+      "visual": "What do we say, when we make a mistake?",
+      "end": 244.35
+    },
+    {
+      "id": "a4",
+      "start": 244.35,
+      "visual": "I'm sorry!",
+      "end": 248.25
+    },
+    {
+      "id": "ban_go",
+      "start": 248.25,
+      "visual": "Now it's your turn! Momo has six bananas. Let's share them with Bella and Bobo.",
+      "end": 255.14
+    },
+    {
+      "id": "b1",
+      "start": 255.14,
+      "visual": "One for Bella... one for Bobo... one for Momo.",
+      "end": 260.14
+    },
+    {
+      "id": "b2",
+      "start": 260.14,
+      "visual": "Two for Bella... two for Bobo... two for Momo.",
+      "end": 265.29
+    },
+    {
+      "id": "ban_ask",
+      "start": 265.29,
+      "visual": "How many bananas does each friend have?",
+      "end": 272.4
+    },
+    {
+      "id": "ban_a",
+      "start": 272.4,
+      "visual": "Two each! Thank you for sharing!",
+      "end": 276.6
+    },
+    {
+      "id": "chant",
+      "start": 276.6,
+      "visual": "Let's say it together!",
+      "end": 278.96
+    },
+    {
+      "id": "ch1",
+      "start": 278.96,
+      "visual": "Take a little, share a lot!",
+      "end": 282.26
+    },
+    {
+      "id": "ch_turn",
+      "start": 282.26,
+      "visual": "Your turn!",
+      "end": 286.42
+    },
+    {
+      "id": "ch2",
+      "start": 286.42,
+      "visual": "Take a little, share a lot!",
+      "end": 289.92
+    },
+    {
+      "id": "ch_more",
+      "start": 289.92,
+      "visual": "One more time, all together!",
+      "end": 292.88
+    },
+    {
+      "id": "ch3",
+      "start": 292.88,
+      "visual": "Take a little, share a lot!",
+      "end": 296.82
+    },
+    {
+      "id": "bye",
+      "start": 296.82,
+      "visual": "Bye-bye, friends! Ooh ooh, ah ah!",
+      "end": 299.66
+    },
+    {
+      "id": "bye2",
+      "start": 299.66,
+      "visual": "Bye-bye!",
+      "end": 302.19
+    },
+    {
+      "id": "ask_end",
+      "start": 302.19,
+      "visual": "What can YOU share with a friend today?",
+      "end": 306.6
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

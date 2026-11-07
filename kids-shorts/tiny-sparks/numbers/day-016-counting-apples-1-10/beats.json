@@ -1,0 +1,596 @@
+{
+  "id": "day-016",
+  "series": "tiny-sparks",
+  "episode": 16,
+  "title": "Counting Apples 1–10",
+  "composition": "KidsNumbers016",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 63.0
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "bobo",
+      "start": 1.4,
+      "end": 4.47,
+      "text": "I picked lots of apples! How many apples do I have?",
+      "words": [
+        {
+          "w": "I",
+          "start": 1.43,
+          "end": 1.608
+        },
+        {
+          "w": "picked",
+          "start": 1.608,
+          "end": 1.903
+        },
+        {
+          "w": "lots",
+          "start": 1.903,
+          "end": 2.258
+        },
+        {
+          "w": "of",
+          "start": 2.258,
+          "end": 2.377
+        },
+        {
+          "w": "apples!",
+          "start": 2.377,
+          "end": 2.732
+        },
+        {
+          "w": "How",
+          "start": 2.732,
+          "end": 2.968
+        },
+        {
+          "w": "many",
+          "start": 2.968,
+          "end": 3.264
+        },
+        {
+          "w": "apples",
+          "start": 3.264,
+          "end": 3.619
+        },
+        {
+          "w": "do",
+          "start": 3.619,
+          "end": 3.856
+        },
+        {
+          "w": "I",
+          "start": 3.856,
+          "end": 4.033
+        },
+        {
+          "w": "have?",
+          "start": 4.033,
+          "end": 4.27
+        }
+      ]
+    },
+    {
+      "beat": "go",
+      "speaker": "mila",
+      "start": 9.07,
+      "end": 10.66,
+      "text": "Let's count them together!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 9.18,
+          "end": 9.494
+        },
+        {
+          "w": "count",
+          "start": 9.494,
+          "end": 9.87
+        },
+        {
+          "w": "them",
+          "start": 9.87,
+          "end": 10.121
+        },
+        {
+          "w": "together!",
+          "start": 10.121,
+          "end": 10.56
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 12.26,
+      "end": 13.07,
+      "text": "One!",
+      "words": [
+        {
+          "w": "One!",
+          "start": 12.34,
+          "end": 12.93
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 14.37,
+      "end": 15.18,
+      "text": "Two!",
+      "words": [
+        {
+          "w": "Two!",
+          "start": 14.42,
+          "end": 15.03
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 16.48,
+      "end": 17.35,
+      "text": "Three!",
+      "words": [
+        {
+          "w": "Three!",
+          "start": 16.55,
+          "end": 17.19
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 18.65,
+      "end": 19.57,
+      "text": "Four!",
+      "words": [
+        {
+          "w": "Four!",
+          "start": 18.74,
+          "end": 19.39
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 20.87,
+      "end": 21.79,
+      "text": "Five!",
+      "words": [
+        {
+          "w": "Five!",
+          "start": 20.95,
+          "end": 21.64
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "mila",
+      "start": 23.09,
+      "end": 23.88,
+      "text": "Six!",
+      "words": [
+        {
+          "w": "Six!",
+          "start": 23.17,
+          "end": 23.77
+        }
+      ]
+    },
+    {
+      "beat": "c7",
+      "speaker": "mila",
+      "start": 25.18,
+      "end": 26.03,
+      "text": "Seven!",
+      "words": [
+        {
+          "w": "Seven!",
+          "start": 25.23,
+          "end": 25.89
+        }
+      ]
+    },
+    {
+      "beat": "c8",
+      "speaker": "mila",
+      "start": 27.33,
+      "end": 28.13,
+      "text": "Eight!",
+      "words": [
+        {
+          "w": "Eight!",
+          "start": 27.4,
+          "end": 28.03
+        }
+      ]
+    },
+    {
+      "beat": "c9",
+      "speaker": "mila",
+      "start": 29.43,
+      "end": 30.32,
+      "text": "Nine!",
+      "words": [
+        {
+          "w": "Nine!",
+          "start": 29.51,
+          "end": 30.22
+        }
+      ]
+    },
+    {
+      "beat": "c10",
+      "speaker": "mila",
+      "start": 31.62,
+      "end": 32.43,
+      "text": "Ten!",
+      "words": [
+        {
+          "w": "Ten!",
+          "start": 31.67,
+          "end": 32.3
+        }
+      ]
+    },
+    {
+      "beat": "ten",
+      "speaker": "mila",
+      "start": 34.23,
+      "end": 35.36,
+      "text": "Ten apples!",
+      "words": [
+        {
+          "w": "Ten",
+          "start": 34.31,
+          "end": 34.686
+        },
+        {
+          "w": "apples!",
+          "start": 34.686,
+          "end": 35.25
+        }
+      ]
+    },
+    {
+      "beat": "crunch",
+      "speaker": "bobo",
+      "start": 37.96,
+      "end": 39.11,
+      "text": "Mmm... crunch!",
+      "words": [
+        {
+          "w": "Mmm...",
+          "start": 37.99,
+          "end": 38.564
+        },
+        {
+          "w": "crunch!",
+          "start": 38.564,
+          "end": 39.01
+        }
+      ]
+    },
+    {
+      "beat": "oops",
+      "speaker": "mila",
+      "start": 40.31,
+      "end": 42.26,
+      "text": "Bobo! Now, how many apples?",
+      "words": [
+        {
+          "w": "Bobo!",
+          "start": 40.34,
+          "end": 40.841
+        },
+        {
+          "w": "Now,",
+          "start": 40.841,
+          "end": 41.127
+        },
+        {
+          "w": "how",
+          "start": 41.127,
+          "end": 41.413
+        },
+        {
+          "w": "many",
+          "start": 41.413,
+          "end": 41.771
+        },
+        {
+          "w": "apples?",
+          "start": 41.771,
+          "end": 42.2
+        }
+      ]
+    },
+    {
+      "beat": "ans",
+      "speaker": "mila",
+      "start": 47.26,
+      "end": 48.15,
+      "text": "Nine!",
+      "words": [
+        {
+          "w": "Nine!",
+          "start": 47.34,
+          "end": 48.05
+        }
+      ]
+    },
+    {
+      "beat": "eq",
+      "speaker": "mila",
+      "start": 49.75,
+      "end": 51.71,
+      "text": "Ten, take away one, is nine!",
+      "words": [
+        {
+          "w": "Ten,",
+          "start": 49.79,
+          "end": 50.078
+        },
+        {
+          "w": "take",
+          "start": 50.078,
+          "end": 50.438
+        },
+        {
+          "w": "away",
+          "start": 50.438,
+          "end": 50.798
+        },
+        {
+          "w": "one,",
+          "start": 50.798,
+          "end": 51.086
+        },
+        {
+          "w": "is",
+          "start": 51.086,
+          "end": 51.23
+        },
+        {
+          "w": "nine!",
+          "start": 51.23,
+          "end": 51.59
+        }
+      ]
+    },
+    {
+      "beat": "check",
+      "speaker": "mila",
+      "start": 53.71,
+      "end": 57.5,
+      "text": "Let's check! One, two, three, four, five, six, seven, eight, nine!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 53.74,
+          "end": 54.074
+        },
+        {
+          "w": "check!",
+          "start": 54.074,
+          "end": 54.408
+        },
+        {
+          "w": "One,",
+          "start": 54.408,
+          "end": 54.675
+        },
+        {
+          "w": "two,",
+          "start": 54.675,
+          "end": 54.942
+        },
+        {
+          "w": "three,",
+          "start": 54.942,
+          "end": 55.276
+        },
+        {
+          "w": "four,",
+          "start": 55.276,
+          "end": 55.61
+        },
+        {
+          "w": "five,",
+          "start": 55.61,
+          "end": 55.944
+        },
+        {
+          "w": "six,",
+          "start": 55.944,
+          "end": 56.278
+        },
+        {
+          "w": "seven,",
+          "start": 56.278,
+          "end": 56.679
+        },
+        {
+          "w": "eight,",
+          "start": 56.679,
+          "end": 56.946
+        },
+        {
+          "w": "nine!",
+          "start": 56.946,
+          "end": 57.28
+        }
+      ]
+    },
+    {
+      "beat": "yay",
+      "speaker": "bobo",
+      "start": 59.3,
+      "end": 60.6,
+      "text": "Yummy! Counting is fun!",
+      "words": [
+        {
+          "w": "Yummy!",
+          "start": 59.34,
+          "end": 59.645
+        },
+        {
+          "w": "Counting",
+          "start": 59.645,
+          "end": 60.134
+        },
+        {
+          "w": "is",
+          "start": 60.134,
+          "end": 60.256
+        },
+        {
+          "w": "fun!",
+          "start": 60.256,
+          "end": 60.5
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "visual": "I picked lots of apples! How many apples do I have?",
+      "end": 8.87
+    },
+    {
+      "id": "go",
+      "start": 8.87,
+      "visual": "Let's count them together!",
+      "end": 12.06
+    },
+    {
+      "id": "c1",
+      "start": 12.06,
+      "visual": "One!",
+      "end": 14.17
+    },
+    {
+      "id": "c2",
+      "start": 14.17,
+      "visual": "Two!",
+      "end": 16.28
+    },
+    {
+      "id": "c3",
+      "start": 16.28,
+      "visual": "Three!",
+      "end": 18.45
+    },
+    {
+      "id": "c4",
+      "start": 18.45,
+      "visual": "Four!",
+      "end": 20.67
+    },
+    {
+      "id": "c5",
+      "start": 20.67,
+      "visual": "Five!",
+      "end": 22.89
+    },
+    {
+      "id": "c6",
+      "start": 22.89,
+      "visual": "Six!",
+      "end": 24.98
+    },
+    {
+      "id": "c7",
+      "start": 24.98,
+      "visual": "Seven!",
+      "end": 27.13
+    },
+    {
+      "id": "c8",
+      "start": 27.13,
+      "visual": "Eight!",
+      "end": 29.23
+    },
+    {
+      "id": "c9",
+      "start": 29.23,
+      "visual": "Nine!",
+      "end": 31.42
+    },
+    {
+      "id": "c10",
+      "start": 31.42,
+      "visual": "Ten!",
+      "end": 34.03
+    },
+    {
+      "id": "ten",
+      "start": 34.03,
+      "visual": "Ten apples!",
+      "end": 37.76
+    },
+    {
+      "id": "crunch",
+      "start": 37.76,
+      "visual": "Mmm... crunch!",
+      "end": 40.11
+    },
+    {
+      "id": "oops",
+      "start": 40.11,
+      "visual": "Bobo! Now, how many apples?",
+      "end": 47.06
+    },
+    {
+      "id": "ans",
+      "start": 47.06,
+      "visual": "Nine!",
+      "end": 49.55
+    },
+    {
+      "id": "eq",
+      "start": 49.55,
+      "visual": "Ten, take away one, is nine!",
+      "end": 53.51
+    },
+    {
+      "id": "check",
+      "start": 53.51,
+      "visual": "Let's check! One, two, three, four, five, six, seven, eight, nine!",
+      "end": 59.1
+    },
+    {
+      "id": "yay",
+      "start": 59.1,
+      "visual": "Yummy! Counting is fun!",
+      "end": 63.0
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

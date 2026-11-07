@@ -1,0 +1,926 @@
+{
+  "id": "day-030",
+  "series": "tiny-sparks",
+  "episode": 30,
+  "title": "Count the Colorful Fish",
+  "composition": "KidsNumbers030",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 85.6
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "bobo",
+      "start": 1.4,
+      "end": 3.53,
+      "text": "Blub, blub! Look at all the colorful fish!",
+      "words": [
+        {
+          "w": "Blub,",
+          "start": 1.44,
+          "end": 1.734
+        },
+        {
+          "w": "blub!",
+          "start": 1.734,
+          "end": 2.028
+        },
+        {
+          "w": "Look",
+          "start": 2.028,
+          "end": 2.264
+        },
+        {
+          "w": "at",
+          "start": 2.264,
+          "end": 2.381
+        },
+        {
+          "w": "all",
+          "start": 2.381,
+          "end": 2.616
+        },
+        {
+          "w": "the",
+          "start": 2.616,
+          "end": 2.734
+        },
+        {
+          "w": "colorful",
+          "start": 2.734,
+          "end": 3.205
+        },
+        {
+          "w": "fish!",
+          "start": 3.205,
+          "end": 3.44
+        }
+      ]
+    },
+    {
+      "beat": "go",
+      "speaker": "mila",
+      "start": 4.93,
+      "end": 7.53,
+      "text": "Let's count them together! Show me your fingers!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 4.97,
+          "end": 5.245
+        },
+        {
+          "w": "count",
+          "start": 5.245,
+          "end": 5.575
+        },
+        {
+          "w": "them",
+          "start": 5.575,
+          "end": 5.795
+        },
+        {
+          "w": "together!",
+          "start": 5.795,
+          "end": 6.18
+        },
+        {
+          "w": "Show",
+          "start": 6.31,
+          "end": 6.548
+        },
+        {
+          "w": "me",
+          "start": 6.548,
+          "end": 6.786
+        },
+        {
+          "w": "your",
+          "start": 6.786,
+          "end": 6.964
+        },
+        {
+          "w": "fingers!",
+          "start": 6.964,
+          "end": 7.38
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 9.53,
+      "end": 11.06,
+      "text": "One! A red fish!",
+      "words": [
+        {
+          "w": "One!",
+          "start": 9.58,
+          "end": 9.945
+        },
+        {
+          "w": "A",
+          "start": 9.945,
+          "end": 10.219
+        },
+        {
+          "w": "red",
+          "start": 10.219,
+          "end": 10.585
+        },
+        {
+          "w": "fish!",
+          "start": 10.585,
+          "end": 10.95
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 12.56,
+      "end": 14.28,
+      "text": "Two! An orange fish!",
+      "words": [
+        {
+          "w": "Two!",
+          "start": 12.58,
+          "end": 12.94
+        },
+        {
+          "w": "An",
+          "start": 12.94,
+          "end": 13.12
+        },
+        {
+          "w": "orange",
+          "start": 13.12,
+          "end": 13.75
+        },
+        {
+          "w": "fish!",
+          "start": 13.75,
+          "end": 14.11
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 15.78,
+      "end": 17.51,
+      "text": "Three! A yellow fish!",
+      "words": [
+        {
+          "w": "Three!",
+          "start": 15.94,
+          "end": 16.323
+        },
+        {
+          "w": "A",
+          "start": 16.323,
+          "end": 16.553
+        },
+        {
+          "w": "yellow",
+          "start": 16.553,
+          "end": 17.013
+        },
+        {
+          "w": "fish!",
+          "start": 17.013,
+          "end": 17.32
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 19.01,
+      "end": 20.68,
+      "text": "Four! A green fish!",
+      "words": [
+        {
+          "w": "Four!",
+          "start": 19.11,
+          "end": 19.502
+        },
+        {
+          "w": "A",
+          "start": 19.502,
+          "end": 19.737
+        },
+        {
+          "w": "green",
+          "start": 19.737,
+          "end": 20.207
+        },
+        {
+          "w": "fish!",
+          "start": 20.207,
+          "end": 20.52
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 22.18,
+      "end": 23.73,
+      "text": "Five! A blue fish!",
+      "words": [
+        {
+          "w": "Five!",
+          "start": 22.32,
+          "end": 22.699
+        },
+        {
+          "w": "A",
+          "start": 22.699,
+          "end": 22.927
+        },
+        {
+          "w": "blue",
+          "start": 22.927,
+          "end": 23.306
+        },
+        {
+          "w": "fish!",
+          "start": 23.306,
+          "end": 23.61
+        }
+      ]
+    },
+    {
+      "beat": "c6",
+      "speaker": "mila",
+      "start": 25.23,
+      "end": 26.91,
+      "text": "Six! A purple fish!",
+      "words": [
+        {
+          "w": "Six!",
+          "start": 25.27,
+          "end": 25.665
+        },
+        {
+          "w": "A",
+          "start": 25.665,
+          "end": 25.902
+        },
+        {
+          "w": "purple",
+          "start": 25.902,
+          "end": 26.454
+        },
+        {
+          "w": "fish!",
+          "start": 26.454,
+          "end": 26.77
+        }
+      ]
+    },
+    {
+      "beat": "c7",
+      "speaker": "mila",
+      "start": 28.41,
+      "end": 30.03,
+      "text": "Seven! A pink fish!",
+      "words": [
+        {
+          "w": "Seven!",
+          "start": 28.46,
+          "end": 28.947
+        },
+        {
+          "w": "A",
+          "start": 28.947,
+          "end": 29.19
+        },
+        {
+          "w": "pink",
+          "start": 29.19,
+          "end": 29.596
+        },
+        {
+          "w": "fish!",
+          "start": 29.596,
+          "end": 29.92
+        }
+      ]
+    },
+    {
+      "beat": "c8",
+      "speaker": "mila",
+      "start": 31.53,
+      "end": 33.12,
+      "text": "Eight! A white fish!",
+      "words": [
+        {
+          "w": "Eight!",
+          "start": 31.61,
+          "end": 31.955
+        },
+        {
+          "w": "A",
+          "start": 31.955,
+          "end": 32.214
+        },
+        {
+          "w": "white",
+          "start": 32.214,
+          "end": 32.645
+        },
+        {
+          "w": "fish!",
+          "start": 32.645,
+          "end": 32.99
+        }
+      ]
+    },
+    {
+      "beat": "c9",
+      "speaker": "mila",
+      "start": 34.62,
+      "end": 36.49,
+      "text": "Nine! A fish with spots!",
+      "words": [
+        {
+          "w": "Nine!",
+          "start": 34.67,
+          "end": 35.059
+        },
+        {
+          "w": "A",
+          "start": 35.059,
+          "end": 35.292
+        },
+        {
+          "w": "fish",
+          "start": 35.292,
+          "end": 35.603
+        },
+        {
+          "w": "with",
+          "start": 35.603,
+          "end": 35.836
+        },
+        {
+          "w": "spots!",
+          "start": 35.836,
+          "end": 36.38
+        }
+      ]
+    },
+    {
+      "beat": "c10",
+      "speaker": "mila",
+      "start": 37.99,
+      "end": 39.69,
+      "text": "Ten! A rainbow fish!",
+      "words": [
+        {
+          "w": "Ten!",
+          "start": 38.02,
+          "end": 38.336
+        },
+        {
+          "w": "A",
+          "start": 38.336,
+          "end": 38.573
+        },
+        {
+          "w": "rainbow",
+          "start": 38.573,
+          "end": 39.204
+        },
+        {
+          "w": "fish!",
+          "start": 39.204,
+          "end": 39.52
+        }
+      ]
+    },
+    {
+      "beat": "ten",
+      "speaker": "bobo",
+      "start": 41.49,
+      "end": 43.09,
+      "text": "Ten colorful fish! Hooray!",
+      "words": [
+        {
+          "w": "Ten",
+          "start": 41.52,
+          "end": 41.777
+        },
+        {
+          "w": "colorful",
+          "start": 41.777,
+          "end": 42.292
+        },
+        {
+          "w": "fish!",
+          "start": 42.292,
+          "end": 42.55
+        },
+        {
+          "w": "Hooray!",
+          "start": 42.55,
+          "end": 43.0
+        }
+      ]
+    },
+    {
+      "beat": "find",
+      "speaker": "mila",
+      "start": 45.09,
+      "end": 46.79,
+      "text": "Can you find the blue fish?",
+      "words": [
+        {
+          "w": "Can",
+          "start": 45.13,
+          "end": 45.382
+        },
+        {
+          "w": "you",
+          "start": 45.382,
+          "end": 45.57
+        },
+        {
+          "w": "find",
+          "start": 45.57,
+          "end": 45.948
+        },
+        {
+          "w": "the",
+          "start": 45.948,
+          "end": 46.074
+        },
+        {
+          "w": "blue",
+          "start": 46.074,
+          "end": 46.388
+        },
+        {
+          "w": "fish?",
+          "start": 46.388,
+          "end": 46.64
+        }
+      ]
+    },
+    {
+      "beat": "find_a",
+      "speaker": "bobo",
+      "start": 51.39,
+      "end": 52.75,
+      "text": "There it is! Blub, blub!",
+      "words": [
+        {
+          "w": "There",
+          "start": 51.43,
+          "end": 51.703
+        },
+        {
+          "w": "it",
+          "start": 51.703,
+          "end": 51.84
+        },
+        {
+          "w": "is!",
+          "start": 51.84,
+          "end": 51.977
+        },
+        {
+          "w": "Blub,",
+          "start": 51.977,
+          "end": 52.318
+        },
+        {
+          "w": "blub!",
+          "start": 52.318,
+          "end": 52.66
+        }
+      ]
+    },
+    {
+      "beat": "stripes",
+      "speaker": "mila",
+      "start": 54.95,
+      "end": 57.78,
+      "text": "Now, look closely. How many fish have stripes?",
+      "words": [
+        {
+          "w": "Now,",
+          "start": 54.99,
+          "end": 55.25
+        },
+        {
+          "w": "look",
+          "start": 55.25,
+          "end": 55.509
+        },
+        {
+          "w": "closely.",
+          "start": 55.509,
+          "end": 56.028
+        },
+        {
+          "w": "How",
+          "start": 56.028,
+          "end": 56.288
+        },
+        {
+          "w": "many",
+          "start": 56.288,
+          "end": 56.612
+        },
+        {
+          "w": "fish",
+          "start": 56.612,
+          "end": 56.871
+        },
+        {
+          "w": "have",
+          "start": 56.871,
+          "end": 57.131
+        },
+        {
+          "w": "stripes?",
+          "start": 57.131,
+          "end": 57.65
+        }
+      ]
+    },
+    {
+      "beat": "ans",
+      "speaker": "mila",
+      "start": 62.98,
+      "end": 63.85,
+      "text": "Three!",
+      "words": [
+        {
+          "w": "Three!",
+          "start": 63.05,
+          "end": 63.69
+        }
+      ]
+    },
+    {
+      "beat": "check",
+      "speaker": "mila",
+      "start": 65.45,
+      "end": 67.24,
+      "text": "Let's check! One, two, three!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 65.49,
+          "end": 65.842
+        },
+        {
+          "w": "check!",
+          "start": 65.842,
+          "end": 66.194
+        },
+        {
+          "w": "One,",
+          "start": 66.194,
+          "end": 66.476
+        },
+        {
+          "w": "two,",
+          "start": 66.476,
+          "end": 66.758
+        },
+        {
+          "w": "three!",
+          "start": 66.758,
+          "end": 67.11
+        }
+      ]
+    },
+    {
+      "beat": "three",
+      "speaker": "bobo",
+      "start": 68.64,
+      "end": 69.84,
+      "text": "Three fish with stripes!",
+      "words": [
+        {
+          "w": "Three",
+          "start": 68.68,
+          "end": 68.945
+        },
+        {
+          "w": "fish",
+          "start": 68.945,
+          "end": 69.157
+        },
+        {
+          "w": "with",
+          "start": 69.157,
+          "end": 69.316
+        },
+        {
+          "w": "stripes!",
+          "start": 69.316,
+          "end": 69.74
+        }
+      ]
+    },
+    {
+      "beat": "again",
+      "speaker": "mila",
+      "start": 72.04,
+      "end": 74.68,
+      "text": "Let's count all the fish again, fast! Ready?",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 72.07,
+          "end": 72.419
+        },
+        {
+          "w": "count",
+          "start": 72.419,
+          "end": 72.837
+        },
+        {
+          "w": "all",
+          "start": 72.837,
+          "end": 73.116
+        },
+        {
+          "w": "the",
+          "start": 73.116,
+          "end": 73.255
+        },
+        {
+          "w": "fish",
+          "start": 73.255,
+          "end": 73.534
+        },
+        {
+          "w": "again,",
+          "start": 73.534,
+          "end": 73.883
+        },
+        {
+          "w": "fast!",
+          "start": 73.883,
+          "end": 74.231
+        },
+        {
+          "w": "Ready?",
+          "start": 74.231,
+          "end": 74.58
+        }
+      ]
+    },
+    {
+      "beat": "fast",
+      "speaker": "mila",
+      "start": 76.08,
+      "end": 79.49,
+      "text": "One, two, three, four, five, six, seven, eight, nine, ten!",
+      "words": [
+        {
+          "w": "One,",
+          "start": 76.11,
+          "end": 76.385
+        },
+        {
+          "w": "two,",
+          "start": 76.385,
+          "end": 76.66
+        },
+        {
+          "w": "three,",
+          "start": 76.66,
+          "end": 77.003
+        },
+        {
+          "w": "four,",
+          "start": 77.003,
+          "end": 77.347
+        },
+        {
+          "w": "five,",
+          "start": 77.347,
+          "end": 77.691
+        },
+        {
+          "w": "six,",
+          "start": 77.691,
+          "end": 78.034
+        },
+        {
+          "w": "seven,",
+          "start": 78.034,
+          "end": 78.447
+        },
+        {
+          "w": "eight,",
+          "start": 78.447,
+          "end": 78.721
+        },
+        {
+          "w": "nine,",
+          "start": 78.721,
+          "end": 79.065
+        },
+        {
+          "w": "ten!",
+          "start": 79.065,
+          "end": 79.34
+        }
+      ]
+    },
+    {
+      "beat": "yay",
+      "speaker": "bobo",
+      "start": 81.29,
+      "end": 83.16,
+      "text": "Blub, blub! Great counting, friends!",
+      "words": [
+        {
+          "w": "Blub,",
+          "start": 81.33,
+          "end": 81.612
+        },
+        {
+          "w": "blub!",
+          "start": 81.612,
+          "end": 81.895
+        },
+        {
+          "w": "Great",
+          "start": 81.895,
+          "end": 82.233
+        },
+        {
+          "w": "counting,",
+          "start": 82.233,
+          "end": 82.685
+        },
+        {
+          "w": "friends!",
+          "start": 82.685,
+          "end": 83.08
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "visual": "Blub, blub! Look at all the colorful fish!",
+      "end": 4.73
+    },
+    {
+      "id": "go",
+      "start": 4.73,
+      "visual": "Let's count them together! Show me your fingers!",
+      "end": 9.33
+    },
+    {
+      "id": "c1",
+      "start": 9.33,
+      "visual": "One! A red fish!",
+      "end": 12.36
+    },
+    {
+      "id": "c2",
+      "start": 12.36,
+      "visual": "Two! An orange fish!",
+      "end": 15.58
+    },
+    {
+      "id": "c3",
+      "start": 15.58,
+      "visual": "Three! A yellow fish!",
+      "end": 18.81
+    },
+    {
+      "id": "c4",
+      "start": 18.81,
+      "visual": "Four! A green fish!",
+      "end": 21.98
+    },
+    {
+      "id": "c5",
+      "start": 21.98,
+      "visual": "Five! A blue fish!",
+      "end": 25.03
+    },
+    {
+      "id": "c6",
+      "start": 25.03,
+      "visual": "Six! A purple fish!",
+      "end": 28.21
+    },
+    {
+      "id": "c7",
+      "start": 28.21,
+      "visual": "Seven! A pink fish!",
+      "end": 31.33
+    },
+    {
+      "id": "c8",
+      "start": 31.33,
+      "visual": "Eight! A white fish!",
+      "end": 34.42
+    },
+    {
+      "id": "c9",
+      "start": 34.42,
+      "visual": "Nine! A fish with spots!",
+      "end": 37.79
+    },
+    {
+      "id": "c10",
+      "start": 37.79,
+      "visual": "Ten! A rainbow fish!",
+      "end": 41.29
+    },
+    {
+      "id": "ten",
+      "start": 41.29,
+      "visual": "Ten colorful fish! Hooray!",
+      "end": 44.89
+    },
+    {
+      "id": "find",
+      "start": 44.89,
+      "visual": "Can you find the blue fish?",
+      "end": 51.19
+    },
+    {
+      "id": "find_a",
+      "start": 51.19,
+      "visual": "There it is! Blub, blub!",
+      "end": 54.75
+    },
+    {
+      "id": "stripes",
+      "start": 54.75,
+      "visual": "Now, look closely. How many fish have stripes?",
+      "end": 62.78
+    },
+    {
+      "id": "ans",
+      "start": 62.78,
+      "visual": "Three!",
+      "end": 65.25
+    },
+    {
+      "id": "check",
+      "start": 65.25,
+      "visual": "Let's check! One, two, three!",
+      "end": 68.44
+    },
+    {
+      "id": "three",
+      "start": 68.44,
+      "visual": "Three fish with stripes!",
+      "end": 71.84
+    },
+    {
+      "id": "again",
+      "start": 71.84,
+      "visual": "Let's count all the fish again, fast! Ready?",
+      "end": 75.88
+    },
+    {
+      "id": "fast",
+      "start": 75.88,
+      "visual": "One, two, three, four, five, six, seven, eight, nine, ten!",
+      "end": 81.09
+    },
+    {
+      "id": "yay",
+      "start": 81.09,
+      "visual": "Blub, blub! Great counting, friends!",
+      "end": 85.6
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

@@ -1,0 +1,3514 @@
+{
+  "id": "day-029",
+  "series": "tiny-sparks",
+  "episode": 29,
+  "title": "Bobo Learns to Clean His Room",
+  "composition": "KidsStories029",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 303.5
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-10%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "open",
+      "speaker": "narrator",
+      "start": 1.6,
+      "end": 3.35,
+      "text": "This is Super Bobo's room.",
+      "words": [
+        {
+          "w": "This",
+          "start": 1.65,
+          "end": 1.904
+        },
+        {
+          "w": "is",
+          "start": 1.904,
+          "end": 2.032
+        },
+        {
+          "w": "Super",
+          "start": 2.032,
+          "end": 2.413
+        },
+        {
+          "w": "Bobo's",
+          "start": 2.413,
+          "end": 2.922
+        },
+        {
+          "w": "room.",
+          "start": 2.922,
+          "end": 3.24
+        }
+      ]
+    },
+    {
+      "beat": "hi",
+      "speaker": "bobo",
+      "start": 4.35,
+      "end": 6.2,
+      "text": "Hi, friends! I'm Super Bobo!",
+      "words": [
+        {
+          "w": "Hi,",
+          "start": 4.38,
+          "end": 4.63
+        },
+        {
+          "w": "friends!",
+          "start": 4.63,
+          "end": 5.069
+        },
+        {
+          "w": "I'm",
+          "start": 5.069,
+          "end": 5.256
+        },
+        {
+          "w": "Super",
+          "start": 5.256,
+          "end": 5.632
+        },
+        {
+          "w": "Bobo!",
+          "start": 5.632,
+          "end": 6.07
+        }
+      ]
+    },
+    {
+      "beat": "mess",
+      "speaker": "narrator",
+      "start": 7.6,
+      "end": 9.47,
+      "text": "Oh my! Look at all this mess!",
+      "words": [
+        {
+          "w": "Oh",
+          "start": 7.72,
+          "end": 7.969
+        },
+        {
+          "w": "my!",
+          "start": 7.969,
+          "end": 8.3
+        },
+        {
+          "w": "Look",
+          "start": 8.42,
+          "end": 8.638
+        },
+        {
+          "w": "at",
+          "start": 8.638,
+          "end": 8.747
+        },
+        {
+          "w": "all",
+          "start": 8.747,
+          "end": 8.964
+        },
+        {
+          "w": "this",
+          "start": 8.964,
+          "end": 9.182
+        },
+        {
+          "w": "mess!",
+          "start": 9.182,
+          "end": 9.4
+        }
+      ]
+    },
+    {
+      "beat": "see",
+      "speaker": "narrator",
+      "start": 10.87,
+      "end": 14.02,
+      "text": "Can you see the toys, the books, and the clothes on the floor?",
+      "words": [
+        {
+          "w": "Can",
+          "start": 10.9,
+          "end": 11.152
+        },
+        {
+          "w": "you",
+          "start": 11.152,
+          "end": 11.342
+        },
+        {
+          "w": "see",
+          "start": 11.342,
+          "end": 11.594
+        },
+        {
+          "w": "the",
+          "start": 11.594,
+          "end": 11.721
+        },
+        {
+          "w": "toys,",
+          "start": 11.721,
+          "end": 12.036
+        },
+        {
+          "w": "the",
+          "start": 12.036,
+          "end": 12.162
+        },
+        {
+          "w": "books,",
+          "start": 12.162,
+          "end": 12.478
+        },
+        {
+          "w": "and",
+          "start": 12.478,
+          "end": 12.668
+        },
+        {
+          "w": "the",
+          "start": 12.668,
+          "end": 12.794
+        },
+        {
+          "w": "clothes",
+          "start": 12.794,
+          "end": 13.236
+        },
+        {
+          "w": "on",
+          "start": 13.236,
+          "end": 13.425
+        },
+        {
+          "w": "the",
+          "start": 13.425,
+          "end": 13.551
+        },
+        {
+          "w": "floor?",
+          "start": 13.551,
+          "end": 13.93
+        }
+      ]
+    },
+    {
+      "beat": "spy",
+      "speaker": "narrator",
+      "start": 15.62,
+      "end": 17.21,
+      "text": "Can you find the yellow duck?",
+      "words": [
+        {
+          "w": "Can",
+          "start": 15.67,
+          "end": 15.899
+        },
+        {
+          "w": "you",
+          "start": 15.899,
+          "end": 16.07
+        },
+        {
+          "w": "find",
+          "start": 16.07,
+          "end": 16.414
+        },
+        {
+          "w": "the",
+          "start": 16.414,
+          "end": 16.528
+        },
+        {
+          "w": "yellow",
+          "start": 16.528,
+          "end": 16.871
+        },
+        {
+          "w": "duck?",
+          "start": 16.871,
+          "end": 17.1
+        }
+      ]
+    },
+    {
+      "beat": "spy_a",
+      "speaker": "narrator",
+      "start": 21.01,
+      "end": 21.97,
+      "text": "There it is!",
+      "words": [
+        {
+          "w": "There",
+          "start": 21.04,
+          "end": 21.4
+        },
+        {
+          "w": "it",
+          "start": 21.4,
+          "end": 21.58
+        },
+        {
+          "w": "is!",
+          "start": 21.58,
+          "end": 21.76
+        }
+      ]
+    },
+    {
+      "beat": "spy2",
+      "speaker": "narrator",
+      "start": 23.57,
+      "end": 25.07,
+      "text": "Can you find the blue book?",
+      "words": [
+        {
+          "w": "Can",
+          "start": 23.63,
+          "end": 23.853
+        },
+        {
+          "w": "you",
+          "start": 23.853,
+          "end": 24.021
+        },
+        {
+          "w": "find",
+          "start": 24.021,
+          "end": 24.356
+        },
+        {
+          "w": "the",
+          "start": 24.356,
+          "end": 24.468
+        },
+        {
+          "w": "blue",
+          "start": 24.468,
+          "end": 24.747
+        },
+        {
+          "w": "book?",
+          "start": 24.747,
+          "end": 24.97
+        }
+      ]
+    },
+    {
+      "beat": "spy2_a",
+      "speaker": "narrator",
+      "start": 28.87,
+      "end": 30.12,
+      "text": "Yes! Right there!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 28.91,
+          "end": 29.236
+        },
+        {
+          "w": "Right",
+          "start": 29.236,
+          "end": 29.644
+        },
+        {
+          "w": "there!",
+          "start": 29.644,
+          "end": 29.97
+        }
+      ]
+    },
+    {
+      "beat": "want",
+      "speaker": "bobo",
+      "start": 32.72,
+      "end": 34.85,
+      "text": "Where is my red ball? I want to play!",
+      "words": [
+        {
+          "w": "Where",
+          "start": 32.75,
+          "end": 32.972
+        },
+        {
+          "w": "is",
+          "start": 32.972,
+          "end": 33.083
+        },
+        {
+          "w": "my",
+          "start": 33.083,
+          "end": 33.304
+        },
+        {
+          "w": "red",
+          "start": 33.304,
+          "end": 33.526
+        },
+        {
+          "w": "ball?",
+          "start": 33.526,
+          "end": 33.803
+        },
+        {
+          "w": "I",
+          "start": 33.803,
+          "end": 33.969
+        },
+        {
+          "w": "want",
+          "start": 33.969,
+          "end": 34.247
+        },
+        {
+          "w": "to",
+          "start": 34.247,
+          "end": 34.413
+        },
+        {
+          "w": "play!",
+          "start": 34.413,
+          "end": 34.69
+        }
+      ]
+    },
+    {
+      "beat": "knock",
+      "speaker": "narrator",
+      "start": 36.25,
+      "end": 37.29,
+      "text": "Knock, knock!",
+      "words": [
+        {
+          "w": "Knock,",
+          "start": 36.29,
+          "end": 36.72
+        },
+        {
+          "w": "knock!",
+          "start": 36.72,
+          "end": 37.15
+        }
+      ]
+    },
+    {
+      "beat": "mila_hi",
+      "speaker": "mila",
+      "start": 38.29,
+      "end": 40.27,
+      "text": "Hi, Bobo! Can we play ball?",
+      "words": [
+        {
+          "w": "Hi,",
+          "start": 38.32,
+          "end": 38.581
+        },
+        {
+          "w": "Bobo!",
+          "start": 38.581,
+          "end": 39.039
+        },
+        {
+          "w": "Can",
+          "start": 39.039,
+          "end": 39.3
+        },
+        {
+          "w": "we",
+          "start": 39.3,
+          "end": 39.496
+        },
+        {
+          "w": "play",
+          "start": 39.496,
+          "end": 39.823
+        },
+        {
+          "w": "ball?",
+          "start": 39.823,
+          "end": 40.15
+        }
+      ]
+    },
+    {
+      "beat": "leo_hi",
+      "speaker": "leo",
+      "start": 41.67,
+      "end": 43.32,
+      "text": "Whoa! Your room is so messy!",
+      "words": [
+        {
+          "w": "Whoa!",
+          "start": 41.7,
+          "end": 41.928
+        },
+        {
+          "w": "Your",
+          "start": 41.928,
+          "end": 42.099
+        },
+        {
+          "w": "room",
+          "start": 42.099,
+          "end": 42.383
+        },
+        {
+          "w": "is",
+          "start": 42.383,
+          "end": 42.497
+        },
+        {
+          "w": "so",
+          "start": 42.497,
+          "end": 42.725
+        },
+        {
+          "w": "messy!",
+          "start": 42.725,
+          "end": 43.01
+        }
+      ]
+    },
+    {
+      "beat": "cant",
+      "speaker": "bobo",
+      "start": 44.52,
+      "end": 46.09,
+      "text": "I can't find my ball anywhere!",
+      "words": [
+        {
+          "w": "I",
+          "start": 44.55,
+          "end": 44.687
+        },
+        {
+          "w": "can't",
+          "start": 44.687,
+          "end": 44.916
+        },
+        {
+          "w": "find",
+          "start": 44.916,
+          "end": 45.191
+        },
+        {
+          "w": "my",
+          "start": 45.191,
+          "end": 45.375
+        },
+        {
+          "w": "ball",
+          "start": 45.375,
+          "end": 45.604
+        },
+        {
+          "w": "anywhere!",
+          "start": 45.604,
+          "end": 45.97
+        }
+      ]
+    },
+    {
+      "beat": "idea",
+      "speaker": "bobo",
+      "start": 47.69,
+      "end": 49.6,
+      "text": "I know! I'll push it all under the bed!",
+      "words": [
+        {
+          "w": "I",
+          "start": 47.72,
+          "end": 47.885
+        },
+        {
+          "w": "know!",
+          "start": 47.885,
+          "end": 48.106
+        },
+        {
+          "w": "I'll",
+          "start": 48.106,
+          "end": 48.272
+        },
+        {
+          "w": "push",
+          "start": 48.272,
+          "end": 48.492
+        },
+        {
+          "w": "it",
+          "start": 48.492,
+          "end": 48.603
+        },
+        {
+          "w": "all",
+          "start": 48.603,
+          "end": 48.823
+        },
+        {
+          "w": "under",
+          "start": 48.823,
+          "end": 49.099
+        },
+        {
+          "w": "the",
+          "start": 49.099,
+          "end": 49.209
+        },
+        {
+          "w": "bed!",
+          "start": 49.209,
+          "end": 49.43
+        }
+      ]
+    },
+    {
+      "beat": "whoosh",
+      "speaker": "narrator",
+      "start": 50.6,
+      "end": 52.0,
+      "text": "Swish, swish, swoosh!",
+      "words": [
+        {
+          "w": "Swish,",
+          "start": 50.63,
+          "end": 51.021
+        },
+        {
+          "w": "swish,",
+          "start": 51.021,
+          "end": 51.411
+        },
+        {
+          "w": "swoosh!",
+          "start": 51.411,
+          "end": 51.88
+        }
+      ]
+    },
+    {
+      "beat": "tada",
+      "speaker": "bobo",
+      "start": 53.6,
+      "end": 54.79,
+      "text": "Ta-da! All clean!",
+      "words": [
+        {
+          "w": "Ta-da!",
+          "start": 53.63,
+          "end": 54.012
+        },
+        {
+          "w": "All",
+          "start": 54.012,
+          "end": 54.267
+        },
+        {
+          "w": "clean!",
+          "start": 54.267,
+          "end": 54.65
+        }
+      ]
+    },
+    {
+      "beat": "boing",
+      "speaker": "narrator",
+      "start": 56.79,
+      "end": 58.83,
+      "text": "But then... boing, boing, boing!",
+      "words": [
+        {
+          "w": "But",
+          "start": 56.88,
+          "end": 57.205
+        },
+        {
+          "w": "then...",
+          "start": 57.205,
+          "end": 57.53
+        },
+        {
+          "w": "boing,",
+          "start": 57.53,
+          "end": 57.937
+        },
+        {
+          "w": "boing,",
+          "start": 57.937,
+          "end": 58.343
+        },
+        {
+          "w": "boing!",
+          "start": 58.343,
+          "end": 58.75
+        }
+      ]
+    },
+    {
+      "beat": "leo_oops",
+      "speaker": "leo",
+      "start": 60.03,
+      "end": 61.94,
+      "text": "Oh no! It's even messier now!",
+      "words": [
+        {
+          "w": "Oh",
+          "start": 60.06,
+          "end": 60.241
+        },
+        {
+          "w": "no!",
+          "start": 60.241,
+          "end": 60.483
+        },
+        {
+          "w": "It's",
+          "start": 60.483,
+          "end": 60.664
+        },
+        {
+          "w": "even",
+          "start": 60.664,
+          "end": 61.026
+        },
+        {
+          "w": "messier",
+          "start": 61.026,
+          "end": 61.388
+        },
+        {
+          "w": "now!",
+          "start": 61.388,
+          "end": 61.63
+        }
+      ]
+    },
+    {
+      "beat": "sad",
+      "speaker": "bobo",
+      "start": 63.34,
+      "end": 64.63,
+      "text": "I'll never find my ball.",
+      "words": [
+        {
+          "w": "I'll",
+          "start": 63.37,
+          "end": 63.519
+        },
+        {
+          "w": "never",
+          "start": 63.519,
+          "end": 63.767
+        },
+        {
+          "w": "find",
+          "start": 63.767,
+          "end": 64.064
+        },
+        {
+          "w": "my",
+          "start": 64.064,
+          "end": 64.262
+        },
+        {
+          "w": "ball.",
+          "start": 64.262,
+          "end": 64.51
+        }
+      ]
+    },
+    {
+      "beat": "feel",
+      "speaker": "narrator",
+      "start": 65.63,
+      "end": 67.29,
+      "text": "Bobo feels frustrated.",
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 65.66,
+          "end": 66.077
+        },
+        {
+          "w": "feels",
+          "start": 66.077,
+          "end": 66.435
+        },
+        {
+          "w": "frustrated.",
+          "start": 66.435,
+          "end": 67.15
+        }
+      ]
+    },
+    {
+      "beat": "ask1",
+      "speaker": "narrator",
+      "start": 68.69,
+      "end": 70.89,
+      "text": "Can you help Bobo? What should he do?",
+      "words": [
+        {
+          "w": "Can",
+          "start": 68.75,
+          "end": 68.989
+        },
+        {
+          "w": "you",
+          "start": 68.989,
+          "end": 69.168
+        },
+        {
+          "w": "help",
+          "start": 69.168,
+          "end": 69.466
+        },
+        {
+          "w": "Bobo?",
+          "start": 69.466,
+          "end": 69.884
+        },
+        {
+          "w": "What",
+          "start": 69.884,
+          "end": 70.123
+        },
+        {
+          "w": "should",
+          "start": 70.123,
+          "end": 70.362
+        },
+        {
+          "w": "he",
+          "start": 70.362,
+          "end": 70.541
+        },
+        {
+          "w": "do?",
+          "start": 70.541,
+          "end": 70.78
+        }
+      ]
+    },
+    {
+      "beat": "tidy",
+      "speaker": "mila",
+      "start": 74.89,
+      "end": 77.1,
+      "text": "Let's tidy up together! It's easy!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 74.93,
+          "end": 75.285
+        },
+        {
+          "w": "tidy",
+          "start": 75.285,
+          "end": 75.711
+        },
+        {
+          "w": "up",
+          "start": 75.711,
+          "end": 75.924
+        },
+        {
+          "w": "together!",
+          "start": 75.924,
+          "end": 76.422
+        },
+        {
+          "w": "It's",
+          "start": 76.422,
+          "end": 76.635
+        },
+        {
+          "w": "easy!",
+          "start": 76.635,
+          "end": 76.99
+        }
+      ]
+    },
+    {
+      "beat": "three",
+      "speaker": "mila",
+      "start": 78.1,
+      "end": 79.55,
+      "text": "Just three steps!",
+      "words": [
+        {
+          "w": "Just",
+          "start": 78.18,
+          "end": 78.614
+        },
+        {
+          "w": "three",
+          "start": 78.614,
+          "end": 78.976
+        },
+        {
+          "w": "steps!",
+          "start": 78.976,
+          "end": 79.41
+        }
+      ]
+    },
+    {
+      "beat": "s1",
+      "speaker": "mila",
+      "start": 81.35,
+      "end": 83.84,
+      "text": "Step one. Toys go in the toy box!",
+      "words": [
+        {
+          "w": "Step",
+          "start": 81.38,
+          "end": 81.727
+        },
+        {
+          "w": "one.",
+          "start": 81.727,
+          "end": 82.005
+        },
+        {
+          "w": "Toys",
+          "start": 82.005,
+          "end": 82.352
+        },
+        {
+          "w": "go",
+          "start": 82.352,
+          "end": 82.629
+        },
+        {
+          "w": "in",
+          "start": 82.629,
+          "end": 82.837
+        },
+        {
+          "w": "the",
+          "start": 82.837,
+          "end": 82.976
+        },
+        {
+          "w": "toy",
+          "start": 82.976,
+          "end": 83.254
+        },
+        {
+          "w": "box!",
+          "start": 83.254,
+          "end": 83.67
+        }
+      ]
+    },
+    {
+      "beat": "s1_do",
+      "speaker": "narrator",
+      "start": 85.04,
+      "end": 87.83,
+      "text": "Bobo picks up his toys. One, two, three!",
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 85.07,
+          "end": 85.571
+        },
+        {
+          "w": "picks",
+          "start": 85.571,
+          "end": 85.929
+        },
+        {
+          "w": "up",
+          "start": 85.929,
+          "end": 86.144
+        },
+        {
+          "w": "his",
+          "start": 86.144,
+          "end": 86.431
+        },
+        {
+          "w": "toys.",
+          "start": 86.431,
+          "end": 86.789
+        },
+        {
+          "w": "One,",
+          "start": 86.789,
+          "end": 87.075
+        },
+        {
+          "w": "two,",
+          "start": 87.075,
+          "end": 87.362
+        },
+        {
+          "w": "three!",
+          "start": 87.362,
+          "end": 87.72
+        }
+      ]
+    },
+    {
+      "beat": "s1_turn",
+      "speaker": "mila",
+      "start": 89.63,
+      "end": 91.78,
+      "text": "Can you say it? Toys in the box!",
+      "words": [
+        {
+          "w": "Can",
+          "start": 89.67,
+          "end": 89.885
+        },
+        {
+          "w": "you",
+          "start": 89.885,
+          "end": 90.047
+        },
+        {
+          "w": "say",
+          "start": 90.047,
+          "end": 90.262
+        },
+        {
+          "w": "it?",
+          "start": 90.262,
+          "end": 90.37
+        },
+        {
+          "w": "Toys",
+          "start": 90.54,
+          "end": 90.874
+        },
+        {
+          "w": "in",
+          "start": 90.874,
+          "end": 91.075
+        },
+        {
+          "w": "the",
+          "start": 91.075,
+          "end": 91.209
+        },
+        {
+          "w": "box!",
+          "start": 91.209,
+          "end": 91.61
+        }
+      ]
+    },
+    {
+      "beat": "s1_leo",
+      "speaker": "leo",
+      "start": 94.58,
+      "end": 95.9,
+      "text": "Toys in the box!",
+      "words": [
+        {
+          "w": "Toys",
+          "start": 94.61,
+          "end": 94.941
+        },
+        {
+          "w": "in",
+          "start": 94.941,
+          "end": 95.14
+        },
+        {
+          "w": "the",
+          "start": 95.14,
+          "end": 95.273
+        },
+        {
+          "w": "box!",
+          "start": 95.273,
+          "end": 95.67
+        }
+      ]
+    },
+    {
+      "beat": "s2",
+      "speaker": "mila",
+      "start": 98.1,
+      "end": 100.18,
+      "text": "Step two. Books go on the shelf!",
+      "words": [
+        {
+          "w": "Step",
+          "start": 98.14,
+          "end": 98.469
+        },
+        {
+          "w": "two.",
+          "start": 98.469,
+          "end": 98.731
+        },
+        {
+          "w": "Books",
+          "start": 98.731,
+          "end": 99.06
+        },
+        {
+          "w": "go",
+          "start": 99.06,
+          "end": 99.323
+        },
+        {
+          "w": "on",
+          "start": 99.323,
+          "end": 99.52
+        },
+        {
+          "w": "the",
+          "start": 99.52,
+          "end": 99.651
+        },
+        {
+          "w": "shelf!",
+          "start": 99.651,
+          "end": 99.98
+        }
+      ]
+    },
+    {
+      "beat": "s2_do",
+      "speaker": "narrator",
+      "start": 101.38,
+      "end": 103.66,
+      "text": "Leo helps too. One, two, three!",
+      "words": [
+        {
+          "w": "Leo",
+          "start": 101.45,
+          "end": 101.884
+        },
+        {
+          "w": "helps",
+          "start": 101.884,
+          "end": 102.319
+        },
+        {
+          "w": "too.",
+          "start": 102.319,
+          "end": 102.609
+        },
+        {
+          "w": "One,",
+          "start": 102.609,
+          "end": 102.898
+        },
+        {
+          "w": "two,",
+          "start": 102.898,
+          "end": 103.188
+        },
+        {
+          "w": "three!",
+          "start": 103.188,
+          "end": 103.55
+        }
+      ]
+    },
+    {
+      "beat": "s2_turn",
+      "speaker": "mila",
+      "start": 105.46,
+      "end": 107.33,
+      "text": "Your turn! Books on the shelf!",
+      "words": [
+        {
+          "w": "Your",
+          "start": 105.51,
+          "end": 105.733
+        },
+        {
+          "w": "turn!",
+          "start": 105.733,
+          "end": 106.105
+        },
+        {
+          "w": "Books",
+          "start": 106.105,
+          "end": 106.477
+        },
+        {
+          "w": "on",
+          "start": 106.477,
+          "end": 106.7
+        },
+        {
+          "w": "the",
+          "start": 106.7,
+          "end": 106.848
+        },
+        {
+          "w": "shelf!",
+          "start": 106.848,
+          "end": 107.22
+        }
+      ]
+    },
+    {
+      "beat": "s2_leo",
+      "speaker": "leo",
+      "start": 110.13,
+      "end": 111.39,
+      "text": "Books on the shelf!",
+      "words": [
+        {
+          "w": "Books",
+          "start": 110.17,
+          "end": 110.513
+        },
+        {
+          "w": "on",
+          "start": 110.513,
+          "end": 110.719
+        },
+        {
+          "w": "the",
+          "start": 110.719,
+          "end": 110.857
+        },
+        {
+          "w": "shelf!",
+          "start": 110.857,
+          "end": 111.2
+        }
+      ]
+    },
+    {
+      "beat": "s3",
+      "speaker": "mila",
+      "start": 113.59,
+      "end": 115.95,
+      "text": "Step three. Clothes go in the basket!",
+      "words": [
+        {
+          "w": "Step",
+          "start": 113.62,
+          "end": 113.949
+        },
+        {
+          "w": "three.",
+          "start": 113.949,
+          "end": 114.278
+        },
+        {
+          "w": "Clothes",
+          "start": 114.278,
+          "end": 114.738
+        },
+        {
+          "w": "go",
+          "start": 114.738,
+          "end": 115.001
+        },
+        {
+          "w": "in",
+          "start": 115.001,
+          "end": 115.198
+        },
+        {
+          "w": "the",
+          "start": 115.198,
+          "end": 115.33
+        },
+        {
+          "w": "basket!",
+          "start": 115.33,
+          "end": 115.79
+        }
+      ]
+    },
+    {
+      "beat": "s3_do",
+      "speaker": "narrator",
+      "start": 117.15,
+      "end": 120.13,
+      "text": "Bobo picks up his sock, his shirt, and his hat...",
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 117.2,
+          "end": 117.594
+        },
+        {
+          "w": "picks",
+          "start": 117.594,
+          "end": 117.875
+        },
+        {
+          "w": "up",
+          "start": 117.875,
+          "end": 118.044
+        },
+        {
+          "w": "his",
+          "start": 118.044,
+          "end": 118.269
+        },
+        {
+          "w": "sock,",
+          "start": 118.269,
+          "end": 118.55
+        },
+        {
+          "w": "his",
+          "start": 118.72,
+          "end": 118.96
+        },
+        {
+          "w": "shirt,",
+          "start": 118.96,
+          "end": 119.26
+        },
+        {
+          "w": "and",
+          "start": 119.38,
+          "end": 119.557
+        },
+        {
+          "w": "his",
+          "start": 119.557,
+          "end": 119.794
+        },
+        {
+          "w": "hat...",
+          "start": 119.794,
+          "end": 120.03
+        }
+      ]
+    },
+    {
+      "beat": "look",
+      "speaker": "narrator",
+      "start": 121.53,
+      "end": 123.04,
+      "text": "Wait! What's under the hat?",
+      "words": [
+        {
+          "w": "Wait!",
+          "start": 121.59,
+          "end": 121.914
+        },
+        {
+          "w": "What's",
+          "start": 121.914,
+          "end": 122.238
+        },
+        {
+          "w": "under",
+          "start": 122.238,
+          "end": 122.561
+        },
+        {
+          "w": "the",
+          "start": 122.561,
+          "end": 122.691
+        },
+        {
+          "w": "hat?",
+          "start": 122.691,
+          "end": 122.95
+        }
+      ]
+    },
+    {
+      "beat": "ball_q",
+      "speaker": "narrator",
+      "start": 124.04,
+      "end": 125.02,
+      "text": "Can you guess?",
+      "words": [
+        {
+          "w": "Can",
+          "start": 124.08,
+          "end": 124.364
+        },
+        {
+          "w": "you",
+          "start": 124.364,
+          "end": 124.576
+        },
+        {
+          "w": "guess?",
+          "start": 124.576,
+          "end": 124.86
+        }
+      ]
+    },
+    {
+      "beat": "ball",
+      "speaker": "bobo",
+      "start": 128.42,
+      "end": 129.86,
+      "text": "My red ball! I found it!",
+      "words": [
+        {
+          "w": "My",
+          "start": 128.45,
+          "end": 128.668
+        },
+        {
+          "w": "red",
+          "start": 128.668,
+          "end": 128.887
+        },
+        {
+          "w": "ball!",
+          "start": 128.887,
+          "end": 129.16
+        },
+        {
+          "w": "I",
+          "start": 129.16,
+          "end": 129.323
+        },
+        {
+          "w": "found",
+          "start": 129.323,
+          "end": 129.651
+        },
+        {
+          "w": "it!",
+          "start": 129.651,
+          "end": 129.76
+        }
+      ]
+    },
+    {
+      "beat": "learn",
+      "speaker": "bobo",
+      "start": 131.46,
+      "end": 133.93,
+      "text": "When my room is tidy, I can find my things!",
+      "words": [
+        {
+          "w": "When",
+          "start": 131.49,
+          "end": 131.704
+        },
+        {
+          "w": "my",
+          "start": 131.704,
+          "end": 131.918
+        },
+        {
+          "w": "room",
+          "start": 131.918,
+          "end": 132.185
+        },
+        {
+          "w": "is",
+          "start": 132.185,
+          "end": 132.292
+        },
+        {
+          "w": "tidy,",
+          "start": 132.292,
+          "end": 132.613
+        },
+        {
+          "w": "I",
+          "start": 132.613,
+          "end": 132.774
+        },
+        {
+          "w": "can",
+          "start": 132.774,
+          "end": 132.988
+        },
+        {
+          "w": "find",
+          "start": 132.988,
+          "end": 133.309
+        },
+        {
+          "w": "my",
+          "start": 133.309,
+          "end": 133.523
+        },
+        {
+          "w": "things!",
+          "start": 133.523,
+          "end": 133.79
+        }
+      ]
+    },
+    {
+      "beat": "s3_turn",
+      "speaker": "mila",
+      "start": 135.73,
+      "end": 137.82,
+      "text": "Your turn! Clothes in the basket!",
+      "words": [
+        {
+          "w": "Your",
+          "start": 135.76,
+          "end": 135.979
+        },
+        {
+          "w": "turn!",
+          "start": 135.979,
+          "end": 136.344
+        },
+        {
+          "w": "Clothes",
+          "start": 136.344,
+          "end": 136.854
+        },
+        {
+          "w": "in",
+          "start": 136.854,
+          "end": 137.073
+        },
+        {
+          "w": "the",
+          "start": 137.073,
+          "end": 137.219
+        },
+        {
+          "w": "basket!",
+          "start": 137.219,
+          "end": 137.73
+        }
+      ]
+    },
+    {
+      "beat": "s3_leo",
+      "speaker": "leo",
+      "start": 140.62,
+      "end": 142.05,
+      "text": "Clothes in the basket!",
+      "words": [
+        {
+          "w": "Clothes",
+          "start": 140.65,
+          "end": 141.081
+        },
+        {
+          "w": "in",
+          "start": 141.081,
+          "end": 141.266
+        },
+        {
+          "w": "the",
+          "start": 141.266,
+          "end": 141.389
+        },
+        {
+          "w": "basket!",
+          "start": 141.389,
+          "end": 141.82
+        }
+      ]
+    },
+    {
+      "beat": "clean",
+      "speaker": "narrator",
+      "start": 144.05,
+      "end": 146.41,
+      "text": "Look! Bobo's room is clean and tidy!",
+      "words": [
+        {
+          "w": "Look!",
+          "start": 144.08,
+          "end": 144.45
+        },
+        {
+          "w": "Bobo's",
+          "start": 144.58,
+          "end": 145.036
+        },
+        {
+          "w": "room",
+          "start": 145.036,
+          "end": 145.321
+        },
+        {
+          "w": "is",
+          "start": 145.321,
+          "end": 145.435
+        },
+        {
+          "w": "clean",
+          "start": 145.435,
+          "end": 145.777
+        },
+        {
+          "w": "and",
+          "start": 145.777,
+          "end": 145.948
+        },
+        {
+          "w": "tidy!",
+          "start": 145.948,
+          "end": 146.29
+        }
+      ]
+    },
+    {
+      "beat": "yay",
+      "speaker": "bobo",
+      "start": 147.61,
+      "end": 148.93,
+      "text": "Hooray! Thank you, friends!",
+      "words": [
+        {
+          "w": "Hooray!",
+          "start": 147.65,
+          "end": 148.022
+        },
+        {
+          "w": "Thank",
+          "start": 148.022,
+          "end": 148.288
+        },
+        {
+          "w": "you,",
+          "start": 148.288,
+          "end": 148.448
+        },
+        {
+          "w": "friends!",
+          "start": 148.448,
+          "end": 148.82
+        }
+      ]
+    },
+    {
+      "beat": "play",
+      "speaker": "leo",
+      "start": 150.13,
+      "end": 151.6,
+      "text": "Now let's play ball!",
+      "words": [
+        {
+          "w": "Now",
+          "start": 150.16,
+          "end": 150.406
+        },
+        {
+          "w": "let's",
+          "start": 150.406,
+          "end": 150.714
+        },
+        {
+          "w": "play",
+          "start": 150.714,
+          "end": 151.022
+        },
+        {
+          "w": "ball!",
+          "start": 151.022,
+          "end": 151.33
+        }
+      ]
+    },
+    {
+      "beat": "after",
+      "speaker": "narrator",
+      "start": 156.6,
+      "end": 159.5,
+      "text": "They play and play... and the room gets messy again!",
+      "words": [
+        {
+          "w": "They",
+          "start": 156.65,
+          "end": 156.828
+        },
+        {
+          "w": "play",
+          "start": 156.828,
+          "end": 157.125
+        },
+        {
+          "w": "and",
+          "start": 157.125,
+          "end": 157.303
+        },
+        {
+          "w": "play...",
+          "start": 157.303,
+          "end": 157.6
+        },
+        {
+          "w": "and",
+          "start": 157.94,
+          "end": 158.114
+        },
+        {
+          "w": "the",
+          "start": 158.114,
+          "end": 158.23
+        },
+        {
+          "w": "room",
+          "start": 158.23,
+          "end": 158.52
+        },
+        {
+          "w": "gets",
+          "start": 158.52,
+          "end": 158.81
+        },
+        {
+          "w": "messy",
+          "start": 158.81,
+          "end": 159.1
+        },
+        {
+          "w": "again!",
+          "start": 159.1,
+          "end": 159.39
+        }
+      ]
+    },
+    {
+      "beat": "uhoh",
+      "speaker": "mila",
+      "start": 161.1,
+      "end": 163.27,
+      "text": "Uh-oh! What do we do after we play?",
+      "words": [
+        {
+          "w": "Uh-oh!",
+          "start": 161.3,
+          "end": 161.67
+        },
+        {
+          "w": "What",
+          "start": 161.67,
+          "end": 161.881
+        },
+        {
+          "w": "do",
+          "start": 161.881,
+          "end": 162.093
+        },
+        {
+          "w": "we",
+          "start": 162.093,
+          "end": 162.251
+        },
+        {
+          "w": "do",
+          "start": 162.251,
+          "end": 162.463
+        },
+        {
+          "w": "after",
+          "start": 162.463,
+          "end": 162.727
+        },
+        {
+          "w": "we",
+          "start": 162.727,
+          "end": 162.886
+        },
+        {
+          "w": "play?",
+          "start": 162.886,
+          "end": 163.15
+        }
+      ]
+    },
+    {
+      "beat": "ask2",
+      "speaker": "narrator",
+      "start": 164.27,
+      "end": 165.14,
+      "text": "Do you know?",
+      "words": [
+        {
+          "w": "Do",
+          "start": 164.3,
+          "end": 164.536
+        },
+        {
+          "w": "you",
+          "start": 164.536,
+          "end": 164.714
+        },
+        {
+          "w": "know?",
+          "start": 164.714,
+          "end": 164.95
+        }
+      ]
+    },
+    {
+      "beat": "ans2",
+      "speaker": "bobo",
+      "start": 168.54,
+      "end": 169.44,
+      "text": "We tidy up!",
+      "words": [
+        {
+          "w": "We",
+          "start": 168.57,
+          "end": 168.763
+        },
+        {
+          "w": "tidy",
+          "start": 168.763,
+          "end": 169.148
+        },
+        {
+          "w": "up!",
+          "start": 169.148,
+          "end": 169.34
+        }
+      ]
+    },
+    {
+      "beat": "race",
+      "speaker": "mila",
+      "start": 171.04,
+      "end": 173.58,
+      "text": "Let's have a tidy-up race! Count with us!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 171.08,
+          "end": 171.374
+        },
+        {
+          "w": "have",
+          "start": 171.374,
+          "end": 171.609
+        },
+        {
+          "w": "a",
+          "start": 171.609,
+          "end": 171.786
+        },
+        {
+          "w": "tidy-up",
+          "start": 171.786,
+          "end": 172.256
+        },
+        {
+          "w": "race!",
+          "start": 172.256,
+          "end": 172.55
+        },
+        {
+          "w": "Count",
+          "start": 172.66,
+          "end": 173.025
+        },
+        {
+          "w": "with",
+          "start": 173.025,
+          "end": 173.207
+        },
+        {
+          "w": "us!",
+          "start": 173.207,
+          "end": 173.39
+        }
+      ]
+    },
+    {
+      "beat": "count",
+      "speaker": "narrator",
+      "start": 175.18,
+      "end": 180.68,
+      "text": "Ten... nine... eight... seven... six... five... four... three... two... one!",
+      "words": [
+        {
+          "w": "Ten...",
+          "start": 175.22,
+          "end": 175.677
+        },
+        {
+          "w": "nine...",
+          "start": 175.677,
+          "end": 176.248
+        },
+        {
+          "w": "eight...",
+          "start": 176.248,
+          "end": 176.705
+        },
+        {
+          "w": "seven...",
+          "start": 176.705,
+          "end": 177.391
+        },
+        {
+          "w": "six...",
+          "start": 177.391,
+          "end": 177.962
+        },
+        {
+          "w": "five...",
+          "start": 177.962,
+          "end": 178.533
+        },
+        {
+          "w": "four...",
+          "start": 178.533,
+          "end": 179.105
+        },
+        {
+          "w": "three...",
+          "start": 179.105,
+          "end": 179.676
+        },
+        {
+          "w": "two...",
+          "start": 179.676,
+          "end": 180.133
+        },
+        {
+          "w": "one!",
+          "start": 180.133,
+          "end": 180.59
+        }
+      ]
+    },
+    {
+      "beat": "did",
+      "speaker": "leo",
+      "start": 181.47,
+      "end": 182.62,
+      "text": "Done! We did it!",
+      "words": [
+        {
+          "w": "Done!",
+          "start": 181.51,
+          "end": 181.796
+        },
+        {
+          "w": "We",
+          "start": 181.796,
+          "end": 182.011
+        },
+        {
+          "w": "did",
+          "start": 182.011,
+          "end": 182.297
+        },
+        {
+          "w": "it!",
+          "start": 182.297,
+          "end": 182.44
+        }
+      ]
+    },
+    {
+      "beat": "chant",
+      "speaker": "mila",
+      "start": 184.62,
+      "end": 186.47,
+      "text": "Let's sing the tidy-up chant!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 184.65,
+          "end": 184.988
+        },
+        {
+          "w": "sing",
+          "start": 184.988,
+          "end": 185.258
+        },
+        {
+          "w": "the",
+          "start": 185.258,
+          "end": 185.394
+        },
+        {
+          "w": "tidy-up",
+          "start": 185.394,
+          "end": 185.934
+        },
+        {
+          "w": "chant!",
+          "start": 185.934,
+          "end": 186.34
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 187.47,
+      "end": 188.92,
+      "text": "Toys in the box!",
+      "words": [
+        {
+          "w": "Toys",
+          "start": 187.5,
+          "end": 187.894
+        },
+        {
+          "w": "in",
+          "start": 187.894,
+          "end": 188.13
+        },
+        {
+          "w": "the",
+          "start": 188.13,
+          "end": 188.287
+        },
+        {
+          "w": "box!",
+          "start": 188.287,
+          "end": 188.76
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 189.72,
+      "end": 191.14,
+      "text": "Books on the shelf!",
+      "words": [
+        {
+          "w": "Books",
+          "start": 189.76,
+          "end": 190.187
+        },
+        {
+          "w": "on",
+          "start": 190.187,
+          "end": 190.443
+        },
+        {
+          "w": "the",
+          "start": 190.443,
+          "end": 190.613
+        },
+        {
+          "w": "shelf!",
+          "start": 190.613,
+          "end": 191.04
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 191.94,
+      "end": 193.51,
+      "text": "Clothes in the basket!",
+      "words": [
+        {
+          "w": "Clothes",
+          "start": 191.98,
+          "end": 192.499
+        },
+        {
+          "w": "in",
+          "start": 192.499,
+          "end": 192.722
+        },
+        {
+          "w": "the",
+          "start": 192.722,
+          "end": 192.871
+        },
+        {
+          "w": "basket!",
+          "start": 192.871,
+          "end": 193.39
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 194.31,
+      "end": 196.05,
+      "text": "I can tidy up myself!",
+      "words": [
+        {
+          "w": "I",
+          "start": 194.34,
+          "end": 194.538
+        },
+        {
+          "w": "can",
+          "start": 194.538,
+          "end": 194.801
+        },
+        {
+          "w": "tidy",
+          "start": 194.801,
+          "end": 195.196
+        },
+        {
+          "w": "up",
+          "start": 195.196,
+          "end": 195.393
+        },
+        {
+          "w": "myself!",
+          "start": 195.393,
+          "end": 195.92
+        }
+      ]
+    },
+    {
+      "beat": "c_turn",
+      "speaker": "narrator",
+      "start": 198.25,
+      "end": 199.85,
+      "text": "Now you sing it! Ready?",
+      "words": [
+        {
+          "w": "Now",
+          "start": 198.32,
+          "end": 198.631
+        },
+        {
+          "w": "you",
+          "start": 198.631,
+          "end": 198.864
+        },
+        {
+          "w": "sing",
+          "start": 198.864,
+          "end": 199.176
+        },
+        {
+          "w": "it!",
+          "start": 199.176,
+          "end": 199.331
+        },
+        {
+          "w": "Ready?",
+          "start": 199.331,
+          "end": 199.72
+        }
+      ]
+    },
+    {
+      "beat": "d1",
+      "speaker": "bobo",
+      "start": 201.45,
+      "end": 202.47,
+      "text": "Toys in the box!",
+      "words": [
+        {
+          "w": "Toys",
+          "start": 201.48,
+          "end": 201.764
+        },
+        {
+          "w": "in",
+          "start": 201.764,
+          "end": 201.935
+        },
+        {
+          "w": "the",
+          "start": 201.935,
+          "end": 202.049
+        },
+        {
+          "w": "box!",
+          "start": 202.049,
+          "end": 202.39
+        }
+      ]
+    },
+    {
+      "beat": "d2",
+      "speaker": "bobo",
+      "start": 203.27,
+      "end": 204.34,
+      "text": "Books on the shelf!",
+      "words": [
+        {
+          "w": "Books",
+          "start": 203.3,
+          "end": 203.603
+        },
+        {
+          "w": "on",
+          "start": 203.603,
+          "end": 203.785
+        },
+        {
+          "w": "the",
+          "start": 203.785,
+          "end": 203.907
+        },
+        {
+          "w": "shelf!",
+          "start": 203.907,
+          "end": 204.21
+        }
+      ]
+    },
+    {
+      "beat": "d3",
+      "speaker": "bobo",
+      "start": 205.14,
+      "end": 206.31,
+      "text": "Clothes in the basket!",
+      "words": [
+        {
+          "w": "Clothes",
+          "start": 205.18,
+          "end": 205.53
+        },
+        {
+          "w": "in",
+          "start": 205.53,
+          "end": 205.68
+        },
+        {
+          "w": "the",
+          "start": 205.68,
+          "end": 205.78
+        },
+        {
+          "w": "basket!",
+          "start": 205.78,
+          "end": 206.13
+        }
+      ]
+    },
+    {
+      "beat": "d4",
+      "speaker": "bobo",
+      "start": 207.11,
+      "end": 208.47,
+      "text": "I can tidy up myself!",
+      "words": [
+        {
+          "w": "I",
+          "start": 207.14,
+          "end": 207.292
+        },
+        {
+          "w": "can",
+          "start": 207.292,
+          "end": 207.496
+        },
+        {
+          "w": "tidy",
+          "start": 207.496,
+          "end": 207.801
+        },
+        {
+          "w": "up",
+          "start": 207.801,
+          "end": 207.953
+        },
+        {
+          "w": "myself!",
+          "start": 207.953,
+          "end": 208.36
+        }
+      ]
+    },
+    {
+      "beat": "e_turn",
+      "speaker": "narrator",
+      "start": 210.67,
+      "end": 212.63,
+      "text": "One more time, all together!",
+      "words": [
+        {
+          "w": "One",
+          "start": 210.73,
+          "end": 210.99
+        },
+        {
+          "w": "more",
+          "start": 210.99,
+          "end": 211.315
+        },
+        {
+          "w": "time,",
+          "start": 211.315,
+          "end": 211.64
+        },
+        {
+          "w": "all",
+          "start": 211.8,
+          "end": 212.047
+        },
+        {
+          "w": "together!",
+          "start": 212.047,
+          "end": 212.48
+        }
+      ]
+    },
+    {
+      "beat": "e1",
+      "speaker": "leo",
+      "start": 213.83,
+      "end": 215.15,
+      "text": "Toys in the box!",
+      "words": [
+        {
+          "w": "Toys",
+          "start": 213.86,
+          "end": 214.191
+        },
+        {
+          "w": "in",
+          "start": 214.191,
+          "end": 214.39
+        },
+        {
+          "w": "the",
+          "start": 214.39,
+          "end": 214.523
+        },
+        {
+          "w": "box!",
+          "start": 214.523,
+          "end": 214.92
+        }
+      ]
+    },
+    {
+      "beat": "e2",
+      "speaker": "leo",
+      "start": 215.95,
+      "end": 217.21,
+      "text": "Books on the shelf!",
+      "words": [
+        {
+          "w": "Books",
+          "start": 215.99,
+          "end": 216.333
+        },
+        {
+          "w": "on",
+          "start": 216.333,
+          "end": 216.539
+        },
+        {
+          "w": "the",
+          "start": 216.539,
+          "end": 216.677
+        },
+        {
+          "w": "shelf!",
+          "start": 216.677,
+          "end": 217.02
+        }
+      ]
+    },
+    {
+      "beat": "e3",
+      "speaker": "leo",
+      "start": 218.01,
+      "end": 219.44,
+      "text": "Clothes in the basket!",
+      "words": [
+        {
+          "w": "Clothes",
+          "start": 218.04,
+          "end": 218.471
+        },
+        {
+          "w": "in",
+          "start": 218.471,
+          "end": 218.656
+        },
+        {
+          "w": "the",
+          "start": 218.656,
+          "end": 218.779
+        },
+        {
+          "w": "basket!",
+          "start": 218.779,
+          "end": 219.21
+        }
+      ]
+    },
+    {
+      "beat": "e4",
+      "speaker": "leo",
+      "start": 220.24,
+      "end": 222.03,
+      "text": "I can tidy up myself!",
+      "words": [
+        {
+          "w": "I",
+          "start": 220.27,
+          "end": 220.45
+        },
+        {
+          "w": "can",
+          "start": 220.45,
+          "end": 220.69
+        },
+        {
+          "w": "tidy",
+          "start": 220.69,
+          "end": 221.05
+        },
+        {
+          "w": "up",
+          "start": 221.05,
+          "end": 221.23
+        },
+        {
+          "w": "myself!",
+          "start": 221.23,
+          "end": 221.71
+        }
+      ]
+    },
+    {
+      "beat": "rem",
+      "speaker": "narrator",
+      "start": 224.63,
+      "end": 225.76,
+      "text": "Let's remember!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 224.67,
+          "end": 225.024
+        },
+        {
+          "w": "remember!",
+          "start": 225.024,
+          "end": 225.59
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "narrator",
+      "start": 227.16,
+      "end": 228.46,
+      "text": "Where do toys go?",
+      "words": [
+        {
+          "w": "Where",
+          "start": 227.22,
+          "end": 227.479
+        },
+        {
+          "w": "do",
+          "start": 227.479,
+          "end": 227.738
+        },
+        {
+          "w": "toys",
+          "start": 227.738,
+          "end": 228.061
+        },
+        {
+          "w": "go?",
+          "start": 228.061,
+          "end": 228.32
+        }
+      ]
+    },
+    {
+      "beat": "a1",
+      "speaker": "bobo",
+      "start": 232.86,
+      "end": 233.86,
+      "text": "In the toy box!",
+      "words": [
+        {
+          "w": "In",
+          "start": 232.89,
+          "end": 233.066
+        },
+        {
+          "w": "the",
+          "start": 233.066,
+          "end": 233.183
+        },
+        {
+          "w": "toy",
+          "start": 233.183,
+          "end": 233.418
+        },
+        {
+          "w": "box!",
+          "start": 233.418,
+          "end": 233.77
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "narrator",
+      "start": 235.66,
+      "end": 236.89,
+      "text": "Where do books go?",
+      "words": [
+        {
+          "w": "Where",
+          "start": 235.72,
+          "end": 235.967
+        },
+        {
+          "w": "do",
+          "start": 235.967,
+          "end": 236.214
+        },
+        {
+          "w": "books",
+          "start": 236.214,
+          "end": 236.523
+        },
+        {
+          "w": "go?",
+          "start": 236.523,
+          "end": 236.77
+        }
+      ]
+    },
+    {
+      "beat": "a2",
+      "speaker": "leo",
+      "start": 241.29,
+      "end": 242.24,
+      "text": "On the shelf!",
+      "words": [
+        {
+          "w": "On",
+          "start": 241.32,
+          "end": 241.557
+        },
+        {
+          "w": "the",
+          "start": 241.557,
+          "end": 241.715
+        },
+        {
+          "w": "shelf!",
+          "start": 241.715,
+          "end": 242.11
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "narrator",
+      "start": 244.04,
+      "end": 245.36,
+      "text": "Where do clothes go?",
+      "words": [
+        {
+          "w": "Where",
+          "start": 244.12,
+          "end": 244.352
+        },
+        {
+          "w": "do",
+          "start": 244.352,
+          "end": 244.583
+        },
+        {
+          "w": "clothes",
+          "start": 244.583,
+          "end": 244.988
+        },
+        {
+          "w": "go?",
+          "start": 244.988,
+          "end": 245.22
+        }
+      ]
+    },
+    {
+      "beat": "a3",
+      "speaker": "mila",
+      "start": 249.76,
+      "end": 250.99,
+      "text": "In the basket!",
+      "words": [
+        {
+          "w": "In",
+          "start": 249.82,
+          "end": 250.085
+        },
+        {
+          "w": "the",
+          "start": 250.085,
+          "end": 250.262
+        },
+        {
+          "w": "basket!",
+          "start": 250.262,
+          "end": 250.88
+        }
+      ]
+    },
+    {
+      "beat": "q4",
+      "speaker": "narrator",
+      "start": 252.79,
+      "end": 254.11,
+      "text": "Where does a sock go?",
+      "words": [
+        {
+          "w": "Where",
+          "start": 252.87,
+          "end": 253.09
+        },
+        {
+          "w": "does",
+          "start": 253.09,
+          "end": 253.31
+        },
+        {
+          "w": "a",
+          "start": 253.31,
+          "end": 253.475
+        },
+        {
+          "w": "sock",
+          "start": 253.475,
+          "end": 253.75
+        },
+        {
+          "w": "go?",
+          "start": 253.75,
+          "end": 253.97
+        }
+      ]
+    },
+    {
+      "beat": "a4",
+      "speaker": "leo",
+      "start": 258.51,
+      "end": 259.59,
+      "text": "In the basket!",
+      "words": [
+        {
+          "w": "In",
+          "start": 258.54,
+          "end": 258.755
+        },
+        {
+          "w": "the",
+          "start": 258.755,
+          "end": 258.898
+        },
+        {
+          "w": "basket!",
+          "start": 258.898,
+          "end": 259.4
+        }
+      ]
+    },
+    {
+      "beat": "q5",
+      "speaker": "narrator",
+      "start": 261.39,
+      "end": 262.88,
+      "text": "And where does a ball go?",
+      "words": [
+        {
+          "w": "And",
+          "start": 261.49,
+          "end": 261.653
+        },
+        {
+          "w": "where",
+          "start": 261.653,
+          "end": 261.87
+        },
+        {
+          "w": "does",
+          "start": 261.87,
+          "end": 262.088
+        },
+        {
+          "w": "a",
+          "start": 262.088,
+          "end": 262.251
+        },
+        {
+          "w": "ball",
+          "start": 262.251,
+          "end": 262.523
+        },
+        {
+          "w": "go?",
+          "start": 262.523,
+          "end": 262.74
+        }
+      ]
+    },
+    {
+      "beat": "a5",
+      "speaker": "mila",
+      "start": 267.28,
+      "end": 268.68,
+      "text": "In the toy box!",
+      "words": [
+        {
+          "w": "In",
+          "start": 267.43,
+          "end": 267.662
+        },
+        {
+          "w": "the",
+          "start": 267.662,
+          "end": 267.817
+        },
+        {
+          "w": "toy",
+          "start": 267.817,
+          "end": 268.126
+        },
+        {
+          "w": "box!",
+          "start": 268.126,
+          "end": 268.59
+        }
+      ]
+    },
+    {
+      "beat": "q6",
+      "speaker": "narrator",
+      "start": 270.48,
+      "end": 271.77,
+      "text": "When do we tidy up?",
+      "words": [
+        {
+          "w": "When",
+          "start": 270.56,
+          "end": 270.782
+        },
+        {
+          "w": "do",
+          "start": 270.782,
+          "end": 271.004
+        },
+        {
+          "w": "we",
+          "start": 271.004,
+          "end": 271.171
+        },
+        {
+          "w": "tidy",
+          "start": 271.171,
+          "end": 271.503
+        },
+        {
+          "w": "up?",
+          "start": 271.503,
+          "end": 271.67
+        }
+      ]
+    },
+    {
+      "beat": "a6",
+      "speaker": "bobo",
+      "start": 276.17,
+      "end": 277.13,
+      "text": "After we play!",
+      "words": [
+        {
+          "w": "After",
+          "start": 276.2,
+          "end": 276.515
+        },
+        {
+          "w": "we",
+          "start": 276.515,
+          "end": 276.705
+        },
+        {
+          "w": "play!",
+          "start": 276.705,
+          "end": 277.02
+        }
+      ]
+    },
+    {
+      "beat": "why",
+      "speaker": "narrator",
+      "start": 279.13,
+      "end": 280.95,
+      "text": "And why is it good to tidy up?",
+      "words": [
+        {
+          "w": "And",
+          "start": 279.21,
+          "end": 279.397
+        },
+        {
+          "w": "why",
+          "start": 279.397,
+          "end": 279.646
+        },
+        {
+          "w": "is",
+          "start": 279.646,
+          "end": 279.77
+        },
+        {
+          "w": "it",
+          "start": 279.77,
+          "end": 279.894
+        },
+        {
+          "w": "good",
+          "start": 279.894,
+          "end": 280.143
+        },
+        {
+          "w": "to",
+          "start": 280.143,
+          "end": 280.33
+        },
+        {
+          "w": "tidy",
+          "start": 280.33,
+          "end": 280.703
+        },
+        {
+          "w": "up?",
+          "start": 280.703,
+          "end": 280.89
+        }
+      ]
+    },
+    {
+      "beat": "why_a",
+      "speaker": "bobo",
+      "start": 285.35,
+      "end": 287.18,
+      "text": "So we can find our things, and play!",
+      "words": [
+        {
+          "w": "So",
+          "start": 285.38,
+          "end": 285.571
+        },
+        {
+          "w": "we",
+          "start": 285.571,
+          "end": 285.714
+        },
+        {
+          "w": "can",
+          "start": 285.714,
+          "end": 285.904
+        },
+        {
+          "w": "find",
+          "start": 285.904,
+          "end": 286.19
+        },
+        {
+          "w": "our",
+          "start": 286.19,
+          "end": 286.381
+        },
+        {
+          "w": "things,",
+          "start": 286.381,
+          "end": 286.619
+        },
+        {
+          "w": "and",
+          "start": 286.619,
+          "end": 286.762
+        },
+        {
+          "w": "play!",
+          "start": 286.762,
+          "end": 287.0
+        }
+      ]
+    },
+    {
+      "beat": "tip",
+      "speaker": "mila",
+      "start": 289.38,
+      "end": 291.25,
+      "text": "Tidy up a little, every day!",
+      "words": [
+        {
+          "w": "Tidy",
+          "start": 289.41,
+          "end": 289.786
+        },
+        {
+          "w": "up",
+          "start": 289.786,
+          "end": 289.973
+        },
+        {
+          "w": "a",
+          "start": 289.973,
+          "end": 290.161
+        },
+        {
+          "w": "little,",
+          "start": 290.161,
+          "end": 290.537
+        },
+        {
+          "w": "every",
+          "start": 290.537,
+          "end": 290.85
+        },
+        {
+          "w": "day!",
+          "start": 290.85,
+          "end": 291.1
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "bobo",
+      "start": 293.85,
+      "end": 295.91,
+      "text": "Bye-bye, friends! Keep your room tidy!",
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 293.87,
+          "end": 294.348
+        },
+        {
+          "w": "friends!",
+          "start": 294.348,
+          "end": 294.72
+        },
+        {
+          "w": "Keep",
+          "start": 294.72,
+          "end": 294.986
+        },
+        {
+          "w": "your",
+          "start": 294.986,
+          "end": 295.145
+        },
+        {
+          "w": "room",
+          "start": 295.145,
+          "end": 295.411
+        },
+        {
+          "w": "tidy!",
+          "start": 295.411,
+          "end": 295.73
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "mila",
+      "start": 296.51,
+      "end": 297.91,
+      "text": "See you next time!",
+      "words": [
+        {
+          "w": "See",
+          "start": 296.57,
+          "end": 296.832
+        },
+        {
+          "w": "you",
+          "start": 296.832,
+          "end": 297.029
+        },
+        {
+          "w": "next",
+          "start": 297.029,
+          "end": 297.422
+        },
+        {
+          "w": "time!",
+          "start": 297.422,
+          "end": 297.75
+        }
+      ]
+    },
+    {
+      "beat": "ask",
+      "speaker": "narrator",
+      "start": 299.31,
+      "end": 301.12,
+      "text": "Can YOU tidy up your toys today?",
+      "words": [
+        {
+          "w": "Can",
+          "start": 299.34,
+          "end": 299.561
+        },
+        {
+          "w": "YOU",
+          "start": 299.561,
+          "end": 299.727
+        },
+        {
+          "w": "tidy",
+          "start": 299.727,
+          "end": 300.059
+        },
+        {
+          "w": "up",
+          "start": 300.059,
+          "end": 300.225
+        },
+        {
+          "w": "your",
+          "start": 300.225,
+          "end": 300.391
+        },
+        {
+          "w": "toys",
+          "start": 300.391,
+          "end": 300.668
+        },
+        {
+          "w": "today?",
+          "start": 300.668,
+          "end": 301.0
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "open",
+      "start": 0,
+      "visual": "This is Super Bobo's room.",
+      "end": 4.15
+    },
+    {
+      "id": "hi",
+      "start": 4.15,
+      "visual": "Hi, friends! I'm Super Bobo!",
+      "end": 7.4
+    },
+    {
+      "id": "mess",
+      "start": 7.4,
+      "visual": "Oh my! Look at all this mess!",
+      "end": 10.67
+    },
+    {
+      "id": "see",
+      "start": 10.67,
+      "visual": "Can you see the toys, the books, and the clothes on the floor?",
+      "end": 15.42
+    },
+    {
+      "id": "spy",
+      "start": 15.42,
+      "visual": "Can you find the yellow duck?",
+      "end": 20.81
+    },
+    {
+      "id": "spy_a",
+      "start": 20.81,
+      "visual": "There it is!",
+      "end": 23.37
+    },
+    {
+      "id": "spy2",
+      "start": 23.37,
+      "visual": "Can you find the blue book?",
+      "end": 28.67
+    },
+    {
+      "id": "spy2_a",
+      "start": 28.67,
+      "visual": "Yes! Right there!",
+      "end": 32.52
+    },
+    {
+      "id": "want",
+      "start": 32.52,
+      "visual": "Where is my red ball? I want to play!",
+      "end": 36.05
+    },
+    {
+      "id": "knock",
+      "start": 36.05,
+      "visual": "Knock, knock!",
+      "end": 38.09
+    },
+    {
+      "id": "mila_hi",
+      "start": 38.09,
+      "visual": "Hi, Bobo! Can we play ball?",
+      "end": 41.47
+    },
+    {
+      "id": "leo_hi",
+      "start": 41.47,
+      "visual": "Whoa! Your room is so messy!",
+      "end": 44.32
+    },
+    {
+      "id": "cant",
+      "start": 44.32,
+      "visual": "I can't find my ball anywhere!",
+      "end": 47.49
+    },
+    {
+      "id": "idea",
+      "start": 47.49,
+      "visual": "I know! I'll push it all under the bed!",
+      "end": 50.4
+    },
+    {
+      "id": "whoosh",
+      "start": 50.4,
+      "visual": "Swish, swish, swoosh!",
+      "end": 53.4
+    },
+    {
+      "id": "tada",
+      "start": 53.4,
+      "visual": "Ta-da! All clean!",
+      "end": 56.59
+    },
+    {
+      "id": "boing",
+      "start": 56.59,
+      "visual": "But then... boing, boing, boing!",
+      "end": 59.83
+    },
+    {
+      "id": "leo_oops",
+      "start": 59.83,
+      "visual": "Oh no! It's even messier now!",
+      "end": 63.14
+    },
+    {
+      "id": "sad",
+      "start": 63.14,
+      "visual": "I'll never find my ball.",
+      "end": 65.43
+    },
+    {
+      "id": "feel",
+      "start": 65.43,
+      "visual": "Bobo feels frustrated.",
+      "end": 68.49
+    },
+    {
+      "id": "ask1",
+      "start": 68.49,
+      "visual": "Can you help Bobo? What should he do?",
+      "end": 74.69
+    },
+    {
+      "id": "tidy",
+      "start": 74.69,
+      "visual": "Let's tidy up together! It's easy!",
+      "end": 77.9
+    },
+    {
+      "id": "three",
+      "start": 77.9,
+      "visual": "Just three steps!",
+      "end": 81.15
+    },
+    {
+      "id": "s1",
+      "start": 81.15,
+      "visual": "Step one. Toys go in the toy box!",
+      "end": 84.84
+    },
+    {
+      "id": "s1_do",
+      "start": 84.84,
+      "visual": "Bobo picks up his toys. One, two, three!",
+      "end": 89.43
+    },
+    {
+      "id": "s1_turn",
+      "start": 89.43,
+      "visual": "Can you say it? Toys in the box!",
+      "end": 94.38
+    },
+    {
+      "id": "s1_leo",
+      "start": 94.38,
+      "visual": "Toys in the box!",
+      "end": 97.9
+    },
+    {
+      "id": "s2",
+      "start": 97.9,
+      "visual": "Step two. Books go on the shelf!",
+      "end": 101.18
+    },
+    {
+      "id": "s2_do",
+      "start": 101.18,
+      "visual": "Leo helps too. One, two, three!",
+      "end": 105.26
+    },
+    {
+      "id": "s2_turn",
+      "start": 105.26,
+      "visual": "Your turn! Books on the shelf!",
+      "end": 109.93
+    },
+    {
+      "id": "s2_leo",
+      "start": 109.93,
+      "visual": "Books on the shelf!",
+      "end": 113.39
+    },
+    {
+      "id": "s3",
+      "start": 113.39,
+      "visual": "Step three. Clothes go in the basket!",
+      "end": 116.95
+    },
+    {
+      "id": "s3_do",
+      "start": 116.95,
+      "visual": "Bobo picks up his sock, his shirt, and his hat...",
+      "end": 121.33
+    },
+    {
+      "id": "look",
+      "start": 121.33,
+      "visual": "Wait! What's under the hat?",
+      "end": 123.84
+    },
+    {
+      "id": "ball_q",
+      "start": 123.84,
+      "visual": "Can you guess?",
+      "end": 128.22
+    },
+    {
+      "id": "ball",
+      "start": 128.22,
+      "visual": "My red ball! I found it!",
+      "end": 131.26
+    },
+    {
+      "id": "learn",
+      "start": 131.26,
+      "visual": "When my room is tidy, I can find my things!",
+      "end": 135.53
+    },
+    {
+      "id": "s3_turn",
+      "start": 135.53,
+      "visual": "Your turn! Clothes in the basket!",
+      "end": 140.42
+    },
+    {
+      "id": "s3_leo",
+      "start": 140.42,
+      "visual": "Clothes in the basket!",
+      "end": 143.85
+    },
+    {
+      "id": "clean",
+      "start": 143.85,
+      "visual": "Look! Bobo's room is clean and tidy!",
+      "end": 147.41
+    },
+    {
+      "id": "yay",
+      "start": 147.41,
+      "visual": "Hooray! Thank you, friends!",
+      "end": 149.93
+    },
+    {
+      "id": "play",
+      "start": 149.93,
+      "visual": "Now let's play ball!",
+      "end": 156.4
+    },
+    {
+      "id": "after",
+      "start": 156.4,
+      "visual": "They play and play... and the room gets messy again!",
+      "end": 160.9
+    },
+    {
+      "id": "uhoh",
+      "start": 160.9,
+      "visual": "Uh-oh! What do we do after we play?",
+      "end": 164.07
+    },
+    {
+      "id": "ask2",
+      "start": 164.07,
+      "visual": "Do you know?",
+      "end": 168.34
+    },
+    {
+      "id": "ans2",
+      "start": 168.34,
+      "visual": "We tidy up!",
+      "end": 170.84
+    },
+    {
+      "id": "race",
+      "start": 170.84,
+      "visual": "Let's have a tidy-up race! Count with us!",
+      "end": 174.98
+    },
+    {
+      "id": "count",
+      "start": 174.98,
+      "visual": "Ten... nine... eight... seven... six... five... four... three... two... one!",
+      "end": 181.27
+    },
+    {
+      "id": "did",
+      "start": 181.27,
+      "visual": "Done! We did it!",
+      "end": 184.42
+    },
+    {
+      "id": "chant",
+      "start": 184.42,
+      "visual": "Let's sing the tidy-up chant!",
+      "end": 187.27
+    },
+    {
+      "id": "c1",
+      "start": 187.27,
+      "visual": "Toys in the box!",
+      "end": 189.52
+    },
+    {
+      "id": "c2",
+      "start": 189.52,
+      "visual": "Books on the shelf!",
+      "end": 191.74
+    },
+    {
+      "id": "c3",
+      "start": 191.74,
+      "visual": "Clothes in the basket!",
+      "end": 194.11
+    },
+    {
+      "id": "c4",
+      "start": 194.11,
+      "visual": "I can tidy up myself!",
+      "end": 198.05
+    },
+    {
+      "id": "c_turn",
+      "start": 198.05,
+      "visual": "Now you sing it! Ready?",
+      "end": 201.25
+    },
+    {
+      "id": "d1",
+      "start": 201.25,
+      "visual": "Toys in the box!",
+      "end": 203.07
+    },
+    {
+      "id": "d2",
+      "start": 203.07,
+      "visual": "Books on the shelf!",
+      "end": 204.94
+    },
+    {
+      "id": "d3",
+      "start": 204.94,
+      "visual": "Clothes in the basket!",
+      "end": 206.91
+    },
+    {
+      "id": "d4",
+      "start": 206.91,
+      "visual": "I can tidy up myself!",
+      "end": 210.47
+    },
+    {
+      "id": "e_turn",
+      "start": 210.47,
+      "visual": "One more time, all together!",
+      "end": 213.63
+    },
+    {
+      "id": "e1",
+      "start": 213.63,
+      "visual": "Toys in the box!",
+      "end": 215.75
+    },
+    {
+      "id": "e2",
+      "start": 215.75,
+      "visual": "Books on the shelf!",
+      "end": 217.81
+    },
+    {
+      "id": "e3",
+      "start": 217.81,
+      "visual": "Clothes in the basket!",
+      "end": 220.04
+    },
+    {
+      "id": "e4",
+      "start": 220.04,
+      "visual": "I can tidy up myself!",
+      "end": 224.43
+    },
+    {
+      "id": "rem",
+      "start": 224.43,
+      "visual": "Let's remember!",
+      "end": 226.96
+    },
+    {
+      "id": "q1",
+      "start": 226.96,
+      "visual": "Where do toys go?",
+      "end": 232.66
+    },
+    {
+      "id": "a1",
+      "start": 232.66,
+      "visual": "In the toy box!",
+      "end": 235.46
+    },
+    {
+      "id": "q2",
+      "start": 235.46,
+      "visual": "Where do books go?",
+      "end": 241.09
+    },
+    {
+      "id": "a2",
+      "start": 241.09,
+      "visual": "On the shelf!",
+      "end": 243.84
+    },
+    {
+      "id": "q3",
+      "start": 243.84,
+      "visual": "Where do clothes go?",
+      "end": 249.56
+    },
+    {
+      "id": "a3",
+      "start": 249.56,
+      "visual": "In the basket!",
+      "end": 252.59
+    },
+    {
+      "id": "q4",
+      "start": 252.59,
+      "visual": "Where does a sock go?",
+      "end": 258.31
+    },
+    {
+      "id": "a4",
+      "start": 258.31,
+      "visual": "In the basket!",
+      "end": 261.19
+    },
+    {
+      "id": "q5",
+      "start": 261.19,
+      "visual": "And where does a ball go?",
+      "end": 267.08
+    },
+    {
+      "id": "a5",
+      "start": 267.08,
+      "visual": "In the toy box!",
+      "end": 270.28
+    },
+    {
+      "id": "q6",
+      "start": 270.28,
+      "visual": "When do we tidy up?",
+      "end": 275.97
+    },
+    {
+      "id": "a6",
+      "start": 275.97,
+      "visual": "After we play!",
+      "end": 278.93
+    },
+    {
+      "id": "why",
+      "start": 278.93,
+      "visual": "And why is it good to tidy up?",
+      "end": 285.15
+    },
+    {
+      "id": "why_a",
+      "start": 285.15,
+      "visual": "So we can find our things, and play!",
+      "end": 289.18
+    },
+    {
+      "id": "tip",
+      "start": 289.18,
+      "visual": "Tidy up a little, every day!",
+      "end": 293.65
+    },
+    {
+      "id": "bye",
+      "start": 293.65,
+      "visual": "Bye-bye, friends! Keep your room tidy!",
+      "end": 296.31
+    },
+    {
+      "id": "bye2",
+      "start": 296.31,
+      "visual": "See you next time!",
+      "end": 299.11
+    },
+    {
+      "id": "ask",
+      "start": 299.11,
+      "visual": "Can YOU tidy up your toys today?",
+      "end": 303.5
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

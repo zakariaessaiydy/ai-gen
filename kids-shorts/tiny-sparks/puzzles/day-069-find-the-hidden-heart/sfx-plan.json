@@ -1,0 +1,656 @@
+{
+ "master": "remotion/out/KidsPuzzles069-voiced.mp4",
+ "master_fps": 30,
+ "catalog": "media/library/sfx/catalog.json",
+ "render": {
+  "preview": "remotion/out/KidsPuzzles069-voiced.mp4",
+  "out": "kids-shorts/tiny-sparks/puzzles/day-069-find-the-hidden-heart/output/day-069-sfx.mp4",
+  "end_s": 325.1,
+  "duck": true
+ },
+ "events": [
+  {
+   "at_s": 0.3,
+   "sfx_id": "pop-reveal",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "puzzle card"
+  },
+  {
+   "at_s": 0.6,
+   "sfx_id": "whoosh-wind",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "wind"
+  },
+  {
+   "at_s": 4.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.0
+  },
+  {
+   "at_s": 10.23,
+   "sfx_id": "uh-oh",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "wrong"
+  },
+  {
+   "at_s": 14.82,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "found it"
+  },
+  {
+   "at_s": 15.72,
+   "sfx_id": "sparkle-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "heart flies to the card"
+  },
+  {
+   "at_s": 20.74,
+   "sfx_id": "kids-yay",
+   "gain_db": -4,
+   "shot": "KidsPuzzles069",
+   "cue": "yay"
+  },
+  {
+   "at_s": 32.11,
+   "sfx_id": "cartoon-boing",
+   "gain_db": -12,
+   "shot": "KidsPuzzles069",
+   "cue": "bump"
+  },
+  {
+   "at_s": 32.39,
+   "sfx_id": "cartoon-boing",
+   "gain_db": -12,
+   "shot": "KidsPuzzles069",
+   "cue": "bump"
+  },
+  {
+   "at_s": 32.67,
+   "sfx_id": "cartoon-pop",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "point"
+  },
+  {
+   "at_s": 35.61,
+   "sfx_id": "pop-reveal",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "puzzle card"
+  },
+  {
+   "at_s": 40.0,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.05
+  },
+  {
+   "at_s": 45.63,
+   "sfx_id": "uh-oh",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "wrong"
+  },
+  {
+   "at_s": 48.31,
+   "sfx_id": "kids-laugh",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "laugh"
+  },
+  {
+   "at_s": 49.13,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "found it"
+  },
+  {
+   "at_s": 50.03,
+   "sfx_id": "sparkle-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "heart flies to the card"
+  },
+  {
+   "at_s": 55.49,
+   "sfx_id": "pop-reveal",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "puzzle card"
+  },
+  {
+   "at_s": 59.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.2
+  },
+  {
+   "at_s": 64.01,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "found it"
+  },
+  {
+   "at_s": 64.91,
+   "sfx_id": "sparkle-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "heart flies to the card"
+  },
+  {
+   "at_s": 71.09,
+   "sfx_id": "kids-wow",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "wow"
+  },
+  {
+   "at_s": 72.71,
+   "sfx_id": "pop-reveal",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "puzzle card"
+  },
+  {
+   "at_s": 76.0,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.06
+  },
+  {
+   "at_s": 80.16,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "found it"
+  },
+  {
+   "at_s": 81.06,
+   "sfx_id": "sparkle-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "heart flies to the card"
+  },
+  {
+   "at_s": 85.82,
+   "sfx_id": "bonk",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "stop"
+  },
+  {
+   "at_s": 90.88,
+   "sfx_id": "cartoon-pop",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "munch"
+  },
+  {
+   "at_s": 93.1,
+   "sfx_id": "pop-reveal",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "puzzle card"
+  },
+  {
+   "at_s": 98.0,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.2
+  },
+  {
+   "at_s": 104.19,
+   "sfx_id": "uh-oh",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "wrong"
+  },
+  {
+   "at_s": 110.04,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "found it"
+  },
+  {
+   "at_s": 110.94,
+   "sfx_id": "sparkle-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "heart flies to the card"
+  },
+  {
+   "at_s": 113.08,
+   "sfx_id": "pop-reveal",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "puzzle card"
+  },
+  {
+   "at_s": 118.0,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.2
+  },
+  {
+   "at_s": 122.3,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "found it"
+  },
+  {
+   "at_s": 123.2,
+   "sfx_id": "sparkle-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "heart flies to the card"
+  },
+  {
+   "at_s": 126.0,
+   "sfx_id": "kids-applause",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "applause",
+   "dur_s": 2.5
+  },
+  {
+   "at_s": 130.5,
+   "sfx_id": "pop-reveal",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "puzzle card"
+  },
+  {
+   "at_s": 134.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.2
+  },
+  {
+   "at_s": 142.66,
+   "sfx_id": "rubber-stretch",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "turn it"
+  },
+  {
+   "at_s": 143.15,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "found it"
+  },
+  {
+   "at_s": 144.05,
+   "sfx_id": "sparkle-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "fly"
+  },
+  {
+   "at_s": 151.56,
+   "sfx_id": "pop-reveal",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "puzzle card"
+  },
+  {
+   "at_s": 155.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.2
+  },
+  {
+   "at_s": 159.82,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "found it"
+  },
+  {
+   "at_s": 160.72,
+   "sfx_id": "sparkle-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "heart flies to the card"
+  },
+  {
+   "at_s": 161.01,
+   "sfx_id": "whoosh-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "whoosh"
+  },
+  {
+   "at_s": 163.14,
+   "sfx_id": "pop-reveal",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "puzzle card"
+  },
+  {
+   "at_s": 167.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.1
+  },
+  {
+   "at_s": 171.7,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "found it"
+  },
+  {
+   "at_s": 172.6,
+   "sfx_id": "sparkle-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "heart flies to the card"
+  },
+  {
+   "at_s": 178.89,
+   "sfx_id": "pop-reveal",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "puzzle card"
+  },
+  {
+   "at_s": 183.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.11
+  },
+  {
+   "at_s": 187.71,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "found it"
+  },
+  {
+   "at_s": 188.61,
+   "sfx_id": "sparkle-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "heart flies to the card"
+  },
+  {
+   "at_s": 191.35,
+   "sfx_id": "pop-reveal",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "puzzle card"
+  },
+  {
+   "at_s": 196.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.2
+  },
+  {
+   "at_s": 200.91,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "found it"
+  },
+  {
+   "at_s": 201.81,
+   "sfx_id": "sparkle-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "heart flies to the card"
+  },
+  {
+   "at_s": 207.12,
+   "sfx_id": "pop-reveal",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "puzzle card"
+  },
+  {
+   "at_s": 211.0,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.2
+  },
+  {
+   "at_s": 215.45,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "found it"
+  },
+  {
+   "at_s": 216.35,
+   "sfx_id": "sparkle-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "heart flies to the card"
+  },
+  {
+   "at_s": 218.54,
+   "sfx_id": "kids-yay",
+   "gain_db": -4,
+   "shot": "KidsPuzzles069",
+   "cue": "yay"
+  },
+  {
+   "at_s": 226.01,
+   "sfx_id": "drum-roll",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "super",
+   "dur_s": 1.6
+  },
+  {
+   "at_s": 230.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.2
+  },
+  {
+   "at_s": 234.92,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "found it"
+  },
+  {
+   "at_s": 235.82,
+   "sfx_id": "sparkle-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "heart flies to the card"
+  },
+  {
+   "at_s": 237.27,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "found it"
+  },
+  {
+   "at_s": 238.17,
+   "sfx_id": "sparkle-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "heart flies to the card"
+  },
+  {
+   "at_s": 239.41,
+   "sfx_id": "ding-correct",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "found it"
+  },
+  {
+   "at_s": 240.31,
+   "sfx_id": "sparkle-soft",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "heart flies to the card"
+  },
+  {
+   "at_s": 241.78,
+   "sfx_id": "cymbal-crash",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "super"
+  },
+  {
+   "at_s": 242.08,
+   "sfx_id": "kids-applause",
+   "gain_db": -4,
+   "shot": "KidsPuzzles069",
+   "cue": "applause",
+   "dur_s": 3.0
+  },
+  {
+   "at_s": 247.12,
+   "sfx_id": "chime-magic",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "card"
+  },
+  {
+   "at_s": 251.65,
+   "sfx_id": "kids-wow",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "aww"
+  },
+  {
+   "at_s": 258.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.13
+  },
+  {
+   "at_s": 262.73,
+   "sfx_id": "ding-correct",
+   "gain_db": -9,
+   "shot": "KidsPuzzles069",
+   "cue": "answer"
+  },
+  {
+   "at_s": 267.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.14
+  },
+  {
+   "at_s": 271.74,
+   "sfx_id": "ding-correct",
+   "gain_db": -9,
+   "shot": "KidsPuzzles069",
+   "cue": "answer"
+  },
+  {
+   "at_s": 277.5,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 3.94
+  },
+  {
+   "at_s": 281.54,
+   "sfx_id": "ding-correct",
+   "gain_db": -9,
+   "shot": "KidsPuzzles069",
+   "cue": "answer"
+  },
+  {
+   "at_s": 287.0,
+   "sfx_id": "think-tick",
+   "gain_db": -6,
+   "shot": "KidsPuzzles069",
+   "cue": "think",
+   "dur_s": 4.2
+  },
+  {
+   "at_s": 291.43,
+   "sfx_id": "ding-correct",
+   "gain_db": -9,
+   "shot": "KidsPuzzles069",
+   "cue": "answer"
+  },
+  {
+   "at_s": 298.82,
+   "sfx_id": "cartoon-boing",
+   "gain_db": -12,
+   "shot": "KidsPuzzles069",
+   "cue": "bump"
+  },
+  {
+   "at_s": 300.22,
+   "sfx_id": "cartoon-boing",
+   "gain_db": -12,
+   "shot": "KidsPuzzles069",
+   "cue": "bump"
+  },
+  {
+   "at_s": 301.45,
+   "sfx_id": "cartoon-pop",
+   "gain_db": -10,
+   "shot": "KidsPuzzles069",
+   "cue": "point"
+  },
+  {
+   "at_s": 302.65,
+   "sfx_id": "kids-yay",
+   "gain_db": -4,
+   "shot": "KidsPuzzles069",
+   "cue": "yay"
+  },
+  {
+   "at_s": 319.26,
+   "sfx_id": "chime-magic",
+   "gain_db": -8,
+   "shot": "KidsPuzzles069",
+   "cue": "star iris"
+  }
+ ]
+}

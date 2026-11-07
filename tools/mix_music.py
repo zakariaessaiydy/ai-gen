@@ -1,29 +1,35 @@
 #!/usr/bin/env python3
 """
-mix_music.py — audition mixer for the MUSIC pass (step 4 of the AI Video Editor).
+mix_music.py — audition mixer for the MUSIC pass (the last step of build_short.py).
 
 Lays a continuous instrumental BED (from media/library/music/) under a base video and ducks it
 HARD under the voice, so the music is felt-not-heard: quiet under speech, breathing up in
 the gaps (intro/outro/pauses). Video is copied through untouched. This is the AUDITION mixer
-— pick the bed + level with the user here; final polished mix / loudness normalization is
-/assemble's job later.
+— pick the bed + level with the user here.
 
 The bed is looped/trimmed to the base length, gained to sit under the voice, high-passed a
 touch so it never muddies speech, sidechain-ducked keyed by the base audio (voice + any SFX),
 faded in/out, and summed with a safety limiter.
 
 Usage:
-  # one bed over the SFX'd first-60s -> a new file
-  python tools/mix_music.py --bed ambient-pad --base video-1/output/video-1-first60-sfx.mp4 \
-      --out video-1/output/video-1-first60-ambient-pad.mp4
+  # one bed over the SFX'd render -> a new file
+  python tools/mix_music.py --bed ambient-pad --base shorts/short-N-x/output/short-N-sfx.mp4 \
+      --out shorts/short-N-x/output/short-N-ambient-pad.mp4
 
   # compare every library bed at once (one out file per bed, <base-stem>-<bed>.mp4)
-  python tools/mix_music.py --all --base video-1/output/video-1-first60-sfx.mp4
+  python tools/mix_music.py --all --base shorts/short-N-x/output/short-N-sfx.mp4
+
+  # a bed FILE instead of a library id (e.g. a kids-channel song bed from tools/gen_song.py)
+  python tools/mix_music.py --bed kids-shorts/tiny-sparks/songs/count-with-bobo/bed.mp3 --base <video>.mp4
 
   --bed-gain -7      base bed level in dB (default -7; more negative = quieter)
   --duck 9           extra dB the bed drops under the voice (default 9)
   --fade 1.5         fade in/out seconds (default 1.5)
   --end 60           trim output to N seconds (default: full base)
+  --start 3.7        the bed ENTERS at N seconds (e.g. after the channel jingle; the bed's beat grid
+                     then runs from N — sync think-tick SFX to N + k*60/bpm)
+  --fade-in 0.2      fade-in seconds at --start (default = --fade)
+  --stop 37.8        the bed fades OUT ending at N seconds (music drops for a punchline / sting)
   --print            show the resolved settings, no render
 
 ffmpeg/ffprobe on PATH. Beds come from media/library/music/catalog.json (run tools/gen_music.py first).
@@ -68,11 +74,14 @@ def probe_duration(path):
 
 def flag(args, name, default=None, cast=str):
     if name in args:
-        return cast(args[args.index(name) + 1])
+        i = args.index(name) + 1
+        if i >= len(args):
+            sys.exit(f"{name} needs a value")
+        return cast(args[i])
     return default
 
 
-def mix_one(base, bed_file, out, bed_gain, duck, fade, end):
+def mix_one(base, bed_file, out, bed_gain, duck, fade, end, start=0.0, stop=None, fade_in=None):
     """Render base video with `bed_file` ducked underneath. Returns out path."""
     os.makedirs(os.path.dirname(out), exist_ok=True)
     dur = end if end is not None else probe_duration(base)
@@ -85,10 +94,17 @@ def mix_one(base, bed_file, out, bed_gain, duck, fade, end):
     parts = []
     # bed: standard format, gentle high-pass so it never muddies speech, trim to length,
     # set base level, fade in/out.
+    # --start/--stop: the bed only plays inside [start, stop] (delayed + padded with silence).
+    start = max(0.0, start or 0.0)
+    stop = min(dur, stop) if stop else dur
+    blen = max(0.1, stop - start)
+    fin = fade if fade_in is None else fade_in
+    delay = f",adelay={int(round(start * 1000))}:all=1" if start > 0 else ""
     parts.append(
         f"[1:a]aformat=sample_rates=48000:channel_layouts=stereo,"
-        f"highpass=f=90,volume={bed_gain:.2f}dB,atrim=0:{dur:.3f},asetpts=N/SR/TB,"
-        f"afade=t=in:st=0:d={fade:.2f},afade=t=out:st={max(0.0, dur - fade):.3f}:d={fade:.2f}[bed]"
+        f"highpass=f=90,volume={bed_gain:.2f}dB,atrim=0:{blen:.3f},asetpts=N/SR/TB,"
+        f"afade=t=in:st=0:d={fin:.2f},afade=t=out:st={max(0.0, blen - fade):.3f}:d={fade:.2f}"
+        f"{delay},apad=whole_dur={dur:.3f}[bed]"
     )
     # base voice: split — one copy is the sidechain key, one is the final voice.
     parts.append("[0:a]aformat=sample_rates=48000:channel_layouts=stereo,asplit=2[key][voice]")
@@ -113,11 +129,16 @@ def mix_one(base, bed_file, out, bed_gain, duck, fade, end):
 
 def main():
     args = sys.argv[1:]
-    base = rp(flag(args, "--base", "video-1/output/video-1-first60-sfx.mp4"))
+    if flag(args, "--base", None) is None:
+        sys.exit(__doc__)
+    base = rp(flag(args, "--base", None))
     bed_gain = flag(args, "--bed-gain", -7.0, float)
     duck = flag(args, "--duck", 9.0, float)
     fade = flag(args, "--fade", 1.5, float)
     end = flag(args, "--end", None, float)
+    start = flag(args, "--start", 0.0, float)
+    stop = flag(args, "--stop", None, float)
+    fade_in = flag(args, "--fade-in", None, float)
     do_all = "--all" in args
     only_bed = flag(args, "--bed", None)
     out_override = flag(args, "--out", None)
@@ -134,7 +155,8 @@ def main():
         sys.exit("specify --bed <id> or --all (available: " + ", ".join(beds) + ")")
 
     print(f"base: {show(base)}   bed-gain: {bed_gain}dB   duck: {duck}dB   fade: {fade}s"
-          + (f"   end: {end}s" if end else ""))
+          + (f"   end: {end}s" if end else "") + (f"   start: {start}s" if start else "")
+          + (f"   stop: {stop}s" if stop else "") + (f"   fade-in: {fade_in}s" if fade_in is not None else ""))
     print(f"beds: {', '.join(targets)}")
     if not os.path.exists(base):
         sys.exit(f"missing base video: {base}")
@@ -143,6 +165,14 @@ def main():
     results = []
     for bid in targets:
         clip = beds.get(bid)
+        if not clip and os.path.splitext(bid)[1].lower() in (".mp3", ".wav", ".m4a") and os.path.exists(rp(bid)):
+            # a bed FILE (e.g. a channel song's bed.mp3 from tools/gen_song.py) instead of a library id
+            out = rp(out_override) if out_override else os.path.join(os.path.dirname(base), f"{stem}-music.mp4")
+            if "--print" in args:
+                print(f"  {bid} -> {show(out)}")
+                continue
+            results.append(mix_one(base, rp(bid), out, bed_gain, duck, fade, end, start, stop, fade_in))
+            continue
         if not clip:
             print(f"  SKIP {bid}: not in catalog (run tools/gen_music.py)")
             continue
@@ -158,7 +188,7 @@ def main():
         if "--print" in args:
             print(f"  {bid} -> {show(out)}")
             continue
-        results.append(mix_one(base, bed_file, out, bed_gain, duck, fade, end))
+        results.append(mix_one(base, bed_file, out, bed_gain, duck, fade, end, start, stop, fade_in))
 
     if results:
         print("\ndone:")

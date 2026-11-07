@@ -1,0 +1,1105 @@
+{
+  "id": "day-034",
+  "series": "tiny-sparks",
+  "episode": 34,
+  "title": "Which Object Doesn't Belong?",
+  "composition": "KidsPuzzles034",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 101.3
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "hoot",
+      "start": 0.4,
+      "end": 3.89,
+      "text": "Four things. One doesn't belong. Can you find it?",
+      "words": [
+        {
+          "w": "Four",
+          "start": 0.45,
+          "end": 0.846
+        },
+        {
+          "w": "things.",
+          "start": 0.846,
+          "end": 1.34
+        },
+        {
+          "w": "One",
+          "start": 1.52,
+          "end": 1.779
+        },
+        {
+          "w": "doesn't",
+          "start": 1.779,
+          "end": 2.232
+        },
+        {
+          "w": "belong.",
+          "start": 2.232,
+          "end": 2.62
+        },
+        {
+          "w": "Can",
+          "start": 2.88,
+          "end": 3.128
+        },
+        {
+          "w": "you",
+          "start": 3.128,
+          "end": 3.314
+        },
+        {
+          "w": "find",
+          "start": 3.314,
+          "end": 3.686
+        },
+        {
+          "w": "it?",
+          "start": 3.686,
+          "end": 3.81
+        }
+      ]
+    },
+    {
+      "beat": "p1_intro",
+      "speaker": "hoot",
+      "start": 5.49,
+      "end": 6.57,
+      "text": "Puzzle one!",
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 5.52,
+          "end": 6.102
+        },
+        {
+          "w": "one!",
+          "start": 6.102,
+          "end": 6.49
+        }
+      ]
+    },
+    {
+      "beat": "p1_read",
+      "speaker": "hoot",
+      "start": 7.77,
+      "end": 10.99,
+      "text": "An apple... a banana... a sock... a carrot...",
+      "words": [
+        {
+          "w": "An",
+          "start": 7.8,
+          "end": 7.982
+        },
+        {
+          "w": "apple...",
+          "start": 7.982,
+          "end": 8.438
+        },
+        {
+          "w": "a",
+          "start": 8.438,
+          "end": 8.712
+        },
+        {
+          "w": "banana...",
+          "start": 8.712,
+          "end": 9.441
+        },
+        {
+          "w": "a",
+          "start": 9.441,
+          "end": 9.715
+        },
+        {
+          "w": "sock...",
+          "start": 9.715,
+          "end": 10.079
+        },
+        {
+          "w": "a",
+          "start": 10.079,
+          "end": 10.353
+        },
+        {
+          "w": "carrot...",
+          "start": 10.353,
+          "end": 10.9
+        }
+      ]
+    },
+    {
+      "beat": "p1_q",
+      "speaker": "hoot",
+      "start": 12.19,
+      "end": 13.83,
+      "text": "Which one doesn't belong?",
+      "words": [
+        {
+          "w": "Which",
+          "start": 12.21,
+          "end": 12.558
+        },
+        {
+          "w": "one",
+          "start": 12.558,
+          "end": 12.836
+        },
+        {
+          "w": "doesn't",
+          "start": 12.836,
+          "end": 13.323
+        },
+        {
+          "w": "belong?",
+          "start": 13.323,
+          "end": 13.74
+        }
+      ]
+    },
+    {
+      "beat": "p1_leo",
+      "speaker": "leo",
+      "start": 19.03,
+      "end": 20.99,
+      "text": "The banana! I love bananas!",
+      "words": [
+        {
+          "w": "The",
+          "start": 19.07,
+          "end": 19.207
+        },
+        {
+          "w": "banana!",
+          "start": 19.207,
+          "end": 19.685
+        },
+        {
+          "w": "I",
+          "start": 19.685,
+          "end": 19.89
+        },
+        {
+          "w": "love",
+          "start": 19.89,
+          "end": 20.163
+        },
+        {
+          "w": "bananas!",
+          "start": 20.163,
+          "end": 20.71
+        }
+      ]
+    },
+    {
+      "beat": "p1_no",
+      "speaker": "hoot",
+      "start": 22.19,
+      "end": 25.04,
+      "text": "Hmm, not quite! Which one can we NOT eat?",
+      "words": [
+        {
+          "w": "Hmm,",
+          "start": 22.21,
+          "end": 22.431
+        },
+        {
+          "w": "not",
+          "start": 22.431,
+          "end": 22.726
+        },
+        {
+          "w": "quite!",
+          "start": 22.726,
+          "end": 23.169
+        },
+        {
+          "w": "Which",
+          "start": 23.169,
+          "end": 23.538
+        },
+        {
+          "w": "one",
+          "start": 23.538,
+          "end": 23.833
+        },
+        {
+          "w": "can",
+          "start": 23.833,
+          "end": 24.128
+        },
+        {
+          "w": "we",
+          "start": 24.128,
+          "end": 24.35
+        },
+        {
+          "w": "NOT",
+          "start": 24.35,
+          "end": 24.645
+        },
+        {
+          "w": "eat?",
+          "start": 24.645,
+          "end": 24.94
+        }
+      ]
+    },
+    {
+      "beat": "p1_ans",
+      "speaker": "hoot",
+      "start": 27.24,
+      "end": 30.76,
+      "text": "The sock! We eat the others. A sock goes on your foot!",
+      "words": [
+        {
+          "w": "The",
+          "start": 27.27,
+          "end": 27.432
+        },
+        {
+          "w": "sock!",
+          "start": 27.432,
+          "end": 27.757
+        },
+        {
+          "w": "We",
+          "start": 27.757,
+          "end": 28.001
+        },
+        {
+          "w": "eat",
+          "start": 28.001,
+          "end": 28.325
+        },
+        {
+          "w": "the",
+          "start": 28.325,
+          "end": 28.488
+        },
+        {
+          "w": "others.",
+          "start": 28.488,
+          "end": 28.894
+        },
+        {
+          "w": "A",
+          "start": 28.894,
+          "end": 29.137
+        },
+        {
+          "w": "sock",
+          "start": 29.137,
+          "end": 29.462
+        },
+        {
+          "w": "goes",
+          "start": 29.462,
+          "end": 29.868
+        },
+        {
+          "w": "on",
+          "start": 29.868,
+          "end": 30.112
+        },
+        {
+          "w": "your",
+          "start": 30.112,
+          "end": 30.355
+        },
+        {
+          "w": "foot!",
+          "start": 30.355,
+          "end": 30.68
+        }
+      ]
+    },
+    {
+      "beat": "p1_yay",
+      "speaker": "leo",
+      "start": 32.16,
+      "end": 34.03,
+      "text": "Socks are for feet! Silly me!",
+      "words": [
+        {
+          "w": "Socks",
+          "start": 32.18,
+          "end": 32.527
+        },
+        {
+          "w": "are",
+          "start": 32.527,
+          "end": 32.7
+        },
+        {
+          "w": "for",
+          "start": 32.7,
+          "end": 32.931
+        },
+        {
+          "w": "feet!",
+          "start": 32.931,
+          "end": 33.22
+        },
+        {
+          "w": "Silly",
+          "start": 33.22,
+          "end": 33.509
+        },
+        {
+          "w": "me!",
+          "start": 33.509,
+          "end": 33.74
+        }
+      ]
+    },
+    {
+      "beat": "p2_intro",
+      "speaker": "hoot",
+      "start": 36.63,
+      "end": 37.82,
+      "text": "Puzzle two!",
+      "words": [
+        {
+          "w": "Puzzle",
+          "start": 36.67,
+          "end": 37.306
+        },
+        {
+          "w": "two!",
+          "start": 37.306,
+          "end": 37.73
+        }
+      ]
+    },
+    {
+      "beat": "p2_read",
+      "speaker": "hoot",
+      "start": 39.02,
+      "end": 42.15,
+      "text": "A car... a plane... a kite... a balloon...",
+      "words": [
+        {
+          "w": "A",
+          "start": 39.05,
+          "end": 39.318
+        },
+        {
+          "w": "car...",
+          "start": 39.318,
+          "end": 39.676
+        },
+        {
+          "w": "a",
+          "start": 39.676,
+          "end": 39.944
+        },
+        {
+          "w": "plane...",
+          "start": 39.944,
+          "end": 40.481
+        },
+        {
+          "w": "a",
+          "start": 40.481,
+          "end": 40.749
+        },
+        {
+          "w": "kite...",
+          "start": 40.749,
+          "end": 41.196
+        },
+        {
+          "w": "a",
+          "start": 41.196,
+          "end": 41.464
+        },
+        {
+          "w": "balloon...",
+          "start": 41.464,
+          "end": 42.09
+        }
+      ]
+    },
+    {
+      "beat": "p2_q",
+      "speaker": "hoot",
+      "start": 43.35,
+      "end": 44.99,
+      "text": "Which one doesn't belong?",
+      "words": [
+        {
+          "w": "Which",
+          "start": 43.37,
+          "end": 43.718
+        },
+        {
+          "w": "one",
+          "start": 43.718,
+          "end": 43.996
+        },
+        {
+          "w": "doesn't",
+          "start": 43.996,
+          "end": 44.483
+        },
+        {
+          "w": "belong?",
+          "start": 44.483,
+          "end": 44.9
+        }
+      ]
+    },
+    {
+      "beat": "p2_leo",
+      "speaker": "leo",
+      "start": 50.19,
+      "end": 51.7,
+      "text": "The plane! Zoom, zoom!",
+      "words": [
+        {
+          "w": "The",
+          "start": 50.22,
+          "end": 50.353
+        },
+        {
+          "w": "plane!",
+          "start": 50.353,
+          "end": 50.753
+        },
+        {
+          "w": "Zoom,",
+          "start": 50.753,
+          "end": 51.087
+        },
+        {
+          "w": "zoom!",
+          "start": 51.087,
+          "end": 51.42
+        }
+      ]
+    },
+    {
+      "beat": "p2_no",
+      "speaker": "hoot",
+      "start": 52.9,
+      "end": 56.74,
+      "text": "Zoom zoom is fun! But look up. Which one can't fly?",
+      "words": [
+        {
+          "w": "Zoom",
+          "start": 52.93,
+          "end": 53.371
+        },
+        {
+          "w": "zoom",
+          "start": 53.371,
+          "end": 53.811
+        },
+        {
+          "w": "is",
+          "start": 53.811,
+          "end": 53.987
+        },
+        {
+          "w": "fun!",
+          "start": 53.987,
+          "end": 54.34
+        },
+        {
+          "w": "But",
+          "start": 54.55,
+          "end": 54.786
+        },
+        {
+          "w": "look",
+          "start": 54.786,
+          "end": 55.023
+        },
+        {
+          "w": "up.",
+          "start": 55.023,
+          "end": 55.2
+        },
+        {
+          "w": "Which",
+          "start": 55.49,
+          "end": 55.785
+        },
+        {
+          "w": "one",
+          "start": 55.785,
+          "end": 56.021
+        },
+        {
+          "w": "can't",
+          "start": 56.021,
+          "end": 56.375
+        },
+        {
+          "w": "fly?",
+          "start": 56.375,
+          "end": 56.67
+        }
+      ]
+    },
+    {
+      "beat": "p2_ans",
+      "speaker": "hoot",
+      "start": 58.94,
+      "end": 63.42,
+      "text": "The car! The others fly in the sky. The car drives on the road!",
+      "words": [
+        {
+          "w": "The",
+          "start": 58.97,
+          "end": 59.153
+        },
+        {
+          "w": "car!",
+          "start": 59.153,
+          "end": 59.52
+        },
+        {
+          "w": "The",
+          "start": 59.67,
+          "end": 59.818
+        },
+        {
+          "w": "others",
+          "start": 59.818,
+          "end": 60.189
+        },
+        {
+          "w": "fly",
+          "start": 60.189,
+          "end": 60.559
+        },
+        {
+          "w": "in",
+          "start": 60.559,
+          "end": 60.781
+        },
+        {
+          "w": "the",
+          "start": 60.781,
+          "end": 60.93
+        },
+        {
+          "w": "sky.",
+          "start": 60.93,
+          "end": 61.3
+        },
+        {
+          "w": "The",
+          "start": 61.66,
+          "end": 61.805
+        },
+        {
+          "w": "car",
+          "start": 61.805,
+          "end": 62.096
+        },
+        {
+          "w": "drives",
+          "start": 62.096,
+          "end": 62.604
+        },
+        {
+          "w": "on",
+          "start": 62.604,
+          "end": 62.822
+        },
+        {
+          "w": "the",
+          "start": 62.822,
+          "end": 62.967
+        },
+        {
+          "w": "road!",
+          "start": 62.967,
+          "end": 63.33
+        }
+      ]
+    },
+    {
+      "beat": "p2_yay",
+      "speaker": "leo",
+      "start": 64.82,
+      "end": 66.31,
+      "text": "Beep beep! Silly me!",
+      "words": [
+        {
+          "w": "Beep",
+          "start": 64.84,
+          "end": 65.164
+        },
+        {
+          "w": "beep!",
+          "start": 65.164,
+          "end": 65.487
+        },
+        {
+          "w": "Silly",
+          "start": 65.487,
+          "end": 65.811
+        },
+        {
+          "w": "me!",
+          "start": 65.811,
+          "end": 66.07
+        }
+      ]
+    },
+    {
+      "beat": "p3_intro",
+      "speaker": "hoot",
+      "start": 68.91,
+      "end": 71.15,
+      "text": "Super puzzle! Look at the shapes!",
+      "words": [
+        {
+          "w": "Super",
+          "start": 68.95,
+          "end": 69.42
+        },
+        {
+          "w": "puzzle!",
+          "start": 69.42,
+          "end": 69.89
+        },
+        {
+          "w": "Look",
+          "start": 70.05,
+          "end": 70.341
+        },
+        {
+          "w": "at",
+          "start": 70.341,
+          "end": 70.487
+        },
+        {
+          "w": "the",
+          "start": 70.487,
+          "end": 70.633
+        },
+        {
+          "w": "shapes!",
+          "start": 70.633,
+          "end": 71.07
+        }
+      ]
+    },
+    {
+      "beat": "p3_read",
+      "speaker": "hoot",
+      "start": 72.35,
+      "end": 75.29,
+      "text": "A ball... a book... a clock... a plate...",
+      "words": [
+        {
+          "w": "A",
+          "start": 72.38,
+          "end": 72.645
+        },
+        {
+          "w": "ball...",
+          "start": 72.645,
+          "end": 73.088
+        },
+        {
+          "w": "a",
+          "start": 73.088,
+          "end": 73.353
+        },
+        {
+          "w": "book...",
+          "start": 73.353,
+          "end": 73.707
+        },
+        {
+          "w": "a",
+          "start": 73.707,
+          "end": 73.972
+        },
+        {
+          "w": "clock...",
+          "start": 73.972,
+          "end": 74.414
+        },
+        {
+          "w": "a",
+          "start": 74.414,
+          "end": 74.679
+        },
+        {
+          "w": "plate...",
+          "start": 74.679,
+          "end": 75.21
+        }
+      ]
+    },
+    {
+      "beat": "p3_q",
+      "speaker": "hoot",
+      "start": 76.49,
+      "end": 78.13,
+      "text": "Which one doesn't belong?",
+      "words": [
+        {
+          "w": "Which",
+          "start": 76.51,
+          "end": 76.858
+        },
+        {
+          "w": "one",
+          "start": 76.858,
+          "end": 77.136
+        },
+        {
+          "w": "doesn't",
+          "start": 77.136,
+          "end": 77.623
+        },
+        {
+          "w": "belong?",
+          "start": 77.623,
+          "end": 78.04
+        }
+      ]
+    },
+    {
+      "beat": "p3_leo",
+      "speaker": "leo",
+      "start": 83.33,
+      "end": 85.09,
+      "text": "I know! The book! It's a square!",
+      "words": [
+        {
+          "w": "I",
+          "start": 83.36,
+          "end": 83.533
+        },
+        {
+          "w": "know!",
+          "start": 83.533,
+          "end": 83.763
+        },
+        {
+          "w": "The",
+          "start": 83.763,
+          "end": 83.878
+        },
+        {
+          "w": "book!",
+          "start": 83.878,
+          "end": 84.109
+        },
+        {
+          "w": "It's",
+          "start": 84.109,
+          "end": 84.282
+        },
+        {
+          "w": "a",
+          "start": 84.282,
+          "end": 84.454
+        },
+        {
+          "w": "square!",
+          "start": 84.454,
+          "end": 84.8
+        }
+      ]
+    },
+    {
+      "beat": "p3_ans",
+      "speaker": "hoot",
+      "start": 86.49,
+      "end": 91.18,
+      "text": "Yes! The book! The others are round, like a circle. Great job, Leo!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 86.53,
+          "end": 86.851
+        },
+        {
+          "w": "The",
+          "start": 86.851,
+          "end": 87.012
+        },
+        {
+          "w": "book!",
+          "start": 87.012,
+          "end": 87.334
+        },
+        {
+          "w": "The",
+          "start": 87.334,
+          "end": 87.494
+        },
+        {
+          "w": "others",
+          "start": 87.494,
+          "end": 87.896
+        },
+        {
+          "w": "are",
+          "start": 87.896,
+          "end": 88.057
+        },
+        {
+          "w": "round,",
+          "start": 88.057,
+          "end": 88.539
+        },
+        {
+          "w": "like",
+          "start": 88.539,
+          "end": 88.941
+        },
+        {
+          "w": "a",
+          "start": 88.941,
+          "end": 89.182
+        },
+        {
+          "w": "circle.",
+          "start": 89.182,
+          "end": 89.744
+        },
+        {
+          "w": "Great",
+          "start": 89.744,
+          "end": 90.226
+        },
+        {
+          "w": "job,",
+          "start": 90.226,
+          "end": 90.628
+        },
+        {
+          "w": "Leo!",
+          "start": 90.628,
+          "end": 91.11
+        }
+      ]
+    },
+    {
+      "beat": "end",
+      "speaker": "hoot",
+      "start": 93.58,
+      "end": 95.82,
+      "text": "Hoo-hoo! You are a super thinker!",
+      "words": [
+        {
+          "w": "Hoo-hoo!",
+          "start": 93.62,
+          "end": 94.18
+        },
+        {
+          "w": "You",
+          "start": 94.3,
+          "end": 94.518
+        },
+        {
+          "w": "are",
+          "start": 94.518,
+          "end": 94.663
+        },
+        {
+          "w": "a",
+          "start": 94.663,
+          "end": 94.88
+        },
+        {
+          "w": "super",
+          "start": 94.88,
+          "end": 95.315
+        },
+        {
+          "w": "thinker!",
+          "start": 95.315,
+          "end": 95.75
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "leo",
+      "start": 97.22,
+      "end": 98.92,
+      "text": "Bye-bye, super thinkers!",
+      "words": [
+        {
+          "w": "Bye-bye,",
+          "start": 97.26,
+          "end": 97.829
+        },
+        {
+          "w": "super",
+          "start": 97.829,
+          "end": 98.208
+        },
+        {
+          "w": "thinkers!",
+          "start": 98.208,
+          "end": 98.65
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast",
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "visual": "Four things. One doesn't belong. Can you find it?",
+      "end": 5.29
+    },
+    {
+      "id": "p1_intro",
+      "start": 5.29,
+      "visual": "Puzzle one!",
+      "end": 7.57
+    },
+    {
+      "id": "p1_read",
+      "start": 7.57,
+      "visual": "An apple... a banana... a sock... a carrot...",
+      "end": 11.99
+    },
+    {
+      "id": "p1_q",
+      "start": 11.99,
+      "visual": "Which one doesn't belong?",
+      "end": 18.83
+    },
+    {
+      "id": "p1_leo",
+      "start": 18.83,
+      "visual": "The banana! I love bananas!",
+      "end": 21.99
+    },
+    {
+      "id": "p1_no",
+      "start": 21.99,
+      "visual": "Hmm, not quite! Which one can we NOT eat?",
+      "end": 27.04
+    },
+    {
+      "id": "p1_ans",
+      "start": 27.04,
+      "visual": "The sock! We eat the others. A sock goes on your foot!",
+      "end": 31.96
+    },
+    {
+      "id": "p1_yay",
+      "start": 31.96,
+      "visual": "Socks are for feet! Silly me!",
+      "end": 36.43
+    },
+    {
+      "id": "p2_intro",
+      "start": 36.43,
+      "visual": "Puzzle two!",
+      "end": 38.82
+    },
+    {
+      "id": "p2_read",
+      "start": 38.82,
+      "visual": "A car... a plane... a kite... a balloon...",
+      "end": 43.15
+    },
+    {
+      "id": "p2_q",
+      "start": 43.15,
+      "visual": "Which one doesn't belong?",
+      "end": 49.99
+    },
+    {
+      "id": "p2_leo",
+      "start": 49.99,
+      "visual": "The plane! Zoom, zoom!",
+      "end": 52.7
+    },
+    {
+      "id": "p2_no",
+      "start": 52.7,
+      "visual": "Zoom zoom is fun! But look up. Which one can't fly?",
+      "end": 58.74
+    },
+    {
+      "id": "p2_ans",
+      "start": 58.74,
+      "visual": "The car! The others fly in the sky. The car drives on the road!",
+      "end": 64.62
+    },
+    {
+      "id": "p2_yay",
+      "start": 64.62,
+      "visual": "Beep beep! Silly me!",
+      "end": 68.71
+    },
+    {
+      "id": "p3_intro",
+      "start": 68.71,
+      "visual": "Super puzzle! Look at the shapes!",
+      "end": 72.15
+    },
+    {
+      "id": "p3_read",
+      "start": 72.15,
+      "visual": "A ball... a book... a clock... a plate...",
+      "end": 76.29
+    },
+    {
+      "id": "p3_q",
+      "start": 76.29,
+      "visual": "Which one doesn't belong?",
+      "end": 83.13
+    },
+    {
+      "id": "p3_leo",
+      "start": 83.13,
+      "visual": "I know! The book! It's a square!",
+      "end": 86.29
+    },
+    {
+      "id": "p3_ans",
+      "start": 86.29,
+      "visual": "Yes! The book! The others are round, like a circle. Great job, Leo!",
+      "end": 93.38
+    },
+    {
+      "id": "end",
+      "start": 93.38,
+      "visual": "Hoo-hoo! You are a super thinker!",
+      "end": 97.02
+    },
+    {
+      "id": "bye",
+      "start": 97.02,
+      "visual": "Bye-bye, super thinkers!",
+      "end": 101.3
+    }
+  ]
+}

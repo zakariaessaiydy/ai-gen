@@ -1,0 +1,986 @@
+{
+  "id": "day-024",
+  "series": "tiny-sparks",
+  "episode": 24,
+  "title": "Family Members in English and French",
+  "composition": "KidsWords024",
+  "audience": "ages 2-6 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 113.0
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "narrator_fr": {
+      "kokoro": "ff_siwis",
+      "lang": "fr",
+      "rate": "-6%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "intro",
+      "speaker": "mila",
+      "start": 1.6,
+      "end": 5.05,
+      "text": "Hi friends! Let's meet the family, in English, and in French!",
+      "words": [
+        {
+          "w": "Hi",
+          "start": 1.64,
+          "end": 1.892
+        },
+        {
+          "w": "friends!",
+          "start": 1.892,
+          "end": 2.333
+        },
+        {
+          "w": "Let's",
+          "start": 2.333,
+          "end": 2.648
+        },
+        {
+          "w": "meet",
+          "start": 2.648,
+          "end": 2.963
+        },
+        {
+          "w": "the",
+          "start": 2.963,
+          "end": 3.089
+        },
+        {
+          "w": "family,",
+          "start": 3.089,
+          "end": 3.531
+        },
+        {
+          "w": "in",
+          "start": 3.531,
+          "end": 3.72
+        },
+        {
+          "w": "English,",
+          "start": 3.72,
+          "end": 4.161
+        },
+        {
+          "w": "and",
+          "start": 4.161,
+          "end": 4.35
+        },
+        {
+          "w": "in",
+          "start": 4.35,
+          "end": 4.539
+        },
+        {
+          "w": "French!",
+          "start": 4.539,
+          "end": 4.98
+        }
+      ]
+    },
+    {
+      "beat": "intro",
+      "speaker": "bobo",
+      "start": 5.85,
+      "end": 6.81,
+      "text": "Family! Yay!",
+      "words": [
+        {
+          "w": "Family!",
+          "start": 5.89,
+          "end": 6.393
+        },
+        {
+          "w": "Yay!",
+          "start": 6.393,
+          "end": 6.68
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "mila",
+      "start": 8.81,
+      "end": 9.68,
+      "text": "Mom.",
+      "words": [
+        {
+          "w": "Mom.",
+          "start": 8.89,
+          "end": 9.58
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "mila",
+      "start": 10.68,
+      "end": 11.58,
+      "text": "Mom!",
+      "words": [
+        {
+          "w": "Mom!",
+          "start": 10.76,
+          "end": 11.48
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "narrator_fr",
+      "start": 13.58,
+      "end": 14.35,
+      "text": "Maman.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Maman.",
+          "start": 13.61,
+          "end": 14.22
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "narrator_fr",
+      "start": 15.35,
+      "end": 16.14,
+      "text": "Maman !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Maman",
+          "start": 15.39,
+          "end": 16.04
+        }
+      ]
+    },
+    {
+      "beat": "c0",
+      "speaker": "mila",
+      "start": 17.44,
+      "end": 18.74,
+      "text": "I love you, Mom!",
+      "words": [
+        {
+          "w": "I",
+          "start": 17.46,
+          "end": 17.692
+        },
+        {
+          "w": "love",
+          "start": 17.692,
+          "end": 18.001
+        },
+        {
+          "w": "you,",
+          "start": 18.001,
+          "end": 18.233
+        },
+        {
+          "w": "Mom!",
+          "start": 18.233,
+          "end": 18.62
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 21.34,
+      "end": 22.17,
+      "text": "Dad.",
+      "words": [
+        {
+          "w": "Dad.",
+          "start": 21.43,
+          "end": 22.04
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "mila",
+      "start": 23.17,
+      "end": 24.02,
+      "text": "Dad!",
+      "words": [
+        {
+          "w": "Dad!",
+          "start": 23.26,
+          "end": 23.88
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "narrator_fr",
+      "start": 26.02,
+      "end": 26.74,
+      "text": "Papa.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Papa.",
+          "start": 26.05,
+          "end": 26.65
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "narrator_fr",
+      "start": 27.74,
+      "end": 28.48,
+      "text": "Papa !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Papa",
+          "start": 27.77,
+          "end": 28.38
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "bobo",
+      "start": 29.78,
+      "end": 31.1,
+      "text": "Dad gives the best hugs!",
+      "words": [
+        {
+          "w": "Dad",
+          "start": 29.82,
+          "end": 30.043
+        },
+        {
+          "w": "gives",
+          "start": 30.043,
+          "end": 30.321
+        },
+        {
+          "w": "the",
+          "start": 30.321,
+          "end": 30.433
+        },
+        {
+          "w": "best",
+          "start": 30.433,
+          "end": 30.711
+        },
+        {
+          "w": "hugs!",
+          "start": 30.711,
+          "end": 30.99
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 33.7,
+      "end": 34.62,
+      "text": "Sister.",
+      "words": [
+        {
+          "w": "Sister.",
+          "start": 33.78,
+          "end": 34.48
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 35.62,
+      "end": 36.54,
+      "text": "Sister!",
+      "words": [
+        {
+          "w": "Sister!",
+          "start": 35.67,
+          "end": 36.4
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "narrator_fr",
+      "start": 38.54,
+      "end": 39.43,
+      "text": "La soeur.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 38.57,
+          "end": 38.883
+        },
+        {
+          "w": "soeur.",
+          "start": 38.883,
+          "end": 39.3
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "narrator_fr",
+      "start": 40.43,
+      "end": 41.37,
+      "text": "La soeur !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "La",
+          "start": 40.47,
+          "end": 40.809
+        },
+        {
+          "w": "soeur",
+          "start": 40.809,
+          "end": 41.26
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "mila",
+      "start": 42.67,
+      "end": 44.35,
+      "text": "My sister plays with me!",
+      "words": [
+        {
+          "w": "My",
+          "start": 42.7,
+          "end": 42.973
+        },
+        {
+          "w": "sister",
+          "start": 42.973,
+          "end": 43.383
+        },
+        {
+          "w": "plays",
+          "start": 43.383,
+          "end": 43.792
+        },
+        {
+          "w": "with",
+          "start": 43.792,
+          "end": 43.997
+        },
+        {
+          "w": "me!",
+          "start": 43.997,
+          "end": 44.27
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 46.95,
+      "end": 47.82,
+      "text": "Brother.",
+      "words": [
+        {
+          "w": "Brother.",
+          "start": 47.05,
+          "end": 47.65
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "mila",
+      "start": 48.82,
+      "end": 49.69,
+      "text": "Brother!",
+      "words": [
+        {
+          "w": "Brother!",
+          "start": 48.92,
+          "end": 49.54
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "narrator_fr",
+      "start": 51.69,
+      "end": 52.6,
+      "text": "Le frère.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 51.73,
+          "end": 52.011
+        },
+        {
+          "w": "frère.",
+          "start": 52.011,
+          "end": 52.48
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "narrator_fr",
+      "start": 53.6,
+      "end": 54.51,
+      "text": "Le frère !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Le",
+          "start": 53.63,
+          "end": 53.926
+        },
+        {
+          "w": "frère",
+          "start": 53.926,
+          "end": 54.42
+        }
+      ]
+    },
+    {
+      "beat": "c3",
+      "speaker": "bobo",
+      "start": 55.81,
+      "end": 56.93,
+      "text": "My brother is funny!",
+      "words": [
+        {
+          "w": "My",
+          "start": 55.85,
+          "end": 56.066
+        },
+        {
+          "w": "brother",
+          "start": 56.066,
+          "end": 56.391
+        },
+        {
+          "w": "is",
+          "start": 56.391,
+          "end": 56.499
+        },
+        {
+          "w": "funny!",
+          "start": 56.499,
+          "end": 56.77
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 59.53,
+      "end": 60.53,
+      "text": "Grandma.",
+      "words": [
+        {
+          "w": "Grandma.",
+          "start": 59.63,
+          "end": 60.41
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 61.53,
+      "end": 62.57,
+      "text": "Grandma!",
+      "words": [
+        {
+          "w": "Grandma!",
+          "start": 61.63,
+          "end": 62.45
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "narrator_fr",
+      "start": 64.57,
+      "end": 65.31,
+      "text": "Mamie.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Mamie.",
+          "start": 64.6,
+          "end": 65.2
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "narrator_fr",
+      "start": 66.31,
+      "end": 67.1,
+      "text": "Mamie !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Mamie",
+          "start": 66.34,
+          "end": 67.0
+        }
+      ]
+    },
+    {
+      "beat": "c4",
+      "speaker": "mila",
+      "start": 68.4,
+      "end": 70.27,
+      "text": "Grandma reads me stories!",
+      "words": [
+        {
+          "w": "Grandma",
+          "start": 68.44,
+          "end": 69.023
+        },
+        {
+          "w": "reads",
+          "start": 69.023,
+          "end": 69.412
+        },
+        {
+          "w": "me",
+          "start": 69.412,
+          "end": 69.671
+        },
+        {
+          "w": "stories!",
+          "start": 69.671,
+          "end": 70.19
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 72.87,
+      "end": 73.91,
+      "text": "Grandpa.",
+      "words": [
+        {
+          "w": "Grandpa.",
+          "start": 72.97,
+          "end": 73.79
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "mila",
+      "start": 74.91,
+      "end": 75.95,
+      "text": "Grandpa!",
+      "words": [
+        {
+          "w": "Grandpa!",
+          "start": 75.01,
+          "end": 75.82
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "narrator_fr",
+      "start": 77.95,
+      "end": 78.72,
+      "text": "Papi.",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Papi.",
+          "start": 77.99,
+          "end": 78.61
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "narrator_fr",
+      "start": 79.72,
+      "end": 80.5,
+      "text": "Papi !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Papi",
+          "start": 79.75,
+          "end": 80.43
+        }
+      ]
+    },
+    {
+      "beat": "c5",
+      "speaker": "bobo",
+      "start": 81.8,
+      "end": 83.33,
+      "text": "Grandpa tells silly jokes!",
+      "words": [
+        {
+          "w": "Grandpa",
+          "start": 81.84,
+          "end": 82.321
+        },
+        {
+          "w": "tells",
+          "start": 82.321,
+          "end": 82.588
+        },
+        {
+          "w": "silly",
+          "start": 82.588,
+          "end": 82.856
+        },
+        {
+          "w": "jokes!",
+          "start": 82.856,
+          "end": 83.23
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 85.93,
+      "end": 87.61,
+      "text": "Let's say them all, together!",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 85.96,
+          "end": 86.281
+        },
+        {
+          "w": "say",
+          "start": 86.281,
+          "end": 86.537
+        },
+        {
+          "w": "them",
+          "start": 86.537,
+          "end": 86.794
+        },
+        {
+          "w": "all,",
+          "start": 86.794,
+          "end": 87.051
+        },
+        {
+          "w": "together!",
+          "start": 87.051,
+          "end": 87.5
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 89.21,
+      "end": 90.76,
+      "text": "Mom, Dad, Sister!",
+      "words": [
+        {
+          "w": "Mom,",
+          "start": 89.24,
+          "end": 89.713
+        },
+        {
+          "w": "Dad,",
+          "start": 89.713,
+          "end": 90.092
+        },
+        {
+          "w": "Sister!",
+          "start": 90.092,
+          "end": 90.66
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 92.16,
+      "end": 94.22,
+      "text": "Brother, Grandma, Grandpa!",
+      "words": [
+        {
+          "w": "Brother,",
+          "start": 92.2,
+          "end": 92.677
+        },
+        {
+          "w": "Grandma,",
+          "start": 92.677,
+          "end": 93.394
+        },
+        {
+          "w": "Grandpa!",
+          "start": 93.394,
+          "end": 94.11
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 96.22,
+      "end": 97.33,
+      "text": "Et en français !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "Et",
+          "start": 96.25,
+          "end": 96.444
+        },
+        {
+          "w": "en",
+          "start": 96.444,
+          "end": 96.638
+        },
+        {
+          "w": "français",
+          "start": 96.638,
+          "end": 97.22
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 98.73,
+      "end": 100.18,
+      "text": "maman, papa, la soeur !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "maman,",
+          "start": 98.76,
+          "end": 99.142
+        },
+        {
+          "w": "papa,",
+          "start": 99.142,
+          "end": 99.525
+        },
+        {
+          "w": "la",
+          "start": 99.525,
+          "end": 99.754
+        },
+        {
+          "w": "soeur",
+          "start": 99.754,
+          "end": 100.06
+        }
+      ]
+    },
+    {
+      "beat": "recapfr",
+      "speaker": "narrator_fr",
+      "start": 101.58,
+      "end": 103.07,
+      "text": "le frère, mamie, papi !",
+      "lang": "fr",
+      "words": [
+        {
+          "w": "le",
+          "start": 101.61,
+          "end": 101.835
+        },
+        {
+          "w": "frère,",
+          "start": 101.835,
+          "end": 102.21
+        },
+        {
+          "w": "mamie,",
+          "start": 102.21,
+          "end": 102.585
+        },
+        {
+          "w": "papi",
+          "start": 102.585,
+          "end": 102.96
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "start": 105.47,
+      "end": 108.66,
+      "text": "Give your family a big hug today! Bye bye, friends!",
+      "words": [
+        {
+          "w": "Give",
+          "start": 105.5,
+          "end": 105.761
+        },
+        {
+          "w": "your",
+          "start": 105.761,
+          "end": 105.957
+        },
+        {
+          "w": "family",
+          "start": 105.957,
+          "end": 106.413
+        },
+        {
+          "w": "a",
+          "start": 106.413,
+          "end": 106.609
+        },
+        {
+          "w": "big",
+          "start": 106.609,
+          "end": 106.87
+        },
+        {
+          "w": "hug",
+          "start": 106.87,
+          "end": 107.13
+        },
+        {
+          "w": "today!",
+          "start": 107.13,
+          "end": 107.522
+        },
+        {
+          "w": "Bye",
+          "start": 107.522,
+          "end": 107.783
+        },
+        {
+          "w": "bye,",
+          "start": 107.783,
+          "end": 108.043
+        },
+        {
+          "w": "friends!",
+          "start": 108.043,
+          "end": 108.5
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "bobo",
+      "start": 109.26,
+      "end": 110.5,
+      "text": "Bye bye! Au revoir!",
+      "words": [
+        {
+          "w": "Bye",
+          "start": 109.28,
+          "end": 109.507
+        },
+        {
+          "w": "bye!",
+          "start": 109.507,
+          "end": 109.735
+        },
+        {
+          "w": "Au",
+          "start": 109.735,
+          "end": 109.905
+        },
+        {
+          "w": "revoir!",
+          "start": 109.905,
+          "end": 110.36
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "intro",
+      "start": 0,
+      "visual": "Hi friends! Let's meet the family, in English, and in French! / Family! Yay!",
+      "end": 8.61
+    },
+    {
+      "id": "c0",
+      "start": 8.61,
+      "visual": "Mom. / Mom! / Maman. / Maman ! / I love you, Mom!",
+      "end": 21.14
+    },
+    {
+      "id": "c1",
+      "start": 21.14,
+      "visual": "Dad. / Dad! / Papa. / Papa ! / Dad gives the best hugs!",
+      "end": 33.5
+    },
+    {
+      "id": "c2",
+      "start": 33.5,
+      "visual": "Sister. / Sister! / La soeur. / La soeur ! / My sister plays with me!",
+      "end": 46.75
+    },
+    {
+      "id": "c3",
+      "start": 46.75,
+      "visual": "Brother. / Brother! / Le frère. / Le frère ! / My brother is funny!",
+      "end": 59.33
+    },
+    {
+      "id": "c4",
+      "start": 59.33,
+      "visual": "Grandma. / Grandma! / Mamie. / Mamie ! / Grandma reads me stories!",
+      "end": 72.67
+    },
+    {
+      "id": "c5",
+      "start": 72.67,
+      "visual": "Grandpa. / Grandpa! / Papi. / Papi ! / Grandpa tells silly jokes!",
+      "end": 85.73
+    },
+    {
+      "id": "recap",
+      "start": 85.73,
+      "visual": "Let's say them all, together! / Mom, Dad, Sister! / Brother, Grandma, Grandpa!",
+      "end": 96.02
+    },
+    {
+      "id": "recapfr",
+      "start": 96.02,
+      "visual": "Et en français ! / maman, papa, la soeur ! / le frère, mamie, papi !",
+      "end": 105.27
+    },
+    {
+      "id": "bye",
+      "start": 105.27,
+      "visual": "Give your family a big hug today! Bye bye, friends! / Bye bye! Au revoir!",
+      "end": 113.0
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}
