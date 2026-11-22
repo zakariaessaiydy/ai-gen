@@ -1,0 +1,268 @@
+{
+  "master": "remotion/out/KidsPuzzles041-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsPuzzles041-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/puzzles/day-041-find-the-different-animal/output/day-041-sfx.mp4",
+    "end_s": 92.2,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0.4,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsPuzzles041",
+      "cue": "title"
+    },
+    {
+      "at_s": 5.69,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -8,
+      "shot": "KidsPuzzles041",
+      "cue": "puzzle 1"
+    },
+    {
+      "at_s": 6.69,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -13,
+      "shot": "KidsPuzzles041",
+      "cue": "animal hops in"
+    },
+    {
+      "at_s": 6.87,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -13,
+      "shot": "KidsPuzzles041",
+      "cue": "animal hops in"
+    },
+    {
+      "at_s": 7.05,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -13,
+      "shot": "KidsPuzzles041",
+      "cue": "animal hops in"
+    },
+    {
+      "at_s": 7.23,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -13,
+      "shot": "KidsPuzzles041",
+      "cue": "animal hops in"
+    },
+    {
+      "at_s": 11.5,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsPuzzles041",
+      "cue": "think",
+      "dur_s": 4.94
+    },
+    {
+      "at_s": 16.67,
+      "sfx_id": "zip-up",
+      "gain_db": -9,
+      "shot": "KidsPuzzles041",
+      "cue": "Leo picks"
+    },
+    {
+      "at_s": 17.27,
+      "sfx_id": "uh-oh",
+      "gain_db": -6,
+      "shot": "KidsPuzzles041",
+      "cue": "not quite"
+    },
+    {
+      "at_s": 23.79,
+      "sfx_id": "ding-correct",
+      "gain_db": -5,
+      "shot": "KidsPuzzles041",
+      "cue": "answer"
+    },
+    {
+      "at_s": 23.89,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -8,
+      "shot": "KidsPuzzles041",
+      "cue": "odd one hops"
+    },
+    {
+      "at_s": 26.99,
+      "sfx_id": "kids-yay",
+      "gain_db": -4,
+      "shot": "KidsPuzzles041",
+      "cue": "yay"
+    },
+    {
+      "at_s": 32.16,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -8,
+      "shot": "KidsPuzzles041",
+      "cue": "puzzle 2"
+    },
+    {
+      "at_s": 33.16,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -13,
+      "shot": "KidsPuzzles041",
+      "cue": "animal hops in"
+    },
+    {
+      "at_s": 33.34,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -13,
+      "shot": "KidsPuzzles041",
+      "cue": "animal hops in"
+    },
+    {
+      "at_s": 33.52,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -13,
+      "shot": "KidsPuzzles041",
+      "cue": "animal hops in"
+    },
+    {
+      "at_s": 33.7,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -13,
+      "shot": "KidsPuzzles041",
+      "cue": "animal hops in"
+    },
+    {
+      "at_s": 38.0,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsPuzzles041",
+      "cue": "think",
+      "dur_s": 4.79
+    },
+    {
+      "at_s": 43.03,
+      "sfx_id": "zip-up",
+      "gain_db": -9,
+      "shot": "KidsPuzzles041",
+      "cue": "Leo picks"
+    },
+    {
+      "at_s": 43.63,
+      "sfx_id": "uh-oh",
+      "gain_db": -6,
+      "shot": "KidsPuzzles041",
+      "cue": "not quite"
+    },
+    {
+      "at_s": 51.56,
+      "sfx_id": "ding-correct",
+      "gain_db": -5,
+      "shot": "KidsPuzzles041",
+      "cue": "answer"
+    },
+    {
+      "at_s": 51.66,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -8,
+      "shot": "KidsPuzzles041",
+      "cue": "odd one hops"
+    },
+    {
+      "at_s": 54.82,
+      "sfx_id": "kids-yay",
+      "gain_db": -4,
+      "shot": "KidsPuzzles041",
+      "cue": "yay"
+    },
+    {
+      "at_s": 59.81,
+      "sfx_id": "drum-roll",
+      "gain_db": -10,
+      "shot": "KidsPuzzles041",
+      "cue": "puzzle 3"
+    },
+    {
+      "at_s": 60.81,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -13,
+      "shot": "KidsPuzzles041",
+      "cue": "animal hops in"
+    },
+    {
+      "at_s": 60.99,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -13,
+      "shot": "KidsPuzzles041",
+      "cue": "animal hops in"
+    },
+    {
+      "at_s": 61.17,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -13,
+      "shot": "KidsPuzzles041",
+      "cue": "animal hops in"
+    },
+    {
+      "at_s": 61.35,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -13,
+      "shot": "KidsPuzzles041",
+      "cue": "animal hops in"
+    },
+    {
+      "at_s": 67.0,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsPuzzles041",
+      "cue": "think",
+      "dur_s": 4.83
+    },
+    {
+      "at_s": 72.623,
+      "sfx_id": "zip-up",
+      "gain_db": -9,
+      "shot": "KidsPuzzles041",
+      "cue": "Leo picks"
+    },
+    {
+      "at_s": 75.87,
+      "sfx_id": "ding-correct",
+      "gain_db": -5,
+      "shot": "KidsPuzzles041",
+      "cue": "answer"
+    },
+    {
+      "at_s": 75.97,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -8,
+      "shot": "KidsPuzzles041",
+      "cue": "odd one hops"
+    },
+    {
+      "at_s": 80.09,
+      "sfx_id": "kids-yay",
+      "gain_db": -4,
+      "shot": "KidsPuzzles041",
+      "cue": "yay"
+    },
+    {
+      "at_s": 81.04,
+      "sfx_id": "kids-laugh",
+      "gain_db": -8,
+      "shot": "KidsPuzzles041",
+      "cue": "Bobo found"
+    },
+    {
+      "at_s": 84.29,
+      "sfx_id": "kids-applause",
+      "gain_db": -8,
+      "shot": "KidsPuzzles041",
+      "cue": "end"
+    },
+    {
+      "at_s": 90.34,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -8,
+      "shot": "KidsPuzzles041",
+      "cue": "iris"
+    }
+  ]
+}

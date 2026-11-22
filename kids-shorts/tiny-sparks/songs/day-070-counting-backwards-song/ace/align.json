@@ -1,0 +1,114 @@
+{
+ "kidspop-seed2036.wav": {
+  "score": 0.664,
+  "matched": 190,
+  "words": 286,
+  "recognised": 259,
+  "duration": 321.6
+ },
+ "kidspop-seed21.wav": {
+  "score": 0.643,
+  "matched": 184,
+  "words": 286,
+  "recognised": 274,
+  "duration": 321.6
+ },
+ "kidspop-seed52.wav": {
+  "score": 0.661,
+  "matched": 189,
+  "words": 286,
+  "recognised": 264,
+  "duration": 321.6
+ },
+ "_variants": {
+  "A": {
+   "take": "kidspop-seed2036.wav",
+   "score": 0.664,
+   "intro_cut": 18.27,
+   "duration": 303.33
+  },
+  "B": {
+   "take": "kidspop-seed52.wav",
+   "score": 0.661,
+   "intro_cut": 0.0,
+   "duration": 321.6
+  },
+  "C": {
+   "take": "kidspop-seed21.wav",
+   "score": 0.643,
+   "intro_cut": 10.15,
+   "duration": 311.45
+  }
+ },
+ "_winner": "kidspop-seed2036.wav",
+ "_intro_cut": 18.27,
+ "_sung": {
+  "A": {
+   "take": "kidspop-seed52.wav",
+   "score": 0.867,
+   "intro_cut": 0.0,
+   "duration": 321.6,
+   "form": [
+    "chorus",
+    "rocket",
+    "cd10",
+    "chorus",
+    "cd10",
+    "space",
+    "cd20",
+    "chorus",
+    "chorus",
+    "chorus",
+    "slow",
+    "chorus",
+    "cd10"
+   ]
+  },
+  "B": {
+   "take": "kidspop-seed2036.wav",
+   "score": 0.815,
+   "intro_cut": 18.27,
+   "duration": 303.33,
+   "form": [
+    "chorus",
+    "cd10",
+    "space",
+    "cd10",
+    "cd20",
+    "chorus",
+    "bubbles",
+    "chorus",
+    "q1",
+    "q2",
+    "q3",
+    "q3",
+    "q4",
+    "actions",
+    "slow",
+    "slow",
+    "slow"
+   ]
+  },
+  "C": {
+   "take": "kidspop-seed21.wav",
+   "score": 0.647,
+   "intro_cut": 15.55,
+   "duration": 306.05,
+   "form": [
+    "cd10",
+    "chorus",
+    "cd10",
+    "cd20",
+    "chorus",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "actions",
+    "slow",
+    "slow",
+    "chorus"
+   ]
+  }
+ }
+}

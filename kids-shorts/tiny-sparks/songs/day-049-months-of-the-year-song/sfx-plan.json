@@ -1,0 +1,294 @@
+{
+  "master": "remotion/out/KidsSongs049-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsSongs049-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/songs/day-049-months-of-the-year-song/output/day-049-sfx.mp4",
+    "end_s": 346.6,
+    "duck": false
+  },
+  "events": [
+    {
+      "at_s": 0,
+      "sfx_id": "tiny-sparks-jingle",
+      "gain_db": -5,
+      "shot": "KidsSongs049",
+      "cue": "ident"
+    },
+    {
+      "at_s": 26.477,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "month card 1"
+    },
+    {
+      "at_s": 26.827,
+      "sfx_id": "cymbal-crash",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "chorus end",
+      "dur_s": 1.6
+    },
+    {
+      "at_s": 26.877,
+      "sfx_id": "kids-yay",
+      "gain_db": -8,
+      "shot": "KidsSongs049",
+      "cue": "chorus yay"
+    },
+    {
+      "at_s": 35.708,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "month card 2"
+    },
+    {
+      "at_s": 44.938,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "month card 3"
+    },
+    {
+      "at_s": 54.169,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "month card 4"
+    },
+    {
+      "at_s": 63.4,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "month card 5"
+    },
+    {
+      "at_s": 72.631,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "month card 6"
+    },
+    {
+      "at_s": 81.862,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "month card 7"
+    },
+    {
+      "at_s": 91.092,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "month card 8"
+    },
+    {
+      "at_s": 100.323,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "month card 9"
+    },
+    {
+      "at_s": 109.554,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "month card 10"
+    },
+    {
+      "at_s": 118.785,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "month card 11"
+    },
+    {
+      "at_s": 128.015,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "month card 12"
+    },
+    {
+      "at_s": 156.058,
+      "sfx_id": "cymbal-crash",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "chorus end",
+      "dur_s": 1.6
+    },
+    {
+      "at_s": 156.108,
+      "sfx_id": "kids-yay",
+      "gain_db": -8,
+      "shot": "KidsSongs049",
+      "cue": "chorus yay"
+    },
+    {
+      "at_s": 158.415,
+      "sfx_id": "think-tick",
+      "gain_db": -10,
+      "shot": "KidsSongs049",
+      "cue": "think",
+      "dur_s": 6.62
+    },
+    {
+      "at_s": 165.188,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsSongs049",
+      "cue": "answer"
+    },
+    {
+      "at_s": 165.538,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -12,
+      "shot": "KidsSongs049",
+      "cue": "reward"
+    },
+    {
+      "at_s": 172.262,
+      "sfx_id": "think-tick",
+      "gain_db": -10,
+      "shot": "KidsSongs049",
+      "cue": "think",
+      "dur_s": 6.62
+    },
+    {
+      "at_s": 179.035,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsSongs049",
+      "cue": "answer"
+    },
+    {
+      "at_s": 179.385,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -12,
+      "shot": "KidsSongs049",
+      "cue": "reward"
+    },
+    {
+      "at_s": 186.108,
+      "sfx_id": "think-tick",
+      "gain_db": -10,
+      "shot": "KidsSongs049",
+      "cue": "think",
+      "dur_s": 6.62
+    },
+    {
+      "at_s": 192.881,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsSongs049",
+      "cue": "answer"
+    },
+    {
+      "at_s": 193.231,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -12,
+      "shot": "KidsSongs049",
+      "cue": "reward"
+    },
+    {
+      "at_s": 199.954,
+      "sfx_id": "think-tick",
+      "gain_db": -10,
+      "shot": "KidsSongs049",
+      "cue": "think",
+      "dur_s": 6.62
+    },
+    {
+      "at_s": 206.727,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsSongs049",
+      "cue": "answer"
+    },
+    {
+      "at_s": 207.077,
+      "sfx_id": "kids-wow",
+      "gain_db": -8,
+      "shot": "KidsSongs049",
+      "cue": "reward"
+    },
+    {
+      "at_s": 229.554,
+      "sfx_id": "chime-magic",
+      "gain_db": -12,
+      "shot": "KidsSongs049",
+      "cue": "birthday"
+    },
+    {
+      "at_s": 229.904,
+      "sfx_id": "cymbal-crash",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "chorus end",
+      "dur_s": 1.6
+    },
+    {
+      "at_s": 229.954,
+      "sfx_id": "kids-yay",
+      "gain_db": -8,
+      "shot": "KidsSongs049",
+      "cue": "chorus yay"
+    },
+    {
+      "at_s": 236.877,
+      "sfx_id": "kids-applause",
+      "gain_db": -6,
+      "shot": "KidsSongs049",
+      "cue": "hip hip hooray"
+    },
+    {
+      "at_s": 238.785,
+      "sfx_id": "chime-reward",
+      "gain_db": -12,
+      "shot": "KidsSongs049",
+      "cue": "karaoke"
+    },
+    {
+      "at_s": 257.246,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -12,
+      "shot": "KidsSongs049",
+      "cue": "slow"
+    },
+    {
+      "at_s": 336.058,
+      "sfx_id": "cymbal-crash",
+      "gain_db": -14,
+      "shot": "KidsSongs049",
+      "cue": "chorus end",
+      "dur_s": 1.6
+    },
+    {
+      "at_s": 336.108,
+      "sfx_id": "kids-yay",
+      "gain_db": -8,
+      "shot": "KidsSongs049",
+      "cue": "chorus yay"
+    },
+    {
+      "at_s": 336.208,
+      "sfx_id": "kids-applause",
+      "gain_db": -6,
+      "shot": "KidsSongs049",
+      "cue": "the end"
+    },
+    {
+      "at_s": 337.808,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -10,
+      "shot": "KidsSongs049",
+      "cue": "star iris"
+    }
+  ]
+}

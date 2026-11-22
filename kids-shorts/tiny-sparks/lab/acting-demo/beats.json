@@ -1,0 +1,242 @@
+{
+  "id": "acting-demo",
+  "series": "tiny-sparks",
+  "episode": 0,
+  "title": "Acting + detail test — the cake (side-by-side)",
+  "composition": "KidsActingDemo",
+  "audience": "ages 3-6",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 16.5
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%"
+    },
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "cake",
+      "speaker": "mila",
+      "start": 0.5,
+      "text": "Hi friends! Look, I made a cake!",
+      "end": 2.61,
+      "words": [
+        {
+          "w": "Hi",
+          "start": 0.59,
+          "end": 0.83
+        },
+        {
+          "w": "friends!",
+          "start": 0.83,
+          "end": 1.25
+        },
+        {
+          "w": "Look,",
+          "start": 1.25,
+          "end": 1.49
+        },
+        {
+          "w": "I",
+          "start": 1.49,
+          "end": 1.67
+        },
+        {
+          "w": "made",
+          "start": 1.67,
+          "end": 1.97
+        },
+        {
+          "w": "a",
+          "start": 1.97,
+          "end": 2.15
+        },
+        {
+          "w": "cake!",
+          "start": 2.15,
+          "end": 2.45
+        }
+      ]
+    },
+    {
+      "beat": "thumbs",
+      "speaker": "leo",
+      "start": 3.3,
+      "text": "Wow! It looks yummy! Thumbs up!",
+      "end": 5.15,
+      "words": [
+        {
+          "w": "Wow!",
+          "start": 3.33,
+          "end": 3.603
+        },
+        {
+          "w": "It",
+          "start": 3.603,
+          "end": 3.74
+        },
+        {
+          "w": "looks",
+          "start": 3.74,
+          "end": 4.082
+        },
+        {
+          "w": "yummy!",
+          "start": 4.082,
+          "end": 4.423
+        },
+        {
+          "w": "Thumbs",
+          "start": 4.423,
+          "end": 4.765
+        },
+        {
+          "w": "up!",
+          "start": 4.765,
+          "end": 4.97
+        }
+      ]
+    },
+    {
+      "beat": "please",
+      "speaker": "bobo",
+      "start": 6.2,
+      "text": "Mmm, cake! Can I have some, please?",
+      "end": 8.3,
+      "words": [
+        {
+          "w": "Mmm,",
+          "start": 6.23,
+          "end": 6.724
+        },
+        {
+          "w": "cake!",
+          "start": 6.724,
+          "end": 6.998
+        },
+        {
+          "w": "Can",
+          "start": 6.998,
+          "end": 7.217
+        },
+        {
+          "w": "I",
+          "start": 7.217,
+          "end": 7.382
+        },
+        {
+          "w": "have",
+          "start": 7.382,
+          "end": 7.601
+        },
+        {
+          "w": "some,",
+          "start": 7.601,
+          "end": 7.821
+        },
+        {
+          "w": "please?",
+          "start": 7.821,
+          "end": 8.15
+        }
+      ]
+    },
+    {
+      "beat": "gone",
+      "speaker": "mila",
+      "start": 9.4,
+      "text": "Oh no, Bobo! You ate it all!",
+      "end": 11.32,
+      "words": [
+        {
+          "w": "Oh",
+          "start": 9.42,
+          "end": 9.616
+        },
+        {
+          "w": "no,",
+          "start": 9.616,
+          "end": 9.876
+        },
+        {
+          "w": "Bobo!",
+          "start": 9.876,
+          "end": 10.333
+        },
+        {
+          "w": "You",
+          "start": 10.333,
+          "end": 10.528
+        },
+        {
+          "w": "ate",
+          "start": 10.528,
+          "end": 10.789
+        },
+        {
+          "w": "it",
+          "start": 10.789,
+          "end": 10.919
+        },
+        {
+          "w": "all!",
+          "start": 10.919,
+          "end": 11.18
+        }
+      ]
+    },
+    {
+      "beat": "oops",
+      "speaker": "bobo",
+      "start": 12.2,
+      "text": "Oops! Sorry! It was so yummy!",
+      "end": 13.77,
+      "words": [
+        {
+          "w": "Oops!",
+          "start": 12.23,
+          "end": 12.506
+        },
+        {
+          "w": "Sorry!",
+          "start": 12.506,
+          "end": 12.837
+        },
+        {
+          "w": "It",
+          "start": 12.837,
+          "end": 12.948
+        },
+        {
+          "w": "was",
+          "start": 12.948,
+          "end": 13.113
+        },
+        {
+          "w": "so",
+          "start": 13.113,
+          "end": 13.334
+        },
+        {
+          "w": "yummy!",
+          "start": 13.334,
+          "end": 13.61
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

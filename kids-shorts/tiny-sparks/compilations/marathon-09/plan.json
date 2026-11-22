@@ -1,0 +1,29 @@
+{
+ "intro": "kids-shorts/tiny-sparks/compilations/marathon-09/output/intro.mp4",
+ "episodes": [
+  {
+   "day": 69,
+   "file": "kids-shorts/tiny-sparks/puzzles/day-069-find-the-hidden-heart/output/day-069-sfx-tiny-sparks-bounce.mp4",
+   "dur": 325.2,
+   "title": "Find the Hidden Heart 💖"
+  },
+  {
+   "day": 72,
+   "file": "kids-shorts/tiny-sparks/numbers/day-072-learn-number-1/output/day-072-sfx-tiny-sparks-bounce.mp4",
+   "dur": 314.2,
+   "title": "Learn Number 1 ☝️"
+  },
+  {
+   "day": 73,
+   "file": "kids-shorts/tiny-sparks/words/day-073-farm-animals-english-french/output/day-073-sfx-tiny-sparks-bounce.mp4",
+   "dur": 342.5,
+   "title": "Farm Animals in English & French 🐮"
+  },
+  {
+   "day": 74,
+   "file": "kids-shorts/tiny-sparks/animals/day-074-the-lion-and-the-little-mouse/output/day-074-sfx-tiny-sparks-bounce.mp4",
+   "dur": 304.6,
+   "title": "The Lion and the Little Mouse 🦁🐭"
+  }
+ ]
+}

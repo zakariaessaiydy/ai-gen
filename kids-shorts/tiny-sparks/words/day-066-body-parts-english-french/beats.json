@@ -1,0 +1,3598 @@
+{
+  "id": "day-066",
+  "series": "tiny-sparks",
+  "episode": 66,
+  "title": "Body Parts in English and French",
+  "composition": "KidsWords066",
+  "audience": "ages 3-6 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 336.2
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "narrator_fr": {
+      "kokoro": "ff_siwis",
+      "lang": "fr",
+      "rate": "-6%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    },
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -7,
+    "duck": 8,
+    "start": 0,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "w0_pic",
+      "speaker": "mila",
+      "text": "Look! What is this? Head!",
+      "gap": 1.2,
+      "start": 0.3,
+      "end": 1.9,
+      "words": [
+        {
+          "w": "Look!",
+          "start": 0.34,
+          "end": 0.662
+        },
+        {
+          "w": "What",
+          "start": 0.662,
+          "end": 0.984
+        },
+        {
+          "w": "is",
+          "start": 0.984,
+          "end": 1.146
+        },
+        {
+          "w": "this?",
+          "start": 1.146,
+          "end": 1.468
+        },
+        {
+          "w": "Head!",
+          "start": 1.468,
+          "end": 1.79
+        }
+      ]
+    },
+    {
+      "beat": "premise",
+      "speaker": "leo",
+      "text": "Let's learn our body, in English, and in French!",
+      "gap": 1.2,
+      "start": 3.1,
+      "end": 5.8,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 3.13,
+          "end": 3.401
+        },
+        {
+          "w": "learn",
+          "start": 3.401,
+          "end": 3.672
+        },
+        {
+          "w": "our",
+          "start": 3.672,
+          "end": 3.889
+        },
+        {
+          "w": "body,",
+          "start": 3.889,
+          "end": 4.214
+        },
+        {
+          "w": "in",
+          "start": 4.214,
+          "end": 4.376
+        },
+        {
+          "w": "English,",
+          "start": 4.376,
+          "end": 4.756
+        },
+        {
+          "w": "and",
+          "start": 4.756,
+          "end": 4.918
+        },
+        {
+          "w": "in",
+          "start": 4.918,
+          "end": 5.081
+        },
+        {
+          "w": "French!",
+          "start": 5.081,
+          "end": 5.46
+        }
+      ]
+    },
+    {
+      "beat": "head_2",
+      "speaker": "mila",
+      "text": "Head!",
+      "gap": 1.0,
+      "start": 7.0,
+      "end": 7.85,
+      "words": [
+        {
+          "w": "Head!",
+          "start": 7.07,
+          "end": 7.68
+        }
+      ]
+    },
+    {
+      "beat": "head_turn",
+      "speaker": "mila",
+      "text": "Your turn! Head!",
+      "gap": 2.0,
+      "start": 8.85,
+      "end": 10.17,
+      "words": [
+        {
+          "w": "Your",
+          "start": 8.93,
+          "end": 9.212
+        },
+        {
+          "w": "turn!",
+          "start": 9.212,
+          "end": 9.683
+        },
+        {
+          "w": "Head!",
+          "start": 9.683,
+          "end": 10.06
+        }
+      ]
+    },
+    {
+      "beat": "head_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : la tête.",
+      "gap": 1.2,
+      "start": 12.17,
+      "lang": "fr",
+      "end": 13.55,
+      "words": [
+        {
+          "w": "En",
+          "start": 12.2,
+          "end": 12.365
+        },
+        {
+          "w": "français",
+          "start": 12.365,
+          "end": 12.861
+        },
+        {
+          "w": "la",
+          "start": 12.861,
+          "end": 13.109
+        },
+        {
+          "w": "tête.",
+          "start": 13.109,
+          "end": 13.44
+        }
+      ]
+    },
+    {
+      "beat": "head_fr2",
+      "speaker": "narrator_fr",
+      "text": "La tête !",
+      "gap": 1.2,
+      "start": 14.75,
+      "lang": "fr",
+      "end": 15.64,
+      "words": [
+        {
+          "w": "La",
+          "start": 14.78,
+          "end": 15.119
+        },
+        {
+          "w": "tête",
+          "start": 15.119,
+          "end": 15.57
+        }
+      ]
+    },
+    {
+      "beat": "head_use",
+      "speaker": "bobo",
+      "text": "Bobo nods his head. Nod, nod, nod!",
+      "gap": 2.6,
+      "start": 16.84,
+      "end": 19.37,
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 16.87,
+          "end": 17.337
+        },
+        {
+          "w": "nods",
+          "start": 17.337,
+          "end": 17.737
+        },
+        {
+          "w": "his",
+          "start": 17.737,
+          "end": 18.003
+        },
+        {
+          "w": "head.",
+          "start": 18.003,
+          "end": 18.27
+        },
+        {
+          "w": "Nod,",
+          "start": 18.27,
+          "end": 18.603
+        },
+        {
+          "w": "nod,",
+          "start": 18.603,
+          "end": 18.937
+        },
+        {
+          "w": "nod!",
+          "start": 18.937,
+          "end": 19.27
+        }
+      ]
+    },
+    {
+      "beat": "eyes_pic",
+      "speaker": "mila",
+      "text": "Eyes.",
+      "gap": 1.2,
+      "start": 21.97,
+      "end": 22.97,
+      "words": [
+        {
+          "w": "Eyes.",
+          "start": 22.12,
+          "end": 22.82
+        }
+      ]
+    },
+    {
+      "beat": "eyes_2",
+      "speaker": "mila",
+      "text": "Eyes!",
+      "gap": 1.0,
+      "start": 24.17,
+      "end": 25.13,
+      "words": [
+        {
+          "w": "Eyes!",
+          "start": 24.27,
+          "end": 25.01
+        }
+      ]
+    },
+    {
+      "beat": "eyes_turn",
+      "speaker": "mila",
+      "text": "Your turn! Eyes!",
+      "gap": 2.0,
+      "start": 26.13,
+      "end": 27.62,
+      "words": [
+        {
+          "w": "Your",
+          "start": 26.16,
+          "end": 26.498
+        },
+        {
+          "w": "turn!",
+          "start": 26.498,
+          "end": 27.06
+        },
+        {
+          "w": "Eyes!",
+          "start": 27.06,
+          "end": 27.51
+        }
+      ]
+    },
+    {
+      "beat": "eyes_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : les yeux.",
+      "gap": 1.2,
+      "start": 29.62,
+      "lang": "fr",
+      "end": 30.88,
+      "words": [
+        {
+          "w": "En",
+          "start": 29.65,
+          "end": 29.809
+        },
+        {
+          "w": "français",
+          "start": 29.809,
+          "end": 30.284
+        },
+        {
+          "w": "les",
+          "start": 30.284,
+          "end": 30.522
+        },
+        {
+          "w": "yeux.",
+          "start": 30.522,
+          "end": 30.76
+        }
+      ]
+    },
+    {
+      "beat": "eyes_fr2",
+      "speaker": "narrator_fr",
+      "text": "Les yeux !",
+      "gap": 1.2,
+      "start": 32.08,
+      "lang": "fr",
+      "end": 32.97,
+      "words": [
+        {
+          "w": "Les",
+          "start": 32.12,
+          "end": 32.495
+        },
+        {
+          "w": "yeux",
+          "start": 32.495,
+          "end": 32.87
+        }
+      ]
+    },
+    {
+      "beat": "eyes_use",
+      "speaker": "leo",
+      "text": "Leo blinks his eyes. Blink, blink!",
+      "gap": 2.6,
+      "start": 34.17,
+      "end": 36.55,
+      "words": [
+        {
+          "w": "Leo",
+          "start": 34.2,
+          "end": 34.576
+        },
+        {
+          "w": "blinks",
+          "start": 34.576,
+          "end": 35.015
+        },
+        {
+          "w": "his",
+          "start": 35.015,
+          "end": 35.266
+        },
+        {
+          "w": "eyes.",
+          "start": 35.266,
+          "end": 35.517
+        },
+        {
+          "w": "Blink,",
+          "start": 35.517,
+          "end": 35.894
+        },
+        {
+          "w": "blink!",
+          "start": 35.894,
+          "end": 36.27
+        }
+      ]
+    },
+    {
+      "beat": "ears_pic",
+      "speaker": "mila",
+      "text": "Ears.",
+      "gap": 1.2,
+      "start": 39.15,
+      "end": 40.04,
+      "words": [
+        {
+          "w": "Ears.",
+          "start": 39.21,
+          "end": 39.93
+        }
+      ]
+    },
+    {
+      "beat": "ears_2",
+      "speaker": "mila",
+      "text": "Ears!",
+      "gap": 1.0,
+      "start": 41.24,
+      "end": 42.17,
+      "words": [
+        {
+          "w": "Ears!",
+          "start": 41.3,
+          "end": 42.04
+        }
+      ]
+    },
+    {
+      "beat": "ears_turn",
+      "speaker": "mila",
+      "text": "Your turn! Ears!",
+      "gap": 2.0,
+      "start": 43.17,
+      "end": 44.66,
+      "words": [
+        {
+          "w": "Your",
+          "start": 43.2,
+          "end": 43.535
+        },
+        {
+          "w": "turn!",
+          "start": 43.535,
+          "end": 44.093
+        },
+        {
+          "w": "Ears!",
+          "start": 44.093,
+          "end": 44.54
+        }
+      ]
+    },
+    {
+      "beat": "ears_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : les oreilles.",
+      "gap": 1.2,
+      "start": 46.66,
+      "lang": "fr",
+      "end": 48.19,
+      "words": [
+        {
+          "w": "En",
+          "start": 46.7,
+          "end": 46.87
+        },
+        {
+          "w": "français",
+          "start": 46.87,
+          "end": 47.38
+        },
+        {
+          "w": "les",
+          "start": 47.38,
+          "end": 47.635
+        },
+        {
+          "w": "oreilles.",
+          "start": 47.635,
+          "end": 48.06
+        }
+      ]
+    },
+    {
+      "beat": "ears_fr2",
+      "speaker": "narrator_fr",
+      "text": "Les oreilles !",
+      "gap": 1.2,
+      "start": 49.39,
+      "lang": "fr",
+      "end": 50.49,
+      "words": [
+        {
+          "w": "Les",
+          "start": 49.42,
+          "end": 49.776
+        },
+        {
+          "w": "oreilles",
+          "start": 49.776,
+          "end": 50.37
+        }
+      ]
+    },
+    {
+      "beat": "ears_use",
+      "speaker": "bobo",
+      "text": "Bobo wiggles his round ears. Wiggle, wiggle!",
+      "gap": 2.6,
+      "start": 51.69,
+      "end": 54.42,
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 51.71,
+          "end": 52.153
+        },
+        {
+          "w": "wiggles",
+          "start": 52.153,
+          "end": 52.596
+        },
+        {
+          "w": "his",
+          "start": 52.596,
+          "end": 52.849
+        },
+        {
+          "w": "round",
+          "start": 52.849,
+          "end": 53.228
+        },
+        {
+          "w": "ears.",
+          "start": 53.228,
+          "end": 53.481
+        },
+        {
+          "w": "Wiggle,",
+          "start": 53.481,
+          "end": 53.861
+        },
+        {
+          "w": "wiggle!",
+          "start": 53.861,
+          "end": 54.24
+        }
+      ]
+    },
+    {
+      "beat": "quiz_ears",
+      "speaker": "hoot",
+      "text": "Quiz time! Where are the eyes?",
+      "gap": 4.6,
+      "start": 57.02,
+      "end": 59.15,
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 57.05,
+          "end": 57.45
+        },
+        {
+          "w": "time!",
+          "start": 57.45,
+          "end": 57.85
+        },
+        {
+          "w": "Where",
+          "start": 57.98,
+          "end": 58.333
+        },
+        {
+          "w": "are",
+          "start": 58.333,
+          "end": 58.51
+        },
+        {
+          "w": "the",
+          "start": 58.51,
+          "end": 58.687
+        },
+        {
+          "w": "eyes?",
+          "start": 58.687,
+          "end": 59.04
+        }
+      ]
+    },
+    {
+      "beat": "quiz_ears_a",
+      "speaker": "mila",
+      "text": "There! Two eyes!",
+      "gap": 2.2,
+      "start": 63.75,
+      "end": 65.15,
+      "words": [
+        {
+          "w": "There!",
+          "start": 63.86,
+          "end": 64.24
+        },
+        {
+          "w": "Two",
+          "start": 64.24,
+          "end": 64.62
+        },
+        {
+          "w": "eyes!",
+          "start": 64.62,
+          "end": 65.0
+        }
+      ]
+    },
+    {
+      "beat": "nose_pic",
+      "speaker": "mila",
+      "text": "Nose.",
+      "gap": 1.2,
+      "start": 67.35,
+      "end": 68.29,
+      "words": [
+        {
+          "w": "Nose.",
+          "start": 67.43,
+          "end": 68.18
+        }
+      ]
+    },
+    {
+      "beat": "nose_2",
+      "speaker": "mila",
+      "text": "Nose!",
+      "gap": 1.0,
+      "start": 69.49,
+      "end": 70.4,
+      "words": [
+        {
+          "w": "Nose!",
+          "start": 69.58,
+          "end": 70.27
+        }
+      ]
+    },
+    {
+      "beat": "nose_turn",
+      "speaker": "mila",
+      "text": "Your turn! Nose!",
+      "gap": 2.0,
+      "start": 71.4,
+      "end": 72.85,
+      "words": [
+        {
+          "w": "Your",
+          "start": 71.44,
+          "end": 71.735
+        },
+        {
+          "w": "turn!",
+          "start": 71.735,
+          "end": 72.228
+        },
+        {
+          "w": "Nose!",
+          "start": 72.228,
+          "end": 72.72
+        }
+      ]
+    },
+    {
+      "beat": "nose_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : le nez.",
+      "gap": 1.2,
+      "start": 74.85,
+      "lang": "fr",
+      "end": 76.04,
+      "words": [
+        {
+          "w": "En",
+          "start": 74.89,
+          "end": 75.036
+        },
+        {
+          "w": "français",
+          "start": 75.036,
+          "end": 75.473
+        },
+        {
+          "w": "le",
+          "start": 75.473,
+          "end": 75.691
+        },
+        {
+          "w": "nez.",
+          "start": 75.691,
+          "end": 75.91
+        }
+      ]
+    },
+    {
+      "beat": "nose_fr2",
+      "speaker": "narrator_fr",
+      "text": "Le nez !",
+      "gap": 1.2,
+      "start": 77.24,
+      "lang": "fr",
+      "end": 77.96,
+      "words": [
+        {
+          "w": "Le",
+          "start": 77.27,
+          "end": 77.56
+        },
+        {
+          "w": "nez",
+          "start": 77.56,
+          "end": 77.85
+        }
+      ]
+    },
+    {
+      "beat": "nose_use",
+      "speaker": "leo",
+      "text": "Leo smells a flower with his nose. Sniff, sniff! Mmm!",
+      "gap": 2.6,
+      "start": 79.16,
+      "end": 82.95,
+      "words": [
+        {
+          "w": "Leo",
+          "start": 79.2,
+          "end": 79.59
+        },
+        {
+          "w": "smells",
+          "start": 79.59,
+          "end": 79.98
+        },
+        {
+          "w": "a",
+          "start": 79.98,
+          "end": 80.175
+        },
+        {
+          "w": "flower",
+          "start": 80.175,
+          "end": 80.565
+        },
+        {
+          "w": "with",
+          "start": 80.565,
+          "end": 80.76
+        },
+        {
+          "w": "his",
+          "start": 80.76,
+          "end": 81.02
+        },
+        {
+          "w": "nose.",
+          "start": 81.02,
+          "end": 81.345
+        },
+        {
+          "w": "Sniff,",
+          "start": 81.345,
+          "end": 81.67
+        },
+        {
+          "w": "sniff!",
+          "start": 81.67,
+          "end": 81.995
+        },
+        {
+          "w": "Mmm!",
+          "start": 81.995,
+          "end": 82.58
+        }
+      ]
+    },
+    {
+      "beat": "mouth_pic",
+      "speaker": "mila",
+      "text": "Mouth.",
+      "gap": 1.2,
+      "start": 85.55,
+      "end": 86.44,
+      "words": [
+        {
+          "w": "Mouth.",
+          "start": 85.67,
+          "end": 86.34
+        }
+      ]
+    },
+    {
+      "beat": "mouth_2",
+      "speaker": "mila",
+      "text": "Mouth!",
+      "gap": 1.0,
+      "start": 87.64,
+      "end": 88.53,
+      "words": [
+        {
+          "w": "Mouth!",
+          "start": 87.76,
+          "end": 88.43
+        }
+      ]
+    },
+    {
+      "beat": "mouth_turn",
+      "speaker": "mila",
+      "text": "Your turn! Mouth!",
+      "gap": 2.0,
+      "start": 89.53,
+      "end": 90.85,
+      "words": [
+        {
+          "w": "Your",
+          "start": 89.57,
+          "end": 89.842
+        },
+        {
+          "w": "turn!",
+          "start": 89.842,
+          "end": 90.296
+        },
+        {
+          "w": "Mouth!",
+          "start": 90.296,
+          "end": 90.75
+        }
+      ]
+    },
+    {
+      "beat": "mouth_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : la bouche.",
+      "gap": 1.2,
+      "start": 92.85,
+      "lang": "fr",
+      "end": 94.23,
+      "words": [
+        {
+          "w": "En",
+          "start": 92.89,
+          "end": 93.054
+        },
+        {
+          "w": "français",
+          "start": 93.054,
+          "end": 93.546
+        },
+        {
+          "w": "la",
+          "start": 93.546,
+          "end": 93.792
+        },
+        {
+          "w": "bouche.",
+          "start": 93.792,
+          "end": 94.12
+        }
+      ]
+    },
+    {
+      "beat": "mouth_fr2",
+      "speaker": "narrator_fr",
+      "text": "La bouche !",
+      "gap": 1.2,
+      "start": 95.43,
+      "lang": "fr",
+      "end": 96.35,
+      "words": [
+        {
+          "w": "La",
+          "start": 95.46,
+          "end": 95.799
+        },
+        {
+          "w": "bouche",
+          "start": 95.799,
+          "end": 96.25
+        }
+      ]
+    },
+    {
+      "beat": "mouth_use",
+      "speaker": "bobo",
+      "text": "Bobo opens his mouth, and eats a big apple. Crunch!",
+      "gap": 2.6,
+      "start": 97.55,
+      "end": 100.59,
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 97.57,
+          "end": 97.982
+        },
+        {
+          "w": "opens",
+          "start": 97.982,
+          "end": 98.393
+        },
+        {
+          "w": "his",
+          "start": 98.393,
+          "end": 98.628
+        },
+        {
+          "w": "mouth,",
+          "start": 98.628,
+          "end": 98.922
+        },
+        {
+          "w": "and",
+          "start": 98.922,
+          "end": 99.099
+        },
+        {
+          "w": "eats",
+          "start": 99.099,
+          "end": 99.393
+        },
+        {
+          "w": "a",
+          "start": 99.393,
+          "end": 99.569
+        },
+        {
+          "w": "big",
+          "start": 99.569,
+          "end": 99.804
+        },
+        {
+          "w": "apple.",
+          "start": 99.804,
+          "end": 100.098
+        },
+        {
+          "w": "Crunch!",
+          "start": 100.098,
+          "end": 100.51
+        }
+      ]
+    },
+    {
+      "beat": "hands_pic",
+      "speaker": "mila",
+      "text": "Hands.",
+      "gap": 1.2,
+      "start": 103.19,
+      "end": 104.21,
+      "words": [
+        {
+          "w": "Hands.",
+          "start": 103.29,
+          "end": 104.04
+        }
+      ]
+    },
+    {
+      "beat": "hands_2",
+      "speaker": "mila",
+      "text": "Hands!",
+      "gap": 1.0,
+      "start": 105.41,
+      "end": 106.43,
+      "words": [
+        {
+          "w": "Hands!",
+          "start": 105.51,
+          "end": 106.28
+        }
+      ]
+    },
+    {
+      "beat": "hands_turn",
+      "speaker": "mila",
+      "text": "Your turn! Hands!",
+      "gap": 2.0,
+      "start": 107.43,
+      "end": 108.86,
+      "words": [
+        {
+          "w": "Your",
+          "start": 107.47,
+          "end": 107.742
+        },
+        {
+          "w": "turn!",
+          "start": 107.742,
+          "end": 108.196
+        },
+        {
+          "w": "Hands!",
+          "start": 108.196,
+          "end": 108.74
+        }
+      ]
+    },
+    {
+      "beat": "hands_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : les mains.",
+      "gap": 1.2,
+      "start": 110.86,
+      "lang": "fr",
+      "end": 112.07,
+      "words": [
+        {
+          "w": "En",
+          "start": 110.89,
+          "end": 111.04
+        },
+        {
+          "w": "français",
+          "start": 111.04,
+          "end": 111.49
+        },
+        {
+          "w": "les",
+          "start": 111.49,
+          "end": 111.715
+        },
+        {
+          "w": "mains.",
+          "start": 111.715,
+          "end": 111.94
+        }
+      ]
+    },
+    {
+      "beat": "hands_fr2",
+      "speaker": "narrator_fr",
+      "text": "Les mains !",
+      "gap": 1.2,
+      "start": 113.27,
+      "lang": "fr",
+      "end": 114.1,
+      "words": [
+        {
+          "w": "Les",
+          "start": 113.31,
+          "end": 113.65
+        },
+        {
+          "w": "mains",
+          "start": 113.65,
+          "end": 113.99
+        }
+      ]
+    },
+    {
+      "beat": "hands_use",
+      "speaker": "leo",
+      "text": "Leo claps his hands. Clap, clap, clap!",
+      "gap": 2.6,
+      "start": 115.3,
+      "end": 117.96,
+      "words": [
+        {
+          "w": "Leo",
+          "start": 115.33,
+          "end": 115.714
+        },
+        {
+          "w": "claps",
+          "start": 115.714,
+          "end": 116.099
+        },
+        {
+          "w": "his",
+          "start": 116.099,
+          "end": 116.355
+        },
+        {
+          "w": "hands.",
+          "start": 116.355,
+          "end": 116.739
+        },
+        {
+          "w": "Clap,",
+          "start": 116.739,
+          "end": 117.059
+        },
+        {
+          "w": "clap,",
+          "start": 117.059,
+          "end": 117.38
+        },
+        {
+          "w": "clap!",
+          "start": 117.38,
+          "end": 117.7
+        }
+      ]
+    },
+    {
+      "beat": "quiz_hands",
+      "speaker": "hoot",
+      "text": "Quiz time! Where is the nose?",
+      "gap": 4.6,
+      "start": 120.56,
+      "end": 122.75,
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 120.59,
+          "end": 120.975
+        },
+        {
+          "w": "time!",
+          "start": 120.975,
+          "end": 121.36
+        },
+        {
+          "w": "Where",
+          "start": 121.5,
+          "end": 121.854
+        },
+        {
+          "w": "is",
+          "start": 121.854,
+          "end": 122.031
+        },
+        {
+          "w": "the",
+          "start": 122.031,
+          "end": 122.208
+        },
+        {
+          "w": "nose?",
+          "start": 122.208,
+          "end": 122.65
+        }
+      ]
+    },
+    {
+      "beat": "quiz_hands_a",
+      "speaker": "mila",
+      "text": "There! In the middle of the face!",
+      "gap": 2.2,
+      "start": 127.35,
+      "end": 129.2,
+      "words": [
+        {
+          "w": "There!",
+          "start": 127.39,
+          "end": 127.67
+        },
+        {
+          "w": "In",
+          "start": 127.67,
+          "end": 127.88
+        },
+        {
+          "w": "the",
+          "start": 127.88,
+          "end": 128.02
+        },
+        {
+          "w": "middle",
+          "start": 128.02,
+          "end": 128.44
+        },
+        {
+          "w": "of",
+          "start": 128.44,
+          "end": 128.58
+        },
+        {
+          "w": "the",
+          "start": 128.58,
+          "end": 128.72
+        },
+        {
+          "w": "face!",
+          "start": 128.72,
+          "end": 129.07
+        }
+      ]
+    },
+    {
+      "beat": "arms_pic",
+      "speaker": "mila",
+      "text": "Arms.",
+      "gap": 1.2,
+      "start": 131.4,
+      "end": 132.42,
+      "words": [
+        {
+          "w": "Arms.",
+          "start": 131.55,
+          "end": 132.27
+        }
+      ]
+    },
+    {
+      "beat": "arms_2",
+      "speaker": "mila",
+      "text": "Arms!",
+      "gap": 1.0,
+      "start": 133.62,
+      "end": 134.64,
+      "words": [
+        {
+          "w": "Arms!",
+          "start": 133.76,
+          "end": 134.49
+        }
+      ]
+    },
+    {
+      "beat": "arms_turn",
+      "speaker": "mila",
+      "text": "Your turn! Arms!",
+      "gap": 2.0,
+      "start": 135.64,
+      "end": 137.2,
+      "words": [
+        {
+          "w": "Your",
+          "start": 135.68,
+          "end": 135.982
+        },
+        {
+          "w": "turn!",
+          "start": 135.982,
+          "end": 136.486
+        },
+        {
+          "w": "Arms!",
+          "start": 136.486,
+          "end": 137.09
+        }
+      ]
+    },
+    {
+      "beat": "arms_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : les bras.",
+      "gap": 1.2,
+      "start": 139.2,
+      "lang": "fr",
+      "end": 140.43,
+      "words": [
+        {
+          "w": "En",
+          "start": 139.22,
+          "end": 139.364
+        },
+        {
+          "w": "français",
+          "start": 139.364,
+          "end": 139.796
+        },
+        {
+          "w": "les",
+          "start": 139.796,
+          "end": 140.012
+        },
+        {
+          "w": "bras.",
+          "start": 140.012,
+          "end": 140.3
+        }
+      ]
+    },
+    {
+      "beat": "arms_fr2",
+      "speaker": "narrator_fr",
+      "text": "Les bras !",
+      "gap": 1.2,
+      "start": 141.63,
+      "lang": "fr",
+      "end": 142.5,
+      "words": [
+        {
+          "w": "Les",
+          "start": 141.67,
+          "end": 141.983
+        },
+        {
+          "w": "bras",
+          "start": 141.983,
+          "end": 142.4
+        }
+      ]
+    },
+    {
+      "beat": "arms_use",
+      "speaker": "bobo",
+      "text": "Bobo stretches his arms up high. Stretch!",
+      "gap": 2.6,
+      "start": 143.7,
+      "end": 146.11,
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 143.72,
+          "end": 144.122
+        },
+        {
+          "w": "stretches",
+          "start": 144.122,
+          "end": 144.64
+        },
+        {
+          "w": "his",
+          "start": 144.64,
+          "end": 144.87
+        },
+        {
+          "w": "arms",
+          "start": 144.87,
+          "end": 145.215
+        },
+        {
+          "w": "up",
+          "start": 145.215,
+          "end": 145.388
+        },
+        {
+          "w": "high.",
+          "start": 145.388,
+          "end": 145.617
+        },
+        {
+          "w": "Stretch!",
+          "start": 145.617,
+          "end": 146.02
+        }
+      ]
+    },
+    {
+      "beat": "tummy_pic",
+      "speaker": "mila",
+      "text": "Tummy.",
+      "gap": 1.2,
+      "start": 148.71,
+      "end": 149.52,
+      "words": [
+        {
+          "w": "Tummy.",
+          "start": 148.77,
+          "end": 149.39
+        }
+      ]
+    },
+    {
+      "beat": "tummy_2",
+      "speaker": "mila",
+      "text": "Tummy!",
+      "gap": 1.0,
+      "start": 150.72,
+      "end": 151.5,
+      "words": [
+        {
+          "w": "Tummy!",
+          "start": 150.78,
+          "end": 151.37
+        }
+      ]
+    },
+    {
+      "beat": "tummy_turn",
+      "speaker": "mila",
+      "text": "Your turn! Tummy!",
+      "gap": 2.0,
+      "start": 152.5,
+      "end": 153.84,
+      "words": [
+        {
+          "w": "Your",
+          "start": 152.55,
+          "end": 152.82
+        },
+        {
+          "w": "turn!",
+          "start": 152.82,
+          "end": 153.27
+        },
+        {
+          "w": "Tummy!",
+          "start": 153.27,
+          "end": 153.72
+        }
+      ]
+    },
+    {
+      "beat": "tummy_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : le ventre.",
+      "gap": 1.2,
+      "start": 155.84,
+      "lang": "fr",
+      "end": 157.29,
+      "words": [
+        {
+          "w": "En",
+          "start": 155.88,
+          "end": 156.039
+        },
+        {
+          "w": "français",
+          "start": 156.039,
+          "end": 156.515
+        },
+        {
+          "w": "le",
+          "start": 156.515,
+          "end": 156.753
+        },
+        {
+          "w": "ventre.",
+          "start": 156.753,
+          "end": 157.15
+        }
+      ]
+    },
+    {
+      "beat": "tummy_fr2",
+      "speaker": "narrator_fr",
+      "text": "Le ventre !",
+      "gap": 1.2,
+      "start": 158.49,
+      "lang": "fr",
+      "end": 159.53,
+      "words": [
+        {
+          "w": "Le",
+          "start": 158.53,
+          "end": 158.864
+        },
+        {
+          "w": "ventre",
+          "start": 158.864,
+          "end": 159.42
+        }
+      ]
+    },
+    {
+      "beat": "tummy_use",
+      "speaker": "leo",
+      "text": "Bobo's tummy says rumble, rumble! Ha ha!",
+      "gap": 2.6,
+      "start": 160.73,
+      "end": 163.5,
+      "words": [
+        {
+          "w": "Bobo's",
+          "start": 160.76,
+          "end": 161.248
+        },
+        {
+          "w": "tummy",
+          "start": 161.248,
+          "end": 161.553
+        },
+        {
+          "w": "says",
+          "start": 161.553,
+          "end": 161.797
+        },
+        {
+          "w": "rumble,",
+          "start": 161.797,
+          "end": 162.225
+        },
+        {
+          "w": "rumble!",
+          "start": 162.225,
+          "end": 162.652
+        },
+        {
+          "w": "Ha",
+          "start": 162.652,
+          "end": 162.896
+        },
+        {
+          "w": "ha!",
+          "start": 162.896,
+          "end": 163.14
+        }
+      ]
+    },
+    {
+      "beat": "quiz_tummy",
+      "speaker": "hoot",
+      "text": "Quiz time! Where are the hands?",
+      "gap": 4.6,
+      "start": 166.1,
+      "end": 168.19,
+      "words": [
+        {
+          "w": "Quiz",
+          "start": 166.13,
+          "end": 166.52
+        },
+        {
+          "w": "time!",
+          "start": 166.52,
+          "end": 166.91
+        },
+        {
+          "w": "Where",
+          "start": 167.04,
+          "end": 167.337
+        },
+        {
+          "w": "are",
+          "start": 167.337,
+          "end": 167.486
+        },
+        {
+          "w": "the",
+          "start": 167.486,
+          "end": 167.634
+        },
+        {
+          "w": "hands?",
+          "start": 167.634,
+          "end": 168.08
+        }
+      ]
+    },
+    {
+      "beat": "quiz_tummy_a",
+      "speaker": "mila",
+      "text": "There! At the end of the arms!",
+      "gap": 2.2,
+      "start": 172.79,
+      "end": 174.68,
+      "words": [
+        {
+          "w": "There!",
+          "start": 172.84,
+          "end": 173.16
+        },
+        {
+          "w": "At",
+          "start": 173.16,
+          "end": 173.32
+        },
+        {
+          "w": "the",
+          "start": 173.32,
+          "end": 173.48
+        },
+        {
+          "w": "end",
+          "start": 173.48,
+          "end": 173.8
+        },
+        {
+          "w": "of",
+          "start": 173.8,
+          "end": 173.96
+        },
+        {
+          "w": "the",
+          "start": 173.96,
+          "end": 174.12
+        },
+        {
+          "w": "arms!",
+          "start": 174.12,
+          "end": 174.6
+        }
+      ]
+    },
+    {
+      "beat": "legs_pic",
+      "speaker": "mila",
+      "text": "Legs.",
+      "gap": 1.2,
+      "start": 176.88,
+      "end": 177.86,
+      "words": [
+        {
+          "w": "Legs.",
+          "start": 176.98,
+          "end": 177.7
+        }
+      ]
+    },
+    {
+      "beat": "legs_2",
+      "speaker": "mila",
+      "text": "Legs!",
+      "gap": 1.0,
+      "start": 179.06,
+      "end": 180.06,
+      "words": [
+        {
+          "w": "Legs!",
+          "start": 179.16,
+          "end": 179.91
+        }
+      ]
+    },
+    {
+      "beat": "legs_turn",
+      "speaker": "mila",
+      "text": "Your turn! Legs!",
+      "gap": 2.0,
+      "start": 181.06,
+      "end": 182.55,
+      "words": [
+        {
+          "w": "Your",
+          "start": 181.1,
+          "end": 181.405
+        },
+        {
+          "w": "turn!",
+          "start": 181.405,
+          "end": 181.912
+        },
+        {
+          "w": "Legs!",
+          "start": 181.912,
+          "end": 182.42
+        }
+      ]
+    },
+    {
+      "beat": "legs_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : les jambes.",
+      "gap": 1.2,
+      "start": 184.55,
+      "lang": "fr",
+      "end": 185.91,
+      "words": [
+        {
+          "w": "En",
+          "start": 184.59,
+          "end": 184.751
+        },
+        {
+          "w": "français",
+          "start": 184.751,
+          "end": 185.235
+        },
+        {
+          "w": "les",
+          "start": 185.235,
+          "end": 185.477
+        },
+        {
+          "w": "jambes.",
+          "start": 185.477,
+          "end": 185.8
+        }
+      ]
+    },
+    {
+      "beat": "legs_fr2",
+      "speaker": "narrator_fr",
+      "text": "Les jambes !",
+      "gap": 1.2,
+      "start": 187.11,
+      "lang": "fr",
+      "end": 188.13,
+      "words": [
+        {
+          "w": "Les",
+          "start": 187.15,
+          "end": 187.519
+        },
+        {
+          "w": "jambes",
+          "start": 187.519,
+          "end": 188.01
+        }
+      ]
+    },
+    {
+      "beat": "legs_use",
+      "speaker": "bobo",
+      "text": "Bobo hops on his legs. Hop, hop, hop!",
+      "gap": 2.6,
+      "start": 189.33,
+      "end": 191.79,
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 189.35,
+          "end": 189.754
+        },
+        {
+          "w": "hops",
+          "start": 189.754,
+          "end": 190.101
+        },
+        {
+          "w": "on",
+          "start": 190.101,
+          "end": 190.274
+        },
+        {
+          "w": "his",
+          "start": 190.274,
+          "end": 190.505
+        },
+        {
+          "w": "legs.",
+          "start": 190.505,
+          "end": 190.794
+        },
+        {
+          "w": "Hop,",
+          "start": 190.794,
+          "end": 191.083
+        },
+        {
+          "w": "hop,",
+          "start": 191.083,
+          "end": 191.371
+        },
+        {
+          "w": "hop!",
+          "start": 191.371,
+          "end": 191.66
+        }
+      ]
+    },
+    {
+      "beat": "feet_pic",
+      "speaker": "mila",
+      "text": "Feet.",
+      "gap": 1.2,
+      "start": 194.39,
+      "end": 195.22,
+      "words": [
+        {
+          "w": "Feet.",
+          "start": 194.46,
+          "end": 195.11
+        }
+      ]
+    },
+    {
+      "beat": "feet_2",
+      "speaker": "mila",
+      "text": "Feet!",
+      "gap": 1.0,
+      "start": 196.42,
+      "end": 197.27,
+      "words": [
+        {
+          "w": "Feet!",
+          "start": 196.51,
+          "end": 197.16
+        }
+      ]
+    },
+    {
+      "beat": "feet_turn",
+      "speaker": "mila",
+      "text": "Your turn! Feet!",
+      "gap": 2.0,
+      "start": 198.27,
+      "end": 199.69,
+      "words": [
+        {
+          "w": "Your",
+          "start": 198.36,
+          "end": 198.644
+        },
+        {
+          "w": "turn!",
+          "start": 198.644,
+          "end": 199.117
+        },
+        {
+          "w": "Feet!",
+          "start": 199.117,
+          "end": 199.59
+        }
+      ]
+    },
+    {
+      "beat": "feet_fr",
+      "speaker": "narrator_fr",
+      "text": "En français : les pieds.",
+      "gap": 1.2,
+      "start": 201.69,
+      "lang": "fr",
+      "end": 202.94,
+      "words": [
+        {
+          "w": "En",
+          "start": 201.73,
+          "end": 201.877
+        },
+        {
+          "w": "français",
+          "start": 201.877,
+          "end": 202.317
+        },
+        {
+          "w": "les",
+          "start": 202.317,
+          "end": 202.537
+        },
+        {
+          "w": "pieds.",
+          "start": 202.537,
+          "end": 202.83
+        }
+      ]
+    },
+    {
+      "beat": "feet_fr2",
+      "speaker": "narrator_fr",
+      "text": "Les pieds !",
+      "gap": 1.2,
+      "start": 204.14,
+      "lang": "fr",
+      "end": 205.03,
+      "words": [
+        {
+          "w": "Les",
+          "start": 204.18,
+          "end": 204.506
+        },
+        {
+          "w": "pieds",
+          "start": 204.506,
+          "end": 204.94
+        }
+      ]
+    },
+    {
+      "beat": "feet_use",
+      "speaker": "leo",
+      "text": "Leo stomps his feet. Stomp, stomp!",
+      "gap": 2.6,
+      "start": 206.23,
+      "end": 208.65,
+      "words": [
+        {
+          "w": "Leo",
+          "start": 206.26,
+          "end": 206.604
+        },
+        {
+          "w": "stomps",
+          "start": 206.604,
+          "end": 207.062
+        },
+        {
+          "w": "his",
+          "start": 207.062,
+          "end": 207.291
+        },
+        {
+          "w": "feet.",
+          "start": 207.291,
+          "end": 207.578
+        },
+        {
+          "w": "Stomp,",
+          "start": 207.578,
+          "end": 207.979
+        },
+        {
+          "w": "stomp!",
+          "start": 207.979,
+          "end": 208.38
+        }
+      ]
+    },
+    {
+      "beat": "fr_round",
+      "speaker": "mila",
+      "text": "Now, let's say them all in French!",
+      "gap": 1.2,
+      "start": 211.25,
+      "end": 213.38,
+      "words": [
+        {
+          "w": "Now,",
+          "start": 211.28,
+          "end": 211.538
+        },
+        {
+          "w": "let's",
+          "start": 211.538,
+          "end": 211.861
+        },
+        {
+          "w": "say",
+          "start": 211.861,
+          "end": 212.119
+        },
+        {
+          "w": "them",
+          "start": 212.119,
+          "end": 212.377
+        },
+        {
+          "w": "all",
+          "start": 212.377,
+          "end": 212.635
+        },
+        {
+          "w": "in",
+          "start": 212.635,
+          "end": 212.828
+        },
+        {
+          "w": "French!",
+          "start": 212.828,
+          "end": 213.28
+        }
+      ]
+    },
+    {
+      "beat": "frr_head",
+      "speaker": "narrator_fr",
+      "text": "La tête.",
+      "gap": 1.1,
+      "start": 214.58,
+      "lang": "fr",
+      "end": 215.47,
+      "words": [
+        {
+          "w": "La",
+          "start": 214.61,
+          "end": 214.936
+        },
+        {
+          "w": "tête.",
+          "start": 214.936,
+          "end": 215.37
+        }
+      ]
+    },
+    {
+      "beat": "frr_eyes",
+      "speaker": "narrator_fr",
+      "text": "Les yeux.",
+      "gap": 1.1,
+      "start": 216.57,
+      "lang": "fr",
+      "end": 217.38,
+      "words": [
+        {
+          "w": "Les",
+          "start": 216.61,
+          "end": 216.935
+        },
+        {
+          "w": "yeux.",
+          "start": 216.935,
+          "end": 217.26
+        }
+      ]
+    },
+    {
+      "beat": "frr_ears",
+      "speaker": "narrator_fr",
+      "text": "Les oreilles.",
+      "gap": 1.1,
+      "start": 218.48,
+      "lang": "fr",
+      "end": 219.48,
+      "words": [
+        {
+          "w": "Les",
+          "start": 218.51,
+          "end": 218.833
+        },
+        {
+          "w": "oreilles.",
+          "start": 218.833,
+          "end": 219.37
+        }
+      ]
+    },
+    {
+      "beat": "frr_nose",
+      "speaker": "narrator_fr",
+      "text": "Le nez.",
+      "gap": 1.1,
+      "start": 220.58,
+      "lang": "fr",
+      "end": 221.31,
+      "words": [
+        {
+          "w": "Le",
+          "start": 220.62,
+          "end": 220.905
+        },
+        {
+          "w": "nez.",
+          "start": 220.905,
+          "end": 221.19
+        }
+      ]
+    },
+    {
+      "beat": "frr_mouth",
+      "speaker": "narrator_fr",
+      "text": "La bouche.",
+      "gap": 1.1,
+      "start": 222.41,
+      "lang": "fr",
+      "end": 223.35,
+      "words": [
+        {
+          "w": "La",
+          "start": 222.44,
+          "end": 222.787
+        },
+        {
+          "w": "bouche.",
+          "start": 222.787,
+          "end": 223.25
+        }
+      ]
+    },
+    {
+      "beat": "frr_hands",
+      "speaker": "narrator_fr",
+      "text": "Les mains.",
+      "gap": 1.1,
+      "start": 224.45,
+      "lang": "fr",
+      "end": 225.19,
+      "words": [
+        {
+          "w": "Les",
+          "start": 224.48,
+          "end": 224.79
+        },
+        {
+          "w": "mains.",
+          "start": 224.79,
+          "end": 225.1
+        }
+      ]
+    },
+    {
+      "beat": "frr_arms",
+      "speaker": "narrator_fr",
+      "text": "Les bras.",
+      "gap": 1.1,
+      "start": 226.29,
+      "lang": "fr",
+      "end": 227.1,
+      "words": [
+        {
+          "w": "Les",
+          "start": 226.32,
+          "end": 226.594
+        },
+        {
+          "w": "bras.",
+          "start": 226.594,
+          "end": 226.96
+        }
+      ]
+    },
+    {
+      "beat": "frr_tummy",
+      "speaker": "narrator_fr",
+      "text": "Le ventre.",
+      "gap": 1.1,
+      "start": 228.2,
+      "lang": "fr",
+      "end": 229.18,
+      "words": [
+        {
+          "w": "Le",
+          "start": 228.23,
+          "end": 228.549
+        },
+        {
+          "w": "ventre.",
+          "start": 228.549,
+          "end": 229.08
+        }
+      ]
+    },
+    {
+      "beat": "frr_legs",
+      "speaker": "narrator_fr",
+      "text": "Les jambes.",
+      "gap": 1.1,
+      "start": 230.28,
+      "lang": "fr",
+      "end": 231.21,
+      "words": [
+        {
+          "w": "Les",
+          "start": 230.31,
+          "end": 230.653
+        },
+        {
+          "w": "jambes.",
+          "start": 230.653,
+          "end": 231.11
+        }
+      ]
+    },
+    {
+      "beat": "frr_feet",
+      "speaker": "narrator_fr",
+      "text": "Les pieds.",
+      "gap": 1.1,
+      "start": 232.31,
+      "lang": "fr",
+      "end": 233.12,
+      "words": [
+        {
+          "w": "Les",
+          "start": 232.34,
+          "end": 232.627
+        },
+        {
+          "w": "pieds.",
+          "start": 232.627,
+          "end": 233.01
+        }
+      ]
+    },
+    {
+      "beat": "fr_yay",
+      "speaker": "leo",
+      "text": "Wow! You speak French! Bravo!",
+      "gap": 2.0,
+      "start": 234.22,
+      "end": 236.17,
+      "words": [
+        {
+          "w": "Wow!",
+          "start": 234.25,
+          "end": 234.484
+        },
+        {
+          "w": "You",
+          "start": 234.484,
+          "end": 234.66
+        },
+        {
+          "w": "speak",
+          "start": 234.66,
+          "end": 235.011
+        },
+        {
+          "w": "French!",
+          "start": 235.011,
+          "end": 235.421
+        },
+        {
+          "w": "Bravo!",
+          "start": 235.421,
+          "end": 235.89
+        }
+      ]
+    },
+    {
+      "beat": "game",
+      "speaker": "hoot",
+      "text": "Let's play Simon says! Touch your head!",
+      "gap": 2.8,
+      "start": 238.17,
+      "end": 240.9,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 238.19,
+          "end": 238.538
+        },
+        {
+          "w": "play",
+          "start": 238.538,
+          "end": 238.885
+        },
+        {
+          "w": "Simon",
+          "start": 238.885,
+          "end": 239.372
+        },
+        {
+          "w": "says!",
+          "start": 239.372,
+          "end": 239.65
+        },
+        {
+          "w": "Touch",
+          "start": 239.89,
+          "end": 240.273
+        },
+        {
+          "w": "your",
+          "start": 240.273,
+          "end": 240.503
+        },
+        {
+          "w": "head!",
+          "start": 240.503,
+          "end": 240.81
+        }
+      ]
+    },
+    {
+      "beat": "game2",
+      "speaker": "hoot",
+      "text": "Touch your nose!",
+      "gap": 2.6,
+      "start": 243.7,
+      "end": 245.04,
+      "words": [
+        {
+          "w": "Touch",
+          "start": 243.72,
+          "end": 244.193
+        },
+        {
+          "w": "your",
+          "start": 244.193,
+          "end": 244.477
+        },
+        {
+          "w": "nose!",
+          "start": 244.477,
+          "end": 244.95
+        }
+      ]
+    },
+    {
+      "beat": "game3",
+      "speaker": "hoot",
+      "text": "Touch your tummy!",
+      "gap": 2.6,
+      "start": 247.64,
+      "end": 249.02,
+      "words": [
+        {
+          "w": "Touch",
+          "start": 247.66,
+          "end": 248.164
+        },
+        {
+          "w": "your",
+          "start": 248.164,
+          "end": 248.466
+        },
+        {
+          "w": "tummy!",
+          "start": 248.466,
+          "end": 248.97
+        }
+      ]
+    },
+    {
+      "beat": "game4",
+      "speaker": "hoot",
+      "text": "Clap your hands!",
+      "gap": 2.6,
+      "start": 251.62,
+      "end": 253.11,
+      "words": [
+        {
+          "w": "Clap",
+          "start": 251.65,
+          "end": 252.129
+        },
+        {
+          "w": "your",
+          "start": 252.129,
+          "end": 252.416
+        },
+        {
+          "w": "hands!",
+          "start": 252.416,
+          "end": 252.99
+        }
+      ]
+    },
+    {
+      "beat": "game5",
+      "speaker": "hoot",
+      "text": "And wiggle your feet!",
+      "gap": 2.4,
+      "start": 255.71,
+      "end": 257.48,
+      "words": [
+        {
+          "w": "And",
+          "start": 255.74,
+          "end": 256.031
+        },
+        {
+          "w": "wiggle",
+          "start": 256.031,
+          "end": 256.614
+        },
+        {
+          "w": "your",
+          "start": 256.614,
+          "end": 256.905
+        },
+        {
+          "w": "feet!",
+          "start": 256.905,
+          "end": 257.39
+        }
+      ]
+    },
+    {
+      "beat": "game_yay",
+      "speaker": "bobo",
+      "text": "Ha ha! That was fun!",
+      "gap": 1.8,
+      "start": 259.88,
+      "end": 261.07,
+      "words": [
+        {
+          "w": "Ha",
+          "start": 259.92,
+          "end": 260.131
+        },
+        {
+          "w": "ha!",
+          "start": 260.131,
+          "end": 260.341
+        },
+        {
+          "w": "That",
+          "start": 260.341,
+          "end": 260.552
+        },
+        {
+          "w": "was",
+          "start": 260.552,
+          "end": 260.709
+        },
+        {
+          "w": "fun!",
+          "start": 260.709,
+          "end": 260.92
+        }
+      ]
+    },
+    {
+      "beat": "frq0",
+      "speaker": "hoot",
+      "text": "French quiz!",
+      "gap": 0.8,
+      "start": 262.87,
+      "end": 264.04,
+      "words": [
+        {
+          "w": "French",
+          "start": 262.9,
+          "end": 263.507
+        },
+        {
+          "w": "quiz!",
+          "start": 263.507,
+          "end": 263.94
+        }
+      ]
+    },
+    {
+      "beat": "frq_fr",
+      "speaker": "narrator_fr",
+      "text": "Où est le nez ?",
+      "gap": 0.6,
+      "start": 264.84,
+      "lang": "fr",
+      "end": 265.78,
+      "words": [
+        {
+          "w": "Où",
+          "start": 264.86,
+          "end": 265.014
+        },
+        {
+          "w": "est",
+          "start": 265.014,
+          "end": 265.168
+        },
+        {
+          "w": "le",
+          "start": 265.168,
+          "end": 265.399
+        },
+        {
+          "w": "nez",
+          "start": 265.399,
+          "end": 265.63
+        }
+      ]
+    },
+    {
+      "beat": "frq",
+      "speaker": "hoot",
+      "text": "Where is the nose?",
+      "gap": 4.6,
+      "start": 266.38,
+      "end": 267.93,
+      "words": [
+        {
+          "w": "Where",
+          "start": 266.42,
+          "end": 266.86
+        },
+        {
+          "w": "is",
+          "start": 266.86,
+          "end": 267.08
+        },
+        {
+          "w": "the",
+          "start": 267.08,
+          "end": 267.3
+        },
+        {
+          "w": "nose?",
+          "start": 267.3,
+          "end": 267.85
+        }
+      ]
+    },
+    {
+      "beat": "frq_a",
+      "speaker": "mila",
+      "text": "Le nez !",
+      "gap": 0.4,
+      "start": 272.53,
+      "lang": "fr",
+      "end": 273.23,
+      "words": [
+        {
+          "w": "Le",
+          "start": 272.56,
+          "end": 272.85
+        },
+        {
+          "w": "nez",
+          "start": 272.85,
+          "end": 273.14
+        }
+      ]
+    },
+    {
+      "beat": "frq_a2",
+      "speaker": "mila",
+      "text": "Here it is!",
+      "gap": 2.0,
+      "start": 273.63,
+      "end": 274.82,
+      "words": [
+        {
+          "w": "Here",
+          "start": 273.75,
+          "end": 274.2
+        },
+        {
+          "w": "it",
+          "start": 274.2,
+          "end": 274.425
+        },
+        {
+          "w": "is!",
+          "start": 274.425,
+          "end": 274.65
+        }
+      ]
+    },
+    {
+      "beat": "frq2_fr",
+      "speaker": "narrator_fr",
+      "text": "Où sont les pieds ?",
+      "gap": 0.6,
+      "start": 276.82,
+      "lang": "fr",
+      "end": 277.88,
+      "words": [
+        {
+          "w": "Où",
+          "start": 276.85,
+          "end": 277.002
+        },
+        {
+          "w": "sont",
+          "start": 277.002,
+          "end": 277.229
+        },
+        {
+          "w": "les",
+          "start": 277.229,
+          "end": 277.457
+        },
+        {
+          "w": "pieds",
+          "start": 277.457,
+          "end": 277.76
+        }
+      ]
+    },
+    {
+      "beat": "frq2",
+      "speaker": "hoot",
+      "text": "Where are the feet?",
+      "gap": 4.6,
+      "start": 278.48,
+      "end": 279.97,
+      "words": [
+        {
+          "w": "Where",
+          "start": 278.52,
+          "end": 278.942
+        },
+        {
+          "w": "are",
+          "start": 278.942,
+          "end": 279.152
+        },
+        {
+          "w": "the",
+          "start": 279.152,
+          "end": 279.363
+        },
+        {
+          "w": "feet?",
+          "start": 279.363,
+          "end": 279.89
+        }
+      ]
+    },
+    {
+      "beat": "frq2_a",
+      "speaker": "mila",
+      "text": "Les pieds !",
+      "gap": 0.4,
+      "start": 284.57,
+      "lang": "fr",
+      "end": 285.38,
+      "words": [
+        {
+          "w": "Les",
+          "start": 284.6,
+          "end": 284.896
+        },
+        {
+          "w": "pieds",
+          "start": 284.896,
+          "end": 285.29
+        }
+      ]
+    },
+    {
+      "beat": "frq2_a2",
+      "speaker": "leo",
+      "text": "Down here!",
+      "gap": 2.2,
+      "start": 285.78,
+      "end": 286.73,
+      "words": [
+        {
+          "w": "Down",
+          "start": 285.82,
+          "end": 286.248
+        },
+        {
+          "w": "here!",
+          "start": 286.248,
+          "end": 286.59
+        }
+      ]
+    },
+    {
+      "beat": "rem",
+      "speaker": "mila",
+      "text": "Let's remember!",
+      "gap": 1.0,
+      "start": 288.93,
+      "end": 290.2,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 289.04,
+          "end": 289.44
+        },
+        {
+          "w": "remember!",
+          "start": 289.44,
+          "end": 290.08
+        }
+      ]
+    },
+    {
+      "beat": "rq1",
+      "speaker": "hoot",
+      "text": "What do we see with?",
+      "gap": 4.6,
+      "start": 291.2,
+      "end": 292.48,
+      "words": [
+        {
+          "w": "What",
+          "start": 291.23,
+          "end": 291.488
+        },
+        {
+          "w": "do",
+          "start": 291.488,
+          "end": 291.746
+        },
+        {
+          "w": "we",
+          "start": 291.746,
+          "end": 291.939
+        },
+        {
+          "w": "see",
+          "start": 291.939,
+          "end": 292.197
+        },
+        {
+          "w": "with?",
+          "start": 292.197,
+          "end": 292.39
+        }
+      ]
+    },
+    {
+      "beat": "ra1",
+      "speaker": "leo",
+      "text": "Our eyes!",
+      "gap": 1.8,
+      "start": 297.08,
+      "end": 297.99,
+      "words": [
+        {
+          "w": "Our",
+          "start": 297.11,
+          "end": 297.475
+        },
+        {
+          "w": "eyes!",
+          "start": 297.475,
+          "end": 297.84
+        }
+      ]
+    },
+    {
+      "beat": "rq2",
+      "speaker": "hoot",
+      "text": "What do we smell with?",
+      "gap": 4.6,
+      "start": 299.79,
+      "end": 301.15,
+      "words": [
+        {
+          "w": "What",
+          "start": 299.82,
+          "end": 300.081
+        },
+        {
+          "w": "do",
+          "start": 300.081,
+          "end": 300.342
+        },
+        {
+          "w": "we",
+          "start": 300.342,
+          "end": 300.538
+        },
+        {
+          "w": "smell",
+          "start": 300.538,
+          "end": 300.864
+        },
+        {
+          "w": "with?",
+          "start": 300.864,
+          "end": 301.06
+        }
+      ]
+    },
+    {
+      "beat": "ra2",
+      "speaker": "mila",
+      "text": "Our nose!",
+      "gap": 1.8,
+      "start": 305.75,
+      "end": 306.9,
+      "words": [
+        {
+          "w": "Our",
+          "start": 305.92,
+          "end": 306.28
+        },
+        {
+          "w": "nose!",
+          "start": 306.28,
+          "end": 306.73
+        }
+      ]
+    },
+    {
+      "beat": "rq3",
+      "speaker": "hoot",
+      "text": "How do you say hands, in French?",
+      "gap": 4.6,
+      "start": 308.7,
+      "end": 311.0,
+      "words": [
+        {
+          "w": "How",
+          "start": 308.72,
+          "end": 308.958
+        },
+        {
+          "w": "do",
+          "start": 308.958,
+          "end": 309.196
+        },
+        {
+          "w": "you",
+          "start": 309.196,
+          "end": 309.375
+        },
+        {
+          "w": "say",
+          "start": 309.375,
+          "end": 309.613
+        },
+        {
+          "w": "hands,",
+          "start": 309.613,
+          "end": 309.97
+        },
+        {
+          "w": "in",
+          "start": 310.17,
+          "end": 310.395
+        },
+        {
+          "w": "French?",
+          "start": 310.395,
+          "end": 310.92
+        }
+      ]
+    },
+    {
+      "beat": "ra3",
+      "speaker": "narrator_fr",
+      "text": "Les mains !",
+      "gap": 1.8,
+      "start": 315.6,
+      "lang": "fr",
+      "end": 316.43,
+      "words": [
+        {
+          "w": "Les",
+          "start": 315.64,
+          "end": 315.98
+        },
+        {
+          "w": "mains",
+          "start": 315.98,
+          "end": 316.32
+        }
+      ]
+    },
+    {
+      "beat": "chant",
+      "speaker": "mila",
+      "text": "Head, eyes, ears, and nose!",
+      "gap": 0.6,
+      "start": 318.23,
+      "end": 320.4,
+      "words": [
+        {
+          "w": "Head,",
+          "start": 318.27,
+          "end": 318.662
+        },
+        {
+          "w": "eyes,",
+          "start": 318.662,
+          "end": 319.054
+        },
+        {
+          "w": "ears,",
+          "start": 319.054,
+          "end": 319.446
+        },
+        {
+          "w": "and",
+          "start": 319.446,
+          "end": 319.74
+        },
+        {
+          "w": "nose!",
+          "start": 319.74,
+          "end": 320.23
+        }
+      ]
+    },
+    {
+      "beat": "chant2",
+      "speaker": "leo",
+      "text": "Hands, arms, tummy, toes!",
+      "gap": 1.4,
+      "start": 321.0,
+      "end": 322.92,
+      "words": [
+        {
+          "w": "Hands,",
+          "start": 321.04,
+          "end": 321.474
+        },
+        {
+          "w": "arms,",
+          "start": 321.474,
+          "end": 321.907
+        },
+        {
+          "w": "tummy,",
+          "start": 321.907,
+          "end": 322.269
+        },
+        {
+          "w": "toes!",
+          "start": 322.269,
+          "end": 322.63
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "text": "Bye bye, friends!",
+      "gap": 0.3,
+      "start": 324.32,
+      "end": 325.85,
+      "words": [
+        {
+          "w": "Bye",
+          "start": 324.42,
+          "end": 324.764
+        },
+        {
+          "w": "bye,",
+          "start": 324.764,
+          "end": 325.108
+        },
+        {
+          "w": "friends!",
+          "start": 325.108,
+          "end": 325.71
+        }
+      ]
+    },
+    {
+      "beat": "bye_fr",
+      "speaker": "mila",
+      "text": "Au revoir !",
+      "gap": 0.5,
+      "start": 326.15,
+      "lang": "fr",
+      "end": 327.08,
+      "words": [
+        {
+          "w": "Au",
+          "start": 326.18,
+          "end": 326.274
+        },
+        {
+          "w": "revoir",
+          "start": 326.274,
+          "end": 326.93
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "bobo",
+      "text": "See you next time, on Tiny Sparks!",
+      "gap": 0.5,
+      "start": 327.58,
+      "end": 329.56,
+      "words": [
+        {
+          "w": "See",
+          "start": 327.62,
+          "end": 327.828
+        },
+        {
+          "w": "you",
+          "start": 327.828,
+          "end": 327.984
+        },
+        {
+          "w": "next",
+          "start": 327.984,
+          "end": 328.296
+        },
+        {
+          "w": "time,",
+          "start": 328.296,
+          "end": 328.556
+        },
+        {
+          "w": "on",
+          "start": 328.556,
+          "end": 328.712
+        },
+        {
+          "w": "Tiny",
+          "start": 328.712,
+          "end": 329.024
+        },
+        {
+          "w": "Sparks!",
+          "start": 329.024,
+          "end": 329.44
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "w0_pic",
+      "start": 0.3,
+      "visual": "Look! What is this? Head!",
+      "end": 3.1
+    },
+    {
+      "id": "premise",
+      "start": 3.1,
+      "visual": "Let's learn our body, in English, and in French!",
+      "end": 7.0
+    },
+    {
+      "id": "head_2",
+      "start": 7.0,
+      "visual": "Head!",
+      "end": 8.85
+    },
+    {
+      "id": "head_turn",
+      "start": 8.85,
+      "visual": "Your turn! Head!",
+      "end": 12.17
+    },
+    {
+      "id": "head_fr",
+      "start": 12.17,
+      "visual": "En français : la tête.",
+      "end": 14.75
+    },
+    {
+      "id": "head_fr2",
+      "start": 14.75,
+      "visual": "La tête !",
+      "end": 16.84
+    },
+    {
+      "id": "head_use",
+      "start": 16.84,
+      "visual": "Bobo nods his head. Nod, nod, nod!",
+      "end": 21.97
+    },
+    {
+      "id": "eyes_pic",
+      "start": 21.97,
+      "visual": "Eyes.",
+      "end": 24.17
+    },
+    {
+      "id": "eyes_2",
+      "start": 24.17,
+      "visual": "Eyes!",
+      "end": 26.13
+    },
+    {
+      "id": "eyes_turn",
+      "start": 26.13,
+      "visual": "Your turn! Eyes!",
+      "end": 29.62
+    },
+    {
+      "id": "eyes_fr",
+      "start": 29.62,
+      "visual": "En français : les yeux.",
+      "end": 32.08
+    },
+    {
+      "id": "eyes_fr2",
+      "start": 32.08,
+      "visual": "Les yeux !",
+      "end": 34.17
+    },
+    {
+      "id": "eyes_use",
+      "start": 34.17,
+      "visual": "Leo blinks his eyes. Blink, blink!",
+      "end": 39.15
+    },
+    {
+      "id": "ears_pic",
+      "start": 39.15,
+      "visual": "Ears.",
+      "end": 41.24
+    },
+    {
+      "id": "ears_2",
+      "start": 41.24,
+      "visual": "Ears!",
+      "end": 43.17
+    },
+    {
+      "id": "ears_turn",
+      "start": 43.17,
+      "visual": "Your turn! Ears!",
+      "end": 46.66
+    },
+    {
+      "id": "ears_fr",
+      "start": 46.66,
+      "visual": "En français : les oreilles.",
+      "end": 49.39
+    },
+    {
+      "id": "ears_fr2",
+      "start": 49.39,
+      "visual": "Les oreilles !",
+      "end": 51.69
+    },
+    {
+      "id": "ears_use",
+      "start": 51.69,
+      "visual": "Bobo wiggles his round ears. Wiggle, wiggle!",
+      "end": 57.02
+    },
+    {
+      "id": "quiz_ears",
+      "start": 57.02,
+      "visual": "Quiz time! Where are the eyes?",
+      "end": 63.75
+    },
+    {
+      "id": "quiz_ears_a",
+      "start": 63.75,
+      "visual": "There! Two eyes!",
+      "end": 67.35
+    },
+    {
+      "id": "nose_pic",
+      "start": 67.35,
+      "visual": "Nose.",
+      "end": 69.49
+    },
+    {
+      "id": "nose_2",
+      "start": 69.49,
+      "visual": "Nose!",
+      "end": 71.4
+    },
+    {
+      "id": "nose_turn",
+      "start": 71.4,
+      "visual": "Your turn! Nose!",
+      "end": 74.85
+    },
+    {
+      "id": "nose_fr",
+      "start": 74.85,
+      "visual": "En français : le nez.",
+      "end": 77.24
+    },
+    {
+      "id": "nose_fr2",
+      "start": 77.24,
+      "visual": "Le nez !",
+      "end": 79.16
+    },
+    {
+      "id": "nose_use",
+      "start": 79.16,
+      "visual": "Leo smells a flower with his nose. Sniff, sniff! Mmm!",
+      "end": 85.55
+    },
+    {
+      "id": "mouth_pic",
+      "start": 85.55,
+      "visual": "Mouth.",
+      "end": 87.64
+    },
+    {
+      "id": "mouth_2",
+      "start": 87.64,
+      "visual": "Mouth!",
+      "end": 89.53
+    },
+    {
+      "id": "mouth_turn",
+      "start": 89.53,
+      "visual": "Your turn! Mouth!",
+      "end": 92.85
+    },
+    {
+      "id": "mouth_fr",
+      "start": 92.85,
+      "visual": "En français : la bouche.",
+      "end": 95.43
+    },
+    {
+      "id": "mouth_fr2",
+      "start": 95.43,
+      "visual": "La bouche !",
+      "end": 97.55
+    },
+    {
+      "id": "mouth_use",
+      "start": 97.55,
+      "visual": "Bobo opens his mouth, and eats a big apple. Crunch!",
+      "end": 103.19
+    },
+    {
+      "id": "hands_pic",
+      "start": 103.19,
+      "visual": "Hands.",
+      "end": 105.41
+    },
+    {
+      "id": "hands_2",
+      "start": 105.41,
+      "visual": "Hands!",
+      "end": 107.43
+    },
+    {
+      "id": "hands_turn",
+      "start": 107.43,
+      "visual": "Your turn! Hands!",
+      "end": 110.86
+    },
+    {
+      "id": "hands_fr",
+      "start": 110.86,
+      "visual": "En français : les mains.",
+      "end": 113.27
+    },
+    {
+      "id": "hands_fr2",
+      "start": 113.27,
+      "visual": "Les mains !",
+      "end": 115.3
+    },
+    {
+      "id": "hands_use",
+      "start": 115.3,
+      "visual": "Leo claps his hands. Clap, clap, clap!",
+      "end": 120.56
+    },
+    {
+      "id": "quiz_hands",
+      "start": 120.56,
+      "visual": "Quiz time! Where is the nose?",
+      "end": 127.35
+    },
+    {
+      "id": "quiz_hands_a",
+      "start": 127.35,
+      "visual": "There! In the middle of the face!",
+      "end": 131.4
+    },
+    {
+      "id": "arms_pic",
+      "start": 131.4,
+      "visual": "Arms.",
+      "end": 133.62
+    },
+    {
+      "id": "arms_2",
+      "start": 133.62,
+      "visual": "Arms!",
+      "end": 135.64
+    },
+    {
+      "id": "arms_turn",
+      "start": 135.64,
+      "visual": "Your turn! Arms!",
+      "end": 139.2
+    },
+    {
+      "id": "arms_fr",
+      "start": 139.2,
+      "visual": "En français : les bras.",
+      "end": 141.63
+    },
+    {
+      "id": "arms_fr2",
+      "start": 141.63,
+      "visual": "Les bras !",
+      "end": 143.7
+    },
+    {
+      "id": "arms_use",
+      "start": 143.7,
+      "visual": "Bobo stretches his arms up high. Stretch!",
+      "end": 148.71
+    },
+    {
+      "id": "tummy_pic",
+      "start": 148.71,
+      "visual": "Tummy.",
+      "end": 150.72
+    },
+    {
+      "id": "tummy_2",
+      "start": 150.72,
+      "visual": "Tummy!",
+      "end": 152.5
+    },
+    {
+      "id": "tummy_turn",
+      "start": 152.5,
+      "visual": "Your turn! Tummy!",
+      "end": 155.84
+    },
+    {
+      "id": "tummy_fr",
+      "start": 155.84,
+      "visual": "En français : le ventre.",
+      "end": 158.49
+    },
+    {
+      "id": "tummy_fr2",
+      "start": 158.49,
+      "visual": "Le ventre !",
+      "end": 160.73
+    },
+    {
+      "id": "tummy_use",
+      "start": 160.73,
+      "visual": "Bobo's tummy says rumble, rumble! Ha ha!",
+      "end": 166.1
+    },
+    {
+      "id": "quiz_tummy",
+      "start": 166.1,
+      "visual": "Quiz time! Where are the hands?",
+      "end": 172.79
+    },
+    {
+      "id": "quiz_tummy_a",
+      "start": 172.79,
+      "visual": "There! At the end of the arms!",
+      "end": 176.88
+    },
+    {
+      "id": "legs_pic",
+      "start": 176.88,
+      "visual": "Legs.",
+      "end": 179.06
+    },
+    {
+      "id": "legs_2",
+      "start": 179.06,
+      "visual": "Legs!",
+      "end": 181.06
+    },
+    {
+      "id": "legs_turn",
+      "start": 181.06,
+      "visual": "Your turn! Legs!",
+      "end": 184.55
+    },
+    {
+      "id": "legs_fr",
+      "start": 184.55,
+      "visual": "En français : les jambes.",
+      "end": 187.11
+    },
+    {
+      "id": "legs_fr2",
+      "start": 187.11,
+      "visual": "Les jambes !",
+      "end": 189.33
+    },
+    {
+      "id": "legs_use",
+      "start": 189.33,
+      "visual": "Bobo hops on his legs. Hop, hop, hop!",
+      "end": 194.39
+    },
+    {
+      "id": "feet_pic",
+      "start": 194.39,
+      "visual": "Feet.",
+      "end": 196.42
+    },
+    {
+      "id": "feet_2",
+      "start": 196.42,
+      "visual": "Feet!",
+      "end": 198.27
+    },
+    {
+      "id": "feet_turn",
+      "start": 198.27,
+      "visual": "Your turn! Feet!",
+      "end": 201.69
+    },
+    {
+      "id": "feet_fr",
+      "start": 201.69,
+      "visual": "En français : les pieds.",
+      "end": 204.14
+    },
+    {
+      "id": "feet_fr2",
+      "start": 204.14,
+      "visual": "Les pieds !",
+      "end": 206.23
+    },
+    {
+      "id": "feet_use",
+      "start": 206.23,
+      "visual": "Leo stomps his feet. Stomp, stomp!",
+      "end": 211.25
+    },
+    {
+      "id": "fr_round",
+      "start": 211.25,
+      "visual": "Now, let's say them all in French!",
+      "end": 214.58
+    },
+    {
+      "id": "frr_head",
+      "start": 214.58,
+      "visual": "La tête.",
+      "end": 216.57
+    },
+    {
+      "id": "frr_eyes",
+      "start": 216.57,
+      "visual": "Les yeux.",
+      "end": 218.48
+    },
+    {
+      "id": "frr_ears",
+      "start": 218.48,
+      "visual": "Les oreilles.",
+      "end": 220.58
+    },
+    {
+      "id": "frr_nose",
+      "start": 220.58,
+      "visual": "Le nez.",
+      "end": 222.41
+    },
+    {
+      "id": "frr_mouth",
+      "start": 222.41,
+      "visual": "La bouche.",
+      "end": 224.45
+    },
+    {
+      "id": "frr_hands",
+      "start": 224.45,
+      "visual": "Les mains.",
+      "end": 226.29
+    },
+    {
+      "id": "frr_arms",
+      "start": 226.29,
+      "visual": "Les bras.",
+      "end": 228.2
+    },
+    {
+      "id": "frr_tummy",
+      "start": 228.2,
+      "visual": "Le ventre.",
+      "end": 230.28
+    },
+    {
+      "id": "frr_legs",
+      "start": 230.28,
+      "visual": "Les jambes.",
+      "end": 232.31
+    },
+    {
+      "id": "frr_feet",
+      "start": 232.31,
+      "visual": "Les pieds.",
+      "end": 234.22
+    },
+    {
+      "id": "fr_yay",
+      "start": 234.22,
+      "visual": "Wow! You speak French! Bravo!",
+      "end": 238.17
+    },
+    {
+      "id": "game",
+      "start": 238.17,
+      "visual": "Let's play Simon says! Touch your head!",
+      "end": 243.7
+    },
+    {
+      "id": "game2",
+      "start": 243.7,
+      "visual": "Touch your nose!",
+      "end": 247.64
+    },
+    {
+      "id": "game3",
+      "start": 247.64,
+      "visual": "Touch your tummy!",
+      "end": 251.62
+    },
+    {
+      "id": "game4",
+      "start": 251.62,
+      "visual": "Clap your hands!",
+      "end": 255.71
+    },
+    {
+      "id": "game5",
+      "start": 255.71,
+      "visual": "And wiggle your feet!",
+      "end": 259.88
+    },
+    {
+      "id": "game_yay",
+      "start": 259.88,
+      "visual": "Ha ha! That was fun!",
+      "end": 262.87
+    },
+    {
+      "id": "frq0",
+      "start": 262.87,
+      "visual": "French quiz!",
+      "end": 264.84
+    },
+    {
+      "id": "frq_fr",
+      "start": 264.84,
+      "visual": "Où est le nez ?",
+      "end": 266.38
+    },
+    {
+      "id": "frq",
+      "start": 266.38,
+      "visual": "Where is the nose?",
+      "end": 272.53
+    },
+    {
+      "id": "frq_a",
+      "start": 272.53,
+      "visual": "Le nez !",
+      "end": 273.63
+    },
+    {
+      "id": "frq_a2",
+      "start": 273.63,
+      "visual": "Here it is!",
+      "end": 276.82
+    },
+    {
+      "id": "frq2_fr",
+      "start": 276.82,
+      "visual": "Où sont les pieds ?",
+      "end": 278.48
+    },
+    {
+      "id": "frq2",
+      "start": 278.48,
+      "visual": "Where are the feet?",
+      "end": 284.57
+    },
+    {
+      "id": "frq2_a",
+      "start": 284.57,
+      "visual": "Les pieds !",
+      "end": 285.78
+    },
+    {
+      "id": "frq2_a2",
+      "start": 285.78,
+      "visual": "Down here!",
+      "end": 288.93
+    },
+    {
+      "id": "rem",
+      "start": 288.93,
+      "visual": "Let's remember!",
+      "end": 291.2
+    },
+    {
+      "id": "rq1",
+      "start": 291.2,
+      "visual": "What do we see with?",
+      "end": 297.08
+    },
+    {
+      "id": "ra1",
+      "start": 297.08,
+      "visual": "Our eyes!",
+      "end": 299.79
+    },
+    {
+      "id": "rq2",
+      "start": 299.79,
+      "visual": "What do we smell with?",
+      "end": 305.75
+    },
+    {
+      "id": "ra2",
+      "start": 305.75,
+      "visual": "Our nose!",
+      "end": 308.7
+    },
+    {
+      "id": "rq3",
+      "start": 308.7,
+      "visual": "How do you say hands, in French?",
+      "end": 315.6
+    },
+    {
+      "id": "ra3",
+      "start": 315.6,
+      "visual": "Les mains !",
+      "end": 318.23
+    },
+    {
+      "id": "chant",
+      "start": 318.23,
+      "visual": "Head, eyes, ears, and nose!",
+      "end": 321.0
+    },
+    {
+      "id": "chant2",
+      "start": 321.0,
+      "visual": "Hands, arms, tummy, toes!",
+      "end": 324.32
+    },
+    {
+      "id": "bye",
+      "start": 324.32,
+      "visual": "Bye bye, friends!",
+      "end": 326.15
+    },
+    {
+      "id": "bye_fr",
+      "start": 326.15,
+      "visual": "Au revoir !",
+      "end": 327.58
+    },
+    {
+      "id": "bye2",
+      "start": 327.58,
+      "visual": "See you next time, on Tiny Sparks!",
+      "end": 336.2
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

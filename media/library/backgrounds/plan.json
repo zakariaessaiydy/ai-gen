@@ -1,0 +1,46 @@
+{
+  "note": "Generation plan for the painted places (tools/gen_backgrounds.py). Every image = STYLE + the place prompt + RULES for its orientation, generated with STYLE REFERENCE paintings (style_refs + the same place's other orientation when it exists) so the whole library reads as ONE world. Files that already exist are skipped; 'remaster' re-paints the existing 1376px files at high resolution from themselves.",
+  "model": "pro",
+  "size": "2K",
+  "out_long_side": 2560,
+  "style": "Soft 3D animated children's background in the exact same visual style as the reference images: premium preschool cartoon look, rounded chunky clay-like vinyl-toy shapes, smooth matte surfaces, bright cheerful pastel palette (mint, peach, butter yellow, lilac, sky blue, soft pink), warm soft daylight from the top-left with gentle bloom and soft ambient occlusion, slightly hazy distant layers, clean simple forms, no outlines, no film grain, no photorealism.",
+  "rules": {
+    "wide": "Wide 16:9 composition, camera at a small child's eye level, straight-on. The ground/floor fills the lower 40% of the frame; the area where characters will stand (the lower-middle 60% of the width, between 55% and 90% of the height) is open, flat and uncluttered. Props and tall objects stay at the left and right sides.",
+    "tall": "Tall 9:16 vertical composition, camera at a small child's eye level, straight-on. The ground/floor fills the lower 40% of the frame; the middle of the frame between 45% and 85% of the height is open, flat and uncluttered for characters. Props stay at the left and right edges; the sky or the back wall fills the top.",
+    "always": "No characters, no people, no animals, no text, no letters, no numbers, no logos, no watermark, no signature."
+  },
+  "style_refs": {
+    "outdoor": ["meadow-169.jpg", "farm-169.jpg"],
+    "indoor": ["kitchen-169.jpg", "library-169.jpg"],
+    "night": ["camp-night-169.jpg", "bedroom-169.jpg"]
+  },
+  "places": {
+    "meadow":       { "light": "outdoor", "prompt": "a sunny green meadow with rolling grassy hills, a pale rainbow, fluffy clouds in a blue sky, a round apple tree at one side, colourful flowers along the front edge, hazy blue mountains far away" },
+    "forest":       { "light": "outdoor", "prompt": "a friendly sunlit forest clearing, big round leafy trees framing the sides, a soft dirt path winding into the woods, red spotted mushrooms, ferns, a mossy log, golden light rays" },
+    "jungle":       { "light": "outdoor", "prompt": "a lush bright jungle clearing, giant round leaves and palm fronds framing the sides, hanging vines, colourful tropical flowers, a small waterfall far behind, soft green light rays" },
+    "cave":         { "light": "night",   "prompt": "a friendly cave with glowing pastel blue and purple crystals, smooth rounded rocks, little glowing mushrooms, soft light from an opening above, a smooth pale stone floor" },
+    "space-moon":   { "light": "night",   "prompt": "a cute outer-space scene, deep navy-to-violet sky with soft pink and teal nebula clouds, twinkling stars, an orange ringed planet, a small blue-and-green Earth, a smooth lavender-grey moon surface with round craters and pastel crystals at the edges" },
+    "classroom":    { "light": "indoor",  "prompt": "a cosy bright preschool classroom, a large EMPTY blank dark-green chalkboard with a wooden frame centred on the back wall in the upper part of the frame, pastel triangle bunting, a round wall clock, a window with blue sky at one side, a low bookshelf with colourful books and boxes, a warm wooden plank floor" },
+    "playroom":     { "light": "indoor",  "prompt": "a bright playroom with pastel cubby shelves full of toy boxes, building blocks and soft toys at the sides, a toy train track, a light wooden floor, pastel walls with paper shapes" },
+    "bedroom":      { "light": "night",   "prompt": "a cosy child's bedroom at night, deep blue-violet walls with tiny star wallpaper, a window with a crescent moon and pink curtains, a bed with a light blue quilted blanket, a nightstand with a warm glowing lamp, a shelf with books and a teddy, a round rug, a purple wooden floor" },
+    "science-lab":  { "light": "indoor",  "prompt": "a friendly pastel kids' science lab, rounded counters with colourful bubbling flasks and a microscope at the sides, a round porthole window, soft glowing ceiling lights, a smooth light floor" },
+    "music-room":   { "light": "indoor",  "prompt": "a cheerful kids' music room, a toy piano, a xylophone, a small drum kit and a guitar at the sides, music-note decorations, a round window, a warm wooden floor" },
+    "art-room":     { "light": "indoor",  "prompt": "a cheerful kids' art room, an easel with a blank canvas, paint pots and brushes, crayons on low tables, colourful drawings pinned on the walls without text, a round window, a warm wooden floor" },
+    "clinic":       { "light": "indoor",  "prompt": "a gentle children's doctor's waiting room, soft pastel pink and mint walls, rounded chairs, a reception desk, plants, a small toy corner, a smooth light floor" },
+    "sweet-shop":   { "light": "indoor",  "prompt": "a pastel sweet shop, rounded shelves with glass jars of colourful candies, giant lollipop decorations, a rainbow arch on the back wall, a counter with cupcakes and macarons at the side, a shiny light floor" },
+    "underwater":   { "light": "outdoor", "fx": ["bubbles"], "prompt": "a bright cheerful underwater scene, turquoise water getting deeper blue lower down, soft sun rays from the surface, a sandy sea floor with gentle ripples, colourful pink, orange and purple coral and swaying kelp at the left and right sides, rocks, a starfish and shells, hazy reef silhouettes far away, NO fish" },
+    "snowy-hill":   { "light": "outdoor", "fx": ["snow"], "prompt": "a soft snowy winter landscape, rounded snow hills, snow-covered pine trees at the sides, a small wooden cabin with a smoking chimney far away, gently falling snowflakes, pale blue sky" },
+    "bathroom":     { "light": "indoor",  "prompt": "a clean cute bathroom, a low sink with a round mirror and toothbrushes in a cup, a bathtub with bubbles at the side, light blue and mint tiles, fluffy towels on hooks, a bath mat" },
+    "pond":         { "light": "outdoor", "fx": ["butterflies", "motes"], "prompt": "a calm pond in nature, water lilies and lily pads, reeds and cattails at the sides, smooth stones, a little wooden bridge far behind, green grassy banks in front" },
+    "savanna":      { "light": "outdoor", "prompt": "a golden savanna, flat-topped acacia trees at the sides, soft tall dry grass, distant purple hills, a big warm sun low in a peach sky" },
+    "zoo":          { "light": "outdoor", "prompt": "a cheerful zoo path, empty grassy enclosures with low wooden fences at the sides, signposts with blank boards, round trees, a striped entrance arch far behind" },
+    "night-meadow": { "light": "night",   "fx": ["fireflies", "stars"], "prompt": "a peaceful meadow at night, soft rolling hills, a big glowing full moon, many stars, a few glowing flowers, a calm blue-violet sky" },
+    "autumn-park":  { "light": "outdoor", "fx": ["leaves", "birds"], "prompt": "an autumn park, round orange, red and yellow trees, piles of fallen leaves, a bench at the side, a winding path, a soft golden sky" },
+    "supermarket":  { "light": "indoor",  "prompt": "a friendly supermarket aisle, colourful fruit and vegetable stands at the sides, shelves with plain colourful boxes without text, a small shopping cart at the side, a shiny light floor" },
+    "town":         { "light": "outdoor", "prompt": "a cute small town on a sunny day, colourful rounded houses and shops with blank signs, a street with a zebra crossing, round trees, flower boxes, a lamp post" },
+    "train-station":{ "light": "outdoor", "prompt": "a small countryside train station, a platform with a little roof, a colourful toy-like train at the side, a station clock without numbers, green hills behind" },
+    "castle":       { "light": "outdoor", "prompt": "a friendly fairy-tale castle on a hill far behind, pastel towers with flags, a moat bridge, flowers, a soft rainbow sky" },
+    "museum":       { "light": "indoor",  "prompt": "a bright museum hall, a friendly dinosaur skeleton at one side, empty display pedestals, a smooth marble floor, tall arched windows" },
+    "fire-station": { "light": "outdoor", "prompt": "a red fire station with open garage doors and a fire truck inside, a hose rack, a sunny street in front" }
+  }
+}

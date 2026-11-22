@@ -1,0 +1,4321 @@
+{
+ "title": "The Shapes Song (Tiny Sparks original)",
+ "bpm": 96.0,
+ "beatsPerBar": 4,
+ "secondsPerBeat": 0.625,
+ "durationSec": 302.0,
+ "introBars": 2,
+ "chords": [
+  {
+   "t": 0.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 2.5,
+   "dur": 2.5,
+   "chord": "Am"
+  },
+  {
+   "t": 5.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 7.5,
+   "dur": 2.5,
+   "chord": "Am"
+  },
+  {
+   "t": 10.0,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 12.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 15.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 17.5,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 20.0,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 22.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 25.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 27.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 30.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 32.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 35.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 37.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 40.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 42.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 45.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 47.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 50.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 52.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 55.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 57.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 60.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 62.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 65.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 67.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 70.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 72.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 75.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 77.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 80.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 82.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 85.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 87.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 90.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 92.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 95.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 97.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 100.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 102.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 105.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 107.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 110.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 112.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 115.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 117.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 120.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 122.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 125.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 127.5,
+   "dur": 2.5,
+   "chord": "Am"
+  },
+  {
+   "t": 130.0,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 132.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 135.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 137.5,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 140.0,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 142.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 145.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 147.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 150.0,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 152.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 155.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 157.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 160.0,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 162.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 165.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 167.5,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 170.0,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 172.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 175.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 177.5,
+   "dur": 2.5,
+   "chord": "Am"
+  },
+  {
+   "t": 180.0,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 182.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 185.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 187.5,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 190.0,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 192.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 195.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 197.5,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 200.0,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 202.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 205.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 207.5,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 210.0,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 212.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 215.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 217.5,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 220.0,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 222.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 225.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 227.5,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 230.0,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 232.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 235.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 237.5,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 240.0,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 242.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 245.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 247.5,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 250.0,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 252.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 255.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 257.5,
+   "dur": 2.5,
+   "chord": "Am"
+  },
+  {
+   "t": 260.0,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 262.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 265.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 267.5,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 270.0,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 272.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 275.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 277.5,
+   "dur": 2.5,
+   "chord": "Am"
+  },
+  {
+   "t": 280.0,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 282.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 285.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 287.5,
+   "dur": 2.5,
+   "chord": "F"
+  },
+  {
+   "t": 290.0,
+   "dur": 2.5,
+   "chord": "G"
+  },
+  {
+   "t": 292.5,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 295.0,
+   "dur": 2.5,
+   "chord": "C"
+  },
+  {
+   "t": 297.5,
+   "dur": 2.5,
+   "chord": "C"
+  }
+ ],
+ "notes": [
+  {
+   "t": 5.0,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "Shapes,"
+  },
+  {
+   "t": 5.625,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "shapes,"
+  },
+  {
+   "t": 6.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "all"
+  },
+  {
+   "t": 6.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 7.5,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "round"
+  },
+  {
+   "t": 8.125,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 8.75,
+   "dur": 1.25,
+   "midi": 64,
+   "syllable": "town!"
+  },
+  {
+   "t": 10.0,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": "Round"
+  },
+  {
+   "t": 10.625,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 11.25,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "poin"
+  },
+  {
+   "t": 11.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "ty,"
+  },
+  {
+   "t": 12.5,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "up"
+  },
+  {
+   "t": 13.125,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 13.75,
+   "dur": 1.25,
+   "midi": 60,
+   "syllable": "down!"
+  },
+  {
+   "t": 15.0,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "Cir"
+  },
+  {
+   "t": 15.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "cle,"
+  },
+  {
+   "t": 16.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "square,"
+  },
+  {
+   "t": 16.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "and"
+  },
+  {
+   "t": 17.5,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "tri"
+  },
+  {
+   "t": 18.125,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "an"
+  },
+  {
+   "t": 18.75,
+   "dur": 1.25,
+   "midi": 67,
+   "syllable": "gle,"
+  },
+  {
+   "t": 20.0,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": "Let's"
+  },
+  {
+   "t": 20.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "find"
+  },
+  {
+   "t": 21.25,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "shapes,"
+  },
+  {
+   "t": 21.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "come"
+  },
+  {
+   "t": 22.5,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "sing"
+  },
+  {
+   "t": 23.125,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "a"
+  },
+  {
+   "t": 23.75,
+   "dur": 1.25,
+   "midi": 60,
+   "syllable": "long!"
+  },
+  {
+   "t": 25.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "Cir"
+  },
+  {
+   "t": 25.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "cle,"
+  },
+  {
+   "t": 26.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "cir"
+  },
+  {
+   "t": 26.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "cle!"
+  },
+  {
+   "t": 27.5,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "Round"
+  },
+  {
+   "t": 28.125,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "like"
+  },
+  {
+   "t": 28.75,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "the"
+  },
+  {
+   "t": 29.375,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "sun!"
+  },
+  {
+   "t": 30.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 30.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 31.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 31.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 35.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "Square,"
+  },
+  {
+   "t": 35.625,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "square,"
+  },
+  {
+   "t": 36.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "square!"
+  },
+  {
+   "t": 37.5,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "Four"
+  },
+  {
+   "t": 38.125,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "sides,"
+  },
+  {
+   "t": 38.438,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "all"
+  },
+  {
+   "t": 38.75,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "the"
+  },
+  {
+   "t": 39.375,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "same!"
+  },
+  {
+   "t": 40.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 40.625,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 41.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 45.0,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": "Tri"
+  },
+  {
+   "t": 45.312,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": "an"
+  },
+  {
+   "t": 45.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "gle,"
+  },
+  {
+   "t": 46.25,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": "tri"
+  },
+  {
+   "t": 46.562,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": "an"
+  },
+  {
+   "t": 46.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "gle!"
+  },
+  {
+   "t": 47.5,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "Three"
+  },
+  {
+   "t": 48.125,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "sides,"
+  },
+  {
+   "t": 48.438,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "like"
+  },
+  {
+   "t": 48.75,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "a"
+  },
+  {
+   "t": 49.375,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "tent!"
+  },
+  {
+   "t": 50.0,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 50.312,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 50.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 51.25,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 51.562,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 51.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 55.0,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": "Rec"
+  },
+  {
+   "t": 55.312,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": "tan"
+  },
+  {
+   "t": 55.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "gle,"
+  },
+  {
+   "t": 56.25,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": "rec"
+  },
+  {
+   "t": 56.562,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": "tan"
+  },
+  {
+   "t": 56.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "gle!"
+  },
+  {
+   "t": 57.5,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "Long"
+  },
+  {
+   "t": 57.812,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 58.125,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "tall,"
+  },
+  {
+   "t": 58.75,
+   "dur": 0.312,
+   "midi": 62,
+   "syllable": "like"
+  },
+  {
+   "t": 59.062,
+   "dur": 0.312,
+   "midi": 62,
+   "syllable": "a"
+  },
+  {
+   "t": 59.375,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "door!"
+  },
+  {
+   "t": 60.0,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 60.312,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 60.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 61.25,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 61.562,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 61.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 65.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "O"
+  },
+  {
+   "t": 65.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "val,"
+  },
+  {
+   "t": 66.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "o"
+  },
+  {
+   "t": 66.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "val!"
+  },
+  {
+   "t": 67.5,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "Just"
+  },
+  {
+   "t": 68.125,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "like"
+  },
+  {
+   "t": 68.75,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "an"
+  },
+  {
+   "t": 69.375,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "egg!"
+  },
+  {
+   "t": 70.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 70.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 71.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 71.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 75.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "Star,"
+  },
+  {
+   "t": 75.625,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "star,"
+  },
+  {
+   "t": 76.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "star!"
+  },
+  {
+   "t": 77.5,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "Twin"
+  },
+  {
+   "t": 78.125,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "kle"
+  },
+  {
+   "t": 78.438,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "in"
+  },
+  {
+   "t": 78.75,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "the"
+  },
+  {
+   "t": 79.375,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "sky!"
+  },
+  {
+   "t": 80.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 80.625,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 81.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 85.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "Heart,"
+  },
+  {
+   "t": 85.625,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "heart,"
+  },
+  {
+   "t": 86.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "heart!"
+  },
+  {
+   "t": 87.5,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "I"
+  },
+  {
+   "t": 88.125,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "love"
+  },
+  {
+   "t": 88.438,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "you,"
+  },
+  {
+   "t": 88.75,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "my"
+  },
+  {
+   "t": 89.375,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "friend!"
+  },
+  {
+   "t": 90.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 90.625,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 91.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 95.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "Dia"
+  },
+  {
+   "t": 95.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "mond,"
+  },
+  {
+   "t": 96.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "dia"
+  },
+  {
+   "t": 96.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "mond!"
+  },
+  {
+   "t": 97.5,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "Like"
+  },
+  {
+   "t": 98.125,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 98.438,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "shi"
+  },
+  {
+   "t": 98.75,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "ny"
+  },
+  {
+   "t": 99.375,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "kite!"
+  },
+  {
+   "t": 100.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 100.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 101.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 101.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 105.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "Cres"
+  },
+  {
+   "t": 105.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "cent,"
+  },
+  {
+   "t": 106.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "cres"
+  },
+  {
+   "t": 106.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "cent!"
+  },
+  {
+   "t": 107.5,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "Like"
+  },
+  {
+   "t": 108.125,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "the"
+  },
+  {
+   "t": 108.438,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "moon"
+  },
+  {
+   "t": 108.75,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "at"
+  },
+  {
+   "t": 109.375,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "night!"
+  },
+  {
+   "t": 110.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 110.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 111.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 111.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 115.0,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": "Hex"
+  },
+  {
+   "t": 115.312,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 115.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "gon,"
+  },
+  {
+   "t": 116.25,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": "hex"
+  },
+  {
+   "t": 116.562,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 116.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "gon!"
+  },
+  {
+   "t": 117.5,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "Like"
+  },
+  {
+   "t": 118.125,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 118.438,
+   "dur": 0.312,
+   "midi": 64,
+   "syllable": "hon"
+  },
+  {
+   "t": 118.75,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "ey"
+  },
+  {
+   "t": 119.375,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "comb!"
+  },
+  {
+   "t": 120.0,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 120.312,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 120.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 121.25,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 121.562,
+   "dur": 0.312,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 121.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 125.0,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "Shapes,"
+  },
+  {
+   "t": 125.625,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "shapes,"
+  },
+  {
+   "t": 126.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "all"
+  },
+  {
+   "t": 126.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 127.5,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "round"
+  },
+  {
+   "t": 128.125,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 128.75,
+   "dur": 1.25,
+   "midi": 64,
+   "syllable": "town!"
+  },
+  {
+   "t": 130.0,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": "Round"
+  },
+  {
+   "t": 130.625,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 131.25,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "poin"
+  },
+  {
+   "t": 131.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "ty,"
+  },
+  {
+   "t": 132.5,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "up"
+  },
+  {
+   "t": 133.125,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 133.75,
+   "dur": 1.25,
+   "midi": 60,
+   "syllable": "down!"
+  },
+  {
+   "t": 135.0,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "Cir"
+  },
+  {
+   "t": 135.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "cle,"
+  },
+  {
+   "t": 136.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "square,"
+  },
+  {
+   "t": 136.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "and"
+  },
+  {
+   "t": 137.5,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "tri"
+  },
+  {
+   "t": 138.125,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "an"
+  },
+  {
+   "t": 138.75,
+   "dur": 1.25,
+   "midi": 67,
+   "syllable": "gle,"
+  },
+  {
+   "t": 140.0,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": "Let's"
+  },
+  {
+   "t": 140.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "find"
+  },
+  {
+   "t": 141.25,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "shapes,"
+  },
+  {
+   "t": 141.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "come"
+  },
+  {
+   "t": 142.5,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "sing"
+  },
+  {
+   "t": 143.125,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "a"
+  },
+  {
+   "t": 143.75,
+   "dur": 1.25,
+   "midi": 60,
+   "syllable": "long!"
+  },
+  {
+   "t": 145.0,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "A"
+  },
+  {
+   "t": 145.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "tri"
+  },
+  {
+   "t": 146.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "an"
+  },
+  {
+   "t": 146.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "gle"
+  },
+  {
+   "t": 147.5,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "on"
+  },
+  {
+   "t": 148.125,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "a"
+  },
+  {
+   "t": 148.75,
+   "dur": 1.25,
+   "midi": 67,
+   "syllable": "square,"
+  },
+  {
+   "t": 150.0,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": "Now"
+  },
+  {
+   "t": 150.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "we"
+  },
+  {
+   "t": 151.25,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "have"
+  },
+  {
+   "t": 151.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 152.5,
+   "dur": 1.25,
+   "midi": 60,
+   "syllable": "house!"
+  },
+  {
+   "t": 155.0,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "A"
+  },
+  {
+   "t": 155.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "cir"
+  },
+  {
+   "t": 156.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "cle"
+  },
+  {
+   "t": 156.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "on"
+  },
+  {
+   "t": 157.5,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "a"
+  },
+  {
+   "t": 158.125,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "tri"
+  },
+  {
+   "t": 158.75,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "an"
+  },
+  {
+   "t": 159.375,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "gle,"
+  },
+  {
+   "t": 160.0,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": "Now"
+  },
+  {
+   "t": 160.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "we"
+  },
+  {
+   "t": 161.25,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "have"
+  },
+  {
+   "t": 161.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "ice"
+  },
+  {
+   "t": 162.5,
+   "dur": 1.25,
+   "midi": 60,
+   "syllable": "cream!"
+  },
+  {
+   "t": 165.0,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "Three"
+  },
+  {
+   "t": 165.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "cir"
+  },
+  {
+   "t": 166.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "cles,"
+  },
+  {
+   "t": 166.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "big"
+  },
+  {
+   "t": 167.5,
+   "dur": 1.25,
+   "midi": 69,
+   "syllable": "to"
+  },
+  {
+   "t": 168.75,
+   "dur": 1.25,
+   "midi": 67,
+   "syllable": "small,"
+  },
+  {
+   "t": 170.0,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": "Now"
+  },
+  {
+   "t": 170.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "we"
+  },
+  {
+   "t": 171.25,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "have"
+  },
+  {
+   "t": 171.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "a"
+  },
+  {
+   "t": 172.5,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "snow"
+  },
+  {
+   "t": 173.125,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "man!"
+  },
+  {
+   "t": 175.0,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "Shapes,"
+  },
+  {
+   "t": 175.625,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "shapes,"
+  },
+  {
+   "t": 176.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "all"
+  },
+  {
+   "t": 176.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 177.5,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "round"
+  },
+  {
+   "t": 178.125,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 178.75,
+   "dur": 1.25,
+   "midi": 64,
+   "syllable": "town!"
+  },
+  {
+   "t": 180.0,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": "Round"
+  },
+  {
+   "t": 180.625,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 181.25,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "poin"
+  },
+  {
+   "t": 181.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "ty,"
+  },
+  {
+   "t": 182.5,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "up"
+  },
+  {
+   "t": 183.125,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 183.75,
+   "dur": 1.25,
+   "midi": 60,
+   "syllable": "down!"
+  },
+  {
+   "t": 185.0,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "Cir"
+  },
+  {
+   "t": 185.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "cle,"
+  },
+  {
+   "t": 186.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "square,"
+  },
+  {
+   "t": 186.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "and"
+  },
+  {
+   "t": 187.5,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "tri"
+  },
+  {
+   "t": 188.125,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "an"
+  },
+  {
+   "t": 188.75,
+   "dur": 1.25,
+   "midi": 67,
+   "syllable": "gle,"
+  },
+  {
+   "t": 190.0,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": "Let's"
+  },
+  {
+   "t": 190.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "find"
+  },
+  {
+   "t": 191.25,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "shapes,"
+  },
+  {
+   "t": 191.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "come"
+  },
+  {
+   "t": 192.5,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "sing"
+  },
+  {
+   "t": 193.125,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "a"
+  },
+  {
+   "t": 193.75,
+   "dur": 1.25,
+   "midi": 60,
+   "syllable": "long!"
+  },
+  {
+   "t": 195.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "What"
+  },
+  {
+   "t": 195.625,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "shape"
+  },
+  {
+   "t": 196.25,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "is"
+  },
+  {
+   "t": 196.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 197.5,
+   "dur": 1.25,
+   "midi": 69,
+   "syllable": "clock?"
+  },
+  {
+   "t": 202.5,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "A"
+  },
+  {
+   "t": 203.125,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "cir"
+  },
+  {
+   "t": 203.75,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "cle!"
+  },
+  {
+   "t": 205.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "What"
+  },
+  {
+   "t": 205.625,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "shape"
+  },
+  {
+   "t": 206.25,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "is"
+  },
+  {
+   "t": 206.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 207.5,
+   "dur": 0.312,
+   "midi": 69,
+   "syllable": "pi"
+  },
+  {
+   "t": 207.812,
+   "dur": 0.312,
+   "midi": 69,
+   "syllable": "zza"
+  },
+  {
+   "t": 208.125,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "slice?"
+  },
+  {
+   "t": 212.5,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "A"
+  },
+  {
+   "t": 213.125,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "tri"
+  },
+  {
+   "t": 213.75,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "an"
+  },
+  {
+   "t": 214.375,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "gle!"
+  },
+  {
+   "t": 215.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "What"
+  },
+  {
+   "t": 215.625,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "shape"
+  },
+  {
+   "t": 216.25,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "is"
+  },
+  {
+   "t": 216.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 217.5,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "win"
+  },
+  {
+   "t": 218.125,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "dow?"
+  },
+  {
+   "t": 222.5,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "A"
+  },
+  {
+   "t": 223.125,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "square!"
+  },
+  {
+   "t": 225.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "What"
+  },
+  {
+   "t": 225.625,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "shape"
+  },
+  {
+   "t": 226.25,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "is"
+  },
+  {
+   "t": 226.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 227.5,
+   "dur": 1.25,
+   "midi": 69,
+   "syllable": "door?"
+  },
+  {
+   "t": 232.5,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "A"
+  },
+  {
+   "t": 233.125,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "rec"
+  },
+  {
+   "t": 233.75,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "tan"
+  },
+  {
+   "t": 234.375,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "gle!"
+  },
+  {
+   "t": 235.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "What"
+  },
+  {
+   "t": 235.625,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "shape"
+  },
+  {
+   "t": 236.25,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "is"
+  },
+  {
+   "t": 236.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "an"
+  },
+  {
+   "t": 237.5,
+   "dur": 1.25,
+   "midi": 69,
+   "syllable": "egg?"
+  },
+  {
+   "t": 242.5,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "An"
+  },
+  {
+   "t": 243.125,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "o"
+  },
+  {
+   "t": 243.75,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "val!"
+  },
+  {
+   "t": 245.0,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "What"
+  },
+  {
+   "t": 245.625,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "shape"
+  },
+  {
+   "t": 246.25,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "is"
+  },
+  {
+   "t": 246.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 247.5,
+   "dur": 1.25,
+   "midi": 69,
+   "syllable": "kite?"
+  },
+  {
+   "t": 252.5,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "A"
+  },
+  {
+   "t": 253.125,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "dia"
+  },
+  {
+   "t": 253.75,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "mond!"
+  },
+  {
+   "t": 255.0,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 255.625,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 256.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 256.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 257.5,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 258.125,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 258.75,
+   "dur": 1.25,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 260.0,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 260.625,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 261.25,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 261.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 262.5,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 263.125,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 263.75,
+   "dur": 1.25,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 265.0,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 265.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 266.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 266.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 267.5,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 268.125,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": null
+  },
+  {
+   "t": 268.75,
+   "dur": 1.25,
+   "midi": 67,
+   "syllable": null
+  },
+  {
+   "t": 270.0,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": null
+  },
+  {
+   "t": 270.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 271.25,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 271.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": null
+  },
+  {
+   "t": 272.5,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 273.125,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": null
+  },
+  {
+   "t": 273.75,
+   "dur": 1.25,
+   "midi": 60,
+   "syllable": null
+  },
+  {
+   "t": 275.0,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "Shapes,"
+  },
+  {
+   "t": 275.625,
+   "dur": 0.625,
+   "midi": 60,
+   "syllable": "shapes,"
+  },
+  {
+   "t": 276.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "all"
+  },
+  {
+   "t": 276.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "a"
+  },
+  {
+   "t": 277.5,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "round"
+  },
+  {
+   "t": 278.125,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "the"
+  },
+  {
+   "t": 278.75,
+   "dur": 1.25,
+   "midi": 64,
+   "syllable": "town!"
+  },
+  {
+   "t": 280.0,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": "Round"
+  },
+  {
+   "t": 280.625,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": "and"
+  },
+  {
+   "t": 281.25,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "poin"
+  },
+  {
+   "t": 281.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "ty,"
+  },
+  {
+   "t": 282.5,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "up"
+  },
+  {
+   "t": 283.125,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "and"
+  },
+  {
+   "t": 283.75,
+   "dur": 1.25,
+   "midi": 60,
+   "syllable": "down!"
+  },
+  {
+   "t": 285.0,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "Cir"
+  },
+  {
+   "t": 285.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "cle,"
+  },
+  {
+   "t": 286.25,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "square,"
+  },
+  {
+   "t": 286.875,
+   "dur": 0.625,
+   "midi": 67,
+   "syllable": "and"
+  },
+  {
+   "t": 287.5,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "tri"
+  },
+  {
+   "t": 288.125,
+   "dur": 0.625,
+   "midi": 69,
+   "syllable": "an"
+  },
+  {
+   "t": 288.75,
+   "dur": 1.25,
+   "midi": 67,
+   "syllable": "gle,"
+  },
+  {
+   "t": 290.0,
+   "dur": 0.625,
+   "midi": 65,
+   "syllable": "Let's"
+  },
+  {
+   "t": 290.625,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "find"
+  },
+  {
+   "t": 291.25,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "shapes,"
+  },
+  {
+   "t": 291.875,
+   "dur": 0.625,
+   "midi": 64,
+   "syllable": "come"
+  },
+  {
+   "t": 292.5,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "sing"
+  },
+  {
+   "t": 293.125,
+   "dur": 0.625,
+   "midi": 62,
+   "syllable": "a"
+  },
+  {
+   "t": 293.75,
+   "dur": 1.25,
+   "midi": 60,
+   "syllable": "long!"
+  }
+ ],
+ "lines": [
+  {
+   "text": "Shapes, shapes, all around the town!",
+   "start": 5.0,
+   "end": 10.0,
+   "words": [
+    {
+     "w": "Shapes,",
+     "start": 5.0,
+     "end": 5.625
+    },
+    {
+     "w": "shapes,",
+     "start": 5.625,
+     "end": 6.25
+    },
+    {
+     "w": "all",
+     "start": 6.25,
+     "end": 6.875
+    },
+    {
+     "w": "around",
+     "start": 6.875,
+     "end": 8.125
+    },
+    {
+     "w": "the",
+     "start": 8.125,
+     "end": 8.75
+    },
+    {
+     "w": "town!",
+     "start": 8.75,
+     "end": 10.0
+    }
+   ]
+  },
+  {
+   "text": "Round and pointy, up and down!",
+   "start": 10.0,
+   "end": 15.0,
+   "words": [
+    {
+     "w": "Round",
+     "start": 10.0,
+     "end": 10.625
+    },
+    {
+     "w": "and",
+     "start": 10.625,
+     "end": 11.25
+    },
+    {
+     "w": "pointy,",
+     "start": 11.25,
+     "end": 12.5
+    },
+    {
+     "w": "up",
+     "start": 12.5,
+     "end": 13.125
+    },
+    {
+     "w": "and",
+     "start": 13.125,
+     "end": 13.75
+    },
+    {
+     "w": "down!",
+     "start": 13.75,
+     "end": 15.0
+    }
+   ]
+  },
+  {
+   "text": "Circle, square, and triangle,",
+   "start": 15.0,
+   "end": 20.0,
+   "words": [
+    {
+     "w": "Circle,",
+     "start": 15.0,
+     "end": 16.25
+    },
+    {
+     "w": "square,",
+     "start": 16.25,
+     "end": 16.875
+    },
+    {
+     "w": "and",
+     "start": 16.875,
+     "end": 17.5
+    },
+    {
+     "w": "triangle,",
+     "start": 17.5,
+     "end": 20.0
+    }
+   ]
+  },
+  {
+   "text": "Let's find shapes, come sing along!",
+   "start": 20.0,
+   "end": 25.0,
+   "words": [
+    {
+     "w": "Let's",
+     "start": 20.0,
+     "end": 20.625
+    },
+    {
+     "w": "find",
+     "start": 20.625,
+     "end": 21.25
+    },
+    {
+     "w": "shapes,",
+     "start": 21.25,
+     "end": 21.875
+    },
+    {
+     "w": "come",
+     "start": 21.875,
+     "end": 22.5
+    },
+    {
+     "w": "sing",
+     "start": 22.5,
+     "end": 23.125
+    },
+    {
+     "w": "along!",
+     "start": 23.125,
+     "end": 25.0
+    }
+   ]
+  },
+  {
+   "text": "Circle, circle!",
+   "start": 25.0,
+   "end": 27.5,
+   "words": [
+    {
+     "w": "Circle,",
+     "start": 25.0,
+     "end": 26.25
+    },
+    {
+     "w": "circle!",
+     "start": 26.25,
+     "end": 27.5
+    }
+   ]
+  },
+  {
+   "text": "Round like the sun!",
+   "start": 27.5,
+   "end": 30.0,
+   "words": [
+    {
+     "w": "Round",
+     "start": 27.5,
+     "end": 28.125
+    },
+    {
+     "w": "like",
+     "start": 28.125,
+     "end": 28.75
+    },
+    {
+     "w": "the",
+     "start": 28.75,
+     "end": 29.375
+    },
+    {
+     "w": "sun!",
+     "start": 29.375,
+     "end": 30.0
+    }
+   ]
+  },
+  {
+   "text": "Square, square, square!",
+   "start": 35.0,
+   "end": 36.875,
+   "words": [
+    {
+     "w": "Square,",
+     "start": 35.0,
+     "end": 35.625
+    },
+    {
+     "w": "square,",
+     "start": 35.625,
+     "end": 36.25
+    },
+    {
+     "w": "square!",
+     "start": 36.25,
+     "end": 36.875
+    }
+   ]
+  },
+  {
+   "text": "Four sides, all the same!",
+   "start": 37.5,
+   "end": 40.0,
+   "words": [
+    {
+     "w": "Four",
+     "start": 37.5,
+     "end": 38.125
+    },
+    {
+     "w": "sides,",
+     "start": 38.125,
+     "end": 38.438
+    },
+    {
+     "w": "all",
+     "start": 38.438,
+     "end": 38.75
+    },
+    {
+     "w": "the",
+     "start": 38.75,
+     "end": 39.375
+    },
+    {
+     "w": "same!",
+     "start": 39.375,
+     "end": 40.0
+    }
+   ]
+  },
+  {
+   "text": "Triangle, triangle!",
+   "start": 45.0,
+   "end": 47.5,
+   "words": [
+    {
+     "w": "Triangle,",
+     "start": 45.0,
+     "end": 46.25
+    },
+    {
+     "w": "triangle!",
+     "start": 46.25,
+     "end": 47.5
+    }
+   ]
+  },
+  {
+   "text": "Three sides, like a tent!",
+   "start": 47.5,
+   "end": 50.0,
+   "words": [
+    {
+     "w": "Three",
+     "start": 47.5,
+     "end": 48.125
+    },
+    {
+     "w": "sides,",
+     "start": 48.125,
+     "end": 48.438
+    },
+    {
+     "w": "like",
+     "start": 48.438,
+     "end": 48.75
+    },
+    {
+     "w": "a",
+     "start": 48.75,
+     "end": 49.375
+    },
+    {
+     "w": "tent!",
+     "start": 49.375,
+     "end": 50.0
+    }
+   ]
+  },
+  {
+   "text": "Rectangle, rectangle!",
+   "start": 55.0,
+   "end": 57.5,
+   "words": [
+    {
+     "w": "Rectangle,",
+     "start": 55.0,
+     "end": 56.25
+    },
+    {
+     "w": "rectangle!",
+     "start": 56.25,
+     "end": 57.5
+    }
+   ]
+  },
+  {
+   "text": "Long and tall, like a door!",
+   "start": 57.5,
+   "end": 60.0,
+   "words": [
+    {
+     "w": "Long",
+     "start": 57.5,
+     "end": 57.812
+    },
+    {
+     "w": "and",
+     "start": 57.812,
+     "end": 58.125
+    },
+    {
+     "w": "tall,",
+     "start": 58.125,
+     "end": 58.75
+    },
+    {
+     "w": "like",
+     "start": 58.75,
+     "end": 59.062
+    },
+    {
+     "w": "a",
+     "start": 59.062,
+     "end": 59.375
+    },
+    {
+     "w": "door!",
+     "start": 59.375,
+     "end": 60.0
+    }
+   ]
+  },
+  {
+   "text": "Oval, oval!",
+   "start": 65.0,
+   "end": 67.5,
+   "words": [
+    {
+     "w": "Oval,",
+     "start": 65.0,
+     "end": 66.25
+    },
+    {
+     "w": "oval!",
+     "start": 66.25,
+     "end": 67.5
+    }
+   ]
+  },
+  {
+   "text": "Just like an egg!",
+   "start": 67.5,
+   "end": 70.0,
+   "words": [
+    {
+     "w": "Just",
+     "start": 67.5,
+     "end": 68.125
+    },
+    {
+     "w": "like",
+     "start": 68.125,
+     "end": 68.75
+    },
+    {
+     "w": "an",
+     "start": 68.75,
+     "end": 69.375
+    },
+    {
+     "w": "egg!",
+     "start": 69.375,
+     "end": 70.0
+    }
+   ]
+  },
+  {
+   "text": "Star, star, star!",
+   "start": 75.0,
+   "end": 76.875,
+   "words": [
+    {
+     "w": "Star,",
+     "start": 75.0,
+     "end": 75.625
+    },
+    {
+     "w": "star,",
+     "start": 75.625,
+     "end": 76.25
+    },
+    {
+     "w": "star!",
+     "start": 76.25,
+     "end": 76.875
+    }
+   ]
+  },
+  {
+   "text": "Twinkle in the sky!",
+   "start": 77.5,
+   "end": 80.0,
+   "words": [
+    {
+     "w": "Twinkle",
+     "start": 77.5,
+     "end": 78.438
+    },
+    {
+     "w": "in",
+     "start": 78.438,
+     "end": 78.75
+    },
+    {
+     "w": "the",
+     "start": 78.75,
+     "end": 79.375
+    },
+    {
+     "w": "sky!",
+     "start": 79.375,
+     "end": 80.0
+    }
+   ]
+  },
+  {
+   "text": "Heart, heart, heart!",
+   "start": 85.0,
+   "end": 86.875,
+   "words": [
+    {
+     "w": "Heart,",
+     "start": 85.0,
+     "end": 85.625
+    },
+    {
+     "w": "heart,",
+     "start": 85.625,
+     "end": 86.25
+    },
+    {
+     "w": "heart!",
+     "start": 86.25,
+     "end": 86.875
+    }
+   ]
+  },
+  {
+   "text": "I love you, my friend!",
+   "start": 87.5,
+   "end": 90.0,
+   "words": [
+    {
+     "w": "I",
+     "start": 87.5,
+     "end": 88.125
+    },
+    {
+     "w": "love",
+     "start": 88.125,
+     "end": 88.438
+    },
+    {
+     "w": "you,",
+     "start": 88.438,
+     "end": 88.75
+    },
+    {
+     "w": "my",
+     "start": 88.75,
+     "end": 89.375
+    },
+    {
+     "w": "friend!",
+     "start": 89.375,
+     "end": 90.0
+    }
+   ]
+  },
+  {
+   "text": "Diamond, diamond!",
+   "start": 95.0,
+   "end": 97.5,
+   "words": [
+    {
+     "w": "Diamond,",
+     "start": 95.0,
+     "end": 96.25
+    },
+    {
+     "w": "diamond!",
+     "start": 96.25,
+     "end": 97.5
+    }
+   ]
+  },
+  {
+   "text": "Like a shiny kite!",
+   "start": 97.5,
+   "end": 100.0,
+   "words": [
+    {
+     "w": "Like",
+     "start": 97.5,
+     "end": 98.125
+    },
+    {
+     "w": "a",
+     "start": 98.125,
+     "end": 98.438
+    },
+    {
+     "w": "shiny",
+     "start": 98.438,
+     "end": 99.375
+    },
+    {
+     "w": "kite!",
+     "start": 99.375,
+     "end": 100.0
+    }
+   ]
+  },
+  {
+   "text": "Crescent, crescent!",
+   "start": 105.0,
+   "end": 107.5,
+   "words": [
+    {
+     "w": "Crescent,",
+     "start": 105.0,
+     "end": 106.25
+    },
+    {
+     "w": "crescent!",
+     "start": 106.25,
+     "end": 107.5
+    }
+   ]
+  },
+  {
+   "text": "Like the moon at night!",
+   "start": 107.5,
+   "end": 110.0,
+   "words": [
+    {
+     "w": "Like",
+     "start": 107.5,
+     "end": 108.125
+    },
+    {
+     "w": "the",
+     "start": 108.125,
+     "end": 108.438
+    },
+    {
+     "w": "moon",
+     "start": 108.438,
+     "end": 108.75
+    },
+    {
+     "w": "at",
+     "start": 108.75,
+     "end": 109.375
+    },
+    {
+     "w": "night!",
+     "start": 109.375,
+     "end": 110.0
+    }
+   ]
+  },
+  {
+   "text": "Hexagon, hexagon!",
+   "start": 115.0,
+   "end": 117.5,
+   "words": [
+    {
+     "w": "Hexagon,",
+     "start": 115.0,
+     "end": 116.25
+    },
+    {
+     "w": "hexagon!",
+     "start": 116.25,
+     "end": 117.5
+    }
+   ]
+  },
+  {
+   "text": "Like a honeycomb!",
+   "start": 117.5,
+   "end": 120.0,
+   "words": [
+    {
+     "w": "Like",
+     "start": 117.5,
+     "end": 118.125
+    },
+    {
+     "w": "a",
+     "start": 118.125,
+     "end": 118.438
+    },
+    {
+     "w": "honeycomb!",
+     "start": 118.438,
+     "end": 120.0
+    }
+   ]
+  },
+  {
+   "text": "Shapes, shapes, all around the town!",
+   "start": 125.0,
+   "end": 130.0,
+   "words": [
+    {
+     "w": "Shapes,",
+     "start": 125.0,
+     "end": 125.625
+    },
+    {
+     "w": "shapes,",
+     "start": 125.625,
+     "end": 126.25
+    },
+    {
+     "w": "all",
+     "start": 126.25,
+     "end": 126.875
+    },
+    {
+     "w": "around",
+     "start": 126.875,
+     "end": 128.125
+    },
+    {
+     "w": "the",
+     "start": 128.125,
+     "end": 128.75
+    },
+    {
+     "w": "town!",
+     "start": 128.75,
+     "end": 130.0
+    }
+   ]
+  },
+  {
+   "text": "Round and pointy, up and down!",
+   "start": 130.0,
+   "end": 135.0,
+   "words": [
+    {
+     "w": "Round",
+     "start": 130.0,
+     "end": 130.625
+    },
+    {
+     "w": "and",
+     "start": 130.625,
+     "end": 131.25
+    },
+    {
+     "w": "pointy,",
+     "start": 131.25,
+     "end": 132.5
+    },
+    {
+     "w": "up",
+     "start": 132.5,
+     "end": 133.125
+    },
+    {
+     "w": "and",
+     "start": 133.125,
+     "end": 133.75
+    },
+    {
+     "w": "down!",
+     "start": 133.75,
+     "end": 135.0
+    }
+   ]
+  },
+  {
+   "text": "Circle, square, and triangle,",
+   "start": 135.0,
+   "end": 140.0,
+   "words": [
+    {
+     "w": "Circle,",
+     "start": 135.0,
+     "end": 136.25
+    },
+    {
+     "w": "square,",
+     "start": 136.25,
+     "end": 136.875
+    },
+    {
+     "w": "and",
+     "start": 136.875,
+     "end": 137.5
+    },
+    {
+     "w": "triangle,",
+     "start": 137.5,
+     "end": 140.0
+    }
+   ]
+  },
+  {
+   "text": "Let's find shapes, come sing along!",
+   "start": 140.0,
+   "end": 145.0,
+   "words": [
+    {
+     "w": "Let's",
+     "start": 140.0,
+     "end": 140.625
+    },
+    {
+     "w": "find",
+     "start": 140.625,
+     "end": 141.25
+    },
+    {
+     "w": "shapes,",
+     "start": 141.25,
+     "end": 141.875
+    },
+    {
+     "w": "come",
+     "start": 141.875,
+     "end": 142.5
+    },
+    {
+     "w": "sing",
+     "start": 142.5,
+     "end": 143.125
+    },
+    {
+     "w": "along!",
+     "start": 143.125,
+     "end": 145.0
+    }
+   ]
+  },
+  {
+   "text": "A triangle on a square,",
+   "start": 145.0,
+   "end": 150.0,
+   "words": [
+    {
+     "w": "A",
+     "start": 145.0,
+     "end": 145.625
+    },
+    {
+     "w": "triangle",
+     "start": 145.625,
+     "end": 147.5
+    },
+    {
+     "w": "on",
+     "start": 147.5,
+     "end": 148.125
+    },
+    {
+     "w": "a",
+     "start": 148.125,
+     "end": 148.75
+    },
+    {
+     "w": "square,",
+     "start": 148.75,
+     "end": 150.0
+    }
+   ]
+  },
+  {
+   "text": "Now we have a house!",
+   "start": 150.0,
+   "end": 153.75,
+   "words": [
+    {
+     "w": "Now",
+     "start": 150.0,
+     "end": 150.625
+    },
+    {
+     "w": "we",
+     "start": 150.625,
+     "end": 151.25
+    },
+    {
+     "w": "have",
+     "start": 151.25,
+     "end": 151.875
+    },
+    {
+     "w": "a",
+     "start": 151.875,
+     "end": 152.5
+    },
+    {
+     "w": "house!",
+     "start": 152.5,
+     "end": 153.75
+    }
+   ]
+  },
+  {
+   "text": "A circle on a triangle,",
+   "start": 155.0,
+   "end": 160.0,
+   "words": [
+    {
+     "w": "A",
+     "start": 155.0,
+     "end": 155.625
+    },
+    {
+     "w": "circle",
+     "start": 155.625,
+     "end": 156.875
+    },
+    {
+     "w": "on",
+     "start": 156.875,
+     "end": 157.5
+    },
+    {
+     "w": "a",
+     "start": 157.5,
+     "end": 158.125
+    },
+    {
+     "w": "triangle,",
+     "start": 158.125,
+     "end": 160.0
+    }
+   ]
+  },
+  {
+   "text": "Now we have ice cream!",
+   "start": 160.0,
+   "end": 163.75,
+   "words": [
+    {
+     "w": "Now",
+     "start": 160.0,
+     "end": 160.625
+    },
+    {
+     "w": "we",
+     "start": 160.625,
+     "end": 161.25
+    },
+    {
+     "w": "have",
+     "start": 161.25,
+     "end": 161.875
+    },
+    {
+     "w": "ice",
+     "start": 161.875,
+     "end": 162.5
+    },
+    {
+     "w": "cream!",
+     "start": 162.5,
+     "end": 163.75
+    }
+   ]
+  },
+  {
+   "text": "Three circles, big to small,",
+   "start": 165.0,
+   "end": 170.0,
+   "words": [
+    {
+     "w": "Three",
+     "start": 165.0,
+     "end": 165.625
+    },
+    {
+     "w": "circles,",
+     "start": 165.625,
+     "end": 166.875
+    },
+    {
+     "w": "big",
+     "start": 166.875,
+     "end": 167.5
+    },
+    {
+     "w": "to",
+     "start": 167.5,
+     "end": 168.75
+    },
+    {
+     "w": "small,",
+     "start": 168.75,
+     "end": 170.0
+    }
+   ]
+  },
+  {
+   "text": "Now we have a snowman!",
+   "start": 170.0,
+   "end": 173.75,
+   "words": [
+    {
+     "w": "Now",
+     "start": 170.0,
+     "end": 170.625
+    },
+    {
+     "w": "we",
+     "start": 170.625,
+     "end": 171.25
+    },
+    {
+     "w": "have",
+     "start": 171.25,
+     "end": 171.875
+    },
+    {
+     "w": "a",
+     "start": 171.875,
+     "end": 172.5
+    },
+    {
+     "w": "snowman!",
+     "start": 172.5,
+     "end": 173.75
+    }
+   ]
+  },
+  {
+   "text": "Shapes, shapes, all around the town!",
+   "start": 175.0,
+   "end": 180.0,
+   "words": [
+    {
+     "w": "Shapes,",
+     "start": 175.0,
+     "end": 175.625
+    },
+    {
+     "w": "shapes,",
+     "start": 175.625,
+     "end": 176.25
+    },
+    {
+     "w": "all",
+     "start": 176.25,
+     "end": 176.875
+    },
+    {
+     "w": "around",
+     "start": 176.875,
+     "end": 178.125
+    },
+    {
+     "w": "the",
+     "start": 178.125,
+     "end": 178.75
+    },
+    {
+     "w": "town!",
+     "start": 178.75,
+     "end": 180.0
+    }
+   ]
+  },
+  {
+   "text": "Round and pointy, up and down!",
+   "start": 180.0,
+   "end": 185.0,
+   "words": [
+    {
+     "w": "Round",
+     "start": 180.0,
+     "end": 180.625
+    },
+    {
+     "w": "and",
+     "start": 180.625,
+     "end": 181.25
+    },
+    {
+     "w": "pointy,",
+     "start": 181.25,
+     "end": 182.5
+    },
+    {
+     "w": "up",
+     "start": 182.5,
+     "end": 183.125
+    },
+    {
+     "w": "and",
+     "start": 183.125,
+     "end": 183.75
+    },
+    {
+     "w": "down!",
+     "start": 183.75,
+     "end": 185.0
+    }
+   ]
+  },
+  {
+   "text": "Circle, square, and triangle,",
+   "start": 185.0,
+   "end": 190.0,
+   "words": [
+    {
+     "w": "Circle,",
+     "start": 185.0,
+     "end": 186.25
+    },
+    {
+     "w": "square,",
+     "start": 186.25,
+     "end": 186.875
+    },
+    {
+     "w": "and",
+     "start": 186.875,
+     "end": 187.5
+    },
+    {
+     "w": "triangle,",
+     "start": 187.5,
+     "end": 190.0
+    }
+   ]
+  },
+  {
+   "text": "Let's find shapes, come sing along!",
+   "start": 190.0,
+   "end": 195.0,
+   "words": [
+    {
+     "w": "Let's",
+     "start": 190.0,
+     "end": 190.625
+    },
+    {
+     "w": "find",
+     "start": 190.625,
+     "end": 191.25
+    },
+    {
+     "w": "shapes,",
+     "start": 191.25,
+     "end": 191.875
+    },
+    {
+     "w": "come",
+     "start": 191.875,
+     "end": 192.5
+    },
+    {
+     "w": "sing",
+     "start": 192.5,
+     "end": 193.125
+    },
+    {
+     "w": "along!",
+     "start": 193.125,
+     "end": 195.0
+    }
+   ]
+  },
+  {
+   "text": "What shape is a clock?",
+   "start": 195.0,
+   "end": 198.75,
+   "words": [
+    {
+     "w": "What",
+     "start": 195.0,
+     "end": 195.625
+    },
+    {
+     "w": "shape",
+     "start": 195.625,
+     "end": 196.25
+    },
+    {
+     "w": "is",
+     "start": 196.25,
+     "end": 196.875
+    },
+    {
+     "w": "a",
+     "start": 196.875,
+     "end": 197.5
+    },
+    {
+     "w": "clock?",
+     "start": 197.5,
+     "end": 198.75
+    }
+   ]
+  },
+  {
+   "text": "A circle!",
+   "start": 202.5,
+   "end": 204.375,
+   "words": [
+    {
+     "w": "A",
+     "start": 202.5,
+     "end": 203.125
+    },
+    {
+     "w": "circle!",
+     "start": 203.125,
+     "end": 204.375
+    }
+   ]
+  },
+  {
+   "text": "What shape is a pizza slice?",
+   "start": 205.0,
+   "end": 208.75,
+   "words": [
+    {
+     "w": "What",
+     "start": 205.0,
+     "end": 205.625
+    },
+    {
+     "w": "shape",
+     "start": 205.625,
+     "end": 206.25
+    },
+    {
+     "w": "is",
+     "start": 206.25,
+     "end": 206.875
+    },
+    {
+     "w": "a",
+     "start": 206.875,
+     "end": 207.5
+    },
+    {
+     "w": "pizza",
+     "start": 207.5,
+     "end": 208.125
+    },
+    {
+     "w": "slice?",
+     "start": 208.125,
+     "end": 208.75
+    }
+   ]
+  },
+  {
+   "text": "A triangle!",
+   "start": 212.5,
+   "end": 215.0,
+   "words": [
+    {
+     "w": "A",
+     "start": 212.5,
+     "end": 213.125
+    },
+    {
+     "w": "triangle!",
+     "start": 213.125,
+     "end": 215.0
+    }
+   ]
+  },
+  {
+   "text": "What shape is a window?",
+   "start": 215.0,
+   "end": 218.75,
+   "words": [
+    {
+     "w": "What",
+     "start": 215.0,
+     "end": 215.625
+    },
+    {
+     "w": "shape",
+     "start": 215.625,
+     "end": 216.25
+    },
+    {
+     "w": "is",
+     "start": 216.25,
+     "end": 216.875
+    },
+    {
+     "w": "a",
+     "start": 216.875,
+     "end": 217.5
+    },
+    {
+     "w": "window?",
+     "start": 217.5,
+     "end": 218.75
+    }
+   ]
+  },
+  {
+   "text": "A square!",
+   "start": 222.5,
+   "end": 223.75,
+   "words": [
+    {
+     "w": "A",
+     "start": 222.5,
+     "end": 223.125
+    },
+    {
+     "w": "square!",
+     "start": 223.125,
+     "end": 223.75
+    }
+   ]
+  },
+  {
+   "text": "What shape is a door?",
+   "start": 225.0,
+   "end": 228.75,
+   "words": [
+    {
+     "w": "What",
+     "start": 225.0,
+     "end": 225.625
+    },
+    {
+     "w": "shape",
+     "start": 225.625,
+     "end": 226.25
+    },
+    {
+     "w": "is",
+     "start": 226.25,
+     "end": 226.875
+    },
+    {
+     "w": "a",
+     "start": 226.875,
+     "end": 227.5
+    },
+    {
+     "w": "door?",
+     "start": 227.5,
+     "end": 228.75
+    }
+   ]
+  },
+  {
+   "text": "A rectangle!",
+   "start": 232.5,
+   "end": 235.0,
+   "words": [
+    {
+     "w": "A",
+     "start": 232.5,
+     "end": 233.125
+    },
+    {
+     "w": "rectangle!",
+     "start": 233.125,
+     "end": 235.0
+    }
+   ]
+  },
+  {
+   "text": "What shape is an egg?",
+   "start": 235.0,
+   "end": 238.75,
+   "words": [
+    {
+     "w": "What",
+     "start": 235.0,
+     "end": 235.625
+    },
+    {
+     "w": "shape",
+     "start": 235.625,
+     "end": 236.25
+    },
+    {
+     "w": "is",
+     "start": 236.25,
+     "end": 236.875
+    },
+    {
+     "w": "an",
+     "start": 236.875,
+     "end": 237.5
+    },
+    {
+     "w": "egg?",
+     "start": 237.5,
+     "end": 238.75
+    }
+   ]
+  },
+  {
+   "text": "An oval!",
+   "start": 242.5,
+   "end": 244.375,
+   "words": [
+    {
+     "w": "An",
+     "start": 242.5,
+     "end": 243.125
+    },
+    {
+     "w": "oval!",
+     "start": 243.125,
+     "end": 244.375
+    }
+   ]
+  },
+  {
+   "text": "What shape is a kite?",
+   "start": 245.0,
+   "end": 248.75,
+   "words": [
+    {
+     "w": "What",
+     "start": 245.0,
+     "end": 245.625
+    },
+    {
+     "w": "shape",
+     "start": 245.625,
+     "end": 246.25
+    },
+    {
+     "w": "is",
+     "start": 246.25,
+     "end": 246.875
+    },
+    {
+     "w": "a",
+     "start": 246.875,
+     "end": 247.5
+    },
+    {
+     "w": "kite?",
+     "start": 247.5,
+     "end": 248.75
+    }
+   ]
+  },
+  {
+   "text": "A diamond!",
+   "start": 252.5,
+   "end": 254.375,
+   "words": [
+    {
+     "w": "A",
+     "start": 252.5,
+     "end": 253.125
+    },
+    {
+     "w": "diamond!",
+     "start": 253.125,
+     "end": 254.375
+    }
+   ]
+  },
+  {
+   "text": "Shapes, shapes, all around the town!",
+   "start": 275.0,
+   "end": 280.0,
+   "words": [
+    {
+     "w": "Shapes,",
+     "start": 275.0,
+     "end": 275.625
+    },
+    {
+     "w": "shapes,",
+     "start": 275.625,
+     "end": 276.25
+    },
+    {
+     "w": "all",
+     "start": 276.25,
+     "end": 276.875
+    },
+    {
+     "w": "around",
+     "start": 276.875,
+     "end": 278.125
+    },
+    {
+     "w": "the",
+     "start": 278.125,
+     "end": 278.75
+    },
+    {
+     "w": "town!",
+     "start": 278.75,
+     "end": 280.0
+    }
+   ]
+  },
+  {
+   "text": "Round and pointy, up and down!",
+   "start": 280.0,
+   "end": 285.0,
+   "words": [
+    {
+     "w": "Round",
+     "start": 280.0,
+     "end": 280.625
+    },
+    {
+     "w": "and",
+     "start": 280.625,
+     "end": 281.25
+    },
+    {
+     "w": "pointy,",
+     "start": 281.25,
+     "end": 282.5
+    },
+    {
+     "w": "up",
+     "start": 282.5,
+     "end": 283.125
+    },
+    {
+     "w": "and",
+     "start": 283.125,
+     "end": 283.75
+    },
+    {
+     "w": "down!",
+     "start": 283.75,
+     "end": 285.0
+    }
+   ]
+  },
+  {
+   "text": "Circle, square, and triangle,",
+   "start": 285.0,
+   "end": 290.0,
+   "words": [
+    {
+     "w": "Circle,",
+     "start": 285.0,
+     "end": 286.25
+    },
+    {
+     "w": "square,",
+     "start": 286.25,
+     "end": 286.875
+    },
+    {
+     "w": "and",
+     "start": 286.875,
+     "end": 287.5
+    },
+    {
+     "w": "triangle,",
+     "start": 287.5,
+     "end": 290.0
+    }
+   ]
+  },
+  {
+   "text": "Let's find shapes, come sing along!",
+   "start": 290.0,
+   "end": 295.0,
+   "words": [
+    {
+     "w": "Let's",
+     "start": 290.0,
+     "end": 290.625
+    },
+    {
+     "w": "find",
+     "start": 290.625,
+     "end": 291.25
+    },
+    {
+     "w": "shapes,",
+     "start": 291.25,
+     "end": 291.875
+    },
+    {
+     "w": "come",
+     "start": 291.875,
+     "end": 292.5
+    },
+    {
+     "w": "sing",
+     "start": 292.5,
+     "end": 293.125
+    },
+    {
+     "w": "along!",
+     "start": 293.125,
+     "end": 295.0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,447 @@
+{
+  "master": "remotion/out/KidsStories029-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsStories029-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/stories/day-029-bobo-learns-to-clean-his-room/output/day-029-sfx.mp4",
+    "end_s": 303.5,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0.05,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsStories029",
+      "cue": "title"
+    },
+    {
+      "at_s": 8.0,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsStories029",
+      "cue": "what a mess"
+    },
+    {
+      "at_s": 17.31,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsStories029",
+      "cue": "spy timer"
+    },
+    {
+      "at_s": 21.01,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsStories029",
+      "cue": "spy_a"
+    },
+    {
+      "at_s": 25.17,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsStories029",
+      "cue": "spy2 timer"
+    },
+    {
+      "at_s": 28.87,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsStories029",
+      "cue": "spy2_a"
+    },
+    {
+      "at_s": 36.25,
+      "sfx_id": "impact-soft",
+      "gain_db": -12,
+      "shot": "KidsStories029",
+      "cue": "knock"
+    },
+    {
+      "at_s": 36.7,
+      "sfx_id": "impact-soft",
+      "gain_db": -12,
+      "shot": "KidsStories029",
+      "cue": "knock 2"
+    },
+    {
+      "at_s": 37.15,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -16,
+      "shot": "KidsStories029",
+      "cue": "door"
+    },
+    {
+      "at_s": 50.7,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -12,
+      "shot": "KidsStories029",
+      "cue": "swish"
+    },
+    {
+      "at_s": 51.3,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -13,
+      "shot": "KidsStories029",
+      "cue": "swoosh"
+    },
+    {
+      "at_s": 53.6,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -13,
+      "shot": "KidsStories029",
+      "cue": "tada"
+    },
+    {
+      "at_s": 57.53,
+      "sfx_id": "pop-reveal",
+      "gain_db": -11,
+      "shot": "KidsStories029",
+      "cue": "boing"
+    },
+    {
+      "at_s": 57.94,
+      "sfx_id": "pop-reveal",
+      "gain_db": -11,
+      "shot": "KidsStories029",
+      "cue": "boing"
+    },
+    {
+      "at_s": 58.34,
+      "sfx_id": "pop-reveal",
+      "gain_db": -11,
+      "shot": "KidsStories029",
+      "cue": "boing"
+    },
+    {
+      "at_s": 70.99,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsStories029",
+      "cue": "ask1 timer"
+    },
+    {
+      "at_s": 86.79,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsStories029",
+      "cue": "toy 0"
+    },
+    {
+      "at_s": 87.08,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsStories029",
+      "cue": "toy 1"
+    },
+    {
+      "at_s": 87.36,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsStories029",
+      "cue": "toy 2"
+    },
+    {
+      "at_s": 102.61,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsStories029",
+      "cue": "book 0"
+    },
+    {
+      "at_s": 102.9,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsStories029",
+      "cue": "book 1"
+    },
+    {
+      "at_s": 103.19,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsStories029",
+      "cue": "book 2"
+    },
+    {
+      "at_s": 118.27,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsStories029",
+      "cue": "sock"
+    },
+    {
+      "at_s": 118.96,
+      "sfx_id": "pop-reveal",
+      "gain_db": -13,
+      "shot": "KidsStories029",
+      "cue": "shirt"
+    },
+    {
+      "at_s": 125.12,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsStories029",
+      "cue": "guess timer"
+    },
+    {
+      "at_s": 128.32,
+      "sfx_id": "chime-magic",
+      "gain_db": -11,
+      "shot": "KidsStories029",
+      "cue": "ball found"
+    },
+    {
+      "at_s": 144.05,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -13,
+      "shot": "KidsStories029",
+      "cue": "clean"
+    },
+    {
+      "at_s": 147.61,
+      "sfx_id": "chime-reward",
+      "gain_db": -13,
+      "shot": "KidsStories029",
+      "cue": "hooray"
+    },
+    {
+      "at_s": 152.95,
+      "sfx_id": "impact-soft",
+      "gain_db": -17,
+      "shot": "KidsStories029",
+      "cue": "catch"
+    },
+    {
+      "at_s": 154.1,
+      "sfx_id": "impact-soft",
+      "gain_db": -17,
+      "shot": "KidsStories029",
+      "cue": "catch"
+    },
+    {
+      "at_s": 155.25,
+      "sfx_id": "impact-soft",
+      "gain_db": -17,
+      "shot": "KidsStories029",
+      "cue": "catch"
+    },
+    {
+      "at_s": 156.4,
+      "sfx_id": "impact-soft",
+      "gain_db": -17,
+      "shot": "KidsStories029",
+      "cue": "catch"
+    },
+    {
+      "at_s": 157.55,
+      "sfx_id": "impact-soft",
+      "gain_db": -17,
+      "shot": "KidsStories029",
+      "cue": "catch"
+    },
+    {
+      "at_s": 158.52,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -12,
+      "shot": "KidsStories029",
+      "cue": "messy again"
+    },
+    {
+      "at_s": 165.24,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsStories029",
+      "cue": "ask2 timer"
+    },
+    {
+      "at_s": 168.54,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsStories029",
+      "cue": "we tidy up"
+    },
+    {
+      "at_s": 175.22,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsStories029",
+      "cue": "race 10"
+    },
+    {
+      "at_s": 175.68,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsStories029",
+      "cue": "race 9"
+    },
+    {
+      "at_s": 176.25,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsStories029",
+      "cue": "race 8"
+    },
+    {
+      "at_s": 176.71,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsStories029",
+      "cue": "race 7"
+    },
+    {
+      "at_s": 177.39,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsStories029",
+      "cue": "race 6"
+    },
+    {
+      "at_s": 177.96,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsStories029",
+      "cue": "race 5"
+    },
+    {
+      "at_s": 178.53,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsStories029",
+      "cue": "race 4"
+    },
+    {
+      "at_s": 179.1,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsStories029",
+      "cue": "race 3"
+    },
+    {
+      "at_s": 179.68,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsStories029",
+      "cue": "race 2"
+    },
+    {
+      "at_s": 180.13,
+      "sfx_id": "pop-reveal",
+      "gain_db": -15,
+      "shot": "KidsStories029",
+      "cue": "race 1"
+    },
+    {
+      "at_s": 181.47,
+      "sfx_id": "chime-reward",
+      "gain_db": -12,
+      "shot": "KidsStories029",
+      "cue": "done"
+    },
+    {
+      "at_s": 228.56,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsStories029",
+      "cue": "q1 timer"
+    },
+    {
+      "at_s": 232.86,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsStories029",
+      "cue": "a1"
+    },
+    {
+      "at_s": 236.99,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsStories029",
+      "cue": "q2 timer"
+    },
+    {
+      "at_s": 241.29,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsStories029",
+      "cue": "a2"
+    },
+    {
+      "at_s": 245.46,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsStories029",
+      "cue": "q3 timer"
+    },
+    {
+      "at_s": 249.76,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsStories029",
+      "cue": "a3"
+    },
+    {
+      "at_s": 254.21,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsStories029",
+      "cue": "q4 timer"
+    },
+    {
+      "at_s": 258.51,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsStories029",
+      "cue": "a4"
+    },
+    {
+      "at_s": 262.98,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsStories029",
+      "cue": "q5 timer"
+    },
+    {
+      "at_s": 267.28,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsStories029",
+      "cue": "a5"
+    },
+    {
+      "at_s": 271.87,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsStories029",
+      "cue": "q6 timer"
+    },
+    {
+      "at_s": 276.17,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsStories029",
+      "cue": "a6"
+    },
+    {
+      "at_s": 281.05,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsStories029",
+      "cue": "why timer"
+    },
+    {
+      "at_s": 285.35,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsStories029",
+      "cue": "why_a"
+    },
+    {
+      "at_s": 293.85,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -13,
+      "shot": "KidsStories029",
+      "cue": "bye"
+    }
+  ]
+}

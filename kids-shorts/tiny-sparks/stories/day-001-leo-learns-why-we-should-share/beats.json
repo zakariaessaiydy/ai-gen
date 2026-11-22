@@ -1,0 +1,605 @@
+{
+  "id": "day-001",
+  "series": "tiny-sparks",
+  "episode": 1,
+  "title": "Leo Learns Why We Should Share",
+  "composition": "KidsStories001",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 42.0
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-8%"
+    }
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "narrator",
+      "start": 0.2,
+      "end": 1.83,
+      "text": "Leo has a brand new ball!",
+      "words": [
+        {
+          "w": "Leo",
+          "start": 0.28,
+          "end": 0.584
+        },
+        {
+          "w": "has",
+          "start": 0.584,
+          "end": 0.787
+        },
+        {
+          "w": "a",
+          "start": 0.787,
+          "end": 0.939
+        },
+        {
+          "w": "brand",
+          "start": 0.939,
+          "end": 1.244
+        },
+        {
+          "w": "new",
+          "start": 1.244,
+          "end": 1.446
+        },
+        {
+          "w": "ball!",
+          "start": 1.446,
+          "end": 1.7
+        }
+      ]
+    },
+    {
+      "beat": "hook",
+      "speaker": "leo",
+      "start": 2.19,
+      "end": 3.7,
+      "text": "It's mine! All mine!",
+      "words": [
+        {
+          "w": "It's",
+          "start": 2.22,
+          "end": 2.432
+        },
+        {
+          "w": "mine!",
+          "start": 2.432,
+          "end": 2.785
+        },
+        {
+          "w": "All",
+          "start": 2.785,
+          "end": 3.067
+        },
+        {
+          "w": "mine!",
+          "start": 3.067,
+          "end": 3.42
+        }
+      ]
+    },
+    {
+      "beat": "want",
+      "speaker": "mila",
+      "start": 4.0,
+      "end": 5.32,
+      "text": "Can we play too?",
+      "words": [
+        {
+          "w": "Can",
+          "start": 4.019,
+          "end": 4.305
+        },
+        {
+          "w": "we",
+          "start": 4.305,
+          "end": 4.518
+        },
+        {
+          "w": "play",
+          "start": 4.518,
+          "end": 4.876
+        },
+        {
+          "w": "too?",
+          "start": 4.876,
+          "end": 5.161
+        }
+      ]
+    },
+    {
+      "beat": "want",
+      "speaker": "bobo",
+      "start": 5.41,
+      "end": 6.08,
+      "text": "Pleeease?",
+      "words": [
+        {
+          "w": "Pleeease?",
+          "start": 5.45,
+          "end": 5.99
+        }
+      ]
+    },
+    {
+      "beat": "try",
+      "speaker": "leo",
+      "start": 6.49,
+      "end": 8.24,
+      "text": "No! I'll play by myself.",
+      "words": [
+        {
+          "w": "No!",
+          "start": 6.52,
+          "end": 6.767
+        },
+        {
+          "w": "I'll",
+          "start": 6.767,
+          "end": 6.952
+        },
+        {
+          "w": "play",
+          "start": 6.952,
+          "end": 7.26
+        },
+        {
+          "w": "by",
+          "start": 7.26,
+          "end": 7.507
+        },
+        {
+          "w": "myself.",
+          "start": 7.507,
+          "end": 8.0
+        }
+      ]
+    },
+    {
+      "beat": "oops",
+      "speaker": "leo",
+      "start": 11.03,
+      "end": 12.97,
+      "text": "Hmm... playing alone is boring.",
+      "words": [
+        {
+          "w": "Hmm...",
+          "start": 11.06,
+          "end": 11.252
+        },
+        {
+          "w": "playing",
+          "start": 11.252,
+          "end": 11.7
+        },
+        {
+          "w": "alone",
+          "start": 11.7,
+          "end": 12.084
+        },
+        {
+          "w": "is",
+          "start": 12.084,
+          "end": 12.212
+        },
+        {
+          "w": "boring.",
+          "start": 12.212,
+          "end": 12.66
+        }
+      ]
+    },
+    {
+      "beat": "oops",
+      "speaker": "narrator",
+      "start": 13.19,
+      "end": 15.68,
+      "text": "Leo feels lonely. What can Leo do?",
+      "words": [
+        {
+          "w": "Leo",
+          "start": 13.27,
+          "end": 13.614
+        },
+        {
+          "w": "feels",
+          "start": 13.614,
+          "end": 13.958
+        },
+        {
+          "w": "lonely.",
+          "start": 13.958,
+          "end": 14.36
+        },
+        {
+          "w": "What",
+          "start": 14.66,
+          "end": 14.869
+        },
+        {
+          "w": "can",
+          "start": 14.869,
+          "end": 15.078
+        },
+        {
+          "w": "Leo",
+          "start": 15.078,
+          "end": 15.391
+        },
+        {
+          "w": "do?",
+          "start": 15.391,
+          "end": 15.6
+        }
+      ]
+    },
+    {
+      "beat": "learn",
+      "speaker": "mila",
+      "start": 17.86,
+      "end": 20.18,
+      "text": "Let's share! First, ask: want to play?",
+      "words": [
+        {
+          "w": "Let's",
+          "start": 17.89,
+          "end": 18.228
+        },
+        {
+          "w": "share!",
+          "start": 18.228,
+          "end": 18.498
+        },
+        {
+          "w": "First,",
+          "start": 18.498,
+          "end": 18.902
+        },
+        {
+          "w": "ask:",
+          "start": 18.902,
+          "end": 19.172
+        },
+        {
+          "w": "want",
+          "start": 19.172,
+          "end": 19.51
+        },
+        {
+          "w": "to",
+          "start": 19.51,
+          "end": 19.713
+        },
+        {
+          "w": "play?",
+          "start": 19.713,
+          "end": 20.05
+        }
+      ]
+    },
+    {
+      "beat": "learn",
+      "speaker": "leo",
+      "start": 20.79,
+      "end": 22.15,
+      "text": "Want to play with me?",
+      "words": [
+        {
+          "w": "Want",
+          "start": 20.82,
+          "end": 21.095
+        },
+        {
+          "w": "to",
+          "start": 21.095,
+          "end": 21.26
+        },
+        {
+          "w": "play",
+          "start": 21.26,
+          "end": 21.535
+        },
+        {
+          "w": "with",
+          "start": 21.535,
+          "end": 21.7
+        },
+        {
+          "w": "me?",
+          "start": 21.7,
+          "end": 21.92
+        }
+      ]
+    },
+    {
+      "beat": "learn",
+      "speaker": "bobo",
+      "start": 22.39,
+      "end": 23.17,
+      "text": "Yes! Yay!",
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 22.43,
+          "end": 22.75
+        },
+        {
+          "w": "Yay!",
+          "start": 22.75,
+          "end": 23.07
+        }
+      ]
+    },
+    {
+      "beat": "learn",
+      "speaker": "mila",
+      "start": 23.8,
+      "end": 25.31,
+      "text": "Next, take turns!",
+      "words": [
+        {
+          "w": "Next,",
+          "start": 23.86,
+          "end": 24.326
+        },
+        {
+          "w": "take",
+          "start": 24.326,
+          "end": 24.714
+        },
+        {
+          "w": "turns!",
+          "start": 24.714,
+          "end": 25.18
+        }
+      ]
+    },
+    {
+      "beat": "doit",
+      "speaker": "leo",
+      "start": 27.01,
+      "end": 28.39,
+      "text": "Your turn, Bobo!",
+      "words": [
+        {
+          "w": "Your",
+          "start": 27.039,
+          "end": 27.258
+        },
+        {
+          "w": "turn,",
+          "start": 27.258,
+          "end": 27.623
+        },
+        {
+          "w": "Bobo!",
+          "start": 27.623,
+          "end": 28.134
+        }
+      ]
+    },
+    {
+      "beat": "doit",
+      "speaker": "bobo",
+      "start": 28.49,
+      "end": 29.43,
+      "text": "Thank you, Leo!",
+      "words": [
+        {
+          "w": "Thank",
+          "start": 28.51,
+          "end": 28.796
+        },
+        {
+          "w": "you,",
+          "start": 28.796,
+          "end": 28.967
+        },
+        {
+          "w": "Leo!",
+          "start": 28.967,
+          "end": 29.31
+        }
+      ]
+    },
+    {
+      "beat": "doit",
+      "speaker": "narrator",
+      "start": 30.09,
+      "end": 31.51,
+      "text": "Then, play together!",
+      "words": [
+        {
+          "w": "Then,",
+          "start": 30.14,
+          "end": 30.455
+        },
+        {
+          "w": "play",
+          "start": 30.455,
+          "end": 30.849
+        },
+        {
+          "w": "together!",
+          "start": 30.849,
+          "end": 31.4
+        }
+      ]
+    },
+    {
+      "beat": "celebrate",
+      "speaker": "leo",
+      "start": 33.71,
+      "end": 35.2,
+      "text": "Sharing is more fun!",
+      "words": [
+        {
+          "w": "Sharing",
+          "start": 33.74,
+          "end": 34.156
+        },
+        {
+          "w": "is",
+          "start": 34.156,
+          "end": 34.295
+        },
+        {
+          "w": "more",
+          "start": 34.295,
+          "end": 34.642
+        },
+        {
+          "w": "fun!",
+          "start": 34.642,
+          "end": 34.92
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "narrator",
+      "start": 35.55,
+      "end": 37.61,
+      "text": "Ask. Take turns. Play together!",
+      "words": [
+        {
+          "w": "Ask.",
+          "start": 35.61,
+          "end": 35.884
+        },
+        {
+          "w": "Take",
+          "start": 35.884,
+          "end": 36.227
+        },
+        {
+          "w": "turns.",
+          "start": 36.227,
+          "end": 36.638
+        },
+        {
+          "w": "Play",
+          "start": 36.638,
+          "end": 36.98
+        },
+        {
+          "w": "together!",
+          "start": 36.98,
+          "end": 37.46
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 38.4,
+      "end": 40.12,
+      "text": "Who will you share with today?",
+      "words": [
+        {
+          "w": "Who",
+          "start": 38.44,
+          "end": 38.705
+        },
+        {
+          "w": "will",
+          "start": 38.705,
+          "end": 38.97
+        },
+        {
+          "w": "you",
+          "start": 38.97,
+          "end": 39.169
+        },
+        {
+          "w": "share",
+          "start": 39.169,
+          "end": 39.434
+        },
+        {
+          "w": "with",
+          "start": 39.434,
+          "end": 39.632
+        },
+        {
+          "w": "today?",
+          "start": 39.632,
+          "end": 40.03
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "visual": "NARRATOR: Leo has a brand new ball! / LEO: It's mine! All mine!",
+      "end": 3.9
+    },
+    {
+      "id": "want",
+      "start": 3.9,
+      "visual": "MILA: Can we play too? / BOBO: Pleeease?",
+      "end": 6.39
+    },
+    {
+      "id": "try",
+      "start": 6.39,
+      "visual": "LEO: No! I'll play by myself.",
+      "end": 10.93
+    },
+    {
+      "id": "oops",
+      "start": 10.93,
+      "visual": "LEO: Hmm... playing alone is boring. / NARRATOR: Leo feels lonely. What can Leo do?",
+      "end": 17.76
+    },
+    {
+      "id": "learn",
+      "start": 17.76,
+      "visual": "MILA: Let's share! First, ask: want to play? / LEO: Want to play with me? / BOBO: Yes! Yay! / MILA: Next, take turns!",
+      "end": 26.91
+    },
+    {
+      "id": "doit",
+      "start": 26.91,
+      "visual": "LEO: Your turn, Bobo! / BOBO: Thank you, Leo! / NARRATOR: Then, play together!",
+      "end": 33.61
+    },
+    {
+      "id": "celebrate",
+      "start": 33.61,
+      "visual": "LEO: Sharing is more fun!",
+      "end": 35.45
+    },
+    {
+      "id": "recap",
+      "start": 35.45,
+      "visual": "NARRATOR: Ask. Take turns. Play together! / MILA: Who will you share with today?",
+      "end": 41.98
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

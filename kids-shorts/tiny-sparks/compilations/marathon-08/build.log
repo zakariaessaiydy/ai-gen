@@ -1,0 +1,274 @@
+  . composition: remotion\src\shots\kids-puzzles-062\KidsPuzzles062.tsx
+  . vo: 71 lines with REAL word times (captions are word-exact)
+  . sfx: 88 cues
+  ! beats.json: format is 1920x1080, not 1080x1920
+
+0 error(s), 1 warning(s)
+build day-062  [KidsPuzzles062]  338.3s  scale=1
+stages: gen -> voice -> render -> mux -> sfx -> music
+
+preflight:
+
+$ node scripts/gen-registry.mjs
+gen-registry: 175 shot(s) -> registry.gen.tsx (unchanged)
+  - Ai1Door  1080x1920@30 36.4s
+  - Bro01Business  1080x1920@30 39.4s
+  - Bro025am  1080x1920@30 39.8s
+  - Bro03Gym  1080x1920@30 34.4s
+  - Bro04Cook  1080x1920@30 38s
+  - Bro05Crypto  1080x1920@30 34.7s
+  - Bro06Wifi  1080x1920@30 36.7s
+  - Bro07Diet  1080x1920@30 35.8s
+  - Bro08Gps  1080x1920@30 38.2s
+  - Bro09Dj  1080x1920@30 34.7s
+  - Bro10Pigeon  1080x1920@30 29.8s
+  - Bro11Coach  1080x1920@30 36.6s
+  - Bro12Receipt  1080x1920@30 34.8s
+  - KidsAnimals004  1920x1080@30 299.9s
+  - KidsAnimals011  1920x1080@30 253.6s
+  - KidsAnimals018  1920x1080@30 215.9s
+  - KidsAnimals025  1920x1080@30 309.3s
+  - KidsAnimals032  1920x1080@30 307.3s
+  - KidsAnimals039  1920x1080@30 301.2s
+  - KidsAnimals046  1920x1080@30 306.9s
+  - KidsAnimals053  1920x1080@30 303.3s
+  - KidsAnimals060  1920x1080@30 300.6s
+  - KidsAnimals067  1920x1080@30 350s
+  - KidsAnimals081  1920x1080@30 359.6s
+  - KidsMarathonIntro  1920x1080@30 9s
+  - KidsMarathonIntro02  1920x1080@30 9s
+  - KidsMarathonIntro02P3  1920x1080@30 9s
+  - KidsMarathonIntro03  1920x1080@30 9s
+  - KidsMarathonIntro04  1920x1080@30 9s
+  - KidsMarathonIntro05  1920x1080@30 9s
+  - KidsMarathonIntro06  1920x1080@30 9s
+  - KidsMarathonIntro07  1920x1080@30 9s
+  - KidsMarathonIntro08  1920x1080@30 9s
+  - KidsMarathonIntroMega  1920x1080@30 9s
+  - KidsMarathonIntroP2  1920x1080@30 9s
+  - KidsMarathonIntroP3  1920x1080@30 9s
+  - KidsHeroesSheet  1920x1080@30 2s
+  - KidsActingDemo  1920x1080@30 16.5s
+  - KidsEnergyCardAfter  1920x1080@30 2.6s
+  - KidsEnergyCardBefore  1920x1080@30 2.2s
+  - KidsEnergyDemo  1920x1080@30 41.4s
+  - KidsLooksDemo  1920x1080@30 18s
+  - KidsSmoothDemo  1920x1080@30 12.5s
+  - KidsMorals008  1920x1080@30 177.3s
+  - KidsMorals022  1920x1080@30 156.9s
+  - KidsMorals036  1920x1080@30 306.6s
+  - KidsMorals050  1920x1080@30 303.8s
+  - KidsMorals064  1920x1080@30 308.1s
+  - KidsNumbers002  1080x1920@30 47.2s
+  - KidsNumbers009  1080x1920@30 77.4s
+  - KidsNumbers016  1080x1920@30 63s
+  - KidsNumbers023  1080x1920@30 66.8s
+  - KidsNumbers030  1080x1920@30 85.6s
+  - KidsNumbers037  1920x1080@30 359.45s
+  - KidsNumbers044  1080x1920@30 88.6s
+  - KidsNumbers051  1920x1080@30 300.3s
+  - KidsNumbers058  1920x1080@30 303.3s
+  - KidsNumbers065  1920x1080@30 317.9s
+  - KidsPuzzles006  1080x1920@30 84.6s
+  - KidsPuzzles013  1080x1920@30 88.1s
+  - KidsPuzzles020  1080x1920@30 90s
+  - KidsPuzzles027  1080x1920@30 98.2s
+  - KidsPuzzles034  1080x1920@30 101.3s
+  - KidsPuzzles041  1080x1920@30 92.2s
+  - KidsPuzzles048  1920x1080@30 313.9s
+  - KidsPuzzles055  1920x1080@30 326.8s
+  - KidsPuzzles062  1920x1080@30 338.3s
+  - KidsScience005  1080x1920@30 75.1s
+  - KidsScience012  1080x1920@30 79.8s
+  - KidsScience019  1080x1920@30 75.5s
+  - KidsScience026  1080x1920@30 112s
+  - KidsScience033  1080x1920@30 110.5s
+  - KidsScience040  1080x1920@30 102.5s
+  - KidsScience047  1920x1080@30 305s
+  - KidsScience054  1920x1080@30 302.4s
+  - KidsScience061  1920x1080@30 318.1s
+  - KidsScience068  1920x1080@30 350.9s
+  - KidsChannelBanner  2560x1440@30 1s
+  - KidsChannelLogo  800x800@30 1s
+  - KidsDinoSheet  1920x1080@30 2s
+  - KidsFarmSheet  1920x1080@30 2s
+  - KidsKitDemo  1080x1920@30 12s
+  - KidsModelSheet  1080x1920@30 2s
+  - KidsPlacesBoard  1920x1080@30 4s
+  - KidsPlacesBoardTall  1920x1080@30 4s
+  - KidsStyleBoard  1920x1080@30 2s
+  - KidsStyleBoardTall  1920x1080@30 4s
+  - KidsWardrobeSheet  1080x1920@30 2s
+  - KidsShortCards  1080x1920@30 10s
+  - KidsSongs007  1920x1080@30 154.86s
+  - KidsSongs014  1920x1080@30 127.75s
+  - KidsSongs021  1920x1080@30 184.4s
+  - KidsSongs028  1920x1080@30 293.57s
+  - KidsSongs035  1920x1080@30 302s
+  - KidsSongs042  1920x1080@30 298.85s
+  - KidsSongs049  1920x1080@30 334.35s
+  - KidsSongs056  1920x1080@30 304.36s
+  - KidsStories001  1080x1920@30 42s
+  - KidsStories015  1920x1080@30 171.4s
+  - KidsStories029  1920x1080@30 303.5s
+  - KidsStories043  1920x1080@30 306.8s
+  - KidsStories057  1920x1080@30 304.8s
+  - KidsStories071  1920x1080@30 336.6s
+  - KidsThumbs  1280x720@30 10s
+  - KidsWords003  1920x1080@30 118.7s
+  - KidsWords010  1920x1080@30 359s
+  - KidsWords017  1920x1080@30 351.2s
+  - KidsWords024  1080x1920@30 113s
+  - KidsWords031  1080x1920@30 131.7s
+  - KidsWords038  1080x1920@30 135.7s
+  - KidsWords045  1080x1920@30 139s
+  - KidsWords052  1920x1080@30 301.4s
+  - KidsWords059  1920x1080@30 334.2s
+  - KidsWords066  1920x1080@30 336.2s
+  - KidsWords080  1080x1920@30 86.8s
+  - Short10Fees  1080x1920@30 42s
+  - Short11Map  1080x1920@30 42s
+  - Short12Orbit  1080x1920@30 42s
+  - Short13Water  1080x1920@30 42.5s
+  - Short14Seed  1080x1920@30 42.5s
+  - Short15Sun  1080x1920@30 43s
+  - Short16Room  1080x1920@30 43s
+  - Short17Screen  1080x1920@30 43s
+  - Short18Blink  1080x1920@30 43s
+  - Short19Play  1080x1920@30 44.5s
+  - Short1Chess  1080x1920@30 42s
+  - Short20Sleep  1080x1920@30 45.5s
+  - Short21School  1080x1920@30 42s
+  - Short22Homework  1080x1920@30 43s
+  - Short23Bones  1080x1920@30 43.5s
+  - Short24Reading  1080x1920@30 43s
+  - Short25Together  1080x1920@30 43s
+  - Short26Talk  1080x1920@30 45s
+  - Short27Pairs  1080x1920@30 45s
+  - Short28Morning  1080x1920@30 42s
+  - Short29Mind  1080x1920@30 44s
+  - Short2Math  1080x1920@30 42s
+  - Short30Drink  1080x1920@30 36.5s
+  - Short31Start  1080x1920@30 42s
+  - Short32Identity  1080x1920@30 37s
+  - Short33Spend  1080x1920@30 40.5s
+  - Short34Clutter  1080x1920@30 43.5s
+  - Short35Batch  1080x1920@30 44.1s
+  - Short36Cool  1080x1920@30 44.2s
+  - Short37Reset  1080x1920@30 44.5s
+  - Short38Baskets  1080x1920@30 38.6s
+  - Short39Doorway  1080x1920@30 40.6s
+  - Short3Algo  1080x1920@30 42s
+  - Short40Launch  1080x1920@30 42s
+  - Short41Once  1080x1920@30 43.3s
+  - Short42Money  1080x1920@30 42.5s
+  - Short43Peruse  1080x1920@30 43.3s
+  - Short44Wake  1080x1920@30 44s
+  - Short45Page  1080x1920@30 43.5s
+  - Short46Shower  1080x1920@30 45s
+  - Short47Autopilot  1080x1920@30 41.6s
+  - Short48Gills  1080x1920@30 40.3s
+  - Short49Life  1080x1920@30 37.6s
+  - Short4Reflog  1080x1920@30 34s
+  - Short50Thunder  1080x1920@30 48s
+  - Short51Talk  1080x1920@30 43.5s
+  - Short52Suns  1080x1920@30 42s
+  - Short53Borders  1080x1920@30 42s
+  - Short54Fall  1080x1920@30 42s
+  - Short55Memory  1080x1920@30 40.3s
+  - Short56Freeze  1080x1920@30 47s
+  - Short5Monty  1080x1920@30 43s
+  - Short6Sheet  1080x1920@30 38s
+  - Short7Kids  1080x1920@30 55s
+  - Short8Phish  1080x1920@30 43s
+  - Short9Chords  1080x1920@30 42s
+  - BroChannelBanner  2560x1440@30 1s
+  - BroChannelLogo  800x800@30 1s
+  - BroModelSheet  1080x1920@30 2s
+  - Vox1Coffee  1080x1920@30 40.5s
+
+$ 'C:\Users\Z.ESSAIYDY\AppData\Local\Programs\Python\Python312\python.exe' 'D:\Nouveau dossier (2)\ai-gen\tools\gen_voice.py' --beats 'D:\Nouveau dossier (2)\ai-gen\kids-shorts\tiny-sparks\puzzles\day-062-find-the-hidden-star\beats.json' --engine kokoro --jobs 4 --emit-ts 'D:\Nouveau dossier (2)\ai-gen\remotion\src\shots\kids-puzzles-062\vo.gen.ts'
+line  start window   clip tempo  text
+   0   0.30   7.49   2.94  1.00  A little star is hiding! Can you find it?
+   1   7.84   2.65   1.70  1.00  Easy! It's up in the sky!
+   2  10.54   3.07   2.32  1.00  Hmm, not quite, Leo! Look again.
+   3  13.66   2.53   1.38  1.00  There! In the tree!
+   4  16.24   4.05   2.90  1.00  Yes! Star number one goes in our star jar!
+   5  20.34   4.94   3.99  1.00  Twelve little stars are hiding today. Let's find them all!
+   6  25.33   5.19   4.24  1.00  Here's a finder's trick: look up, look down, look all around!
+   7  30.57   3.38   1.83  1.00  Look up! Look down! Look all around!
+   8  34.00   7.38   2.83  1.00  Puzzle two. Where is the star hiding now?
+   9  41.43   2.37   1.42  1.00  I know! It's the sun!
+  10  43.85   4.50   3.75  1.00  Good try! But the sun is round, and a star has points.
+  11  48.40   3.57   2.42  1.00  Behind the cloud! I can see its points!
+  12  52.02   3.46   1.91  1.00  Oh! Silly me! Star number two!
+  13  55.53   8.92   4.37  1.00  Puzzle three. Flowers, flowers, flowers. Which one is the star?
+  14  64.50   4.72   3.77  1.00  That one! Flowers have round petals, but the star has five points!
+  15  69.27   3.80   2.25  1.00  One, two, three, four, five points!
+  16  73.12   9.60   5.05  1.00  Ooh! My honey pots! Is the star in my red pot, my blue pot, or my green pot?
+  17  82.77   2.14   1.19  1.00  In the red pot!
+  18  84.96   2.35   1.60  1.00  Hmm. Just honey in here. Yum!
+  19  87.36   3.68   2.53  1.00  The blue pot! A little point is peeking out!
+  20  91.09   3.08   1.53  1.00  Star number four!
+  21  94.22   8.96   4.41  1.00  Puzzle five. Circles, squares, and triangles. Find the star!
+  22 103.23   2.74   1.79  1.00  There it is, in the corner!
+  23 106.02   6.24   4.69  1.00  Circles have no points. Triangles have three. The star has five!
+  24 112.31   9.39   4.84  1.00  Puzzle six. It's night time. Lots of little moons! Where is the star?
+  25 121.75   2.72   1.77  1.00  There! It's twinkling at the top!
+  26 124.52   3.78   2.83  1.00  Yes! Star number six. Well done, Leo!
+  27 128.35   3.02   1.27  1.00  Yay! I found one!
+  28 131.42   9.21   4.66  1.00  Puzzle seven, under the sea! Fish, fish, fish. Can you find a star?
+  29 140.68   3.48   2.53  1.00  That one, on the sand! It's a sea star!
+  30 144.21   7.41   5.86  1.00  Yes! A sea star is an animal, and it lives in the sea. Some people call it a starfish!
+  31 151.67   9.58   5.03  1.00  Puzzle eight. These stars are all awake. But one star is sleepy. Which one?
+  32 161.30   3.61   2.66  1.00  That one! Its eyes are closed. Shh!
+  33 164.96   3.83   2.08  1.00  Zzz... Night night, little star.
+  34 168.84   8.84   4.29  1.00  Puzzle nine. Big stars, little stars. Find the biggest star!
+  35 177.73   3.19   2.24  1.00  That one! The big, big, biggest one!
+  36 180.97   3.45   1.70  1.00  Right! Star number nine!
+  37 184.47   8.94   4.39  1.00  Puzzle ten. Yummy cookies! One cookie is a star. Which one?
+  38 193.46   3.01   2.26  1.00  Ooh, cookies! Can I eat them? Munch, munch...
+  39 196.52   4.37   3.22  1.00  Wait, Bobo! Don't eat the star cookie! It's that one!
+  40 200.94   4.29   2.54  1.00  Oops! Star number ten. Just one little crumb?
+  41 205.28   9.13   4.58  1.00  Puzzle eleven. The bedroom! Look up, look down, look all around!
+  42 214.46   2.69   1.74  1.00  Under the bed! I looked down!
+  43 217.20   4.86   3.11  1.00  Super finding, Leo! Star number eleven.
+  44 222.11   9.86   5.31  1.00  Puzzle twelve. Everything is yellow! Lemon, banana, duck. Where is the star?
+  45 232.02   3.12   2.17  1.00  Next to the duck! The yellow star!
+  46 235.19   3.83   2.68  1.00  Twelve stars! Our star jar is full!
+  47 239.07   3.09   1.74  1.00  Wait! There's one more puzzle!
+  48 242.21  11.22   5.27  1.00  The super puzzle! In this park, three stars are hiding. Can you find all three?
+  49 253.48   2.33   1.38  1.00  One, in the tree!
+  50 255.86   2.18   1.23  1.00  Two, on the kite!
+  51 258.09   2.86   1.51  1.00  Three, in the grass, next to me!
+  52 261.00   5.99   4.24  1.00  You found them all! Fifteen stars! You are a super star finder!
+  53 267.04   2.22   1.27  1.00  Let's remember!
+  54 269.31   6.98   2.43  1.00  How many points does a star have?
+  55 276.34   2.60   1.05  1.00  Five points!
+  56 278.99   7.04   2.49  1.00  Where was the very first star hiding?
+  57 286.08   2.66   1.11  1.00  In the tree!
+  58 288.79   6.19   1.64  1.00  Which star was sleepy?
+  59 295.03   3.70   2.15  1.00  The one with closed eyes! Shh!
+  60 298.78   6.59   2.04  1.00  And what is the finder's trick?
+  61 305.42   3.74   2.19  1.00  Look up! Look down! Look all around!
+  62 309.21   2.24   1.49  1.00  Let's say it together!
+  63 311.50   1.55   1.00  1.00  Look up!
+  64 313.10   1.48   0.93  1.00  Look down!
+  65 314.63   1.71   0.96  1.00  Look all around!
+  66 316.39   2.64   1.49  1.00  And find the star!
+  67 319.08   4.53   1.98  1.00  Your turn! Look up, look down...
+  68 323.66   3.24   1.89  1.00  Look all around! Great job!
+  69 326.95   2.67   2.22  1.00  Bye bye, little star finders!
+  70 329.67   8.28   1.98  1.00  See you next time, on Tiny Sparks!
+voice track -> kids-shorts\tiny-sparks\puzzles\day-062-find-the-hidden-star\voice\voice.wav
+actual line timings + word maps written back -> kids-shorts\tiny-sparks\puzzles\day-062-find-the-hidden-star\beats.json
+VO TS module -> remotion\src\shots\kids-puzzles-062\vo.gen.ts  (unchanged)
+
+$ node scripts/render-all.mjs KidsPuzzles062 --scale=1 --concurrency=3
+bundle: cached (06d1c6c76aaa)
+  KidsPuzzles062: 0%     KidsPuzzles062: 5%     KidsPuzzles062: 10%     KidsPuzzles062: 15%     KidsPuzzles062: 20%     KidsPuzzles062: 25%     KidsPuzzles062: 30%     KidsPuzzles062: 35%     KidsPuzzles062: 40%     KidsPuzzles062: 45%     KidsPuzzles062: 50%     KidsPuzzles062: 55%     KidsPuzzles062: 60%     KidsPuzzles062: 65%     KidsPuzzles062: 70%   
+  FAILED KidsPuzzles062: FFmpeg quit with code 3221225794  The FFmpeg output was 
+done: 0 shot(s) in 1435.9s -> out/
+failed: 1 — KidsPuzzles062
+
+FAILED (1): node scripts/render-all.mjs KidsPuzzles062 --scale=1 --concurrency=3

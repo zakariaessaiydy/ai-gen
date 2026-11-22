@@ -1,0 +1,661 @@
+{
+  "master": "remotion/out/KidsScience047-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsScience047-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/science/day-047-how-does-rain-form/output/day-047-sfx.mp4",
+    "end_s": 305.0,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0,
+      "sfx_id": "tiny-sparks-jingle",
+      "gain_db": -5,
+      "shot": "KidsScience047",
+      "cue": "ident"
+    },
+    {
+      "at_s": 3.7,
+      "sfx_id": "stream-soft",
+      "gain_db": -16,
+      "shot": "KidsScience047",
+      "cue": "rain ambience",
+      "dur_s": 2.4
+    },
+    {
+      "at_s": 7.58,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -9,
+      "shot": "KidsScience047",
+      "cue": "whip"
+    },
+    {
+      "at_s": 8.417,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsScience047",
+      "cue": "bubble"
+    },
+    {
+      "at_s": 11.45,
+      "sfx_id": "kids-laugh",
+      "gain_db": -5,
+      "shot": "KidsScience047",
+      "cue": "laugh"
+    },
+    {
+      "at_s": 12.6,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -9,
+      "shot": "KidsScience047",
+      "cue": "whip"
+    },
+    {
+      "at_s": 16.882,
+      "sfx_id": "chime-magic",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "the clouds"
+    },
+    {
+      "at_s": 18.82,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -9,
+      "shot": "KidsScience047",
+      "cue": "whip"
+    },
+    {
+      "at_s": 26.346,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -4,
+      "shot": "KidsScience047",
+      "cue": "drippy pops"
+    },
+    {
+      "at_s": 26.446,
+      "sfx_id": "water-pour-glass",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "drip"
+    },
+    {
+      "at_s": 31.47,
+      "sfx_id": "kids-yay",
+      "gain_db": -4,
+      "shot": "KidsScience047",
+      "cue": "yay"
+    },
+    {
+      "at_s": 32.77,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsScience047",
+      "cue": "cut model"
+    },
+    {
+      "at_s": 33.17,
+      "sfx_id": "chime-reward",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "question 1"
+    },
+    {
+      "at_s": 39.045,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "sun warms",
+      "dur_s": 2.0
+    },
+    {
+      "at_s": 44.044,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -8,
+      "shot": "KidsScience047",
+      "cue": "float up"
+    },
+    {
+      "at_s": 45.258,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "invisible"
+    },
+    {
+      "at_s": 49.74,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "your turn"
+    },
+    {
+      "at_s": 54.458,
+      "sfx_id": "wind-soft",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "brrr",
+      "dur_s": 1.6
+    },
+    {
+      "at_s": 59.43,
+      "sfx_id": "chime-magic",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "drops gather"
+    },
+    {
+      "at_s": 61.13,
+      "sfx_id": "kids-wow",
+      "gain_db": -5,
+      "shot": "KidsScience047",
+      "cue": "a cloud"
+    },
+    {
+      "at_s": 64.99,
+      "sfx_id": "chime-reward",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "question 2"
+    },
+    {
+      "at_s": 75.37,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "bump"
+    },
+    {
+      "at_s": 76.197,
+      "sfx_id": "rubber-stretch",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "bigger"
+    },
+    {
+      "at_s": 76.542,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "bump"
+    },
+    {
+      "at_s": 76.886,
+      "sfx_id": "rubber-stretch",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "bigger"
+    },
+    {
+      "at_s": 77.231,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "bump"
+    },
+    {
+      "at_s": 77.575,
+      "sfx_id": "rubber-stretch",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "bigger"
+    },
+    {
+      "at_s": 81.134,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "bump"
+    },
+    {
+      "at_s": 85.39,
+      "sfx_id": "uh-oh",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "heavy"
+    },
+    {
+      "at_s": 90.96,
+      "sfx_id": "slide-whistle-down",
+      "gain_db": -6,
+      "shot": "KidsScience047",
+      "cue": "fall"
+    },
+    {
+      "at_s": 94.5,
+      "sfx_id": "chime-reward",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "question 3"
+    },
+    {
+      "at_s": 98.08,
+      "sfx_id": "water-pour-glass",
+      "gain_db": -6,
+      "shot": "KidsScience047",
+      "cue": "splash"
+    },
+    {
+      "at_s": 98.08,
+      "sfx_id": "impact-soft",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "splash"
+    },
+    {
+      "at_s": 100.367,
+      "sfx_id": "slide-whistle-down",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "slide"
+    },
+    {
+      "at_s": 105.173,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "grow"
+    },
+    {
+      "at_s": 108.82,
+      "sfx_id": "stream-soft",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "river",
+      "dur_s": 2.4
+    },
+    {
+      "at_s": 115.919,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "up again"
+    },
+    {
+      "at_s": 118.52,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "up"
+    },
+    {
+      "at_s": 118.762,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "cloud"
+    },
+    {
+      "at_s": 119.245,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "rain"
+    },
+    {
+      "at_s": 119.889,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "sea"
+    },
+    {
+      "at_s": 123.273,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "water cycle"
+    },
+    {
+      "at_s": 125.48,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsScience047",
+      "cue": "cut cast"
+    },
+    {
+      "at_s": 127.85,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "your turn"
+    },
+    {
+      "at_s": 130.2,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -9,
+      "shot": "KidsScience047",
+      "cue": "whip"
+    },
+    {
+      "at_s": 134.88,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -9,
+      "shot": "KidsScience047",
+      "cue": "whip"
+    },
+    {
+      "at_s": 139.74,
+      "sfx_id": "kids-wow",
+      "gain_db": -5,
+      "shot": "KidsScience047",
+      "cue": "wow"
+    },
+    {
+      "at_s": 141.34,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsScience047",
+      "cue": "cut lab"
+    },
+    {
+      "at_s": 147.836,
+      "sfx_id": "water-pour-glass",
+      "gain_db": -6,
+      "shot": "KidsScience047",
+      "cue": "pour"
+    },
+    {
+      "at_s": 148.536,
+      "sfx_id": "water-pour-glass",
+      "gain_db": -9,
+      "shot": "KidsScience047",
+      "cue": "pour"
+    },
+    {
+      "at_s": 153.017,
+      "sfx_id": "knock-solid",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "plate"
+    },
+    {
+      "at_s": 154.413,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "ice"
+    },
+    {
+      "at_s": 154.663,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "ice"
+    },
+    {
+      "at_s": 154.913,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "ice"
+    },
+    {
+      "at_s": 159.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsScience047",
+      "cue": "think",
+      "dur_s": 2.91
+    },
+    {
+      "at_s": 163.071,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "drops"
+    },
+    {
+      "at_s": 166.517,
+      "sfx_id": "water-pour-glass",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "drip"
+    },
+    {
+      "at_s": 166.758,
+      "sfx_id": "water-pour-glass",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "drip"
+    },
+    {
+      "at_s": 170.02,
+      "sfx_id": "kids-applause",
+      "gain_db": -4,
+      "shot": "KidsScience047",
+      "cue": "we made rain"
+    },
+    {
+      "at_s": 173.78,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -9,
+      "shot": "KidsScience047",
+      "cue": "whip"
+    },
+    {
+      "at_s": 175.517,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "card"
+    },
+    {
+      "at_s": 180.041,
+      "sfx_id": "uh-oh",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "not pointy"
+    },
+    {
+      "at_s": 181.859,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "round"
+    },
+    {
+      "at_s": 187.421,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "bun"
+    },
+    {
+      "at_s": 190.03,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -9,
+      "shot": "KidsScience047",
+      "cue": "whip"
+    },
+    {
+      "at_s": 192.01,
+      "sfx_id": "kids-laugh",
+      "gain_db": -4,
+      "shot": "KidsScience047",
+      "cue": "laugh"
+    },
+    {
+      "at_s": 193.91,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsScience047",
+      "cue": "cut meadow"
+    },
+    {
+      "at_s": 195.966,
+      "sfx_id": "chime-magic",
+      "gain_db": -6,
+      "shot": "KidsScience047",
+      "cue": "rainbow"
+    },
+    {
+      "at_s": 196.266,
+      "sfx_id": "kids-wow",
+      "gain_db": -4,
+      "shot": "KidsScience047",
+      "cue": "wow"
+    },
+    {
+      "at_s": 204.02,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "red"
+    },
+    {
+      "at_s": 204.311,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "orange"
+    },
+    {
+      "at_s": 204.819,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "yellow"
+    },
+    {
+      "at_s": 205.255,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "green"
+    },
+    {
+      "at_s": 205.691,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "blue"
+    },
+    {
+      "at_s": 206.272,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "purple"
+    },
+    {
+      "at_s": 212.69,
+      "sfx_id": "chime-magic",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "remember"
+    },
+    {
+      "at_s": 216.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsScience047",
+      "cue": "think",
+      "dur_s": 4.66
+    },
+    {
+      "at_s": 221.41,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "answer"
+    },
+    {
+      "at_s": 227.2,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsScience047",
+      "cue": "think",
+      "dur_s": 4.33
+    },
+    {
+      "at_s": 231.58,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "answer"
+    },
+    {
+      "at_s": 236.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsScience047",
+      "cue": "think",
+      "dur_s": 4.72
+    },
+    {
+      "at_s": 241.47,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "answer"
+    },
+    {
+      "at_s": 247.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsScience047",
+      "cue": "think",
+      "dur_s": 4.33
+    },
+    {
+      "at_s": 252.08,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "answer"
+    },
+    {
+      "at_s": 258.2,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsScience047",
+      "cue": "think",
+      "dur_s": 4.79
+    },
+    {
+      "at_s": 263.04,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "answer"
+    },
+    {
+      "at_s": 269.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsScience047",
+      "cue": "think",
+      "dur_s": 4.59
+    },
+    {
+      "at_s": 274.34,
+      "sfx_id": "ding-correct",
+      "gain_db": -10,
+      "shot": "KidsScience047",
+      "cue": "answer"
+    },
+    {
+      "at_s": 285.36,
+      "sfx_id": "kids-yay",
+      "gain_db": -4,
+      "shot": "KidsScience047",
+      "cue": "chant"
+    },
+    {
+      "at_s": 291.77,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -12,
+      "shot": "KidsScience047",
+      "cue": "your turn"
+    },
+    {
+      "at_s": 300.56,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsScience047",
+      "cue": "star iris"
+    }
+  ]
+}

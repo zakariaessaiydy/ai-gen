@@ -1,0 +1,196 @@
+{
+  "master": "remotion/out/Bro11Coach-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "notes": "Library-only. Wanted for a richer mix: grunts/strain vocal, a gym-whistle sting (gen_sfx when a key is available).",
+  "render": {
+    "preview": "remotion/out/Bro11Coach-voiced.mp4",
+    "out": "toon-shorts/bro/ep-11-coach/output/bro-11-sfx.mp4",
+    "end_s": 36.6,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 3.18,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -16,
+      "shot": "Bro11Coach",
+      "cue": "cut wide — 'You don't even work out.'"
+    },
+    {
+      "at_s": 8.01,
+      "sfx_id": "impact-soft",
+      "gain_db": -14,
+      "shot": "Bro11Coach",
+      "cue": "'Trust me' punch-in"
+    },
+    {
+      "at_s": 8.61,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -17,
+      "shot": "Bro11Coach",
+      "cue": "sparkles"
+    },
+    {
+      "at_s": 10.94,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -14,
+      "shot": "Bro11Coach",
+      "cue": "Dee drops — dust cloud"
+    },
+    {
+      "at_s": 11.14,
+      "sfx_id": "knock-solid",
+      "gain_db": -18,
+      "shot": "Bro11Coach",
+      "cue": "push-up blur 1"
+    },
+    {
+      "at_s": 11.4,
+      "sfx_id": "knock-solid",
+      "gain_db": -18,
+      "shot": "Bro11Coach",
+      "cue": "push-up blur 2"
+    },
+    {
+      "at_s": 11.66,
+      "sfx_id": "knock-solid",
+      "gain_db": -18,
+      "shot": "Bro11Coach",
+      "cue": "push-up blur 3"
+    },
+    {
+      "at_s": 11.92,
+      "sfx_id": "knock-solid",
+      "gain_db": -18,
+      "shot": "Bro11Coach",
+      "cue": "push-up blur 4"
+    },
+    {
+      "at_s": 12.18,
+      "sfx_id": "knock-solid",
+      "gain_db": -18,
+      "shot": "Bro11Coach",
+      "cue": "push-up blur 5"
+    },
+    {
+      "at_s": 12.44,
+      "sfx_id": "knock-solid",
+      "gain_db": -18,
+      "shot": "Bro11Coach",
+      "cue": "push-up blur 6"
+    },
+    {
+      "at_s": 12.6,
+      "sfx_id": "chime-reward",
+      "gain_db": -15,
+      "shot": "Bro11Coach",
+      "cue": "REPS 20"
+    },
+    {
+      "at_s": 17.19,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -17,
+      "shot": "Bro11Coach",
+      "cue": "cut wide — 'One push-up.'"
+    },
+    {
+      "at_s": 18.53,
+      "sfx_id": "launch-thump",
+      "gain_db": -14,
+      "shot": "Bro11Coach",
+      "cue": "Bro hits the floor — plank"
+    },
+    {
+      "at_s": 19.1,
+      "sfx_id": "riser-soft",
+      "gain_db": -13,
+      "shot": "Bro11Coach",
+      "cue": "the sink + strain"
+    },
+    {
+      "at_s": 20.53,
+      "sfx_id": "impact-deep-soft",
+      "gain_db": -10,
+      "shot": "Bro11Coach",
+      "cue": "collapse"
+    },
+    {
+      "at_s": 20.88,
+      "sfx_id": "glitch-zap",
+      "gain_db": -17,
+      "shot": "Bro11Coach",
+      "cue": "REPS -1"
+    },
+    {
+      "at_s": 20.9,
+      "sfx_id": "whoosh-reverse",
+      "gain_db": -16,
+      "shot": "Bro11Coach",
+      "cue": "stare punch-in"
+    },
+    {
+      "at_s": 22.85,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -17,
+      "shot": "Bro11Coach",
+      "cue": "cut wide — 'I paid fifty dollars…'"
+    },
+    {
+      "at_s": 26.4,
+      "sfx_id": "pencil-scribble",
+      "gain_db": -16,
+      "shot": "Bro11Coach",
+      "cue": "20 + 0"
+    },
+    {
+      "at_s": 27.6,
+      "sfx_id": "pencil-scribble",
+      "gain_db": -16,
+      "shot": "Bro11Coach",
+      "cue": "÷ 2"
+    },
+    {
+      "at_s": 28.5,
+      "sfx_id": "pencil-scribble",
+      "gain_db": -16,
+      "shot": "Bro11Coach",
+      "cue": "= 10 AVG"
+    },
+    {
+      "at_s": 29.6,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "Bro11Coach",
+      "cue": "GREAT COACH"
+    },
+    {
+      "at_s": 31.08,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -17,
+      "shot": "Bro11Coach",
+      "cue": "cut — 'Price went up'"
+    },
+    {
+      "at_s": 32.3,
+      "sfx_id": "ui-toggle-on",
+      "gain_db": -15,
+      "shot": "Bro11Coach",
+      "cue": "$100 on the clipboard"
+    },
+    {
+      "at_s": 33.71,
+      "sfx_id": "glitch-zap",
+      "gain_db": -15,
+      "shot": "Bro11Coach",
+      "cue": "signature grey-out"
+    },
+    {
+      "at_s": 34.46,
+      "sfx_id": "stamp-hit",
+      "gain_db": -11,
+      "shot": "Bro11Coach",
+      "cue": "I GOT THIS. stamp"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+ "sunshine-seed2038.wav": {
+  "score": 0.861,
+  "matched": 266,
+  "words": 309,
+  "recognised": 342,
+  "duration": 321.6
+ },
+ "sunshine-seed23.wav": {
+  "score": 0.858,
+  "matched": 265,
+  "words": 309,
+  "recognised": 364,
+  "duration": 321.6
+ },
+ "sunshine-seed54.wav": {
+  "score": 0.683,
+  "matched": 211,
+  "words": 309,
+  "recognised": 335,
+  "duration": 321.6
+ },
+ "_variants": {
+  "A": {
+   "take": "sunshine-seed2038.wav",
+   "score": 0.861,
+   "intro_cut": 8.69,
+   "duration": 312.91
+  },
+  "B": {
+   "take": "sunshine-seed23.wav",
+   "score": 0.858,
+   "intro_cut": 0.0,
+   "duration": 321.6
+  },
+  "C": {
+   "take": "sunshine-seed54.wav",
+   "score": 0.683,
+   "intro_cut": 0.0,
+   "duration": 321.6
+  }
+ },
+ "_winner": "sunshine-seed2038.wav",
+ "_intro_cut": 8.69,
+ "_sung": {
+  "A": {
+   "take": "sunshine-seed23.wav",
+   "score": 1.207,
+   "intro_cut": 0.0,
+   "duration": 321.6,
+   "form": [
+    "chorus",
+    "chorus",
+    "v1",
+    "v2",
+    "chorus",
+    "v3",
+    "chorus",
+    "v5",
+    "v5",
+    "chorus",
+    "chorus",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "actions",
+    "slow",
+    "slow",
+    "chorus",
+    "chorus"
+   ]
+  },
+  "B": {
+   "take": "sunshine-seed2038.wav",
+   "score": 1.055,
+   "intro_cut": 10.93,
+   "duration": 310.67,
+   "form": [
+    "chorus",
+    "v2",
+    "chorus",
+    "v3",
+    "v4",
+    "chorus",
+    "v5",
+    "chorus",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q4",
+    "q4",
+    "actions",
+    "slow",
+    "slow",
+    "chorus",
+    "chorus"
+   ]
+  },
+  "C": {
+   "take": "sunshine-seed54.wav",
+   "score": 0.948,
+   "intro_cut": 1.61,
+   "duration": 319.99,
+   "form": [
+    "chorus",
+    "v1",
+    "chorus",
+    "v5",
+    "v5",
+    "chorus",
+    "q1",
+    "chorus",
+    "q4",
+    "q3",
+    "q4",
+    "actions",
+    "slow",
+    "chorus",
+    "q1",
+    "q4",
+    "chorus",
+    "chorus"
+   ]
+  }
+ }
+}

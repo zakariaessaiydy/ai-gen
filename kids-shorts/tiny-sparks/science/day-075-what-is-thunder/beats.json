@@ -1,0 +1,1049 @@
+{
+  "id": "day-075",
+  "series": "tiny-sparks",
+  "episode": 75,
+  "title": "What Is Thunder?",
+  "composition": "KidsScience075",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 91.0
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "leo": {
+      "kokoro": "am_puck:0.5+af_nova:0.5",
+      "rate": "-2%"
+    },
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "hoot": {
+      "kokoro": "bm_george",
+      "rate": "-6%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -7,
+    "duck": 8,
+    "start": 0,
+    "fade_in": 0.3
+  },
+  "vo": [
+    {
+      "beat": "open",
+      "speaker": "mila",
+      "text": "Whoa! What was that big boom?",
+      "gap": 0.8,
+      "start": 0.6,
+      "end": 2.45,
+      "words": [
+        {
+          "w": "Whoa!",
+          "start": 0.64,
+          "end": 0.922
+        },
+        {
+          "w": "What",
+          "start": 0.922,
+          "end": 1.203
+        },
+        {
+          "w": "was",
+          "start": 1.203,
+          "end": 1.415
+        },
+        {
+          "w": "that",
+          "start": 1.415,
+          "end": 1.696
+        },
+        {
+          "w": "big",
+          "start": 1.696,
+          "end": 1.978
+        },
+        {
+          "w": "boom?",
+          "start": 1.978,
+          "end": 2.33
+        }
+      ]
+    },
+    {
+      "beat": "eek",
+      "speaker": "bobo",
+      "text": "Eek! Who's knocking on the sky?",
+      "gap": 0.9,
+      "start": 3.25,
+      "end": 4.83,
+      "words": [
+        {
+          "w": "Eek!",
+          "start": 3.29,
+          "end": 3.505
+        },
+        {
+          "w": "Who's",
+          "start": 3.505,
+          "end": 3.775
+        },
+        {
+          "w": "knocking",
+          "start": 3.775,
+          "end": 4.152
+        },
+        {
+          "w": "on",
+          "start": 4.152,
+          "end": 4.313
+        },
+        {
+          "w": "the",
+          "start": 4.313,
+          "end": 4.421
+        },
+        {
+          "w": "sky?",
+          "start": 4.421,
+          "end": 4.69
+        }
+      ]
+    },
+    {
+      "beat": "guess",
+      "speaker": "leo",
+      "text": "I know! Giants are bowling in the clouds! Strike!",
+      "gap": 1.0,
+      "start": 5.73,
+      "end": 8.66,
+      "words": [
+        {
+          "w": "I",
+          "start": 5.77,
+          "end": 5.941
+        },
+        {
+          "w": "know!",
+          "start": 5.941,
+          "end": 6.168
+        },
+        {
+          "w": "Giants",
+          "start": 6.168,
+          "end": 6.68
+        },
+        {
+          "w": "are",
+          "start": 6.68,
+          "end": 6.851
+        },
+        {
+          "w": "bowling",
+          "start": 6.851,
+          "end": 7.249
+        },
+        {
+          "w": "in",
+          "start": 7.249,
+          "end": 7.42
+        },
+        {
+          "w": "the",
+          "start": 7.42,
+          "end": 7.534
+        },
+        {
+          "w": "clouds!",
+          "start": 7.534,
+          "end": 7.932
+        },
+        {
+          "w": "Strike!",
+          "start": 7.932,
+          "end": 8.33
+        }
+      ]
+    },
+    {
+      "beat": "good",
+      "speaker": "hoot",
+      "text": "Ha ha! Good guess, Leo! But that boom is thunder.",
+      "gap": 1.2,
+      "start": 9.66,
+      "end": 13.05,
+      "words": [
+        {
+          "w": "Ha",
+          "start": 9.69,
+          "end": 9.995
+        },
+        {
+          "w": "ha!",
+          "start": 9.995,
+          "end": 10.3
+        },
+        {
+          "w": "Good",
+          "start": 10.3,
+          "end": 10.605
+        },
+        {
+          "w": "guess,",
+          "start": 10.605,
+          "end": 10.91
+        },
+        {
+          "w": "Leo!",
+          "start": 10.91,
+          "end": 11.368
+        },
+        {
+          "w": "But",
+          "start": 11.368,
+          "end": 11.673
+        },
+        {
+          "w": "that",
+          "start": 11.673,
+          "end": 11.978
+        },
+        {
+          "w": "boom",
+          "start": 11.978,
+          "end": 12.36
+        },
+        {
+          "w": "is",
+          "start": 12.36,
+          "end": 12.512
+        },
+        {
+          "w": "thunder.",
+          "start": 12.512,
+          "end": 12.97
+        }
+      ]
+    },
+    {
+      "beat": "word",
+      "speaker": "hoot",
+      "text": "Thunder.",
+      "gap": 1.2,
+      "start": 14.25,
+      "end": 15.1,
+      "words": [
+        {
+          "w": "Thunder.",
+          "start": 14.29,
+          "end": 15.02
+        }
+      ]
+    },
+    {
+      "beat": "word2",
+      "speaker": "mila",
+      "text": "Thunder!",
+      "gap": 2.0,
+      "start": 16.3,
+      "end": 17.22,
+      "words": [
+        {
+          "w": "Thunder!",
+          "start": 16.35,
+          "end": 17.06
+        }
+      ]
+    },
+    {
+      "beat": "what",
+      "speaker": "hoot",
+      "text": "Thunder is the sound that lightning makes!",
+      "gap": 1.4,
+      "start": 19.22,
+      "end": 21.97,
+      "words": [
+        {
+          "w": "Thunder",
+          "start": 19.26,
+          "end": 19.722
+        },
+        {
+          "w": "is",
+          "start": 19.722,
+          "end": 19.876
+        },
+        {
+          "w": "the",
+          "start": 19.876,
+          "end": 20.031
+        },
+        {
+          "w": "sound",
+          "start": 20.031,
+          "end": 20.493
+        },
+        {
+          "w": "that",
+          "start": 20.493,
+          "end": 20.801
+        },
+        {
+          "w": "lightning",
+          "start": 20.801,
+          "end": 21.418
+        },
+        {
+          "w": "makes!",
+          "start": 21.418,
+          "end": 21.88
+        }
+      ]
+    },
+    {
+      "beat": "hot",
+      "speaker": "hoot",
+      "text": "Lightning is super, super hot. It heats up the air.",
+      "gap": 1.0,
+      "start": 23.37,
+      "end": 27.01,
+      "words": [
+        {
+          "w": "Lightning",
+          "start": 23.4,
+          "end": 24.07
+        },
+        {
+          "w": "is",
+          "start": 24.07,
+          "end": 24.238
+        },
+        {
+          "w": "super,",
+          "start": 24.238,
+          "end": 24.741
+        },
+        {
+          "w": "super",
+          "start": 24.741,
+          "end": 25.244
+        },
+        {
+          "w": "hot.",
+          "start": 25.244,
+          "end": 25.579
+        },
+        {
+          "w": "It",
+          "start": 25.579,
+          "end": 25.747
+        },
+        {
+          "w": "heats",
+          "start": 25.747,
+          "end": 26.25
+        },
+        {
+          "w": "up",
+          "start": 26.25,
+          "end": 26.501
+        },
+        {
+          "w": "the",
+          "start": 26.501,
+          "end": 26.669
+        },
+        {
+          "w": "air.",
+          "start": 26.669,
+          "end": 26.92
+        }
+      ]
+    },
+    {
+      "beat": "push",
+      "speaker": "hoot",
+      "text": "The hot air pushes out, really fast... and goes BOOM!",
+      "gap": 1.4,
+      "start": 28.01,
+      "end": 31.89,
+      "words": [
+        {
+          "w": "The",
+          "start": 28.03,
+          "end": 28.17
+        },
+        {
+          "w": "hot",
+          "start": 28.17,
+          "end": 28.45
+        },
+        {
+          "w": "air",
+          "start": 28.45,
+          "end": 28.66
+        },
+        {
+          "w": "pushes",
+          "start": 28.66,
+          "end": 29.08
+        },
+        {
+          "w": "out,",
+          "start": 29.08,
+          "end": 29.36
+        },
+        {
+          "w": "really",
+          "start": 29.48,
+          "end": 30.025
+        },
+        {
+          "w": "fast...",
+          "start": 30.025,
+          "end": 30.48
+        },
+        {
+          "w": "and",
+          "start": 30.78,
+          "end": 31.02
+        },
+        {
+          "w": "goes",
+          "start": 31.02,
+          "end": 31.42
+        },
+        {
+          "w": "BOOM!",
+          "start": 31.42,
+          "end": 31.82
+        }
+      ]
+    },
+    {
+      "beat": "clap_q",
+      "speaker": "hoot",
+      "text": "It's a bit like a giant clap! Clap with me!",
+      "gap": 0.8,
+      "start": 33.29,
+      "end": 36.34,
+      "words": [
+        {
+          "w": "It's",
+          "start": 33.32,
+          "end": 33.491
+        },
+        {
+          "w": "a",
+          "start": 33.491,
+          "end": 33.663
+        },
+        {
+          "w": "bit",
+          "start": 33.663,
+          "end": 33.891
+        },
+        {
+          "w": "like",
+          "start": 33.891,
+          "end": 34.176
+        },
+        {
+          "w": "a",
+          "start": 34.176,
+          "end": 34.348
+        },
+        {
+          "w": "giant",
+          "start": 34.348,
+          "end": 34.805
+        },
+        {
+          "w": "clap!",
+          "start": 34.805,
+          "end": 35.09
+        },
+        {
+          "w": "Clap",
+          "start": 35.38,
+          "end": 35.751
+        },
+        {
+          "w": "with",
+          "start": 35.751,
+          "end": 35.973
+        },
+        {
+          "w": "me!",
+          "start": 35.973,
+          "end": 36.27
+        }
+      ]
+    },
+    {
+      "beat": "clap1",
+      "speaker": "mila",
+      "text": "Clap!",
+      "gap": 0.7,
+      "start": 37.14,
+      "end": 37.97,
+      "words": [
+        {
+          "w": "Clap!",
+          "start": 37.21,
+          "end": 37.86
+        }
+      ]
+    },
+    {
+      "beat": "clap2",
+      "speaker": "leo",
+      "text": "Clap!",
+      "gap": 0.7,
+      "start": 38.67,
+      "end": 39.28,
+      "words": [
+        {
+          "w": "Clap!",
+          "start": 38.7,
+          "end": 39.21
+        }
+      ]
+    },
+    {
+      "beat": "clap3",
+      "speaker": "bobo",
+      "text": "Clap... BOOM!",
+      "gap": 1.8,
+      "start": 39.98,
+      "end": 40.93,
+      "words": [
+        {
+          "w": "Clap...",
+          "start": 40.02,
+          "end": 40.42
+        },
+        {
+          "w": "BOOM!",
+          "start": 40.42,
+          "end": 40.82
+        }
+      ]
+    },
+    {
+      "beat": "why",
+      "speaker": "mila",
+      "text": "But why do we see the flash first, and hear the boom after?",
+      "gap": 1.0,
+      "start": 42.73,
+      "end": 46.06,
+      "words": [
+        {
+          "w": "But",
+          "start": 42.9,
+          "end": 43.109
+        },
+        {
+          "w": "why",
+          "start": 43.109,
+          "end": 43.318
+        },
+        {
+          "w": "do",
+          "start": 43.318,
+          "end": 43.526
+        },
+        {
+          "w": "we",
+          "start": 43.526,
+          "end": 43.683
+        },
+        {
+          "w": "see",
+          "start": 43.683,
+          "end": 43.892
+        },
+        {
+          "w": "the",
+          "start": 43.892,
+          "end": 43.996
+        },
+        {
+          "w": "flash",
+          "start": 43.996,
+          "end": 44.257
+        },
+        {
+          "w": "first,",
+          "start": 44.257,
+          "end": 44.57
+        },
+        {
+          "w": "and",
+          "start": 44.71,
+          "end": 44.888
+        },
+        {
+          "w": "hear",
+          "start": 44.888,
+          "end": 45.126
+        },
+        {
+          "w": "the",
+          "start": 45.126,
+          "end": 45.245
+        },
+        {
+          "w": "boom",
+          "start": 45.245,
+          "end": 45.543
+        },
+        {
+          "w": "after?",
+          "start": 45.543,
+          "end": 45.84
+        }
+      ]
+    },
+    {
+      "beat": "fast",
+      "speaker": "hoot",
+      "text": "Light is super fast! Zoom!",
+      "gap": 1.0,
+      "start": 47.06,
+      "end": 49.38,
+      "words": [
+        {
+          "w": "Light",
+          "start": 47.08,
+          "end": 47.463
+        },
+        {
+          "w": "is",
+          "start": 47.463,
+          "end": 47.617
+        },
+        {
+          "w": "super",
+          "start": 47.617,
+          "end": 48.077
+        },
+        {
+          "w": "fast!",
+          "start": 48.077,
+          "end": 48.46
+        },
+        {
+          "w": "Zoom!",
+          "start": 48.65,
+          "end": 49.3
+        }
+      ]
+    },
+    {
+      "beat": "slow",
+      "speaker": "hoot",
+      "text": "Sound is slower. It comes after.",
+      "gap": 1.4,
+      "start": 50.38,
+      "end": 52.91,
+      "words": [
+        {
+          "w": "Sound",
+          "start": 50.42,
+          "end": 50.913
+        },
+        {
+          "w": "is",
+          "start": 50.913,
+          "end": 51.077
+        },
+        {
+          "w": "slower.",
+          "start": 51.077,
+          "end": 51.57
+        },
+        {
+          "w": "It",
+          "start": 51.78,
+          "end": 51.953
+        },
+        {
+          "w": "comes",
+          "start": 51.953,
+          "end": 52.387
+        },
+        {
+          "w": "after.",
+          "start": 52.387,
+          "end": 52.82
+        }
+      ]
+    },
+    {
+      "beat": "far",
+      "speaker": "hoot",
+      "text": "Thunder far away goes... rumble, rumble.",
+      "gap": 1.2,
+      "start": 54.31,
+      "end": 57.44,
+      "words": [
+        {
+          "w": "Thunder",
+          "start": 54.35,
+          "end": 54.881
+        },
+        {
+          "w": "far",
+          "start": 54.881,
+          "end": 55.235
+        },
+        {
+          "w": "away",
+          "start": 55.235,
+          "end": 55.678
+        },
+        {
+          "w": "goes...",
+          "start": 55.678,
+          "end": 56.121
+        },
+        {
+          "w": "rumble,",
+          "start": 56.121,
+          "end": 56.74
+        },
+        {
+          "w": "rumble.",
+          "start": 56.74,
+          "end": 57.36
+        }
+      ]
+    },
+    {
+      "beat": "near",
+      "speaker": "hoot",
+      "text": "Thunder close by goes... CRACK!",
+      "gap": 1.4,
+      "start": 58.64,
+      "end": 61.13,
+      "words": [
+        {
+          "w": "Thunder",
+          "start": 58.67,
+          "end": 59.116
+        },
+        {
+          "w": "close",
+          "start": 59.116,
+          "end": 59.561
+        },
+        {
+          "w": "by",
+          "start": 59.561,
+          "end": 59.859
+        },
+        {
+          "w": "goes...",
+          "start": 59.859,
+          "end": 60.23
+        },
+        {
+          "w": "CRACK!",
+          "start": 60.49,
+          "end": 61.05
+        }
+      ]
+    },
+    {
+      "beat": "quiz",
+      "speaker": "hoot",
+      "text": "So, what comes first? The flash, or the boom?",
+      "gap": 4.6,
+      "start": 62.53,
+      "end": 65.83,
+      "words": [
+        {
+          "w": "So,",
+          "start": 62.57,
+          "end": 62.935
+        },
+        {
+          "w": "what",
+          "start": 62.935,
+          "end": 63.299
+        },
+        {
+          "w": "comes",
+          "start": 63.299,
+          "end": 63.755
+        },
+        {
+          "w": "first?",
+          "start": 63.755,
+          "end": 64.302
+        },
+        {
+          "w": "The",
+          "start": 64.302,
+          "end": 64.484
+        },
+        {
+          "w": "flash,",
+          "start": 64.484,
+          "end": 64.94
+        },
+        {
+          "w": "or",
+          "start": 64.94,
+          "end": 65.122
+        },
+        {
+          "w": "the",
+          "start": 65.122,
+          "end": 65.304
+        },
+        {
+          "w": "boom?",
+          "start": 65.304,
+          "end": 65.76
+        }
+      ]
+    },
+    {
+      "beat": "quiz_leo",
+      "speaker": "leo",
+      "text": "The boom!",
+      "gap": 1.0,
+      "start": 70.43,
+      "end": 71.28,
+      "words": [
+        {
+          "w": "The",
+          "start": 70.46,
+          "end": 70.66
+        },
+        {
+          "w": "boom!",
+          "start": 70.66,
+          "end": 71.16
+        }
+      ]
+    },
+    {
+      "beat": "quiz_a",
+      "speaker": "mila",
+      "text": "No, Leo! The flash comes first!",
+      "gap": 0.8,
+      "start": 72.28,
+      "end": 74.32,
+      "words": [
+        {
+          "w": "No,",
+          "start": 72.31,
+          "end": 72.577
+        },
+        {
+          "w": "Leo!",
+          "start": 72.577,
+          "end": 72.978
+        },
+        {
+          "w": "The",
+          "start": 72.978,
+          "end": 73.111
+        },
+        {
+          "w": "flash",
+          "start": 73.111,
+          "end": 73.445
+        },
+        {
+          "w": "comes",
+          "start": 73.445,
+          "end": 73.779
+        },
+        {
+          "w": "first!",
+          "start": 73.779,
+          "end": 74.18
+        }
+      ]
+    },
+    {
+      "beat": "quiz_ok",
+      "speaker": "hoot",
+      "text": "Yes! The flash, then the boom!",
+      "gap": 1.4,
+      "start": 75.12,
+      "end": 77.42,
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 75.15,
+          "end": 75.548
+        },
+        {
+          "w": "The",
+          "start": 75.548,
+          "end": 75.747
+        },
+        {
+          "w": "flash,",
+          "start": 75.747,
+          "end": 76.245
+        },
+        {
+          "w": "then",
+          "start": 76.245,
+          "end": 76.643
+        },
+        {
+          "w": "the",
+          "start": 76.643,
+          "end": 76.842
+        },
+        {
+          "w": "boom!",
+          "start": 76.842,
+          "end": 77.34
+        }
+      ]
+    },
+    {
+      "beat": "rule",
+      "speaker": "hoot",
+      "text": "And when thunder roars...",
+      "gap": 0.4,
+      "start": 78.82,
+      "end": 80.52,
+      "words": [
+        {
+          "w": "And",
+          "start": 78.85,
+          "end": 79.115
+        },
+        {
+          "w": "when",
+          "start": 79.115,
+          "end": 79.468
+        },
+        {
+          "w": "thunder",
+          "start": 79.468,
+          "end": 79.998
+        },
+        {
+          "w": "roars...",
+          "start": 79.998,
+          "end": 80.44
+        }
+      ]
+    },
+    {
+      "beat": "rule_a",
+      "speaker": "mila",
+      "text": "Go indoors!",
+      "gap": 0.8,
+      "start": 80.92,
+      "end": 82.11,
+      "words": [
+        {
+          "w": "Go",
+          "start": 80.95,
+          "end": 81.293
+        },
+        {
+          "w": "indoors!",
+          "start": 81.293,
+          "end": 81.98
+        }
+      ]
+    },
+    {
+      "beat": "cozy",
+      "speaker": "leo",
+      "text": "We're inside! Safe and cozy!",
+      "gap": 1.4,
+      "start": 82.91,
+      "end": 84.87,
+      "words": [
+        {
+          "w": "We're",
+          "start": 82.95,
+          "end": 83.154
+        },
+        {
+          "w": "inside!",
+          "start": 83.154,
+          "end": 83.629
+        },
+        {
+          "w": "Safe",
+          "start": 83.629,
+          "end": 83.969
+        },
+        {
+          "w": "and",
+          "start": 83.969,
+          "end": 84.172
+        },
+        {
+          "w": "cozy!",
+          "start": 84.172,
+          "end": 84.58
+        }
+      ]
+    },
+    {
+      "beat": "tummy",
+      "speaker": "bobo",
+      "text": "Rumble, rumble... Oops! That's my tummy!",
+      "gap": 1.0,
+      "start": 86.27,
+      "end": 88.56,
+      "words": [
+        {
+          "w": "Rumble,",
+          "start": 86.3,
+          "end": 86.75
+        },
+        {
+          "w": "rumble...",
+          "start": 86.75,
+          "end": 87.199
+        },
+        {
+          "w": "Oops!",
+          "start": 87.199,
+          "end": 87.521
+        },
+        {
+          "w": "That's",
+          "start": 87.521,
+          "end": 87.842
+        },
+        {
+          "w": "my",
+          "start": 87.842,
+          "end": 88.099
+        },
+        {
+          "w": "tummy!",
+          "start": 88.099,
+          "end": 88.42
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

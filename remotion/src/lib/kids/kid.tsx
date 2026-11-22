@@ -1,0 +1,584 @@
+// KIDS KIT — <Kid>: the chibi child rig every kids-channel human is drawn with. Big head (~45% of
+// the height), stubby body, glossy eyes, rosy cheeks, soft plum outline, rounded everything.
+// Origin = between the feet (stage px); ~760px tall at scale 1. Separate from the Bro toon rig
+// on purpose: a kids channel needs its own, softer silhouette.
+import React from 'react';
+import { useCurrentFrame } from 'remotion';
+import { Face, HeadSparkles, KINK, idleMotion, kst, type KExpr, type Viseme } from './face';
+import { Belt, Cape, ChestBadge, Mask, type HeroLook } from './hero';
+import { AO, Ground, K3DDefs, Vol } from './depth';
+import { easeOutBack, isBlend, settled, type Blend } from './smooth';
+
+export type KidSpec = {
+  id: string;
+  skin: string;
+  hair: 'puffs' | 'curly' | 'short' | 'ponytail' | 'bob' | 'spiky';
+  hairColor: string;
+  top: 'tee' | 'dress' | 'overalls' | 'stripes';
+  topColor: string;
+  topColor2?: string; // stripes / overall bib / dress trim
+  pants: string;
+  shoes: string;
+  iris?: string;
+  bow?: string; // hair bow colour
+  glasses?: boolean;
+  freckles?: boolean;
+  lashes?: boolean;
+  hero?: HeroLook; // original superhero outfit (cape / mask / emblem / belt) — see hero.tsx
+};
+
+// arm pose: preset, (upper, fore) degrees outward-positive (screen-left arm; right mirrors),
+// or an IK target {to:[dx,dy]} relative to the shoulder in the screen-left arm's frame
+// (negative dx = outward; for armR that means screen RIGHT).
+export type KArm =
+  | 'down' | 'wave' | 'up' | 'point' | 'hip' | 'hold' | 'clap' | 'think' | 'count' | 'present' | 'hug' | 'shrug'
+  | 'cheeks' | 'cover' | 'cheer' | 'thumbs' // ACTING poses (Nov 2026): hands on cheeks · hands over the mouth (giggle / oops) · pumping fists · thumbs up
+  | { a: number; b: number }
+  | { to: [number, number] };
+
+export type KidProps = {
+  spec: KidSpec;
+  x: number;
+  y: number;
+  scale?: number;
+  expr?: KExpr | Blend<KExpr>; // a Blend (exprAt in smooth.ts) = a smooth change
+  look?: [number, number];
+  mouth?: number;
+  armL?: KArm | Blend<KArm>; // a Blend (poseAt in smooth.ts) = a smooth move with overshoot
+  armR?: KArm | Blend<KArm>;
+  fingersL?: number; // 1..5 raised fingers (counting); 0 = mitten
+  fingersR?: number;
+  holdL?: React.ReactNode; // drawn at the hand, upright
+  holdR?: React.ReactNode;
+  legs?: 'stand' | 'walk' | 'sit';
+  walk?: number; // walk phase in cycles (pass t * 2)
+  hop?: number; // px off the ground (jumps) — the shadow stays down
+  tilt?: number;
+  lean?: number;
+  squash?: number;
+  shadow?: boolean;
+  blink?: boolean;
+  wear?: React.ReactNode; // headwear (hats, sunglasses…) drawn in HEAD space: centre (0,0), head radius ~175; moves with the head
+  idle?: boolean; // auto idle behaviour (sway, head tilt, talk nod, laugh bounce) — default on
+  viseme?: Viseme; // mouth shape for the sound being said — acting.ts speechAt()
+  acting?: boolean; // brows lift with the voice
+  polish?: boolean; // DETAIL POLISH (Nov 2026): thumbs on the hands, hair strands, collars + cuffs, shoe laces, hems
+};
+
+const U = 100; // upper arm
+const F = 92; // forearm
+const SH_Y = -372; // shoulder height
+const SH_X = 74;
+const HEAD_Y = -560;
+const deg = Math.PI / 180;
+const DRESS = 'M -80,-400 Q 0,-418 80,-400 L 150,-150 Q 0,-118 -150,-150 Z';
+const TEE = 'M -84,-402 Q 0,-418 84,-402 Q 112,-330 100,-160 Q 0,-140 -100,-160 Q -112,-330 -84,-402 Z';
+
+const hashStr = (s: string) => {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 997;
+  return h;
+};
+
+const ik = (dx: number, dy: number): [number, number] => {
+  const D = Math.min(Math.hypot(dx, dy), U + F - 1);
+  const phi = Math.atan2(-dx, dy);
+  const alpha = Math.acos(Math.max(-1, Math.min(1, (U * U + D * D - F * F) / (2 * U * D))));
+  const solve = (a1: number) => {
+    const ex = -U * Math.sin(a1);
+    const ey = U * Math.cos(a1);
+    const a2 = Math.atan2(-(dx - ex), dy - ey) - a1;
+    return { a1, a2, ey };
+  };
+  const p = solve(phi + alpha);
+  const q = solve(phi - alpha);
+  const best = p.ey > q.ey ? p : q;
+  return [best.a1 / deg, best.a2 / deg];
+};
+
+// a smooth move: the upper arm overshoots and settles, the forearm trails it (follow-through)
+const armAnglesSmooth = (pose: KArm | Blend<KArm>, frame: number, soft = false): [number, number] => {
+  if (!isBlend<KArm>(pose)) return armAngles(pose, frame, soft);
+  const [from, to, p] = pose.blend;
+  const a = armAngles(from, frame, soft);
+  const b = armAngles(to, frame, soft);
+  const e1 = easeOutBack(p);
+  const e2 = easeOutBack((p - 0.18) / 0.82);
+  return [a[0] + (b[0] - a[0]) * e1, a[1] + (b[1] - a[1]) * e2];
+};
+
+const armAngles = (pose: KArm, frame: number, soft = false): [number, number] => {
+  if (typeof pose === 'object') return 'to' in pose ? ik(pose.to[0], pose.to[1]) : [pose.a, pose.b];
+  if (soft) {
+    // SOFT ARMS (polish): a relaxed rest with a little bend, a wave BESIDE the head (not across the
+    // face) that swings from the elbow, palms that land on the cheeks / over the mouth
+    switch (pose) {
+      case 'down':
+        return [9, 10];
+      case 'wave':
+        return [112, 40 + Math.sin(frame / 3.6) * 22];
+      case 'cheeks':
+        return ik(-40, -92);
+      case 'cover':
+        // elbows OUT, each hand rising from its own side to the mouth (IK would cross the arms over the chest)
+        return [64, 146];
+      case 'thumbs':
+        return ik(-72, 26);
+      default:
+        break;
+    }
+  }
+  switch (pose) {
+    case 'wave':
+      return [138, 28 + Math.sin(frame / 3.2) * 26];
+    case 'up': // cheering fist beside the head (a chibi arm can't clear the big head going straight up)
+      return [130, 10];
+    case 'point':
+      return [96, 0];
+    case 'hip':
+      return [44, -112];
+    case 'hold':
+      return [18, -104];
+    case 'clap': {
+      const open = (Math.sin(frame / 2.4) + 1) / 2; // claps ~2x a second
+      return ik(60 - open * 40, 60);
+    }
+    case 'think':
+      return ik(62, -120);
+    case 'count':
+      return [122, 34];
+    case 'present':
+      return [70, -36];
+    case 'hug':
+      return [-8, -98];
+    case 'shrug':
+      return [52, 96];
+    case 'cheeks':
+      return ik(-54, -108);
+    case 'cover':
+      return ik(50, -96);
+    case 'cheer':
+      return [128 + Math.sin(frame / 2.6) * 10, 16];
+    case 'thumbs':
+      return ik(-24, 66);
+    default:
+      return [12, 6];
+  }
+};
+
+// a mitten hand, or a hand showing N raised fingers (always drawn upright in world space)
+const Hand: React.FC<{ skin: string; fingers: number; rot: number; polish?: boolean; thumb?: boolean }> = ({ skin, fingers, rot, polish, thumb }) => (
+  <g transform={`rotate(${-rot})`}>
+    {thumb ? (
+      // thumbs up: a fist with the thumb standing up
+      <g>
+        <Vol kind="tube" tone="skin">
+          <rect x={-8} y={-64} width={19} height={48} rx={9.5} fill={skin} {...kst(6)} />
+        </Vol>
+        <Vol tone="skin">
+          <circle cx={0} cy={0} r={27} fill={skin} {...kst(7)} />
+        </Vol>
+        <path d="M -21,-6 L 9,-6 M -21,6 L 9,6 M -18,17 L 6,17" stroke={KINK} strokeWidth={3.5} strokeLinecap="round" opacity={0.5} />
+      </g>
+    ) : (
+      <>
+    {fingers > 0 && (
+      <Vol kind="tube" tone="skin">
+        {Array.from({ length: Math.min(5, fingers) }).map((_, i) => {
+          const n = Math.min(5, fingers);
+          const a = (i - (n - 1) / 2) * 20;
+          return <rect key={i} x={-9} y={-70} width={18} height={50} rx={9} fill={skin} {...kst(6)} transform={`rotate(${a})`} />;
+        })}
+      </Vol>
+    )}
+    {polish && fingers === 0 && (
+      <Vol tone="skin">
+        <ellipse cx={21} cy={-12} rx={11} ry={17} transform="rotate(35 21 -12)" fill={skin} {...kst(6)} />
+      </Vol>
+    )}
+    <Vol tone="skin">
+      <circle cx={0} cy={0} r={28} fill={skin} {...kst(7)} />
+    </Vol>
+    {polish && fingers === 0 && <path d="M -11,13 L -11,25 M 3,15 L 3,27" stroke={KINK} strokeWidth={3.5} strokeLinecap="round" opacity={0.45} />}
+      </>
+    )}
+  </g>
+);
+
+// ── SOFT ARM (polish): ONE smooth curved arm through the elbow (no hinge), the sleeve following the curve,
+// and a real cartoon hand that points along the forearm, shaped by the pose
+type HandKind = 'mitten' | 'open' | 'point';
+const handKind = (p: KArm): HandKind => (p === 'point' ? 'point' : p === 'wave' || p === 'cheeks' || p === 'cover' || p === 'shrug' || p === 'present' || p === 'count' ? 'open' : 'mitten');
+
+// local frame: origin at the wrist, +y along the forearm; ts = which side the thumb is on (toward the body)
+const SoftHand: React.FC<{ skin: string; kind: HandKind; ts: number }> = ({ skin, kind, ts }) => {
+  const ink = kst(6);
+  const thumb = (cy: number, len: number, ang: number) => (
+    <rect x={-7} y={0} width={14} height={len} rx={7} fill={skin} {...ink} transform={`translate(${ts * 15},${cy}) rotate(${-ts * ang})`} />
+  );
+  if (kind === 'open')
+    return (
+      <g>
+        {[-26, -9, 8, 25].map((a, i) => (
+          <rect key={i} x={-7} y={0} width={14} height={i === 0 || i === 3 ? 26 : 31} rx={7} fill={skin} {...ink} transform={`translate(${a * 0.45},24) rotate(${-a * 0.9})`} />
+        ))}
+        {thumb(4, 24, 62)}
+        <ellipse cx={0} cy={16} rx={24} ry={22} fill={skin} {...ink} />
+      </g>
+    );
+  if (kind === 'point')
+    return (
+      <g>
+        <rect x={-7 - ts * 6} y={22} width={14} height={36} rx={7} fill={skin} {...ink} />
+        <ellipse cx={0} cy={16} rx={22} ry={20} fill={skin} {...ink} />
+        {thumb(6, 20, 40)}
+        <path d={`M ${ts * 2},30 Q ${ts * 10},34 ${ts * 16},28`} fill="none" stroke={KINK} strokeWidth={3.5} strokeLinecap="round" opacity={0.45} />
+      </g>
+    );
+  return (
+    <g>
+      {thumb(2, 22, 22)}
+      <ellipse cx={0} cy={20} rx={22} ry={27} fill={skin} {...ink} />
+      <path d={`M -6,36 L -6,46 M 6,36 L 6,46`} stroke={KINK} strokeWidth={3.5} strokeLinecap="round" opacity={0.4} />
+    </g>
+  );
+};
+
+const SoftArm: React.FC<{ spec: KidSpec; pose: KArm | Blend<KArm>; mirror: boolean; frame: number; fingers: number; hold?: React.ReactNode }> = ({ spec, pose, mirror, frame, fingers, hold }) => {
+  const p = settled(pose);
+  let [a1, a2] = armAnglesSmooth(pose, frame, true);
+  if (p === 'down') {
+    // resting arms are never frozen: a slow sway, out of step left / right
+    a1 += Math.sin(frame / 24 + (mirror ? 1.7 : 0)) * 3;
+    a2 += Math.sin(frame / 24 + (mirror ? 1.7 : 0) - 0.8) * 4;
+  }
+  const r = (d: number) => (d * Math.PI) / 180;
+  const E: [number, number] = [-U * Math.sin(r(a1)), U * Math.cos(r(a1))];
+  const th = a1 + a2;
+  const W: [number, number] = [E[0] - (F + 4) * Math.sin(r(th)), E[1] + (F + 4) * Math.cos(r(th))];
+  const C: [number, number] = [2 * E[0] - W[0] / 2, 2 * E[1] - W[1] / 2]; // the curve passes THROUGH the elbow
+  const arm = `M 0,0 Q ${C[0]},${C[1]} ${W[0]},${W[1]}`;
+  // the sleeve = the first part of the same curve (de Casteljau split)
+  const st = 0.36;
+  const s1: [number, number] = [C[0] * st, C[1] * st];
+  const bt = (k: number): [number, number] => [2 * (1 - k) * k * C[0] + k * k * W[0], 2 * (1 - k) * k * C[1] + k * k * W[1]];
+  const s2 = bt(st);
+  const sleeve = `M 0,0 Q ${s1[0]},${s1[1]} ${s2[0]},${s2[1]}`;
+  const tan = [s2[0] - s1[0], s2[1] - s1[1]];
+  const tl = Math.hypot(tan[0], tan[1]) || 1;
+  const nx = -tan[1] / tl;
+  const ny = tan[0] / tl;
+  // the hand's thumb goes toward the body: +x of the wrist frame, flipped when the arm is raised
+  const ts = Math.cos(r(th)) >= 0 ? 1 : -1;
+  const counting = fingers > 0 || p === 'thumbs';
+  return (
+    <g transform={`${mirror ? 'scale(-1,1) ' : ''}translate(${-SH_X},${SH_Y})`}>
+      <path d={arm} fill="none" stroke={KINK} strokeWidth={52} strokeLinecap="round" />
+      <path d={arm} fill="none" stroke={spec.skin} strokeWidth={40} strokeLinecap="round" />
+      <path d={arm} fill="none" stroke="#ffffff" strokeWidth={9} strokeLinecap="round" opacity={0.16} transform="translate(-7,-3)" />
+      <path d={sleeve} fill="none" stroke={KINK} strokeWidth={62} strokeLinecap="round" />
+      <path d={sleeve} fill="none" stroke={spec.topColor} strokeWidth={50} strokeLinecap="round" />
+      {spec.top === 'stripes' && <path d={sleeve} fill="none" stroke={spec.topColor2 ?? '#ffffff'} strokeWidth={50} strokeDasharray="12 22" strokeDashoffset={-14} />}
+      <path d={`M ${s2[0] - nx * 26},${s2[1] - ny * 26} L ${s2[0] + nx * 26},${s2[1] + ny * 26}`} stroke={KINK} strokeWidth={6} strokeLinecap="round" />
+      {counting ? (
+        <g transform={`translate(${W[0]},${W[1]}) rotate(${th}) translate(0,10)${mirror ? ' scale(-1,1)' : ''}`}>
+          <Hand skin={spec.skin} fingers={fingers} rot={(mirror ? -1 : 1) * th} polish thumb={p === 'thumbs'} />
+        </g>
+      ) : (
+        <g transform={`translate(${W[0]},${W[1]}) rotate(${th})`}>
+          <SoftHand skin={spec.skin} kind={handKind(p)} ts={ts} />
+        </g>
+      )}
+      {hold && <g transform={`translate(${W[0]},${W[1] + 6})${mirror ? ' scale(-1,1)' : ''}`}>{hold}</g>}
+    </g>
+  );
+};
+
+const Arm: React.FC<{ spec: KidSpec; pose: KArm | Blend<KArm>; mirror: boolean; frame: number; fingers: number; hold?: React.ReactNode; polish?: boolean }> = ({ spec, pose, mirror, frame, fingers, hold, polish }) => {
+  if (polish) return <SoftArm spec={spec} pose={pose} mirror={mirror} frame={frame} fingers={fingers} hold={hold} />;
+  const [a1, a2] = armAnglesSmooth(pose, frame);
+  const sleeve = spec.top === 'dress' || spec.top === 'overalls' || spec.top === 'stripes' ? spec.topColor : spec.topColor;
+  const showFingers = fingers || (pose === 'count' ? 0 : 0);
+  return (
+    <g transform={`${mirror ? 'scale(-1,1) ' : ''}translate(${-SH_X},${SH_Y}) rotate(${a1})`}>
+      {/* limbs are rounded rects, not thick lines: a line has a zero-width box, so it can't take a gradient */}
+      <Vol kind="tube" tone="skin">
+        <rect x={-19.5} y={-19.5} width={39} height={U + 39} rx={19.5} fill={spec.skin} stroke={KINK} strokeWidth={7} />
+      </Vol>
+      <Vol>
+        <path d={`M -24,-6 L 24,-6 L 22,${U * 0.55} L -22,${U * 0.55} Z`} fill={sleeve} {...kst(7)} />
+      </Vol>
+      {polish && <rect x={-22} y={U * 0.55 - 13} width={44} height={11} fill="#000000" opacity={0.13} />}
+      <g transform={`translate(0,${U}) rotate(${a2})`}>
+        <Vol kind="tube" tone="skin">
+          <rect x={-18.5} y={-18.5} width={37} height={F + 37} rx={18.5} fill={spec.skin} stroke={KINK} strokeWidth={7} />
+        </Vol>
+        <g transform={`translate(0,${F + 6})${mirror ? ' scale(-1,1)' : ''}`}>
+          <Hand skin={spec.skin} fingers={showFingers} rot={(mirror ? -1 : 1) * (a1 + a2)} polish={polish} thumb={settled(pose) === 'thumbs'} />
+          {hold && <g transform={`rotate(${-(mirror ? -1 : 1) * (a1 + a2)})`}>{hold}</g>}
+        </g>
+      </g>
+    </g>
+  );
+};
+
+const HairBack: React.FC<{ spec: KidSpec }> = ({ spec }) => {
+  const c = spec.hairColor;
+  switch (spec.hair) {
+    case 'puffs':
+      return (
+        <g>
+          <circle cx={-178} cy={-92} r={74} fill={c} {...kst()} />
+          <circle cx={178} cy={-92} r={74} fill={c} {...kst()} />
+        </g>
+      );
+    case 'curly':
+      return (
+        <g fill={c} {...kst()}>
+          {[-150, -95, -35, 30, 95, 150].map((x, i) => (
+            <circle key={i} cx={x} cy={-110 - Math.cos((x / 150) * 1.3) * 60} r={62} />
+          ))}
+          <circle cx={-172} cy={-20} r={48} />
+          <circle cx={172} cy={-20} r={48} />
+        </g>
+      );
+    case 'ponytail':
+      return <path d="M 120,-120 Q 260,-100 250,40 Q 240,140 200,170 Q 200,60 150,-20 Z" fill={c} {...kst()} />;
+    case 'bob':
+      return <path d="M -196,-40 Q -200,-200 0,-196 Q 200,-200 196,-40 L 190,90 Q 140,110 120,80 L -120,80 Q -140,110 -190,90 Z" fill={c} {...kst()} />;
+    default:
+      return null;
+  }
+};
+
+const HairFront: React.FC<{ spec: KidSpec }> = ({ spec }) => {
+  const c = spec.hairColor;
+  switch (spec.hair) {
+    case 'short':
+      return <path d="M -172,-30 Q -190,-178 -10,-176 Q 168,-176 176,-40 Q 120,-110 40,-104 Q -40,-150 -90,-84 Q -130,-60 -172,-30 Z" fill={c} {...kst()} />;
+    case 'spiky':
+      return (
+        <path d="M -176,-26 L -170,-120 L -120,-110 L -100,-200 L -40,-150 L 0,-226 L 40,-150 L 100,-200 L 120,-110 L 170,-120 L 176,-26 Q 100,-96 0,-92 Q -100,-96 -176,-26 Z" fill={c} {...kst()} />
+      );
+    default:
+      // bangs: a cap over the crown with a scalloped fringe
+      return (
+        <path
+          d="M -174,-34 Q -176,-176 0,-172 Q 176,-176 174,-34 Q 150,-76 116,-70 Q 92,-112 58,-82 Q 30,-118 0,-84 Q -30,-118 -58,-82 Q -92,-112 -116,-70 Q -150,-76 -174,-34 Z"
+          fill={c}
+          {...kst()}
+        />
+      );
+  }
+};
+
+// DETAIL POLISH: a few strands + a second shine on the hair, curls on the puffs
+const HairDetail: React.FC<{ spec: KidSpec }> = ({ spec }) => (
+  <g fill="none" strokeLinecap="round">
+    <g stroke={KINK} strokeWidth={5} opacity={0.24}>
+      {spec.hair === 'spiky' ? (
+        <path d="M -100,-150 L -80,-110 M 0,-180 L 0,-120 M 100,-150 L 80,-110" />
+      ) : (
+        <path d="M -116,-118 Q -70,-150 -24,-146 M 30,-146 Q 84,-146 126,-104 M -40,-112 Q 0,-132 46,-122" />
+      )}
+      {spec.hair === 'puffs' &&
+        [-1, 1].map((k) => <path key={k} d={`M ${k * 178 - 34},${-112} q 18,-26 42,-8 q 16,16 -6,30 M ${k * 178 + 4},${-50} q 22,-6 30,-28`} />)}
+    </g>
+    <path d="M 24,-162 Q 46,-164 64,-156" stroke="#ffffff" strokeWidth={10} opacity={0.3} />
+  </g>
+);
+
+export const Kid: React.FC<KidProps> = ({
+  spec, x, y, scale = 1, expr: exprIn = 'smile', look = [0, 0], mouth = 0, armL = 'down', armR = 'down', fingersL = 0, fingersR = 0,
+  holdL, holdR, legs = 'stand', walk = 0, hop = 0, tilt = 0, lean = 0, squash = 0, shadow = true, blink = true, idle = true, wear,
+  viseme, acting, polish,
+}) => {
+  const frame = useCurrentFrame();
+  const expr = settled(exprIn);
+  const exprFrom = isBlend<KExpr>(exprIn) ? exprIn.blend[0] : undefined;
+  const exprMix = isBlend<KExpr>(exprIn) ? exprIn.blend[2] : 1;
+  squash += exprFrom !== undefined && exprFrom !== expr ? -0.1 * Math.sin(exprMix * Math.PI) : 0; // the expression "pop"
+  const h = hashStr(spec.id);
+  const breath = Math.sin((frame + h) / 13);
+  const cyc = (frame + h * 7) % 96;
+  const closed = blink && (cyc < 4 || (h % 3 === 0 && cyc >= 9 && cyc < 12)); // some kids double-blink
+  const im = idle ? idleMotion(frame, h, expr, mouth, legs === 'walk' || hop > 0) : { sway: 0, tilt: 0, nod: 0, bounce: 0 };
+  const step = legs === 'walk' ? Math.sin(walk * Math.PI * 2) : 0;
+  const bob = legs === 'walk' ? -Math.abs(step) * 14 : 0;
+  const sit = legs === 'sit' ? 118 : 0;
+  const fingerL = fingersL || (armL === 'count' ? 0 : 0);
+  const pantsLegs = spec.top === 'dress' ? spec.skin : spec.pants;
+
+  const leg = (side: -1 | 1) => {
+    const lift = legs === 'walk' ? Math.max(0, side * step) * 34 : 0;
+    const swing = legs === 'walk' ? side * step * 14 : 0;
+    if (legs === 'sit')
+      return (
+        <g key={side}>
+          <Vol>
+            <rect x={side * 40 - 36} y={-60} width={72} height={60} rx={30} fill={pantsLegs} {...kst()} />
+            <ellipse cx={side * 52} cy={-2} rx={52} ry={34} fill={spec.shoes} {...kst()} />
+          </Vol>
+        </g>
+      );
+    return (
+      <g key={side} transform={`translate(${side * 46 + swing},${-lift})`}>
+        <Vol kind="tube" tone={spec.top === 'dress' ? 'skin' : undefined}>
+          <rect x={-34} y={-176} width={68} height={150} rx={30} fill={pantsLegs} {...kst()} />
+        </Vol>
+        <Vol>
+          <path d={`M ${-44 + side * 14},-4 Q ${-50 + side * 14},-62 ${side * 14},-62 Q ${50 + side * 14},-62 ${44 + side * 14},-4 Z`} fill={spec.shoes} {...kst()} />
+        </Vol>
+        <path d={`M ${-40 + side * 14},-14 L ${40 + side * 14},-14`} stroke="#ffffff" strokeWidth={10} strokeLinecap="round" opacity={0.85} />
+        {polish && (
+          <g stroke="#ffffff" strokeWidth={5} strokeLinecap="round" opacity={0.9}>
+            <path d={`M ${side * 14 - 13},-50 L ${side * 14 + 11},-38 M ${side * 14 + 11},-50 L ${side * 14 - 13},-38`} />
+          </g>
+        )}
+        {polish && spec.top !== 'dress' && <path d="M -32,-66 L 32,-66" stroke="#000000" strokeWidth={6} opacity={0.14} />}
+      </g>
+    );
+  };
+
+  // arm layer: behind the body (default), in front of the tummy (holding, clapping, hugging) or
+  // over the face (hand on chin / reaching up past the head)
+  const layer = (pIn: KArm | Blend<KArm>): 'back' | 'front' | 'head' => {
+    const p = settled(pIn);
+    if (p === 'think' || p === 'wave' || p === 'count' || p === 'up' || p === 'cheeks' || p === 'cover' || p === 'cheer' || (typeof p === 'object' && 'to' in p && p.to[1] < -150)) return 'head';
+    if (p === 'hold' || p === 'clap' || p === 'hug' || p === 'thumbs' || (typeof p === 'object' && 'to' in p && p.to[0] > 20)) return 'front';
+    return 'back';
+  };
+  const aL = <Arm spec={spec} pose={armL} mirror={false} frame={frame} fingers={fingerL} hold={holdL} polish={polish} />;
+  const aR = <Arm spec={spec} pose={armR} mirror frame={frame} fingers={fingersR} hold={holdR} polish={polish} />;
+
+  // the chin's soft shadow on the chest (clipped to the top, so it never smudges the background)
+  const chinAO = (d: string) => (
+    <g clipPath={`url(#kao-${spec.id})`}>
+      <clipPath id={`kao-${spec.id}`}>
+        <path d={d} />
+      </clipPath>
+      <AO cx={0} cy={-404 + im.nod} rx={150} ry={56} />
+    </g>
+  );
+
+  const torso = () => {
+    if (spec.top === 'dress')
+      return (
+        <>
+          <Vol shape={<path d={DRESS} />}>
+            <path d={DRESS} fill={spec.topColor} {...kst()} />
+            <path d="M -146,-166 Q 0,-136 146,-166 L 150,-150 Q 0,-118 -150,-150 Z" fill={spec.topColor2 ?? '#ffffff'} {...kst(6)} />
+          </Vol>
+          {polish && (
+            <g>
+              <ellipse cx={-30} cy={-396} rx={34} ry={17} transform="rotate(14 -30 -396)" fill={spec.topColor2 ?? '#ffffff'} {...kst(5)} />
+              <ellipse cx={30} cy={-396} rx={34} ry={17} transform="rotate(-14 30 -396)" fill={spec.topColor2 ?? '#ffffff'} {...kst(5)} />
+              {[-350, -318].map((by) => <circle key={by} cx={0} cy={by} r={7} fill={spec.topColor2 ?? '#ffffff'} {...kst(4)} />)}
+            </g>
+          )}
+          {chinAO(DRESS)}
+        </>
+      );
+    return (
+      <>
+        <Vol shape={<path d={TEE} />}>
+          <path d={TEE} fill={spec.topColor} {...kst()} />
+          {spec.top === 'stripes' && (
+            <g clipPath={`url(#torso-${spec.id})`}>
+              <clipPath id={`torso-${spec.id}`}>
+                <path d={TEE} />
+              </clipPath>
+              {[-370, -320, -270, -220].map((yy) => (
+                <rect key={yy} x={-120} y={yy} width={240} height={22} fill={spec.topColor2 ?? '#ffffff'} />
+              ))}
+            </g>
+          )}
+          {spec.hero && (
+            <g>
+              {spec.hero.belt && <Belt color={spec.hero.belt} y={-176} half={100} />}
+              <ChestBadge look={spec.hero} y={-292} r={44} />
+            </g>
+          )}
+          {spec.top === 'overalls' && (
+            <g>
+              <path d="M -62,-300 L 62,-300 L 100,-160 Q 0,-140 -100,-160 Z" fill={spec.topColor2 ?? spec.pants} {...kst()} />
+              <path d="M -62,-300 L -70,-398 M 62,-300 L 70,-398" stroke={spec.topColor2 ?? spec.pants} strokeWidth={22} />
+              <circle cx={-46} cy={-282} r={10} fill="#ffd166" {...kst(4)} />
+              <circle cx={46} cy={-282} r={10} fill="#ffd166" {...kst(4)} />
+              <rect x={-30} y={-246} width={60} height={40} rx={8} fill="none" {...kst(5)} />
+            </g>
+          )}
+          <path d="M -40,-404 Q 0,-378 40,-404" fill="none" {...kst(7)} />
+        </Vol>
+        {polish && <path d="M -50,-405 Q 0,-362 50,-405 L 42,-398 Q 0,-374 -42,-398 Z" fill={spec.top === 'stripes' ? (spec.topColor2 ?? '#ffffff') : '#ffffff'} {...kst(5)} />}
+        {chinAO(TEE)}
+      </>
+    );
+  };
+
+  const head = (
+    <g transform={`translate(0,${HEAD_Y + breath * 2 + im.nod}) rotate(${tilt + im.tilt} 0 140)`}>
+      <Vol>{HairBack({ spec })}</Vol>
+      <Vol tone="skin">
+        <ellipse cx={-176} cy={20} rx={30} ry={34} fill={spec.skin} {...kst()} />
+        <ellipse cx={176} cy={20} rx={30} ry={34} fill={spec.skin} {...kst()} />
+        <ellipse cx={0} cy={0} rx={178} ry={168} fill={spec.skin} {...kst(9)} />
+      </Vol>
+      {spec.hero?.mask && <Mask color={spec.hero.mask} y={20} dx={68} r={42} />}
+      <g transform="translate(0,26)">
+        <Face expr={expr} look={look} mouth={mouth} blink={closed} from={exprFrom} mix={exprMix} viseme={viseme} acting={acting} skin={spec.skin} iris={spec.iris ?? '#6b4226'} eyeR={42} eyeDX={68} eyeY={-6} mouthY={66} mouthW={48} brows={spec.hairColor} lashes={spec.lashes} freckles={spec.freckles} />
+      </g>
+      <Vol>{HairFront({ spec })}</Vol>
+      {/* hair shine */}
+      <path d="M -120,-118 Q -70,-158 -10,-160" fill="none" stroke="#ffffff" strokeWidth={14} strokeLinecap="round" opacity={0.32} />
+      {polish && <HairDetail spec={spec} />}
+      <HeadSparkles frame={frame} r={178} on={expr === 'wow' || expr === 'proud'} />
+      {spec.glasses && (
+        <g fill="none" {...kst(8)}>
+          <circle cx={-68} cy={20} r={56} fill="rgba(255,255,255,0.18)" />
+          <circle cx={68} cy={20} r={56} fill="rgba(255,255,255,0.18)" />
+          <path d="M -12,16 Q 0,8 12,16" />
+        </g>
+      )}
+      {spec.bow && (
+        <g transform="translate(-112,-150) rotate(-18)">
+          <Vol>
+            <path d="M 0,0 L -56,-34 Q -70,0 -56,34 Z" fill={spec.bow} {...kst(7)} />
+            <path d="M 0,0 L 56,-34 Q 70,0 56,34 Z" fill={spec.bow} {...kst(7)} />
+            <circle r={16} fill={spec.bow} {...kst(7)} />
+          </Vol>
+        </g>
+      )}
+      {wear}
+    </g>
+  );
+
+  return (
+    <g transform={`translate(${x},${y}) scale(${scale})`}>
+      <K3DDefs />
+      {shadow && <Ground rx={150} ry={22} lift={hop + im.bounce} />}
+      <g transform={`translate(0,${-hop + bob - im.bounce}) rotate(${lean + im.sway} 0 0) scale(${1 + squash * 0.08},${1 - squash * 0.14})`}>
+        {spec.hero && <g transform={`translate(0,${sit})`}><Cape look={spec.hero} frame={frame} top={-400} bottom={-50} half={175} lift={hop} /></g>}
+        {leg(-1)}
+        {leg(1)}
+        <g transform={`translate(0,${sit})`}>
+          <g transform={`translate(0,-280) scale(1,${1 + breath * 0.01}) translate(0,280)`}>
+            {layer(armL) === 'back' && aL}
+            {layer(armR) === 'back' && aR}
+            {torso()}
+            {layer(armL) === 'front' && aL}
+            {layer(armR) === 'front' && aR}
+            {head}
+            {layer(armL) === 'head' && aL}
+            {layer(armR) === 'head' && aR}
+          </g>
+        </g>
+      </g>
+    </g>
+  );
+};
+
+export const kidFaceAt = (x: number, y: number, scale = 1, legs: 'stand' | 'walk' | 'sit' = 'stand'): [number, number] => [
+  x,
+  y + (HEAD_Y + 26 + (legs === 'sit' ? 118 : 0)) * scale,
+];

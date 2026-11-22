@@ -1,0 +1,788 @@
+{
+  "id": "day-080",
+  "series": "tiny-sparks",
+  "episode": 80,
+  "title": "Wild Animals in English and French",
+  "composition": "KidsWords080",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "durationSec": 86.8
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "mila": {
+      "kokoro": "af_sky",
+      "rate": "-4%",
+      "kokoro_fr": "ff_siwis"
+    },
+    "narrator_fr": {
+      "kokoro": "ff_siwis",
+      "lang": "fr",
+      "rate": "-6%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -7,
+    "duck": 8,
+    "start": 0,
+    "fade_in": 0.3
+  },
+  "vo": [
+    {
+      "beat": "hook",
+      "speaker": "mila",
+      "start": 0.4,
+      "text": "Shh! Something is in the bush!",
+      "end": 2.66,
+      "words": [
+        {
+          "w": "Shh!",
+          "start": 0.44,
+          "end": 1.304
+        },
+        {
+          "w": "Something",
+          "start": 1.304,
+          "end": 1.769
+        },
+        {
+          "w": "is",
+          "start": 1.769,
+          "end": 1.902
+        },
+        {
+          "w": "in",
+          "start": 1.902,
+          "end": 2.101
+        },
+        {
+          "w": "the",
+          "start": 2.101,
+          "end": 2.234
+        },
+        {
+          "w": "bush!",
+          "start": 2.234,
+          "end": 2.5
+        }
+      ]
+    },
+    {
+      "beat": "hook",
+      "speaker": "mila",
+      "start": 3.66,
+      "text": "Who is it?",
+      "end": 4.74,
+      "words": [
+        {
+          "w": "Who",
+          "start": 3.74,
+          "end": 4.185
+        },
+        {
+          "w": "is",
+          "start": 4.185,
+          "end": 4.408
+        },
+        {
+          "w": "it?",
+          "start": 4.408,
+          "end": 4.63
+        }
+      ]
+    },
+    {
+      "beat": "intro",
+      "speaker": "mila",
+      "start": 5.74,
+      "text": "Wild animals! In English, and in French!",
+      "end": 8.33,
+      "words": [
+        {
+          "w": "Wild",
+          "start": 5.76,
+          "end": 6.167
+        },
+        {
+          "w": "animals!",
+          "start": 6.167,
+          "end": 6.71
+        },
+        {
+          "w": "In",
+          "start": 6.71,
+          "end": 6.913
+        },
+        {
+          "w": "English,",
+          "start": 6.913,
+          "end": 7.388
+        },
+        {
+          "w": "and",
+          "start": 7.388,
+          "end": 7.592
+        },
+        {
+          "w": "in",
+          "start": 7.592,
+          "end": 7.795
+        },
+        {
+          "w": "French!",
+          "start": 7.795,
+          "end": 8.27
+        }
+      ]
+    },
+    {
+      "beat": "w0",
+      "speaker": "mila",
+      "start": 10.93,
+      "text": "Lion.",
+      "end": 11.87,
+      "words": [
+        {
+          "w": "Lion.",
+          "start": 10.98,
+          "end": 11.72
+        }
+      ]
+    },
+    {
+      "beat": "w0",
+      "speaker": "mila",
+      "start": 12.87,
+      "text": "Lion!",
+      "end": 13.76,
+      "words": [
+        {
+          "w": "Lion!",
+          "start": 12.92,
+          "end": 13.64
+        }
+      ]
+    },
+    {
+      "beat": "w0",
+      "speaker": "narrator_fr",
+      "start": 15.66,
+      "text": "Le lion.",
+      "lang": "fr",
+      "end": 16.47,
+      "words": [
+        {
+          "w": "Le",
+          "start": 15.7,
+          "end": 15.983
+        },
+        {
+          "w": "lion.",
+          "start": 15.983,
+          "end": 16.36
+        }
+      ]
+    },
+    {
+      "beat": "w0",
+      "speaker": "mila",
+      "start": 17.77,
+      "text": "The lion says ROAR! What a big voice!",
+      "end": 20.35,
+      "words": [
+        {
+          "w": "The",
+          "start": 17.96,
+          "end": 18.102
+        },
+        {
+          "w": "lion",
+          "start": 18.102,
+          "end": 18.529
+        },
+        {
+          "w": "says",
+          "start": 18.529,
+          "end": 18.814
+        },
+        {
+          "w": "ROAR!",
+          "start": 18.814,
+          "end": 19.17
+        },
+        {
+          "w": "What",
+          "start": 19.33,
+          "end": 19.565
+        },
+        {
+          "w": "a",
+          "start": 19.565,
+          "end": 19.741
+        },
+        {
+          "w": "big",
+          "start": 19.741,
+          "end": 19.976
+        },
+        {
+          "w": "voice!",
+          "start": 19.976,
+          "end": 20.27
+        }
+      ]
+    },
+    {
+      "beat": "w1",
+      "speaker": "mila",
+      "start": 22.95,
+      "text": "Elephant.",
+      "end": 23.97,
+      "words": [
+        {
+          "w": "Elephant.",
+          "start": 23.05,
+          "end": 23.85
+        }
+      ]
+    },
+    {
+      "beat": "w1",
+      "speaker": "mila",
+      "start": 24.97,
+      "text": "Elephant!",
+      "end": 25.99,
+      "words": [
+        {
+          "w": "Elephant!",
+          "start": 25.05,
+          "end": 25.87
+        }
+      ]
+    },
+    {
+      "beat": "w1",
+      "speaker": "narrator_fr",
+      "start": 27.89,
+      "text": "L'éléphant.",
+      "lang": "fr",
+      "end": 28.85,
+      "words": [
+        {
+          "w": "L'éléphant.",
+          "start": 27.92,
+          "end": 28.73
+        }
+      ]
+    },
+    {
+      "beat": "w1",
+      "speaker": "mila",
+      "start": 30.15,
+      "text": "The elephant has a long trunk! Splash, splash!",
+      "end": 33.22,
+      "words": [
+        {
+          "w": "The",
+          "start": 30.35,
+          "end": 30.489
+        },
+        {
+          "w": "elephant",
+          "start": 30.489,
+          "end": 31.045
+        },
+        {
+          "w": "has",
+          "start": 31.045,
+          "end": 31.323
+        },
+        {
+          "w": "a",
+          "start": 31.323,
+          "end": 31.531
+        },
+        {
+          "w": "long",
+          "start": 31.531,
+          "end": 31.809
+        },
+        {
+          "w": "trunk!",
+          "start": 31.809,
+          "end": 32.226
+        },
+        {
+          "w": "Splash,",
+          "start": 32.226,
+          "end": 32.643
+        },
+        {
+          "w": "splash!",
+          "start": 32.643,
+          "end": 33.06
+        }
+      ]
+    },
+    {
+      "beat": "w2",
+      "speaker": "mila",
+      "start": 35.82,
+      "text": "Monkey.",
+      "end": 36.73,
+      "words": [
+        {
+          "w": "Monkey.",
+          "start": 35.9,
+          "end": 36.64
+        }
+      ]
+    },
+    {
+      "beat": "w2",
+      "speaker": "mila",
+      "start": 37.73,
+      "text": "Monkey!",
+      "end": 38.64,
+      "words": [
+        {
+          "w": "Monkey!",
+          "start": 37.81,
+          "end": 38.54
+        }
+      ]
+    },
+    {
+      "beat": "w2",
+      "speaker": "narrator_fr",
+      "start": 40.54,
+      "text": "Le singe.",
+      "lang": "fr",
+      "end": 41.52,
+      "words": [
+        {
+          "w": "Le",
+          "start": 40.57,
+          "end": 40.93
+        },
+        {
+          "w": "singe.",
+          "start": 40.93,
+          "end": 41.41
+        }
+      ]
+    },
+    {
+      "beat": "w2",
+      "speaker": "mila",
+      "start": 42.82,
+      "text": "The monkey loves bananas! Yum, yum!",
+      "end": 45.25,
+      "words": [
+        {
+          "w": "The",
+          "start": 42.86,
+          "end": 43.018
+        },
+        {
+          "w": "monkey",
+          "start": 43.018,
+          "end": 43.492
+        },
+        {
+          "w": "loves",
+          "start": 43.492,
+          "end": 43.887
+        },
+        {
+          "w": "bananas!",
+          "start": 43.887,
+          "end": 44.518
+        },
+        {
+          "w": "Yum,",
+          "start": 44.518,
+          "end": 44.834
+        },
+        {
+          "w": "yum!",
+          "start": 44.834,
+          "end": 45.15
+        }
+      ]
+    },
+    {
+      "beat": "w3",
+      "speaker": "mila",
+      "start": 47.85,
+      "text": "Tiger.",
+      "end": 48.76,
+      "words": [
+        {
+          "w": "Tiger.",
+          "start": 47.9,
+          "end": 48.61
+        }
+      ]
+    },
+    {
+      "beat": "w3",
+      "speaker": "mila",
+      "start": 49.76,
+      "text": "Tiger!",
+      "end": 50.7,
+      "words": [
+        {
+          "w": "Tiger!",
+          "start": 49.81,
+          "end": 50.57
+        }
+      ]
+    },
+    {
+      "beat": "w3",
+      "speaker": "narrator_fr",
+      "start": 52.6,
+      "text": "Le tigre.",
+      "lang": "fr",
+      "end": 53.56,
+      "words": [
+        {
+          "w": "Le",
+          "start": 52.63,
+          "end": 52.938
+        },
+        {
+          "w": "tigre.",
+          "start": 52.938,
+          "end": 53.45
+        }
+      ]
+    },
+    {
+      "beat": "w3",
+      "speaker": "mila",
+      "start": 54.86,
+      "text": "The tiger plays peekaboo! Boo!",
+      "end": 56.84,
+      "words": [
+        {
+          "w": "The",
+          "start": 54.89,
+          "end": 55.022
+        },
+        {
+          "w": "tiger",
+          "start": 55.022,
+          "end": 55.419
+        },
+        {
+          "w": "plays",
+          "start": 55.419,
+          "end": 55.815
+        },
+        {
+          "w": "peekaboo!",
+          "start": 55.815,
+          "end": 56.476
+        },
+        {
+          "w": "Boo!",
+          "start": 56.476,
+          "end": 56.74
+        }
+      ]
+    },
+    {
+      "beat": "quiz",
+      "speaker": "mila",
+      "start": 58.84,
+      "text": "Where is the monkey?",
+      "end": 60.27,
+      "words": [
+        {
+          "w": "Where",
+          "start": 58.95,
+          "end": 59.299
+        },
+        {
+          "w": "is",
+          "start": 59.299,
+          "end": 59.473
+        },
+        {
+          "w": "the",
+          "start": 59.473,
+          "end": 59.647
+        },
+        {
+          "w": "monkey?",
+          "start": 59.647,
+          "end": 60.17
+        }
+      ]
+    },
+    {
+      "beat": "quiz",
+      "speaker": "mila",
+      "start": 64.87,
+      "text": "The monkey! Yay!",
+      "end": 66.17,
+      "words": [
+        {
+          "w": "The",
+          "start": 64.91,
+          "end": 65.105
+        },
+        {
+          "w": "monkey!",
+          "start": 65.105,
+          "end": 65.69
+        },
+        {
+          "w": "Yay!",
+          "start": 65.69,
+          "end": 66.08
+        }
+      ]
+    },
+    {
+      "beat": "quiz",
+      "speaker": "narrator_fr",
+      "start": 66.77,
+      "text": "Le singe !",
+      "lang": "fr",
+      "end": 67.79,
+      "words": [
+        {
+          "w": "Le",
+          "start": 66.8,
+          "end": 67.181
+        },
+        {
+          "w": "singe",
+          "start": 67.181,
+          "end": 67.69
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "mila",
+      "start": 69.99,
+      "text": "Lion! Elephant! Monkey! Tiger!",
+      "end": 72.31,
+      "words": [
+        {
+          "w": "Lion!",
+          "start": 70.02,
+          "end": 70.525
+        },
+        {
+          "w": "Elephant!",
+          "start": 70.525,
+          "end": 71.199
+        },
+        {
+          "w": "Monkey!",
+          "start": 71.199,
+          "end": 71.705
+        },
+        {
+          "w": "Tiger!",
+          "start": 71.705,
+          "end": 72.21
+        }
+      ]
+    },
+    {
+      "beat": "recap",
+      "speaker": "narrator_fr",
+      "start": 73.51,
+      "text": "Le lion, l'éléphant, le singe, le tigre !",
+      "lang": "fr",
+      "end": 75.77,
+      "words": [
+        {
+          "w": "Le",
+          "start": 73.55,
+          "end": 73.766
+        },
+        {
+          "w": "lion,",
+          "start": 73.766,
+          "end": 74.054
+        },
+        {
+          "w": "l'éléphant,",
+          "start": 74.054,
+          "end": 74.559
+        },
+        {
+          "w": "le",
+          "start": 74.559,
+          "end": 74.775
+        },
+        {
+          "w": "singe,",
+          "start": 74.775,
+          "end": 75.063
+        },
+        {
+          "w": "le",
+          "start": 75.063,
+          "end": 75.28
+        },
+        {
+          "w": "tigre",
+          "start": 75.28,
+          "end": 75.64
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "start": 77.57,
+      "text": "Which wild animal do YOU like best?",
+      "end": 79.89,
+      "words": [
+        {
+          "w": "Which",
+          "start": 77.61,
+          "end": 77.926
+        },
+        {
+          "w": "wild",
+          "start": 77.926,
+          "end": 78.305
+        },
+        {
+          "w": "animal",
+          "start": 78.305,
+          "end": 78.747
+        },
+        {
+          "w": "do",
+          "start": 78.747,
+          "end": 78.999
+        },
+        {
+          "w": "YOU",
+          "start": 78.999,
+          "end": 79.189
+        },
+        {
+          "w": "like",
+          "start": 79.189,
+          "end": 79.504
+        },
+        {
+          "w": "best?",
+          "start": 79.504,
+          "end": 79.82
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "mila",
+      "start": 81.69,
+      "text": "Bye bye!",
+      "end": 82.71,
+      "words": [
+        {
+          "w": "Bye",
+          "start": 81.8,
+          "end": 82.195
+        },
+        {
+          "w": "bye!",
+          "start": 82.195,
+          "end": 82.59
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "narrator_fr",
+      "start": 83.01,
+      "text": "Au revoir !",
+      "lang": "fr",
+      "end": 83.99,
+      "words": [
+        {
+          "w": "Au",
+          "start": 83.05,
+          "end": 83.148
+        },
+        {
+          "w": "revoir",
+          "start": 83.148,
+          "end": 83.83
+        }
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "start": 0,
+      "visual": "Shh! Something is in the bush! / Who is it?",
+      "end": 6.67
+    },
+    {
+      "id": "intro",
+      "start": 6.67,
+      "visual": "Wild animals! In English, and in French!",
+      "end": 8.75
+    },
+    {
+      "id": "w0",
+      "start": 8.75,
+      "visual": "Lion. / Lion! / Le lion. / The lion says ROAR! What a big voice!",
+      "end": 20.78
+    },
+    {
+      "id": "w1",
+      "start": 20.78,
+      "visual": "Elephant. / Elephant! / L'éléphant. / The elephant has a long trunk! Splash, splash!",
+      "end": 33.16
+    },
+    {
+      "id": "w2",
+      "start": 33.16,
+      "visual": "Monkey. / Monkey! / Le singe. / The monkey loves bananas! Yum, yum!",
+      "end": 45.83
+    },
+    {
+      "id": "w3",
+      "start": 45.83,
+      "visual": "Tiger. / Tiger! / Le tigre. / The tiger plays peekaboo! Boo!",
+      "end": 57.87
+    },
+    {
+      "id": "quiz",
+      "start": 57.87,
+      "visual": "Where is the monkey? / The monkey! Yay! / Le singe !",
+      "end": 69.78
+    },
+    {
+      "id": "recap",
+      "start": 69.78,
+      "visual": "Lion! Elephant! Monkey! Tiger! / Le lion, l'éléphant, le singe, le tigre !",
+      "end": 76.52
+    },
+    {
+      "id": "bye",
+      "start": 76.52,
+      "visual": "Which wild animal do YOU like best? / Bye bye! / Au revoir !",
+      "end": 86.8
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

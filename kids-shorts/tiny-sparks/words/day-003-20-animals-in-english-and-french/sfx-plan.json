@@ -1,0 +1,244 @@
+{
+  "master": "remotion/out/KidsWords003-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsWords003-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/words/day-003-20-animals-in-english-and-french/output/day-003-sfx.mp4",
+    "end_s": 118.7,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0.05,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -14,
+      "shot": "KidsWords003",
+      "cue": "title card"
+    },
+    {
+      "at_s": 1.3,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -18,
+      "shot": "KidsWords003",
+      "cue": "into the meadow"
+    },
+    {
+      "at_s": 6.87,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsWords003",
+      "cue": "card Lion"
+    },
+    {
+      "at_s": 9.67,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -18,
+      "shot": "KidsWords003",
+      "cue": "FR le lion"
+    },
+    {
+      "at_s": 13.23,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsWords003",
+      "cue": "card Pig"
+    },
+    {
+      "at_s": 15.65,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -18,
+      "shot": "KidsWords003",
+      "cue": "FR le cochon"
+    },
+    {
+      "at_s": 19.5,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsWords003",
+      "cue": "card Cat"
+    },
+    {
+      "at_s": 21.98,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -18,
+      "shot": "KidsWords003",
+      "cue": "FR le chat"
+    },
+    {
+      "at_s": 34.57,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsWords003",
+      "cue": "card Fox"
+    },
+    {
+      "at_s": 37.48,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -18,
+      "shot": "KidsWords003",
+      "cue": "FR le renard"
+    },
+    {
+      "at_s": 41.75,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsWords003",
+      "cue": "card Rabbit"
+    },
+    {
+      "at_s": 44.57,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -18,
+      "shot": "KidsWords003",
+      "cue": "FR le lapin"
+    },
+    {
+      "at_s": 49.29,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsWords003",
+      "cue": "card Mouse"
+    },
+    {
+      "at_s": 51.94,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -18,
+      "shot": "KidsWords003",
+      "cue": "FR la souris"
+    },
+    {
+      "at_s": 64.58,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsWords003",
+      "cue": "card Panda"
+    },
+    {
+      "at_s": 67.29,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -18,
+      "shot": "KidsWords003",
+      "cue": "FR le panda"
+    },
+    {
+      "at_s": 71.52,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsWords003",
+      "cue": "card Owl"
+    },
+    {
+      "at_s": 74.21,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -18,
+      "shot": "KidsWords003",
+      "cue": "FR le hibou"
+    },
+    {
+      "at_s": 77.89,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsWords003",
+      "cue": "card Frog"
+    },
+    {
+      "at_s": 80.65,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -18,
+      "shot": "KidsWords003",
+      "cue": "FR la grenouille"
+    },
+    {
+      "at_s": 93.78,
+      "sfx_id": "pop-reveal",
+      "gain_db": -14,
+      "shot": "KidsWords003",
+      "cue": "card Bear"
+    },
+    {
+      "at_s": 96.22,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -18,
+      "shot": "KidsWords003",
+      "cue": "FR l'ours"
+    },
+    {
+      "at_s": 26.17,
+      "sfx_id": "pop-reveal",
+      "gain_db": -16,
+      "shot": "KidsWords003",
+      "cue": "quiz options"
+    },
+    {
+      "at_s": 28.42,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsWords003",
+      "cue": "think timer"
+    },
+    {
+      "at_s": 31.72,
+      "sfx_id": "chime-reward",
+      "gain_db": -13,
+      "shot": "KidsWords003",
+      "cue": "right answer"
+    },
+    {
+      "at_s": 56.08,
+      "sfx_id": "pop-reveal",
+      "gain_db": -16,
+      "shot": "KidsWords003",
+      "cue": "quiz options"
+    },
+    {
+      "at_s": 58.36,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsWords003",
+      "cue": "think timer"
+    },
+    {
+      "at_s": 61.66,
+      "sfx_id": "chime-reward",
+      "gain_db": -13,
+      "shot": "KidsWords003",
+      "cue": "right answer"
+    },
+    {
+      "at_s": 85.25,
+      "sfx_id": "pop-reveal",
+      "gain_db": -16,
+      "shot": "KidsWords003",
+      "cue": "quiz options"
+    },
+    {
+      "at_s": 87.48,
+      "sfx_id": "clock-tick-soft",
+      "gain_db": -18,
+      "shot": "KidsWords003",
+      "cue": "think timer"
+    },
+    {
+      "at_s": 90.78,
+      "sfx_id": "chime-reward",
+      "gain_db": -13,
+      "shot": "KidsWords003",
+      "cue": "right answer"
+    },
+    {
+      "at_s": 101.06,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -17,
+      "shot": "KidsWords003",
+      "cue": "recap grid"
+    },
+    {
+      "at_s": 112.74,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsWords003",
+      "cue": "goodbye confetti"
+    }
+  ]
+}

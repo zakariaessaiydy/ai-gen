@@ -1,0 +1,350 @@
+{
+  "master": "remotion/out/KidsWords045-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsWords045-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/words/day-045-school-objects-english-french/output/day-045-sfx.mp4",
+    "end_s": 139.0,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 3.41,
+      "sfx_id": "zip-up",
+      "gain_db": 0,
+      "shot": "KidsWords045",
+      "cue": "zip"
+    },
+    {
+      "at_s": 3.739,
+      "sfx_id": "zip-up",
+      "gain_db": 0,
+      "shot": "KidsWords045",
+      "cue": "zip"
+    },
+    {
+      "at_s": 4.038,
+      "sfx_id": "cartoon-pop",
+      "gain_db": 0,
+      "shot": "KidsWords045",
+      "cue": "POP! the backpack bursts"
+    },
+    {
+      "at_s": 4.118,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -4,
+      "shot": "KidsWords045",
+      "cue": "everything flies out"
+    },
+    {
+      "at_s": 4.668,
+      "sfx_id": "kids-wow",
+      "gain_db": -12,
+      "shot": "KidsWords045",
+      "cue": "wow"
+    },
+    {
+      "at_s": 10.63,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsWords045",
+      "cue": "pencil flies to its card"
+    },
+    {
+      "at_s": 11.13,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8,
+      "shot": "KidsWords045",
+      "cue": "Pencil card"
+    },
+    {
+      "at_s": 14.9,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -4,
+      "shot": "KidsWords045",
+      "cue": "YOUR TURN"
+    },
+    {
+      "at_s": 21.34,
+      "sfx_id": "rubber-stretch",
+      "gain_db": 0,
+      "shot": "KidsWords045",
+      "cue": "the pencil draws a sun"
+    },
+    {
+      "at_s": 23.47,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -9,
+      "shot": "KidsWords045",
+      "cue": "happy sun"
+    },
+    {
+      "at_s": 25.32,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsWords045",
+      "cue": "book flies to its card"
+    },
+    {
+      "at_s": 25.82,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8,
+      "shot": "KidsWords045",
+      "cue": "Book card"
+    },
+    {
+      "at_s": 29.2,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -4,
+      "shot": "KidsWords045",
+      "cue": "YOUR TURN"
+    },
+    {
+      "at_s": 35.35,
+      "sfx_id": "zip-up",
+      "gain_db": 0,
+      "shot": "KidsWords045",
+      "cue": "the book opens"
+    },
+    {
+      "at_s": 36.503,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -9,
+      "shot": "KidsWords045",
+      "cue": "flip"
+    },
+    {
+      "at_s": 36.777,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -9,
+      "shot": "KidsWords045",
+      "cue": "flip"
+    },
+    {
+      "at_s": 38.79,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsWords045",
+      "cue": "ruler flies to its card"
+    },
+    {
+      "at_s": 39.29,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8,
+      "shot": "KidsWords045",
+      "cue": "Ruler card"
+    },
+    {
+      "at_s": 43.1,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -4,
+      "shot": "KidsWords045",
+      "cue": "YOUR TURN"
+    },
+    {
+      "at_s": 49.52,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -6,
+      "shot": "KidsWords045",
+      "cue": "a straight line"
+    },
+    {
+      "at_s": 53.05,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsWords045",
+      "cue": "eraser flies to its card"
+    },
+    {
+      "at_s": 53.55,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8,
+      "shot": "KidsWords045",
+      "cue": "Eraser card"
+    },
+    {
+      "at_s": 57.55,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -4,
+      "shot": "KidsWords045",
+      "cue": "YOUR TURN"
+    },
+    {
+      "at_s": 63.59,
+      "sfx_id": "uh-oh",
+      "gain_db": -6,
+      "shot": "KidsWords045",
+      "cue": "oops"
+    },
+    {
+      "at_s": 64.54,
+      "sfx_id": "rubber-stretch",
+      "gain_db": -2,
+      "shot": "KidsWords045",
+      "cue": "rub"
+    },
+    {
+      "at_s": 64.79,
+      "sfx_id": "rubber-stretch",
+      "gain_db": -2,
+      "shot": "KidsWords045",
+      "cue": "rub"
+    },
+    {
+      "at_s": 65.57,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -9,
+      "shot": "KidsWords045",
+      "cue": "all gone"
+    },
+    {
+      "at_s": 67.34,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsWords045",
+      "cue": "glue flies to its card"
+    },
+    {
+      "at_s": 67.84,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8,
+      "shot": "KidsWords045",
+      "cue": "Glue card"
+    },
+    {
+      "at_s": 71.5,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -4,
+      "shot": "KidsWords045",
+      "cue": "YOUR TURN"
+    },
+    {
+      "at_s": 79.113,
+      "sfx_id": "cartoon-pop",
+      "gain_db": 0,
+      "shot": "KidsWords045",
+      "cue": "stick: the star"
+    },
+    {
+      "at_s": 79.437,
+      "sfx_id": "cartoon-pop",
+      "gain_db": 0,
+      "shot": "KidsWords045",
+      "cue": "stick: the heart"
+    },
+    {
+      "at_s": 81.51,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -10,
+      "shot": "KidsWords045",
+      "cue": "backpack flies to its card"
+    },
+    {
+      "at_s": 82.01,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8,
+      "shot": "KidsWords045",
+      "cue": "Backpack card"
+    },
+    {
+      "at_s": 85.81,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -4,
+      "shot": "KidsWords045",
+      "cue": "YOUR TURN"
+    },
+    {
+      "at_s": 93.359,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -2,
+      "shot": "KidsWords045",
+      "cue": "into the backpack"
+    },
+    {
+      "at_s": 93.579,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -2,
+      "shot": "KidsWords045",
+      "cue": "into the backpack"
+    },
+    {
+      "at_s": 93.799,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -2,
+      "shot": "KidsWords045",
+      "cue": "into the backpack"
+    },
+    {
+      "at_s": 94.019,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -2,
+      "shot": "KidsWords045",
+      "cue": "into the backpack"
+    },
+    {
+      "at_s": 94.045,
+      "sfx_id": "zip-up",
+      "gain_db": 0,
+      "shot": "KidsWords045",
+      "cue": "ZIP!"
+    },
+    {
+      "at_s": 94.239,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -2,
+      "shot": "KidsWords045",
+      "cue": "into the backpack"
+    },
+    {
+      "at_s": 96.96,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8,
+      "shot": "KidsWords045",
+      "cue": "quiz cards"
+    },
+    {
+      "at_s": 99.5,
+      "sfx_id": "think-tick",
+      "gain_db": -9,
+      "shot": "KidsWords045",
+      "cue": "quiz think",
+      "dur_s": 4.59
+    },
+    {
+      "at_s": 104.39,
+      "sfx_id": "ding-correct",
+      "gain_db": -6,
+      "shot": "KidsWords045",
+      "cue": "the ruler!"
+    },
+    {
+      "at_s": 108.13,
+      "sfx_id": "kids-yay",
+      "gain_db": -12,
+      "shot": "KidsWords045",
+      "cue": "yay"
+    },
+    {
+      "at_s": 111.63,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -9,
+      "shot": "KidsWords045",
+      "cue": "recap grid"
+    },
+    {
+      "at_s": 130.83,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -8,
+      "shot": "KidsWords045",
+      "cue": "confetti bye"
+    },
+    {
+      "at_s": 136.85,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsWords045",
+      "cue": "ending iris"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+ "title": "Counting Backwards Song (Tiny Sparks original)",
+ "bpm": 100,
+ "beatsPerBar": 4,
+ "introBars": 2,
+ "outroBars": 2,
+ "instruments": {
+  "lead": "xylophone",
+  "chords": "ukulele",
+  "bass": true,
+  "drums": "soft",
+  "leadWithVocal": true
+ },
+ "singer": "mila",
+ "vocal": {
+  "voice": "af_sky",
+  "pitch": 0,
+  "rate": "-4%"
+ },
+ "form": [
+  "chorus",
+  "rocket",
+  "cd10",
+  "chorus",
+  "space",
+  "cd20",
+  "chorus",
+  "bubbles",
+  "chorus",
+  "q1",
+  "q2",
+  "q3",
+  "q4",
+  "actions",
+  "karaoke",
+  "slow",
+  "chorus"
+ ],
+ "sections": {
+  "chorus": {
+   "chords": "C | G | F | C | Am | F | G | C",
+   "melody": "C4:1 C4:1 E4:2 | G4:1 G4:1 E4:2 | F4:1 A4:1 A4:2 | G4:1 F4:1 E4:1 D4:1 | E4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": "Count it back-wards, count it down, / ten to one, now turn a-round! / Ten, nine, eight, sev-en, six, / five, four, three, two, one, blast off!"
+  },
+  "rocket": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Our lit-tle rock-et's on the ground, / en-gines rum-ble, what a sound! / Hel-mets on and buck-le in, / now the count-down will be-gin!"
+  },
+  "cd10": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Ten! Nine! Eight! Sev-en! / Six! Five! Four! / Three! Two! One! / Blast off! Zoom up to the stars!"
+  },
+  "space": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Up, up, past the moon so bright, / wave hel-lo to the stars at night! / Time to fly back home a-gain, / let's count down from twen-ty, friends!"
+  },
+  "cd20": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Twen-ty, nine-teen, eight-een, sev-en-teen, / six-teen, fif-teen, four-teen, thir-teen, / twelve, e-lev-en, ten, nine, eight, / sev-en, six, five, four, three, two, one! Touch-down!"
+  },
+  "bubbles": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Five big bub-bles float-ing high, / pop! Now four go drift-ing by. / Four, then three, then two, then one, / pop, pop, pop! The bub-bles are done!"
+  },
+  "q1": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What comes be-fore five? / Four!"
+  },
+  "q2": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What comes be-fore ten? / Nine!"
+  },
+  "q3": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What comes be-fore three? / Two!"
+  },
+  "q4": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What comes be-fore twen-ty? / Nine-teen!"
+  },
+  "actions": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Crouch down low, ten, nine, eight, / sev-en, six, five, wait, wait, wait! / Four, three, two, one, jump up high, / blast off, rock-et, to the sky!"
+  },
+  "karaoke": {
+   "chords": "C | G | F | C | Am | F | G | C",
+   "melody": "C4:1 C4:1 E4:2 | G4:1 G4:1 E4:2 | F4:1 A4:1 A4:2 | G4:1 F4:1 E4:1 D4:1 | E4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": ""
+  },
+  "slow": {
+   "chords": "C | G | C | G | C | G | C | G | C | G",
+   "melody": "G4:1 E4:1 G4:0.5 G4:0.5 E4:1 | R:4 | G4:2 E4:2 | R:4 | G4:3 R:1 | R:4 | G4:2 E4:2 | R:4 | G4:2 E4:2 | R:4",
+   "lyrics": "Let's count down slow-ly! / Five / Four / Three, two / One, blast off!"
+  }
+ },
+ "ace": {
+  "style": "kidspop",
+  "seeds": [
+   21,
+   52,
+   2036
+  ]
+ }
+}

@@ -1,0 +1,3612 @@
+{
+  "id": "day-064",
+  "series": "tiny-sparks",
+  "episode": 64,
+  "title": "The Lion Who Learned Humility",
+  "composition": "KidsMorals064",
+  "audience": "ages 3-5 + parents",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 308.1
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "narrator": {
+      "kokoro": "af_heart",
+      "rate": "-10%"
+    },
+    "sunny": {
+      "kokoro": "am_echo:0.5+am_puck:0.5",
+      "rate": "-4%"
+    },
+    "pippa": {
+      "kokoro": "bf_lily:0.6+af_nova:0.4",
+      "rate": "-2%"
+    },
+    "kiki": {
+      "kokoro": "af_jessica:0.6+af_kore:0.4",
+      "rate": "-2%"
+    },
+    "bobo": {
+      "kokoro": "am_fenrir:0.5+am_puck:0.5",
+      "rate": "-4%"
+    }
+  },
+  "music": {
+    "bed": "tiny-sparks-bounce",
+    "gain": -7,
+    "duck": 8,
+    "start": 3.7,
+    "fade_in": 0.25
+  },
+  "vo": [
+    {
+      "beat": "intro",
+      "speaker": "narrator",
+      "text": "Deep in the green jungle lives a big lion called Sunny.",
+      "gap": 1.0,
+      "start": 3.9,
+      "end": 7.41,
+      "words": [
+        {
+          "w": "Deep",
+          "start": 3.93,
+          "end": 4.244
+        },
+        {
+          "w": "in",
+          "start": 4.244,
+          "end": 4.432
+        },
+        {
+          "w": "the",
+          "start": 4.432,
+          "end": 4.558
+        },
+        {
+          "w": "green",
+          "start": 4.558,
+          "end": 4.934
+        },
+        {
+          "w": "jungle",
+          "start": 4.934,
+          "end": 5.437
+        },
+        {
+          "w": "lives",
+          "start": 5.437,
+          "end": 5.813
+        },
+        {
+          "w": "a",
+          "start": 5.813,
+          "end": 6.002
+        },
+        {
+          "w": "big",
+          "start": 6.002,
+          "end": 6.253
+        },
+        {
+          "w": "lion",
+          "start": 6.253,
+          "end": 6.629
+        },
+        {
+          "w": "called",
+          "start": 6.629,
+          "end": 7.006
+        },
+        {
+          "w": "Sunny.",
+          "start": 7.006,
+          "end": 7.32
+        }
+      ]
+    },
+    {
+      "beat": "sunny_hi",
+      "speaker": "sunny",
+      "text": "Roar! I'm Sunny! The biggest, strongest lion in the jungle!",
+      "gap": 1.0,
+      "start": 8.41,
+      "end": 12.05,
+      "words": [
+        {
+          "w": "Roar!",
+          "start": 8.43,
+          "end": 8.752
+        },
+        {
+          "w": "I'm",
+          "start": 8.752,
+          "end": 8.945
+        },
+        {
+          "w": "Sunny!",
+          "start": 8.945,
+          "end": 9.266
+        },
+        {
+          "w": "The",
+          "start": 9.266,
+          "end": 9.395
+        },
+        {
+          "w": "biggest,",
+          "start": 9.395,
+          "end": 9.845
+        },
+        {
+          "w": "strongest",
+          "start": 9.845,
+          "end": 10.488
+        },
+        {
+          "w": "lion",
+          "start": 10.488,
+          "end": 10.874
+        },
+        {
+          "w": "in",
+          "start": 10.874,
+          "end": 11.067
+        },
+        {
+          "w": "the",
+          "start": 11.067,
+          "end": 11.195
+        },
+        {
+          "w": "jungle!",
+          "start": 11.195,
+          "end": 11.71
+        }
+      ]
+    },
+    {
+      "beat": "roar_turn",
+      "speaker": "narrator",
+      "text": "Can you roar like Sunny? Roooar!",
+      "gap": 3.0,
+      "start": 13.05,
+      "end": 15.11,
+      "words": [
+        {
+          "w": "Can",
+          "start": 13.12,
+          "end": 13.324
+        },
+        {
+          "w": "you",
+          "start": 13.324,
+          "end": 13.476
+        },
+        {
+          "w": "roar",
+          "start": 13.476,
+          "end": 13.731
+        },
+        {
+          "w": "like",
+          "start": 13.731,
+          "end": 13.985
+        },
+        {
+          "w": "Sunny?",
+          "start": 13.985,
+          "end": 14.24
+        },
+        {
+          "w": "Roooar!",
+          "start": 14.51,
+          "end": 15.02
+        }
+      ]
+    },
+    {
+      "beat": "brag1",
+      "speaker": "sunny",
+      "text": "Look at my big mane! Look at my big paws!",
+      "gap": 1.0,
+      "start": 18.11,
+      "end": 20.75,
+      "words": [
+        {
+          "w": "Look",
+          "start": 18.15,
+          "end": 18.395
+        },
+        {
+          "w": "at",
+          "start": 18.395,
+          "end": 18.518
+        },
+        {
+          "w": "my",
+          "start": 18.518,
+          "end": 18.763
+        },
+        {
+          "w": "big",
+          "start": 18.763,
+          "end": 19.008
+        },
+        {
+          "w": "mane!",
+          "start": 19.008,
+          "end": 19.315
+        },
+        {
+          "w": "Look",
+          "start": 19.315,
+          "end": 19.56
+        },
+        {
+          "w": "at",
+          "start": 19.56,
+          "end": 19.683
+        },
+        {
+          "w": "my",
+          "start": 19.683,
+          "end": 19.928
+        },
+        {
+          "w": "big",
+          "start": 19.928,
+          "end": 20.173
+        },
+        {
+          "w": "paws!",
+          "start": 20.173,
+          "end": 20.48
+        }
+      ]
+    },
+    {
+      "beat": "brag2",
+      "speaker": "sunny",
+      "text": "I'm the best at everything!",
+      "gap": 1.2,
+      "start": 21.75,
+      "end": 23.47,
+      "words": [
+        {
+          "w": "I'm",
+          "start": 21.79,
+          "end": 21.999
+        },
+        {
+          "w": "the",
+          "start": 21.999,
+          "end": 22.138
+        },
+        {
+          "w": "best",
+          "start": 22.138,
+          "end": 22.485
+        },
+        {
+          "w": "at",
+          "start": 22.485,
+          "end": 22.624
+        },
+        {
+          "w": "everything!",
+          "start": 22.624,
+          "end": 23.25
+        }
+      ]
+    },
+    {
+      "beat": "friends",
+      "speaker": "narrator",
+      "text": "Sunny's friends are playing. Kiki the monkey, Bobo the bear, and little Pippa the mouse.",
+      "gap": 0.8,
+      "start": 24.67,
+      "end": 29.68,
+      "words": [
+        {
+          "w": "Sunny's",
+          "start": 24.7,
+          "end": 25.123
+        },
+        {
+          "w": "friends",
+          "start": 25.123,
+          "end": 25.616
+        },
+        {
+          "w": "are",
+          "start": 25.616,
+          "end": 25.827
+        },
+        {
+          "w": "playing.",
+          "start": 25.827,
+          "end": 26.32
+        },
+        {
+          "w": "Kiki",
+          "start": 26.32,
+          "end": 26.672
+        },
+        {
+          "w": "the",
+          "start": 26.672,
+          "end": 26.813
+        },
+        {
+          "w": "monkey,",
+          "start": 26.813,
+          "end": 27.235
+        },
+        {
+          "w": "Bobo",
+          "start": 27.235,
+          "end": 27.728
+        },
+        {
+          "w": "the",
+          "start": 27.728,
+          "end": 27.869
+        },
+        {
+          "w": "bear,",
+          "start": 27.869,
+          "end": 28.151
+        },
+        {
+          "w": "and",
+          "start": 28.151,
+          "end": 28.362
+        },
+        {
+          "w": "little",
+          "start": 28.362,
+          "end": 28.785
+        },
+        {
+          "w": "Pippa",
+          "start": 28.785,
+          "end": 29.137
+        },
+        {
+          "w": "the",
+          "start": 29.137,
+          "end": 29.278
+        },
+        {
+          "w": "mouse.",
+          "start": 29.278,
+          "end": 29.63
+        }
+      ]
+    },
+    {
+      "beat": "kiki",
+      "speaker": "kiki",
+      "text": "Sunny! Come and play hide and seek with us!",
+      "gap": 0.8,
+      "start": 30.48,
+      "end": 32.78,
+      "words": [
+        {
+          "w": "Sunny!",
+          "start": 30.52,
+          "end": 30.809
+        },
+        {
+          "w": "Come",
+          "start": 30.809,
+          "end": 31.04
+        },
+        {
+          "w": "and",
+          "start": 31.04,
+          "end": 31.213
+        },
+        {
+          "w": "play",
+          "start": 31.213,
+          "end": 31.502
+        },
+        {
+          "w": "hide",
+          "start": 31.502,
+          "end": 31.791
+        },
+        {
+          "w": "and",
+          "start": 31.791,
+          "end": 31.964
+        },
+        {
+          "w": "seek",
+          "start": 31.964,
+          "end": 32.253
+        },
+        {
+          "w": "with",
+          "start": 32.253,
+          "end": 32.427
+        },
+        {
+          "w": "us!",
+          "start": 32.427,
+          "end": 32.6
+        }
+      ]
+    },
+    {
+      "beat": "sunny_no",
+      "speaker": "sunny",
+      "text": "Hide and seek? That's a baby game! I'm too great for that!",
+      "gap": 1.0,
+      "start": 33.58,
+      "end": 37.01,
+      "words": [
+        {
+          "w": "Hide",
+          "start": 33.62,
+          "end": 33.902
+        },
+        {
+          "w": "and",
+          "start": 33.902,
+          "end": 34.071
+        },
+        {
+          "w": "seek?",
+          "start": 34.071,
+          "end": 34.353
+        },
+        {
+          "w": "That's",
+          "start": 34.353,
+          "end": 34.635
+        },
+        {
+          "w": "a",
+          "start": 34.635,
+          "end": 34.805
+        },
+        {
+          "w": "baby",
+          "start": 34.805,
+          "end": 35.143
+        },
+        {
+          "w": "game!",
+          "start": 35.143,
+          "end": 35.425
+        },
+        {
+          "w": "I'm",
+          "start": 35.425,
+          "end": 35.595
+        },
+        {
+          "w": "too",
+          "start": 35.595,
+          "end": 35.82
+        },
+        {
+          "w": "great",
+          "start": 35.82,
+          "end": 36.159
+        },
+        {
+          "w": "for",
+          "start": 36.159,
+          "end": 36.384
+        },
+        {
+          "w": "that!",
+          "start": 36.384,
+          "end": 36.61
+        }
+      ]
+    },
+    {
+      "beat": "pip_ask",
+      "speaker": "pippa",
+      "text": "Can I play with you, Sunny?",
+      "gap": 0.8,
+      "start": 38.01,
+      "end": 39.97,
+      "words": [
+        {
+          "w": "Can",
+          "start": 38.05,
+          "end": 38.361
+        },
+        {
+          "w": "I",
+          "start": 38.361,
+          "end": 38.595
+        },
+        {
+          "w": "play",
+          "start": 38.595,
+          "end": 38.984
+        },
+        {
+          "w": "with",
+          "start": 38.984,
+          "end": 39.217
+        },
+        {
+          "w": "you,",
+          "start": 39.217,
+          "end": 39.451
+        },
+        {
+          "w": "Sunny?",
+          "start": 39.451,
+          "end": 39.84
+        }
+      ]
+    },
+    {
+      "beat": "sunny_laugh",
+      "speaker": "sunny",
+      "text": "You? Ha! You're too small, little mouse. Small ones can't do anything!",
+      "gap": 1.0,
+      "start": 40.77,
+      "end": 44.64,
+      "words": [
+        {
+          "w": "You?",
+          "start": 40.8,
+          "end": 40.976
+        },
+        {
+          "w": "Ha!",
+          "start": 40.976,
+          "end": 41.212
+        },
+        {
+          "w": "You're",
+          "start": 41.212,
+          "end": 41.388
+        },
+        {
+          "w": "too",
+          "start": 41.388,
+          "end": 41.623
+        },
+        {
+          "w": "small,",
+          "start": 41.623,
+          "end": 41.976
+        },
+        {
+          "w": "little",
+          "start": 41.976,
+          "end": 42.329
+        },
+        {
+          "w": "mouse.",
+          "start": 42.329,
+          "end": 42.623
+        },
+        {
+          "w": "Small",
+          "start": 42.623,
+          "end": 42.976
+        },
+        {
+          "w": "ones",
+          "start": 42.976,
+          "end": 43.27
+        },
+        {
+          "w": "can't",
+          "start": 43.27,
+          "end": 43.564
+        },
+        {
+          "w": "do",
+          "start": 43.564,
+          "end": 43.799
+        },
+        {
+          "w": "anything!",
+          "start": 43.799,
+          "end": 44.27
+        }
+      ]
+    },
+    {
+      "beat": "pip_sad",
+      "speaker": "pippa",
+      "text": "Oh...",
+      "gap": 1.0,
+      "start": 45.64,
+      "end": 46.47,
+      "words": [
+        {
+          "w": "Oh...",
+          "start": 45.7,
+          "end": 46.39
+        }
+      ]
+    },
+    {
+      "beat": "feel",
+      "speaker": "narrator",
+      "text": "Pippa feels small, and sad. Being left out does not feel nice.",
+      "gap": 1.5,
+      "start": 47.47,
+      "end": 51.43,
+      "words": [
+        {
+          "w": "Pippa",
+          "start": 47.51,
+          "end": 47.844
+        },
+        {
+          "w": "feels",
+          "start": 47.844,
+          "end": 48.244
+        },
+        {
+          "w": "small,",
+          "start": 48.244,
+          "end": 48.644
+        },
+        {
+          "w": "and",
+          "start": 48.644,
+          "end": 48.844
+        },
+        {
+          "w": "sad.",
+          "start": 48.844,
+          "end": 49.111
+        },
+        {
+          "w": "Being",
+          "start": 49.111,
+          "end": 49.512
+        },
+        {
+          "w": "left",
+          "start": 49.512,
+          "end": 49.845
+        },
+        {
+          "w": "out",
+          "start": 49.845,
+          "end": 50.112
+        },
+        {
+          "w": "does",
+          "start": 50.112,
+          "end": 50.379
+        },
+        {
+          "w": "not",
+          "start": 50.379,
+          "end": 50.713
+        },
+        {
+          "w": "feel",
+          "start": 50.713,
+          "end": 51.046
+        },
+        {
+          "w": "nice.",
+          "start": 51.046,
+          "end": 51.38
+        }
+      ]
+    },
+    {
+      "beat": "q_kind",
+      "speaker": "narrator",
+      "text": "Was Sunny being kind? Hmm...",
+      "gap": 4.6,
+      "start": 52.93,
+      "end": 54.8,
+      "words": [
+        {
+          "w": "Was",
+          "start": 52.97,
+          "end": 53.15
+        },
+        {
+          "w": "Sunny",
+          "start": 53.15,
+          "end": 53.45
+        },
+        {
+          "w": "being",
+          "start": 53.45,
+          "end": 53.81
+        },
+        {
+          "w": "kind?",
+          "start": 53.81,
+          "end": 54.17
+        },
+        {
+          "w": "Hmm...",
+          "start": 54.34,
+          "end": 54.67
+        }
+      ]
+    },
+    {
+      "beat": "not_kind",
+      "speaker": "narrator",
+      "text": "No. Sunny was being too proud.",
+      "gap": 1.5,
+      "start": 59.4,
+      "end": 61.4,
+      "words": [
+        {
+          "w": "No.",
+          "start": 59.44,
+          "end": 59.86
+        },
+        {
+          "w": "Sunny",
+          "start": 59.98,
+          "end": 60.251
+        },
+        {
+          "w": "was",
+          "start": 60.251,
+          "end": 60.413
+        },
+        {
+          "w": "being",
+          "start": 60.413,
+          "end": 60.738
+        },
+        {
+          "w": "too",
+          "start": 60.738,
+          "end": 60.955
+        },
+        {
+          "w": "proud.",
+          "start": 60.955,
+          "end": 61.28
+        }
+      ]
+    },
+    {
+      "beat": "alone",
+      "speaker": "narrator",
+      "text": "Sunny walks off alone, with his nose up high.",
+      "gap": 1.0,
+      "start": 62.9,
+      "end": 65.8,
+      "words": [
+        {
+          "w": "Sunny",
+          "start": 62.93,
+          "end": 63.255
+        },
+        {
+          "w": "walks",
+          "start": 63.255,
+          "end": 63.645
+        },
+        {
+          "w": "off",
+          "start": 63.645,
+          "end": 63.84
+        },
+        {
+          "w": "alone,",
+          "start": 63.84,
+          "end": 64.23
+        },
+        {
+          "w": "with",
+          "start": 64.48,
+          "end": 64.673
+        },
+        {
+          "w": "his",
+          "start": 64.673,
+          "end": 64.929
+        },
+        {
+          "w": "nose",
+          "start": 64.929,
+          "end": 65.251
+        },
+        {
+          "w": "up",
+          "start": 65.251,
+          "end": 65.443
+        },
+        {
+          "w": "high.",
+          "start": 65.443,
+          "end": 65.7
+        }
+      ]
+    },
+    {
+      "beat": "sunny_sing",
+      "speaker": "sunny",
+      "text": "I don't need anybody! La la la!",
+      "gap": 0.8,
+      "start": 66.8,
+      "end": 69.08,
+      "words": [
+        {
+          "w": "I",
+          "start": 66.84,
+          "end": 67.024
+        },
+        {
+          "w": "don't",
+          "start": 67.024,
+          "end": 67.391
+        },
+        {
+          "w": "need",
+          "start": 67.391,
+          "end": 67.697
+        },
+        {
+          "w": "anybody!",
+          "start": 67.697,
+          "end": 68.309
+        },
+        {
+          "w": "La",
+          "start": 68.309,
+          "end": 68.493
+        },
+        {
+          "w": "la",
+          "start": 68.493,
+          "end": 68.676
+        },
+        {
+          "w": "la!",
+          "start": 68.676,
+          "end": 68.86
+        }
+      ]
+    },
+    {
+      "beat": "bush",
+      "speaker": "narrator",
+      "text": "But he doesn't look where he's going... and walks right into a sticky, tangly bush!",
+      "gap": 0.8,
+      "start": 69.88,
+      "end": 74.38,
+      "words": [
+        {
+          "w": "But",
+          "start": 69.94,
+          "end": 70.19
+        },
+        {
+          "w": "he",
+          "start": 70.19,
+          "end": 70.378
+        },
+        {
+          "w": "doesn't",
+          "start": 70.378,
+          "end": 70.816
+        },
+        {
+          "w": "look",
+          "start": 70.816,
+          "end": 71.066
+        },
+        {
+          "w": "where",
+          "start": 71.066,
+          "end": 71.317
+        },
+        {
+          "w": "he's",
+          "start": 71.317,
+          "end": 71.567
+        },
+        {
+          "w": "going...",
+          "start": 71.567,
+          "end": 71.942
+        },
+        {
+          "w": "and",
+          "start": 71.942,
+          "end": 72.13
+        },
+        {
+          "w": "walks",
+          "start": 72.13,
+          "end": 72.505
+        },
+        {
+          "w": "right",
+          "start": 72.505,
+          "end": 72.818
+        },
+        {
+          "w": "into",
+          "start": 72.818,
+          "end": 73.131
+        },
+        {
+          "w": "a",
+          "start": 73.131,
+          "end": 73.319
+        },
+        {
+          "w": "sticky,",
+          "start": 73.319,
+          "end": 73.694
+        },
+        {
+          "w": "tangly",
+          "start": 73.694,
+          "end": 74.07
+        },
+        {
+          "w": "bush!",
+          "start": 74.07,
+          "end": 74.32
+        }
+      ]
+    },
+    {
+      "beat": "stuck",
+      "speaker": "sunny",
+      "text": "Hey! My mane! My mane is stuck!",
+      "gap": 0.8,
+      "start": 75.18,
+      "end": 77.13,
+      "words": [
+        {
+          "w": "Hey!",
+          "start": 75.22,
+          "end": 75.448
+        },
+        {
+          "w": "My",
+          "start": 75.448,
+          "end": 75.675
+        },
+        {
+          "w": "mane!",
+          "start": 75.675,
+          "end": 75.96
+        },
+        {
+          "w": "My",
+          "start": 75.96,
+          "end": 76.187
+        },
+        {
+          "w": "mane",
+          "start": 76.187,
+          "end": 76.472
+        },
+        {
+          "w": "is",
+          "start": 76.472,
+          "end": 76.586
+        },
+        {
+          "w": "stuck!",
+          "start": 76.586,
+          "end": 76.87
+        }
+      ]
+    },
+    {
+      "beat": "pull",
+      "speaker": "narrator",
+      "text": "Sunny pulls, and pulls, and pulls! But the vines hold on tight.",
+      "gap": 1.0,
+      "start": 77.93,
+      "end": 82.0,
+      "words": [
+        {
+          "w": "Sunny",
+          "start": 77.97,
+          "end": 78.35
+        },
+        {
+          "w": "pulls,",
+          "start": 78.35,
+          "end": 78.73
+        },
+        {
+          "w": "and",
+          "start": 78.73,
+          "end": 78.958
+        },
+        {
+          "w": "pulls,",
+          "start": 78.958,
+          "end": 79.337
+        },
+        {
+          "w": "and",
+          "start": 79.337,
+          "end": 79.565
+        },
+        {
+          "w": "pulls!",
+          "start": 79.565,
+          "end": 79.945
+        },
+        {
+          "w": "But",
+          "start": 79.945,
+          "end": 80.249
+        },
+        {
+          "w": "the",
+          "start": 80.249,
+          "end": 80.401
+        },
+        {
+          "w": "vines",
+          "start": 80.401,
+          "end": 80.857
+        },
+        {
+          "w": "hold",
+          "start": 80.857,
+          "end": 81.312
+        },
+        {
+          "w": "on",
+          "start": 81.312,
+          "end": 81.54
+        },
+        {
+          "w": "tight.",
+          "start": 81.54,
+          "end": 81.92
+        }
+      ]
+    },
+    {
+      "beat": "strain",
+      "speaker": "sunny",
+      "text": "Hmmmph! I'm the strongest... but I can't get out!",
+      "gap": 1.2,
+      "start": 83.0,
+      "end": 86.7,
+      "words": [
+        {
+          "w": "Hmmmph!",
+          "start": 83.02,
+          "end": 84.352
+        },
+        {
+          "w": "I'm",
+          "start": 84.352,
+          "end": 84.526
+        },
+        {
+          "w": "the",
+          "start": 84.526,
+          "end": 84.642
+        },
+        {
+          "w": "strongest...",
+          "start": 84.642,
+          "end": 85.221
+        },
+        {
+          "w": "but",
+          "start": 85.221,
+          "end": 85.453
+        },
+        {
+          "w": "I",
+          "start": 85.453,
+          "end": 85.627
+        },
+        {
+          "w": "can't",
+          "start": 85.627,
+          "end": 85.917
+        },
+        {
+          "w": "get",
+          "start": 85.917,
+          "end": 86.148
+        },
+        {
+          "w": "out!",
+          "start": 86.148,
+          "end": 86.38
+        }
+      ]
+    },
+    {
+      "beat": "sunny_help",
+      "speaker": "sunny",
+      "text": "Help! Help! Can anybody help me?",
+      "gap": 1.2,
+      "start": 87.9,
+      "end": 90.01,
+      "words": [
+        {
+          "w": "Help!",
+          "start": 87.94,
+          "end": 88.214
+        },
+        {
+          "w": "Help!",
+          "start": 88.214,
+          "end": 88.488
+        },
+        {
+          "w": "Can",
+          "start": 88.488,
+          "end": 88.708
+        },
+        {
+          "w": "anybody",
+          "start": 88.708,
+          "end": 89.256
+        },
+        {
+          "w": "help",
+          "start": 89.256,
+          "end": 89.531
+        },
+        {
+          "w": "me?",
+          "start": 89.531,
+          "end": 89.75
+        }
+      ]
+    },
+    {
+      "beat": "bobo_try",
+      "speaker": "narrator",
+      "text": "Bobo comes running. He pulls Sunny's paw. Heave, ho!",
+      "gap": 0.8,
+      "start": 91.21,
+      "end": 94.66,
+      "words": [
+        {
+          "w": "Bobo",
+          "start": 91.24,
+          "end": 91.758
+        },
+        {
+          "w": "comes",
+          "start": 91.758,
+          "end": 92.128
+        },
+        {
+          "w": "running.",
+          "start": 92.128,
+          "end": 92.572
+        },
+        {
+          "w": "He",
+          "start": 92.572,
+          "end": 92.794
+        },
+        {
+          "w": "pulls",
+          "start": 92.794,
+          "end": 93.164
+        },
+        {
+          "w": "Sunny's",
+          "start": 93.164,
+          "end": 93.608
+        },
+        {
+          "w": "paw.",
+          "start": 93.608,
+          "end": 93.904
+        },
+        {
+          "w": "Heave,",
+          "start": 93.904,
+          "end": 94.274
+        },
+        {
+          "w": "ho!",
+          "start": 94.274,
+          "end": 94.57
+        }
+      ]
+    },
+    {
+      "beat": "bobo_pull",
+      "speaker": "bobo",
+      "text": "Heave... ho! Oof! It's too tangly!",
+      "gap": 1.0,
+      "start": 95.46,
+      "end": 97.2,
+      "words": [
+        {
+          "w": "Heave...",
+          "start": 95.52,
+          "end": 95.818
+        },
+        {
+          "w": "ho!",
+          "start": 95.818,
+          "end": 96.057
+        },
+        {
+          "w": "Oof!",
+          "start": 96.057,
+          "end": 96.295
+        },
+        {
+          "w": "It's",
+          "start": 96.295,
+          "end": 96.474
+        },
+        {
+          "w": "too",
+          "start": 96.474,
+          "end": 96.712
+        },
+        {
+          "w": "tangly!",
+          "start": 96.712,
+          "end": 97.07
+        }
+      ]
+    },
+    {
+      "beat": "kiki_try",
+      "speaker": "narrator",
+      "text": "Kiki tries too. She swings down from a branch!",
+      "gap": 0.8,
+      "start": 98.2,
+      "end": 101.08,
+      "words": [
+        {
+          "w": "Kiki",
+          "start": 98.23,
+          "end": 98.56
+        },
+        {
+          "w": "tries",
+          "start": 98.56,
+          "end": 98.956
+        },
+        {
+          "w": "too.",
+          "start": 98.956,
+          "end": 99.22
+        },
+        {
+          "w": "She",
+          "start": 99.51,
+          "end": 99.669
+        },
+        {
+          "w": "swings",
+          "start": 99.669,
+          "end": 99.986
+        },
+        {
+          "w": "down",
+          "start": 99.986,
+          "end": 100.25
+        },
+        {
+          "w": "from",
+          "start": 100.25,
+          "end": 100.461
+        },
+        {
+          "w": "a",
+          "start": 100.461,
+          "end": 100.62
+        },
+        {
+          "w": "branch!",
+          "start": 100.62,
+          "end": 100.99
+        }
+      ]
+    },
+    {
+      "beat": "kiki_pull",
+      "speaker": "kiki",
+      "text": "Oo-oo! The vines are too tight!",
+      "gap": 1.2,
+      "start": 101.88,
+      "end": 103.64,
+      "words": [
+        {
+          "w": "Oo-oo!",
+          "start": 101.9,
+          "end": 102.218
+        },
+        {
+          "w": "The",
+          "start": 102.218,
+          "end": 102.345
+        },
+        {
+          "w": "vines",
+          "start": 102.345,
+          "end": 102.727
+        },
+        {
+          "w": "are",
+          "start": 102.727,
+          "end": 102.918
+        },
+        {
+          "w": "too",
+          "start": 102.918,
+          "end": 103.172
+        },
+        {
+          "w": "tight!",
+          "start": 103.172,
+          "end": 103.49
+        }
+      ]
+    },
+    {
+      "beat": "q_who",
+      "speaker": "narrator",
+      "text": "Who could help Sunny now? Think!",
+      "gap": 4.6,
+      "start": 104.84,
+      "end": 106.8,
+      "words": [
+        {
+          "w": "Who",
+          "start": 104.89,
+          "end": 105.097
+        },
+        {
+          "w": "could",
+          "start": 105.097,
+          "end": 105.305
+        },
+        {
+          "w": "help",
+          "start": 105.305,
+          "end": 105.564
+        },
+        {
+          "w": "Sunny",
+          "start": 105.564,
+          "end": 105.823
+        },
+        {
+          "w": "now?",
+          "start": 105.823,
+          "end": 106.03
+        },
+        {
+          "w": "Think!",
+          "start": 106.25,
+          "end": 106.68
+        }
+      ]
+    },
+    {
+      "beat": "pip_come",
+      "speaker": "narrator",
+      "text": "Then... a tiny voice says:",
+      "gap": 0.6,
+      "start": 111.4,
+      "end": 113.25,
+      "words": [
+        {
+          "w": "Then...",
+          "start": 111.45,
+          "end": 111.89
+        },
+        {
+          "w": "a",
+          "start": 112.04,
+          "end": 112.23
+        },
+        {
+          "w": "tiny",
+          "start": 112.23,
+          "end": 112.61
+        },
+        {
+          "w": "voice",
+          "start": 112.61,
+          "end": 112.927
+        },
+        {
+          "w": "says:",
+          "start": 112.927,
+          "end": 113.18
+        }
+      ]
+    },
+    {
+      "beat": "pip_help",
+      "speaker": "pippa",
+      "text": "I can help!",
+      "gap": 0.8,
+      "start": 113.85,
+      "end": 115.08,
+      "words": [
+        {
+          "w": "I",
+          "start": 113.91,
+          "end": 114.17
+        },
+        {
+          "w": "can",
+          "start": 114.17,
+          "end": 114.517
+        },
+        {
+          "w": "help!",
+          "start": 114.517,
+          "end": 114.95
+        }
+      ]
+    },
+    {
+      "beat": "sunny_doubt",
+      "speaker": "sunny",
+      "text": "You? But you're so small...",
+      "gap": 1.0,
+      "start": 115.88,
+      "end": 117.47,
+      "words": [
+        {
+          "w": "You?",
+          "start": 115.92,
+          "end": 116.114
+        },
+        {
+          "w": "But",
+          "start": 116.114,
+          "end": 116.372
+        },
+        {
+          "w": "you're",
+          "start": 116.372,
+          "end": 116.565
+        },
+        {
+          "w": "so",
+          "start": 116.565,
+          "end": 116.823
+        },
+        {
+          "w": "small...",
+          "start": 116.823,
+          "end": 117.21
+        }
+      ]
+    },
+    {
+      "beat": "pip_teeth",
+      "speaker": "pippa",
+      "text": "Small is good! My little teeth can nibble the vines!",
+      "gap": 0.8,
+      "start": 118.47,
+      "end": 121.58,
+      "words": [
+        {
+          "w": "Small",
+          "start": 118.49,
+          "end": 118.886
+        },
+        {
+          "w": "is",
+          "start": 118.886,
+          "end": 119.018
+        },
+        {
+          "w": "good!",
+          "start": 119.018,
+          "end": 119.282
+        },
+        {
+          "w": "My",
+          "start": 119.282,
+          "end": 119.546
+        },
+        {
+          "w": "little",
+          "start": 119.546,
+          "end": 119.942
+        },
+        {
+          "w": "teeth",
+          "start": 119.942,
+          "end": 120.272
+        },
+        {
+          "w": "can",
+          "start": 120.272,
+          "end": 120.536
+        },
+        {
+          "w": "nibble",
+          "start": 120.536,
+          "end": 120.932
+        },
+        {
+          "w": "the",
+          "start": 120.932,
+          "end": 121.064
+        },
+        {
+          "w": "vines!",
+          "start": 121.064,
+          "end": 121.46
+        }
+      ]
+    },
+    {
+      "beat": "nibble",
+      "speaker": "narrator",
+      "text": "Nibble, nibble, nibble! Pippa nibbles one vine... two vines... three vines!",
+      "gap": 1.0,
+      "start": 122.38,
+      "end": 127.03,
+      "words": [
+        {
+          "w": "Nibble,",
+          "start": 122.44,
+          "end": 122.892
+        },
+        {
+          "w": "nibble,",
+          "start": 122.892,
+          "end": 123.344
+        },
+        {
+          "w": "nibble!",
+          "start": 123.344,
+          "end": 123.796
+        },
+        {
+          "w": "Pippa",
+          "start": 123.796,
+          "end": 124.173
+        },
+        {
+          "w": "nibbles",
+          "start": 124.173,
+          "end": 124.7
+        },
+        {
+          "w": "one",
+          "start": 124.7,
+          "end": 125.001
+        },
+        {
+          "w": "vine...",
+          "start": 125.001,
+          "end": 125.378
+        },
+        {
+          "w": "two",
+          "start": 125.378,
+          "end": 125.679
+        },
+        {
+          "w": "vines...",
+          "start": 125.679,
+          "end": 126.131
+        },
+        {
+          "w": "three",
+          "start": 126.131,
+          "end": 126.508
+        },
+        {
+          "w": "vines!",
+          "start": 126.508,
+          "end": 126.96
+        }
+      ]
+    },
+    {
+      "beat": "count_turn",
+      "speaker": "narrator",
+      "text": "Let's count the vines with Pippa! One... two... three!",
+      "gap": 2.0,
+      "start": 128.03,
+      "end": 131.36,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 128.08,
+          "end": 128.478
+        },
+        {
+          "w": "count",
+          "start": 128.478,
+          "end": 128.955
+        },
+        {
+          "w": "the",
+          "start": 128.955,
+          "end": 129.114
+        },
+        {
+          "w": "vines",
+          "start": 129.114,
+          "end": 129.591
+        },
+        {
+          "w": "with",
+          "start": 129.591,
+          "end": 129.829
+        },
+        {
+          "w": "Pippa!",
+          "start": 129.829,
+          "end": 130.227
+        },
+        {
+          "w": "One...",
+          "start": 130.227,
+          "end": 130.545
+        },
+        {
+          "w": "two...",
+          "start": 130.545,
+          "end": 130.863
+        },
+        {
+          "w": "three!",
+          "start": 130.863,
+          "end": 131.26
+        }
+      ]
+    },
+    {
+      "beat": "free",
+      "speaker": "narrator",
+      "text": "Snap! Sunny is free!",
+      "gap": 1.0,
+      "start": 133.36,
+      "end": 134.83,
+      "words": [
+        {
+          "w": "Snap!",
+          "start": 133.39,
+          "end": 133.772
+        },
+        {
+          "w": "Sunny",
+          "start": 133.772,
+          "end": 134.155
+        },
+        {
+          "w": "is",
+          "start": 134.155,
+          "end": 134.308
+        },
+        {
+          "w": "free!",
+          "start": 134.308,
+          "end": 134.69
+        }
+      ]
+    },
+    {
+      "beat": "sunny_free",
+      "speaker": "sunny",
+      "text": "I'm free! Pippa, you did it!",
+      "gap": 1.2,
+      "start": 135.83,
+      "end": 137.59,
+      "words": [
+        {
+          "w": "I'm",
+          "start": 135.86,
+          "end": 136.066
+        },
+        {
+          "w": "free!",
+          "start": 136.066,
+          "end": 136.409
+        },
+        {
+          "w": "Pippa,",
+          "start": 136.409,
+          "end": 136.752
+        },
+        {
+          "w": "you",
+          "start": 136.752,
+          "end": 136.958
+        },
+        {
+          "w": "did",
+          "start": 136.958,
+          "end": 137.233
+        },
+        {
+          "w": "it!",
+          "start": 137.233,
+          "end": 137.37
+        }
+      ]
+    },
+    {
+      "beat": "sorry_feel",
+      "speaker": "narrator",
+      "text": "Sunny looks at little Pippa. His face feels warm, and his tummy feels funny. That's a sorry feeling.",
+      "gap": 1.2,
+      "start": 138.79,
+      "end": 145.06,
+      "words": [
+        {
+          "w": "Sunny",
+          "start": 138.83,
+          "end": 139.179
+        },
+        {
+          "w": "looks",
+          "start": 139.179,
+          "end": 139.528
+        },
+        {
+          "w": "at",
+          "start": 139.528,
+          "end": 139.667
+        },
+        {
+          "w": "little",
+          "start": 139.667,
+          "end": 140.086
+        },
+        {
+          "w": "Pippa.",
+          "start": 140.086,
+          "end": 140.435
+        },
+        {
+          "w": "His",
+          "start": 140.435,
+          "end": 140.714
+        },
+        {
+          "w": "face",
+          "start": 140.714,
+          "end": 141.063
+        },
+        {
+          "w": "feels",
+          "start": 141.063,
+          "end": 141.481
+        },
+        {
+          "w": "warm,",
+          "start": 141.481,
+          "end": 141.9
+        },
+        {
+          "w": "and",
+          "start": 141.9,
+          "end": 142.109
+        },
+        {
+          "w": "his",
+          "start": 142.109,
+          "end": 142.388
+        },
+        {
+          "w": "tummy",
+          "start": 142.388,
+          "end": 142.737
+        },
+        {
+          "w": "feels",
+          "start": 142.737,
+          "end": 143.156
+        },
+        {
+          "w": "funny.",
+          "start": 143.156,
+          "end": 143.505
+        },
+        {
+          "w": "That's",
+          "start": 143.505,
+          "end": 143.854
+        },
+        {
+          "w": "a",
+          "start": 143.854,
+          "end": 144.063
+        },
+        {
+          "w": "sorry",
+          "start": 144.063,
+          "end": 144.482
+        },
+        {
+          "w": "feeling.",
+          "start": 144.482,
+          "end": 144.97
+        }
+      ]
+    },
+    {
+      "beat": "sunny_sorry",
+      "speaker": "sunny",
+      "text": "Pippa... I'm sorry I said small ones can't do anything. I was wrong.",
+      "gap": 1.0,
+      "start": 146.26,
+      "end": 150.44,
+      "words": [
+        {
+          "w": "Pippa...",
+          "start": 146.29,
+          "end": 146.609
+        },
+        {
+          "w": "I'm",
+          "start": 146.609,
+          "end": 146.801
+        },
+        {
+          "w": "sorry",
+          "start": 146.801,
+          "end": 147.185
+        },
+        {
+          "w": "I",
+          "start": 147.185,
+          "end": 147.376
+        },
+        {
+          "w": "said",
+          "start": 147.376,
+          "end": 147.632
+        },
+        {
+          "w": "small",
+          "start": 147.632,
+          "end": 148.015
+        },
+        {
+          "w": "ones",
+          "start": 148.015,
+          "end": 148.335
+        },
+        {
+          "w": "can't",
+          "start": 148.335,
+          "end": 148.654
+        },
+        {
+          "w": "do",
+          "start": 148.654,
+          "end": 148.91
+        },
+        {
+          "w": "anything.",
+          "start": 148.91,
+          "end": 149.421
+        },
+        {
+          "w": "I",
+          "start": 149.421,
+          "end": 149.613
+        },
+        {
+          "w": "was",
+          "start": 149.613,
+          "end": 149.804
+        },
+        {
+          "w": "wrong.",
+          "start": 149.804,
+          "end": 150.06
+        }
+      ]
+    },
+    {
+      "beat": "sunny_thanks",
+      "speaker": "sunny",
+      "text": "You're small, but you're very brave. Thank you!",
+      "gap": 1.0,
+      "start": 151.44,
+      "end": 154.02,
+      "words": [
+        {
+          "w": "You're",
+          "start": 151.48,
+          "end": 151.673
+        },
+        {
+          "w": "small,",
+          "start": 151.673,
+          "end": 152.059
+        },
+        {
+          "w": "but",
+          "start": 152.059,
+          "end": 152.316
+        },
+        {
+          "w": "you're",
+          "start": 152.316,
+          "end": 152.509
+        },
+        {
+          "w": "very",
+          "start": 152.509,
+          "end": 152.83
+        },
+        {
+          "w": "brave.",
+          "start": 152.83,
+          "end": 153.216
+        },
+        {
+          "w": "Thank",
+          "start": 153.216,
+          "end": 153.537
+        },
+        {
+          "w": "you!",
+          "start": 153.537,
+          "end": 153.73
+        }
+      ]
+    },
+    {
+      "beat": "pip_ok",
+      "speaker": "pippa",
+      "text": "That's OK, Sunny. Friends help friends!",
+      "gap": 1.2,
+      "start": 155.02,
+      "end": 157.77,
+      "words": [
+        {
+          "w": "That's",
+          "start": 155.05,
+          "end": 155.406
+        },
+        {
+          "w": "OK,",
+          "start": 155.406,
+          "end": 155.903
+        },
+        {
+          "w": "Sunny.",
+          "start": 155.903,
+          "end": 156.259
+        },
+        {
+          "w": "Friends",
+          "start": 156.259,
+          "end": 156.757
+        },
+        {
+          "w": "help",
+          "start": 156.757,
+          "end": 157.112
+        },
+        {
+          "w": "friends!",
+          "start": 157.112,
+          "end": 157.61
+        }
+      ]
+    },
+    {
+      "beat": "humble",
+      "speaker": "narrator",
+      "text": "Sunny learned something new today. Big or small, everyone is special.",
+      "gap": 1.0,
+      "start": 158.97,
+      "end": 163.17,
+      "words": [
+        {
+          "w": "Sunny",
+          "start": 159.0,
+          "end": 159.264
+        },
+        {
+          "w": "learned",
+          "start": 159.264,
+          "end": 159.581
+        },
+        {
+          "w": "something",
+          "start": 159.581,
+          "end": 159.951
+        },
+        {
+          "w": "new",
+          "start": 159.951,
+          "end": 160.163
+        },
+        {
+          "w": "today.",
+          "start": 160.163,
+          "end": 160.48
+        },
+        {
+          "w": "Big",
+          "start": 160.93,
+          "end": 161.244
+        },
+        {
+          "w": "or",
+          "start": 161.244,
+          "end": 161.479
+        },
+        {
+          "w": "small,",
+          "start": 161.479,
+          "end": 161.95
+        },
+        {
+          "w": "everyone",
+          "start": 162.08,
+          "end": 162.575
+        },
+        {
+          "w": "is",
+          "start": 162.575,
+          "end": 162.685
+        },
+        {
+          "w": "special.",
+          "start": 162.685,
+          "end": 163.07
+        }
+      ]
+    },
+    {
+      "beat": "humble2",
+      "speaker": "narrator",
+      "text": "Being humble means: you don't have to be the best. You can just be a good friend.",
+      "gap": 1.5,
+      "start": 164.17,
+      "end": 168.58,
+      "words": [
+        {
+          "w": "Being",
+          "start": 164.24,
+          "end": 164.603
+        },
+        {
+          "w": "humble",
+          "start": 164.603,
+          "end": 165.027
+        },
+        {
+          "w": "means:",
+          "start": 165.027,
+          "end": 165.39
+        },
+        {
+          "w": "you",
+          "start": 165.65,
+          "end": 165.794
+        },
+        {
+          "w": "don't",
+          "start": 165.794,
+          "end": 166.083
+        },
+        {
+          "w": "have",
+          "start": 166.083,
+          "end": 166.276
+        },
+        {
+          "w": "to",
+          "start": 166.276,
+          "end": 166.42
+        },
+        {
+          "w": "be",
+          "start": 166.42,
+          "end": 166.613
+        },
+        {
+          "w": "the",
+          "start": 166.613,
+          "end": 166.709
+        },
+        {
+          "w": "best.",
+          "start": 166.709,
+          "end": 166.95
+        },
+        {
+          "w": "You",
+          "start": 167.26,
+          "end": 167.384
+        },
+        {
+          "w": "can",
+          "start": 167.384,
+          "end": 167.549
+        },
+        {
+          "w": "just",
+          "start": 167.549,
+          "end": 167.797
+        },
+        {
+          "w": "be",
+          "start": 167.797,
+          "end": 167.963
+        },
+        {
+          "w": "a",
+          "start": 167.963,
+          "end": 168.087
+        },
+        {
+          "w": "good",
+          "start": 168.087,
+          "end": 168.252
+        },
+        {
+          "w": "friend.",
+          "start": 168.252,
+          "end": 168.5
+        }
+      ]
+    },
+    {
+      "beat": "play",
+      "speaker": "narrator",
+      "text": "Now Sunny wants to play hide and seek!",
+      "gap": 0.8,
+      "start": 170.08,
+      "end": 172.18,
+      "words": [
+        {
+          "w": "Now",
+          "start": 170.14,
+          "end": 170.354
+        },
+        {
+          "w": "Sunny",
+          "start": 170.354,
+          "end": 170.622
+        },
+        {
+          "w": "wants",
+          "start": 170.622,
+          "end": 170.944
+        },
+        {
+          "w": "to",
+          "start": 170.944,
+          "end": 171.105
+        },
+        {
+          "w": "play",
+          "start": 171.105,
+          "end": 171.373
+        },
+        {
+          "w": "hide",
+          "start": 171.373,
+          "end": 171.641
+        },
+        {
+          "w": "and",
+          "start": 171.641,
+          "end": 171.802
+        },
+        {
+          "w": "seek!",
+          "start": 171.802,
+          "end": 172.07
+        }
+      ]
+    },
+    {
+      "beat": "sunny_ask",
+      "speaker": "sunny",
+      "text": "Can I play with you, please?",
+      "gap": 0.8,
+      "start": 172.98,
+      "end": 174.66,
+      "words": [
+        {
+          "w": "Can",
+          "start": 173.02,
+          "end": 173.255
+        },
+        {
+          "w": "I",
+          "start": 173.255,
+          "end": 173.431
+        },
+        {
+          "w": "play",
+          "start": 173.431,
+          "end": 173.725
+        },
+        {
+          "w": "with",
+          "start": 173.725,
+          "end": 173.901
+        },
+        {
+          "w": "you,",
+          "start": 173.901,
+          "end": 174.077
+        },
+        {
+          "w": "please?",
+          "start": 174.077,
+          "end": 174.43
+        }
+      ]
+    },
+    {
+      "beat": "all_yes",
+      "speaker": "kiki",
+      "text": "Yes! Everybody can play!",
+      "gap": 1.0,
+      "start": 175.46,
+      "end": 177.21,
+      "words": [
+        {
+          "w": "Yes!",
+          "start": 175.5,
+          "end": 175.758
+        },
+        {
+          "w": "Everybody",
+          "start": 175.758,
+          "end": 176.469
+        },
+        {
+          "w": "can",
+          "start": 176.469,
+          "end": 176.727
+        },
+        {
+          "w": "play!",
+          "start": 176.727,
+          "end": 177.05
+        }
+      ]
+    },
+    {
+      "beat": "seek",
+      "speaker": "narrator",
+      "text": "Sunny closes his eyes and counts. One, two, three! Ready or not!",
+      "gap": 1.0,
+      "start": 178.21,
+      "end": 182.78,
+      "words": [
+        {
+          "w": "Sunny",
+          "start": 178.24,
+          "end": 178.633
+        },
+        {
+          "w": "closes",
+          "start": 178.633,
+          "end": 179.262
+        },
+        {
+          "w": "his",
+          "start": 179.262,
+          "end": 179.576
+        },
+        {
+          "w": "eyes",
+          "start": 179.576,
+          "end": 179.891
+        },
+        {
+          "w": "and",
+          "start": 179.891,
+          "end": 180.126
+        },
+        {
+          "w": "counts.",
+          "start": 180.126,
+          "end": 180.676
+        },
+        {
+          "w": "One,",
+          "start": 180.676,
+          "end": 180.991
+        },
+        {
+          "w": "two,",
+          "start": 180.991,
+          "end": 181.305
+        },
+        {
+          "w": "three!",
+          "start": 181.305,
+          "end": 181.698
+        },
+        {
+          "w": "Ready",
+          "start": 181.698,
+          "end": 182.091
+        },
+        {
+          "w": "or",
+          "start": 182.091,
+          "end": 182.327
+        },
+        {
+          "w": "not!",
+          "start": 182.327,
+          "end": 182.72
+        }
+      ]
+    },
+    {
+      "beat": "hide_q",
+      "speaker": "narrator",
+      "text": "Where is Pippa hiding? Can you see her?",
+      "gap": 4.6,
+      "start": 183.78,
+      "end": 186.02,
+      "words": [
+        {
+          "w": "Where",
+          "start": 183.83,
+          "end": 184.074
+        },
+        {
+          "w": "is",
+          "start": 184.074,
+          "end": 184.197
+        },
+        {
+          "w": "Pippa",
+          "start": 184.197,
+          "end": 184.502
+        },
+        {
+          "w": "hiding?",
+          "start": 184.502,
+          "end": 184.93
+        },
+        {
+          "w": "Can",
+          "start": 185.18,
+          "end": 185.391
+        },
+        {
+          "w": "you",
+          "start": 185.391,
+          "end": 185.55
+        },
+        {
+          "w": "see",
+          "start": 185.55,
+          "end": 185.761
+        },
+        {
+          "w": "her?",
+          "start": 185.761,
+          "end": 185.92
+        }
+      ]
+    },
+    {
+      "beat": "found_pip",
+      "speaker": "sunny",
+      "text": "There you are, behind the flower! You're the best hider, Pippa!",
+      "gap": 1.0,
+      "start": 190.62,
+      "end": 194.03,
+      "words": [
+        {
+          "w": "There",
+          "start": 190.66,
+          "end": 190.918
+        },
+        {
+          "w": "you",
+          "start": 190.918,
+          "end": 191.111
+        },
+        {
+          "w": "are,",
+          "start": 191.111,
+          "end": 191.305
+        },
+        {
+          "w": "behind",
+          "start": 191.305,
+          "end": 191.82
+        },
+        {
+          "w": "the",
+          "start": 191.82,
+          "end": 191.949
+        },
+        {
+          "w": "flower!",
+          "start": 191.949,
+          "end": 192.336
+        },
+        {
+          "w": "You're",
+          "start": 192.336,
+          "end": 192.53
+        },
+        {
+          "w": "the",
+          "start": 192.53,
+          "end": 192.659
+        },
+        {
+          "w": "best",
+          "start": 192.659,
+          "end": 192.981
+        },
+        {
+          "w": "hider,",
+          "start": 192.981,
+          "end": 193.368
+        },
+        {
+          "w": "Pippa!",
+          "start": 193.368,
+          "end": 193.69
+        }
+      ]
+    },
+    {
+      "beat": "big_hide",
+      "speaker": "narrator",
+      "text": "And where is Sunny hiding? Behind a tiny leaf! Hee hee! We can see your tail, Sunny!",
+      "gap": 1.6,
+      "start": 195.03,
+      "end": 200.08,
+      "words": [
+        {
+          "w": "And",
+          "start": 195.14,
+          "end": 195.333
+        },
+        {
+          "w": "where",
+          "start": 195.333,
+          "end": 195.591
+        },
+        {
+          "w": "is",
+          "start": 195.591,
+          "end": 195.72
+        },
+        {
+          "w": "Sunny",
+          "start": 195.72,
+          "end": 196.042
+        },
+        {
+          "w": "hiding?",
+          "start": 196.042,
+          "end": 196.492
+        },
+        {
+          "w": "Behind",
+          "start": 196.492,
+          "end": 197.008
+        },
+        {
+          "w": "a",
+          "start": 197.008,
+          "end": 197.201
+        },
+        {
+          "w": "tiny",
+          "start": 197.201,
+          "end": 197.587
+        },
+        {
+          "w": "leaf!",
+          "start": 197.587,
+          "end": 197.909
+        },
+        {
+          "w": "Hee",
+          "start": 197.909,
+          "end": 198.167
+        },
+        {
+          "w": "hee!",
+          "start": 198.167,
+          "end": 198.424
+        },
+        {
+          "w": "We",
+          "start": 198.424,
+          "end": 198.618
+        },
+        {
+          "w": "can",
+          "start": 198.618,
+          "end": 198.875
+        },
+        {
+          "w": "see",
+          "start": 198.875,
+          "end": 199.133
+        },
+        {
+          "w": "your",
+          "start": 199.133,
+          "end": 199.326
+        },
+        {
+          "w": "tail,",
+          "start": 199.326,
+          "end": 199.648
+        },
+        {
+          "w": "Sunny!",
+          "start": 199.648,
+          "end": 199.97
+        }
+      ]
+    },
+    {
+      "beat": "sunny_laugh2",
+      "speaker": "sunny",
+      "text": "Ha ha! Big lions are not good at hiding!",
+      "gap": 1.5,
+      "start": 201.68,
+      "end": 204.38,
+      "words": [
+        {
+          "w": "Ha",
+          "start": 201.72,
+          "end": 202.01
+        },
+        {
+          "w": "ha!",
+          "start": 202.01,
+          "end": 202.3
+        },
+        {
+          "w": "Big",
+          "start": 202.42,
+          "end": 202.624
+        },
+        {
+          "w": "lions",
+          "start": 202.624,
+          "end": 202.98
+        },
+        {
+          "w": "are",
+          "start": 202.98,
+          "end": 203.133
+        },
+        {
+          "w": "not",
+          "start": 203.133,
+          "end": 203.388
+        },
+        {
+          "w": "good",
+          "start": 203.388,
+          "end": 203.592
+        },
+        {
+          "w": "at",
+          "start": 203.592,
+          "end": 203.693
+        },
+        {
+          "w": "hiding!",
+          "start": 203.693,
+          "end": 204.05
+        }
+      ]
+    },
+    {
+      "beat": "kiki_hide",
+      "speaker": "narrator",
+      "text": "Now it's Kiki's turn to hide. Where is Kiki? Look up high!",
+      "gap": 4.0,
+      "start": 205.88,
+      "end": 209.54,
+      "words": [
+        {
+          "w": "Now",
+          "start": 205.93,
+          "end": 206.162
+        },
+        {
+          "w": "it's",
+          "start": 206.162,
+          "end": 206.337
+        },
+        {
+          "w": "Kiki's",
+          "start": 206.337,
+          "end": 206.685
+        },
+        {
+          "w": "turn",
+          "start": 206.685,
+          "end": 206.975
+        },
+        {
+          "w": "to",
+          "start": 206.975,
+          "end": 207.15
+        },
+        {
+          "w": "hide.",
+          "start": 207.15,
+          "end": 207.44
+        },
+        {
+          "w": "Where",
+          "start": 207.79,
+          "end": 208.048
+        },
+        {
+          "w": "is",
+          "start": 208.048,
+          "end": 208.177
+        },
+        {
+          "w": "Kiki?",
+          "start": 208.177,
+          "end": 208.5
+        },
+        {
+          "w": "Look",
+          "start": 208.67,
+          "end": 208.954
+        },
+        {
+          "w": "up",
+          "start": 208.954,
+          "end": 209.166
+        },
+        {
+          "w": "high!",
+          "start": 209.166,
+          "end": 209.45
+        }
+      ]
+    },
+    {
+      "beat": "kiki_found",
+      "speaker": "pippa",
+      "text": "There! Up in the tree! Monkeys love to climb!",
+      "gap": 1.2,
+      "start": 213.54,
+      "end": 216.33,
+      "words": [
+        {
+          "w": "There!",
+          "start": 213.58,
+          "end": 213.857
+        },
+        {
+          "w": "Up",
+          "start": 213.857,
+          "end": 214.064
+        },
+        {
+          "w": "in",
+          "start": 214.064,
+          "end": 214.272
+        },
+        {
+          "w": "the",
+          "start": 214.272,
+          "end": 214.41
+        },
+        {
+          "w": "tree!",
+          "start": 214.41,
+          "end": 214.756
+        },
+        {
+          "w": "Monkeys",
+          "start": 214.756,
+          "end": 215.241
+        },
+        {
+          "w": "love",
+          "start": 215.241,
+          "end": 215.517
+        },
+        {
+          "w": "to",
+          "start": 215.517,
+          "end": 215.725
+        },
+        {
+          "w": "climb!",
+          "start": 215.725,
+          "end": 216.14
+        }
+      ]
+    },
+    {
+      "beat": "bobo_hide",
+      "speaker": "narrator",
+      "text": "And Bobo? Oh, Bobo, we can see your round ears!",
+      "gap": 1.0,
+      "start": 217.53,
+      "end": 220.64,
+      "words": [
+        {
+          "w": "And",
+          "start": 217.64,
+          "end": 217.84
+        },
+        {
+          "w": "Bobo?",
+          "start": 217.84,
+          "end": 218.308
+        },
+        {
+          "w": "Oh,",
+          "start": 218.308,
+          "end": 218.509
+        },
+        {
+          "w": "Bobo,",
+          "start": 218.509,
+          "end": 218.976
+        },
+        {
+          "w": "we",
+          "start": 218.976,
+          "end": 219.177
+        },
+        {
+          "w": "can",
+          "start": 219.177,
+          "end": 219.444
+        },
+        {
+          "w": "see",
+          "start": 219.444,
+          "end": 219.711
+        },
+        {
+          "w": "your",
+          "start": 219.711,
+          "end": 219.912
+        },
+        {
+          "w": "round",
+          "start": 219.912,
+          "end": 220.313
+        },
+        {
+          "w": "ears!",
+          "start": 220.313,
+          "end": 220.58
+        }
+      ]
+    },
+    {
+      "beat": "bobo_giggle",
+      "speaker": "bobo",
+      "text": "Hee hee! Bears are big too!",
+      "gap": 1.5,
+      "start": 221.64,
+      "end": 223.15,
+      "words": [
+        {
+          "w": "Hee",
+          "start": 221.68,
+          "end": 221.907
+        },
+        {
+          "w": "hee!",
+          "start": 221.907,
+          "end": 222.133
+        },
+        {
+          "w": "Bears",
+          "start": 222.133,
+          "end": 222.417
+        },
+        {
+          "w": "are",
+          "start": 222.417,
+          "end": 222.587
+        },
+        {
+          "w": "big",
+          "start": 222.587,
+          "end": 222.813
+        },
+        {
+          "w": "too!",
+          "start": 222.813,
+          "end": 223.04
+        }
+      ]
+    },
+    {
+      "beat": "moral",
+      "speaker": "narrator",
+      "text": "Big or small, we need each other.",
+      "gap": 1.5,
+      "start": 224.65,
+      "end": 226.74,
+      "words": [
+        {
+          "w": "Big",
+          "start": 224.7,
+          "end": 224.98
+        },
+        {
+          "w": "or",
+          "start": 224.98,
+          "end": 225.19
+        },
+        {
+          "w": "small,",
+          "start": 225.19,
+          "end": 225.61
+        },
+        {
+          "w": "we",
+          "start": 225.8,
+          "end": 225.941
+        },
+        {
+          "w": "need",
+          "start": 225.941,
+          "end": 226.176
+        },
+        {
+          "w": "each",
+          "start": 226.176,
+          "end": 226.412
+        },
+        {
+          "w": "other.",
+          "start": 226.412,
+          "end": 226.6
+        }
+      ]
+    },
+    {
+      "beat": "your_q",
+      "speaker": "narrator",
+      "text": "Who helped YOU today? Did you say thank you?",
+      "gap": 3.0,
+      "start": 228.24,
+      "end": 230.73,
+      "words": [
+        {
+          "w": "Who",
+          "start": 228.29,
+          "end": 228.494
+        },
+        {
+          "w": "helped",
+          "start": 228.494,
+          "end": 228.801
+        },
+        {
+          "w": "YOU",
+          "start": 228.801,
+          "end": 228.954
+        },
+        {
+          "w": "today?",
+          "start": 228.954,
+          "end": 229.26
+        },
+        {
+          "w": "Did",
+          "start": 229.53,
+          "end": 229.757
+        },
+        {
+          "w": "you",
+          "start": 229.757,
+          "end": 229.928
+        },
+        {
+          "w": "say",
+          "start": 229.928,
+          "end": 230.155
+        },
+        {
+          "w": "thank",
+          "start": 230.155,
+          "end": 230.439
+        },
+        {
+          "w": "you?",
+          "start": 230.439,
+          "end": 230.61
+        }
+      ]
+    },
+    {
+      "beat": "remember",
+      "speaker": "narrator",
+      "text": "Let's remember! Are you ready?",
+      "gap": 1.0,
+      "start": 233.73,
+      "end": 235.67,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 233.8,
+          "end": 234.135
+        },
+        {
+          "w": "remember!",
+          "start": 234.135,
+          "end": 234.67
+        },
+        {
+          "w": "Are",
+          "start": 234.88,
+          "end": 235.068
+        },
+        {
+          "w": "you",
+          "start": 235.068,
+          "end": 235.256
+        },
+        {
+          "w": "ready?",
+          "start": 235.256,
+          "end": 235.57
+        }
+      ]
+    },
+    {
+      "beat": "q1",
+      "speaker": "narrator",
+      "text": "What did Sunny say to little Pippa at first?",
+      "gap": 4.5,
+      "start": 236.67,
+      "end": 238.93,
+      "words": [
+        {
+          "w": "What",
+          "start": 236.7,
+          "end": 236.918
+        },
+        {
+          "w": "did",
+          "start": 236.918,
+          "end": 237.137
+        },
+        {
+          "w": "Sunny",
+          "start": 237.137,
+          "end": 237.41
+        },
+        {
+          "w": "say",
+          "start": 237.41,
+          "end": 237.628
+        },
+        {
+          "w": "to",
+          "start": 237.628,
+          "end": 237.792
+        },
+        {
+          "w": "little",
+          "start": 237.792,
+          "end": 238.12
+        },
+        {
+          "w": "Pippa",
+          "start": 238.12,
+          "end": 238.393
+        },
+        {
+          "w": "at",
+          "start": 238.393,
+          "end": 238.502
+        },
+        {
+          "w": "first?",
+          "start": 238.502,
+          "end": 238.83
+        }
+      ]
+    },
+    {
+      "beat": "a1",
+      "speaker": "pippa",
+      "text": "You're too small to play!",
+      "gap": 1.5,
+      "start": 243.43,
+      "end": 245.22,
+      "words": [
+        {
+          "w": "You're",
+          "start": 243.47,
+          "end": 243.701
+        },
+        {
+          "w": "too",
+          "start": 243.701,
+          "end": 244.01
+        },
+        {
+          "w": "small",
+          "start": 244.01,
+          "end": 244.473
+        },
+        {
+          "w": "to",
+          "start": 244.473,
+          "end": 244.704
+        },
+        {
+          "w": "play!",
+          "start": 244.704,
+          "end": 245.09
+        }
+      ]
+    },
+    {
+      "beat": "q2",
+      "speaker": "narrator",
+      "text": "How did Pippa feel?",
+      "gap": 4.5,
+      "start": 246.72,
+      "end": 248.0,
+      "words": [
+        {
+          "w": "How",
+          "start": 246.77,
+          "end": 247.014
+        },
+        {
+          "w": "did",
+          "start": 247.014,
+          "end": 247.259
+        },
+        {
+          "w": "Pippa",
+          "start": 247.259,
+          "end": 247.564
+        },
+        {
+          "w": "feel?",
+          "start": 247.564,
+          "end": 247.87
+        }
+      ]
+    },
+    {
+      "beat": "a2",
+      "speaker": "narrator",
+      "text": "Sad, and left out.",
+      "gap": 1.5,
+      "start": 252.5,
+      "end": 253.82,
+      "words": [
+        {
+          "w": "Sad,",
+          "start": 252.54,
+          "end": 252.825
+        },
+        {
+          "w": "and",
+          "start": 252.825,
+          "end": 253.039
+        },
+        {
+          "w": "left",
+          "start": 253.039,
+          "end": 253.395
+        },
+        {
+          "w": "out.",
+          "start": 253.395,
+          "end": 253.68
+        }
+      ]
+    },
+    {
+      "beat": "q3",
+      "speaker": "narrator",
+      "text": "How did Pippa help Sunny?",
+      "gap": 4.5,
+      "start": 255.32,
+      "end": 256.9,
+      "words": [
+        {
+          "w": "How",
+          "start": 255.37,
+          "end": 255.61
+        },
+        {
+          "w": "did",
+          "start": 255.61,
+          "end": 255.85
+        },
+        {
+          "w": "Pippa",
+          "start": 255.85,
+          "end": 256.15
+        },
+        {
+          "w": "help",
+          "start": 256.15,
+          "end": 256.45
+        },
+        {
+          "w": "Sunny?",
+          "start": 256.45,
+          "end": 256.75
+        }
+      ]
+    },
+    {
+      "beat": "a3",
+      "speaker": "pippa",
+      "text": "I nibbled the vines! Nibble, nibble!",
+      "gap": 1.5,
+      "start": 261.4,
+      "end": 263.91,
+      "words": [
+        {
+          "w": "I",
+          "start": 261.44,
+          "end": 261.67
+        },
+        {
+          "w": "nibbled",
+          "start": 261.67,
+          "end": 262.207
+        },
+        {
+          "w": "the",
+          "start": 262.207,
+          "end": 262.36
+        },
+        {
+          "w": "vines!",
+          "start": 262.36,
+          "end": 262.82
+        },
+        {
+          "w": "Nibble,",
+          "start": 262.82,
+          "end": 263.28
+        },
+        {
+          "w": "nibble!",
+          "start": 263.28,
+          "end": 263.74
+        }
+      ]
+    },
+    {
+      "beat": "q4",
+      "speaker": "narrator",
+      "text": "What did Sunny say after that?",
+      "gap": 4.5,
+      "start": 265.41,
+      "end": 267.11,
+      "words": [
+        {
+          "w": "What",
+          "start": 265.46,
+          "end": 265.695
+        },
+        {
+          "w": "did",
+          "start": 265.695,
+          "end": 265.931
+        },
+        {
+          "w": "Sunny",
+          "start": 265.931,
+          "end": 266.225
+        },
+        {
+          "w": "say",
+          "start": 266.225,
+          "end": 266.46
+        },
+        {
+          "w": "after",
+          "start": 266.46,
+          "end": 266.755
+        },
+        {
+          "w": "that?",
+          "start": 266.755,
+          "end": 266.99
+        }
+      ]
+    },
+    {
+      "beat": "a4",
+      "speaker": "sunny",
+      "text": "I'm sorry! And thank you!",
+      "gap": 1.5,
+      "start": 271.61,
+      "end": 273.25,
+      "words": [
+        {
+          "w": "I'm",
+          "start": 271.65,
+          "end": 271.853
+        },
+        {
+          "w": "sorry!",
+          "start": 271.853,
+          "end": 272.258
+        },
+        {
+          "w": "And",
+          "start": 272.258,
+          "end": 272.46
+        },
+        {
+          "w": "thank",
+          "start": 272.46,
+          "end": 272.798
+        },
+        {
+          "w": "you!",
+          "start": 272.798,
+          "end": 273.0
+        }
+      ]
+    },
+    {
+      "beat": "q5",
+      "speaker": "narrator",
+      "text": "What does humble mean?",
+      "gap": 4.5,
+      "start": 274.75,
+      "end": 276.11,
+      "words": [
+        {
+          "w": "What",
+          "start": 274.8,
+          "end": 275.034
+        },
+        {
+          "w": "does",
+          "start": 275.034,
+          "end": 275.268
+        },
+        {
+          "w": "humble",
+          "start": 275.268,
+          "end": 275.677
+        },
+        {
+          "w": "mean?",
+          "start": 275.677,
+          "end": 275.97
+        }
+      ]
+    },
+    {
+      "beat": "a5",
+      "speaker": "sunny",
+      "text": "You don't have to be the best. Just be a good friend!",
+      "gap": 1.5,
+      "start": 280.61,
+      "end": 283.4,
+      "words": [
+        {
+          "w": "You",
+          "start": 280.64,
+          "end": 280.788
+        },
+        {
+          "w": "don't",
+          "start": 280.788,
+          "end": 281.085
+        },
+        {
+          "w": "have",
+          "start": 281.085,
+          "end": 281.282
+        },
+        {
+          "w": "to",
+          "start": 281.282,
+          "end": 281.43
+        },
+        {
+          "w": "be",
+          "start": 281.43,
+          "end": 281.628
+        },
+        {
+          "w": "the",
+          "start": 281.628,
+          "end": 281.727
+        },
+        {
+          "w": "best.",
+          "start": 281.727,
+          "end": 281.974
+        },
+        {
+          "w": "Just",
+          "start": 281.974,
+          "end": 282.27
+        },
+        {
+          "w": "be",
+          "start": 282.27,
+          "end": 282.468
+        },
+        {
+          "w": "a",
+          "start": 282.468,
+          "end": 282.616
+        },
+        {
+          "w": "good",
+          "start": 282.616,
+          "end": 282.814
+        },
+        {
+          "w": "friend!",
+          "start": 282.814,
+          "end": 283.11
+        }
+      ]
+    },
+    {
+      "beat": "chant",
+      "speaker": "narrator",
+      "text": "Let's say the lesson together!",
+      "gap": 1.0,
+      "start": 284.9,
+      "end": 286.5,
+      "words": [
+        {
+          "w": "Let's",
+          "start": 284.95,
+          "end": 285.242
+        },
+        {
+          "w": "say",
+          "start": 285.242,
+          "end": 285.475
+        },
+        {
+          "w": "the",
+          "start": 285.475,
+          "end": 285.592
+        },
+        {
+          "w": "lesson",
+          "start": 285.592,
+          "end": 285.942
+        },
+        {
+          "w": "together!",
+          "start": 285.942,
+          "end": 286.35
+        }
+      ]
+    },
+    {
+      "beat": "c1",
+      "speaker": "sunny",
+      "text": "Big or small...",
+      "gap": 1.0,
+      "start": 287.5,
+      "end": 288.8,
+      "words": [
+        {
+          "w": "Big",
+          "start": 287.54,
+          "end": 287.857
+        },
+        {
+          "w": "or",
+          "start": 287.857,
+          "end": 288.095
+        },
+        {
+          "w": "small...",
+          "start": 288.095,
+          "end": 288.57
+        }
+      ]
+    },
+    {
+      "beat": "c2",
+      "speaker": "pippa",
+      "text": "we need each other!",
+      "gap": 1.2,
+      "start": 289.8,
+      "end": 291.38,
+      "words": [
+        {
+          "w": "we",
+          "start": 289.84,
+          "end": 290.085
+        },
+        {
+          "w": "need",
+          "start": 290.085,
+          "end": 290.494
+        },
+        {
+          "w": "each",
+          "start": 290.494,
+          "end": 290.903
+        },
+        {
+          "w": "other!",
+          "start": 290.903,
+          "end": 291.23
+        }
+      ]
+    },
+    {
+      "beat": "c_turn",
+      "speaker": "narrator",
+      "text": "Your turn! Big or small, we need each other!",
+      "gap": 3.0,
+      "start": 292.58,
+      "end": 295.24,
+      "words": [
+        {
+          "w": "Your",
+          "start": 292.63,
+          "end": 292.827
+        },
+        {
+          "w": "turn!",
+          "start": 292.827,
+          "end": 293.154
+        },
+        {
+          "w": "Big",
+          "start": 293.154,
+          "end": 293.416
+        },
+        {
+          "w": "or",
+          "start": 293.416,
+          "end": 293.613
+        },
+        {
+          "w": "small,",
+          "start": 293.613,
+          "end": 294.006
+        },
+        {
+          "w": "we",
+          "start": 294.006,
+          "end": 294.203
+        },
+        {
+          "w": "need",
+          "start": 294.203,
+          "end": 294.53
+        },
+        {
+          "w": "each",
+          "start": 294.53,
+          "end": 294.858
+        },
+        {
+          "w": "other!",
+          "start": 294.858,
+          "end": 295.12
+        }
+      ]
+    },
+    {
+      "beat": "bye",
+      "speaker": "sunny",
+      "text": "Goodbye, friends! Roar!",
+      "gap": 0.6,
+      "start": 298.24,
+      "end": 299.84,
+      "words": [
+        {
+          "w": "Goodbye,",
+          "start": 298.27,
+          "end": 298.753
+        },
+        {
+          "w": "friends!",
+          "start": 298.753,
+          "end": 299.235
+        },
+        {
+          "w": "Roar!",
+          "start": 299.235,
+          "end": 299.58
+        }
+      ]
+    },
+    {
+      "beat": "bye2",
+      "speaker": "narrator",
+      "text": "See you next time, on Tiny Sparks!",
+      "gap": 1.0,
+      "start": 300.44,
+      "end": 302.56,
+      "words": [
+        {
+          "w": "See",
+          "start": 300.49,
+          "end": 300.715
+        },
+        {
+          "w": "you",
+          "start": 300.715,
+          "end": 300.884
+        },
+        {
+          "w": "next",
+          "start": 300.884,
+          "end": 301.222
+        },
+        {
+          "w": "time,",
+          "start": 301.222,
+          "end": 301.503
+        },
+        {
+          "w": "on",
+          "start": 301.503,
+          "end": 301.672
+        },
+        {
+          "w": "Tiny",
+          "start": 301.672,
+          "end": 302.01
+        },
+        {
+          "w": "Sparks!",
+          "start": 302.01,
+          "end": 302.46
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

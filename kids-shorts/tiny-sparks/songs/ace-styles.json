@@ -1,0 +1,10 @@
+{
+ "_doc": "ACE-Step style bank for Tiny Sparks songs (tools/song_to_ace.py). Each song gets the next style in rotation, recorded in its song.json \"ace\" block so a re-run keeps the same sound. 'nursery' and 'kidspop' are the user-approved styles from the Colors Song test (Nov 2026); the vocal wording ('natural ... real singer ... studio recording') is what made the voice sound less artificial.",
+ "styles": {
+  "nursery": "children's song, nursery rhyme, happy, bouncy, ukulele, xylophone, glockenspiel, hand claps, light drums, natural warm female vocal, real singer, soft breathy voice, gentle vibrato, clear diction, intimate studio recording, warm acoustic mix",
+  "kidspop": "kids pop, sing-along, catchy, piano, acoustic guitar, hand claps, kids choir backing vocals, natural expressive female lead vocal, real singer, warm and smiling tone, studio recording, polished radio mix",
+  "campfire": "children's folk song, sing-along, cheerful, acoustic guitar strumming, banjo, marimba, tambourine, foot stomps, friendly warm male vocal, real singer, smiling tone, clear diction, kids choir answers, natural studio recording",
+  "sunshine": "kids musical theatre song, joyful, bright, piano, pizzicato strings, glockenspiel, flute, light percussion, natural cheerful female vocal, real singer, expressive and clear, kids choir on the chorus, warm studio recording"
+ },
+ "rotation": ["nursery", "kidspop", "campfire", "sunshine"]
+}

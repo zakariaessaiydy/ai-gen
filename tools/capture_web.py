@@ -53,6 +53,7 @@ import os
 import subprocess
 import sys
 import time
+import urllib.error
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -69,9 +70,26 @@ def wait_http(url, timeout_s=60):
             with urllib.request.urlopen(url, timeout=3) as r:
                 if r.status < 500:
                     return True
+        except urllib.error.HTTPError as e:  # a 404 root still means the server is up
+            if e.code < 500:
+                return True
+            time.sleep(0.5)
         except Exception:
             time.sleep(0.5)
     return False
+
+
+def stop_server(server):
+    """Kill the server and its children (taskkill /T on Windows, terminate elsewhere)."""
+    if os.name == "nt":
+        subprocess.run(["taskkill", "/F", "/T", "/PID", str(server.pid)],
+                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        return
+    server.terminate()
+    try:
+        server.wait(5)
+    except subprocess.TimeoutExpired:
+        server.kill()
 
 
 def start_serve_web(cfg):
@@ -206,8 +224,7 @@ def main():
             browser.close()
     finally:
         if server and not keep_server:
-            subprocess.run(["taskkill", "/F", "/T", "/PID", str(server.pid)],
-                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            stop_server(server)
 
     mf = os.path.join(out_dir, "manifest.json")
     with open(mf, "w", encoding="utf-8") as f:

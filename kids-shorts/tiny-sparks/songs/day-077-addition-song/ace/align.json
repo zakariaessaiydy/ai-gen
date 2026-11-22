@@ -1,0 +1,125 @@
+{
+ "campfire-seed2037.wav": {
+  "score": 0.656,
+  "matched": 206,
+  "words": 314,
+  "recognised": 330,
+  "duration": 321.6
+ },
+ "campfire-seed22.wav": {
+  "score": 0.841,
+  "matched": 264,
+  "words": 314,
+  "recognised": 333,
+  "duration": 321.6
+ },
+ "campfire-seed53.wav": {
+  "score": 0.758,
+  "matched": 238,
+  "words": 314,
+  "recognised": 357,
+  "duration": 321.6
+ },
+ "_variants": {
+  "A": {
+   "take": "campfire-seed22.wav",
+   "score": 0.841,
+   "intro_cut": 0.0,
+   "duration": 321.6
+  },
+  "B": {
+   "take": "campfire-seed53.wav",
+   "score": 0.758,
+   "intro_cut": 0.0,
+   "duration": 321.6
+  },
+  "C": {
+   "take": "campfire-seed2037.wav",
+   "score": 0.656,
+   "intro_cut": 8.65,
+   "duration": 312.95
+  }
+ },
+ "_winner": "campfire-seed22.wav",
+ "_intro_cut": 0.0,
+ "_sung": {
+  "A": {
+   "take": "campfire-seed53.wav",
+   "score": 1.115,
+   "intro_cut": 0.0,
+   "duration": 321.6,
+   "form": [
+    "chorus",
+    "chorus",
+    "v1",
+    "v2",
+    "chorus",
+    "chorus",
+    "chorus",
+    "q3",
+    "q2",
+    "q4",
+    "chorus",
+    "chorus",
+    "q1",
+    "q2",
+    "q2",
+    "q3",
+    "q4",
+    "actions",
+    "slow",
+    "chorus",
+    "chorus"
+   ]
+  },
+  "B": {
+   "take": "campfire-seed22.wav",
+   "score": 1.035,
+   "intro_cut": 0.0,
+   "duration": 321.6,
+   "form": [
+    "chorus",
+    "v1",
+    "v2",
+    "v2",
+    "chorus",
+    "v4",
+    "chorus",
+    "v5",
+    "chorus",
+    "q1",
+    "q2",
+    "q3",
+    "q3",
+    "q4",
+    "actions",
+    "chorus",
+    "chorus"
+   ]
+  },
+  "C": {
+   "take": "campfire-seed2037.wav",
+   "score": 0.962,
+   "intro_cut": 8.65,
+   "duration": 312.95,
+   "form": [
+    "chorus",
+    "v2",
+    "v4",
+    "v5",
+    "chorus",
+    "chorus",
+    "q1",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "actions",
+    "actions",
+    "chorus",
+    "chorus",
+    "chorus"
+   ]
+  }
+ }
+}

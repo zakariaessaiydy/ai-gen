@@ -31,45 +31,30 @@ import time
 import urllib.error
 import urllib.request
 
+from common import download, get_arg, load_env, parse_val
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEFAULT_MODEL = "fal-ai/veo3.1/fast"
 QUEUE = "https://queue.fal.run"
 
 
-def load_env():
-    env = {}
-    p = os.path.join(ROOT, ".env")
-    if os.path.exists(p):
-        for line in open(p, encoding="utf-8"):
-            line = line.strip()
-            if not line or line.startswith("#") or "=" not in line:
-                continue
-            k, v = line.split("=", 1)
-            env[k.strip()] = v.strip().strip('"').strip("'")
-    return {**env, **os.environ}
-
-
-def get_arg(args, name, default=None):
-    return args[args.index(name) + 1] if name in args else default
-
-
-def parse_val(v):
-    try:
-        return json.loads(v)
-    except (ValueError, json.JSONDecodeError):
-        return v
-
-
-def req_json(url, key, body=None, method=None):
+def req_json(url, key, body=None, method=None, retries=0):
+    """retries > 0 only for idempotent GETs (status/result polls) — never the paid submit."""
     data = json.dumps(body).encode() if body is not None else None
-    r = urllib.request.Request(url, data=data, method=method,
-                               headers={"Authorization": f"Key {key}",
-                                        "Content-Type": "application/json"})
-    try:
-        with urllib.request.urlopen(r, timeout=120) as resp:
-            return json.load(resp)
-    except urllib.error.HTTPError as e:
-        sys.exit(f"fal API error {e.code} at {url}:\n{e.read().decode()[:800]}")
+    for attempt in range(retries + 1):
+        r = urllib.request.Request(url, data=data, method=method,
+                                   headers={"Authorization": f"Key {key}",
+                                            "Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(r, timeout=120) as resp:
+                return json.load(resp)
+        except urllib.error.HTTPError as e:
+            if e.code < 500 or attempt == retries:
+                sys.exit(f"fal API error {e.code} at {url}:\n{e.read().decode()[:800]}")
+        except urllib.error.URLError as e:
+            if attempt == retries:
+                sys.exit(f"fal API unreachable at {url}: {e.reason}")
+        time.sleep(2 ** (attempt + 1))  # a blip mid-poll must not abandon a paid job
 
 
 def find_video_url(obj):
@@ -126,7 +111,7 @@ def main():
     t0 = time.time()
     last = ""
     while True:
-        st = req_json(f"{status_url}?logs=1", key)
+        st = req_json(f"{status_url}?logs=1", key, retries=4)
         s = st.get("status", "?")
         if s != last:
             print(f"  {s}  (+{int(time.time()-t0)}s)")
@@ -140,13 +125,13 @@ def main():
                      f"re-poll {response_url})")
         time.sleep(5)
 
-    result = req_json(response_url, key)
+    result = req_json(response_url, key, retries=4)
     url = find_video_url(result)
     if not url:
         sys.exit("no video url in response:\n" + json.dumps(result)[:800])
 
     os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
-    urllib.request.urlretrieve(url, out)
+    download(url, out)
     print(f"video -> {os.path.relpath(out, ROOT)}  ({os.path.getsize(out)//1024}KB)")
 
     sidecar = os.path.splitext(out)[0] + ".json"

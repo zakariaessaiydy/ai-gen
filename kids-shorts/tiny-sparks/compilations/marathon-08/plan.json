@@ -1,0 +1,29 @@
+{
+ "intro": "kids-shorts/tiny-sparks/compilations/marathon-08/output/intro.mp4",
+ "episodes": [
+  {
+   "day": 62,
+   "file": "kids-shorts/tiny-sparks/puzzles/day-062-find-the-hidden-star/output/day-062-sfx-tiny-sparks-bounce.mp4",
+   "dur": 338.4,
+   "title": "Find the Hidden Star ⭐"
+  },
+  {
+   "day": 65,
+   "file": "kids-shorts/tiny-sparks/numbers/day-065-count-the-stars/output/day-065-sfx-tiny-sparks-bounce.mp4",
+   "dur": 318.0,
+   "title": "Count the Stars 🔢"
+  },
+  {
+   "day": 66,
+   "file": "kids-shorts/tiny-sparks/words/day-066-body-parts-english-french/output/day-066-sfx-tiny-sparks-bounce.mp4",
+   "dur": 336.3,
+   "title": "Body Parts in English & French 👀"
+  },
+  {
+   "day": 68,
+   "file": "kids-shorts/tiny-sparks/science/day-068-what-is-lightning/output/day-068-sfx-tiny-sparks-bounce.mp4",
+   "dur": 351.0,
+   "title": "What Is Lightning? ⚡"
+  }
+ ]
+}

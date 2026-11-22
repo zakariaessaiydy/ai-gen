@@ -1,0 +1,114 @@
+{
+ "title": "Addition Song (Tiny Sparks original)",
+ "bpm": 100,
+ "beatsPerBar": 4,
+ "introBars": 2,
+ "outroBars": 2,
+ "instruments": {
+  "lead": "xylophone",
+  "chords": "ukulele",
+  "bass": true,
+  "drums": "soft",
+  "leadWithVocal": true
+ },
+ "singer": "mila",
+ "vocal": {
+  "voice": "af_sky",
+  "pitch": 0,
+  "rate": "-4%"
+ },
+ "form": [
+  "chorus",
+  "v1",
+  "v2",
+  "chorus",
+  "v3",
+  "v4",
+  "chorus",
+  "v5",
+  "chorus",
+  "q1",
+  "q2",
+  "q3",
+  "q4",
+  "actions",
+  "karaoke",
+  "slow",
+  "chorus"
+ ],
+ "sections": {
+  "chorus": {
+   "chords": "C | G | F | C | Am | F | G | C",
+   "melody": "C4:1 C4:1 E4:2 | G4:1 G4:1 E4:2 | F4:1 A4:1 A4:2 | G4:1 F4:1 E4:1 D4:1 | E4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": "Put them to-geth-er, add them in, / plus means more, so let's be-gin! / Count them all and you will see, / add-ing is as fun as can be!"
+  },
+  "v1": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "One red ap-ple, one more too, / one plus one, that makes two! / Count them up, one, two, / one plus one is two!"
+  },
+  "v2": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Two lit-tle duck-lings swim-ming free, / one more joins, now that makes three! / Count them up, one, two, three, / two plus one is three!"
+  },
+  "v3": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Two big balls and two balls more, / two plus two, that makes four! / Count them up, one, two, three, four, / two plus two is four!"
+  },
+  "v4": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Three bright stars and two stars more, / count them up, there's five, for sure! / One, two, three, four, five, / three plus two is five!"
+  },
+  "v5": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Five lit-tle fin-gers on this hand, / five on that one, oh how grand! / Count them all, from one to ten, / five plus five is ten!"
+  },
+  "q1": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What is one plus one? / Two!"
+  },
+  "q2": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What is two plus two? / Four!"
+  },
+  "q3": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What is three plus one? / Four!"
+  },
+  "q4": {
+   "chords": "C | F | G | G | C | C",
+   "melody": "C4:1 E4:1 G4:0.5 G4:0.5 A4:0.5 A4:0.5 | R:4 | R:4 | R:4 | G4:3 R:1 | R:4",
+   "lyrics": "What is four plus one? / Five!"
+  },
+  "actions": {
+   "chords": "C | G | F | C | C | G | F | C",
+   "melody": "E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 D4:1 C4:1 | E4:1 G4:1 G4:1 A4:1 | F4:1 E4:1 D4:1 E4:1 | C4:1 E4:1 G4:1 G4:1 | E4:1 D4:1 C4:2",
+   "lyrics": "Clap one, clap two, then one clap more, / one, two, three, now stomp the floor! / Jump two times, then jump two more, / one, two, three, four, that makes four!"
+  },
+  "karaoke": {
+   "chords": "C | G | F | C | Am | F | G | C",
+   "melody": "C4:1 C4:1 E4:2 | G4:1 G4:1 E4:2 | F4:1 A4:1 A4:2 | G4:1 F4:1 E4:1 D4:1 | E4:1 E4:1 G4:1 G4:1 | A4:1 G4:1 E4:2 | F4:1 F4:1 E4:1 E4:1 | D4:1 D4:1 C4:2",
+   "lyrics": ""
+  },
+  "slow": {
+   "chords": "C | G | C | G | C | G | C | G | C | G",
+   "melody": "G4:1 E4:1 G4:0.5 G4:0.5 E4:1 | R:4 | G4:2 E4:2 | R:4 | G4:3 R:1 | R:4 | G4:2 E4:2 | R:4 | G4:2 E4:2 | R:4",
+   "lyrics": "Let's add them slow-ly! / One plus one / Two! / Two plus two / Four!"
+  }
+ },
+ "ace": {
+  "style": "campfire",
+  "seeds": [
+   22,
+   53,
+   2037
+  ]
+ }
+}

@@ -1,0 +1,251 @@
+{
+  "master": "remotion/out/KidsWords038-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsWords038-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/words/day-038-vegetables-english-french/output/day-038-sfx.mp4",
+    "end_s": 135.7,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 2.93,
+      "sfx_id": "rubber-stretch",
+      "gain_db": -6,
+      "shot": "KidsWords038",
+      "cue": "pull"
+    },
+    {
+      "at_s": 3.262,
+      "sfx_id": "rubber-stretch",
+      "gain_db": -5,
+      "shot": "KidsWords038",
+      "cue": "pull"
+    },
+    {
+      "at_s": 3.575,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -2,
+      "shot": "KidsWords038",
+      "cue": "POP! carrot out"
+    },
+    {
+      "at_s": 3.645,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -8,
+      "shot": "KidsWords038",
+      "cue": "carrot flies"
+    },
+    {
+      "at_s": 3.895,
+      "sfx_id": "kids-wow",
+      "gain_db": -4,
+      "shot": "KidsWords038",
+      "cue": "wow"
+    },
+    {
+      "at_s": 10.18,
+      "sfx_id": "zip-up",
+      "gain_db": -10,
+      "shot": "KidsWords038",
+      "cue": "snap zoom"
+    },
+    {
+      "at_s": 10.21,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords038",
+      "cue": "Carrot card"
+    },
+    {
+      "at_s": 14.0,
+      "sfx_id": "think-tick",
+      "gain_db": -8,
+      "shot": "KidsWords038",
+      "cue": "your turn",
+      "dur_s": 1.37
+    },
+    {
+      "at_s": 20.1,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -9,
+      "shot": "KidsWords038",
+      "cue": "gag word"
+    },
+    {
+      "at_s": 23.64,
+      "sfx_id": "zip-up",
+      "gain_db": -10,
+      "shot": "KidsWords038",
+      "cue": "snap zoom"
+    },
+    {
+      "at_s": 23.67,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords038",
+      "cue": "Tomato card"
+    },
+    {
+      "at_s": 27.5,
+      "sfx_id": "think-tick",
+      "gain_db": -8,
+      "shot": "KidsWords038",
+      "cue": "your turn",
+      "dur_s": 1.54
+    },
+    {
+      "at_s": 37.07,
+      "sfx_id": "zip-up",
+      "gain_db": -10,
+      "shot": "KidsWords038",
+      "cue": "snap zoom"
+    },
+    {
+      "at_s": 37.1,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords038",
+      "cue": "Broccoli card"
+    },
+    {
+      "at_s": 41.0,
+      "sfx_id": "think-tick",
+      "gain_db": -8,
+      "shot": "KidsWords038",
+      "cue": "your turn",
+      "dur_s": 1.54
+    },
+    {
+      "at_s": 50.9,
+      "sfx_id": "zip-up",
+      "gain_db": -10,
+      "shot": "KidsWords038",
+      "cue": "snap zoom"
+    },
+    {
+      "at_s": 50.93,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords038",
+      "cue": "Corn card"
+    },
+    {
+      "at_s": 55.0,
+      "sfx_id": "think-tick",
+      "gain_db": -8,
+      "shot": "KidsWords038",
+      "cue": "your turn",
+      "dur_s": 1.18
+    },
+    {
+      "at_s": 60.89,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -9,
+      "shot": "KidsWords038",
+      "cue": "gag word"
+    },
+    {
+      "at_s": 64.41,
+      "sfx_id": "zip-up",
+      "gain_db": -10,
+      "shot": "KidsWords038",
+      "cue": "snap zoom"
+    },
+    {
+      "at_s": 64.44,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords038",
+      "cue": "Potato card"
+    },
+    {
+      "at_s": 69.0,
+      "sfx_id": "think-tick",
+      "gain_db": -8,
+      "shot": "KidsWords038",
+      "cue": "your turn",
+      "dur_s": 1.21
+    },
+    {
+      "at_s": 79.01,
+      "sfx_id": "zip-up",
+      "gain_db": -10,
+      "shot": "KidsWords038",
+      "cue": "snap zoom"
+    },
+    {
+      "at_s": 79.04,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords038",
+      "cue": "Peas card"
+    },
+    {
+      "at_s": 83.0,
+      "sfx_id": "think-tick",
+      "gain_db": -8,
+      "shot": "KidsWords038",
+      "cue": "your turn",
+      "dur_s": 1.4
+    },
+    {
+      "at_s": 89.35,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -9,
+      "shot": "KidsWords038",
+      "cue": "gag word"
+    },
+    {
+      "at_s": 92.97,
+      "sfx_id": "drum-roll",
+      "gain_db": -10,
+      "shot": "KidsWords038",
+      "cue": "quiz"
+    },
+    {
+      "at_s": 96.0,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsWords038",
+      "cue": "quiz think",
+      "dur_s": 4.32
+    },
+    {
+      "at_s": 100.62,
+      "sfx_id": "ding-correct",
+      "gain_db": -5,
+      "shot": "KidsWords038",
+      "cue": "correct"
+    },
+    {
+      "at_s": 102.38,
+      "sfx_id": "kids-yay",
+      "gain_db": -4,
+      "shot": "KidsWords038",
+      "cue": "yay"
+    },
+    {
+      "at_s": 107.83,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -8,
+      "shot": "KidsWords038",
+      "cue": "recap grid"
+    },
+    {
+      "at_s": 127.6,
+      "sfx_id": "kids-applause",
+      "gain_db": -9,
+      "shot": "KidsWords038",
+      "cue": "bye confetti"
+    },
+    {
+      "at_s": 133.56,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -8,
+      "shot": "KidsWords038",
+      "cue": "iris"
+    }
+  ]
+}

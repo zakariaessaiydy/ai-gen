@@ -1,0 +1,29 @@
+{
+ "intro": "kids-shorts/tiny-sparks/compilations/marathon-02/output/intro.mp4",
+ "episodes": [
+  {
+   "day": 46,
+   "file": "kids-shorts/tiny-sparks/animals/day-046-coco-the-penguin-finds-a-friend/output/day-046-sfx-tiny-sparks-bounce.mp4",
+   "dur": 306.9,
+   "title": "Coco the Penguin Finds a Friend 🐧"
+  },
+  {
+   "day": 47,
+   "file": "kids-shorts/tiny-sparks/science/day-047-how-does-rain-form/output/day-047-sfx-tiny-sparks-bounce.mp4",
+   "dur": 305.0,
+   "title": "How Does Rain Form? The Water Cycle 🌧️"
+  },
+  {
+   "day": 48,
+   "file": "kids-shorts/tiny-sparks/puzzles/day-048-find-the-different-shape/output/day-048-sfx-tiny-sparks-bounce.mp4",
+   "dur": 313.9,
+   "title": "Find the Different Shape 🧩"
+  },
+  {
+   "day": 49,
+   "file": "kids-shorts/tiny-sparks/songs/day-049-months-of-the-year-song/output/day-049-final.mp4",
+   "dur": 346.6,
+   "title": "Months of the Year Song 🗓️"
+  }
+ ]
+}

@@ -1,0 +1,335 @@
+{
+  "master": "remotion/out/KidsWords080-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsWords080-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/words/day-080-wild-animals-english-french/output/day-080-sfx.mp4",
+    "end_s": 86.8,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0.3,
+      "sfx_id": "leaf-rustle",
+      "gain_db": -4,
+      "shot": "KidsWords080",
+      "cue": "the bush rustles"
+    },
+    {
+      "at_s": 1.9,
+      "sfx_id": "leaf-rustle",
+      "gain_db": -4,
+      "shot": "KidsWords080",
+      "cue": "the bush rustles"
+    },
+    {
+      "at_s": 2.6,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -12,
+      "shot": "KidsWords080",
+      "cue": "two eyes peek out"
+    },
+    {
+      "at_s": 3.5,
+      "sfx_id": "leaf-rustle",
+      "gain_db": -5,
+      "shot": "KidsWords080",
+      "cue": "the bush rustles"
+    },
+    {
+      "at_s": 5.74,
+      "sfx_id": "pop-reveal",
+      "gain_db": -8,
+      "shot": "KidsWords080",
+      "cue": "WILD ANIMALS! title"
+    },
+    {
+      "at_s": 9.38,
+      "sfx_id": "leaf-rustle",
+      "gain_db": -5,
+      "shot": "KidsWords080",
+      "cue": "bush rustles (lion)"
+    },
+    {
+      "at_s": 10.03,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -10,
+      "shot": "KidsWords080",
+      "cue": "lion hops out"
+    },
+    {
+      "at_s": 10.48,
+      "sfx_id": "pop-reveal",
+      "gain_db": -10,
+      "shot": "KidsWords080",
+      "cue": "lion card"
+    },
+    {
+      "at_s": 13.96,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsWords080",
+      "cue": "YOUR TURN"
+    },
+    {
+      "at_s": 15.56,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -8,
+      "shot": "KidsWords080",
+      "cue": "French word appears"
+    },
+    {
+      "at_s": 18.814,
+      "sfx_id": "cartoon-roar",
+      "gain_db": -4,
+      "shot": "KidsWords080",
+      "cue": "the lion ROARS"
+    },
+    {
+      "at_s": 21.4,
+      "sfx_id": "leaf-rustle",
+      "gain_db": -5,
+      "shot": "KidsWords080",
+      "cue": "bush rustles (elephant)"
+    },
+    {
+      "at_s": 22.05,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -10,
+      "shot": "KidsWords080",
+      "cue": "elephant hops out"
+    },
+    {
+      "at_s": 22.5,
+      "sfx_id": "pop-reveal",
+      "gain_db": -10,
+      "shot": "KidsWords080",
+      "cue": "elephant card"
+    },
+    {
+      "at_s": 26.19,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsWords080",
+      "cue": "YOUR TURN"
+    },
+    {
+      "at_s": 27.79,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -8,
+      "shot": "KidsWords080",
+      "cue": "French word appears"
+    },
+    {
+      "at_s": 31.809,
+      "sfx_id": "elephant-trumpet",
+      "gain_db": -11,
+      "shot": "KidsWords080",
+      "cue": "elephant trumpets (trunk)"
+    },
+    {
+      "at_s": 32.226,
+      "sfx_id": "water-splash",
+      "gain_db": -5,
+      "shot": "KidsWords080",
+      "cue": "splash"
+    },
+    {
+      "at_s": 32.643,
+      "sfx_id": "water-splash",
+      "gain_db": -6,
+      "shot": "KidsWords080",
+      "cue": "splash"
+    },
+    {
+      "at_s": 34.27,
+      "sfx_id": "leaf-rustle",
+      "gain_db": -5,
+      "shot": "KidsWords080",
+      "cue": "bush rustles (monkey)"
+    },
+    {
+      "at_s": 34.92,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -10,
+      "shot": "KidsWords080",
+      "cue": "monkey hops out"
+    },
+    {
+      "at_s": 35.37,
+      "sfx_id": "pop-reveal",
+      "gain_db": -10,
+      "shot": "KidsWords080",
+      "cue": "monkey card"
+    },
+    {
+      "at_s": 38.84,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsWords080",
+      "cue": "YOUR TURN"
+    },
+    {
+      "at_s": 40.44,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -8,
+      "shot": "KidsWords080",
+      "cue": "French word appears"
+    },
+    {
+      "at_s": 43.687,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsWords080",
+      "cue": "banana appears"
+    },
+    {
+      "at_s": 45.4,
+      "sfx_id": "monkey-ooh",
+      "gain_db": -12,
+      "shot": "KidsWords080",
+      "cue": "monkey call"
+    },
+    {
+      "at_s": 46.3,
+      "sfx_id": "leaf-rustle",
+      "gain_db": -5,
+      "shot": "KidsWords080",
+      "cue": "bush rustles (tiger)"
+    },
+    {
+      "at_s": 46.95,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -10,
+      "shot": "KidsWords080",
+      "cue": "tiger hops out"
+    },
+    {
+      "at_s": 47.4,
+      "sfx_id": "pop-reveal",
+      "gain_db": -10,
+      "shot": "KidsWords080",
+      "cue": "tiger card"
+    },
+    {
+      "at_s": 50.9,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsWords080",
+      "cue": "YOUR TURN"
+    },
+    {
+      "at_s": 52.5,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -8,
+      "shot": "KidsWords080",
+      "cue": "French word appears"
+    },
+    {
+      "at_s": 55.419,
+      "sfx_id": "slide-whistle-down",
+      "gain_db": -8,
+      "shot": "KidsWords080",
+      "cue": "tiger hides"
+    },
+    {
+      "at_s": 56.476,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -8,
+      "shot": "KidsWords080",
+      "cue": "BOO! tiger pops up"
+    },
+    {
+      "at_s": 57.04,
+      "sfx_id": "kids-laugh",
+      "gain_db": -11,
+      "shot": "KidsWords080",
+      "cue": "kids laugh"
+    },
+    {
+      "at_s": 58.84,
+      "sfx_id": "pop-reveal",
+      "gain_db": -6,
+      "shot": "KidsWords080",
+      "cue": "QUIZ TIME"
+    },
+    {
+      "at_s": 60.5,
+      "sfx_id": "think-tick",
+      "gain_db": -8,
+      "shot": "KidsWords080",
+      "cue": "think timer"
+    },
+    {
+      "at_s": 64.87,
+      "sfx_id": "ding-correct",
+      "gain_db": -4,
+      "shot": "KidsWords080",
+      "cue": "monkey is right"
+    },
+    {
+      "at_s": 67.89,
+      "sfx_id": "kids-yay",
+      "gain_db": -12,
+      "shot": "KidsWords080",
+      "cue": "yay"
+    },
+    {
+      "at_s": 68.79,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -15,
+      "shot": "KidsWords080",
+      "cue": "recap grid"
+    },
+    {
+      "at_s": 77.17,
+      "sfx_id": "chime-reward",
+      "gain_db": -14,
+      "shot": "KidsWords080",
+      "cue": "bye confetti"
+    },
+    {
+      "at_s": 77.77,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -14,
+      "shot": "KidsWords080",
+      "cue": "animals pop up to wave"
+    },
+    {
+      "at_s": 78.02,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -10,
+      "shot": "KidsWords080",
+      "cue": "animals pop up to wave"
+    },
+    {
+      "at_s": 78.27,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -14,
+      "shot": "KidsWords080",
+      "cue": "animals pop up to wave"
+    },
+    {
+      "at_s": 78.52,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -10,
+      "shot": "KidsWords080",
+      "cue": "animals pop up to wave"
+    },
+    {
+      "at_s": 84.09,
+      "sfx_id": "kids-applause",
+      "gain_db": -8,
+      "shot": "KidsWords080",
+      "cue": "applause"
+    },
+    {
+      "at_s": 84.39,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -10,
+      "shot": "KidsWords080",
+      "cue": "star iris"
+    }
+  ]
+}

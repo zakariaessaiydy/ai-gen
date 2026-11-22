@@ -16,7 +16,8 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '.
 const CACHE_DIR = path.join(ROOT, 'out', '.bundles');
 // Each bundle is ~115MB (it embeds a copy of media/), and rebuilding one costs ~4s — so keep
 // only the current fingerprint's bundle and drop the rest.
-const KEEP = 1;
+// KEEP 3, not 1: a long render serves its bundle for an hour; QA on edited src must not prune it mid-render.
+const KEEP = 3;
 
 function hashTree(h, dir, base) {
   let entries;
@@ -45,7 +46,8 @@ function prune(keepHash) {
     .filter((d) => d !== keepHash)
     .map((d) => ({ d, t: statSync(path.join(CACHE_DIR, d)).mtimeMs }))
     .sort((a, b) => b.t - a.t);
-  for (const { d } of stamped.slice(KEEP - 1)) {
+  const fresh = Date.now() - 3 * 3600 * 1000; // never prune a bundle a running render may still be serving
+  for (const { d } of stamped.slice(KEEP - 1).filter((x) => x.t < fresh)) {
     try { rmSync(path.join(CACHE_DIR, d), { recursive: true, force: true }); } catch { /* best effort */ }
   }
 }

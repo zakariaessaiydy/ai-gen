@@ -1,0 +1,492 @@
+{
+  "master": "remotion/out/KidsAnimals039-voiced.mp4",
+  "master_fps": 30,
+  "catalog": "media/library/sfx/catalog.json",
+  "render": {
+    "preview": "remotion/out/KidsAnimals039-voiced.mp4",
+    "out": "kids-shorts/tiny-sparks/animals/day-039-oliver-the-owl-s-first-flight/output/day-039-sfx.mp4",
+    "end_s": 301.2,
+    "duck": true
+  },
+  "events": [
+    {
+      "at_s": 0,
+      "sfx_id": "tiny-sparks-jingle",
+      "gain_db": -5,
+      "shot": "KidsAnimals039",
+      "cue": "ident"
+    },
+    {
+      "at_s": 10.2,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsAnimals039",
+      "cue": "who?",
+      "dur_s": 4.75
+    },
+    {
+      "at_s": 15.018,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -3,
+      "shot": "KidsAnimals039",
+      "cue": "owl reveal"
+    },
+    {
+      "at_s": 15.448,
+      "sfx_id": "kids-wow",
+      "gain_db": -4,
+      "shot": "KidsAnimals039",
+      "cue": "wow"
+    },
+    {
+      "at_s": 19.97,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -9,
+      "shot": "KidsAnimals039",
+      "cue": "whip"
+    },
+    {
+      "at_s": 22.69,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -9,
+      "shot": "KidsAnimals039",
+      "cue": "whip"
+    },
+    {
+      "at_s": 25.85,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -9,
+      "shot": "KidsAnimals039",
+      "cue": "whip"
+    },
+    {
+      "at_s": 28.57,
+      "sfx_id": "owl-hoot",
+      "gain_db": -10,
+      "shot": "KidsAnimals039",
+      "cue": "hoot"
+    },
+    {
+      "at_s": 34.2,
+      "sfx_id": "think-tick",
+      "gain_db": -7,
+      "shot": "KidsAnimals039",
+      "cue": "your turn hoot",
+      "dur_s": 2.79
+    },
+    {
+      "at_s": 40.05,
+      "sfx_id": "chime-reward",
+      "gain_db": -9,
+      "shot": "KidsAnimals039",
+      "cue": "3 facts"
+    },
+    {
+      "at_s": 43.33,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -9,
+      "shot": "KidsAnimals039",
+      "cue": "fact1"
+    },
+    {
+      "at_s": 48.81,
+      "sfx_id": "slide-whistle-down",
+      "gain_db": -11,
+      "shot": "KidsAnimals039",
+      "cue": "yawn"
+    },
+    {
+      "at_s": 53.31,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -9,
+      "shot": "KidsAnimals039",
+      "cue": "fact2"
+    },
+    {
+      "at_s": 59.811,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -12,
+      "shot": "KidsAnimals039",
+      "cue": "head turn"
+    },
+    {
+      "at_s": 60.331,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -12,
+      "shot": "KidsAnimals039",
+      "cue": "head turn"
+    },
+    {
+      "at_s": 64.53,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -9,
+      "shot": "KidsAnimals039",
+      "cue": "fact3"
+    },
+    {
+      "at_s": 66.053,
+      "sfx_id": "sparkle-soft",
+      "gain_db": -10,
+      "shot": "KidsAnimals039",
+      "cue": "feather"
+    },
+    {
+      "at_s": 73.45,
+      "sfx_id": "kids-wow",
+      "gain_db": -5,
+      "shot": "KidsAnimals039",
+      "cue": "owls are amazing"
+    },
+    {
+      "at_s": 84.93,
+      "sfx_id": "uh-oh",
+      "gain_db": -6,
+      "shot": "KidsAnimals039",
+      "cue": "scared"
+    },
+    {
+      "at_s": 91.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsAnimals039",
+      "cue": "how?",
+      "dur_s": 3.35
+    },
+    {
+      "at_s": 95.2,
+      "sfx_id": "ding-correct",
+      "gain_db": -8,
+      "shot": "KidsAnimals039",
+      "cue": "idea"
+    },
+    {
+      "at_s": 100.91,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsAnimals039",
+      "cue": "step1"
+    },
+    {
+      "at_s": 102.319,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsAnimals039",
+      "cue": "flap"
+    },
+    {
+      "at_s": 107.7,
+      "sfx_id": "think-tick",
+      "gain_db": -7,
+      "shot": "KidsAnimals039",
+      "cue": "flap your turn",
+      "dur_s": 3.34
+    },
+    {
+      "at_s": 111.19,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -7,
+      "shot": "KidsAnimals039",
+      "cue": "flaps"
+    },
+    {
+      "at_s": 115.08,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsAnimals039",
+      "cue": "step2"
+    },
+    {
+      "at_s": 115.98,
+      "sfx_id": "slide-whistle-down",
+      "gain_db": -10,
+      "shot": "KidsAnimals039",
+      "cue": "flutter down"
+    },
+    {
+      "at_s": 118.87,
+      "sfx_id": "pop-reveal",
+      "gain_db": -9,
+      "shot": "KidsAnimals039",
+      "cue": "leaf pile"
+    },
+    {
+      "at_s": 122.965,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -8,
+      "shot": "KidsAnimals039",
+      "cue": "hop"
+    },
+    {
+      "at_s": 123.565,
+      "sfx_id": "cartoon-boing",
+      "gain_db": -3,
+      "shot": "KidsAnimals039",
+      "cue": "BOING in the leaves"
+    },
+    {
+      "at_s": 129.97,
+      "sfx_id": "kids-laugh",
+      "gain_db": -5,
+      "shot": "KidsAnimals039",
+      "cue": "laugh"
+    },
+    {
+      "at_s": 131.93,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -8,
+      "shot": "KidsAnimals039",
+      "cue": "step3"
+    },
+    {
+      "at_s": 132.983,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -9,
+      "shot": "KidsAnimals039",
+      "cue": "back up"
+    },
+    {
+      "at_s": 142.704,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsAnimals039",
+      "cue": "count"
+    },
+    {
+      "at_s": 142.998,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsAnimals039",
+      "cue": "count"
+    },
+    {
+      "at_s": 143.292,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -6,
+      "shot": "KidsAnimals039",
+      "cue": "count"
+    },
+    {
+      "at_s": 144.73,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -5,
+      "shot": "KidsAnimals039",
+      "cue": "he flies"
+    },
+    {
+      "at_s": 145.03,
+      "sfx_id": "whoosh-wind",
+      "gain_db": -8,
+      "shot": "KidsAnimals039",
+      "cue": "wind"
+    },
+    {
+      "at_s": 150.03,
+      "sfx_id": "kids-yay",
+      "gain_db": -3,
+      "shot": "KidsAnimals039",
+      "cue": "hooray"
+    },
+    {
+      "at_s": 150.28,
+      "sfx_id": "kids-applause",
+      "gain_db": -9,
+      "shot": "KidsAnimals039",
+      "cue": "applause"
+    },
+    {
+      "at_s": 161.24,
+      "sfx_id": "uh-oh",
+      "gain_db": -6,
+      "shot": "KidsAnimals039",
+      "cue": "oh no"
+    },
+    {
+      "at_s": 162.537,
+      "sfx_id": "slide-whistle-up",
+      "gain_db": -10,
+      "shot": "KidsAnimals039",
+      "cue": "balloon floats"
+    },
+    {
+      "at_s": 172.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsAnimals039",
+      "cue": "who can help?",
+      "dur_s": 2.63
+    },
+    {
+      "at_s": 179.74,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -7,
+      "shot": "KidsAnimals039",
+      "cue": "flies up"
+    },
+    {
+      "at_s": 181.6,
+      "sfx_id": "ding-correct",
+      "gain_db": -6,
+      "shot": "KidsAnimals039",
+      "cue": "gets the balloon"
+    },
+    {
+      "at_s": 186.26,
+      "sfx_id": "chime-reward",
+      "gain_db": -8,
+      "shot": "KidsAnimals039",
+      "cue": "handed back"
+    },
+    {
+      "at_s": 188.97,
+      "sfx_id": "kids-yay",
+      "gain_db": -4,
+      "shot": "KidsAnimals039",
+      "cue": "yay"
+    },
+    {
+      "at_s": 196.45,
+      "sfx_id": "warm-shimmer",
+      "gain_db": -10,
+      "shot": "KidsAnimals039",
+      "cue": "night falls"
+    },
+    {
+      "at_s": 201.94,
+      "sfx_id": "owl-hoot",
+      "gain_db": -10,
+      "shot": "KidsAnimals039",
+      "cue": "night hoot"
+    },
+    {
+      "at_s": 206.82,
+      "sfx_id": "drum-roll",
+      "gain_db": -12,
+      "shot": "KidsAnimals039",
+      "cue": "remember"
+    },
+    {
+      "at_s": 214.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsAnimals039",
+      "cue": "q1",
+      "dur_s": 4.09
+    },
+    {
+      "at_s": 219.09,
+      "sfx_id": "ding-correct",
+      "gain_db": -7,
+      "shot": "KidsAnimals039",
+      "cue": "a1"
+    },
+    {
+      "at_s": 224.2,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsAnimals039",
+      "cue": "q2",
+      "dur_s": 4.19
+    },
+    {
+      "at_s": 228.69,
+      "sfx_id": "ding-correct",
+      "gain_db": -7,
+      "shot": "KidsAnimals039",
+      "cue": "a2"
+    },
+    {
+      "at_s": 236.2,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsAnimals039",
+      "cue": "q3",
+      "dur_s": 4.13
+    },
+    {
+      "at_s": 240.63,
+      "sfx_id": "ding-correct",
+      "gain_db": -7,
+      "shot": "KidsAnimals039",
+      "cue": "a3"
+    },
+    {
+      "at_s": 245.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsAnimals039",
+      "cue": "q4",
+      "dur_s": 4.19
+    },
+    {
+      "at_s": 250.19,
+      "sfx_id": "ding-correct",
+      "gain_db": -7,
+      "shot": "KidsAnimals039",
+      "cue": "a4a"
+    },
+    {
+      "at_s": 258.7,
+      "sfx_id": "think-tick",
+      "gain_db": -6,
+      "shot": "KidsAnimals039",
+      "cue": "q5",
+      "dur_s": 4.27
+    },
+    {
+      "at_s": 263.27,
+      "sfx_id": "ding-correct",
+      "gain_db": -7,
+      "shot": "KidsAnimals039",
+      "cue": "a5"
+    },
+    {
+      "at_s": 268.82,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -9,
+      "shot": "KidsAnimals039",
+      "cue": "c1"
+    },
+    {
+      "at_s": 275.94,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -9,
+      "shot": "KidsAnimals039",
+      "cue": "c2"
+    },
+    {
+      "at_s": 282.02,
+      "sfx_id": "cartoon-pop",
+      "gain_db": -9,
+      "shot": "KidsAnimals039",
+      "cue": "c3"
+    },
+    {
+      "at_s": 283.29,
+      "sfx_id": "kids-yay",
+      "gain_db": -4,
+      "shot": "KidsAnimals039",
+      "cue": "chant done"
+    },
+    {
+      "at_s": 286.24,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsAnimals039",
+      "cue": "flap"
+    },
+    {
+      "at_s": 287.24,
+      "sfx_id": "whoosh-soft",
+      "gain_db": -8,
+      "shot": "KidsAnimals039",
+      "cue": "flap"
+    },
+    {
+      "at_s": 298.72,
+      "sfx_id": "whip-whoosh",
+      "gain_db": -8,
+      "shot": "KidsAnimals039",
+      "cue": "iris"
+    }
+  ]
+}
