@@ -1,0 +1,1723 @@
+{
+  "id": "tulip-mania",
+  "title": "Tulip Mania — the first bubble",
+  "composition": "PaperDocTulips",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationSec": 125.4
+  },
+  "voicePlan": "kokoro",
+  "cast": {
+    "narrator": {
+      "kokoro": "bm_george",
+      "rate": "-4%"
+    }
+  },
+  "music": {
+    "bed": "docu-pluck",
+    "gain": -10,
+    "duck": 8,
+    "start": 0,
+    "fade_in": 0.5
+  },
+  "vo": [
+    {
+      "beat": "s00",
+      "speaker": "narrator",
+      "text": "Imagine paying ten thousand guilders for one single flower bulb.",
+      "gap": 0.55,
+      "start": 0.3,
+      "end": 4.73,
+      "words": [
+        {
+          "w": "Imagine",
+          "start": 0.32,
+          "end": 0.919
+        },
+        {
+          "w": "paying",
+          "start": 0.919,
+          "end": 1.368
+        },
+        {
+          "w": "ten",
+          "start": 1.368,
+          "end": 1.667
+        },
+        {
+          "w": "thousand",
+          "start": 1.667,
+          "end": 2.266
+        },
+        {
+          "w": "guilders",
+          "start": 2.266,
+          "end": 2.789
+        },
+        {
+          "w": "for",
+          "start": 2.789,
+          "end": 3.014
+        },
+        {
+          "w": "one",
+          "start": 3.014,
+          "end": 3.313
+        },
+        {
+          "w": "single",
+          "start": 3.313,
+          "end": 3.837
+        },
+        {
+          "w": "flower",
+          "start": 3.837,
+          "end": 4.286
+        },
+        {
+          "w": "bulb.",
+          "start": 4.286,
+          "end": 4.66
+        }
+      ]
+    },
+    {
+      "beat": "s01",
+      "speaker": "narrator",
+      "text": "In Amsterdam, that was about the price of a fine house on a canal.",
+      "gap": 0.55,
+      "start": 5.28,
+      "end": 9.82,
+      "words": [
+        {
+          "w": "In",
+          "start": 5.32,
+          "end": 5.537
+        },
+        {
+          "w": "Amsterdam,",
+          "start": 5.537,
+          "end": 6.26
+        },
+        {
+          "w": "that",
+          "start": 6.26,
+          "end": 6.549
+        },
+        {
+          "w": "was",
+          "start": 6.549,
+          "end": 6.766
+        },
+        {
+          "w": "about",
+          "start": 6.766,
+          "end": 7.2
+        },
+        {
+          "w": "the",
+          "start": 7.2,
+          "end": 7.344
+        },
+        {
+          "w": "price",
+          "start": 7.344,
+          "end": 7.778
+        },
+        {
+          "w": "of",
+          "start": 7.778,
+          "end": 7.923
+        },
+        {
+          "w": "a",
+          "start": 7.923,
+          "end": 8.14
+        },
+        {
+          "w": "fine",
+          "start": 8.14,
+          "end": 8.501
+        },
+        {
+          "w": "house",
+          "start": 8.501,
+          "end": 8.862
+        },
+        {
+          "w": "on",
+          "start": 8.862,
+          "end": 9.079
+        },
+        {
+          "w": "a",
+          "start": 9.079,
+          "end": 9.296
+        },
+        {
+          "w": "canal.",
+          "start": 9.296,
+          "end": 9.73
+        }
+      ]
+    },
+    {
+      "beat": "s02",
+      "speaker": "narrator",
+      "text": "This is the story of Tulip Mania, the most famous bubble in history.",
+      "gap": 0.55,
+      "start": 10.37,
+      "end": 15.05,
+      "words": [
+        {
+          "w": "This",
+          "start": 10.39,
+          "end": 10.66
+        },
+        {
+          "w": "is",
+          "start": 10.66,
+          "end": 10.795
+        },
+        {
+          "w": "the",
+          "start": 10.795,
+          "end": 10.93
+        },
+        {
+          "w": "story",
+          "start": 10.93,
+          "end": 11.403
+        },
+        {
+          "w": "of",
+          "start": 11.403,
+          "end": 11.538
+        },
+        {
+          "w": "Tulip",
+          "start": 11.538,
+          "end": 12.078
+        },
+        {
+          "w": "Mania,",
+          "start": 12.078,
+          "end": 12.55
+        },
+        {
+          "w": "the",
+          "start": 12.89,
+          "end": 13.021
+        },
+        {
+          "w": "most",
+          "start": 13.021,
+          "end": 13.413
+        },
+        {
+          "w": "famous",
+          "start": 13.413,
+          "end": 13.87
+        },
+        {
+          "w": "bubble",
+          "start": 13.87,
+          "end": 14.262
+        },
+        {
+          "w": "in",
+          "start": 14.262,
+          "end": 14.458
+        },
+        {
+          "w": "history.",
+          "start": 14.458,
+          "end": 14.98
+        }
+      ]
+    },
+    {
+      "beat": "s03",
+      "speaker": "narrator",
+      "text": "In the sixteen thirties, the Dutch Republic was one of the richest places on Earth.",
+      "gap": 0.55,
+      "start": 15.6,
+      "end": 20.99,
+      "words": [
+        {
+          "w": "In",
+          "start": 15.62,
+          "end": 15.844
+        },
+        {
+          "w": "the",
+          "start": 15.844,
+          "end": 15.993
+        },
+        {
+          "w": "sixteen",
+          "start": 15.993,
+          "end": 16.663
+        },
+        {
+          "w": "thirties,",
+          "start": 16.663,
+          "end": 17.185
+        },
+        {
+          "w": "the",
+          "start": 17.185,
+          "end": 17.334
+        },
+        {
+          "w": "Dutch",
+          "start": 17.334,
+          "end": 17.706
+        },
+        {
+          "w": "Republic",
+          "start": 17.706,
+          "end": 18.377
+        },
+        {
+          "w": "was",
+          "start": 18.377,
+          "end": 18.6
+        },
+        {
+          "w": "one",
+          "start": 18.6,
+          "end": 18.898
+        },
+        {
+          "w": "of",
+          "start": 18.898,
+          "end": 19.047
+        },
+        {
+          "w": "the",
+          "start": 19.047,
+          "end": 19.196
+        },
+        {
+          "w": "richest",
+          "start": 19.196,
+          "end": 19.792
+        },
+        {
+          "w": "places",
+          "start": 19.792,
+          "end": 20.388
+        },
+        {
+          "w": "on",
+          "start": 20.388,
+          "end": 20.612
+        },
+        {
+          "w": "Earth.",
+          "start": 20.612,
+          "end": 20.91
+        }
+      ]
+    },
+    {
+      "beat": "s04",
+      "speaker": "narrator",
+      "text": "Its ships brought spices, silk and silver from across the world, and people had money to spend.",
+      "gap": 0.55,
+      "start": 21.54,
+      "end": 27.76,
+      "words": [
+        {
+          "w": "Its",
+          "start": 21.56,
+          "end": 21.769
+        },
+        {
+          "w": "ships",
+          "start": 21.769,
+          "end": 22.116
+        },
+        {
+          "w": "brought",
+          "start": 22.116,
+          "end": 22.534
+        },
+        {
+          "w": "spices,",
+          "start": 22.534,
+          "end": 23.09
+        },
+        {
+          "w": "silk",
+          "start": 23.39,
+          "end": 23.743
+        },
+        {
+          "w": "and",
+          "start": 23.743,
+          "end": 23.955
+        },
+        {
+          "w": "silver",
+          "start": 23.955,
+          "end": 24.379
+        },
+        {
+          "w": "from",
+          "start": 24.379,
+          "end": 24.661
+        },
+        {
+          "w": "across",
+          "start": 24.661,
+          "end": 25.085
+        },
+        {
+          "w": "the",
+          "start": 25.085,
+          "end": 25.226
+        },
+        {
+          "w": "world,",
+          "start": 25.226,
+          "end": 25.65
+        },
+        {
+          "w": "and",
+          "start": 26.01,
+          "end": 26.189
+        },
+        {
+          "w": "people",
+          "start": 26.189,
+          "end": 26.606
+        },
+        {
+          "w": "had",
+          "start": 26.606,
+          "end": 26.845
+        },
+        {
+          "w": "money",
+          "start": 26.845,
+          "end": 27.143
+        },
+        {
+          "w": "to",
+          "start": 27.143,
+          "end": 27.322
+        },
+        {
+          "w": "spend.",
+          "start": 27.322,
+          "end": 27.68
+        }
+      ]
+    },
+    {
+      "beat": "s05",
+      "speaker": "narrator",
+      "text": "Tulips had arrived from the Ottoman Empire, and by the sixteen thirties, the Dutch were obsessed with them.",
+      "gap": 0.55,
+      "start": 28.31,
+      "end": 35.09,
+      "words": [
+        {
+          "w": "Tulips",
+          "start": 28.35,
+          "end": 28.922
+        },
+        {
+          "w": "had",
+          "start": 28.922,
+          "end": 29.176
+        },
+        {
+          "w": "arrived",
+          "start": 29.176,
+          "end": 29.62
+        },
+        {
+          "w": "from",
+          "start": 29.62,
+          "end": 29.874
+        },
+        {
+          "w": "the",
+          "start": 29.874,
+          "end": 30.001
+        },
+        {
+          "w": "Ottoman",
+          "start": 30.001,
+          "end": 30.445
+        },
+        {
+          "w": "Empire,",
+          "start": 30.445,
+          "end": 30.89
+        },
+        {
+          "w": "and",
+          "start": 31.31,
+          "end": 31.491
+        },
+        {
+          "w": "by",
+          "start": 31.491,
+          "end": 31.733
+        },
+        {
+          "w": "the",
+          "start": 31.733,
+          "end": 31.854
+        },
+        {
+          "w": "sixteen",
+          "start": 31.854,
+          "end": 32.397
+        },
+        {
+          "w": "thirties,",
+          "start": 32.397,
+          "end": 32.82
+        },
+        {
+          "w": "the",
+          "start": 33.15,
+          "end": 33.305
+        },
+        {
+          "w": "Dutch",
+          "start": 33.305,
+          "end": 33.693
+        },
+        {
+          "w": "were",
+          "start": 33.693,
+          "end": 33.925
+        },
+        {
+          "w": "obsessed",
+          "start": 33.925,
+          "end": 34.468
+        },
+        {
+          "w": "with",
+          "start": 34.468,
+          "end": 34.7
+        },
+        {
+          "w": "them.",
+          "start": 34.7,
+          "end": 35.01
+        }
+      ]
+    },
+    {
+      "beat": "s06",
+      "speaker": "narrator",
+      "text": "The most wanted were the broken tulips, with flames of colour on their petals.",
+      "gap": 0.55,
+      "start": 35.64,
+      "end": 40.95,
+      "words": [
+        {
+          "w": "The",
+          "start": 35.69,
+          "end": 35.845
+        },
+        {
+          "w": "most",
+          "start": 35.845,
+          "end": 36.309
+        },
+        {
+          "w": "wanted",
+          "start": 36.309,
+          "end": 36.85
+        },
+        {
+          "w": "were",
+          "start": 36.85,
+          "end": 37.082
+        },
+        {
+          "w": "the",
+          "start": 37.082,
+          "end": 37.236
+        },
+        {
+          "w": "broken",
+          "start": 37.236,
+          "end": 37.855
+        },
+        {
+          "w": "tulips,",
+          "start": 37.855,
+          "end": 38.551
+        },
+        {
+          "w": "with",
+          "start": 38.551,
+          "end": 38.783
+        },
+        {
+          "w": "flames",
+          "start": 38.783,
+          "end": 39.324
+        },
+        {
+          "w": "of",
+          "start": 39.324,
+          "end": 39.478
+        },
+        {
+          "w": "colour",
+          "start": 39.478,
+          "end": 39.865
+        },
+        {
+          "w": "on",
+          "start": 39.865,
+          "end": 40.097
+        },
+        {
+          "w": "their",
+          "start": 40.097,
+          "end": 40.329
+        },
+        {
+          "w": "petals.",
+          "start": 40.329,
+          "end": 40.87
+        }
+      ]
+    },
+    {
+      "beat": "s07",
+      "speaker": "narrator",
+      "text": "Nobody knew it then, but those beautiful flames were caused by a virus.",
+      "gap": 0.55,
+      "start": 41.5,
+      "end": 46.36,
+      "words": [
+        {
+          "w": "Nobody",
+          "start": 41.52,
+          "end": 42.063
+        },
+        {
+          "w": "knew",
+          "start": 42.063,
+          "end": 42.403
+        },
+        {
+          "w": "it",
+          "start": 42.403,
+          "end": 42.538
+        },
+        {
+          "w": "then,",
+          "start": 42.538,
+          "end": 42.81
+        },
+        {
+          "w": "but",
+          "start": 43.18,
+          "end": 43.434
+        },
+        {
+          "w": "those",
+          "start": 43.434,
+          "end": 43.751
+        },
+        {
+          "w": "beautiful",
+          "start": 43.751,
+          "end": 44.386
+        },
+        {
+          "w": "flames",
+          "start": 44.386,
+          "end": 44.83
+        },
+        {
+          "w": "were",
+          "start": 44.83,
+          "end": 45.021
+        },
+        {
+          "w": "caused",
+          "start": 45.021,
+          "end": 45.401
+        },
+        {
+          "w": "by",
+          "start": 45.401,
+          "end": 45.655
+        },
+        {
+          "w": "a",
+          "start": 45.655,
+          "end": 45.846
+        },
+        {
+          "w": "virus.",
+          "start": 45.846,
+          "end": 46.29
+        }
+      ]
+    },
+    {
+      "beat": "s08",
+      "speaker": "narrator",
+      "text": "Back then, a skilled craftsman earned about three hundred guilders a year.",
+      "gap": 0.55,
+      "start": 46.91,
+      "end": 51.49,
+      "words": [
+        {
+          "w": "Back",
+          "start": 46.95,
+          "end": 47.226
+        },
+        {
+          "w": "then,",
+          "start": 47.226,
+          "end": 47.503
+        },
+        {
+          "w": "a",
+          "start": 47.503,
+          "end": 47.71
+        },
+        {
+          "w": "skilled",
+          "start": 47.71,
+          "end": 48.124
+        },
+        {
+          "w": "craftsman",
+          "start": 48.124,
+          "end": 48.815
+        },
+        {
+          "w": "earned",
+          "start": 48.815,
+          "end": 49.16
+        },
+        {
+          "w": "about",
+          "start": 49.16,
+          "end": 49.575
+        },
+        {
+          "w": "three",
+          "start": 49.575,
+          "end": 49.92
+        },
+        {
+          "w": "hundred",
+          "start": 49.92,
+          "end": 50.473
+        },
+        {
+          "w": "guilders",
+          "start": 50.473,
+          "end": 50.956
+        },
+        {
+          "w": "a",
+          "start": 50.956,
+          "end": 51.164
+        },
+        {
+          "w": "year.",
+          "start": 51.164,
+          "end": 51.44
+        }
+      ]
+    },
+    {
+      "beat": "s09",
+      "speaker": "narrator",
+      "text": "So one rare bulb could cost more than thirty years of his wages.",
+      "gap": 0.55,
+      "start": 52.04,
+      "end": 56.75,
+      "words": [
+        {
+          "w": "So",
+          "start": 52.06,
+          "end": 52.379
+        },
+        {
+          "w": "one",
+          "start": 52.379,
+          "end": 52.697
+        },
+        {
+          "w": "rare",
+          "start": 52.697,
+          "end": 53.016
+        },
+        {
+          "w": "bulb",
+          "start": 53.016,
+          "end": 53.414
+        },
+        {
+          "w": "could",
+          "start": 53.414,
+          "end": 53.733
+        },
+        {
+          "w": "cost",
+          "start": 53.733,
+          "end": 54.131
+        },
+        {
+          "w": "more",
+          "start": 54.131,
+          "end": 54.45
+        },
+        {
+          "w": "than",
+          "start": 54.45,
+          "end": 54.689
+        },
+        {
+          "w": "thirty",
+          "start": 54.689,
+          "end": 55.167
+        },
+        {
+          "w": "years",
+          "start": 55.167,
+          "end": 55.565
+        },
+        {
+          "w": "of",
+          "start": 55.565,
+          "end": 55.724
+        },
+        {
+          "w": "his",
+          "start": 55.724,
+          "end": 56.043
+        },
+        {
+          "w": "wages.",
+          "start": 56.043,
+          "end": 56.68
+        }
+      ]
+    },
+    {
+      "beat": "s10",
+      "speaker": "narrator",
+      "text": "In winter, the bulbs were still in the ground. So people traded something else: paper promises.",
+      "gap": 0.55,
+      "start": 57.3,
+      "end": 63.37,
+      "words": [
+        {
+          "w": "In",
+          "start": 57.32,
+          "end": 57.539
+        },
+        {
+          "w": "winter,",
+          "start": 57.539,
+          "end": 57.976
+        },
+        {
+          "w": "the",
+          "start": 57.976,
+          "end": 58.122
+        },
+        {
+          "w": "bulbs",
+          "start": 58.122,
+          "end": 58.56
+        },
+        {
+          "w": "were",
+          "start": 58.56,
+          "end": 58.779
+        },
+        {
+          "w": "still",
+          "start": 58.779,
+          "end": 59.143
+        },
+        {
+          "w": "in",
+          "start": 59.143,
+          "end": 59.362
+        },
+        {
+          "w": "the",
+          "start": 59.362,
+          "end": 59.508
+        },
+        {
+          "w": "ground.",
+          "start": 59.508,
+          "end": 60.018
+        },
+        {
+          "w": "So",
+          "start": 60.018,
+          "end": 60.31
+        },
+        {
+          "w": "people",
+          "start": 60.31,
+          "end": 60.82
+        },
+        {
+          "w": "traded",
+          "start": 60.82,
+          "end": 61.404
+        },
+        {
+          "w": "something",
+          "start": 61.404,
+          "end": 61.914
+        },
+        {
+          "w": "else:",
+          "start": 61.914,
+          "end": 62.206
+        },
+        {
+          "w": "paper",
+          "start": 62.206,
+          "end": 62.644
+        },
+        {
+          "w": "promises.",
+          "start": 62.644,
+          "end": 63.3
+        }
+      ]
+    },
+    {
+      "beat": "s11",
+      "speaker": "narrator",
+      "text": "The Dutch called it the wind trade: deals made in taverns, for flowers nobody could see.",
+      "gap": 0.55,
+      "start": 63.92,
+      "end": 69.76,
+      "words": [
+        {
+          "w": "The",
+          "start": 63.96,
+          "end": 64.096
+        },
+        {
+          "w": "Dutch",
+          "start": 64.096,
+          "end": 64.437
+        },
+        {
+          "w": "called",
+          "start": 64.437,
+          "end": 64.847
+        },
+        {
+          "w": "it",
+          "start": 64.847,
+          "end": 64.983
+        },
+        {
+          "w": "the",
+          "start": 64.983,
+          "end": 65.12
+        },
+        {
+          "w": "wind",
+          "start": 65.12,
+          "end": 65.461
+        },
+        {
+          "w": "trade:",
+          "start": 65.461,
+          "end": 65.87
+        },
+        {
+          "w": "deals",
+          "start": 66.23,
+          "end": 66.621
+        },
+        {
+          "w": "made",
+          "start": 66.621,
+          "end": 66.948
+        },
+        {
+          "w": "in",
+          "start": 66.948,
+          "end": 67.143
+        },
+        {
+          "w": "taverns,",
+          "start": 67.143,
+          "end": 67.6
+        },
+        {
+          "w": "for",
+          "start": 67.9,
+          "end": 68.104
+        },
+        {
+          "w": "flowers",
+          "start": 68.104,
+          "end": 68.581
+        },
+        {
+          "w": "nobody",
+          "start": 68.581,
+          "end": 69.125
+        },
+        {
+          "w": "could",
+          "start": 69.125,
+          "end": 69.398
+        },
+        {
+          "w": "see.",
+          "start": 69.398,
+          "end": 69.67
+        }
+      ]
+    },
+    {
+      "beat": "s12",
+      "speaker": "narrator",
+      "text": "Prices climbed week after week, because every buyer hoped to sell to someone who would pay even more. Then, in February sixteen thirty seven, everything stopped.",
+      "gap": 0.55,
+      "start": 70.31,
+      "end": 80.72,
+      "words": [
+        {
+          "w": "Prices",
+          "start": 70.34,
+          "end": 70.82
+        },
+        {
+          "w": "climbed",
+          "start": 70.82,
+          "end": 71.24
+        },
+        {
+          "w": "week",
+          "start": 71.24,
+          "end": 71.54
+        },
+        {
+          "w": "after",
+          "start": 71.54,
+          "end": 71.84
+        },
+        {
+          "w": "week,",
+          "start": 71.84,
+          "end": 72.14
+        },
+        {
+          "w": "because",
+          "start": 72.52,
+          "end": 72.882
+        },
+        {
+          "w": "every",
+          "start": 72.882,
+          "end": 73.184
+        },
+        {
+          "w": "buyer",
+          "start": 73.184,
+          "end": 73.485
+        },
+        {
+          "w": "hoped",
+          "start": 73.485,
+          "end": 73.847
+        },
+        {
+          "w": "to",
+          "start": 73.847,
+          "end": 74.028
+        },
+        {
+          "w": "sell",
+          "start": 74.028,
+          "end": 74.27
+        },
+        {
+          "w": "to",
+          "start": 74.27,
+          "end": 74.45
+        },
+        {
+          "w": "someone",
+          "start": 74.45,
+          "end": 74.873
+        },
+        {
+          "w": "who",
+          "start": 74.873,
+          "end": 75.114
+        },
+        {
+          "w": "would",
+          "start": 75.114,
+          "end": 75.355
+        },
+        {
+          "w": "pay",
+          "start": 75.355,
+          "end": 75.597
+        },
+        {
+          "w": "even",
+          "start": 75.597,
+          "end": 75.959
+        },
+        {
+          "w": "more.",
+          "start": 75.959,
+          "end": 76.2
+        },
+        {
+          "w": "Then,",
+          "start": 76.77,
+          "end": 77.16
+        },
+        {
+          "w": "in",
+          "start": 77.37,
+          "end": 77.535
+        },
+        {
+          "w": "February",
+          "start": 77.535,
+          "end": 78.085
+        },
+        {
+          "w": "sixteen",
+          "start": 78.085,
+          "end": 78.58
+        },
+        {
+          "w": "thirty",
+          "start": 78.58,
+          "end": 78.91
+        },
+        {
+          "w": "seven,",
+          "start": 78.91,
+          "end": 79.24
+        },
+        {
+          "w": "everything",
+          "start": 79.54,
+          "end": 80.194
+        },
+        {
+          "w": "stopped.",
+          "start": 80.194,
+          "end": 80.63
+        }
+      ]
+    },
+    {
+      "beat": "s13",
+      "speaker": "narrator",
+      "text": "At a bulb sale in Haarlem, the buyers simply did not show up.",
+      "gap": 0.55,
+      "start": 81.27,
+      "end": 85.32,
+      "words": [
+        {
+          "w": "At",
+          "start": 81.31,
+          "end": 81.44
+        },
+        {
+          "w": "a",
+          "start": 81.44,
+          "end": 81.636
+        },
+        {
+          "w": "bulb",
+          "start": 81.636,
+          "end": 81.962
+        },
+        {
+          "w": "sale",
+          "start": 81.962,
+          "end": 82.288
+        },
+        {
+          "w": "in",
+          "start": 82.288,
+          "end": 82.484
+        },
+        {
+          "w": "Haarlem,",
+          "start": 82.484,
+          "end": 82.94
+        },
+        {
+          "w": "the",
+          "start": 83.26,
+          "end": 83.392
+        },
+        {
+          "w": "buyers",
+          "start": 83.392,
+          "end": 83.788
+        },
+        {
+          "w": "simply",
+          "start": 83.788,
+          "end": 84.25
+        },
+        {
+          "w": "did",
+          "start": 84.25,
+          "end": 84.514
+        },
+        {
+          "w": "not",
+          "start": 84.514,
+          "end": 84.778
+        },
+        {
+          "w": "show",
+          "start": 84.778,
+          "end": 85.042
+        },
+        {
+          "w": "up.",
+          "start": 85.042,
+          "end": 85.24
+        }
+      ]
+    },
+    {
+      "beat": "s14",
+      "speaker": "narrator",
+      "text": "Within days, the bulbs had lost most of their value.",
+      "gap": 0.55,
+      "start": 85.87,
+      "end": 89.41,
+      "words": [
+        {
+          "w": "Within",
+          "start": 85.89,
+          "end": 86.348
+        },
+        {
+          "w": "days,",
+          "start": 86.348,
+          "end": 86.73
+        },
+        {
+          "w": "the",
+          "start": 87.04,
+          "end": 87.171
+        },
+        {
+          "w": "bulbs",
+          "start": 87.171,
+          "end": 87.563
+        },
+        {
+          "w": "had",
+          "start": 87.563,
+          "end": 87.825
+        },
+        {
+          "w": "lost",
+          "start": 87.825,
+          "end": 88.152
+        },
+        {
+          "w": "most",
+          "start": 88.152,
+          "end": 88.545
+        },
+        {
+          "w": "of",
+          "start": 88.545,
+          "end": 88.676
+        },
+        {
+          "w": "their",
+          "start": 88.676,
+          "end": 88.872
+        },
+        {
+          "w": "value.",
+          "start": 88.872,
+          "end": 89.33
+        }
+      ]
+    },
+    {
+      "beat": "s15",
+      "speaker": "narrator",
+      "text": "Buyers were left with contracts they did not want to pay, for flowers nobody wanted any more.",
+      "gap": 0.55,
+      "start": 89.96,
+      "end": 96.04,
+      "words": [
+        {
+          "w": "Buyers",
+          "start": 90.0,
+          "end": 90.431
+        },
+        {
+          "w": "were",
+          "start": 90.431,
+          "end": 90.646
+        },
+        {
+          "w": "left",
+          "start": 90.646,
+          "end": 91.005
+        },
+        {
+          "w": "with",
+          "start": 91.005,
+          "end": 91.221
+        },
+        {
+          "w": "contracts",
+          "start": 91.221,
+          "end": 91.939
+        },
+        {
+          "w": "they",
+          "start": 91.939,
+          "end": 92.154
+        },
+        {
+          "w": "did",
+          "start": 92.154,
+          "end": 92.441
+        },
+        {
+          "w": "not",
+          "start": 92.441,
+          "end": 92.729
+        },
+        {
+          "w": "want",
+          "start": 92.729,
+          "end": 93.088
+        },
+        {
+          "w": "to",
+          "start": 93.088,
+          "end": 93.303
+        },
+        {
+          "w": "pay,",
+          "start": 93.303,
+          "end": 93.59
+        },
+        {
+          "w": "for",
+          "start": 93.59,
+          "end": 93.806
+        },
+        {
+          "w": "flowers",
+          "start": 93.806,
+          "end": 94.308
+        },
+        {
+          "w": "nobody",
+          "start": 94.308,
+          "end": 94.883
+        },
+        {
+          "w": "wanted",
+          "start": 94.883,
+          "end": 95.386
+        },
+        {
+          "w": "any",
+          "start": 95.386,
+          "end": 95.673
+        },
+        {
+          "w": "more.",
+          "start": 95.673,
+          "end": 95.96
+        }
+      ]
+    },
+    {
+      "beat": "s16",
+      "speaker": "narrator",
+      "text": "Two hundred years later, a famous book told it as a story of national madness.",
+      "gap": 0.55,
+      "start": 96.59,
+      "end": 102.13,
+      "words": [
+        {
+          "w": "Two",
+          "start": 96.61,
+          "end": 96.904
+        },
+        {
+          "w": "hundred",
+          "start": 96.904,
+          "end": 97.491
+        },
+        {
+          "w": "years",
+          "start": 97.491,
+          "end": 97.857
+        },
+        {
+          "w": "later,",
+          "start": 97.857,
+          "end": 98.298
+        },
+        {
+          "w": "a",
+          "start": 98.298,
+          "end": 98.518
+        },
+        {
+          "w": "famous",
+          "start": 98.518,
+          "end": 99.031
+        },
+        {
+          "w": "book",
+          "start": 99.031,
+          "end": 99.325
+        },
+        {
+          "w": "told",
+          "start": 99.325,
+          "end": 99.765
+        },
+        {
+          "w": "it",
+          "start": 99.765,
+          "end": 99.912
+        },
+        {
+          "w": "as",
+          "start": 99.912,
+          "end": 100.059
+        },
+        {
+          "w": "a",
+          "start": 100.059,
+          "end": 100.279
+        },
+        {
+          "w": "story",
+          "start": 100.279,
+          "end": 100.793
+        },
+        {
+          "w": "of",
+          "start": 100.793,
+          "end": 100.939
+        },
+        {
+          "w": "national",
+          "start": 100.939,
+          "end": 101.526
+        },
+        {
+          "w": "madness.",
+          "start": 101.526,
+          "end": 102.04
+        }
+      ]
+    },
+    {
+      "beat": "s17",
+      "speaker": "narrator",
+      "text": "But modern historians found that the story was exaggerated. Few people were truly ruined, and the Dutch economy kept growing.",
+      "gap": 0.55,
+      "start": 102.68,
+      "end": 111.33,
+      "words": [
+        {
+          "w": "But",
+          "start": 102.71,
+          "end": 103.0
+        },
+        {
+          "w": "modern",
+          "start": 103.0,
+          "end": 103.435
+        },
+        {
+          "w": "historians",
+          "start": 103.435,
+          "end": 104.304
+        },
+        {
+          "w": "found",
+          "start": 104.304,
+          "end": 104.739
+        },
+        {
+          "w": "that",
+          "start": 104.739,
+          "end": 105.029
+        },
+        {
+          "w": "the",
+          "start": 105.029,
+          "end": 105.174
+        },
+        {
+          "w": "story",
+          "start": 105.174,
+          "end": 105.681
+        },
+        {
+          "w": "was",
+          "start": 105.681,
+          "end": 105.898
+        },
+        {
+          "w": "exaggerated.",
+          "start": 105.898,
+          "end": 106.985
+        },
+        {
+          "w": "Few",
+          "start": 106.985,
+          "end": 107.347
+        },
+        {
+          "w": "people",
+          "start": 107.347,
+          "end": 107.854
+        },
+        {
+          "w": "were",
+          "start": 107.854,
+          "end": 108.072
+        },
+        {
+          "w": "truly",
+          "start": 108.072,
+          "end": 108.579
+        },
+        {
+          "w": "ruined,",
+          "start": 108.579,
+          "end": 109.086
+        },
+        {
+          "w": "and",
+          "start": 109.086,
+          "end": 109.304
+        },
+        {
+          "w": "the",
+          "start": 109.304,
+          "end": 109.449
+        },
+        {
+          "w": "Dutch",
+          "start": 109.449,
+          "end": 109.811
+        },
+        {
+          "w": "economy",
+          "start": 109.811,
+          "end": 110.391
+        },
+        {
+          "w": "kept",
+          "start": 110.391,
+          "end": 110.753
+        },
+        {
+          "w": "growing.",
+          "start": 110.753,
+          "end": 111.26
+        }
+      ]
+    },
+    {
+      "beat": "s18",
+      "speaker": "narrator",
+      "text": "So remember: the price was ten thousand guilders. The value was one flower.",
+      "gap": 0.55,
+      "start": 111.88,
+      "end": 117.06,
+      "words": [
+        {
+          "w": "So",
+          "start": 111.92,
+          "end": 112.197
+        },
+        {
+          "w": "remember:",
+          "start": 112.197,
+          "end": 112.75
+        },
+        {
+          "w": "the",
+          "start": 112.99,
+          "end": 113.119
+        },
+        {
+          "w": "price",
+          "start": 113.119,
+          "end": 113.505
+        },
+        {
+          "w": "was",
+          "start": 113.505,
+          "end": 113.698
+        },
+        {
+          "w": "ten",
+          "start": 113.698,
+          "end": 113.955
+        },
+        {
+          "w": "thousand",
+          "start": 113.955,
+          "end": 114.47
+        },
+        {
+          "w": "guilders.",
+          "start": 114.47,
+          "end": 114.92
+        },
+        {
+          "w": "The",
+          "start": 115.3,
+          "end": 115.453
+        },
+        {
+          "w": "value",
+          "start": 115.453,
+          "end": 115.987
+        },
+        {
+          "w": "was",
+          "start": 115.987,
+          "end": 116.216
+        },
+        {
+          "w": "one",
+          "start": 116.216,
+          "end": 116.522
+        },
+        {
+          "w": "flower.",
+          "start": 116.522,
+          "end": 116.98
+        }
+      ]
+    },
+    {
+      "beat": "s19",
+      "speaker": "narrator",
+      "text": "Every bubble starts with a beautiful story. And it usually ends the same way.",
+      "gap": 0.55,
+      "start": 117.61,
+      "end": 122.77,
+      "words": [
+        {
+          "w": "Every",
+          "start": 117.63,
+          "end": 117.946
+        },
+        {
+          "w": "bubble",
+          "start": 117.946,
+          "end": 118.325
+        },
+        {
+          "w": "starts",
+          "start": 118.325,
+          "end": 118.767
+        },
+        {
+          "w": "with",
+          "start": 118.767,
+          "end": 118.957
+        },
+        {
+          "w": "a",
+          "start": 118.957,
+          "end": 119.146
+        },
+        {
+          "w": "beautiful",
+          "start": 119.146,
+          "end": 119.778
+        },
+        {
+          "w": "story.",
+          "start": 119.778,
+          "end": 120.22
+        },
+        {
+          "w": "And",
+          "start": 120.64,
+          "end": 120.839
+        },
+        {
+          "w": "it",
+          "start": 120.839,
+          "end": 120.972
+        },
+        {
+          "w": "usually",
+          "start": 120.972,
+          "end": 121.637
+        },
+        {
+          "w": "ends",
+          "start": 121.637,
+          "end": 121.969
+        },
+        {
+          "w": "the",
+          "start": 121.969,
+          "end": 122.102
+        },
+        {
+          "w": "same",
+          "start": 122.102,
+          "end": 122.434
+        },
+        {
+          "w": "way.",
+          "start": 122.434,
+          "end": 122.7
+        }
+      ]
+    }
+  ],
+  "voiceStatus": "kokoro:cast"
+}

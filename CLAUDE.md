@@ -10,6 +10,7 @@ right skill is picked automatically from the request:
 | "vox style / documentary / explainer short" | `/make-vox` | layered paper-collage (AI images + cutouts) | `vox-shorts/vox-N-<topic>/` |
 | "cartoon / character series / new Bro episode" | `/make-toon` | 100% TSX 2D cartoon rig (LOCKED recurring cast, dialogue) | `toon-shorts/<series>/ep-NN-<slug>/` |
 | "kids video / for children / nursery / Tiny Sparks" | `/make-kids` → niche skill (`kids-stories`, `kids-numbers`, `kids-words`, `kids-animals`, `kids-science`, `kids-puzzles`, `kids-morals`, `kids-songs`) | 100% TSX kids kit, 3D-shaded (chibi `Kid` + `Critter` animals as soft vinyl-toy volumes, LOCKED Tiny Sparks cast), Shorts AND 16:9 long | `kids-shorts/tiny-sparks/<niche>/ep-NN-<slug>/` |
+| "paper / crayon / drawn documentary", "a video like Paper Billions / Crayon Capital" | `/make-paperdoc` (`python tools/paperdoc.py paper-docs/<slug>`) | 100% TSX: crayon-drawn characters (rough.js) + automatic paper montage, from ONE doc.json | `paper-docs/<slug>/` |
 | "just create a video of a day", "next video", "video of the day" | `/video-of-the-day` (runs `python tools/next_video.py` for the next topic from `TINY-SPARKS-CALENDAR.xlsx`, then the niche skill, then `--done`) | — | — |
 
 All of them share the same backbone: a `beats.json` contract, ElevenLabs voice with word-exact

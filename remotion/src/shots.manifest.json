@@ -1128,6 +1128,22 @@
   "transparent": false
  },
  {
+  "id": "PaperDocDoodleSheet",
+  "durationInSeconds": 4,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
+  "id": "PaperDocTulips",
+  "durationInSeconds": 125.4,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "transparent": false
+ },
+ {
   "id": "Short1Chess",
   "durationInSeconds": 42,
   "fps": 30,
